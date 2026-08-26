@@ -63,5 +63,9 @@ sysinfo.txt
 *.tar
 *.zip
 
+# Modelos de IA (grandes)
+*.gguf
+*.bin
+
 # Backups
 *~
