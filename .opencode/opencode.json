@@ -1,0 +1,42 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "blender-mcp": {
+      "type": "local",
+      "command": ["uvx", "blender-mcp"],
+      "enabled": true,
+      "environment": {
+        "BLENDER_HOST": "localhost",
+        "BLENDER_PORT": "9876"
+      }
+    },
+    "unity-mcp": {
+      "type": "local",
+      "command": ["uvx", "unity-mcp"],
+      "enabled": false
+    },
+    "threlte-mcp": {
+      "type": "local",
+      "command": ["npx", "-y", "threlte-mcp"],
+      "enabled": true
+    },
+    "playcanvas-mcp": {
+      "type": "local",
+      "command": ["npx", "-y", "@playcanvas/editor-mcp-server"],
+      "enabled": true
+    },
+    "godot-mcp": {
+      "type": "local",
+      "command": ["npx", "-y", "godot-cli"],
+      "enabled": false
+    },
+    "butterstack-mcp": {
+      "type": "local",
+      "command": ["npx", "-y", "butterstack-mcp"],
+      "enabled": false,
+      "environment": {
+        "BUTTERSTACK_API_TOKEN": ""
+      }
+    }
+  }
+}

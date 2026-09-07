@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+[hidden] { display: none !important; }
+:focus-visible { outline: 2px solid #2dd4bf; outline-offset: 2px; }
+
+/* Bolhas de chat */
+.bub { max-width: 85%; padding: 0.5rem 0.75rem; border-radius: 1rem; font-size: 0.9rem;
+       line-height: 1.35; white-space: pre-wrap; word-break: break-word; }
+.bub-farm { align-self: flex-end; background: #0D9488; color: #ecfeff; border-bottom-right-radius: 0.25rem; }
+.bub-pac  { align-self: flex-start; background: #f8fafc; color: #1f2937; border-bottom-left-radius: 0.25rem; }
+.bub-sys  { align-self: center; font-size: 0.72rem; color: #94a3b8; font-style: italic; text-align: center; max-width: 100%; }
+.bub-red  { outline: 2px solid #f59e0b; outline-offset: 1px; }
+
+/* Indicador "digitando" */
+@keyframes pulse-dot { 0%,80%,100%{opacity:.2} 40%{opacity:1} }
+.dot { width:6px; height:6px; border-radius:9999px; background:#5eead4; display:inline-block; animation:pulse-dot 1.2s infinite; }
+.dot:nth-child(2){animation-delay:.2s} .dot:nth-child(3){animation-delay:.4s}
+
+/* Botões/inputs reutilizáveis */
+.btn-primary { background:#0d9488; color:#ecfeff; font-weight:600; border-radius:0.75rem; padding:0.55rem 1.1rem; }
+.btn-primary:hover:not(:disabled) { background:#0f766e; }
+.btn-primary:disabled { opacity:.4; cursor:not-allowed; }
+.btn-ghost { background:rgba(30,41,59,.8); color:#e2e8f0; border:1px solid rgba(255,255,255,.12);
+             border-radius:0.6rem; padding:0.45rem 0.8rem; }
+.btn-ghost:hover { background:rgba(51,65,85,.9); }
+.input { background:#0f172a; border:1px solid rgba(255,255,255,.12); border-radius:0.6rem;
+         padding:0.45rem 0.7rem; color:#e2e8f0; width:100%; }
+.input:focus { outline:2px solid #2dd4bf; }
+
+/* Painel de decisão */
+.conduta { display:block; width:100%; text-align:left; padding:0.6rem 0.9rem; border-radius:0.75rem;
+           border:1px solid rgba(255,255,255,.12); background:rgba(30,41,59,.8); }
+.conduta[aria-pressed="true"] { border-color:#14b8a6; background:rgba(13,148,136,.25); }
+.check-row { display:flex; gap:0.5rem; align-items:flex-start; padding:0.4rem 0.6rem;
+             border-radius:0.6rem; background:rgba(30,41,59,.6); cursor:pointer; }
+.check-row input { margin-top:0.2rem; accent-color:#14b8a6; }
+
+/* Barras de pontuação */
+.scorebar { display:grid; grid-template-columns:150px 1fr 40px; gap:8px; align-items:center; font-size:12px; color:#94a3b8; }
+.scorebar .fill { height:8px; border-radius:999px; background:#1e293b; overflow:hidden; }
+.scorebar .fill > i { display:block; height:100%; background:#14b8a6; }
+
+.vignette { position:absolute; inset:0; box-shadow:inset 0 0 180px rgba(2,6,23,.55); }
+
+/* Seleção de fase no menu */
+.phase-card { display:flex; align-items:center; gap:0.75rem; text-align:left; width:100%;
+              padding:0.7rem 1rem; border-radius:0.9rem; border:1px solid rgba(255,255,255,.12);
+              background:rgba(30,41,59,.7); cursor:pointer; transition:all .15s ease; }
+.phase-card:hover { border-color:rgba(45,212,191,.5); background:rgba(13,148,136,.15); }
+.phase-card[aria-pressed="true"] { border-color:#14b8a6; background:rgba(13,148,136,.28); }
+.phase-card .ph-num { font-family:var(--font-display); font-weight:900; font-size:1.1rem; color:#5eead4;
+                      width:2.1rem; height:2.1rem; display:grid; place-items:center; border-radius:0.6rem;
+                      background:rgba(13,148,136,.25); border:1px solid rgba(94,234,212,.3); flex-shrink:0; }
+.phase-card .ph-info b { display:block; font-size:0.92rem; }
+.phase-card .ph-info small { color:#94a3b8; font-size:0.72rem; }
+.phase-card.locked { opacity:.45; }
+.phase-card.locked .ph-num { background:rgba(100,116,139,.2); color:#94a3b8; }
+
+/* Estrelas */
+.star { color:#64748b; }
+.star.on { color:#fbbf24; text-shadow:0 0 12px rgba(251,191,36,.5); }
+
+/* Scroll do chat */
+#chat-log::-webkit-scrollbar { width:8px; }
+#chat-log::-webkit-scrollbar-thumb { background:#334155; border-radius:999px; }
+
+@keyframes pop-in { from { transform:scale(.92); opacity:0 } to { transform:scale(1); opacity:1 } }
+.pop-in { animation:pop-in .22s ease-out; }
+
+@media (prefers-reduced-motion: reduce) { .dot, .pop-in { animation:none; } }
+
+/* Exportar relatório (imprimir/PDF) */
+@media print {
+  body > *:not(#ui) { display:none !important; }
+  #ui > *:not(#debrief) { display:none !important; }
+  #debrief { position:static; overflow:visible; background:#fff !important; }
+  #debrief-card { margin:0; max-width:none; background:#fff !important; box-shadow:none; }
+  #debrief-card, #debrief-card * { color:#111827 !important; }
+  .no-print { display:none !important; }
+}

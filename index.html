@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FarmaCheck — O Desafio da Anamnese</title>
+  <meta name="description" content="Simulador educacional de atendimento farmacêutico. Conteúdo fictício, fins didáticos." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+<body class="h-screen w-screen overflow-hidden bg-slate-950 text-slate-100 font-body">
+  <noscript><p class="p-8">Este jogo requer JavaScript habilitado.</p></noscript>
+
+  <!-- Cenário 3D (fundo) -->
+  <canvas id="scene3d" class="fixed inset-0 h-full w-full" aria-hidden="true"></canvas>
+
+  <!-- Camada de UI (primeiro plano) -->
+  <div id="ui" class="fixed inset-0 pointer-events-none">
+    <div class="vignette"></div>
+
+    <!-- HUD -->
+    <header id="hud" class="absolute top-0 inset-x-0 flex items-center justify-between gap-3 px-4 py-2
+                           bg-slate-900/70 backdrop-blur border-b border-white/10 pointer-events-auto">
+      <h1 class="font-display font-bold tracking-wide text-sm sm:text-base">
+        FarmaCheck <span class="text-teal-300 font-normal">· O Desafio da Anamnese</span>
+      </h1>
+      <div class="flex items-center gap-3 text-sm">
+        <span id="hud-paciente" class="text-slate-300 hidden sm:inline">Expediente encerrado…</span>
+        <span id="hud-fase" class="px-2 py-0.5 rounded-full bg-teal-900/70 text-teal-200 border border-teal-400/30 text-xs">—</span>
+        <span id="hud-score" class="text-slate-400 text-xs">Pontos 0</span>
+        <button id="btn-tts" aria-pressed="true" title="Narrar falas em voz alta" class="btn-ghost text-xs">Narrar</button>
+      </div>
+    </header>
+
+    <!-- Chat (anamnese) -->
+    <section id="chat" class="absolute right-0 top-10 bottom-0 w-full sm:w-[400px] flex flex-col
+                              bg-slate-900/60 backdrop-blur-md border-l border-white/10 pointer-events-auto">
+      <div class="flex items-center gap-3 px-4 py-3 border-b border-white/10">
+        <div id="chat-avatar" class="w-9 h-9 rounded-full bg-teal-700 grid place-items-center font-bold shrink-0">?</div>
+        <div class="leading-tight min-w-0">
+          <div id="chat-nome" class="font-semibold truncate">Aguardando cliente…</div>
+          <div id="chat-status" class="text-xs text-teal-300 hidden">
+            <span class="inline-flex gap-1 align-middle"><i class="dot"></i><i class="dot"></i><i class="dot"></i></span>
+            digitando…
+          </div>
+        </div>
+        <div id="chat-contador" class="ml-auto text-xs text-slate-500 shrink-0">0/30</div>
+      </div>
+
+      <div id="chat-log" role="log" aria-live="polite" aria-label="Conversa com o cliente"
+           class="flex-1 overflow-y-auto px-4 py-3 flex flex-col gap-2 scroll-smooth"></div>
+
+      <div id="chat-chips" class="flex flex-wrap gap-1.5 px-3 pb-1"></div>
+
+      <button id="btn-decisao" hidden
+              class="mx-3 mb-1 text-xs text-teal-300 hover:text-teal-200 border border-teal-400/30 rounded-lg px-3 py-1.5">
+        Encerrar anamnese e decidir a conduta →
+      </button>
+
+      <form id="chat-form" class="p-3 border-t border-white/10 flex gap-2 items-end">
+        <button type="button" id="btn-mic" aria-pressed="false" title="Ditar (Ctrl+M)" class="btn-ghost shrink-0">Mic</button>
+        <textarea id="chat-input" rows="1" maxlength="500" placeholder="Faça a próxima pergunta…"
+                  class="input flex-1 resize-none h-10"></textarea>
+        <button type="submit" id="btn-send" class="btn-primary shrink-0">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Painel de decisão clínica -->
+    <section id="decision" hidden class="absolute left-0 top-10 bottom-0 w-full sm:w-[380px] flex flex-col
+                                         bg-slate-900/70 backdrop-blur-md border-r border-white/10 pointer-events-auto">
+      <div class="px-4 py-3 border-b border-white/10 flex items-center justify-between">
+        <h2 tabindex="-1" class="font-semibold">Decisão clínica</h2>
+        <button id="btn-voltar" class="text-xs text-teal-300 hover:underline">← voltar à anamnese</button>
+      </div>
+      <div class="flex-1 overflow-y-auto p-4 space-y-5">
+        <fieldset>
+          <legend class="text-xs uppercase tracking-wide text-slate-400 mb-2">1 · Sinais de alerta (só o que você investigou)</legend>
+          <div id="redflag-list" class="space-y-1.5 text-sm"></div>
+        </fieldset>
+        <fieldset>
+          <legend class="text-xs uppercase tracking-wide text-slate-400 mb-2">2 · Conduta</legend>
+          <div id="conduta-cards" class="grid gap-2">
+            <button type="button" data-conduta="vender"    aria-pressed="false" class="conduta"><b>Vender o pedido</b><br><span class="text-xs text-slate-400">entregar o que o cliente pediu</span></button>
+            <button type="button" data-conduta="sugerir"   aria-pressed="false" class="conduta"><b>Sugerir outro MIP</b><br><span class="text-xs text-slate-400">medicamento isento de prescrição + orientações</span></button>
+            <button type="button" data-conduta="encaminhar" aria-pressed="false" class="conduta"><b>Encaminhar à urgência</b><br><span class="text-xs text-slate-400">SAMU 192 / pronto-socorro</span></button>
+          </div>
+          <div id="mip-box" hidden class="mt-3">
+            <div class="text-xs uppercase tracking-wide text-slate-400 mb-1">Prateleira — MIPs</div>
+            <div id="mip-list" class="space-y-1.5 text-sm"></div>
+            <div class="text-xs uppercase tracking-wide text-slate-400 mb-1 mt-3">Orientações não farmacológicas</div>
+            <div id="orient-list" class="space-y-1.5 text-sm"></div>
+          </div>
+        </fieldset>
+        <button id="btn-confirmar" disabled class="btn-primary w-full py-3">Confirmar conduta</button>
+      </div>
+    </section>
+
+    <!-- Tela inicial -->
+    <div id="menu" class="absolute inset-0 grid place-items-center bg-slate-950/80 backdrop-blur pointer-events-auto overflow-y-auto">
+      <div class="max-w-2xl w-full m-4 p-8 rounded-2xl bg-slate-900/90 border border-white/10 shadow-2xl">
+        <p class="text-teal-300 text-xs uppercase tracking-widest mb-1">Simulador de atendimento farmacêutico</p>
+        <h2 class="text-4xl font-black mb-3 font-display">FarmaCheck</h2>
+        <p class="text-slate-300 text-sm leading-relaxed mb-3">
+          Você é a farmacêutica do balcão. Clientes vão chegar pedindo remédios — alguns inofensivos,
+          outros <b class="text-amber-300">capazes de agravar uma condição grave e oculta</b>.
+          Investigue por anamnese antes de decidir: vender, orientar ou encaminhar.
+        </p>
+        <p class="text-xs text-slate-500 mb-5 border-l-2 border-teal-500/40 pl-3">
+          Ambiente 100% fictício e educacional. Condutas, marcas e desfechos são ilustrativos —
+          não substituem avaliação farmacêutica/médica nem bula.
+        </p>
+
+        <div id="phase-select" class="grid gap-2 mb-4"></div>
+
+        <details class="mb-5">
+          <summary class="cursor-pointer text-sm text-teal-300">Servidor de IA (llama.cpp · Qwen3.5-9B)</summary>
+          <div class="mt-3 space-y-2 text-sm">
+            <label class="block">Endpoint <input id="cfg-endpoint" class="input" placeholder="http://127.0.0.1:8081/v1" /></label>
+            <label class="block">Modelo <input id="cfg-model" class="input" placeholder="Qwen3.5-9B-Q8_0" /></label>
+            <div class="flex gap-2 items-center pt-1">
+              <button id="btn-testar" class="btn-ghost">Testar conexão</button>
+              <span id="cfg-status" class="text-xs text-slate-400"></span>
+            </div>
+          </div>
+        </details>
+
+        <button id="btn-iniciar" class="btn-primary w-full py-3 text-base">Iniciar expediente</button>
+        <p class="text-xs text-slate-500 mt-4">Enter envia · Shift+Enter quebra linha · Ctrl+M dita · R repete a última fala · Tab navega</p>
+      </div>
+    </div>
+
+    <!-- Debriefing / relatório -->
+    <div id="debrief" hidden class="absolute inset-0 overflow-y-auto bg-slate-950/90 backdrop-blur pointer-events-auto">
+      <article id="debrief-card" class="mx-auto max-w-2xl my-8 p-6 rounded-2xl bg-slate-900 border border-white/10 shadow-2xl">
+        <div id="debrief-stars" class="text-3xl mb-2" aria-label="Estrelas conquistadas"></div>
+        <span id="debrief-tag" class="inline-block px-3 py-1 rounded-full text-xs font-semibold mb-3">—</span>
+        <h2 id="debrief-titulo" tabindex="-1" class="text-2xl font-bold mb-2 font-display"></h2>
+        <p id="debrief-texto" class="text-slate-300 leading-relaxed mb-5"></p>
+        <div id="debrief-pontos" class="text-4xl font-black mb-4 font-display"></div>
+        <div id="debrief-breakdown" class="space-y-2 mb-5"></div>
+        <ul id="debrief-detalhes" class="text-sm space-y-1.5 mb-5"></ul>
+        <div id="debrief-preceptor" hidden class="border-t border-white/10 pt-4 text-sm text-slate-300 italic leading-relaxed"></div>
+        <p id="debrief-stamp" class="text-[10px] text-slate-500 mt-4"></p>
+        <div class="flex flex-wrap gap-3 mt-6 no-print">
+          <button id="btn-proximo"  class="btn-primary">Próximo cliente</button>
+          <button id="btn-repetir"  class="btn-ghost">Repetir este caso</button>
+          <button id="btn-exportar" class="btn-ghost">Exportar relatório</button>
+          <button id="btn-fases"   class="btn-ghost">Fases</button>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
