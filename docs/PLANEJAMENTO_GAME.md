@@ -150,11 +150,11 @@ Nota 0–100 determinística no motor (erro crítico → cap 50).
 ## 10. Pendências / Notas
 
 - ~~Chave NVIDIA (`NVIDIA_API_KEY`) para subagentes Nemotron~~ **RESOLVIDO (08/09/2026):**
-  subagentes **grátis** configurados em `.opencode/opencode.json` via **opencode Zen**
-  (tier `*-free`): `operario` (braçal: build/testes/lote assets, bash+edit),
-  `explorador` (varredura read-only), `revisor` (code review, nemotron-3-ultra-free).
-  Testados: `nemotron-3.5-lightning-free` e `nemotron-3-ultra-free` respondem com custo
-  zero. `small_model` também grátis. Chave NVIDIA do provider global segue válida
-  como plano B (modelos 550B/DeepSeek). Skill: `opencode_subagentes_gratis`.
+  subagentes **grátis** configurados em `.opencode/opencode.json`. Confirmado pelo PO:
+  a chave NVIDIA tem **custo zero, uso livre**. Agentes:
+  `operario` (braçal: build/testes/lote assets — `nemotron-3.5-lightning-free`),
+  `explorador` (varredura read-only — lightning-free), `revisor` e `arquiteto`
+  (raciocínio — **Nemotron 550B A55B**, custo zero, testado ✓).
+  `small_model` também grátis. Skill: `opencode_subagentes_gratis`.
 - Publicar porta do serviço llama-cpp (se container) ou rodar no host
 - Conteúdo clínico dos casos-base é rascunho — validar com a PO (Jhuly) antes de congelar

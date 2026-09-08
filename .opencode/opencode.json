@@ -86,10 +86,21 @@
       }
     },
     "revisor": {
-      "description": "Subagente revisor: code review, auditoria de contratos (GLB/poseMap, scoring, Fact Gate) e checagem docs × código. Read-only. Modelo grátis maior (ultra) para raciocínio.",
+      "description": "Subagente revisor: code review, auditoria de contratos (GLB/poseMap, scoring, Fact Gate) e checagem docs × código. Read-only. Nemotron 550B A55B via NVIDIA — CUSTO ZERO confirmado pelo PO (uso livre).",
       "mode": "subagent",
-      "model": "opencode/nemotron-3-ultra-free",
+      "model": "nvidia/nvidia/nemotron-3-ultra-550b-a55b",
       "temperature": 0.1,
+      "permission": {
+        "bash": "allow",
+        "edit": "deny",
+        "write": "deny"
+      }
+    },
+    "arquiteto": {
+      "description": "Subagente para raciocínio pesado: decisões técnicas, planejamento de pipeline, análise de trade-offs, debugging difícil. Nemotron 550B A55B via NVIDIA — CUSTO ZERO (chave confirmada pelo PO, uso livre).",
+      "mode": "subagent",
+      "model": "nvidia/nvidia/nemotron-3-ultra-550b-a55b",
+      "temperature": 0.3,
       "permission": {
         "bash": "allow",
         "edit": "deny",
