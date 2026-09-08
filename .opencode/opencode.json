@@ -3,7 +3,10 @@
   "mcp": {
     "blender-mcp": {
       "type": "local",
-      "command": ["uvx", "blender-mcp"],
+      "command": [
+        "uvx",
+        "blender-mcp"
+      ],
       "enabled": true,
       "environment": {
         "BLENDER_HOST": "localhost",
@@ -12,30 +15,85 @@
     },
     "unity-mcp": {
       "type": "local",
-      "command": ["uvx", "unity-mcp"],
+      "command": [
+        "uvx",
+        "unity-mcp"
+      ],
       "enabled": false
     },
     "threlte-mcp": {
       "type": "local",
-      "command": ["npx", "-y", "threlte-mcp"],
+      "command": [
+        "npx",
+        "-y",
+        "threlte-mcp"
+      ],
       "enabled": true
     },
     "playcanvas-mcp": {
       "type": "local",
-      "command": ["npx", "-y", "@playcanvas/editor-mcp-server"],
+      "command": [
+        "npx",
+        "-y",
+        "@playcanvas/editor-mcp-server"
+      ],
       "enabled": true
     },
     "godot-mcp": {
       "type": "local",
-      "command": ["npx", "-y", "godot-cli"],
+      "command": [
+        "npx",
+        "-y",
+        "godot-cli"
+      ],
       "enabled": false
     },
     "butterstack-mcp": {
       "type": "local",
-      "command": ["npx", "-y", "butterstack-mcp"],
+      "command": [
+        "npx",
+        "-y",
+        "butterstack-mcp"
+      ],
       "enabled": false,
       "environment": {
         "BUTTERSTACK_API_TOKEN": ""
+      }
+    }
+  },
+  "small_model": "opencode/nemotron-3.5-lightning-free",
+  "agent": {
+    "operario": {
+      "description": "Subagente para serviços braçais/pesados: build, smoke tests, lote de geração de assets 3D (Hunyuan/ComfyUI), git chores, validações repetitivas. RODA EM MODELO GRÁTIS para economizar tokens do agente principal.",
+      "mode": "subagent",
+      "model": "opencode/nemotron-3.5-lightning-free",
+      "temperature": 0.2,
+      "permission": {
+        "bash": "allow",
+        "edit": "allow",
+        "webfetch": "deny"
+      }
+    },
+    "explorador": {
+      "description": "Subagente somente-leitura para varredura de código, grep, inventário de arquivos e respostas sobre o codebase. RODA EM MODELO GRÁTIS.",
+      "mode": "subagent",
+      "model": "opencode/nemotron-3.5-lightning-free",
+      "temperature": 0.1,
+      "permission": {
+        "bash": "allow",
+        "edit": "deny",
+        "write": "deny"
+      }
+    },
+    "revisor": {
+      "description": "Subagente revisor: code review, auditoria de contratos (GLB/poseMap, scoring, Fact Gate) e checagem docs × código. Read-only. Modelo grátis maior (ultra) para raciocínio.",
+      "mode": "subagent",
+      "model": "opencode/nemotron-3-ultra-free",
+      "temperature": 0.1,
+      "permission": {
+        "bash": "allow",
+        "edit": "deny",
+        "write": "deny"
       }
     }
   }

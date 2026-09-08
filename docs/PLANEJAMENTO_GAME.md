@@ -135,16 +135,26 @@ Nota 0–100 determinística no motor (erro crítico → cap 50).
 
 ## 9. Infra LLM (llama.cpp na GPU)
 
-- GPU: **AMD Radeon RX 6700 XT (Navi 22, 12 GB)** · ROCm instalado
+- GPU: **AMD Radeon RX 6750 XT (Navi 22, 12 GB)** · ROCm 6.4.2 no container
 - Modelo: `/media/servidor/nvme_data/Ai/modelos/Qwen3.5-9B-Q8_0.gguf`
-- Container/serviço: `llama-server` (ROCm) exposto em `http://127.0.0.1:8080/v1`
-- ComfyUI (SDXL) continua no host na `:8188`; GPU ociosa, sem conflito
+- Container/serviço: `llama-server` (ROCm) exposto em `http://127.0.0.1:8081/v1`
+- **Config validada:** `HSA_OVERRIDE_GFX_VERSION=10.3.1` (arch gfx1031 do build; `10.3.0` crasha) ·
+  `-ngl 999` (todas as camadas na GPU) · `--cache-type-k/v q8_0` · `--flash-attn on` ·
+  `-np 1` (fila serial) · contexto 100k (KV excedente cai em RAM, sem crash)
+- Medido: prompt ~180 tok/s · geração ~36 tok/s (skill: `llama-cpp-rocm-gpu`)
+- ComfyUI (SDXL) continua no host na `:8188`; GPU compartilhada com o llama
 - `hermes-bot` já referencia `LLAMA_SERVER_URL=http://llama-cpp:8080` (design existente)
 
 ---
 
 ## 10. Pendências / Notas
 
-- Chave NVIDIA (`NVIDIA_API_KEY`) para subagentes Nemotron — a confirmar
+- ~~Chave NVIDIA (`NVIDIA_API_KEY`) para subagentes Nemotron~~ **RESOLVIDO (08/09/2026):**
+  subagentes **grátis** configurados em `.opencode/opencode.json` via **opencode Zen**
+  (tier `*-free`): `operario` (braçal: build/testes/lote assets, bash+edit),
+  `explorador` (varredura read-only), `revisor` (code review, nemotron-3-ultra-free).
+  Testados: `nemotron-3.5-lightning-free` e `nemotron-3-ultra-free` respondem com custo
+  zero. `small_model` também grátis. Chave NVIDIA do provider global segue válida
+  como plano B (modelos 550B/DeepSeek). Skill: `opencode_subagentes_gratis`.
 - Publicar porta do serviço llama-cpp (se container) ou rodar no host
 - Conteúdo clínico dos casos-base é rascunho — validar com a PO (Jhuly) antes de congelar
