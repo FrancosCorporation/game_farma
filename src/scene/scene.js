@@ -40,11 +40,13 @@ export function createScene(canvas) {
   const tickers = new Set();
   const clock = new THREE.Clock();
   const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // F2 — quando o controlador POV assume a câmera (zones/tween), o balanço idle é desligado.
+  const povControl = { owned: false };
 
   function frame() {
     const dt = Math.min(clock.getDelta(), 0.05);
     const t = clock.elapsedTime;
-    if (!reduceMotion) {
+    if (!povControl.owned && !reduceMotion) {
       camera.position.y = 1.62 + Math.sin(t * 1.1) * 0.008;
       camera.rotation.z = Math.sin(t * 0.7) * 0.0015;
     }
@@ -67,6 +69,7 @@ export function createScene(canvas) {
     camera,
     renderer,
     fx,
+    povControl,
     addTicker: (fn) => tickers.add(fn),
   };
 }

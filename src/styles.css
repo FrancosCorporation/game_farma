@@ -72,12 +72,112 @@
 
 @media (prefers-reduced-motion: reduce) { .dot, .pop-in { animation:none; } }
 
+/* ============ F0 — Capa (arte com botões pintados) ============ */
+.capa-backdrop { position:absolute; inset:0; display:grid; place-items:center; background:#020617; }
+.capa-stage { position:relative;
+              width:min(100vw, calc(100vh * (1376 / 768)));
+              aspect-ratio:1376 / 768;
+              background-color:#020617;
+              background-image:url('/capa/inicio_game.webp');
+              background-size:100% 100%; background-repeat:no-repeat; background-position:center; }
+.capa-hotspot { position:absolute; margin:0; padding:0; border:0; background:transparent;
+                cursor:pointer; border-radius:0.75rem;
+                transition:transform .15s ease, filter .15s ease; }
+.capa-hotspot:hover { transform:scale(1.02); filter:brightness(1.12); }
+.capa-hotspot:active { transform:scale(0.99); }
+.capa-hotspot:focus-visible { outline:2px solid #2dd4bf; outline-offset:2px; }
+.capa-hotspot-chip { border-radius:0.6rem; }
+
+/* ============ F0 — Modal de Referências ============ */
+.refs-panel { width:min(42rem, calc(100% - 2rem)); max-height:85vh; overflow-y:auto;
+              margin:1rem; padding:1.5rem 1.75rem; border-radius:1rem;
+              background:rgba(15,23,42,.95); border:1px solid rgba(255,255,255,.1);
+              box-shadow:0 25px 60px rgba(2,6,23,.7); }
+.refs-header { display:flex; align-items:center; justify-content:space-between; gap:1rem;
+               padding-bottom:0.9rem; margin-bottom:0.9rem; border-bottom:1px solid rgba(255,255,255,.1); }
+.refs-title { font-family:var(--font-display); font-weight:900; font-size:1.4rem; color:#5eead4; }
+.refs-section { margin-bottom:1.25rem; }
+.refs-section:last-child { margin-bottom:0; }
+.refs-section h3 { font-size:0.72rem; text-transform:uppercase; letter-spacing:0.08em;
+                   color:#94a3b8; margin-bottom:0.5rem; }
+.refs-section ul { display:flex; flex-direction:column; gap:0.35rem; font-size:0.9rem; color:#e2e8f0;
+                   list-style:disc; padding-left:1.1rem; }
+.refs-note { margin-top:0.6rem; padding-left:0.75rem; border-left:2px solid rgba(13,148,136,.5);
+             font-size:0.75rem; color:#94a3b8; }
+.refs-biblio li { display:flex; flex-wrap:wrap; align-items:center; gap:0.5rem; }
+.refs-stamp { display:inline-block; padding:0.1rem 0.5rem; border-radius:999px;
+              font-size:0.6rem; text-transform:uppercase; letter-spacing:0.06em; white-space:nowrap;
+              color:#fbbf24; background:rgba(251,191,36,.1); border:1px solid rgba(251,191,36,.35); }
+
+@media (prefers-reduced-motion: reduce) { .capa-hotspot { transition:none; } .capa-hotspot:hover, .capa-hotspot:active { transform:none; } }
+
+/* ============ F2 — Painel do bulário (computador) ============ */
+.bulario-card { padding: 0.55rem 0.75rem; border-radius: 0.6rem; border: 1px solid rgba(255,255,255,.1);
+                background: rgba(30,41,59,.6); font-size: 0.85rem; }
+.bulario-alerta { border-color: rgba(239,68,68,.45); background: rgba(127,29,29,.25); }
+
+/* ============ F3 — Minigame TLAC ============ */
+.tlac-card { width: min(30rem, calc(100% - 2rem)); max-height: 85vh; overflow-y: auto; margin: 1rem;
+             padding: 1.5rem 1.75rem; border-radius: 1rem; background: rgba(15,23,42,.97);
+             border: 1px solid rgba(255,255,255,.1); box-shadow: 0 25px 60px rgba(2,6,23,.7); }
+.tlac-passos { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+.tlac-passo { display: flex; align-items: center; gap: 0.65rem; padding: 0.55rem 0.7rem;
+              border-radius: 0.7rem; border: 1px solid rgba(255,255,255,.1); background: rgba(30,41,59,.6); }
+.tlac-passo.futuro { opacity: 0.45; }
+.tlac-passo.atual { border-color: #14b8a6; background: rgba(13,148,136,.2); }
+.tlac-passo.feito { opacity: 0.7; }
+.tlac-num { font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; color: #5eead4;
+            width: 1.6rem; height: 1.6rem; display: grid; place-items: center; border-radius: 0.5rem;
+            background: rgba(13,148,136,.25); border: 1px solid rgba(94,234,212,.3); flex-shrink: 0; }
+.tlac-btn { background: #0d9488; color: #ecfeff; font-weight: 600; font-size: 0.75rem;
+            border-radius: 0.55rem; padding: 0.35rem 0.8rem; }
+.tlac-btn:hover { background: #0f766e; }
+.tlac-check { color: #34d399; font-weight: 700; }
+.tlac-timer { display: flex; align-items: center; gap: 0.75rem; margin-top: 1rem; }
+.tlac-timer-bar { flex: 1; height: 10px; border-radius: 999px; background: #1e293b; overflow: hidden; }
+.tlac-timer-bar > i { display: block; height: 100%; width: 0; background: #14b8a6; transition: width 60ms linear; }
+.tlac-resultado { margin-top: 1rem; padding: 0.8rem 1rem; border-radius: 0.7rem; font-size: 1rem;
+                  border: 1px solid rgba(255,255,255,.15); }
+.tlac-positivo { background: rgba(127,29,29,.35); border-color: rgba(239,68,68,.5); color: #fecaca; }
+.tlac-negativo { background: rgba(6,78,59,.35); border-color: rgba(16,185,129,.5); color: #a7f3d0; }
+.tlac-neutro { background: rgba(30,41,59,.7); color: #cbd5e1; font-size: 0.85rem; }
+
+/* ============ F4 — DSF ============ */
+.dsf-chip { background: rgba(30,41,59,.8); color: #e2e8f0; border: 1px solid rgba(255,255,255,.12);
+            border-radius: 999px; font-size: 0.7rem; padding: 0.3rem 0.7rem; cursor: pointer;
+            max-width: 100%; text-align: left; }
+.dsf-chip:hover { background: rgba(51,65,85,.9); }
+.dsf-chip-destaque { border-color: rgba(239,68,68,.55); background: rgba(127,29,29,.3); color: #fecaca;
+                     font-weight: 600; animation: pulse-dsf 1.6s ease-in-out infinite; }
+.dsf-chip-destaque:hover { background: rgba(153,27,27,.45); }
+@keyframes pulse-dsf { 0%,100% { box-shadow: 0 0 0 0 rgba(239,68,68,.35); } 50% { box-shadow: 0 0 0 5px rgba(239,68,68,.12); } }
+
+.dsf-doc { color: #111827; }
+.dsf-head h3 { font-family: var(--font-display); font-weight: 900; font-size: 1.15rem; letter-spacing: 0.02em; }
+.dsf-head { border-bottom: 2px solid #0d9488; padding-bottom: 0.75rem; margin-bottom: 1rem; }
+.dsf-sub { font-size: 0.72rem; color: #4b5563; margin-top: 0.3rem; }
+.dsf-linha { font-size: 0.9rem; margin-bottom: 0.65rem; line-height: 1.5; }
+.dsf-foot { border-top: 1px solid #d1d5db; margin-top: 1.5rem; padding-top: 1rem; }
+.dsf-assinatura { border-top: 1px solid #111827; width: 14rem; margin: 3.5rem auto 0.35rem; text-align: center;
+                  font-size: 0.75rem; color: #374151; }
+.dsf-assinatura::after { content: 'Farmacêutica(o) — CRF ______'; display: block; }
+.dsf-stamp { font-size: 0.62rem; color: #6b7280; margin-top: 1rem; }
+
+@media (prefers-reduced-motion: reduce) {
+  .dsf-chip-destaque { animation: none; }
+  .tlac-timer-bar > i { transition: none; }
+}
+
 /* Exportar relatório (imprimir/PDF) */
 @media print {
   body > *:not(#ui) { display:none !important; }
-  #ui > *:not(#debrief) { display:none !important; }
+  #ui > *:not(#debrief):not(#dsf-preview) { display:none !important; }
   #debrief { position:static; overflow:visible; background:#fff !important; }
   #debrief-card { margin:0; max-width:none; background:#fff !important; box-shadow:none; }
   #debrief-card, #debrief-card * { color:#111827 !important; }
+  /* F4 — impressão da DSF (padrão do export do debrief) */
+  #dsf-preview { position:static; overflow:visible; background:#fff !important; }
+  #dsf-preview .dsf-doc { margin:0; max-width:none; border-radius:0; box-shadow:none; background:#fff !important; padding:0; }
+  #dsf-preview, #dsf-preview * { color:#111827 !important; }
   .no-print { display:none !important; }
 }

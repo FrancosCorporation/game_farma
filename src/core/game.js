@@ -147,6 +147,11 @@ export class Game {
     this.busy = false;
     this.conduta = null;
     this.usedChips = new Set();
+    // Scoring v2 (F1): eventos por caso, expostos via registrar*() para as fases de PC/teste/DSF
+    this.consultaBulario = false;
+    this.testeRapido = null;   // { executado: true, resultado }
+    this.dsf = null;           // texto da conduta do jogador
+    this.queixaRegistrada = false;
     this.lastPatientLine = '';
     this.seed = Math.floor(Math.random() * 1e6);
 
@@ -164,9 +169,8 @@ export class Game {
     SFX.chime();
     TTS.setCase(caseDef.id);
 
-    await this.fx.fadeOut();
     await this.avatar.enter(caseDef.persona.aparencia);
-    await this.fx.fadeIn();
+    this.fx.dip();
     this.state = 'ANAMNESE';
     this.setFase('Anamnese');
     this.addBubble('paciente', caseDef.abertura);
@@ -230,6 +234,16 @@ export class Game {
     const { novos, evasivas } = this.knowledge.ask(text, domains);
     novos.forEach((f) => this.onFactRevealed(f));
 
+    // Scoring v2: feedback de queixa principal identificada (localização + duração)
+    const askedNow = this.knowledge.askedDomains;
+    if (!this.queixaRegistrada && askedNow.has('localizacao') && askedNow.has('duracao')) {
+      this.queixaRegistrada = true;
+      this.addSystem('Queixa principal e duração do quadro registradas.');
+    }
+    if (this.case.testeRapido?.indicado && !this.testeRapido && this.turn >= 3) {
+      this.addSystem('Lembre-se: avalie se há necessidade de teste rápido no computador.');
+    }
+
     const reply = await this.generateReply(novos, evasivas);
     this.showTyping(false);
     this.history.push({ role: 'assistant', content: reply });
@@ -253,6 +267,30 @@ export class Game {
       this.avatar.setPose(f.postura);
       this.addSystem(`${this.case.persona.nome} ${POSE_FRASE[f.postura]}.`);
     }
+  }
+
+  // ---------- eventos Scoring v2 (F1) — API para as próximas fases (câmera/PC/TLAC/DSF) ----------
+  registrarConsultaBulario() {
+    if (this.state === 'ANAMNESE' || this.state === 'DECISAO') {
+      this.consultaBulario = true;
+      this.addSystem('Bulário/diretrizes consultados no computador.');
+    }
+  }
+
+  registrarTesteRapido(resultado) {
+    if (this.state !== 'ANAMNESE' && this.state !== 'DECISAO') return;
+    this.testeRapido = { executado: true, resultado: resultado || null };
+    const tipo = this.case.testeRapido?.tipo || 'Teste rápido';
+    this.addSystem(
+      `${tipo}: ${resultado ? `resultado ${String(resultado).toUpperCase()}` : 'executado'}`,
+      !!resultado && /positiv/i.test(String(resultado)),
+    );
+  }
+
+  registrarDSF(conduta) {
+    if (this.state !== 'ANAMNESE' && this.state !== 'DECISAO') return;
+    this.dsf = conduta || null;
+    this.addSystem(conduta ? `DSF emitida — ${conduta}` : 'DSF emitida.');
   }
 
   async generateReply(novos, evasivas) {
@@ -377,6 +415,10 @@ export class Game {
       mips: [...this.el['mip-list'].querySelectorAll('input:checked')].map((i) => i.value),
       orient: [...this.el['orient-list'].querySelectorAll('input:checked')].map((i) => i.value),
       redFlags: [...this.el['redflag-list'].querySelectorAll('input:checked')].map((i) => i.value),
+      // Scoring v2 (F1): eventos registrados durante o atendimento
+      consultaBulario: Boolean(this.consultaBulario),
+      testeRapido: this.testeRapido,
+      dsf: this.dsf,
     };
     const result = scoreCase(this.case, this.knowledge, decisao, this.history);
     this.points += result.total;
@@ -437,21 +479,21 @@ export class Game {
     this.el['debrief-texto'].textContent = outcome.texto;
     this.el['debrief-pontos'].textContent = `${result.total} / 100`;
 
-    const rows = [
-      ['Anamnese essencial', result.anamnese, 35],
-      ['Investigação de alertas', result.redflags, 20],
-      ['Diagnóstico de risco', result.risco, 10],
-      ['Conduta clínica', result.conduta, 30],
-      ['Comunicação', result.comunicacao, 5],
-    ];
-    this.el['debrief-breakdown'].innerHTML = rows
-      .map(([nome, v, max]) => `
+    const breakdown = result.breakdown || [];
+    const MAX_BY_METRICA = {
+      queixa_principal: 20, sinais_alarme: 20, bulario: 10, teste_rapido: 20, dsf: 30,
+    };
+    this.el['debrief-breakdown'].innerHTML = breakdown.map((m) => {
+      const neg = m.pontos < 0;
+      const max = neg ? Math.abs(m.pontos) : (MAX_BY_METRICA[m.metrica] || Math.max(1, m.pontos));
+      const pct = neg ? 100 : Math.round((m.pontos / max) * 100);
+      return `
         <div class="scorebar">
-          <span>${nome}</span>
-          <span class="fill"><i style="width:${Math.round((v / max) * 100)}%"></i></span>
-          <span class="text-right">${v}/${max}</span>
-        </div>`)
-      .join('');
+          <span>${m.label}</span>
+          <span class="fill"><i style="width:${pct}%; background:${neg ? '#ef4444' : ''}"></i></span>
+          <span class="text-right">${m.pontos > 0 ? '+' : ''}${m.pontos}</span>
+        </div>`;
+    }).join('');
 
     const det = this.el['debrief-detalhes'];
     det.innerHTML = '';
@@ -465,8 +507,20 @@ export class Game {
       li(`Deveria ter perguntado sobre: ${result.missedDomains.map((d) => DOMAIN_LABELS[d] || d).join(', ')}.`, 'text-amber-300');
     if (result.missedRed.length)
       li(`Sinais de alerta não investigados: ${result.missedRed.map((d) => DOMAIN_LABELS[d] || d).join(', ')}.`, 'text-amber-300');
+    if (result.reprovado)
+      li(`REPROVADO — dispensou item contraindicado (${this.case.contraindicado?.motivo || 'contraindicação'}).`, 'text-red-400 font-semibold');
+    if (result.testeRapidoPerdido)
+      li(`Teste rápido indicado (${this.case.testeRapido?.tipo}) e não executado (−30).`, 'text-amber-300');
+    if (result.arboviroseNaoEncaminhada)
+      li('Suspeita de arbovirose não encaminhada ao pronto-socorro (−40).', 'text-red-400');
+    if (result.orientacaoInadequada)
+      li('Orientação inadequada em quadro autolimitado (−25).', 'text-amber-300');
+    if (this.case.dsf && !result.dsfOk)
+      li('DSF não emitida ou com conduta incorreta (−30).', 'text-amber-300');
     result.criticals.forEach((c) => li(`ERRO CRÍTICO — ${c}`, 'text-red-400 font-semibold'));
-    if (!result.missedDomains.length && !result.missedRed.length && !result.criticals.length)
+    if (!result.missedDomains.length && !result.missedRed.length && !result.criticals.length
+      && !result.reprovado && !result.testeRapidoPerdido && !result.arboviroseNaoEncaminhada
+      && !result.orientacaoInadequada && result.dsfOk)
       li('Anamnese completa e conduta adequada. Atendimento-modelo.', 'text-teal-300');
 
     this.el['debrief-stamp'].textContent =

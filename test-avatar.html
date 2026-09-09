@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Avatar Test</title>
+<style>html,body{margin:0;height:100%;background:#0d1219}#c{width:100vw;height:100vh;display:block}</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script type="module">
+import * as THREE from 'three';
+import { PatientAvatar } from './src/scene/patient.js';
+
+const canvas = document.getElementById('c');
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setSize(innerWidth, innerHeight);
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.1;
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x1a2530);
+scene.add(new THREE.HemisphereLight(0xdfe9f5, 0x2a2622, 1.0));
+const key = new THREE.DirectionalLight(0xfff2e0, 2.2);
+key.position.set(4, 6, 7);
+key.castShadow = true;
+key.shadow.mapSize.set(1024, 1024);
+Object.assign(key.shadow.camera, { left: -9, right: 9, top: 9, bottom: -9 });
+scene.add(key);
+scene.add(new THREE.PointLight(0x9fd8ff, 8, 20).translateX(-4).translateY(3));
+
+const camera = new THREE.PerspectiveCamera(45, innerWidth / innerHeight, 0.1, 60);
+camera.position.set(0, 1.7, 8.5);
+camera.lookAt(0, 1.35, 0);
+
+const floor = new THREE.Mesh(new THREE.PlaneGeometry(20, 20), new THREE.MeshStandardMaterial({ color: 0x2a3742, roughness: 0.9 }));
+floor.rotation.x = -Math.PI / 2;
+floor.receiveShadow = true;
+scene.add(floor);
+
+const specs = [
+  { pose: 'idle',         mood: 'neutro',   ap: { camisa: 0x2ec4b6, calca: 0x2f3e46, cabelo: 0x6b4f3a, pele: 0xd9a066, sapato: 0x22262a } },
+  { pose: 'mao_no_peito', mood: 'dolorido', ap: { camisa: 0x8b8378, calca: 0x37414b, cabelo: 0x4a4a4a, pele: 0xc98d5c, sapato: 0x22262a } },
+  { pose: 'curvado',      mood: 'triste',   ap: { camisa: 0xe07a5f, calca: 0x3d5a80, cabelo: 0x3a3a3a, pele: 0xb0703f, sapato: 0x11151a } },
+  { pose: 'cabeca_baixa', mood: 'neutro',   ap: { camisa: 0xff9f1c, calca: 0x233342, cabelo: 0x7a5c43, pele: 0xe6b584, sapato: 0x1c1c22 } },
+];
+
+const avatars = specs.map((s, i) => {
+  const a = new PatientAvatar(scene);
+  a.setStyle(s.ap);
+  a.setPose(s.pose);
+  a.setMood(s.mood);
+  a.root.visible = true;
+  a.root.position.set(-4.2 + i * 2.8, 0, 0);
+  a.root.rotation.y = 0.35;
+  return a;
+});
+
+const t0 = performance.now();
+function frame(now) {
+  const dt = Math.min((now - t0) / 1000, 0.05);
+  const t = (now - t0) / 1000;
+  avatars.forEach((a) => a.update(dt, t));
+  renderer.render(scene, camera);
+  requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+
+// expõe para o driver de screenshot animar/mudar poses
+window.__avatars = avatars;
+</script>
+</body>
+</html>

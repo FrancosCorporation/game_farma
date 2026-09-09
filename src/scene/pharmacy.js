@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
 const M = (color, opts = {}) => new THREE.MeshStandardMaterial({ color, roughness: 0.85, metalness: 0.05, ...opts });
 const mk = (geo, mat, cast = true) => {
@@ -8,6 +9,22 @@ const mk = (geo, mat, cast = true) => {
   return m;
 };
 const rnd = (a, b) => a + Math.random() * (b - a);
+
+// G4 — prop GLB com fallback procedural: tenta carregar o .glb; se existir,
+// esconde o procedural. Se faltar, o procedural continua no lugar (nunca quebra).
+const gltfLoader = new GLTFLoader();
+function propFromGLB(url, fallback, scene, { pos = [0, 0, 0], rotY = 0 } = {}) {
+  fallback.position.set(...pos);
+  fallback.rotation.y = rotY;
+  scene.add(fallback);
+  gltfLoader.loadAsync(url).then((g) => {
+    g.scene.position.set(...pos);
+    g.scene.rotation.y = rotY;
+    scene.add(g.scene);
+    fallback.visible = false;
+  }).catch(() => { /* mantém procedural */ });
+}
+
 
 function canvasTexture(size, draw, repeatX = 1, repeatY = 1) {
   const c = document.createElement('canvas');
@@ -105,7 +122,7 @@ function gondola(scene, x, z, ry) {
       cx += 0.14 + Math.random() * 0.1;
     }
   }
-  scene.add(g);
+  propFromGLB('models/prop_gondola.glb', g, scene, { pos: [x, 0, z], rotY: ry });
   return g;
 }
 
@@ -156,26 +173,79 @@ export function buildPharmacy(scene, addTicker) {
     }
   }
 
-  // Balcão principal (madeira + tampo)
+  // Balcão principal (madeira + tampo) — G4: GLB com fallback procedural
+  const balcaoG = new THREE.Group();
   const base = mk(new THREE.BoxGeometry(4.6, 1.0, 0.75), M(0x2f3e46, { roughness: 0.5 }));
-  base.position.set(0, 0.5, 1.55);
-  scene.add(base);
+  base.position.set(0, 0.5, 0);
   const top = mk(new THREE.BoxGeometry(4.8, 0.06, 0.95), new THREE.MeshStandardMaterial({ map: woodTexture(), roughness: 0.35 }));
-  top.position.set(0, 1.03, 1.55);
-  scene.add(top);
+  top.position.set(0, 1.03, 0);
   const band = mk(new THREE.BoxGeometry(4.6, 0.1, 0.02), M(0x0d9488, { emissive: 0x0d9488, emissiveIntensity: 0.4 }), false);
-  band.position.set(0, 0.86, 1.16);
-  scene.add(band);
+  band.position.set(0, 0.86, -0.39);
+  balcaoG.add(base, top, band);
+  propFromGLB('models/prop_balcao.glb', balcaoG, scene, { pos: [0, 0, 1.55] });
 
-  // Monitor do ponto de venda (tela emissiva)
+
+  // Monitor do ponto de venda / bulário — G4: GLB com fallback procedural
+  const bularioTex = canvasTexture(256, (g, s) => {
+    g.fillStyle = '#0b1220';
+    g.fillRect(0, 0, s, s);
+    g.fillStyle = '#0d9488';
+    g.fillRect(0, 0, s, 34);
+    g.fillStyle = '#5eead4';
+    g.font = `700 ${s * 0.09}px Outfit, sans-serif`;
+    g.fillText('BULÁRIO', 12, 23);
+    for (let i = 0; i < 6; i++) {
+      g.fillStyle = i === 1 ? '#2dd4bf' : 'rgba(148,163,184,0.55)';
+      g.fillRect(14, 52 + i * 30, 60 + Math.random() * (s - 110), 9);
+    }
+  }, 1, 1);
+  const pcG = new THREE.Group();
   const monitor = mk(new THREE.BoxGeometry(0.42, 0.3, 0.06), M(0x1a2027, { roughness: 0.4 }));
-  monitor.position.set(-1.4, 1.2, 1.72);
-  monitor.rotation.y = 0.5;
-  scene.add(monitor);
-  const screen = mk(new THREE.BoxGeometry(0.36, 0.23, 0.012), M(0x9fd8ff, { emissive: 0x3b82f6, emissiveIntensity: 0.9 }), false);
-  screen.position.set(-1.4, 1.2, 1.75);
-  screen.rotation.y = 0.5;
-  scene.add(screen);
+  monitor.position.set(0, 1.2, -0.06);
+  const screen = mk(new THREE.BoxGeometry(0.36, 0.23, 0.012), new THREE.MeshStandardMaterial({
+    map: bularioTex, emissive: 0x2dd4bf, emissiveIntensity: 0.55, emissiveMap: bularioTex, roughness: 0.35,
+  }), false);
+  screen.position.set(0, 1.2, -0.024);
+  const teclado = mk(new THREE.BoxGeometry(0.34, 0.02, 0.13), M(0x232b33, { roughness: 0.6 }));
+  teclado.position.set(0.02, 1.065, 0.07);
+  pcG.add(monitor, screen, teclado);
+  pcG.rotation.y = 0.5;
+  propFromGLB('models/prop_pc.glb', pcG, scene, { pos: [-1.4, 1.03, 1.78], rotY: 0.5 });
+
+
+  // F2 — Mesa lateral com bandeja do kit TLAC (teste rápido)
+  const mesa = new THREE.Group();
+  const mt = mk(new THREE.BoxGeometry(0.95, 0.05, 0.7), new THREE.MeshStandardMaterial({ map: woodTexture(), roughness: 0.35 }));
+  mt.position.y = 0.9;
+  mesa.add(mt);
+  for (const [lx, lz] of [[-0.42, -0.28], [0.42, -0.28], [-0.42, 0.28], [0.42, 0.28]]) {
+    const leg = mk(new THREE.CylinderGeometry(0.024, 0.02, 0.88, 8), M(0x4a3524, { roughness: 0.6 }));
+    leg.position.set(lx, 0.44, lz);
+    mesa.add(leg);
+  }
+  // Bandeja + casete + lancetador + algodão (kit de teste rápido)
+  const bandeja = mk(new THREE.BoxGeometry(0.52, 0.035, 0.34), M(0x0f766e, { roughness: 0.4, metalness: 0.3 }));
+  bandeja.position.set(0, 0.945, 0);
+  mesa.add(bandeja);
+  const casete = mk(new THREE.BoxGeometry(0.17, 0.045, 0.09), M(0xf8f9fa, { roughness: 0.5 }), false);
+  casete.position.set(-0.08, 0.985, 0.02);
+  mesa.add(casete);
+  const janela = mk(new THREE.BoxGeometry(0.06, 0.012, 0.04), M(0xff9f1c, { emissive: 0xff9f1c, emissiveIntensity: 0.7 }), false);
+  janela.position.set(-0.08, 1.01, 0.02);
+  mesa.add(janela);
+  const lancetador = mk(new THREE.CylinderGeometry(0.016, 0.02, 0.09, 10), M(0x3d5a80, { roughness: 0.45 }), false);
+  lancetador.position.set(0.13, 0.995, -0.06);
+  lancetador.rotation.z = 0.35;
+  mesa.add(lancetador);
+  const algodao = mk(new THREE.SphereGeometry(0.035, 10, 8), M(0xffffff, { roughness: 1 }), false);
+  algodao.position.set(0.12, 0.975, 0.1);
+  mesa.add(algodao);
+  const frasco = mk(new THREE.CylinderGeometry(0.022, 0.022, 0.08, 10), M(0x9fd8ff, { roughness: 0.3, transparent: true, opacity: 0.85 }), false);
+  frasco.position.set(-0.16, 1.0, -0.1);
+  mesa.add(frasco);
+  mesa.position.set(2.45, 0, 1.45);
+  mesa.rotation.y = -0.35;
+  propFromGLB('models/prop_mesa.glb', mesa, scene, { pos: [2.45, 0, 1.45], rotY: -0.35 });
 
   // Letreiro de farmácia: cruz verde emissiva
   const signGroup = new THREE.Group();
@@ -228,11 +298,13 @@ export function buildPharmacy(scene, addTicker) {
   gondola(scene, -7.8, -4.4, Math.PI / 2);
   gondola(scene, 7.6, -3.4, -Math.PI / 2);
 
-  // Vitrine lateral com expositores
+  // Vitrine lateral com expositores — G4: GLB com fallback procedural
+  const vitrineG = new THREE.Group();
   const shelfW = mk(new THREE.BoxGeometry(0.6, 2.2, 0.06), M(0x2f3e46), false);
-  shelfW.position.set(8.2, 1.1, -1.5);
-  shelfW.rotation.y = Math.PI / 2;
-  scene.add(shelfW);
+  shelfW.position.set(0, 1.1, 0);
+  vitrineG.add(shelfW);
+  propFromGLB('models/prop_vitrine.glb', vitrineG, scene, { pos: [8.2, 0, -1.5], rotY: Math.PI / 2 });
+
 
   // Atendentes de fundo
   attendant(scene, addTicker, -5.2, 1.9, 0x8d99ae);

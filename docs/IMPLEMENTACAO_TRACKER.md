@@ -7,7 +7,9 @@
 ## M0 — Setup (limpeza + infra)
 
 - [x] Excluir container `ollama-cpu`
-- [ ] Subir llama.cpp (ROCm) na GPU com `Qwen3.5-9B-Q8_0.gguf` (endpoint no menu do jogo)
+- [x] Subir llama.cpp (ROCm) na GPU com `Qwen3.5-9B-Q8_0.gguf` (endpoint no menu do jogo)
+  - `HSA_OVERRIDE_GFX_VERSION=10.3.1` (bate com arch gfx1031 do build) + `-ngl 999` + KV q8 + `-np 1` (fila serial)
+  - Porta 8081 · prompt ~180 tok/s · gen ~36 tok/s · skill: `llama-cpp-rocm-gpu`
 - [x] Scaffold Vite + Three.js (`package.json`, `vite.config.js`, `index.html`)
 - [x] Configurar `.opencode/opencode.json`
 - [x] Unity removido do projeto (commit de limpeza pendente no git)
@@ -29,6 +31,18 @@
 - [x] `src/scene/pharmacy.js` (farmácia procedural: balcão, gôndolas, letreiro, vitrine)
 - [x] `src/scene/patient.js` (avatar procedural: rosto, posturas, respiração, blink, walk)
 - [x] `src/scene/fx.js` (bloom, poeira, vinheta, transições fade, pulse de red flag)
+
+## M2.5 — Personagens 3D "bonitos" (em andamento)
+
+> Referências verificadas → skill `threejs-characters-3d-refs`. Objetivo: avatares/personagens com modelagem e animação caprichadas.
+
+- [ ] **Avatar procedural caprichado** (estilo cartoon Codrops / img2threejs): proporções, rosto, cabelo, roupas
+- [ ] **Animações melhores** (walk, posturas, expressões) — qualidade de animação é requisito
+- [ ] **Fila de pacientes** na porta + seleção com tecla `E` perto do cliente (interação)
+- [ ] **Balconista jogável** (movimento livre atrás do balcão) + câmera primeira pessoa
+- [ ] **Pegar medicamento na gôndola** → aparece na mão do balconista
+- [ ] **Letreiro da farmácia**: corrigir "ARM" → "FarmaCheck" (texto cortado no banner)
+- [ ] **Gôndolas/medicamentos**: detalhar modelagem (pós-v1)
 
 ## M3 — UI/UX
 

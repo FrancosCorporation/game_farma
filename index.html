@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FarmaCheck — O Desafio da Anamnese</title>
   <meta name="description" content="Simulador educacional de atendimento farmacêutico. Conteúdo fictício, fins didáticos." />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230d9488'/%3E%3Crect x='13' y='6' width='6' height='20' rx='2' fill='white'/%3E%3Crect x='6' y='13' width='20' height='6' rx='2' fill='white'/%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
@@ -23,15 +24,24 @@
     <header id="hud" class="absolute top-0 inset-x-0 flex items-center justify-between gap-3 px-4 py-2
                            bg-slate-900/70 backdrop-blur border-b border-white/10 pointer-events-auto">
       <h1 class="font-display font-bold tracking-wide text-sm sm:text-base">
-        FarmaCheck <span class="text-teal-300 font-normal">· O Desafio da Anamnese</span>
+        FarmaCheck <span class="text-teal-300 font-normal" data-i18n="hud.subtitle">· O Desafio da Anamnese</span>
       </h1>
       <div class="flex items-center gap-3 text-sm">
-        <span id="hud-paciente" class="text-slate-300 hidden sm:inline">Expediente encerrado…</span>
+        <span id="hud-paciente" class="text-slate-300 hidden sm:inline" data-i18n="hud.idle">Expediente encerrado…</span>
         <span id="hud-fase" class="px-2 py-0.5 rounded-full bg-teal-900/70 text-teal-200 border border-teal-400/30 text-xs">—</span>
         <span id="hud-score" class="text-slate-400 text-xs">Pontos 0</span>
-        <button id="btn-tts" aria-pressed="true" title="Narrar falas em voz alta" class="btn-ghost text-xs">Narrar</button>
+        <button id="btn-tts" aria-pressed="true" title="Narrar falas em voz alta" data-i18n="hud.tts" class="btn-ghost text-xs">Narrar</button>
       </div>
     </header>
+
+    <!-- F2 — Barra de ações do POV (pontos de interesse) -->
+    <div id="acoes" hidden class="absolute bottom-3 left-3 z-10 flex flex-wrap items-center gap-2 pointer-events-auto">
+      <button id="btn-hud-pc" class="btn-ghost text-xs" data-i18n="acoes.pc">🖥 Consultar Computador</button>
+      <button id="btn-hud-tlac" class="btn-ghost text-xs" data-i18n="acoes.tlac">🧪 Teste Rápido</button>
+      <button id="btn-hud-dsf" class="btn-ghost text-xs" data-i18n="acoes.dsf">📄 Gerar Declaração</button>
+      <button id="btn-hud-paciente" hidden class="btn-ghost text-xs text-teal-300 border-teal-400/30" data-i18n="acoes.paciente">↩ Voltar ao paciente</button>
+      <span id="pov-dica" class="hidden md:inline text-[10px] text-slate-500" data-i18n="pov.dica">Arraste para olhar ao redor · 1/2/3 trocam de ponto</span>
+    </div>
 
     <!-- Chat (anamnese) -->
     <section id="chat" class="absolute right-0 top-10 bottom-0 w-full sm:w-[400px] flex flex-col
@@ -96,17 +106,111 @@
       </div>
     </section>
 
+    <!-- F2 — Painel do computador: bulário & diretrizes -->
+    <section id="bulario" hidden class="absolute left-0 top-10 bottom-0 w-full sm:w-[400px] flex flex-col
+                                          bg-slate-900/70 backdrop-blur-md border-r border-white/10 pointer-events-auto">
+      <div class="px-4 py-3 border-b border-white/10 flex items-center justify-between">
+        <h2 tabindex="-1" class="font-semibold" data-i18n="bulario.title">🖥 Bulário &amp; diretrizes</h2>
+        <button id="btn-bulario-fechar" class="text-xs text-teal-300 hover:underline" data-i18n="bulario.close">Fechar</button>
+      </div>
+      <div id="bulario-corpo" class="flex-1 overflow-y-auto p-4 space-y-3 text-sm"></div>
+    </section>
+
+    <!-- F3 — Minigame TLAC (teste rápido) -->
+    <div id="tlac" hidden class="absolute inset-0 grid place-items-center bg-slate-950/80 backdrop-blur pointer-events-auto overflow-y-auto">
+      <div id="tlac-card" class="tlac-card pop-in" role="dialog" aria-modal="true" aria-labelledby="tlac-titulo">
+        <header class="refs-header">
+          <h2 id="tlac-titulo" class="refs-title" data-i18n="tlac.title">🧪 Teste rápido (TLAC)</h2>
+          <button id="btn-tlac-fechar" class="btn-ghost" data-i18n="tlac.close">Fechar</button>
+        </header>
+        <p id="tlac-tipo" class="text-xs text-slate-400 mb-3"></p>
+        <ol id="tlac-passos" class="tlac-passos"></ol>
+        <div id="tlac-timer" hidden class="tlac-timer" role="timer" aria-live="off">
+          <div class="tlac-timer-bar"><i id="tlac-timer-fill"></i></div>
+          <span id="tlac-timer-num" class="font-display font-bold">5s</span>
+        </div>
+        <div id="tlac-resultado" hidden class="tlac-resultado" aria-live="polite"></div>
+      </div>
+    </div>
+
+    <!-- F4 — DSF (Declaração de Serviços Farmacêuticos) -->
+    <section id="dsf" hidden class="absolute right-0 top-10 bottom-0 w-full sm:w-[440px] flex flex-col
+                                     bg-slate-900/80 backdrop-blur-md border-l border-white/10 pointer-events-auto">
+      <div class="px-4 py-3 border-b border-white/10 flex items-center justify-between">
+        <h2 tabindex="-1" class="font-semibold text-sm sm:text-base" data-i18n="dsf.title">📄 Declaração de Serviços Farmacêuticos</h2>
+        <button id="btn-dsf-fechar" class="text-xs text-teal-300 hover:underline" data-i18n="dsf.close">Fechar</button>
+      </div>
+      <div class="flex-1 overflow-y-auto p-4 space-y-3 text-sm">
+        <label class="block"><span class="text-xs uppercase tracking-wide text-slate-400" data-i18n="dsf.paciente">Paciente</span>
+          <input id="dsf-paciente" class="input mt-1" readonly /></label>
+        <div class="grid grid-cols-2 gap-2">
+          <label class="block"><span class="text-xs uppercase tracking-wide text-slate-400" data-i18n="dsf.data">Data</span>
+            <input id="dsf-data" type="date" class="input mt-1" /></label>
+          <label class="block"><span class="text-xs uppercase tracking-wide text-slate-400" data-i18n="dsf.queixa">Queixa / pedido</span>
+            <input id="dsf-queixa" class="input mt-1" readonly /></label>
+        </div>
+        <div>
+          <span class="text-xs uppercase tracking-wide text-slate-400" data-i18n="dsf.rapidas">Condutas rápidas</span>
+          <div id="dsf-rapidas" class="flex flex-wrap gap-1.5 mt-1"></div>
+        </div>
+        <label class="block"><span class="text-xs uppercase tracking-wide text-slate-400" data-i18n="dsf.conduta">Conduta farmacêutica</span>
+          <textarea id="dsf-conduta" rows="5" class="input mt-1 resize-y" data-i18n-aria="dsf.conduta" aria-label="Conduta farmacêutica"></textarea></label>
+        <div>
+          <span class="text-xs uppercase tracking-wide text-slate-400" data-i18n="dsf.orientacoes">Orientações fornecidas</span>
+          <div id="dsf-orient" class="space-y-1.5 mt-1"></div>
+        </div>
+        <label class="block"><span class="text-xs uppercase tracking-wide text-slate-400" data-i18n="dsf.encaminhamento">Encaminhamento</span>
+          <input id="dsf-encaminhamento" class="input mt-1" /></label>
+        <button id="btn-dsf-emitir" class="btn-primary w-full py-3" data-i18n="dsf.emitir">Emitir DSF</button>
+      </div>
+    </section>
+
+    <!-- F4 — Preview imprimível da DSF -->
+    <div id="dsf-preview" hidden class="absolute inset-0 overflow-y-auto bg-slate-950/90 backdrop-blur pointer-events-auto">
+      <article class="dsf-doc mx-auto max-w-2xl my-8 p-8 rounded-2xl bg-slate-100 text-slate-900 shadow-2xl">
+        <header class="dsf-head">
+          <h3 data-i18n="dsf.doc.title">DECLARAÇÃO DE SERVIÇOS FARMACÊUTICOS</h3>
+          <p class="dsf-sub" data-i18n="dsf.doc.sub">Atenção farmacêutica — registro do atendimento (Anvisa/CFF · documento fictício para fins educacionais)</p>
+        </header>
+        <div id="dsf-doc-corpo"></div>
+        <footer class="dsf-foot">
+          <div class="dsf-assinatura"></div>
+          <p id="dsf-doc-stamp" class="dsf-stamp"></p>
+        </footer>
+        <div class="flex flex-wrap gap-3 mt-6 no-print">
+          <button id="btn-dsf-imprimir" class="btn-primary" data-i18n="dsf.imprimir">🖨 Imprimir / PDF</button>
+          <button id="btn-dsf-voltar" class="btn-ghost" data-i18n="dsf.voltar">← Editar</button>
+        </div>
+      </article>
+    </div>
+
+    <!-- F0 — Tela de capa (arte com botões pintados + hotspots acessíveis) -->
+    <div id="capa" class="capa-backdrop pointer-events-auto">
+      <div class="capa-stage">
+        <button id="capa-iniciar" class="capa-hotspot"
+                style="left:33.15%; top:42.29%; width:33.00%; height:13.38%;"
+                data-i18n-aria="capa.iniciar" aria-label="Iniciar jogo"></button>
+        <button id="capa-refs" class="capa-hotspot"
+                style="left:35.85%; top:58.98%; width:27.88%; height:11.98%;"
+                data-i18n-aria="capa.referencias" aria-label="Referências"></button>
+        <button id="capa-lang-pt" class="capa-hotspot capa-hotspot-chip"
+                style="left:55.55%; top:76.05%; width:4.27%; height:7.65%;"
+                aria-pressed="true" data-i18n-aria="capa.lang.pt" aria-label="Português (BR)"></button>
+        <button id="capa-lang-en" class="capa-hotspot capa-hotspot-chip"
+                style="left:60.17%; top:76.05%; width:4.27%; height:7.65%;"
+                aria-pressed="false" data-i18n-aria="capa.lang.en" aria-label="English"></button>
+      </div>
+    </div>
+
     <!-- Tela inicial -->
-    <div id="menu" class="absolute inset-0 grid place-items-center bg-slate-950/80 backdrop-blur pointer-events-auto overflow-y-auto">
+    <div id="menu" hidden class="absolute inset-0 grid place-items-center bg-slate-950/80 backdrop-blur pointer-events-auto overflow-y-auto">
       <div class="max-w-2xl w-full m-4 p-8 rounded-2xl bg-slate-900/90 border border-white/10 shadow-2xl">
-        <p class="text-teal-300 text-xs uppercase tracking-widest mb-1">Simulador de atendimento farmacêutico</p>
+        <p class="text-teal-300 text-xs uppercase tracking-widest mb-1" data-i18n="menu.tagline">Simulador de atendimento farmacêutico</p>
         <h2 class="text-4xl font-black mb-3 font-display">FarmaCheck</h2>
         <p class="text-slate-300 text-sm leading-relaxed mb-3">
-          Você é a farmacêutica do balcão. Clientes vão chegar pedindo remédios — alguns inofensivos,
-          outros <b class="text-amber-300">capazes de agravar uma condição grave e oculta</b>.
-          Investigue por anamnese antes de decidir: vender, orientar ou encaminhar.
+          <span data-i18n="menu.intro.a">Você é a farmacêutica do balcão. Clientes vão chegar pedindo remédios — alguns inofensivos, outros </span><b class="text-amber-300" data-i18n="menu.intro.b">capazes de agravar uma condição grave e oculta</b><span data-i18n="menu.intro.c">. Investigue por anamnese antes de decidir: vender, orientar ou encaminhar.</span>
         </p>
-        <p class="text-xs text-slate-500 mb-5 border-l-2 border-teal-500/40 pl-3">
+        <p class="text-xs text-slate-500 mb-5 border-l-2 border-teal-500/40 pl-3" data-i18n="menu.disclaimer">
           Ambiente 100% fictício e educacional. Condutas, marcas e desfechos são ilustrativos —
           não substituem avaliação farmacêutica/médica nem bula.
         </p>
@@ -114,22 +218,51 @@
         <div id="phase-select" class="grid gap-2 mb-4"></div>
 
         <details class="mb-5">
-          <summary class="cursor-pointer text-sm text-teal-300">Servidor de IA (llama.cpp · Qwen3.5-9B)</summary>
+          <summary class="cursor-pointer text-sm text-teal-300" data-i18n="menu.ai.summary">Servidor de IA (llama.cpp · Qwen3.5-9B)</summary>
           <div class="mt-3 space-y-2 text-sm">
-            <label class="block">Endpoint <input id="cfg-endpoint" class="input" placeholder="http://127.0.0.1:8081/v1" /></label>
-            <label class="block">Modelo <input id="cfg-model" class="input" placeholder="Qwen3.5-9B-Q8_0" /></label>
+            <label class="block"><span data-i18n="menu.ai.endpoint">Endpoint</span> <input id="cfg-endpoint" class="input" placeholder="http://127.0.0.1:8081/v1" /></label>
+            <label class="block"><span data-i18n="menu.ai.model">Modelo</span> <input id="cfg-model" class="input" placeholder="Qwen3.5-9B-Q8_0" /></label>
             <div class="flex gap-2 items-center pt-1">
-              <button id="btn-testar" class="btn-ghost">Testar conexão</button>
+              <button id="btn-testar" class="btn-ghost" data-i18n="menu.ai.test">Testar conexão</button>
               <span id="cfg-status" class="text-xs text-slate-400"></span>
             </div>
           </div>
         </details>
 
-        <button id="btn-iniciar" class="btn-primary w-full py-3 text-base">Iniciar expediente</button>
-        <p class="text-xs text-slate-500 mt-4">Enter envia · Shift+Enter quebra linha · Ctrl+M dita · R repete a última fala · Tab navega</p>
+        <button id="btn-iniciar" class="btn-primary w-full py-3 text-base" data-i18n="menu.iniciar">Iniciar expediente</button>
+        <p class="text-xs text-slate-500 mt-4" data-i18n="menu.keys">Enter envia · Shift+Enter quebra linha · Ctrl+M dita · R repete a última fala · Tab navega</p>
       </div>
     </div>
 
+    <!-- F0 — Modal de Referências -->
+    <div id="refs" hidden class="absolute inset-0 grid place-items-center bg-slate-950/85 backdrop-blur pointer-events-auto overflow-y-auto">
+      <div class="refs-panel" role="dialog" aria-modal="true" aria-labelledby="refs-titulo">
+        <header class="refs-header">
+          <h2 id="refs-titulo" class="refs-title" data-i18n="refs.title">Referências</h2>
+          <button id="btn-refs-fechar" class="btn-ghost" data-i18n="refs.close">Fechar</button>
+        </header>
+        <section class="refs-section">
+          <h3 data-i18n="refs.credits.heading">Créditos</h3>
+          <ul>
+            <li data-i18n="refs.credits.ufg">UFG — Universidade Federal de Goiás</li>
+            <li data-i18n="refs.credits.po">Product Owner: Jhuly</li>
+          </ul>
+          <p class="refs-note" data-i18n="refs.disclaimer">Conteúdo 100% fictício e educacional — não substitui avaliação farmacêutica/médica nem consulta à bula.</p>
+          <p class="refs-note" data-i18n="refs.sus">Cenário inspirado na atenção farmacêutica no SUS.</p>
+        </section>
+        <section class="refs-section">
+          <h3 data-i18n="refs.biblio.heading">Bibliografia</h3>
+          <ul class="refs-biblio">
+            <li><span data-i18n="refs.biblio.dengue">Dengue: sinais de alerta e risco do uso de AAS/anti-inflamatórios.</span>
+              <span class="refs-stamp" data-i18n="refs.stamp">Pendente validação da PO</span></li>
+            <li><span data-i18n="refs.biblio.dispepsia">Dispepsia: automedicação e medicamentos isentos de prescrição (MIP).</span>
+              <span class="refs-stamp" data-i18n="refs.stamp">Pendente validação da PO</span></li>
+            <li><span data-i18n="refs.biblio.dermatite">Dermatite de contato: triggeiros e orientação não farmacológica.</span>
+              <span class="refs-stamp" data-i18n="refs.stamp">Pendente validação da PO</span></li>
+          </ul>
+        </section>
+      </div>
+    </div>
     <!-- Debriefing / relatório -->
     <div id="debrief" hidden class="absolute inset-0 overflow-y-auto bg-slate-950/90 backdrop-blur pointer-events-auto">
       <article id="debrief-card" class="mx-auto max-w-2xl my-8 p-6 rounded-2xl bg-slate-900 border border-white/10 shadow-2xl">
@@ -143,10 +276,10 @@
         <div id="debrief-preceptor" hidden class="border-t border-white/10 pt-4 text-sm text-slate-300 italic leading-relaxed"></div>
         <p id="debrief-stamp" class="text-[10px] text-slate-500 mt-4"></p>
         <div class="flex flex-wrap gap-3 mt-6 no-print">
-          <button id="btn-proximo"  class="btn-primary">Próximo cliente</button>
-          <button id="btn-repetir"  class="btn-ghost">Repetir este caso</button>
-          <button id="btn-exportar" class="btn-ghost">Exportar relatório</button>
-          <button id="btn-fases"   class="btn-ghost">Fases</button>
+          <button id="btn-proximo"  class="btn-primary" data-i18n="debrief.next">Próximo cliente</button>
+          <button id="btn-repetir"  class="btn-ghost" data-i18n="debrief.repeat">Repetir este caso</button>
+          <button id="btn-exportar" class="btn-ghost" data-i18n="debrief.export">Exportar relatório</button>
+          <button id="btn-fases"   class="btn-ghost" data-i18n="debrief.phases">Fases</button>
         </div>
       </article>
     </div>

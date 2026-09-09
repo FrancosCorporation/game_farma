@@ -93,14 +93,17 @@ export function setupFX(scene, camera, renderer) {
 
   const dust = createDust(scene);
 
-  // Transição de fade para chegadas/saídas de paciente
+  // Transição suave (dip rápido) — nunca apaga a tela; só um "piscar" de câmera
   const overlay = document.createElement('div');
-  overlay.style.cssText = 'position:fixed;inset:0;pointer-events:none;background:#05080c;opacity:0;transition:opacity .45s ease;z-index:5;';
+  overlay.style.cssText = 'position:fixed;inset:0;pointer-events:none;background:#02040a;opacity:0;transition:opacity .18s ease;z-index:5;';
   document.body.appendChild(overlay);
-  const fade = (show) =>
+  const dip = () =>
     new Promise((res) => {
-      overlay.style.opacity = show ? '1' : '0';
-      setTimeout(res, 460);
+      overlay.style.opacity = '0.35';
+      setTimeout(() => {
+        overlay.style.opacity = '0';
+        setTimeout(res, 200);
+      }, 120);
     });
 
   let bloomTarget = 0.42;
@@ -118,7 +121,8 @@ export function setupFX(scene, camera, renderer) {
       bloomTarget = 0.9;
       setTimeout(() => (bloomTarget = 0.42), 700);
     },
-    fadeIn: () => fade(true),
-    fadeOut: () => fade(false),
+    fadeIn: () => dip(),
+    fadeOut: () => dip(),
+    dip,
   };
 }
