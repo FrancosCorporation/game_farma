@@ -12,13 +12,19 @@ OUT = argv[argv.index('--out') + 1] if '--out' in argv else '/home/servidor/Git/
 def clean():
     bpy.ops.object.select_all(action='SELECT')
     bpy.ops.object.delete()
-    for coll in (bpy.data.meshes, bpy.data.materials, bpy.data.actions):
+    for coll in (bpy.data.meshes, bpy.data.materials):
         for b in list(coll):
             if b.users == 0:
                 try:
                     coll.remove(b)
                 except Exception:
                     pass
+    # actions: remoção incondicional (use_fake_user conta como usuário p/ o filtro acima)
+    for a in list(bpy.data.actions):
+        try:
+            bpy.data.actions.remove(a)
+        except Exception:
+            pass
 
 def C(h):
     return ((h >> 16 & 255) / 255, (h >> 8 & 255) / 255, (h & 255) / 255)

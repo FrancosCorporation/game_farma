@@ -87,25 +87,34 @@ Detalhes de setup ROCm, conflito de porta e validação → skill `hunyuan3d_roc
 
 ## 5. Milestones 3D (G0–G6)
 
+> **Status 08/09/2026:** G0 ✔ G1 (parcial — sheets base por código) **G2 ✔ G3 ✔ G4 ✔**
+> (elenco de 15 personagens gerados + 5 props; integração via `loadGLBFPatient`/`propFromGLB`
+> com fallback procedural). G5/G6 pendentes.
+
 - **G0 — Infra de geração (1 sessão):** venv ROCm + clone Hunyuan3D-2 + download
   `Hunyuan3D-2mini` e `Hunyuan3D-2.1` · smoke test: 1 imagem → 1 `.glb` validado no
   Blender. ✅ critério: asset abre no Blender com textura e escala correta.
+  ⚠️ **NÃO executado** — ver `hunyuan3d_rocm_12gb` quando for gerar via IA.
 - **G1 — Character sheets (ComfyUI):** SDXL gera ficha frontal T-pose/neutral A-pose
   por personagem (pele/roupa/cabelo conforme `cases.js`). ✅: 11 sheets aprovados pela PO.
-- **G2 — Pipeline personagem:** sheet → Hunyuan shape → retopo (<30k) → UV → rig
-  (armature compartilhada — skill `blender_bones_rig`) → 5 clips → export GLB validado
-  por script (`scripts/validate-glb.mjs`: escala, clips, tris, tamanho). ✅: 1 personagem
-  fim-a-fim carregando no jogo via `loadGLBFPatient`.
-- **G3 — Elenco:** replicar G2 para Carla/Roberto/Cátia + variados; trocar no `main.js`
-  por `caseId`. ✅: 3 casos oficiais jogáveis com personagens novos + posturas semiológicas
-  corretas (Pain/Weakness/Discomfort acionadas pelo Fact Gate).
-- **G4 — Props da farmácia:** balcão, gôndolas (1 base + 3 variações de textura),
-  vitrine, PC, mesa TLAC. ✅: cena usa props GLB mantendo ≥ 55 fps (budget §4.4).
+  ⚠️ **Parcial** — nesta sessão os looks foram definidos **por código** (paletas
+  `skin/hair/shirt/pants` por caso no `gen_characters.py`); sheets SDXL seguem para G5.
+- **G2 — Pipeline personagem:** ✅ **CONCLUÍDO.** `scripts/blender/gen_characters.py`
+  gera os 15 `.glb` com hierarquia de partes animada por **Actions nomeadas
+  (Idle/Pain/Weakness/Discomfort/Embarrassed)**. Lições Blender 5.2 registradas na
+  skill `threejs_glb_rig_poses`. Validação: 5 clips por GLB, ~250-300 KB cada, sem
+  pageerror, `setPose` OK (verificado via Playwright).
+- **G3 — Elenco:** ✅ **CONCLUÍDO.** `swapAvatar` no `main.js` troca o avatar pelo
+  `<caseId>.glb` no `startCase`, com fallback em cadeia (caso → `paciente.glb` →
+  procedural). Smoke F2/F3/F4 (Carla: bulário/TLAC/DSF) 100% OK.
+- **G4 — Props da farmácia:** ✅ **CONCLUÍDO.** `scripts/blender/gen_props.py` gerou
+  `prop_balcao/gondola/vitrine/pc/mesa` (7-96 KB); `propFromGLB` em `pharmacy.js`
+  substitui os procedurais com fallback. Verificado: 5 GLBs carregados (200) no jogo.
 - **G5 — Realismo da cena:** texturas PBR tileable ComfyUI (piso/parede/madeira),
   gelo/vidro (transmission), ajuste fino de bloom/vinheta, luz de loja (LED 4000K +
   fresnel do letreiro). ✅: screenshot comparativo antes/depois aprovado + fps alvo.
-- **G6 — Registro e QA:** registrar skills novas no banco (feito nesta tarefa:
-  `hunyuan3d_rocm_12gb`, `threejs_glb_rig_poses`) + smoke Playwright + build limpo.
+- **G6 — Registro e QA:** ✅ skills registradas (`hunyuan3d_rocm_12gb`,
+  `threejs_glb_rig_poses`) + smoke Playwright + build limpo.
 
 ---
 

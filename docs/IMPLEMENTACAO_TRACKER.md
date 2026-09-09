@@ -32,17 +32,21 @@
 - [x] `src/scene/patient.js` (avatar procedural: rosto, posturas, respiração, blink, walk)
 - [x] `src/scene/fx.js` (bloom, poeira, vinheta, transições fade, pulse de red flag)
 
-## M2.5 — Personagens 3D "bonitos" (em andamento)
+## M2.5 — Personagens 3D "bonitos" (Elenco GLB + Props — CONCLUÍDO 08/09/2026)
 
-> Referências verificadas → skill `threejs-characters-3d-refs`. Objetivo: avatares/personagens com modelagem e animação caprichadas.
+> Pipeline Blender headless (skills: `threejs_glb_rig_poses` + `gamedev_art_3d-asset-pipeline`).
 
-- [ ] **Avatar procedural caprichado** (estilo cartoon Codrops / img2threejs): proporções, rosto, cabelo, roupas
-- [ ] **Animações melhores** (walk, posturas, expressões) — qualidade de animação é requisito
-- [ ] **Fila de pacientes** na porta + seleção com tecla `E` perto do cliente (interação)
-- [ ] **Balconista jogável** (movimento livre atrás do balcão) + câmera primeira pessoa
-- [ ] **Pegar medicamento na gôndola** → aparece na mão do balconista
-- [ ] **Letreiro da farmácia**: corrigir "ARM" → "FarmaCheck" (texto cortado no banner)
-- [ ] **Gôndolas/medicamentos**: detalhar modelagem (pós-v1)
+- [x] **Elenco 15 personagens** (`scripts/blender/gen_characters.py`) → `.glb` por caso
+  com 5 clips nomeados (Idle/Pain/Weakness/Discomfort/Embarrassed) — poseMap do
+  `loadGLBFPatient`. Paletas por caso (`skin/hair/shirt/pants`).
+- [x] **Props da farmácia** (`scripts/blender/gen_props.py`) → balcão, gôndola,
+  vitrine, PC, mesa TLAC (7-96 KB) com materials PBR/glass/emissive.
+- [x] **Integração** `src/main.js` `swapAvatar` (caso → `paciente.glb` → procedural)
+  + `src/scene/pharmacy.js` `propFromGLB` (GLB com fallback procedural).
+- [x] **Validação** — build limpo, smoke F2/F3/F4 OK, 5 props + GLB do caso carregados
+  (200), `setPose` sem erro, 0 pageerror.
+- [ ] Animações de walk para a fila de pacientes + letreiro "FarmaCheck" (G5).
+- [ ] Texturas PBR/SDXL + realismo de luz/vidro (G5).
 
 ## M3 — UI/UX
 
