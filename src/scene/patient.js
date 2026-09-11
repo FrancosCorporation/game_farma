@@ -320,53 +320,250 @@ export class PatientAvatar {
 }
 
 /**
- * PIPELINE FOTO → 3D (pessoas reais):
- *   1. foto → fotogrametria/IA (Meshy · Luma · Polycam · Hyper3D Rodin) → .glb
- *   2. retopologia (< 30k tris) + rig Mixamo (anims: Idle, Pain, Embarrassed, Discomfort, Weakness)
- *   3. salvar em public/models/<caseId>.glb  → o main.js carrega e usa (fallback = procedural)
- * Mesmo contrato: enter/leave/setPose/setMood/update.
+ * Avatares GLB rigados (humanoid Mixamo-style, ex.: paciente_real.glb "Eric Rigged").
+ * As poses semiológicas usam ângulos calibrados por scripts/calibrate_rig.mjs
+ * (src/data/rigParams.json) aplicados por bone com lerp suave — sem clips embutidos.
+ * Contrato: enter/leave/setPose/setMood/update/setStyle — mesmo do procedural.
  */
+import rigParams from '../data/rigParams.json' with { type: 'json' };
+
+const BONE_POSES = {
+  idle: {},
+  mao_no_peito: (p) => ({ ...p.mao_no_peito }),
+  cabeca_baixa: (p) => ({ ...p.cabeca_baixa }),
+  curvado: (p) => ({ ...p.curvado, ...p.cabeca_baixa }),
+};
+
 export async function loadGLBFPatient(url, scene) {
   const gltf = await new GLTFLoader().loadAsync(url);
-  const model = gltf.scene;
-  const box = new THREE.Box3().setFromObject(model);
+  const inner = gltf.scene;
+  const box = new THREE.Box3().setFromObject(inner);
   const size = box.getSize(new THREE.Vector3());
   const scale = 1.72 / Math.max(size.y, 1e-4);
-  model.scale.setScalar(scale);
-  box.setFromObject(model);
+  inner.scale.setScalar(scale);
+  box.setFromObject(inner);
   const center = box.getCenter(new THREE.Vector3());
-  model.position.x -= center.x;
-  model.position.z -= center.z;
-  model.position.y = -box.min.y;
-  model.traverse((o) => {
-    if (o.isMesh) o.castShadow = true;
+  inner.position.x -= center.x;
+  inner.position.z -= center.z;
+  inner.position.y = -box.min.y;
+
+  // PBR: sombras + upgrade de pele (sheen fake-SSS) e olhos (clearcoat)
+  inner.traverse((o) => {
+    if (!o.isMesh && !o.isSkinnedMesh) return;
+    o.castShadow = true;
+    o.frustumCulled = false; // skinned mesh some se o bounding não acompanha bones
+    if (!o.material) return;
+    const nm = (o.material.name || '').toLowerCase();
+    if (/skin/.test(nm)) {
+      const up = new THREE.MeshPhysicalMaterial({
+        map: o.material.map, color: o.material.color?.clone() ?? new THREE.Color(1, 1, 1),
+        roughness: 0.62, metalness: 0, sheen: 0.5, sheenRoughness: 0.6,
+        sheenColor: new THREE.Color(0xffe0c0), skinning: true,
+      });
+      o.material = up;
+    } else if (/eye/.test(nm)) {
+      const up = new THREE.MeshPhysicalMaterial({
+        map: o.material.map, color: o.material.color?.clone() ?? new THREE.Color(1, 1, 1),
+        roughness: 0.15, metalness: 0, clearcoat: 1, clearcoatRoughness: 0.1, skinning: true,
+      });
+      o.material = up;
+    }
+    o.material.transparent = false;
+    o.material.opacity = 1;
   });
-  scene.add(model);
-  const mixer = new THREE.AnimationMixer(model);
-  const clips = {};
-  for (const clip of gltf.animations) clips[clip.name] = mixer.clipAction(clip);
-  const poseMap = { idle: 'Idle', mao_no_peito: 'Pain', curvado: 'Weakness', cabeca_baixa: 'Discomfort' };
-  let active = null;
-  return {
-    setStyle() {},
-    setMood() {},
+
+  // Rim light frio atrás do paciente (perfil contra o fundo escuro)
+  const rim = new THREE.PointLight(0x8fb6ff, 3.2, 4.5);
+
+  // Pacote completo (paciente + rim) dentro de um grupo de posicionamento
+  const root = new THREE.Group();
+  root.add(inner);
+  root.add(rim);
+  scene.add(root);
+
+  // Mapa de bones por nome
+  const bones = new Map();
+  inner.traverse((o) => { if (o.isBone) bones.set(o.name, o); });
+  const restEuler = new Map(); // euler de repouso por bone
+  const curRot = new Map();    // euler extra atual (interpolação)
+  for (const [name, b] of bones) {
+    restEuler.set(name, b.rotation.clone());
+    curRot.set(name, new THREE.Euler());
+  }
+  const B = (n) => bones.get(n);
+
+  // Materiais para tint de roupa (setStyle): clones por nome
+  const tintables = [];
+  inner.traverse((o) => {
+    if (!o.isSkinnedMesh && !o.isMesh) return;
+    if (!o.material || o.material.userData._tintable) return;
+    o.material = o.material.clone();
+    o.material.userData._tintable = true;
+    tintables.push(o.material);
+  });
+
+  // Estado interno
+  let poseName = 'idle';
+  let poseRot = {};                      // boneName -> target Euler extra
+  let mood = 'neutro';
+  let walking = null;                    // { from, to, dur, t, res }
+  let blinkT = 2;                        // countdown p/ piscar
+  let blinkAnim = 0;                     // 0..1 durante a piscada
+  const speak = { active: false, t: 0, phase: 0 };
+  const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Sombra de contato (elipse suave sob os pés)
+  const contactTex = (() => {
+    const c = document.createElement('canvas'); c.width = c.height = 128;
+    const g = c.getContext('2d');
+    const grad = g.createRadialGradient(64, 64, 6, 64, 64, 62);
+    grad.addColorStop(0, 'rgba(0,0,0,0.55)'); grad.addColorStop(1, 'rgba(0,0,0,0)');
+    g.fillStyle = grad; g.fillRect(0, 0, 128, 128);
+    return new THREE.CanvasTexture(c);
+  })();
+  const contact = new THREE.Mesh(
+    new THREE.PlaneGeometry(0.9, 0.55),
+    new THREE.MeshBasicMaterial({ map: contactTex, transparent: true, depthWrite: false })
+  );
+  contact.rotation.x = -Math.PI / 2;
+  contact.position.y = 0.012;
+  root.add(contact);
+
+  // Aplica calibração: resolve eixos (rigParams guarda o euler add por bone)
+  function computeTargets() {
+    const fn = BONE_POSES[poseName] || BONE_POSES.idle;
+    poseRot = fn(rigParams);
+    if (mood === 'dolorido') {
+      // sobrancelha franzida: soma o yaw "dor" levemente
+      for (const n of ['eyebrow_l_021', 'eyebrow_r_022']) {
+        const b = B(n);
+        if (b) poseRot[n] = poseRot[n] || [0, 0, poseName === 'idle' ? 0.18 : 0.12];
+      }
+    }
+  }
+  computeTargets();
+
+  // Expediente extra: TTS hooka nisto via window.__patientSpeak
+  const api = {
+    setMood(m) { mood = m || 'neutro'; computeTargets(); },
     setPose(name) {
-      const clip = clips[poseMap[name] || 'Idle'];
-      if (clip && clip !== active) {
-        active?.stop();
-        active = clip;
-        active.reset().play();
+      if (!BONE_POSES[name] && poseName === name) return;
+      poseName = BONE_POSES[name] ? name : 'idle';
+      computeTargets();
+    },
+    setStyle(a = {}) {
+      for (const m of tintables) {
+        const nm = (m.name || '').toLowerCase();
+        const col = /shirt|cloth|top|jacket/.test(nm) ? a.camisa
+          : /pant|jean|trouser|leg/.test(nm) ? a.calca
+          : /hair/.test(nm) ? a.cabelo
+          : /skin/.test(nm) ? a.pele
+          : /shoe|boot/.test(nm) ? a.sapato
+          : null;
+        if (col != null && m.color) m.color.set(col);
       }
     },
-    async enter() {
-      model.visible = true;
+    // TTS chama início/fim de fala: acena com a cabeça enquanto "fala"
+    speakStart() { speak.active = true; speak.t = 0; },
+    speakEnd() { speak.active = false; },
+    async enter(aparencia) {
+      this.setStyle(aparencia || {});
       this.setPose('idle');
+      root.visible = true;
+      return this.walk(new THREE.Vector3(2.6, 0, -4.6), new THREE.Vector3(0, 0, 0.55), 2.2);
     },
     async leave() {
-      model.visible = false;
+      await this.walk(new THREE.Vector3(0, 0, 0.55), new THREE.Vector3(2.6, 0, -4.6), 1.8);
+      root.visible = false;
     },
-    update(dt) {
-      mixer.update(dt);
+    walk(from, to, dur) {
+      return new Promise((res) => { walking = { from, to, dur, t: 0, res }; root.position.copy(from); });
     },
+    getModel: () => inner,
+    update(dt, t) {
+      // -------- caminhada --------
+      if (walking) {
+        const w = walking;
+        w.t += dt;
+        const p = Math.min(1, w.t / w.dur);
+        const e = p * p * (3 - 2 * p);
+        root.position.lerpVectors(w.from, w.to, e);
+        root.rotation.y = Math.atan2(w.to.x - w.from.x, w.to.z - w.from.z) || 0;
+        // passo cíclico nas pernas (eixo calibrado em rigParams.walk)
+        if (!reduceMotion) {
+          const step = Math.sin(w.t * 7);
+          const legL = B('upperleg_l_074'), legR = B('upperleg_r_081');
+          const shinL = B('lowerleg_l_075'), shinR = B('lowerleg_r_082');
+          const wl = rigParams.walk.upperleg_l_074;
+          const wr = rigParams.walk.upperleg_r_081;
+          if (legL) curRot.get('upperleg_l_074').set(wl[0] * step * 0.5, wl[1] * step * 0.5, wl[2] * step * 0.5);
+          if (legR) curRot.get('upperleg_r_081').set(wr[0] * step * 0.5, wr[1] * step * 0.5, wr[2] * step * 0.5);
+          const bend = Math.max(0, -step) * 0.9;
+          if (shinL && curRot.get('lowerleg_l_075')) curRot.get('lowerleg_l_075').z = bend * Math.abs(rigParams.walk.lowerleg_l_075[2]);
+          if (shinR && curRot.get('lowerleg_r_082')) curRot.get('lowerleg_r_082').z = bend * -Math.abs(rigParams.walk.lowerleg_l_075[2]);
+          root.position.y = Math.abs(Math.sin(w.t * 7)) * 0.02;
+        }
+        if (p >= 1) {
+          const done = w.res; walking = null; root.position.y = 0; root.rotation.y = 0;
+          // zera rotação de passo
+          for (const n of ['upperleg_l_074', 'upperleg_r_081', 'lowerleg_l_075', 'lowerleg_r_082'])
+            curRot.get(n)?.set(0, 0, 0);
+          done();
+        }
+        return; // durante o walk não interpola pose nem muda resto
+      }
+
+      // -------- interpolação de pose (lerp dos eulers calibrados) --------
+      const k = Math.min(1, dt * 3.2);
+      for (const [name] of bones) {
+        const tgt = poseRot[name] || [0, 0, 0];
+        const c = curRot.get(name);
+        c.x += (tgt[0] - c.x) * k;
+        c.y += (tgt[1] - c.y) * k;
+        c.z += (tgt[2] - c.z) * k;
+        const b = bones.get(name);
+        const r = restEuler.get(name);
+        b.rotation.set(r.x + c.x, r.y + c.y, r.z + c.z);
+      }
+
+      // -------- vida: respiração, piscar, olhar --------
+      if (!reduceMotion) {
+        const br = Math.sin(t * 2.0) * 0.012;
+        const sp2 = B('spine_03_05'); if (sp2) sp2.rotation.x += br;
+        const hd = B('head_07'); if (hd) hd.rotation.z += Math.sin(t * 0.9) * 0.006;
+
+        // piscar (eyelid: eixo calibrado = Z é o dominante)
+        blinkT -= dt;
+        if (blinkT <= 0) { blinkT = 2.4 + Math.random() * 2.6; blinkAnim = 0.14; }
+        if (blinkAnim > 0) {
+          blinkAnim -= dt;
+          const s = Math.abs(Math.sin((0.14 - blinkAnim) * 40));
+          const bl = B('eyelid_l_017'), brr = B('eyelid_r_019');
+          const amp = s * 0.55; // rad estimado p/ cobrir
+          if (bl) bl.rotation.z += amp;
+          if (brr) brr.rotation.z -= amp;
+        }
+
+        // fala: leve nod da cabeça + micro yaw enquanto TTS fala
+        if (speak.active) {
+          speak.t += dt;
+          const nod = Math.sin(speak.t * 6.4) * 0.045;
+          const sway = Math.sin(speak.t * 0.7) * 0.04;
+          if (hd) { hd.rotation.x += nod; hd.rotation.y += sway; }
+        }
+      }
+    },
+    get _speakHook() { return (on) => (on ? api.speakStart() : api.speakEnd()); },
   };
+
+  // Integra fala do TTS se existir
+  try {
+    import('../audio/tts.js').then(({ TTS }) => {
+      if (TTS && typeof TTS.hookSpeak === 'function') TTS.hookSpeak(api._speakHook);
+    }).catch(() => {});
+  } catch { /* opcional */ }
+
+  rim.position.set(0.6, 2.2, -1.2); // atrás do paciente (no balcão)
+  root.visible = false;
+  return api;
 }

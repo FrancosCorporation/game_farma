@@ -31,6 +31,10 @@ export const TTS = {
   voiceName: 'pt-BR', // voz/persona para o endpoint
   currentCaseId: '',
   _cache: new Map(),
+  _speakHooks: new Set(), // callbacks sincronismo (ex.: micro-gesto da cabeça no avatar)
+
+  hookSpeak(fn) { if (typeof fn === 'function') this._speakHooks.add(fn); },
+  _notifySpeak(on) { this._speakHooks.forEach((f) => { try { f(on); } catch { /* noop */ } }); },
 
   init() {
     if (!('speechSynthesis' in window)) return;
@@ -66,11 +70,16 @@ export const TTS = {
   async play(text) {
     if (!this.enabled || !text) return;
     const clean = this.normalize(text);
-    const onTheFly = this._playApi(clean);
-    if (onTheFly) return onTheFly;
-    if (this._playAsset(clean)) return Promise.resolve();
-    this._playNative(clean);
-    return Promise.resolve();
+    this._notifySpeak(true);
+    const done = () => this._notifySpeak(false);
+    try {
+      const onTheFly = await this._playApi(clean);
+      if (onTheFly) await onTheFly;
+      else if (this._playAsset(clean)) await new Promise((r) => setTimeout(r, Math.min(4000, clean.length * 55)));
+      else this._playNative(clean);
+    } finally {
+      done();
+    }
   },
 
   _playAsset(text) {
@@ -91,7 +100,7 @@ export const TTS = {
         const cached = this._cache.get(text);
         cached.currentTime = 0;
         cached.play().catch(() => {});
-        return;
+        return true;
       }
       const res = await fetch(`${this.ttsUrl.replace(/\/$/, '')}/audio/speech`, {
         method: 'POST',
@@ -109,6 +118,7 @@ export const TTS = {
       const audio = new Audio(url);
       this._cache.set(text, audio);
       audio.play().catch(() => {});
+      return true;
     } catch {
       return null;
     }

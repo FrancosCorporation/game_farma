@@ -27,57 +27,49 @@ const pov = createPOV({
   povControl: api.povControl,
 });
 
-// NPC: começa com o avatar procedural; o GLB do caso é montado no startCase
-// (swapAvatar → loadGLBFPatient com fallback em cadeia: <caseId>.glb → paciente.glb → procedural).
-let avatar = new PatientAvatar(api.scene);
-api.addTicker((dt, t) => avatar.update(dt, t));
-
-
-TTS.init();
-
-// F0 — i18n do shell + tela de capa (antes de qualquer fluxo do jogo)
-initI18n();
-initCapa();
-
+// Progresso + jogo (game precisa existir antes do avatar, que referencia game.avatar)
 const progress = createProgressStore();
-const game = new Game({ avatar, cases: CASES, fx: api.fx, progress });
+let avatar = null;
+const game = new Game({ avatar: null, cases: CASES, fx: api.fx, progress });
 game.phases = PHASES;
 
-// G2/G3 — elenco 3D: um .glb por caso (public/models/<caseId>.glb) com 5 clips
-// (Idle/Pain/Weakness/Discomfort/Embarrassed). Fallback: paciente.glb → procedural.
-// Blindado com timeout: o jogo NUNCA trava por causa de GLB (cai p/ procedural).
+// NPC: avatar realista (paciente_real.glb — Eric Rigged, CC-BY) é o padrão.
+// Por caso, troca para models/<caseId>.glb; se falhar, mantém o atual.
 const avatarCache = new Map();
-const withTimeout = (p, ms, label) => Promise.race([
-  p,
-  new Promise((_, rej) => setTimeout(() => rej(new Error(`timeout ${ms}ms em ${label}`)), ms)),
-]);
+const withTimeout = (p, ms) =>
+  Promise.race([p, new Promise((_, rej) => setTimeout(() => rej(new Error(`timeout ${ms}ms`)), ms))]);
+
 async function mountAvatar(model) {
-  try {
-    await withTimeout(avatar.leave?.() ?? Promise.resolve(), 4000, 'avatar.leave');
-  } catch { /* segue mesmo se a saída travar */ }
+  if (avatar === model) return model;
+  try { await withTimeout(avatar?.leave?.() ?? Promise.resolve(), 4000); } catch { /* segue */ }
   avatar = model;
   game.avatar = model;
-  try {
-    await withTimeout(model.enter?.() ?? Promise.resolve(), 6000, 'avatar.enter');
-  } catch { /* entra mesmo sem animação de entrada */ }
+  try { await withTimeout(model.enter?.(game.case?.persona?.aparencia) ?? Promise.resolve(), 6000); } catch { /* segue */ }
+  return model;
 }
+
+// boot: sobe o paciente realista imediatamente (não espera o primeiro caso)
+try {
+  const initial = await loadGLBFPatient('models/paciente_real.glb', api.scene);
+  avatarCache.set('paciente_real', initial);
+  avatar = initial; game.avatar = initial;
+  api.addTicker((dt, t) => initial.update(dt, t));
+} catch {
+  avatar = new PatientAvatar(api.scene);
+  game.avatar = avatar;
+  api.addTicker((dt, t) => avatar.update(dt, t));
+}
+
 async function swapAvatar(caseId) {
   if (!caseId) return;
   if (avatarCache.has(caseId)) return mountAvatar(avatarCache.get(caseId));
   try {
     const m = await loadGLBFPatient(`models/${caseId}.glb`, api.scene);
     avatarCache.set(caseId, m);
+    api.addTicker((dt, t) => m.update(dt, t));
     return mountAvatar(m);
   } catch {
-    // caso sem GLB próprio → paciente.glb genérico → procedural atual
-    if (!avatarCache.has('paciente')) {
-      try {
-        avatarCache.set('paciente', await loadGLBFPatient('models/paciente.glb', api.scene));
-      } catch {
-        return; // fica no procedural
-      }
-    }
-    if (avatar !== avatarCache.get('paciente')) return mountAvatar(avatarCache.get('paciente'));
+    return; // caso sem GLB próprio → mantém o realista atual
   }
 }
 const startCaseBase = game.startCase.bind(game);
@@ -86,6 +78,11 @@ game.startCase = async function (caseDef, opts) {
   return startCaseBase(caseDef, opts);
 };
 
+TTS.init();
+
+// F0 — i18n do shell + tela de capa (antes de qualquer fluxo do jogo)
+initI18n();
+initCapa();
 
 // F2/F3/F4 — HUD de pontos de interesse (bulario/TLAC/DSF) acoplado às fases do atendimento
 const atendimento = initAtendimento({ game, pov });
@@ -94,8 +91,6 @@ game.setFase = (f) => {
   setFaseBase(f);
   atendimento.setAtendimento(f === 'Anamnese' || f === 'Decisão');
 };
-// F1 — barra visível também quando o caso abre (startCase define a fase via setFase;
-// este gatilho garante a barra mesmo se a fase base отличаться)
 
 // Config do servidor de IA (persistida em localStorage)
 const saved = loadLLMConfig();
