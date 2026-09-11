@@ -38,4 +38,20 @@ export function initCapa() {
   });
 
   markLang();
+
+  // Chips de idioma com animação ao trocar (feedback visível do toggle)
+  for (const chip of [pt, en]) {
+    chip.addEventListener('click', () => {
+      chip.classList.remove('lang-bump');
+      void chip.offsetWidth; // reinicia a animação
+      chip.classList.add('lang-bump');
+    });
+  }
+  // Insere o keyframe uma única vez
+  if (!document.getElementById('lang-bump-style')) {
+    const s = document.createElement('style');
+    s.id = 'lang-bump-style';
+    s.textContent = '@keyframes lang-pop{0%{transform:scale(1)}40%{transform:scale(.82)}70%{transform:scale(1.08)}100%{transform:scale(1)}} .lang-bump{animation:lang-pop .28s ease}';
+    document.head.appendChild(s);
+  }
 }

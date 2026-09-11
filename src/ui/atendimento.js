@@ -57,6 +57,19 @@ export function initAtendimento({ game, pov }) {
   btnDsf.addEventListener('click', comSfx(() => abrirPainel('dsf', 'paciente')));
   btnPaciente.addEventListener('click', comSfx(voltarPaciente));
 
+  // Tecla E: interage com o ponto de interesse da zona atual da câmera
+  document.addEventListener('keydown', (e) => {
+    if (e.key.toLowerCase() !== 'e') return;
+    if (e.target && /input|textarea|select/i.test(e.target.tagName)) return;
+    if (!emAtendimento()) return;
+    if (pov.zonaAtual() === 'computador') abrirPainel('bulario', 'computador');
+    else if (pov.zonaAtual() === 'mesa') abrirPainel('tlac', 'mesa');
+    else {
+      const input = document.getElementById('chat-input');
+      if (input && !input.disabled) input.focus();
+    }
+  });
+
   // Escape: fecha painel → senão volta ao paciente (capa/referências têm seu próprio handler)
   document.addEventListener('keydown', (e) => {
     if (e.key !== 'Escape') return;
@@ -65,6 +78,17 @@ export function initAtendimento({ game, pov }) {
   });
 
   pov.onChange(atualizarBarra);
+  pov.onChange((zona) => {
+    const hint = document.getElementById('hint-e');
+    const txt = document.getElementById('hint-e-texto');
+    if (!hint || !txt) return;
+    const ativo = emAtendimento();
+    hint.hidden = !ativo;
+    if (!ativo) return;
+    txt.textContent = zona === 'computador' ? 'para consultar o computador (bulário)'
+      : zona === 'mesa' ? 'para realizar teste rápido (TLAC)'
+      : 'para conversar com o paciente';
+  });
 
   // Controla a visibilidade da barra conforme a fase do atendimento (chamado via game.setFase)
   function setAtendimento(on) {

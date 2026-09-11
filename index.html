@@ -43,6 +43,23 @@
       <span id="pov-dica" class="hidden md:inline text-[10px] text-slate-500" data-i18n="pov.dica">Arraste para olhar ao redor · 1/2/3 trocam de ponto</span>
     </div>
 
+    <!-- Banner contextual de interação (E) — aparece conforme a zona da câmera -->
+    <div id="hint-e" hidden class="absolute bottom-16 left-1/2 -translate-x-1/2 z-10 pointer-events-none">
+      <div class="px-3 py-1.5 rounded-full bg-slate-900/85 backdrop-blur border border-teal-400/30
+                  text-teal-200 text-xs font-medium shadow-lg shadow-teal-900/30">
+        Pressione <kbd class="px-1.5 py-0.5 rounded bg-teal-500/20 border border-teal-400/40 font-semibold">E</kbd>
+        <span id="hint-e-texto">para interagir</span>
+      </div>
+    </div>
+
+    <!-- Dica fixa de controles (rodapé esquerdo, sutil) -->
+    <div id="dica-controles" class="absolute bottom-0 left-0 right-0 z-[5] pointer-events-none
+         flex justify-center pb-1 opacity-60 hover:opacity-95 transition-opacity">
+      <div class="text-[10px] text-slate-500 bg-slate-950/50 backdrop-blur-sm rounded-t-lg px-3 py-1 border-t border-x border-white/5">
+        🖱️ arrastar=olhar · <kbd>E</kbd>=interagir · <kbd>1</kbd>=paciente <kbd>2</kbd>=PC <kbd>3</kbd>=mesa · <kbd>R</kbd>=repetir fala · <kbd>Esc</kbd>=fechar
+      </div>
+    </div>
+
     <!-- Chat (anamnese) -->
     <section id="chat" class="absolute right-0 top-10 bottom-0 w-full sm:w-[400px] flex flex-col
                               bg-slate-900/60 backdrop-blur-md border-l border-white/10 pointer-events-auto">
