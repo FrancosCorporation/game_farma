@@ -1,0 +1,1692 @@
+Kind: captions
+Language: en
+In this tutorial, I'm taking you through
+In this tutorial, I'm taking you through
+In this tutorial, I'm taking you through
+how I made this PlayStation one style
+how I made this PlayStation one style
+how I made this PlayStation one style
+character. It's got different
+character. It's got different
+character. It's got different
+overlapping sections, which is the way
+overlapping sections, which is the way
+overlapping sections, which is the way
+many of the PlayStation 1 models were
+many of the PlayStation 1 models were
+many of the PlayStation 1 models were
+created. And it's something that's
+created. And it's something that's
+created. And it's something that's
+relatively straightforward to produce.
+relatively straightforward to produce.
+relatively straightforward to produce.
+So, it's suitable for relatively
+So, it's suitable for relatively
+So, it's suitable for relatively
+newcomers to Blender who've got a little
+newcomers to Blender who've got a little
+newcomers to Blender who've got a little
+bit of experience with things like the
+bit of experience with things like the
+bit of experience with things like the
+mirror modifier, adding loop cuts, and
+mirror modifier, adding loop cuts, and
+mirror modifier, adding loop cuts, and
+so forth. If you're not quite there yet,
+so forth. If you're not quite there yet,
+so forth. If you're not quite there yet,
+then do check out my complete beginner's
+then do check out my complete beginner's
+then do check out my complete beginner's
+guide. And if you like this sort of
+guide. And if you like this sort of
+guide. And if you like this sort of
+content and you want to make more
+content and you want to make more
+content and you want to make more
+detailed characters, then do check out
+detailed characters, then do check out
+detailed characters, then do check out
+the different courses you can see here.
+the different courses you can see here.
+the different courses you can see here.
+Links for these are all in the
+Links for these are all in the
+Links for these are all in the
+description. So, let's get started
+description. So, let's get started
+description. So, let's get started
+making this cool looking PlayStation 1
+making this cool looking PlayStation 1
+making this cool looking PlayStation 1
+character. So, I'm in a new startup
+character. So, I'm in a new startup
+character. So, I'm in a new startup
+file. I'm in Blender 4.5.3
+file. I'm in Blender 4.5.3
+file. I'm in Blender 4.5.3
+and I've got my screencast keys down the
+and I've got my screencast keys down the
+and I've got my screencast keys down the
+bottom here so you can see what I'm
+bottom here so you can see what I'm
+bottom here so you can see what I'm
+clicking. Now, I'll use the default cube
+clicking. Now, I'll use the default cube
+clicking. Now, I'll use the default cube
+to create my models. But before we
+to create my models. But before we
+to create my models. But before we
+start, let's bring in a reference image.
+start, let's bring in a reference image.
+start, let's bring in a reference image.
+Here's the reference image that I'm
+Here's the reference image that I'm
+Here's the reference image that I'm
+using and you can take a screenshot here
+using and you can take a screenshot here
+using and you can take a screenshot here
+or you can download it from my Gumroad
+or you can download it from my Gumroad
+or you can download it from my Gumroad
+link in the description and you can
+link in the description and you can
+link in the description and you can
+click and drag your references into your
+click and drag your references into your
+click and drag your references into your
+scene. So find the file, click and drag,
+scene. So find the file, click and drag,
+scene. So find the file, click and drag,
+bring it in like so. Now in Blender,
+bring it in like so. Now in Blender,
+bring it in like so. Now in Blender,
+it's at a strange angle which is
+it's at a strange angle which is
+it's at a strange angle which is
+actually perpendicular to the viewport
+actually perpendicular to the viewport
+actually perpendicular to the viewport
+as I brought it in. We need to press
+as I brought it in. We need to press
+as I brought it in. We need to press
+AltG to remove any movement. So G being
+AltG to remove any movement. So G being
+AltG to remove any movement. So G being
+the movement button and alt R to remove
+the movement button and alt R to remove
+the movement button and alt R to remove
+any rotation. And that will put it right
+any rotation. And that will put it right
+any rotation. And that will put it right
+back in the center here. So, I'll zoom
+back in the center here. So, I'll zoom
+back in the center here. So, I'll zoom
+in a touch and let's press RX90 to
+in a touch and let's press RX90 to
+in a touch and let's press RX90 to
+rotate it round so we can see the front
+rotate it round so we can see the front
+rotate it round so we can see the front
+view. And let's go to front view with
+view. And let's go to front view with
+view. And let's go to front view with
+one on my numpad or you can use the
+one on my numpad or you can use the
+one on my numpad or you can use the
+cartisian coordinates up the top here.
+cartisian coordinates up the top here.
+cartisian coordinates up the top here.
+And I want to position that at the front
+And I want to position that at the front
+And I want to position that at the front
+here. So, the front view is right in the
+here. So, the front view is right in the
+here. So, the front view is right in the
+center. Now, it's hard to position at
+center. Now, it's hard to position at
+center. Now, it's hard to position at
+the moment because we can't see the grid
+the moment because we can't see the grid
+the moment because we can't see the grid
+in the background and we've got the cube
+in the background and we've got the cube
+in the background and we've got the cube
+in the way. I'll press Alt Z and that
+in the way. I'll press Alt Z and that
+in the way. I'll press Alt Z and that
+will take me to X-ray mode or that's
+will take me to X-ray mode or that's
+will take me to X-ray mode or that's
+X-ray mode just up here. And now I can
+X-ray mode just up here. And now I can
+X-ray mode just up here. And now I can
+see through the cube at least. But I
+see through the cube at least. But I
+see through the cube at least. But I
+need to sort my background image so I
+need to sort my background image so I
+need to sort my background image so I
+can see it more easily. So, with the
+can see it more easily. So, with the
+can see it more easily. So, with the
+background selected, I can go down to
+background selected, I can go down to
+background selected, I can go down to
+this icon down the bottom here, the
+this icon down the bottom here, the
+this icon down the bottom here, the
+object data properties. Click on that
+object data properties. Click on that
+object data properties. Click on that
+and tick the opacity. That way, I can
+and tick the opacity. That way, I can
+and tick the opacity. That way, I can
+start to see my grid. And I can, in
+start to see my grid. And I can, in
+start to see my grid. And I can, in
+fact, bring it down to something like 2.
+fact, bring it down to something like 2.
+fact, bring it down to something like 2.
+So, we can see it much more clearly.
+So, we can see it much more clearly.
+So, we can see it much more clearly.
+Now, I can zoom in a bit and G to grab
+Now, I can zoom in a bit and G to grab
+Now, I can zoom in a bit and G to grab
+and move it right in the center there.
+and move it right in the center there.
+and move it right in the center there.
+So, we've got the middle of the
+So, we've got the middle of the
+So, we've got the middle of the
+character following that middle line
+character following that middle line
+character following that middle line
+there. So, that's front view all set up.
+there. So, that's front view all set up.
+there. So, that's front view all set up.
+If I go round to perspective view here,
+If I go round to perspective view here,
+If I go round to perspective view here,
+I want to bring it backwards slightly.
+I want to bring it backwards slightly.
+I want to bring it backwards slightly.
+So, G then Y. so I can model in front of
+So, G then Y. so I can model in front of
+So, G then Y. so I can model in front of
+it. I also want the side image set up
+it. I also want the side image set up
+it. I also want the side image set up
+here. So with this selected, shift D to
+here. So with this selected, shift D to
+here. So with this selected, shift D to
+duplicate. And I've got a duplicate just
+duplicate. And I've got a duplicate just
+duplicate. And I've got a duplicate just
+here. But I'll right click so I don't
+here. But I'll right click so I don't
+here. But I'll right click so I don't
+move it anywhere. And I'll press R Z 90
+move it anywhere. And I'll press R Z 90
+move it anywhere. And I'll press R Z 90
+to rotate it around. So now I've got two
+to rotate it around. So now I've got two
+to rotate it around. So now I've got two
+reference images here. I can go to side
+reference images here. I can go to side
+reference images here. I can go to side
+view with three on my numpad. Remember
+view with three on my numpad. Remember
+view with three on my numpad. Remember
+you got the cartisian coordinates if you
+you got the cartisian coordinates if you
+you got the cartisian coordinates if you
+need to use those. And I can move this G
+need to use those. And I can move this G
+need to use those. And I can move this G
+then Y into position. So again, I can
+then Y into position. So again, I can
+then Y into position. So again, I can
+model in front of my references. And G
+model in front of my references. And G
+model in front of my references. And G
+then X to move it off to the side here.
+then X to move it off to the side here.
+then X to move it off to the side here.
+So I can model in this space here with
+So I can model in this space here with
+So I can model in this space here with
+my references. When I press one, I can
+my references. When I press one, I can
+my references. When I press one, I can
+get the reference to the front. And
+get the reference to the front. And
+get the reference to the front. And
+three, this is on my numpad. I can see
+three, this is on my numpad. I can see
+three, this is on my numpad. I can see
+my side view. So let's click on the cube
+my side view. So let's click on the cube
+my side view. So let's click on the cube
+now and start modeling the character. I
+now and start modeling the character. I
+now and start modeling the character. I
+go to front view and scale this down.
+go to front view and scale this down.
+go to front view and scale this down.
+And we'll start with the head. So G then
+And we'll start with the head. So G then
+And we'll start with the head. So G then
+zed. Most people start with the head.
+zed. Most people start with the head.
+zed. Most people start with the head.
+Often it's actually better to start with
+Often it's actually better to start with
+Often it's actually better to start with
+the chest, but most people feel more
+the chest, but most people feel more
+the chest, but most people feel more
+comfortable starting with the head. So
+comfortable starting with the head. So
+comfortable starting with the head. So
+I'll scale it right down so it's a
+I'll scale it right down so it's a
+I'll scale it right down so it's a
+similar width at least. Now I'm noticing
+similar width at least. Now I'm noticing
+similar width at least. Now I'm noticing
+my character isn't quite in the center.
+my character isn't quite in the center.
+my character isn't quite in the center.
+So I'll select the background. G. Then
+So I'll select the background. G. Then
+So I'll select the background. G. Then
+X. Let's move that across really
+X. Let's move that across really
+X. Let's move that across really
+slightly. And that looks a little bit
+slightly. And that looks a little bit
+slightly. And that looks a little bit
+more accurate. Doesn't have to be
+more accurate. Doesn't have to be
+more accurate. Doesn't have to be
+perfect. Click on my cube again, and we
+perfect. Click on my cube again, and we
+perfect. Click on my cube again, and we
+need to start editing the shape of the
+need to start editing the shape of the
+need to start editing the shape of the
+cube. Now, you can do this without a
+cube. Now, you can do this without a
+cube. Now, you can do this without a
+mirror modifier, but because it's
+mirror modifier, but because it's
+mirror modifier, but because it's
+symmetrical, it does make much more
+symmetrical, it does make much more
+symmetrical, it does make much more
+sense to use a mirror modifier in this
+sense to use a mirror modifier in this
+sense to use a mirror modifier in this
+case. So, I'll go into edit mode with
+case. So, I'll go into edit mode with
+case. So, I'll go into edit mode with
+tab. That's edit mode up the top here,
+tab. That's edit mode up the top here,
+tab. That's edit mode up the top here,
+and create a cut down the middle. So,
+and create a cut down the middle. So,
+and create a cut down the middle. So,
+CtrlR will create a loop cut. Left click
+CtrlR will create a loop cut. Left click
+CtrlR will create a loop cut. Left click
+once to set the loop cut, and left click
+once to set the loop cut, and left click
+once to set the loop cut, and left click
+again to set the position. And you can
+again to set the position. And you can
+again to set the position. And you can
+see I've got a loop cut through the
+see I've got a loop cut through the
+see I've got a loop cut through the
+middle of my cube. I can now go to face
+middle of my cube. I can now go to face
+middle of my cube. I can now go to face
+mode with three on my keyboard or face
+mode with three on my keyboard or face
+mode with three on my keyboard or face
+mode up here. Select half of my shape
+mode up here. Select half of my shape
+mode up here. Select half of my shape
+and press delete and then faces. So I've
+and press delete and then faces. So I've
+and press delete and then faces. So I've
+got half of my cube. I can then go to
+got half of my cube. I can then go to
+got half of my cube. I can then go to
+the modifiers down here. Add modifier.
+the modifiers down here. Add modifier.
+the modifiers down here. Add modifier.
+Start typing in mirror and select the
+Start typing in mirror and select the
+Start typing in mirror and select the
+mirror. And you can see I've got the
+mirror. And you can see I've got the
+mirror. And you can see I've got the
+other half of the cube the other side
+other half of the cube the other side
+other half of the cube the other side
+there. Remember I'm in X-ray mode. I can
+there. Remember I'm in X-ray mode. I can
+there. Remember I'm in X-ray mode. I can
+turn that off at any moment to see my
+turn that off at any moment to see my
+turn that off at any moment to see my
+cube more clearly. But it's helpful to
+cube more clearly. But it's helpful to
+cube more clearly. But it's helpful to
+model within X-ray mode so we can see
+model within X-ray mode so we can see
+model within X-ray mode so we can see
+the background. I'll go back to front
+the background. I'll go back to front
+the background. I'll go back to front
+view. And it might help if I turn on the
+view. And it might help if I turn on the
+view. And it might help if I turn on the
+on cage as it's known, which will show
+on cage as it's known, which will show
+on cage as it's known, which will show
+the results in edit mode. So you can see
+the results in edit mode. So you can see
+the results in edit mode. So you can see
+the other half, but I'll just be
+the other half, but I'll just be
+the other half, but I'll just be
+modifying this half. I'll turn clipping
+modifying this half. I'll turn clipping
+modifying this half. I'll turn clipping
+on as well. That will mean it will stay
+on as well. That will mean it will stay
+on as well. That will mean it will stay
+attached in the middle here. And I'll go
+attached in the middle here. And I'll go
+attached in the middle here. And I'll go
+to vertex mode. So that's vertx mode up
+to vertex mode. So that's vertx mode up
+to vertex mode. So that's vertx mode up
+here. And box select the vertices. I box
+here. And box select the vertices. I box
+here. And box select the vertices. I box
+select. So I make sure I select the back
+select. So I make sure I select the back
+select. So I make sure I select the back
+one as well. And then I can press G to
+one as well. And then I can press G to
+one as well. And then I can press G to
+grab and start moving these into
+grab and start moving these into
+grab and start moving these into
+position. So I'll bring that down for
+position. So I'll bring that down for
+position. So I'll bring that down for
+the chin here. Obviously, I need more
+the chin here. Obviously, I need more
+the chin here. Obviously, I need more
+topology around here. So I can press
+topology around here. So I can press
+topology around here. So I can press
+Ctrl+R to do a loop cut. It's not going
+Ctrl+R to do a loop cut. It's not going
+Ctrl+R to do a loop cut. It's not going
+all the way around until I actually
+all the way around until I actually
+all the way around until I actually
+double left click to set it in place
+double left click to set it in place
+double left click to set it in place
+because we're only modeling on this
+because we're only modeling on this
+because we're only modeling on this
+half. I can bring this across now.
+half. I can bring this across now.
+half. I can bring this across now.
+Perhaps bring this one in a little bit
+Perhaps bring this one in a little bit
+Perhaps bring this one in a little bit
+more now. And we can just slowly build
+more now. And we can just slowly build
+more now. And we can just slowly build
+up with another loop cut here. So,
+up with another loop cut here. So,
+up with another loop cut here. So,
+control R loop cut. Then bring this one
+control R loop cut. Then bring this one
+control R loop cut. Then bring this one
+across. And perhaps another one here.
+across. And perhaps another one here.
+across. And perhaps another one here.
+And we can kind of bring it up for the
+And we can kind of bring it up for the
+And we can kind of bring it up for the
+cheekbones there. So, we got the shape
+cheekbones there. So, we got the shape
+cheekbones there. So, we got the shape
+from the front here. Maybe a little bit
+from the front here. Maybe a little bit
+from the front here. Maybe a little bit
+down there. Let's go to side view now.
+down there. Let's go to side view now.
+down there. Let's go to side view now.
+So, we're in completely the wrong place
+So, we're in completely the wrong place
+So, we're in completely the wrong place
+for side view. So, I can go back into
+for side view. So, I can go back into
+for side view. So, I can go back into
+object mode for this. So, tab back into
+object mode for this. So, tab back into
+object mode for this. So, tab back into
+object mode. So, object mode up here. G,
+object mode. So, object mode up here. G,
+object mode. So, object mode up here. G,
+then Y, bring that forward and bring it
+then Y, bring that forward and bring it
+then Y, bring that forward and bring it
+into the middle there. Then back into
+into the middle there. Then back into
+into the middle there. Then back into
+edit mode with tab and start modifying
+edit mode with tab and start modifying
+edit mode with tab and start modifying
+the shape again. So, I can bring these
+the shape again. So, I can bring these
+the shape again. So, I can bring these
+in, bring these ones out, these ones in
+in, bring these ones out, these ones in
+in, bring these ones out, these ones in
+for the neck, these ones out,
+for the neck, these ones out,
+for the neck, these ones out,
+and I can select all these and rotate
+and I can select all these and rotate
+and I can select all these and rotate
+them. So, we got roughly the shape
+them. So, we got roughly the shape
+them. So, we got roughly the shape
+there, but it's very kind of square and
+there, but it's very kind of square and
+there, but it's very kind of square and
+flat at the front. So, let's add a loop
+flat at the front. So, let's add a loop
+flat at the front. So, let's add a loop
+cut down the middle here. Then, I can
+cut down the middle here. Then, I can
+cut down the middle here. Then, I can
+select all the way from here down to the
+select all the way from here down to the
+select all the way from here down to the
+bottom. So I can hold down control,
+bottom. So I can hold down control,
+bottom. So I can hold down control,
+select that, and then GG to slide these
+select that, and then GG to slide these
+select that, and then GG to slide these
+along like this, and then GG to slide
+along like this, and then GG to slide
+along like this, and then GG to slide
+them back into the middle. It's not
+them back into the middle. It's not
+them back into the middle. It's not
+quite the right shape, but it's much
+quite the right shape, but it's much
+quite the right shape, but it's much
+closer. Same for these ones here. From
+closer. Same for these ones here. From
+closer. Same for these ones here. From
+here, controll-click the bottom one. GG
+here, controll-click the bottom one. GG
+here, controll-click the bottom one. GG
+to slide across, and GG to slide back
+to slide across, and GG to slide back
+to slide across, and GG to slide back
+again. Let's go to side view again, and
+again. Let's go to side view again, and
+again. Let's go to side view again, and
+then start modifying the shape a little
+then start modifying the shape a little
+then start modifying the shape a little
+bit so it matches up with the reference.
+bit so it matches up with the reference.
+bit so it matches up with the reference.
+That's not too bad. Let's go to front
+That's not too bad. Let's go to front
+That's not too bad. Let's go to front
+view and see what we've got. Probably
+view and see what we've got. Probably
+view and see what we've got. Probably
+these back ones here look a little bit
+these back ones here look a little bit
+these back ones here look a little bit
+out. So, we can bring those out for the
+out. So, we can bring those out for the
+out. So, we can bring those out for the
+neck. Does take a little bit of sorting
+neck. Does take a little bit of sorting
+neck. Does take a little bit of sorting
+out and figuring out certain positions.
+out and figuring out certain positions.
+out and figuring out certain positions.
+I can bring these up. So, I can bring an
+I can bring these up. So, I can bring an
+I can bring these up. So, I can bring an
+ear out from there. And these ones can
+ear out from there. And these ones can
+ear out from there. And these ones can
+come down a little bit. And we've got a
+come down a little bit. And we've got a
+come down a little bit. And we've got a
+relatively good head shape there. Now,
+relatively good head shape there. Now,
+relatively good head shape there. Now,
+it's time for some extrusions. So, if I
+it's time for some extrusions. So, if I
+it's time for some extrusions. So, if I
+come around to the bottom, let's extrude
+come around to the bottom, let's extrude
+come around to the bottom, let's extrude
+out for the neck. So, extrusions are
+out for the neck. So, extrusions are
+out for the neck. So, extrusions are
+usually done in face mode. So, three to
+usually done in face mode. So, three to
+usually done in face mode. So, three to
+go to face mode. That's face mode up
+go to face mode. That's face mode up
+go to face mode. That's face mode up
+here. And I can select this bottom face.
+here. And I can select this bottom face.
+here. And I can select this bottom face.
+And the keyboard shortcut is E to
+And the keyboard shortcut is E to
+And the keyboard shortcut is E to
+extrude. And I can bring that down like
+extrude. And I can bring that down like
+extrude. And I can bring that down like
+so. Probably best to be in front view
+so. Probably best to be in front view
+so. Probably best to be in front view
+for this. And I'll bring that down to
+for this. And I'll bring that down to
+for this. And I'll bring that down to
+somewhere around here. So we can overlap
+somewhere around here. So we can overlap
+somewhere around here. So we can overlap
+what will be the body in the end. Let's
+what will be the body in the end. Let's
+what will be the body in the end. Let's
+go around to side view and look at the
+go around to side view and look at the
+go around to side view and look at the
+face there. I'll scale it up a bit and
+face there. I'll scale it up a bit and
+face there. I'll scale it up a bit and
+bring it backwards. And it's going to
+bring it backwards. And it's going to
+bring it backwards. And it's going to
+overlap the body here. Now you can up
+overlap the body here. Now you can up
+overlap the body here. Now you can up
+the detail by ctr and do a loop cut and
+the detail by ctr and do a loop cut and
+the detail by ctr and do a loop cut and
+then probably bring this one in a little
+then probably bring this one in a little
+then probably bring this one in a little
+bit like so. Again, you can go to front
+bit like so. Again, you can go to front
+bit like so. Again, you can go to front
+view to get the right size there. And
+view to get the right size there. And
+view to get the right size there. And
+you can always make this a little bit
+you can always make this a little bit
+you can always make this a little bit
+more curved just by doing a loop cut
+more curved just by doing a loop cut
+more curved just by doing a loop cut
+down the middle. But I'm going to keep
+down the middle. But I'm going to keep
+down the middle. But I'm going to keep
+it simple and cancel that. So we've got
+it simple and cancel that. So we've got
+it simple and cancel that. So we've got
+a nice simple shape there. The last
+a nice simple shape there. The last
+a nice simple shape there. The last
+thing for the head then is to work on
+thing for the head then is to work on
+thing for the head then is to work on
+the nose and the ear. So if I go to side
+the nose and the ear. So if I go to side
+the nose and the ear. So if I go to side
+view, we can see the nose extrudes out
+view, we can see the nose extrudes out
+view, we can see the nose extrudes out
+this way. Now you can do this fairly
+this way. Now you can do this fairly
+this way. Now you can do this fairly
+simply just by doing a loop cut around
+simply just by doing a loop cut around
+simply just by doing a loop cut around
+here and then bringing this shape out.
+here and then bringing this shape out.
+here and then bringing this shape out.
+But it is a little bit awkward the way
+But it is a little bit awkward the way
+But it is a little bit awkward the way
+it sits in here. So I'll undo that. So
+it sits in here. So I'll undo that. So
+it sits in here. So I'll undo that. So
+what I'll do instead is do a loop cut
+what I'll do instead is do a loop cut
+what I'll do instead is do a loop cut
+around the middle here. And then I can
+around the middle here. And then I can
+around the middle here. And then I can
+start shaping the nose by bringing these
+start shaping the nose by bringing these
+start shaping the nose by bringing these
+in and then extrude this face out. So
+in and then extrude this face out. So
+in and then extrude this face out. So
+three to go to face mode. this face just
+three to go to face mode. this face just
+three to go to face mode. this face just
+here. We can extrude it out with E to
+here. We can extrude it out with E to
+here. We can extrude it out with E to
+extrude. Scale it down. Bring that down
+extrude. Scale it down. Bring that down
+extrude. Scale it down. Bring that down
+as a nose there. Scale in the X. Bring
+as a nose there. Scale in the X. Bring
+as a nose there. Scale in the X. Bring
+that in. And we've got a very simple
+that in. And we've got a very simple
+that in. And we've got a very simple
+nose. Let's go to side view and actually
+nose. Let's go to side view and actually
+nose. Let's go to side view and actually
+line that up a bit better. And I'm
+line that up a bit better. And I'm
+line that up a bit better. And I'm
+changing across to vertex mode and face
+changing across to vertex mode and face
+changing across to vertex mode and face
+mode every now and again just to tidy
+mode every now and again just to tidy
+mode every now and again just to tidy
+things up. And let's do a little bit of
+things up. And let's do a little bit of
+things up. And let's do a little bit of
+tidying up just here. Rounding out these
+tidying up just here. Rounding out these
+tidying up just here. Rounding out these
+areas.
+areas.
+areas.
+And you can adjust the shape to your
+And you can adjust the shape to your
+And you can adjust the shape to your
+liking. Again, you can add some more
+liking. Again, you can add some more
+liking. Again, you can add some more
+detail going into face mode and I to
+detail going into face mode and I to
+detail going into face mode and I to
+insert a face this time. And then you
+insert a face this time. And then you
+insert a face this time. And then you
+can do more loop cuts across here. And
+can do more loop cuts across here. And
+can do more loop cuts across here. And
+then you can easily set up a shape for
+then you can easily set up a shape for
+then you can easily set up a shape for
+the eyes if you want to. Again, I'm
+the eyes if you want to. Again, I'm
+the eyes if you want to. Again, I'm
+going to undo that because that's more
+going to undo that because that's more
+going to undo that because that's more
+complicated than we need to be. Lastly
+complicated than we need to be. Lastly
+complicated than we need to be. Lastly
+though, you might want an ear. So again,
+though, you might want an ear. So again,
+though, you might want an ear. So again,
+round to side view. We want an ear
+round to side view. We want an ear
+round to side view. We want an ear
+coming out of here. So these two here, I
+coming out of here. So these two here, I
+coming out of here. So these two here, I
+to insert like this. E to extrude. And
+to insert like this. E to extrude. And
+to insert like this. E to extrude. And
+we got a very basic ear there. Just go
+we got a very basic ear there. Just go
+we got a very basic ear there. Just go
+to front view and move some of these
+to front view and move some of these
+to front view and move some of these
+vertices. So we got more of an ear
+vertices. So we got more of an ear
+vertices. So we got more of an ear
+shape. That's the one at the back there.
+Probably a little bit too pointy. So,
+Probably a little bit too pointy. So,
+Probably a little bit too pointy. So,
+I'll just bring those down a little bit.
+I'll just bring those down a little bit.
+I'll just bring those down a little bit.
+Like so.
+Like so.
+Like so.
+Okay. So, there's the finished head. Alt
+Okay. So, there's the finished head. Alt
+Okay. So, there's the finished head. Alt
+Z to come out of X-ray mode. And we've
+Z to come out of X-ray mode. And we've
+Z to come out of X-ray mode. And we've
+got a very basic face just there. Now,
+got a very basic face just there. Now,
+got a very basic face just there. Now,
+you can do some adjustments in sculpt
+you can do some adjustments in sculpt
+you can do some adjustments in sculpt
+mode if you like, if you know what
+mode if you like, if you know what
+mode if you like, if you know what
+you're doing there. Or you can just keep
+you're doing there. Or you can just keep
+you're doing there. Or you can just keep
+going in and modifying the shape
+going in and modifying the shape
+going in and modifying the shape
+slightly by moving vertices if you feel
+slightly by moving vertices if you feel
+slightly by moving vertices if you feel
+you need to. Remember
+to smooth out areas. You can select a
+to smooth out areas. You can select a
+to smooth out areas. You can select a
+row of vertices and GG to edge slide.
+row of vertices and GG to edge slide.
+row of vertices and GG to edge slide.
+And that kind of smooths it out. It's
+And that kind of smooths it out. It's
+And that kind of smooths it out. It's
+quite effective for that. And there we
+quite effective for that. And there we
+quite effective for that. And there we
+go. We've got a nice head shape.
+go. We've got a nice head shape.
+go. We've got a nice head shape.
+Actually, I'll just do the front as
+Actually, I'll just do the front as
+Actually, I'll just do the front as
+well.
+Now, the rest of the body is much easier
+Now, the rest of the body is much easier
+Now, the rest of the body is much easier
+than this. So, let's go to front view.
+than this. So, let's go to front view.
+than this. So, let's go to front view.
+I'll press shift rightclick to move my
+I'll press shift rightclick to move my
+I'll press shift rightclick to move my
+3D cursor into this position. Shift A to
+3D cursor into this position. Shift A to
+3D cursor into this position. Shift A to
+add mesh and then Q. Add that in. Scale
+add mesh and then Q. Add that in. Scale
+add mesh and then Q. Add that in. Scale
+it down. And a similar scenario to what
+it down. And a similar scenario to what
+it down. And a similar scenario to what
+we did with the head. We'll do a mirror
+we did with the head. We'll do a mirror
+we did with the head. We'll do a mirror
+modifier. So, into edit mode, CtrlR down
+modifier. So, into edit mode, CtrlR down
+modifier. So, into edit mode, CtrlR down
+the middle. Double leftclick to make
+the middle. Double leftclick to make
+the middle. Double leftclick to make
+sure that's in place. Just double check
+sure that's in place. Just double check
+sure that's in place. Just double check
+it's there as well. And then alt Z to go
+it's there as well. And then alt Z to go
+it's there as well. And then alt Z to go
+to X-ray. Three to go to face mode. And
+to X-ray. Three to go to face mode. And
+to X-ray. Three to go to face mode. And
+select that side there. And delete. And
+select that side there. And delete. And
+select that side there. And delete. And
+then faces. Now we can go across to our
+then faces. Now we can go across to our
+then faces. Now we can go across to our
+modifier, add modifier, and mirror. I'll
+modifier, add modifier, and mirror. I'll
+modifier, add modifier, and mirror. I'll
+go to front view. start lining things
+go to front view. start lining things
+go to front view. start lining things
+up. I'll do a loop cut first. Move these
+up. I'll do a loop cut first. Move these
+up. I'll do a loop cut first. Move these
+up a little bit. Move those across
+up a little bit. Move those across
+up a little bit. Move those across
+slightly. Ctrl R to do a loop cut here
+slightly. Ctrl R to do a loop cut here
+slightly. Ctrl R to do a loop cut here
+so we're ready for that arm socket
+so we're ready for that arm socket
+so we're ready for that arm socket
+there. These can scale down. Oh, I
+there. These can scale down. Oh, I
+there. These can scale down. Oh, I
+haven't turned clipping on. Notice that
+haven't turned clipping on. Notice that
+haven't turned clipping on. Notice that
+they shift apart here. I'll turn the on
+they shift apart here. I'll turn the on
+they shift apart here. I'll turn the on
+cage on so you can see that mistake
+cage on so you can see that mistake
+cage on so you can see that mistake
+there. So, I'll select these middle
+there. So, I'll select these middle
+there. So, I'll select these middle
+ones, scale X0, so they flatten out, and
+ones, scale X0, so they flatten out, and
+ones, scale X0, so they flatten out, and
+press enter. And then turn clipping on
+press enter. And then turn clipping on
+press enter. And then turn clipping on
+and G then X to move them both together
+and G then X to move them both together
+and G then X to move them both together
+so they stick. Another loop. Cut around
+so they stick. Another loop. Cut around
+so they stick. Another loop. Cut around
+here. And bring these ones in. And these
+here. And bring these ones in. And these
+here. And bring these ones in. And these
+ones can come in as well to this point
+ones can come in as well to this point
+ones can come in as well to this point
+here. Then let's go to side view and
+here. Then let's go to side view and
+here. Then let's go to side view and
+line up with side view. Let's go back to
+line up with side view. Let's go back to
+line up with side view. Let's go back to
+object mode. Move that forward. So G
+object mode. Move that forward. So G
+object mode. Move that forward. So G
+then Y. And then start shifting these
+then Y. And then start shifting these
+then Y. And then start shifting these
+around so they're ready.
+around so they're ready.
+around so they're ready.
+So they match up. Looks like we're going
+So they match up. Looks like we're going
+So they match up. Looks like we're going
+to need some more loop cuts in here just
+to need some more loop cuts in here just
+to need some more loop cuts in here just
+to make this a little more circular. So
+to make this a little more circular. So
+to make this a little more circular. So
+from here to here, GG and GG to curve
+from here to here, GG and GG to curve
+from here to here, GG and GG to curve
+that around a bit. And this one from
+that around a bit. And this one from
+that around a bit. And this one from
+here to here as well. GG and GG. Got a
+here to here as well. GG and GG. Got a
+here to here as well. GG and GG. Got a
+little bit more curve there. Let's go
+little bit more curve there. Let's go
+little bit more curve there. Let's go
+back and move these into position. I'll
+back and move these into position. I'll
+back and move these into position. I'll
+scale these down. Move those into
+scale these down. Move those into
+scale these down. Move those into
+position. And we've got a relatively
+position. And we've got a relatively
+position. And we've got a relatively
+good torso there. Back to front view.
+good torso there. Back to front view.
+good torso there. Back to front view.
+Now, for the trunk section, it's
+Now, for the trunk section, it's
+Now, for the trunk section, it's
+probably better to do a new piece of
+probably better to do a new piece of
+probably better to do a new piece of
+geometry. You can just extrude out and
+geometry. You can just extrude out and
+geometry. You can just extrude out and
+have it all as one piece if you want,
+have it all as one piece if you want,
+have it all as one piece if you want,
+but PlayStation one graphics tended to
+but PlayStation one graphics tended to
+but PlayStation one graphics tended to
+have big blocky pieces. And in fact,
+have big blocky pieces. And in fact,
+have big blocky pieces. And in fact,
+probably slightly less detailed than
+probably slightly less detailed than
+probably slightly less detailed than
+this. It depends on which particular era
+this. It depends on which particular era
+this. It depends on which particular era
+of the PlayStation one. So again, shift
+of the PlayStation one. So again, shift
+of the PlayStation one. So again, shift
+right click, move my 3D cursor into
+right click, move my 3D cursor into
+right click, move my 3D cursor into
+position, add in a cube, scale it down,
+position, add in a cube, scale it down,
+position, add in a cube, scale it down,
+cut it in half, delete half,
+add a mirror modifier, and start moving
+add a mirror modifier, and start moving
+add a mirror modifier, and start moving
+these into position
+these into position
+these into position
+again. Let's go to side view, back to
+again. Let's go to side view, back to
+again. Let's go to side view, back to
+object mode, move that into position
+object mode, move that into position
+object mode, move that into position
+there. Back to edit mode, and start
+there. Back to edit mode, and start
+there. Back to edit mode, and start
+editing the shape.
+editing the shape.
+editing the shape.
+It's particularly blocky. I did forget
+It's particularly blocky. I did forget
+It's particularly blocky. I did forget
+again to turn on clipping. So, let's
+again to turn on clipping. So, let's
+again to turn on clipping. So, let's
+select those and then G then X to move
+select those and then G then X to move
+select those and then G then X to move
+those together so they stick. And you
+those together so they stick. And you
+those together so they stick. And you
+might want to smooth things out by
+might want to smooth things out by
+might want to smooth things out by
+adding a loop cut and moving these
+adding a loop cut and moving these
+adding a loop cut and moving these
+across. But again, we're keeping it
+across. But again, we're keeping it
+across. But again, we're keeping it
+relatively simple. You might want a loop
+relatively simple. You might want a loop
+relatively simple. You might want a loop
+cut in here to kind of build the shape
+cut in here to kind of build the shape
+cut in here to kind of build the shape
+of their bum. And even another one if
+of their bum. And even another one if
+of their bum. And even another one if
+you want to build the shape of the hips,
+you want to build the shape of the hips,
+you want to build the shape of the hips,
+but again, it depends how detailed you
+but again, it depends how detailed you
+but again, it depends how detailed you
+want to go. So, we're building up the
+want to go. So, we're building up the
+want to go. So, we're building up the
+shape relatively slowly. It's not
+shape relatively slowly. It's not
+shape relatively slowly. It's not
+matching up particularly well with this
+matching up particularly well with this
+matching up particularly well with this
+one. So I can do a loop cut in here and
+one. So I can do a loop cut in here and
+one. So I can do a loop cut in here and
+then move these across with the GG
+then move these across with the GG
+then move these across with the GG
+command so they match up a bit better.
+command so they match up a bit better.
+command so they match up a bit better.
+And let's match these up a little bit
+And let's match these up a little bit
+And let's match these up a little bit
+better here as well. Okay, let's just
+better here as well. Okay, let's just
+better here as well. Okay, let's just
+see what we got. And we got some very
+see what we got. And we got some very
+see what we got. And we got some very
+simple shapes there for our character.
+simple shapes there for our character.
+simple shapes there for our character.
+Just tidy up where you need to. And
+Just tidy up where you need to. And
+Just tidy up where you need to. And
+we're doing well. Okay, so let's think
+we're doing well. Okay, so let's think
+we're doing well. Okay, so let's think
+about the arms. There's a couple of ways
+about the arms. There's a couple of ways
+about the arms. There's a couple of ways
+of doing this. If you're not too worried
+of doing this. If you're not too worried
+of doing this. If you're not too worried
+about the polygons and you just kind of
+about the polygons and you just kind of
+about the polygons and you just kind of
+want to get a nicel looking character,
+want to get a nicel looking character,
+want to get a nicel looking character,
+then you can put some icospheres in for
+then you can put some icospheres in for
+then you can put some icospheres in for
+the shoulder, that usually works a bit
+the shoulder, that usually works a bit
+the shoulder, that usually works a bit
+better. Or you can just use a cube
+better. Or you can just use a cube
+better. Or you can just use a cube
+that's extended out. I'll do it the
+that's extended out. I'll do it the
+that's extended out. I'll do it the
+simple way. So, shift right click to
+simple way. So, shift right click to
+simple way. So, shift right click to
+move my 3D cursor. Shift A to add mesh
+move my 3D cursor. Shift A to add mesh
+move my 3D cursor. Shift A to add mesh
+and then cube. Scale that down. Scale in
+and then cube. Scale that down. Scale in
+and then cube. Scale that down. Scale in
+the Z and then rotate it round. And you
+the Z and then rotate it round. And you
+the Z and then rotate it round. And you
+can see I'm slowly matching up with the
+can see I'm slowly matching up with the
+can see I'm slowly matching up with the
+arm there. Let's go to side view and
+arm there. Let's go to side view and
+arm there. Let's go to side view and
+just see where the arm is. So, I need to
+just see where the arm is. So, I need to
+just see where the arm is. So, I need to
+rotate it backwards slightly so it kind
+rotate it backwards slightly so it kind
+rotate it backwards slightly so it kind
+of sticks out the back correctly. I've
+of sticks out the back correctly. I've
+of sticks out the back correctly. I've
+drawn the arms towards the back of the
+drawn the arms towards the back of the
+drawn the arms towards the back of the
+model so it's easy to model the arms and
+model so it's easy to model the arms and
+model so it's easy to model the arms and
+easy to rig as well. And then let's go
+easy to rig as well. And then let's go
+easy to rig as well. And then let's go
+into edit mode and see what we can do to
+into edit mode and see what we can do to
+into edit mode and see what we can do to
+smarten up the shape. Face mode. Scale
+smarten up the shape. Face mode. Scale
+smarten up the shape. Face mode. Scale
+this up. Make sure it overlaps nicely
+this up. Make sure it overlaps nicely
+this up. Make sure it overlaps nicely
+like so. Might want to loop cut in here.
+like so. Might want to loop cut in here.
+like so. Might want to loop cut in here.
+Again, it's one of those things with
+Again, it's one of those things with
+Again, it's one of those things with
+PlayStation graphics. They were very
+PlayStation graphics. They were very
+PlayStation graphics. They were very
+simplistic. So, you might want to keep
+simplistic. So, you might want to keep
+simplistic. So, you might want to keep
+that traditional look, but I'm going to
+that traditional look, but I'm going to
+that traditional look, but I'm going to
+just select this edge here. Move it up.
+just select this edge here. Move it up.
+just select this edge here. Move it up.
+Move this one back. And let's scale down
+Move this one back. And let's scale down
+Move this one back. And let's scale down
+the end face here a bit so it kind of
+the end face here a bit so it kind of
+the end face here a bit so it kind of
+matches the arm a little bit more. And
+matches the arm a little bit more. And
+matches the arm a little bit more. And
+from here, I can just duplicate this
+from here, I can just duplicate this
+from here, I can just duplicate this
+one. So, let's go around to side view.
+one. So, let's go around to side view.
+one. So, let's go around to side view.
+Shift D to duplicate. Looks like I need
+Shift D to duplicate. Looks like I need
+Shift D to duplicate. Looks like I need
+to rotate it around into position. And
+to rotate it around into position. And
+to rotate it around into position. And
+this one, I'll go into edit mode and
+this one, I'll go into edit mode and
+this one, I'll go into edit mode and
+just move this back. And you could even
+just move this back. And you could even
+just move this back. And you could even
+have an extra loot cut in here. Scale it
+have an extra loot cut in here. Scale it
+have an extra loot cut in here. Scale it
+up a little bit just so it looks like a
+up a little bit just so it looks like a
+up a little bit just so it looks like a
+little bit more form. And for my forearm
+little bit more form. And for my forearm
+little bit more form. And for my forearm
+here, let's go to front view. Rotate
+here, let's go to front view. Rotate
+here, let's go to front view. Rotate
+this around. Scale it down. And let's
+this around. Scale it down. And let's
+this around. Scale it down. And let's
+just go into edit mode and move these
+just go into edit mode and move these
+just go into edit mode and move these
+shapes around. So, Alt Z to go to X-ray
+shapes around. So, Alt Z to go to X-ray
+shapes around. So, Alt Z to go to X-ray
+mode. And I can just move these into
+mode. And I can just move these into
+mode. And I can just move these into
+position. You can select a loop by alt
+position. You can select a loop by alt
+position. You can select a loop by alt
+left clicking on the loop. And I can
+left clicking on the loop. And I can
+left clicking on the loop. And I can
+scale this up for a forearm. Probably
+scale this up for a forearm. Probably
+scale this up for a forearm. Probably
+around there, I would say.
+around there, I would say.
+around there, I would say.
+And nice and thin, maybe a little bit
+And nice and thin, maybe a little bit
+And nice and thin, maybe a little bit
+wider. So scaling the Y for the wrist.
+And I'm just adjusting the shape very
+And I'm just adjusting the shape very
+And I'm just adjusting the shape very
+slightly
+slightly
+slightly
+so it matches the reference. Doesn't
+so it matches the reference. Doesn't
+so it matches the reference. Doesn't
+need to be that far back. So I'll bring
+need to be that far back. So I'll bring
+need to be that far back. So I'll bring
+it forward slightly. And again, just
+it forward slightly. And again, just
+it forward slightly. And again, just
+edit these shapes, moving them into
+edit these shapes, moving them into
+edit these shapes, moving them into
+position. Again, it's quite blocky. So
+position. Again, it's quite blocky. So
+position. Again, it's quite blocky. So
+you could controlr, do a loop cut and
+you could controlr, do a loop cut and
+you could controlr, do a loop cut and
+kind of smooth it out. Perhaps I'll do
+kind of smooth it out. Perhaps I'll do
+kind of smooth it out. Perhaps I'll do
+one loop cut around the middle here and
+one loop cut around the middle here and
+one loop cut around the middle here and
+then select these two. GG to edge slide
+then select these two. GG to edge slide
+then select these two. GG to edge slide
+these two. And you can curve the shape
+these two. And you can curve the shape
+these two. And you can curve the shape
+around quite easily by this technique.
+around quite easily by this technique.
+around quite easily by this technique.
+So GG to edge slide. Let's come around
+So GG to edge slide. Let's come around
+So GG to edge slide. Let's come around
+to the back here. This one here. Not
+to the back here. This one here. Not
+to the back here. This one here. Not
+there. There. I can select the piece. GG
+there. There. I can select the piece. GG
+there. There. I can select the piece. GG
+to edge slide. And bring that back. So
+to edge slide. And bring that back. So
+to edge slide. And bring that back. So
+we can see kind of forearm there. Again,
+we can see kind of forearm there. Again,
+we can see kind of forearm there. Again,
+we can keep things simple for the hand.
+we can keep things simple for the hand.
+we can keep things simple for the hand.
+So, if I shift right click at the end
+So, if I shift right click at the end
+So, if I shift right click at the end
+here, shift A to add mesh and then cube.
+here, shift A to add mesh and then cube.
+here, shift A to add mesh and then cube.
+Scale it right down. Once again, I'll
+Scale it right down. Once again, I'll
+Scale it right down. Once again, I'll
+scale it so it's thin. Scale in the X.
+scale it so it's thin. Scale in the X.
+scale it so it's thin. Scale in the X.
+And I'm just scaling it down
+And I'm just scaling it down
+And I'm just scaling it down
+so it matches the hand a bit more. Let's
+so it matches the hand a bit more. Let's
+so it matches the hand a bit more. Let's
+go to side view. Move it into position.
+go to side view. Move it into position.
+go to side view. Move it into position.
+And then into edit mode. And I might
+And then into edit mode. And I might
+And then into edit mode. And I might
+need to do a loop cut around the middle
+need to do a loop cut around the middle
+need to do a loop cut around the middle
+there. And just bring these into
+there. And just bring these into
+there. And just bring these into
+position.
+position.
+position.
+And for simplicity sake, let's go to
+And for simplicity sake, let's go to
+And for simplicity sake, let's go to
+front view. In fact, let's move this
+front view. In fact, let's move this
+front view. In fact, let's move this
+into position first. this one up to here
+into position first. this one up to here
+into position first. this one up to here
+needs to be a lot thicker. So I'll
+needs to be a lot thicker. So I'll
+needs to be a lot thicker. So I'll
+select these fronts and come out to
+select these fronts and come out to
+select these fronts and come out to
+here. These vertices, just move them
+here. These vertices, just move them
+here. These vertices, just move them
+into position. And then select the end
+into position. And then select the end
+into position. And then select the end
+face there. E to extrude. G to grab and
+face there. E to extrude. G to grab and
+face there. E to extrude. G to grab and
+rotate it around. I'll scale in the X so
+rotate it around. I'll scale in the X so
+rotate it around. I'll scale in the X so
+it's a bit thinner. And another
+it's a bit thinner. And another
+it's a bit thinner. And another
+extrusion. And we can keep it nice and
+extrusion. And we can keep it nice and
+extrusion. And we can keep it nice and
+simple like that. We got the hand
+simple like that. We got the hand
+simple like that. We got the hand
+anyway. And we can get the thumb just
+anyway. And we can get the thumb just
+anyway. And we can get the thumb just
+coming out of the side here. So E to
+coming out of the side here. So E to
+coming out of the side here. So E to
+extrude. And we can look from side view
+extrude. And we can look from side view
+extrude. And we can look from side view
+here. G to grab. Rotate it around. Scale
+here. G to grab. Rotate it around. Scale
+here. G to grab. Rotate it around. Scale
+it down slightly. and E to extrude
+it down slightly. and E to extrude
+it down slightly. and E to extrude
+again. And we got ourselves a thumb.
+again. And we got ourselves a thumb.
+again. And we got ourselves a thumb.
+It's got a really simple hand just
+It's got a really simple hand just
+It's got a really simple hand just
+there. A little bit curved, but my
+there. A little bit curved, but my
+there. A little bit curved, but my
+character's hand is a bit curved as
+character's hand is a bit curved as
+character's hand is a bit curved as
+well. You can spread it out if you like,
+well. You can spread it out if you like,
+well. You can spread it out if you like,
+but it doesn't look too bad there.
+but it doesn't look too bad there.
+but it doesn't look too bad there.
+Similar thing for the legs. So, I'll
+Similar thing for the legs. So, I'll
+Similar thing for the legs. So, I'll
+just come out of X-ray mode so we can
+just come out of X-ray mode so we can
+just come out of X-ray mode so we can
+see the shape there. I'll select the top
+see the shape there. I'll select the top
+see the shape there. I'll select the top
+there and shift D, duplicate, bring that
+there and shift D, duplicate, bring that
+there and shift D, duplicate, bring that
+down, and then model the legs with this.
+down, and then model the legs with this.
+down, and then model the legs with this.
+So, let's go to side view, scale, shift
+So, let's go to side view, scale, shift
+So, let's go to side view, scale, shift
+Z, so I don't scale in the Z axis. And
+Z, so I don't scale in the Z axis. And
+Z, so I don't scale in the Z axis. And
+scale in the X a bit wide there. And
+scale in the X a bit wide there. And
+scale in the X a bit wide there. And
+then again into edit mode and just move
+then again into edit mode and just move
+then again into edit mode and just move
+these into position. X-ray mode. Make it
+these into position. X-ray mode. Make it
+these into position. X-ray mode. Make it
+a little bit simpler.
+a little bit simpler.
+a little bit simpler.
+That looks okay. We probably need to
+That looks okay. We probably need to
+That looks okay. We probably need to
+sort out the side a little bit more.
+sort out the side a little bit more.
+sort out the side a little bit more.
+I'm probably going to want a little bit
+I'm probably going to want a little bit
+I'm probably going to want a little bit
+more topology. So control R. And then
+more topology. So control R. And then
+more topology. So control R. And then
+again just smooth the topology out. So
+again just smooth the topology out. So
+again just smooth the topology out. So
+GG.
+And I'm using controll leftclick to find
+And I'm using controll leftclick to find
+And I'm using controll leftclick to find
+the shortest path selection.
+the shortest path selection.
+the shortest path selection.
+And I want to make sure this overlaps a
+And I want to make sure this overlaps a
+And I want to make sure this overlaps a
+little bit more than it is. Let's see
+little bit more than it is. Let's see
+little bit more than it is. Let's see
+what we've got. And we're not looking
+what we've got. And we're not looking
+what we've got. And we're not looking
+too bad there. Let's go to front view.
+too bad there. Let's go to front view.
+too bad there. Let's go to front view.
+Shift D to duplicate. Bring that down
+Shift D to duplicate. Bring that down
+Shift D to duplicate. Bring that down
+again. We'll just edit the shape.
+Make sure it overlaps.
+Make sure it overlaps.
+Make sure it overlaps.
+And you can select an edge loop with alt
+And you can select an edge loop with alt
+And you can select an edge loop with alt
+left click.
+And again, make sure it overlaps like
+And again, make sure it overlaps like
+And again, make sure it overlaps like
+so.
+so.
+so.
+Lastly, the feet. So again, adding in a
+Lastly, the feet. So again, adding in a
+Lastly, the feet. So again, adding in a
+cube. Scale that down. I'll position it
+cube. Scale that down. I'll position it
+cube. Scale that down. I'll position it
+around about here into edit mode. And
+around about here into edit mode. And
+around about here into edit mode. And
+I'll select the front face and extrude
+I'll select the front face and extrude
+I'll select the front face and extrude
+outwards. And this face and extrude
+outwards. And this face and extrude
+outwards. And this face and extrude
+outwards. It looks a little bit silly at
+outwards. It looks a little bit silly at
+outwards. It looks a little bit silly at
+the moment, but we can sort this out.
+the moment, but we can sort this out.
+the moment, but we can sort this out.
+Let's get to side view and set our shape
+Let's get to side view and set our shape
+Let's get to side view and set our shape
+a little bit more. Loop cut in here.
+a little bit more. Loop cut in here.
+a little bit more. Loop cut in here.
+Bring these down for the toes.
+Bring these down for the toes.
+Bring these down for the toes.
+And this can overlap nicely there.
+And this can overlap nicely there.
+And this can overlap nicely there.
+I go to top view and have a little bit
+I go to top view and have a little bit
+I go to top view and have a little bit
+of a curve to the foot like so. Okay,
+of a curve to the foot like so. Okay,
+of a curve to the foot like so. Okay,
+let's see what we got. We got a nice
+let's see what we got. We got a nice
+let's see what we got. We got a nice
+looking character there. And again, you
+looking character there. And again, you
+looking character there. And again, you
+might want to go in and add a little bit
+might want to go in and add a little bit
+might want to go in and add a little bit
+more detail to certain areas like the
+more detail to certain areas like the
+more detail to certain areas like the
+arm here. I can round this out a little
+arm here. I can round this out a little
+arm here. I can round this out a little
+bit with that GG technique. And you can
+bit with that GG technique. And you can
+bit with that GG technique. And you can
+do a few more loop cuts and go in and
+do a few more loop cuts and go in and
+do a few more loop cuts and go in and
+add some detail if you want to,
+add some detail if you want to,
+add some detail if you want to,
+depending on how closely you want to
+depending on how closely you want to
+depending on how closely you want to
+keep with the PlayStation one graphic
+keep with the PlayStation one graphic
+keep with the PlayStation one graphic
+style.
+style.
+style.
+Just reposition this very slightly.
+Just reposition this very slightly.
+Just reposition this very slightly.
+And oh, I need an overlap in the middle
+And oh, I need an overlap in the middle
+And oh, I need an overlap in the middle
+a bit more. So, let's make sure we
+a bit more. So, let's make sure we
+a bit more. So, let's make sure we
+select this object here. Remember to
+select this object here. Remember to
+select this object here. Remember to
+come out of edit mode into object mode
+come out of edit mode into object mode
+come out of edit mode into object mode
+before selecting a new object. And then
+before selecting a new object. And then
+before selecting a new object. And then
+back into edit mode. And then I can
+back into edit mode. And then I can
+back into edit mode. And then I can
+bring these down a bit. So, they're
+bring these down a bit. So, they're
+bring these down a bit. So, they're
+definitely overlapping.
+The overlap is there for the rigging.
+The overlap is there for the rigging.
+The overlap is there for the rigging.
+So, when we move this arm around, it
+So, when we move this arm around, it
+So, when we move this arm around, it
+won't kind of separate and it will look
+won't kind of separate and it will look
+won't kind of separate and it will look
+like it's joined together nicely. Now,
+like it's joined together nicely. Now,
+like it's joined together nicely. Now,
+we need to just duplicate these to the
+we need to just duplicate these to the
+we need to just duplicate these to the
+other side. The easiest way for that is
+other side. The easiest way for that is
+other side. The easiest way for that is
+to set up another mirror modifier. So,
+to set up another mirror modifier. So,
+to set up another mirror modifier. So,
+if I select this one again, add
+if I select this one again, add
+if I select this one again, add
+modifier, type in mirror, and we've got
+modifier, type in mirror, and we've got
+modifier, type in mirror, and we've got
+a mirror in the x-axis there. That's the
+a mirror in the x-axis there. That's the
+a mirror in the x-axis there. That's the
+local x-axis because I've rotated this
+local x-axis because I've rotated this
+local x-axis because I've rotated this
+around. We can just use a mirror object
+around. We can just use a mirror object
+around. We can just use a mirror object
+like this middle object here, and it
+like this middle object here, and it
+like this middle object here, and it
+will jump to the other side. And all
+will jump to the other side. And all
+will jump to the other side. And all
+these other objects, if I select those
+these other objects, if I select those
+these other objects, if I select those
+first, and then the one that has the
+first, and then the one that has the
+first, and then the one that has the
+mirror, select that last. Ctrl L will
+mirror, select that last. Ctrl L will
+mirror, select that last. Ctrl L will
+link, and you can choose copy modifiers.
+link, and you can choose copy modifiers.
+link, and you can choose copy modifiers.
+And we've got this wonderful looking low
+And we've got this wonderful looking low
+And we've got this wonderful looking low
+poly person here. It's looking pretty
+poly person here. It's looking pretty
+poly person here. It's looking pretty
+awesome. So I'll just select the
+awesome. So I'll just select the
+awesome. So I'll just select the
+backgrounds, hide those, and you can see
+backgrounds, hide those, and you can see
+backgrounds, hide those, and you can see
+this awesome looking PlayStation one
+this awesome looking PlayStation one
+this awesome looking PlayStation one
+character just here. So there we have
+character just here. So there we have
+character just here. So there we have
+it. That's how we can create these
+it. That's how we can create these
+it. That's how we can create these
+PlayStation one style characters. Do
+PlayStation one style characters. Do
+PlayStation one style characters. Do
+check out the links in the description
+check out the links in the description
+check out the links in the description
+to my courses which are more detailed
+to my courses which are more detailed
+to my courses which are more detailed
+and more in-depth. And if you got any
+and more in-depth. And if you got any
+and more in-depth. And if you got any
+questions, do comment below. Thanks for
+questions, do comment below. Thanks for
+questions, do comment below. Thanks for
+watching. I'll see you next

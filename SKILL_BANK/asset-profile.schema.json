@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GameFarma Asset Profile",
+  "description": "Schema padronizado para descrever qualquer asset 3D gerado ou importado no ecossistema game_farma.",
+  "type": "object",
+  "required": ["asset_id", "category", "generator", "poly_budget", "real_world_scale_m", "materials", "lod_strategy"],
+  "properties": {
+    "asset_id": {
+      "type": "string",
+      "pattern": "^[a-z_]+_[a-z0-9_]+_v\\d{3}$",
+      "description": "Identificador único, ex: character_farmer_v001"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["character", "creature", "prop_small", "prop_medium", "architecture", "building_module", "vegetation", "tree", "terrain", "vehicle", "rock", "foliage"],
+      "description": "Categoria principal do asset"
+    },
+    "subcategory": {
+      "type": "string",
+      "description": "Subcategoria opcional, ex: human_adult"
+    },
+    "generator": {
+      "type": "string",
+      "enum": ["hunyuan3d_text", "hunyuan3d_image", "hyper3d_text", "hyper3d_image", "trellis_comfyui", "polyhaven_model", "polypizza", "sketchfab", "blender_geonodes", "speedtree", "manual"],
+      "description": "Ferramenta ou fonte usada para gerar/importar o asset bruto"
+    },
+    "generator_params": {
+      "type": "object",
+      "properties": {
+        "text_prompt": { "type": "string" },
+        "image_ref_url": { "type": "string", "format": "uri" },
+        "seed": { "type": "integer" },
+        "steps": { "type": "integer" },
+        "guidance_scale": { "type": "number" }
+      }
+    },
+    "poly_budget": {
+      "type": "object",
+      "required": ["lod0"],
+      "properties": {
+        "lod0": { "type": "integer", "minimum": 100, "maximum": 100000 },
+        "lod1": { "type": "integer", "minimum": 50 },
+        "lod2": { "type": "integer", "minimum": 20 },
+        "billboard": { "type": "boolean", "default": false }
+      }
+    },
+    "real_world_scale_m": {
+      "type": "number",
+      "minimum": 0.01,
+      "maximum": 1000,
+      "description": "Maior dimensão do asset em metros no mundo real"
+    },
+    "pivot": {
+      "type": "string",
+      "enum": ["ground_center", "ground_front", "center", "custom"],
+      "default": "ground_center"
+    },
+    "axis_up": {
+      "type": "string",
+      "enum": ["Y", "Z"],
+      "default": "Y"
+    },
+    "rigging": {
+      "type": "object",
+      "properties": {
+        "required": { "type": "boolean", "default": false },
+        "skeleton_type": { "type": "string", "enum": ["humanoid", "quadruped", "custom", "none"], "default": "none" },
+        "bone_count": { "type": "integer" },
+        "animation_clips": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "materials": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["slot_name", "pbr_workflow"],
+        "properties": {
+          "slot_name": { "type": "string" },
+          "pbr_workflow": { "type": "string", "enum": ["metallic_roughness", "specular_glossiness"], "default": "metallic_roughness" },
+          "textures": {
+            "type": "object",
+            "properties": {
+              "albedo": { "type": "string" },
+              "normal": { "type": "string" },
+              "roughness": { "type": "string" },
+              "metallic": { "type": "string" },
+              "ao": { "type": "string" },
+              "emissive": { "type": "string" }
+            }
+          },
+          "texture_resolution": { "type": "integer", "enum": [512, 1024, 2048], "default": 1024 },
+          "tiling": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 2, "default": [1, 1] }
+        }
+      }
+    },
+    "lod_strategy": {
+      "type": "string",
+      "enum": ["auto_decimate", "manual_lods", "impostor_billboard", "hlod", "continuous_tessellation"],
+      "default": "auto_decimate"
+    },
+    "collision": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string", "enum": ["box", "sphere", "capsule", "cylinder", "convex_hull", "trimesh", "none"], "default": "box" },
+        "simplified_mesh": { "type": "string" }
+      }
+    },
+    "variants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "material_overrides": { "type": "object" },
+          "scale_multiplier": { "type": "number", "default": 1.0 }
+        }
+      }
+    },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "license": { "type": "string", "enum": ["CC0", "CC-BY", "Custom", "Proprietary"] },
+    "attribution": { "type": "string" }
+  }
+}

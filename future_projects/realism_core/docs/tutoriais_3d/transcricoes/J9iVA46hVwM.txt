@@ -1,0 +1,1709 @@
+Kind: captions
+Language: en
+So guys, after watching today's video,
+So guys, after watching today's video,
+So guys, after watching today's video,
+any of our brothers can create a 3D character.
+any of our brothers can create a 3D character.
+any of our brothers can create a 3D character.
+Those who don't know anything about
+Those who don't know anything about
+Those who don't know anything about
+how to create a character, they
+how to create a character, they
+how to create a character, they
+too can create a 3D character. Be it any
+too can create a 3D character. Be it any
+too can create a 3D character. Be it any
+type of character,
+type of character,
+type of character,
+you should first practice by watching this video.
+you should first practice by watching this video.
+you should first practice by watching this video.
+After that, you can easily create any
+After that, you can easily create any
+After that, you can easily create any
+character you want to create. So here we are,
+character you want to create. So here we are,
+we have opened our Blender software,
+we have opened our Blender software,
+you will see this type of interface of Blender. If you don't know
+you will see this type of interface of Blender. If you don't know
+you will see this type of interface of Blender. If you don't know
+about Blender, then this is a 3D
+about Blender, then this is a 3D
+about Blender, then this is a 3D
+software. You
+software. You
+software. You
+can also create 3D animation videos in it. vfxdownload.com
+can also create 3D animation videos in it. vfxdownload.com
+can also create 3D animation videos in it. vfxdownload.com
+This is a cube. Now we will convert the cube into a character. So
+This is a cube. Now we will convert the cube into a character. So
+This is a cube. Now we will convert the cube into a character. So
+how can we do that?
+how can we do that?
+how can we do that?
+We will delete this cube and
+We will delete this cube and
+We will delete this cube and
+create a cube again and show you
+create a cube again and show you
+create a cube again and show you
+how you can bring it through the cube.
+how you can bring it through the cube.
+how you can bring it through the cube.
+Here you will press the shift key,
+Here you will press the shift key,
+Here you will press the shift key,
+after that there is a cube given here. After going to the cube, there is a cube
+after that there is a cube given here. After going to the cube, there is a cube
+after that there is a cube given here. After going to the cube, there is a cube
+given below here. So
+given below here. So
+given below here. So
+by clicking on this cube, you
+by clicking on this cube, you
+by clicking on this cube, you
+can create a cube.  So here we will
+can create a cube.  So here we will
+can create a cube.  So here we will
+first create the face of a character,
+first create the face of a character,
+first create the face of a character,
+for that we need a reference image here, so
+for that we need a reference image here, so
+for that we need a reference image here, so
+how can you create a reference image,
+how can you create a reference image,
+how can you create a reference image,
+either you can
+either you can
+either you can
+create a reference image by drawing yourself, okay, so
+create a reference image by drawing yourself, okay, so
+create a reference image by drawing yourself, okay, so
+I will show you what we have done, so
+I will show you what we have done, so
+I will show you what we have done, so
+this is the character, okay,
+this is the character, okay,
+this is the character, okay,
+I have created a 2D character, so
+I have created a 2D character, so
+I have created a 2D character, so
+I have already made a video of it,
+I have already made a video of it,
+I have already made a video of it,
+you can go and check that video, then we will
+you can go and check that video, then we will
+you can go and check that video, then we will
+convert it into 3D, so now let us
+convert it into 3D, so now let us
+convert it into 3D, so now let us
+learn how to do it, here we
+learn how to do it, here we
+learn how to do it, here we
+open Blender, so here we have to first
+open Blender, so here we have to first
+add our reference image, so how will we do that,
+add our reference image, so how will we do that,
+add our reference image, so how will we do that,
+I will tell you that too, here you first go to
+I will tell you that too, here you first go to
+I will tell you that too, here you first go to
+Add,
+Add,
+Add,
+after going to Add, you go to Image,
+after going to Add, you go to Image,
+after going to Add, you go to Image,
+here in the image reference is given,
+here in the image reference is given,
+here in the image reference is given,
+click on it, after clicking on it,
+click on it, after clicking on it,
+go to wherever you have kept your reference image, like we have
+go to wherever you have kept your reference image, like we have
+go to wherever you have kept your reference image, like we have
+kept it here in the desktop, we will click on the desktop,
+kept it here in the desktop, we will click on the desktop,
+kept it here in the desktop, we will click on the desktop,
+after going to the desktop,
+after going to the desktop,
+after going to the desktop,
+here we will select our image
+here we will select our image
+here we will select our image
+and we will save it  Once we add it, you
+and we will save it  Once we add it, you
+and we will save it  Once we add it, you
+can check on the screen that our image has been
+can check on the screen that our image has been
+can check on the screen that our image has been
+added. So, we will
+added. So, we will
+added. So, we will
+move it with the help of the move tool in this way.
+move it with the help of the move tool in this way.
+move it with the help of the move tool in this way.
+Select the move tool and
+Select the move tool and
+Select the move tool and
+move it in this way. And if you
+move it in this way. And if you
+move it in this way. And if you
+want to increase its scale, you
+want to increase its scale, you
+want to increase its scale, you
+can increase the scale by pressing A
+can increase the scale by pressing A
+can increase the scale by pressing A
+as much as you want according to your needs
+as much as you want according to your needs
+as much as you want according to your needs
+and move it upwards in this way.
+and move it upwards in this way.
+and move it upwards in this way.
+Now, here we will
+Now, here we will
+Now, here we will
+first create its face.
+first create its face.
+first create its face.
+For that, we select the cube here.
+For that, we select the cube here.
+For that, we select the cube here.
+After selecting it, we
+After selecting it, we
+After selecting it, we
+go into edit mode. To
+go into edit mode. To
+go into edit mode. To
+go into edit mode, you
+go into edit mode, you
+go into edit mode, you
+can also go into edit mode by pressing Tab here or here the
+can also go into edit mode by pressing Tab here or here the
+can also go into edit mode by pressing Tab here or here the
+object mode is given above,
+object mode is given above,
+object mode is given above,
+you click on it and here the
+you click on it and here the
+you click on it and here the
+edit mode is given below, so you
+edit mode is given below, so you
+edit mode is given below, so you
+can go into edit mode from here also. So, here
+can go into edit mode from here also. So, here
+can go into edit mode from here also. So, here
+we will select all the cubes by pressing A.
+we will select all the cubes by pressing A.
+we will select all the cubes by pressing A.
+Then after that, there is a babble tool
+Then after that, there is a babble tool
+Then after that, there is a babble tool
+given below, you select it
+given below, you select it
+given below, you select it
+and then from here you can change its shape in this way.
+and then from here you can change its shape in this way.
+and then from here you can change its shape in this way.
+People can make changes, you
+People can make changes, you
+People can make changes, you
+can check it on the screen here, do it as much as
+can check it on the screen here, do it as much as
+can check it on the screen here, do it as much as
+you want according to your needs
+you want according to your needs
+you want according to your needs
+and then here on the side the properties of bubbles are
+and then here on the side the properties of bubbles are
+and then here on the side the properties of bubbles are
+given, so from here you can
+given, so from here you can
+given, so from here you can
+increase its segments as much as you
+increase its segments as much as you
+increase its segments as much as you
+want according to your needs,
+want according to your needs,
+want according to your needs,
+so we turn it to four here, so now we have to
+so we turn it to four here, so now we have to
+so we turn it to four here, so now we have to
+give loop cuts in its center, so
+give loop cuts in its center, so
+give loop cuts in its center, so
+how can we give that, so here you people
+how can we give that, so here you people
+how can we give that, so here you people
+go to the loop cut tool below, from here
+go to the loop cut tool below, from here
+go to the loop cut tool below, from here
+you can give a loop cut in this way or
+you can give a loop cut in this way or
+you can give a loop cut in this way or
+you can also give a loop cut by pressing control,
+you can also give a loop cut by pressing control,
+you can also give a loop cut by pressing control,
+rest you people can
+rest you people can
+rest you people can
+give as many loop cuts as you want according to your project, you can
+give as many loop cuts as you want according to your project, you can
+give as many loop cuts as you want according to your project, you can
+see as per your convenience, here three
+see as per your convenience, here three
+see as per your convenience, here three
+modes are given above, one is vertex selection
+modes are given above, one is vertex selection
+modes are given above, one is vertex selection
+mode, with this
+mode, with this
+mode, with this
+you can select its single point and edit it,
+you can select its single point and edit it,
+you can select its single point and edit it,
+whatever you
+whatever you
+whatever you
+want to create, you can do it according to your needs and the
+want to create, you can do it according to your needs and the
+want to create, you can do it according to your needs and the
+second one is edge selection mode, with this
+second one is edge selection mode, with this
+second one is edge selection mode, with this
+you can select its edge,
+you can select its edge,
+you can select its edge,
+like this line is given, you
+like this line is given, you
+like this line is given, you
+can select it single single and the third one
+can select it single single and the third one
+can select it single single and the third one
+is given  Face Selection Mode: So, with this you
+is given  Face Selection Mode: So, with this you
+can select its face in this way. This box given here, this
+can select its face in this way. This box given here, this
+can select its face in this way. This box given here, this
+complete box will be selected for you.
+complete box will be selected for you.
+complete box will be selected for you.
+Now we have to create its eyes. Now
+Now we have to create its eyes. Now
+Now we have to create its eyes. Now
+we want that when we create one eye, the
+we want that when we create one eye, the
+we want that when we create one eye, the
+second eye gets created automatically. So
+second eye gets created automatically. So
+second eye gets created automatically. So
+how can we do that? So let's
+how can we do that? So let's
+how can we do that? So let's
+learn about how we will
+learn about how we will
+learn about how we will
+create it. Right now its view port is
+create it. Right now its view port is
+create it. Right now its view port is
+in solid. We convert it into wire frame.
+in solid. We convert it into wire frame.
+in solid. We convert it into wire frame.
+You can do it from above here. It is
+You can do it from above here. It is
+You can do it from above here. It is
+given here. So it will
+given here. So it will
+given here. So it will
+look something like this to you. Here
+look something like this to you. Here
+look something like this to you. Here
+we press Tab and go into object mode. So
+we press Tab and go into object mode. So
+we move this reference image slightly to the side in this way so
+we move this reference image slightly to the side in this way so
+we move this reference image slightly to the side in this way so
+that you can see clearly. Whatever
+that you can see clearly. Whatever
+that you can see clearly. Whatever
+we create, by doing this we make it so small.
+we create, by doing this we make it so small.
+we create, by doing this we make it so small.
+So here we press one and
+So here we press one and
+So here we press one and
+go to its front view.
+go to its front view.
+go to its front view.
+We select it and by pressing Tab
+We select it and by pressing Tab
+We select it and by pressing Tab
+we go into edit mode. So now
+we go into edit mode. So now
+we go into edit mode. So now
+whatever eye we want to create, we want to
+whatever eye we want to create, we want to
+whatever eye we want to create, we want to
+create one eye and the other side by side.
+create one eye and the other side by side.
+create one eye and the other side by side.
+For its creation, we
+For its creation, we
+For its creation, we
+first select half of it here
+first select half of it here
+first select half of it here
+and by right clicking we
+and by right clicking we
+and by right clicking we
+delete faces here, so this half
+delete faces here, so this half
+delete faces here, so this half
+part of ours has been deleted, so
+part of ours has been deleted, so
+part of ours has been deleted, so
+we select the remaining part,
+we select the remaining part,
+we select the remaining part,
+after selecting, here
+after selecting, here
+after selecting, here
+you go to
+you go to
+you go to
+Modify Properties, after going to Add Modify, here
+Modify Properties, after going to Add Modify, here
+Generate is given below,
+Generate is given below,
+Generate is given below,
+Mirror is given here, so you click on Mirror here,
+Mirror is given here, so you click on Mirror here,
+Mirror is given here, so you click on Mirror here,
+here you
+here you
+here you
+can check on the screen that the part which we have
+can check on the screen that the part which we have
+can check on the screen that the part which we have
+selected has been mirrored,
+selected has been mirrored,
+selected has been mirrored,
+so now whatever work we do in this part will be created
+so now whatever work we do in this part will be created
+so now whatever work we do in this part will be created
+automatically here, so if
+automatically here, so if
+automatically here, so if
+we create ice here, then the
+we create ice here, then the
+we create ice here, then the
+second ice will be created automatically here,
+second ice will be created automatically here,
+second ice will be created automatically here,
+so here I go to solid mode,
+so here I go to solid mode,
+so here I go to solid mode,
+so now I
+so now I
+so now I
+create a hole in the ice here, for that
+create a hole in the ice here, for that
+create a hole in the ice here, for that
+we go to face selection mode here
+we go to face selection mode here
+we go to face selection mode here
+and then select these boxes here,
+and then select these boxes here,
+after selecting in this way, you press the i here  Do it and
+after selecting in this way, you press the i here  Do it and
+after selecting in this way, you press the i here  Do it and
+create a new one in this way, so now
+create a new one in this way, so now
+create a new one in this way, so now
+we have to delete these four boxes,
+we have to delete these four boxes,
+we have to delete these four boxes,
+right click here and here
+right click here and here
+right click here and here
+below there is Delete Faces, click on it and
+below there is Delete Faces, click on it and
+below there is Delete Faces, click on it and
+delete it, so here you
+delete it, so here you
+delete it, so here you
+can check on the screen that when I
+can check on the screen that when I
+can check on the screen that when I
+deleted here, it got
+deleted here, it got
+deleted here, it got
+automatically deleted, so right now it
+automatically deleted, so right now it
+automatically deleted, so right now it
+is in square, we will make it in circle, so
+is in square, we will make it in circle, so
+is in square, we will make it in circle, so
+how can we do that, I will tell you that also, for that
+how can we do that, I will tell you that also, for that
+how can we do that, I will tell you that also, for that
+we will
+we will
+we will
+enable an addon here, I will also tell you
+enable an addon here, I will also tell you
+enable an addon here, I will also tell you
+how to do it, for that
+how to do it, for that
+how to do it, for that
+you go to Edit here, after going to Edit, here
+you go to Edit here, after going to Edit, here
+you go to Edit here, after going to Edit, here
+Preferences is given,
+Preferences is given,
+Preferences is given,
+you go to it, after going to it,
+you go to it, after going to it,
+you go to it, after going to it,
+you go to Get Extensions here, here
+you go to Get Extensions here, here
+you go to Get Extensions here, here
+you click on All Online Access, then all
+you click on All Online Access, then all
+you click on All Online Access, then all
+our extensions will
+our extensions will
+our extensions will
+come here,
+come here,
+come here,
+so whatever you want to install, you
+so whatever you want to install, you
+so whatever you want to install, you
+can install it, so here we need Loop Tool, so
+can install it, so here we need Loop Tool, so
+can install it, so here we need Loop Tool, so
+we will search here Loop
+we will search here Loop
+we will search here Loop
+Tool, so here is our Loop Tool, we will simply
+Tool, so here is our Loop Tool, we will simply
+Tool, so here is our Loop Tool, we will simply
+install it in this way, so here
+install it in this way, so here
+install it in this way, so here
+our  The Loop Tool has been installed, so
+our  The Loop Tool has been installed, so
+our  The Loop Tool has been installed, so
+now we go to the add-ons.
+now we go to the add-ons.
+now we go to the add-ons.
+After going to the add-ons, we will search for the
+After going to the add-ons, we will search for the
+After going to the add-ons, we will search for the
+Loop Tool. This is
+Loop Tool. This is
+Loop Tool. This is
+enabled here, so you can add the Loop Tool in this way.
+enabled here, so you can add the Loop Tool in this way.
+enabled here, so you can add the Loop Tool in this way.
+Now we will simply
+Now we will simply
+Now we will simply
+save and load it here. Our
+save and load it here. Our
+save and load it here. Our
+Loop Tool add-on has been added
+Loop Tool add-on has been added
+Loop Tool add-on has been added
+here. You can check it on the screen. This eye is
+here. You can check it on the screen. This eye is
+here. You can check it on the screen. This eye is
+in a square.
+in a square.
+in a square.
+We will convert it into a circle.
+We will convert it into a circle.
+We will convert it into a circle.
+We will select its edge. Now
+We will select its edge. Now
+We will select its edge. Now
+for that, we go into edge selection mode here.
+for that, we go into edge selection mode here.
+for that, we go into edge selection mode here.
+After that, we select its edge in
+After that, we select its edge in
+After that, we select its edge in
+this way. And then the
+this way. And then the
+this way. And then the
+Loop Tool which is given here,
+Loop Tool which is given here,
+Loop Tool which is given here,
+you simply click on the circle. Here
+you simply click on the circle. Here
+you simply click on the circle. Here
+you can check on the screen that now
+you can check on the screen that now
+you can check on the screen that now
+our eye has become a circle.
+our eye has become a circle.
+our eye has become a circle.
+Whatever you have added on,
+Whatever you have added on,
+Whatever you have added on,
+you can open it by pressing N or
+you can open it by pressing N or
+you can open it by pressing N or
+close it by pressing End. Now we
+close it by pressing End. Now we
+close it by pressing End. Now we
+press Fore here and go to its side view.
+press Fore here and go to its side view.
+press Fore here and go to its side view.
+Here we have to
+Here we have to
+Here we have to
+change its shape.  So
+change its shape.  So
+change its shape.  So
+we will create a shape like this, you
+we will create a shape like this, you
+we will create a shape like this, you
+can see it on the screen here, for that we
+can see it on the screen here, for that we
+can see it on the screen here, for that we
+go to the move tool here, after going to the move tool, there is
+go to the move tool here, after going to the move tool, there is
+text selection mode given above, so we will go into it,
+text selection mode given above, so we will go into it,
+text selection mode given above, so we will go into it,
+after that we will turn on proportional editing here
+after that we will turn on proportional editing here
+after that we will turn on proportional editing here
+and then from here we will
+and then from here we will
+and then from here we will
+open it, after that
+open it, after that
+open it, after that
+we will tick on connected only here, after that you go to
+we will tick on connected only here, after that you go to
+we will tick on connected only here, after that you go to
+transform pivot point here
+transform pivot point here
+transform pivot point here
+and then here you
+and then here you
+and then here you
+click on active element, after that we will
+click on active element, after that we will
+click on active element, after that we will
+select any point here and
+select any point here and
+select any point here and
+after pressing G you will
+after pressing G you will
+after pressing G you will
+see a circle like this, you can move this circle
+see a circle like this, you can move this circle
+see a circle like this, you can move this circle
+up and down with the help of the scroll wheel of the mouse, in
+up and down with the help of the scroll wheel of the mouse, in
+up and down with the help of the scroll wheel of the mouse, in
+this way you can make its size as small or big as you
+this way you can make its size as small or big as you
+this way you can make its size as small or big as you
+want according to your wish,
+want according to your wish,
+want according to your wish,
+so keep it as much as you want according to your
+so keep it as much as you want according to your
+so keep it as much as you want according to your
+wish, after that we will move
+wish, after that we will move
+wish, after that we will move
+it upwards here with the help of the mouse, you can do it in this way
+it upwards here with the help of the mouse, you can do it in this way
+it upwards here with the help of the mouse, you can do it in this way
+wherever you want by pressing G,
+wherever you want by pressing G,
+so we can do it slightly in its head also in this way, in
+so we can do it slightly in its head also in this way, in
+so we can do it slightly in its head also in this way, in
+this way you can do it on
+this way you can do it on
+this way you can do it on
+its sides  You can change its shape,
+its sides  You can change its shape,
+its sides  You can change its shape,
+so now we will create its neck here, so
+so now we will create its neck here, so
+so now we will create its neck here, so
+how can we do that,
+how can we do that,
+how can we do that,
+I will tell you that also, so now we
+I will tell you that also, so now we
+I will tell you that also, so now we
+go to its face selection mode here
+go to its face selection mode here
+go to its face selection mode here
+and we will
+and we will
+and we will
+select these three given one, two and three and by
+select these three given one, two and three and by
+select these three given one, two and three and by
+right clicking we will delete faces,
+right clicking we will delete faces,
+right clicking we will delete faces,
+so now in the same way as we
+so now in the same way as we
+so now in the same way as we
+created ice in a circle,
+created ice in a circle,
+created ice in a circle,
+we will create it in a circle,
+we will create it in a circle,
+we will create it in a circle,
+for that we go to edge selection mode here
+for that we go to edge selection mode here
+and then we will select its edge in this way
+and then we will select its edge in this way
+and then we will select its edge in this way
+and then here we will press N
+and then here we will press N
+and then here we will press N
+and go to the loop tool, in the loop tool here
+and go to the loop tool, in the loop tool here
+and go to the loop tool, in the loop tool here
+we will click on the circle,
+we will click on the circle,
+we will click on the circle,
+so here you can check on the screen
+so here you can check on the screen
+so here you can check on the screen
+that it has been created in a circle, so
+that it has been created in a circle, so
+that it has been created in a circle, so
+now here you select all its edges
+now here you select all its edges
+now here you select all its edges
+and by pressing E you extude it in this way
+and by pressing E you extude it in this way
+and by pressing E you extude it in this way
+and by pressing S you
+and by pressing S you
+and by pressing S you
+scale it in this way and with the
+scale it in this way and with the
+scale it in this way and with the
+help of move tool we will move it slightly in this way,
+help of move tool we will move it slightly in this way,
+help of move tool we will move it slightly in this way,
+so now here we
+so now here we
+so now here we
+press control R and cut three or four loops  We'll give it this
+press control R and cut three or four loops  We'll give it this
+press control R and cut three or four loops  We'll give it this
+way, so right now
+way, so right now
+way, so right now
+we'll change the shape of its back a little bit, so
+we'll change the shape of its back a little bit, so
+we'll change the shape of its back a little bit, so
+press nine and you'll come to its back view, right
+press nine and you'll come to its back view, right
+press nine and you'll come to its back view, right
+now it looks something like this, so
+now it looks something like this, so
+now it looks something like this, so
+we'll change it, so
+we'll change it, so
+we'll change it, so
+we'll keep its shape something like this, so
+we'll keep its shape something like this, so
+we'll adjust it this way by pressing G, so
+we'll adjust it this way by pressing G, so
+we'll adjust it this way by pressing G, so
+you can change the rest according to your character
+you can change the rest according to your character
+you can change the rest according to your character
+as you want,
+as you want,
+as you want,
+see according to yourself, so you'll have to give this process some time, so right
+see according to yourself, so you'll have to give this process some time, so right
+see according to yourself, so you'll have to give this process some time, so right
+now our character is
+now our character is
+now our character is
+perfect from every angle, so you can
+perfect from every angle, so you can
+perfect from every angle, so you can
+also adjust your character in this way, so let's
+also adjust your character in this way, so let's
+also adjust your character in this way, so let's
+quickly
+quickly
+quickly
+create its ear here, so
+create its ear here, so
+create its ear here, so
+we'll create the ear in this area, so for that
+we'll create the ear in this area, so for that
+we'll create the ear in this area, so for that
+we'll select this point
+we'll select this point
+we'll select this point
+and move it
+and move it
+and move it
+upwards in this way, so we'll create it this way,
+upwards in this way, so we'll create it this way,
+upwards in this way, so we'll create it this way,
+you can check it on the screen,
+you can check it on the screen,
+you can check it on the screen,
+after that we'll go into face
+after that we'll go into face
+after that we'll go into face
+selection mode here,
+selection mode here,
+selection mode here,
+select its face and extract it by
+select its face and extract it by
+select its face and extract it by
+pressing E.
+pressing E.
+pressing E.
+Now you can move it in this way,
+Now you can move it in this way,
+Now you can move it in this way,
+you can adjust the rest according to your needs
+you can adjust the rest according to your needs
+you can adjust the rest according to your needs
+and by pressing S here we will make its size a
+and by pressing S here we will make its size a
+and by pressing S here we will make its size a
+little smaller in this way, so
+little smaller in this way, so
+little smaller in this way, so
+we will create a new face inside its ear,
+we will create a new face inside its ear,
+we will create a new face inside its ear,
+for that we select it here,
+for that we select it here,
+after selecting it, there is Insert Face given below,
+after selecting it, there is Insert Face given below,
+after selecting it, there is Insert Face given below,
+you can go into it, after that you can move it slightly
+you can go into it, after that you can move it slightly
+you can go into it, after that you can move it slightly
+inwards in this way,
+inwards in this way,
+inwards in this way,
+here you can check on the screen that
+here you can check on the screen that
+here you can check on the screen that
+a new face has been created for us,
+a new face has been created for us,
+a new face has been created for us,
+or you can also create
+or you can also create
+or you can also create
+a new face in this way by pressing I,
+a new face in this way by pressing I,
+a new face in this way by pressing I,
+then you
+then you
+then you
+can move it
+can move it
+can move it
+inwards with the help of the move tool here, so here
+inwards with the help of the move tool here, so here
+inwards with the help of the move tool here, so here
+we change the vertex point of the eye a little, then
+we change the vertex point of the eye a little, then
+we will create it in the shape of proper eyes, in this way, so this
+we will create it in the shape of proper eyes, in this way, so this
+we will create it in the shape of proper eyes, in this way, so this
+area is going to be our eyes, and this
+area is going to be our eyes, and this
+area is going to be our eyes, and this
+area is going to be our mouth,
+area is going to be our mouth,
+area is going to be our mouth,
+so here now we will
+so here now we will
+so here now we will
+create lips, for that we will
+create lips, for that we will
+create lips, for that we will
+press one here and move it in front of it.  If we go to the view, then
+press one here and move it in front of it.  If we go to the view, then
+press one here and move it in front of it.  If we go to the view, then
+what will we do here,
+what will we do here,
+what will we do here,
+we will select these points and move them upwards in this manner, so
+we will select these points and move them upwards in this manner, so
+we will select these points and move them upwards in this manner, so
+this area is going to be
+this area is going to be
+this area is going to be
+our lips, so
+our lips, so
+our lips, so
+we will select both these faces and by
+we will select both these faces and by
+we will select both these faces and by
+pressing I, we will insert a face here in this manner
+pressing I, we will insert a face here in this manner
+pressing I, we will insert a face here in this manner
+and here in insert faces,
+and here in insert faces,
+and here in insert faces,
+we will uncheck the boundary,
+we will uncheck the boundary,
+we will uncheck the boundary,
+so we will select both these faces and
+so we will select both these faces and
+create a face by pressing I here, so you select the edge and
+create a face by pressing I here, so you select the edge and
+create a face by pressing I here, so you select the edge and
+move it in this manner, select
+move it in this manner, select
+move it in this manner, select
+this edge also towards the bottom and do it in this manner,
+this edge also towards the bottom and do it in this manner,
+this edge also towards the bottom and do it in this manner,
+rest you can
+rest you can
+rest you can
+adjust it according to your needs, keep in mind that
+adjust it according to your needs, keep in mind that
+adjust it according to your needs, keep in mind that
+both your vertex points should
+both your vertex points should
+both your vertex points should
+not be connected, so now here we will select both these faces in
+not be connected, so now here we will select both these faces in
+not be connected, so now here we will select both these faces in
+this manner and actuate it
+this manner and actuate it
+this manner and actuate it
+inwards, so by going to the wire frame,
+inwards, so by going to the wire frame,
+inwards, so by going to the wire frame,
+I will show you people,
+I will show you people,
+I will show you people,
+you can extude it in this manner, rest we will
+you can extude it in this manner, rest we will
+you can extude it in this manner, rest we will
+create a tooth here,
+create a tooth here,
+create a tooth here,
+I will tell you people about that process later, so now we are
+I will tell you people about that process later, so now we are
+I will tell you people about that process later, so now we are
+here  We will create the nose, for that we
+here  We will create the nose, for that we
+here  We will create the nose, for that we
+press control R here and give a loop cut, in
+press control R here and give a loop cut, in
+press control R here and give a loop cut, in
+this way we will bring it in the shape of the nose in
+this way we will bring it in the shape of the nose in
+this way we will bring it in the shape of the nose in
+this way and then here
+this way and then here
+this way and then here
+we will go to face selection mode, so
+we will go to face selection mode, so
+we will go to face selection mode, so
+here select the area in which you want to
+here select the area in which you want to
+here select the area in which you want to
+create the nose in this way
+create the nose in this way
+create the nose in this way
+and then by pressing e you
+and then by pressing e you
+and then by pressing e you
+extude it in this way and by
+extude it in this way and by
+extude it in this way and by
+pressing s you scale it in this way
+pressing s you scale it in this way
+pressing s you scale it in this way
+and select this side face in this way
+and select this side face in this way
+and select this side face in this way
+and right click and delete
+and right click and delete
+and right click and delete
+faces, so keep in mind that here
+faces, so keep in mind that here
+faces, so keep in mind that here
+you tick clipping in mirror
+you tick clipping in mirror
+you tick clipping in mirror
+and untick merge, in this
+and untick merge, in this
+and untick merge, in this
+way you join these points
+way you join these points
+way you join these points
+and you select both these points
+and you select both these points
+and you select both these points
+and by moving it in this way
+and by moving it in this way
+and by moving it in this way
+you do it, rest
+you do it, rest
+you do it, rest
+you can change the shape of the nose in this way
+you can change the shape of the nose in this way
+you can change the shape of the nose in this way
+as per your wish,
+as per your wish,
+as per your wish,
+see here, so here we will
+see here, so here we will
+see here, so here we will
+select the face and by pressing i we will
+select the face and by pressing i we will
+select the face and by pressing i we will
+insert another face in this way, by
+insert another face in this way, by
+insert another face in this way, by
+pressing i we will do it here  Let's give one more, in
+pressing i we will do it here  Let's give one more, in
+pressing i we will do it here  Let's give one more, in
+this way you can move it with the help of move tool
+this way you can move it with the help of move tool
+this way you can move it with the help of move tool
+and then here you can
+and then here you can
+and then here you can
+press s and scale it in this way,
+press s and scale it in this way,
+press s and scale it in this way,
+so right here you can check on the screen that
+so right here you can check on the screen that
+so right here you can check on the screen that
+our nose has also been
+our nose has also been
+our nose has also been
+created, so now you can go to
+created, so now you can go to
+created, so now you can go to
+object mode by pressing tab here,
+object mode by pressing tab here,
+object mode by pressing tab here,
+after going to object mode you
+after going to object mode you
+after going to object mode you
+right click here, after right clicking
+right click here, after right clicking
+right click here, after right clicking
+there is shade smooth given here, you can
+there is shade smooth given here, you can
+there is shade smooth given here, you can
+click on it, so here you
+click on it, so here you
+click on it, so here you
+can check on the screen that the
+can check on the screen that the
+can check on the screen that the
+face of our character has become completely smooth,
+face of our character has become completely smooth,
+face of our character has become completely smooth,
+so right now it has
+so right now it has
+so right now it has
+not been smoothed properly, so here you
+not been smoothed properly, so here you
+not been smoothed properly, so here you
+can check on the screen that its eyes are
+can check on the screen that its eyes are
+can check on the screen that its eyes are
+visible in this way,
+visible in this way,
+visible in this way,
+we will bring it exactly in a circle, so
+we will bring it exactly in a circle, so
+we will bring it exactly in a circle, so
+how can we do that, so here
+how can we do that, so here
+how can we do that, so here
+after going to add modify modify,
+after going to add modify modify,
+after going to add modify modify,
+generate is given here, go to it,
+generate is given here, go to it,
+generate is given here, go to it,
+after going to it, below here is
+after going to it, below here is
+after going to it, below here is
+subdivision surface, so you can click on it, right
+subdivision surface, so you can click on it, right
+subdivision surface, so you can click on it, right
+here you can check on the screen  You
+here you can check on the screen  You
+here you can check on the screen  You
+can check that our eyes have come exactly
+can check that our eyes have come exactly
+can check that our eyes have come exactly
+on the circle, so from here, the more you
+on the circle, so from here, the more you
+on the circle, so from here, the more you
+increase the levels view port, the
+increase the levels view port, the
+increase the levels view port, the
+smoother it will become, so
+smoother it will become, so
+smoother it will become, so
+you can check it on the screen here, so
+you can check it on the screen here, so
+you can check it on the screen here, so
+now whatever changes you want to make here,
+now whatever changes you want to make here,
+now whatever changes you want to make here,
+you can do it here by pressing tab, so
+you can do it here by pressing tab, so
+you can do it here by pressing tab, so
+here these are connected to each other,
+here these are connected to each other,
+here these are connected to each other,
+so we will select this also and delete it in this way, so right now
+so we will select this also and delete it in this way, so right now
+some kind of line is showing on his face
+some kind of line is showing on his face
+some kind of line is showing on his face
+here and the merge has not been done properly,
+here and the merge has not been done properly,
+here and the merge has not been done properly,
+so how can you fix it,
+so how can you fix it,
+so how can you fix it,
+here it is given in mirror, merge below,
+here it is given in mirror, merge below,
+here it is given in mirror, merge below,
+we had unticked it, you can tick it, now
+we had unticked it, you can tick it, now
+we had unticked it, you can tick it, now
+here you
+here you
+here you
+can check on the screen that our face is
+can check on the screen that our face is
+can check on the screen that our face is
+showing perfectly, so now by
+showing perfectly, so now by
+showing perfectly, so now by
+pressing tab here we go into edit mode
+pressing tab here we go into edit mode
+pressing tab here we go into edit mode
+and we
+and we
+and we
+set his lips here, otherwise in this way
+set his lips here, otherwise in this way
+set his lips here, otherwise in this way
+you can change his shape
+you can change his shape
+you can change his shape
+as per your wish,
+as per your wish,
+as per your wish,
+see, so a loop cut here for his
+see, so a loop cut here for his
+see, so a loop cut here for his
+eyes  Let's press Control R above and
+eyes  Let's press Control R above and
+eyes  Let's press Control R above and
+give one more by pressing
+give one more by pressing
+give one more by pressing
+Control R, so by pressing Control
+Control R, so by pressing Control
+Control R, so by pressing Control
+we will select all of them in this way, then
+we will select all of them in this way, then
+we will select all of them in this way, then
+we will select all these points of the circle for
+we will select all these points of the circle for
+we will select all these points of the circle for
+eyes, after that we will
+eyes, after that we will
+eyes, after that we will
+move it in this way inwards, in
+move it in this way inwards, in
+move it in this way inwards, in
+this way you people set it according to your needs,
+this way you people set it according to your needs,
+this way you people set it according to your needs,
+so now comes the turn to create its eyes,
+so now comes the turn to create its eyes,
+so now comes the turn to create its eyes,
+for that we will press Shift + A here
+for that we will press Shift + A here
+for that we will press Shift + A here
+and then here we will go to the mess,
+and then here we will go to the mess,
+and then here we will go to the mess,
+after going to the mess, there is a
+after going to the mess, there is a
+after going to the mess, there is a
+spare given below here, you
+spare given below here, you
+spare given below here, you
+click on it and then you rotate it by
+click on it and then you rotate it by
+click on it and then you rotate it by
+pressing R x 90 and then
+pressing R x 90 and then
+pressing R x 90 and then
+press Tab here, after pressing Tab,
+press Tab here, after pressing Tab,
+press Tab here, after pressing Tab,
+you select this point here and
+you select this point here and
+you select this point here and
+then by pressing G you can move it in this way as per
+then by pressing G you can move it in this way as per
+then by pressing G you can move it in this way as per
+your needs,
+your needs,
+your needs,
+and then
+and then
+and then
+you press Tab here and
+you press Tab here and
+you press Tab here and
+move it with the help of the Move Tool and bring it near its eyes
+move it with the help of the Move Tool and bring it near its eyes
+move it with the help of the Move Tool and bring it near its eyes
+and then here you press S and
+and then here you press S and
+and then here you press S and
+scale it in this way, in this way with the
+scale it in this way, in this way with the
+scale it in this way, in this way with the
+help of the Move Tool  Adjust it
+help of the Move Tool  Adjust it
+help of the Move Tool  Adjust it
+and with the help of the rotate tool, we will rotate it slightly in
+and with the help of the rotate tool, we will rotate it slightly in
+and with the help of the rotate tool, we will rotate it slightly in
+this way and now
+this way and now
+this way and now
+we will create its duplicate by pressing its shift D
+we will create its duplicate by pressing its shift D
+we will create its duplicate by pressing its shift D
+and we will move it and
+and we will move it and
+and we will move it and
+bring it near the other ice and we will adjust this too,
+bring it near the other ice and we will adjust this too,
+bring it near the other ice and we will adjust this too,
+so here you
+so here you
+so here you
+can check on the screen that
+can check on the screen that
+can check on the screen that
+we have created our ice in the right way, so
+we have created our ice in the right way, so
+we have created our ice in the right way, so
+now we will create its eyebrow here,
+now we will create its eyebrow here,
+now we will create its eyebrow here,
+for that we
+for that we
+for that we
+select its face here and press Tab,
+select its face here and press Tab,
+select its face here and press Tab,
+so in this area we have to
+so in this area we have to
+so in this area we have to
+create the eyebrow, for that we
+create the eyebrow, for that we
+create the eyebrow, for that we
+give a loop cut here by pressing Control R in
+give a loop cut here by pressing Control R in
+give a loop cut here by pressing Control R in
+this way, after that you
+this way, after that you
+this way, after that you
+go to face mode here, select both of them
+go to face mode here, select both of them
+go to face mode here, select both of them
+and then press Shift D here and
+and then press Shift D here and
+and then press Shift D here and
+create its duplicate, then you can
+create its duplicate, then you can
+create its duplicate, then you can
+extute it by pressing E here in
+extute it by pressing E here in
+extute it by pressing E here in
+this way and then with the help of the scale tool here
+this way and then with the help of the scale tool here
+this way and then with the help of the scale tool here
+you can scale it
+you can scale it
+you can scale it
+as you want, according to yourself, you can
+as you want, according to yourself, you can
+as you want, according to yourself, you can
+scale it in this way, go to buttock selection
+scale it in this way, go to buttock selection
+scale it in this way, go to buttock selection
+mode in buttock selection mode
+mode in buttock selection mode
+mode in buttock selection mode
+here  But you can adjust it according to
+here  But you can adjust it according to
+here  But you can adjust it according to
+your needs, so you can
+your needs, so you can
+your needs, so you can
+adjust it in this way, so here you
+adjust it in this way, so here you
+adjust it in this way, so here you
+can check on the screen that we have
+can check on the screen that we have
+can check on the screen that we have
+created her eyebrows in the right way,
+created her eyebrows in the right way,
+created her eyebrows in the right way,
+so now we have to create her hair, so
+so now we have to create her hair, so
+so now we have to create her hair, so
+how can we create that, so
+how can we create that, so
+how can we create that, so
+let's learn that too, so
+let's learn that too, so
+let's learn that too, so
+here as you can see that
+here as you can see that
+here as you can see that
+our reference image is, so
+our reference image is, so
+our reference image is, so
+we will create hair in this way, it will be created separately, so
+we will create hair in this way, it will be created separately, so
+we will create hair in this way, it will be created separately, so
+how can you create it,
+how can you create it,
+how can you create it,
+I will tell you that too, so to
+I will tell you that too, so to
+I will tell you that too, so to
+create the hair,
+create the hair,
+create the hair,
+first of all we will press Shift + a here,
+first of all we will press Shift + a here,
+first of all we will press Shift + a here,
+after that we will go to Curve,
+after that we will go to Curve,
+after that we will go to Curve,
+after going to Curve, there is a circle given here,
+after going to Curve, there is a circle given here,
+after going to Curve, there is a circle given here,
+you can create it, after that
+you can create it, after that
+you can create it, after that
+you can press Shift + a here again and
+you can press Shift + a here again and
+you can press Shift + a here again and
+go to Curve, after going to Curve, there is a
+go to Curve, after going to Curve, there is a
+go to Curve, after going to Curve, there is a
+path given below,
+path given below,
+path given below,
+create a path, so we will move the path and
+create a path, so we will move the path and
+create a path, so we will move the path and
+bring it here in this way and
+bring it here in this way and
+bring it here in this way and
+select both of them
+select both of them
+select both of them
+after selecting.  Here we will rotate it,
+after selecting.  Here we will rotate it,
+after selecting.  Here we will rotate it,
+press r, press x and press 90 to
+press r, press x and press 90 to
+press r, press x and press 90 to
+rotate it, then after that
+rotate it, then after that
+rotate it, then after that
+you select the path here,
+you select the path here,
+you select the path here,
+after selecting the path,
+after selecting the path,
+after selecting the path,
+go to the data properties of the path, here you are
+go to the data properties of the path, here you are
+go to the data properties of the path, here you are
+given geometry, go to it,
+given geometry, go to it,
+given geometry, go to it,
+after going into it, round is given here,
+after going into it, round is given here,
+after going into it, round is given here,
+round object in babel, so
+round object in babel, so
+round object in babel, so
+you go to object, after going into object,
+you go to object, after going into object,
+you go to object, after going into object,
+object is given here,
+object is given here,
+object is given here,
+you select this eye dropper of object,
+you select this eye dropper of object,
+you select this eye dropper of object,
+select it above the circle in this way,
+select it above the circle in this way,
+select it above the circle in this way,
+here you can check on the screen,
+here you can check on the screen,
+here you can check on the screen,
+our circle has been created here,
+our circle has been created here,
+our circle has been created here,
+so whatever changes we make in the circle,
+so whatever changes we make in the circle,
+so whatever changes we make in the circle,
+that change will be in our path below here,
+that change will be in our path below here,
+that change will be in our path below here,
+so right now I will show you by creating hair here, so
+so right now I will show you by creating hair here, so
+so right now I will show you by creating hair here, so
+you
+you
+you
+guys select the circle, after selecting it,
+guys select the circle, after selecting it,
+guys select the circle, after selecting it,
+press tab here and go to its edit mode,
+press tab here and go to its edit mode,
+press tab here and go to its edit mode,
+in edit mode these
+in edit mode these
+in edit mode these
+points are given here, so with the help of these points
+points are given here, so with the help of these points
+points are given here, so with the help of these points
+you can change its shape,
+you can change its shape,
+you can change its shape,
+so in this way we will move it and bring it
+so in this way we will move it and bring it
+so in this way we will move it and bring it
+here, so here  You guys
+here, so here  You guys
+here, so here  You guys
+can check on the screen that as I
+can check on the screen that as I
+can check on the screen that as I
+am moving here, our  This one below is
+am moving here, our  This one below is
+am moving here, our  This one below is
+moving in the path, so after that
+moving in the path, so after that
+moving in the path, so after that
+we select the upper point here, after
+we select the upper point here, after
+we select the upper point here, after
+moving it we bring it here in this manner,
+moving it we bring it here in this manner,
+moving it we bring it here in this manner,
+so here you
+so here you
+so here you
+can check on the screen that our path is being created in the back in
+can check on the screen that our path is being created in the back in
+can check on the screen that our path is being created in the back in
+this manner,
+this manner,
+this manner,
+we do not need anything in the back here, so
+we do not need anything in the back here, so
+we do not need anything in the back here, so
+we have to create the hair in the front, so right now the
+we have to create the hair in the front, so right now the
+we have to create the hair in the front, so right now the
+points here are
+points here are
+points here are
+less, so to create more of these,
+less, so to create more of these,
+less, so to create more of these,
+what should we do here,
+what should we do here,
+what should we do here,
+first of all select this point, after that select the
+first of all select this point, after that select the
+first of all select this point, after that select the
+second point,
+second point,
+second point,
+then you people right click here,
+then you people right click here,
+then you people right click here,
+after right clicking there is a subdivide given here, so
+after right clicking there is a subdivide given here, so
+after right clicking there is a subdivide given here, so
+you
+you
+you
+can create a new point by clicking in it, if you
+can create a new point by clicking in it, if you
+can create a new point by clicking in it, if you
+need more points in this area, then there is a
+need more points in this area, then there is a
+need more points in this area, then there is a
+subdivide given below here,
+subdivide given below here,
+subdivide given below here,
+go into it, after going into it, like the
+go into it, after going into it, like the
+go into it, after going into it, like the
+number of cuts is given here, so if you
+number of cuts is given here, so if you
+number of cuts is given here, so if you
+people increase it then here automatically
+people increase it then here automatically
+people increase it then here automatically
+its number of cuts will increase, more of
+its number of cuts will increase, more of
+its number of cuts will increase, more of
+our points will be created, so in
+our points will be created, so in
+our points will be created, so in
+this way we can create both these points.  We select it and
+this way we can create both these points.  We select it and
+this way we can create both these points.  We select it and
+create it here, by right clicking
+create it here, by right clicking
+create it here, by right clicking
+we increase the subdivision points of this also,
+we increase the subdivision points of this also,
+we increase the subdivision points of this also,
+so now here we will set this
+so now here we will set this
+so now here we will set this
+point in this way with the help of move tool,
+point in this way with the help of move tool,
+point in this way with the help of move tool,
+so here you
+so here you
+so here you
+can check on the screen that as I
+can check on the screen that as I
+can check on the screen that as I
+am moving this point, here below we have
+am moving this point, here below we have
+am moving this point, here below we have
+our path, our creation is happening in that too, so in
+our path, our creation is happening in that too, so in
+our path, our creation is happening in that too, so in
+this way you can create
+this way you can create
+this way you can create
+whatever shape of hair you want, you can
+whatever shape of hair you want, you can
+whatever shape of hair you want, you can
+create it according to yourself in this way, so
+create it according to yourself in this way, so
+create it according to yourself in this way, so
+here we quickly create,
+here we quickly create,
+here we quickly create,
+according to ourselves we create hair in the way we want,
+according to ourselves we create hair in the way we want,
+according to ourselves we create hair in the way we want,
+rest
+rest
+rest
+you can also create according to yourself, so
+you can also create according to yourself, so
+you can also create according to yourself, so
+now here we press tab and go to
+now here we press tab and go to
+now here we press tab and go to
+object mode again and here
+object mode again and here
+object mode again and here
+we select the path,
+we select the path,
+we select the path,
+after selecting the path we again press tab and
+after selecting the path we again press tab and
+after selecting the path we again press tab and
+go to its edit mode, so
+go to its edit mode, so
+go to its edit mode, so
+here we rotate it with the help of rotate tool in this
+here we rotate it with the help of rotate tool in this
+here we rotate it with the help of rotate tool in this
+way, so we will
+way, so we will
+way, so we will
+select it,
+select it,
+select it,
+after selecting, here we again press tab  We will press
+after selecting, here we again press tab  We will press
+after selecting, here we again press tab  We will press
+tab. After pressing tab, we will select its upper
+tab. After pressing tab, we will select its upper
+tab. After pressing tab, we will select its upper
+point and then by
+point and then by
+point and then by
+pressing alt plus s, we will make its size
+pressing alt plus s, we will make its size
+pressing alt plus s, we will make its size
+smaller in this way, so you
+smaller in this way, so you
+smaller in this way, so you
+can do it as you wish, so you can move it
+can do it as you wish, so you can move it
+can do it as you wish, so you can move it
+wherever you want in this way,
+wherever you want in this way,
+wherever you want in this way,
+in whatever shape you want to create,
+in whatever shape you want to create,
+in whatever shape you want to create,
+you can do it in this way, so
+you can do it in this way, so
+you can do it in this way, so
+you can create it as per your wish, so
+you can create it as per your wish, so
+you can create it as per your wish, so
+we create it in this way,
+we create it in this way,
+we create it in this way,
+like in our reference image,
+like in our reference image,
+like in our reference image,
+here we press tab and again
+here we press tab and again
+here we press tab and again
+go to its object mode and by
+go to its object mode and by
+go to its object mode and by
+moving it, we can move it in this way,
+moving it, we can move it in this way,
+moving it, we can move it in this way,
+wherever you want to attach it, you can do it in
+wherever you want to attach it, you can do it in
+wherever you want to attach it, you can do it in
+this way and by pressing s,
+this way and by pressing s,
+this way and by pressing s,
+you can shrink its size in this way, so
+you can shrink its size in this way, so
+you can shrink its size in this way, so
+here we press tab,
+here we press tab,
+here we press tab,
+go to its edit mode
+go to its edit mode
+go to its edit mode
+and here we set it according to our wish,
+and here we set it according to our wish,
+and here we set it according to our wish,
+okay, in this way
+okay, in this way
+okay, in this way
+you can make its shape as you want, so
+you can make its shape as you want, so
+you can make its shape as you want, so
+here we have created a hair,
+here we have created a hair,
+here we have created a hair,
+this is our blue
+this is our blue
+this is our blue
+hair, we have created it in
+hair, we have created it in
+hair, we have created it in
+this way  From this we will create the rest of the hair as well,
+this way  From this we will create the rest of the hair as well,
+this way  From this we will create the rest of the hair as well,
+so we copy this by
+so we copy this by
+so we copy this by
+pressing shift plus D, then move it and
+pressing shift plus D, then move it and
+pressing shift plus D, then move it and
+change its shape and set it according to our own,
+change its shape and set it according to our own,
+change its shape and set it according to our own,
+so here you
+so here you
+so here you
+can check it on the screen, in the same way
+can check it on the screen, in the same way
+can check it on the screen, in the same way
+you have to create the hair only once,
+you have to create the hair only once,
+you have to create the hair only once,
+rest you can edit it by copying and pasting it
+rest you can edit it by copying and pasting it
+rest you can edit it by copying and pasting it
+as you want to do
+as you want to do
+as you want to do
+according to your own, so here you
+according to your own, so here you
+according to your own, so here you
+can check on the screen that our hair has also been
+can check on the screen that our hair has also been
+can check on the screen that our hair has also been
+created in the right way, so today's
+created in the right way, so today's
+created in the right way, so today's
+video ended here, in the next video
+video ended here, in the next video
+video ended here, in the next video
+we will learn to create its body part
+we will learn to create its body part
+we will learn to create its body part
+and how to add material in it,
+and how to add material in it,
+and how to add material in it,
+we will learn all these things, so
+we will learn all these things, so
+we will learn all these things, so
+thank you for watching this video

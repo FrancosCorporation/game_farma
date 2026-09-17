@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>GLB Preview</title>
+<style>html,body{margin:0;height:100%;background:#10161d;overflow:hidden}#c{width:100vw;height:100vh;display:block}</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script type="importmap">
+{ "imports": { "three": "/node_modules/three/build/three.module.js", "three/addons/": "/node_modules/three/examples/jsm/" } }
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
+
+const qs = new URLSearchParams(location.search);
+const names = (qs.get('m') || 'paciente').split(',').filter(Boolean);
+const poseOverride = qs.get('pose') || '';
+
+const canvas = document.getElementById('c');
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setSize(innerWidth, innerHeight);
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.05;
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x1a2530);
+scene.fog = new THREE.Fog(0x1a2530, 14, 30);
+scene.add(new THREE.HemisphereLight(0xdfe9f5, 0x2a2622, 1.0));
+const key = new THREE.DirectionalLight(0xfff2e0, 2.2);
+key.position.set(4, 6, 7);
+key.castShadow = true;
+key.shadow.mapSize.set(2048, 2048);
+Object.assign(key.shadow.camera, { left: -9, right: 9, top: 9, bottom: -9 });
+key.shadow.bias = -0.0005;
+scene.add(key);
+const fill = new THREE.PointLight(0x9fd8ff, 6, 22);
+fill.position.set(-4, 3, 3);
+scene.add(fill);
+const warm = new THREE.PointLight(0xffd9a0, 4, 18);
+warm.position.set(3, 2.2, -3);
+scene.add(warm);
+
+const camera = new THREE.PerspectiveCamera(40, innerWidth / innerHeight, 0.1, 60);
+const n = names.length;
+const camPreset = qs.get('cam') || 'full';
+if (camPreset === 'face') {
+  // close no rosto (calibração de expressões)
+  if (n === 1) {
+    camera.position.set(0.08, 1.6, 0.62);
+    camera.lookAt(0, 1.56, 0);
+  } else {
+    camera.position.set(0, 1.58, 0.95 + (n - 1) * 0.5);
+    camera.lookAt(0, 1.5, 0);
+  }
+} else if (camPreset === 'torso') {
+  camera.position.set(0, 1.4, 1.9 + n * 0.4);
+  camera.lookAt(0, 1.25, 0);
+} else {
+  camera.position.set(0, 1.45 + n * 0.18, 4.2 + n * 1.05);
+  camera.lookAt(0, 0.95, 0);
+}
+
+const floor = new THREE.Mesh(
+  new THREE.CircleGeometry(14, 48),
+  new THREE.MeshStandardMaterial({ color: 0x2a3742, roughness: 0.85 })
+);
+floor.rotation.x = -Math.PI / 2;
+floor.receiveShadow = true;
+scene.add(floor);
+
+const mixer = [];
+const models = [];
+let loaded = 0;
+const loader = new GLTFLoader();
+loader.setMeshoptDecoder(MeshoptDecoder);
+// rest pose por instância + overrides de face ({idx: {bone: [x,y,z]}})
+const restPose = [];
+const faceOverrides = [];
+names.forEach((name, i) => {
+  loader.load(`models/${name}.glb`, (gltf) => {
+    const model = gltf.scene;
+    const box = new THREE.Box3().setFromObject(model);
+    const size = box.getSize(new THREE.Vector3());
+    const scale = 1.72 / Math.max(size.y, 1e-4);
+    model.scale.setScalar(scale);
+    box.setFromObject(model);
+    model.position.y -= box.min.y;
+    const cx = box.getCenter(new THREE.Vector3());
+    model.position.x -= cx.x;
+    model.traverse((o) => {
+      if (o.isMesh) { o.castShadow = true; o.receiveShadow = true; }
+    });
+    // debug: pinta cada material de uma cor para validar o split de regiões
+    if (qs.get('debugmats')) {
+      const PALETTE = [0xff4444, 0x44ff44, 0x4488ff, 0xffe744, 0xff44ff, 0x44ffff, 0xff8c00];
+      let ci = 0;
+      model.traverse((o) => {
+        if (!o.isMesh) return;
+        const mats = Array.isArray(o.material) ? o.material : [o.material];
+        const nv = mats.map((m) => {
+          const c = m.clone();
+          c.map = null;
+          c.color = new THREE.Color(PALETTE[ci++ % PALETTE.length] ?? 0xffffff);
+          c.name = m.name;
+          return c;
+        });
+        o.material = Array.isArray(o.material) ? nv : nv[0];
+        console.log('MATS', o.name, mats.map((m) => m.name).join(','));
+      });
+    }
+    model.position.x += (i - (n - 1) / 2) * 1.7;
+    if (camPreset === 'face') model.position.x = (i - (n - 1) / 2) * 1.15;
+    model.rotation.y = -0.18;
+    scene.add(model);
+    models.push(model);
+    // captura rest pose dos bones para os hooks de calibração
+    const bones = {};
+    model.traverse((o) => {
+      if (o.isBone) bones[o.name] = { b: o, rest: o.rotation.clone() };
+    });
+    restPose[i] = bones;
+    window.__bones = Object.keys(bones).filter((k) => /eye|brow|jaw|mouth|head|neck/i.test(k));
+    const mix = new THREE.AnimationMixer(model);
+    const clips = {};
+    for (const clip of gltf.animations) clips[clip.name] = clip;
+    mixer.push({ mix, clips });
+    if (++loaded === n) {
+      // debug: bbox projetada em coords de tela (para calibrar QA cega)
+      const b3 = new THREE.Box3().setFromObject(model);
+      const pts = [];
+      for (let cx = 0; cx < 2; cx++) for (let cy = 0; cy < 2; cy++) for (let cz = 0; cz < 2; cz++) {
+        const v = new THREE.Vector3(cx ? b3.min.x : b3.max.x, cy ? b3.min.y : b3.max.y, cz ? b3.min.z : b3.max.z);
+        v.project(camera);
+        pts.push([(v.x + 1) / 2, 1 - (v.y + 1) / 2]);
+      }
+      const xs = pts.map((p) => p[0]), ys = pts.map((p) => p[1]);
+      window.__screenBox = {
+        x0: Math.min(...xs).toFixed(3), x1: Math.max(...xs).toFixed(3),
+        y0: Math.min(...ys).toFixed(3), y1: Math.max(...ys).toFixed(3),
+      };
+      window.__ready = true;
+    }
+  }, undefined, (err) => {
+    console.error('FALHA', name, err);
+    if (++loaded === n) window.__ready = true;
+  });
+});
+
+const poseMap = { idle: 'Idle', mao_no_peito: 'Pain', curvado: 'Weakness', cabeca_baixa: 'Discomfort' };
+window.__setPose = (poseKey) => {
+  const name = poseMap[poseKey] || poseKey;
+  for (const { mix, clips } of mixer) {
+    const clip = clips[name] || clips.Idle;
+    if (clip) mix.clipAction(clip).reset().play();
+  }
+};
+// __face({idx: {bone: [x,y,z]}}) — eulers ADDITIVOS sobre o rest pose
+window.__face = (map) => {
+  for (const [idxStr, bones] of Object.entries(map)) {
+    faceOverrides[idxStr] = bones;
+  }
+};
+window.__style = (idx, style) => {
+  const m = models[idx];
+  if (!m) return;
+  m.traverse((o) => {
+    if (!o.isMesh || !o.material) return;
+    const mats = Array.isArray(o.material) ? o.material : [o.material];
+    for (const mt of mats) {
+      const nm = (mt.name || '').toLowerCase();
+      const col = /shirt/.test(nm) ? style.camisa : /pant/.test(nm) ? style.calca : /hair/.test(nm) ? style.cabelo : /skin/.test(nm) ? style.pele : /shoe/.test(nm) ? style.sapato : null;
+      if (col != null) mt.color = new THREE.Color(col);
+    }
+  });
+};
+// reaplica overrides de face todo frame (por cima de qualquer animação)
+function applyFaces() {
+  for (const [idxStr, bones] of Object.entries(faceOverrides)) {
+    const bp = restPose[idxStr];
+    if (!bp) continue;
+    for (const [bn, [x, y, z]] of Object.entries(bones)) {
+      const e = bp[bn];
+      if (e) e.b.rotation.set(e.rest.x + x, e.rest.y + y, e.rest.z + z);
+    }
+  }
+}
+
+const t0 = performance.now();
+function frame(now) {
+  const dt = Math.min((now - t0) / 1000, 0.05);
+  for (const { mix } of mixer) mix.update(dt);
+  applyFaces();
+  renderer.render(scene, camera);
+  requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+</script>
+</body>
+</html>

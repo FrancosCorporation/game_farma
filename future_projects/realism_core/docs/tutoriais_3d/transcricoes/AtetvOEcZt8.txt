@@ -1,0 +1,1452 @@
+Kind: captions
+Language: en
+in the past few years there's been a bit
+in the past few years there's been a bit
+in the past few years there's been a bit
+of an explosion when it comes to 3D
+of an explosion when it comes to 3D
+of an explosion when it comes to 3D
+animation with 2D shading Styles and a
+animation with 2D shading Styles and a
+animation with 2D shading Styles and a
+lot of these effects really aren't that
+lot of these effects really aren't that
+lot of these effects really aren't that
+hard to achieve with blender as long as
+hard to achieve with blender as long as
+hard to achieve with blender as long as
+you understand some key Concepts let's
+you understand some key Concepts let's
+you understand some key Concepts let's
+check it
+check it
+check it
+out the topic of stylized rendering is
+out the topic of stylized rendering is
+out the topic of stylized rendering is
+actually pretty wide there are whole
+actually pretty wide there are whole
+actually pretty wide there are whole
+communities dedicated to
+communities dedicated to
+communities dedicated to
+non-photorealistic rendering so I'll
+non-photorealistic rendering so I'll
+non-photorealistic rendering so I'll
+narrow it down to a few Concepts there's
+narrow it down to a few Concepts there's
+narrow it down to a few Concepts there's
+cell shading or flat shading outlines
+cell shading or flat shading outlines
+cell shading or flat shading outlines
+and 2D elements for a more drawn look
+and 2D elements for a more drawn look
+and 2D elements for a more drawn look
+screen tone which is common in comic
+screen tone which is common in comic
+screen tone which is common in comic
+books and painterly shaders that mimic
+books and painterly shaders that mimic
+books and painterly shaders that mimic
+brush strokes and if you want you can
+brush strokes and if you want you can
+brush strokes and if you want you can
+mix and match any of these to come up
+mix and match any of these to come up
+mix and match any of these to come up
+with your own style cell shading is a
+with your own style cell shading is a
+with your own style cell shading is a
+concept that comes from 2D animation
+concept that comes from 2D animation
+concept that comes from 2D animation
+when colors were painted onto sheets of
+when colors were painted onto sheets of
+when colors were painted onto sheets of
+clear Celluloid it was common that they
+clear Celluloid it was common that they
+clear Celluloid it was common that they
+only used solid colors with no gradients
+only used solid colors with no gradients
+only used solid colors with no gradients
+because blending colors added a lot of
+because blending colors added a lot of
+because blending colors added a lot of
+complexity to the painting
+complexity to the painting
+complexity to the painting
+process you can see the style being used
+process you can see the style being used
+process you can see the style being used
+now in the spiderverse movies
+now in the spiderverse movies
+now in the spiderverse movies
+nimona and the Mitchells versus the
+nimona and the Mitchells versus the
+nimona and the Mitchells versus the
+machines the most automatic way of doing
+machines the most automatic way of doing
+machines the most automatic way of doing
+this to everything in your scene is by
+this to everything in your scene is by
+this to everything in your scene is by
+using the compositor make sure to press
+using the compositor make sure to press
+using the compositor make sure to press
+this use nodes button and then bring in
+this use nodes button and then bring in
+this use nodes button and then bring in
+a posterized node that's literally it
+a posterized node that's literally it
+a posterized node that's literally it
+you can adjust this if you want a
+you can adjust this if you want a
+you can adjust this if you want a
+different amount of colors or maybe put
+different amount of colors or maybe put
+different amount of colors or maybe put
+a brightness and contrast node at the
+a brightness and contrast node at the
+a brightness and contrast node at the
+beginning if you think it's too dark and
+beginning if you think it's too dark and
+beginning if you think it's too dark and
+you can view everything without
+you can view everything without
+you can view everything without
+rendering now thanks to this viewport
+rendering now thanks to this viewport
+rendering now thanks to this viewport
+setting as a little bonus here's a setup
+setting as a little bonus here's a setup
+setting as a little bonus here's a setup
+to make everything pixelated if you're
+to make everything pixelated if you're
+to make everything pixelated if you're
+going for a Retro Game aesthetic if you
+going for a Retro Game aesthetic if you
+going for a Retro Game aesthetic if you
+want a little more control over the cell
+want a little more control over the cell
+want a little more control over the cell
+shading effect then try this method
+shading effect then try this method
+shading effect then try this method
+instead select an object and go to the
+instead select an object and go to the
+instead select an object and go to the
+Shader editor make a new material and
+Shader editor make a new material and
+Shader editor make a new material and
+use the Shader to RGB node this node is
+use the Shader to RGB node this node is
+use the Shader to RGB node this node is
+responsible for most of the Magic in
+responsible for most of the Magic in
+responsible for most of the Magic in
+this video and it only works with the
+this video and it only works with the
+this video and it only works with the
+eveve render engine so make sure you're
+eveve render engine so make sure you're
+eveve render engine so make sure you're
+using Eevee and not Cycles now we have a
+using Eevee and not Cycles now we have a
+using Eevee and not Cycles now we have a
+few options first is to use a color ramp
+few options first is to use a color ramp
+few options first is to use a color ramp
+set this to constant and now you can
+set this to constant and now you can
+set this to constant and now you can
+move these stops around change the
+move these stops around change the
+move these stops around change the
+colors to whatever you want and you can
+colors to whatever you want and you can
+colors to whatever you want and you can
+add more colors too this alone will give
+add more colors too this alone will give
+add more colors too this alone will give
+you a ton of options and if you don't
+you a ton of options and if you don't
+you a ton of options and if you don't
+want it completely flat then you can
+want it completely flat then you can
+want it completely flat then you can
+keep this set to linear or try the other
+keep this set to linear or try the other
+keep this set to linear or try the other
+options this will work best when you
+options this will work best when you
+options this will work best when you
+leave the color of the principled Shader
+leave the color of the principled Shader
+leave the color of the principled Shader
+set to White otherwise your model will
+set to White otherwise your model will
+set to White otherwise your model will
+tend to be really dark and give you less
+tend to be really dark and give you less
+tend to be really dark and give you less
+control you can also try changing the
+control you can also try changing the
+control you can also try changing the
+roughness or metallic to get some
+roughness or metallic to get some
+roughness or metallic to get some
+different results other shaders work
+different results other shaders work
+different results other shaders work
+with this method too and most other
+with this method too and most other
+with this method too and most other
+videos you find about this will use a
+videos you find about this will use a
+videos you find about this will use a
+diffuse Shader for the most accurate
+diffuse Shader for the most accurate
+diffuse Shader for the most accurate
+colors you should set your color
+colors you should set your color
+colors you should set your color
+management to standard I only really use
+management to standard I only really use
+management to standard I only really use
+this mode for cell shading though and
+this mode for cell shading though and
+this mode for cell shading though and
+depending on your lighting setup you
+depending on your lighting setup you
+depending on your lighting setup you
+might notice that the colors aren't
+might notice that the colors aren't
+might notice that the colors aren't
+completely flat so one way around that
+completely flat so one way around that
+completely flat so one way around that
+is by selecting your light and in the
+is by selecting your light and in the
+is by selecting your light and in the
+properties turn Shadow off the lighting
+properties turn Shadow off the lighting
+properties turn Shadow off the lighting
+won't be as accurate like objects won't
+won't be as accurate like objects won't
+won't be as accurate like objects won't
+cast Shadows onto each other but it will
+cast Shadows onto each other but it will
+cast Shadows onto each other but it will
+be flatter you can also make the size of
+be flatter you can also make the size of
+be flatter you can also make the size of
+your lights as small as possible and
+your lights as small as possible and
+your lights as small as possible and
+this helps too one problem with the
+this helps too one problem with the
+this helps too one problem with the
+color ramp is that if you want to reuse
+color ramp is that if you want to reuse
+color ramp is that if you want to reuse
+it and turn it into a node group group
+it and turn it into a node group group
+it and turn it into a node group group
+then you can't control the color or
+then you can't control the color or
+then you can't control the color or
+where the stops are because it doesn't
+where the stops are because it doesn't
+where the stops are because it doesn't
+have any inputs so if you want that then
+have any inputs so if you want that then
+have any inputs so if you want that then
+you can use a map range node or a math
+you can use a map range node or a math
+you can use a map range node or a math
+node set to greater than for the map
+node set to greater than for the map
+node set to greater than for the map
+range node you can control how big the
+range node you can control how big the
+range node you can control how big the
+transition is by changing these two
+transition is by changing these two
+transition is by changing these two
+values and you can push them really
+values and you can push them really
+values and you can push them really
+close together to make it look sharp
+close together to make it look sharp
+close together to make it look sharp
+here's a setup that can be used for two
+here's a setup that can be used for two
+here's a setup that can be used for two
+colors and it's just controlling the
+colors and it's just controlling the
+colors and it's just controlling the
+factor of a mixed color nodee and here
+factor of a mixed color nodee and here
+factor of a mixed color nodee and here
+is one that uses three colors and you
+is one that uses three colors and you
+is one that uses three colors and you
+can make groups that use as many colors
+can make groups that use as many colors
+can make groups that use as many colors
+as you want using this method for a more
+as you want using this method for a more
+as you want using this method for a more
+in-depth look at how this works
+in-depth look at how this works
+in-depth look at how this works
+water for a more in-depth look at how
+water for a more in-depth look at how
+water for a more in-depth look at how
+this works you can check out the video
+this works you can check out the video
+this works you can check out the video
+on my second channel the math node set
+on my second channel the math node set
+on my second channel the math node set
+to greater than works the same way
+to greater than works the same way
+to greater than works the same way
+except it will only give you sharp edges
+except it will only give you sharp edges
+except it will only give you sharp edges
+with no gradients if you want a single
+with no gradients if you want a single
+with no gradients if you want a single
+object to have a bunch of colors you can
+object to have a bunch of colors you can
+object to have a bunch of colors you can
+copy this material and change the color
+copy this material and change the color
+copy this material and change the color
+for each one but usually I'll use an
+for each one but usually I'll use an
+for each one but usually I'll use an
+image to control the color instead I
+image to control the color instead I
+image to control the color instead I
+made this color palette that's free to
+made this color palette that's free to
+made this color palette that's free to
+download from gumroad and I just select
+download from gumroad and I just select
+download from gumroad and I just select
+faces and move them around and scale
+faces and move them around and scale
+faces and move them around and scale
+them in the UV Editor to change the
+them in the UV Editor to change the
+them in the UV Editor to change the
+color what I'm showing next should work
+color what I'm showing next should work
+color what I'm showing next should work
+for any image you're using though for
+for any image you're using though for
+for any image you're using though for
+this group that uses three colors I'll
+this group that uses three colors I'll
+this group that uses three colors I'll
+put the image into the middle color slot
+put the image into the middle color slot
+put the image into the middle color slot
+then get a mix color node set to
+then get a mix color node set to
+then get a mix color node set to
+multiply and plug the image into the
+multiply and plug the image into the
+multiply and plug the image into the
+first color slot the second slot I'll
+first color slot the second slot I'll
+first color slot the second slot I'll
+put a darker color like a dark blue and
+put a darker color like a dark blue and
+put a darker color like a dark blue and
+now the factor will control how dark it
+now the factor will control how dark it
+now the factor will control how dark it
+gets we can do that same thing for the
+gets we can do that same thing for the
+gets we can do that same thing for the
+other color slot but set it to add and
+other color slot but set it to add and
+other color slot but set it to add and
+choose a lighter color and that will
+choose a lighter color and that will
+choose a lighter color and that will
+will give us
+will give us
+will give us
+highlights I like using this method
+highlights I like using this method
+highlights I like using this method
+because you can swap the main color out
+because you can swap the main color out
+because you can swap the main color out
+with anything and it usually looks
+with anything and it usually looks
+with anything and it usually looks
+pretty good the map range node has a few
+pretty good the map range node has a few
+pretty good the map range node has a few
+other tricks like if you set it to
+other tricks like if you set it to
+other tricks like if you set it to
+stepped linear it looks like this and
+stepped linear it looks like this and
+stepped linear it looks like this and
+you can choose how many steps you want
+you can choose how many steps you want
+you can choose how many steps you want
+all the steps will be evenly spaced so
+all the steps will be evenly spaced so
+all the steps will be evenly spaced so
+you don't have much control but if it
+you don't have much control but if it
+you don't have much control but if it
+looks good to you then you can use it
+looks good to you then you can use it
+looks good to you then you can use it
+you can also set it to vector and Ste
+you can also set it to vector and Ste
+you can also set it to vector and Ste
+linear and will actually split the
+linear and will actually split the
+linear and will actually split the
+colors of your Shader into solid colors
+colors of your Shader into solid colors
+colors of your Shader into solid colors
+like this so this would be a good way of
+like this so this would be a good way of
+like this so this would be a good way of
+making an existing material look
+making an existing material look
+making an existing material look
+cell-shaded again you don't have very
+cell-shaded again you don't have very
+cell-shaded again you don't have very
+much control when using this method but
+much control when using this method but
+much control when using this method but
+it leads to another interesting idea of
+it leads to another interesting idea of
+it leads to another interesting idea of
+treating the red green and blue channels
+treating the red green and blue channels
+treating the red green and blue channels
+of our color differently you can use a
+of our color differently you can use a
+of our color differently you can use a
+separate color node to split the color
+separate color node to split the color
+separate color node to split the color
+into three channels and if you make a
+into three channels and if you make a
+into three channels and if you make a
+red green and blue light this lets you
+red green and blue light this lets you
+red green and blue light this lets you
+do things like add rim lights that have
+do things like add rim lights that have
+do things like add rim lights that have
+different colors I'll usually just use
+different colors I'll usually just use
+different colors I'll usually just use
+the red channel for the main color and
+the red channel for the main color and
+the red channel for the main color and
+for the other channels use a mixed color
+for the other channels use a mixed color
+for the other channels use a mixed color
+node set to add or multiply to mix them
+node set to add or multiply to mix them
+node set to add or multiply to mix them
+together lightning Boy Studio has a
+together lightning Boy Studio has a
+together lightning Boy Studio has a
+video about this if you want to see more
+video about this if you want to see more
+video about this if you want to see more
+the last cell shading tip is for when
+the last cell shading tip is for when
+the last cell shading tip is for when
+you don't want to use lights you can
+you don't want to use lights you can
+you don't want to use lights you can
+actually fake light Direction by using
+actually fake light Direction by using
+actually fake light Direction by using
+the normal from a texture coordinate
+the normal from a texture coordinate
+the normal from a texture coordinate
+node and a vector math node set to dot
+node and a vector math node set to dot
+node and a vector math node set to dot
+product then change these values to
+product then change these values to
+product then change these values to
+decide the light Direction like if you
+decide the light Direction like if you
+decide the light Direction like if you
+want the light coming from straight up
+want the light coming from straight up
+want the light coming from straight up
+then set the zv value to one or you can
+then set the zv value to one or you can
+then set the zv value to one or you can
+use this normal node for a different way
+use this normal node for a different way
+use this normal node for a different way
+to control the direction and this could
+to control the direction and this could
+to control the direction and this could
+be a nice option if you want some
+be a nice option if you want some
+be a nice option if you want some
+objects to be lit individually next is a
+objects to be lit individually next is a
+objects to be lit individually next is a
+about making outlines but at this point
+about making outlines but at this point
+about making outlines but at this point
+you might be wondering if I'm going to
+you might be wondering if I'm going to
+you might be wondering if I'm going to
+keep talking about Vector math and using
+keep talking about Vector math and using
+keep talking about Vector math and using
+terms like dot product well math comes
+terms like dot product well math comes
+terms like dot product well math comes
+up a lot in my videos but don't worry
+up a lot in my videos but don't worry
+up a lot in my videos but don't worry
+because there are free and easy ways to
+because there are free and easy ways to
+because there are free and easy ways to
+learn about these topics like with
+learn about these topics like with
+learn about these topics like with
+brilliant who is sponsoring this video
+brilliant who is sponsoring this video
+brilliant who is sponsoring this video
+brilliant is the best way to learn math
+brilliant is the best way to learn math
+brilliant is the best way to learn math
+and science because they make it
+and science because they make it
+and science because they make it
+interactive and fun I just started the
+interactive and fun I just started the
+interactive and fun I just started the
+creative coding course for free and it's
+creative coding course for free and it's
+creative coding course for free and it's
+covering topics like conditionals and
+covering topics like conditionals and
+covering topics like conditionals and
+Loops which could really help people
+Loops which could really help people
+Loops which could really help people
+trying to learn geometry nodes and
+trying to learn geometry nodes and
+trying to learn geometry nodes and
+blender especially with the new
+blender especially with the new
+blender especially with the new
+simulation Zone that's B basically all
+simulation Zone that's B basically all
+simulation Zone that's B basically all
+about loops but honestly you'll start
+about loops but honestly you'll start
+about loops but honestly you'll start
+noticing how brilliant can help you in
+noticing how brilliant can help you in
+noticing how brilliant can help you in
+your everyday life once you start
+your everyday life once you start
+your everyday life once you start
+learning any of the stem topics they
+learning any of the stem topics they
+learning any of the stem topics they
+offer and whatever your skill level
+offer and whatever your skill level
+offer and whatever your skill level
+brilliant customizes content to fit your
+brilliant customizes content to fit your
+brilliant customizes content to fit your
+needs you can take a quiz when you sign
+needs you can take a quiz when you sign
+needs you can take a quiz when you sign
+up and it will match you with content at
+up and it will match you with content at
+up and it will match you with content at
+your level and figure out what interests
+your level and figure out what interests
+your level and figure out what interests
+you and you're watching my videos so you
+you and you're watching my videos so you
+you and you're watching my videos so you
+probably like learning new skills and
+probably like learning new skills and
+probably like learning new skills and
+they have thousands of lessons so
+they have thousands of lessons so
+they have thousands of lessons so
+something will definitely peque your
+something will definitely peque your
+something will definitely peque your
+interest it's been really easy to fit
+interest it's been really easy to fit
+interest it's been really easy to fit
+into my busy schedule because you can
+into my busy schedule because you can
+into my busy schedule because you can
+use it on your phone or computer which
+use it on your phone or computer which
+use it on your phone or computer which
+means you can be learning with brilliant
+means you can be learning with brilliant
+means you can be learning with brilliant
+pretty much anywhere and if you get
+pretty much anywhere and if you get
+pretty much anywhere and if you get
+stuck there are hints and step-by-step
+stuck there are hints and step-by-step
+stuck there are hints and step-by-step
+solutions to explain problems to you and
+solutions to explain problems to you and
+solutions to explain problems to you and
+help you make sense of everything plus
+help you make sense of everything plus
+help you make sense of everything plus
+look how slick these animations are I'm
+look how slick these animations are I'm
+look how slick these animations are I'm
+a visual learner so these actually help
+a visual learner so these actually help
+a visual learner so these actually help
+me a lot so give brilliant a try for
+me a lot so give brilliant a try for
+me a lot so give brilliant a try for
+free for 30 days just use my link in the
+free for 30 days just use my link in the
+free for 30 days just use my link in the
+description or go to brilliant.org joeyc
+description or go to brilliant.org joeyc
+description or go to brilliant.org joeyc
+and the first 200 of you will get 20%
+and the first 200 of you will get 20%
+and the first 200 of you will get 20%
+off Brilliance annual premium
+off Brilliance annual premium
+off Brilliance annual premium
+subscription that's brilliant.org joyc
+subscription that's brilliant.org joyc
+subscription that's brilliant.org joyc
+check it out before the offer ends
+check it out before the offer ends
+check it out before the offer ends
+outlines are all over the place in 2D
+outlines are all over the place in 2D
+outlines are all over the place in 2D
+animation and in recent movies you can
+animation and in recent movies you can
+animation and in recent movies you can
+spot them in spiderverse and the bad
+spot them in spiderverse and the bad
+spot them in spiderverse and the bad
+guys especially small details like face
+guys especially small details like face
+guys especially small details like face
+lines for emphasis for the outline there
+lines for emphasis for the outline there
+lines for emphasis for the outline there
+are a few options first is with a frel
+are a few options first is with a frel
+are a few options first is with a frel
+node or a layer weight node either of
+node or a layer weight node either of
+node or a layer weight node either of
+these outputs will work and you can put
+these outputs will work and you can put
+these outputs will work and you can put
+that into a math node set to less than
+that into a math node set to less than
+that into a math node set to less than
+this will give you a black outline that
+this will give you a black outline that
+this will give you a black outline that
+changes width depending on the angle of
+changes width depending on the angle of
+changes width depending on the angle of
+the surface you're looking at you can
+the surface you're looking at you can
+the surface you're looking at you can
+either multiply this to keep it black or
+either multiply this to keep it black or
+either multiply this to keep it black or
+you can control the factor of a mix node
+you can control the factor of a mix node
+you can control the factor of a mix node
+and choose the colors you want it looks
+and choose the colors you want it looks
+and choose the colors you want it looks
+nice but it's not a good option if you
+nice but it's not a good option if you
+nice but it's not a good option if you
+want the width to be consistent another
+want the width to be consistent another
+want the width to be consistent another
+option is what people call the inverted
+option is what people call the inverted
+option is what people call the inverted
+hole method add a solidify modifier and
+hole method add a solidify modifier and
+hole method add a solidify modifier and
+for this you'll need a second material
+for this you'll need a second material
+for this you'll need a second material
+so add a new slot I'll name it outline
+so add a new slot I'll name it outline
+so add a new slot I'll name it outline
+change this to emission and set the
+change this to emission and set the
+change this to emission and set the
+color to Black now make sure you have
+color to Black now make sure you have
+color to Black now make sure you have
+back face coling turned on and I'll
+back face coling turned on and I'll
+back face coling turned on and I'll
+usually set Shadow mode to none as well
+usually set Shadow mode to none as well
+usually set Shadow mode to none as well
+back in the solidify modifier we can add
+back in the solidify modifier we can add
+back in the solidify modifier we can add
+some thickness flip the normals and set
+some thickness flip the normals and set
+some thickness flip the normals and set
+the material offset to one and that
+the material offset to one and that
+the material offset to one and that
+should give you an outline all of these
+should give you an outline all of these
+should give you an outline all of these
+settings basically make it so we're only
+settings basically make it so we're only
+settings basically make it so we're only
+seeing the inside faces that are created
+seeing the inside faces that are created
+seeing the inside faces that are created
+with the solidify modifier and you can
+with the solidify modifier and you can
+with the solidify modifier and you can
+do the same thing in Geometry nodes too
+do the same thing in Geometry nodes too
+do the same thing in Geometry nodes too
+if you want to add some other effects to
+if you want to add some other effects to
+if you want to add some other effects to
+it like making the outline wiggle this
+it like making the outline wiggle this
+it like making the outline wiggle this
+works fine for a lot of models but it
+works fine for a lot of models but it
+works fine for a lot of models but it
+gets weird with some shapes next is
+gets weird with some shapes next is
+gets weird with some shapes next is
+using the grease pencil outline option
+using the grease pencil outline option
+using the grease pencil outline option
+and this is nice because you can use it
+and this is nice because you can use it
+and this is nice because you can use it
+to outline a single object a collection
+to outline a single object a collection
+to outline a single object a collection
+or even the entire scene select an
+or even the entire scene select an
+or even the entire scene select an
+object press shift a and under grease
+object press shift a and under grease
+object press shift a and under grease
+pencil choose one of these three options
+pencil choose one of these three options
+pencil choose one of these three options
+I'll choose object line art now this
+I'll choose object line art now this
+I'll choose object line art now this
+only works when you're using a camera so
+only works when you're using a camera so
+only works when you're using a camera so
+make sure you add one and that it's
+make sure you add one and that it's
+make sure you add one and that it's
+pointing at your object when you're not
+pointing at your object when you're not
+pointing at your object when you're not
+looking through the camera it looks
+looking through the camera it looks
+looking through the camera it looks
+pretty broken but through the camera it
+pretty broken but through the camera it
+pretty broken but through the camera it
+all comes together you can press n to
+all comes together you can press n to
+all comes together you can press n to
+open this panel and use the lock camera
+open this panel and use the lock camera
+open this panel and use the lock camera
+to view option if you want the camera to
+to view option if you want the camera to
+to view option if you want the camera to
+follow wherever you look the outline is
+follow wherever you look the outline is
+follow wherever you look the outline is
+actually a separate object and you can
+actually a separate object and you can
+actually a separate object and you can
+select it to access the settings in the
+select it to access the settings in the
+select it to access the settings in the
+properties you can change the thickness
+properties you can change the thickness
+properties you can change the thickness
+material and the object it outlines
+material and the object it outlines
+material and the object it outlines
+under Edge types you can change where
+under Edge types you can change where
+under Edge types you can change where
+it's placing the lines like if you only
+it's placing the lines like if you only
+it's placing the lines like if you only
+want the outside then you can set it to
+want the outside then you can set it to
+want the outside then you can set it to
+silhouette and disable the other options
+silhouette and disable the other options
+silhouette and disable the other options
+or you can outline everything you can
+or you can outline everything you can
+or you can outline everything you can
+use an image texture to make The Strokes
+use an image texture to make The Strokes
+use an image texture to make The Strokes
+look more stylized too and you can add
+look more stylized too and you can add
+look more stylized too and you can add
+grease pencil modifiers like noise if
+grease pencil modifiers like noise if
+grease pencil modifiers like noise if
+you want it to Jitter like this next is
+you want it to Jitter like this next is
+you want it to Jitter like this next is
+freestyle and you can find that under
+freestyle and you can find that under
+freestyle and you can find that under
+render properties just enable that and
+render properties just enable that and
+render properties just enable that and
+when you render it will automatically
+when you render it will automatically
+when you render it will automatically
+give you outlines
+give you outlines
+give you outlines
+Under The View layer tab you can find
+Under The View layer tab you can find
+Under The View layer tab you can find
+all these other options similar to how
+all these other options similar to how
+all these other options similar to how
+grease pencil Works freestyle works well
+grease pencil Works freestyle works well
+grease pencil Works freestyle works well
+but I don't really like to use it mostly
+but I don't really like to use it mostly
+but I don't really like to use it mostly
+because you have to render to see the
+because you have to render to see the
+because you have to render to see the
+result there's also this tool by Alan
+result there's also this tool by Alan
+result there's also this tool by Alan
+Wyatt called the line art curve modifier
+Wyatt called the line art curve modifier
+Wyatt called the line art curve modifier
+it's made with geometry nodes and it
+it's made with geometry nodes and it
+it's made with geometry nodes and it
+does a really good job of emulating ink
+does a really good job of emulating ink
+does a really good job of emulating ink
+outlines and pencil sketches there's a
+outlines and pencil sketches there's a
+outlines and pencil sketches there's a
+link for this in the description grease
+link for this in the description grease
+link for this in the description grease
+pencil is also a great way of adding 2D
+pencil is also a great way of adding 2D
+pencil is also a great way of adding 2D
+animated parts to your 3D scenes like
+animated parts to your 3D scenes like
+animated parts to your 3D scenes like
+adding lines to faces just add a bleak
+adding lines to faces just add a bleak
+adding lines to faces just add a bleak
+Bleak just add a blank grease pencil
+Bleak just add a blank grease pencil
+Bleak just add a blank grease pencil
+object with shift a go into draw mode go
+object with shift a go into draw mode go
+object with shift a go into draw mode go
+to the part of your animation where you
+to the part of your animation where you
+to the part of your animation where you
+want a crease to appear and draw a line
+want a crease to appear and draw a line
+want a crease to appear and draw a line
+right here I duplicated the frame on the
+right here I duplicated the frame on the
+right here I duplicated the frame on the
+timeline with shift d and moved it to
+timeline with shift d and moved it to
+timeline with shift d and moved it to
+where I wanted the animation to start
+where I wanted the animation to start
+where I wanted the animation to start
+then I scaled it down in edit mode and
+then I scaled it down in edit mode and
+then I scaled it down in edit mode and
+used the ineter tool to add all the in
+used the ineter tool to add all the in
+used the ineter tool to add all the in
+between frames you can also add blank
+between frames you can also add blank
+between frames you can also add blank
+key frames in draw mode by pressing I or
+key frames in draw mode by pressing I or
+key frames in draw mode by pressing I or
+you can put auto key frame on and draw
+you can put auto key frame on and draw
+you can put auto key frame on and draw
+every frame if I wanted to use this
+every frame if I wanted to use this
+every frame if I wanted to use this
+regular L I'd copy paste the frames
+regular L I'd copy paste the frames
+regular L I'd copy paste the frames
+wherever they're needed but there are
+wherever they're needed but there are
+wherever they're needed but there are
+probably easier ways to go about it I
+probably easier ways to go about it I
+probably easier ways to go about it I
+honestly haven't worked with grease
+honestly haven't worked with grease
+honestly haven't worked with grease
+pencil all that much I do know that you
+pencil all that much I do know that you
+pencil all that much I do know that you
+can rig and weight paint grease pencil
+can rig and weight paint grease pencil
+can rig and weight paint grease pencil
+just like a mesh though and this is nice
+just like a mesh though and this is nice
+just like a mesh though and this is nice
+if you want permanent 2D elements to be
+if you want permanent 2D elements to be
+if you want permanent 2D elements to be
+part of your character like for this I
+part of your character like for this I
+part of your character like for this I
+just parented some Strokes to the Head
+just parented some Strokes to the Head
+just parented some Strokes to the Head
+bone and the tie is parented to the body
+bone and the tie is parented to the body
+bone and the tie is parented to the body
+bone next is about half tones and Screen
+bone next is about half tones and Screen
+bone next is about half tones and Screen
+tones this is a common pattern you'll
+tones this is a common pattern you'll
+tones this is a common pattern you'll
+see in comics where instead of solid
+see in comics where instead of solid
+see in comics where instead of solid
+colors or gradients you get these little
+colors or gradients you get these little
+colors or gradients you get these little
+dots that people call half tone dots
+dots that people call half tone dots
+dots that people call half tone dots
+originally it was used as a way of
+originally it was used as a way of
+originally it was used as a way of
+printing different Shades of Gray while
+printing different Shades of Gray while
+printing different Shades of Gray while
+only using black ink and it's still used
+only using black ink and it's still used
+only using black ink and it's still used
+with modern printers that create
+with modern printers that create
+with modern printers that create
+everything by only using CMYK half tones
+everything by only using CMYK half tones
+everything by only using CMYK half tones
+and in comics and manga some people use
+and in comics and manga some people use
+and in comics and manga some people use
+screen tone sheets that are like
+screen tone sheets that are like
+screen tone sheets that are like
+transparent stickers with different
+transparent stickers with different
+transparent stickers with different
+patterns on them and they stick them on
+patterns on them and they stick them on
+patterns on them and they stick them on
+top of drawings and cut them out with a
+top of drawings and cut them out with a
+top of drawings and cut them out with a
+razor blade in 3D animation spiderverse
+razor blade in 3D animation spiderverse
+razor blade in 3D animation spiderverse
+used this a lot as a reference to comic
+used this a lot as a reference to comic
+used this a lot as a reference to comic
+book art in blender this is pretty easy
+book art in blender this is pretty easy
+book art in blender this is pretty easy
+to produce again let's use the Shader to
+to produce again let's use the Shader to
+to produce again let's use the Shader to
+RGB node and a math node set to greater
+RGB node and a math node set to greater
+RGB node and a math node set to greater
+than now most of the variety we're
+than now most of the variety we're
+than now most of the variety we're
+getting will come from what we plug into
+getting will come from what we plug into
+getting will come from what we plug into
+the greater than node let's use a voro
+the greater than node let's use a voro
+the greater than node let's use a voro
+node and plug the distance in get a
+node and plug the distance in get a
+node and plug the distance in get a
+texture coordinate node and plug in the
+texture coordinate node and plug in the
+texture coordinate node and plug in the
+camera Vector now if we turn the
+camera Vector now if we turn the
+camera Vector now if we turn the
+randomness down set this to 2D and turn
+randomness down set this to 2D and turn
+randomness down set this to 2D and turn
+the scale up it'll start to look pretty
+the scale up it'll start to look pretty
+the scale up it'll start to look pretty
+similar one problem is that the dots are
+similar one problem is that the dots are
+similar one problem is that the dots are
+white instead of black so you can flip
+white instead of black so you can flip
+white instead of black so you can flip
+that around with a mix node just set
+that around with a mix node just set
+that around with a mix node just set
+these values to one and zero you can
+these values to one and zero you can
+these values to one and zero you can
+also adjust these values to change the
+also adjust these values to change the
+also adjust these values to change the
+dot sizes and you can mix this with
+dot sizes and you can mix this with
+dot sizes and you can mix this with
+everything else using a mix node just
+everything else using a mix node just
+everything else using a mix node just
+like with the first outline method when
+like with the first outline method when
+like with the first outline method when
+using this camera option it'll look flat
+using this camera option it'll look flat
+using this camera option it'll look flat
+from every angle but if we zoom in then
+from every angle but if we zoom in then
+from every angle but if we zoom in then
+the dots will get closer so it is still
+the dots will get closer so it is still
+the dots will get closer so it is still
+using perspective if you want it to be
+using perspective if you want it to be
+using perspective if you want it to be
+completely flat you can use the view
+completely flat you can use the view
+completely flat you can use the view
+Vector from the camera data node and now
+Vector from the camera data node and now
+Vector from the camera data node and now
+the dots will be the same size no matter
+the dots will be the same size no matter
+the dots will be the same size no matter
+how far away you are this view vector
+how far away you are this view vector
+how far away you are this view vector
+and the window Vector are pretty similar
+and the window Vector are pretty similar
+and the window Vector are pretty similar
+except the window squashes the texture
+except the window squashes the texture
+except the window squashes the texture
+when you resize the window and the
+when you resize the window and the
+when you resize the window and the
+Vector doesn't do that now you can get
+Vector doesn't do that now you can get
+Vector doesn't do that now you can get
+some cool Variations by rotating this
+some cool Variations by rotating this
+some cool Variations by rotating this
+with a mapping node or switching the
+with a mapping node or switching the
+with a mapping node or switching the
+voro out for a wave texture to get these
+voro out for a wave texture to get these
+voro out for a wave texture to get these
+lines If instead you want them to change
+lines If instead you want them to change
+lines If instead you want them to change
+size and Bands then you can put a color
+size and Bands then you can put a color
+size and Bands then you can put a color
+ramp set to constant right here the
+ramp set to constant right here the
+ramp set to constant right here the
+position will change the size and the
+position will change the size and the
+position will change the size and the
+color will change where each band is
+color will change where each band is
+color will change where each band is
+next we have painterly effects where you
+next we have painterly effects where you
+next we have painterly effects where you
+can see brush strokes and you see a lot
+can see brush strokes and you see a lot
+can see brush strokes and you see a lot
+of this in Arcane as well as mutant
+of this in Arcane as well as mutant
+of this in Arcane as well as mutant
+Mayhem and the Star Wars Clone Wars show
+Mayhem and the Star Wars Clone Wars show
+Mayhem and the Star Wars Clone Wars show
+I know in Arcane this was mostly done
+I know in Arcane this was mostly done
+I know in Arcane this was mostly done
+manually with texture painting which is
+manually with texture painting which is
+manually with texture painting which is
+a lot of work but will give you the most
+a lot of work but will give you the most
+a lot of work but will give you the most
+control now this is a big enough topic
+control now this is a big enough topic
+control now this is a big enough topic
+that it deserves its own video and once
+that it deserves its own video and once
+that it deserves its own video and once
+again lightning Boy Studio has you
+again lightning Boy Studio has you
+again lightning Boy Studio has you
+covered with a video about projection
+covered with a video about projection
+covered with a video about projection
+painting similar to Arcane to touch on
+painting similar to Arcane to touch on
+painting similar to Arcane to touch on
+it briefly you can start texture
+it briefly you can start texture
+it briefly you can start texture
+painting by going into texture paint
+painting by going into texture paint
+painting by going into texture paint
+mode and clicking this button to add a
+mode and clicking this button to add a
+mode and clicking this button to add a
+new image for the base color and if
+new image for the base color and if
+new image for the base color and if
+you're using blender 4.0 the add new
+you're using blender 4.0 the add new
+you're using blender 4.0 the add new
+image button moved to over here if that
+image button moved to over here if that
+image button moved to over here if that
+doesn't work then try making a new
+doesn't work then try making a new
+doesn't work then try making a new
+material first you also need to make
+material first you also need to make
+material first you also need to make
+sure your object is UV unwrapped so do
+sure your object is UV unwrapped so do
+sure your object is UV unwrapped so do
+that if it isn't anyway once you add
+that if it isn't anyway once you add
+that if it isn't anyway once you add
+that image you should be able to paint
+that image you should be able to paint
+that image you should be able to paint
+directly on your model you can change
+directly on your model you can change
+directly on your model you can change
+the color brush size and strength over
+the color brush size and strength over
+the color brush size and strength over
+here and other brush options are over
+here and other brush options are over
+here and other brush options are over
+here sometimes it gets laggy and I've
+here sometimes it gets laggy and I've
+here sometimes it gets laggy and I've
+found that maximizing the window helps
+found that maximizing the window helps
+found that maximizing the window helps
+and you can do that with control space
+and you can do that with control space
+and you can do that with control space
+bar while hovering over the window you
+bar while hovering over the window you
+bar while hovering over the window you
+want I got some texture brushes from
+want I got some texture brushes from
+want I got some texture brushes from
+Craft Reaper on gumroad and they work
+Craft Reaper on gumroad and they work
+Craft Reaper on gumroad and they work
+pretty well to give different patterns
+pretty well to give different patterns
+pretty well to give different patterns
+that look less like the default airbrush
+that look less like the default airbrush
+that look less like the default airbrush
+blender gives you but you can use
+blender gives you but you can use
+blender gives you but you can use
+whatever images you want using the
+whatever images you want using the
+whatever images you want using the
+texture options here you can get some
+texture options here you can get some
+texture options here you can get some
+really nice results if you paint some
+really nice results if you paint some
+really nice results if you paint some
+lighter and darker areas as if you're
+lighter and darker areas as if you're
+lighter and darker areas as if you're
+painting the lighting directly onto the
+painting the lighting directly onto the
+painting the lighting directly onto the
+model actually if you wanted you could
+model actually if you wanted you could
+model actually if you wanted you could
+just bake the lighting directly onto the
+just bake the lighting directly onto the
+just bake the lighting directly onto the
+model and then paint over that and use
+model and then paint over that and use
+model and then paint over that and use
+those colors as a starting point I
+those colors as a starting point I
+those colors as a starting point I
+usually use the free add-on bake lab for
+usually use the free add-on bake lab for
+usually use the free add-on bake lab for
+baking doing this manually is a ton of
+baking doing this manually is a ton of
+baking doing this manually is a ton of
+work so here's a more automatic method
+work so here's a more automatic method
+work so here's a more automatic method
+with nodes make sure your model is
+with nodes make sure your model is
+with nodes make sure your model is
+shaded smooth get a geometry node and
+shaded smooth get a geometry node and
+shaded smooth get a geometry node and
+plug the normal noral into the normal
+plug the normal noral into the normal
+plug the normal noral into the normal
+what we're going to do is change the
+what we're going to do is change the
+what we're going to do is change the
+normal right here which is responsible
+normal right here which is responsible
+normal right here which is responsible
+for controlling what the model looks
+for controlling what the model looks
+for controlling what the model looks
+like when light hits it so let's put a
+like when light hits it so let's put a
+like when light hits it so let's put a
+voronoi texture in here and make sure
+voronoi texture in here and make sure
+voronoi texture in here and make sure
+the position is plugged into the normal
+the position is plugged into the normal
+the position is plugged into the normal
+this is basically pixelating the normal
+this is basically pixelating the normal
+this is basically pixelating the normal
+so it's only made of solid colors and
+so it's only made of solid colors and
+so it's only made of solid colors and
+that makes the model look like it's only
+that makes the model look like it's only
+that makes the model look like it's only
+made of flat surfaces but in a pretty
+made of flat surfaces but in a pretty
+made of flat surfaces but in a pretty
+random organic way to make it look more
+random organic way to make it look more
+random organic way to make it look more
+like brush Strokes at a noise texture
+like brush Strokes at a noise texture
+like brush Strokes at a noise texture
+use the object coordinate get a vector
+use the object coordinate get a vector
+use the object coordinate get a vector
+math node and we're going to add the
+math node and we're going to add the
+math node and we're going to add the
+color to the normals for more control
+color to the normals for more control
+color to the normals for more control
+subtract it by 0.5 and add another
+subtract it by 0.5 and add another
+subtract it by 0.5 and add another
+Vector math node set to scale and that
+Vector math node set to scale and that
+Vector math node set to scale and that
+changes the strength then change the
+changes the strength then change the
+changes the strength then change the
+scale and detail to make it look more
+scale and detail to make it look more
+scale and detail to make it look more
+like wet or dry brush Strokes you can
+like wet or dry brush Strokes you can
+like wet or dry brush Strokes you can
+also change the voro to smooth and that
+also change the voro to smooth and that
+also change the voro to smooth and that
+will make the flat spots blend into each
+will make the flat spots blend into each
+will make the flat spots blend into each
+other a little more using this in
+other a little more using this in
+other a little more using this in
+combination with other cell shading
+combination with other cell shading
+combination with other cell shading
+methods can give some results that look
+methods can give some results that look
+methods can give some results that look
+more like watercolor like this with the
+more like watercolor like this with the
+more like watercolor like this with the
+color ramp but you could also just put
+color ramp but you could also just put
+color ramp but you could also just put
+an RGB curves node or a brightness
+an RGB curves node or a brightness
+an RGB curves node or a brightness
+contrast node and mess with the levels
+contrast node and mess with the levels
+contrast node and mess with the levels
+just to change the colors a little if
+just to change the colors a little if
+just to change the colors a little if
+you want more color variation try mixing
+you want more color variation try mixing
+you want more color variation try mixing
+in this color output or you can separate
+in this color output or you can separate
+in this color output or you can separate
+the color first and it will give you
+the color first and it will give you
+the color first and it will give you
+this Grays scale value that you can use
+this Grays scale value that you can use
+this Grays scale value that you can use
+to just make the colors lighter or
+to just make the colors lighter or
+to just make the colors lighter or
+darker now if you plan on using any of
+darker now if you plan on using any of
+darker now if you plan on using any of
+these effects for an animated character
+these effects for an animated character
+these effects for an animated character
+and you don't want them to move around
+and you don't want them to move around
+and you don't want them to move around
+like this then bake them into an image
+like this then bake them into an image
+like this then bake them into an image
+and they should move in a more natural
+and they should move in a more natural
+and they should move in a more natural
+way I really like this method but if you
+way I really like this method but if you
+way I really like this method but if you
+want your results to look more like an
+want your results to look more like an
+want your results to look more like an
+actual painting then you'll either want
+actual painting then you'll either want
+actual painting then you'll either want
+some sort of postprocessing filter like
+some sort of postprocessing filter like
+some sort of postprocessing filter like
+in my older painting video or better yet
+in my older painting video or better yet
+in my older painting video or better yet
+use the the Live Paint filter tool by
+use the the Live Paint filter tool by
+use the the Live Paint filter tool by
+Alan Wyatt it does a great job creating
+Alan Wyatt it does a great job creating
+Alan Wyatt it does a great job creating
+realistic results and that's pretty much
+realistic results and that's pretty much
+realistic results and that's pretty much
+it so have a play around with it and if
+it so have a play around with it and if
+it so have a play around with it and if
+you want the file from this video you
+you want the file from this video you
+you want the file from this video you
+can get it on patreon maybe you'll like
+can get it on patreon maybe you'll like
+can get it on patreon maybe you'll like
+one of these videos next thanks for
+one of these videos next thanks for
+one of these videos next thanks for
+watching and have a good one

@@ -178,7 +178,7 @@ export class Game {
     this.lastPatientLine = caseDef.abertura;
     this.renderChips();
     this.el['btn-decisao'].hidden = false;
-    this.el['chat-input'].focus();
+    // sem auto-focus: o jogador anda com WASD; clicar no chat foca para digitar
   }
 
   renderChips() {

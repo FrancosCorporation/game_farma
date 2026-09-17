@@ -1,0 +1,1461 @@
+in this video we'll learn to texture
+paint a character in blender
+this is a part of a series that goes
+through all the steps it takes to make a
+character in blender
+if you haven't been following along this
+should apply to
+any character that already has a uv
+here's a character with uv maps similar
+to the ones that we created together
+and today we're going to create an
+albedo map
+similar to this one so an albedo map
+is all the colors that we want to see on
+our character
+and we're going to create that using
+blender's built-in texture painting
+workspace
+we'll start by modifying our mesh to
+make it easier to
+texture paint so let's go to our
+modeling window go to solid mode
+we'll create a second 3d viewport and we
+will go to
+isolate mode with the slash key
+and let's go to the side view
+so right now we're going to close her
+eyelids because it's hard to paint them
+when they're all crunched up like that
+we want to temporarily
+close her eyes but we don't want to
+modify
+the way her eyes are right now and we
+will do this by using shape keys
+so if you go and grab your mesh go to
+object data properties
+if you scroll through here you'll see an
+area called shape keys
+shape keys allows you to save the shape
+of your mesh as a base
+and then you can copy that base into a
+key
+when you have the key activated you can
+go into edit mode
+and you can shape that key however you
+want
+and you can toggle that key on and off
+shape keys are commonly used for facial
+animations where you can do things like
+turn on a smile and then turn it off
+again
+let's delete our temporary key we will
+create a new key we will turn the value
+to
+1 so we can use it and we will go to the
+side view and go to edit
+the way i navigate i like to pick a
+surface and then hit number pad
+period to zoom in i actually have a
+hotkey set to my mouse so it makes it
+really easy to navigate
+i'm lazy to pick all these small
+surfaces so i'm just going to
+click and control click to grab all
+these four and i'll go to select
+then m and then m to select all the
+adjacent
+faces go to side view and let's put
+a 3d cursor where we think the center of
+our eyeball
+would be because the eyelid kind of
+closes around the eye
+let's make sure transform around 3d
+cursor is on
+and proportional editing is on and make
+sure sharp is turned on
+let's make sure our mirror is turned on
+so we can edit
+both eyes at once and let's check it
+yeah that's working okay go to the side
+view hit r
+to rotate and i don't want to move the
+skin over the brow so let's make this
+wheel smaller
+i also don't want to pinch it in the
+middle of the eye too much so let's just
+rotate this a bit then unselect
+that rotate it a bit more this doesn't
+need to really look
+that good all we're doing is
+making more surface above the eye so
+that way we can
+paint it better go and rotate it a bit
+more and then maybe
+that that's pretty good and this is
+pinching here so let's also pull those
+down a bit
+so rotate again i'm going to scroll the
+wheel even smaller
+okay i think that's pretty good let's do
+the same thing for the corner of her
+mouth
+so let's grab some faces here we will
+grab let's see
+these like that go to
+select m m to grab more
+then we'll grab some faces below her
+chin
+so it blends out that move okay
+go to side view and drop a 3d cursor
+where we think her jaw pivots
+and then we'll rotate this down just a
+bit
+select m and then
+l for less and our selection gets
+smaller
+but we still want them across the middle
+whoops
+then rotate it just a bit more
+okay that looks pretty good so we can do
+our texture painting with her face like
+this
+and then delete that later and our face
+goes back to normal
+i like to bake really light shadows in
+my skin maps i feel like it adds a
+little more depth to the appearance
+baking shadows is basically doing a
+rendering
+where you have lights casting shadows
+onto the
+skin of the object and then you change
+those shadows
+into actual color so it looks like
+you're painting shadows on the body
+so when you bake these shadows you don't
+want the arms of the legs to be too
+close together because it'll cast
+shadows on other parts of the body and
+that'll look really funny
+so let's move these arms out of the way
+and the legs out of the way just like we
+did
+for the
+mouth and the eyelids so i'm going to
+grab some faces
+for the arm i know i want this
+orange part of the arm to move but i
+want the skin
+in between that and the body to blend
+so we will turn proportional editing to
+smooth
+hit r and rotate that a bit out
+maybe do that a bit more okay that's
+probably good enough
+let's do the same thing for the leg
+let's grab all that
+again i'm not being too careful here we
+just um
+we'll put the mesh back the way it was
+we just want to move it a bit so we
+don't cast too many shadows on
+the other parts of the body let's add a
+texture here so let's go to the shading
+workspace go to solid mode
+here grab the mesh go to our material
+window
+go to shift a s i m a for image texture
+put that there we will go to new call
+this
+aut for autumn and alb
+for albedo 4096 by
+4096 we'll
+color this something so we can make sure
+it's working
+click ok drag this
+here go to shaded mode so we can make
+sure it's there
+and then we'll go over here to
+aut or autumn
+albedo
+okay so now we have the material set up
+and let's go to image
+and save as and we'll put this
+in the textures folder and save it as
+autumn albedo okay so now we're all set
+up to
+do some texture painting i do want to
+talk about
+how blender stores files so if you see
+this texture here this autumn albedo we
+just created that
+this green skin you can see that
+there's this icon here for a folder
+so this means that this texture we
+created is saved in a folder
+this is the way computers normally save
+files
+this icon here for this tomcat uv map
+that we had previously
+this icon here means that
+the texture is packed into the blender
+file
+that means that that file is saved
+inside the blender file
+this is nice because if you give the
+file to somebody else they won't have to
+go around looking for it but the
+downside is
+it makes the blender file gigantic
+you can turn you can turn on
+packing by going to file external data
+and automatically pack into blend or you
+can manually do it by
+clicking pack all into blend and this
+will put all the current textures
+into the blender file and if you want to
+undo it
+and put all the textures into a folder
+you can go to
+unpack all files and use in current
+directory
+and it'll put all textures into a new
+folder
+and after that point if you save the
+file all the textures
+will be like this one here and it'll
+reference
+textures in a folder and this will make
+your
+your file smaller so i would suggest
+when you work with the files
+work with the files the texture is
+unpacked
+and if you give the file to somebody
+else pack them all into the blender file
+i hope that made sense okay let's go to
+our
+texture painting workspace here we will
+go and change the view
+to 200 because i like long lenses better
+we'll zoom out here and we will create
+another
+window and we'll make this a shader
+editor
+okay so let's
+modify the lighting
+in a couple ways to make it easier to
+texture paint
+so the first thing we're going to do is
+change this shaded mode here viewport
+shading mode
+to have the force selected there's a
+bunch of others here that come by
+default
+the force is default and make this 0.5
+so this is not exactly what's going on
+in this uh it's not exactly the same
+color
+as the painting window but it's
+kind of kind of close another useful
+thing to change
+is when we're doing the
+when you have the scene world and scene
+lights turned on
+let's turn on our lights here we can use
+this
+mode also to paint and we want to
+change something though so let's
+disconnect this
+and go to shift a s b a c for background
+and connect that to surface here
+so this is full white and so this will
+be
+useful also if we want to really kind of
+see
+the texture we're painting and you can
+switch to
+this if you want to see some some lights
+and you can toggle the lights on and off
+so it gives you some options to look at
+what you're painting differently
+let's go to object mode temporarily go
+to front view
+i find it easier to steal a pallet
+from somewhere so go to shift a
+image reference and then we will
+find a texture to steal our
+color from our color palette so this
+will make it easier for us because you
+can just grab colors off of here
+instead of going through the picker and
+just
+picking colors pick our object and go
+back into the texture paint mode
+okay so we have a brush here a blur here
+a smear a clone and a fill so i use
+those the most
+often if we hit the end key and go to
+tool
+you'll see we have the options for each
+one of these tools
+at the very top you can see we have
+texture slots
+this is the texture that we're currently
+painting on right now it's autumn albedo
+which is this green one you can see a
+little tiny icon
+so if we paint on the 3d viewport
+you can see it paints on the 3d viewport
+it also paints
+on the painting window you can also draw
+on the painting window and it
+draws on the 3d viewport so you can go
+back and forth
+now we used to have let's see here let's
+go to the shading
+go back to object so you can see we have
+two textures inside the shading
+window here so there's and there's two
+textures
+in our texture slots we'll eventually
+have three four
+five or six textures for this
+skin material and they'll all appear
+here
+so if we have the wrong one selected
+you can see if we draw on the body
+nothing will happen
+you'll be like hey what's going on but
+you can see it does affect
+the this texture here let's control c
+that
+so just make sure you're on the correct
+texture
+now we actually don't need this anymore
+so let's get rid of it so we'll get rid
+of that
+and hit x and this
+should disappear but it doesn't
+disappear so let's just go to single
+image and go back to material and now
+it's gone it's
+i guess it doesn't update right away
+okay so make sure you're on the correct
+material texture these are our brushes
+if you click that here you can see
+this will have all the brushes we have
+so let's make a
+new brush so click this here to make a
+new brush
+you can't really see it but it created a
+new brush called
+textural001 let's call that
+a dash soft
+brush so i put the a there just so
+i can know that that's a brush that i
+made hit enter here
+go here you can see well there's an f
+here
+but there's a soft brush so that's our
+new brush
+let's go and make that a soft brush so
+the name makes sense
+let's go to fall off and go to this
+um this sharp little
+icon here so you can move these
+these um points to change how the
+texture is
+and i actually don't need that so i'm
+going to hit that x
+so now draw with this you can see it's a
+nice
+feathered you know soft brush if you go
+here to the default one you can see it's
+harder
+i like the softer one i want to show you
+how to delete the brushes in case you
+have something you don't like
+so it's called this delete so i haven't
+found a way to delete this from here
+so the only way i found to delete it is
+to
+go to the blender file
+up here open brushes and look for
+our brush that we want to delete click
+that
+then right click and go to delete and so
+the brush is gone now it changes
+this this brush over here but if you
+just
+click away and click back it's it's back
+and then we can
+pick our a dash soft brush
+and we've got our soft brush so there we
+go
+let's put this back to view layer make
+this
+smaller make this smaller make
+that smaller so we can have space to
+paint
+let's get rid of that because we don't
+need it anymore
+okay and let's hide some of these extra
+things let's hide the eyes
+let's hide all these other things here
+hit m character and eyelashes because
+that layer is turned off
+you can see we have our brush selected
+if we click say
+fuchsia the brush has the fuchsia
+selected
+if we click the fill tool the color
+turns to white because each tool has its
+own settings
+we can drag this to any color we want so
+we can pick the perfect color of skin
+i'll pick something that's really off
+and purpose click it here
+and it fills the entire mesh so it's a
+nice way to get started
+i find it a little bit difficult to find
+the perfect color because
+in the paint window this is the actual
+color of the texture
+in the 3d viewport you can see the
+colors it's just not the same
+it's kind of hard to see the color
+you're actually doing
+so you can drag this i trust the the
+picker or the paint window more than i
+trust the 3d viewport so you can
+drag this to find the perfect color or
+you can steal like i do
+so this palette here this texture
+i know it works so if you and i'll give
+this to you too
+so if you mouse over anything with color
+information
+watch this window here i'm going to
+color over
+the ellipse hit s you can see it turns
+red
+if you mouse over the skin here hit s it
+turns
+to this skin color so it's a great way
+to just
+get the colors you know works let's save
+it since we've got it
+so open color palette click new we'll
+call this
+a dash colors
+click plus and now we have that color
+saved
+let's save some more colors since we're
+here get this
+eye color s and plus let's get the lip
+color
+plus and we'll get the eye shadow if
+you're better at
+eye shadowing than i am please pick a
+better color
+and we'll get this dark color here
+that's that's kind of it i mean it's a
+it's it's pretty simple
+so we'll go to our fill brush here
+um pick our skin color
+click the mesh and it'll color the whole
+thing
+there's a funny nuance with blender
+it it doesn't we've we've just colored
+this mesh it doesn't save it
+it's not saved yet you can see under the
+image
+it's a there's a star here which means
+this is not saved yet
+so go to uh image
+and then save let's let's save it as
+image save as and we'll call this okay
+it's already named which is good
+and click save as image
+the star is gone so now that texture is
+saved
+so to z so you can see uh i want to
+paint the lips and
+i can't rotate around the lips
+so to do that you go into edit mode grab
+some faces around what you want to
+rotate
+click number pad period and then
+tab back into paint mode and now we're
+rotating around what we want to look at
+just makes it easier it's an easier way
+to to um
+to navigate the text paint mode if i
+wanted to say
+go around the eyes i do that zoom in tab
+back out
+and now we're looking at the eyes so we
+could go to our brush tool
+click our eye color here and we could
+turn on wireframes we can see clearly
+what we're doing and we could
+hand paint all this stuff we will
+probably be doing lots of hand painting
+but it's um
+it's kind of tedious
+or you could do it the lazy way
+by clicking some faces
+and let's do the same thing here
+and go to select mm
+and then hit l
+and l so you can see i've selected
+usually the skin around here is skin
+color there's usually some eyelashes
+that come out around here
+and then back here it turns pink so i've
+selected those
+then i'm going to go back into texture
+paint mode
+i'm going to click this icon here which
+is the texture mask or
+paint mask go to the fill tool
+click our i
+i skin color and click it here and
+now it's it's eye color so we can turn
+that off
+turn off wireframe you can see it's
+it's all colored and it's pretty pretty
+okay
+you can see that
+it's too jagged it's way too jagged so
+go to the blur tool
+make sure our symmetry is turned on
+and make this a bit bigger make sure
+strength is set to one
+and just blur it out
+oh okay so you see that here so i i'm
+i must have messed up somehow i think
+it's because of our uvs are
+kind of distorted there so go to your
+brush tool
+hit s to steal and then just
+color it in and fix it hit s to steal
+here and color that in to fix it
+cool so let's go back to our blur tool
+and just blur it out
+since this is a stylized you know
+non-realistic character this is totally
+fine
+if you're doing a realistic character
+you you probably want to spend
+a lot more time manually painting let's
+make sure the other side worked okay
+the mirror's on so it should be okay and
+yeah it looks
+okay
+okay so let's do the same thing for the
+lips go to edit mode
+zoom in alt click
+select mm right shift right shift right
+shift
+l to grab anything we're missing in
+there
+tab back in texture mask mode
+go to fill tool pick our lip color
+click tab back out
+go to the blur tool and just
+blur just blur it and this is our
+foundation we'll be
+adding some subtlety and details to it
+later
+okay that's that's looking good
+let's turn on our the rest of our
+details here let's go back to object
+mode
+and go to our mesh details
+here and turn our keyframe off
+and yeah okay
+let's come along
+okay let's give her some freckles we'll
+grab our mesh go
+to object go to texture paint here
+grab our brush click
+new to make a new brush we'll call this
+a
+dash freckle color
+so i want to talk about a couple of
+tools i use a lot for for painting
+there is a texture mask here
+so the texture mask basically
+it uses a bitmap image to create the
+shape of your brush
+so if i had a red circle
+as my image here my png file
+it wouldn't paint a red circle it would
+paint a circle it'd be a circle shape
+brush
+but it would have whether other whatever
+color we have picked here
+okay that's how the texture mask works
+if we had used
+a texture map for our brush instead of a
+texture
+mask and use that same red circle
+our brush would be a circle shape but
+also paint
+red wherever it is
+now since it's painting red
+you can still tint it so if you had a
+red brush and
+you know you you um you
+drag this to blue it would combine
+red and blue to make a purple color you
+can tint the color for a
+texture brush but a texture mask
+only uses the color that you pick here
+so i hope that made sense
+so we're going to use the texture map
+here so we will click
+new we'll call this a
+dash freckle and then we will go let's
+make this bigger here
+down to this texture properties panel
+make sure our this texture freckle a
+freckle color
+is selected here there'll be a whole
+bunch
+in here later so a focal color is
+selected
+we will click open and then go
+to where we have our freckle texture
+which is right here so now we have
+now this freckle color texture has this
+bitmap applied to it png file applied to
+it
+and we can use that to draw so we've got
+blue selected here so it's going to tint
+our texture blue
+so let's make this white like that
+and if we draw with this you can see
+this uh this image this scattering of
+white and gray
+freckles is the same as this image right
+here
+you can tint it you can make it blue and
+if you do it
+now it makes it blue we don't want blue
+or white freckles we want
+skin colored freckles
+so let's make a new brush and i'm going
+to make a new brush and just
+tint it so let's go here make
+new we'll call this
+and call this a dash
+freckle mask
+okay so instead of using it it
+copied the last brush settings so we
+don't want the texture
+the color texture i'm gonna get rid of
+that
+we want a texture mask so we'll click
+new we'll call this
+a dash freckle mask
+and then we will go down to the texture
+properties
+and highlight a freckle mask
+click on open and go and find our
+texture again
+there it goes this should update okay
+now we've got that
+selected so now it should mask out
+whatever color we have selected so let's
+pick green here zoom that in a bit
+now if we drag it you can see everything
+it paints is
+green so that's what i want let's call
+it let's color it this
+uh red color it's probably too dark
+let's knock the strength back a bit
+so the freckles are too tight together
+and i want them to be spread out looser
+so if we go down to our settings
+let's explain this here so tiled means
+it repeats the same pattern over and
+over again so if we draw this here
+it just repeats the freckle pattern over
+and over again
+um if you go to random it just kind of
+like randomly
+throws it anywhere which is pretty good
+to use also
+and stencil projects it so
+it's it's kind of weird it you can
+control
+exactly where the
+texture is and draw
+and you can see you can you have
+explicit control of where
+the texture is so those are some
+different ways i'm just going to use um
+random but i'm also going to
+mess with the spacing so right now the
+spacing
+is rather tight you can see it's pretty
+tight
+i'm going to make the spacing like 50.
+okay that looks pretty good
+and then let's increase the jitter this
+makes it somewhat random
+okay so that feels nice and random
+and not too dense for freckles
+okay so i'm gonna turn off my mirror
+because i don't
+want people to see that it's mirrored
+and then just really lightly
+throw a few freckles i don't like that
+that's okay that's okay
+um if you hit f to make this brush
+bigger you can see the
+the freckles get bigger
+and it gets very slow to use if you
+use f to make the brush smaller then the
+freckles get much smaller
+or if you just zoom in really tight then
+the
+freckles get smaller so
+put a few in her nose
+like that maybe some smaller ones there
+and smaller ones there so kind of random
+and then i'm going to add a different
+color of
+freckles so i'm gonna go to the skin
+color
+and just make it more orangey and a bit
+darker
+and then i'll go big and do
+just a little bit no
+yep nope
+nope
+okay that's pretty good then zoom in and
+put
+a few more freckles nope
+yeah then a bit right here
+okay i think that's good
+it just adds up just breaks up the skin
+a bit
+you can see our freckles are pretty
+crisp
+so i'm going to knock them down a bit
+and i think these down here are too
+bright so i'm going to knock those down
+more
+and just kind of quickly
+drag the brush around i think i'll leave
+the ones on the nose sharp
+and there we go we've got freckles
+let's make sure we save our texture
+okay so we got her freckles
+let's um let's paint her lips
+so sometimes i'll just paint the lips of
+color
+and call the day and i'll use a normal
+map to create wrinkles
+sometimes i'll actually paint wrinkles
+on the color which again is not really
+pbr
+style but it sometimes it looks nice so
+i'll show you how to do that
+so we've got our mesh selected here
+let's
+open her mouth again so it's a little
+bit easier
+to paint her lips let's also
+select some faces so we can use a mask
+so we will alt click and
+select mm right shift right to f right
+shift
+okay so we've got that let's zoom in so
+we're looking
+at the mouth while we're painting and
+then go back to texture paint
+okay so let's grab our brush
+here and make a new brush
+you know whenever you click new brush
+you can't tell that
+um this changes when this is too small
+if you make it bigger you'll see like it
+has a zero zero one so you know it's new
+but
+it's kind of irritating a
+dash lip mask
+this will be our lip mask brush so
+we don't want the texture we don't want
+this
+mask let's close that we will click new
+we will call this a dash lip
+mask then go to the image properties
+here
+click on our lip mask click
+open and grab the
+inverted texture not the normal but the
+inverted
+and i'll give you these textures to use
+i used to always just i just bought
+these somewhere and i would use a paid
+one but
+i can't give out paid ones so i hand
+drew this
+so you guys can use it okay so we've got
+our image texture selected here
+and we want to it saves all the settings
+from the brush i just copied so
+we need to put these all back the way it
+was so let's
+go and mouse over and backspace
+it just resets it so i think i changed
+that one i changed that one
+and i want mirror turned off and i want
+stencil here it goes
+okay when you bring in your new
+map your image map you want to click
+image aspect and
+reset transform so it zeros this out
+what you want to do when you when you do
+this is you want to
+drag your stencil over your geometry
+and use that and paint through your
+stencil
+to affect your geometry
+let's turn our mask on here
+again turn our mask on okay so
+you can move your geometry to to match
+it
+okay you can do that which is not very
+great
+or you can you can move
+your stencil so if you hit this looks
+okay so this
+this stencil looks stretched so i must
+have not hit
+image aspect so try it again okay i must
+have mis-clicked it
+um image aspect resets the aspect ratio
+to match your actual image so you could
+move your
+geometry to match your stencil or you
+could move your stencil so if you hit
+down alt
+and then right click and drag it moves
+it
+if you hold alt and shift
+and right click it makes it bigger or
+smaller
+and alt control right click and it
+rotates it
+okay you can also manually affect things
+here
+so let's pick a color here
+and what we're going to do is
+right now we're on mix so this basically
+paints the color we have selected
+but it's masked out by this mask so you
+can see if we draw here
+it doesn't really do that much
+sorry if we pick the lip color and draw
+here
+it doesn't do much if we pick this dark
+color here
+and draw then it does something
+okay so what you want to do is pick your
+color here
+and go to multiply this is
+similar to photoshop knock this down
+a bit and just really lightly
+brush it here until you get a
+light indication of wrinkly lips
+you don't want to do too much because if
+you do too much it'll be it'll look kind
+of funny but a really light indication
+let's make this bigger and do that
+okay that's a little i'm starting to see
+something here
+a little bit more
+all right um you can go
+darker more on the inside
+you can just drag that
+so it looks darker in the middle
+usually the upper lip is darker than the
+lower lip because the way light works so
+again this is not pbr it's kind of
+cheating but you can
+do that a bit so you can kind of
+get a nice indication of wrinkled lips
+you don't want to do too much
+maybe you can pull in some skin color
+and go to lighten
+and lighten it just a little bit right
+around the
+edge of this top area so make that
+smaller and
+just really lightly
+so you can indicate the wrinkles i think
+our mask is blocking it
+turn the mask off so really lightly
+hit some wrinkles there
+i can barely see it that's okay
+okay we could also
+lighten the parts of the lip that aren't
+wrinkled so we can go
+here and grab the inverse
+and so it's these are the exact same
+image i just inverted them in photoshop
+so you can do that and hit f and
+just drag across here and it lightens it
+so that's way too much it'll be super
+obvious
+so let's knock this back a bit hit f so
+this is bigger
+make sure we're on soft here
+yeah we are okay
+yeah that's pretty good
+a lot of times there's a little bit of
+lightness right here
+okay i think that's pretty good so let's
+go
+to
+it's awful hard to see oh
+so there's a funny bug with blender
+where if you don't save your image
+i'm going to save this as
+number two o2
+uh there's a strange quirk with blender
+if you don't
+save the image it won't show in the
+cycles mode so here we've got some lick
+texture here and in cycles you can see
+it there and i
+i think that's kind of all we need we
+don't we don't need that much
+okay let's give her some blush and eye
+shadow so we will grab our mesh
+grab our mesh go to texture paint mode
+we will grab our soft brush here
+and let's go and make sure we've got the
+soft
+brush selected
+don't need this one here
+make sure we've got mirror turned on
+and these are all default yes okay
+looks pretty good so let's give her some
+eye shadow so let's um
+let's these eyelashes are kind of
+getting it away so let's
+close i'm going to hide these
+lashes lashes okay and then
+let's pick a color for her eyeshadow
+we'll use this one right here
+and this is one of those things that's
+just
+really hard for me to do
+i don't know why eyeshadow is hard
+oh i had the wrong color
+it's uh it's just it's so it
+you don't want to do too much you want
+to be nice and smooth
+but you want to um kind of accentuate
+the eyes a bit i know it's really
+it's really hard so i i'll go
+light really light with the strength and
+just kind of slowly
+sneak up on it the um
+over the eyelid gets darker sometimes
+you can change the color of it
+you know make it a bit bluer or
+something
+i don't know i'm not the expert at
+eyeshadow so
+yeah no
+okay i'm going to save this as image
+save as so this way i can blow it away
+if i don't like it
+save let's um turn on her
+eyelashes again go to object mode grab
+our mesh
+and let's open her eyelids
+and yeah it's
+better with the eyelashes there let's
+turn that on
+let's um give her some blush too let's
+grab her object
+go to texture paint mode
+let's go pick this color here hit
+f
+and do i have mirror turned on
+ah mirror
+yep okay
+let's make that a bit darker
+maybe a bit of color there and
+i like to color the nose a bit
+of color and sometimes
+you can add a bit of um a real
+small bit of like
+pale blue like a real small bit of pale
+blue
+to below the eye
+like so little you can't see it let me
+see here
+yeah that's too much
+yeah i think that's pretty good let's go
+to image
+and save
+okay there she goes she's got some
+some color she's very pale but um at
+least she's got some lip color and some
+cheek color and some
+some eye shadow and she's coming along
+okay let's go and paint her finger nails
+and toenails
+so we will make this bigger here
+zoom in grab a color
+for her finger and toenails
+and make this stronger and
+paint her fingernails
+and paint her toenails
+this is pretty small it's pretty close
+to the
+foot so i don't want to overlap here
+go there then let's go
+oh okay so i must have missed those uh
+i missed her toenails here so let's
+go to our uv layout and go and
+where did those go grab these again
+and unselect that and we will move this
+g over there and then go back to our
+texture paint
+and paint the toenails okay
+there you go image and save
+and then she has painted fingernails and
+toenails
+these are going to be pretty low
+resolution
+it's a little bit choppy oh shoot
+okay so i wanted to go into edit mode
+so i can grab some faces and zoom in and
+focus on the fingernail
+but you can see here i have key one
+selected not the
+base and so what that means is i'm
+editing
+this key not the base and so it snaps to
+whatever shape that key was so if i go
+to base here and go to edit mode
+it's editing the base if i go to key one
+it's editing key one so i want to
+just temporarily add the base so i can
+zoom in
+and then tab back up okay so you can see
+here
+it's a little bit crispy it's because
+the uh the mesh is
+kind of a low resolution
+and because these are the resolution
+around the fingertips is so small if you
+blur it
+it just it just doesn't blur well
+because it's so small
+so that's one problem with this
+technique however
+if you were to paint it say if you just
+wanted to paint the whole thing you'd
+have the same problem because the
+resolution
+s because the resolution is what's going
+on
+oh brush tool s
+because the resolution is so low
+at the fingertips so you could you could
+paint the whole thing like that
+so it blurs better
+you know if you like that better you can
+do that
+um i just i go with the crisp method
+it's kind of like your preference so
+we've got
+her face textured fingernails
+eyeshadow okay i think that's pretty
+good
+okay let's color her teeth now
+to hide that hide
+that um behind that
+and that let's also separate her tongue
+from her teeth so we will
+go to edit mode hit l to grab that and
+mesh separate selection
+and grab the tongue and hide that okay
+we've got the teeth here let's go to the
+shading workspace
+create a texture for our tongue i mean
+our teeth
+we'll hit new we'll call this
+a u t dash tongue
+teeth 1k
+is fine because no one's going to look
+inside her mouth go to texture paint
+and let's make a new brush click plus
+click
+a dash
+tongue sorry teeth map let's make sure
+this is
+default by hitting backspace you can
+mouse over and hit backspace on any
+field it'll go to default
+click new here we'll call this a dash
+teeth color map then go to the image
+properties make sure
+teeth color map is selected go to open
+and find our teeth projection map
+okay we've got that there make sure this
+is
+on stencil and it usually comes in
+distorted so we need to reset transform
+and reset image aspect
+yeah usually you need to click image
+aspect like 10 times but for some reason
+it worked this time
+make sure this is all we don't need a
+texture mask
+and this is all default
+mirrors turned off okay so i think we're
+good
+so all we need to do is line up our
+texture map
+with our teeth the way we want it to
+look
+so i feel like the teeth should be about
+that big
+so i'm just gonna color this
+like that and
+okay so it's colored the top teeth okay
+but did not color the bottom teeth which
+is um
+which is weird and i think it's because
+if you go to object mode and go to the
+overlays
+and go to the face orientation okay so
+somehow i i modeled this backwards so
+grab your teeth go to edit mode go to
+face mode we're already in face mode hit
+l and go alt n
+and flip or you can go to
+mesh normals and flip
+okay so let's go back to
+texture paint mode let's go back and
+turn off
+face orientation and let's try and paint
+again
+okay now it works flipped normals
+is is the uh the cause of a lot of just
+wonky weird problems so if things are
+weird
+check your normals now that we've
+painted the front
+we want to get the sides so let's go and
+turn on
+the mirror so this way we don't do it
+twice
+and then i'm just going to kind of like
+line up the teeth oh god
+this hide okay
+texture paint okay so just line up the
+teeth in the map
+with some of the teeth on the geometry
+and then we'll just blend it in so it's
+gonna go
+kind of like i'll do the top teeth first
+and let's get the bottom one so let's
+rotate this
+with the right mouse button and right
+control
+mouse button and do the bottom
+okay got some little glitches there
+that's okay
+just check this side and darn it
+okay so i've got some funny ghosting
+right there
+so let's turn off our mirror now because
+we like the other side
+and re-line this up
+so i'm going to find a tooth to line it
+up with i think
+that'll work there and this is not very
+realistic this is like
+you know pretty rough
+i don't usually sweat the inside of the
+mouth that much so
+i'm not not too worried about it
+okay line that up there
+okay so i think the outside's okay
+now let's do the inside
+so let's line that up here
+i have mirror mode on so it usually
+paints funny but it looks okay
+wait no it's off so that's why it's okay
+let's paint the middle
+and then let's check the bottom teeth
+like that at the bottom
+turn on mirror so we only need to paint
+one side
+for the sides
+and then line up a tooth somewhere and
+paint away
+like that and like that
+let's check the other side there it
+looks pretty good
+we've got all these little uh glitches
+so let's go to our texture map here in
+our paint mode
+and we'll go to a regular brush
+that let's go to the soft brush
+where's the soft brush here we go f to
+make it smaller
+s s to steal it
+and then we can just fill in those spots
+so this is pretty um
+it's not super realistic
+you could you know if you want to make
+very realistic teeth you could do that
+but uh i'm just gonna do simple simple
+teeth
+these uh bright little white spots might
+actually
+not look so good so let's just
+take them down a notch i like to make
+teeth where they just
+they just kind of fade out and look like
+you know they just blend in with the
+background
+s let's collect these things in
+this is a lot easier if you're using a
+stylist i'm
+not using a stylus so it's really slow
+and choppy but it
+gets the job done oh let's make all this
+red
+or pink so s
+let's make this a harder brush we'll do
+the
+texture draw oops
+oh it's because each brush has its own
+settings so
+here we go
+i wish this had a shift constraint like
+photoshop did
+make it a lot easier
+okay so let's save this let's check it
+really quick
+looks good let's go to image save as
+go to our textures folder and
+call this it's already named autumn
+tongue teeth save now let's get our
+tongue
+go to object mode un isolate
+oh um alt h to unhide everything
+let's go and hide the skin
+and let's just go to isolate so we've
+got the tongue here
+and then let's go let's make sure the
+texture is applied the right material is
+applied
+skin tongue rough let's go to our
+shading workspace
+yep okay so that's the correct
+material because it
+it had the same material before i
+separated these two so it's
+still the same material so that's good
+so let's go to the texture painting
+workspace
+let's make a new brush and call it
+a dash tongue
+color okay
+make sure the color is default
+add a texture we'll call this a dash
+tongue tongue color map go to the
+image properties make sure
+tongue color map is here click open
+and let's go and find our tongue
+there we go make sure stencil
+is turned on and let's
+get reset transform and click image
+aspect
+10 times don't need a texture mask let's
+get rid of that
+let's default that default that
+okay turn this off okay that's pretty
+good so
+we just need to line this up this is
+even easier
+make that bigger and just paint
+what is that
+why is my tongue got a black spot
+is this normal flipped and let's see
+here
+normal no maybe i uv this plane let's
+check the uvs
+uv editing let's zoom in okay
+so it looks like this face here
+for some reason is just one tiny point
+so that never got
+uv'ed properly so let's go and do that
+really quick here
+so let's go to isolate mode
+isolate mode go to edit mode go to edge
+mode
+and let's re-click
+these it's hard to see because it's
+already got it
+an edge there but if you alt click you
+can faintly see a white line here
+hold click again oops
+you'll see white line there alt shifts
+click oh i made all the shifts click
+and then alt shift click okay so that
+should be all selected
+then go to uv
+edge create seam
+mark seam then go to face mode and hit
+l and l uv and unwrap
+okay so that's our tongue unwrapped
+let's
+make sure since we're doing this
+backwards let's make sure we don't
+overlap our teeth
+so it was a-u-t dash
+teeth and here it goes
+okay so
+so this is our current map and you can
+see the teeth are there so we don't want
+to mess with the teeth
+so let's move this tongue map
+so it's not overlapping the teeth so
+this is not a great
+it's not a great layout here but
+it should be fine okay so let's go back
+to our texture paint workspace
+lay our tongue here
+and apply texture
+it's kind of weird with it half white
+ish
+so let's uh
+let's rotate this here and
+ah it's good let's color the bottom
+get the back a bit here
+and
+let's go to object mode check it out
+you tongues are gross
+okay let's un-isolate and let's reattach
+these together so click click
+control let's check our
+modifiers subdivision subdivision okay
+so it's the same thing so let's grab
+these both ctrl j
+to join it so now it's back to one
+object
+so alt h to unhide everything
+and now i think
+i think that's
+that's not that's almost it that's oh we
+are almost done
+so i just want to go and tweak this a
+little bit
+here so let's grab our face
+go to the texture paint mode
+let's pick the soft brush
+let's move this over and turn on our
+mirror mode
+so i feel like the lips are a little bit
+too big if you look at the
+edge flow here i feel like they could be
+a little bit smaller
+so i'm going to hit
+s to steal the color and i'm going to
+end to make more space for myself
+and right now i really wish i had a
+tablet
+this is going to be painful um
+i'm just going to knock back the lips
+just a little bit
+it's also a little bit choppy so i'm
+gonna
+get rid of that choppiness too it's just
+really slightly taken back i'm going to
+sharpen up just a little bit
+too
+oh this is really hard
+okay this is
+so hard without a tablet
+there
+let's crispen this up right here oh
+man this is tough
+okay
+let's take down this over here
+it's uh zooming funny so let's just grab
+some faces and zoom back in
+i highly recommend using a tablet
+instead of a mouse for these types of
+things because it's just
+really really hard
+to get a nice
+line with the
+okay it's pretty good let's save this
+as okay so i'm going to go back to it
+four save that
+let's check it out in cycles mode
+pretty good i think her lips are a
+little bit dark
+and i think she needs some more blush so
+you can tell now i'm starting to noodle
+this
+so if so i've taught you
+everything i can for this tutorial but
+if you want to watch me
+noodle by all means stay and watch
+i'm gonna just
+turn that up am i on mirror mode i am
+turn this down i think
+just a little bit more blush
+and i think the lips are too dark so
+let's let's see let's
+see what color we have we have this
+color here so if we pick
+that one it's lighter
+let's go with that
+so it's really lightly hit it just to
+lighten it
+in fact i want to
+go and turn this back on
+and just really lightly
+make that lighter
+not much at all
+and then let's add some skin color to it
+it's a little bit softer and that's um
+it's gonna bring in a fuzz of skin color
+around here just
+really faintly
+let's make it softer
+right in the crease of the mouth
+too much too much
+and let's see here
+turn that back off okay that feels
+that feels better does she need more eye
+shadow let's get image save
+i think the eyeshadow is okay
+that's it for our video today i hope
+this was useful to you
+if it was leave a comment to let me know
+or subscribe
+or better yet support me on patreon and
+in the next video
+we will create a normal map

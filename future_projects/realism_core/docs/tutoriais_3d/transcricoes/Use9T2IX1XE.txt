@@ -1,0 +1,1155 @@
+Kind: captions
+Language: en
+Welcome to my character modeling in
+Welcome to my character modeling in
+Welcome to my character modeling in
+Blender series. In this series, we're
+Blender series. In this series, we're
+Blender series. In this series, we're
+going to make my character you see right
+going to make my character you see right
+going to make my character you see right
+here, Lovechan, completely from scratch
+here, Lovechan, completely from scratch
+here, Lovechan, completely from scratch
+using low poly modeling and texturing
+using low poly modeling and texturing
+using low poly modeling and texturing
+techniques. Low poly modeling is a
+techniques. Low poly modeling is a
+techniques. Low poly modeling is a
+fantastic way to get into 3D modeling
+fantastic way to get into 3D modeling
+fantastic way to get into 3D modeling
+and Blender. And my hope is that more
+and Blender. And my hope is that more
+and Blender. And my hope is that more
+experienced users will also have plenty
+experienced users will also have plenty
+experienced users will also have plenty
+to learn from when we start talking
+to learn from when we start talking
+to learn from when we start talking
+about UV unwrapping, texturing, and
+about UV unwrapping, texturing, and
+about UV unwrapping, texturing, and
+rigging later on. Because not only is
+rigging later on. Because not only is
+rigging later on. Because not only is
+Blender completely free to use, this
+Blender completely free to use, this
+Blender completely free to use, this
+series is going to be totally free and
+series is going to be totally free and
+series is going to be totally free and
+we're not going to be using any paid
+we're not going to be using any paid
+we're not going to be using any paid
+add-ons to accomplish our modeling or
+add-ons to accomplish our modeling or
+add-ons to accomplish our modeling or
+texturing tasks whatsoever. This series
+texturing tasks whatsoever. This series
+texturing tasks whatsoever. This series
+is designed for more intermediate users
+is designed for more intermediate users
+is designed for more intermediate users
+of Blender. However, if you're brand new
+of Blender. However, if you're brand new
+of Blender. However, if you're brand new
+to Blender, you do not know the hotkeys
+to Blender, you do not know the hotkeys
+to Blender, you do not know the hotkeys
+or how the 3D viewport works or anything
+or how the 3D viewport works or anything
+or how the 3D viewport works or anything
+like that, do not worry. I actually have
+like that, do not worry. I actually have
+like that, do not worry. I actually have
+a playlist on this channel for people
+a playlist on this channel for people
+a playlist on this channel for people
+who are just starting out in learning
+who are just starting out in learning
+who are just starting out in learning
+Blender, and I will link that below as
+Blender, and I will link that below as
+Blender, and I will link that below as
+well. So, definitely check that out if
+well. So, definitely check that out if
+well. So, definitely check that out if
+you're new to learning Blender. And then
+you're new to learning Blender. And then
+you're new to learning Blender. And then
+when you're done with that, you can hop
+when you're done with that, you can hop
+when you're done with that, you can hop
+right into starting the first videos in
+right into starting the first videos in
+right into starting the first videos in
+this series. There's also going to be a
+this series. There's also going to be a
+this series. There's also going to be a
+Gumroad version of this course which
+Gumroad version of this course which
+Gumroad version of this course which
+will be linked below. This version
+will be linked below. This version
+will be linked below. This version
+includes downloadable versions of all of
+includes downloadable versions of all of
+includes downloadable versions of all of
+the videos in this series as well as
+the videos in this series as well as
+the videos in this series as well as
+downloadable versions of our final
+downloadable versions of our final
+downloadable versions of our final
+character rig. So, it's the completely
+character rig. So, it's the completely
+character rig. So, it's the completely
+textured, modeled UV unwrapped, and
+textured, modeled UV unwrapped, and
+textured, modeled UV unwrapped, and
+rigged Loveshine character that we're
+rigged Loveshine character that we're
+rigged Loveshine character that we're
+going to make in this series, as well as
+going to make in this series, as well as
+going to make in this series, as well as
+this low poly base drawing you see here,
+this low poly base drawing you see here,
+this low poly base drawing you see here,
+which you can use as a guide to make
+which you can use as a guide to make
+which you can use as a guide to make
+your own low poly characters that you
+your own low poly characters that you
+your own low poly characters that you
+can draw and then make 3D using
+can draw and then make 3D using
+can draw and then make 3D using
+everything that you've picked up and
+everything that you've picked up and
+everything that you've picked up and
+learned throughout this series. So, none
+learned throughout this series. So, none
+learned throughout this series. So, none
+of that is required, but it's a really
+of that is required, but it's a really
+of that is required, but it's a really
+good bonus for those who are very
+good bonus for those who are very
+good bonus for those who are very
+serious about learning 3D modeling,
+serious about learning 3D modeling,
+serious about learning 3D modeling,
+character modeling, and Blender. And for
+character modeling, and Blender. And for
+character modeling, and Blender. And for
+this series, I would recommend you use a
+this series, I would recommend you use a
+this series, I would recommend you use a
+Blender 4.0 O or above version just to
+Blender 4.0 O or above version just to
+Blender 4.0 O or above version just to
+make sure you have access to see
+make sure you have access to see
+make sure you have access to see
+features like geometry nodes which we
+features like geometry nodes which we
+features like geometry nodes which we
+will be using later on in this series.
+will be using later on in this series.
+will be using later on in this series.
+You can download the latest version of
+You can download the latest version of
+You can download the latest version of
+Blender from the blender.org website or
+Blender from the blender.org website or
+Blender from the blender.org website or
+you can just download it from Steam. But
+you can just download it from Steam. But
+you can just download it from Steam. But
+yeah, with that intro out of the way,
+yeah, with that intro out of the way,
+yeah, with that intro out of the way,
+let's jump right into Blender. Let's set
+let's jump right into Blender. Let's set
+let's jump right into Blender. Let's set
+up our Blender scene for this course to
+up our Blender scene for this course to
+up our Blender scene for this course to
+make sure we have the right color
+make sure we have the right color
+make sure we have the right color
+settings and that our model will be
+settings and that our model will be
+settings and that our model will be
+looking as intended as we continue to
+looking as intended as we continue to
+looking as intended as we continue to
+create it throughout this course. So,
+create it throughout this course. So,
+create it throughout this course. So,
+this is the default Blender scene. When
+this is the default Blender scene. When
+this is the default Blender scene. When
+you open Blender, this is always what
+you open Blender, this is always what
+you open Blender, this is always what
+you're going to see, right? Uh there's a
+you're going to see, right? Uh there's a
+you're going to see, right? Uh there's a
+few things though that by default we
+few things though that by default we
+few things though that by default we
+don't want. So, first thing we're going
+don't want. So, first thing we're going
+don't want. So, first thing we're going
+to want to do is to go to this render
+to want to do is to go to this render
+to want to do is to go to this render
+tab and make absolutely sure our render
+tab and make absolutely sure our render
+tab and make absolutely sure our render
+engine is set to Eevee because we
+engine is set to Eevee because we
+engine is set to Eevee because we
+really, really don't need what cycles
+really, really don't need what cycles
+really, really don't need what cycles
+does. Cycles is like a ray trace based
+does. Cycles is like a ray trace based
+does. Cycles is like a ray trace based
+renderer, which is not what we're going
+renderer, which is not what we're going
+renderer, which is not what we're going
+for with this style at all. So,
+for with this style at all. So,
+for with this style at all. So,
+definitely make sure you're using Eevee.
+definitely make sure you're using Eevee.
+definitely make sure you're using Eevee.
+Also make sure that ambient occlusion is
+Also make sure that ambient occlusion is
+Also make sure that ambient occlusion is
+disabled, which it is right now. It's
+disabled, which it is right now. It's
+disabled, which it is right now. It's
+not checked. Make sure that bloom is
+not checked. Make sure that bloom is
+not checked. Make sure that bloom is
+disabled, which it already is. Make sure
+disabled, which it already is. Make sure
+disabled, which it already is. Make sure
+that screen size reflections are
+that screen size reflections are
+that screen size reflections are
+disabled and motion blur is disabled.
+disabled and motion blur is disabled.
+disabled and motion blur is disabled.
+And the final thing, and this is super
+And the final thing, and this is super
+And the final thing, and this is super
+super important, is that you go to color
+super important, is that you go to color
+super important, is that you go to color
+management here and click on view
+management here and click on view
+management here and click on view
+transform. Uh right now it's set to
+transform. Uh right now it's set to
+transform. Uh right now it's set to
+Ajix. I think that's how you pronounce
+Ajix. I think that's how you pronounce
+Ajix. I think that's how you pronounce
+that. This is the new default for
+that. This is the new default for
+that. This is the new default for
+Blender, Blender's default view
+Blender, Blender's default view
+Blender, Blender's default view
+transform. um which is not ideal for us
+transform. um which is not ideal for us
+transform. um which is not ideal for us
+whatsoever. We really don't want to be
+whatsoever. We really don't want to be
+whatsoever. We really don't want to be
+using this. This is for photorealistic
+using this. This is for photorealistic
+using this. This is for photorealistic
+rendering. This is not for stylized
+rendering. This is not for stylized
+rendering. This is not for stylized
+stuff at all. So, click on view
+stuff at all. So, click on view
+stuff at all. So, click on view
+transform and set that to standard.
+transform and set that to standard.
+transform and set that to standard.
+Standard will make it render much more
+Standard will make it render much more
+Standard will make it render much more
+like a game engine does. Um and it'll
+like a game engine does. Um and it'll
+like a game engine does. Um and it'll
+make sure that the textures we're
+make sure that the textures we're
+make sure that the textures we're
+creating in other software will look
+creating in other software will look
+creating in other software will look
+exactly the same in Blender. There's no
+exactly the same in Blender. There's no
+exactly the same in Blender. There's no
+like weird desaturation or hue shifting
+like weird desaturation or hue shifting
+like weird desaturation or hue shifting
+happening. It'll make sure it's a one
+happening. It'll make sure it's a one
+happening. It'll make sure it's a one
+one by setting our view transform to
+one by setting our view transform to
+one by setting our view transform to
+standard. We can also delete our cube by
+standard. We can also delete our cube by
+standard. We can also delete our cube by
+clicking on it right here and pressing
+clicking on it right here and pressing
+clicking on it right here and pressing
+delete. Just for fun, we don't really
+delete. Just for fun, we don't really
+delete. Just for fun, we don't really
+need to do that. I'm sure the first
+need to do that. I'm sure the first
+need to do that. I'm sure the first
+thing we spawn in the next tutorial is
+thing we spawn in the next tutorial is
+thing we spawn in the next tutorial is
+going to be a cube anyway, but why not?
+going to be a cube anyway, but why not?
+going to be a cube anyway, but why not?
+Just have a clean slate to start from.
+Just have a clean slate to start from.
+Just have a clean slate to start from.
+Now, the only thing we need to make sure
+Now, the only thing we need to make sure
+Now, the only thing we need to make sure
+we're doing is saving and saving
+we're doing is saving and saving
+we're doing is saving and saving
+constantly. Go to file and save as,
+constantly. Go to file and save as,
+constantly. Go to file and save as,
+which will let you pick where on your
+which will let you pick where on your
+which will let you pick where on your
+computer you would like to save your
+computer you would like to save your
+computer you would like to save your
+Blender file. In my case here, this is
+Blender file. In my case here, this is
+Blender file. In my case here, this is
+my documents folder. I'll make a new
+my documents folder. I'll make a new
+my documents folder. I'll make a new
+folder for it. I'll call this low poly
+folder for it. I'll call this low poly
+folder for it. I'll call this low poly
+character. Ideally, put this folder in
+character. Ideally, put this folder in
+character. Ideally, put this folder in
+somewhere that's automatically backed up
+somewhere that's automatically backed up
+somewhere that's automatically backed up
+to the cloud, like a one drive folder or
+to the cloud, like a one drive folder or
+to the cloud, like a one drive folder or
+a Dropbox folder if you can. It's not a
+a Dropbox folder if you can. It's not a
+a Dropbox folder if you can. It's not a
+requirement, but that's really nice to
+requirement, but that's really nice to
+requirement, but that's really nice to
+have. Then, double click your folder and
+have. Then, double click your folder and
+have. Then, double click your folder and
+name your blend low poly character.
+name your blend low poly character.
+name your blend low poly character.
+And there you go. All you have to do is
+And there you go. All you have to do is
+And there you go. All you have to do is
+hit save as. And now every time you
+hit save as. And now every time you
+hit save as. And now every time you
+press Ctrl+S or you go to file save, you
+press Ctrl+S or you go to file save, you
+press Ctrl+S or you go to file save, you
+are going to constantly be saving. And I
+are going to constantly be saving. And I
+are going to constantly be saving. And I
+would recommend you press Ctrl+S
+would recommend you press Ctrl+S
+would recommend you press Ctrl+S
+constantly. Save after every video you
+constantly. Save after every video you
+constantly. Save after every video you
+complete. And after every video
+complete. And after every video
+complete. And after every video
+complete, you can even press Ctrl + Alt
+complete, you can even press Ctrl + Alt
+complete, you can even press Ctrl + Alt
++ S to save a new version of your file
++ S to save a new version of your file
++ S to save a new version of your file
+if you want to be able to go back to
+if you want to be able to go back to
+if you want to be able to go back to
+your files, which is super useful. So
+your files, which is super useful. So
+your files, which is super useful. So
+I'll show you that right now. So if I
+I'll show you that right now. So if I
+I'll show you that right now. So if I
+press Ctrl Alt S, that will save
+press Ctrl Alt S, that will save
+press Ctrl Alt S, that will save
+incremental. Now, if we see the name of
+incremental. Now, if we see the name of
+incremental. Now, if we see the name of
+our file at the top of Blender here,
+our file at the top of Blender here,
+our file at the top of Blender here,
+it's called low poly character 1. If I
+it's called low poly character 1. If I
+it's called low poly character 1. If I
+press Ctrl + Alt + S again, now it's low
+press Ctrl + Alt + S again, now it's low
+press Ctrl + Alt + S again, now it's low
+poly character 2. And if I go to file,
+poly character 2. And if I go to file,
+poly character 2. And if I go to file,
+open, you're going to see that we have
+open, you're going to see that we have
+open, you're going to see that we have
+three different blend files there. So,
+three different blend files there. So,
+three different blend files there. So,
+if we ever want to like go back to an
+if we ever want to like go back to an
+if we ever want to like go back to an
+older version cuz it's like, oh, I don't
+older version cuz it's like, oh, I don't
+older version cuz it's like, oh, I don't
+like how I modeled this or I think I
+like how I modeled this or I think I
+like how I modeled this or I think I
+messed something up and I need to like
+messed something up and I need to like
+messed something up and I need to like
+get it from an older version of my save.
+get it from an older version of my save.
+get it from an older version of my save.
+That's an excellent way to save cuz
+That's an excellent way to save cuz
+That's an excellent way to save cuz
+that's what professionals in this
+that's what professionals in this
+that's what professionals in this
+industry use. they are always saving
+industry use. they are always saving
+industry use. they are always saving
+incrementally or they're backing up all
+incrementally or they're backing up all
+incrementally or they're backing up all
+of their data to the cloud which
+of their data to the cloud which
+of their data to the cloud which
+automatically creates incremental saves
+automatically creates incremental saves
+automatically creates incremental saves
+for them. So now that we have our scene
+for them. So now that we have our scene
+for them. So now that we have our scene
+all set up and ready to go here, we need
+all set up and ready to go here, we need
+all set up and ready to go here, we need
+to add our image references for our
+to add our image references for our
+to add our image references for our
+character. So to do that, we're going to
+character. So to do that, we're going to
+character. So to do that, we're going to
+have to download our file here. And to
+have to download our file here. And to
+have to download our file here. And to
+download our file, all we need to do is
+download our file, all we need to do is
+download our file, all we need to do is
+go to the link that is in the
+go to the link that is in the
+go to the link that is in the
+description box below this video. So go
+description box below this video. So go
+description box below this video. So go
+right below this video and check the
+right below this video and check the
+right below this video and check the
+description box for that link right at
+description box for that link right at
+description box for that link right at
+the top. or you can look at the pinned
+the top. or you can look at the pinned
+the top. or you can look at the pinned
+comment. After clicking on that link,
+comment. After clicking on that link,
+comment. After clicking on that link,
+it's going to take you to this page
+it's going to take you to this page
+it's going to take you to this page
+right here and it's going to say if
+right here and it's going to say if
+right here and it's going to say if
+you're not signed into Patreon already,
+you're not signed into Patreon already,
+you're not signed into Patreon already,
+it's going to say locked uh join for
+it's going to say locked uh join for
+it's going to say locked uh join for
+free. If it says that for you, all you
+free. If it says that for you, all you
+free. If it says that for you, all you
+need to do is sign in, which is free.
+need to do is sign in, which is free.
+need to do is sign in, which is free.
+Making account on Patreon is totally
+Making account on Patreon is totally
+Making account on Patreon is totally
+free, and click join for free. Now,
+free, and click join for free. Now,
+free, and click join for free. Now,
+you'll be able to access this download
+you'll be able to access this download
+you'll be able to access this download
+and you can see the full post now. And
+and you can see the full post now. And
+and you can see the full post now. And
+if I click on low poly love
+if I click on low poly love
+if I click on low poly love
+resources.zip zip either right here or
+resources.zip zip either right here or
+resources.zip zip either right here or
+here. That will download everything we
+here. That will download everything we
+here. That will download everything we
+need onto my computer. It's going to ask
+need onto my computer. It's going to ask
+need onto my computer. It's going to ask
+me where I want to save this. And I'm
+me where I want to save this. And I'm
+me where I want to save this. And I'm
+just going to save it to my downloads
+just going to save it to my downloads
+just going to save it to my downloads
+folder. And we can see that the download
+folder. And we can see that the download
+folder. And we can see that the download
+has started. So that's all you have to
+has started. So that's all you have to
+has started. So that's all you have to
+do. So click on the link below, create a
+do. So click on the link below, create a
+do. So click on the link below, create a
+free account if you don't already have a
+free account if you don't already have a
+free account if you don't already have a
+Patreon account and join my Patreon for
+Patreon account and join my Patreon for
+Patreon account and join my Patreon for
+free as a member. You don't have to pay
+free as a member. You don't have to pay
+free as a member. You don't have to pay
+any money. Just join free and then
+any money. Just join free and then
+any money. Just join free and then
+you'll be able to download this. And you
+you'll be able to download this. And you
+you'll be able to download this. And you
+can download this on my Kofhei page as
+can download this on my Kofhei page as
+can download this on my Kofhei page as
+well. Once you have downloaded this file
+well. Once you have downloaded this file
+well. Once you have downloaded this file
+and you can uh put it anywhere in your
+and you can uh put it anywhere in your
+and you can uh put it anywhere in your
+computer, doesn't really matter. All you
+computer, doesn't really matter. All you
+computer, doesn't really matter. All you
+need to do is right click on it and
+need to do is right click on it and
+need to do is right click on it and
+press extract all. You're going to see
+press extract all. You're going to see
+press extract all. You're going to see
+this little thing pop up here. Press
+this little thing pop up here. Press
+this little thing pop up here. Press
+extract. And now we're going to have a
+extract. And now we're going to have a
+extract. And now we're going to have a
+folder with all of our stuff we need in
+folder with all of our stuff we need in
+folder with all of our stuff we need in
+it. So there's a bunch of files in here,
+it. So there's a bunch of files in here,
+it. So there's a bunch of files in here,
+but the ones we really only care about
+but the ones we really only care about
+but the ones we really only care about
+are Love Chan front view and side view
+are Love Chan front view and side view
+are Love Chan front view and side view
+for now. So I'm going to save myself
+for now. So I'm going to save myself
+for now. So I'm going to save myself
+some time and rightclick right here and
+some time and rightclick right here and
+some time and rightclick right here and
+press copy address. Then I'm going to go
+press copy address. Then I'm going to go
+press copy address. Then I'm going to go
+back to Blender. And now I want to spawn
+back to Blender. And now I want to spawn
+back to Blender. And now I want to spawn
+in those image references. So to do that
+in those image references. So to do that
+in those image references. So to do that
+I press shift plus A to open the add
+I press shift plus A to open the add
+I press shift plus A to open the add
+menu. Remember we talked about that
+menu. Remember we talked about that
+menu. Remember we talked about that
+earlier. How to add things to Blender.
+earlier. How to add things to Blender.
+earlier. How to add things to Blender.
+You press shift plus A for add. Then we
+You press shift plus A for add. Then we
+You press shift plus A for add. Then we
+want to go to image then reference. So
+want to go to image then reference. So
+want to go to image then reference. So
+after you do that, you're going to want
+after you do that, you're going to want
+after you do that, you're going to want
+to paste in the address we just copied
+to paste in the address we just copied
+to paste in the address we just copied
+right here, which is the address bar. So
+right here, which is the address bar. So
+right here, which is the address bar. So
+I'm going to click on this, press
+I'm going to click on this, press
+I'm going to click on this, press
+backspace. Then I'm going to press CtrlV
+backspace. Then I'm going to press CtrlV
+backspace. Then I'm going to press CtrlV
+to paste in the address we just copied.
+to paste in the address we just copied.
+to paste in the address we just copied.
+V is paste if you didn't know that.
+V is paste if you didn't know that.
+V is paste if you didn't know that.
+Press enter here. Then I'm going to want
+Press enter here. Then I'm going to want
+Press enter here. Then I'm going to want
+to import our image references here. So
+to import our image references here. So
+to import our image references here. So
+I will just double click on this love
+I will just double click on this love
+I will just double click on this love
+chan side view. Then I'll press shift
+chan side view. Then I'll press shift
+chan side view. Then I'll press shift
+plus A again. Go to image reference and
+plus A again. Go to image reference and
+plus A again. Go to image reference and
+double click on this love chan front
+double click on this love chan front
+double click on this love chan front
+view. Now we have our references in our
+view. Now we have our references in our
+view. Now we have our references in our
+scene. Now, we have to line up our
+scene. Now, we have to line up our
+scene. Now, we have to line up our
+references and make sure they're scaled
+references and make sure they're scaled
+references and make sure they're scaled
+properly for 3D modeling. Now, to scale
+properly for 3D modeling. Now, to scale
+properly for 3D modeling. Now, to scale
+them properly, however, we're actually
+them properly, however, we're actually
+them properly, however, we're actually
+going to need to enable an add-on we're
+going to need to enable an add-on we're
+going to need to enable an add-on we're
+going to use later on anyway. And that
+going to use later on anyway. And that
+going to use later on anyway. And that
+add-on is called Rigify. To enable
+add-on is called Rigify. To enable
+add-on is called Rigify. To enable
+Rigify, all you need to do is go to edit
+Rigify, all you need to do is go to edit
+Rigify, all you need to do is go to edit
+preferences and click on this add-on
+preferences and click on this add-on
+preferences and click on this add-on
+section right here. And then when you're
+section right here. And then when you're
+section right here. And then when you're
+done with that, click on this little
+done with that, click on this little
+done with that, click on this little
+search bar and type in RI
+search bar and type in RI
+search bar and type in RI
+ify. So that is rigging rigify. Click on
+ify. So that is rigging rigify. Click on
+ify. So that is rigging rigify. Click on
+that little check box. And now we have
+that little check box. And now we have
+that little check box. And now we have
+that add-on enabled. And what that does
+that add-on enabled. And what that does
+that add-on enabled. And what that does
+for us is when we press shift plus a to
+for us is when we press shift plus a to
+for us is when we press shift plus a to
+go to the add menu, we now have a new
+go to the add menu, we now have a new
+go to the add menu, we now have a new
+option under armature here called human
+option under armature here called human
+option under armature here called human
+metarig. So click on that option to have
+metarig. So click on that option to have
+metarig. So click on that option to have
+our human metarig in our scene for us.
+our human metarig in our scene for us.
+our human metarig in our scene for us.
+So we don't actually need to use this
+So we don't actually need to use this
+So we don't actually need to use this
+human meta rig, but it's really nice for
+human meta rig, but it's really nice for
+human meta rig, but it's really nice for
+scale reference because this is a human
+scale reference because this is a human
+scale reference because this is a human
+being at the end of the day and we kind
+being at the end of the day and we kind
+being at the end of the day and we kind
+of want it generally human being sized.
+of want it generally human being sized.
+of want it generally human being sized.
+So now all we have to do is select both
+So now all we have to do is select both
+So now all we have to do is select both
+of our references here, which I will do
+of our references here, which I will do
+of our references here, which I will do
+by click dragging them like so and
+by click dragging them like so and
+by click dragging them like so and
+making sure they're both selected, which
+making sure they're both selected, which
+making sure they're both selected, which
+we can see in our outliner. They are
+we can see in our outliner. They are
+we can see in our outliner. They are
+both selected. Then I actually want to
+both selected. Then I actually want to
+both selected. Then I actually want to
+go to the front view here, which I can
+go to the front view here, which I can
+go to the front view here, which I can
+do by clicking this little Y right here
+do by clicking this little Y right here
+do by clicking this little Y right here
+in the top right of our 3D viewport. Now
+in the top right of our 3D viewport. Now
+in the top right of our 3D viewport. Now
+we're in front orthographic view, which
+we're in front orthographic view, which
+we're in front orthographic view, which
+is perfectly flat. There's no
+is perfectly flat. There's no
+is perfectly flat. There's no
+perspective, which is perfect for us.
+perspective, which is perfect for us.
+perspective, which is perfect for us.
+Then I want to, and I just saved.
+Then I want to, and I just saved.
+Then I want to, and I just saved.
+Remember to save. Now I want to reset
+Remember to save. Now I want to reset
+Remember to save. Now I want to reset
+our transformations here. So I'll press
+our transformations here. So I'll press
+our transformations here. So I'll press
+Alt S, Alt G, Alt R. We press R. We're
+Alt S, Alt G, Alt R. We press R. We're
+Alt S, Alt G, Alt R. We press R. We're
+going to see that we're rotating along
+going to see that we're rotating along
+going to see that we're rotating along
+the wrong axis. We want to be rotating
+the wrong axis. We want to be rotating
+the wrong axis. We want to be rotating
+along the X axis. So I pressed R and
+along the X axis. So I pressed R and
+along the X axis. So I pressed R and
+then X. So again, with both of these
+then X. So again, with both of these
+then X. So again, with both of these
+selected in the outliner, press R, then
+selected in the outliner, press R, then
+selected in the outliner, press R, then
+X, then punch in 90,
+X, then punch in 90,
+X, then punch in 90,
+and press enter. Now we want to get our
+and press enter. Now we want to get our
+and press enter. Now we want to get our
+scale correct. And we can do that by
+scale correct. And we can do that by
+scale correct. And we can do that by
+pressing G, scaling this down. Pressing
+pressing G, scaling this down. Pressing
+pressing G, scaling this down. Pressing
+G and then Y, excuse me, G and then Z to
+G and then Y, excuse me, G and then Z to
+G and then Y, excuse me, G and then Z to
+move this up. Then we can press S to
+move this up. Then we can press S to
+move this up. Then we can press S to
+scale this up again. And that's getting
+scale this up again. And that's getting
+scale this up again. And that's getting
+pretty darn close actually. So I'll move
+pretty darn close actually. So I'll move
+pretty darn close actually. So I'll move
+this down. Pressing G and Z like that.
+this down. Pressing G and Z like that.
+this down. Pressing G and Z like that.
+Uh, but it's a little hard to see if my
+Uh, but it's a little hard to see if my
+Uh, but it's a little hard to see if my
+foot is being aligned here. So we're
+foot is being aligned here. So we're
+foot is being aligned here. So we're
+going to fix that by making these
+going to fix that by making these
+going to fix that by making these
+transparent. To do that, all you need to
+transparent. To do that, all you need to
+transparent. To do that, all you need to
+do is click on them. You can either
+do is click on them. You can either
+do is click on them. You can either
+click on the 3D viewport or the
+click on the 3D viewport or the
+click on the 3D viewport or the
+outliner. The outliner is a little
+outliner. The outliner is a little
+outliner. The outliner is a little
+easier. Then click this little opacity
+easier. Then click this little opacity
+easier. Then click this little opacity
+check box and set it to 0.5. Then click
+check box and set it to 0.5. Then click
+check box and set it to 0.5. Then click
+on your other reference and click this
+on your other reference and click this
+on your other reference and click this
+opacity checkbox and then make the value
+opacity checkbox and then make the value
+opacity checkbox and then make the value
+0.5.
+0.5.
+0.5.
+Now we can kind of see where we're at a
+Now we can kind of see where we're at a
+Now we can kind of see where we're at a
+little bit easier cuz we want to zoom in
+little bit easier cuz we want to zoom in
+little bit easier cuz we want to zoom in
+here and make sure that our feet are
+here and make sure that our feet are
+here and make sure that our feet are
+aligned with the ground plane. That's
+aligned with the ground plane. That's
+aligned with the ground plane. That's
+really important. So, I'm going to click
+really important. So, I'm going to click
+really important. So, I'm going to click
+on both of these empties by clicking the
+on both of these empties by clicking the
+on both of these empties by clicking the
+first one and then shift clicking the
+first one and then shift clicking the
+first one and then shift clicking the
+second, then pressing G and then Z. And
+second, then pressing G and then Z. And
+second, then pressing G and then Z. And
+now our foot is perfectly on the ground
+now our foot is perfectly on the ground
+now our foot is perfectly on the ground
+plane. I don't think it's actually
+plane. I don't think it's actually
+plane. I don't think it's actually
+centered though because the ground plane
+centered though because the ground plane
+centered though because the ground plane
+is actually indicated by this red line
+is actually indicated by this red line
+is actually indicated by this red line
+you see here. And the Z-axis is
+you see here. And the Z-axis is
+you see here. And the Z-axis is
+indicated by this blue line, you know.
+indicated by this blue line, you know.
+indicated by this blue line, you know.
+So, that's kind of our center. So, we
+So, that's kind of our center. So, we
+So, that's kind of our center. So, we
+actually want to move our reference on
+actually want to move our reference on
+actually want to move our reference on
+the Xaxis a little bit more like that.
+the Xaxis a little bit more like that.
+the Xaxis a little bit more like that.
+Just so that it's nice and aligned. GX.
+Just so that it's nice and aligned. GX.
+Just so that it's nice and aligned. GX.
+Yeah, something like that. It's not. And
+Yeah, something like that. It's not. And
+Yeah, something like that. It's not. And
+actually, that is pretty well aligned
+actually, that is pretty well aligned
+actually, that is pretty well aligned
+with the top of the head, which is
+with the top of the head, which is
+with the top of the head, which is
+perfect. We don't even need to do that,
+perfect. We don't even need to do that,
+perfect. We don't even need to do that,
+but that's nice to have. All right. So,
+but that's nice to have. All right. So,
+but that's nice to have. All right. So,
+then I'm going to middle mouse on out of
+then I'm going to middle mouse on out of
+then I'm going to middle mouse on out of
+that and select our topmost image
+that and select our topmost image
+that and select our topmost image
+reference. Uh, which I believe, uh, no,
+reference. Uh, which I believe, uh, no,
+reference. Uh, which I believe, uh, no,
+that's the wrong one. So, I'm going to
+that's the wrong one. So, I'm going to
+that's the wrong one. So, I'm going to
+right click to cancel and press this
+right click to cancel and press this
+right click to cancel and press this
+one. Click on that one. Press G. And
+one. Click on that one. Press G. And
+one. Click on that one. Press G. And
+then press Y. Move this back. Then I'm
+then press Y. Move this back. Then I'm
+then press Y. Move this back. Then I'm
+going to click on our other image
+going to click on our other image
+going to click on our other image
+reference. Then press R. And then uh
+reference. Then press R. And then uh
+reference. Then press R. And then uh
+uh press Z. I had to figure out which
+uh press Z. I had to figure out which
+uh press Z. I had to figure out which
+axis that was for a second there. So,
+axis that was for a second there. So,
+axis that was for a second there. So,
+this we actually want to rotate this on
+this we actually want to rotate this on
+this we actually want to rotate this on
+the Z-axis. All I want to do is again
+the Z-axis. All I want to do is again
+the Z-axis. All I want to do is again
+select it, press R, press Z, and then
+select it, press R, press Z, and then
+select it, press R, press Z, and then
+press 90 because we want this rotation
+press 90 because we want this rotation
+press 90 because we want this rotation
+perfectly on this axis. Now I'm going to
+perfectly on this axis. Now I'm going to
+perfectly on this axis. Now I'm going to
+press G, and then I'm going to press X
+press G, and then I'm going to press X
+press G, and then I'm going to press X
+to move this back a little bit. So we
+to move this back a little bit. So we
+to move this back a little bit. So we
+have some breathing room here. Now, if
+have some breathing room here. Now, if
+have some breathing room here. Now, if
+we go to our front view, looks like this
+we go to our front view, looks like this
+we go to our front view, looks like this
+is really nicely aligned. We go to our
+is really nicely aligned. We go to our
+is really nicely aligned. We go to our
+side view. This is not super nicely
+side view. This is not super nicely
+side view. This is not super nicely
+aligned because we can tell just by
+aligned because we can tell just by
+aligned because we can tell just by
+looking at this. This is generally where
+looking at this. This is generally where
+looking at this. This is generally where
+the top of the head is supposed to be.
+the top of the head is supposed to be.
+the top of the head is supposed to be.
+Top of the head and our reference is
+Top of the head and our reference is
+Top of the head and our reference is
+like right here. So that's not ideal.
+like right here. So that's not ideal.
+like right here. So that's not ideal.
+And to fix that, we can just press G and
+And to fix that, we can just press G and
+And to fix that, we can just press G and
+then Y to just move it along the Y- axis
+then Y to just move it along the Y- axis
+then Y to just move it along the Y- axis
+and kind of line it up like so. Again,
+and kind of line it up like so. Again,
+and kind of line it up like so. Again,
+this does not need to be perfect, but we
+this does not need to be perfect, but we
+this does not need to be perfect, but we
+can see here that oh, look at this. The
+can see here that oh, look at this. The
+can see here that oh, look at this. The
+the Y is perfectly aligned with the foot
+the Y is perfectly aligned with the foot
+the Y is perfectly aligned with the foot
+right there. So that's great. The top of
+right there. So that's great. The top of
+right there. So that's great. The top of
+the head is basically aligned with the
+the head is basically aligned with the
+the head is basically aligned with the
+um top of the head for the rigify rig
+um top of the head for the rigify rig
+um top of the head for the rigify rig
+here, which is awesome. So by middle
+here, which is awesome. So by middle
+here, which is awesome. So by middle
+mousing on out of this, we can see that
+mousing on out of this, we can see that
+mousing on out of this, we can see that
+things are looking pretty good. So in
+things are looking pretty good. So in
+things are looking pretty good. So in
+this tutorial, we fixed the color
+this tutorial, we fixed the color
+this tutorial, we fixed the color
+management right here so that things are
+management right here so that things are
+management right here so that things are
+going to line up perfectly color-wise
+going to line up perfectly color-wise
+going to line up perfectly color-wise
+when we start importing our textures and
+when we start importing our textures and
+when we start importing our textures and
+applying them to our model. We also
+applying them to our model. We also
+applying them to our model. We also
+learned about saving in Blender and
+learned about saving in Blender and
+learned about saving in Blender and
+saving incrementally. And we also got
+saving incrementally. And we also got
+saving incrementally. And we also got
+our references set up on both axes and
+our references set up on both axes and
+our references set up on both axes and
+spawned in our meta rigs that will have
+spawned in our meta rigs that will have
+spawned in our meta rigs that will have
+be totally ready to start modeling our
+be totally ready to start modeling our
+be totally ready to start modeling our
+character in the very next video. So,
+character in the very next video. So,
+character in the very next video. So,
+and by all means, if you're interested,
+and by all means, if you're interested,
+and by all means, if you're interested,
+please check out the Gumroad version of
+please check out the Gumroad version of
+please check out the Gumroad version of
+this tutorial series that includes the
+this tutorial series that includes the
+this tutorial series that includes the
+final fully textured, fully rigged 3D
+final fully textured, fully rigged 3D
+final fully textured, fully rigged 3D
+model of LoveChan, downloadable versions
+model of LoveChan, downloadable versions
+model of LoveChan, downloadable versions
+of all the videos in this series, a low
+of all the videos in this series, a low
+of all the videos in this series, a low
+poly based turnaround drawing that you
+poly based turnaround drawing that you
+poly based turnaround drawing that you
+can use to draw your own original
+can use to draw your own original
+can use to draw your own original
+characters on top of, then make 3D using
+characters on top of, then make 3D using
+characters on top of, then make 3D using
+everything you've learned in this
+everything you've learned in this
+everything you've learned in this
+course, as well as a bonus introduction
+course, as well as a bonus introduction
+course, as well as a bonus introduction
+to Blender series if you're a beginner
+to Blender series if you're a beginner
+to Blender series if you're a beginner
+or new to learning Blender. So, thank
+or new to learning Blender. So, thank
+or new to learning Blender. So, thank
+you so much for watching. I hope you'll
+you so much for watching. I hope you'll
+you so much for watching. I hope you'll
+check it out today. I'll see you in the
+check it out today. I'll see you in the
+check it out today. I'll see you in the
+next video and have a great

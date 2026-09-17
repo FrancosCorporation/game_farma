@@ -26,7 +26,6 @@ const pov = createPOV({
   canvas: $('scene3d'),
   povControl: api.povControl,
 });
-
 // Progresso + jogo (game precisa existir antes do avatar, que referencia game.avatar)
 const progress = createProgressStore();
 let avatar = null;
@@ -41,10 +40,12 @@ const withTimeout = (p, ms) =>
 
 async function mountAvatar(model) {
   if (avatar === model) return model;
+  // Troca o modelo apenas: sai o antigo, entra o novo já posicionado.
+  // A entrada em cena (walk-in) é responsabilidade do game.startCase — chamar
+  // enter() aqui duplicava a caminhada (paciente voltava para a porta e entrava 2x).
   try { await withTimeout(avatar?.leave?.() ?? Promise.resolve(), 4000); } catch { /* segue */ }
   avatar = model;
   game.avatar = model;
-  try { await withTimeout(model.enter?.(game.case?.persona?.aparencia) ?? Promise.resolve(), 6000); } catch { /* segue */ }
   return model;
 }
 
@@ -113,8 +114,8 @@ $('btn-testar').addEventListener('click', async () => {
 
 game.renderPhases();
 
-// Hook de depuração/QA (smoke Playwright): acesso ao game e ao controlador POV
-window.__farmacheck = { game, pov };
+// Hook de depuração/QA (smoke Playwright): acesso ao game, ao POV e à câmera
+window.__farmacheck = { game, pov, camera: api.camera };
 
 $('btn-iniciar').addEventListener('click', () => {
   SFX.ensure();

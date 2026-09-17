@@ -1,0 +1,2490 @@
+Kind: captions
+Language: en
+blender is really hard you guys and this
+blender is really hard you guys and this
+blender is really hard you guys and this
+is my attempt at making the easiest
+is my attempt at making the easiest
+is my attempt at making the easiest
+blender tutorial ever ever ever wow that
+blender tutorial ever ever ever wow that
+blender tutorial ever ever ever wow that
+was really epic with the Echo and
+was really epic with the Echo and
+was really epic with the Echo and
+everything I made a whole video about
+everything I made a whole video about
+everything I made a whole video about
+how I finally managed to learn Blender
+how I finally managed to learn Blender
+how I finally managed to learn Blender
+at least parts of it by focusing on just
+at least parts of it by focusing on just
+at least parts of it by focusing on just
+some of the core features and how a lot
+some of the core features and how a lot
+some of the core features and how a lot
+of the tutorials out there just kind of
+of the tutorials out there just kind of
+of the tutorials out there just kind of
+lost me when I was starting out because
+lost me when I was starting out because
+lost me when I was starting out because
+they covered way too much ground blender
+they covered way too much ground blender
+they covered way too much ground blender
+can't get the best of
+can't get the best of
+can't get the best of
+me I was not ready I'm fine by the way
+me I was not ready I'm fine by the way
+me I was not ready I'm fine by the way
+thanks for asking my recovery it's going
+thanks for asking my recovery it's going
+thanks for asking my recovery it's going
+well so while blender does a lot of
+well so while blender does a lot of
+well so while blender does a lot of
+different things from realistic textures
+different things from realistic textures
+different things from realistic textures
+and rendering to animation and sculpting
+and rendering to animation and sculpting
+and rendering to animation and sculpting
+I'm going to start with 3D modeling
+I'm going to start with 3D modeling
+I'm going to start with 3D modeling
+today because we can accomplish a lot
+today because we can accomplish a lot
+today because we can accomplish a lot
+with just a handful of tools also it's
+with just a handful of tools also it's
+with just a handful of tools also it's
+kind of fun more than kind of fun it's
+kind of fun more than kind of fun it's
+kind of fun more than kind of fun it's
+really fun once you get a little
+really fun once you get a little
+really fun once you get a little
+comfortable in blender it's like Legos
+comfortable in blender it's like Legos
+comfortable in blender it's like Legos
+for adults I should know I'm a fully
+for adults I should know I'm a fully
+for adults I should know I'm a fully
+grown adult let's imagine you've never
+grown adult let's imagine you've never
+grown adult let's imagine you've never
+opened blender before this is your first
+opened blender before this is your first
+opened blender before this is your first
+time wait what no that's not a cube you
+time wait what no that's not a cube you
+time wait what no that's not a cube you
+don't see a cube you're not ready for
+don't see a cube you're not ready for
+don't see a cube you're not ready for
+cube you're ready for Mouse M Mouse the
+cube you're ready for Mouse M Mouse the
+cube you're ready for Mouse M Mouse the
+scroll wheel is super important in
+scroll wheel is super important in
+scroll wheel is super important in
+blender pressing it down will let you
+blender pressing it down will let you
+blender pressing it down will let you
+pivot around in 3D space and then
+pivot around in 3D space and then
+pivot around in 3D space and then
+holding down the shift key while
+holding down the shift key while
+holding down the shift key while
+clicking that middle Mouse button is
+clicking that middle Mouse button is
+clicking that middle Mouse button is
+going to let you pan around from side to
+going to let you pan around from side to
+going to let you pan around from side to
+side also I wrote down all of the
+side also I wrote down all of the
+side also I wrote down all of the
+shortcut keys we're going to be using
+shortcut keys we're going to be using
+shortcut keys we're going to be using
+today into one worksheet so they're all
+today into one worksheet so they're all
+today into one worksheet so they're all
+right there this is not all the
+right there this is not all the
+right there this is not all the
+shortcuts and blender if you look those
+shortcuts and blender if you look those
+shortcuts and blender if you look those
+up those are crazy those are wild you
+up those are crazy those are wild you
+up those are crazy those are wild you
+can't handle that I can't handle that
+can't handle that I can't handle that
+can't handle that I can't handle that
+this is just the shortcuts we are using
+this is just the shortcuts we are using
+this is just the shortcuts we are using
+today the core ones that we need for
+today the core ones that we need for
+today the core ones that we need for
+this tutorial just to keep it simple you
+this tutorial just to keep it simple you
+this tutorial just to keep it simple you
+can download that in the free section of
+can download that in the free section of
+can download that in the free section of
+my website Brads Arts school.com oh yeah
+my website Brads Arts school.com oh yeah
+my website Brads Arts school.com oh yeah
+I also added the blender source file up
+I also added the blender source file up
+I also added the blender source file up
+there too if you want to play around
+there too if you want to play around
+there too if you want to play around
+with that it's right under my learn to
+with that it's right under my learn to
+with that it's right under my learn to
+draw in 60 days course you should also
+draw in 60 days course you should also
+draw in 60 days course you should also
+check that out save that for the end
+check that out save that for the end
+check that out save that for the end
+right right save the promotion for the
+right right save the promotion for the
+right right save the promotion for the
+later got it okay now y'all are ready
+later got it okay now y'all are ready
+later got it okay now y'all are ready
+for cube we are going to start with this
+for cube we are going to start with this
+for cube we are going to start with this
+shape so I'm going to click on it to
+shape so I'm going to click on it to
+shape so I'm going to click on it to
+select it and I'm going to hit the
+select it and I'm going to hit the
+select it and I'm going to hit the
+letter s for scale and that's going to
+letter s for scale and that's going to
+letter s for scale and that's going to
+let us grow this thing or Shrink this
+let us grow this thing or Shrink this
+let us grow this thing or Shrink this
+thing down now this is a 3D face so we
+thing down now this is a 3D face so we
+thing down now this is a 3D face so we
+have axes this red line here represents
+have axes this red line here represents
+have axes this red line here represents
+the x axis the the green line represents
+the x axis the the green line represents
+the x axis the the green line represents
+the Y AIS and you can't see it but
+the Y AIS and you can't see it but
+the Y AIS and you can't see it but
+there's a z-axis as well for up and down
+there's a z-axis as well for up and down
+there's a z-axis as well for up and down
+so for example I want this only to grow
+so for example I want this only to grow
+so for example I want this only to grow
+on the Y AIS so I'm going to hit the
+on the Y AIS so I'm going to hit the
+on the Y AIS so I'm going to hit the
+letter Y and we're just going to grow
+letter Y and we're just going to grow
+letter Y and we're just going to grow
+this thing out a little bit and I'm
+this thing out a little bit and I'm
+this thing out a little bit and I'm
+going to click now I want this to be
+going to click now I want this to be
+going to click now I want this to be
+narrower so I'm going to hit s for scale
+narrower so I'm going to hit s for scale
+narrower so I'm going to hit s for scale
+again this time on the z-axis hit the
+again this time on the z-axis hit the
+again this time on the z-axis hit the
+letter Z and I'm going to scale that
+letter Z and I'm going to scale that
+letter Z and I'm going to scale that
+down till it looks about right that
+down till it looks about right that
+down till it looks about right that
+looks good maybe I scale it again on my
+looks good maybe I scale it again on my
+looks good maybe I scale it again on my
+y AIS to make it a little bit shorter
+y AIS to make it a little bit shorter
+y AIS to make it a little bit shorter
+but that looks that looks about right I
+but that looks that looks about right I
+but that looks that looks about right I
+think that's what I'm going for now this
+think that's what I'm going for now this
+think that's what I'm going for now this
+is a good time to talk about modes let's
+is a good time to talk about modes let's
+is a good time to talk about modes let's
+look up here in the upper leftand corner
+look up here in the upper leftand corner
+look up here in the upper leftand corner
+we have the object mode but if I use
+we have the object mode but if I use
+we have the object mode but if I use
+this drop down we have more we're going
+this drop down we have more we're going
+this drop down we have more we're going
+to be bouncing between object mode and
+to be bouncing between object mode and
+to be bouncing between object mode and
+edit mode a lot so if we're in object
+edit mode a lot so if we're in object
+edit mode a lot so if we're in object
+mode I'm going to use one color on the
+mode I'm going to use one color on the
+mode I'm going to use one color on the
+screen if we're in edit mode I'm going
+screen if we're in edit mode I'm going
+screen if we're in edit mode I'm going
+to use another color so go ahead and
+to use another color so go ahead and
+to use another color so go ahead and
+click on edit mode edit mode lets you
+click on edit mode edit mode lets you
+click on edit mode edit mode lets you
+edit points so so I can click on any
+edit points so so I can click on any
+edit points so so I can click on any
+point here and then I'm going to grab my
+point here and then I'm going to grab my
+point here and then I'm going to grab my
+move tool on the left hand side and then
+move tool on the left hand side and then
+move tool on the left hand side and then
+I could just drag this point wherever I
+I could just drag this point wherever I
+I could just drag this point wherever I
+want it to be just doing this is going
+want it to be just doing this is going
+want it to be just doing this is going
+to really let us modify all of our
+to really let us modify all of our
+to really let us modify all of our
+shapes I want to start by adding more
+shapes I want to start by adding more
+shapes I want to start by adding more
+points to the shape so I need to select
+points to the shape so I need to select
+points to the shape so I need to select
+our entire shape I'm going to hit the
+our entire shape I'm going to hit the
+our entire shape I'm going to hit the
+letter A for all to do that then I'm
+letter A for all to do that then I'm
+letter A for all to do that then I'm
+going to hit controlr for something
+going to hit controlr for something
+going to hit controlr for something
+called a loop cut and you can see here
+called a loop cut and you can see here
+called a loop cut and you can see here
+this yellow line is where I'm going to
+this yellow line is where I'm going to
+this yellow line is where I'm going to
+cut this shape in half if I use my mouse
+cut this shape in half if I use my mouse
+cut this shape in half if I use my mouse
+scroll wheel to scroll up I could
+scroll wheel to scroll up I could
+scroll wheel to scroll up I could
+actually add as many Cuts as I want to
+actually add as many Cuts as I want to
+actually add as many Cuts as I want to
+this shape I only need two so that's
+this shape I only need two so that's
+this shape I only need two so that's
+what I'm going to go for now I click to
+what I'm going to go for now I click to
+what I'm going to go for now I click to
+do my Loop cut and then I can move my
+do my Loop cut and then I can move my
+do my Loop cut and then I can move my
+mouse back and forth to decide where I
+mouse back and forth to decide where I
+mouse back and forth to decide where I
+want these shapes to go I actually want
+want these shapes to go I actually want
+want these shapes to go I actually want
+this to be a little wider in the middle
+this to be a little wider in the middle
+this to be a little wider in the middle
+than it is right now I need to see all
+than it is right now I need to see all
+than it is right now I need to see all
+the points of my object better so let's
+the points of my object better so let's
+the points of my object better so let's
+look in the upper right hand corner here
+look in the upper right hand corner here
+look in the upper right hand corner here
+there's four little icons here right now
+there's four little icons here right now
+there's four little icons here right now
+I'm in solid mode the icon next to it is
+I'm in solid mode the icon next to it is
+I'm in solid mode the icon next to it is
+wireframe mode I'm going to click that
+wireframe mode I'm going to click that
+wireframe mode I'm going to click that
+and now I can see the points behind my
+and now I can see the points behind my
+and now I can see the points behind my
+object so what I can do with my mouse is
+object so what I can do with my mouse is
+object so what I can do with my mouse is
+I can select the points I want if I want
+I can select the points I want if I want
+I can select the points I want if I want
+more than one point I hold down shift
+more than one point I hold down shift
+more than one point I hold down shift
+and I click that point as well and I can
+and I click that point as well and I can
+and I click that point as well and I can
+grab these four points and I can move
+grab these four points and I can move
+grab these four points and I can move
+them back kind of like that in fact
+them back kind of like that in fact
+them back kind of like that in fact
+while I'm here I'm just going to click
+while I'm here I'm just going to click
+while I'm here I'm just going to click
+and drag on these points and I'm just
+and drag on these points and I'm just
+and drag on these points and I'm just
+going to drag them back a little bit as
+going to drag them back a little bit as
+going to drag them back a little bit as
+well kind of like that that looks pretty
+well kind of like that that looks pretty
+well kind of like that that looks pretty
+good now next to edit mode there's an
+good now next to edit mode there's an
+good now next to edit mode there's an
+option to grab a whole line so I can
+option to grab a whole line so I can
+option to grab a whole line so I can
+click click on a line and I'm going to
+click click on a line and I'm going to
+click click on a line and I'm going to
+grab that entire thing which will save
+grab that entire thing which will save
+grab that entire thing which will save
+you time from having to just grab one
+you time from having to just grab one
+you time from having to just grab one
+point at a time or you can grab planes
+point at a time or you can grab planes
+point at a time or you can grab planes
+this is really helpful so I can grab
+this is really helpful so I can grab
+this is really helpful so I can grab
+just the plane that I'm looking to
+just the plane that I'm looking to
+just the plane that I'm looking to
+modify now what I want to do is I want
+modify now what I want to do is I want
+modify now what I want to do is I want
+to take this plane and I want to like
+to take this plane and I want to like
+to take this plane and I want to like
+extrude it upwards there's a shortcut
+extrude it upwards there's a shortcut
+extrude it upwards there's a shortcut
+for that the letter e and with that I
+for that the letter e and with that I
+for that the letter e and with that I
+just pull my mouse up and there we go I
+just pull my mouse up and there we go I
+just pull my mouse up and there we go I
+have added kind of the top section of
+have added kind of the top section of
+have added kind of the top section of
+our car here so I'm going to grab these
+our car here so I'm going to grab these
+our car here so I'm going to grab these
+two front points and I to use this
+two front points and I to use this
+two front points and I to use this
+little green arrow to just drag that
+little green arrow to just drag that
+little green arrow to just drag that
+back on our y AIS to kind of make my
+back on our y AIS to kind of make my
+back on our y AIS to kind of make my
+front windshield tilt back just a little
+front windshield tilt back just a little
+front windshield tilt back just a little
+bit going to scroll around and I'm going
+bit going to scroll around and I'm going
+bit going to scroll around and I'm going
+to do the same thing on the back uh
+to do the same thing on the back uh
+to do the same thing on the back uh
+probably not going to do it quite as
+probably not going to do it quite as
+probably not going to do it quite as
+much as the front but just just give it
+much as the front but just just give it
+much as the front but just just give it
+a little bit of an angle I'm going to go
+a little bit of an angle I'm going to go
+a little bit of an angle I'm going to go
+back to my solid mode I'm going to
+back to my solid mode I'm going to
+back to my solid mode I'm going to
+rotate around because the next thing I
+rotate around because the next thing I
+rotate around because the next thing I
+want to do is I want to add a windshield
+want to do is I want to add a windshield
+want to do is I want to add a windshield
+to this so let's select that front face
+to this so let's select that front face
+to this so let's select that front face
+and we're going to use something called
+and we're going to use something called
+and we're going to use something called
+insect
+insect
+insect
+letter I and now when I move my mouse in
+letter I and now when I move my mouse in
+letter I and now when I move my mouse in
+it's going to inset that shape and then
+it's going to inset that shape and then
+it's going to inset that shape and then
+I could use the letter e ex screwed to
+I could use the letter e ex screwed to
+I could use the letter e ex screwed to
+go in to inset our windshield I don't
+go in to inset our windshield I don't
+go in to inset our windshield I don't
+like it how do we not do that all right
+like it how do we not do that all right
+like it how do we not do that all right
+so this is where blender gets a little
+so this is where blender gets a little
+so this is where blender gets a little
+technical we got to explain some stuff
+technical we got to explain some stuff
+technical we got to explain some stuff
+so if we have a boring Cube and we inset
+so if we have a boring Cube and we inset
+so if we have a boring Cube and we inset
+it it works perfectly the tops and the
+it it works perfectly the tops and the
+it it works perfectly the tops and the
+sides are the same width so when we
+sides are the same width so when we
+sides are the same width so when we
+extrude it just works but then when I
+extrude it just works but then when I
+extrude it just works but then when I
+hit s to scale it say I scale it on the
+hit s to scale it say I scale it on the
+hit s to scale it say I scale it on the
+x axis what happens it gets kind of
+x axis what happens it gets kind of
+x axis what happens it gets kind of
+stretchy on the sides so what we need to
+stretchy on the sides so what we need to
+stretchy on the sides so what we need to
+do is we need to Kit tab to go back to
+do is we need to Kit tab to go back to
+do is we need to Kit tab to go back to
+our object mode and we have to apply the
+our object mode and we have to apply the
+our object mode and we have to apply the
+transform hit controll a for apply and
+transform hit controll a for apply and
+transform hit controll a for apply and
+I'm just going to apply all of the
+I'm just going to apply all of the
+I'm just going to apply all of the
+transforms this kind of resets the shape
+transforms this kind of resets the shape
+transforms this kind of resets the shape
+a little bit and I can hit tab to go
+a little bit and I can hit tab to go
+a little bit and I can hit tab to go
+back to my edit mode and then let's take
+back to my edit mode and then let's take
+back to my edit mode and then let's take
+a look at what happens to this when we
+a look at what happens to this when we
+a look at what happens to this when we
+hit I for inset oh look at that it's
+hit I for inset oh look at that it's
+hit I for inset oh look at that it's
+perfect now extrude it extrudes exactly
+perfect now extrude it extrudes exactly
+perfect now extrude it extrudes exactly
+the way we want it all of those sides
+the way we want it all of those sides
+the way we want it all of those sides
+are equal and that's what we need to do
+are equal and that's what we need to do
+are equal and that's what we need to do
+with our car body as well so let's hit
+with our car body as well so let's hit
+with our car body as well so let's hit
+tab to go to object mode contrl a to
+tab to go to object mode contrl a to
+tab to go to object mode contrl a to
+apply our transforms and we're going to
+apply our transforms and we're going to
+apply our transforms and we're going to
+apply all transforms we should be good
+apply all transforms we should be good
+apply all transforms we should be good
+now so I'm going to hit tab to go back
+now so I'm going to hit tab to go back
+now so I'm going to hit tab to go back
+to edit mode going to make sure that
+to edit mode going to make sure that
+to edit mode going to make sure that
+windshield is selected I for inset and
+windshield is selected I for inset and
+windshield is selected I for inset and
+then I'm just going to scale it in just
+then I'm just going to scale it in just
+then I'm just going to scale it in just
+a tiny bit oh that is perfect hit e for
+a tiny bit oh that is perfect hit e for
+a tiny bit oh that is perfect hit e for
+extrude and I'm just going to pull it a
+extrude and I'm just going to pull it a
+extrude and I'm just going to pull it a
+little bit I love it that's good that's
+little bit I love it that's good that's
+little bit I love it that's good that's
+good now I can select this side do the
+good now I can select this side do the
+good now I can select this side do the
+same thing I for inset I'm just going to
+same thing I for inset I'm just going to
+same thing I for inset I'm just going to
+try to make it the same size as the
+try to make it the same size as the
+try to make it the same size as the
+other one e for extrude I'm just going
+other one e for extrude I'm just going
+other one e for extrude I'm just going
+to try to pull it in a little bit like
+to try to pull it in a little bit like
+to try to pull it in a little bit like
+the other one going to rotate around
+the other one going to rotate around
+the other one going to rotate around
+grab this I scale it in E just going to
+grab this I scale it in E just going to
+grab this I scale it in E just going to
+push that in a little bit one more guys
+push that in a little bit one more guys
+push that in a little bit one more guys
+select it I for inset e for extrude and
+select it I for inset e for extrude and
+select it I for inset e for extrude and
+there we go we got our car windshields
+there we go we got our car windshields
+there we go we got our car windshields
+set and looking pretty decent right
+set and looking pretty decent right
+set and looking pretty decent right
+there okay I'm happy with that so with
+there okay I'm happy with that so with
+there okay I'm happy with that so with
+our base car in place it's time to add
+our base car in place it's time to add
+our base car in place it's time to add
+some wheels so we're going to leave edit
+some wheels so we're going to leave edit
+some wheels so we're going to leave edit
+mode with a tab back to object mode and
+mode with a tab back to object mode and
+mode with a tab back to object mode and
+we're going to add a cylinder which is
+we're going to add a cylinder which is
+we're going to add a cylinder which is
+going to become our tire so shift a for
+going to become our tire so shift a for
+going to become our tire so shift a for
+ADD and we can add a whole bunch of
+ADD and we can add a whole bunch of
+ADD and we can add a whole bunch of
+stuff here but what I'm looking for is
+stuff here but what I'm looking for is
+stuff here but what I'm looking for is
+mesh and in mesh we have cubes circles
+mesh and in mesh we have cubes circles
+mesh and in mesh we have cubes circles
+cylinders all sorts of stuff so let's
+cylinders all sorts of stuff so let's
+cylinders all sorts of stuff so let's
+grab that cylinder I'm just going to
+grab that cylinder I'm just going to
+grab that cylinder I'm just going to
+grab this little red arrow on that
+grab this little red arrow on that
+grab this little red arrow on that
+doohickey and move it on out and then
+doohickey and move it on out and then
+doohickey and move it on out and then
+I'm going to scale it cuz it's too big
+I'm going to scale it cuz it's too big
+I'm going to scale it cuz it's too big
+we don't need it that big we just need a
+we don't need it that big we just need a
+we don't need it that big we just need a
+tire size and then I'm also going to
+tire size and then I'm also going to
+tire size and then I'm also going to
+scale it and hit Z on my Z axis so I can
+scale it and hit Z on my Z axis so I can
+scale it and hit Z on my Z axis so I can
+also make it about the width of a tire
+also make it about the width of a tire
+also make it about the width of a tire
+too now we're not done with this I mean
+too now we're not done with this I mean
+too now we're not done with this I mean
+I I guess we could be but I want to add
+I I guess we could be but I want to add
+I I guess we could be but I want to add
+a little bit more detail to that tire so
+a little bit more detail to that tire so
+a little bit more detail to that tire so
+let's go ahead and do that by hitting
+let's go ahead and do that by hitting
+let's go ahead and do that by hitting
+tab to go into edit mode I'm going to
+tab to go into edit mode I'm going to
+tab to go into edit mode I'm going to
+click on that front face to select it
+click on that front face to select it
+click on that front face to select it
+I'm going to hit the letter i for inset
+I'm going to hit the letter i for inset
+I'm going to hit the letter i for inset
+again and we're going to move in oh that
+again and we're going to move in oh that
+again and we're going to move in oh that
+looks about right and then we're going
+looks about right and then we're going
+looks about right and then we're going
+to hit e for extrude and we're just
+to hit e for extrude and we're just
+to hit e for extrude and we're just
+going to pull it in a little bit then
+going to pull it in a little bit then
+going to pull it in a little bit then
+we're going to hit I for inset again
+we're going to hit I for inset again
+we're going to hit I for inset again
+we're going to move it in that looks
+we're going to move it in that looks
+we're going to move it in that looks
+about right e for extrude and I'm going
+about right e for extrude and I'm going
+about right e for extrude and I'm going
+to pull it up a little bit up and out
+to pull it up a little bit up and out
+to pull it up a little bit up and out
+just to give it a little texture and
+just to give it a little texture and
+just to give it a little texture and
+there we go I think for now that's
+there we go I think for now that's
+there we go I think for now that's
+that's going to work for the wheel that
+that's going to work for the wheel that
+that's going to work for the wheel that
+I want to create so since that wheel is
+I want to create so since that wheel is
+I want to create so since that wheel is
+done we're going to go back to object
+done we're going to go back to object
+done we're going to go back to object
+mode with a tab and now I need to rotate
+mode with a tab and now I need to rotate
+mode with a tab and now I need to rotate
+this thing the letter R rotates but I
+this thing the letter R rotates but I
+this thing the letter R rotates but I
+this is not going to work well like
+this is not going to work well like
+this is not going to work well like
+getting this tire lined up I mean you
+getting this tire lined up I mean you
+getting this tire lined up I mean you
+could make it look like it's in the
+could make it look like it's in the
+could make it look like it's in the
+right angle but once you move around it
+right angle but once you move around it
+right angle but once you move around it
+is totally not going to be a the proper
+is totally not going to be a the proper
+is totally not going to be a the proper
+angle so let's undo that now our Gizmo
+angle so let's undo that now our Gizmo
+angle so let's undo that now our Gizmo
+up here at the top is going to let us
+up here at the top is going to let us
+up here at the top is going to let us
+see just like a side view of the car or
+see just like a side view of the car or
+see just like a side view of the car or
+a top view of the car I want a front
+a top view of the car I want a front
+a top view of the car I want a front
+view of the car there we go that looks
+view of the car there we go that looks
+view of the car there we go that looks
+pretty good now I'm going to hit the
+pretty good now I'm going to hit the
+pretty good now I'm going to hit the
+letter R and when I rotate it's only
+letter R and when I rotate it's only
+letter R and when I rotate it's only
+going to rotate on that one axis which
+going to rotate on that one axis which
+going to rotate on that one axis which
+makes my life a whole lot easier now
+makes my life a whole lot easier now
+makes my life a whole lot easier now
+it's still kind of hard to get it
+it's still kind of hard to get it
+it's still kind of hard to get it
+perfectly lined up so what I could do is
+perfectly lined up so what I could do is
+perfectly lined up so what I could do is
+hold down the control key so it's going
+hold down the control key so it's going
+hold down the control key so it's going
+to kind of click in little like 5 degree
+to kind of click in little like 5 degree
+to kind of click in little like 5 degree
+increments that looks about right and
+increments that looks about right and
+increments that looks about right and
+there we go it looks like our tire is is
+there we go it looks like our tire is is
+there we go it looks like our tire is is
+kind of looking like it's in the right
+kind of looking like it's in the right
+kind of looking like it's in the right
+spot if we want to double check our work
+spot if we want to double check our work
+spot if we want to double check our work
+let's go look at this right hand panel a
+let's go look at this right hand panel a
+let's go look at this right hand panel a
+lot of stuff over here it can get
+lot of stuff over here it can get
+lot of stuff over here it can get
+overwhelming I get it but don't panic
+overwhelming I get it but don't panic
+overwhelming I get it but don't panic
+I'm not panicking you don't see me
+I'm not panicking you don't see me
+I'm not panicking you don't see me
+panicking so at the top what we have
+panicking so at the top what we have
+panicking so at the top what we have
+here is our collections these kind of
+here is our collections these kind of
+here is our collections these kind of
+work like layers in a drawing app each
+work like layers in a drawing app each
+work like layers in a drawing app each
+shape you draw will be located here so
+shape you draw will be located here so
+shape you draw will be located here so
+we have our cylinder and if I wanted to
+we have our cylinder and if I wanted to
+we have our cylinder and if I wanted to
+I could double click on it and I could
+I could double click on it and I could
+I could double click on it and I could
+just say this is a wheel I'm going to
+just say this is a wheel I'm going to
+just say this is a wheel I'm going to
+rename it that our cube is our car body
+rename it that our cube is our car body
+rename it that our cube is our car body
+you don't have to do that but it's a
+you don't have to do that but it's a
+you don't have to do that but it's a
+nice way to keep this clean so with our
+nice way to keep this clean so with our
+nice way to keep this clean so with our
+wheel selected I'm going to look at the
+wheel selected I'm going to look at the
+wheel selected I'm going to look at the
+next section of our sidebar which has
+next section of our sidebar which has
+next section of our sidebar which has
+all of these little icons there's a lot
+all of these little icons there's a lot
+all of these little icons there's a lot
+of little icons here but we want this
+of little icons here but we want this
+of little icons here but we want this
+orange one called object properties in
+orange one called object properties in
+orange one called object properties in
+here I can see rotation it's already set
+here I can see rotation it's already set
+here I can see rotation it's already set
+at 90° cuz I rotated it but if you just
+at 90° cuz I rotated it but if you just
+at 90° cuz I rotated it but if you just
+want to go in here and type in 90 that
+want to go in here and type in 90 that
+want to go in here and type in 90 that
+might be a way to save you time so let's
+might be a way to save you time so let's
+might be a way to save you time so let's
+position this tire uh in a place that
+position this tire uh in a place that
+position this tire uh in a place that
+looks like a place a Tire we go on a car
+looks like a place a Tire we go on a car
+looks like a place a Tire we go on a car
+so I'm just going to move it here and
+so I'm just going to move it here and
+so I'm just going to move it here and
+then I'll rotate it around okay that's
+then I'll rotate it around okay that's
+then I'll rotate it around okay that's
+too high let's move it down I kind of
+too high let's move it down I kind of
+too high let's move it down I kind of
+want it to be
+want it to be
+want it to be
+halfway uh I got to got to move it
+halfway uh I got to got to move it
+halfway uh I got to got to move it
+forward a little bit so that looks like
+forward a little bit so that looks like
+forward a little bit so that looks like
+where the wheel would go but here here's
+where the wheel would go but here here's
+where the wheel would go but here here's
+the problem with this uh I want some
+the problem with this uh I want some
+the problem with this uh I want some
+space around the tire right that's
+space around the tire right that's
+space around the tire right that's
+that's kind of how cars are so let's cut
+that's kind of how cars are so let's cut
+that's kind of how cars are so let's cut
+a shape out of our main car here let's
+a shape out of our main car here let's
+a shape out of our main car here let's
+move this tire out of the way that'll
+move this tire out of the way that'll
+move this tire out of the way that'll
+make our lives easier and what we're
+make our lives easier and what we're
+make our lives easier and what we're
+going to do is we're going to create
+going to do is we're going to create
+going to do is we're going to create
+create a cylinder and then we're going
+create a cylinder and then we're going
+create a cylinder and then we're going
+to take that cylinder and we're going to
+to take that cylinder and we're going to
+to take that cylinder and we're going to
+cut it out of where the wheel will go in
+cut it out of where the wheel will go in
+cut it out of where the wheel will go in
+our car shape okay follow me on this
+our car shape okay follow me on this
+our car shape okay follow me on this
+yeah we got this don't panic it's easy
+yeah we got this don't panic it's easy
+yeah we got this don't panic it's easy
+you just got to do it once or twice
+you just got to do it once or twice
+you just got to do it once or twice
+shift a to add a shape we're going to go
+shift a to add a shape we're going to go
+shift a to add a shape we're going to go
+to mesh and then we're going to go to
+to mesh and then we're going to go to
+to mesh and then we're going to go to
+cylinder I'm going to go ahead and drag
+cylinder I'm going to go ahead and drag
+cylinder I'm going to go ahead and drag
+that out of there I'm also going to
+that out of there I'm also going to
+that out of there I'm also going to
+scale it down to about the size I need I
+scale it down to about the size I need I
+scale it down to about the size I need I
+might scale it again we need to rotate
+might scale it again we need to rotate
+might scale it again we need to rotate
+it I already know what I'm doing so I'm
+it I already know what I'm doing so I'm
+it I already know what I'm doing so I'm
+just going to go to my y- AIS type 90
+just going to go to my y- AIS type 90
+just going to go to my y- AIS type 90
+and hit enter to rotate it now what I
+and hit enter to rotate it now what I
+and hit enter to rotate it now what I
+want is a side view of this car so I can
+want is a side view of this car so I can
+want is a side view of this car so I can
+actually like line up all of these
+actually like line up all of these
+actually like line up all of these
+different things my cylinder and my
+different things my cylinder and my
+different things my cylinder and my
+wheel I want them to kind of line up a
+wheel I want them to kind of line up a
+wheel I want them to kind of line up a
+little bit so I'm going to go ahead and
+little bit so I'm going to go ahead and
+little bit so I'm going to go ahead and
+do that and now I can see this nice side
+do that and now I can see this nice side
+do that and now I can see this nice side
+view and it's going to let me move this
+view and it's going to let me move this
+view and it's going to let me move this
+cylinder over and I can see that kind of
+cylinder over and I can see that kind of
+cylinder over and I can see that kind of
+looks okay but I need to move it down
+looks okay but I need to move it down
+looks okay but I need to move it down
+I'm going to move it a little bit over
+I'm going to move it a little bit over
+I'm going to move it a little bit over
+maybe it's a little too big so I hit s
+maybe it's a little too big so I hit s
+maybe it's a little too big so I hit s
+to scale down that a little bit that
+to scale down that a little bit that
+to scale down that a little bit that
+looks about right to me okay let's see
+looks about right to me okay let's see
+looks about right to me okay let's see
+how that's looking cool and now I'm
+how that's looking cool and now I'm
+how that's looking cool and now I'm
+going to move Mo this into the center of
+going to move Mo this into the center of
+going to move Mo this into the center of
+the car I'm going to hit s for scale
+the car I'm going to hit s for scale
+the car I'm going to hit s for scale
+again but we're just going to scale it
+again but we're just going to scale it
+again but we're just going to scale it
+on the X AIS so that it spans the entire
+on the X AIS so that it spans the entire
+on the X AIS so that it spans the entire
+width of the car this is the shape we're
+width of the car this is the shape we're
+width of the car this is the shape we're
+going to cut out of the car okay you
+going to cut out of the car okay you
+going to cut out of the car okay you
+guys ready for this I think you're ready
+guys ready for this I think you're ready
+guys ready for this I think you're ready
+for this I'm ready for this cuz this is
+for this I'm ready for this cuz this is
+for this I'm ready for this cuz this is
+where blender gets really excited we are
+where blender gets really excited we are
+where blender gets really excited we are
+going to use modifiers see this little
+going to use modifiers see this little
+going to use modifiers see this little
+wrench on the right hand side that is
+wrench on the right hand side that is
+wrench on the right hand side that is
+modifiers we're going to click it I'm
+modifiers we're going to click it I'm
+modifiers we're going to click it I'm
+going to select my car and we're going
+going to select my car and we're going
+going to select my car and we're going
+to add a modifier to our car and what
+to add a modifier to our car and what
+to add a modifier to our car and what
+this lets us do is all all sorts of
+this lets us do is all all sorts of
+this lets us do is all all sorts of
+fancy things after clicking add modifier
+fancy things after clicking add modifier
+fancy things after clicking add modifier
+I have generate and what we're looking
+I have generate and what we're looking
+I have generate and what we're looking
+for right now is something called
+for right now is something called
+for right now is something called
+Boolean it's the third one from the top
+Boolean it's the third one from the top
+Boolean it's the third one from the top
+once you add your modifier it's going to
+once you add your modifier it's going to
+once you add your modifier it's going to
+have a whole bunch of stuff over here
+have a whole bunch of stuff over here
+have a whole bunch of stuff over here
+that you can look at some of it may be a
+that you can look at some of it may be a
+that you can look at some of it may be a
+little confusing but just bear with me
+little confusing but just bear with me
+little confusing but just bear with me
+Boolean is going to ask you what object
+Boolean is going to ask you what object
+Boolean is going to ask you what object
+do you want to trim out of your shape
+do you want to trim out of your shape
+do you want to trim out of your shape
+and there's a little eye dropper here if
+and there's a little eye dropper here if
+and there's a little eye dropper here if
+I click on that eye dropper I can go
+I click on that eye dropper I can go
+I click on that eye dropper I can go
+here and I can say I want this cylinder
+here and I can say I want this cylinder
+here and I can say I want this cylinder
+cut out of it and you can see with this
+cut out of it and you can see with this
+cut out of it and you can see with this
+orange line that outlines the shape of
+orange line that outlines the shape of
+orange line that outlines the shape of
+our car it has done that it is going
+our car it has done that it is going
+our car it has done that it is going
+around the curve of that cylinder
+around the curve of that cylinder
+around the curve of that cylinder
+there's only one problem you'd think oh
+there's only one problem you'd think oh
+there's only one problem you'd think oh
+I'll move my cylinder out now where did
+I'll move my cylinder out now where did
+I'll move my cylinder out now where did
+my cut go I wanted that there don't
+my cut go I wanted that there don't
+my cut go I wanted that there don't
+worry we can fix this if we want the cut
+worry we can fix this if we want the cut
+worry we can fix this if we want the cut
+to stay there even if the object moves
+to stay there even if the object moves
+to stay there even if the object moves
+we have to apply the modifier basically
+we have to apply the modifier basically
+we have to apply the modifier basically
+like flattening a layer in Photoshop so
+like flattening a layer in Photoshop so
+like flattening a layer in Photoshop so
+if I click on this Arrow here one of my
+if I click on this Arrow here one of my
+if I click on this Arrow here one of my
+options is apply I'm going to click that
+options is apply I'm going to click that
+options is apply I'm going to click that
+now when I move that cylinder ER let's
+now when I move that cylinder ER let's
+now when I move that cylinder ER let's
+move it back look at that look at that I
+move it back look at that look at that I
+move it back look at that look at that I
+told you this was exciting I'm excited
+told you this was exciting I'm excited
+told you this was exciting I'm excited
+so I'm going to move this cylinder over
+so I'm going to move this cylinder over
+so I'm going to move this cylinder over
+to where I think the other Tire will go
+to where I think the other Tire will go
+to where I think the other Tire will go
+probably about there I'm going to click
+probably about there I'm going to click
+probably about there I'm going to click
+on the car I'm going to add another
+on the car I'm going to add another
+on the car I'm going to add another
+modifier I'm going to go to generate and
+modifier I'm going to go to generate and
+modifier I'm going to go to generate and
+I'm going to go to Boolean again we're
+I'm going to go to Boolean again we're
+I'm going to go to Boolean again we're
+going to do the same exact thing so we
+going to do the same exact thing so we
+going to do the same exact thing so we
+grab our eyedropper tool what do we want
+grab our eyedropper tool what do we want
+grab our eyedropper tool what do we want
+to cut out this cylinder and then we go
+to cut out this cylinder and then we go
+to cut out this cylinder and then we go
+to this arrow and we're going to apply
+to this arrow and we're going to apply
+to this arrow and we're going to apply
+it and there we go now I'm going to
+it and there we go now I'm going to
+it and there we go now I'm going to
+select this cylinder I'm going to hit X
+select this cylinder I'm going to hit X
+select this cylinder I'm going to hit X
+to delete it hit okay and and there we
+to delete it hit okay and and there we
+to delete it hit okay and and there we
+go we have cut that shape out of this
+go we have cut that shape out of this
+go we have cut that shape out of this
+car pretty darn cool now I can take this
+car pretty darn cool now I can take this
+car pretty darn cool now I can take this
+wheel and I could just slide it into
+wheel and I could just slide it into
+wheel and I could just slide it into
+place that looks about right oh yeah
+place that looks about right oh yeah
+place that looks about right oh yeah
+we've got a wheel in a car perfectly
+we've got a wheel in a car perfectly
+we've got a wheel in a car perfectly
+placed so what we could do is just hit
+placed so what we could do is just hit
+placed so what we could do is just hit
+shift d and duplicate this tire and move
+shift d and duplicate this tire and move
+shift d and duplicate this tire and move
+it all around but no no no we got to use
+it all around but no no no we got to use
+it all around but no no no we got to use
+more modifiers because the more you
+more modifiers because the more you
+more modifiers because the more you
+learn about modifiers the cooler blender
+learn about modifiers the cooler blender
+learn about modifiers the cooler blender
+gets so we're going to use a modifier
+gets so we're going to use a modifier
+gets so we're going to use a modifier
+called array so let's click add modifier
+called array so let's click add modifier
+called array so let's click add modifier
+go to generate and then click array now
+go to generate and then click array now
+go to generate and then click array now
+you can see it's added a second Tire
+you can see it's added a second Tire
+you can see it's added a second Tire
+under our main tire so what array does
+under our main tire so what array does
+under our main tire so what array does
+is it allows us to add how many of
+is it allows us to add how many of
+is it allows us to add how many of
+something we want to reproduce over and
+something we want to reproduce over and
+something we want to reproduce over and
+over again so this is six of them I
+over again so this is six of them I
+over again so this is six of them I
+don't need six I only need two tires for
+don't need six I only need two tires for
+don't need six I only need two tires for
+now right now it's on the x axis I'm
+now right now it's on the x axis I'm
+now right now it's on the x axis I'm
+going to set that to zero cuz I want
+going to set that to zero cuz I want
+going to set that to zero cuz I want
+this on my y AIS let's set that to one
+this on my y AIS let's set that to one
+this on my y AIS let's set that to one
+and there you can see the tire is now
+and there you can see the tire is now
+and there you can see the tire is now
+appearing uh behind the main Tire I need
+appearing uh behind the main Tire I need
+appearing uh behind the main Tire I need
+to to move that back to the other Tire
+to to move that back to the other Tire
+to to move that back to the other Tire
+well and so we're going to do that by
+well and so we're going to do that by
+well and so we're going to do that by
+looking at this little field here where
+looking at this little field here where
+looking at this little field here where
+we could type in numbers I'm going to
+we could type in numbers I'm going to
+we could type in numbers I'm going to
+hit three where does that put us that
+hit three where does that put us that
+hit three where does that put us that
+puts us pretty darn close let's click on
+puts us pretty darn close let's click on
+puts us pretty darn close let's click on
+our Gizmo so we can see this a little
+our Gizmo so we can see this a little
+our Gizmo so we can see this a little
+bit better I going say
+bit better I going say
+bit better I going say
+3.2 that was too much let's go
+3.2 that was too much let's go
+3.2 that was too much let's go
+3.09 now your car is going to be a
+3.09 now your car is going to be a
+3.09 now your car is going to be a
+little different so you're going to have
+little different so you're going to have
+little different so you're going to have
+to kind of go in there and fudge it a
+to kind of go in there and fudge it a
+to kind of go in there and fudge it a
+little bit but that's that's pretty much
+little bit but that's that's pretty much
+little bit but that's that's pretty much
+how you do it there we go we got wheel
+how you do it there we go we got wheel
+how you do it there we go we got wheel
+there we are done with our car okay we
+there we are done with our car okay we
+there we are done with our car okay we
+need to put wheels on the other side too
+need to put wheels on the other side too
+need to put wheels on the other side too
+that's not cool well the wheels on that
+that's not cool well the wheels on that
+that's not cool well the wheels on that
+side look good so let's go ahead and
+side look good so let's go ahead and
+side look good so let's go ahead and
+apply that transform little arrow down
+apply that transform little arrow down
+apply that transform little arrow down
+here apply just like we did with the
+here apply just like we did with the
+here apply just like we did with the
+Boolean now let's select those tires
+Boolean now let's select those tires
+Boolean now let's select those tires
+again we're going to use another
+again we're going to use another
+again we're going to use another
+modifier this one is in generate and
+modifier this one is in generate and
+modifier this one is in generate and
+it's called mirror and it's going to
+it's called mirror and it's going to
+it's called mirror and it's going to
+mirror our tires now if you first
+mirror our tires now if you first
+mirror our tires now if you first
+selected you can't really see anything
+selected you can't really see anything
+selected you can't really see anything
+and it depends on the axis that you're
+and it depends on the axis that you're
+and it depends on the axis that you're
+using so for example if I select the y a
+using so for example if I select the y a
+using so for example if I select the y a
+you can see a tire appeared over here on
+you can see a tire appeared over here on
+you can see a tire appeared over here on
+the left hand side I'm going to unselect
+the left hand side I'm going to unselect
+the left hand side I'm going to unselect
+the xaxis so what our tire is trying to
+the xaxis so what our tire is trying to
+the xaxis so what our tire is trying to
+figure out is where it should mirror to
+figure out is where it should mirror to
+figure out is where it should mirror to
+right now it's mirroring on itself we
+right now it's mirroring on itself we
+right now it's mirroring on itself we
+want it to mirror on the car so see this
+want it to mirror on the car so see this
+want it to mirror on the car so see this
+little field here mirror object we're
+little field here mirror object we're
+little field here mirror object we're
+going to grab our eyedropper tool and
+going to grab our eyedropper tool and
+going to grab our eyedropper tool and
+we're going to select the car to say we
+we're going to select the car to say we
+we're going to select the car to say we
+want it to mirror to that then we're
+want it to mirror to that then we're
+want it to mirror to that then we're
+going to make sure it's on the right
+going to make sure it's on the right
+going to make sure it's on the right
+Axis I'm going to hit X there we go and
+Axis I'm going to hit X there we go and
+Axis I'm going to hit X there we go and
+we have wheels look at that we got
+we have wheels look at that we got
+we have wheels look at that we got
+wheels so what we have here is is the
+wheels so what we have here is is the
+wheels so what we have here is is the
+core of our car and it's time to add
+core of our car and it's time to add
+core of our car and it's time to add
+some details I want to add some rearview
+some details I want to add some rearview
+some details I want to add some rearview
+mirrors maybe a bumper so let's go ahead
+mirrors maybe a bumper so let's go ahead
+mirrors maybe a bumper so let's go ahead
+and do that shift a to add a shape we're
+and do that shift a to add a shape we're
+and do that shift a to add a shape we're
+going to go to mesh and then we're going
+going to go to mesh and then we're going
+going to go to mesh and then we're going
+to go down to a cube now let's start
+to go down to a cube now let's start
+to go down to a cube now let's start
+with a bumper so I'm just going to pull
+with a bumper so I'm just going to pull
+with a bumper so I'm just going to pull
+this out to the front it's an okay width
+this out to the front it's an okay width
+this out to the front it's an okay width
+so we're going to hit scale and then Z
+so we're going to hit scale and then Z
+so we're going to hit scale and then Z
+and let's make it a bumper height and
+and let's make it a bumper height and
+and let's make it a bumper height and
+we'll just kind of guess it here hit X
+we'll just kind of guess it here hit X
+we'll just kind of guess it here hit X
+to scale it again then we're going to
+to scale it again then we're going to
+to scale it again then we're going to
+hit Y and we're just going to make it a
+hit Y and we're just going to make it a
+hit Y and we're just going to make it a
+lot lot shorter maybe kind of like that
+lot lot shorter maybe kind of like that
+lot lot shorter maybe kind of like that
+there we go and I'm going to make a a
+there we go and I'm going to make a a
+there we go and I'm going to make a a
+touch wide s x and we'll just pull it
+touch wide s x and we'll just pull it
+touch wide s x and we'll just pull it
+out a little bit and now I'm going to
+out a little bit and now I'm going to
+out a little bit and now I'm going to
+move it into place we'll see how that
+move it into place we'll see how that
+move it into place we'll see how that
+looks and I'm going to just kind of Pull
+looks and I'm going to just kind of Pull
+looks and I'm going to just kind of Pull
+It in like that and maybe I put it down
+It in like that and maybe I put it down
+It in like that and maybe I put it down
+here closer to the bottom of the car
+here closer to the bottom of the car
+here closer to the bottom of the car
+kind of like that now I want that bumper
+kind of like that now I want that bumper
+kind of like that now I want that bumper
+to be a little closer to that wheel so
+to be a little closer to that wheel so
+to be a little closer to that wheel so
+I'm going to pull it in and then I'm
+I'm going to pull it in and then I'm
+I'm going to pull it in and then I'm
+going to hit s again we're going to
+going to hit s again we're going to
+going to hit s again we're going to
+scale it on the Y I'm going to pull it
+scale it on the Y I'm going to pull it
+scale it on the Y I'm going to pull it
+out just a tiny bit kind of like that
+out just a tiny bit kind of like that
+out just a tiny bit kind of like that
+maybe I push it out there we go this is
+maybe I push it out there we go this is
+maybe I push it out there we go this is
+where it gets fiddly and modeling is
+where it gets fiddly and modeling is
+where it gets fiddly and modeling is
+kind of fun we just move things around
+kind of fun we just move things around
+kind of fun we just move things around
+try different sizes I'm going to hit
+try different sizes I'm going to hit
+try different sizes I'm going to hit
+shift d on that shape I'm just going to
+shift d on that shape I'm just going to
+shift d on that shape I'm just going to
+click so it stays in place then grab my
+click so it stays in place then grab my
+click so it stays in place then grab my
+green arrow to just pull it all the way
+green arrow to just pull it all the way
+green arrow to just pull it all the way
+back and this will also serve as our
+back and this will also serve as our
+back and this will also serve as our
+back bumper as well I also want to add
+back bumper as well I also want to add
+back bumper as well I also want to add
+some rearview mirrors so let's go ahead
+some rearview mirrors so let's go ahead
+some rearview mirrors so let's go ahead
+and hit shift a to add a shape we go to
+and hit shift a to add a shape we go to
+and hit shift a to add a shape we go to
+mesh and we're just going to start again
+mesh and we're just going to start again
+mesh and we're just going to start again
+with a cube let's pull this out and hit
+with a cube let's pull this out and hit
+with a cube let's pull this out and hit
+s for scale and we're just going to make
+s for scale and we're just going to make
+s for scale and we're just going to make
+it really tiny maybe we hit s again and
+it really tiny maybe we hit s again and
+it really tiny maybe we hit s again and
+uh on our z-axis cuz I want it to be a
+uh on our z-axis cuz I want it to be a
+uh on our z-axis cuz I want it to be a
+skinnier Cube maybe we also change our y
+skinnier Cube maybe we also change our y
+skinnier Cube maybe we also change our y
+so we hit s and we change our y AIS a
+so we hit s and we change our y AIS a
+so we hit s and we change our y AIS a
+little bit and that looks rear view
+little bit and that looks rear view
+little bit and that looks rear view
+mirror is so let's kind of move it close
+mirror is so let's kind of move it close
+mirror is so let's kind of move it close
+to the side of our car this is a low
+to the side of our car this is a low
+to the side of our car this is a low
+poly car so I'm okay with it being kind
+poly car so I'm okay with it being kind
+poly car so I'm okay with it being kind
+of boxy but I don't want it to be just a
+of boxy but I don't want it to be just a
+of boxy but I don't want it to be just a
+box so let's hit tab to go into edit
+box so let's hit tab to go into edit
+box so let's hit tab to go into edit
+mode I'm going to just grab these two
+mode I'm going to just grab these two
+mode I'm going to just grab these two
+points and I'm going to pull that back a
+points and I'm going to pull that back a
+points and I'm going to pull that back a
+little bit maybe I grab these two points
+little bit maybe I grab these two points
+little bit maybe I grab these two points
+and I pull them up a little bit to make
+and I pull them up a little bit to make
+and I pull them up a little bit to make
+this thing a little bit aerodynamic I'm
+this thing a little bit aerodynamic I'm
+this thing a little bit aerodynamic I'm
+going to grab these two points and move
+going to grab these two points and move
+going to grab these two points and move
+them down a little bit you kind of see
+them down a little bit you kind of see
+them down a little bit you kind of see
+where I'm going with this I'm trying to
+where I'm going with this I'm trying to
+where I'm going with this I'm trying to
+make this a little less boxy in fact I
+make this a little less boxy in fact I
+make this a little less boxy in fact I
+think it sticks out a little bore that I
+think it sticks out a little bore that I
+think it sticks out a little bore that I
+want it to so this is just the area
+want it to so this is just the area
+want it to so this is just the area
+where I like to fiddle and I like to
+where I like to fiddle and I like to
+where I like to fiddle and I like to
+figure out what looks good with the
+figure out what looks good with the
+figure out what looks good with the
+model now I also want to attach this to
+model now I also want to attach this to
+model now I also want to attach this to
+the car to do that I'm just going to use
+the car to do that I'm just going to use
+the car to do that I'm just going to use
+another Cube now I am still in edit mode
+another Cube now I am still in edit mode
+another Cube now I am still in edit mode
+one of the cool things is if I hit shift
+one of the cool things is if I hit shift
+one of the cool things is if I hit shift
+a go ahead and add a cube in edit mode
+a go ahead and add a cube in edit mode
+a go ahead and add a cube in edit mode
+and then we'll move it out here hit s to
+and then we'll move it out here hit s to
+and then we'll move it out here hit s to
+scale this cube is now part of the same
+scale this cube is now part of the same
+scale this cube is now part of the same
+shape what does that mean well if I have
+shape what does that mean well if I have
+shape what does that mean well if I have
+Tab and I go back to object mode now you
+Tab and I go back to object mode now you
+Tab and I go back to object mode now you
+can see this is just one shape both of
+can see this is just one shape both of
+can see this is just one shape both of
+those Cubes at the same time I'm going
+those Cubes at the same time I'm going
+those Cubes at the same time I'm going
+to tab back into edit mode and I'm just
+to tab back into edit mode and I'm just
+to tab back into edit mode and I'm just
+going to move this into place maybe get
+going to move this into place maybe get
+going to move this into place maybe get
+it there maybe move it back and now I
+it there maybe move it back and now I
+it there maybe move it back and now I
+can mirror that on the other side the
+can mirror that on the other side the
+can mirror that on the other side the
+same way that I did with the wheels now
+same way that I did with the wheels now
+same way that I did with the wheels now
+I'm in object mode I go over here to add
+I'm in object mode I go over here to add
+I'm in object mode I go over here to add
+modifier generate mirror I use my little
+modifier generate mirror I use my little
+modifier generate mirror I use my little
+eyedropper tool and I select the car
+eyedropper tool and I select the car
+eyedropper tool and I select the car
+that's what I want it mirrored to and
+that's what I want it mirrored to and
+that's what I want it mirrored to and
+there we go it just mirrors because X is
+there we go it just mirrors because X is
+there we go it just mirrors because X is
+already selected over here on the side
+already selected over here on the side
+already selected over here on the side
+what else do I want to add I'm going to
+what else do I want to add I'm going to
+what else do I want to add I'm going to
+just add some simple door handle shift a
+just add some simple door handle shift a
+just add some simple door handle shift a
+cuz this is just going to start with a
+cuz this is just going to start with a
+cuz this is just going to start with a
+mesh then a cube move the cube out scale
+mesh then a cube move the cube out scale
+mesh then a cube move the cube out scale
+it on down so it's teeny tiny there we
+it on down so it's teeny tiny there we
+it on down so it's teeny tiny there we
+go I want it to be wider so we're going
+go I want it to be wider so we're going
+go I want it to be wider so we're going
+to scale it on the Y AIS to be a little
+to scale it on the Y AIS to be a little
+to scale it on the Y AIS to be a little
+bit wider kind of door handle with there
+bit wider kind of door handle with there
+bit wider kind of door handle with there
+we go and then we just move it into
+we go and then we just move it into
+we go and then we just move it into
+place Boop on the side of our car so it
+place Boop on the side of our car so it
+place Boop on the side of our car so it
+just sticks out a little bit and there
+just sticks out a little bit and there
+just sticks out a little bit and there
+we go move it up here move it up here
+we go move it up here move it up here
+we go move it up here move it up here
+there we go that kind of looks like a
+there we go that kind of looks like a
+there we go that kind of looks like a
+door handle position there's a one door
+door handle position there's a one door
+door handle position there's a one door
+car and then we're going to add a
+car and then we're going to add a
+car and then we're going to add a
+modifier here too we select it add
+modifier here too we select it add
+modifier here too we select it add
+modifier generate go to mirror ey
+modifier generate go to mirror ey
+modifier generate go to mirror ey
+dropper tools select the car and guess
+dropper tools select the car and guess
+dropper tools select the car and guess
+what we got a door handle on the other
+what we got a door handle on the other
+what we got a door handle on the other
+side too same location so that is
+side too same location so that is
+side too same location so that is
+looking pretty close to good I still
+looking pretty close to good I still
+looking pretty close to good I still
+want to fiddle with the shape a little
+want to fiddle with the shape a little
+want to fiddle with the shape a little
+bit I'm going to tab into edit mode for
+bit I'm going to tab into edit mode for
+bit I'm going to tab into edit mode for
+my car and I'm just going to make a
+my car and I'm just going to make a
+my car and I'm just going to make a
+couple quick tweaks for example I want
+couple quick tweaks for example I want
+couple quick tweaks for example I want
+this to go down a little bit you see
+this to go down a little bit you see
+this to go down a little bit you see
+that on cars they kind of slant maybe I
+that on cars they kind of slant maybe I
+that on cars they kind of slant maybe I
+pull this back a little bit make it look
+pull this back a little bit make it look
+pull this back a little bit make it look
+like an 80s car maybe I grab the entire
+like an 80s car maybe I grab the entire
+like an 80s car maybe I grab the entire
+front plate and I say I for inset and
+front plate and I say I for inset and
+front plate and I say I for inset and
+then I zoom in a little bit and then we
+then I zoom in a little bit and then we
+then I zoom in a little bit and then we
+extrude and we pull in a little bit
+extrude and we pull in a little bit
+extrude and we pull in a little bit
+sweet now I maybe want to add some
+sweet now I maybe want to add some
+sweet now I maybe want to add some
+blocks that I'm going to use headlights
+blocks that I'm going to use headlights
+blocks that I'm going to use headlights
+shift a mesh Cube insert pull it on out
+shift a mesh Cube insert pull it on out
+shift a mesh Cube insert pull it on out
+of there s for scale let's knock that
+of there s for scale let's knock that
+of there s for scale let's knock that
+thing down there we go we're going to
+thing down there we go we're going to
+thing down there we go we're going to
+move it over to the side maybe we scale
+move it over to the side maybe we scale
+move it over to the side maybe we scale
+it down again maybe something like that
+it down again maybe something like that
+it down again maybe something like that
+for our headlight maybe we scale X to
+for our headlight maybe we scale X to
+for our headlight maybe we scale X to
+make it a little bit wider and then
+make it a little bit wider and then
+make it a little bit wider and then
+maybe we push it way in this is kind of
+maybe we push it way in this is kind of
+maybe we push it way in this is kind of
+sitting under the bumper a little bit
+sitting under the bumper a little bit
+sitting under the bumper a little bit
+but it's kind of sticking out that's
+but it's kind of sticking out that's
+but it's kind of sticking out that's
+cool add modifier generate mirror ey
+cool add modifier generate mirror ey
+cool add modifier generate mirror ey
+dropper to select the object select our
+dropper to select the object select our
+dropper to select the object select our
+car and it just goes into place
+car and it just goes into place
+car and it just goes into place
+beautiful that looking good okay so
+beautiful that looking good okay so
+beautiful that looking good okay so
+let's take a quick break and go back to
+let's take a quick break and go back to
+let's take a quick break and go back to
+these little icons in the upper right
+these little icons in the upper right
+these little icons in the upper right
+hand corner of our screen we already
+hand corner of our screen we already
+hand corner of our screen we already
+talked about the wireframe icon that
+talked about the wireframe icon that
+talked about the wireframe icon that
+lets us see all our lines we're using
+lets us see all our lines we're using
+lets us see all our lines we're using
+the solid version here there's also this
+the solid version here there's also this
+the solid version here there's also this
+this is viewport shading which is just
+this is viewport shading which is just
+this is viewport shading which is just
+going to show you your colors so if you
+going to show you your colors so if you
+going to show you your colors so if you
+just want to see flat colors on your
+just want to see flat colors on your
+just want to see flat colors on your
+object you can do that we have no colors
+object you can do that we have no colors
+object you can do that we have no colors
+so we're just white but then we have
+so we're just white but then we have
+so we're just white but then we have
+this third one here and this is your
+this third one here and this is your
+this third one here and this is your
+rendered View and this is actually using
+rendered View and this is actually using
+rendered View and this is actually using
+a renderer to show you what your car is
+a renderer to show you what your car is
+a renderer to show you what your car is
+going to look like so one of the things
+going to look like so one of the things
+going to look like so one of the things
+I love about blender is that like clay
+I love about blender is that like clay
+I love about blender is that like clay
+looking feel that you get with some of
+looking feel that you get with some of
+looking feel that you get with some of
+just the basic renders so let's go to
+just the basic renders so let's go to
+just the basic renders so let's go to
+our options here one of this is our
+our options here one of this is our
+our options here one of this is our
+render tab which is this little camera
+render tab which is this little camera
+render tab which is this little camera
+icon it's like the back of a camera icon
+icon it's like the back of a camera icon
+icon it's like the back of a camera icon
+our default rendering engine in this
+our default rendering engine in this
+our default rendering engine in this
+drop down is Eevee and that's cool but
+drop down is Eevee and that's cool but
+drop down is Eevee and that's cool but
+my favorite one is Cycles I just think
+my favorite one is Cycles I just think
+my favorite one is Cycles I just think
+Cycles looks a lot better the problem
+Cycles looks a lot better the problem
+Cycles looks a lot better the problem
+with Cycles as you pan around is if
+with Cycles as you pan around is if
+with Cycles as you pan around is if
+you're on a laptop or computer that
+you're on a laptop or computer that
+you're on a laptop or computer that
+doesn't have really great Hardware is
+doesn't have really great Hardware is
+doesn't have really great Hardware is
+you're going to hear the fan in your
+you're going to hear the fan in your
+you're going to hear the fan in your
+computer spit up pretty fast this is
+computer spit up pretty fast this is
+computer spit up pretty fast this is
+really processor intense I have a GPU in
+really processor intense I have a GPU in
+really processor intense I have a GPU in
+my computer so I'm going to select this
+my computer so I'm going to select this
+my computer so I'm going to select this
+drop down and I'm going to go from my
+drop down and I'm going to go from my
+drop down and I'm going to go from my
+CPU to my GPU you don't have to do that
+CPU to my GPU you don't have to do that
+CPU to my GPU you don't have to do that
+but that if you do have a gaming
+but that if you do have a gaming
+but that if you do have a gaming
+computer or something with a graphics
+computer or something with a graphics
+computer or something with a graphics
+card that's going to help you I also am
+card that's going to help you I also am
+card that's going to help you I also am
+going to add something to this I'm going
+going to add something to this I'm going
+going to add something to this I'm going
+to hit shift a going to go to mesh and
+to hit shift a going to go to mesh and
+to hit shift a going to go to mesh and
+we're going to add a plane now you can't
+we're going to add a plane now you can't
+we're going to add a plane now you can't
+really see it cuz it's inside our car so
+really see it cuz it's inside our car so
+really see it cuz it's inside our car so
+we'll hit s to scale and we'll just grow
+we'll hit s to scale and we'll just grow
+we'll hit s to scale and we'll just grow
+it up really big and you can see it's
+it up really big and you can see it's
+it up really big and you can see it's
+snack dab in the middle of our car
+snack dab in the middle of our car
+snack dab in the middle of our car
+that's fine if I scroll out there's some
+that's fine if I scroll out there's some
+that's fine if I scroll out there's some
+other things that come with every new
+other things that come with every new
+other things that come with every new
+blender file that you create there is a
+blender file that you create there is a
+blender file that you create there is a
+camera and there is this little thing
+camera and there is this little thing
+camera and there is this little thing
+this is a light now your basic light
+this is a light now your basic light
+this is a light now your basic light
+source is not that exciting but we can
+source is not that exciting but we can
+source is not that exciting but we can
+move it around just like we could move
+move it around just like we could move
+move it around just like we could move
+anything else and you're going to see
+anything else and you're going to see
+anything else and you're going to see
+your shadows move and you guessed it on
+your shadows move and you guessed it on
+your shadows move and you guessed it on
+the right hand side there is a tab it's
+the right hand side there is a tab it's
+the right hand side there is a tab it's
+called data and it's going to let us
+called data and it's going to let us
+called data and it's going to let us
+choose what features we want our light
+choose what features we want our light
+choose what features we want our light
+to have so right now it it is a point of
+to have so right now it it is a point of
+to have so right now it it is a point of
+Light which is fine but I like area
+Light which is fine but I like area
+Light which is fine but I like area
+lights so I'm going to hit on area in my
+lights so I'm going to hit on area in my
+lights so I'm going to hit on area in my
+tab and here I can select the direction
+tab and here I can select the direction
+tab and here I can select the direction
+that area light is going in I'm just
+that area light is going in I'm just
+that area light is going in I'm just
+going to have it face straight down and
+going to have it face straight down and
+going to have it face straight down and
+then maybe for my size I set it to 10 by
+then maybe for my size I set it to 10 by
+then maybe for my size I set it to 10 by
+10 and that gives me this nice soft
+10 and that gives me this nice soft
+10 and that gives me this nice soft
+color look that I think looks really
+color look that I think looks really
+color look that I think looks really
+really good I'm going to take that plane
+really good I'm going to take that plane
+really good I'm going to take that plane
+I'm going to move it down so that my car
+I'm going to move it down so that my car
+I'm going to move it down so that my car
+just kind of sitting on it yeah this is
+just kind of sitting on it yeah this is
+just kind of sitting on it yeah this is
+this is what I was going for I'm going
+this is what I was going for I'm going
+this is what I was going for I'm going
+to go ahead and scale that plane up even
+to go ahead and scale that plane up even
+to go ahead and scale that plane up even
+more so now we have that nice clay model
+more so now we have that nice clay model
+more so now we have that nice clay model
+build now blender has a section with
+build now blender has a section with
+build now blender has a section with
+nodes and all sorts of rendering options
+nodes and all sorts of rendering options
+nodes and all sorts of rendering options
+really really cool stuff but that that
+really really cool stuff but that that
+really really cool stuff but that that
+section can start to overwhelm you so
+section can start to overwhelm you so
+section can start to overwhelm you so
+we're going to keep it dead simple I'm
+we're going to keep it dead simple I'm
+we're going to keep it dead simple I'm
+going to change my view here to material
+going to change my view here to material
+going to change my view here to material
+preview I'm going to select that plane
+preview I'm going to select that plane
+preview I'm going to select that plane
+my car is sitting on and on my sidebar
+my car is sitting on and on my sidebar
+my car is sitting on and on my sidebar
+I'm going to go to this little world
+I'm going to go to this little world
+I'm going to go to this little world
+icon that says material we're going to
+icon that says material we're going to
+icon that says material we're going to
+just do some barebone basic materials
+just do some barebone basic materials
+just do some barebone basic materials
+but you can do a lot here so first of
+but you can do a lot here so first of
+but you can do a lot here so first of
+all there's no material assigned to this
+all there's no material assigned to this
+all there's no material assigned to this
+right now so I'm going to click on new
+right now so I'm going to click on new
+right now so I'm going to click on new
+and see here we can change our base
+and see here we can change our base
+and see here we can change our base
+color and we can change a whole bunch of
+color and we can change a whole bunch of
+color and we can change a whole bunch of
+stuff about it we're just going to color
+stuff about it we're just going to color
+stuff about it we're just going to color
+some things so I'm going to have this
+some things so I'm going to have this
+some things so I'm going to have this
+sit on grass so so I'm going to select
+sit on grass so so I'm going to select
+sit on grass so so I'm going to select
+like a greenish color and then I'm going
+like a greenish color and then I'm going
+like a greenish color and then I'm going
+to move down uh the brightness of this
+to move down uh the brightness of this
+to move down uh the brightness of this
+on the side a little bit and I'm going
+on the side a little bit and I'm going
+on the side a little bit and I'm going
+to do this with all my objects I'm going
+to do this with all my objects I'm going
+to do this with all my objects I'm going
+to grab my tires I'm going to click new
+to grab my tires I'm going to click new
+to grab my tires I'm going to click new
+going to grab that color and I want a
+going to grab that color and I want a
+going to grab that color and I want a
+gray so I'm just going to drag down on
+gray so I'm just going to drag down on
+gray so I'm just going to drag down on
+that brightness slider a little bit to
+that brightness slider a little bit to
+that brightness slider a little bit to
+get those to be gray I'm going to grab
+get those to be gray I'm going to grab
+get those to be gray I'm going to grab
+the car itself we're going to make that
+the car itself we're going to make that
+the car itself we're going to make that
+blue I'm going to tap on the color I'm
+blue I'm going to tap on the color I'm
+blue I'm going to tap on the color I'm
+going to move this over to Blue going to
+going to move this over to Blue going to
+going to move this over to Blue going to
+drag the slider down a little bit to
+drag the slider down a little bit to
+drag the slider down a little bit to
+make it a little bit darker of a blue
+make it a little bit darker of a blue
+make it a little bit darker of a blue
+maybe kind of towards here and the thing
+maybe kind of towards here and the thing
+maybe kind of towards here and the thing
+about materials like our layers we can
+about materials like our layers we can
+about materials like our layers we can
+tap on that and I can call this car blue
+tap on that and I can call this car blue
+tap on that and I can call this car blue
+so if I want to use that Elsewhere for
+so if I want to use that Elsewhere for
+so if I want to use that Elsewhere for
+example these rearview mirrors I want to
+example these rearview mirrors I want to
+example these rearview mirrors I want to
+be the same blue what I can do is
+be the same blue what I can do is
+be the same blue what I can do is
+instead of hitting new I can click on
+instead of hitting new I can click on
+instead of hitting new I can click on
+this little drop down menu next to New
+this little drop down menu next to New
+this little drop down menu next to New
+and I could just grab one of the
+and I could just grab one of the
+and I could just grab one of the
+materials that already exists like my
+materials that already exists like my
+materials that already exists like my
+car blue and then if I change that blue
+car blue and then if I change that blue
+car blue and then if I change that blue
+anywhere it's going to change everywhere
+anywhere it's going to change everywhere
+anywhere it's going to change everywhere
+let's go back to our render image and we
+let's go back to our render image and we
+let's go back to our render image and we
+can see how this is starting to look
+can see how this is starting to look
+can see how this is starting to look
+it's starting to look kind of cool I'm
+it's starting to look kind of cool I'm
+it's starting to look kind of cool I'm
+going to click on my car again and we're
+going to click on my car again and we're
+going to click on my car again and we're
+going to play around a little bit cuz
+going to play around a little bit cuz
+going to play around a little bit cuz
+that's just changing the base color and
+that's just changing the base color and
+that's just changing the base color and
+we can do some neat things with that but
+we can do some neat things with that but
+we can do some neat things with that but
+you're going to see some of the options
+you're going to see some of the options
+you're going to see some of the options
+for example underneath base color it
+for example underneath base color it
+for example underneath base color it
+says metallic if I scrub that up I can
+says metallic if I scrub that up I can
+says metallic if I scrub that up I can
+make that car look kind of shiny I can
+make that car look kind of shiny I can
+make that car look kind of shiny I can
+also do reduce the roughness which makes
+also do reduce the roughness which makes
+also do reduce the roughness which makes
+it super shiny probably too shiny so
+it super shiny probably too shiny so
+it super shiny probably too shiny so
+we'll kind of move the roughness up
+we'll kind of move the roughness up
+we'll kind of move the roughness up
+because if you think about it cars have
+because if you think about it cars have
+because if you think about it cars have
+Flex inside the paint also our car is
+Flex inside the paint also our car is
+Flex inside the paint also our car is
+one object and we want different parts
+one object and we want different parts
+one object and we want different parts
+of the car to be different colors I
+of the car to be different colors I
+of the car to be different colors I
+don't want the windshield to be the same
+don't want the windshield to be the same
+don't want the windshield to be the same
+shade of blue so I'm going to hit tab to
+shade of blue so I'm going to hit tab to
+shade of blue so I'm going to hit tab to
+go to edit mode I'm going to select a
+go to edit mode I'm going to select a
+go to edit mode I'm going to select a
+face for example I'll select that face
+face for example I'll select that face
+face for example I'll select that face
+and this gets a little bit tricky but I
+and this gets a little bit tricky but I
+and this gets a little bit tricky but I
+think you got this so where it says car
+think you got this so where it says car
+think you got this so where it says car
+blue if we change just that face to say
+blue if we change just that face to say
+blue if we change just that face to say
+green it's going to change the whole
+green it's going to change the whole
+green it's going to change the whole
+thing that is not what we want so let's
+thing that is not what we want so let's
+thing that is not what we want so let's
+go back to car blue what we want is we
+go back to car blue what we want is we
+go back to car blue what we want is we
+want to click this plus button that's
+want to click this plus button that's
+want to click this plus button that's
+going to let us add more than one
+going to let us add more than one
+going to let us add more than one
+material to this object I'm going to
+material to this object I'm going to
+material to this object I'm going to
+click new and now I'm just going to
+click new and now I'm just going to
+click new and now I'm just going to
+select a dark gray for my windshield and
+select a dark gray for my windshield and
+select a dark gray for my windshield and
+uh I'm going to move the roughness way
+uh I'm going to move the roughness way
+uh I'm going to move the roughness way
+down cuz I I want it to be kind of shiny
+down cuz I I want it to be kind of shiny
+down cuz I I want it to be kind of shiny
+like glass while I'm here I'm going to
+like glass while I'm here I'm going to
+like glass while I'm here I'm going to
+go and call that wind shield and the
+go and call that wind shield and the
+go and call that wind shield and the
+next thing I want to do is there's a
+next thing I want to do is there's a
+next thing I want to do is there's a
+button here called assign and that will
+button here called assign and that will
+button here called assign and that will
+assign this color to this plane so I'll
+assign this color to this plane so I'll
+assign this color to this plane so I'll
+click that now when I click off you can
+click that now when I click off you can
+click that now when I click off you can
+see that it's a different color if I
+see that it's a different color if I
+see that it's a different color if I
+grab this plane select windshield over
+grab this plane select windshield over
+grab this plane select windshield over
+on the right hand side click assign
+on the right hand side click assign
+on the right hand side click assign
+I've assigned it there back windshield
+I've assigned it there back windshield
+I've assigned it there back windshield
+click that color hit assign this side
+click that color hit assign this side
+click that color hit assign this side
+window over here click the right color
+window over here click the right color
+window over here click the right color
+hit assign and you can see from this
+hit assign and you can see from this
+hit assign and you can see from this
+angle we even are getting a little bit
+angle we even are getting a little bit
+angle we even are getting a little bit
+of reflection sometimes of the rear viw
+of reflection sometimes of the rear viw
+of reflection sometimes of the rear viw
+mirror of the hood of the car I'm really
+mirror of the hood of the car I'm really
+mirror of the hood of the car I'm really
+digging that I'm going to leave this
+digging that I'm going to leave this
+digging that I'm going to leave this
+area there's one more color I want to do
+area there's one more color I want to do
+area there's one more color I want to do
+which is the bumper let's go ahead and
+which is the bumper let's go ahead and
+which is the bumper let's go ahead and
+hit new this is metallic so I'm going to
+hit new this is metallic so I'm going to
+hit new this is metallic so I'm going to
+go ahead and scrub that up and then this
+go ahead and scrub that up and then this
+go ahead and scrub that up and then this
+is just going to be a light gray so
+is just going to be a light gray so
+is just going to be a light gray so
+we'll just go with a light gray you know
+we'll just go with a light gray you know
+we'll just go with a light gray you know
+metal bumper that looks all right I'm
+metal bumper that looks all right I'm
+metal bumper that looks all right I'm
+also going to select our door handles
+also going to select our door handles
+also going to select our door handles
+and instead of creating a new thing I'm
+and instead of creating a new thing I'm
+and instead of creating a new thing I'm
+just going to go here and I'm going to
+just going to go here and I'm going to
+just going to go here and I'm going to
+grab the material I made for our bumper
+grab the material I made for our bumper
+grab the material I made for our bumper
+another tab over here on the side is
+another tab over here on the side is
+another tab over here on the side is
+world and our background is gray you see
+world and our background is gray you see
+world and our background is gray you see
+that here in the surface panel so if I
+that here in the surface panel so if I
+that here in the surface panel so if I
+tap on that I can actually make the
+tap on that I can actually make the
+tap on that I can actually make the
+world lighter by Rising that up and what
+world lighter by Rising that up and what
+world lighter by Rising that up and what
+that's going to do is that's actually
+that's going to do is that's actually
+that's going to do is that's actually
+going to change all the lighting for the
+going to change all the lighting for the
+going to change all the lighting for the
+whole scene so maybe you don't want it
+whole scene so maybe you don't want it
+whole scene so maybe you don't want it
+lit all the way up but I do like to turn
+lit all the way up but I do like to turn
+lit all the way up but I do like to turn
+that up a little bit just to add a
+that up a little bit just to add a
+that up a little bit just to add a
+little bit more light to the world since
+little bit more light to the world since
+little bit more light to the world since
+our car is done I'm going to stop here
+our car is done I'm going to stop here
+our car is done I'm going to stop here
+even though we could just keep going and
+even though we could just keep going and
+even though we could just keep going and
+keep going and keep going but just by
+keep going and keep going but just by
+keep going and keep going but just by
+adding objects changing their shape
+adding objects changing their shape
+adding objects changing their shape
+changing their size extruding parts of
+changing their size extruding parts of
+changing their size extruding parts of
+them you can do all sorts of things
+them you can do all sorts of things
+them you can do all sorts of things
+here's a sample car I made for this
+here's a sample car I made for this
+here's a sample car I made for this
+tutorial to walk you through it and I
+tutorial to walk you through it and I
+tutorial to walk you through it and I
+built a whole scene and basically if you
+built a whole scene and basically if you
+built a whole scene and basically if you
+look at this stuff this tree is just a
+look at this stuff this tree is just a
+look at this stuff this tree is just a
+cylinder I added some Loop cuts to the
+cylinder I added some Loop cuts to the
+cylinder I added some Loop cuts to the
+middle and then I scaled it and moved
+middle and then I scaled it and moved
+middle and then I scaled it and moved
+around the points a little bit that's a
+around the points a little bit that's a
+around the points a little bit that's a
+trunk the trees themselves what the heck
+trunk the trees themselves what the heck
+trunk the trees themselves what the heck
+are those if I hit shift a and go down
+are those if I hit shift a and go down
+are those if I hit shift a and go down
+here to mesh there's something called an
+here to mesh there's something called an
+here to mesh there's something called an
+icosphere this is what an icosphere
+icosphere this is what an icosphere
+icosphere this is what an icosphere
+looks like that's it I'll scale it up
+looks like that's it I'll scale it up
+looks like that's it I'll scale it up
+there we go that is what my tree is made
+there we go that is what my tree is made
+there we go that is what my tree is made
+of my rocks and everything and then I
+of my rocks and everything and then I
+of my rocks and everything and then I
+added some iOS speres in the front of my
+added some iOS speres in the front of my
+added some iOS speres in the front of my
+camera so that when we actually rendered
+camera so that when we actually rendered
+camera so that when we actually rendered
+out this scene there'd be some
+out this scene there'd be some
+out this scene there'd be some
+foreground elements some background
+foreground elements some background
+foreground elements some background
+elements I added this blue pane in the
+elements I added this blue pane in the
+elements I added this blue pane in the
+sky and I put a light on it to add like
+sky and I put a light on it to add like
+sky and I put a light on it to add like
+a little gradient in there all of this
+a little gradient in there all of this
+a little gradient in there all of this
+is dead simple but if you can do this
+is dead simple but if you can do this
+is dead simple but if you can do this
+with dead simple objects just imagine
+with dead simple objects just imagine
+with dead simple objects just imagine
+what you could do with blender when you
+what you could do with blender when you
+what you could do with blender when you
+start diving in and learning the other
+start diving in and learning the other
+start diving in and learning the other
+elements I hope this helped I tried to
+elements I hope this helped I tried to
+elements I hope this helped I tried to
+make it as simple as possible let me
+make it as simple as possible let me
+make it as simple as possible let me
+know in the comments what would make
+know in the comments what would make
+know in the comments what would make
+this easier or if this helped you at all
+this easier or if this helped you at all
+this easier or if this helped you at all
+and I'd like to thank the members and
+and I'd like to thank the members and
+and I'd like to thank the members and
+patreon supporters who make this channel
+patreon supporters who make this channel
+patreon supporters who make this channel
+possible is a bit of an experiment for
+possible is a bit of an experiment for
+possible is a bit of an experiment for
+me making more videos for this channel
+me making more videos for this channel
+me making more videos for this channel
+trying to make it work and so that
+trying to make it work and so that
+trying to make it work and so that
+support is huge also I want to shout out
+support is huge also I want to shout out
+support is huge also I want to shout out
+my course learn to draw in 60 days
+my course learn to draw in 60 days
+my course learn to draw in 60 days
+that's another way I support this
+that's another way I support this
+that's another way I support this
+channel so if you're looking to get into
+channel so if you're looking to get into
+channel so if you're looking to get into
+art and illustration that is a
+art and illustration that is a
+art and illustration that is a
+beginner's course that I would recommend
+beginner's course that I would recommend
+beginner's course that I would recommend
+there's links for that Below in the
+there's links for that Below in the
+there's links for that Below in the
+description thank you all for watching
+description thank you all for watching
+description thank you all for watching
+I'll see you in the next video

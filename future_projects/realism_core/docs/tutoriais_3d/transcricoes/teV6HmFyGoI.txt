@@ -1,0 +1,1671 @@
+in this series we'll go through all the
+steps it takes to make a character in
+blender
+in the last video we made the head this
+one will make the body
+something like what you see on screen
+ready
+let's get started let's turn on our
+template again because we're going to
+use them
+go to edit mode select these bottom
+edges
+what we're going to do right now is we
+are going to extrude the neck
+and roughly block out the body section
+here
+so we will e to extrude
+pull those down like we we're going to
+follow the sketch
+just enough so that way we can
+understand the geometry and construct it
+properly
+so let's go to the front view i want to
+make the neck wider
+so let's scale it in the x okay so you
+see i'm scaling in the x and it's
+growing from the center
+of the selection that's not what we want
+i want the middle i want to grow out
+from this point that way
+so our 3d cursor is in the middle here
+so if we go to 3d cursor
+mode we're going to scale around that
+and now if we hit scale and x
+you can see it goes out from this middle
+point
+so let's shape that okay that's good
+we're going to extrude this again let's
+go from the front this time
+e z pull this
+down to the wide part right
+here scale x
+get to around there
+check our side view scale y
+to make it wider gy to
+get this in place
+it's pretty simple just blocking it out
+you can see we're not following there at
+all
+okay don't worry about it
+we will make that later
+extrude z
+come down to here scale y oops
+x i always get my x and y confused
+g x ah did it again g y
+sorry scale y
+scale why make it a little bit wider
+here
+it's pretty good you can see when i'm um
+shaping all these things
+um it looks smoothed out that's because
+i have my
+sub d turned on you can turn it off so
+you can
+see the actual geometry you're working
+with
+okay let's extrude again hit
+z to go a little bit down
+and i think that's enough for now
+let's add our shoulder so we need to
+create a little patch here
+where we'll extrude out some geometry to
+create our deltoid
+so we do that by adding some geometry so
+let's see
+hit an edge ctrl r we will
+shape the top of the shoulder which we
+can see in the sketch
+about there that's fine
+now we need to add a cut
+where the armpit starts i think it's
+around
+there i
+see here that this rib cage
+this rib cage overlaps the arm and
+that's going to cause
+problems later on when you're animating
+or rigging
+so let's pull this in so it doesn't
+overlap
+so maybe about there
+and pull this one in a bit too
+okay i think that's all right
+and that's okay
+add some geometry here and we will
+pick our little patch for her arm
+so that's oh
+no yeah i think that's pretty good
+um just uh even though we're just
+blocking things out just to help us
+see what we're doing as we're blocking
+let's
+sculpt this a bit so we want to get this
+to be a little bit more
+square-like i think i also want to pull
+it
+forward just a little bit
+i'm not square like you i want this to
+be a little more
+circular
+so a little
+just a little bit of shaping
+okay that's good enough
+now we will see here
+yeah that feels like the right place e
+to extrude
+pull it up move this down
+we will add some geometry here ctrl r
+and we will add this here
+so this will be important because this
+loop will separate
+our arm from the body
+and this will also this is our
+pectoral muscle that goes into our
+deltoid muscle
+so so this here will be important to
+shape that deltoid which is way down
+here
+and it'll shape how it comes into the
+pectoral
+okay so that's
+good let's make this arm a little more
+arm-like so loop tools
+circle uh
+let's rotate it oh let's rotate it
+around
+the center it's own center and just
+let's turn off this um
+proportional editing and make it a
+little bit
+more square we'll scale it
+in a little bit and move it out
+a little bit i just don't want this
+overlapping
+okay so we're too far out now
+we can rotate this
+let's just get this
+more in place so now we're shaping our
+deltoid a bit
+okay
+okay that's i think that'll be enough
+um this pectoral looks
+a little bit funny so let's just pull it
+down a bit
+um when you double if i haven't already
+told you but when you double hit g
+it moves the geometry i've selected
+along
+the lines of the current mesh and it's a
+great way to just
+quickly move things around okay
+okay so we've got a pectoral geometry
+there we've got our deltoid geometry
+there
+i think we can add um let's smooth it
+out a little bit
+so sculpt mode i'm just smoothing it
+just so i can see what what's going on
+so if you hit smooth here drop this down
+to
+0.1
+and just smooth it out
+nice and smooth
+and again this is just so we can
+help ourselves make our geometry elastic
+to shape things just a touch
+you could you could easily just sit here
+and do this forever because it's
+sculpting like this is just really fun
+but um let's let's not do it too much so
+we
+so we don't waste your time
+usually uh usually i spend a lot longer
+on this
+because i'm just wasting my time
+okay back to edit mode
+okay i think this
+oops
+yeah i think that's good so the clavicle
+goes from the center
+over to the top of the shoulder so we're
+going to use our loop cut tool to add
+some geometry so
+go to edge mode ctrl r
+and so she doesn't have a clavicle on
+her back because she's not
+an alien so that doesn't work so let's
+stop our loop cut by deleting some
+geometry
+i'm gonna actually delete all this
+and blue cut okay
+now she has a human clavicle
+let's fill this up here
+and no so i want this to come over here
+so our flow is better
+and i think we need geometry here to
+round out the top of the shoulder
+so that's going to be better
+and then we will link it to the shoulder
+that
+then we just need to close this hole up
+i think we need actually we also need
+some geometry here so let's
+move this down to shape i guess the
+little
+nook behind the the clavicle the
+collarbone
+so i think that'll work
+and then let's see
+okay i think yeah i think that kind of
+works
+so pull that up that links over there
+yeah i think that's good um
+we need to shape the middle of the
+collarbones
+there's a little nook in between the two
+of them here
+so let's add some geometry in the front
+of this
+and i think yeah so this is i don't want
+to do
+that because i don't want to add too
+much i want to add more geometry to the
+face i think the face is pretty good
+so again let's delete a face
+edge mode ctrl r
+we add in some geometry
+and stop it right there and then we can
+move things down
+to shape that little nook
+yeah i think that's nice
+oops
+you tell me what happens with you guys
+but i always get my x and y
+mixed up i want to move it to the middle
+i usually hit the wrong way and
+and i say oops over and over again it's
+really irritating
+is it irritating to you
+okay so that's oh that's pretty big
+let's make this smaller
+for the neck i like to build the
+sternocleidomastoid or the neck muscle
+and i also like to have a loop coming
+through straight through the neck
+so i can build a choker or usually i'll
+3d print these models and i'll cut the
+head off and print the head separately
+so i like to have that that's just me
+but um that's how i'm going to build
+this so here we go
+so the neck muscle starts here
+and it goes up to just behind the ears
+let's delete that
+and we'll delete all the stuff in
+between
+uh delete this too
+go to edge mode and connect
+the center of the clavicle to
+behind the ear
+okay it's it's
+blender does not know what i want it's
+twisting the wrong way
+okay so we will
+extrude this
+rotate it around the z
+kind of get this to where i think it
+should be but
+still in line with this loop
+ish
+let's attach okay so we've roughly got
+we're going to need some more geometry
+up here this is not enough
+but this puts down the
+foundation for what i want and now we
+just have to close this
+all up i know i want
+this loop running through the neck
+so let's just add that
+so right now we have it and let's start
+closing up these holes
+i think we need some geometry back here
+so we've got good flex i think here also
+then let's use our f2 tool
+which i love
+okay
+okay so this probably will stretch
+poorly it's too skewed
+so let's delete that
+and we'll add
+something more like that i think that'll
+animate better
+okay that's good for that section
+let's delete this face and figure out
+how to close
+this hole up we've got a bunch down here
+and
+one up there so i don't know i don't
+know how that's going to work but let's
+just hit
+f and see what happens
+okay i've got a little triangle here
+it's probably okay but well
+it bugs me
+so maybe we can add a cut there
+ah there okay
+it this is a little bit it's a little
+bit big
+but i think we have enough geometry that
+we can just
+scooch things around
+and we should have a nice even
+flow yeah i think that's good
+i'm trying to think of how this is going
+to all bend when she's moving her arms
+up and i
+i think it'll bend okay
+okay let's close up this front of the
+neck
+so uh well that's a lot of ground to
+cover
+so let's just add in what we know we
+want so
+we'll go to edge click that
+and that close it because we know we
+want that
+i also know
+we want that loop to run
+through the neck so we can
+cut the head off or make a turtleneck
+and i think
+adding a little geometry there's
+good let's close up this big hole here
+so
+let's add a couple
+a couple edges there and i think uh
+there's an adam's apple here so i think
+if we
+get the flow to kind of come in a
+u-shape um that'll be
+good you don't typically see
+a pronounced adam's apple in woman
+but it's there so
+it's okay to use it to build
+so let's get that
+and let's see what happens if we close
+this
+ah that sucks
+okay so we will um add
+this here
+add some more geometry
+and then see what happened well that
+sucks
+okay let's add some more geometry
+get that
+that that's that okay
+can it ah it's so
+choppy i can't even see it
+let's just smooth this out a little bit
+so we can see if this is okay
+uh it's kind of
+awesome sternomatoid
+the uh sternocleidomastoid's okay
+the back of the neck's okay
+this part is okay you've got the
+choker that's okay
+it's just this middle area here i'm not
+so sure about
+um it's stretching a little bit much
+here
+okay that feels better
+yeah okay this feels better
+smooth it again
+i don't have a sketch of the back view
+but i
+did prepare this little
+image here so we can talk about strategy
+so
+we want to define the bottom of the
+deltoid
+and we want to also define the
+scapula so let's get a loop going across
+actually a loop right at the bottom of
+the deltoid and a loop
+showing the scapula so let's do that
+so it's color go to edit mode
+and edge mode and let's add
+well first let's add some geometry to
+shape our shoulder
+and then we'll add geometry to define
+the bottom of the deltoid
+and we'll add some geometry there
+because we don't have enough
+um okay i don't want to put a line
+through the face or the front
+so let's undo that and stop that loop
+cut
+by deleting a face
+and let's re-cut it
+and so now we just have to cut on the
+back
+we will delete some faces here
+and replace it with polygons that go
+around
+delete and let's
+pull these in
+go to f
+f k now we have
+this loop running around to form the
+scapula
+we have this to form the bottom of the
+deltoid
+and let's close this up
+okay that's good
+and this line can also define the bottom
+of the deltoid in the front
+and the pectorals
+so i think that's good
+okay let's hide this and let's
+make the rest of her torso area
+so we'll go to edge mode grab that and
+we'll do some extruding
+extrude z i want to make
+a loop to define the pelvis area
+so scale x pull that out
+go to side view g y
+to make that sorry scale y
+and g y okay
+extrude z so we'll go down just a bit
+we're gonna extrude some surfaces here
+and then sculpt all this to get to shape
+properly
+but let's get this roughly in place
+scale y g y
+okay then let's connect
+some edges oops
+and f let's
+cut some edges
+and scale it down
+i mean move it down
+and maybe cut it one time
+okay so we've got this geometry here and
+we're going to take a second just to
+shape it to follow the
+pelvic bone here to come down to the
+crotch
+and then we'll get a line coming around
+here
+to define i guess the i guess the upper
+inner part of the buttock and down to
+the crotch
+let's go to scope sculpt mode
+and let's get the well
+first let's go to edit mode and grab
+some
+points
+and just um
+smooth them out so right click and oh i
+think is smooth
+okay just to blend it a bit
+kind of messes up i think we're not
+following as much anymore but we'll just
+we'll just shape it back in place
+so sculpt mode
+elastic
+and we'll just pull this so now i'm
+pulling this this is the
+i guess the middle part of the butt so
+this is not the
+soft part but this is the hard part in
+between
+the butt so when we're shaping this
+from the side view we're not following
+this
+sketch we're kind of following where
+like i guess
+a bathing suit would be
+so it's not going to fall exactly it's a
+little bit
+inside
+and then this one we want to pull it to
+this so we can see it
+pull this to where the
+pelvis bone is so pull that up and
+round it up a bit and then let's check
+the front view
+front view
+so this wants to be a bit more like that
+and then this can be
+a lot more
+i always find it hard to get the pulling
+point
+this little yellow dot to go where you
+want to go
+let's pull that back in a bit
+okay that's better it's um
+so this gets narrower back here so let's
+just pull that in
+back back here gets narrower
+um
+okay so i'm done
+something like that we'll fix all this
+later again we're just
+shaping it enough so that we can see
+where to add more geometry
+okay now let's form our
+butt so
+basically we want to draw
+some geometry to create this shape here
+so let's do that so we are going to
+start
+this this but
+um a little bit higher
+up so let's
+let's do this
+let's move that
+down a bit and we'll cut this here
+and move it in a little bit and we'll
+start it right
+here nope
+start it
+here okay so
+let's kind of uh i'm looking at that red
+line
+what's a butt shaped like
+okay
+kind of like that then it kind of goes
+up
+this should also go forward
+okay then maybe one more
+scale it rotate it and then
+let's hide reference
+and let's attach this somewhere so i
+want to have a loop running all the way
+down the leg um
+so let's attach it to here
+so this way this can still continue down
+okay and then let's um
+shape this a little bit
+so that's kind of kind of pops out
+it's kind of softer here
+and this should shouldn't be an
+s curve it should be
+more even
+oh and the
+fleshy part of the butt actually sticks
+out past the middle
+where there's less fat and muscle
+so we'll pop that out a bit
+you know we can probably follow our
+sketch oh yeah okay
+so let's grab
+the button pull it out so i'm not
+leaving the middle
+i'm leaving the middle i'm just pulling
+the the fleshy part out
+okay
+let's match our front view too okay
+it's not not too bad and well
+again we're just building our geometry
+we're going to make this all look
+good we get to our artistic part where
+we sculpt everything
+it looks like an owl
+let's close up this this area here so
+let's see here
+what can we do
+i think we want to
+have a line following
+this uh upper
+edge of the buttocks so let's
+create that
+with our f2
+okay then let's
+see how we can close this up
+feels like we need more geometry
+there
+yeah i think that's okay so let's smooth
+this
+out a bit
+and we'll um we'll sculpt this later
+okay i think that's pretty good let's
+check the flow
+that's pretty good
+good good
+okay let's close up the front of her leg
+and we also need to
+think about how this is going to
+transition to the leg and bend
+and i think what i want to do is i want
+to have
+these loops go in a full circle
+around the front and we'll have that
+start
+the bottom of the leg so let's
+go to edge mode and
+and select some
+extrude scale in a little bit
+move it
+out a little bit
+and this bottom part is going to
+go into that's going to start the leg
+and this part here
+will go out
+and let's
+use the 3d cursor to
+put this line i want this line here to
+match that line
+so let's use the 3d cursor for that so
+first we will
+change to transform around the 3d cursor
+we will turn on these snaps so any
+operation we do
+snaps to in this case we have points
+you could do it edges or faces or
+volumes but i'm going to
+snap to points now when you hold
+shift and you right click drag you can
+move your 3d cursor wherever you want
+because i have the snaps turned on it
+snaps to
+any vertices so i've snapped
+there turns back on
+off now when i rotate this
+it rotates it around that point
+so it's pretty useful and hit f
+to close that up if you want to put the
+3d cursor back to the middle
+just to shift s and one and it goes back
+to the middle
+okay 3d curse is a great tool
+if you want to see a tutorial about that
+let me know
+otherwise there's tons of good tutorials
+on that
+which you can find on on the web
+so let's close this up some more
+i also want to make sure that when we
+extrude the leg
+we don't have too much geometry
+oh sorry extrude z
+so let's see how much geometry we have
+statistics
+edges we have 18. so that's a little bit
+much for this level of
+density for my mesh so let's produce
+this amount of
+edges and we will do that
+by extruding
+oops these down and
+closing that hole up whoops
+okay now how many do we have
+16 still a little bit
+much so let's
+do it again extrude and
+f f we should have
+14 yep 14. and that is okay
+okay so she looks really you know
+funny and blocky and not well done yet
+but we have enough geometry to um
+to sculpt this into shape and first i'm
+going to
+well i'll sculpt this a little bit first
+oh what's going on here
+oh i didn't i didn't close that
+okay and
+edit sculpt mode
+shape that well now that i've closed
+that i wonder if we have enough geometry
+yeah 12 12 is good
+okay so let's make this a little bit
+more round
+god i can't i can never get this to
+mouse over the point that i want
+anybody else have that problem that's
+just me
+and
+see i've got that loop
+to pull this all up there
+it's good let's see if we've got any
+twisting yeah that's good
+that's good
+yeah so i think that's looking pretty
+good
+so let's extrude our leg
+extrude z scale z zero
+g z and
+yeah so now i think
+we've got a good foundation
+for the leg
+let's add some geometry to um
+form her rib cage so i'm gonna
+do this a little differently
+i'm going to do is
+go to x-ray
+and k to cut and i'm just going to
+it's a little weird because it's i can't
+tell which is in front or in back but
+blender can tell so it only snaps to
+what's in front and i'm just going to
+roughly draw that rib cage
+and then just kind of fades out so i'm
+going to stop it there
+and then cut a few more
+and then i think the rib cages kind of
+come up a bit in the back so
+we'll just come up a bit in the back
+okay
+then we'll cut
+so this will just allow us to um
+make a little concave there
+okay
+pectoral that can define the ribs
+okay i i think this is um a good amount
+of geometry for
+the torso
+oh she needs um
+a chest so let's let's make a chest
+okay i've changed my mind we are going
+to
+build the arm more specifically
+we are going to build
+the arm so it flexes nicely at the elbow
+let's extrude this down and z
+extrude again in z and scale and z
+i made a example here
+so we want to do this two loop
+geometry that meets at the elbow
+and so we start off by making
+four loops and then an arm down here
+so let's make that so
+we will extrude
+it's one two
+three four and this will be
+the wide part of the arm and since we're
+here let's
+scale the arm down a bit
+um i don't i don't have my keyboard so i
+i don't have a full numeric pad numpad
+so i can't
+select all these easily
+so it's kind of torture
+i can't see
+okay here we go
+and this
+so let's scale it so our arm's not too
+wide
+oops
+okay now let's
+build um well let's do this too
+these look
+a little boxy
+and the back
+looks a little wide
+okay
+so now let's build our elbow
+so you can see here we've got
+um
+four rows here
+and four rows there
+and in between it's all deleted so let's
+just go and do that
+so pick
+four and four
+and delete oops delete faces
+to edge mode point mode
+and scale this
+so you can see we just made this little
+curve there
+then we'll make this middle section
+like that scale it
+down a bit scale that down a bit
+then we'll fill in these little diamond
+shapes
+f f and
+fill these all
+up and then pull these
+forward
+there and then let's smooth it out a
+little bit
+and we've got our basic geometry
+to have a nice bending elbow
+let's line this up with our sketch
+and
+get that go to front view
+oops and get the yellow
+go to front view and let's rotate this
+around our 3d cursor
+okay scale up a little bit
+now her elbow is
+in the middle of these
+and her elbow should be around there
+so let's move that
+around there okay
+and then let's just get this bottom part
+let's see scale up a little bit around
+itself
+extrude scale
+extrude and scale
+let's make this a bit bigger
+so we're just roughly getting this to
+match
+um our sketch
+so this is oh this is a little concave
+here
+so let's pull it out
+that's a little bit better
+and maybe we need one more loop here
+maybe one there
+so i think we now have enough
+basic geometry so we can
+sculpt this um this mesh to match
+our sketch and then after we get it
+sculpted
+we will um we will go and
+put in the breast
+i think i might need
+one more loop here so let's see
+yeah i think that's good
+okay it's finally time to put our
+creative hat on
+and start to sculpt this character in
+shape because now we've got our mesh
+all the way we like it so i i do try and
+you can see how some of the mesh is not
+even so
+part of the sculpting is trying to get
+your mesh even
+it's good to turn on your sub d on and
+off to
+see how it's going to look when you're
+doing your final renders
+and it's great to be able to jump into
+edit mode to model
+the way edit mode models or jumping back
+into sculpt mode to
+to model that way so it's a nice bit of
+flexibility
+that blender has
+those loops or some edges on the back
+were not
+even or straight and so it wouldn't hurt
+the model to make those straight so i
+straightened them out it just helps
+things
+later on down the road like when you're
+uving or other things
+it's also good to go back and reference
+your
+sketch in your template to make sure
+you're
+in line with it you do need to use your
+your judgment because
+sometimes the sketches are not accurate
+so
+it's kind of a back and forth you have
+it match your sketch
+then you flip into 3d and make sure
+everything looks good there
+and um somewhat of a um
+use your artistic sensibilities as you
+can see
+here the neck was a little bit concave
+in one area so i'm popping it out
+just a bit now this i've always found
+this to be a very
+relaxing almost zen like part of the
+process
+you'll see that neck was a little bit
+creased along the
+spine of the neck um
+when you use your smooth modifier when
+you use when you smooth and sculpt mode
+i notice that leaves the intersection
+between the two halves in place
+and so it it it always makes a crease
+there and so you have to go back and
+manually
+get it back in place it's a little bit
+irritating
+so here we are it seemed like the
+shoulders were a little bit too small
+and so
+we're popping it out to give it some
+more volume
+this part of the process since we're not
+totally following our
+our template it can be a little bit hard
+um if you if you don't know your anatomy
+and so um one thing that
+has helped me in the past to be able to
+do this better
+is to take figure drawing classes
+that helps a lot to just kind of get
+yourself
+used to how the human body looks
+a different way of thinking um but it
+does
+it helps it helps drawing from a live
+person you just you start to absorb
+the body and just different parts of the
+body
+another good thing to help your
+understanding of anatomy is
+to do some sculpting with clay
+so they have classes where you can
+sculpt or just doing on your own
+but that's a good way to
+kind of embed the human body in your in
+your mind and your understanding
+or you could you know get a mirror
+and look at your face if you're doing
+the face to see see how the
+your face looks or you can also um
+i mean i look at my body or my elbow a
+lot and see how
+it looks when it bends and so forth to
+to model the characters so that that
+helps too
+so somewhat of a merge between using
+your template and using your knowledge
+of anatomy
+yeah so checking here to see how it
+looks with the subdion
+just to double check myself
+one of the commenters on youtube was
+saying that
+they thought this this method of of
+creating a character was
+interesting because when they were
+sculpting
+on their machine i guess they had a
+slower machine
+like i'm using right now and the
+sculpting is
+really super you know processor
+intensive
+so this one this method is actually much
+lighter on the processor than sculpting
+which is a bonus
+this is actually a very old-school
+method of creating characters
+um because it's the the pre before this
+the sculpting part of this tutorial all
+that you know you know
+constructing it's very um mechanical
+minded
+it's it's thinking how to create the
+mesh
+efficiently and that's not it's not
+very conducive of being creative and so
+the way people model or create
+characters now is they sculpt it
+and it's a very artistic way you can get
+great effects that way
+and then you read to apologize
+after you have your character the way
+you want it and you've sculpted it
+nicely
+then you read to apologize to construct
+your your geometry so it's
+it's an extra step but it can be um
+better at you know
+truly being artistic and creating this
+is somewhat of a hybrid
+but besides because
+i've always liked this way of working
+then i i've just i just stick with it
+it works for me
+i find that if you use quads
+things tend to bend nicer you don't
+always have to use them but um
+i find that it just helps things
+stretch
+so i think we're done with our sculpting
+here she feels
+like the sketch so
+next we will give her a chest and some
+legs
+okay let's take a look here
+so i think she needs some abdominal
+muscles
+so let's grab some of these
+i to inset and okay so i don't
+see how it's coming in an island within
+one half i don't want that
+so let's turn off boundary okay that's
+pretty good and
+i want it i want it smaller so let's
+inset again it remembers the last
+setting you had so now i can
+make this as small as i want it
+let's define
+that area a bit
+so we will pull this in g
+t y just a little bit and let's see how
+this looks with our sub d
+turned on
+okay a little little
+funny but uh i think we have enough
+geometry so i'm going to
+leave that and we will sculpt it
+later see here
+this back is still too sharp
+so let's go to sculpt mode
+and hold down shift so i have
+oh this computer's so slow sorry i can't
+sculpt with this computer
+with a sub d turned on so i'm turning it
+off and now i'm going to smooth things
+out
+a bit so holding shift
+turn it back on
+let's pull that in a little bit here
+i think here butt's a little bit funny
+so i want this to flow across here and i
+think this uh
+diamond shape uh
+face is messing things up so let's
+delete that
+as usual we just delete the faces we
+don't like
+and some faces around it and then
+rebuild it like we'd like it
+so let's put that one there that one
+there and that will give us a nice flow
+and then figure out how to close this
+hole so
+just hit f a couple times
+oh that's not good so let's
+cut it
+and try f again that's good and
+that's not good
+so let's just cut it one more time
+i could cut the leg well let's see here
+okay cut the leg
+i guess 13 is not too bad but i don't
+like odd numbers
+and when you cut the leg it makes the
+whole leg have more geometry if you cut
+it right here it's only
+four more polygons so let's do that
+and i think that's going to be good
+and now we're not very even
+i don't want to move that leg here so
+let's move
+this forward
+so move that forward a bit move this
+forward a bit
+and that back of it okay
+that's pretty good
+i think we might need
+one more cut there to
+add some definition to where the butt
+creases
+let's see here
+okay so she's got a little bit of a
+crease in her butt okay
+okay so we will right
+click to put our 3d cursor shift a
+uv sphere
+segments 16 and the
+rings 14.
+scale this down
+rotate it x90
+let's go to front view and roughly line
+up
+the breast with the sketch
+so we want to make sure we don't cross
+the middle
+so let's scale this down and we want to
+try and match
+the sketch also so that's roughly
+the same size let's check the side
+okay so clearly the front and
+side sketches are not the same so let's
+just slow the difference like that
+we will use our 3d cursor for this so
+let's
+transform around the 3d cursor
+and then we will
+move the 3d cursor to the middle of the
+sphere
+so cursor to selected okay
+and then we will turn on proportional
+editing and make this
+sharp okay
+so edit mode point mode grab
+the point right in the middle that point
+right there
+okay so
+i get some some strategy first so
+you can see the sketch here the bottom
+is concave that's rounded and it goes
+into a crease
+where it meets the body the top part
+is just smooth and gradual and kind of
+flows off the body
+so we're going to try and make
+that shape with this sphere and then
+delete the back part that we don't need
+so so first we will let's see
+turn on proportional editing we have
+sharp turned on
+we will scale up in the y
+and roll our mouse wheel until we get
+somewhat of a you know
+come but a tear droppy shape
+a and scaled back down
+smaller and then grab the point again
+and rotate it in the
+x playing with this
+until we get somewhat of a
+you know con convex in the bottom and
+a little bit concave on the top
+then we will let's see let's take a look
+okay it's well it's really hard to
+evaluate
+like that because it's just a sticking
+on top there
+so we will rotate it
+until it's roughly
+until these um these loops are roughly
+parallel with the chest and we'll do the
+same thing from the bottom
+r z and get it roughly parallel
+uh sticking out way too far so let's
+pull it
+back until it's something
+like that you know
+something like that um these these are
+very hard to sculpt so
+i use the shape of the sphere and i try
+and leave it as much as possible
+i'm tweaking it just enough to get it to
+blend with the body
+okay so let's grab this go to edge mode
+so now we want to
+get all of these um let's see here
+i'm gonna move it a bit forward
+no it's too much okay so
+we want to pull these edges
+so they are just outside of the rib cage
+or the the um torso but
+i want to also use this or these
+faces to shape the the
+back part of the breast so to do that we
+need to
+pull this ring
+out side of the body so i've got that
+selected
+and i'll hit g twice well let's turn off
+proportional editing
+hit g twice and pull it out so this
+edge is just outside and then i will
+deselect
+the edges that connect to these two
+points because i know i want those
+and you know what hold on i take it back
+we're not going to do that yet because i
+want to bring
+that whole ring outside of the body
+all the way out to here but this ring
+and this ring is in the way
+so we need to move all of those outside
+the body
+first
+make sure you've got them selected and
+then double hit g
+and pull them out and delete the ones
+that are
+okay i mean unselect diesel
+deselect
+double hit g so that's
+kind of okay missed one here
+and then we will grab this row
+this is okay these this one is too close
+double hit g again and pull it out
+and do you select some and keep doing
+that
+until you have enough space for one more
+ring
+i okay that's okay
+and then double hit g again
+so i think um these are both too close
+so let's just turn on proportional
+editing
+let's turn on smooth
+and let's just cheat and move the whole
+thing just a little bit forward
+okay let's grab
+now we're back to where we started let's
+grab this one here
+these two points are okay so we'll
+deselect that one
+and that one and that one
+and move all the rest so
+double headed g and pull them out until
+that's okay that's
+maybe a bit more okay
+then double hit g and pull that again
+okay and that's pretty good let's move
+this one forward
+oops just a bit
+okay so we've now got
+this loop entirely outside the body
+and so let's select the faces we don't
+want
+x and delete faces
+l x faces
+okay so that's
+good um
+oh this point looks funny so
+when you do this technique um the middle
+gets
+the middle point gets pulled too far to
+the side so just
+double hit g and pull it you can see it
+snaps to any one of those
+lines so just make sure you're pulling
+straight
+back towards the middle almost
+the dead center okay
+so now we want to edit the body to fit
+the breast
+so we'll go here and we will
+we're going to kind of try and do is
+get these to line up if possible
+with the edges of the breast
+and then we will move them out
+so this one's okay here at this point's
+okay
+and we'll pull that out let's see
+okay something like that then we will
+grab these
+i think i need that one still this one
+is
+probably okay
+move it up
+and move that up
+maybe this goes a bit more so we're just
+getting
+basically drawing a circle with the uh
+the geometry that we currently have
+on the rib cage
+go to edge mode grab that
+that and
+this one's okay here but that point is
+not and we'll pull this down
+okay so we've got something
+like that and these are no they're
+actually kind of
+far so we can um
+get them to be a bit closer
+and it probably doesn't matter too much
+okay that's good so now we will delete
+the faces below the chest
+and this is not matching too well so
+let's see
+if we were to match them we'd see that's
+okay here
+that's going to cause some problems this
+lines up here
+that can line up here so we need maybe
+two more
+maybe two two more edges so let's add
+two
+and kind of line them up
+now we don't really need that but i
+think
+i think it's okay
+let's pull these out like we did the
+other ones so we'll grab that
+grab those unselect that
+double hit g and select that
+and we'll hit g and just pull oops
+pull these out
+and i think we need to get the point of
+this last one
+maybe these go down here
+i don't really want to add one more cut
+there i think it's too much
+so let's um
+let's dissolve that
+and then let's attach it and just see
+what we can do
+so now it will attach so
+the thing about joining you click
+joining inherits the modifiers
+of whatever you click second so if you
+click
+the breast here and shift-click the body
+it'll keep all of these modifiers if you
+reverse it
+click the body and click the breast um
+you inherit the modifiers of the breast
+which is nothing so let's see what that
+looks like
+body breast control j and
+it cuts in half and you lose all your
+smooth and everything
+if you reverse it and click the
+breast then the body and ctrl j
+then you keep all of your modifiers
+and don't have to reassign them
+okay so now we've got the breast
+attached
+let's just merge some points
+if you remember the bottom of the sketch
+the bottom of the this in the sketch the
+bottom of the breast has a crease the
+top is smooth
+so what we're going to do is
+pick the outer edge of the breast and
+then
+pick the body and then hit m
+and at first so same thing
+click shift clicked m will hit a
+to make it faster click shift click m a
+click shift click m a and keep going
+around
+a this one obviously we gotta fix it
+click click m a
+click click m a
+and then when we get more towards the
+top you
+it gets smoother and more less gradual
+so
+up here we will click the chest and the
+edge of the breast here and m a
+and move it blend it out towards the um
+the chest
+we're going to have to smooth this all
+out later
+let's just make sure we've got enough
+geometry
+and a let's move that
+more in line so we don't confuse
+ourselves
+and hey move that back over here
+okay so now we gotta close this hole on
+the side here
+so let's see here so let's
+delete that oops
+x don't dissolve delete
+the face so this face is important
+because it shapes the
+pectoral so i want to make sure i keep
+that
+so let's see here what can we do
+so let's delete these
+then merge edge mode and merge these two
+okay and then
+let's close this up does that close
+nicely
+yep
+we've got a pole here so i'm not sure if
+that's gonna
+flow nicely but um let's keep
+working and see where we end up
+so maybe we do add cut here
+ctrl r and then
+f f okay so that closes it up
+it's a little a little more than we need
+back there
+but it's not going to hurt things it
+takes a little more processor
+i'm not sure about
+this i'm not sure if that is going to
+look okay
+so let's turn on our sub d
+and
+okay it looks a little bit funny
+let's go back here and
+let's try and smooth it
+so sculpt mode hold
+shift to smooth these things down and
+just smooth it out
+this whole top you can see the sketch
+here needs to be gradual like that
+so let's just smooth it all out
+like that
+use our elastic tool that i already have
+selected and
+pull things up
+i think i'm not okay it's all right
+if you're not square to your surfaces
+that you're pulling it
+sometimes pulls it weird but i think
+it's okay
+but right now we're just pulling these
+to see if
+um we have the correct geometry
+for our body here
+so this is not to make it beautiful yet
+it's just
+to verify we've got enough so let's see
+here
+turn on our sub d
+uh
+let's roll with my mouse
+what is going on here
+is it just popping out or did i do
+something
+funny okay it's just popping i thought i
+had
+a double surface there or something but
+i guess it's just
+popping out so let's just smooth it
+like that check it again
+yes i'm not pleased with that
+i think maybe
+maybe this let's see maybe this
+wants to connect to that
+maybe that flows better to do that do
+that
+now delete these oh no let's keep this
+because this
+forms the breasts so we'll delete that
+one
+take that one
+and then how do we close this up here we
+will
+see i hit f by accident g here
+hit f
+that's no good
+like that like that
+and then maybe add more one more cut
+here
+okay that's pretty good
+then we will grab this one here merge it
+to
+that m a and then
+close this up and see if the polygons
+are nice to me and they are
+okay so let's see if this flows better
+we got this closer to the shoulder
+turn smooth on
+okay that is better
+um let's see this
+this is too round it's way too round on
+top so i need to smooth all this
+but i'm also losing my pectoral muscle
+so let's go back in and
+bump that out a bit and how we do that
+we will
+this is the top of the pectoral so let's
+pull it down
+and then pull it out
+so we get more of a
+crisp like overhang
+see here
+yeah so this way it accentuates
+that deltoid muscle
+a little better
+more more deltoid
+i mean more pectoral this is the
+deltoids here pectorals over here
+more pectoral
+let's make this match
+and bring this in a bit more
+okay so i feel like we can see the
+pectoral but we gotta smooth
+that chest all out
+so let's go back to sculpt mode
+and shift
+that over there smooth this out over
+here
+okay
+i think the nook on the shoulder is
+too far in anyway so let's just fix that
+over here
+and smooth it out
+i might have bad geometry there let me
+see here
+go to edit mode and see
+no okay maybe it's uh
+it's just too loose it's too tight so
+so let's space things out of it
+let's move this 3d cursor so
+get that out of the way
+okay i think that's okay see where's our
+sketch
+a little bit more but it's rather
+tame
+uh let's see here
+yeah it's still it's still too sharp on
+top let's knock it back some more
+soften this some more
+let's pull this up
+even more
+the whole thing needs to come down a bit
+maybe this goes up a bit
+okay that's good let's check the
+stomach here her abdominals
+look a little bit goofy
+i think we need to add a cut here so
+let's go to edge mode and add a cut
+and then we will
+scale the whole thing in towards the 3d
+cursor
+x
+let's pull some of that in
+gy like that
+and let's see here
+let's pull this whole thing needs to
+kind of coming out it needs to come in
+so let's
+pull that in let me pull it out
+here
+pull that out not that much
+and pull it in here
+my computer is really lagging here so
+it's
+messing me up
+and we don't
+she's like popping in
+in the middle so let's pull that back
+out again
+and this needs to flatten and smooth
+that's a bit better but now i screwed up
+her
+pelvis bones let's pull that back out
+again let's go into edit mode
+pull these out
+more like that
+okay something like that
+so there's some kind of crease going on
+around the chest area
+so let's fix that so i
+think what's going on if we turn on
+if you go to over oops overlays
+and face orientation okay
+so i i don't know how but when
+i merged the breasts to the body it got
+flipped
+and that's obviously not what we want so
+let's
+select these faces go to edit mode
+faces and we will
+control click i don't have my full
+keyboard
+right now so let's go to otherwise you
+could hit
+plus so we will go to select
+m m
+and get all of these faces
+okay so according to my calculations
+if we go to mesh duplicate split merge
+bisect
+ah normals and flip it
+should fix it let's see
+oh i can't see
+okay that was it great okay so let's
+build a leg so let's turn this off
+go to edit mode and edge mode and grab
+that
+so i'll just kind of blaze through it
+here
+like that
+front view
+to say here
+okay we want to build a bendable knee
+like we did for the elbow so let's
+extrude one more time to get above
+the knee
+okay like that
+let's check our side view
+come in a bit and now we will
+make our geometry for our knees remember
+there are four
+of four loops and that's what we build
+the knee with so we will extrude
+one extrude
+i think that should further extrude
+here scaled in a bit
+scaled wider a bit
+okay extrude another one
+here it's kind of like the middle of the
+knee
+come in a bit check the side
+um i think since this whole knee is
+bent forward i'm going to i'm going to
+rotate this
+so it's parallel with that
+okay let's go to the front view again
+it's one two three third one here
+oops
+and then one more for the knee
+extrude like something like
+that i think it comes in a bit
+and back a bit scaled wider
+and then we will extrude down
+to make the calf
+okay let's just go all the way here so
+let's just make this
+check our side view so if i had my full
+keyboard
+i could just hit hotkeys and switch back
+and forth
+but i don't so we are doing this very
+painfully using the gui
+just like that horrible
+okay one more
+rotate the bit scaled in a bit
+and check our side g y
+scale y
+and i think
+scale this a bit move it back
+and this one needs to scale down
+okay so we'll we'll fix the rest later
+let's build our knee
+so we grab oops face mode grab
+four faces on either side of the center
+line of our leg or knee x
+faces hedge mode and
+merg edge mode and merge
+control r and get three
+in here oh sorry
+f and then ctrl r and get three in there
+scale it in some
+and then grab just the middle
+what
+okay scale it in more
+and go to point mode
+f f edge mode
+f f f and
+that point again grab these two
+pull that back and we have a working
+knee
+let's go to sculpt mode
+and smooth it out a little bit here
+so shift and just smooth it out
+maybe not that much
+and then let's see here
+i think we need to
+pull it in a bit back here
+check the front our knee looks
+a little bit small so let's
+pull it out a bit knees are
+you know wider than elbows so let's
+widen that up
+and i think that's
+oops i think that's going to be
+enough for now um well um later on down
+the road we'll
+fix all this stuff and sculpt it to make
+it
+all look perfect
+let's check this out and see
+if we have
+um all the uh
+geometry
+okay so that's it for this video uh next
+up we will do the hands and the feet
+thank you so much for watching and if
+you want to see more content like this
+please let me know in the comments below
+subscribe or even better yet support me
+on patreon
+thank you bye

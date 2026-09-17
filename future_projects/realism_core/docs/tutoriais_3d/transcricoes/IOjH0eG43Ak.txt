@@ -1,0 +1,4830 @@
+rigify is a free plugin that comes with
+blender and in this video we'll learn to
+rig an entire character including the
+body the face and long hair
+this is a part of the complete character
+tutorial series so if you've been
+following along you have a character
+that looks something like this
+if you haven't been following along
+you'll need a humanoid character mesh
+with eyes and hair that are separate
+pieces
+turbosquids cd trader or deviantart have
+a bunch of free models but if you really
+want to use this mesh you can support me
+on patreon and pick it up
+these are the steps we'll go through in
+this video so let's get started with
+preparing the mesh
+delete anything that's not part of your
+character but keep the camera and the
+lights
+for those of you that did the shoe
+tutorial this will be a little section
+just for you
+everybody else just skip it
+so let's grab our
+little leg section here this is the leg
+from
+the shoe tutorial you can copy and paste
+it into
+your main character file
+and then go and delete the mirror
+we've got the shoe here let's drag this
+up here and apply i like to collapse all
+of my modifiers as much as possible
+except my sub d's
+sorry grab the new layer you can see the
+new leg goes up this tall so grab our
+old mesh
+go to face mode
+and grab the mesh below our new leg
+and x
+and delete
+then grab the opposite side
+and go to mesh
+separate selection
+then exit out of edit mode
+grab our old uh grab our new leg grab
+our old leg
+ctrl j to join it
+then go back into edit mode go to vertex
+mode
+grab our new leg
+hit n to open up this
+tools panel
+go to options
+click topology mirror
+and then if you look here you can see
+that the old leg doesn't match the shoe
+okay
+if we hit turn off x-ray
+if we hit
+g
+and just click it without moving the
+mouse you can see that the old leg
+matched our new leg
+okay
+and then
+grab our legs now
+grab our main body ctrl j
+go to edit mode
+x-ray mode
+grab the where we cut the legs off
+hit
+m to merge it and go by distance
+okay so now we are
+we have one complete mesh and our feet
+match our shoes
+when i'm preparing a mesh for rigging i
+like to
+reset the scale for everything set the
+origin point to the world center and
+delete as many modifiers as i can so
+let's go and
+do that for everything here
+so we'll grab our foot
+and we know this is already symmetrical
+because we
+delete the mirror
+the origin point looks like it's at the
+zero
+so that should be fine
+and we can check the scale here and so
+the scale is set to one so that's fine
+check the body same thing so the origin
+point is not at the world center
+so to do that we can use the 3d cursor
+so go and hit shift s
+and
+1 on the keyboard so you bring this 3d
+cursor to the world center then go to
+object set origin
+origin to 3d cursor so now that's at the
+world center
+scale is 1 so that's fine
+before the body grab the body here okay
+so the origin is not at the world center
+so object
+set origin
+origin to a 3d cursor and the scale is
+not set correctly so hit ctrl a
+apply scale and this should reset to
+zero you could you could actually do all
+transforms
+and that does the same thing because
+everything else is already zeroed out
+let's go through all the face parts here
+let's hide the hair temporarily
+okay so let's grab our eyelashes here
+and we'll go over here and
+number pad period to find where we
+saved it we can grab
+all of these
+and then ctrl j and join it
+and then let's do the same thing for the
+eyelashes
+lashes here
+ctrl j
+let's check it here so our origin is not
+at the right place
+rotation is zero scale is one and i said
+zero but i meant to say one so scale one
+that's all good
+here
+origin is not good rotation's zero scale
+is one so that's all good
+so let's grab these two
+and go down here
+and object set origin origin to 3d
+cursor
+and now
+it should be good
+for both of those
+locations back to zero
+locations back to zero so that's good
+let's do the same thing for the teeth
+let's go and hide the body temporarily
+grab that and scales at one rotation
+zero
+location so the origin is way up here
+object set origin origin the 3d cursor
+that is zero okay let's bring our body
+back
+okay so let's uh let's actually hide the
+body again
+so for the eyes we're going to do it
+differently we want to have the origin
+in the very center of the eyes
+and
+so right now they look like they're in a
+center but we're going to show you how
+to do that just in case it's not
+so let's see here
+okay
+so if we grab this
+eyeball go to edit mode and a
+shift s
+and cursor to selected that's a good way
+to get
+your 3d cursor in the middle of an
+object however since we cut off the
+front of the eye this cursor is not in
+the middle
+it is in the middle from the front
+but not from the side so how do we fix
+that so let's just go to
+edit
+object mode
+shift
+shift a
+let's go to mesh and add say a
+sphere
+let's go to view and do wireframe
+okay let's go to the side view here
+let's scale this down
+like that
+this is
+kind of hacky
+but um i think it should work
+so hit g and then y and pull this back
+and keep going until
+this origin is right over
+the center of
+our whoops our eyeball
+okay so that looks pretty good
+let's check it from the front
+and that looks pretty good
+and then shift s
+and cursor to selected
+and now the cursor should be
+right in the middle of
+this new sphere that we made but that's
+also in the middle of
+our i
+so that's good so now we can get rid of
+this
+x and delete
+then we can grab our i
+then go to object
+set origin
+to 3d cursor and then
+now that's centered it was already
+centered but that's how to get it in the
+center
+okay so then
+i just brought back the outer layer
+object set origin origin to 3d cursor
+okay and then to
+assuming let's pretend these eyes
+weren't um
+centered like that so let's select them
+delete
+delete
+you can grab these two here shift d to
+duplicate
+then
+drop it
+with the escape key
+and then i don't know why i always do
+this but i always do this i just type a
+negative here and it pops it over
+and i type a negative there
+and pop it over
+and then we can change this to
+right
+and right
+okay so the eyes
+have their origins in the middle
+so that's all good let's bring our body
+back
+let's do the hair now
+so for the hair let's just apply all the
+modifiers to it so let's go over here
+curve and apply
+mirror
+apply we'll leave our sub d and let's
+just
+hide that so we know we finished it
+so i'm gonna go through and just do the
+same thing for all the pieces of hair
+okay now that's all done
+let's go and bring all of our
+hair pieces back
+and down here
+then let's delete all these curves
+because we no longer need them
+this is also a good time to make any
+last tweaks to your mesh if you don't
+like something so
+i'm gonna look at this mesh here and i
+think her head is actually a little bit
+too big it's
+a cartoony look but i think it's just a
+bit too much so let's go and
+edit this and so make any tweaks that
+you feel like you want to do
+i'm just going to really quickly modify
+this
+head here
+so i'm grabbing some
+edges here so i can shift uh snap my 3d
+cursor
+to it
+i'm going to scale it the whole head to
+this point
+and i'm also going to scale the hair to
+it actually i'll do it separately
+okay then i'm going to grab
+all of this let's
+hide that
+hide our eyes
+grab all that
+edit mode
+x-ray mode
+vertex mode let's grab
+all of that
+and select that
+i'm going to scale the head down just a
+bit more
+too much
+i think like that still still cartoony
+but better
+okay
+then the eyes
+it's hard to get the eyes to line up
+right
+actually sit further into the head than
+you kind of usually think
+let's grab the hair
+let's lock
+that
+okay grab the hair
+and scale this whole thing in let's
+look and see where we can
+line things up logically i think this is
+where the hair comes out
+top of the forehead so let's scale it
+down
+so
+let's re-check our
+transforms here
+body should be fine because we modified
+the mesh not the
+in the mesh mode or the edit mode not
+the object mode so that should be okay
+which it is
+the eyes should be messed up
+and the
+hair should be messed up
+so let's go and fix that again so it's
+kind of a pain
+ctrl a and scale
+actually let's do this grab all those
+ctrl a and scale
+and now
+i'm checking these here and they should
+all be okay
+which they are
+the hair
+should be messed up
+let's just grab all these
+they should all be messed up
+control a and scale
+okay those are all probably good we need
+to also set the 3d cursor for these i
+think we
+i don't think we ever did that
+so let's grab all of our
+hair here
+go to shift s and one to bring our 3d
+cursor to the
+world origin and then object
+set origin
+origin to 3d cursor
+and now
+the origins down there and we should
+have zeros for all of our locations
+great so we've got zero zero and one for
+scale
+so our
+hair is all set
+and zeroed out our heads a bit smaller i
+think that looks nicer
+i'm just checking to see if there's
+anything anything else i want to tweak
+i think maybe her wrists are a bit
+thick here let's just tweak that in
+i've got symmetry turned on
+let's pull it in just a tiny bit
+okay
+we're all zeroed out and ready to uh
+start rigging
+let's install the breakify plugin but
+make sure you're using anywhere in the
+2.9 should be fine i'm running 2.935
+and go to edit and preferences and
+add-ons right here click on this search
+bar here and type in rig
+and you should see rigify right here
+check that so it's turned on
+like that
+then go to shift a
+armature
+and if you see basic
+and basic humanoid and quadruped
+and
+meta rig that's how you know it's
+working
+one more part about setup that i forgot
+to mention was the scale so make sure
+you're scaling to what you want it to be
+blender default uses meters that's what
+i use and so she's standing if you grab
+the body
+you can see how tall she is she's about
+1.52 meters tall so that's about five
+five feet tall
+so that's appropriate
+for how i envision this character being
+if wherever you're going to use this
+character has a different scale just
+make sure that
+the height matches to what scale you're
+going to use
+let's now
+make the meta rig
+so we're going to do is
+make a meta rig which is basically a
+template for rigify to make the actual
+rig
+and we you keep the meta rig so that way
+if you mess up you can change it and
+then generate a new rig
+okay so let's go and
+get our view set up we'll hide the
+things that we don't need
+i'm just going to do the body for now
+let's turn off wireframe make sure x-ray
+is turned on
+and let's hide these
+things because they're getting it away
+so just drag that there and then
+reopen it
+like that
+and then n
+t
+t
+great let's go to side view here
+front view there
+and then let's build this meta rig
+okay let's make sure our 3d cursor is at
+the world zero shift s and one
+then shift a to add go to armature and
+go to meadow rig
+and then scale this down we're moving
+towards our 3d cursor
+so scale this down until the shoulders
+roughly line up
+and then what we're going to do is go to
+edit mode and just
+move these bones around until
+they match our character
+so let's go to edit mode here
+and one thing i do want to point out is
+when you're moving these bones you kind
+of have to be careful about this
+so if you grab a bone
+and then hit g to move
+you'll see
+right here
+the bones separate
+it doesn't do that for all the bones but
+for some of the bones it does do that
+and that will break the
+when brigified generates the rig that
+will break things so make sure that you
+don't just pick bones to move them make
+sure you drag select
+over
+kind of like focus on these joints so
+when you're dragging across some bones
+make sure you you go across all of those
+joints and then hit g to move
+and then everything stays together so
+just keep that in mind
+okay so let's
+get this pelvis
+lined up correctly
+so let's move this up here like
+that
+and let's turn mirror on so you only
+have to work with one side
+s
+x
+g
+z
+so those kind of go where the hip bones
+are
+these pivots
+i like to bring them further down i
+think this is kind of like where if you
+feel you're you're on your hip bones on
+your
+body you can kind of tell where the
+pivots are or you can look at anatomy
+drawings and see where the pivots are
+this is roughly where they are
+i have found that if you
+make this go
+down a bit further south
+it just makes
+rigging here a little bit easier but
+then it looks a little bit less
+realistic
+okay so that's in place there
+let's get these legs in place
+okay so let's
+see here
+let's grab our knee
+and zoom in
+and pull that up so it's roughly center
+mass
+grab our foot drag that back g
+y
+let's pull this north of it
+g
+z g y
+so it's back there
+one thing to keep in mind for the legs
+you want to have this leg bent forward
+so something like that
+if it's
+perfectly straight
+when you
+animate your character it might bend
+backwards like a chicken leg you don't
+want that so just make sure this is
+forward so we'll put just a bit forward
+let's line these up here so let's put
+this
+this should be at the back of the shoe
+our shoe is basically the size of our
+foot
+um g y
+like that
+and in front it should be as wide as the
+shoe
+so
+g x
+and g x like that let's also do the toes
+oops don't click
+drag
+it's so easy to click it by accident
+this actually works okay because it's
+connected there but some of the bones
+aren't connected so
+so make sure you drag across don't click
+and then
+g
+y
+and just get this roughly
+center of mass where it kind of
+pull that back a bit there okay that's
+good
+let's go to the front view here
+so the knees are pretty far out
+that's not really great
+i find sometimes the legs bend funny
+when this leg is not straight
+from the front
+so what we're going to do is we're going
+to grab that and set a 3d cursor shift
+sn2
+grab these two
+we're just going to rotate this in just
+a bit
+and then we're going to leave
+the knee where it is because it it only
+pivots in one direction anyway so it
+should be okay it might mess up the
+weight painting a bit but you can fix
+that
+if you pull this in
+i've found that sometimes the legs bend
+a little bit funny so i'm going to leave
+that straight
+you could go and take your mesh and bend
+it outwards but i feel like that's going
+to be changing the character
+of this mesh so we're going to leave
+that
+but uh if
+if you can change the leg a bit you
+could do that too
+let's get our torso in place here so
+let's go up here
+and let's actually
+hide
+the
+arm
+that's going to get in the way
+and it won't matter
+you know how we're talking about how you
+don't click you have to click and drag
+it won't matter because the arm is
+always just disconnected anyway so we
+can
+hide that
+let's
+go and get this out of the way actually
+let's hide these two
+okay so let's get this taurus one place
+so let's grab the whole head
+and move this
+base of the neck to the middle of the
+mesh
+like that
+and we'll do the head later but let's
+get this
+second bone in place
+and then
+the base of the whole head let's get
+that in place too
+like that okay so we'll we'll deal with
+all this later
+let's get the
+chest
+so you can see it's hard to see you can
+see the outline for the
+main mass of the torso
+so get this
+bone in the middle of that
+and
+this top bone i'd like to make it a
+little bit longer
+the pelvis bone also let's get that in
+the middle and i like that to be a bit
+longer
+and these two bones it just kind of
+blend between
+okay i think this might want to come
+back
+just a bit
+maybe that one too
+if your
+character has
+breasts you can have them
+to be animatable or
+whatever so you can get that in place
+and then let's alt h to bring the arms
+back
+let's get this
+bone here in place here
+so g y
+sometimes wireframe is easier to see
+things
+g y
+g z g
+y
+g z okay that's pretty good
+let's grab
+the arm
+let's move this
+inwards
+to x and let's get this
+bone here in the center of the shoulder
+something like that
+let's see it from the side
+it needs to go forward
+like that
+that feels
+pretty much in the center of the
+shoulder
+and then let's move the arm in place
+let's grab this
+shift s and 2
+and grab
+all of that
+and rotate that down
+let's roughly line up the wrist
+g and pull that up and we'll do the
+fingers later
+let's just get the main hand bone this
+one here in place
+the legs are making it hard to see so we
+can hide these for now
+hide hide grab our hand
+guy and let's get this bone right in the
+middle of the wrist
+okay
+and then this
+primary bone there let's make sure it
+just feels like it's right in the middle
+and that feels okay
+let me pull it back a bit oops
+shift s2 grab that again
+rotate it back just a bit
+okay let's get the
+elbow bone in place
+like that
+and let's see here does it look like
+it's all in the middle
+yep that feels okay
+the arms should be bent also just like
+the legs are
+so you can see here there's a slight
+bend so that's okay
+and this bone here should be in the
+middle of the shoulder which is good and
+this should be roughly following
+the collar bone
+so maybe let's pull that up a bit oops
+okay so let's do the
+fingers here so
+these are pretty tedious
+because it's the same thing over and
+over again
+so let's go and do that
+so i'll show you how to do one finger
+and then i'll just kind of like burn
+through the rest of them so for the
+fingers grab the whole finger here
+and then
+just move
+it in place so this first bone
+is where the
+finger bends
+which is
+inside this area
+so something like that
+let's actually
+put that back
+so make sure
+that bone also is in center of mass
+something like that
+let's grab these here and make sure this
+bone here that joint is in the center of
+mass it's unhide and select that
+which it's not
+so um there's a little trick you can do
+it's a little bit of a hassle but
+sometimes it kind of helps you can
+adjust your clip
+so this is very low
+oops
+0.25
+0.29
+so you can see
+i'm cutting off the back end of this uh
+this
+object
+so it hides all of the
+other bones here and it makes it a
+little bit easier to work with
+but it's also really difficult to work
+with because now if you zoom in or out
+too far you you lose everything so
+try it
+you know see if you like it if you don't
+then just put this back to a thousand
+okay where are we we're getting this
+into the center of mass
+which looks like it's
+about
+there
+so that's kind of where the finger
+starts bending
+then grab that shift sn2 to drop your 3d
+cursor
+then drag your whole finger
+and rotate it
+in place
+something to keep in mind is that it's
+good to have the fingers you see how the
+bones have an actual um
+curve to it
+try and get that to match your mesh
+so i'm going to hit r twice to pull that
+over here
+and then
+i'm just trying
+double r's and
+just the one r
+until that roughly lines up
+and i think that curve feels like it's
+the same
+then go and move these bones so let's
+grab that and that
+and then hit g okay let's grab this guy
+here
+remove that
+grab that
+and move that
+so let's just check our bend for our
+fingers
+to turn off
+the wire frame
+it doesn't look like it totally matches
+so let's grab that here
+looks like it wants to pull out a bit
+and that looks pretty good
+okay so now that we have that one finger
+done
+that's h to hide it
+and we'll do the same thing for the rest
+of the fingers
+and let's do the thumb here
+hmm
+okay so i think that's
+about it
+let's unhide that
+okay so now we can work on the face
+let's put this back to normal here
+before we put work into lining up the
+face let's just check our rig to make
+sure it works
+so grab our rig
+hit n and let's check the scale scale is
+not good so let's
+control a and apply the scale
+that's good that's one zero and zero
+okay
+good
+and
+grab our rig go down to
+this object properties object data
+properties and click generate rig
+and if it doesn't give us an error we're
+good to go
+okay so it's working let's just control
+z that
+and let's go and
+lay out our face
+it's actually probably a good idea to
+save it right now because we know it's
+all working
+go and turn
+x-ray off here and turn
+off our wireframe let's go to edit mode
+and we've got symmetry turned on
+so you just want to line up just like
+before line up all of these bones
+to match
+our um our face let's
+also
+hide
+these
+because we're going to keep grabbing
+them by accident so let's go and grab
+grab that shift grab that and shift grab
+these guys here
+and hide
+let's line up the ears
+never actually
+done anything with the ears
+gx let's just line it up
+okay
+let's get these out of the way
+let's make sure
+okay
+hide
+okay let's do the face
+now let's do the tongue two
+i'm trying to do these
+parts that'll get in the way
+first
+so it's hard to see but this tongue here
+hopefully model has a tongue
+for speaking
+let's just grab that grab that grab that
+and grab that
+and i think that's in place hide that
+the teeth bones let's grab those two so
+if you don't know what bone you're
+grabbing you can click on it
+up here you should see
+what it's called this is the teeth bone
+now i know i said don't click but these
+aren't actually connected to anything
+else so it's okay
+and then let's
+can't see the teeth here we go
+we're rotating around this 3d cursor so
+you can either
+drop a cursor or change this to
+bounding box center
+and just line that up with the teeth
+and hide that
+okay so now all we've got are the main
+face bones
+so let's go and line all those up so
+make sure we're dragging across our
+bones here
+and
+let's also grab
+this one and
+yeah that and g z and pull it down
+let's grab that guy there too
+let's grab this two
+g z
+so when you're placing these bones for
+the lips
+let's turn on the x-ray you want to get
+let's see here
+so you want to get
+the
+joint
+kind of like
+right in the middle of the lip here
+let's see here
+so you want to get that joint
+right in the middle of this mass
+and i like to have it like just behind
+the surface
+so let's go and do that
+here
+let's pull it back
+so here this is the circle
+and this is the mass let's put it like
+right there
+let's do the same thing for the bottom
+it's kind of like right
+kind of like right there
+okay that looks pretty good maybe a
+little bit lower
+here
+okay like that
+then let's do the same thing for these
+let's actually make sure the front is
+lined up right
+yeah let's
+adjust the front first
+g
+x let's go to x-ray
+so it's hard to see here i'm trying to
+get this corner
+to the corner of the mouth
+so it's like right here so let's just
+drop a 3d cursor
+so get this right there
+okay like that and then
+these need to line up
+with the shape of this here
+let's get that there
+get that there
+and that should be pretty good
+let's make sure we're symmetrical
+and then let's line up
+these from the side here
+okay so you can see we're a little bit
+inside
+so let's pull it out
+g x
+g
+y so it's going forward
+i think that's pretty good
+same thing here g y
+that's going forward
+so the reason why i'm only going i'm
+hitting guys it only goes forward and
+backwards
+because we know that from the front
+these are all lined up properly so now
+we just want to pull these
+out until
+they're just behind the surface
+something like that if you can't see it
+you can do this too
+okay
+then let's grab this
+guy
+okay
+something like that
+let's get this chin in place
+like that
+let's get our jaw in place here so it's
+like that
+let's grab this
+and so so for the jaw
+you want this bone here to be kind of
+where you you think the jaw would pivot
+so i think that's like
+right here
+so
+get that there
+that up a bit
+get that here and
+let's get that
+around there so that's pretty good
+let's check the front also
+so let's pull this in
+gx
+let's pull this one
+oops
+back a bit
+there we go
+and this one should go in
+a bit more also
+this one should go
+out
+there we go
+okay let's get this one in place here
+let's actually get the eyes in place
+let's just grab over
+all of
+that
+let's line up the eyes g
+z
+roughly like that
+from the side g
+y
+so i'm kind of looking at these eyelids
+and trying to line it up with these
+eyelids
+roughly like that
+let's get these eyebrows
+roughly matching our eyebrows
+and these bones should be below the
+hairline
+so let's pull this down here
+like
+something like that
+okay
+and let's check these eyebrow bones here
+and they look pretty good let's get this
+nose bone in place
+so it's fairly self-explanatory you're
+just like lining up
+all these joints with your mesh
+nostril here
+okay
+pull that in a bit
+okay
+and this needs to come out
+kind of like a
+this wants to make somewhat of a
+mask
+around the eye
+i want to make sure i didn't
+move one of those bones by accident i
+think it's okay
+i think moves this one a bit further
+okay
+let's do the eyes
+okay let's go to the front view here
+these eyelashes might be getting in the
+way actually so let's hide these front
+view grab our
+meta rig
+and let's go to x-ray let's grab these
+here actually let's hide some bones to
+getting it away
+hide those that hide that like that
+okay it's good enough
+and then let's grab these
+go to solid mode
+g
+x
+pull it out let's go to the side view
+here let's pull these down towards the
+corner of our eye so
+this one right here should be in the
+corner
+and this one here should be
+where we want the
+um the so the eye folds
+and so this wants to be right where that
+fold is so this part
+anything above this
+won't move
+anything below it will
+move closed when the eye closes so let's
+grab these here and pull that up
+if possible when you're positioning
+these um all these bones possible try
+and keep
+these oops
+these all lined up in a straight line
+it
+makes things to form a little bit nicer
+but it doesn't always work with your
+geometry so
+but if possible do that let's pull this
+up here
+that's pretty good let's pull that
+forward
+it's like here
+i'd like to have this lined up with
+there but the eyes
+are shaped just a little bit differently
+so it doesn't quite work
+so you can see that
+we're chopping through this area here
+so this is pretty big but that's pretty
+small they should kind of all be equal
+so we're going to make that more equal
+even though it's not lining up with this
+perfectly
+we can actually pull that down a bit
+so that's a bit better let's pull this
+down a bit over here
+and i guess that's pretty close
+we can kind of line that up
+let's check our side view here
+i think this can come further back
+so just like the lips
+these uh
+joints want to be
+kind of in the center of this little
+mass but just inside the surface
+pull them all in
+like that
+this one
+goes in a bit
+oops
+gy and pull that back just a bit
+gy and pull that back a bit it
+makes this go north of it g z
+okay i think that's pretty good
+let's work on this one here
+guy
+g y
+okay i think that's pretty good
+let's get our eye bones in place
+object mode grab our body and hit h to
+hide it
+and then grab our
+i here
+and we've got our origin in the center
+of this
+i sphere so let's hit shift s and
+and then let's go back into our
+meta rig and go to edit mode
+and x-ray
+we'll grab this eye here
+and go to shift s and eight so
+shift s and two
+moves the cursor to
+the center of what you have selected
+which is what we just did
+shift s and eight moves it moves the
+selection that you have to the cursor
+so that snapped
+if you can see that that snapped
+this
+selection to this cursor
+so shift s and eight
+so that's good but now our eye bone is
+not straight we don't want that
+so let's grab this one
+shift s and eight
+now it's
+invisible
+then hit g and y and just pull that
+forward
+until it
+hits roughly the front of that eye
+okay now that's perfectly lined up which
+is good and let's bring back our
+mesh
+and
+alt h
+object button so that should be
+that should be everything
+just go into um
+x-ray and just
+check to make sure
+everything is
+where you want them to be
+and you can always tweak this later
+you can blow away your rig and just redo
+it you might have to do it a couple
+times
+to make sure everything deforms nicely
+but what's nice is that
+since we have this meta rig this
+template
+saved
+then you can always go back to it and
+tweak it
+and then regenerate your rig but i think
+that is
+our meta rig
+and then you can test it too so if you
+go to object data properties
+and just click to knit rig
+then it should generate the rig
+great it's working
+let's undo that
+this next trick is a better way to rig
+the eyes and the teeth i learned this
+from cg dive so there's a link below if
+you want to see a much better video on
+how to do this but for this video i'll
+show you the basics of how to do it
+okay let's uh
+hide everything else
+go to edit mode grab our face zoom in
+so what you want to do is grab the eyes
+and grab the teeth bones
+that's control i and h
+okay grab the eyes and a teeth bone
+shift d to duplicate
+and transform around
+individual origins
+and scale this a little bit bigger
+let's parent the new bones to the
+originals so we'll grab
+the copy
+shift click the original control p and
+keep offset
+and do that for the rest ctrl p keep
+offset make sure mirror is turned off
+click
+shift click control p keep offset and
+click shift click control p keep offset
+let's go to pose mode here
+object mode pose mode
+and let's just test it let's grab the
+original and when you rotate it
+if you see here we have the original
+selected and you rotate it the copy
+should move with it okay so that's good
+so let's go and hide these guys again
+ctrl i
+h
+let's go and click each of our new bones
+we'll go to the bone properties and go
+down to the rigify
+type
+and do the basic super copy
+and then turn off control so this makes
+each of these bones a bone that you can
+use for weight painting which is what we
+want
+same thing here
+let's turn all these things off
+rigify type basic super copy
+turn off control
+and last one
+let's check it to make sure that worked
+so alt h
+exit pose mode grab our rig
+then go to
+object data properties and generate rig
+then go to
+this layer here
+this has all the deformation bones
+let's hide our meta rig
+okay so you can see these
+four gray bones are the ones that we
+just added
+and these are all our new deformation
+bones you can see
+it's the uh teeth with a zeros or one at
+the end that's what we just made
+and if you look at the properties here
+you can see it's at the deform bone so
+we can use these for whey painting
+normally
+okay so let's
+exit pose mode and control z until we
+get rid of our rig
+ctrl z
+okay
+okay let's bring back
+our body go to solid mode let's go and
+add the hair in so let's turn our hair
+back on
+so we're going to add
+bones strands of bones kind of like the
+arm
+we'll add strands of bones to control
+the hair
+it'd be too much work to have one bone
+for each hair strand so you kind of
+generalize
+so
+usually i like to add
+five bones so we'll have
+one bone strand to
+control the front edge of the hair
+one to control the very center
+and then two to fill up the in between
+for this example we're just going to do
+three strands because it's a fairly
+simple hair
+and
+it's tedious to go through it so we'll
+do three for this for this tutorial
+okay so let's grab our mesh here
+go to edit mode and then go to
+the bone tools here
+and then let's go to
+oops so these are different types of
+bones you can add
+we just use the basic copy chain but
+what we're going to use for this is the
+these are just different types of bones
+you can add
+so we're going to add the
+tail
+and add sample and okay there it goes
+and we can move this over here like that
+we are rotating around individual let's
+do bounding box center rotate that
+and let's line it up to where we want
+the hair to start moving from so
+i think
+all up here the hair is going to stay
+where it is
+so kind of around here on the back at
+least it's going to start moving
+so let's start the bone right there
+and then let's
+add as many bones as we want to control
+it the more bones you have the more
+detailed control you have but then the
+more the heavier it gets
+so
+do what you like
+i usually have the bones a bit bigger on
+the top
+and then they get kind of smaller as you
+go down so let's grab this here e to
+extrude
+and that's probably print plenty
+also since this is like one large
+mass
+you don't want to have the hair sticking
+on the very outside so
+push it into the middle of the mask
+that's moving so for the hair up here
+it's actually very thin because the
+scalp is right there
+so this is actually okay
+then over here start to push it in a bit
+towards the center of mass
+but this since the mass is so thin down
+here this should actually be there
+so
+something like that we're still
+more biased towards the outside but it's
+somewhat pushed in
+okay
+and then let's name this
+so i'll grab the whole thing hit ctrl f2
+this is the name
+batch name command here so go to
+bones here to rename the bones
+and then go to
+set name click new
+and name this hair
+and then click ok
+then if you click through this you'll
+see the name up here so it's hair
+hair one two three four five six
+okay so that's our first strand of hair
+oh let's also make the parent so let's
+grab the top hair here
+it's actually um
+unhide
+and
+we're going to parent this bone to the
+hair
+to the head
+so this is
+spine006 you can actually just
+click here and grab that and copy it
+and grab our hair bone click our bone
+tools go to relations
+parent and then control v
+spine spine006
+so now we've got the parent set
+so that's good
+by the way i learned this from lollipop
+man he's got a youtube channel so
+definitely
+check him out for lots of rigging
+tutorials the link is in the description
+below
+let's just check this to make sure it's
+working
+so grab our
+object mode grab our rig
+generate you should see control bones
+appear controls appear over here
+okay that looks good
+let's control z that
+go back into edit mode
+grab our hair
+and let's add some more strands
+so grab this shift d
+drop that back
+let's
+put our 3d cursor into the world center
+so shift sn1
+then r and 45
+let's rotate around the 3d cursor
+r and 45
+let's bring back our hair and
+kind of line this up where we want to be
+so let's see here
+i think we want to have
+this hair
+starting right around
+here
+usually i'd have one strand here and
+then
+one
+in the middle or two in the middle and
+then one in the back but let's
+go quicker and just go something like
+that
+yeah i think that'll be pretty good
+and then let's
+let's see let's
+control i to select everything else and
+hit h to hide
+go to x-ray mode
+let's move these in place
+so similar to how we kept the eyes
+the eye joints in line
+try and keep the hair joints in line so
+instead of just free moving
+to g and y to keep this bone in line
+with the hair over here it just makes it
+a little bit cleaner you don't have to
+do that but
+it just helps a little bit
+when the animators are
+thinking about how to animate these
+things
+so it's nice to have but you don't have
+to do
+and it let's
+get this in shape here so let's see here
+g
+x let's pull that in a bit
+let's see here
+is that in deep enough i think that's
+okay
+okay so now let's grab our hair bones
+ctrl f2
+and we will set a new name
+and hit plus here
+and we will
+set a new name again
+and do a suffix
+at the end of the name and call this dot
+left
+okay
+so we need to do this so we can mirror
+the hair to the other side
+actually let's not do this yet
+first let's do this we will shift d
+then
+g
+over here
+and we will
+armature
+just leave it like that
+okay
+so now we'll do this
+we will
+control
+f2
+set name
+hair plus we will add the
+suffix
+dot
+left
+and okay
+so this should be hair
+left one two three and it should have a
+dot l so that's good
+let's do the same thing here ctrl f2
+dot
+right
+okay
+and then go and grab this and armature
+and symmetrize
+and now our hair is mirrored
+just make sure our bones are parented
+correctly
+spino6 okay
+alt h okay now we've got our hair bones
+in place
+okay so that should be it for a meta rig
+let's
+go to object mode and we'll generate the
+rig and make sure it's all working
+so
+object data properties generate rig and
+the second you should see all the
+controls for our wig appear there we go
+and let's turn on so
+these are all the
+controls for the rig but this one here
+if you hold shift
+and click this you can see
+the actual bones appear so let's um
+let's go to solid mode
+let's isolate
+and go to pose mode okay this is a
+little better
+let's transform around bounding box
+center
+and we can just check it make sure it
+works
+so if you see if you hit r to rotate
+you can see
+that
+these bones here
+you can see these bones here move along
+with the rest of the rig
+when you grab the controls and move them
+uh we can grab a hand
+and move that
+can't see there's too many things here
+over the head
+let's check the hair
+that works we're going to tweak this to
+make it
+work better for hair
+and then if we grab the eyes you can see
+the new bones that we created
+these guys right here
+you can see they'll rotate
+they'll move to track
+our eye target
+and then our new teeth bones that we
+made
+will rotate
+with the jaw
+part to see
+it's right here
+there we go
+okay so rig is working
+let's go back into object mode leave
+isolate mode
+and now let's start attaching our
+character to our rig
+okay let's hide our meta rig
+and let's hide our hair for now
+so
+sometimes it's useful to join your whole
+mesh altogether
+and sometimes later you like to separate
+things so let's go and do that
+so we're going to make it so it's easier
+for us
+to separate and join things
+so we're going to grab
+so grab our body go to edit mode hit a
+to select all
+then add a vertex group
+and just call this body
+and then click assign
+okay so now if it's all unselected if
+you click select it picks all the body
+okay let's do this for all the rest of
+the pieces of the mesh
+so eyebrows grab that
+a to select all
+add a group
+call this
+eyebrows
+assign let's grab the
+to hide the body let's grab the teeth
+and let's do this let's go to
+vertex mode
+l to grab the top teeth add a group
+top
+let's call it teeth
+top and a sign
+okay that's working
+then l
+and then create a new group
+teeth
+bottom
+and
+assign i always forget to assign
+then l grab our tongue
+and create a new group
+tongue
+okay
+i guess we can do the eyes since we're
+here
+let's grab both of the eyes a
+we probably won't need this but let's
+just do it anyway
+i
+left the sign
+and then
+i
+right
+a
+okay
+let's bring our body back
+and then we'll have to do the hair later
+to figure out how to do the hair so
+that's okay okay let's actually get the
+eyes too
+looks like uh there's still a mirror on
+here so let's go and apply that
+and then let's also make sure it's
+zeroed out so it's zero zero and scale
+is one so that's okay
+and then let's go and add those
+vertex groups so let's grab this click
+off let's isolate and go to x-ray mode
+then we'll hit l a bunch of times i find
+it's useful to
+have a
+top lash selection in the bottom lash
+selection so let's go to that and do
+top and aside and then go over here and
+control i
+create a new one call this eyelashes
+bottom and assign now when you grab the
+top one
+select or the bottom one select
+now you can select them separately okay
+now let's actually hide these for now i
+find eyelashes
+you need to do them separately
+let's join the teeth and the body
+oh okay so the body has some shape keys
+so that's actually
+this is when we were shaping the face
+we're testing so let's actually
+i think we're painting so let's delete
+that
+delete that
+so there's no shape keys
+no shape keys
+no shake these kids join so let's grab
+all these
+let's grab our body last and then ctrl j
+so now they're all joined
+okay so now let's go and let's go and
+parent our mesh
+let's grab our body grab our rig ctrl p
+and with
+automatic weights
+automatically here we go
+okay
+and let's test it and see
+so if we
+grab this and move it the eyes move or
+the eye the skin moves not the eyeballs
+let's grab that and move it
+okay so it's working
+there will
+be a lot of um things that aren't nice
+that we'll need to fix
+such as when you pull the eyes closed
+you can see
+things don't move super clean it's
+actually not terrible let's check the
+jaw here this is usually messed up r x
+so you can see it's not perfect we'll
+need to fix a lot of teeth don't stretch
+like that so we'll fix all of that stuff
+okay let's go and hide our body
+let's grab our eye let's actually join
+these so let's join those two control j
+join these ctrl j
+and let's
+grab our eyes grab our rig ctrl p
+with empty groups
+grab this i
+let's look for
+i
+okay so it's i so these are the new
+bones that we made let's go for the left
+eye here
+go to edit mode
+a
+assign make sure weight is set to 1. do
+the same thing right here
+grab the right eye
+edit mode a
+assign with weight of one
+so now
+when you go
+and move this
+eye control the eyes should track along
+with it
+let's bring back our
+okay so now
+our eyes are working
+okay and i am
+noticing that we only have one eyebrow
+so that's not going to work oh and
+that's weird too
+so it looks like it didn't
+apply the weights correctly
+and i'm thinking also we might want to
+have a little bit more detail to this
+mesh
+for the eyebrows so it bends nicer
+so let's go and do all that so let's
+exit pose mode grab our mesh go to edit
+mode
+go to this carrot here and let's type in
+eyebrow or brow
+then grab this this is that group we
+saved earlier hit select
+and go to mesh
+separate selection
+exit edit mode grab my brow go to edit
+mode
+and i just saw something that's
+that's weird i'm not sure what that is
+so it's x and delete edges
+and now i'm paranoid that there might be
+other weird things around so i'll hit a
+and zoom in with number pad period
+and it zooms in to
+where i expect it to go
+so i think we're okay if there are some
+like little uh vertices somewhere else
+around here if i hit a and select
+then it'll zoom in like pretty far out
+so this is kind of a way to just double
+check to make sure that you don't have
+extra things floating around
+so i think we're okay
+let's go to object mode go to
+the modifiers and
+let's just apply this sub d to get more
+detail so
+apply
+obviously you don't want to do this too
+much because you're adding to the mesh
+like you might have wanted to manually
+add some detail but
+it's not that much so i think it's okay
+let's take this armature
+let's go add a mirror
+and then apply that
+then we'll
+grab our brows grab the rig
+ctrl p
+with automatic weights
+then let's go and check our eyebrows and
+see if they're okay
+okay that's pretty good
+so those are working and we have two
+eyebrows
+so that's good i know our heads messed
+up up there we'll fix that later
+okay
+so eyebrows are done let's go and do the
+teeth and tongue
+go into edit mode
+and go into our
+object data properties then type in
+teeth
+and let's
+select
+and then mesh separate selection
+let's get the teeth bottom select
+let's make sure we have that
+okay with x-ray you can see through
+mesh separate selection
+and let's grab a tongue t-o-n-g
+tongue
+select and these are all those groups
+that we saved earlier
+and why isn't it selecting
+select
+we must have not assigned the vertexes
+to that tongue group so it's
+let's mouse over the tongue and hit l
+and then mesh
+that's actually assign this
+so now if we select it selects
+and then mesh separate selection it's
+kind of handy to have these groups so
+you can select things easily
+okay let's go into object mode
+grab the mesh hide that so we can work
+on our tongue and teeth
+let's grab our top teeth here and go
+into edit mode
+and then go to object data properties
+scroll down here a bit
+so what we want to do is we want to take
+away all of the bone groups just like
+the eyes
+that
+aren't connected to
+a bone that we want to use
+so let's go here and type in the bone
+that we want to use which is teeth
+so this top bone here is the one that we
+want to use it's the one that controls
+all the weights for this tooth these
+teeth
+so we'll grab that and lock it so we
+can't delete it
+and let's also grab this one here so we
+can easily select our teeth
+then go to
+these options here and delete
+unlocked groups
+okay then let's
+unlock these
+because you want to weight paint with
+these when these are locked
+you can't delete them you can't do any
+weight painting you can't do anything so
+make sure you unlock this if you want to
+do some weight painting
+okay then let's
+go ahead and grab our rig
+let's actually just test this so grab
+this rx
+it actually looks okay so we don't need
+to wait paint that let's do the same
+thing for the bottom teeth so let's exit
+pose mode grab our teeth object data
+properties type in teeth
+and then we want the
+bottom teeth bone this is that one here
+and we want to grab this one also
+then delete unlocked
+the unlocked groups let's unlock these
+then grab our rig grab our teeth go to
+object actually test it first
+rx
+okay so we need to do a little bit of
+weight painting this is happening
+because
+these vertexes here let me see here
+turn these on so that way
+these
+this armature modifier will stay applied
+even when you go into edit mode
+so this way it looks like that
+with these turned off it'll snap back
+so let's make sure these are on
+so these vertexes
+weren't applied to the teeth bones at
+all so let's go and weight paint that to
+put that back
+so let's grab our rig here
+this is the weight painting layer so
+let's go and shift-click that so these
+bones that appeared those are for weight
+painting
+so we've got that selected let's shift
+click our teeth
+go to object and weight paint
+and then let's go and
+click our bottom teeth bone
+and
+you can tell
+what the bone is that you have selected
+if you ctrl click here
+you can see it's
+def teeth b for bottom and
+when the your mesh turns blue that means
+that it's got some way painting
+if it's red it's got a lot of weight
+painting so this needs to be
+all red or at least some color because
+it doesn't have any other bones that
+are affecting it so really any color
+will work
+let's go to tool
+grab that
+f to make that bigger
+there you go
+so you can see here at this blue here
+that's the bone we have selected
+if it's bright red it's full power it's
+blue it's light power
+and it doesn't matter because we only
+have one bone so we're good
+okay let's grab that there
+let's turn off our way painting
+and let's do the same thing for the
+tongue
+the pose mode
+grab our tongue
+object data properties type in tongue
+and then we want the
+tongue deformation bones
+we want our group here
+and it's a little confusing because you
+only see four groups but if you we have
+this filter for tongue if you turn it
+off you see there's a whole bunch of
+groups
+okay so let's
+delete unlocked groups
+now let's unlock those again so we can
+wait paint and then let's go and test
+this to make sure it's working
+and
+let's grab a bone here and see like ah
+so it looks
+that looks okay
+so a
+grs
+okay so i think all of our
+face elements
+are rigged
+let's bring back our mesh
+um
+oh these are these are not done yet
+let's do the eyelashes let's bring back
+our body here
+grab our eyelashes grab our rig ctrl p
+go to automatic weights
+and
+we can check it but eyebrows eyelashes
+always look
+they're always a pain so
+you can see the weights are applied but
+they're just not working right so we
+will
+have to go and manually weight paint to
+fix them but let's make our job a bit
+easier and do the same thing as we did
+with the teeth and the
+eyebrows
+so let's go to objective properties um
+so we'll need to delete all of the
+all the bones except for the ones around
+the eyes that affect the eyelashes
+so
+if you look here
+we need to get the ones not those
+all the ones that i don't know if you
+can see it here they have the word lid
+okay all of these we want to keep
+and then over here
+we have brow
+b brow bottom we want to keep those
+um brow
+top we don't
+so
+anything with a lid or a brow
+b
+okay so let's go out of pose mode grab
+our mesh
+let's go and type in
+lid
+let's keep everything with the word lid
+in it there are a bunch of bones for the
+eyes
+oh i just this button by accident
+everything with the word lid
+brow we want to get everything with the
+word actually it's brow
+dot
+b anything with the word brow dot b okay
+so then we've got all of those and then
+let's delete unlocked groups
+let's turn off our filter and re-unlock
+everything so we can do our weight
+painting
+if you forget to
+unlock these things if you have locked
+bones and vertex groups
+when you're trying to weight paint the
+bone the bone will be red that's how you
+know that it's locked okay so we can
+test this again it's still going to look
+bad but let's just check it
+and yeah still not great but we will
+we will fix that
+okay so that's
+we have
+all of our main components rigged so
+let's check it really quick here so
+let's grab our
+torso and just let's grab our hands too
+can't see
+okay let's grab our feet too
+so just grab everything and move it
+and if you see anything left behind like
+these shoes
+those parts are not rigged
+but it looks like everything is sticking
+so
+we have everything attaching to our rig
+now
+we haven't done the hair yet of course
+but now at least we can do the weight
+painting
+but
+let's also attach the hair and then we
+can
+focus on weight painting all at once
+we'll do all the technical bits first
+and then we'll do all the artistic stuff
+afterwards
+okay so let's hide our face details
+let's hide our body let's hide our fancy
+shoes
+and make our hair visible
+so similar to the eyes and teeth and
+tongue and stuff
+i like to create vertex groups for the
+hair
+long hair is a real pain to rig and a
+lot of times you have to like
+be a big mess you have to pull off a few
+strands and away paint them separately
+and then put them back into the the
+whole chunk of hair
+so this is a strategy i use to make it
+just easier for myself to select parts
+so let's go through that
+and let's
+actually
+do this to make it a little bit easier
+for us to see what's going on
+let's grab all of our hair bones
+ctrl i and h
+this way it'll be easier for us to
+see what's going on with the hair
+okay so let's take away our outer hair
+and let's work on the inner hair first
+and let's leave pose mode so this is
+basically the hair cap we probably won't
+do much with that so let's just join
+that
+let's make a selection group anyway so
+we'll a to select all let's move this up
+click plus we'll call this
+hair
+cap and assign make sure you assign i
+keep forgetting let's hide that because
+we're done let's grab these guys here
+let's join that
+if you look at our bones i'm trying to
+just i'm going to try and attach or
+group
+these hair strands based on where the
+hair bones are i'm also going to try and
+separate
+inner hairs from outer hairs
+so for this
+group of hairs here
+probably always going to follow this
+middle bone even if this left one pulls
+out and the right one pulls out this is
+probably going to follow the middle so
+let's go and
+make this one hole chunk together we'll
+call this hair
+nape and assign and hide
+these two on the left will probably
+always be together and same with on the
+right
+to x-ray grab that
+call this
+hair
+left
+enter
+and assign and call this
+hair
+right enter
+and assign that
+so
+okay that's good and let's hide that
+and then let's bring back our main group
+of hair and see how we're going to break
+this up
+so i'm looking at this bone and these
+bones and trying to see
+where it separates and i think
+this is good for the back here
+let's hit g you move to make sure i'm
+not missing anything which i'm not we
+will hit
+control
+j to join that edit mode a to select all
+drag this back up
+call this hair
+back
+and
+assign and
+hide let's break this up into left and
+right uh let's unselect our rig shift
+click you always have to have one of the
+things that you have selected yellow to
+go into edit mode okay let's go to x-ray
+and face mode let's go l and select a
+bunch of these pieces
+shoot okay
+so i selected one half of these pieces
+here but you can see that it went across
+and that is because
+sometimes
+when you mirror and apply a mirror
+modifier sometimes there's a vertex
+somewhere that's perfectly on top of
+each other and so it makes the thing
+it's one mesh so let's go
+and go to let's fix that so mesh
+separate selection grab that
+isolate edit mode let's zoom in on here
+so like probably
+that vertex right there is the same for
+both sides okay let's grab that grab
+that and just manually grab one half
+it's kind of a pain but it's okay and
+let's go and
+mesh separate selection there you go so
+back to what we're doing here let's grab
+half of that
+unselect to rig go to edit mode and hit
+l a bunch of times until you see no more
+black dots and one half i think we're
+good
+mesh separate selection and let's grab
+one half again shift click one of these
+and ctrl j so now we have one half there
+and one half there but then let's see we
+can name this
+hair
+left assign name this
+a
+hair
+right and assign okay so
+usually i'll have five hair strands or
+hair bone strands and so i'll break off
+the front then the middle in this case
+we only have three so this front section
+can all be one chunk but maybe it's good
+to have kind of the rear section kind of
+blend in between these two bones so
+let's go and do that so let's go to face
+mode and x-ray mode and
+grab some of the hair that's
+kind of more towards the rear like that
+go to
+hair
+um
+left
+rear and assign okay that's good see the
+same thing right here let's grab uh when
+you're grabbing your hair if you just
+click it once
+it looks like it's uh selected but
+you'll see black dots so you need to get
+your mouse over one of those black dots
+and hit l
+so this way you see no more black dots
+the back side was not selected so make
+sure
+you don't skip out on the back side
+there
+okay
+call this
+hair
+right rear and assign okay that's
+working and then let's bring all of our
+hair back i think that's i think that's
+gonna be pretty good
+so let's go and
+uh rig this okay let's
+attach all of our hair together so let's
+shift click that
+ctrl to unclick that and then shift
+click to grab one piece
+ctrl j
+and we should have one big chunk of hair
+except for our hair cap okay that's good
+let's click that click our hair shift
+click our rig ctrl p with automatic
+weights
+and then let's
+check this to make sure it's attached go
+to our rig
+and let's see here let's go to
+pose mode
+item
+torso
+so we'll grab the hair bones and move
+that
+and that's doing something
+it's obviously not great
+yeah there's some weird stuff going on
+but weights are attached to it
+so i think now we have everything
+attached and we are ready to do
+weight painting
+let's go and bring everything back let's
+get our high details okay
+let's actually fix the
+hair controls before we get started
+these uh tail examples
+they work nice because you can grab that
+one thing and move the whole
+string of a hair up but it only goes in
+one direction
+and i think it curls a little bit too
+much
+so let's go and fix that
+put this back alt
+r
+let's hide that
+so for each of these bones we need to go
+into the bone properties
+and turn on z
+so i'll go and do that
+okay so now when we grab the hair
+it'll
+go backwards like it did before but it
+also goes to the side
+which it did not do
+before i also think the hair
+curls too much when you do this
+so let's go and lower that a bit
+one so three four
+sets go
+and just load if you lower this number
+it reduces the amount of curl so just go
+here and
+point six
+0.4.3
+i feel that works okay
+it's a little
+tedious okay so now
+the hair shouldn't curl too much
+so when you grab that and move it
+i think that's pretty good
+and then we forgot to
+delete our unwanted bones
+so let's go and do that grab our rig so
+we want to we go to our weight painting
+bones here click this one and let's
+isolate and go to pose mode and alt h so
+we have everything so we want all the
+hair bones to be attached to our hair
+and that's everything with the word deaf
+hair but we also want some of the hair
+to follow the head so that's going to be
+defspine006 okay so let's remember that
+untoggle grab our hair like that and
+let's type in hair
+and lock everything with
+the word hair
+like that then we wanted also the
+spine006 let's type in zero zero six
+and it was def
+spine006 this one here
+and then go to
+um delete all unlocked groups
+okay so that's good
+now let's go and re-unlock all of these
+hair bones
+so we can do our weight painting and
+let's go back to our rig
+go to our main layer here let's grab
+this this should
+bend nicer now
+still not perfect but
+it's a little better
+okay so now i think we are ready to wait
+paint but before we wait paint we're
+going to create an animation to help us
+make sure our weight paints look good
+so we're in the animation workspace and
+let's just set up a space here so we
+like our setup so we'll grab one panel
+and drag that out grab another one drag
+it out we'll set this top one to the
+timeline
+this is so we can turn on a record
+feature on and off
+this one will use a dope sheet
+this has a little more detailed control
+of our keyframes
+and let's grab a rig hit n
+go to item
+so this has all of the toggles for our
+rigafy rig
+let's turn on torso
+arm ik leg iks
+i think that's good for now
+you can toggle it here too if you hold
+shift and click
+but this is nicer because you can
+actually read and see what it is
+and we'll leave off the weight painting
+bones for now because right now we're
+just going to do some animation
+okay so let's uh let's walk through how
+animation works basically
+so this is our
+timeline so you can hit space and you
+can play through it you can hit left and
+right arrow and
+go through up one by one or you can drag
+it and scrub
+this is the start frame and end frame so
+you can make this
+100 it'll make it shorter you can make
+this like 400
+400 and it'll be longer if you scroll in
+and out
+you zoom in and out and you can middle
+mouse drag to
+drag back and forth
+okay so that's kind of how the timeline
+works
+um
+let's show you how keying works
+so
+you can keyframe parts of the body by
+grabbing them and hitting i
+and choosing location rotation or scale
+or
+location rotation and scale and this
+will
+record the location rotation scale for
+whatever you have selected so
+i click that and it creates a keyframe
+here so this is telling blender that we
+want this hand to be in this position
+in this rotation and this scale
+at frame zero
+let's also key this
+okay
+another way to keyframe things is
+let's move to frame 20
+and then let's go to the front view here
+let's turn on mirror
+so if you have the record button turned
+on
+whenever you just move a bone it'll
+automatically keyframe it
+so you can hit g and move it
+and make sure you don't stretch your
+limbs when you're opposing these things
+okay you can drag that to here it's like
+slightly bent
+and you can see it automatically put a
+keyframe there
+so now if we play it
+space
+it
+automatically moves it's cool
+so then let's also
+push it some more so
+try and go through
+like extreme
+extremes of your limb poses
+um you probably won't go that far like
+we probably won't
+move the hands up that much
+maybe
+but if it looks good that far then we
+know that
+whenever people do stuff it'll be okay
+so
+let's move the
+collarbones up
+move that up
+and then let's move them forward here
+so g
+g it's kind of fun
+to make sure she's not overextended
+um i can't see
+okay looks okay
+if you don't like
+where her elbows are you can grab this
+and hit r to rotate you can rotate it
+out a bit more so it's more relaxed
+and maybe we'll
+move her collarbones back alt r
+and move them forward well
+r
+z to pull that forward
+oops
+g
+uh g y and pull that
+forward okay
+so why am i doing this so we're going to
+do our weight painting
+and then
+we could weight paint
+and you can see here
+the shoulder looks funny and below the
+arm looks funny and the
+chest is pulling
+so we could weight paint and make that
+look good
+but then
+sometimes
+it'll make it look bad when the arms are
+forward so we want to kind of animate
+our body so it goes through all just a
+basic range of motion
+so when we do our weight painting we'll
+know it looks good in every position
+okay so
+i'm going to go through and
+just pose
+the entire body in every single position
+with these basic bones
+then i'll go through and do the details
+for the fingers
+and when um
+and we'll save the face in here for
+later
+okay so if you're comfortable with this
+just skip through
+um if you want to watch me
+just
+take my time doing this stuff you feel
+free to watch
+okay so we got side
+forward
+should actually go
+up
+rotate our elbow forward
+and let's
+move our collarbone
+sit here
+that's pushing it i don't think that'll
+work too good it's okay
+let's uh see here
+let's move the hand out
+move the hand in oops
+it's okay
+let's rotate it that way
+rotate that way
+then let's
+no let's
+let's do our fingers
+fingers i like to um
+do them one by one
+so you grab this hits s
+s to scale and it rolls the finger
+then go to the next frame
+five frames
+hit high location rotation scale
+and do the next one
+i location rotation scale into the next
+one yes it's very tedious
+our fingers actually look pretty good
+oops
+scale that one in two
+okay and then let's
+let me do one here
+let's get fingers detail and turn off
+the main fingers
+and let's
+grab
+these knuckle bones
+and then let's go to
+local
+make sure we have um individual
+transforms
+and
+go to r and hit enter
+and one two three four five
+why did that pop
+popped here
+okay
+weird turn off
+that one
+and
+r x
+next one
+are x
+x
+and r x
+let's not forget the thumb
+let's just uh
+move that down and
+something like that
+so we can test all of our finger joints
+they actually look pretty good the wrist
+is a little bit funny okay let's go and
+pose
+the legs
+g
+z
+the um the shoulders and the
+the legs where they attach to the pelvis
+are the hardest parts i think
+so let's just move it up i don't think
+the leg will ever move more than that
+it won't go higher than that so that's
+probably good
+let's um
+do the ankle
+then let's do a jumping jack
+let's not stretch our legs okay
+then put that back
+alt r
+i
+zoom in
+let's rotate our toes
+r
+x
+r x okay
+alt g r s that also keyframes things
+i don't know if you need to do this
+oops
+okay
+what else do we have here oh let's do
+the uh to the torso here
+so we do the hips
+put that back at 95.
+okay
+alt r
+let's go forward
+and backwards r x okay
+let's put these feedback alt
+alt g r
+okay
+must have missed a keyframe okay here we
+go
+now let's bend our main torso here
+let's just go grab the whole thing
+a
+high
+location rotation scale
+let's put this back alt r
+rx
+as far as we go
+now our x
+we should do we should do this
+do that and then do this
+our x
+and make our head go down
+let's hide her hair it's confusing
+oh her head's messed up
+let's go back our x
+and our x
+the hands buggy you can move those too
+trying to reach your toes here
+i think we can push that a bit more r x
+okay
+all g r s
+are z
+and
+r z
+and our
+y
+r y
+high location rotation scale
+r z
+y
+a
+g r s
+okay so i think that's good let's see
+here
+if you
+miss if i missed anything just go go
+ahead and
+add in your own animation to make sure
+you cover the full range of
+motions
+oh yeah her fingers are moving here
+okay so let's start with that
+whey painting is a process of telling
+your mesh how to follow the bones
+so that way when you pose or animate
+your armature the mesh will look good in
+any position okay so let's
+see how to do this turn on our bone
+layer right here this is the bone layer
+for rigifi
+and let's leave pose mode
+grab our rig shift click our mesh
+go to object and weight paint
+okay so
+if you control click a bone you select
+it
+it shows how much that bone is
+influencing the mesh by color so you can
+see red is a lot green is a little bit
+same thing for down here
+now the trick is
+we want to get okay so
+it's pretty easy to do the calf here
+because we know that the calf wants to
+follow this selected bone all the time
+it's pretty easy to do the thigh because
+we know this part of the thigh wants to
+always follow
+this thigh bone the parts in between
+this knee
+it's going to be a mix of something in
+between the two and you can see right
+now it's kind of
+not looking so great there so we're
+going to go through and
+weight paint and make everything look
+good so we'll click a bone here
+and there's all these tools that we can
+use to smooth things out so this here is
+the blur tool so we can use that you can
+click the blur tool
+up here you can adjust the strength of
+it
+or you can hit f to adjust the strength
+sorry f to adjust the size or
+shift f to adjust the strength
+then if you brush over it
+you can see that
+it's kind of smooths the color out
+and it smooths out the blending
+okay
+something else to notice is right now i
+have mirror turned on so if you
+i'm going to undo this
+but if you wait painted say
+one half the other half will be mirrored
+and this makes it easier
+to see now to do both halves so
+leave that one on if you have a
+symmetrical character
+this tool here is an average tool it's
+a different kind of blur tool but it
+averages out the weights of all the
+bones that are affecting this
+so you can try both of these that
+they're they're just both different
+kinds of blurs
+this here is the smudge tool so it's a
+more um
+it's kind of like photoshopping you can
+smudge things um you can
+see shift f let's lower this a bit so
+you can
+click and drag to
+have a more focused influence of how
+you're adjusting the strengths
+here like that so you can
+make the calf
+less influenced by the thigh
+like that
+this is a gradient tool so it's not
+really useful in this application but
+it'll
+just supplies one even
+one even
+gradient of weight
+to like everything
+so we're not going to use that for this
+so those are most of the tools i use for
+weight painting
+so let's just go and
+do a few of these things and and see how
+how to do it
+okay let's uh start doing some weight
+painting here so
+i like to start with the armpits
+and then the pelvis area because those
+are the two hardest areas if those two
+work out then you're pro probably good
+if they don't work out then you can
+relay out your bones for your meta rig
+and then redo it
+um toggling x-ray is good because you
+can toggle
+the bone's on control click to pick a
+bone toggle it off
+sometimes it's nice to have the um
+the vertice uh the edges shown
+and also
+it's good to
+sometimes have your
+sub d turned off
+oh and i forgot to mention when you
+mirror
+make sure you have the mirror vertex
+groups turned on
+so that way when you
+do stuff it mirrors across and whenever
+you undo it
+it
+disappears you have to actually do
+something first
+and then if you undo it it'll stick okay
+so
+it's kind of weird
+so this body is following the arm too
+much so let's make that fall less
+grab here mix hit b for subtract
+shift f to reduce the weight down really
+low
+then let's just wait paint that here
+so it follows
+the arm
+less
+it's it's kind of fun it's kind of like
+a meditation
+like sculpting it's kind of like
+sculpting a moving object
+but i think if we reduce the weights
+here
+you can see how these
+edges are pulling up towards the arm
+so i
+want you want to think that if the arms
+are up
+how do you want that mesh to look
+i think these would be better
+if they were closer to the body
+so i'm just going to
+lower those down you could use the
+smudge tool also that might be better
+it's kind of strong there
+yeah that's faster
+okay
+you can see how much that uh
+this looked totally blue but it was
+actually affecting the body
+see even back here was affecting the
+body
+okay
+so that looks pretty good
+at least down here below the armpit i
+didn't work up on the shoulders yet
+and then you can
+use the arrow keys to step through it
+and see how it looks and like here like
+okay this no longer looks good so let's
+let's go and fix that so it's kind of
+this
+you wait paint a bit then you move
+things around and wait paint some more
+and move things around
+i'm just gonna try and smooth it out
+smoothing out will add some of the stuff
+i erased
+to the parts
+that are less and then uh
+i think here
+we need to
+smudge a bit
+i think this wants to follow the arm
+less
+no more
+okay
+i think these want to
+all follow the arm more
+so it's tricky you're just trying
+to lessen the amount of
+extreme
+mesh positions
+as much as possible
+in all the poses
+sometimes if you have just a couple
+areas that you just want to fine tune
+you can do this you can
+directly edit the vertices
+so if you go to edit mode
+it pops back which is not going to be
+helpful but if you turn on these guys
+here then the mesh will stay
+when you go into edit mode
+go to vertex mode and click a vertex you
+want to edit
+go to the item
+then down here you'll see a list of all
+of the bones
+and the weights that are affecting that
+vertex so you can go and mess with stuff
+and see how to fine tune it this is
+i mean try not to do this is kind of
+like
+pixel pushing so you kind of don't want
+to do that
+but sometimes
+it's helpful
+so that's a little a little better
+um
+you really need to spend a lot of time
+weight painting so i'm not going to
+spend a whole lot of time
+doing this because we're just going
+through this tutorial together
+but uh
+you know this it's a slow process
+okay
+so i think it's kind of looking okay i
+think uh this here
+is not looking super good
+it's a little better
+maybe let's work on the shoulder here
+so it's hard to get the shoulder
+shoulders are really hard
+it's hard to get the shoulders to look
+good when they're up like this
+so just kind of do the best you can
+um
+you can think about where this character
+is going to be seen so
+probably seeing from the front a bit
+if it's a third person you might see it
+from the back
+she's got long hair so thankfully it'll
+cover some of the shoulders but um
+okay let's just do this
+it's also useful to
+toggle the overlays so you can see it
+shaded nicely or you can see it with the
+the wireframes and bones
+i have this set to
+insert i
+think that's the default key i can't
+remember
+i just toggle this guy here
+if you attach if you add some weights
+that to the main body
+bone
+it kind of smooths everything out
+but don't do it too much
+because you start losing definition
+when it's um
+your limbs are extended out
+breastbone is
+messing with things a bit here
+let's try and average this out a bit
+i'm just trying to get this shoulder to
+look less extreme it's
+it's not looking quite right but
+at least less
+weird
+i think that's helping a bit
+let's blur it a bit
+and
+see here
+it's a little bit pinching there
+okay that's kind of okay
+oh one thing to point out
+you can use preserve volume or not
+sometimes this makes things look better
+and right now it's not making things
+look better
+but you weight paint differently with
+this turned on or off if you're
+exporting to another program that
+doesn't have preserved volume
+you want to leave this off so this way
+like for example unity doesn't have that
+so
+if you wait painted with this on
+and it looked good with it on when you
+go to unity it wouldn't look like this
+so if you're going to unity or some
+other program that doesn't have that
+leave it off so i'm just going to leave
+it off okay so
+i'll call that good for now let's do
+something else
+i'll come back to it later
+okay so let's see here let's do um let's
+do the second hardest part let's do the
+um pelvis area so this part's a pain
+also
+let's go through this so it's same thing
+really you're just messing with the
+weights so look at where it's pinching
+it's always going to pinch on the front
+here and the back will get kind of
+distorted
+so let's just try and do that
+blur it a bit
+so you kind of want to look at these
+bones here at these um
+edges and
+when this thing is bent up
+what do you want these edges to look
+like and so really this should be more
+this should be higher so
+oops let's go and pull that down
+blend it down those lines go up
+this this is actually preserve volume
+helps there
+but then it makes other things worse
+and there's other tricks that we can do
+which i'll show you in some other videos
+and how to
+you can get it as good as you can with
+weight painting and then you can do
+things with
+corrective shape keys to fix the parts
+that you just couldn't get to work with
+work right with weight painting
+so if it's not perfect it's not the end
+of the world
+okay
+try and get this to
+as much as possible not overlap but
+don't make it um
+too far apart that looks really weird
+and you won't be able to get it perfect
+okay that's looks really weird there but
+it's kind of okay from there
+so i think we want this part to come
+forward
+so let's grab our
+pelvis bone here hmm
+let's grab the leg bone here and reduce
+some of this strength
+yeah i think that's gonna be better
+but this tedious
+you know
+almost sculpting this is weight painting
+it's just very slow meticulous
+i kind of enjoy it it's kind of nice
+it's relaxing it just takes too long
+okay that's a little a little better
+you can see how the
+back of the bike gets all flat that's
+not very realistic
+but
+there's not a lot you can do with it
+with this um this rig
+let's go to the um so those are the two
+hardest parts so i'm gonna call those
+done
+let's um actually let's
+look at the jumping jacks
+pose it's a little funny how this
+moves so much so i'm going to reduce
+that weight here
+yeah see that shouldn't move
+so we'll
+go to where we didn't like it moving so
+like this looks good then it kind of
+collapses in
+and then we'll
+reduce
+some
+weight
+there but then you gotta think okay do
+we screw it up when her legs are up so
+go to that pose where is it
+and see how it looks and it's uh yeah
+it's okay yeah
+okay so i think that's all right
+um the middle of the legs is um pulling
+down
+so you can increase the
+weights for the main bone
+the main pelvis bone so let's
+lower that
+shift f to increase the weight
+let's go to the part where it moves
+funny
+so here it shouldn't come down that far
+so if you increase the weights
+you can kind of make like a
+an underwear shape here
+that usually works out pretty good
+um
+or you could take out some weights from
+the bone here the leg bone
+go
+b
+yeah there you go
+yeah that's better
+okay
+let's work on these uh knees
+um so this is
+very hyper extended it'll probably never
+go that far
+typically just running around jumping
+and stuff you're not gonna go that far
+so let's call this our
+for this
+uh extension and let's wait paint that
+okay let's do this knee here
+let's usually start with blurring things
+a bit
+sometimes it's useful to
+add
+some weight painting from the bottom of
+the knee the
+calf
+to the top here
+it kind of um
+increases volume a bit
+when that leg bends
+not too much and then vice versa
+like that this will definitely need
+corrective shape keys
+but just try and get as much
+separation
+between the
+top and bottom
+leg
+when it's extended hyper extended
+you can also
+see here
+you can add some weight down here
+so this is
+kind of if you add some weight from the
+upper thigh down here
+when the leg closes
+it'll have better definition but when
+it's
+halfway closed this gets smaller
+so
+if you do it don't do it too much
+okay it's
+definitely needs some
+corrective shape keys to get this to
+work
+but um i think that's okay
+so that's going to be um
+the same thing for the rest of the body
+we can uh look at the fingers they
+actually looked pretty okay
+see here
+yeah it's actually
+actually okay
+um
+let's see when the fingers bend down
+i could try and accentuate the knuckles
+a bit
+that's kind of hard
+let's try it and see if we can do it
+okay let's grab a bone here and i think
+if we
+reduce some of the weight up
+here
+it should pull forward
+that's not what i expected but it's kind
+of working
+mix
+okay
+yeah there you go so it kind of pulls it
+forward
+a bit more
+actually uh kind of backwards
+you can see that this uh
+this bone here
+is
+bent down and so when you add volume
+here it pops it up so actually that's
+not working it's too far but over here
+it pushes it up and it actually makes it
+look a little bit like a knuckle
+and here i think it actually helps
+okay
+the wrist um
+looks a little funny
+i kind of
+struggle with wrists too
+in fact weight painting is just hard
+everything about weight painting is hard
+let's see here
+it's a blur is great it helps a lot you
+can just kind of blend it out
+um
+you can see it just looks
+doesn't look quite right
+i feel like you need to either use
+corrective shape keys or
+throw an extra bone or something to get
+to look right but um you can get close
+enough
+so here if you add some
+weight from the hand
+it'll push that wrist
+in a bit and it looks more natural
+okay
+let's check oh her elbow
+looks a little funny let's fix that
+actually let's check um let's bend our
+wrist and see how that looks
+where'd it go ah here we go
+pull that a bit back a bit more
+and here too
+all right it's a little
+a little better
+so i noticed that i didn't have a good
+animation for our arms
+to look at the elbow it doesn't bend
+quite enough for me
+so let's go and add
+an animation to show that better so
+let's go to object mode grab a rig go to
+pose mode
+and then let's go and
+turn on our ik controls
+so these are the ik controls
+let's go to frame 75
+so we had it moving here and then it
+stops moving and it just stays there the
+whole time
+okay
+so let's go to frame 80.
+actually let's go back to 75
+and so
+let's turn these on here okay
+so
+there's two ways to control limbs
+there's an ik mode and then fk mode ik
+which is the one that we were using
+before
+you can grab the hand or foot and hit g
+and the whole arm just moves
+um the fk mode
+works differently so let's show you that
+one here let's switch to this
+let's go
+to one fk mode if you hit
+g and move the wrist nothing happens you
+have to grab a limb here and hit r to
+rotate and you can rotate limbs that way
+so different two different ways to move
+the the armature
+so we're going to
+in our animation we're going to switch
+from ik mode
+to the fk mode
+because you can see you can only use one
+at a time
+so let's put this back here so at frame
+we will
+hit i
+over this ik fk switch
+and that'll keyframe that to
+zero
+okay i
+so this means
+that it's on full ik
+then let's switch to
+from frame 75
+hit left arrow
+to go to frame 76
+and we'll switch this to
+full fk
+okay there
+so
+anything before frame 76 is all ik mode
+for the hands
+anything after 76 will be all fk mode
+for the hands
+okay so i hope that makes sense
+it's a bit of a bit of a brain twister
+the first time you
+kind of think about it
+so let's go forward a bit here
+say frame 80.
+grab our arm here and go to r and left
+click to
+set a keyframe
+let's go to frame 90
+and hit
+r
+x to rotate the hand up
+great
+so now let's wait paint this thing so
+go over here go to our weight painting
+layer
+shift click our rig
+object and white paint
+then let's grab
+bone here and
+see what to do here let's start off with
+our blur tool
+try and get some definition between the
+two parts
+and then uh
+that's weird here
+let's use our smudge tool to
+bring some of this down when it's hyper
+extended
+i feel like i
+i feel like we'll need a
+corrective shape key for the elbow
+a lot of times the only place i use
+corrective shape keys is on the elbows
+maybe on the lips
+but the elbows is it's just hard to
+it's hard to get that to work right
+let's get as close as we can do
+this push back in a bit also
+so you can see as we're bending we're
+losing volume for the elbow and the
+elbow is getting all skewed so
+we'll definitely need to fix that with
+um
+corrective shape keys
+which we won't cover in this video
+okay i think that's
+okay for now maybe it's pulled this down
+a bit
+so another trick you can do sometimes is
+if
+you notice that
+some things you just don't like
+and you see it more when you bend things
+you can tweak them a little bit so i
+feel like her forearms are really um
+big
+so
+i'm going to actually tweak that a
+little bit
+to look a little bit better
+and
+you kind of want to be careful with this
+but
+it can be useful
+so you can go into edit mode
+and grab a few
+points
+and just be really careful don't do this
+too much just do it a little tiny bit
+and so this is actually changing how
+your character looks it's default
+so i think that helps a bit i also felt
+like her form was a bit big over here
+too
+maybe a tiny bit there
+so it's
+oh yeah this is where it was bugging me
+she had um
+like kind of popeye forearms
+so
+now i've modified the rig and so uh the
+mesh so you want to make sure it looks
+okay so go back to
+her rest pose
+just make sure it's not all messed up or
+what you can do is you can um
+you can actually go back to here you can
+go your armature and just turn off the
+armature
+and just make sure it looks okay like
+that
+so it's this kind of like
+very influx
+moving kind of sculpting
+and you also want to be careful about
+doing this technique here
+because
+if the clothing is all made already and
+it's the kind of clothing that sits on
+top of the mesh
+then you're going to just
+mess everything up
+by reducing
+your base mesh
+with clothing above it
+that's not going to be so bad
+because you're not going to be poking
+through your clothing
+but if you're making this bigger
+that'll blow through your clothing so so
+be very careful about doing this
+okay so let's go and turn the armature
+back on and see how that looks
+and i think that looks a little bit
+better
+changing this elbow down here that's way
+too much to change
+by
+sculpting the base mesh so we're gonna
+leave that alone
+and call the
+elbow done
+so i think
+i think after this it will start getting
+repetitious
+so let's
+i'm just going to burn through the rest
+of this mesh and then
+i will
+see you on the other side
+let's check the ankles
+so
+so the ankles
+you want to
+you kind of want to keep the weight off
+like for the thigh
+for the calf bone
+you want to keep the weights off of the
+foot
+so let's go and get rid of that
+just messes up the shoes
+let's do the toes here so for the toes
+just kind of get the whole thing just
+blend up
+so let's subtract
+from our foot bone
+sometimes it's useful to
+turn off front faces only so you can go
+through all the limbs
+on both sides at
+once but i like to leave that on
+then let's just blur it to smooth it
+back in place
+so
+ah here we go
+okay i think that's pretty good
+maybe we want the pinky to fall a little
+bit more
+oh yeah we need some more here
+mix
+let's
+try and average this a bit
+too much
+okay that seemed to help
+so that's a little funky but um
+well she'll be wearing shoes
+if you want the feet to look better
+we really should have had more than one
+bone
+but um
+she's got shoes so
+if you just have a nice kind of like a
+nice bend
+when you wait paint the shoes
+it it works pretty good
+toes
+usually the hands are a lot harder than
+the toes are
+let's check our hips
+looks okay
+let's
+let's fix her head
+so we will
+grab
+a hair bone and you can see here
+that the hair is messing with the head
+so let's go and remove
+all of the vertex groups for the hair
+so go to the mesh go to object data
+properties
+click here type in hair
+and then let's delete everything with
+the word hair
+so let's just make sure this is all
+hair then
+delete all these
+and it looks weird so these points here
+don't have any weights from the head so
+let's go and add those
+object
+weight paint
+click the
+head bone here
+and just blur it
+sometimes it's hard to
+hit those exact points i guess it works
+okay so the head's fixed
+okay let's check the um
+i thought i had
+moved the
+head or the neck i guess i didn't
+so let's go and add some animations for
+the neck
+grab that
+go to
+torso pose mode
+grab the head
+and then
+go to r
+r y
+for y
+alt r
+alt r
+r y
+r y
+alt r
+r
+r
+uh
+x
+r
+x
+x look all the way down
+and
+r
+x
+okay
+let's turn off our controls go to object
+mode grab our rig
+mesh and weight paint
+let's check our neck
+a bit of a crook there let's go and
+even it out by adding
+some weight from our body
+maybe too much
+and then back here too
+let's
+blend it a bit
+sometimes you can add a second
+window
+so you can kind of
+paint from one view and
+watch it from the other view
+it looks better
+okay it's a bit better
+okay
+okay so i think that's our basic body
+now let's go and do um let's go and do
+the
+face
+oh boy
+let's put our body
+into a default
+pose pose mode
+let's go to
+torso
+hey let's go to
+grs
+okay so now we're going to do the same
+thing and
+put some animations on our face so that
+way we can
+we can we paint the face so let's see
+here let's
+toggle
+these off those off
+let's do the
+face primary
+and then we'll do the secondary
+and we'll turn off our
+weight painting oops
+face
+primary secondary and shift turn off our
+weight painting for now
+and let's hide this
+guy okay so let's go and set some
+animations for the face
+let's grab all our bones here
+and i
+location rotation and scale
+so we have a good starting point
+move
+five frames forward grab our draw
+and
+rx
+to open our jaw up
+a i
+locate location rotation scale
+you can see it's deforming okay needs
+some work
+let's uh
+make her smile a bit
+so try and get it to look as good as it
+can be
+without doing weight painting and then
+we'll have to just fix it
+so it looks better
+so just move these bones this is um
+it's a bit of work to get things to look
+okay you can see it's deforming a bit
+funny
+if you don't like that you can also
+toggle on your
+uh sub d
+it's good to be aware of what it looks
+like with the subdued turned on and off
+okay that's kind of okay
+the mouth uh it'll never look perfect
+you will need to add uh some corrective
+shape keys for the mouth
+so again just try and get it to look as
+good as possible
+and let's rotate this alt
+r
+a alt g r s
+and then let's
+make a closed mouth smile
+a
+i location rotation scale
+r x
+let's try and do an o
+like oh my god
+it's a hard one rx
+as you can see here it looks really
+thick this is what we'll need a
+corrective shape key for
+but for the weight painting we're just
+trying to make sure that the
+the weights are following
+our controls
+well enough
+okay
+a
+high location rotation scale
+let's
+make sure the tongue and teeth are
+working the teeth should be okay
+so just kind of like
+what is attaching to this the teeth
+looks like the
+body's attaching to the teeth but we're
+not going to be moving the teeth so
+if anything just a bit so that's okay
+that that's okay
+but let's check the tongue
+n
+and t to make those go away
+go to here
+and then what you can do is you can
+let's just grab the tongue bones
+so you can make sure our tongue looks
+okay
+it looks like it's deforming okay
+yeah that's probably okay
+a i
+location rotation scale
+let's mess with the eyebrows
+so let's
+put them up
+you can see we got some problems up
+there
+a i location rotation scale
+let's make maybe angry eyebrows alt grs
+oops
+oh whoa that tongue is crazy let's put
+that tongue back
+alt
+grs let's put her mouth back
+okay
+and then let's
+see i location rotation scale
+and let's try and mess with the eyes a
+bit and see if we can
+get anything to happen eyes
+are the hardest part
+so what you can do is you can
+grab the eyes go to here
+and g
+g y
+oh let's toggle off the eyelashes the
+eyelashes are always difficult so we
+will have to do those later
+we're going to steal weights from the
+mesh and apply it to the eyelashes so
+but
+let's try and mess with this a bit
+as you can see it's not quite doing it
+and that's okay we're poking through
+here that's okay we'll fix all that so
+um to start off with i like to just look
+at the bones
+and get that to look okay okay so you
+can see here
+you can see what's going on with those
+bones so just get those to look kind of
+like a closed eye
+and then we'll work with getting the
+mesh to follow it grab all those and
+just get those to be pretty close
+like
+oops almost on top of each other
+something like that
+and you can see it doesn't look good but
+we'll have to fix all that too okay
+and i think we want to pull some of
+those
+top bones forward so let's pull this one
+first
+oops
+so that helps a bit so yeah you know not
+looking good but
+at least we have a good starting point
+let's hide that
+a
+i location rotation scale
+and then alt grs
+let's see what we have here
+so we got some eyes closed
+tongue is going crazy
+eyebrows okay so we can
+we can work with that and make sure this
+all follows okay it's actually kind of
+looking okay so far which is nice okay
+checking things here
+the
+lips look really um
+v-shaped on the bottom here let's try
+and
+actually smooth it out a bit
+oh this is just our jaw open
+okay it's all right smile
+smile
+oh
+okay let's put our tongue back i think
+the tongue is
+moving okay so let's just
+grs
+okay let's turn on our
+bone layer here go to object mode shift
+click a rig and go to weight paint let's
+pull this down a bit
+more space
+okay let's see what we got here okay so
+the first thing i think this crease here
+is too steep so
+just go through
+all the parts of the face and and try
+and make it look as normal as possible
+so right now the mouth and the o shape
+you can see there's a crease there and
+the lips look a little bit too
+pointy on the bottom here maybe take out
+that little point so just try and make
+it look nice and even and normal and you
+do that by just just weight painting
+grab a bone and see
+blur or smudge things around and see
+what does what so i'm going to try and
+figure out how to take out that little
+crease
+so i think it's a little hot there
+so i think we can
+pull some weight and you can see what
+does what when you're dragging around
+but
+pulling some weight
+from this bone over here
+brings the crest of the lips down
+which should lessen
+that a bit
+i can see what's going on here
+so if we pull this down it should lessen
+things a bit if i want to go that far
+if i want the nose moving the whole face
+if you pull this one out this should
+come down
+so that should lessen that effect
+let's hope a little bit
+do the same thing for this one here
+think
+take it away from here a bit
+like i need to add some of this down
+here
+or you can grab um
+sometimes grabbing the main bone for the
+area for the head
+can even things out a bit
+don't do this too much though
+but that can also even things out
+basically it means it makes whatever
+you're moving for the face move less
+i don't want to go much more than that
+so
+it's a little better
+okay let's uh see here
+this lip is poking out a little bit too
+inwards so let's try and
+fix that a bit so we'll just pull some
+weight from this bone down there and it
+should smooth
+or even things out a bit
+that's a little bit better
+let's make this bottom lip less pointy
+and take out some of this
+mass here so
+let's go here
+and let's pull
+some of the weights across
+to make that more round
+not too much
+just take out some of those hot spots
+and let's pull some of this one
+out to make that
+a little bit more even
+more that actually helps
+reduce it that helps
+i think you want to blend it out yeah
+that's better
+yeah it's a little better
+let's not blend it too much
+to take up this high point right there
+let's pull some of this here and let's
+also blur this
+when you get these really hot spots
+these localized hot spots
+it um
+might be
+when you get these localized hot spots
+it tends to make the mesh
+bend
+um
+kind of uneven
+right where it's like super red
+okay let's go and take out this mass
+here by just adding
+some of this bones weight
+helps a bit here
+let's take out some of this by adding
+some of that bones weight
+it didn't work
+let me add some of the
+main head bones weights here
+just a bit
+too much
+okay
+that's a bit better
+okay
+okay that's feeling okay you probably
+want to spend more time than this
+but
+i'm just kind of showing you how to do
+this so we'll go right rather quick here
+so let's work on see what's next
+oh let's do let's fix her forehead
+that's probably gonna affect the hair
+too so let's turn the hair and see
+what's going on
+um
+okay the outer hair is fine
+and that was following our head here
+so that's going to remove some weight
+groups for the hair
+let's let's uh let's not do that
+let's just wait paint the head first
+okay so first what we're going to do is
+go to where the
+forehead was deforming strangely
+there we go
+and let's go and erase some
+weight paints let's go to maximum weight
+oops
+hit
+click here and hit
+b
+for subtract
+and let's just delete these weights
+let's delete it all the way up to here
+okay let's grab that one too
+delete all the weights
+up to there
+and this one too
+just delete all those weights
+so now our forehead looks okay
+let's see how it looks
+pull some of that out too
+i know in real life the uh the hairline
+would move a little bit
+so you could
+do that realistically if you wanted to
+but i'm just going pretty simple so i'm
+gonna
+just take it out let's just blur some of
+this
+here that actually might mess things up
+i think that's okay
+let's actually blur some of this
+okay
+so let's put our hair
+back and looks really bad
+so what we can do
+is we can this is kind of how you add
+clothing to a mesh
+but you
+click your
+mesh that has the weight paints you like
+it's good to save before you do this
+because if you do it backwards you'll
+scoop your mesh so save before
+so click your mesh then shift click
+the thing you want to add to it
+then go to object mode and wait paint
+and go to weights and transfer weights
+and then open this up here and go
+source change that to by name
+and then
+let's go and and this this is basically
+how you add clothes so it follows a body
+and so you can see now
+the hair is moving to match it it's not
+perfect
+but that's kind of how it works
+and it's poking through a bit
+so we can adjust the weight paints if we
+wanted to
+this is the skull cap so what i'm going
+to do
+okay so um
+i want to edit this but when i go to
+edit mode you can see it pops back
+let's just make sure these are clicked
+on our
+modifier for our um armature so that way
+when we go to edit mode
+it stays
+i'm just going to grab that and hit alt
+s just a tiny bit
+this is the purpose of this is just to
+cover the scalp anyway
+so if you can see through the hair or
+something it's you don't see skin
+so i don't really care about modifying
+that
+okay so that's looking okay
+so now let's work on our eyebrows
+oops angry
+okay
+grab my rig shift click our mesh and
+weight paint and
+see how she looks
+okay not bad little
+this is a little bit too abrupt
+so let's try and reduce that a bit
+and if you're getting bored just
+skip to the next section which would be
+for hair or you can skip to the eyes the
+eyes are hard
+to smooth that out so let's bring in
+some of the nose to here
+it's a little bit better
+up
+that's okay
+okay
+let's do the eyes
+so let's uh let's just try and smooth
+this out so let's go to where it's close
+to closed
+and just click some bones here and
+try and smooth things out
+oops
+so just like the lips will need to
+pull weights from one bone to the other
+to just get this thing to smooth
+let's start off by just
+blurring things a bit
+the bottom is easier because it doesn't
+bend as much
+okay
+so let's go and
+pull some of this over
+to get that to blend a bit
+let's pull some of this over
+and i'm just using the blur but
+in effect it
+expands the reach of it
+just pull that over a bit
+and that's weird
+and then let's pull this over some
+this is poking up there
+hmm
+not sure why
+it's a little better
+so this is really
+deforming i don't like that
+soften that a bit
+so this is from the bone that's for the
+this area here above the eye which
+doesn't move so if you expand the
+the weights from this one it'll affect
+bring this eyelid
+um
+it'll open it
+like how the eye was open because that's
+this mesh's default state so
+so i don't know
+if i actually want to do that so let's
+um
+go back a bit and put that back
+okay so i think what i want to do is
+i want to erase that a bit
+yeah
+it's a little bit better
+that must be what was messing things up
+okay
+it's a little bit better
+we can fix that with just bone position
+so don't worry about that too much
+okay let's try and further smooth this
+let's get rid of this window
+and okay so what can we do here
+to get rid of these terrible uh
+little peaks and valleys
+let me pull some of this over
+mix here
+b oops m
+sometimes it can help you to turn off
+your sub d to see what's going on
+that's really
+weird
+looks like the inside of our eyelid is
+poking through
+but i don't think that's causing this
+warble i think
+this one here is uh i think we knock
+that back
+or add influence from somewhere else
+maybe we add the influence from here
+nope it's not going to do it
+trying to see why this is poking out so
+far
+and
+i think
+the original position is right here so i
+think that's just
+because the original location was
+already sticking out pretty far so
+it's going to be hard to fix that
+so what you can do in this case is you
+can try and pull it back a bit yeah so
+let's go to edit mode edge mode
+and i'm just doing this to make sure
+it's affecting both at one time
+and just pull it back just a tiny bit
+and make sure it's not totally messed up
+when the eyes open
+i think that'll help a bit it's not
+going to help this um
+our original problem which is the uh
+bottom of the eye top of the eye was
+marbly
+so let's see here
+what does that do
+nothing
+is that too it's not good
+yeah and see you can see that vertex is
+pushing through let's fix that later
+let's get the overall shape good first
+okay let's go back to weight painting
+mode
+let's try and even that a bit
+oops you can see i hit the bottom of the
+eye so be careful you don't do that
+and you know
+you want to get this to be good but you
+don't need to super
+get it good because we have eyelashes
+that kind of block everything
+and then you can always use your bone
+positions to fix things too but
+try and get it as good as you can
+i mean really you
+you won't be looking at this close
+you'll be looking at like
+this close
+so from there it's hard to tell
+but um
+let's make it a bit better
+sometimes you can just go heavy weight
+and drag things around just to see what
+is going on
+okay
+okay i think that's all right
+that's good
+let's check it out
+let's just check it out really quick
+with our controls so let's go to
+our pose mode
+and go to
+the face
+primary and
+secondary so let's see if we can improve
+that with our
+bones here
+let's make sure we are
+on a keyframe and have animation turned
+on
+let's try and get a nice closed eye look
+it's the corner
+okay that's not bad
+oh let's uh cover up the this is the eye
+poking through
+so what you can do is create a pose
+library
+later on and then you can
+create a pose for the eyes closed so
+this way you don't need to like redo
+this every single time
+okay so that's it's getting there this
+obviously needs a lot more finesse
+but i think it's pretty good
+so let's just fix
+the um inverted um
+surfaces there
+that and then we'll call it good
+okay let's go to object mode shift click
+or mesh wait paint mode and
+we had some
+yeah right here
+it's kind of tweaked
+so let's just
+blur that a bit
+and that's actually a little hot
+i wonder if that's what's causing it
+not totally
+okay that helped
+seems like the eyelid is going pretty um
+it's quite pretty inside
+i think this one is messing things up so
+you can do some last minute tweaks too
+um
+for individual vertices so if you grab a
+vertice
+you can change some of these values
+um don't change them too far and it's
+kind of only a last minute thing
+you can change those last minute and
+then um
+because it'd be it's it's too much work
+to like
+change all of your vertices this way but
+you can do some final last minute tweaks
+like that
+okay so let's see here
+okay so i think that's going to be okay
+um you might want to put some more work
+into it but really we're going to have
+eyelashes looks really funny we got to
+fix the eyelashes
+but when you have
+your shading turned on
+well it's a giant mess but the eyelashes
+are gonna block
+we're gonna
+get in the way of seeing that skin
+coming together and so you won't be able
+to see much but we gotta
+let's do the eyelashes next
+those are
+eyelashes are hard
+let's go to solid mode toggle overlays
+grab our rig shift click our eyebrows
+and go to weight paint
+let's make sure our mirror
+is turned on
+and i think what we need to start with
+is
+these
+bones here so we deleted all the other
+vertex groups for the eyelashes but we
+didn't delete these
+for the um
+where the eyelid folds i think that's
+messing things up so let's go
+hit n
+for tool make sure we're on brush here
+and then click this and hit b for
+subtract
+and let's turn off front faces and shift
+f to make the weight
+and let's just erase
+all the weights
+this should help things
+okay
+okay that's actually looking okay
+the
+inside is kind of poking through
+so let's go and fix that a bit
+so you can um
+you can fix that in a couple ways you
+can add some weight for the main head
+bone or you can add some weight for the
+from the opposite side
+so instead of this top bone here you'd
+add something from the bottom there
+so let's try and do that
+so let's go to m for mix
+let's go shift f and make this really
+low
+and then
+it's not here
+so it's kind of this uh you know this
+moving
+moving sculpting thing
+um
+and also make sure we have
+for armature make sure these are turned
+on
+okay
+i think that's all right let's check it
+in um shaded mode
+see a weird
+line oh
+so this weird line is bothering me
+so let's go and fix that i think that's
+just because the um
+the actual geometry is
+got a little gap
+so let's let's try and weight paint that
+first if we can't do it then let's um
+let's just edit the mesh so what we're
+going to do is grab the
+bottom like we have it and subtract
+b
+and let's see if we can get rid of this
+little gap right there
+you know what let's go and directly add
+these points
+so let's see for the bottom yep here we
+go it's the bottom one
+so let's pull that up
+did that do it
+yeah i think that did it
+okay
+so our
+eyelashes are good
+i don't like
+um
+this
+visual right there doesn't look good so
+let's go and fix that
+i think that's caused by this uh what is
+that caused by
+the surface here is
+coming
+too far down so let's uh go and fix that
+i think that's this one here let's grab
+this bottom one and reduce
+or increase
+see if that helped
+it's better like now this one is doing a
+problem here
+yeah that one
+oh we've got some inconsistencies too
+this side looks different
+i wonder if
+okay
+okay
+i think that's better
+you could tweak this more
+you could
+tweak this forever
+but um
+i think you get the idea
+and yeah you could do this
+you could do this until it's perfect
+we're going to stop here okay so let's
+call the
+eyelashes done
+then let's move on to the hair
+okay let's go to
+solid mode actually you know what let's
+do something really quick let's go back
+into weight paint mode
+and let's re-turn on front faces only
+because that'll just confuse
+you later it'll confuse me later so
+turn that back
+off let's go to solid mode
+let's grab
+our rig go to pose mode
+turn off our bones here
+and let's turn on
+our
+face
+which has all of our hair bones and
+torso which has our um
+head control bone
+um
+and then let's see here
+turn on our hair
+outer air
+turn on the dress
+okay
+let's hit a to grab all the rig let's go
+to the very end
+and then
+i
+location rotation scale actually let's
+hit grs so we can just reset the whole
+pose
+and then let's go forward five more
+frames
+and then we'll pose the hair a bit
+so we can do our weight painting
+okay let's
+do something really quick let's grab
+this headphone and hit
+m and hold shift and click this first
+one here
+so we're putting this head bone on this
+layer and this layer so now we can
+toggle these all off
+and this one layer we have all the head
+control bone
+and all the hair control bones so this
+will make it easier for us
+and let's see here so you can see
+when you move the head down the hair
+just kind of
+hangs through the face
+so we can fix that
+by
+grabbing this here and setting all three
+strands to 0.5
+so here's one
+here's the other one
+and here's the third one
+okay so this makes the hair a little bit
+more
+manageable
+okay
+and then let's
+set the hair in some poses here so let's
+go
+put the head down
+and let's put the head up just to
+see how it looks
+and alt r and r y so she's looking away
+and r y so she's looking
+towards us
+and then alt r
+and then we'll move the hair up so let's
+just
+move the hair out like that
+and like that
+oh shoot let's put these back
+that 360 alt
+r
+great
+okay so then
+we can kind of see how things look you
+can see that the uh
+the hair bones are clipping through the
+shoulder
+but i just wanted to
+see how this looks well we'll have to uh
+wait paint it and see okay
+so there's some basic animations set up
+we can probably add some more later
+if we need to
+but let's get started with uh weight
+painting
+you know i'm going to just take out this
+rotation here at 360 for the head
+so the hair moves just by itself
+then we'll turn on our bone groups here
+so for weight painting the hair we only
+need
+the hair bones
+and the head bone
+so ctrl i and h
+so this will make it easier for us to
+work
+okay so when we're assigning these uh
+these weights
+same thing we want to assign
+various strands of hair or clumps or
+several strands of hair to the strands
+of bones but the hardest part is
+they're just so many strands of hair and
+by default you can see they're all mixed
+up
+so we just need to find a way to make
+this simple for us to do
+so let's go and do that let's go to
+object mode
+and grab our hair here
+so let's start with this
+piece here these are all messed up
+so let's go to
+edit mode and
+i want the hair to stay in place when i
+go to edit mode it's easier to
+understand so make sure you turn on
+these
+two
+for your um armature
+okay
+so what i want to do
+keep doing this
+is i want to separate
+this uh this bottom area here and that
+was that group that we made
+called um
+the nape
+here we go and so let's select that
+and then
+let's x-ray to make sure there's nothing
+else selected
+you can zoom in to make sure
+it's focusing on just what you want
+selected sometimes you have a random
+point selected and it messes things up
+mesh
+separate selection
+let's exit out
+and then grab our
+rig
+shift-click our
+hair nape
+let's grab our rig shift-click our
+hair and go to object and weight paint
+okay
+so if you click these you can see
+some have weights some don't have any
+waste but nothing there's no weights on
+this part right here so let's go and fix
+that
+let's go into isolate mode
+control click a bone and then number pad
+period to zoom in
+and then let's turn on the wire frame
+here
+and let's weight paint
+we will go to
+brush
+tool
+click this and hit m for mix
+make sure front faces only is turned off
+and let's find the bone that's closest
+to this area here because i want to
+throw weights on there first
+and i think it's that one
+okay so this strand here we want to just
+be in the middle so we're going to go
+through here and erase
+everything else
+so
+b
+shift f
+and then just erase
+we're going to leave um
+the vertex groups because we still might
+use them later but for now
+this is just to simplify it for us
+let's redo some weights here again so
+um m for mix
+shift f slow that really low
+i think i still have some weights here
+so you can you can a
+shortcut to find out what's affecting a
+mesh with weights is you can click a
+point
+go to item
+and click the one that's a high number
+so
+i don't know which ones these are so i'm
+going to guess that
+it's this one that's messing with it
+and then
+you can toggle off the wireframe and you
+can see
+it looks like that's what is affecting
+it
+b
+and then take it out and there you go
+okay
+so and use some common sense when you're
+looking at these weights this is
+probably too much
+so let's go and subtract some up here
+and this is probably too little
+yeah so the weights applied really funny
+let's lower this down to like 0.1
+let's just add weights to everything
+it's easier when the hair is in its
+relaxed position to figure out which
+bone is related to
+which part of the mesh
+okay let's
+subtract some of that
+and let's subtract some of that
+and blur it a bit so let's see how this
+looks now
+okay so that looks better
+if you want to um
+add some volume to the hair
+you can do that
+so you can
+there's a few ways to do that so um
+i think what i would do is
+i'd go to
+edit mode
+here
+l
+mesh
+separate selection
+l
+oh you know what i
+don't think i grabbed the entire mesh
+i did not see i grabbed only one half
+because the um
+when you have these red lines these
+seams for your uv map
+if you're in face mode and you hit l to
+select you only select half of it it
+stops at the seam so
+let's go to vertex mode
+and hit l you should see the whole
+strand is selected
+mesh separate selection do the same
+thing here mesh
+separate selection
+okay so now there are three separate
+meshes
+then click your rig click your mesh
+object weight paint
+and then you can add some weights
+to your mesh to get some volume so
+mix
+f to lower that
+so i'm kind of keeping in mind that this
+is the area that this bone relates to
+and then
+i don't want that much volume and then
+i'm going to add some weights to
+it to give it some volume when it's
+moving out
+and just blur it all
+back
+okay so that's a little bit nicer
+do the same thing for the other side
+object weight paint
+tool
+add some volume
+notice i'm
+staying away from the top here because
+this top part you want to follow the
+skull like completely
+so
+i'm just affecting this bottom area
+okay let's blur this a bit
+and so you can tweak this as much as you
+want to get to look as perfect as you
+want to i'm going to
+kind of rush through this
+for our tutorial
+but you should probably spend a little
+more time in this okay so i think that's
+going to be all right
+so let's go up back to object mode
+then click click click and ctrl j
+so it's back into one chunk
+and then let's make sure
+so now we like how our hair is kind of
+like
+expanding out a bit
+it'll never be this extreme so that's
+not a problem
+if you want you could fix it i would
+probably fix that but um i'm gonna leave
+it for now
+but let's make sure that the hair that
+sticks to the back of the skull
+stays in place you can see here this is
+all moving
+so let's grab our rig shift click our
+mesh object and weight paint
+so we will do is
+check these top bones and we will
+subtract
+b
+and shift f
+and take out
+all the way to the top so i don't see
+anything
+here take it all out
+wait that mess something up
+okay so it's confusing me because when
+you um
+you erase it it goes back down here
+that's because there's no way it's
+assigned to it so let's do this let's
+first assign weights to the head
+so let's grab that and hit
+m for mix
+and set that to 1 and just make that
+so wherever it's going to stick to the
+skull
+let's just
+add
+full weight to it
+so i think all that
+will be full weight
+i'm here
+i think back here shouldn't be red but
+back here should be so it's turned back
+on front faces only
+so now it's not going to blast through
+the whole thing
+okay
+that's pretty good
+now let's go and
+erase some of the weights for these
+things here
+b
+subtract
+subtract
+subtract
+yeah so just take out the weights and
+then test it
+and see
+okay so this is still moving
+this tip here still moving
+so let's see what's causing that
+item
+i think
+so this is our hair head and so this is
+the one that's causing a problem here
+let's go here subtract
+make sure we're
+okay
+that's weird it's all the way over here
+oh there it goes
+so weird
+okay so
+we still have something it's probably
+over
+there it here
+okay
+then if you want you can go back and
+fix some of those things
+this actually needs more weight
+that crest is bugging me
+doing something here
+ah there you go
+you
+you little bugger
+okay
+okay i think that's okay
+that took way too long okay so that's uh
+one piece
+and it's following our head here
+okay so that's good so so this piece is
+nice because it
+if you look up
+and you catch the back of her ear it
+kind of just fills in that mass
+the skin behind the head so it looks
+more
+the hair looks more complete okay so
+let's go ahead and do some more here
+okay so next let's do
+like the
+the middle outer hair
+let's go to edit mode
+and
+see what was called hair
+hair back
+select
+then mesh let's make sure it's the only
+group we have assigned here
+okay mesh separate selection
+let's grab
+our rig
+where's our rig grab our rig shift
+clicker mesh object and weight paint
+okay let's do the same thing
+so let's add some weights for the head
+tools mix
+strength
+one
+and we will add some weight for the hair
+just where the head is
+let's affect just the inside not the
+outside right here
+yeah i think it's good
+and blurred a bit
+okay
+and then let's
+last time all of these bones over here
+messed up our middle area so let's just
+take those all out
+let's go to b
+shift f so it's 1
+f make that really big
+let's just delete
+the whole
+thing for these side bones
+and nothing's happening
+oops
+turn off front faces only
+okay let's do the same thing for the
+other side
+so this will kind of reset us
+so it's just easier to
+work with
+okay
+and let's go and assign some weights
+mix let's make this
+smaller
+make the weight smaller
+and let's lower the hair a bit
+and then
+the size of weights
+so that's got plenty of weight assigned
+okay
+so now it should at least follow
+let's
+blur it out a bit
+oops
+okay so now let's also erase the weights
+for the bones
+for the hair so that way only the head
+bone is affecting this top area
+so b
+subtract
+shift f so you have
+full control
+for weight
+and then
+just erase
+some here
+and blur it back in a bit
+okay
+i don't like how this weight's coming
+all the way down so far from where it's
+bone is so let's go and
+take out some of that
+that's okay it's okay
+yeah those are okay
+you can see when the weight paint is not
+consistent things really bend
+differently oh i keep leaving front
+faces turned off
+for the hair it's helpful to have that
+turned on i mean off
+yeah see the weights for the sides
+is a lot less than the middle
+it was making things move
+inconsistently
+okay so i think that's pretty good
+so we can add some volume to this also
+so let's go and do that
+let's go to object mode edit mode
+make sure we're in vertex mode
+hit l
+mesh separate selection
+click a point uh mouse over l
+mesh separate selection okay then let's
+do the same thing
+object repeat mode
+so it's a lot of the same thing over and
+over again
+so let's just grab that here
+tool mix the weight that's about good
+let's not affect the hair
+too close to where it comes out of the
+scalp
+and let's not go too far here
+okay it's pretty good
+and then
+same thing here object
+weight paint
+i may have missed that one
+and again this doesn't have to be
+perfect because
+um the hair is
+not going to be
+spread out this much usually it's just
+like walking around running around
+jumping around so
+it's probably not a big deal unless you
+know that you're gonna be um
+having the hair
+um
+do these kind of crazy things and if
+that was the case you'd probably want to
+add a lot more
+um control for the hair
+so this is kind of a real general
+simple rig for the hair
+and you can see it's quite a bit
+different from the other side
+um
+so if that bugs you you can make it even
+i'm just trying to make this look kind
+of smooth
+okay that's all right
+if it bugs you how this strand is um
+going inside you can go and fix that
+that might actually be good to see so
+let's do that here so let's grab our
+mesh
+l
+mesh separate selection
+rig mesh weight paint okay
+so we want this little strand of hair to
+follow that big strand of hair more or
+less
+so maybe we can do this so we can
+click what we want
+to follow and then we'll click the
+follower and go to object
+and weight paint weights transfer
+weights
+active layer changes to by name
+i think i showed you this a little bit
+earlier in this video this is the same
+way you add
+make clothing follow your rig
+and it's it's not perfect but now you
+can see it follows
+better
+still kind of poking through there but
+really i don't think our hair will ever
+go that
+high
+this is like a general use hair so i
+think i think that's fine now okay
+let's call this good we'll grab these
+things here
+ctrl j and that's good
+leave isolate
+and so
+those are done
+let's see what else we need here
+okay let's try and do
+this left side here
+let's grab that
+and oh here we go
+let's do the left appear
+so
+to click off to make sure you have
+nothing selected then hit select
+mesh
+separate selection
+and let's separate this one through here
+so hair
+right rear
+mesh separate selection
+and let's do this here too
+hair
+right
+select
+mesh
+separate selection
+and i think that's it
+select
+i think that's actually the last part oh
+no it's not
+mesh separate selection okay so we've
+got a bunch of things separated
+separated
+and let's work on this one
+so let's grab our rig
+rig
+grab the hair
+and then object and whey paint
+so i think by now you've got the idea
+it's going to be the same thing over and
+over again until we do all the strands
+of the hair
+and then make sure it looks kind of okay
+when it's at full extension but really
+it'll always be like
+this at the most
+you can see it looks better like that
+here it starts to break down
+but adding that bit of volume makes it
+kind of like fill in the gaps
+and so that works nice
+so i'm going to
+blaze through the rest of this feel free
+to watch if you want
+i'll note anything that unusual that
+pops up but otherwise i'm just going to
+just do this
+okay here we go
+you
+you
+you
+okay let's see what's left here
+did those
+i think now we need to do these two
+front little pieces
+it should be all the
+front bones
+okay so let's grab that
+oops grab that grab that
+object and weight paint
+let's do it again
+so
+so
+okay i think we have just this one last
+piece here
+so let's
+grab the rig
+grab the rig grab the hair
+object and weight paint
+and isolate okay
+let's see what we got here
+so
+so
+so getting pretty close here
+so keep in mind the hair is probably
+only going to move out that much at the
+most
+but there are
+some gaps in there so let's just
+make this blend a little bit better and
+i think we'll be good to go
+oh you can see also here this
+hair is actually not working right it's
+blowing through the
+this is the skull cap and it's actually
+blowing through the outer hair so that's
+let's fix that first
+let's grab our rig
+grab our hair cap
+object weight paint
+let's grab our headphone here
+so it's a little bit hard to see let's
+go here and
+let's add
+this
+all the way
+it's not enough to fix it
+let's go here
+and delete some of that
+b and subtract
+see that fixes it
+yeah that fixed it
+okay
+so let's go and blend some of these
+things
+so i think
+i think if this comes out a bit more
+towards the front i think that's all we
+need
+let's grab our rig grab that object and
+wait paint
+let's
+just
+add some weight to it here
+that down
+maybe it's a little high
+and we'll pull some of these back
+so let's grab a rig
+grab a hair
+object and weight paint
+grab that
+and
+let's lower this a bit
+can't reach that point
+sometimes it's hard to reach the very
+tips of the hair
+let's blur it a bit here
+okay
+and then see here
+okay i think we look pretty good here
+so that's probably as far as the hair
+would go and i think that's okay
+okay i think we are
+i think we're done we've got the hair
+rigged oh that's crazy now we've got our
+facial expressions rigged
+the whole body is rigged the clothing is
+not very good we'll cover that later but
+um
+yep i think that is it
+so that's it for our video today i hope
+that was useful to you if it was leave a
+comment to let me know or like or
+subscribe
+and in the next video we will attach the
+clothes to the rig
+thanks bye

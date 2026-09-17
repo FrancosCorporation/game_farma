@@ -1,0 +1,735 @@
+Kind: captions
+Language: en
+Hi, it's Handy Andy Tech Tips here.
+Hi, it's Handy Andy Tech Tips here.
+Hi, it's Handy Andy Tech Tips here.
+Today, I'm going to show you how you can
+Today, I'm going to show you how you can
+Today, I'm going to show you how you can
+use a feature of DaVinci Resolve, which
+use a feature of DaVinci Resolve, which
+use a feature of DaVinci Resolve, which
+is my favorite video editing package,
+is my favorite video editing package,
+is my favorite video editing package,
+and also happens to be completely free
+and also happens to be completely free
+and also happens to be completely free
+to use.
+to use.
+to use.
+The feature is called character level
+The feature is called character level
+The feature is called character level
+styling, and it lets you achieve effects
+styling, and it lets you achieve effects
+styling, and it lets you achieve effects
+like this. Pretty cool, right? So, you
+like this. Pretty cool, right? So, you
+like this. Pretty cool, right? So, you
+might already be familiar with the
+might already be familiar with the
+might already be familiar with the
+process for creating a regular title in
+process for creating a regular title in
+process for creating a regular title in
+DaVinci, and if not, then it's very
+DaVinci, and if not, then it's very
+DaVinci, and if not, then it's very
+simple.
+simple.
+simple.
+You just drag a text element from the
+You just drag a text element from the
+You just drag a text element from the
+toolbox to the timeline,
+toolbox to the timeline,
+toolbox to the timeline,
+and then you can add some text to it.
+and then you can add some text to it.
+and then you can add some text to it.
+So, I'll add Resolve as the first line,
+So, I'll add Resolve as the first line,
+So, I'll add Resolve as the first line,
+and effects as the second. Now, you can
+and effects as the second. Now, you can
+and effects as the second. Now, you can
+see it's not showing up in the preview
+see it's not showing up in the preview
+see it's not showing up in the preview
+because the text is white and the
+because the text is white and the
+because the text is white and the
+background is as well. But, changing the
+background is as well. But, changing the
+background is as well. But, changing the
+color is pretty easy. I want the word
+color is pretty easy. I want the word
+color is pretty easy. I want the word
+Resolve to be blue, so I'll just select
+Resolve to be blue, so I'll just select
+Resolve to be blue, so I'll just select
+that,
+that,
+that,
+and then I'll click on the color swatch,
+and then I'll click on the color swatch,
+and then I'll click on the color swatch,
+and I'll select a nice blue color.
+and I'll select a nice blue color.
+and I'll select a nice blue color.
+And it's as easy as that.
+And it's as easy as that.
+And it's as easy as that.
+I can adjust the font size a bit, make
+I can adjust the font size a bit, make
+I can adjust the font size a bit, make
+it a bit larger perhaps, and then I can
+it a bit larger perhaps, and then I can
+it a bit larger perhaps, and then I can
+select the word effects,
+select the word effects,
+select the word effects,
+and I want to change that to a black
+and I want to change that to a black
+and I want to change that to a black
+font.
+font.
+font.
+Okay, that looks all right.
+Okay, that looks all right.
+Okay, that looks all right.
+But, what if I wanted to animate this
+But, what if I wanted to animate this
+But, what if I wanted to animate this
+title, say by changing the rotation?
+title, say by changing the rotation?
+title, say by changing the rotation?
+Well, I'll keep the word effects
+Well, I'll keep the word effects
+Well, I'll keep the word effects
+selected, and then I'll go to the
+selected, and then I'll go to the
+selected, and then I'll go to the
+rotation effect.
+rotation effect.
+rotation effect.
+Hmm, we have a bit of a problem here.
+Hmm, we have a bit of a problem here.
+Hmm, we have a bit of a problem here.
+The entire title is rotating, not just
+The entire title is rotating, not just
+The entire title is rotating, not just
+the word that I selected.
+the word that I selected.
+the word that I selected.
+So, how can we have more control over
+So, how can we have more control over
+So, how can we have more control over
+different parts of the same title, and
+different parts of the same title, and
+different parts of the same title, and
+animate them in different ways?
+animate them in different ways?
+animate them in different ways?
+Well, that's where character level
+Well, that's where character level
+Well, that's where character level
+styling comes in.
+styling comes in.
+styling comes in.
+Let's see how to use it.
+Let's see how to use it.
+Let's see how to use it.
+Now, for this demo, I want to make a
+Now, for this demo, I want to make a
+Now, for this demo, I want to make a
+nice 3D looking title.
+nice 3D looking title.
+nice 3D looking title.
+So, to do this, I'll need to add a
+So, to do this, I'll need to add a
+So, to do this, I'll need to add a
+Fusion composition.
+Fusion composition.
+Fusion composition.
+So, go into the toolbox and find the
+So, go into the toolbox and find the
+So, go into the toolbox and find the
+Fusion composition element under
+Fusion composition element under
+Fusion composition element under
+effects.
+effects.
+effects.
+There it is, so drag it in.
+There it is, so drag it in.
+There it is, so drag it in.
+Okay, next you'll need to click on the
+Okay, next you'll need to click on the
+Okay, next you'll need to click on the
+Fusion tab at the bottom of the window.
+Fusion tab at the bottom of the window.
+Fusion tab at the bottom of the window.
+It's the one with the icon that looks
+It's the one with the icon that looks
+It's the one with the icon that looks
+like a magic wand.
+like a magic wand.
+like a magic wand.
+Now we have this interface, which lets
+Now we have this interface, which lets
+Now we have this interface, which lets
+you build out a series of nodes.
+you build out a series of nodes.
+you build out a series of nodes.
+Basically, it's like a little flowchart
+Basically, it's like a little flowchart
+Basically, it's like a little flowchart
+with boxes that you can connect
+with boxes that you can connect
+with boxes that you can connect
+together, and each one of these nodes
+together, and each one of these nodes
+together, and each one of these nodes
+achieves a different part of the effect.
+achieves a different part of the effect.
+achieves a different part of the effect.
+So, we have one node here called media
+So, we have one node here called media
+So, we have one node here called media
+out, but we want to add some more.
+out, but we want to add some more.
+out, but we want to add some more.
+So, press shift and space on your
+So, press shift and space on your
+So, press shift and space on your
+keyboard, and then it comes up with this
+keyboard, and then it comes up with this
+keyboard, and then it comes up with this
+dialogue where you can search for a new
+dialogue where you can search for a new
+dialogue where you can search for a new
+node.
+node.
+node.
+First, we want the text plus node, and
+First, we want the text plus node, and
+First, we want the text plus node, and
+make sure you use the one with the plus
+make sure you use the one with the plus
+make sure you use the one with the plus
+sign on the end, not the regular text.
+sign on the end, not the regular text.
+sign on the end, not the regular text.
+So, I'll add that, and then I'll put it
+So, I'll add that, and then I'll put it
+So, I'll add that, and then I'll put it
+over here.
+over here.
+over here.
+Next, search for the text 3D node.
+Next, search for the text 3D node.
+Next, search for the text 3D node.
+Add one of those as well.
+Finally, we need to add a 3D renderer.
+No, sorry, renderer renderer 3D. You
+No, sorry, renderer renderer 3D. You
+No, sorry, renderer renderer 3D. You
+need to type it in the right order.
+need to type it in the right order.
+need to type it in the right order.
+So, now that we have all of our nodes,
+So, now that we have all of our nodes,
+So, now that we have all of our nodes,
+let's connect them together.
+let's connect them together.
+let's connect them together.
+You can just drag the little arrow
+You can just drag the little arrow
+You can just drag the little arrow
+across to connect the text 3D node to
+across to connect the text 3D node to
+across to connect the text 3D node to
+the renderer 3D, and then connect the
+the renderer 3D, and then connect the
+the renderer 3D, and then connect the
+renderer 3D to the media out.
+renderer 3D to the media out.
+renderer 3D to the media out.
+You can see the checkerboard in the
+You can see the checkerboard in the
+You can see the checkerboard in the
+preview, which means that we're getting
+preview, which means that we're getting
+preview, which means that we're getting
+an output, and everything should work.
+an output, and everything should work.
+an output, and everything should work.
+You don't need to connect the um text
+You don't need to connect the um text
+You don't need to connect the um text
+plus node to anything in this view.
+plus node to anything in this view.
+plus node to anything in this view.
+We'll connect it a different way later.
+We'll connect it a different way later.
+We'll connect it a different way later.
+Now, you want to click on the text plus
+Now, you want to click on the text plus
+Now, you want to click on the text plus
+node, and then enter the text you want
+node, and then enter the text you want
+node, and then enter the text you want
+to use.
+to use.
+to use.
+I'll put Resolve as the first line, and
+I'll put Resolve as the first line, and
+I'll put Resolve as the first line, and
+effects as the second, just like I had
+effects as the second, just like I had
+effects as the second, just like I had
+before.
+before.
+before.
+Now, here's a little secret. Right click
+Now, here's a little secret. Right click
+Now, here's a little secret. Right click
+in the text box, and click character
+in the text box, and click character
+in the text box, and click character
+level styling. Now, when you do this,
+level styling. Now, when you do this,
+level styling. Now, when you do this,
+it'll seem like nothing much has
+it'll seem like nothing much has
+it'll seem like nothing much has
+changed, but just look at the modifiers
+changed, but just look at the modifiers
+changed, but just look at the modifiers
+tab at the top. It's deactivated now,
+tab at the top. It's deactivated now,
+tab at the top. It's deactivated now,
+but as soon as I click on character
+but as soon as I click on character
+but as soon as I click on character
+level styling, it becomes active. We'll
+level styling, it becomes active. We'll
+level styling, it becomes active. We'll
+be using that tab later.
+be using that tab later.
+be using that tab later.
+Okay, next click on the text 3D node
+Okay, next click on the text 3D node
+Okay, next click on the text 3D node
+down here.
+down here.
+down here.
+And then right click in its text box and
+And then right click in its text box and
+And then right click in its text box and
+select connect to character level
+select connect to character level
+select connect to character level
+styling one
+styling one
+styling one
+style text.
+style text.
+style text.
+And after you've done that, it means
+And after you've done that, it means
+And after you've done that, it means
+we'll be able to use our styling in this
+we'll be able to use our styling in this
+we'll be able to use our styling in this
+3D node.
+3D node.
+3D node.
+Well, we have the text now, but it's
+Well, we have the text now, but it's
+Well, we have the text now, but it's
+absolutely huge. So, I'll fix that. I'll
+absolutely huge. So, I'll fix that. I'll
+absolutely huge. So, I'll fix that. I'll
+just click on the vertical anchor button
+just click on the vertical anchor button
+just click on the vertical anchor button
+first to align it to the center.
+first to align it to the center.
+first to align it to the center.
+And then I can just reduce the size of
+And then I can just reduce the size of
+And then I can just reduce the size of
+it uh down a bit with the font.
+it uh down a bit with the font.
+it uh down a bit with the font.
+Okay, that's a bit better.
+Okay, that's a bit better.
+Okay, that's a bit better.
+Now, if you go back to the text plus
+Now, if you go back to the text plus
+Now, if you go back to the text plus
+node
+node
+node
+and go into the modifiers tab in the
+and go into the modifiers tab in the
+and go into the modifiers tab in the
+inspector. This is where we're going to
+inspector. This is where we're going to
+inspector. This is where we're going to
+apply the styling.
+apply the styling.
+apply the styling.
+Now, the way that this works is in the
+Now, the way that this works is in the
+Now, the way that this works is in the
+preview, you need to drag a box around
+preview, you need to drag a box around
+preview, you need to drag a box around
+the text that you want to style.
+the text that you want to style.
+the text that you want to style.
+So, if I drag a little box here around
+So, if I drag a little box here around
+So, if I drag a little box here around
+the word resolve, you can see some
+the word resolve, you can see some
+the word resolve, you can see some
+little green marks in the center, which
+little green marks in the center, which
+little green marks in the center, which
+represent the letters that were
+represent the letters that were
+represent the letters that were
+selected. And then you can change the
+selected. And then you can change the
+selected. And then you can change the
+style of these selected characters.
+style of these selected characters.
+style of these selected characters.
+So, I'll pick a green color from the
+So, I'll pick a green color from the
+So, I'll pick a green color from the
+swatch, and there we go. The word has
+swatch, and there we go. The word has
+swatch, and there we go. The word has
+turned green.
+turned green.
+turned green.
+So, the cool thing is that I can now go
+So, the cool thing is that I can now go
+So, the cool thing is that I can now go
+through and make each letter a different
+through and make each letter a different
+through and make each letter a different
+color because I can select them.
+color because I can select them.
+color because I can select them.
+So,
+Okay, so I want the E to be a nice
+Okay, so I want the E to be a nice
+Okay, so I want the E to be a nice
+yellow color.
+yellow color.
+yellow color.
+We can do that.
+The S should be uh pink.
+The O should be blue.
+The L
+The L
+The L
+will be uh
+Hmm, I I like red, but that one's too
+Hmm, I I like red, but that one's too
+Hmm, I I like red, but that one's too
+dark. Maybe a lighter one. There we go.
+And the V might like to be teal.
+Perfect.
+Perfect.
+Perfect.
+Here comes the fun part, actually
+Here comes the fun part, actually
+Here comes the fun part, actually
+animating it.
+animating it.
+animating it.
+I'll go back to the text 3D node.
+I'll go back to the text 3D node.
+I'll go back to the text 3D node.
+I'll go to tools,
+I'll go to tools,
+I'll go to tools,
+extrusion,
+extrusion,
+extrusion,
+and I'll change the depth of the
+and I'll change the depth of the
+and I'll change the depth of the
+extrusion to have a nice 3D effect.
+Cool.
+Cool.
+Cool.
+Now, to further accentuate that, I'll go
+Now, to further accentuate that, I'll go
+Now, to further accentuate that, I'll go
+to the shading tab.
+I'll untick use one material.
+And then I'll change the bevel material,
+And then I'll change the bevel material,
+And then I'll change the bevel material,
+it's called, to black, which will help
+it's called, to black, which will help
+it's called, to black, which will help
+it show up better against the white
+it show up better against the white
+it show up better against the white
+background.
+Now, I'll go to the modifiers tab again.
+And if I adjust the rotation, you can
+And if I adjust the rotation, you can
+And if I adjust the rotation, you can
+see it adjusts the first word only
+see it adjusts the first word only
+see it adjusts the first word only
+because that one has the character level
+because that one has the character level
+because that one has the character level
+styling attached to it. So, that's
+styling attached to it. So, that's
+styling attached to it. So, that's
+pretty neat. That's achieving what we
+pretty neat. That's achieving what we
+pretty neat. That's achieving what we
+want.
+want.
+want.
+Now, I'll just adjust some font sizes to
+Now, I'll just adjust some font sizes to
+Now, I'll just adjust some font sizes to
+make it look a bit nicer. And to do
+make it look a bit nicer. And to do
+make it look a bit nicer. And to do
+that, I'll select the word effects in
+that, I'll select the word effects in
+that, I'll select the word effects in
+the character level styling in and
+the character level styling in and
+the character level styling in and
+that's in the text plus node, by the
+that's in the text plus node, by the
+that's in the text plus node, by the
+way.
+way.
+way.
+And then I'll go back to the text 3D
+And then I'll go back to the text 3D
+And then I'll go back to the text 3D
+node, uh modifiers tab again, and I'll
+node, uh modifiers tab again, and I'll
+node, uh modifiers tab again, and I'll
+adjust the size of that one.
+adjust the size of that one.
+adjust the size of that one.
+Great.
+Now, I'll go back to text plus node,
+Now, I'll go back to text plus node,
+Now, I'll go back to text plus node,
+select the word resolve again, um if I
+select the word resolve again, um if I
+select the word resolve again, um if I
+can find it in here, there we go.
+can find it in here, there we go.
+can find it in here, there we go.
+Uh go back to text 3D,
+Uh go back to text 3D,
+Uh go back to text 3D,
+and we're all set.
+and we're all set.
+and we're all set.
+Now, to insert the key frames we need
+Now, to insert the key frames we need
+Now, to insert the key frames we need
+for an animation, here's what you do.
+for an animation, here's what you do.
+for an animation, here's what you do.
+Under the character level styling
+Under the character level styling
+Under the character level styling
+modifiers,
+modifiers,
+modifiers,
+find where it says, "Right click here to
+find where it says, "Right click here to
+find where it says, "Right click here to
+animate character level styling."
+animate character level styling."
+animate character level styling."
+But, you actually don't want to right
+But, you actually don't want to right
+But, you actually don't want to right
+click, at least not for a start.
+click, at least not for a start.
+click, at least not for a start.
+Instead, click on the little diamond
+Instead, click on the little diamond
+Instead, click on the little diamond
+next to it, and that will create the
+next to it, and that will create the
+next to it, and that will create the
+first key frame.
+Now, underneath the preview window, you
+Now, underneath the preview window, you
+Now, underneath the preview window, you
+can just like drag the little handle
+can just like drag the little handle
+can just like drag the little handle
+forward to scrub through a few frames,
+forward to scrub through a few frames,
+forward to scrub through a few frames,
+and I'll end around about frame 200, I
+and I'll end around about frame 200, I
+and I'll end around about frame 200, I
+guess.
+guess.
+guess.
+And then go back to uh tools.
+And then go back to uh tools.
+And then go back to uh tools.
+Uh it looks like the other word's
+Uh it looks like the other word's
+Uh it looks like the other word's
+selected again. This This stuff keeps
+selected again. This This stuff keeps
+selected again. This This stuff keeps
+happening.
+And that's better. Okay.
+And that's better. Okay.
+And that's better. Okay.
+Now, when you're on the end frame in the
+Now, when you're on the end frame in the
+Now, when you're on the end frame in the
+preview,
+preview,
+preview,
+you can actually right click where it
+you can actually right click where it
+you can actually right click where it
+says this time,
+says this time,
+says this time,
+and then click set key.
+and then click set key.
+and then click set key.
+Now, you can fiddle around to your
+Now, you can fiddle around to your
+Now, you can fiddle around to your
+heart's content.
+heart's content.
+heart's content.
+You can change all of the different
+You can change all of the different
+You can change all of the different
+parameters. In my case, I'm adjusting
+parameters. In my case, I'm adjusting
+parameters. In my case, I'm adjusting
+the rotation.
+the rotation.
+the rotation.
+You can really make it go all crazy, you
+You can really make it go all crazy, you
+You can really make it go all crazy, you
+know, whatever you want.
+know, whatever you want.
+know, whatever you want.
+And then once you play it back in the
+And then once you play it back in the
+And then once you play it back in the
+preview, you can see how the animation
+preview, you can see how the animation
+preview, you can see how the animation
+works.
+Now, it has to do it in real time, so
+Now, it has to do it in real time, so
+Now, it has to do it in real time, so
+it's a bit slower than it will be when
+it's a bit slower than it will be when
+it's a bit slower than it will be when
+it's finally rendered out, but you get
+it's finally rendered out, but you get
+it's finally rendered out, but you get
+the idea.
+the idea.
+the idea.
+Now, if you want even more fun, you can
+Now, if you want even more fun, you can
+Now, if you want even more fun, you can
+just select some of the letters in a
+just select some of the letters in a
+just select some of the letters in a
+word. So, I'll do everything except the
+word. So, I'll do everything except the
+word. So, I'll do everything except the
+first and the last letter, the R and the
+first and the last letter, the R and the
+first and the last letter, the R and the
+E.
+Uh and then you can animate
+Uh and then you can animate
+Uh and then you can animate
+separately.
+separately.
+separately.
+So, for that, you'll need to go back to
+So, for that, you'll need to go back to
+So, for that, you'll need to go back to
+the start of the preview
+the start of the preview
+the start of the preview
+and add another keyframe.
+And then adjust some things like uh the
+And then adjust some things like uh the
+And then adjust some things like uh the
+rotation again.
+rotation again.
+rotation again.
+And look at that. Now, the middle
+And look at that. Now, the middle
+And look at that. Now, the middle
+letters move separately to the end
+letters move separately to the end
+letters move separately to the end
+letters.
+letters.
+letters.
+Brilliant, isn't that fun? It's really
+Brilliant, isn't that fun? It's really
+Brilliant, isn't that fun? It's really
+really great, this.
+really great, this.
+really great, this.
+It's This is basically now the final
+It's This is basically now the final
+It's This is basically now the final
+result that you saw at the start of the
+result that you saw at the start of the
+result that you saw at the start of the
+video.
+Well, I hope you enjoyed this in-depth
+Well, I hope you enjoyed this in-depth
+Well, I hope you enjoyed this in-depth
+DaVinci Resolve tutorial and another
+DaVinci Resolve tutorial and another
+DaVinci Resolve tutorial and another
+little animation here. So, thanks so
+little animation here. So, thanks so
+little animation here. So, thanks so
+much for watching. I'm Handy Andy Tech
+much for watching. I'm Handy Andy Tech
+much for watching. I'm Handy Andy Tech
+Tips, and please subscribe for more tech
+Tips, and please subscribe for more tech
+Tips, and please subscribe for more tech
+videos.

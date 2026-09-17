@@ -1,0 +1,2782 @@
+Kind: captions
+Language: en
+what
+what
+what
+hello and welcome to another tutorial
+hello and welcome to another tutorial
+hello and welcome to another tutorial
+today we will um create and character
+today we will um create and character
+today we will um create and character
+based on images
+based on images
+based on images
+so if you want to turn yourself or a
+so if you want to turn yourself or a
+so if you want to turn yourself or a
+friend or girlfriend or a grammar
+friend or girlfriend or a grammar
+friend or girlfriend or a grammar
+into nps one style inspired retro lopoli
+into nps one style inspired retro lopoli
+into nps one style inspired retro lopoli
+character
+character
+character
+watch this tutorial
+watch this tutorial
+watch this tutorial
+so
+so
+so
+i
+i
+i
+ask a friend of
+ask a friend of
+ask a friend of
+his permission
+to take pictures of him and to use it on
+to take pictures of him and to use it on
+to take pictures of him and to use it on
+the internet
+the internet
+the internet
+so we have here flo uh we took actually
+so we have here flo uh we took actually
+so we have here flo uh we took actually
+pictures of his full body but that's for
+pictures of his full body but that's for
+pictures of his full body but that's for
+a later tutorial
+a later tutorial
+a later tutorial
+today we will attack just the head
+today we will attack just the head
+today we will attack just the head
+and this is the best case scenario to
+and this is the best case scenario to
+and this is the best case scenario to
+recreate a person
+recreate a person
+recreate a person
+based on reference images
+based on reference images
+based on reference images
+we have here the front
+we have here the front
+we have here the front
+view it's actually the most important
+view it's actually the most important
+view it's actually the most important
+pictures
+pictures
+pictures
+picture
+picture
+picture
+the side view
+the side view
+the side view
+and because he has an asymmetrical
+and because he has an asymmetrical
+and because he has an asymmetrical
+hairstyle we need the other side
+hairstyle we need the other side
+hairstyle we need the other side
+like this
+like this
+like this
+the back view and for texturing reasons
+the back view and for texturing reasons
+the back view and for texturing reasons
+the top of the head
+the top of the head
+the top of the head
+so um if you want to take pictures of a
+so um if you want to take pictures of a
+so um if you want to take pictures of a
+person try to photograph them on a eye
+person try to photograph them on a eye
+person try to photograph them on a eye
+level
+level
+level
+and try to be as straight as possible
+and try to be as straight as possible
+and try to be as straight as possible
+the most important shot you will take is
+the most important shot you will take is
+the most important shot you will take is
+the front picture
+the front picture
+the front picture
+because this will later on the term the
+because this will later on the term the
+because this will later on the term the
+details of the i uh the facial features
+details of the i uh the facial features
+details of the i uh the facial features
+and everything
+and everything
+and everything
+so
+so
+so
+for modeling we will actually
+for modeling we will actually
+for modeling we will actually
+just need two pictures the front
+just need two pictures the front
+just need two pictures the front
+and one side view
+and one side view
+and one side view
+for
+for
+for
+reference i will take the
+reference i will take the
+reference i will take the
+this side view because his hair doesn't
+this side view because his hair doesn't
+this side view because his hair doesn't
+cover up the ear so we have a better
+cover up the ear so we have a better
+cover up the ear so we have a better
+view onto his head we are now back in
+view onto his head we are now back in
+view onto his head we are now back in
+blender the first thing we have to do is
+blender the first thing we have to do is
+blender the first thing we have to do is
+let's delete the default cube
+let's delete the default cube
+let's delete the default cube
+and i basically use for every head i
+and i basically use for every head i
+and i basically use for every head i
+create and basically for every
+create and basically for every
+create and basically for every
+organic spherical
+organic spherical
+organic spherical
+element in low poly around cube
+element in low poly around cube
+element in low poly around cube
+so to actually get around cube you have
+so to actually get around cube you have
+so to actually get around cube you have
+to get into edit
+to get into edit
+to get into edit
+preferences and
+extra
+extra
+extra
+add mesh extra objects so this here
+if you toggle that you will be able to
+if you toggle that you will be able to
+if you toggle that you will be able to
+shift a mesh
+shift a mesh
+shift a mesh
+round cube
+round cube
+round cube
+and you will get this don't left-click
+and you will get this don't left-click
+and you will get this don't left-click
+on anything inside this uh viewport
+on anything inside this uh viewport
+on anything inside this uh viewport
+we need this pop-up down here
+we need this pop-up down here
+we need this pop-up down here
+so let's click on that
+radius one
+radius one
+radius one
+and the arc let's reduce it to
+and the arc let's reduce it to
+and the arc let's reduce it to
+two
+two
+two
+this is the most basic sphere you can
+this is the most basic sphere you can
+this is the most basic sphere you can
+get in lopoli
+get in lopoli
+get in lopoli
+and this will be the base for our head
+so far so good
+so far so good
+so far so good
+let's set up our
+let's set up our
+let's set up our
+reference images
+reference images
+reference images
+shift a
+empty image
+empty image
+empty image
+let's hide the run cube
+texture properties
+texture properties
+texture properties
+oh um here
+oh um here
+oh um here
+object data properties open and let's go
+object data properties open and let's go
+object data properties open and let's go
+inside our project
+inside our project
+inside our project
+folder
+folder
+folder
+reference image
+reference image
+reference image
+and let's use the
+and let's use the
+and let's use the
+let's start with the front
+here in the gizmo i click on the minus y
+here in the gizmo i click on the minus y
+here in the gizmo i click on the minus y
+let's drag it out
+let's drag it out
+let's drag it out
+item
+item
+item
+rotation
+rotation
+rotation
+90 and set
+90 and set
+90 and set
+oh
+oh
+oh
+y
+okay
+okay
+okay
+let's zoom in a bit and now let's
+click on our
+click on our
+click on our
+let's name it
+let's name it
+let's name it
+ref
+click
+click
+click
+shift d
+shift d
+shift d
+left click
+c
+c
+c
+and let's use the side view with the ear
+and let's use the side view with the ear
+and let's use the side view with the ear
+where is it here
+where is it here
+where is it here
+nice okay
+nice okay
+nice okay
+now let's adjust
+now let's adjust
+now let's adjust
+the reference image
+the reference image
+the reference image
+and let's create it and make it as
+and let's create it and make it as
+and let's create it and make it as
+straight as possible and align it with
+straight as possible and align it with
+straight as possible and align it with
+the back line with your
+the back line with your
+the back line with your
+address
+address
+address
+opacity
+and
+and
+and
+okay
+like this
+if we hit r
+if we hit r
+if we hit r
+we can rotate it a bit
+i would uh next time i will take a
+i would uh next time i will take a
+i would uh next time i will take a
+picture with the the grid function
+picture with the the grid function
+picture with the the grid function
+inside my handy smartphone
+inside my handy smartphone
+inside my handy smartphone
+it will make this part easier
+it will make this part easier
+it will make this part easier
+now
+now
+now
+let's
+let's
+let's
+bring the out
+bring the out
+bring the out
+opacity back
+let's adjust those
+i always like to use the nose as an
+i always like to use the nose as an
+i always like to use the nose as an
+indicator
+indicator
+indicator
+i didn't drag forward
+and i think we need to make
+this a big bigger
+can you
+can you
+can you
+can see here
+like this okay nice
+like this okay nice
+like this okay nice
+so let's find a good position
+so let's find a good position
+so let's find a good position
+i like to
+i like to
+i like to
+have the the middle of the head here
+have the the middle of the head here
+have the the middle of the head here
+on the ear hole
+on the ear hole
+on the ear hole
+like this
+like this
+like this
+so the the scaling of the side view and
+so the the scaling of the side view and
+so the the scaling of the side view and
+um
+um
+um
+the front view is very important so we
+the front view is very important so we
+the front view is very important so we
+don't
+don't
+don't
+mess up the
+mess up the
+mess up the
+the proportions side in front view
+the proportions side in front view
+the proportions side in front view
+so take your time with this part now
+so take your time with this part now
+so take your time with this part now
+let's
+let's
+let's
+click on the side view
+click on the side view
+click on the side view
+on the red arrow
+on the red arrow
+on the red arrow
+i drag it to the side and this on a
+i drag it to the side and this on a
+i drag it to the side and this on a
+green arrow i drag it to the back
+green arrow i drag it to the back
+green arrow i drag it to the back
+now let's bring our round cube back
+the scale is currently not important so
+the scale is currently not important so
+the scale is currently not important so
+we will adjust it
+we will adjust it
+we will adjust it
+later on anyway
+later on anyway
+later on anyway
+let's bring it in
+let's bring it in
+let's bring it in
+like this
+like this
+like this
+and
+and
+and
+so it's inside the head
+so it's inside the head
+so it's inside the head
+and this is our base set up for
+and this is our base set up for
+and this is our base set up for
+the head so let's click on the round
+the head so let's click on the round
+the head so let's click on the round
+cube
+cube
+cube
+hit tab
+hit tab
+hit tab
+to change into the edit mode
+to change into the edit mode
+to change into the edit mode
+i um let's hit face selection
+i um let's hit face selection
+i um let's hit face selection
+move
+move
+move
+let's select oh we need to
+let's select oh we need to
+let's select oh we need to
+activate the toggle x-ray
+let's select one side
+let's select one side
+let's select one side
+delete
+delete
+delete
+face
+face
+face
+let's activate
+let's activate
+let's activate
+the mirror modifier and clipping
+the mirror modifier and clipping
+the mirror modifier and clipping
+and this is our base setup
+and this is our base setup
+and this is our base setup
+for modeling
+for modeling
+for modeling
+for the rest of the head we will need
+for the rest of the head we will need
+for the rest of the head we will need
+the vertices selection
+the vertices selection
+the vertices selection
+so let's select
+so let's select
+so let's select
+everything
+everything
+everything
+let's bring it up here and let's work
+let's bring it up here and let's work
+let's bring it up here and let's work
+from the
+from the
+from the
+from the top
+from the top
+from the top
+of the head down
+so
+i like to
+i like to
+i like to
+take this side
+you know what let's increase the
+you know what let's increase the
+you know what let's increase the
+a
+increase the size a bit
+and now let's just do the outlines of
+and now let's just do the outlines of
+and now let's just do the outlines of
+the head
+and we will bind his um
+and we will bind his um
+and we will bind his um
+hairstyle in to the the whole head shape
+hairstyle in to the the whole head shape
+hairstyle in to the the whole head shape
+so keep that in mind
+let's
+let's
+let's
+take the
+take the
+take the
+the bottom half
+the bottom half
+the bottom half
+drag it a bit down
+drag this a bit down here this pointy
+drag this a bit down here this pointy
+drag this a bit down here this pointy
+thing
+just so we get the
+just so we get the
+just so we get the
+base the vague base out shape
+base the vague base out shape
+base the vague base out shape
+um
+um
+um
+shape
+shape
+shape
+let's
+let's
+let's
+let's drag this here
+let's drag this here
+let's drag this here
+down here
+down here
+down here
+now i have this weird bean
+now i have this weird bean
+now i have this weird bean
+let's change to the side view
+let's change to the side view
+let's change to the side view
+let's select the front part
+let's select the front part
+let's select the front part
+drag it to the front
+let's drag this here to
+this part where the the
+this part where the the
+this part where the the
+brows should be
+i think we can track that even more
+let's take that part
+let's take that part
+let's take that part
+drag it a bit back
+this here here the the hair ends
+this here here the the hair ends
+this here here the the hair ends
+and it leads into the neck
+and we can take that part
+and drag it here
+and drag it here
+and drag it here
+where the neck should start
+where the neck should start
+where the neck should start
+and let's drag that part actually
+and let's drag that part actually
+and let's drag that part actually
+here under the ear
+here under the ear
+here under the ear
+you can drag that a bit more down
+so now we have a base head shape
+now
+now
+now
+we switch to the front view again here
+we switch to the front view again here
+we switch to the front view again here
+on minus y
+drag it out
+this is the front
+drag it down here
+let's track this one
+so
+so
+so
+we re
+we re
+we re
+recreated his base head shape
+recreated his base head shape
+recreated his base head shape
+like this
+and if some parts don't match up
+and if some parts don't match up
+and if some parts don't match up
+with the side view or something always
+with the side view or something always
+with the side view or something always
+pre-ro prioritize the front view
+i think that would be a good middle
+i think that would be a good middle
+i think that would be a good middle
+ground
+let's take this part
+so we get here this curvature
+and here some kind of eye line
+yeah that makes sense
+let's trick that a bit up
+yeah
+yeah
+yeah
+okay good good good so far so good this
+okay good good good so far so good this
+okay good good good so far so good this
+is a perfect
+is a perfect
+is a perfect
+base head shape
+base head shape
+base head shape
+um so we created the the best hey uh the
+um so we created the the best hey uh the
+um so we created the the best hey uh the
+base of his head and now we can
+base of his head and now we can
+base of his head and now we can
+amplify a bit more um the parts of his
+amplify a bit more um the parts of his
+amplify a bit more um the parts of his
+hair
+hair
+hair
+but for the hair um
+but for the hair um
+but for the hair um
+don't go too
+don't go too
+don't go too
+extreme onto the top
+extreme onto the top
+extreme onto the top
+i would recommend to to set this line of
+i would recommend to to set this line of
+i would recommend to to set this line of
+geometry
+geometry
+geometry
+a bit under the the end of the hairs
+a bit under the the end of the hairs
+a bit under the the end of the hairs
+because we have to texture it and
+because we have to texture it and
+because we have to texture it and
+everything so
+everything so
+everything so
+let's take this part
+let's take this part
+let's take this part
+drag it a bit
+here
+here
+here
+like that
+okay
+so we we added the volumen of his hair
+so we we added the volumen of his hair
+so we we added the volumen of his hair
+um to the top of the head
+um to the top of the head
+um to the top of the head
+like that
+like that
+like that
+later on we will um add some extra
+later on we will um add some extra
+later on we will um add some extra
+geometry for the
+geometry for the
+geometry for the
+for the asymmetrical haircut but for now
+for the asymmetrical haircut but for now
+for the asymmetrical haircut but for now
+let's focus on this
+i think we are good to go with that
+also looks nice
+also looks nice
+also looks nice
+and like i said
+and like i said
+and like i said
+let's keep it a bit above the the ending
+let's keep it a bit above the the ending
+let's keep it a bit above the the ending
+of the hair
+you see and prioritize the front view
+you see and prioritize the front view
+you see and prioritize the front view
+okay good nice so for now also we can
+okay good nice so for now also we can
+okay good nice so for now also we can
+delete already some geometry here
+delete already some geometry here
+delete already some geometry here
+just hole here for the neck
+just hole here for the neck
+just hole here for the neck
+we can
+we can
+we can
+theoretically
+theoretically
+theoretically
+already delete that
+or you know what let's uh let's already
+or you know what let's uh let's already
+or you know what let's uh let's already
+create a nick for this character
+create a nick for this character
+create a nick for this character
+hit e
+hit e
+hit e
+for extrude
+like this
+and
+and
+and
+e to extrude again
+now we have to adjust that
+now we have to adjust that
+now we have to adjust that
+vertices selection
+and as you can see i have to improvise a
+and as you can see i have to improvise a
+and as you can see i have to improvise a
+bit here
+because the neck isn't centered
+but the need to make it look
+but the need to make it look
+but the need to make it look
+plausible
+and extend it a bit into the outfit
+and let's drag that neckline a bit down
+nice
+like this
+yeah
+yeah
+yeah
+um here's actually a part where you
+um here's actually a part where you
+um here's actually a part where you
+should prioritize um the actual look of
+should prioritize um the actual look of
+should prioritize um the actual look of
+the geometry and ignore the reference
+the geometry and ignore the reference
+the geometry and ignore the reference
+sheet
+sheet
+sheet
+because the head movement you you can
+because the head movement you you can
+because the head movement you you can
+take it as a reference but
+take it as a reference but
+take it as a reference but
+the actual
+the actual
+the actual
+geometry as you can see i
+geometry as you can see i
+geometry as you can see i
+improvised
+improvised
+improvised
+here a bit
+here a bit
+here a bit
+but i try to keep the the basic feel of
+but i try to keep the the basic feel of
+but i try to keep the the basic feel of
+the
+the
+the
+the width of the neck so
+the width of the neck so
+the width of the neck so
+but now we can delete this bottom
+but now we can delete this bottom
+but now we can delete this bottom
+geometry here this face
+geometry here this face
+geometry here this face
+select this
+select this
+select this
+face we don't need that
+nice
+so
+so
+so
+let's check out on how many
+let's check out on how many
+let's check out on how many
+um polygons we are currently at
+um polygons we are currently at
+um polygons we are currently at
+here
+here
+here
+statistics
+statistics
+statistics
+we have currently
+we have currently
+we have currently
+68 polygons for the head and the head is
+68 polygons for the head and the head is
+68 polygons for the head and the head is
+a very important part for a character
+a very important part for a character
+a very important part for a character
+so we actually need to spend that
+so we actually need to spend that
+so we actually need to spend that
+polygons there
+polygons there
+polygons there
+okay
+okay
+okay
+so sadly we have to add some geometry
+so sadly we have to add some geometry
+so sadly we have to add some geometry
+for the nose
+for the nose
+for the nose
+you don't have to create a nose if you
+you don't have to create a nose if you
+you don't have to create a nose if you
+want you can just um
+want you can just um
+want you can just um
+skip that part and continue
+skip that part and continue
+skip that part and continue
+um but
+um but
+um but
+actually a lot of ps1 games had
+actually a lot of ps1 games had
+actually a lot of ps1 games had
+characters with noses like for example
+characters with noses like for example
+characters with noses like for example
+um
+um
+um
+lara croft and
+lara croft and
+lara croft and
+snake and also from sinus hill
+snake and also from sinus hill
+snake and also from sinus hill
+so
+so
+so
+we need to add some basic geometry for
+we need to add some basic geometry for
+we need to add some basic geometry for
+the nose
+the nose
+the nose
+for this little triangle part here
+for this little triangle part here
+for this little triangle part here
+so let's actually go out of the edit
+so let's actually go out of the edit
+so let's actually go out of the edit
+mode
+mode
+mode
+hit a
+hit a
+hit a
+mesh and let's let's use a cube why
+mesh and let's let's use a cube why
+mesh and let's let's use a cube why
+not um
+let's change to the front view
+let's change to the front view
+let's change to the front view
+let's zoom in a bit toggle i took a
+let's zoom in a bit toggle i took a
+let's zoom in a bit toggle i took a
+x-ray again
+x-ray again
+x-ray again
+maybe wireframe would be very helpful
+maybe wireframe would be very helpful
+maybe wireframe would be very helpful
+for this so overlays wireframe perfect
+pull it to the front scale it even more
+pull it to the front scale it even more
+pull it to the front scale it even more
+down
+down
+down
+like this
+let's
+let's
+let's
+rename it
+nose
+and let's hit
+and let's hit
+and let's hit
+edit
+edit
+edit
+cut loop
+cut loop
+cut loop
+let's cut the loop in the middle
+let's cut the loop in the middle
+let's cut the loop in the middle
+and
+and
+and
+face selection
+and
+and
+and
+faces
+faces
+faces
+let's add the mirror modifier and
+let's add the mirror modifier and
+let's add the mirror modifier and
+clipping
+clipping
+clipping
+so we have the the base
+so we have the the base
+so we have the the base
+geometry for the nose
+this should look like this
+also if you um
+also if you um
+also if you um
+if you are still inside the the
+if you are still inside the the
+if you are still inside the the
+edit mode
+edit mode
+edit mode
+inside the head
+inside the head
+inside the head
+you would have added the cube to the
+you would have added the cube to the
+you would have added the cube to the
+actual head
+actual head
+actual head
+already but i want to join those
+already but i want to join those
+already but i want to join those
+geometries
+geometries
+geometries
+later on so we can work on them
+individually
+individually
+individually
+so let's click on our notes
+so let's click on our notes
+so let's click on our notes
+let's hit
+let's hit
+let's hit
+tab
+and actually we can already delete
+and actually we can already delete
+and actually we can already delete
+something this back geometry here
+let's select the face on the back you
+let's select the face on the back you
+let's select the face on the back you
+have to be in the face selection
+have to be in the face selection
+have to be in the face selection
+delete face nice
+delete face nice
+delete face nice
+there should be enough geometry for the
+there should be enough geometry for the
+there should be enough geometry for the
+nose
+nose
+nose
+way enough
+way enough
+way enough
+let's go into the vertices selection
+let's go into the vertices selection
+let's go into the vertices selection
+and i think for the nose it would be
+and i think for the nose it would be
+and i think for the nose it would be
+best to
+where to start
+where to start
+where to start
+let's start on the front
+drag select
+drag select
+drag select
+the part here on the back
+like this
+like this
+like this
+drag select this part
+drag select this part
+drag select this part
+here to the front
+and this here to the bottom
+here's a very straight nose so we can
+here's a very straight nose so we can
+here's a very straight nose so we can
+block it out like that
+let's give it a look
+let's give it a look
+let's give it a look
+noise
+let's select this
+drag it in
+drag it in
+drag it in
+you can also use this one here
+you can also use this one here
+you can also use this one here
+drag it in
+and i think you can slightly see here
+and i think you can slightly see here
+and i think you can slightly see here
+the shadow
+this is here is the slide shadow so
+this is here is the slide shadow so
+this is here is the slide shadow so
+let's
+okay
+now again we are at a part where we have
+now again we are at a part where we have
+now again we are at a part where we have
+to decide
+well we should put our priorities
+well we should put our priorities
+well we should put our priorities
+let's go out for a moment
+let's go out for a moment
+let's go out for a moment
+of the and untoggle the x-ray
+this nose turned out great by the way
+this nose turned out great by the way
+this nose turned out great by the way
+like this
+amazing okay now let's
+amazing okay now let's
+amazing okay now let's
+merge the head with the nose together
+merge the head with the nose together
+merge the head with the nose together
+drag select in the object mode above all
+drag select in the object mode above all
+drag select in the object mode above all
+the things
+the things
+the things
+and hit
+ctrl j
+ctrl j
+ctrl j
+and now we have
+and now we have
+and now we have
+nos let's rename that to head
+i don't know i i like to to work like
+i don't know i i like to to work like
+i don't know i i like to to work like
+that uh
+that uh
+that uh
+and join it later and
+and join it later and
+and join it later and
+but now for uv unwrapping
+but now for uv unwrapping
+but now for uv unwrapping
+i think it's a bit more important
+i think it's a bit more important
+i think it's a bit more important
+uh to join them already
+uh to join them already
+uh to join them already
+or else we
+or else we
+or else we
+we have some extra things to do
+we have some extra things to do
+we have some extra things to do
+in the unwrapping part so let's give our
+in the unwrapping part so let's give our
+in the unwrapping part so let's give our
+bad boy here a texture
+bad boy here a texture
+bad boy here a texture
+let's go down here material properties
+let's go down here material properties
+let's go down here material properties
+hit
+hit
+hit
+new
+new
+new
+um
+um
+um
+let's name it
+flow
+head
+head
+head
+base color
+base color
+base color
+texture
+texture
+texture
+new
+new
+new
+and i like to work with the default
+and i like to work with the default
+and i like to work with the default
+settings
+settings
+settings
+um i always use uh
+um i always use uh
+um i always use uh
+i 1k texture at first and later on i
+i 1k texture at first and later on i
+i 1k texture at first and later on i
+reduce it because
+reduce it because
+reduce it because
+scaling down from a 1k texture to a
+scaling down from a 1k texture to a
+scaling down from a 1k texture to a
+more appropriate pixelated version will
+more appropriate pixelated version will
+more appropriate pixelated version will
+still keep some details so let's name it
+flow
+flow
+flow
+head
+head
+head
+hit
+hit
+hit
+ok
+and now
+and now
+and now
+we can change into the uv editing tab
+let's zoom in
+and let's
+and let's
+and let's
+open up here flow head
+open up here flow head
+open up here flow head
+and let's already save this empty
+and let's already save this empty
+and let's already save this empty
+texture file
+texture file
+texture file
+image
+image
+image
+save as
+save as
+save as
+it's already named
+it's already named
+it's already named
+i created here my project folder at
+i created here my project folder at
+i created here my project folder at
+texture folder
+texture folder
+texture folder
+save image
+save image
+save image
+perfect
+perfect
+perfect
+so
+so
+so
+now we still have the
+now we still have the
+now we still have the
+mirroring on
+mirroring on
+mirroring on
+so we don't have to uh
+so we don't have to uh
+so we don't have to uh
+texture both sides
+texture both sides
+texture both sides
+only if we want
+only if we want
+only if we want
+so let's hit
+so let's hit
+so let's hit
+oh go into the face selection hit a
+oh go into the face selection hit a
+oh go into the face selection hit a
+and now it's looking like this
+and now it's looking like this
+and now it's looking like this
+we actually can't see our texture
+we actually can't see our texture
+we actually can't see our texture
+because we have to switch here i use
+because we have to switch here i use
+because we have to switch here i use
+here the middle mouse
+material material preview mode
+material material preview mode
+material material preview mode
+like this
+like this
+like this
+nice
+nice
+nice
+also
+let's
+pull down
+pull down
+pull down
+pull up the roughness specular
+pull up the roughness specular
+pull up the roughness specular
+so we end up with something like this
+so we end up with something like this
+so we end up with something like this
+hit a
+hit a
+hit a
+right click and now we can try some
+right click and now we can try some
+right click and now we can try some
+things i like to work with
+things i like to work with
+things i like to work with
+smart uv projection or with cube
+smart uv projection or with cube
+smart uv projection or with cube
+projection that just you know what let's
+projection that just you know what let's
+projection that just you know what let's
+just give it a try
+already looks very promising
+already looks very promising
+already looks very promising
+right click smart uv
+right click smart uv
+right click smart uv
+island merchant
+island merchant
+island merchant
+let's increase it to
+let's increase it to
+let's increase it to
+free
+also not bad
+also not bad
+also not bad
+now is a very important part
+now is a very important part
+now is a very important part
+because
+because
+because
+we
+we
+we
+need to
+need to
+need to
+check the the actual pixel flow of our
+check the the actual pixel flow of our
+check the the actual pixel flow of our
+texture
+texture
+texture
+because we can get some distortion
+because we can get some distortion
+because we can get some distortion
+inside the
+inside the
+inside the
+pixelation inside the seams here
+pixelation inside the seams here
+pixelation inside the seams here
+so we need to check in on that for that
+so we need to check in on that for that
+so we need to check in on that for that
+um i'm using a pixel grid
+um i'm using a pixel grid
+um i'm using a pixel grid
+uh
+uh
+uh
+so let's
+so let's
+so let's
+where's my pixel grid
+where's my pixel grid
+where's my pixel grid
+i'm going to change it to closest
+i'm going to change it to closest
+i'm going to change it to closest
+and as you can see
+and as you can see
+and as you can see
+i can
+i can
+i can
+check the the distortion and everything
+check the the distortion and everything
+check the the distortion and everything
+on this kind of texture like here in the
+on this kind of texture like here in the
+on this kind of texture like here in the
+top this will totally mess up our
+top this will totally mess up our
+top this will totally mess up our
+the top of the head
+the top of the head
+the top of the head
+so we have to keep that in mind
+so let's change here from flow head
+so let's change here from flow head
+so let's change here from flow head
+to pixel grid
+to pixel grid
+to pixel grid
+hit a
+and
+and
+and
+as you can see we have the the problems
+as you can see we have the the problems
+as you can see we have the the problems
+here on the top of the head those parts
+here on the top of the head those parts
+here on the top of the head those parts
+and a bit on the back so let's try
+and a bit on the back so let's try
+and a bit on the back so let's try
+the cube projection
+the cube projection
+the cube projection
+and now we have the pixels
+and now we have the pixels
+and now we have the pixels
+very even
+very even
+very even
+we have here
+we have here
+we have here
+some weird seams
+some weird seams
+some weird seams
+but
+but
+but
+actually it's it's looking better than
+actually it's it's looking better than
+actually it's it's looking better than
+before
+before
+before
+so
+so
+so
+now we have to decide
+now we have to decide
+now we have to decide
+what couldn't look better
+what couldn't look better
+what couldn't look better
+this is also an option
+i mean we have very little distortion
+i mean we have very little distortion
+i mean we have very little distortion
+just here in the middle
+just here in the middle
+just here in the middle
+but this is a personal preference if you
+but this is a personal preference if you
+but this is a personal preference if you
+work with color blocking so whole colors
+work with color blocking so whole colors
+work with color blocking so whole colors
+this won't be a problem if you work with
+this won't be a problem if you work with
+this won't be a problem if you work with
+pixel art and pixelated
+pixel art and pixelated
+pixel art and pixelated
+retro textures this will be a problem
+retro textures this will be a problem
+retro textures this will be a problem
+you have
+you have
+you have
+you need your straight pixelation
+you need your straight pixelation
+you need your straight pixelation
+so i will go personally with the cube
+so i will go personally with the cube
+so i will go personally with the cube
+projection
+projection
+projection
+island selection here on the top
+island selection here on the top
+island selection here on the top
+let's take this
+let's take this
+let's take this
+drag it to the side drag it to the side
+drag it to the side drag it to the side
+drag it to the side drag it to the side
+and now let's just
+and now let's just
+and now let's just
+spread it evenly on your texture sheet
+spread it evenly on your texture sheet
+spread it evenly on your texture sheet
+so i think i will scale it down
+so i think i will scale it down
+so i think i will scale it down
+to arrange it a bit
+more clearly
+like this
+like this
+like this
+nice
+so let's scale it out
+i would say something like this
+and i think the the front face
+and i think the the front face
+and i think the the front face
+this part here is this
+this part here is this
+this part here is this
+and i like to use the rule of
+and i like to use the rule of
+and i like to use the rule of
+thirds
+thirds
+thirds
+so for the for a nice pixelation i will
+so for the for a nice pixelation i will
+so for the for a nice pixelation i will
+use
+use
+use
+for the face i will use a third
+for the face i will use a third
+for the face i will use a third
+of the texture sheet
+like this
+like this
+like this
+and also i just noticed he has
+and also i just noticed he has
+and also i just noticed he has
+asymmetrical uh eyebrows
+asymmetrical uh eyebrows
+asymmetrical uh eyebrows
+maybe it will make his face more
+maybe it will make his face more
+maybe it will make his face more
+interesting on the texture if we use
+interesting on the texture if we use
+interesting on the texture if we use
+both sides of the face texture
+both sides of the face texture
+both sides of the face texture
+while merging uh both together so
+while merging uh both together so
+while merging uh both together so
+i think that's enough space uh to create
+i think that's enough space uh to create
+i think that's enough space uh to create
+the hair and everything
+the hair and everything
+the hair and everything
+pull it a bit more out
+like this
+so we have here space for
+so we have here space for
+so we have here space for
+the hair part and maybe for the second
+um half of the face
+um half of the face
+um half of the face
+also the the pixel
+also the the pixel
+also the the pixel
+flow looks promising i can totally work
+flow looks promising i can totally work
+flow looks promising i can totally work
+with that
+with that
+with that
+okay
+okay
+okay
+so much to the uv unwrapping
+and i think as you can see
+and i think as you can see
+and i think as you can see
+while looking from this direction we
+while looking from this direction we
+while looking from this direction we
+have here this little dip
+have here this little dip
+have here this little dip
+and i think it's also slightly occurring
+and i think it's also slightly occurring
+and i think it's also slightly occurring
+here
+here
+here
+and here
+and here
+and here
+so we can just make a cut
+so we can just make a cut
+so we can just make a cut
+and this will straighten it a bit out so
+and this will straighten it a bit out so
+and this will straighten it a bit out so
+we have here the knife
+through the cut we don't add any
+through the cut we don't add any
+through the cut we don't add any
+geometry because
+geometry because
+geometry because
+it's a square so
+we actually cr just
+we actually cr just
+we actually cr just
+separating the square into the
+into the uh quartz
+into the uh quartz
+into the uh quartz
+like this nice
+like this nice
+like this nice
+so this got rid of that situation so if
+so this got rid of that situation so if
+so this got rid of that situation so if
+you see something like this i think also
+you see something like this i think also
+you see something like this i think also
+a bit it's
+a bit it's
+a bit it's
+it's here the case
+it's here the case
+it's here the case
+just
+just
+just
+so you see
+puffs it up
+puffs it up
+puffs it up
+okay
+okay
+okay
+back into the face selection
+back into the face selection
+back into the face selection
+so okay as you can see i really like his
+so okay as you can see i really like his
+so okay as you can see i really like his
+uh asymmetrical
+eyebrows here
+eyebrows here
+eyebrows here
+so let's
+so let's
+so let's
+let's merge
+let's merge
+let's merge
+this head together
+let's go back into the
+let's go back into the
+let's go back into the
+layout
+and
+and
+and
+object mode mirror
+object mode mirror
+object mode mirror
+apply
+apply
+apply
+so
+back into the uv editing
+let's select this half
+drag it a bit to the side hit a
+drag it a bit to the side hit a
+drag it a bit to the side hit a
+and mirror
+so we get the asymmetry into his face
+so we get the asymmetry into his face
+so we get the asymmetry into his face
+nice
+nice
+nice
+i think we can use this one here and
+i think we can use this one here and
+i think we can use this one here and
+drop it on the floor
+like this
+and i think we still have enough space
+mirror on the x-axis
+yeah we still have enough space for the
+yeah we still have enough space for the
+yeah we still have enough space for the
+hair
+hair
+hair
+part
+rearrange it a bit and let's
+rearrange it a bit and let's
+rearrange it a bit and let's
+merge those parts here together
+merge those parts here together
+merge those parts here together
+vertices selection drag across hit m
+vertices selection drag across hit m
+vertices selection drag across hit m
+center
+center
+center
+m center
+m center
+m center
+m
+m
+m
+center nice
+center nice
+center nice
+island selection now we have the whole
+island selection now we have the whole
+island selection now we have the whole
+face
+face
+face
+let's check in on our guy
+let's check in on our guy
+let's check in on our guy
+and i think we have here some very
+and i think we have here some very
+and i think we have here some very
+important shadows here inside the the
+important shadows here inside the the
+important shadows here inside the the
+eye area and here
+eye area and here
+eye area and here
+um on the nose so maybe we have to
+um on the nose so maybe we have to
+um on the nose so maybe we have to
+also have both sides of the nose so we
+also have both sides of the nose so we
+also have both sides of the nose so we
+can
+can
+can
+attack the asymmetry of the the facial
+attack the asymmetry of the the facial
+attack the asymmetry of the the facial
+features
+features
+features
+so let's
+so let's
+so let's
+select this half because this is
+select this half because this is
+select this half because this is
+this wasn't um available before
+this wasn't um available before
+this wasn't um available before
+let's hit a to get everything back and
+let's hit a to get everything back and
+let's hit a to get everything back and
+also that's not so many geometry
+also that's not so many geometry
+also that's not so many geometry
+so we don't risk anything
+let's mirror it
+a lot of texture space we we wasted
+a lot of texture space we we wasted
+a lot of texture space we we wasted
+but it will totally pay off while
+but it will totally pay off while
+but it will totally pay off while
+texturing
+texturing
+texturing
+so uh let's make the the hair actually
+so uh let's make the the hair actually
+so uh let's make the the hair actually
+the sides part here
+the sides part here
+the sides part here
+save
+save
+save
+layout
+layout
+layout
+and i think what would be important uh
+and i think what would be important uh
+and i think what would be important uh
+to get the second reference image
+let's
+let's
+let's
+here
+let's turn it
+let's turn it
+let's turn it
+-90
+-90
+-90
+like this
+like this
+like this
+nice
+and you know what let's
+and you know what let's
+and you know what let's
+select the head
+select the head
+select the head
+tap edit mode
+vertices
+like that just this side
+like that just this side
+like that just this side
+hit e
+hit e
+hit e
+to extrude
+and also tucker x-ray
+keep those parts here
+keep those parts here
+keep those parts here
+selected
+let's go to the site
+and hit e again
+now we have to unwrap that part
+now we have to unwrap that part
+now we have to unwrap that part
+uv editing
+uv editing
+uv editing
+hit a okay now we see this
+hit a okay now we see this
+hit a okay now we see this
+and now we just select the parts
+and now we just select the parts
+and now we just select the parts
+toggle the x-ray
+toggle the x-ray
+toggle the x-ray
+we haven't added those
+we haven't added those
+we haven't added those
+edit
+edit
+edit
+uv
+uv
+uv
+cube projection
+cube projection
+cube projection
+should work
+should work
+should work
+material preview
+nice
+nice
+nice
+let's drag it outside
+let's drag it outside
+let's drag it outside
+hit a to select everything
+we are still inside the island selection
+we are still inside the island selection
+we are still inside the island selection
+let's scale it down
+let's scale it down
+let's scale it down
+and my goal is now to get the right
+and my goal is now to get the right
+and my goal is now to get the right
+or the same amount of pixelation
+or the same amount of pixelation
+or the same amount of pixelation
+like we had before
+but that seems to be right
+but that seems to be right
+but that seems to be right
+okay i think now is also a good point uh
+okay i think now is also a good point uh
+okay i think now is also a good point uh
+before we
+before we
+before we
+proceed to make a backup of our head
+proceed to make a backup of our head
+proceed to make a backup of our head
+actually i should have
+actually i should have
+actually i should have
+made the backup before i added the hair
+made the backup before i added the hair
+made the backup before i added the hair
+uh let's make
+uh let's make
+uh let's make
+collection call it
+collection call it
+collection call it
+back up
+and let's go into the object mode
+and let's go into the object mode
+and let's go into the object mode
+select it
+select it
+select it
+shift d left click
+shift d left click
+shift d left click
+and just drag and drop it and un toggle
+and just drag and drop it and un toggle
+and just drag and drop it and un toggle
+the whole the whole thing so so let's
+the whole the whole thing so so let's
+the whole the whole thing so so let's
+switch back
+switch back
+switch back
+with here the browser
+with here the browser
+with here the browser
+flow head
+flow head
+flow head
+so cheer back flow head
+so cheer back flow head
+so cheer back flow head
+and
+and
+and
+nice
+nice
+nice
+we still will need this setup here
+we still will need this setup here
+we still will need this setup here
+and i will show you in a second why
+and i will show you in a second why
+and i will show you in a second why
+so let's select everything like this
+so let's select everything like this
+so let's select everything like this
+texture painting scroll up it
+texture painting scroll up it
+texture painting scroll up it
+out because if we don't select it
+out because if we don't select it
+out because if we don't select it
+and we go into texture painting
+and we go into texture painting
+and we go into texture painting
+you will see nothing
+you will see nothing
+you will see nothing
+we have no reference not so here
+we have no reference not so here
+we have no reference not so here
+material preview
+okay
+okay
+okay
+if you're editing
+if you're editing
+if you're editing
+a to select everything
+a to select everything
+a to select everything
+texture painting
+texture painting
+texture painting
+now we see the grid
+so now we want to create a stencil with
+so now we want to create a stencil with
+so now we want to create a stencil with
+our reference image of our human
+our reference image of our human
+our reference image of our human
+for that
+for that
+for that
+let's go here in texture properties hit
+let's go here in texture properties hit
+let's go here in texture properties hit
+new
+new
+new
+open
+select the reference
+select the reference
+select the reference
+i i will start here with the front view
+i i will start here with the front view
+i i will start here with the front view
+now i have here this distorted
+now i have here this distorted
+now i have here this distorted
+uh situation let's go here on the top
+uh situation let's go here on the top
+uh situation let's go here on the top
+into active tools scroll down
+into active tools scroll down
+into active tools scroll down
+texture
+texture
+texture
+tiled to stencil
+tiled to stencil
+tiled to stencil
+now
+now
+now
+we have a stencil
+and this is cursed
+and this is cursed
+and this is cursed
+as you can see
+as you can see
+as you can see
+back
+you can click here on reset transform
+you can click here on reset transform
+you can click here on reset transform
+or in image aspect and now we just have
+or in image aspect and now we just have
+or in image aspect and now we just have
+to rotate it into place for that
+to rotate it into place for that
+to rotate it into place for that
+ctrl right click to rotate it
+ctrl right click to rotate it
+ctrl right click to rotate it
+and
+and
+and
+shift right to scale
+shift right to scale
+shift right to scale
+and we still need our reference because
+and we still need our reference because
+and we still need our reference because
+we can that way we can adjust
+we can that way we can adjust
+we can that way we can adjust
+the size of our reference
+the size of our reference
+the size of our reference
+and if we zoom in it will zoom with it
+and if we zoom in it will zoom with it
+and if we zoom in it will zoom with it
+so okay so take a
+so okay so take a
+so okay so take a
+static view onto our
+static view onto our
+static view onto our
+like this this is good size
+like this this is good size
+like this this is good size
+and scale it out
+and scale it out
+and scale it out
+like this
+what's very helpful helpful on this part
+what's very helpful helpful on this part
+what's very helpful helpful on this part
+is
+is
+is
+the uh
+the uh
+the uh
+wireframe
+wireframe
+wireframe
+like this
+like this
+like this
+and maybe also
+and maybe also
+and maybe also
+to toggle x-ray for the begin okay also
+to toggle x-ray for the begin okay also
+to toggle x-ray for the begin okay also
+i don't wanna
+i don't wanna
+i don't wanna
+wait let's i wanna i will just show you
+wait let's i wanna i will just show you
+wait let's i wanna i will just show you
+let's un-toggle the x-ray
+and material properties
+and material properties
+and material properties
+i don't wanna paint on the the hairs the
+i don't wanna paint on the the hairs the
+i don't wanna paint on the the hairs the
+hair here on the side
+um so let's go into the uv editing
+um so let's go into the uv editing
+um so let's go into the uv editing
+let's select
+let's select
+let's select
+those parts hit h
+those parts hit h
+those parts hit h
+and now it's hidden
+and if we hit alt h it will come back
+and if we hit alt h it will come back
+and if we hit alt h it will come back
+so let's hide it hit a
+so let's hide it hit a
+so let's hide it hit a
+now we can just see
+now we can just see
+now we can just see
+those texture paint
+those texture paint
+those texture paint
+it's still here why okay we have to
+it's still here why okay we have to
+it's still here why okay we have to
+toggle we have to activate this here
+toggle we have to activate this here
+toggle we have to activate this here
+paint mask
+paint mask
+paint mask
+now it's gone
+now it's gone
+now it's gone
+as you can see
+as you can see
+as you can see
+go to the front
+go to the front
+go to the front
+and let's paint
+let's adjust the texture
+and maybe it's also helpful to
+and maybe it's also helpful to
+and maybe it's also helpful to
+to fill in a base color
+to fill in a base color
+to fill in a base color
+with the skin tone
+with the skin tone
+with the skin tone
+let's do that also
+so let's make
+it black
+and
+and
+and
+let's select the skin tone
+let's select the skin tone
+let's select the skin tone
+down here
+yeah this makes sense
+um okay uh let's go into the layout and
+um okay uh let's go into the layout and
+um okay uh let's go into the layout and
+check
+check
+check
+check it out our current state
+okay so good so far but we have here
+okay so good so far but we have here
+okay so good so far but we have here
+some weird parts here on the nose
+some weird parts here on the nose
+some weird parts here on the nose
+so in um texture painting uh stuff like
+so in um texture painting uh stuff like
+so in um texture painting uh stuff like
+that we can just soften and smear it out
+that we can just soften and smear it out
+that we can just soften and smear it out
+uh it's a result of
+hidden
+hidden
+hidden
+geometries hiding elements from us
+geometries hiding elements from us
+geometries hiding elements from us
+so or we go into uv editing
+so or we go into uv editing
+so or we go into uv editing
+and we hide
+and we hide
+and we hide
+for example
+for example
+for example
+yeah let's hit uh hide uh
+yeah let's hit uh hide uh
+yeah let's hit uh hide uh
+let's hover with our mouse over the nose
+let's hover with our mouse over the nose
+let's hover with our mouse over the nose
+hit l
+hit l
+hit l
+and hit h
+and hit h
+and hit h
+because we made it a separate a separate
+because we made it a separate a separate
+because we made it a separate a separate
+thing and we added it later
+thing and we added it later
+thing and we added it later
+it's actually selectable
+it's actually selectable
+it's actually selectable
+so if we now hit a
+so if we now hit a
+so if we now hit a
+select everything except the nose and
+select everything except the nose and
+select everything except the nose and
+the the side cut
+the the side cut
+the the side cut
+paint and because we activated the
+paint and because we activated the
+paint and because we activated the
+the mask the paint mask
+the mask the paint mask
+the mask the paint mask
+we can just paint it over paint over
+we can just paint it over paint over
+we can just paint it over paint over
+like that
+like that
+like that
+and we have also a preview on how it
+and we have also a preview on how it
+and we have also a preview on how it
+will look like would look like with
+will look like would look like with
+will look like would look like with
+other nose
+other nose
+other nose
+and now let's just
+bring all back
+now let's just hide everything
+now let's just hide everything
+now let's just hide everything
+except the nose
+h
+h
+h
+h
+h
+okay
+okay
+okay
+picture painting
+oh uh now it's
+oh uh now it's
+oh uh now it's
+it's looking kind of white because we
+it's looking kind of white because we
+it's looking kind of white because we
+have to hit a
+have to hit a
+have to hit a
+we now go back it's selectable
+we now go back it's selectable
+we now go back it's selectable
+and paintable
+and paintable
+and paintable
+like this
+like this
+like this
+perfect and at our current state we
+perfect and at our current state we
+perfect and at our current state we
+should save
+should save
+should save
+this texture
+this texture
+this texture
+we got very far so let's hit save
+we got very far so let's hit save
+we got very far so let's hit save
+or save as
+so we got rid of our nose problem
+let's bring everything back
+let's bring everything back
+let's bring everything back
+and let's just hide the side cut
+and let's just hide the side cut
+and let's just hide the side cut
+h
+h
+h
+a to get everything back
+a to get everything back
+a to get everything back
+texture
+texture
+texture
+and i think we can now change our
+and i think we can now change our
+and i think we can now change our
+stencil to the side view
+stencil to the side view
+stencil to the side view
+like this
+it looks kind of cursed but
+it looks kind of cursed but
+it looks kind of cursed but
+i'm kind of happy
+i'm kind of happy
+i'm kind of happy
+with it
+with it
+with it
+so uh let's here with the ear
+so uh let's here with the ear
+so uh let's here with the ear
+and now we have to adjust it again
+and now we have to adjust it again
+and now we have to adjust it again
+accordingly to the reference like this
+accordingly to the reference like this
+accordingly to the reference like this
+nice mature preview
+let's just paint over it
+alt h
+and i think now we can
+and i think now we can
+and i think now we can
+attack this this side
+but maybe we should hide
+h
+texture paint
+texture paint
+texture paint
+oh and we need to select everything
+oh and we need to select everything
+oh and we need to select everything
+texture paint
+that's pretty good so far
+let's
+shaded smooth
+and now we we have to work on the
+and now we we have to work on the
+and now we we have to work on the
+transitioning between the seams and
+transitioning between the seams and
+transitioning between the seams and
+everything like this part here so
+everything like this part here so
+everything like this part here so
+basically the last part for the
+basically the last part for the
+basically the last part for the
+texturing
+texturing
+texturing
+in the hole is to cover up the seams
+in the hole is to cover up the seams
+in the hole is to cover up the seams
+and i will show you what i mean here for
+and i will show you what i mean here for
+and i will show you what i mean here for
+example here on the ipad
+example here on the ipad
+example here on the ipad
+with the
+with the
+with the
+smear tool or the soften tool
+smear tool or the soften tool
+smear tool or the soften tool
+just hit those edges
+to get rid of those lines
+to get rid of those lines
+to get rid of those lines
+like this
+yeah like blending those seams and also
+yeah like blending those seams and also
+yeah like blending those seams and also
+an option is to
+an option is to
+an option is to
+maybe paint over some parts some seams
+maybe paint over some parts some seams
+maybe paint over some parts some seams
+like this here
+like this here
+like this here
+i messed it kinda up with the smearing
+i messed it kinda up with the smearing
+i messed it kinda up with the smearing
+tool
+tool
+tool
+so
+so
+so
+let's use the front picture again
+like this
+but let's now attack it more from an
+but let's now attack it more from an
+but let's now attack it more from an
+angle maybe with some
+angle maybe with some
+angle maybe with some
+reduced opacity
+reduced opacity
+reduced opacity
+and let's
+and let's
+and let's
+blend in
+those seams
+those seams
+those seams
+perfect we have a 1k version
+perfect we have a 1k version
+perfect we have a 1k version
+of the texture currently
+of the texture currently
+of the texture currently
+and uh yeah now we will reduce our
+and uh yeah now we will reduce our
+and uh yeah now we will reduce our
+texture to a more pixelated version
+texture to a more pixelated version
+texture to a more pixelated version
+so
+so
+so
+for that
+or we can basically get rid of the
+or we can basically get rid of the
+or we can basically get rid of the
+of the stencil for that
+of the stencil for that
+of the stencil for that
+on the
+on the
+on the
+texture properties hit x and here
+to tilt
+to tilt
+to tilt
+now we have again the the normal brush
+now we have again the the normal brush
+now we have again the the normal brush
+perfect
+so we have the 1k texture
+so we have the 1k texture
+so we have the 1k texture
+and we want to keep this
+and we want to keep this
+and we want to keep this
+as in backup
+as in backup
+as in backup
+uh
+uh
+uh
+when we are starting to reduce the the
+when we are starting to reduce the the
+when we are starting to reduce the the
+pixelation of our texture we may have to
+pixelation of our texture we may have to
+pixelation of our texture we may have to
+we were rework some seams
+we were rework some seams
+we were rework some seams
+like we already
+like we already
+like we already
+did on some parts like here on the
+did on some parts like here on the
+did on some parts like here on the
+sides and everything
+sides and everything
+sides and everything
+but maybe we have to do that again to
+but maybe we have to do that again to
+but maybe we have to do that again to
+get rid of some artifacts on the seams i
+get rid of some artifacts on the seams i
+get rid of some artifacts on the seams i
+think this is in continuous progress and
+think this is in continuous progress and
+think this is in continuous progress and
+to get rid of artifacts um on seams
+to get rid of artifacts um on seams
+to get rid of artifacts um on seams
+always use the soften tool and sometimes
+always use the soften tool and sometimes
+always use the soften tool and sometimes
+use the smear tool but don't overdo it
+use the smear tool but don't overdo it
+use the smear tool but don't overdo it
+try not to lose
+try not to lose
+try not to lose
+details
+details
+details
+so now hit
+so now hit
+so now hit
+image
+image
+image
+and resize
+and resize
+and resize
+for the face texture
+for the face texture
+for the face texture
+um the default uh texture size of
+um the default uh texture size of
+um the default uh texture size of
+a whole character
+for the ps1 style was 256 times 256
+for the ps1 style was 256 times 256
+for the ps1 style was 256 times 256
+but we have just the face texture
+but we have just the face texture
+but we have just the face texture
+so we need to go lower than that we need
+so we need to go lower than that we need
+so we need to go lower than that we need
+to go half
+at least
+at least
+at least
+and after that we can try to go even
+and after that we can try to go even
+and after that we can try to go even
+lower with 64 times 64. but for now
+lower with 64 times 64. but for now
+lower with 64 times 64. but for now
+let's try 220
+let's try 220
+let's try 220
+times 228
+times 228
+times 228
+nice
+let's zoom in on our bad boy
+let's zoom in on our bad boy
+let's zoom in on our bad boy
+and let's before we do anything
+and let's before we do anything
+and let's before we do anything
+let's give it a save
+let's give it a save
+let's give it a save
+image save as
+image save as
+image save as
+and
+and
+and
+flow head
+flow head
+flow head
+underscore
+underscore
+underscore
+px so we know we have the dolores
+px so we know we have the dolores
+px so we know we have the dolores
+version here
+version here
+version here
+safe as image so we have a 1k version
+safe as image so we have a 1k version
+safe as image so we have a 1k version
+and a 228 times 228 and as you can see
+and a 228 times 228 and as you can see
+and a 228 times 228 and as you can see
+we have to fix some
+we have to fix some
+we have to fix some
+parts on the seams
+parts on the seams
+parts on the seams
+but
+but
+but
+let's give it a look how it would look
+let's give it a look how it would look
+let's give it a look how it would look
+like with 64 times 64.
+like with 64 times 64.
+like with 64 times 64.
+64.
+okay
+okay
+okay
+and that's even lower
+and that's even lower
+and that's even lower
+that would be more appropriate for um
+this looks very metal gear like from the
+this looks very metal gear like from the
+this looks very metal gear like from the
+heavy pixelation
+heavy pixelation
+heavy pixelation
+it's beautiful in itself but i want
+it's beautiful in itself but i want
+it's beautiful in itself but i want
+a bit more detail so
+go back
+okay now let's fix some areas
+let's use the soften tool
+let's use the soften tool
+let's use the soften tool
+and gently
+and gently
+and gently
+click on the parts
+click on the parts
+click on the parts
+you want to blend in
+nice
+nice
+nice
+if you reach the end of this tutorial i
+if you reach the end of this tutorial i
+if you reach the end of this tutorial i
+really hope you got something out of it
+really hope you got something out of it
+really hope you got something out of it
+and maybe you learned something
+and maybe you learned something
+and maybe you learned something
+and now you should be able to turn
+and now you should be able to turn
+and now you should be able to turn
+yourself and everyone else you can take
+yourself and everyone else you can take
+yourself and everyone else you can take
+a picture of
+a picture of
+a picture of
+in to an ps1 style inspired character or
+in to an ps1 style inspired character or
+in to an ps1 style inspired character or
+at least the head for now
+at least the head for now
+at least the head for now
+the next part will be the the whole body
+the next part will be the the whole body
+the next part will be the the whole body
+and we will reuse
+and we will reuse
+and we will reuse
+this hat we created i think it's very
+this hat we created i think it's very
+this hat we created i think it's very
+important to separate those two
+important to separate those two
+important to separate those two
+workflows because the head needs a lot
+workflows because the head needs a lot
+workflows because the head needs a lot
+of attention itself
+of attention itself
+of attention itself
+and as you can see
+and as you can see
+and as you can see
+you really in need to invest
+you really in need to invest
+you really in need to invest
+that time to get a good result and to
+that time to get a good result and to
+that time to get a good result and to
+portray your
+portray your
+portray your
+uh to to portray your your character
+uh to to portray your your character
+uh to to portray your your character
+respectively and
+respectively and
+respectively and
+to make him recognizable or
+to make him recognizable or
+to make him recognizable or
+your reference person
+your reference person
+your reference person
+so um
+so um
+so um
+i'm glad you made it until the end i
+i'm glad you made it until the end i
+i'm glad you made it until the end i
+hope you got something out of this video
+hope you got something out of this video
+hope you got something out of this video
+if you want to see more videos like this
+if you want to see more videos like this
+if you want to see more videos like this
+and the follow-up video
+and the follow-up video
+and the follow-up video
+in which we will attack the the body um
+in which we will attack the the body um
+in which we will attack the the body um
+make sure to subscribe and like if you
+make sure to subscribe and like if you
+make sure to subscribe and like if you
+have any questions leave them in the
+have any questions leave them in the
+have any questions leave them in the
+comments below
+comments below
+comments below
+um
+um
+um
+big thank you
+big thank you
+big thank you
+so far and
+so far and
+so far and
+if you want to support me further
+if you want to support me further
+if you want to support me further
+consider becoming a patreon and
+consider becoming a patreon and
+consider becoming a patreon and
+this video wouldn't be possible without
+this video wouldn't be possible without
+this video wouldn't be possible without
+my patreons so a huge thank you to my
+my patreons so a huge thank you to my
+my patreons so a huge thank you to my
+patreons
+davey i know charlie vs tony mctoatface
+davey i know charlie vs tony mctoatface
+davey i know charlie vs tony mctoatface
+tomfoolery
+tomfoolery
+tomfoolery
+copcod berthouse alex cochain steven
+copcod berthouse alex cochain steven
+copcod berthouse alex cochain steven
+arendendo
+arendendo
+arendendo
+big thank you
+big thank you
+big thank you
+yeah and um
+yeah and um
+yeah and um
+glad you joined me on this adventure
+glad you joined me on this adventure
+glad you joined me on this adventure
+see you in the next one i guess
+see you in the next one i guess
+see you in the next one i guess
+bye

@@ -1,0 +1,14 @@
+import { chromium } from 'playwright';
+const url = process.argv[2];
+const b = await chromium.launch();
+const p = await b.newPage({ viewport: { width: 900, height: 700 } });
+const errs = [];
+p.on('pageerror', e => errs.push('PAGEERROR: ' + e.message.split('\n')[0]));
+p.on('console', m => { if (m.type() === 'error') errs.push('CONSOLE: ' + m.text().slice(0, 160)); });
+p.on('response', r => { if (r.status() >= 400) errs.push(r.status() + ' ' + r.url().split('/').slice(-2).join('/')); });
+await p.goto(url, { waitUntil: 'networkidle', timeout: 30000 }).catch(e => errs.push('GOTO: ' + e.message));
+await p.waitForTimeout(4000);
+const ready = await p.evaluate(() => window.__ready === true).catch(() => false);
+await p.screenshot({ path: '/tmp/opencode/preview_dns.png' });
+console.log('ready:', ready, '| erros:', errs.length ? errs.slice(0, 5).join(' | ') : 'nenhum');
+await b.close();

@@ -1,0 +1,85 @@
+Kind: captions
+Language: en
+You have more power than you might be
+You have more power than you might be
+You have more power than you might be
+giving yourself credit for. Maybe you
+giving yourself credit for. Maybe you
+giving yourself credit for. Maybe you
+have something that's going on in your
+have something that's going on in your
+have something that's going on in your
+life right now that's
+life right now that's
+life right now that's
+challenging,
+challenging,
+challenging,
+painful.
+It's just a reminder that
+It's just a reminder that
+It's just a reminder that
+&gt;&gt; first go to character blueprints.
+&gt;&gt; first go to character blueprints.
+&gt;&gt; first go to character blueprints.
+&gt;&gt; Select camera. Boom.
+&gt;&gt; Select camera. Boom.
+&gt;&gt; Select camera. Boom.
+Search for lag and turn on camera lag.
+Search for lag and turn on camera lag.
+Search for lag and turn on camera lag.
+Basically, this is camera lag. Let set
+Basically, this is camera lag. Let set
+Basically, this is camera lag. Let set
+its value to 15.
+Perfect. Now let's make camera s
+Perfect. Now let's make camera s
+Perfect. Now let's make camera s
+location like AAA style.
+Just select camera. Boom. And copy my
+Just select camera. Boom. And copy my
+Just select camera. Boom. And copy my
+values.
+Good. It's working. Now in next part we
+Good. It's working. Now in next part we
+Good. It's working. Now in next part we
+will do basic replication.
+This website blueprintue.com
+This website blueprintue.com
+This website blueprintue.com
+allows you to directly copy and paste
+allows you to directly copy and paste
+allows you to directly copy and paste
+blueprints to Unreal Engine.
+blueprints to Unreal Engine.
+blueprints to Unreal Engine.
+It has millions of code already pasted.
+It has millions of code already pasted.
+It has millions of code already pasted.
+Just copy and paste.
+For example, this one.
+As you can see, I can copy and paste to
+As you can see, I can copy and paste to
+As you can see, I can copy and paste to
+Unreal Engine.
+Unreal Engine.
+Unreal Engine.
+Including my profile like I have code of
+Including my profile like I have code of
+Including my profile like I have code of
+this tutorial. You can copy and paste.
+this tutorial. You can copy and paste.
+this tutorial. You can copy and paste.
+Let's open my sprint one.
+Let's open my sprint one.
+Let's open my sprint one.
+Now you can copy it.
+Now you can copy it.
+Now you can copy it.
+Thanks for watching. Consider subscriber
+Thanks for watching. Consider subscriber
+Thanks for watching. Consider subscriber
+will help me a lotment on how this was
+will help me a lotment on how this was
+will help me a lotment on how this was
+helpful.

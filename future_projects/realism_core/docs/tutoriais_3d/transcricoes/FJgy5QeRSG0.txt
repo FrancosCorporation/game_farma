@@ -1,0 +1,711 @@
+Kind: captions
+Language: en
+why do Studios hate blender I mean if
+why do Studios hate blender I mean if
+why do Studios hate blender I mean if
+you look at the most used 3D software
+you look at the most used 3D software
+you look at the most used 3D software
+blender is by far the most popular so
+blender is by far the most popular so
+blender is by far the most popular so
+what is it about it that they don't like
+what is it about it that they don't like
+what is it about it that they don't like
+I've been using blender for 3 years and
+I've been using blender for 3 years and
+I've been using blender for 3 years and
+it's fast intuitive it's got tons of
+it's fast intuitive it's got tons of
+it's fast intuitive it's got tons of
+support and add-ons that improve its
+support and add-ons that improve its
+support and add-ons that improve its
+functionality so why choose to spend
+functionality so why choose to spend
+functionality so why choose to spend
+thousands of dollars on other programs
+thousands of dollars on other programs
+thousands of dollars on other programs
+when blender is so good do Studios know
+when blender is so good do Studios know
+when blender is so good do Studios know
+something about these other programs
+something about these other programs
+something about these other programs
+that the average 3D artist doesn't well
+that the average 3D artist doesn't well
+that the average 3D artist doesn't well
+the surface level answer to this
+the surface level answer to this
+the surface level answer to this
+question is really obvious but if we
+question is really obvious but if we
+question is really obvious but if we
+truly want to understand why Studios
+truly want to understand why Studios
+truly want to understand why Studios
+choose to ignore blender we need to dig
+choose to ignore blender we need to dig
+choose to ignore blender we need to dig
+a little bit deeper so blender was first
+a little bit deeper so blender was first
+a little bit deeper so blender was first
+released in 1994 but that was not the
+released in 1994 but that was not the
+released in 1994 but that was not the
+blender that we all know the open source
+blender that we all know the open source
+blender that we all know the open source
+blender that everyone uses today was
+blender that everyone uses today was
+blender that everyone uses today was
+released in 2002 there was a whole
+released in 2002 there was a whole
+released in 2002 there was a whole
+ownership battle between the Creator and
+ownership battle between the Creator and
+ownership battle between the Creator and
+the investors who wanted to keep blender
+the investors who wanted to keep blender
+the investors who wanted to keep blender
+paid but eventually the Creator won and
+paid but eventually the Creator won and
+paid but eventually the Creator won and
+blender was made open source however
+blender was made open source however
+blender was made open source however
+when it was released to the public it
+when it was released to the public it
+when it was released to the public it
+was already outclassed by other programs
+was already outclassed by other programs
+was already outclassed by other programs
+like Maya or 3ds Max that were already
+like Maya or 3ds Max that were already
+like Maya or 3ds Max that were already
+being used by professionals and it was
+being used by professionals and it was
+being used by professionals and it was
+only really in the past few years that
+only really in the past few years that
+only really in the past few years that
+blender has become viable for
+blender has become viable for
+blender has become viable for
+professional work that means that during
+professional work that means that during
+professional work that means that during
+the 2000s when CGI became cheaper than
+the 2000s when CGI became cheaper than
+the 2000s when CGI became cheaper than
+practical film making for most projects
+practical film making for most projects
+practical film making for most projects
+blender wasn't even an option so from
+blender wasn't even an option so from
+blender wasn't even an option so from
+2002 all the way up to 2019 when blender
+2002 all the way up to 2019 when blender
+2002 all the way up to 2019 when blender
+2.8 was released it really wasn't that
+2.8 was released it really wasn't that
+2.8 was released it really wasn't that
+viable for professional Productions at
+viable for professional Productions at
+viable for professional Productions at
+all it was slow had no support and it
+all it was slow had no support and it
+all it was slow had no support and it
+was difficult to modify with add-ons
+was difficult to modify with add-ons
+was difficult to modify with add-ons
+because all the major add-on and plugin
+because all the major add-on and plugin
+because all the major add-on and plugin
+developers were focusing on plugins for
+developers were focusing on plugins for
+developers were focusing on plugins for
+the the big four so what changed why is
+the the big four so what changed why is
+the the big four so what changed why is
+blender more viable today than it was
+blender more viable today than it was
+blender more viable today than it was
+back then and why are Studios still
+back then and why are Studios still
+back then and why are Studios still
+choosing to ignore it so first of all
+choosing to ignore it so first of all
+choosing to ignore it so first of all
+with blender 2.8 came a new user
+with blender 2.8 came a new user
+with blender 2.8 came a new user
+interface which is more friendly to new
+interface which is more friendly to new
+interface which is more friendly to new
+artists they improved scene updates
+artists they improved scene updates
+artists they improved scene updates
+which made blender more responsive they
+which made blender more responsive they
+which made blender more responsive they
+added Eevee blender's real-time render
+added Eevee blender's real-time render
+added Eevee blender's real-time render
+engine they added grease pencil for 2D
+engine they added grease pencil for 2D
+engine they added grease pencil for 2D
+animers and they added the collection
+animers and they added the collection
+animers and they added the collection
+system that we all know today so this
+system that we all know today so this
+system that we all know today so this
+update was a huge leap forward but since
+update was a huge leap forward but since
+update was a huge leap forward but since
+then we've seen other massive updates
+then we've seen other massive updates
+then we've seen other massive updates
+like Cycles X light linking and geometry
+like Cycles X light linking and geometry
+like Cycles X light linking and geometry
+nodes just to name a few so in The Last
+nodes just to name a few so in The Last
+nodes just to name a few so in The Last
+5 Years blender has improved
+5 Years blender has improved
+5 Years blender has improved
+dramatically and with the improvements
+dramatically and with the improvements
+dramatically and with the improvements
+to blender also came new support from
+to blender also came new support from
+to blender also came new support from
+the community a massive wave of blender
+the community a massive wave of blender
+the community a massive wave of blender
+users that had just picked up the
+users that had just picked up the
+users that had just picked up the
+program by watching YouTube tutorials
+program by watching YouTube tutorials
+program by watching YouTube tutorials
+all of these improvements left people
+all of these improvements left people
+all of these improvements left people
+wondering why do Studios still choose to
+wondering why do Studios still choose to
+wondering why do Studios still choose to
+spend thousands of dollars on other
+spend thousands of dollars on other
+spend thousands of dollars on other
+programs when blender is free to answer
+programs when blender is free to answer
+programs when blender is free to answer
+that question I want you to put yourself
+that question I want you to put yourself
+that question I want you to put yourself
+in the shoes of a visual effects
+in the shoes of a visual effects
+in the shoes of a visual effects
+supervisor you work at a large visual
+supervisor you work at a large visual
+supervisor you work at a large visual
+effects house let's just say WETA for
+effects house let's just say WETA for
+effects house let's just say WETA for
+example and you spend
+example and you spend
+example and you spend
+$180,000 per year to Kit out your team
+$180,000 per year to Kit out your team
+$180,000 per year to Kit out your team
+of 100 artists with their choice of Maya
+of 100 artists with their choice of Maya
+of 100 artists with their choice of Maya
+3ds Max Cinema 4D or Houdini depending
+3ds Max Cinema 4D or Houdini depending
+3ds Max Cinema 4D or Houdini depending
+on their role in your team so let's just
+on their role in your team so let's just
+on their role in your team so let's just
+say that switching to blender would save
+say that switching to blender would save
+say that switching to blender would save
+you
+you
+you
+$180,000 per year it's a no-brainer
+$180,000 per year it's a no-brainer
+$180,000 per year it's a no-brainer
+right well not at all according to zip
+right well not at all according to zip
+right well not at all according to zip
+recruiter the average salary of a visual
+recruiter the average salary of a visual
+recruiter the average salary of a visual
+effects artist working in a studio is
+effects artist working in a studio is
+effects artist working in a studio is
+$15.9 th000 per year it's just in the US
+$15.9 th000 per year it's just in the US
+$15.9 th000 per year it's just in the US
+but let's just roll with it so let's
+but let's just roll with it so let's
+but let's just roll with it so let's
+assume that each person on your team
+assume that each person on your team
+assume that each person on your team
+would take two full months of full-time
+would take two full months of full-time
+would take two full months of full-time
+work to reach the same expert level of
+work to reach the same expert level of
+work to reach the same expert level of
+proficiency in blender that they had of
+proficiency in blender that they had of
+proficiency in blender that they had of
+their old program if that were the case
+their old program if that were the case
+their old program if that were the case
+then in just lost time you would lose
+then in just lost time you would lose
+then in just lost time you would lose
+$1.76 5
+$1.76 5
+$1.76 5
+million enough to pay for almost 10
+million enough to pay for almost 10
+million enough to pay for almost 10
+years of subscriptions for your whole
+years of subscriptions for your whole
+years of subscriptions for your whole
+team now this example makes a whole lot
+team now this example makes a whole lot
+team now this example makes a whole lot
+of assumptions but it just sort of gives
+of assumptions but it just sort of gives
+of assumptions but it just sort of gives
+you a feel for the sort of
+you a feel for the sort of
+you a feel for the sort of
+considerations that these Studios have
+considerations that these Studios have
+considerations that these Studios have
+to make and this doesn't even factor in
+to make and this doesn't even factor in
+to make and this doesn't even factor in
+the most important detail blender is
+the most important detail blender is
+the most important detail blender is
+worse now blender being a jack of all
+worse now blender being a jack of all
+worse now blender being a jack of all
+trades program means that on an
+trades program means that on an
+trades program means that on an
+individual level it is in some ways
+individual level it is in some ways
+individual level it is in some ways
+better than each of these other programs
+better than each of these other programs
+better than each of these other programs
+but when you have Maya for your
+but when you have Maya for your
+but when you have Maya for your
+animation team 3ds Max for modeling Maya
+animation team 3ds Max for modeling Maya
+animation team 3ds Max for modeling Maya
+for simulations and so on your
+for simulations and so on your
+for simulations and so on your
+efficiency and quality of work is going
+efficiency and quality of work is going
+efficiency and quality of work is going
+to just be better than blender I say
+to just be better than blender I say
+to just be better than blender I say
+that as a blender fan I use blender for
+that as a blender fan I use blender for
+that as a blender fan I use blender for
+the vast majority of my work both for
+the vast majority of my work both for
+the vast majority of my work both for
+freelance and just for YouTube but at
+freelance and just for YouTube but at
+freelance and just for YouTube but at
+the highest level of production it's
+the highest level of production it's
+the highest level of production it's
+kind of garbage especially when you
+kind of garbage especially when you
+kind of garbage especially when you
+consider that Studios spend hundreds of
+consider that Studios spend hundreds of
+consider that Studios spend hundreds of
+millions of dollars on feature films so
+millions of dollars on feature films so
+millions of dollars on feature films so
+what's an extra 100,000 to get the
+what's an extra 100,000 to get the
+what's an extra 100,000 to get the
+best-in-class visual effect software so
+best-in-class visual effect software so
+best-in-class visual effect software so
+those are some obvious considerations
+those are some obvious considerations
+those are some obvious considerations
+and they tell tell us why blender is not
+and they tell tell us why blender is not
+and they tell tell us why blender is not
+industry standard right now but the next
+industry standard right now but the next
+industry standard right now but the next
+reason is why blender will never be
+reason is why blender will never be
+reason is why blender will never be
+industry standard also if you're
+industry standard also if you're
+industry standard also if you're
+enjoying the video you should drop a
+enjoying the video you should drop a
+enjoying the video you should drop a
+like it really helps out so if you're a
+like it really helps out so if you're a
+like it really helps out so if you're a
+studio looking to pick up a Maya
+studio looking to pick up a Maya
+studio looking to pick up a Maya
+subscription for 100 3D artists you're
+subscription for 100 3D artists you're
+subscription for 100 3D artists you're
+essentially buying Maya in both you're
+essentially buying Maya in both you're
+essentially buying Maya in both you're
+going to be spending a ton of money and
+going to be spending a ton of money and
+going to be spending a ton of money and
+Autodesk wants to make sure that you're
+Autodesk wants to make sure that you're
+Autodesk wants to make sure that you're
+happy so they can keep getting paid bulk
+happy so they can keep getting paid bulk
+happy so they can keep getting paid bulk
+discounts are everywhere for instance I
+discounts are everywhere for instance I
+discounts are everywhere for instance I
+work at a water garden store if a
+work at a water garden store if a
+work at a water garden store if a
+customer buys an entire roll of pond
+customer buys an entire roll of pond
+customer buys an entire roll of pond
+liner instead of just a smaller piece we
+liner instead of just a smaller piece we
+liner instead of just a smaller piece we
+give them a 10% discount try and
+give them a 10% discount try and
+give them a 10% discount try and
+incentivize that but we can't really
+incentivize that but we can't really
+incentivize that but we can't really
+give a much bigger discount than that
+give a much bigger discount than that
+give a much bigger discount than that
+because at a certain point we're just
+because at a certain point we're just
+because at a certain point we're just
+going to be losing money the more liner
+going to be losing money the more liner
+going to be losing money the more liner
+we sell the more money it costs us as
+we sell the more money it costs us as
+we sell the more money it costs us as
+well when Autodesk sells a Maya
+well when Autodesk sells a Maya
+well when Autodesk sells a Maya
+subscription it isn't selling a physical
+subscription it isn't selling a physical
+subscription it isn't selling a physical
+product that costs it more the more it
+product that costs it more the more it
+product that costs it more the more it
+sells it doesn't cost them more to have
+sells it doesn't cost them more to have
+sells it doesn't cost them more to have
+more users that means that they can
+more users that means that they can
+more users that means that they can
+discount however much they need to to
+discount however much they need to to
+discount however much they need to to
+make the sale now obviously the public
+make the sale now obviously the public
+make the sale now obviously the public
+does not have access to the business
+does not have access to the business
+does not have access to the business
+statements of these large visual effects
+statements of these large visual effects
+statements of these large visual effects
+houses but it wouldn't surprise me at
+houses but it wouldn't surprise me at
+houses but it wouldn't surprise me at
+all if W had a deal with Autodesk that
+all if W had a deal with Autodesk that
+all if W had a deal with Autodesk that
+says we'll buy Autodesk for all 1,000 of
+says we'll buy Autodesk for all 1,000 of
+says we'll buy Autodesk for all 1,000 of
+our employees and we'll do that for the
+our employees and we'll do that for the
+our employees and we'll do that for the
+next 10 years but you have to give us a
+next 10 years but you have to give us a
+next 10 years but you have to give us a
+50% discount this is essentially a
+50% discount this is essentially a
+50% discount this is essentially a
+win-win Autodesk secures a big client
+win-win Autodesk secures a big client
+win-win Autodesk secures a big client
+for years to come and WETA saves
+for years to come and WETA saves
+for years to come and WETA saves
+millions of dollars now while I
+millions of dollars now while I
+millions of dollars now while I
+personally believe that this is going on
+personally believe that this is going on
+personally believe that this is going on
+it is somewhat conjectured but the next
+it is somewhat conjectured but the next
+it is somewhat conjectured but the next
+reason is proven large visual effects
+reason is proven large visual effects
+reason is proven large visual effects
+houses get support we just talked about
+houses get support we just talked about
+houses get support we just talked about
+why Autodesk would be incentivized to
+why Autodesk would be incentivized to
+why Autodesk would be incentivized to
+keep WETA happy they wouldn't want to
+keep WETA happy they wouldn't want to
+keep WETA happy they wouldn't want to
+lose a multi-million dollar account so
+lose a multi-million dollar account so
+lose a multi-million dollar account so
+if WETA has an issue with 3ds Max they
+if WETA has an issue with 3ds Max they
+if WETA has an issue with 3ds Max they
+have access to support from the Autodesk
+have access to support from the Autodesk
+have access to support from the Autodesk
+team now Autodesk offers support to all
+team now Autodesk offers support to all
+team now Autodesk offers support to all
+of its users but there have been many
+of its users but there have been many
+of its users but there have been many
+cases of individuals whove reported that
+cases of individuals whove reported that
+cases of individuals whove reported that
+Autodesk just completely ignores their
+Autodesk just completely ignores their
+Autodesk just completely ignores their
+complaints yeah while Autodesk feels
+complaints yeah while Autodesk feels
+complaints yeah while Autodesk feels
+like it can lose one user it definitely
+like it can lose one user it definitely
+like it can lose one user it definitely
+doesn't want to give up servicing an
+doesn't want to give up servicing an
+doesn't want to give up servicing an
+entire company this creates an even
+entire company this creates an even
+entire company this creates an even
+bigger divide while Indie Studios and
+bigger divide while Indie Studios and
+bigger divide while Indie Studios and
+individuals get ignored these larger
+individuals get ignored these larger
+individuals get ignored these larger
+Studios enjoy the support that everyone
+Studios enjoy the support that everyone
+Studios enjoy the support that everyone
+was advertised this is why many small
+was advertised this is why many small
+was advertised this is why many small
+Indie Studios and individuals choose to
+Indie Studios and individuals choose to
+Indie Studios and individuals choose to
+opt for blender rather than dropping the
+opt for blender rather than dropping the
+opt for blender rather than dropping the
+cash on expensive Suite of programs so
+cash on expensive Suite of programs so
+cash on expensive Suite of programs so
+after all of that why do Studios hate
+after all of that why do Studios hate
+after all of that why do Studios hate
+blender they're basically just saying if
+blender they're basically just saying if
+blender they're basically just saying if
+it ain't broke don't fix it why would we
+it ain't broke don't fix it why would we
+it ain't broke don't fix it why would we
+stop using the programs that are working
+stop using the programs that are working
+stop using the programs that are working
+so well and risk switching over to the
+so well and risk switching over to the
+so well and risk switching over to the
+unknown blender that would be a big risk
+unknown blender that would be a big risk
+unknown blender that would be a big risk
+something that large studios in general
+something that large studios in general
+something that large studios in general
+hate taking which is why even though I
+hate taking which is why even though I
+hate taking which is why even though I
+love blender I don't think it'll become
+love blender I don't think it'll become
+love blender I don't think it'll become
+industry standard anytime soon so
+industry standard anytime soon so
+industry standard anytime soon so
+blender is obviously worse for Studios
+blender is obviously worse for Studios
+blender is obviously worse for Studios
+who have access to almost infinite
+who have access to almost infinite
+who have access to almost infinite
+resources I mean in an interview with
+resources I mean in an interview with
+resources I mean in an interview with
+Corridor Digital Kelly Port of digital
+Corridor Digital Kelly Port of digital
+Corridor Digital Kelly Port of digital
+domain one of the largest visual effects
+domain one of the largest visual effects
+domain one of the largest visual effects
+houses said this so at this point is
+houses said this so at this point is
+houses said this so at this point is
+there like a full perfect 3D
+there like a full perfect 3D
+there like a full perfect 3D
+reconstruction of New York like on the
+reconstruction of New York like on the
+reconstruction of New York like on the
+servers somewhere at digital domain or
+servers somewhere at digital domain or
+servers somewhere at digital domain or
+Disney or something you would think by
+Disney or something you would think by
+Disney or something you would think by
+now I think I think so the O reveal
+now I think I think so the O reveal
+now I think I think so the O reveal
+sequence on that bridge digital domain
+sequence on that bridge digital domain
+sequence on that bridge digital domain
+did that sequence in it's about 4 square
+did that sequence in it's about 4 square
+did that sequence in it's about 4 square
+miles of fully digital environment so
+miles of fully digital environment so
+miles of fully digital environment so
+obviously as solo VFX artists we are at
+obviously as solo VFX artists we are at
+obviously as solo VFX artists we are at
+a huge disadvantage these large Studios
+a huge disadvantage these large Studios
+a huge disadvantage these large Studios
+have access to thousands or even
+have access to thousands or even
+have access to thousands or even
+millions of assets but there is an
+millions of assets but there is an
+millions of assets but there is an
+add-on inside a blender that's made a
+add-on inside a blender that's made a
+add-on inside a blender that's made a
+huge difference in bridging this Gap and
+huge difference in bridging this Gap and
+huge difference in bridging this Gap and
+that's blender kit you've probably
+that's blender kit you've probably
+that's blender kit you've probably
+already heard of it because they're used
+already heard of it because they're used
+already heard of it because they're used
+by thousands of 3D artists it'll be the
+by thousands of 3D artists it'll be the
+by thousands of 3D artists it'll be the
+first link in the description and you
+first link in the description and you
+first link in the description and you
+can go download it for free to get
+can go download it for free to get
+can go download it for free to get
+13,000 3D models or if you want to get
+13,000 3D models or if you want to get
+13,000 3D models or if you want to get
+their entire library of 38,000 3D models
+their entire library of 38,000 3D models
+their entire library of 38,000 3D models
+plus 14,000 materials you can get 10%
+plus 14,000 materials you can get 10%
+plus 14,000 materials you can get 10%
+off using my link in the description and
+off using my link in the description and
+off using my link in the description and
+that'll also go to help support this
+that'll also go to help support this
+that'll also go to help support this
+channel I've been using them for years
+channel I've been using them for years
+channel I've been using them for years
+now and it's awesome but you do want to
+now and it's awesome but you do want to
+now and it's awesome but you do want to
+be careful that you you don't abuse the
+be careful that you you don't abuse the
+be careful that you you don't abuse the
+assets you're free to do whatever you
+assets you're free to do whatever you
+assets you're free to do whatever you
+want but don't go just plop 10 assets
+want but don't go just plop 10 assets
+want but don't go just plop 10 assets
+that you just downloaded into a scene
+that you just downloaded into a scene
+that you just downloaded into a scene
+and call it your art but if you use them
+and call it your art but if you use them
+and call it your art but if you use them
+correctly these assets will make your
+correctly these assets will make your
+correctly these assets will make your
+workflow way faster and more
+workflow way faster and more
+workflow way faster and more
+professional anyways if you made it this
+professional anyways if you made it this
+professional anyways if you made it this
+far into the video you should definitely
+far into the video you should definitely
+far into the video you should definitely
+subscribe to see more or you can just
+subscribe to see more or you can just
+subscribe to see more or you can just
+watch this video over here thank you for
+watch this video over here thank you for
+watch this video over here thank you for
+watching

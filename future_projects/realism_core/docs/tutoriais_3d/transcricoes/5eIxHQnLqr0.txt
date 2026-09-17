@@ -1,0 +1,4812 @@
+learning to make a complete character
+that looks good and can be animated in
+blender can be a daunting task
+especially if you are new to 3D modeling
+texturing and rigging this series shows
+how to do just that while introducing
+you to the ins and outs of blender
+this video covers how to make the head
+it's an update to the first video in the
+complete character tutorial series but
+it has some new tips and tricks as well
+as being brought up to blender 3.5 the
+rest of the series starting with
+tutorial number two covers making the
+body the hair rigging and everything
+else you need to know to make a complete
+character ready for action so go and
+scour the web or wherever you find
+inspiration and figure out what you want
+to make
+or you can use some other artists work
+but be sure to ask permission first for
+our example we will have a woman with a
+graceful composed look a white dress
+with flowers and the fiery Reds and
+oranges of autumn once you know what you
+want to make you will need reference
+images and a template to model from the
+template will be used to make the
+overall shape and you want a nice front
+and side view of the character maybe a
+back view too
+whether you're drawing the template or
+finding images to use trying to get them
+to have a flat look especially at the
+face
+in photography terms it would be
+pictures taken with a long lens in the
+example below you can see the left side
+has much more Distortion in the face
+whereas the right side which is more
+like a long lens is very flat the reason
+flat images are good is because we will
+do a lot of work in orthography view
+also try and get the facial features
+from the front and side views to a line
+you can use Photoshop or to edit
+your images so they line up better but
+I've never seen both views align
+perfectly when you're happy with your
+images turn to them in a square image be
+sure to crop the image as close to the
+top and bottom of the character as
+possible the second thing you'll need is
+reference images for all the facial
+features like the eyes nose and mouth
+and should be in multiple angles you
+should end up with a set of images
+something like this but I'll make these
+available for free if you want to use it
+okay now that we have our reference
+images all sorted let's set up blender I
+have one custom key binding so here's
+how to change it so you can follow along
+with me go to edit preferences this is
+optional by the way and go to keymat
+here
+and then if you click on key bindings
+here and click here and type shift Z
+this will show so shift Z is the key
+bindings I want to use for something
+else
+so I need to make sure it's clear if
+it's taken like it is here I'm going to
+hit X to delete that key binding so now
+it's no longer doing that whatever was
+doing
+and that's how you can delete key
+bindings and then to set your own key
+bindings you can set a key binding to
+almost anything I'm going to set it to
+wireframe so this toggles the overlays
+but within the overlays there is a
+wireframe overlay so I want to turn this
+on and off all day long so I'm going to
+right click this here assign shortcut
+and then type in shift Z
+so I have now set a custom key binding
+for wireframe and so now you can see it
+turns on and off
+and the reason why I'm telling you this
+is because I'll have a little key
+binding sorry key map here that shows
+you the commands I'm hitting and so if
+you see shift Z and it turns the
+wireframes on and off and it's not doing
+it when you try it that's why it's
+because I have a custom key binding
+there okay so that's that and you can
+set custom keyboarding to like you know
+almost anything you can do this here and
+assign shortcut so it's it's a nice
+thing to know
+there are a few add-ons that I use a lot
+also that you will need for this
+tutorial this is not optional so go to
+edit and preferences and then go to
+add-ons right here
+and then type in the first one is called
+F2 so type in F2 and then make sure this
+is turned on like it is
+the next is node Wrangler type in node
+and make sure node Wrangler is turned on
+the next one is
+mesh tools so type in mesh
+and turn on ADD mesh extra objects
+and then the last one is Loop tools
+so make sure the mesh Loop tools is
+turned on
+so those are the add-ons that I'm going
+to be using for this tutorials this
+whole series so make sure you've got
+these turned on
+okay some Basics on movement so if you
+middle Mouse and drag in the 3D viewport
+it rotates if you hold shift and middle
+Mouse drag it pans and if you hold Ctrl
+and middle Mouse it zooms
+or you can scroll the mouse wheel to
+zoom
+you can also left click in this little
+Gizmo up here and you can rotate it
+if you click one of these little letters
+like X you'll snap to that view if you
+click it if you click X again it'll flip
+it to the other side
+Z
+other Z and so forth so that's that you
+can click this
+plus to zoom in zoom out and the Hand
+click and drag to move it around if you
+click the camera it'll snap to whatever
+the current camera is
+a few middle Mouse and drag you'll leave
+that camera view
+and this one here is perspective on and
+off
+these affect the way you move things
+just leave these for now so make sure
+these are grayed out so they're not
+they're not active make sure this is on
+bounding box center which is this little
+um
+square with the dot in the middle
+and make sure this is set to Global
+we'll uh we'll dive into that later
+we'll use this file to show the render
+modes so in the 3D viewport you can have
+wireframe mode you can have solid shade
+this is the Shaded mode and this one
+here is the render mode but for our work
+at this point let's just stick to solid
+if you have your mouse in the 3D
+viewport and hit end like Nancy
+you will see
+this uh these panels pop out here these
+tool panels and so you'll have item tool
+and view I have more add-ons so you
+won't have these tabs but you'll have
+these three and these have basic tools
+for various things about blender right
+now this view just talks about the basic
+view for blender
+if you grab this here and click item
+it'll have some information like
+location rotation scale you can move
+this and change that
+if you hit tab go to edit mode then this
+changes
+function so then it changes just part of
+it
+so I'll explain all those later but just
+know that there are various tools under
+the N panel
+let's talk about the
+outliner here so this is the outliner
+panel and this is basically a folder
+structure for everything in your scene
+instead of a folder they call a
+collection so this is the collection we
+have right now and within that
+collection we have the camera Cube and
+light and you can see if you click
+things in the collection it selects it
+in the 3D viewport
+similarly you can select it in the 3D
+viewport and it highlights it here so
+there's two different ways of selecting
+things depending on what you're doing it
+might be easier to use the outliner or
+the 3D viewport
+the outliner has a nice search feature
+so you can just type for something like
+the camera so cam you can see the
+cameras there and you can click it there
+and highlight it so if you have
+thousands of things you can type to
+search for things that's kind of useful
+and there are toggles for
+these collections or the items within
+collections so by default you have this
+visible and the renderable
+so if you turn off the I you can no
+longer see it
+that's the whole collection if you turn
+off the eye for the camera then you
+can't see the eye for the camera either
+the camera
+and renderable is when you hit the
+render button F12
+if this is turned on it will render that
+object if it's turned off like if you
+turn off the light it'll render with no
+lights
+since we're here let's set this up so
+let's click on filters and click on
+selectable
+so this allows us to lock things so say
+we like the cube we don't want to change
+it we can click this and we can no
+longer select the cube let's turn that
+off
+let's talk about the properties panel so
+the properties panel if you have
+something selected you can see the
+options change and so they'll there'll
+be various options for whatever you have
+selected so for the cube here for a mesh
+you'll have a material
+you'll have object data properties
+a bunch of settings here there's nothing
+on this so it's pretty blank right now
+this is for physics
+more physics these are for particles
+this is for modifiers you can choose all
+these modifiers and this is for the
+object data properties so there's
+different options for this Cube here and
+then for the camera you can see there's
+different settings
+so we'll we'll go into that later but
+there's lots of settings for objects
+there's also global settings so this is
+for your file right here this is for
+your render properties
+so right now our renderer is set to EV
+let's set that to Cycles that's what I
+use EV is more of a real-time rendering
+engine and Cycles is for
+super glossy but slow renderings I
+usually use Cycles
+here this is for your rendering it's
+another rendering setting so this is
+like your size and if you're doing
+animations how many frames so there's a
+whole bunch of there's like lots and
+lots and lots of settings but just know
+that this is where you'll go to set any
+kind of settings for um
+whatever you have selected or for your
+scene
+so Blended lets you customize your
+interface however you want to so if you
+mouse to a corner of any window
+you'll get a plus if you left click and
+drag you can make a new window
+and then within that window you can
+change the mode so right now this is in
+3D viewport which is this little grid
+but the little
+well
+and you can go and there's a whole bunch
+but you can go and say choose outliner
+which we have over here and now we have
+an outliner or you can change it again
+to
+properties like that and now you have
+properties you can get rid of this if
+you want to so you can Mouse over to
+a window next to it
+left click and drag and you'll see it
+does this little dark and light thing
+and then you can get rid of it so it's
+it offers lots of flexibility to get the
+perfect set of Windows for whatever task
+you're doing in the top left is your
+tools palette
+if you hit the letter T it'll disappear
+or come back
+I honestly don't ever use this I don't
+even know how to use it I know this is
+move rotate and scale but it's much
+easier to use your keyboard so if you
+click an object
+and hit
+R it rotates
+if you hit s it scales and if you hit G
+it moves why is it G I don't know you
+can constrain how you move things also
+so if you hit let's see so note the X Y
+and Z Direction here if you hit G and X
+you move it along the x-axis and you can
+see that red line got brighter to show
+you where you're moving along
+if you hit Y
+then you go this way along the y-axis
+and Z is along the Z same thing for
+rotation R is just free rotating
+and r x rotates around the X
+r y rotates around the Y and Z rotates
+around the Z
+and same thing for scale scale
+x y z
+you can also numerically move things so
+grab the cube hit G to move it and then
+hit move in the X to go that way if you
+look in the top left you'll see a number
+and you'll see a number right there
+so
+say like this is around three
+meters so you can type in negative three
+and now it's exactly
+three meters offset along the negative X
+same thing for rotating our X you can
+say 45 and it rotates it on a 45. I
+forgot to mention that there is a
+different rotation mode so if you hit r
+once it's just that free mode based on
+your view if you hit r twice
+it moves it like a trackball so this is
+very useful so keep that in mind too
+and then if you want to reset anything
+you can hit Alt G
+R and S and it resets the movement
+rotation and scale to the default for
+whatever you have selected
+there are also several workspaces so we
+were in layout there is modeling which
+has different tools
+sculpting UV editing texture paint
+shading animation rendering and so forth
+and each different layout has a
+different set of tools readily available
+so that way it makes it easier for you
+to do whatever task you're doing again
+you can customize all these windows to
+however you want to function but they
+kind of preset it for you for now let's
+just stick to the modeling workspace
+um if you click on the modeling
+workspace and see these little yellow
+dots it's because it defaults to into
+edit mode just hit Tab and you're back
+in object mode and I'll explain all of
+that later
+it is time to place our beautiful
+template in blender but before we do
+that let's make sure we have the correct
+scale
+so if you look at this floor grid here
+one square is one meter squared and
+that's going to work fine for us
+so let's delete this Cube
+you can select the cube here with left
+clicked and then hit X and delete to
+delete things it's kind of weird but
+that's
+put this
+we're going to place a cube for a scale
+reference for our template but before we
+do that let's talk about the 3D cursor
+when you place an object it defaults to
+wherever the 3D cursor is and that 3D
+cursor is this red and white circle if
+you don't see the red and white circle
+you can try and toggle overlays and if
+this is on it's blue and you still don't
+see it you can click this down carrot
+and go to 3D cursor and turn it on there
+the 3D cursor is a very powerful tool
+but it's a little bit strange and it'll
+be hard to hold on to it in your head
+but just kind of keep going back to it
+as you're using blender and eventually
+you'll get used to it and it'll be uh
+it'll be it'll make your life a lot
+easier so let's just walk through the
+basics
+if you hold shift and right click the
+cursor will snap to wherever you can see
+and click
+it'll also snap onto objects so let's
+get a
+thing here so let's shift a shift a is
+your add menu shift a and then you can
+add any of these things here let's add a
+mesh and find the cube okay so there's a
+cube so if you shift right click on the
+cube you can see the cursor snaps to the
+cube so basically anything you can see
+and click on that's where you can put
+the 3D cursor there is a snap menu that
+has some commands for the 3D cursor so
+if you hit shift s and type in one or
+choose this here it'll snap the cursor
+to the world origin that's useful
+if you have something selected you can
+hit shift s and 2 or pick this here and
+it'll snap the cursor to whatever you
+have selected it'll it'll snap it to the
+origin
+of whatever you have selected so by
+default the origin for this cube is in
+the middle of the cube it's this little
+orange dot again you can toggle it here
+if you don't see it make sure you go
+here and you can toggle it on and off
+so shift sn2 snaps the cursor to the
+origin for whatever you have selected
+another interesting thing is
+let's put our cursor back to the world
+zero shift s and one
+let's select this object so we can snap
+the center of this object the origin
+to the 3D cursor so you type in shift s
+and 8 or shift s and choose this and it
+snaps to that 3D cursor
+okay had enough to 3D cursor well we're
+not done just yet so if you shift and
+right click and move that 3D cursor
+so
+you can use a 3D cursor as a pivot point
+to do certain operations
+so if you'll remember when we rotate if
+you hit R it rotates whatever you have
+selected around the center of that
+object that is because we have bounding
+box center chosen as a transform pivot
+mode
+so if you Mouse over here
+you can see transform Pivot Point
+bounding box center if you click that
+and choose 3D cursor what do you think
+is going to happen right it's going to
+transform around the 3D cursor so again
+it's weird but it's going to be very
+powerful and works for scale also so if
+you scale it'll scale towards the 3D
+cursor so that's
+the basics of how that 3D cursor works
+okay so let's again grab this X and
+delete and then shift s for our snap
+menu and hit one or choose this and put
+that back to the center
+and we're putting this back here because
+that's where we want to snap our Cube
+that we're going to use for scale
+blender has a feature that allows you to
+modify the last command you did and so
+we're going to use that to create a cube
+and modify the size of the cube to be
+the height of the character we want to
+create
+so let's go and hit shift a
+that go to cube you can see down here
+this little add Cube popped up
+and that's how you can modify this Cube
+if you click off and click your Cube
+again it's gone so it only works right
+after you do something
+so shift a
+mesh and Cube and then it has options
+for size location rotation so let's make
+the height of our character
+63.7 inches I just Googled the height of
+a average woman
+63.7 inches
+okay
+but the cube is not
+standing on the ground so change this Z
+location you can see you can change that
+let's change this to half of that which
+is
+31.8 inches
+okay so now we have our Cube standing on
+the ground
+so a very important aspect of blender is
+keeping everything perfectly zeroed out
+or perfectly symmetrical or just
+perfectly perfectly placed it just it
+just makes everything work better and so
+let's talk a bit about how to do that so
+if you select your Cube and hit n for
+Nancy and click on item
+you can see
+the scale is at one because when we set
+the size of this Cube that became the
+default for this Cube's size so the
+scale is at one even though the height
+of it is 1.62 meters same thing for
+rotation it's not rotated but the
+location is not zeroed out it's at 0.8
+something by this not being zeroed out
+to zero zero zero when you're rigging or
+doing other kinds of things it can kind
+of mess things up so it's good to have
+this at zero if you set this to zero it
+moves the cube back down and we don't
+want that
+so let's zero out this Cube so that way
+it's all at zero over here but it stays
+there and you can do this by hitting
+Ctrl a
+and location apply applies the
+information for this object to be
+default so if you hit Ctrl a and hit
+location you can see this now zeroed out
+so this is at zero zero zero even though
+this Cube has not moved and so why
+that's nice is if you move this by
+accident if you hit alt G
+it snapped it back to zero so G is for
+move alt G snaps it back
+if this rotation or scale was not set
+correctly if it was all like at some
+different funny angles and you want that
+to be your default you would hit Ctrl a
+and do
+rotation and scale or you can do all
+transforms
+however we don't want that because
+that's kind of you know weird so let's
+grab this and let's reset the default
+you can hit alt GRS
+so remember that alt GRS you'll be
+hitting it
+all day long
+okay let's finally add our image plane
+our templates
+so let's go to the front view which is
+negative y so go to this sphere here hit
+negative y make sure the green dots in
+the middle and it says negative y so
+let's add an image plane that's the
+exact size of this front of the cube
+here
+and we can use our 3D cursor to do that
+so you'll remember let's see let's move
+this
+if we grab R3 our object and hit shift s
+and two
+it snaps but it snaps to where the
+origin for the object is which is on the
+floor and we don't want that
+but there is a way to snap a 3D cursor
+to part of an object
+and to do that we need to go into edit
+mode
+so if you hit tab
+like that you go into edit mode
+you can see up here that's switched to
+say edit mode
+Fiat tab again it goes out or you can
+manually do it like that okay so that's
+edit mode
+and edit mode has different ways of
+modifying parts of the mesh geometry
+there is a point mode
+Edge mode and face mode so if you click
+point you can see these little dots
+appear so you can grab one and hit G and
+it moves points
+Edge we'll select edges you can click it
+let's do this one you can see it better
+and you can move an edge or face and you
+can move a whole face
+okay so we want to grab a face
+and then hit shift s and two
+and it snaps the 3D cursor to that face
+that we had selected
+okay let's say tab to get out
+go and hit Negative X to go to the front
+view so now we have our 3D cursor in the
+middle of that face let's make our Cube
+invisible
+so let's grab this here go to object
+properties go to visibility viewport
+display and change this to wire so make
+it easier to add our template and then
+let's hit shift a
+choose image and choose reference
+let's navigate to where you saved your
+template
+pick the front one and click load
+there's no way to precisely scale this
+you just have to eyeball it and
+templates move weird you can't just
+click it you have to Mouse over the edge
+like that until it turns yellow then
+while it's yellow hit s to scale and
+scale it down
+scroll in to scale in closer and then
+Mouse over the edge hit s
+and get that to be as close
+as you can it's not does not be super
+close Okay so that is the front template
+placed let's actually move this um
+further back so when we model our
+character it'll be behind our character
+so let's Mouse over like that and hit g
+y
+and pull that
+back like that
+it's a little bright so let's make it
+darker so let's click on the image here
+and then let's choose the opacity
+and lower this down
+kind of like that let's also change it
+so
+you can't see it from this side so just
+play around with this thing here so yeah
+that's it so that is our front placed
+let's add our side template in here so
+let's hit this x to go to side view
+let's move our 3D cursor to the middle
+of this Cube so let's grab that
+hit tab to go to edit mode
+I forgot their hotkeys for vertex Edge
+and face one two and three so let's hit
+three
+and then click this here shift s and 2
+or this one here
+okay
+and let's go tab to exit
+shift a to add let's choose image and
+reference let's navigate to where our
+image was saved and choose that one
+scroll out a bit click that and scale it
+in
+that's good enough there scale back out
+I want this actually on the other side
+G
+X like that and I want to rotate this to
+face the other direction
+but right now we are in transform around
+3D cursor
+so it'll transform around that we don't
+want that we want to go around bounding
+box center
+okay you can see this reference images
+center is right there
+so Mouse over hit r
+hit Z and then type in 180 and hit enter
+okay that's facing the right way
+let's change the opacity to like 0.3
+and let's mess with this front back
+until it's only visible from this side
+okay so that is placed let's move this
+back a bit
+g y let's organize things a little bit
+so I can
+select that there it highlights here
+double click and type in template front
+side
+you can add new collections so if you
+click this overall collection here right
+click and do a new collection create a
+new one double click that let's call
+this templates and grab these two here
+hit M to move so there's two ways you
+can move this you can grab these and
+drag it in
+which works sometimes but not always
+so if that doesn't work you can
+select them hit M for move
+and then you can pick the collection
+that you want to put it in
+templates
+I don't know why dragging doesn't always
+work but it doesn't always work so if it
+doesn't hit M to move and make sure your
+mouse is over this outliner
+okay
+and then somehow we
+didn't turn that on so let's turn that
+back on this is the lockout
+and let's lock that out so you can't
+pick them so you can't mess it up by
+accident let's get rid of this Cube and
+put the cursor back shift s and one
+getting a nice topology is the
+foundation of good modeling your
+character will bend better when
+animating and it will be easier and more
+time efficient to model and edit ideally
+your character is made up of all quads
+or four-sided shapes like this Cube here
+they all line up evenly vertically and
+horizontally or in the v Direction and U
+Direction
+that doesn't always work for complex
+shapes like a character we can try to
+but where it's not possible we can just
+kind of merge the quad parts with stuff
+in between
+that stuff in between is called a five
+pole which we have one right here you
+can see there are five lines coming from
+this Center Point or the center Pole
+and this still bends fairly well
+and it's still all made of quads you can
+use a three pole here like this you can
+see it's got three lines
+this one doesn't bend very well
+so it should really only be used in
+places where it's not going to bend or
+if it's
+kind of off to the side somewhere and
+then there are triangles so you really
+don't want to use these but if you do
+use them
+make sure you put them in an out of
+sight place
+sometimes they're actually useful and
+I've used them under the hair in the
+ears inside the eye sockets or below the
+feet
+in this example here let's grab this and
+hit tab to go to edit mode so in this
+example you will see it's mostly quads
+over the whole thing
+I do have five poles there's one here
+there's one there there's one over here
+five poles Bend okay so it's all right
+to have these uh in the front of the
+face
+here there's a three pole this does not
+Bend well but it's in an area that
+doesn't Bend and it's kind of off to the
+side so that's okay
+and then here we have a triangle this is
+probably still too visible so not a good
+idea but I'll put I'll just leave
+triangles inside the ears quite a bit
+because you don't look inside ears it's
+usually covered by hair and you know
+it's not a big deal
+uh this here this is a perfect example
+of what not to do this is a five-sided
+and so you don't want to have something
+like this so don't do that there are
+certain
+um
+construction methods that have been
+tried and proven to work well so let's
+just show you some of these while we're
+here so one of them is to it's good to
+have loops around the eyes and the mouth
+that's something that you need to always
+do
+this is also something that works very
+well it's this kind of a mask shape that
+goes around the eyes so definitely do
+that
+and then another loop going around the
+nose and the mouth this one changes form
+sometimes this is kind of how I do it
+but this one is is a good thing to do
+also and then I like to have a loop
+going around the whole face too so we
+will um we'll do all of that
+when we go through this tutorial
+let's create a new collection so let's
+go to the main collection here right
+click new collection call this body
+and make sure you have this highlighted
+so we're putting things into there
+let's hit shift a and go to mesh and go
+to round Cube if you don't see round
+Cube make sure you install the add-ons
+from the beginning of the tutorial
+okay so this is here if you don't see
+this
+open that
+go to here type in one and make sure Arc
+is set to four
+okay just like that
+and then click off and it locks it if
+you click off and nothing happens it's
+because the last collection you selected
+was in templates and you'll remember we
+locked out templates so anything that
+you click inside there is Frozen
+so make sure
+you have body selected or you last
+select body and it'll put things into
+there okay let's call this head and
+let's delete half of this head so to do
+that we need to go into edit mode so hit
+tab to go to edit mode and then hit
+three to go to face mode
+which it already is in face mode
+let's go to front view and drag to
+select half of this now there's
+a weirdness about how select works you
+can see
+it only selected the front half that's
+because we're in solid mode if you hit
+alt Z it goes into x-ray mode you can
+see it you can see through it it has
+these little dots on each face
+so now
+if you go to the front view drag across
+now you can see you've selected through
+the object
+so keep that in mind if you want to
+select what's in front and behind now
+hit X and
+uh
+X4 delete and then choose faces
+and we have half a sphere
+let's hit alt Z to go to solid mode
+again
+okay
+now we're going to do a modifier our
+first modifier
+so let's go and hit tab to go to object
+mode
+Okay click this wrench here
+so remember
+um when I was talking about everything
+being zeroed out so with modifiers
+sometimes
+if the object is not zeroed out it can
+screw things up so just make sure
+everything is zeroed out which it is so
+that's good
+okay so grab this object click the
+wrench click add modifier and click on
+mirror
+and it mirrors over
+if it's not working right make sure it's
+set to the x-axis
+and turn on the clipping and merge so
+these two turned on
+when the two edges get close enough to
+touching each other they snap together
+and make a water type model and because
+this is perfectly aligned it just
+automatically snaps together I mean it's
+automatically merged
+okay when you're working with the mirror
+modifier sometimes weird things happen
+so if it does turn off your mirror and
+make sure there's no
+geometry on the inside of your open Edge
+let's hit shift Z so we can see the
+wireframe is better
+so you can see there's nothing here
+everything should be good but let me
+give you an example of what happens if
+there is geometry there
+let's grab this hit tab to go to edit
+mode hit 2 to go to Edge mode and let's
+click an edge shift click the edge and
+hit F to join those two if that doesn't
+work make sure you install the add-ons
+from the beginning of the tutorial hit
+tab to go out
+go and re-add our mirror so you can see
+there's funky geometry there but when
+the mirror is turned on you can't see it
+but what will happen quite frequently is
+you'll be using the loop cut tool so
+let's go and hit tab to go to edit mode
+and click off and space hit control R
+for Loop cut and you can see if you
+Mouse over one of these edges it'll show
+a yellow line for where it's going to
+cut so if you click it
+and then hit Escape you can see it
+creates a loop cut for half of it that's
+in yellow but it mirrors it to the other
+half and it's it goes around in a circle
+and it just it makes sense
+but what will happen when things go
+weird is you'll hit Ctrl R and some mess
+like this happens
+okay and it's like why in the world is
+that happening and that's because we
+have geometry on the inside so if weird
+things happen turn off your mirror make
+sure nothing's there let's control Z
+this a few times
+edit mode
+face mode click that X faces
+Tab and back
+let's just check it
+okay
+and Escape out of there
+and tab
+okay okay let's move this sphere so we
+can roughly make it the size of our
+character's head
+but I want to show you an interesting
+thing about blender
+if you move things in object mode or in
+object mode and you hit G the origin
+this little orange dot moves along with
+the object if you go into edit mode
+and hit a to select all and hit G and Z
+you can see the mesh or the object moves
+but the origin stays where it is so this
+is important because we want to always
+have let's see let's go back into object
+mode we want to have this always zeroed
+out so if you're moving things around in
+edit mode it's always zeroed out and
+sometimes you want to do this sometimes
+you will but that's something to keep in
+mind another interesting thing is that
+when you move things in edit mode if you
+have something like a mirror that
+depends or it works in relation to this
+origin if you go to edit mode and hit G
+you can see the mirror doesn't work like
+it did more in object mode because this
+mesh is moving this orange mesh here is
+moving to the right in relation to that
+orange origin point and so that messes
+with how this mirror works sometimes you
+want to move in object mode and
+sometimes in edit mode and I just
+noticed I had clipping turned off so
+let's turn that back on and let's go to
+front view and go to x-ray mode and g z
+and I want to scale this down so let's
+hit scale so this is interesting too you
+see when I scale it's using bounding box
+center and even though this looks like a
+sphere it's not this is actually half a
+sphere so the center of this
+is right here and so we don't want that
+so what we can do to make things easier
+for us to scale right to this Middle
+Point
+is we can go to Edge mode by hitting two
+then click off in space to unselect then
+alt click
+to select this whole Edge so you can
+select whole edges like that so alt
+click to select that whole Edge in the
+middle of this circle is basically where
+we want that 3D cursor to be so shift s
+and two and it snaps it to the middle
+there
+now hit a to select all
+and change this to transform around 3D
+cursor
+and if you hit s to scale you can see it
+scales towards that 3D cursor and with
+this mirror on that is how we want to
+scale this
+that
+and g z like that X here
+and g z a bit more
+trying to get this line kind of to be in
+the middle of her face okay I think
+that's good enough for now let's go and
+let's go and Center this template
+so let I will quickly fix this template
+okay let's edit this shape using
+proportional editing
+so we'll go to edit mode
+and hit
+one for vertex mode
+so when you grab a Vertex or a face or
+anything in edit mode and hit G it moves
+one thing it's well it's doing both
+sides because it's a mirror but it moves
+one point okay
+if you turn on proportional editing it's
+got this soft movement so if you turn
+that on and hit G
+you can see it moves it will it looks
+like everything it's kind of hard to
+tell but it's it's moving
+everything that's kind of near that one
+point
+and if you look up here to this
+proportional size
+uh right here it says one meter okay
+um
+if you move this around here and scroll
+the mouse wheel up you'll see that one
+meter number gets smaller and so you can
+see on the screen there's that big
+circle that gets smaller and smaller so
+that shows you the size of the influence
+from that one vertex we have selected
+so this is a nice way to softly move
+things
+okay
+so let's do that
+let's grab a few points here we are in
+x-ray mode so if we select from the
+front we also select what's in back
+it's important
+so let's grab some of that
+and let's g x and pull this in some
+and try and get this
+jaw to line up there let's get this to
+go in but I just want to get the very
+edge so I'm going to scroll up so it
+it's just the top there maybe do that a
+bit and do that a bit
+let's maybe pull this
+out some
+okay something like that
+check the side
+g x oops how's that working y okay that
+does work
+move this in
+so it roughly follows the head we don't
+need to follow it too close but we're
+just
+roughly shaping it to match the head
+size
+okay something like that
+when you're working in orthographic view
+like this it's a good idea to check in
+perspective to see how it looks alt Z to
+go to solid mode so you can see this
+looks like just yeah I don't know what
+this is it looks weird but we can add
+this more to get it closer to our head
+shape but let's do this in sculpt mode
+that's another good way to shape your
+mesh let's go to edit and sculpt mode so
+sculpt mode has different tools over
+here and so I find it's good to just
+smooth this whole thing out so let's
+click the smooth tool and the tools have
+a basic working Paradigm I guess you can
+call it so I have smooth selected if you
+hit f it changes how big the tool
+affects and the escape to drop that if
+you hit shift F you get this funny curve
+here this tells you how strong it's
+going to affect whatever you're doing so
+let's set the list of around like 0.5 or
+you can go here and type in point 0.15
+so now and this is radius also so you
+can change radius with numbers or you
+can hit F to change it so I'm going to
+just smooth that a bit
+just to even things out and then let's
+shape this again to get it to look good
+so another good tool to use is the
+elastic deform tool let's lower this to
+point
+two it works by
+getting this yellow dot to snap to one
+of the points on your mesh so it does it
+automatically then click and drag
+I can hit F to make it smaller so it
+doesn't affect as much and just roughly
+get that in shape I think we'll go to
+x-ray mode
+let's check the front
+pull that out
+so just roughly
+shape this to be close to the Head
+okay something
+like that oh the head got really
+pointy
+with any tool selected if you hold shift
+it goes to the smooth tool so I'm
+holding shift now just to smooth that
+back down a bit
+and then let go so you can go back to
+the elastic tool
+okay let's see here let's go to front
+view
+go to x-ray okay that's lined up pretty
+good
+and that's lined up pretty good
+let's go to
+object mode and turn off x-ray
+so let's
+look at our Loops a bit here our Edge
+flow
+so let's get a loop that runs down the
+side of the face and then goes
+down the bottom of the jaw so let's see
+alt to Z to go to X-ray let's go to tab
+to go to edit mode and then hit three to
+go to face mode and ALT click to grab
+these Loops here so right now it comes
+and runs down the bottom of the head
+let's get it so it comes down and then
+goes forwards towards the front of the
+chin
+so to do that
+let's grab these faces here
+let's toggle to solid
+and hit e to extrude so e you can
+extrude faces on polygons
+works like that
+let's go back to the side view here and
+re-grab these let's make sure you get
+them all and then let's go to x-ray go
+to bounding box center
+and scale it and rotate it let's just
+line up
+those with the chin here
+like that and you can see now we have
+the edge flow starting to do what we
+want so let's move some of these back so
+I'm going to hit two
+and then trying to alt click this and
+it's not working okay so here's a good
+here's a good example so
+I had shown you how you can grab this
+and hit e to extrude remember that one I
+did that
+and then I hit escape to cancel it I
+must have done something wrong
+because it's not working well let me
+show you it's not working because when
+I'm in edit mode and in Edge mode and
+you alt click and Edge it should collect
+the row it should select the row of
+loops
+well if you select here you can see it's
+not doing the whole row it should do
+that but we're getting that instead so
+that's a tell that lets you know that
+something is not good
+so one easy way to
+just fix things is you can go to point
+mode go to x-ray mode
+and just grab everything
+and you can merge so you hit M to merge
+and go by distance
+okay so you can see 16 vertices were
+merged now let's try it again
+yeah okay so now it is working like it
+should be working
+let's go to x-ray mode and let's
+continue with shaping this let's get
+this row here to kind of follow right in
+front of the ears grab these things here
+and just move
+here's another thing that I do quite
+frequently so if you have some points or
+vertices selected and if you hit g once
+you can see it moves like that
+if you double hit G
+you can see It'll Slide the vertices
+along an edge so this is a nice way to
+move a different way to move points
+so you can see how this has this big dip
+in the side let's do this okay so you
+can see it has this big crater
+if you double hit G and go up and double
+hit G and go back
+you can see it it's a kind of a
+different way of flattening things out
+let's keep shaping this here
+so again trying to get this Edge flow
+here going along the bottom of the chin
+so it's do that some more
+and let's check it
+okay it looks pretty funny here so let's
+move some of these things in here so
+here I'm going to use the
+G and X
+so you can just move things
+double hit G two
+slide these along the verts
+let me go to sculpt mode and hold shift
+and just smooth things out a bit
+note that when you're smoothing things
+it's usually collapsing the shape so
+sometimes it doesn't work so good
+so you can smooth some things and then
+pull them back out again
+right now I have elastic selected so you
+can just kind of pull things around
+okay
+let's work in front mode here let's go
+to edit mode
+and let's edit the front of the jawline
+but the problem we have here is you can
+see through this whole head so you can
+see the all the drama between the back
+of the head and the front of the head
+and so that's not going to work
+um
+but I still want to see you can make it
+solid but then you can't see the sketch
+I want to hide
+the geometry on the back of the head and
+so you can do that pretty easily if you
+go to face mode and just select the
+faces that you want to hide click over
+here and then shift drag and shift drag
+and shift drag
+and shift click to grab the faces on the
+back half of the head
+and then hit H to hide
+then after we're done editing you can
+hit alt H to bring it back
+so that's a good way to temporarily hide
+some faces it alt H is kind of one of
+those
+things that you can try for example if
+you're working on a rig and you you
+can't find a bone that should be there
+try alt H or if you're looking for a an
+accessory like
+a piece of hair that you made and you
+can't find it try alt H so sometimes you
+hide things by accident
+because the letter H is right next to
+the letter G and you hit G to move
+things and so you're constantly
+hitting H by accident and hiding things
+and it's it's really annoying so alt H
+is one of those good things to try when
+you just can't find something
+so let's shape our jawline a bit
+and let's go to side view and
+edit the jaw a bit here so it's alt h
+to bring the rest back
+and let's just move some of these around
+okay let's check perspective View
+and the foreheads caving in here a bit
+so let's just grab this you can hit alt
+s to scale things normal you can see it
+goes in and out
+that's kind of a nice way to just
+inflate some surfaces okay I think it's
+pretty good
+this face here is a little bit skewed
+you want to have these faces as square
+like as possible so let's just try and
+make this less stretched
+and let's check front view two and do g
+x to pull that in
+g x
+I'm just trying to roughly match the
+sketch line here
+looks pretty good we'll fix this little
+corner later
+okay
+I think that's good for now
+let's start with the eyes grab the head
+tab
+three and grab these six faces here
+now we will use inset to hit I
+and do that and then hit B
+to change this to a boundary inset
+the boundary did not work that's because
+you have hidden geometry or double
+points so make sure you do either of
+those fixes I talked about earlier
+let's click off and ALT click and so you
+can see we have a loop that runs around
+the i in a mask area and so this is what
+we need to create a good foundation for
+our eyes
+now that we've built that uh
+foundational Loop right here let's go
+and shape it to be closer so I'm going
+to again
+hide at the back of this character
+hit one for point mode and let's just go
+and
+shape these
+I'm gonna hit double
+G for a bit here
+just to pull things along the vertices
+double G works in Edge mode too so I
+just hit 2 for Edge mode
+I'm gonna grab that
+pull it up
+and this and pull it down
+so I'm kind of making that
+socket like a around the eyeball let's
+pull that in let's check front view here
+one for point mode and and keep
+hitting double g
+actually pull some of these back
+make sure proportional editing is turned
+on and it g y
+and scroll the wheel
+so I'm going to pull this back so it
+matches the bridge of the nose but
+obviously we're skipping the tip of the
+nose
+a bit back to
+and double hit G to try and
+just try and use your
+feelings and intuition to
+get this to feel like it's
+matching this sketch obviously the
+sketch is 2D
+you're working in 3D
+but this is where the um
+the Artistry comes through
+okay I think that's looking pretty good
+let's check the side view really quick
+here
+okay
+let's also change the view so let's set
+this to like 200
+there's less Distortion so this should
+make it a little bit easier to model
+let's add a couple of spheres in there
+to um
+uses eyeballs so we could model our face
+around that but I want to show you
+something that's just a weird thing
+about blender if you're in Ed mode and
+you add geometry it adds it to the
+current object you're on if you're in
+object mode and you add geometry it's a
+completely separate object
+so let me show you that really quickly
+we'll shift right click here to drop a
+sphere there and then shift a to add
+let's click UV sphere and let's use this
+little option here to scale it down okay
+and now you let's exit
+edit mode with tab if you see here on
+the outliner if you click head you can
+see it selects the head and the eye mesh
+because we add that mesh while we were
+in edit mode and so it's all considered
+one object
+this kind of screws me up here and there
+that's what I'm showing you so let's go
+and delete that get back out now we're
+in object mode
+and let's shift a again
+and do UV sphere and then let's let's
+see 32 let's do 24 and 12. so now you
+can see it added a separate object to
+call this I if you look at this mesh
+here you can see these Rings make it
+look like an eyeball so let's rotate
+that so it's facing forward
+so let's go over here and we need to
+rotate it nine degrees so you can hit RN
+90 to rotate it so let's just move it a
+little bit and then type in 90. okay
+there we go
+let's also freeze let's see here so you
+can see now that we've rotated this
+you can see that
+it uh it saved the rotational data so
+let's freeze it again so it's um so this
+becomes the default rotation so Ctrl a
+and rotation and now that is zeroed out
+okay so let's just line this eye up here
+scale down a bit here and let's get that
+in place let's check the front view here
+oops so the sketch is pretty
+loosey-goosey but
+let's just try and get the um geometry
+for the eye
+to kind of match that sketch a bit side
+view here that's pretty good
+check it in perspective here see it
+might be a bit big perspective okay
+that's not
+that's obviously not good the reason why
+this probably happened was this sketch
+here that I made
+I I tried to make it a very flat almost
+an orthographic View
+but just the way
+um
+people myself included naturally draw
+you just try and draw to look good and
+looking good means it's probably in
+perspective by matching the
+um this eyeball mesh we made to the
+sketch eye
+it's probably not in the right place
+probably too far out let's pull this in
+just a touch and it's probably still
+sticking out
+and we should we'll probably shape this
+head a bit to match
+let's go and mirror the eye over
+so let's go and add modifier
+let's go and mirror this so this is
+going to mirror it based on this
+object's origin but if you click mirror
+object you can pick another object's
+origin so let's click this here and now
+it mirrors to match the head perfectly
+and so now let's sculpt the head to
+match that eyeball a bit more
+let's go to edit mode Edge mode with two
+grabs this here it's
+yeah this side looks a little bit a
+little bit too flat so let's
+alt s to pop that out and then
+let's do the same thing with these
+maybe like that and like that
+and I'm thinking here we're going to add
+more geometry to make up the
+skin around the eye and the eyelid and I
+think that's still sticking out too much
+so let's uh let's go and sculpt this a
+bit
+so it's kind of iterative iterative
+process you kind of
+add some geometry or add some Loops or
+some things
+and then you go and sculpt it a bit to
+get things in place and then or edit it
+to make it in place so it's kind of this
+back and forth process
+that just kind of happens because it's
+so low poly
+kind of distracting actually
+it's so distracting it's I can't work
+with it so you can cut faces
+with the K key so I went back into edit
+mode from sculpt mode sculpt mode to
+edit mode and I'm hitting K to cut
+and I'm just going to cut this here to
+make that face so that quads into two
+triangles and I'll put it back later but
+I'm doing this just to see
+kind of how it would actually look
+okay let's go back to sculpt mode and I
+think
+we need a little more
+front of cheek there
+and more cheekbone over here
+maybe over here a lot of times you'll
+get three quarter views of characters or
+photos and
+you can look at that too
+okay I think that's pretty good
+let's go and get rid of this again here
+so it's if you wanted to uh
+erase one of these edges you can hit X
+and go to dissolve Edge
+like that so you can dissolve edges or
+vertices or faces
+there
+okay
+so now we're back to having good
+topology
+let's hide the back of the head again
+but since we keep doing that over and
+over again let's let's make it easier
+for ourselves and create a bookmark of
+sorts
+so while we're in edit mode
+click on object data properties a screen
+triangle and look for vertex groups and
+go and select whatever you want to
+bookmark click plus call this temp back
+of head and then click assign this
+basically assigns the this selection to
+this little thing here so if you click
+off
+and then click select you can see it
+re-selects it
+so that'll make things easier for us
+okay still in Edge mode face mode let's
+grab this here let's create a loop that
+goes around the eye
+so hit I for inset
+and scaled in so it's roughly the
+size of an eye
+hit X and faces to delete
+then go to front view and x-ray
+and hit one for vertices and let's just
+move these points around until it
+matches the I in this sketch let's also
+make sure we move it a little bit
+inwards
+towards the center of the face because
+we did the same thing for the eyeball
+to compensate for perspective
+a little bit hard to tell but I think
+you can go to this view here hit a
+and
+I think
+this wants to come up a bit
+okay that's pretty good
+let's go to solid mode here and
+Okay so we've got a big hole there so
+let's go and fix that so we can use that
+with um snapping
+so let me show you let's let's do this
+let's make another window here you don't
+have to do this you can just watch or
+make it if you want to
+so let's go back to
+wires here let's go to front view okay
+so let's turn off our proportional
+editing because it'll mess with the
+snaps
+let's turn on our snapping this
+magnifying glass
+and then let's go to face predict
+so face project is typically used with
+read topology so if you make the
+beautiful sculpture
+in your
+re-dopologizing that by putting faces
+over it you usually use this to snap
+things on there
+but we can use it to snap our face onto
+our eyes
+so the way it works is you can click a
+point here
+and then
+if you hit G to move it'll snap this
+point to whatever is directly behind it
+so look here while I'm doing it
+so I'm just going to hit G
+and then click without moving anything
+without moving the mouse
+G and click you can see it snapped it
+onto that eye
+G click
+same thing
+all the way around
+I think that's everything
+yeah okay so it's all uh snapped onto
+the eyeball
+let's also hit Ctrl r
+to add a loop
+oops okay so I left snapping on so it's
+trying to snap to something so let's
+control Z that to get out of it
+turn off snapping
+then hit Ctrl R again click and now it
+does it like it usually does so let's
+move this kind of like right there
+so usually the skin around the eye is
+actually pretty thick so let's grab that
+and hit g y to move this forward so I'm
+thin like that right now we're just
+trying to rough in this shape that's
+good go to face mode and ALT click so we
+got a loop around the eyes we've got the
+mask going around both eyes
+and we've got a loop going around the
+head now that we've laid down some new
+geometry let's
+shape this so it looks good
+move this around a little bit
+so this is kind of my uh basic workflow
+as I'll add some topology
+so we've got
+good Edge flow and so forth and then go
+and shape things so they look better
+he's gonna keep going back and forth
+I think this nose seems a little bit
+wide
+yeah it feels a bit wide let's pull this
+in some
+maybe too much
+okay I think that's pretty good
+let's tab into edit mode and check our
+Loops again
+so that one was good that one's good
+good good
+that one's good
+that one's good it runs through the face
+okay this one should run through the
+face so let's um
+but we put holes in our eyes so
+let's reclose it temporarily so let's
+grab those two edges hit f
+and then let's hit F again to close that
+triangle
+hit F and F so we'll um delete these
+later that one's good
+that one's funky
+so I think it's okay
+up here kind of like shapes nicely I
+think this one doesn't look good I think
+this one should run off the chin feels
+more like a jaw that way so let's go and
+delete that
+and change
+we'll change the geometry to
+get the edge flow to go off the chin
+instead of around the chin
+so let's uh let's do something let's
+grab this here let's shift d to
+duplicate this
+and hit X to move it in the X
+so we can see ib4 and after
+okay let's go to edit mode Edge mode
+and
+we want the flow to go from here
+to down there
+right there so let's delete these two
+and this one's right next to it so let's
+delete that one I think we need to
+delete that one too
+we'll work with all of this later okay
+back to Edge mode
+so we want to go from right here to
+right there
+we'll create a polygon right here
+so it's kind of like you want to go from
+right here
+to right there and this this little uh
+logic puzzle happens over and over again
+what I've found works best is you add
+more geometry so instead of one face
+here
+you subdivide this so it has more
+geometry
+and then you use the F2 plugin by
+hitting F to close up again
+okay so let's see how that works
+so again let's grab these two hit F to
+close it
+let's hit Ctrl R to cut it which is
+adding more geometry
+when you do this technique this open
+hole
+you want to have this have an even
+amount of faces so right now it has four
+if you hit Ctrl and add one cut it makes
+it five which is not good scroll to
+Mouse wheel up at six that's good click
+the mouse
+escape and let's move this down a bit
+double hit G
+okay so now we have three edges up here
+one two three and three there that's six
+that's good we want to go from here to
+here so you could figure it out in your
+head but what I usually do is I just hit
+f a few times until it closes up the way
+I want it so let's just show you how
+that works so I'm going to pick this one
+edge here FF and then alt click here
+and that is messed up because what is
+this face doing so then Ctrl z a few
+times and let's try this
+FF
+and then let's alt click again
+ah okay there we go so now it's flowing
+off the bottom of the chin just like we
+want uh it looks terrible so now we have
+to go and sculpt it to make it look good
+and if we compare this to before you can
+see this face here basically is now
+three and this face here is basically is
+now two pieces
+I hope that made sense it's kind of a
+weird uh weird logic puzzle but this
+happens a lot
+let's um let's add some more geometry
+while we're here
+so instead of two faces let's add one
+more face to this little part here to
+hit Ctrl R click and then Mouse over so
+it's kind of close to this line then
+let's click this and ALT click that and
+it'll select all the edges in between
+and then double hit G and move that so
+it's kind of a even spacing
+move that over there
+that will be enough geometry for now
+move that over a bit
+we've got a nice foundational topology
+but let's use the editing and sculpting
+techniques that we've learned to get
+these faces to be more similar in size
+and then scopeless and shape so it
+matches the templates and these are
+artistic senses to get this head to look
+like the character we're trying to make
+double hitting G works really good in
+this uh
+doing this type of work
+so use that a lot
+even this out a bit
+I think we might need to add some more
+faces here but I want to keep this Edge
+Loop
+around the ear so let's leave that
+unselect and move these forward
+when you see
+uneven shading it's probably because
+you've got surfaces
+that aren't following nicely so let's go
+in
+let's go to sculpt mode
+and hold shift and just smooth it out
+and you're working on the jaw area
+sometimes it's good to
+oops do a front and side view so you can
+see
+what's going on so you can see it's
+messing up this side this front view
+here
+let's um edit this first
+so when you're working on a jaw this
+happens a lot when you add the side the
+front kind of caves in and if you add
+the front to look good then the side
+looks bad so so there's a little trick
+to to making this work better
+grab whatever faces that you don't like
+in the front view and just move it
+directly in the X
+so g x and pull it directly sideways and
+I notice that just helps control how it
+tweaks things
+so you don't constantly fix the front
+view fix the side view and so forth
+okay it's looking better
+well we'll probably delete those
+just work on the main head here I feel
+like Uh something's funny here usually
+the cheek
+pops out and this part sinks
+this part sinks in
+the cheek pops out so let's go ahead and
+do that
+let's do this let's just hit G and move
+that
+you can come really low or really high
+and look alt click an edge and kind of
+see what the cross section of that area
+is
+so we were adding this cheek here and I
+was wondering what's happening
+to this area and so you can see that
+area there is
+going kind of flat
+so let's go and puff that out with alt s
+or let's actually hit G
+okay so that's feeling
+more like a head
+I think maybe even this can come out
+a bit more
+too much of a peek there
+to Flat there
+checking this eye profile quickly and
+yep I think that's
+I think it's actually too low
+right here so let's move that up a bit
+we have built our eye mask and our eye
+Loops next we need to make a nose and
+then get a mouth Loop
+and then a loop going around the nose
+and the mouth
+um especially this area here this is the
+laugh line and this will
+crease nicely when we make our character
+Smile so let's go and build the nose
+next
+go back to edit mode and object data
+properties let's hide the back of the
+head select an H to hide that and let's
+go to front view and move this geometry
+around
+so we can get a loop running around the
+nose and the mouth
+double hit G to pull that up
+like there
+pull these down
+make some space for ourselves
+let's go to solid mode
+make sure nothing weird is happening
+okay so we want to go a loop
+starting kind of here
+and going around
+to there so let's see how will we do
+that
+oh we actually need some geometry for
+the nose too
+so it can extrude out
+let's delete these X and faces
+let's hit Ctrl R to cut this
+Ctrl R to cut that
+delete these X and faces and then hit
+Ctrl R to add some geometry for the nose
+to pop out
+let's click and then slide that over
+and then let's grab these and slide it
+over
+let's pull these up a bit and pull that
+down a bit okay okay so our Loops are
+going to start from here run down and
+around to there so let's get rid of
+these X and faces go to point mode grab
+those and double hit G to pull these
+back like that then shift click that and
+that hit F Ctrl R cut that escape to
+drop it and let's hit G turn off
+proportional editing hit G to move that
+over and then hit F and F
+let's check our Loops again so click
+that oops face mode and ALT click okay
+we've got a loop going around the mouth
+a mask around the eyes and the eyeballs
+so let's um let's
+scope this a bit and get it in shape
+by double hitting g a lot
+okay that feels pretty good oh that's
+actually
+okay that's pretty good
+so now that we've got the foundational
+geometry in place
+it's time to use some Artistry and just
+kind of shape this a bit so it
+feels closer to the look
+that we're going for which is at this
+rough stage is the look is basically
+looks more like a human
+so work like this this is where um if
+you do things like figure drawing
+or sculpting like in the real world
+sculpting and figure drawing
+or even Z Bush type of sculpting
+anything that
+you can
+flex your Artistry to learn the human
+form
+that's going to help you doing work like
+this
+these over here look too big and so do
+these
+so let's just control R and add some
+more geometry then let's go to edit and
+sculpt mode and hold shift and just
+smooth things out
+edit mode and I think for this bottom
+part let's
+alt s
+pull that out a bit
+like over here it actually for sure goes
+convex so it's alt s and push it in a
+tiny bit
+but up here it should be all round so
+let's alt s and pop that out a bit okay
+and I think these
+alt s and pop it out
+a little bit maybe too much Ctrl Z and
+ALT s
+alt s okay
+let's grab that vertices and just G and
+move it
+we're going to make a bridge going
+across this uh upper lip so e to extrude
+X to move an X and go over until it
+snaps if it doesn't snap make sure
+clipping and merge is turned on
+let's add some geometry so Ctrl R let's
+roll that up one time
+escape and then
+double hit G to make
+just pull over and let's make kind of a
+nasal trough
+and let's add the mouth so it's
+Edge mode and ALT click that
+e to extrude S to scale and just pull
+this down
+G to move it
+kind of close to the mouth shape
+this line here
+should be the middle of the mouth so
+let's pull this to
+the inside of the mouth and that sketch
+these sketch is not symmetrical so I'm
+kind of splitting the difference
+looks a little weird
+let's add a loop cut here
+it's a little light
+and let's add a loop cut for the mouse
+here
+so let's lay out these faces
+so we can
+have the character talking and smiling
+and so forth and so this Loop cut this
+Loop here will control the mouth and
+this one here will control the smile
+this file line is is a tricky one to
+make
+but the gist of the smile line is this
+is where the
+transition from the mouth to the chicas
+and that's where it's going to crease
+when the person is smiling so I can show
+you this picture here
+you can see the smile line starts to
+crease up here
+and it kind of comes around the side
+and it
+goes down a little bit outside the mouth
+so let's go and make that and this smile
+end is going to vary
+like quite a bit between character to
+character depending on the character's
+face so let's go in x-ray mode and take
+a look
+vertex mode
+so we want a loop coming from
+the nose here
+and going around
+the bottom of the mouth
+but the problem is we already have this
+so we need to change things so we can
+get some geometry in there so let's just
+go and let's just go and make it I think
+we can grab this X and delete and then
+let's go to x-ray mode and let's make a
+space to have a loop coming down here so
+to do that I think we'll just move some
+faces around
+turn on partial editing and hit G
+let's just move some of these vertices
+there so we can get let's get this point
+here
+so we can get a face going from here
+into here and all the way down here so
+we need more space down here I'm just
+double heading G okay so we'll get a
+loop starting there running all the way
+down there
+hit Ctrl R to cut that click and Escape
+and let's hit F to close this one so
+we've got that
+now we need to fill this little thing
+with one more face
+so let's use F2 again but this time
+let's use F2 in vertex mode
+so when you're in vertex mode if you
+click this one point here and hit f
+it creates a face
+you can click
+and then just hit G to move that to
+where you want it to be
+so F2 works
+vertex mode and fix mode
+let's just check our loops
+mouth it's good
+another mouth that's good
+smile line and smile line
+it looks really bad but I think this
+will give us enough control for The
+Smiling over here and for the mouth and
+we'll add more geometry later but this
+is kind of the foundation of the um
+topology so let's go and fill up the
+rest of this over here
+f
+click
+F click and F and let's make sure this
+merges okay and then let's um it looks
+really funny so let's now that we have
+our topology the way we want it to be
+for the mouth let's go and
+sculpt this in place
+it's just soften it a bit with
+the smooth
+and let's
+fix this whole thing here so let's see
+let's kind of grab these and Pull It
+Forward
+let's go to x-ray mode
+GE whites pull that out
+this has to go around the nose so let's
+pull these back
+and note I'm only going in the y
+direction
+this
+so that way the front view does not get
+all messed up so let's just show you
+here
+by moving in y
+you can see I mean the color changes but
+you can see the location doesn't change
+in this view so this way all the nice
+work you put into getting this layout to
+look good doesn't change
+find modeling very peaceful
+as you can see
+if front of side view it was okay but
+this is totally strange so let's go and
+fix it some more
+so you can see since we're in
+perspective in scope mode it's going to
+change the layout from the front view
+so I'm trying to get pretty low
+so it messes it up as little as possible
+but sometimes sculpting is just it's uh
+it's a more touchy feely tool that just
+makes them a little bit easier to use
+artistry
+you can use the draw tool to inflate
+things
+so plus goes out minus goes in
+slow this to like below 0.2 and
+you can just brush over it and kind of
+pull things out
+let's read check our
+front view here you can see things got
+kind of messed up let's go to edit mode
+let's
+double hit G to pull the mouth
+back in place and again this area here
+it's so critical trying to imagine how
+this would bend
+when she smiles
+I think that's good
+Jesus the whole thing needs the gloves
+let's do this
+okay let's add a nose and then continue
+sculpting this
+okay let's go to the side view here T to
+make more space and x-ray
+okay let's add our nose in so let's alt
+drag to select that Loop
+you need to extrude S to scale and pull
+that in a bit
+let's go to side view and hit
+let's turn off proportional editing
+first with o and then g y to pull that
+forward
+so our sketches aren't like this is not
+lining up so let's go and fix that
+unfortunately editing back on
+let's just move this until it fits the
+sketch better
+same thing it's Edge mode alt grab turn
+off proportional editing either extrude
+s to scale
+and then
+g y inside view and let's go scale in y
+rotate it a bit
+now let's close up this nose let's hit f
+so we can make kind of the front of that
+nostril part
+then that's alt click the edges
+e to extrude S to scale pull it down a
+bit
+side view let's pull it Forward scale it
+down to try and match our sketch here
+then let's grab a top grab the bottom
+F to join that
+Ctrl R to add a couple loops
+go to side view let's make this match
+the sketch a bit then let's hit F and
+see what happens is that good I think
+that's better
+sometimes if you're not sure if you're
+when you're laying down your topology
+you can go to sculpt mode hold shift and
+just smooth things out a bit
+and then take a look again
+and it's like okay well now it looks
+okay
+so I think this is enough geometry for
+the foundation for our nose and mouth
+let's just check it really quick smile
+line don't worry about this going into
+the nose it's okay
+so we got smile line down here smile
+line down there the mouth right here so
+transition from the mouth to the rest of
+the face that goes across
+that's fine it's fine okay I think we're
+looking pretty good that's okay
+let's even out some of our topology
+uh I like to use the double hit G method
+but I want to show you something a
+Nuance about it
+so say if you grab some edges and double
+hit G and do the same thing here and
+then the same thing here
+you can see it the whole shape collapses
+down on itself it gets smaller
+if you start from the far side and
+double hit G and here and here
+you can see it does not collapse it just
+slides the
+edges around
+so that's kind of something to keep in
+mind
+the order of which you reshape makes a
+difference
+sometimes it's helpful to
+rotate around a 3D cursor instead of
+sliding or moving things
+let's add some teeth so we can continue
+building out our mouth
+but let's go to edit mode first and
+vertex mode
+and grab this one vertex here and shift
+s and two so that way we can add the 3D
+cursor
+let's make sure we go back into object
+mode so we don't add the teeth to this
+mesh here
+let's hit shift a mesh and cylinder
+and let's set this to
+32.
+and size let's make this like
+0.3
+okay it's good enough for now let's
+click off
+go to edit mode a s to scale
+and let's go to the front view and scale
+to roughly teeth size
+this one you don't need to be super
+accurate just like we did with these
+rough eyes something to snap and build
+around I believe edit mode
+so we can leave this object origin where
+it is
+let's hit g y to move it back transform
+around object origin
+by hitting period in four then rotate so
+I usually
+make teeth something
+like that
+let's move the 3D cursor with a shift s
+and one let's move this side view so we
+can see what's going on
+grab a mesh
+alt Z to solid mode
+tab into edit mode and Edge mode with
+two and ALT click this edge here
+let's extrude it and hit Y to go back
+towards the teeth a bit just like that
+then front view turn off proportional
+editing s to scale this in a bit you can
+see just a bit here let's turn on snaps
+with face mode turned on go to vertex
+mode let's do this
+so I can see what's going on and hit G
+and click you can see it's snapping to
+the teeth G and click all the way around
+okay so you can see what's going on here
+this weird clipping thing let's talk
+about clipping a bit if you open the end
+panel and click on view you can see your
+clipping settings up here I usually left
+click this and drag it all the way to
+the left and then click one time to the
+right so this is kind of how I usually
+have it if you're going too close the
+camera pushes through the object now
+sometimes this is nice because when you
+have lots of geometry going on it's hard
+to see what's happening especially
+inside the mouth or inside the eyes but
+if you don't want this you can drag this
+all the way to the left
+and so it's basically not clipping
+to the edge mode and ALT click this Edge
+turn off proportional editing and let's
+double hit G to move the ellipse off the
+teeth just a bit like that then let's
+add one more Loop cut here
+and then let's shape this to look good
+let's go back to side view here so we
+can see what's going on let's hit alt s
+to pop the lips out a little bit round
+let's actually try and double hit G to
+pull this in a bit here and then alt
+click this and double hit G and pull it
+back we can kind of get the
+the mesh to follow this sketch a little
+bit and in 3D view also make it look
+kind of okay and then let's just mess
+with it until it looks good
+so again we've added some geometry now
+we're just going to sculpt it around
+until it looks good
+sometimes lips do this little Peak thing
+in the middle but our sketch doesn't
+have that so we're not going to do that
+okay I have our sketches and isolate so
+we can kind of see the sketch while
+we're working grab that
+foreign
+sketch
+so our lips are no longer following the
+sketch I think the side view I drew with
+the mouth kind of closed and the front
+view of the mouth was parted
+and I guess the front view which seems
+to have more of the character
+I think this is okay on a side note I
+like to model characters so that they
+look good while I'm modeling that's why
+the arms are down instead of in a t-pose
+and that's the same reason why
+I modeled it up slightly parted it looks
+nice it's in a relaxed state
+but know that if you are going to rig
+the mouth so that the character can talk
+and smile and so forth A lot of times
+you'll actually want the lips to be
+closed before you do the rigging so this
+method is a little bit more work but I
+feel like you get better results this
+way
+okay the lips are bugging me they're
+uneven we've got four faces there three
+there so let's go and
+fix that and I try and make these as
+even as possible
+vertically so let's double hit G to pull
+that
+kind of there
+let's try and get this one lining up
+here
+then let's control R click
+and drag that so it matches up here
+let's
+kind of even things out
+okay I think that's better
+so let's clean up our head here so you
+can see we have Edge Loops that don't
+continue because we had them hidden in
+edit mode
+so let's alt H to unhide that
+Ctrl R click Escape control R click
+Escape
+and I think there's one more Ctrl R
+click Escape K to cut click click enter
+and the same thing here and here then
+let's sculpt this a bit to smooth it out
+foreign
+we have a stylish character with a big
+head and a skinny neck
+when you're modeling something like that
+you end up with the head that looks like
+it's not sitting properly on the neck
+because the neck is just so small you
+can see here it's offset from the back
+of the head
+this is actually an excellent character
+modelist Sergey cabaler
+versus
+if you have a normal sized neck like
+this you can see the head Blends into
+the back of the neck like you'd see in
+you know real life this is another
+excellent character artist Maliki
+definitely check those two guys out
+let's add some reference geometry to
+help us get the neck in place
+so let's go to object mode
+edit mode
+let's click a Vertex shift s and two to
+drop a 3D cursor
+jump back out to object mode shift a to
+add and pick cylinder scale down a
+little bit side view x-ray s and Z to
+make it a little bit longer transform
+around Bounty box center and then let's
+just rotate this in place
+let's actually make it a bit longer so
+let's go to transform
+local s and Z so I'm just going to get
+this bottom of the neck to go into the
+body and let's scale it down just a bit
+a little wide so let's scale back down
+some more yeah so it looks like the side
+definitely hit enter to toggle off
+overlays and look at it without your
+templates and just evaluate it even
+though we're following our sketch I
+think this neck needs to be a little bit
+further back so let's go to the side
+view here
+X-ray and let's um figure out where you
+want to Pivot the neck let's put that
+there and transform around 3D cursor
+like that let's toggle solid and toggle
+off overlays and just rotate it till it
+feels
+correct and I think that looks better
+let's quickly check it oops check it
+against our sketch so it's a little bit
+different the back is taking up more
+space the front's pretty close front's
+wider here probably okay I think um that
+front sketch the neck looks smaller
+again because of perspective so I think
+we're going to be all right with this
+let's use sculpt mode to get our head to
+Metro neck and let's also use a mask
+but to make it work I needed to create a
+new material so to do that we have our
+head selected click on this material
+panel and then click new and that'll
+create a new material we'll call this
+skin and then if you click on base color
+here you can just pick like a color and
+you can't see it because we're in solid
+mode so click shaded mode
+and now you can see it and you know pick
+a color that
+you want so now when you're in scope
+mode if you hold Ctrl shift
+you can see it Grays out and that's how
+the mask works if you grab the elastic
+tool you can see the top stays in place
+and the bottom moves there are some
+options for mask so you can hit Ctrl I
+to invert you can alt M to clear
+you can also shrink and grow
+and shrink and you can smooth
+so it's kind of a gradual effect
+that's alt M to clear
+and Ctrl shift to select and let's
+select
+those faces I think that's good
+let's go to mesh and smooth mesh to
+smooth out the back of the neck
+smooth mask
+and then let's control shift to grab
+these
+because I want to hold the jaw here but
+I want the back of the neck to kind of
+just gradually
+change just pull this back shift F to
+control the strength of the brush
+F to control the size
+and then let's to this mode here and
+toggle X-ray let's pull our mesh to
+match our sketch better
+it's not going to match exactly because
+we um
+change the neck
+let's hold shift to smooth it a bit
+okay I think that's pretty good and I
+also think that the
+back of the neck here is Con concave I
+think it's the right word so let's pull
+that out
+pull that out here some more
+I think that's good
+let's go to object load
+shift s and two
+grab our head tab into edit mode and
+let's go to the bottom View
+let's close up this hole so we will
+extrude this and then scale it towards
+the 3D cursor so let's get
+3D cursor turned on which it is let's
+turn off proportional editing and hit e
+to extrude S to scale okay turn on x-ray
+so we've got that and let's make this a
+circle shape so we can go to Loop tools
+this is one of the add-ons and do a
+circle
+and okay so we have a problem because
+you can see on the bottom of the screen
+the loop overlapped but because we have
+a mirror modifier once it overlaps it
+gets stuck you can see the bottom looks
+funny it's got that vertical line so
+that's not working Ctrl Z that g to move
+this over here right click and loop
+tools and circle
+and then let's scale it back down and
+just make sure those lines for that
+Circle don't overlap
+and scale it down so it's a bit bigger
+than the neck turn off x-ray
+Okay g y and pull that back I think
+that's pretty good next are a little bit
+thicker in the back than they are in the
+front so let's do this let's go to
+sculpt mode pull it out a bit in the
+back
+and let's make sure we have a gap all
+the way around that's good
+back into edit mode
+well it's e to extrude
+s to scale in a bit our reference neck
+it's overlapping the back
+so that's um s and y g y like that then
+g z to pull it down a bit let's go to
+side view here
+turn on
+X-ray and we're just kind of trying to
+match the sketch a bit even though we've
+deviated in the back
+so let's do this let's make a separate
+window here
+let's go to side view here
+grab some of these and double hit G
+same thing there this looks too flat
+here so let's grab the whole thing this
+Edge and ALT s to pull it out a bit and
+the back is overlapping let's double hit
+G to
+pull these all in
+place so it's a little more even okay
+this is bugging me here so let's go and
+fix that
+and that's bugging me I think we need
+more geometry
+so let's go and delete some faces X and
+faces
+so we'll have our little logic problem
+again
+Ctrl R to cut that
+and we want this to connect to there do
+that okay so that's good and that's good
+so now let's figure out how to fill this
+mess
+let's hit double hit G two
+even some of these out
+and you can you can alt click on an open
+hole like that and go to statistics
+and you can see
+edges seven so that's not going to close
+up because it's an even number but what
+we can do here is just figure a way to
+solve it so I think it's pretty easy we
+can just get rid of that we have lots of
+geometry here to edit so let's go like
+this double head g go like that and
+double hit G like that double hit G alt
+click that X dissolve edges and then
+let's hit f a few times and see if it
+works f f
+okay so that closed oops that's pretty
+good I'll have to fix that that's good
+that's good
+that's good
+I don't like that or that
+I think these should all flow together
+so let's
+delete faces and we've got our logic
+problem again so let's just add in so we
+get our flow we know we want that and
+then let's just hit f a couple that's
+bad hit f a couple times doesn't look so
+great but if you're not sure if you're
+on the fence you can go to sculpt mode
+and hold shift and just blur it a bit
+and yeah I think we can actually work
+with that these points aren't
+so if you're ever in sculpt mode and you
+notice things aren't moving
+and you're confused it might be because
+there's a mask so just go to clear mask
+or it might be shape keys so if you're
+working with someone else's model and
+you see a bunch of shape Keys over here
+like that
+and if you're trying to sculpt
+and nothing's happening it's because
+you have another shape key selected
+that's turned off do that
+then it works so sometimes
+sculpt doesn't work and those are a
+couple reasons why x-ray e to extrude
+let's pull that down
+drop a 3D cursor and next kind of at an
+angle a little bit
+toggle x-ray
+get rid of that
+yep I think we can work with this
+again it looks weird because the neck is
+so skinny but that is the style we're
+working with
+and it matches our sketch pretty good up
+here back here it's not as good but I
+think it's okay let me covered by hair
+and that looks okay too now let's take a
+moment to kind of even
+out
+some of these edges so they flow better
+okay I think that's looking nice and
+even and balanced
+I think we actually need a bit more
+geometry there it's looking a bit light
+oops
+let's go and delete that so we can cut
+just the bottom
+and then hit F twice I think that's good
+this a bit higher
+that back
+forward
+okay
+I think we've actually got too much
+geometry down here
+and plenty up here because it's the back
+of the head
+so let's Shuffle
+some of these down first
+then alt click these two x dissolve
+edges let's grab this if you hit shift R
+it repeats the last command
+like that
+okay that feels
+I like that back of the head more
+yep that's feeling better
+so one danger to watch out for when
+you're modeling is
+when you start noodling
+and then quickly entering noodle the
+noodle Zone
+like I don't like
+that
+it's kind of just
+Square these out a bit
+okay I think we're looking good
+the next time you're with somebody you
+love take a good look at their nostril
+and you'll see that they're kind of
+weird looking in the middle they do kind
+of neck inwards they kind of flare out
+there's a little bump here and this
+shape here can take a variety of
+different forms small or big
+and also for the side it could curve up
+on the side or it could curve down on
+the side so it can take many different
+shapes let's go let's try and make one
+let's go to edit mode where Tab and
+let's grab some faces here so if you're
+doing a small nostril you can probably
+grab those if you're doing more of a
+longer nostril you can do that I think
+I'll do this hit I to inset and Pull It
+in just a bit grab these edges and pull
+this oops turn off snapping and
+proportional editing double hit G so you
+can get some meat on that nose right
+there same thing here it's making a
+thicker I guess uh wall thickness I
+guess you could call it double hit G to
+pull the nostril in
+and here you have to just hit G okay
+that's pretty good
+oh let's also do this let's grab this
+Edge
+and double hit G to pull it out because
+it kind of necks in
+the nose Okay grab that e to extrude Z
+to go Z and
+go just a bit if you can see here this
+Edge is very abrupt it looks sharp
+so let's just scale this in towards
+itself
+so you can get you can see some of that
+inside wall like that so it's not quite
+as abrupt
+and use the
+double hitting G I do that all the time
+maybe let's
+pull this upwards it's really this angle
+here you don't want that to be too acute
+so maybe pull that up a bit
+okay I think that's pretty good grab
+these e to extrude Z to go in z
+let's go to the side view and X-ray and
+pull this up
+scale it in the Y the nostril actually
+gets pretty big
+that
+it's the front s x
+let's check in our 3D View
+so and how much detail you need in here
+okay it's getting pretty good let's move
+that one up
+or that one up let's move this one out
+to get that kind of excuse move this one
+in
+let's put the bump like
+right there
+and pull these in with our
+double heading G method
+okay I think that will be
+enough geometry here I also think that
+there's not enough geometry for
+the shape of that nostril so you could
+cut it but it creates a whole Loop over
+here
+and then I think um I think that's okay
+we can actually use that to get a more
+defined crease so let's go with that
+let's control Z that let's make some
+space for this
+by double G like that
+let's make some space here Shuffle
+things around a bit let's go and cut
+that
+see here
+so now we can shape our nostril better
+to be more round
+soften these let's space these out more
+here
+so if you space out the vertices more
+it'll it won't crease as sharp
+so maybe these we actually pull them
+a bit closer
+and it Smiles it's there's more control
+in this area so I think that's pretty
+good and let's go to sculpt mode and
+hold shift and just
+click a few times to smooth it out
+let's add a reference image for our ear
+let's shift right click
+go into object mode
+shift a image and reference navigate to
+where you saved your image you can get
+all these images in the link below let's
+grab this hit s to scale it down let's
+make this opacity 0.5 and let's do the
+front back thing remove this and z
+that let's go to x-ray mode
+and then just just scale this ear
+roughly in place
+okay something like
+that's good
+here's our pretty complicated model but
+I found what I think is the easiest way
+to do it
+we're going to take one face draw all
+these red lines by cutting looks through
+the light Parts up the dark Parts down
+merge some vertices until it looks like
+an ear so let's go and do that
+let's lock our templates collection
+click our body collection shift a
+and plane r y 90.
+s to scale down
+roughly line it up
+let's check our face orientation
+let's toggle x-ray
+oops Okay g z
+we can quickly talk about face
+orientation
+so when you when you have your model
+like this head here you kind of want
+everything to be blue blue means it's
+the outwards facing side it's the solid
+side where it is the back side so in
+general you want to always see blue for
+your character so let's go grab our ear
+template again let's unlock that
+grab the ears of click that
+re-lock that
+okay so now we're set up to make this
+ear let's grab that go to edit mode hit
+K and just circle this here
+let's actually zoom in a bit
+toggle x-ray face mode
+click click X faces
+let's cut some more
+so let's uh let's you can see it'll snap
+to vertices
+so just start from one of the vertices
+that are there and just
+go around this whole thing and just
+basically draw
+this is the five side so we don't want
+that
+so we will fix that
+it's actually a five side there too we
+don't want that
+so let's toggle this here
+so let's go and cut all these um side
+pieces too
+that's okay click click enter
+and just do the whole thing
+so there was no
+um
+vertices there so let's just add one
+like that
+and then this one was let's see here
+this was drawn differently so let's just
+make sure
+this outer row
+are all quads because I think that's
+actually important
+inside the ear
+it's less important
+let's check our loops
+okay that's okay and this will be a
+this will be a five five Pole right
+there that's okay
+now let's cut this inside one here
+okay
+cut oh what is this
+sometimes it auto adds a line so let's X
+and dissolve edges
+back to X-ray and let's cut this inside
+lower area
+now let's draw these lines
+make sure we use our snaps
+let's draw this last one here
+oh and let's draw some of these inside
+here
+you can see these here they're it's
+going to be a whole bunch of triangles
+but I don't think the inside of the ear
+is that figma deal that's toggle face
+orientation let's unlock our templates
+let's move our ear to the side g x and
+re-lock it
+grab our ear edit mode
+I forgot to cut this so let's hit K to
+cut that
+okay let's go into face mode now we're
+going to extrude these light Parts
+outwards
+so click and just keep shift clicking
+these guys here extrude them out
+let's click these dark parts
+and extrude that in like that
+let's go to vertex mode
+let's click
+shift click shift click m
+to merge at first
+then shift r
+get those two shift R those two shift r
+same thing here same thing there okay I
+think that's a good starting point for
+our ear slash to bring everything back
+let's grab this and
+GX
+okay I'm transforming in local but it's
+going the wrong way and it tells me that
+I have not zeroed it out
+so Ctrl a and
+let's do all transforms
+now GX should go towards the head
+that's good
+roughly line that ear up and I think her
+ear doesn't look great right now so
+let's just sculpt this a little bit
+a little more like like that
+yeah that's good
+let's go to edit mode grab everything
+ears kind of pull away from the head so
+let's rotate that
+out
+it's kind of
+imagined how to look
+I think that's pretty good
+okay
+grab our head here edit mode
+it's face mode and grab some faces and x
+and faces to make some space for our ear
+and let's clear some space like that
+just hit double g a few times to make a
+kind of a
+ear shape hole in the head
+grab our ear back to edit mode and let's
+thicken this a bit so grab that
+e to extrude
+s to scale in a bit
+G to move it more towards the front
+and R to rotate it so the back of the
+ear gets thicker whoops
+and the front's pretty thin
+so we've got this nice floppy part of
+the back of the ear
+and let's extrude it again extrude
+rotate it so this part is going to
+actually meet up with the head
+so let's figure out
+let's work on the ear a bit more
+it's actually
+pull that out
+let's fix the bottom of our ear it's too
+sharp
+so let's grab this Edge right here and G
+to pull that down
+let's go to vertex mode and
+that's better
+so we've got some meat there
+then let's get this Edge to line up with
+this Edge
+so we'll delete some faces X and faces
+vertex mode let's hit F and click
+Edge mode F and click
+it's good and let's just
+close it up
+big triangle but back the ear so that's
+okay
+let's see here let's get rid of some of
+these faces
+those two
+those two
+X and faces
+slash to bring back our head
+and let's figure out how to merge this
+mess
+let's go to object mode and let's merge
+the ear to the mesh so click the ear
+shift click the mesh one thing to keep
+in mind if you hit the end panel and go
+to item
+the transform data is displaying
+whatever's in Orange so when you do this
+Ctrl J to join them it'll use the
+transform information of whatever is
+orange
+Ctrl J so now it's merged you can see
+we've got our ear on both sides because
+we mirrored it
+make that go away
+let's go to edit mode
+and let's figure out how to merge this
+mess
+okay let's just grab a couple edges here
+and
+hit F to join that have to join that
+got our first problem let's move this
+out of the way so we can see what's
+going on
+let's delete that triangle X and faces
+let's grab this Edge and hit F to join
+that
+um
+so we know we want we want that to join
+so let's hit F to join that
+and join that
+okay that's good
+click that F to join it Edge mode double
+hit G to pull that back
+again
+hit F to join that and I don't know what
+to do here
+so let's just delete some phases
+X faces
+oh it's triangle X faces
+so let's fill in that
+it's fill in that fill in that
+so this is a real bad surface right here
+see how it's kind of like this V shape
+but let's just move some points around
+see what happens double hit G like that
+let's see the ear should flush out with
+the head you can see that weird stuff
+going on that's bad
+but let's just
+let's do this let's go to sculpt mode
+hold shift and just
+like
+blur stuff
+yeah
+that's the oh okay this is almost okay
+let's go back to edit mode here so we've
+got another one of those funny V
+surfaces
+if you go into x-ray mode you can see
+it's this weird surface
+so that's actually not good but we can
+fix it so let's click this here shift
+click that here merge at first
+and we're good that's our ear
+so I think now we can
+just sculpt it around in place and so
+until it looks okay
+this thing is still bugging me so let's
+try it again
+let's grab that X and faces
+Edge mode and let's just hit f a couple
+times again
+so I like that
+that one's okay
+this one is bad but if we click shift
+click merge at first
+goes away
+yeah
+yep that's better
+now I'm going to take some time to
+sculpt this and just move some things
+around
+until
+things look nice and even and balanced
+and are shaped
+aesthetically
+I really don't like ears they uh
+I just so complicated
+okay so I think the ear looks
+almost good
+I don't think the skin goes up like that
+yeah that's better
+I think this should actually go
+more like that
+and let's get some thickness here
+that
+okay enough with the ear already
+man
+let's move on to the eyes
+go to object mode
+let's hit shift a and add a reference
+image navigate to
+where those reference images are
+and click load
+same thing reference image and let's
+grab that one too that's g g z Oh j y
+let's grab these both and scale them
+down
+okay so we'll use these in a second but
+let's just go and add the geometry we
+need for our eyes so first
+let's go to edit mode grab this here
+and let's just
+extrude in y and pull this
+back like that
+so we're adding some skin thickness
+around the eye
+this is
+not sticking out far enough like the
+rest of it is so let's
+grab
+that face turn on proportional editing
+and
+Ty like that's good
+and then alt click
+that inner Edge and
+alt shift-click that inner Edge
+and g y and oops turn off proportion
+editing and g y and pull it back a
+little bit more
+so it's
+I like just overlapping
+the eye geometry
+okay like that
+click select
+we added ears so those are new
+click assign to add those to that
+selection set
+H to hide
+let's also hide the eyes front view
+and let's see how it looks
+so I think we need more geometry let's
+hit Ctrl r
+so I can shape that eye better
+we had a wall thickness so we have
+double vertices there
+so drag select
+so we wanted the eyes to be further
+inwards
+then the sketch to compensate for the
+sketches perspective
+so just try and get it to match
+let's look at these these reference
+images too and see
+I think it kind of comes
+down
+since um
+since we have double vertices it might
+not grab both of them see it didn't it
+it did not but we had proportional
+editing turned on so it's actually okay
+but you might need to go x-ray select
+and go back
+and then kind of shape your eye
+referencing these two
+that's alt H to bring everything back
+turn our eyes back on
+okay let's add some geometry so we will
+control R to cut this
+we'll use this to make the bottom
+puffiness of the eye and make the fold
+in the upper lid
+so let's grab these here zoom in Alt
+turn off put partial editing alt s to
+pop out a bit
+not too much
+okay
+and up here let's grab these let's pull
+up a side view here
+like that x-ray shift clip the middle of
+the eye
+hit period and six to change us to
+3D cursor and let's rotate it up
+just trying to get that eye to fold a
+little bit
+and looking at the overall shape of
+these eyes
+our character is more stylized so they
+look much more
+open more like these but the shape is
+doing a similar thing
+just in more of a character so I think
+that's pretty good
+and then let's add another cut
+Ctrl R to add more definition to this
+crease up here
+and we'll need this geometry when the
+eye closes
+then let's pull these down more
+to space it out a bit and soften it okay
+and you can also throw in a subsurf
+subdivision surface
+modifier to see
+how it would look
+if you turn it on
+when you're doing like a nice Cycles
+renderings
+I feel like something's wrong up here
+I feel like uh in these sketches
+it wants to sink in
+right around there
+yeah I think we're sticking out a little
+bit too much
+so let's pull it in
+it's funny when you're doing faces
+a tiny amount of change makes a big
+difference
+so go to reference images and really
+kind of scrutinize it and kind of feel
+the form
+and then try and apply it to your mesh
+so we've used the templates to kind of
+get the overall shape and now we're
+looking at these reference images and
+trying to get some life into our mesh
+okay I think that's feeling better
+let's add some skin on the inside of her
+eye let's turn off our mirror and slash
+to go into isolate mode edit mode
+three for face mode click here control
+click there
+and we're going to
+make the geometry like it's a flap of
+skin for the eyes
+not totally but kind of roughly
+so let's move our 3D cursor shift s and
+two
+and let's hit e to extrude S to scale
+let's just scale that up
+and then let's g y and pull that over
+here
+and we're colliding with the outside so
+let's do this scale X pull it in
+pull it into more
+let's see how it looks here
+let's hit uh g y to pull it
+forward so it's
+really Flappy looking
+like that
+okay I think that's pretty good
+and let's
+this is close to the side of the head so
+let's move it so it's not too close
+uh our chin is blocking our view so now
+we can use that clipping thing and just
+click this until we can see through
+yeah that's pretty close
+so you kind of don't want that too close
+because
+when you're animating this character or
+other things
+sometimes this will like poke through
+and so you don't want that
+let's put this back here and click this
+once
+face mode with three and then shift Ctrl
+shift
+e to extrude
+y to go into y
+and like that
+turn the mirror on
+slash to come out and turn that on to
+see how it looks
+yeah so now it feels like
+the skin is going somewhere
+this part here is not looking right and
+I can't figure out why so here are some
+steps I take to fix it
+I go and surf the web until I can find a
+reference image for that to part that's
+bugging me
+so let's
+do some of this in a sculpt mode
+let's see so she's got um
+convex here
+it's concave there and it pops out there
+kind of comes out
+sharply back down and then gradually
+comes down
+so we don't have that
+we have one she's got quite a quite a
+lot of forehead there
+okay so this could be part of it
+usually it's more of a circle in the
+back and then it goes into a trapezoid
+at the front or so
+something like that
+and this should be rounder back here
+so more around in the back and the front
+should be more of a trapezoid so let's
+uh let's do this
+I want to grab the I think I grabbed
+down here
+okay I think that actually
+helped a lot
+but now our eyes are poking through
+so let's go and pop those back in so
+it's um let's go to object mode
+grab the eye
+slash to isolate let's drop a 3D cursor
+right there unslash
+and then let's just scale it in
+until it fits
+and I think we need to bring the I
+forward now
+and I
+think we need to actually bring it in
+and back so what I'm trying to do is
+line the eye up so it feels like it's
+nested nicely
+it's important that there's a good
+amount of skin
+thickness around the eye
+so that's what I'm trying to line this
+up to make it look good we've probably
+moved off of our sketch
+but this kind of happens
+so I'm checking in
+this view to see if it looks okay
+I think the
+I think the eyes want to come forward
+yeah I think they want to come forward
+so let's do that
+so let's grab the eyes go to edit mode
+hit a to select all unselect grab the
+head
+go to edit mode let's turn off this
+let's slash to isolate
+let's alt click that to select this
+and then you can select more go to
+select
+more and then more
+and then shift R to just keep selecting
+more and more so we'll get that
+go into object mode slash to go out
+click RI shift click our head go back
+into edit mode turn on proportional
+editing
+so now you can see we have both selected
+and you can move both
+the eye and the head at the same time
+okay let's just move this forward
+I think it's easier in perspective
+g y scroll this up a bit
+so I'm trying to leave the nose alone
+I want to grab everything else
+huh
+like that
+now she needs more cheek
+seeing our sketch it kind of peeks out
+then comes down pretty sharply then
+gradually goes down
+so we don't have any of that Peak for
+the forehead so I think to achieve that
+we actually need some more geometry
+so let's hit Ctrl R let's actually go to
+object mode
+drop the I go back to edit mode hit Ctrl
+r
+IP that there
+unselect it for the nose but let's
+when you add Loops it just makes a flat
+Loop
+that's not good so
+that's let's do that
+and ALT s and just turn off first
+editing and ALT s to slide it out just a
+bit
+like that let's get rid of these
+alt s
+okay that's good
+let's go back to sculpting
+and let's make this kind of crease up
+here and then gradual down there
+it's easier to select with this turned
+on when you're in scope mode with a
+subsurface subdivision surface modifier
+pulls out I think it pulls down a bit
+then this pulls in
+let's get kind of a
+up and down thing going there
+let's pull that in a bit here shift hold
+shift and smooth it a bit
+then we go into a gradual cheek
+that looks pretty good
+and I feel like
+this middle comes down let's check our
+sketch
+yeah it feels like the middle comes down
+here so let's
+hit f
+to make that bigger and then just pull
+this down a bit
+so this is going to screw up our side
+view
+but I think this needs to be done
+that's feeling better
+just check our template just so we know
+what's going on
+so that did change some
+let's
+try and put it back
+I'm going to control z twice to see if
+it changed anything it did not so I'm
+going to control shift Z
+and
+put it back again
+okay I think that's better but what's
+bugging me now is
+the skin around the eye looks very sharp
+so let's go and make that
+thicker
+and let's go to view so um something so
+I was trying to zoom in on this little
+thing here by
+hitting number pad period it's not
+zooming in so if you change this then
+it'll zoom in closer
+okay
+so let's make this skin around the eye
+thicker let's
+let's grab that
+move these out
+let's turn that off
+so when you when you're you're modeling
+like that if the subsurface modifier
+it's it kind of messes things up
+so just
+kind of
+make sure you turn turn it on and off
+so this is looking weird it's looking
+like she's kind of bug-eyed
+so it's
+knock that back
+yeah
+I'm just just fighting myself I'm
+pushing it one way
+and the other way
+so what I did was I pushed the local
+area in
+and now I'm going to just grab the whole
+wide area and pull it out
+and it
+should you shouldn't notice it it might
+change the entire character of the face
+or you might not notice it so just
+mess around with it you can also change
+your lighting
+oops like that
+so sorry this is taking so long
+but it's uh
+usually I'll save this type of work for
+later
+but in this case
+I think it affects the foundation of the
+character and the the eye locations so I
+think that need to be fixed
+otherwise you just make a lot more work
+for yourself later
+and this one is
+in our photo reference that was not
+it was more gradual there
+so let's make that more gradual
+that concave shape
+okay
+I think that's good
+let's go and add some geometry to the
+mouth here
+so let's go to edit mode
+let's hit Ctrl R click that and just
+move it
+so it's
+close but not too close
+the closer it is the more definition
+you'll get with your subsurface
+subdivision surface modifier on
+see here
+so if it's further out you can see it's
+doughy doughier if it's really close
+it's crisp
+but then with it off it's it's super
+hard to work with so somewhere in
+between
+that's as far as I would go
+and that's pretty good
+you can see we have some weirdness going
+on here this little
+surface
+that's because we move things around
+with our mirror turned off
+so it's all so it's alt click
+let's alt click that edge alt click this
+Edge
+turn the mirror on
+GX and just move it until it snaps in
+place
+it's good you can x-ray to make sure
+it's all closed that's good
+turn off our mirror again
+let's slash to isolate
+let's alt click
+our mouth here
+let's hit
+period and four to change this to
+bounding box center
+and let's model the inside of the mouth
+so let's hit e to extrude
+y to move in y s z to scale and z
+like that
+s z so
+we have some skin coming around the
+inside of the mouth
+maybe too much
+um make sure that the middle part
+of the mouth is
+pretty much horizontal
+if you want to you can go and hit View
+and
+click this a few times it's until you
+can see through the back of the head
+g z
+okay that's good
+let's grab that
+e to extrude S to scale
+g y oops g y
+g z
+r x
+e y and g z
+are
+our X
+and S to scale
+and then F to fill
+you shouldn't be able to see that cap
+from the front that's okay
+you can see these surfaces are popping
+out so let's go and fix that
+the same way alt click
+rear back on
+let's go to x-ray so you can see
+hard to see the here we go overlapping
+surfaces
+g x until everything snaps
+maybe we have to do a couple times g x
+so it snaps that way do X so it snaps
+that way
+yep I'm hitting GX and moving it and I
+don't see
+any surfaces moving around so now it's
+okay
+okay so that's the inside of the mouth
+slash to come back out of isolate
+and let's add some mouth reference
+material
+we haven't modeled our mouth quite
+accurately we made it to match this
+sketch here with the lips slightly
+parted that's more like this
+where you can see the bottom lip is
+overlapping the top one uh if the mouth
+is open
+and not overlapping you can see that
+the space between
+here and here is smaller than the space
+between
+here and there
+so we'll have to modify our mouth
+so that this thickness right here
+is narrower more like that
+and then reshape the mouth so that the
+ellipse overlap slightly
+okay I hope that makes sense so first
+let's mess around with some of this to
+get that to be smaller
+I think we need a little more geometry
+for the ellipse so let's go and add that
+first so let's hit Ctrl R click it hit
+Escape
+and see what we've got
+we don't need all of this back here
+I don't need that over the head
+but I do think we could use it right
+here
+so let's figure out how to stops that
+edge Loop
+so to stop it let's do this let's go
+and okay
+I can't see
+Escape face mode click that zoom in
+and I'm looking for two points I can cut
+k
+click there
+and click there
+okay now let's cut this again Ctrl R
+click Escape
+okay that's good
+let's add one down here to match it
+click and Escape
+don't need all this
+to also don't want to have triangles
+here it's a little bit too visible
+so let's do this let's grab that
+and hit X and faces
+Ctrl R to cut it
+it's good
+let's figure out how to merge this let's
+go
+nope let's go
+F to merge that so we've got
+face there I don't know if I'd like that
+control R click escape and double hit G
+there
+and let's just try something different X
+and faces and let's try
+FF okay I think that's better
+and you can kind of move these around a
+bit until it
+balances out better
+okay let's add a nasal trough so let's
+go like this
+height inset B for boundary
+so we can
+pocket that in
+I actually don't like how that looks it
+feels like it's wrapping around
+which actually is
+and it we could use a little more
+geometry for the nose so let's just do
+this
+let's just add a loop going all the way
+up
+but I don't want to add it going down
+the neck I think we have enough for the
+neck
+so let's just
+terminate it below the hair
+eye to inset
+make sure B is turned on for boundary
+and go like
+that
+just got too close let's double hit G to
+pull that
+down grab this double head G to pull it
+in
+and then let's alt s for that and ALT s
+for that
+and ALT s for that okay
+oh let's pull this middle one into
+s and ALT s
+good enough for the nasal troughed I
+think that's enough for the lips
+that'll help us with this complicated
+shape right here
+okay so let's just uh let's move some of
+these edges in place so it's more
+balanced
+grab those and double hit G to pull that
+down then these
+maybe these can go up a little bit
+here
+pull that out
+so we're just trying to even out
+trying to even out the faces here
+but trying to get some more meshes so we
+can bend that lip
+pull these out
+those out
+here let's use this to sync it in a bit
+to actually sync both of these in
+and push this one in too
+just gotta go through and see where you
+can even things out
+okay
+let's fix the forehead up here
+let's check how our nose shape is
+kind of like that but I think it should
+blend out here more
+I think maybe get a bit crisper
+there
+okay it's slash out and
+okay so let's make this narrower
+like this right here
+let's go to edit mode let's turn off
+our sub D click this vertex shift s and
+two
+and then let's click
+that edge there and that edge there
+let's go to x-ray to make sure what
+we've got selected I can't here we go
+okay that's good
+so we're going to slide that
+out
+by changing to bounding box center
+that
+and then
+comma n four to change that to Global
+and s x to pull that in
+looking here to see how wide that is
+a bit more
+let's check the side view
+hit uh s y to pull that in more
+all right
+yeah our sketch comes in quite a bit
+but I think it actually look let's pull
+it back a bit but I think
+I think we can't pull it back that far
+it might look weird
+so let's do this let's go in perspective
+view turn on proportional editing and g
+y and let's pull this back in the corner
+okay it does look a little bit better
+see how close we got to our sketch
+way off
+but
+I think it actually looks good like that
+I mean we can try further back let's try
+for the back
+we've got it selected okay let's try it
+g y
+it looks good but it looks kind of like
+she's smiling but I think it actually
+looked good so let's
+pull it
+kind of in between
+I think it's too much
+I think that's good but
+let's also pull these in
+with my partial editing turned on let's
+just off let's just move these in
+yes
+x s x
+because you want to have some geometry
+and this area to control her smile or
+the smiles
+I find it it's kind of useful to have
+the edges
+all lining up
+like that exactly but close
+just uh and if I'm imagining it but it
+just seems like it's easier to um
+control
+the character's mouth
+okay it's filling okay let's um
+it's now close or make the lips come
+down again
+pull all these down
+let's pull some of these up
+okay it looks pretty good
+let's turn on our subsurface
+yeah so one of the things about
+subsurface modifiers is it kind of
+shrinks
+everything a little bit especially when
+you're getting down to the details
+so so it kind of depends on how how are
+you going to use this
+and use it with that turned on in
+blender
+then you can go like this if you're
+going to export it somewhere else it'll
+probably be more like this
+if you're exporting it you want to
+probably have more topology than this if
+you're
+well I guess depending on your
+application
+if you're using it in blender then you
+can just do that so I just try and make
+a look at both ways
+so one way you can make the subsurface
+follow closer
+to your polygon mesh is to add some
+faces
+so we can let's show you what this
+turned on so with it turned on it makes
+everything smaller if you cut it
+you can see things get
+thicker
+cut it in the right place okay thicker
+then let's even things out here so it's
+grab these and double hit G to pull it
+out
+so things are a little more balanced
+I think her lips are um
+too puffy here
+so we're deviating from our sketch mouth
+pose
+because I think it's resulting in just
+looks like the lips are thick on the
+sides just too much
+okay that's looking like a nice kind of
+a nice smile
+I feel like her lips had a little more
+puffiness in the middle
+yeah I feel like here it kind of
+sank in so let's pull that
+out and yeah
+all right
+I think that is looking
+pretty good
+let's add her tear duct
+let's look at some eyes here
+so the tear duct kind of the eye comes
+up and then it goes back down
+this kind of
+barely and flex upwards and it kind of
+Puffs out
+let's go and do that
+and I think we need to add some geometry
+so we'll cut that here
+oh it stopped that's nice
+because we had a triangle and
+we can use the geometry to shape the
+nose
+let's leave the eye on the inside alone
+but let's pull these
+towards the bottom
+and let's cut a loop here
+so we don't need that
+so let's go and merge something let's
+control
+Z that
+let's grab these two here merge at
+Center Ctrl R cut it
+tell me what you guys hear about
+excessive use of uh triangles
+I know it's a hot topic
+look at this I got like just a mess
+it's inside the eye no one sees it
+okay so let's add our little tear ducts
+that's slash to bring back our eye
+so it kind of
+pulled down
+and it's got some red which is the
+actual two duck
+okay so let's do that so let's grab
+let's do this let's submerge this one
+pull it back
+Let's uh hit period and four to scale
+this to the bounding box center
+okay
+so that kind of sinks the skin in that
+area around
+I mean down
+let's grab this and Pull It in
+proportional editing on
+the game
+up and down this part came more down so
+let's grab some of these
+just pull that
+it did kind of turn up a little bit but
+it was pretty subtle so
+something like that let's turn on this
+looks more like this one than that one
+our sketch looks like
+it has less tear duct
+so let's
+vertex mode grab that
+let's pull this so it's more subtle
+I think we need to pull this up
+pull the whole thing in a bit so see
+it's kind of a small tear duct
+it's pretty subtle
+I think it actually still looks too
+pronounced so let's um
+let's grab this pull this up
+let's grab that and pull it
+it's actually rotated in
+period and six to change that
+and then
+that feels more like it yep that's more
+like it oh let's get the uh the actual
+tear duct visible so it's
+grab this here and just let's just
+turn off person editing pull that in so
+you know just pull it out a bit it
+doesn't need to be super
+anything fancy
+just kind of indicate that there's
+something there
+that's more than adequate
+probably too much
+and let's punch that one down
+you see uh it went too much with um
+so now when you turn this on it goes
+away so what you can do is you can
+come around the inside to here
+leave that on
+let's pull a second window up here
+so hopefully you can see it but we're
+gonna double hit G and pull this up
+which in actuality is like this pulling
+it up
+let's look over here with this turned on
+yeah so with it turned off if you double
+hit two you can see it doesn't change
+how it looks so if you export this it'll
+look just the same
+with the sub D turned on if you double
+hit do you and pull it you can see it
+changes how it looks so that looks
+pretty good right there
+and with it off
+still looks pretty good so this way you
+can
+kind of control it for both scenarios
+yeah okay
+okay so I think the two ducks looking
+good
+let's put some temporary eyebrows in
+place so let's hit
+insert to bring back our templates let's
+hide these guys here
+let's go to front view x-ray Tab and
+edit mode
+three for face mode
+let's select
+a little more than the width of the
+eyebrows shift d
+Escape
+mesh separate selection so now we've
+just duplicated these eyebrow pieces and
+move them into broke them off into a new
+mesh
+okay let's go to
+edit mode
+x-ray mode
+and then let's just
+move these into place
+try not to move them too far to the left
+or right so I'm going to hit
+gz obviously these you need to make them
+shorter
+I'm gonna try and keep them
+roughly where they are in the X
+obviously it doesn't totally work but
+you know just try
+and these are temporary anyway
+turn off x-ray grab these
+and where it's poking through let's hit
+g y so it's proud
+okay like that
+that
+we'll do something else here so let's
+turn on our snaps
+and turn on let's see turn on face
+so we'll just
+hit G and move these
+so they snap onto the face one by one
+but try and keep them
+in the same place and try and keep the
+The View looking straight down on
+whatever surface World face mode a
+extrude
+and then y let's pull those four so my
+Snaps are turned on let's turn that off
+g y
+grabs these
+double hit G graph these double hit G
+so some parts here where it's um not
+lining up with these isop arms just alt
+click it and double hit G and get it to
+line up
+isolate face mode click that
+control click that
+X and faces
+that's so much easier looking at a face
+with eyebrows something weird up so
+we have a total concave surface there
+we'll make the eyes in two pieces
+there'll be a outer clear part that has
+this bump around it and then inner part
+that has the iris and the pupil and the
+the white part in the back
+let's do that
+okay we know our eyes are in the right
+place let's use that as a starting point
+so we've scaled our eyes a few times so
+I'm not sure if the origin is actually
+in the middle so let's
+alt click this Loop here hit one for
+point mode and then shift click that
+shift click that shift s and two
+yeah so our origin was off
+but our 3D cursor is now in the middle
+of this sphere
+then let's hit shift a
+to add pick mesh and UV sphere
+and let's make this uh 24 I want some
+more edges there
+so we have more to work with
+and let's scale that down
+okay it's fine
+I think we just put it in the template
+layer because I couldn't move it let's
+move this let's call this
+I
+move this to the body
+this is I
+hold
+it's r x 90.
+Ctrl a and scale
+Hit N to check the orientation and
+that's zeroed out which is good
+scales well we're going to mess it with
+the scale in a second
+um let's let's do this we want to scale
+the I down so it matches the old one
+it's kind of hard to
+tell let's see here when you scale us
+down they're the same color so it's kind
+of hard to figure out you know well I
+guess it's not that hard
+I'll just show you anyway
+so we can click the I old click material
+click new
+click base color and change it and
+nothing happens okay let's go to the
+viewport display
+click that and change it Okay the reason
+why that didn't work is
+because this material affects the Shaded
+mode
+and in the viewport display
+you have different uh coloring modes
+it does make a lot of sense so in in
+solid mode if it has material chosen
+it doesn't mean this part of the
+material it means that part of the
+material
+and to make it more confusing there is
+another viewport display here let's make
+this green
+and and so that won't
+show unless you pick objects so it's
+really weird and confusing and I always
+don't know what's going to color what
+what so I just
+change both viewport display colors
+until I find the right one
+Okay so
+blender trivia
+so scale this down so it's the same size
+looks about right let's hit Ctrl a and
+scale
+and then let's
+hide that
+bring this back here
+and we can add
+okay it's freezer rotation two Ctrl a
+and rotation so that's all zeroed out
+and our origin should be in the middle
+of the eye which it is
+and let's add a mirror
+and then pick the head
+okay
+so we've got a new eye with more
+geometry
+all this High clear
+and we'll hit shift d to duplicate
+escape to drop it and call this I
+color
+c o
+l o r
+let's go to side view
+and X-ray and shift Z to turn on
+wireframe
+transform around 3D cursor and let's hit
+make sure you have color selected
+because the color part is smaller than
+the clear and hit scale
+scale in about
+like that much
+then hit Ctrl a
+Ctrl a again and do
+scale
+let's make our Iris
+let's go to x-ray
+edit mode click off
+let's click a loop for
+our Iris let's just check it to see if
+it's the right size
+to touch small
+but that's okay
+what we will do is we will
+grab all of these here
+and shift s and two
+let's slash back go to front view
+let's just scale this ever so slightly
+so now it should be the same size as our
+sketch not quite
+a little more
+not quite a little more
+so that's good
+let's go to solid mode slash to isolate
+to side mode here so we scaled it so
+this became
+almost
+concave so let's g y to
+put it back let's make sure that this
+feels like it's smooth and continuous it
+looks like it is go to face mode Ctrl
+alt shift click that edge to unselect
+and g y to pull that back let's hit s to
+scale up again so there's a bit of a
+short drop off there let's grab this
+here let's hit
+s y zero so that just totally flattens
+out and hit g y to pull that back
+it's too much now let's do this one here
+let's go to the viewport display for
+object let's do airframe and click
+ah here we go so now let's put the clear
+part that bumps out
+in place it's actually let's grab both
+eyes and slash into isolate edit mode
+again
+alt Z to go to X-ray and then like that
+alt C back so I'm looking at where this
+Edge is in relation to that clear part
+and I think that's okay so we can do is
+we can just
+pull that forward a bit
+let's go to x-ray mode
+and select that s and Y and pull that
+out
+it's actually alt click this and
+pull it
+in some
+like that okay so then let's do this
+let's um
+edit mode
+three to face mode a this a to select
+everything
+and then face and shade smooth
+so this way you can see the Highlight is
+kind of like lobbing
+like there's a bump here so that works
+good
+let's get some reference images for our
+teeth lock this
+and click our teeth reference okay so
+this outline here is our teeth reference
+like that
+so our tooth are a little bit wider than
+a real human's teeth however I do find
+that
+if you make the teeth a little bit wider
+it it fills the mouth a little bit nicer
+when the characters smile so I'm going
+to keep it a little bit wider like that
+so these will be pretty simple teeth
+Let's uh grab
+these
+let's unlock them
+then shift click them slash to isolate
+so what we're going to do is make just
+the top teeth first and then we'll just
+make the basic form of the teeth first
+and then sculpt it in place that sounds
+good
+go like this
+X and faces
+a to select all let's go to modifiers
+add modifier and solidify like that
+and let's just reduce the thickness
+0.005
+object mode and go to apply
+we're going to grab that X faces
+l x faces
+it's a I'll click that and F I'll click
+that and F
+go to x-ray grab those
+X and faces object mode and mirror
+clipping turned on okay
+take this one 2 x and faces
+F to fill it so let's see here okay so
+what's nice is when we rotate this we
+didn't um
+apply the rotation so
+if you transform by local
+then you can move things straight out
+which is good because I want to extrude
+these teeth straight back
+so hit e
+and then y
+and you can see this now comes straight
+back which is nice so that'll be the
+back of her teeth and the extrude and Y
+again a bit more something like that
+then let's grab let's go to solid mode
+so these back teeth are kind of
+thick so we will
+change this to normal
+and hit G and it should move it directly
+normal to that face
+so that's kind of
+molder-ish size then maybe this is like
+the you know canine kind of area
+to control R click Ctrl R again click
+that and pull it up
+or again pull that down
+I think the top tooth are actually
+taller than the bottom teeth
+so let's hit G twice and pull it down
+just kind of guesstimate the height of
+these teeth to those teeth
+something like that yeah and we'll just
+delete this one in the middle let's do
+this again let's um so this part here
+will be the teeth this part up here will
+be the gums
+so let's add a loop for the gums Ctrl R
+click let's pull it up until it's kind
+of gun height
+okay those are the gum lines and let's
+add one more gum line these teeth are
+getting really heavy already
+you can see here if you go to overlays
+and turn on
+statistics you can see the face counts
+okay so those are nice lines now making
+these nice lines so that way we can just
+scale things in
+like that and like that
+and then we're moving in normal so if
+you hit G
+push the whole thing in and so this is
+now like where the teeth meets the gums
+it kind of pops out so you've got that
+and then the teeth kind of come in
+so let's grab that and so I'm going to
+do this g z and pull those in
+so it's slightly coming in okay let's go
+by local and gy
+okay and these don't line up nicely
+let's double hit G to even that out
+you could add another loop there these
+might look like flat little teeth so
+r
+s
+and let's do the same thing for the
+inside here let's
+let's click control click control click
+control click
+and shift click control click
+there and hit alt s to pop these in a
+bit so we've got that separation between
+the teeth and the gums
+and then let's
+click control click and pull these in
+also we've got some angle for the tooth
+I think there's absolutely no reason to
+have this edge here because you are
+never going to see that so that's just X
+and dissolve edges and that's horrible
+here because we have a five-sided but uh
+well I don't really care because it's
+inside the mouth so
+I mean we could could do that it's a
+little bit better
+let's go to X-ray and see what
+the edges of our teeth look like so
+that's probably pretty good it's like
+thick there and then it gets kind of
+bumpy here and then it should get
+thinner here so here let's make these
+smaller
+and go to Edge mode and pop this one in
+too
+let's spend a little bit of time on the
+front like four teeth I think that's
+important
+so let's do this let's alt click that
+x-ray so we can see what's going on
+and the front the bottom front teeth are
+actually smaller so let's
+see let's slash to isolate
+and we will control drag
+so we only have the
+Edge for the front top teeth
+so let's double hit G
+if you go too much the teeth look
+a little odd
+let's just select it so we can kind of
+visualize
+okay so that's the front teeth
+let's do the same thing for the
+bottom front teeth
+oh click that x-ray control drag
+okay so we can't see it so let's do this
+let's let's just hit H to hide it okay
+that's better
+let's double hit G and pull in a bit
+and then let's make the top teeth a bit
+wider
+I think the bottom teeth a bit smaller
+okay I think that's good let's do the
+same thing with these
+and these
+I think the print tooth should be a bit
+wider
+like that
+so I'm going to shuffle some of these
+forward too but we're going to start
+losing
+it's going to start collapsing in on
+itself so let's do this
+pull these in a bit
+and then grab these and pull those in a
+bit
+okay
+those okay so I think this is pretty
+this is pretty good okay let's add some
+geometry to make the creases between
+teeth and then some geometry to shape
+this gum line
+so let's drag that over here like that
+and because this is close to the center
+and we have a mirror modifier
+things tend to go wonky so let's
+turn this off for a second
+so it's only go this far and let's kind
+of shape these and see how it looks and
+then see what's needed for the rest
+because I don't know if you need this
+much for the entire set of teeth yes
+make the gum lines oops
+click shift click shift click make sure
+you're transforming in local so when you
+move
+in Z it goes
+in the same axis as these teeth and just
+go up like that
+and same thing right here DZ like that
+and then let's pull these in a bit alt
+click that x-ray
+and deselect
+that and hit G twice and Pull It in same
+thing here so this is a little bit
+tedious
+and again this is going to be very very
+simple teeth for this type of character
+it's pretty stylized it's actually works
+with it okay so we've got the gum lines
+in place
+and this looks rather flat why is that
+feels like this should all be
+popping out more
+so let's move it in
+g-y yeah
+Ty like that
+and let's
+push these in
+t y like that
+the front teeth are super super
+sensitive
+um
+they're almost
+like I find it it looks good when it's
+um almost flat
+so
+it takes a little bit of trial and error
+so let's move in just a little bit
+so it's super subtle
+and these you can go more
+and these more
+and then over here these teeth get even
+rounder
+I need to go g-y-n-g-x because we're
+coming around this bend the same thing
+for here
+gee
+X
+let's do the back same thing for the
+back
+just a bit
+gy
+get a feel for what our teeth will look
+like when this is deleted
+that's better
+so I think that's pretty good
+so let's turn on a subdivision surface
+modifier here
+and it's gonna
+it's really bad
+but we can do this
+so this oh God it's so hard to see click
+this one here this I find when you turn
+that on it's easier Okay click that one
+there and this one here and type in
+well okay let's show you so go to Edge
+and Mark Sharp and it should crease it
+and then go to Edge and Edge crease and
+if you scroll the mouse in the upper
+left hand corner you can see a value
+that goes up to plus one
+okay you can do that and then
+insert to toggle wireframe uh the
+overlays and you can see it with it
+turned off and now you can see there's a
+crease at the gum lines
+so that's a slow way let's control Z of
+that
+so
+alt click alt shift click then type
+shift e plus one and then Ctrl shift e
+and so that's the same thing as going
+through the menu but it's just faster
+okay so we're getting some gum lines
+which is good
+let's also do the same thing for here
+and then shift click and control click
+shift click control click shift click
+control click
+shift e plus one Ctrl shift e
+okay we're getting some definition
+we can actually take this one off
+shift e minus one
+and Ctrl alt e
+so what I think we're gonna do is we'll
+have more definition up front and it's
+going to vignette out
+into someone of a slab back here
+so this way it's not an Abrupt
+transition from defined to undefined
+okay but let's add some
+detail back here oops
+shift click control click
+shift click control click
+Ctrl alt click Ctrl alt click
+shift e plus one Ctrl shift e
+so let's uh let's do this let's now
+delete this X and faces
+and then let's click this edge here it's
+hard to see what you're modeling so you
+can turn it off
+and then we'll hit
+F to close it up
+and same thing for up here
+close that up
+oops
+okay so so here's here's a good example
+of the mirror modifier so I was hitting
+F to close it up here I hit it f again
+and you can faintly see a little yellow
+dot there so
+I actually just add a face on the inside
+of here and that will screw screw you up
+when you doing operations
+um with the mirror modifier so that's
+why it's important to
+be really sensitive to what's inside
+your two halves when you're working with
+the mirror
+okay
+let's turn this back on
+not looking great but let's uh
+add some definition
+so
+make sure we're in local mode to Z
+pull up just a little bit there
+and then more there
+more here
+I think these guys are like
+sharper
+okay
+same thing for down here
+okay
+kind of getting some teeth looking teeth
+let's um
+add these creases in here
+shift e plus one Ctrl shift e
+let's see how it looks with her head
+back in place here
+oops Let's uh Slash to leave isolate
+mode
+and leave edit mode and see like
+okay looks like
+teeth see you can barely see anything
+it's like there's nothing there
+okay let's isolate again and
+continue with the rest of the teeth
+so be the same thing but it's kind of
+like um
+how how little can we do to make it look
+okay
+what if we transition to
+just two
+let's grab this
+and do that
+and pop this one in
+as
+yeah that might do it
+it's let's try it
+unselect those and select those
+double hit G like that
+so the gums might be kind of weird there
+alt click alt shift click
+alt C for x-ray
+alt s to pull that in
+okay like that
+like that
+alt s to pop that in
+children
+so I think back here it let's transition
+to doing more molars so let's unselect
+these two
+so it only goes
+inwards and that didn't work
+so let's grab that gz and pull it down a
+bit
+pull that up a bit so this way it's more
+it's flatter
+and then let's Kink this one in and
+leave these back here as flat
+that back on
+let's hit L to grab that and g z
+okay so these are way too uh
+way too round we need to make those a
+lot flatter but as far as the detail
+goes I think it's a nice vignette it's
+got detail in the front and vignettes
+out to
+just a blob in the back but you know
+you're gonna see
+maybe you'll catch a bit of the teeth
+back here when the person is talking but
+not much
+three to face modes grab some faces
+let's turn this off
+let's grab these and these
+and then
+shift click those in those
+and those
+these two and these two okay
+then g x and pull that out a bit
+unselect unselect
+g x and then
+okay
+okay so that feels more like molars
+that's actually
+enhance the bumpiness of it
+g z like that
+same for up here
+I think we need one more bump back here
+okay so we have nice implied
+teeth there
+three
+for face mode click control click X and
+faces
+same thing
+L to grab everything g z to pull this
+back up
+so you need to think do you want to work
+with a sub D turned on or if it turned
+off
+with the turned off everything gets
+bigger so you'd have to move that lower
+if you want to do both you could
+cut a loop up here
+and it'll make
+the difference much closer
+at the cost of more geometry
+so I think I'll just do that
+and also we need to make the bottom
+teeth smaller so let's grab that hit
+shift s and 2 L to grab everything
+period and six to change that to 3D
+cursor
+then let's go to the side view and go
+s y and pull that back
+like that
+and then just do the same thing here
+let's click that shift s and to l
+s x and pull that in
+yeah there so it's kind of um
+it might actually be a little bit too
+much but uh it's kind of um
+more natural
+oh and let's fix our clipping here let's
+turn those back on
+alt click alt click GX just to make sure
+it merges in the middle
+okay so that's a pretty good
+base simple tooth
+I think we can go through and shape all
+of this a bit more to make it look
+a little more natural
+but um this is this is a nice simple set
+of teeth
+so what you can do now is you can go
+through this
+just kind of
+pick Parts you want to make look a
+little bit better
+take your time and work with it so it
+looks more like what you envision
+okay we've got
+teeth we can barely see any of it
+but we've got teeth
+click our shaded mode and add some color
+so let's make our eyes clear
+let's go to the shading workspace and
+number pad period to zoom in
+go to view make this 200
+and let's configure our
+workspace
+better
+okay so we have the eyes selected
+click material
+click new
+call this I
+clear
+let's see once we've made a new material
+that appeared in the Shader window
+these settings here are the same as the
+ones over here
+make this 0.4 make the color black
+make the alpha like 0.1 so you can
+barely see it
+roughness make this like
+point
+0.01 so it's super shiny
+and then let's go to the transparency
+where okay on the material viewport
+display
+so you usually use Alpha hashed for
+transparent things but for shiny stuff
+use Alpha blend
+and then make this Alpha hashed
+we had messed with these uh the I
+display somewhere so we've got these
+lines so let's try and find where we
+changed it here we go
+okay so you can hardly see it but if you
+turn up the alpha you'll see you got
+shiny stuff and the colors black but
+it's almost transparent
+let's do the color part of the eye so
+it's number pad period to jump to the
+Clear Eye and hide it
+delete the old eye
+pick the color I
+go to the material panel click new we'll
+call this I underscore White
+you can assign different
+materials to different parts of the mesh
+so if you go to edit mode with tab a to
+select all and click assign this
+material is now assigned to all the
+faces
+let's mess with this bit specular 0.4
+yeah it's good though this is just
+temporary then let's hit plus and then
+go to new we'll call this I
+RIS
+and let's just pick a color for that go
+to face mode with three alt click alt
+shift click and then click make sure you
+pick the new color the iris color click
+assign and then assigns a color
+let's make this darker and then grab the
+pupil plus click new I pupil click
+assign and then pick a color maybe make
+the specular lower so it looks a little
+darker okay let's grab the eyebrows
+click this to duplicate
+okay pick a color
+bring our
+Clear Eye back okay so we're kind of
+getting somewhere
+you can add some lipstick too let's grab
+our mesh edit mode three to face mode
+alt click to grab that Loop
+select m m
+then shift R shift r
+like that let's actually go to x-ray
+maybe we select these also select more
+more
+one more time
+and then select M L For Less
+and then shift r
+Plus for new
+new call this lips let's go to shaded
+mode toggle overlays off pick a color
+let's do this pick the skin color
+and then make it a little more red and
+assign
+maybe let's lower the roughness a bit
+okay we forgot to give her a tongue so
+let's go and do that
+let's go to edit mode and
+pick this edge here
+shift s and 2 to drop a 3D cursor
+go back to object mode
+shift a mesh and cylinder
+cylinder there we go
+let's make this eight
+and rotate 22.5
+scale down
+so it's about as wide as the inside of
+our teeth
+so go to Global
+bending box enter RX 90.
+let's hit Ctrl a and
+rotation Ctrl a and scale
+s z to scale to kind of a
+tongue size
+let's kind of put it
+here like that
+let's make the front of the tongue let's
+do this put that there
+s z plus n
+so click shift click
+double hit G to pull that back
+that looks really funny
+face mode with three x and faces
+go back to Edge mode hit FFF
+Z
+and let's put a subdivision surface
+modifier
+okay it's kind of tongue-like
+do we want to cut that let's alt click
+that alt shift click that
+here oops here and here
+there and there
+s z
+alt click that
+s to scale it out okay so it's kind of
+tongue like
+let's grab these here go to side view
+let's
+s c s y
+zero to flatten that out
+let's go back into
+let's see the rest of our mesh
+and then e
+z z
+g y
+r x
+g z so you just pull the tongue down a
+bit
+let's go to x-ray grab this let's do
+this let's hit Ctrl R to add a loop
+and then grab the front of it let's go
+to face mode grab the tongue over here
+and rotate it and just pull that behind
+the teeth here
+let's go to Edge mode with two grab this
+here
+let's rotate it
+grab that there double hit G
+s z so it's a bit thinner in front
+and I think
+tongues kind of
+go concave in the middle
+so let's do this let's grab these
+and s y s x to pull it like that
+g z okay
+g z and g y
+like that
+let's get rid of these faces
+let's grab
+these here and these here
+and s x to pull it in
+let's grab these and double hit G to
+pull that back
+you know this is kind of fun just kind
+of shaping it to make it look good
+xray
+grab those SX
+g-y grab these
+okay that's kind of tongue-like
+let me get thicker here
+alt nope to Z
+g y okay
+you know not not super fancy but you
+know it's a tongue
+not gonna see it that much just adding
+material look a color let's just copy
+the lips oh
+make it a little bit more ready
+X-ray let's grab these bring it
+a bit CRX
+let's call this tongue and bring back
+the mirror teeth where the teeth go oh
+let's name these
+you put it in the right place
+name these two
+turn our mirror back on
+checking out our faces here I think the
+forehead is too light and I think the
+Chica is too light so let's go and edit
+mode Ctrl R and cut click Escape don't
+need
+anymore for the neck so it's X and
+dissolve edges
+let's go here
+X dissolve delete faces
+it's going to leave a Vertex here x to
+solve vertices
+and then let's control R click Escape
+2 for face mode and then let's hit F and
+see what happens f f
+I've got the wrong color Ctrl C that if
+you have two materials on your mesh pick
+the color you want the new faces to be
+okay
+I think that's good
+hmm
+and that
+okay I think that is enough topology for
+the face so let's go and just smooth
+this out we'll just use all the
+techniques we've talked about to
+smooth this out
+okay that's going to help the forehead a
+lot
+foreign
+to collapse the back of the head more
+so it can fit
+you can fit the hair over it
+was thinking maybe add a cut here
+so there's three Loops there but that
+part of the face is rather flat
+so
+I think it's actually
+okay
+at this point the head is basically done
+we've got good topology for the entire
+face
+we're roughly following our sketch from
+the front and the side view
+and on its own
+it looks good in 3D
+the next steps are for us to put on our
+artistic hats grab those reference
+images and sculpt this to get that final
+bit of finesse
+from here on there will be nothing new
+to teach technically we'll be using the
+same sculpting and editing tools that
+we've covered
+so sit back and watch for a bit to get a
+feel for it and then go and add some
+life to your model
+thanks for watching I hope this helped
+if you want more character modeling you
+can continue with tutorial number two
+making the body
+hope to see you there and if you can
+leave a like or a comment to let me know
+what you thought or better yet support
+me on patreon thanks
+okay time to dial this character in
+as you continue to work on your
+character doing things like making
+texture Maps or creating hair each of
+those steps changes how your character
+looks drastically
+and so at those points it's a good idea
+to go back and re-finess and sculpt your
+character's face to look good with that
+new change
+in fact you can keep changing your
+character's face up into the point where
+you create a face rig for your character
+and even then you can change it a little
+bit
+but after you make
+facial shape keys
+that's when your character really gets
+your character's face really gets locked
+in place
+this kind of subtle shaping is slow and
+not very interesting to learn but it's
+an important part of the modeling
+process
+it's where you use your sensitivity and
+artistry
+interestingly if you practice drawing
+people or doing life drawing learning
+Anatomy or sculpting in real life it
+translates to 3D modeling
+it comes down to understanding the forms
+you're trying to create so if you want
+to get better at 3D modeling
+practice other stuff
+another way to get better at 3D modeling
+or anything for that matter is doing it
+again and again and again
+eons ago when I was in college I sat
+alongside talented students and we all
+matched Pace more or less as our concept
+art skills improved
+but after college the guys who got jobs
+doing concept art got tremendously
+better almost instantly because they had
+to create volumes of Concepts quickly
+day in and day out
+you can do the same thing on your own
+just by doing what you want to get
+better at over and over
+but it helps if you love it
+and if you're hearing this I'm guessing
+you'd do because you've been watching
+this for probably more than four hours
+good job you are on your way
+someone once asked me how I stay
+motivated to create and after I thought
+about it I think there's satisfaction
+when you complete or achieve something
+but the trick was very long projects
+like making a fully functional 3D
+character especially when you don't know
+how to do it is knowing how to break up
+steps in small tasks that you can
+complete look at and know that you've
+achieved a step in getting closer to
+your overall goal
+maybe you have a vision of being able to
+create your own 3D character
+model the head yeah I like my character
+model the body okay she's got a body
+looks good
+while the hands and feet yay her body is
+done
+each Next Step takes work and
+perseverance but it's something you've
+achieved and you can be proud of
+you can take that positive vibe and use
+it as fuel to get to the next step and
+the next step until you get to your
+final goal
+sometimes all you need is the very
+subtlest change of surface
+and then other times the trick is to
+grab surfaces and move them even further
+than you could ever possibly think you
+would need to
+it's also important to get the facial
+features to be spaced out
+so they look good
+and it's a very delicate balance
+a lot of people ask about sculpting and
+re-topologizing versus
+what I'm showing in this tutorial which
+is just straight modeling
+it's honestly hard to say which is
+better uh I believe that sculpting
+allows you to
+I guess tap into your inner Artistry to
+create the character's face in this case
+versus modeling is much more mechanical
+or constructive in nature and so it can
+kind of kill the artistry
+and for some people I believe this is
+true
+however I also believe that if you're
+good at a tool you can make it do
+whatever you want to do
+in my case I use lots of tools but I'm
+very comfortable with box modeling or
+poly modeling which is why I'm teaching
+how to do that
+and then I'll pull out sculpting
+to achieve details I can't achieve with
+box modeling
+alrighty I think I'll call this done
+let's see what she looks like with some
+lights that's always fun
+well thanks for sticking around until
+the very end I'm sure it was as
+difficult to sit through the entire
+thing as it was to record it
+but here we both are
+happy creating and see you in the next
+one

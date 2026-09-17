@@ -1,0 +1,873 @@
+Kind: captions
+Language: en
+have you ever wanted to create your own
+have you ever wanted to create your own
+have you ever wanted to create your own
+art toys to bring your imagination into
+art toys to bring your imagination into
+art toys to bring your imagination into
+the real world well I've spent the last
+the real world well I've spent the last
+the real world well I've spent the last
+couple of weeks trying this myself and
+couple of weeks trying this myself and
+couple of weeks trying this myself and
+in this video I'll walk you through my
+in this video I'll walk you through my
+in this video I'll walk you through my
+entire Journey from preparing the
+entire Journey from preparing the
+entire Journey from preparing the
+modeling blender to 3D printing washing
+modeling blender to 3D printing washing
+modeling blender to 3D printing washing
+refining and even my first attempts at
+refining and even my first attempts at
+refining and even my first attempts at
+painting this process was full of
+painting this process was full of
+painting this process was full of
+learning and yes plenty of mistakes but
+learning and yes plenty of mistakes but
+learning and yes plenty of mistakes but
+each misstep was a lesson and I'm
+each misstep was a lesson and I'm
+each misstep was a lesson and I'm
+excited to share these insights with you
+excited to share these insights with you
+excited to share these insights with you
+so that hopefully you can learn
+so that hopefully you can learn
+so that hopefully you can learn
+something new and be inspired to create
+something new and be inspired to create
+something new and be inspired to create
+something of your own before we begin
+something of your own before we begin
+something of your own before we begin
+today I wanted to give a quick shout out
+today I wanted to give a quick shout out
+today I wanted to give a quick shout out
+to elu for providing me with the satin 4
+to elu for providing me with the satin 4
+to elu for providing me with the satin 4
+printer as my old printer gave up on me
+printer as my old printer gave up on me
+printer as my old printer gave up on me
+so without their support this video
+so without their support this video
+so without their support this video
+wouldn't be possible with that out of
+wouldn't be possible with that out of
+wouldn't be possible with that out of
+the way sit back relax and join me on
+the way sit back relax and join me on
+the way sit back relax and join me on
+this adventure as we create my first 3D
+this adventure as we create my first 3D
+this adventure as we create my first 3D
+printed art
+toy the first step is preparation our
+toy the first step is preparation our
+toy the first step is preparation our
+goal here is to get the model ready for
+goal here is to get the model ready for
+goal here is to get the model ready for
+3D printing because right now I have two
+3D printing because right now I have two
+3D printing because right now I have two
+problems one I I still have a bunch of
+problems one I I still have a bunch of
+problems one I I still have a bunch of
+modifiers still active on my objects so
+modifiers still active on my objects so
+modifiers still active on my objects so
+I'll need to go through and apply all of
+I'll need to go through and apply all of
+I'll need to go through and apply all of
+these until I'm left with my high poly
+these until I'm left with my high poly
+these until I'm left with my high poly
+sculpt problem number two is that I have
+sculpt problem number two is that I have
+sculpt problem number two is that I have
+lots of separate objects overlapping and
+lots of separate objects overlapping and
+lots of separate objects overlapping and
+although it's not always necessary these
+although it's not always necessary these
+although it's not always necessary these
+days it's good practice to go through
+days it's good practice to go through
+days it's good practice to go through
+and fix this in this case I'm going to
+and fix this in this case I'm going to
+and fix this in this case I'm going to
+be using blenders Boolean modifier to
+be using blenders Boolean modifier to
+be using blenders Boolean modifier to
+Union all of these objects together
+Union all of these objects together
+Union all of these objects together
+until I have one solid piece the goal
+until I have one solid piece the goal
+until I have one solid piece the goal
+here is to try and remove any gaps and
+here is to try and remove any gaps and
+here is to try and remove any gaps and
+overlaps that could potentially ruin the
+overlaps that could potentially ruin the
+overlaps that could potentially ruin the
+print and if you have perform
+print and if you have perform
+print and if you have perform
+performance issues working with dense
+performance issues working with dense
+performance issues working with dense
+objects the decimate modifier is pretty
+objects the decimate modifier is pretty
+objects the decimate modifier is pretty
+good at reducing the poly count while
+good at reducing the poly count while
+good at reducing the poly count while
+maintaining the overall details but
+maintaining the overall details but
+maintaining the overall details but
+you'll need to be a little bit patient
+you'll need to be a little bit patient
+you'll need to be a little bit patient
+with this cuz this modifier can be a
+with this cuz this modifier can be a
+with this cuz this modifier can be a
+little bit slow and also remember once
+little bit slow and also remember once
+little bit slow and also remember once
+you apply a modifier there's no going
+you apply a modifier there's no going
+you apply a modifier there's no going
+back so I often keep multiple backup
+back so I often keep multiple backup
+back so I often keep multiple backup
+files at different stages just in case
+files at different stages just in case
+files at different stages just in case
+although this is probably a little too
+although this is probably a little too
+although this is probably a little too
+much once I have the unified model it's
+much once I have the unified model it's
+much once I have the unified model it's
+time to export for 3D printed we want to
+time to export for 3D printed we want to
+time to export for 3D printed we want to
+export our model as an STL file this is
+export our model as an STL file this is
+export our model as an STL file this is
+the standard format for 3D printing and
+the standard format for 3D printing and
+the standard format for 3D printing and
+if you're concerned about the messed up
+if you're concerned about the messed up
+if you're concerned about the messed up
+topology on your model fortunately
+topology on your model fortunately
+topology on your model fortunately
+topology doesn't matter for 3D printing
+topology doesn't matter for 3D printing
+topology doesn't matter for 3D printing
+but depending on how detailed your
+but depending on how detailed your
+but depending on how detailed your
+sculpt is this export could take a while
+sculpt is this export could take a while
+sculpt is this export could take a while
+so in the meantime go and pop the
+so in the meantime go and pop the
+so in the meantime go and pop the
+catalog grab yourself a nice cup of tea
+catalog grab yourself a nice cup of tea
+catalog grab yourself a nice cup of tea
+hit like on this video and hope the
+hit like on this video and hope the
+hit like on this video and hope the
+blender doesn't crash all right it
+blender doesn't crash all right it
+blender doesn't crash all right it
+didn't crash which must mean you like
+didn't crash which must mean you like
+didn't crash which must mean you like
+the video right with the STL file ready
+the video right with the STL file ready
+the video right with the STL file ready
+we now need to move on to slicing
+we now need to move on to slicing
+we now need to move on to slicing
+slicing is with the magic Cs and today
+slicing is with the magic Cs and today
+slicing is with the magic Cs and today
+I'm going to be using chidu box basic
+I'm going to be using chidu box basic
+I'm going to be using chidu box basic
+and we'll be using this to convert the
+and we'll be using this to convert the
+and we'll be using this to convert the
+3D model into a series of layers that
+3D model into a series of layers that
+3D model into a series of layers that
+can be read by a printer during this
+can be read by a printer during this
+can be read by a printer during this
+step I also set up supports which are
+step I also set up supports which are
+step I also set up supports which are
+crucial for ensuring the model prints
+crucial for ensuring the model prints
+crucial for ensuring the model prints
+correctly for the most part I typically
+correctly for the most part I typically
+correctly for the most part I typically
+use the automatic support feature for
+use the automatic support feature for
+use the automatic support feature for
+this and my settings are configured for
+this and my settings are configured for
+this and my settings are configured for
+the elu satin 4 printer and the resin
+the elu satin 4 printer and the resin
+the elu satin 4 printer and the resin
+I'm printing with you might also notice
+I'm printing with you might also notice
+I'm printing with you might also notice
+that I've laid my character flat for
+that I've laid my character flat for
+that I've laid my character flat for
+printing here and that's because the
+printing here and that's because the
+printing here and that's because the
+satin 4 is a resin printer which prints
+satin 4 is a resin printer which prints
+satin 4 is a resin printer which prints
+entire higher layers at the same time so
+entire higher layers at the same time so
+entire higher layers at the same time so
+the shorter the model is the less layers
+the shorter the model is the less layers
+the shorter the model is the less layers
+will need to print and then the print
+will need to print and then the print
+will need to print and then the print
+time will be faster overall finally I
+time will be faster overall finally I
+time will be faster overall finally I
+transfer the sliced file onto a USB
+transfer the sliced file onto a USB
+transfer the sliced file onto a USB
+stick and this little device will carry
+stick and this little device will carry
+stick and this little device will carry
+our model to the S and 4 printer where
+our model to the S and 4 printer where
+our model to the S and 4 printer where
+the actual printing will now take
+the actual printing will now take
+the actual printing will now take
+place 3D printers come in many
+place 3D printers come in many
+place 3D printers come in many
+variations with the most common two
+variations with the most common two
+variations with the most common two
+being fdm which works by melting long
+being fdm which works by melting long
+being fdm which works by melting long
+spools of plastic and gradually building
+spools of plastic and gradually building
+spools of plastic and gradually building
+the model and resin printers which work
+the model and resin printers which work
+the model and resin printers which work
+by S ifying layers of liquid resin using
+by S ifying layers of liquid resin using
+by S ifying layers of liquid resin using
+UV lights today I'll be using the eligo
+UV lights today I'll be using the eligo
+UV lights today I'll be using the eligo
+satin 4 which is a resin printer resin
+satin 4 which is a resin printer resin
+satin 4 which is a resin printer resin
+printers tend to be better with small
+printers tend to be better with small
+printers tend to be better with small
+prints and little details so the satin 4
+prints and little details so the satin 4
+prints and little details so the satin 4
+is going to be ideal for my use case
+is going to be ideal for my use case
+is going to be ideal for my use case
+I'll be making a full review of this
+I'll be making a full review of this
+I'll be making a full review of this
+printer when I've had a little more time
+printer when I've had a little more time
+printer when I've had a little more time
+with it but I can already firmly say
+with it but I can already firmly say
+with it but I can already firmly say
+this is the best printer I have ever
+this is the best printer I have ever
+this is the best printer I have ever
+used with my favorite feature being the
+used with my favorite feature being the
+used with my favorite feature being the
+auto leveling print plate which is
+auto leveling print plate which is
+auto leveling print plate which is
+usually a tedious process of manual
+usually a tedious process of manual
+usually a tedious process of manual
+adjustment in the case of the Satin for
+adjustment in the case of the Satin for
+adjustment in the case of the Satin for
+I simply Mount the plate and the printer
+I simply Mount the plate and the printer
+I simply Mount the plate and the printer
+will do the rest as for the resin I'm
+will do the rest as for the resin I'm
+will do the rest as for the resin I'm
+using I'm currently using both any Cubix
+using I'm currently using both any Cubix
+using I'm currently using both any Cubix
+and eligo water washable kind as a
+and eligo water washable kind as a
+and eligo water washable kind as a
+beginner I found the water washable
+beginner I found the water washable
+beginner I found the water washable
+versions of resin to be much easier to
+versions of resin to be much easier to
+versions of resin to be much easier to
+get started with as you don't need to
+get started with as you don't need to
+get started with as you don't need to
+worry about any harsh chemicals for
+worry about any harsh chemicals for
+worry about any harsh chemicals for
+cleaning but now it's time for the first
+cleaning but now it's time for the first
+cleaning but now it's time for the first
+test print so I pour in my resin select
+test print so I pour in my resin select
+test print so I pour in my resin select
+my print on the 3D printer and now we
+my print on the 3D printer and now we
+my print on the 3D printer and now we
+just need to come back in a couple of
+just need to come back in a couple of
+just need to come back in a couple of
+hours to see how this turns out
+hours to see how this turns out
+hours to see how this turns out
+wow watching the print rise out of the
+wow watching the print rise out of the
+wow watching the print rise out of the
+liquid is so cool and it looks like the
+liquid is so cool and it looks like the
+liquid is so cool and it looks like the
+print was a success but I want to give
+print was a success but I want to give
+print was a success but I want to give
+this a good look over to ensure all of
+this a good look over to ensure all of
+this a good look over to ensure all of
+the details printed well so I give this
+the details printed well so I give this
+the details printed well so I give this
+a quick wash in some water and remove
+a quick wash in some water and remove
+a quick wash in some water and remove
+the supports to take a closer look I
+the supports to take a closer look I
+the supports to take a closer look I
+couldn't see any notable issues with the
+couldn't see any notable issues with the
+couldn't see any notable issues with the
+print which meant I could safely now go
+print which meant I could safely now go
+print which meant I could safely now go
+bigger in fact I want this piece to be
+bigger in fact I want this piece to be
+bigger in fact I want this piece to be
+at least 9 in tall the problem with this
+at least 9 in tall the problem with this
+at least 9 in tall the problem with this
+is that 9-in print would be huge and
+is that 9-in print would be huge and
+is that 9-in print would be huge and
+likely not fit in the print inbounds so
+likely not fit in the print inbounds so
+likely not fit in the print inbounds so
+to work around this artists typically
+to work around this artists typically
+to work around this artists typically
+cut their model up into multiple pieces
+cut their model up into multiple pieces
+cut their model up into multiple pieces
+to make the most of the available print
+to make the most of the available print
+to make the most of the available print
+in space so it was back in blender to
+in space so it was back in blender to
+in space so it was back in blender to
+further prepare the model in this case I
+further prepare the model in this case I
+further prepare the model in this case I
+once again used blender's Boolean
+once again used blender's Boolean
+once again used blender's Boolean
+modifier to cut the model into
+modifier to cut the model into
+modifier to cut the model into
+individual pieces the idea here is to
+individual pieces the idea here is to
+individual pieces the idea here is to
+try and cut the model in areas that are
+try and cut the model in areas that are
+try and cut the model in areas that are
+well hidden and not very noticeable when
+well hidden and not very noticeable when
+well hidden and not very noticeable when
+pieced back together and for some extra
+pieced back together and for some extra
+pieced back together and for some extra
+Integrity I also added some additional
+Integrity I also added some additional
+Integrity I also added some additional
+blocks to the pieces and Bo the relevant
+blocks to the pieces and Bo the relevant
+blocks to the pieces and Bo the relevant
+holes into the parts where they connect
+holes into the parts where they connect
+holes into the parts where they connect
+to this should ensure the model is nice
+to this should ensure the model is nice
+to this should ensure the model is nice
+and sturdy when pieced back together now
+and sturdy when pieced back together now
+and sturdy when pieced back together now
+it's simply a case of spacing these out
+it's simply a case of spacing these out
+it's simply a case of spacing these out
+nice and evenly so that when I export as
+nice and evenly so that when I export as
+nice and evenly so that when I export as
+an STL and import into chitu box I can
+an STL and import into chitu box I can
+an STL and import into chitu box I can
+increase the size and make the most of
+increase the size and make the most of
+increase the size and make the most of
+the available space I've made this as
+the available space I've made this as
+the available space I've made this as
+big as it can go in chitu box and I'm
+big as it can go in chitu box and I'm
+big as it can go in chitu box and I'm
+not quite sure how tall this is going to
+not quite sure how tall this is going to
+not quite sure how tall this is going to
+be but there's only one way to find out
+be but there's only one way to find out
+be but there's only one way to find out
+let the full size print begin
+it looks like we've had a little failure
+it looks like we've had a little failure
+it looks like we've had a little failure
+here the head looks great and the boots
+here the head looks great and the boots
+here the head looks great and the boots
+look awesome but I can't say the same
+look awesome but I can't say the same
+look awesome but I can't say the same
+for the body or the legs I'm not quite
+for the body or the legs I'm not quite
+for the body or the legs I'm not quite
+sure why this happened but I think there
+sure why this happened but I think there
+sure why this happened but I think there
+might have been too much spacing below
+might have been too much spacing below
+might have been too much spacing below
+the body and the legs didn't seem to
+the body and the legs didn't seem to
+the body and the legs didn't seem to
+attach to the print plate properly so
+attach to the print plate properly so
+attach to the print plate properly so
+I've repositioned these in blender
+I've repositioned these in blender
+I've repositioned these in blender
+exported and sliced the model again to
+exported and sliced the model again to
+exported and sliced the model again to
+hopefully Rectify this time for round
+hopefully Rectify this time for round
+hopefully Rectify this time for round
+two
+oh yeah this looks awesome time to
+oh yeah this looks awesome time to
+oh yeah this looks awesome time to
+remove the supports and give it a little
+remove the supports and give it a little
+remove the supports and give it a little
+bit of a
+bit of a
+bit of a
+clean at the moment I'm just using a
+clean at the moment I'm just using a
+clean at the moment I'm just using a
+bucket of water with a spare toothbrush
+bucket of water with a spare toothbrush
+bucket of water with a spare toothbrush
+to give it a bit of a scrub keeping in
+to give it a bit of a scrub keeping in
+to give it a bit of a scrub keeping in
+mind that although this is water wash
+mind that although this is water wash
+mind that although this is water wash
+resing it's still toxic and should not
+resing it's still toxic and should not
+resing it's still toxic and should not
+be washed on the sink these pieces are
+be washed on the sink these pieces are
+be washed on the sink these pieces are
+now clean and dry but I still find they
+now clean and dry but I still find they
+now clean and dry but I still find they
+tend to have a little bit of a sticky
+tend to have a little bit of a sticky
+tend to have a little bit of a sticky
+feel so to finish these up I like to
+feel so to finish these up I like to
+feel so to finish these up I like to
+throw them into a curing station for a
+throw them into a curing station for a
+throw them into a curing station for a
+couple of minutes and this will make
+couple of minutes and this will make
+couple of minutes and this will make
+sure that there is no chance of any res
+sure that there is no chance of any res
+sure that there is no chance of any res
+do left on the piece shout out to elu
+do left on the piece shout out to elu
+do left on the piece shout out to elu
+for also providing me with the Mercury
+for also providing me with the Mercury
+for also providing me with the Mercury
+wash and cure station combo after a
+wash and cure station combo after a
+wash and cure station combo after a
+couple of minutes in the curing station
+couple of minutes in the curing station
+couple of minutes in the curing station
+these pieces now feel completely dry to
+these pieces now feel completely dry to
+these pieces now feel completely dry to
+the touch and piecing them together has
+the touch and piecing them together has
+the touch and piecing them together has
+worked out perfectly with that that the
+worked out perfectly with that that the
+worked out perfectly with that that the
+3D printing process is
+3D printing process is
+3D printing process is
+complete this piece is already looking
+complete this piece is already looking
+complete this piece is already looking
+awesome it stands on its own looks great
+awesome it stands on its own looks great
+awesome it stands on its own looks great
+and I could stop here but there are some
+and I could stop here but there are some
+and I could stop here but there are some
+things I want to fix such as little
+things I want to fix such as little
+things I want to fix such as little
+indentations from where the supports
+indentations from where the supports
+indentations from where the supports
+were any noticeable layer lines from
+were any noticeable layer lines from
+were any noticeable layer lines from
+Printing and it also looks like there
+Printing and it also looks like there
+Printing and it also looks like there
+was some damage at some point too and if
+was some damage at some point too and if
+was some damage at some point too and if
+I'm honest I wasn't entirely sure what
+I'm honest I wasn't entirely sure what
+I'm honest I wasn't entirely sure what
+would be the best way to fix these but a
+would be the best way to fix these but a
+would be the best way to fix these but a
+couple of YouTube videos later and I'm
+couple of YouTube videos later and I'm
+couple of YouTube videos later and I'm
+feeling ready to give this a go so I
+feeling ready to give this a go so I
+feeling ready to give this a go so I
+picked up a set of sanding sponges at
+picked up a set of sanding sponges at
+picked up a set of sanding sponges at
+various grits along with some epoxy
+various grits along with some epoxy
+various grits along with some epoxy
+putty that I hear is great for filling
+putty that I hear is great for filling
+putty that I hear is great for filling
+holes and Imperfections now it's simply
+holes and Imperfections now it's simply
+holes and Imperfections now it's simply
+time to put on some headphones and get
+time to put on some headphones and get
+time to put on some headphones and get
+to work
+I think that should just about do it and
+I think that should just about do it and
+I think that should just about do it and
+this stage was much easier than I
+this stage was much easier than I
+this stage was much easier than I
+thought it was going to be I started
+thought it was going to be I started
+thought it was going to be I started
+with a 320 grit to sand down the larger
+with a 320 grit to sand down the larger
+with a 320 grit to sand down the larger
+bumps and then polished it off with a
+bumps and then polished it off with a
+bumps and then polished it off with a
+fine 2500 grit for a smooth finish
+fine 2500 grit for a smooth finish
+fine 2500 grit for a smooth finish
+throughout this process I also sprayed
+throughout this process I also sprayed
+throughout this process I also sprayed
+the pieces with water to reduce the
+the pieces with water to reduce the
+the pieces with water to reduce the
+amount of dust this gave off and these
+amount of dust this gave off and these
+amount of dust this gave off and these
+sanded sponges were very comfortable to
+sanded sponges were very comfortable to
+sanded sponges were very comfortable to
+work with but that brings us to the end
+work with but that brings us to the end
+work with but that brings us to the end
+of the sanding phase now it was time to
+of the sanding phase now it was time to
+of the sanding phase now it was time to
+move on to the final
+step now for the most intimidating part
+step now for the most intimidating part
+step now for the most intimidating part
+of the process I have some experience 3D
+of the process I have some experience 3D
+of the process I have some experience 3D
+printing but I am yet to try my hand at
+printing but I am yet to try my hand at
+printing but I am yet to try my hand at
+painting but a little bit of color would
+painting but a little bit of color would
+painting but a little bit of color would
+really help to make this guy pop so it
+really help to make this guy pop so it
+really help to make this guy pop so it
+was back to YouTube to learn some
+was back to YouTube to learn some
+was back to YouTube to learn some
+beginner methods for painting 3D prints
+beginner methods for painting 3D prints
+beginner methods for painting 3D prints
+after a couple of videos and some tests
+after a couple of videos and some tests
+after a couple of videos and some tests
+painting on my smaller test prints I
+painting on my smaller test prints I
+painting on my smaller test prints I
+decided airbrushing would likely be the
+decided airbrushing would likely be the
+decided airbrushing would likely be the
+best way to go and would provide me with
+best way to go and would provide me with
+best way to go and would provide me with
+the clean finish I'm looking for for the
+the clean finish I'm looking for for the
+the clean finish I'm looking for for the
+paint I'm just using some basic acrylics
+paint I'm just using some basic acrylics
+paint I'm just using some basic acrylics
+I found on Amazon and Google tells me I
+I found on Amazon and Google tells me I
+I found on Amazon and Google tells me I
+can thin these down with a little bit of
+can thin these down with a little bit of
+can thin these down with a little bit of
+water to run them through the airbrush
+water to run them through the airbrush
+water to run them through the airbrush
+this probably isn't the best way to do
+this probably isn't the best way to do
+this probably isn't the best way to do
+this but for a beginner like myself this
+this but for a beginner like myself this
+this but for a beginner like myself this
+was a simple and straightforward
+was a simple and straightforward
+was a simple and straightforward
+approach but now I've got a lot of
+approach but now I've got a lot of
+approach but now I've got a lot of
+painting to do so let's get to it
+the base coat is complete and now it's
+the base coat is complete and now it's
+the base coat is complete and now it's
+time to add some color I want to add
+time to add some color I want to add
+time to add some color I want to add
+some Scarlet Red to the hoodie and the
+some Scarlet Red to the hoodie and the
+some Scarlet Red to the hoodie and the
+shoes but before I start airbrushing I
+shoes but before I start airbrushing I
+shoes but before I start airbrushing I
+need to mask off some areas that I'd
+need to mask off some areas that I'd
+need to mask off some areas that I'd
+like to keep white to do this I use a
+like to keep white to do this I use a
+like to keep white to do this I use a
+combination of mask and tape for larger
+combination of mask and tape for larger
+combination of mask and tape for larger
+areas and I picked up some Vallejo
+areas and I picked up some Vallejo
+areas and I picked up some Vallejo
+liquid masks to cover smaller details
+liquid masks to cover smaller details
+liquid masks to cover smaller details
+this stuff is really really cool and
+this stuff is really really cool and
+this stuff is really really cool and
+works by simply painting it on the areas
+works by simply painting it on the areas
+works by simply painting it on the areas
+you want to mask and then it dries to a
+you want to mask and then it dries to a
+you want to mask and then it dries to a
+rubber-like consistency that can simply
+rubber-like consistency that can simply
+rubber-like consistency that can simply
+be peeled off I spent a short while
+be peeled off I spent a short while
+be peeled off I spent a short while
+covering all of the white areas of the
+covering all of the white areas of the
+covering all of the white areas of the
+shoes and used mask and tape to cover up
+shoes and used mask and tape to cover up
+shoes and used mask and tape to cover up
+the hands before giving them a nice quat
+the hands before giving them a nice quat
+the hands before giving them a nice quat
+of red pink
+the hoodie came out looking pretty good
+the hoodie came out looking pretty good
+the hoodie came out looking pretty good
+but the Vallejo liquid mask didn't go
+but the Vallejo liquid mask didn't go
+but the Vallejo liquid mask didn't go
+how I expected as I ended up with quite
+how I expected as I ended up with quite
+how I expected as I ended up with quite
+the messy paint job after removing the
+the messy paint job after removing the
+the messy paint job after removing the
+mask I had to clean this up by hand
+mask I had to clean this up by hand
+mask I had to clean this up by hand
+which was pretty difficult and smaller
+which was pretty difficult and smaller
+which was pretty difficult and smaller
+parts I think next time I likely
+parts I think next time I likely
+parts I think next time I likely
+simplify the design or perhaps split
+simplify the design or perhaps split
+simplify the design or perhaps split
+these up into even more parts when
+these up into even more parts when
+these up into even more parts when
+printing but these experiences are all
+printing but these experiences are all
+printing but these experiences are all
+part of the learning process but now
+part of the learning process but now
+part of the learning process but now
+we're super close to the end my friends
+we're super close to the end my friends
+we're super close to the end my friends
+stick with me and let's get back to work
+this has been quite the challenging
+this has been quite the challenging
+this has been quite the challenging
+journey and although it's not perfect
+journey and although it's not perfect
+journey and although it's not perfect
+for my first attempt I'm really happy
+for my first attempt I'm really happy
+for my first attempt I'm really happy
+with how this has turned out and I'm
+with how this has turned out and I'm
+with how this has turned out and I'm
+already excited to take what I've
+already excited to take what I've
+already excited to take what I've
+learned from this experience to make my
+learned from this experience to make my
+learned from this experience to make my
+next piece even better but to finish up
+next piece even better but to finish up
+next piece even better but to finish up
+today I gave these pieces a little coat
+today I gave these pieces a little coat
+today I gave these pieces a little coat
+of gloss which should provide a nice
+of gloss which should provide a nice
+of gloss which should provide a nice
+protective layer for the paint and
+protective layer for the paint and
+protective layer for the paint and
+ensure this piece stands the test of
+ensure this piece stands the test of
+ensure this piece stands the test of
+time now it's simply time to glue this
+time now it's simply time to glue this
+time now it's simply time to glue this
+little guy together for the final reveal
+little guy together for the final reveal
+little guy together for the final reveal
+but that's all for me today my friends I
+but that's all for me today my friends I
+but that's all for me today my friends I
+hope you enjoy the reveal have a
+hope you enjoy the reveal have a
+hope you enjoy the reveal have a
+beautiful day and I'll see you in the
+beautiful day and I'll see you in the
+beautiful day and I'll see you in the
+next one
+a

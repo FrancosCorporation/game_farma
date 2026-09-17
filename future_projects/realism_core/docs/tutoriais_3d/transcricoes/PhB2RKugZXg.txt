@@ -1,0 +1,103 @@
+Wisdom for tomorrow. Daniel Vision
+School.
+All the 3D scenes you're looking at
+right now, believe it or not, were
+created by AI in just seconds.
+No code, no hot keys. I just typed a few
+prompts. Today, I'm introducing Blender
+MCP, a revolutionary tool that connects
+Claude AI with Blender, so you can build
+3D models by simply talking to your
+computer. In under 5 minutes, you'll be
+able to do this, too.
+Step one, install the UV package
+manager. We'll start with UV, a Python
+package manager. Open PowerShell and run
+the commands you see on screen. I've
+also put everything in the video
+description so you can copy and paste.
+Step two, set up the Claude Desktop app.
+Open the Claude Desktop app. If you
+don't have it yet, download it from
+claude.ai.
+A free account works, but there are
+usage limits. Click your name at the
+bottom left, settings.
+developer,
+then edit config.
+A JSON file opens in your text editor.
+Paste the code I've provided. It's in
+the description.
+Save the file. Then fully restart the
+Claw desktop app. This restart is
+important. Don't skip it.
+Step three, install the Blender add-on.
+Next, let's set up Blender. Head to the
+GitHub link in the description and
+download add-on.py.
+On the file page, click download raw
+file.
+Open Blender version 3.0 or newer. Grab
+it from blender.org if needed.
+Go to edit
+preferences.
+add-ons.
+Click the small arrow button at the top
+right. Choose install from disk.
+Select the add-on.py you downloaded
+and click install add-on. You should now
+see Blender MCP in the add-ons list.
+Tick the check box to enable it. Nothing
+will work if this isn't on. Also, make
+sure you have Python 3.1 or higher
+installed in advance. Step four, connect
+from Blender.
+Back in the 3D viewport, press N to open
+the right hand sidebar.
+Find the Blender MCP tab and click it.
+Hit connect to MCP server.
+If you see server running on port 9876,
+you're good to go. If you want Polyhaven
+assets or Hyper 3D model generation,
+turn on those check boxes here as well.
+Polyhaven brings in free 3D assets,
+Hyper 3D lets the AI generate brand new
+models from text. Final check. Return to
+the Claw desktop app and start a new
+chat. Blender MCP should be active
+automatically. Type make a red cube.
+If a cube pops up in Blender
+immediately, you nailed the setup.
+Prompt Claude. Create a minimal cafe
+interior with three tables, chairs, a
+counter, and an espresso machine. Watch
+as objects are created, placed, and even
+textured in real time.
+Prompt: Build a space station. Add a
+spaceship orbiting a planet, and give
+the ship a blue engine flame effect.
+See that? No clicking around. Just
+describe it.
+Enable the Polyhaven checkbox. Then say,
+"Make a desert environment with cactus,
+rocks, and sand textures pulled from
+Polyhaven and set up HDRI lighting." The
+AI searches the library, downloads the
+best assets, and lays everything out.
+Lighting included.
+Need changes? Just tell Claude what to
+tweak. It updates instantly.
+Turn on Hyper 3D and prompt. Generate a
+steampunk robotic arm 3D model. This
+isn't from a stock library. The model is
+generated fresh just for you.
+Pro tip, be specific.
+Cool car is vague. A futuristic
+Lamborghini style sports car produces
+much better results 5 minutes ago versus
+now. You're on a different level. From
+today, you can talk your way into fully
+realized 3D worlds.
+Subscribe, like, and turn on
+notifications. Your 3D journey starts
+now. Thank you.

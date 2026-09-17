@@ -1,0 +1,261 @@
+Kind: captions
+Language: en
+Hey everyone, before we jump in, quick
+Hey everyone, before we jump in, quick
+Hey everyone, before we jump in, quick
+disclaimer. This video is not sponsored.
+disclaimer. This video is not sponsored.
+disclaimer. This video is not sponsored.
+And no, I didn't get paid to say nice
+And no, I didn't get paid to say nice
+And no, I didn't get paid to say nice
+things about either program. I also
+things about either program. I also
+things about either program. I also
+don't have a favorite. Well, maybe I do,
+don't have a favorite. Well, maybe I do,
+don't have a favorite. Well, maybe I do,
+but I'll let you judge. Today, we're
+but I'll let you judge. Today, we're
+but I'll let you judge. Today, we're
+breaking down Blender versus ZBrush,
+breaking down Blender versus ZBrush,
+breaking down Blender versus ZBrush,
+two of the biggest names in 3D software.
+two of the biggest names in 3D software.
+two of the biggest names in 3D software.
+Whether you want to make your own
+Whether you want to make your own
+Whether you want to make your own
+animated short, sculpt a movie monster,
+animated short, sculpt a movie monster,
+animated short, sculpt a movie monster,
+or just impress your friends with a 3D
+or just impress your friends with a 3D
+or just impress your friends with a 3D
+skull, this video will help you figure
+skull, this video will help you figure
+skull, this video will help you figure
+out which tool fits your needs. First
+out which tool fits your needs. First
+out which tool fits your needs. First
+up, Blender. Blender is like the Swiss
+up, Blender. Blender is like the Swiss
+up, Blender. Blender is like the Swiss
+Army knife of 3D. It's completely free,
+Army knife of 3D. It's completely free,
+Army knife of 3D. It's completely free,
+open- source, and can handle modeling,
+open- source, and can handle modeling,
+open- source, and can handle modeling,
+sculpting, animation, rendering, and
+sculpting, animation, rendering, and
+sculpting, animation, rendering, and
+even video editing. Yep, you could
+even video editing. Yep, you could
+even video editing. Yep, you could
+sculpt a dragon, animate it, and render
+sculpt a dragon, animate it, and render
+sculpt a dragon, animate it, and render
+a full scene, all in Blender without
+a full scene, all in Blender without
+a full scene, all in Blender without
+paying a dime. Blender uses a
+paying a dime. Blender uses a
+paying a dime. Blender uses a
+polygonbased system. Each surface is
+polygonbased system. Each surface is
+polygonbased system. Each surface is
+made up of little triangles or quads.
+made up of little triangles or quads.
+made up of little triangles or quads.
+Sculpting in Blender is basically
+Sculpting in Blender is basically
+Sculpting in Blender is basically
+ pushing, pulling, and shaping
+ pushing, pulling, and shaping
+ pushing, pulling, and shaping
+millions of these polygons into the form
+millions of these polygons into the form
+millions of these polygons into the form
+you want. Pros: Free and 
+you want. Pros: Free and 
+you want. Pros: Free and 
+constantly updated by a huge community.
+constantly updated by a huge community.
+constantly updated by a huge community.
+Allin-one tool, perfect for 
+Allin-one tool, perfect for 
+Allin-one tool, perfect for 
+beginners. Supports animation,
+beginners. Supports animation,
+beginners. Supports animation,
+sculpting, modeling, and rendering in
+sculpting, modeling, and rendering in
+sculpting, modeling, and rendering in
+one place. and cons. Sculpting 
+one place. and cons. Sculpting 
+one place. and cons. Sculpting 
+isn't as fast or advanced as ZBrush for
+isn't as fast or advanced as ZBrush for
+isn't as fast or advanced as ZBrush for
+extremely high poly models. Some
+extremely high poly models. Some
+extremely high poly models. Some
+workflows aren't as optimized as
+workflows aren't as optimized as
+workflows aren't as optimized as
+professional sculpting software. Now,
+professional sculpting software. Now,
+professional sculpting software. Now,
+ZBrush.  ZBrush is the industry
+ZBrush.  ZBrush is the industry
+ZBrush.  ZBrush is the industry
+standard for sculpting. If Blender is a
+standard for sculpting. If Blender is a
+standard for sculpting. If Blender is a
+Swiss Army knife, ZBrush is a diamond
+Swiss Army knife, ZBrush is a diamond
+Swiss Army knife, ZBrush is a diamond
+tipped scalpel made for precision
+tipped scalpel made for precision
+tipped scalpel made for precision
+ sculpting. You can manipulate
+ sculpting. You can manipulate
+ sculpting. You can manipulate
+millions of polygons without breaking a
+millions of polygons without breaking a
+millions of polygons without breaking a
+sweat. And the detail you can achieve is
+sweat. And the detail you can achieve is
+sweat. And the detail you can achieve is
+ mindblowing. Think game
+ mindblowing. Think game
+ mindblowing. Think game
+characters, movie monsters, or
+characters, movie monsters, or
+characters, movie monsters, or
+hyperrealistic busts. Why? ZBrush has
+hyperrealistic busts. Why? ZBrush has
+hyperrealistic busts. Why? ZBrush has
+features like Dynamesh and Zreesher.
+features like Dynamesh and Zreesher.
+features like Dynamesh and Zreesher.
+Dynamesh lets you freely shape your
+Dynamesh lets you freely shape your
+Dynamesh lets you freely shape your
+model without worrying about stretching
+model without worrying about stretching
+model without worrying about stretching
+polygons, while Z-resher automatically
+polygons, while Z-resher automatically
+polygons, while Z-resher automatically
+cleans up your mesh so it's ready for
+cleans up your mesh so it's ready for
+cleans up your mesh so it's ready for
+animation. It's like having a magical
+animation. It's like having a magical
+animation. It's like having a magical
+assistant who keeps your model neat
+assistant who keeps your model neat
+assistant who keeps your model neat
+while you sculpt chaos. ZBrush is
+while you sculpt chaos. ZBrush is
+while you sculpt chaos. ZBrush is
+best-in-class sculpting tools and
+best-in-class sculpting tools and
+best-in-class sculpting tools and
+detailing. It handles extremely high
+detailing. It handles extremely high
+detailing. It handles extremely high
+poly models efficiently, and it's
+poly models efficiently, and it's
+poly models efficiently, and it's
+perfect for professional sculptors and
+perfect for professional sculptors and
+perfect for professional sculptors and
+concept artists, but it is expensive,
+concept artists, but it is expensive,
+concept artists, but it is expensive,
+not free. It has a steeper learning
+not free. It has a steeper learning
+not free. It has a steeper learning
+curve, and you'll need other software
+curve, and you'll need other software
+curve, and you'll need other software
+for animation, or rendering.  The
+for animation, or rendering.  The
+for animation, or rendering.  The
+verdict? If you want a free all-in-one
+verdict? If you want a free all-in-one
+verdict? If you want a free all-in-one
+tool, Blender is your buddy. 
+tool, Blender is your buddy. 
+tool, Blender is your buddy. 
+Great for learning, prototyping, and
+Great for learning, prototyping, and
+Great for learning, prototyping, and
+production. But if you'd rather want
+production. But if you'd rather want
+production. But if you'd rather want
+professional level sculpting, 
+professional level sculpting, 
+professional level sculpting, 
+ZBrush is unbeatable. Just be ready to
+ZBrush is unbeatable. Just be ready to
+ZBrush is unbeatable. Just be ready to
+invest time and money and pair it with
+invest time and money and pair it with
+invest time and money and pair it with
+other software for animation removing.
+other software for animation removing.
+other software for animation removing.
+Using Blender for ultradetailed
+Using Blender for ultradetailed
+Using Blender for ultradetailed
+sculpting is  like trying to
+sculpting is  like trying to
+sculpting is  like trying to
+carve Michelangelo's David with a butter
+carve Michelangelo's David with a butter
+carve Michelangelo's David with a butter
+knife. You can, but it's going to test
+knife. You can, but it's going to test
+knife. You can, but it's going to test
+your patience. Using ZBrush for simple
+your patience. Using ZBrush for simple
+your patience. Using ZBrush for simple
+scene  animation. That's like
+scene  animation. That's like
+scene  animation. That's like
+bringing a tank to a go-kart race.
+bringing a tank to a go-kart race.
+bringing a tank to a go-kart race.
+Overkill. Pro tip.  Many pros use
+Overkill. Pro tip.  Many pros use
+Overkill. Pro tip.  Many pros use
+both. Sculpt in ZBrush, then export to
+both. Sculpt in ZBrush, then export to
+both. Sculpt in ZBrush, then export to
+Blender for animation, lighting, and
+Blender for animation, lighting, and
+Blender for animation, lighting, and
+rendering. Why settle for one when you
+rendering. Why settle for one when you
+rendering. Why settle for one when you
+can have the best of  both
+can have the best of  both
+can have the best of  both
+worlds? Hit that like and subscribe for
+worlds? Hit that like and subscribe for
+worlds? Hit that like and subscribe for
+more funny, educational, and brutally
+more funny, educational, and brutally
+more funny, educational, and brutally
+honest 3D software breakdowns. 
+honest 3D software breakdowns. 
+honest 3D software breakdowns. 
+Your workflow and your sanity will thank
+Your workflow and your sanity will thank
+Your workflow and your sanity will thank
+you.

@@ -1,0 +1,3717 @@
+Kind: captions
+Language: en
+We did the full free course. We did the
+We did the full free course. We did the
+We did the full free course. We did the
+rigging. We did the geometry nodes. And
+rigging. We did the geometry nodes. And
+rigging. We did the geometry nodes. And
+now we're tackling one of the biggest
+now we're tackling one of the biggest
+now we're tackling one of the biggest
+areas we still left untouched and that's
+areas we still left untouched and that's
+areas we still left untouched and that's
+animation. How do key frames work? How
+animation. How do key frames work? How
+animation. How do key frames work? How
+to read and use the graph? How to
+to read and use the graph? How to
+to read and use the graph? How to
+replicate physics and what's the most
+replicate physics and what's the most
+replicate physics and what's the most
+useful approach to even begin this? I'm
+useful approach to even begin this? I'm
+useful approach to even begin this? I'm
+going to answer all of that and more. So
+going to answer all of that and more. So
+going to answer all of that and more. So
+stick around, hit the subscribe thing.
+stick around, hit the subscribe thing.
+stick around, hit the subscribe thing.
+And this video was sponsored by Graph
+And this video was sponsored by Graph
+And this video was sponsored by Graph
+Pilot. More about in the end and how it
+Pilot. More about in the end and how it
+Pilot. More about in the end and how it
+can speed up your animation
+workflows. Back in the early days of
+workflows. Back in the early days of
+workflows. Back in the early days of
+animation, animators had to draw every
+animation, animators had to draw every
+animation, animators had to draw every
+frame individually on little cell
+frame individually on little cell
+frame individually on little cell
+plates, which would then be stacked
+plates, which would then be stacked
+plates, which would then be stacked
+together to build a scene, photographed
+together to build a scene, photographed
+together to build a scene, photographed
+with a camera and played together in a
+with a camera and played together in a
+with a camera and played together in a
+sequence. And that's how all the classic
+sequence. And that's how all the classic
+sequence. And that's how all the classic
+animated movies were made, which
+animated movies were made, which
+animated movies were made, which
+technically makes Disney classics stop
+technically makes Disney classics stop
+technically makes Disney classics stop
+motion. I mean, it is pictures. All of
+motion. I mean, it is pictures. All of
+motion. I mean, it is pictures. All of
+that changed once we developed digital
+that changed once we developed digital
+that changed once we developed digital
+computer
+computer
+computer
+graphics. We no longer need to design
+graphics. We no longer need to design
+graphics. We no longer need to design
+every single frame, but rather set
+every single frame, but rather set
+every single frame, but rather set
+multiple poses, and the computer can now
+multiple poses, and the computer can now
+multiple poses, and the computer can now
+interpolate between them. to reduce all
+interpolate between them. to reduce all
+interpolate between them. to reduce all
+the work that went into it before all
+the work that went into it before all
+the work that went into it before all
+this. Those main poses are what we call
+this. Those main poses are what we call
+this. Those main poses are what we call
+key frames. And all the stuff that's
+key frames. And all the stuff that's
+key frames. And all the stuff that's
+done by the computer are called in
+done by the computer are called in
+done by the computer are called in
+between frames or inbetweens. Now, if we
+between frames or inbetweens. Now, if we
+between frames or inbetweens. Now, if we
+play this animation back, we get an
+play this animation back, we get an
+play this animation back, we get an
+animation which would have taken
+animation which would have taken
+animation which would have taken
+previous animators hours of time. Even
+previous animators hours of time. Even
+previous animators hours of time. Even
+though this looks like Say it with
+though this looks like Say it with
+though this looks like Say it with
+me. We said multiple poses and all the
+me. We said multiple poses and all the
+me. We said multiple poses and all the
+in between stuff is done by the
+in between stuff is done by the
+in between stuff is done by the
+computer. Good. Everybody following?
+computer. Good. Everybody following?
+computer. Good. Everybody following?
+Okay. Now, to make a key frame in
+Okay. Now, to make a key frame in
+Okay. Now, to make a key frame in
+Blender, you first need to select the
+Blender, you first need to select the
+Blender, you first need to select the
+thing you're trying to key frame.
+thing you're trying to key frame.
+thing you're trying to key frame.
+Preferably, there would be a bone in
+Preferably, there would be a bone in
+Preferably, there would be a bone in
+pose mode, but for this example, I'm
+pose mode, but for this example, I'm
+pose mode, but for this example, I'm
+just using this cube. There are multiple
+just using this cube. There are multiple
+just using this cube. There are multiple
+ways of doing this. You can press I to
+ways of doing this. You can press I to
+ways of doing this. You can press I to
+set a key frame to all the attributes at
+set a key frame to all the attributes at
+set a key frame to all the attributes at
+once. You can press K to choose which
+once. You can press K to choose which
+once. You can press K to choose which
+attribute should be key framed. You can
+attribute should be key framed. You can
+attribute should be key framed. You can
+hover the attribute you want and then
+hover the attribute you want and then
+hover the attribute you want and then
+press I to give a key frame only to that
+press I to give a key frame only to that
+press I to give a key frame only to that
+attribute. You can rightclick the
+attribute. You can rightclick the
+attribute. You can rightclick the
+attribute and then choose if you want a
+attribute and then choose if you want a
+attribute and then choose if you want a
+key frame for all the values or only the
+key frame for all the values or only the
+key frame for all the values or only the
+value you've rightclicked. In my case,
+value you've rightclicked. In my case,
+value you've rightclicked. In my case,
+that's Z location. Boom. Hey, your key
+that's Z location. Boom. Hey, your key
+that's Z location. Boom. Hey, your key
+frames will be displayed on the bottom
+frames will be displayed on the bottom
+frames will be displayed on the bottom
+on the timeline as well as in the graph
+on the timeline as well as in the graph
+on the timeline as well as in the graph
+editor, which we'll take a look at
+editor, which we'll take a look at
+editor, which we'll take a look at
+later, but they will also be visible in
+later, but they will also be visible in
+later, but they will also be visible in
+the dope sheet as well as the action
+the dope sheet as well as the action
+the dope sheet as well as the action
+editor and so on. That's a topic for a
+editor and so on. That's a topic for a
+editor and so on. That's a topic for a
+different video. Way too much. You can
+different video. Way too much. You can
+different video. Way too much. You can
+also set key frames very fast by turning
+also set key frames very fast by turning
+also set key frames very fast by turning
+on the auto key frame option, which is
+on the auto key frame option, which is
+on the auto key frame option, which is
+right here. You just need to be careful
+right here. You just need to be careful
+right here. You just need to be careful
+cuz it's only going to key frame
+cuz it's only going to key frame
+cuz it's only going to key frame
+attributes which have been changed, not
+attributes which have been changed, not
+attributes which have been changed, not
+all of them. For example, I can add a
+all of them. For example, I can add a
+all of them. For example, I can add a
+key frame at the start. Then move 30
+key frame at the start. Then move 30
+key frame at the start. Then move 30
+frames forward and rotate the cube,
+frames forward and rotate the cube,
+frames forward and rotate the cube,
+which will add a key frame for the
+which will add a key frame for the
+which will add a key frame for the
+rotation. Then move to frame 60 and move
+rotation. Then move to frame 60 and move
+rotation. Then move to frame 60 and move
+and rotate the cube again. The cube will
+and rotate the cube again. The cube will
+and rotate the cube again. The cube will
+already start moving from the very start
+already start moving from the very start
+already start moving from the very start
+because we don't have a key frame for
+because we don't have a key frame for
+because we don't have a key frame for
+the position at frame 30 telling it to
+the position at frame 30 telling it to
+the position at frame 30 telling it to
+stay still. So the interpolation for the
+stay still. So the interpolation for the
+stay still. So the interpolation for the
+position is happening across this entire
+position is happening across this entire
+position is happening across this entire
+animation. We can see this better if we
+animation. We can see this better if we
+animation. We can see this better if we
+drop down the contents of the cube. In
+drop down the contents of the cube. In
+drop down the contents of the cube. In
+the summary here, this is all one big
+the summary here, this is all one big
+the summary here, this is all one big
+motion. I find it easier to read this
+motion. I find it easier to read this
+motion. I find it easier to read this
+data on a graph because it shows you all
+data on a graph because it shows you all
+data on a graph because it shows you all
+the nice curves and stuff, but we're
+the nice curves and stuff, but we're
+the nice curves and stuff, but we're
+getting ahead of ourselves right now. To
+getting ahead of ourselves right now. To
+getting ahead of ourselves right now. To
+fix this, you would manually set a key
+fix this, you would manually set a key
+fix this, you would manually set a key
+frame for all the location attributes
+frame for all the location attributes
+frame for all the location attributes
+during animation or copy paste the
+during animation or copy paste the
+during animation or copy paste the
+starting position key frames to make it
+starting position key frames to make it
+starting position key frames to make it
+stay still here. In the timeline, key
+stay still here. In the timeline, key
+stay still here. In the timeline, key
+frames whose values remain the same are
+frames whose values remain the same are
+frames whose values remain the same are
+shown as this line. So, the position
+shown as this line. So, the position
+shown as this line. So, the position
+here is stationary. Once you add a key
+here is stationary. Once you add a key
+here is stationary. Once you add a key
+frame to the selected object, the key
+frame to the selected object, the key
+frame to the selected object, the key
+frame values will turn yellow. This is
+frame values will turn yellow. This is
+frame values will turn yellow. This is
+to signal that the value is in fact key
+to signal that the value is in fact key
+to signal that the value is in fact key
+framed and you're currently on a key
+framed and you're currently on a key
+framed and you're currently on a key
+frame in the timeline. If you scrub
+frame in the timeline. If you scrub
+frame in the timeline. If you scrub
+forward a bit, uh the value will turn
+forward a bit, uh the value will turn
+forward a bit, uh the value will turn
+green, showing that the value is
+green, showing that the value is
+green, showing that the value is
+animated, but you're currently not
+animated, but you're currently not
+animated, but you're currently not
+positioned on a key frame. If you move
+positioned on a key frame. If you move
+positioned on a key frame. If you move
+the object now, it's going to turn
+the object now, it's going to turn
+the object now, it's going to turn
+orange, telling you that the object is
+orange, telling you that the object is
+orange, telling you that the object is
+key framed, and you have unapplied
+key framed, and you have unapplied
+key framed, and you have unapplied
+changes here. So, you've moved the
+changes here. So, you've moved the
+changes here. So, you've moved the
+object, but you've not yet key framed
+object, but you've not yet key framed
+object, but you've not yet key framed
+it. So if you move the timeline now,
+it. So if you move the timeline now,
+it. So if you move the timeline now,
+you're going to lose this. So better key
+you're going to lose this. So better key
+you're going to lose this. So better key
+frame or this is gone. So yellow is a
+frame or this is gone. So yellow is a
+frame or this is gone. So yellow is a
+key frame, green means no key frame, but
+key frame, green means no key frame, but
+key frame, green means no key frame, but
+the stuff has been animated. And orange
+the stuff has been animated. And orange
+the stuff has been animated. And orange
+means unapplied changes. Make key frame.
+means unapplied changes. Make key frame.
+means unapplied changes. Make key frame.
+Now let's take a look at the graph
+Now let's take a look at the graph
+Now let's take a look at the graph
+editor. It's a very cool
+editor. It's a very cool
+editor. It's a very cool
+thing. As we can see, all the moves are
+thing. As we can see, all the moves are
+thing. As we can see, all the moves are
+now eased because the default
+now eased because the default
+now eased because the default
+interpolation is ease in and out. At
+interpolation is ease in and out. At
+interpolation is ease in and out. At
+least in Blender. It's also shown on the
+least in Blender. It's also shown on the
+least in Blender. It's also shown on the
+graph as this S thing. Now, this might
+graph as this S thing. Now, this might
+graph as this S thing. Now, this might
+seem intimidating, so let's break it
+seem intimidating, so let's break it
+seem intimidating, so let's break it
+down. Let's just isolate the X value for
+down. Let's just isolate the X value for
+down. Let's just isolate the X value for
+now, so we have less things to look at.
+now, so we have less things to look at.
+now, so we have less things to look at.
+I'll make a key frame on frame one with
+I'll make a key frame on frame one with
+I'll make a key frame on frame one with
+the X value being zero and another key
+the X value being zero and another key
+the X value being zero and another key
+frame on frame 40 with the X value being
+frame on frame 40 with the X value being
+frame on frame 40 with the X value being
+25. If we take a look at this data on
+25. If we take a look at this data on
+25. If we take a look at this data on
+the graph, it's going to show us this S
+the graph, it's going to show us this S
+the graph, it's going to show us this S
+curve. And believe it or not, this data
+curve. And believe it or not, this data
+curve. And believe it or not, this data
+actually shows us the exact motion that
+actually shows us the exact motion that
+actually shows us the exact motion that
+this object is going to take. So, the
+this object is going to take. So, the
+this object is going to take. So, the
+horizontal axis or the Y-axis shows us
+horizontal axis or the Y-axis shows us
+horizontal axis or the Y-axis shows us
+the time passed or the frame of the
+the time passed or the frame of the
+the time passed or the frame of the
+animation. This is where you can
+animation. This is where you can
+animation. This is where you can
+literally scrub through every single
+literally scrub through every single
+literally scrub through every single
+frame of the animation. It's it's time.
+frame of the animation. It's it's time.
+frame of the animation. It's it's time.
+And the vertical axis or the y-axis
+And the vertical axis or the y-axis
+And the vertical axis or the y-axis
+shows us the value of the attribute
+shows us the value of the attribute
+shows us the value of the attribute
+we're looking for. The curve is now
+we're looking for. The curve is now
+we're looking for. The curve is now
+showing us the x position of this cube.
+showing us the x position of this cube.
+showing us the x position of this cube.
+We can see that it starts at frame one
+We can see that it starts at frame one
+We can see that it starts at frame one
+at value zero and it gradually rises to
+at value zero and it gradually rises to
+at value zero and it gradually rises to
+frame 40 where the value is 25. But it
+frame 40 where the value is 25. But it
+frame 40 where the value is 25. But it
+doesn't do that in a straight line.
+doesn't do that in a straight line.
+doesn't do that in a straight line.
+There's a so-called ease at both ends
+There's a so-called ease at both ends
+There's a so-called ease at both ends
+making this S curve. If we scrub through
+making this S curve. If we scrub through
+making this S curve. If we scrub through
+the timeline slowly, we can see that at
+the timeline slowly, we can see that at
+the timeline slowly, we can see that at
+frame one, the value is zero. And as we
+frame one, the value is zero. And as we
+frame one, the value is zero. And as we
+move along, the value is slowly starting
+move along, the value is slowly starting
+move along, the value is slowly starting
+to rise. And playing this back gives us
+to rise. And playing this back gives us
+to rise. And playing this back gives us
+an illusion of the object picking up
+an illusion of the object picking up
+an illusion of the object picking up
+speed. In the second half, the scurve
+speed. In the second half, the scurve
+speed. In the second half, the scurve
+seems to slow down, and so does our
+seems to slow down, and so does our
+seems to slow down, and so does our
+object. Remember, this graph literally
+object. Remember, this graph literally
+object. Remember, this graph literally
+shows us the value of the attribute on
+shows us the value of the attribute on
+shows us the value of the attribute on
+every single frame. On frame one, it is
+every single frame. On frame one, it is
+every single frame. On frame one, it is
+zero. On frame 10, it's about 3 and 1/2.
+zero. On frame 10, it's about 3 and 1/2.
+zero. On frame 10, it's about 3 and 1/2.
+On frame 25, it's 17. On frame 35, it's
+On frame 25, it's 17. On frame 35, it's
+On frame 25, it's 17. On frame 35, it's
+around 23. And on frame 40, it's 25.
+around 23. And on frame 40, it's 25.
+around 23. And on frame 40, it's 25.
+It's slowly picking up speed and slowly
+It's slowly picking up speed and slowly
+It's slowly picking up speed and slowly
+decreasing it as it gets to the final
+decreasing it as it gets to the final
+decreasing it as it gets to the final
+point. And there's a good reason why
+point. And there's a good reason why
+point. And there's a good reason why
+this is default. It's because most
+this is default. It's because most
+this is default. It's because most
+motion actually works this way. You got
+motion actually works this way. You got
+motion actually works this way. You got
+to start and stop somehow. You can
+to start and stop somehow. You can
+to start and stop somehow. You can
+obviously grab the bezier handles
+obviously grab the bezier handles
+obviously grab the bezier handles
+anytime and move them around as you
+anytime and move them around as you
+anytime and move them around as you
+please. This would customize your curve
+please. This would customize your curve
+please. This would customize your curve
+and also your motion, just like here.
+and also your motion, just like here.
+and also your motion, just like here.
+And I'm still talking so I can show you
+And I'm still talking so I can show you
+And I'm still talking so I can show you
+more examples of this. And I think this
+more examples of this. And I think this
+more examples of this. And I think this
+should be fine now. I think you get it.
+should be fine now. I think you get it.
+should be fine now. I think you get it.
+You can also select a key frame and
+You can also select a key frame and
+You can also select a key frame and
+press V to give you a couple of key
+press V to give you a couple of key
+press V to give you a couple of key
+frame handle modes which can make this
+frame handle modes which can make this
+frame handle modes which can make this
+stuff easier. The free option will make
+stuff easier. The free option will make
+stuff easier. The free option will make
+both handles completely independent and
+both handles completely independent and
+both handles completely independent and
+free to move. The aligned will lock them
+free to move. The aligned will lock them
+free to move. The aligned will lock them
+pointing in opposite directions. The
+pointing in opposite directions. The
+pointing in opposite directions. The
+vector will make them point directly
+vector will make them point directly
+vector will make them point directly
+towards their adjacent key frames,
+towards their adjacent key frames,
+towards their adjacent key frames,
+making it a great option if you want to
+making it a great option if you want to
+making it a great option if you want to
+make linear animation. Linear good
+make linear animation. Linear good
+make linear animation. Linear good
+automatic, which is also the default,
+automatic, which is also the default,
+automatic, which is also the default,
+will just try to make the curve smooth.
+will just try to make the curve smooth.
+will just try to make the curve smooth.
+And moving the handles will instantly
+And moving the handles will instantly
+And moving the handles will instantly
+turn it into the aligned one. And
+turn it into the aligned one. And
+turn it into the aligned one. And
+finally, autoclamped is the same as
+finally, autoclamped is the same as
+finally, autoclamped is the same as
+automatic, but it will prevent
+automatic, but it will prevent
+automatic, but it will prevent
+overshoots from the next key frame. And
+overshoots from the next key frame. And
+overshoots from the next key frame. And
+when you see something like this, it
+when you see something like this, it
+when you see something like this, it
+just means you're displaying multiple
+just means you're displaying multiple
+just means you're displaying multiple
+values on the graph at once. You can
+values on the graph at once. You can
+values on the graph at once. You can
+click the value you want on the sidebar
+click the value you want on the sidebar
+click the value you want on the sidebar
+on the right to highlight it, so it's
+on the right to highlight it, so it's
+on the right to highlight it, so it's
+easier to see what you're doing.
+easier to see what you're doing.
+easier to see what you're doing.
+Although, this can get very messy and
+Although, this can get very messy and
+Although, this can get very messy and
+confusing. So, let me show you a bunch
+confusing. So, let me show you a bunch
+confusing. So, let me show you a bunch
+of ways you can navigate this stuff. If
+of ways you can navigate this stuff. If
+of ways you can navigate this stuff. If
+you hold control and the middle mouse
+you hold control and the middle mouse
+you hold control and the middle mouse
+button, you can scale the graph
+button, you can scale the graph
+button, you can scale the graph
+horizontally by moving the mouse left
+horizontally by moving the mouse left
+horizontally by moving the mouse left
+and right or vertically by moving the
+and right or vertically by moving the
+and right or vertically by moving the
+mouse up and down. You can also pan by
+mouse up and down. You can also pan by
+mouse up and down. You can also pan by
+using the middle mouse button and zoom
+using the middle mouse button and zoom
+using the middle mouse button and zoom
+in or out with the scroll wheel. Values
+in or out with the scroll wheel. Values
+in or out with the scroll wheel. Values
+can sometimes be vastly different, so
+can sometimes be vastly different, so
+can sometimes be vastly different, so
+it's hard to see them all at once,
+it's hard to see them all at once,
+it's hard to see them all at once,
+especially when you're going back and
+especially when you're going back and
+especially when you're going back and
+forth, balancing two very different
+forth, balancing two very different
+forth, balancing two very different
+ones. You're just zooming in, zooming
+ones. You're just zooming in, zooming
+ones. You're just zooming in, zooming
+out. It's it's annoying. In that case,
+out. It's it's annoying. In that case,
+out. It's it's annoying. In that case,
+you can turn on this normalize button,
+you can turn on this normalize button,
+you can turn on this normalize button,
+which will display all of the values in
+which will display all of the values in
+which will display all of the values in
+a range from negative 1 to one. It's
+a range from negative 1 to one. It's
+a range from negative 1 to one. It's
+just going to scale them to fit. If you
+just going to scale them to fit. If you
+just going to scale them to fit. If you
+add new values, which would exceed that,
+add new values, which would exceed that,
+add new values, which would exceed that,
+it will just get scaled down again, so
+it will just get scaled down again, so
+it will just get scaled down again, so
+it's always -1 to one. Find them all in
+it's always -1 to one. Find them all in
+it's always -1 to one. Find them all in
+one place. And if you want your actual
+one place. And if you want your actual
+one place. And if you want your actual
+values back, you can just turn the
+values back, you can just turn the
+values back, you can just turn the
+button off and it's going to go back to
+button off and it's going to go back to
+button off and it's going to go back to
+normal. You can also make the values you
+normal. You can also make the values you
+normal. You can also make the values you
+don't need in the moment invisible or
+don't need in the moment invisible or
+don't need in the moment invisible or
+drop down view and turn on only show
+drop down view and turn on only show
+drop down view and turn on only show
+selected key frame handles so you don't
+selected key frame handles so you don't
+selected key frame handles so you don't
+see the bezier handles of everything but
+see the bezier handles of everything but
+see the bezier handles of everything but
+just the stuff you're selecting. So it
+just the stuff you're selecting. So it
+just the stuff you're selecting. So it
+gets out of the way and now you're the
+gets out of the way and now you're the
+gets out of the way and now you're the
+expert in the graph editor. Yes, it's
+expert in the graph editor. Yes, it's
+expert in the graph editor. Yes, it's
+that simple. And of course we can't talk
+that simple. And of course we can't talk
+that simple. And of course we can't talk
+about animation without touching on the
+about animation without touching on the
+about animation without touching on the
+12 principles of animation. Now if you
+12 principles of animation. Now if you
+12 principles of animation. Now if you
+don't know what those are, there are a
+don't know what those are, there are a
+don't know what those are, there are a
+set of principles designed by two
+set of principles designed by two
+set of principles designed by two
+legendary Disney animators, Frank Thomas
+legendary Disney animators, Frank Thomas
+legendary Disney animators, Frank Thomas
+and Olly Johnston. It's basically like
+and Olly Johnston. It's basically like
+and Olly Johnston. It's basically like
+an animation rulebook. And while it was
+an animation rulebook. And while it was
+an animation rulebook. And while it was
+designed with 2D animation in mind, it
+designed with 2D animation in mind, it
+designed with 2D animation in mind, it
+actually applies to all forms of
+actually applies to all forms of
+actually applies to all forms of
+animation in general. A YouTuber, Ellen
+animation in general. A YouTuber, Ellen
+animation in general. A YouTuber, Ellen
+Becker, has a great explanation on them,
+Becker, has a great explanation on them,
+Becker, has a great explanation on them,
+and I'll leave the video in the
+and I'll leave the video in the
+and I'll leave the video in the
+description. You should check it out if
+description. You should check it out if
+description. You should check it out if
+you want to learn more cuz he's going to
+you want to learn more cuz he's going to
+you want to learn more cuz he's going to
+dive deeper into this than I will, and
+dive deeper into this than I will, and
+dive deeper into this than I will, and
+I'll just tell you how this stuff
+I'll just tell you how this stuff
+I'll just tell you how this stuff
+applies in 3D. This principle says that
+applies in 3D. This principle says that
+applies in 3D. This principle says that
+animated objects should get longer or
+animated objects should get longer or
+animated objects should get longer or
+flatter to emphasize their speed,
+flatter to emphasize their speed,
+flatter to emphasize their speed,
+impact, and so on. The more the object
+impact, and so on. The more the object
+impact, and so on. The more the object
+deforms, the softer it appears. And this
+deforms, the softer it appears. And this
+deforms, the softer it appears. And this
+has sometimes been used as a stylistic
+has sometimes been used as a stylistic
+has sometimes been used as a stylistic
+choice. In 3D animation, this principle
+choice. In 3D animation, this principle
+choice. In 3D animation, this principle
+isn't used too often except with
+isn't used too often except with
+isn't used too often except with
+cartoony styles or with the motion of
+cartoony styles or with the motion of
+cartoony styles or with the motion of
+the characters or in form of smear
+the characters or in form of smear
+the characters or in form of smear
+frames or sometimes duplicate frames.
+frames or sometimes duplicate frames.
+frames or sometimes duplicate frames.
+For smear frames, you mostly do this by
+For smear frames, you mostly do this by
+For smear frames, you mostly do this by
+creating custom shape keys which you
+creating custom shape keys which you
+creating custom shape keys which you
+would animate in and out like this. And
+would animate in and out like this. And
+would animate in and out like this. And
+duplicate frames are just a duplicate of
+duplicate frames are just a duplicate of
+duplicate frames are just a duplicate of
+the object. I think it's pretty
+the object. I think it's pretty
+the object. I think it's pretty
+self-explanatory. Now, Alan Backer
+self-explanatory. Now, Alan Backer
+self-explanatory. Now, Alan Backer
+obviously goes deeper into this. So, if
+obviously goes deeper into this. So, if
+obviously goes deeper into this. So, if
+you actually want to learn anything, you
+you actually want to learn anything, you
+you actually want to learn anything, you
+should go watch his video. I'm just
+should go watch his video. I'm just
+should go watch his video. I'm just
+skimming through these. The simplest way
+skimming through these. The simplest way
+skimming through these. The simplest way
+to describe anticipation would be the
+to describe anticipation would be the
+to describe anticipation would be the
+wind up before the action. Before you
+wind up before the action. Before you
+wind up before the action. Before you
+jump, you crouch. Before you bar
+jump, you crouch. Before you bar
+jump, you crouch. Before you bar
+diamonds, you clench down. And before
+diamonds, you clench down. And before
+diamonds, you clench down. And before
+you swing your massive sword, you wind
+you swing your massive sword, you wind
+you swing your massive sword, you wind
+your body back. The longer the
+your body back. The longer the
+your body back. The longer the
+anticipation, the faster the following
+anticipation, the faster the following
+anticipation, the faster the following
+action can be. But it's important to
+action can be. But it's important to
+action can be. But it's important to
+note the object's weight, since heavier
+note the object's weight, since heavier
+note the object's weight, since heavier
+objects will still need longer
+objects will still need longer
+objects will still need longer
+anticipation overall. Anticipation is a
+anticipation overall. Anticipation is a
+anticipation overall. Anticipation is a
+way of preparing the audience to what's
+way of preparing the audience to what's
+way of preparing the audience to what's
+about to
+about to
+about to
+come. Staging is about directing the
+come. Staging is about directing the
+come. Staging is about directing the
+audience's attention. This can apply to
+audience's attention. This can apply to
+audience's attention. This can apply to
+many things like acting, timing,
+many things like acting, timing,
+many things like acting, timing,
+composition, texture design, you name
+composition, texture design, you name
+composition, texture design, you name
+it. Alan probably explained it best, so
+it. Alan probably explained it best, so
+it. Alan probably explained it best, so
+I'll use his example here. You want to
+I'll use his example here. You want to
+I'll use his example here. You want to
+be in full control of where the audience
+be in full control of where the audience
+be in full control of where the audience
+is looking. You're essentially saying,
+is looking. You're essentially saying,
+is looking. You're essentially saying,
+"Look at this. Now look at this. And now
+"Look at this. Now look at this. And now
+"Look at this. Now look at this. And now
+look at this." Here's an example of bad
+look at this." Here's an example of bad
+look at this." Here's an example of bad
+staging.
+In short, make your idea obvious. If
+In short, make your idea obvious. If
+In short, make your idea obvious. If
+someone is sad, show that with blue
+someone is sad, show that with blue
+someone is sad, show that with blue
+lighting in an obviously sad expression.
+lighting in an obviously sad expression.
+lighting in an obviously sad expression.
+Time your shots so the information is
+Time your shots so the information is
+Time your shots so the information is
+revealed in a reasonable sequence. This
+revealed in a reasonable sequence. This
+revealed in a reasonable sequence. This
+is a very broad principle that could
+is a very broad principle that could
+is a very broad principle that could
+legitimately deserve its own tutorial,
+legitimately deserve its own tutorial,
+legitimately deserve its own tutorial,
+but I'm not doing that. Just watch
+but I'm not doing that. Just watch
+but I'm not doing that. Just watch
+Alan's video on this. He he did a good
+Alan's video on this. He he did a good
+Alan's video on this. He he did a good
+job. Straight ahead and pose to pose
+job. Straight ahead and pose to pose
+job. Straight ahead and pose to pose
+would apply to traditional animation
+would apply to traditional animation
+would apply to traditional animation
+where they would draw key poses and fill
+where they would draw key poses and fill
+where they would draw key poses and fill
+in the gaps for pose to pose technique
+in the gaps for pose to pose technique
+in the gaps for pose to pose technique
+and draw the images straight ahead one
+and draw the images straight ahead one
+and draw the images straight ahead one
+after the other for unpredictable stuff
+after the other for unpredictable stuff
+after the other for unpredictable stuff
+such as fire. Since in 3D our computers
+such as fire. Since in 3D our computers
+such as fire. Since in 3D our computers
+automatically create inbetweens for
+automatically create inbetweens for
+automatically create inbetweens for
+everything we do. We technically all do
+everything we do. We technically all do
+everything we do. We technically all do
+pose to pose, but in 3D it goes a step
+pose to pose, but in 3D it goes a step
+pose to pose, but in 3D it goes a step
+further where animators will generally
+further where animators will generally
+further where animators will generally
+create poses from the main animation to
+create poses from the main animation to
+create poses from the main animation to
+get the timings right and also make sure
+get the timings right and also make sure
+get the timings right and also make sure
+all the poses feel right before fully
+all the poses feel right before fully
+all the poses feel right before fully
+committing to the animation and later
+committing to the animation and later
+committing to the animation and later
+fill the stuff with more key frames and
+fill the stuff with more key frames and
+fill the stuff with more key frames and
+polished complexity and stuff. This is a
+polished complexity and stuff. This is a
+polished complexity and stuff. This is a
+great approach when you're making
+great approach when you're making
+great approach when you're making
+something complex, but for something
+something complex, but for something
+something complex, but for something
+simple like idle motion, the straight
+simple like idle motion, the straight
+simple like idle motion, the straight
+ahead method is just fine.
+ahead method is just fine.
+ahead method is just fine.
+Follow through and overlapping action
+Follow through and overlapping action
+Follow through and overlapping action
+describes how every part that hangs off
+describes how every part that hangs off
+describes how every part that hangs off
+the main body will start the motion with
+the main body will start the motion with
+the main body will start the motion with
+a delay and will continue the motion
+a delay and will continue the motion
+a delay and will continue the motion
+after the main body has already stopped.
+after the main body has already stopped.
+after the main body has already stopped.
+Think about cloth or chains or even
+Think about cloth or chains or even
+Think about cloth or chains or even
+things like arms. They're always delayed
+things like arms. They're always delayed
+things like arms. They're always delayed
+from the main body because they're
+from the main body because they're
+from the main body because they're
+freely hanging. Don't tell me you've
+freely hanging. Don't tell me you've
+freely hanging. Don't tell me you've
+never done this before. Even things like
+never done this before. Even things like
+never done this before. Even things like
+excess skin or floppy ears or the bodies
+excess skin or floppy ears or the bodies
+excess skin or floppy ears or the bodies
+follow through as the character lands.
+follow through as the character lands.
+follow through as the character lands.
+It's just
+It's just
+It's just
+physics. Slow in, slow out. That's our
+physics. Slow in, slow out. That's our
+physics. Slow in, slow out. That's our
+graph. Objects got to pick up speed and
+graph. Objects got to pick up speed and
+graph. Objects got to pick up speed and
+slow down. This is mostly done
+slow down. This is mostly done
+slow down. This is mostly done
+automatically for you. But you can
+automatically for you. But you can
+automatically for you. But you can
+tinker with the intensity or make hard
+tinker with the intensity or make hard
+tinker with the intensity or make hard
+transitions where the object hits
+transitions where the object hits
+transitions where the object hits
+something. Like if an object just got
+something. Like if an object just got
+something. Like if an object just got
+hit, you don't need a slow in. It's
+hit, you don't need a slow in. It's
+hit, you don't need a slow in. It's
+already flying forward. You know, use
+already flying forward. You know, use
+already flying forward. You know, use
+your logic. That's kind of
+your logic. That's kind of
+your logic. That's kind of
+self-explanatory as well. You know what
+self-explanatory as well. You know what
+self-explanatory as well. You know what
+a baseball hit looks like. The arcs
+a baseball hit looks like. The arcs
+a baseball hit looks like. The arcs
+principle pretty much declares that
+principle pretty much declares that
+principle pretty much declares that
+motion from all living creatures moves
+motion from all living creatures moves
+motion from all living creatures moves
+not in straight lines but in arcs. That
+not in straight lines but in arcs. That
+not in straight lines but in arcs. That
+means general motion, joint rotation,
+means general motion, joint rotation,
+means general motion, joint rotation,
+and so on. Again, in 3D, that's taken
+and so on. Again, in 3D, that's taken
+and so on. Again, in 3D, that's taken
+care of because that's just the nature
+care of because that's just the nature
+care of because that's just the nature
+of all the transforms. But this concept
+of all the transforms. But this concept
+of all the transforms. But this concept
+also applies to things like gravity and
+also applies to things like gravity and
+also applies to things like gravity and
+such. In Blender, you would achieve this
+such. In Blender, you would achieve this
+such. In Blender, you would achieve this
+by animating one axis like X in a linear
+by animating one axis like X in a linear
+by animating one axis like X in a linear
+fashion. Now that we know what that
+fashion. Now that we know what that
+fashion. Now that we know what that
+means, say, and the vertical axis, which
+means, say, and the vertical axis, which
+means, say, and the vertical axis, which
+is Z in Blender's case, would be eased
+is Z in Blender's case, would be eased
+is Z in Blender's case, would be eased
+at the top. So, the object is moving
+at the top. So, the object is moving
+at the top. So, the object is moving
+horizontally at the same rate, but it's
+horizontally at the same rate, but it's
+horizontally at the same rate, but it's
+eased on the vertical motion. So, it
+eased on the vertical motion. So, it
+eased on the vertical motion. So, it
+creates a nice looking arc.
+creates a nice looking arc.
+creates a nice looking arc.
+Secondary action describes actions and
+Secondary action describes actions and
+Secondary action describes actions and
+gestures that support the main action
+gestures that support the main action
+gestures that support the main action
+and add more dimension to it. It's hard
+and add more dimension to it. It's hard
+and add more dimension to it. It's hard
+to describe it as much other than that.
+to describe it as much other than that.
+to describe it as much other than that.
+Just make sure the secondary action
+Just make sure the secondary action
+Just make sure the secondary action
+complements the main one and doesn't
+complements the main one and doesn't
+complements the main one and doesn't
+take away the attention from it. Like in
+take away the attention from it. Like in
+take away the attention from it. Like in
+this example, the smaller bag or here
+this example, the smaller bag or here
+this example, the smaller bag or here
+the clock falling off the wall. Or if a
+the clock falling off the wall. Or if a
+the clock falling off the wall. Or if a
+character is nervous, he's going to do
+character is nervous, he's going to do
+character is nervous, he's going to do
+this while they're talking. And I regret
+this while they're talking. And I regret
+this while they're talking. And I regret
+this. This is secondary action. The is
+this. This is secondary action. The is
+this. This is secondary action. The is
+for me fingers. It gives dimension to
+for me fingers. It gives dimension to
+for me fingers. It gives dimension to
+the main motion, but it doesn't distract
+the main motion, but it doesn't distract
+the main motion, but it doesn't distract
+from the actual animation. The timing
+from the actual animation. The timing
+from the actual animation. The timing
+principle is related to the speed of the
+principle is related to the speed of the
+principle is related to the speed of the
+motion. Back in the day, it was related
+motion. Back in the day, it was related
+motion. Back in the day, it was related
+to the amount of frames drawn for an
+to the amount of frames drawn for an
+to the amount of frames drawn for an
+action, and today that means the spacing
+action, and today that means the spacing
+action, and today that means the spacing
+of your key frames. The same action
+of your key frames. The same action
+of your key frames. The same action
+could have multiple meanings depending
+could have multiple meanings depending
+could have multiple meanings depending
+on the speed they're played at. They can
+on the speed they're played at. They can
+on the speed they're played at. They can
+also influence scale a lot. I see it
+also influence scale a lot. I see it
+also influence scale a lot. I see it
+commonly misused in fights. My tip here
+commonly misused in fights. My tip here
+commonly misused in fights. My tip here
+is to use reference footage and play it
+is to use reference footage and play it
+is to use reference footage and play it
+back multiple times to see if this beat
+back multiple times to see if this beat
+back multiple times to see if this beat
+is off or show it to a third party with
+is off or show it to a third party with
+is off or show it to a third party with
+fresh eyes. Exaggeration is another
+fresh eyes. Exaggeration is another
+fresh eyes. Exaggeration is another
+principle that works better in cartoony
+principle that works better in cartoony
+principle that works better in cartoony
+styles, but it's in its name. Exaggerate
+styles, but it's in its name. Exaggerate
+styles, but it's in its name. Exaggerate
+stuff to increase its impact. If
+stuff to increase its impact. If
+stuff to increase its impact. If
+something is heavy, make it more heavy.
+something is heavy, make it more heavy.
+something is heavy, make it more heavy.
+If someone is sad, make them more sad.
+If someone is sad, make them more sad.
+If someone is sad, make them more sad.
+And when the motions are quick, the
+And when the motions are quick, the
+And when the motions are quick, the
+effect needs to be bigger. You can also
+effect needs to be bigger. You can also
+effect needs to be bigger. You can also
+get away with this on more realistic
+get away with this on more realistic
+get away with this on more realistic
+projects if you use it correctly.
+projects if you use it correctly.
+projects if you use it correctly.
+Solid drawing is one of those principles
+Solid drawing is one of those principles
+Solid drawing is one of those principles
+that doesn't really apply to 3D
+that doesn't really apply to 3D
+that doesn't really apply to 3D
+animation. It basically means you should
+animation. It basically means you should
+animation. It basically means you should
+be able to draw your characters from
+be able to draw your characters from
+be able to draw your characters from
+every angle. And since we literally have
+every angle. And since we literally have
+every angle. And since we literally have
+them in 3D space, we are unbothered by
+them in 3D space, we are unbothered by
+them in 3D space, we are unbothered by
+that. The principle does talk about
+that. The principle does talk about
+that. The principle does talk about
+balance and weight, though, so take that
+balance and weight, though, so take that
+balance and weight, though, so take that
+into account. When posing a character,
+into account. When posing a character,
+into account. When posing a character,
+avoid mirroring the pose and try to
+avoid mirroring the pose and try to
+avoid mirroring the pose and try to
+enact
+enact
+enact
+balance. And lastly, appeal. Long story
+balance. And lastly, appeal. Long story
+balance. And lastly, appeal. Long story
+short, the characters you're animating
+short, the characters you're animating
+short, the characters you're animating
+should be somewhat appealing to look at.
+should be somewhat appealing to look at.
+should be somewhat appealing to look at.
+And that also goes for the villains.
+And that also goes for the villains.
+And that also goes for the villains.
+Don't make them pretty, just interesting
+Don't make them pretty, just interesting
+Don't make them pretty, just interesting
+or anti-appealing cuz they're the
+or anti-appealing cuz they're the
+or anti-appealing cuz they're the
+villain. This also goes for the objects
+villain. This also goes for the objects
+villain. This also goes for the objects
+in the scene. Just having a somewhat
+in the scene. Just having a somewhat
+in the scene. Just having a somewhat
+stylized or dynamic set design in
+stylized or dynamic set design in
+stylized or dynamic set design in
+general. That's also why movies like
+general. That's also why movies like
+general. That's also why movies like
+Puss and Boots and Into the Spiderers
+Puss and Boots and Into the Spiderers
+Puss and Boots and Into the Spiderers
+did so well because the whole thing is
+did so well because the whole thing is
+did so well because the whole thing is
+just appealing to look at. People miss
+just appealing to look at. People miss
+just appealing to look at. People miss
+that stuff. Now, once again, I glossed
+that stuff. Now, once again, I glossed
+that stuff. Now, once again, I glossed
+over these. You should go watch Alan's
+over these. You should go watch Alan's
+over these. You should go watch Alan's
+video if you actually want to learn
+video if you actually want to learn
+video if you actually want to learn
+about this stuff. This is just a
+about this stuff. This is just a
+about this stuff. This is just a
+recollection.
+recollection.
+recollection.
+And now that we know how key frames work
+And now that we know how key frames work
+And now that we know how key frames work
+as well as how to add them and how to
+as well as how to add them and how to
+as well as how to add them and how to
+read the graph, let's put it into
+read the graph, let's put it into
+read the graph, let's put it into
+practice with a simple example which is
+practice with a simple example which is
+practice with a simple example which is
+standardly the bouncing ball. So I've
+standardly the bouncing ball. So I've
+standardly the bouncing ball. So I've
+got a scene here where the ball is
+got a scene here where the ball is
+got a scene here where the ball is
+supposed to drop down and bounce a
+supposed to drop down and bounce a
+supposed to drop down and bounce a
+little. It's a simple practice to get
+little. It's a simple practice to get
+little. It's a simple practice to get
+familiar with the concept. In my rigging
+familiar with the concept. In my rigging
+familiar with the concept. In my rigging
+tutorial, which you should definitely
+tutorial, which you should definitely
+tutorial, which you should definitely
+watch if you haven't already, I've
+watch if you haven't already, I've
+watch if you haven't already, I've
+mentioned that you don't normally want
+mentioned that you don't normally want
+mentioned that you don't normally want
+to animate geometry, but we're going to
+to animate geometry, but we're going to
+to animate geometry, but we're going to
+do just that so you can see why not to
+do just that so you can see why not to
+do just that so you can see why not to
+do it. Anyway, let's tackle each
+do it. Anyway, let's tackle each
+do it. Anyway, let's tackle each
+animation axis individually and use
+animation axis individually and use
+animation axis individually and use
+logic to work our way up. We know that
+logic to work our way up. We know that
+logic to work our way up. We know that
+the x-axis should mostly be linear as
+the x-axis should mostly be linear as
+the x-axis should mostly be linear as
+the ball is moving forward, but it
+the ball is moving forward, but it
+the ball is moving forward, but it
+should also ease out at the end to come
+should also ease out at the end to come
+should also ease out at the end to come
+to a slow stop. So, I'll make a key
+to a slow stop. So, I'll make a key
+to a slow stop. So, I'll make a key
+frame only for the x-axis on frame one
+frame only for the x-axis on frame one
+frame only for the x-axis on frame one
+and move to the end where I'll move the
+and move to the end where I'll move the
+and move to the end where I'll move the
+ball forward and make another key frame.
+ball forward and make another key frame.
+ball forward and make another key frame.
+If we play this back, the motion is
+If we play this back, the motion is
+If we play this back, the motion is
+eased, but we want the ball to already
+eased, but we want the ball to already
+eased, but we want the ball to already
+start the animation with its maximum
+start the animation with its maximum
+start the animation with its maximum
+speed. So, we need to grab this handle
+speed. So, we need to grab this handle
+speed. So, we need to grab this handle
+and make it point up so the ease goes
+and make it point up so the ease goes
+and make it point up so the ease goes
+away. I'll just select the key frame,
+away. I'll just select the key frame,
+away. I'll just select the key frame,
+press V, and turn it into a vector. So,
+press V, and turn it into a vector. So,
+press V, and turn it into a vector. So,
+this half of the motion is linear, and
+this half of the motion is linear, and
+this half of the motion is linear, and
+the top is still easing. You can adjust
+the top is still easing. You can adjust
+the top is still easing. You can adjust
+the intensity of the ease by scaling
+the intensity of the ease by scaling
+the intensity of the ease by scaling
+these handles. And the ball is now
+these handles. And the ball is now
+these handles. And the ball is now
+easing. If I play the animation back and
+easing. If I play the animation back and
+easing. If I play the animation back and
+try to imagine the bouncing, it makes it
+try to imagine the bouncing, it makes it
+try to imagine the bouncing, it makes it
+easier to time things. Moving on to the
+easier to time things. Moving on to the
+easier to time things. Moving on to the
+Z-axis. Once the ball crosses the edge
+Z-axis. Once the ball crosses the edge
+Z-axis. Once the ball crosses the edge
+of this block, I'm giving it a key frame
+of this block, I'm giving it a key frame
+of this block, I'm giving it a key frame
+on the Z-axis. Then I'll play the
+on the Z-axis. Then I'll play the
+on the Z-axis. Then I'll play the
+timeline and imagine how long would it
+timeline and imagine how long would it
+timeline and imagine how long would it
+take for the ball to fall. And then move
+take for the ball to fall. And then move
+take for the ball to fall. And then move
+it down and key frame. Play the timeline
+it down and key frame. Play the timeline
+it down and key frame. Play the timeline
+to imagine a bounce. Move it up key
+to imagine a bounce. Move it up key
+to imagine a bounce. Move it up key
+frame down key frame and make a few
+frame down key frame and make a few
+frame down key frame and make a few
+bounces. Then I'll select all the key
+bounces. Then I'll select all the key
+bounces. Then I'll select all the key
+frames on the bottom and turn them into
+frames on the bottom and turn them into
+frames on the bottom and turn them into
+vectors. So the motion is sharp as it
+vectors. So the motion is sharp as it
+vectors. So the motion is sharp as it
+lands and it bounces up very fast.
+lands and it bounces up very fast.
+lands and it bounces up very fast.
+Here's a couple of tips on arcs. Always
+Here's a couple of tips on arcs. Always
+Here's a couple of tips on arcs. Always
+drop the height bounce by the same
+drop the height bounce by the same
+drop the height bounce by the same
+amount. If it's 60% smaller than the
+amount. If it's 60% smaller than the
+amount. If it's 60% smaller than the
+last one, the next one should also be
+last one, the next one should also be
+last one, the next one should also be
+60% smaller than that. The bouncier the
+60% smaller than that. The bouncier the
+60% smaller than that. The bouncier the
+ball is, the less you drop the height by
+ball is, the less you drop the height by
+ball is, the less you drop the height by
+on each bounce. That's called a bounce
+on each bounce. That's called a bounce
+on each bounce. That's called a bounce
+factor, by the way. True thing. Also,
+factor, by the way. True thing. Also,
+factor, by the way. True thing. Also,
+make sure that the shape of the bounce
+make sure that the shape of the bounce
+make sure that the shape of the bounce
+resembles a parabola, as that's the most
+resembles a parabola, as that's the most
+resembles a parabola, as that's the most
+accurate depiction of gravity's
+accurate depiction of gravity's
+accurate depiction of gravity's
+influence. So, this or this won't cut
+influence. So, this or this won't cut
+influence. So, this or this won't cut
+it. And obviously, make sure that the
+it. And obviously, make sure that the
+it. And obviously, make sure that the
+peak of the bounce is always in the
+peak of the bounce is always in the
+peak of the bounce is always in the
+center of it. The rotation should be the
+center of it. The rotation should be the
+center of it. The rotation should be the
+same as the X movement since the ball is
+same as the X movement since the ball is
+same as the X movement since the ball is
+rotating around with the floor. Just
+rotating around with the floor. Just
+rotating around with the floor. Just
+make sure that the amount of spin is
+make sure that the amount of spin is
+make sure that the amount of spin is
+correct. So the ball doesn't spin too
+correct. So the ball doesn't spin too
+correct. So the ball doesn't spin too
+much or too little and it just feels
+much or too little and it just feels
+much or too little and it just feels
+like it has a contact with the floor.
+like it has a contact with the floor.
+like it has a contact with the floor.
+Now the crucial part of the balancing
+Now the crucial part of the balancing
+Now the crucial part of the balancing
+ball animation is the squash and
+ball animation is the squash and
+ball animation is the squash and
+stretch. As the ball lands, it would be
+stretch. As the ball lands, it would be
+stretch. As the ball lands, it would be
+squashing on the impact. Problem is the
+squashing on the impact. Problem is the
+squashing on the impact. Problem is the
+ball is rotating. So if I try to animate
+ball is rotating. So if I try to animate
+ball is rotating. So if I try to animate
+the scale, the scale is incorrect
+the scale, the scale is incorrect
+the scale, the scale is incorrect
+because it's spinning with the ball.
+because it's spinning with the ball.
+because it's spinning with the ball.
+That's part of the reason why you don't
+That's part of the reason why you don't
+That's part of the reason why you don't
+want to animate on actual geometry, but
+want to animate on actual geometry, but
+want to animate on actual geometry, but
+rather make proper controls, keeping in
+rather make proper controls, keeping in
+rather make proper controls, keeping in
+mind what you need from this action and
+mind what you need from this action and
+mind what you need from this action and
+what kind of controls you have to make
+what kind of controls you have to make
+what kind of controls you have to make
+to get that. Now that we got this mess,
+to get that. Now that we got this mess,
+to get that. Now that we got this mess,
+I'll do a dirty fix by adding an empty
+I'll do a dirty fix by adding an empty
+I'll do a dirty fix by adding an empty
+object, parent my ball to it, and giving
+object, parent my ball to it, and giving
+object, parent my ball to it, and giving
+it a key frame on the X and Z axes. Then
+it a key frame on the X and Z axes. Then
+it a key frame on the X and Z axes. Then
+I'll copy the position key frames from
+I'll copy the position key frames from
+I'll copy the position key frames from
+the ball and paste them into the empty.
+the ball and paste them into the empty.
+the ball and paste them into the empty.
+So the empty now has all the same motion
+So the empty now has all the same motion
+So the empty now has all the same motion
+key frames, but the ball is now offset.
+key frames, but the ball is now offset.
+key frames, but the ball is now offset.
+So I'll delete the balls position key
+So I'll delete the balls position key
+So I'll delete the balls position key
+frames and put its position back to 0 0
+frames and put its position back to 0 0
+frames and put its position back to 0 0
+0. So now the empty object which is the
+0. So now the empty object which is the
+0. So now the empty object which is the
+parent in this case is handling the
+parent in this case is handling the
+parent in this case is handling the
+position animation and can also be
+position animation and can also be
+position animation and can also be
+scaled without any rotation and all the
+scaled without any rotation and all the
+scaled without any rotation and all the
+rotation is going to be animated by the
+rotation is going to be animated by the
+rotation is going to be animated by the
+child which is the ball and the child
+child which is the ball and the child
+child which is the ball and the child
+cannot affect the parent. So the scale
+cannot affect the parent. So the scale
+cannot affect the parent. So the scale
+isn't going to be spinning like before
+isn't going to be spinning like before
+isn't going to be spinning like before
+as I animate the empty object scale. Now
+as I animate the empty object scale. Now
+as I animate the empty object scale. Now
+the ball is scaling from its center
+the ball is scaling from its center
+the ball is scaling from its center
+which prompts me to adjust the position
+which prompts me to adjust the position
+which prompts me to adjust the position
+again and I don't want to do that. So,
+again and I don't want to do that. So,
+again and I don't want to do that. So,
+I'll move the ball up until its lowest
+I'll move the ball up until its lowest
+I'll move the ball up until its lowest
+point is in the center of the empty
+point is in the center of the empty
+point is in the center of the empty
+object. So, as I scale the empty, it
+object. So, as I scale the empty, it
+object. So, as I scale the empty, it
+will scale from the ball's bottom. But
+will scale from the ball's bottom. But
+will scale from the ball's bottom. But
+the whole thing is now way too high. So,
+the whole thing is now way too high. So,
+the whole thing is now way too high. So,
+I will grab the empty object Z position
+I will grab the empty object Z position
+I will grab the empty object Z position
+key frames and move them all down on the
+key frames and move them all down on the
+key frames and move them all down on the
+graph's Yaxis until the ball is back on
+graph's Yaxis until the ball is back on
+graph's Yaxis until the ball is back on
+the ground. All we did with that was
+the ground. All we did with that was
+the ground. All we did with that was
+change the pivot so the empty object can
+change the pivot so the empty object can
+change the pivot so the empty object can
+now scale from the bottom of the ball
+now scale from the bottom of the ball
+now scale from the bottom of the ball
+instead of the center. So, I don't have
+instead of the center. So, I don't have
+instead of the center. So, I don't have
+to adjust positions every single time I
+to adjust positions every single time I
+to adjust positions every single time I
+scale the ball. That's stupid. Now that
+scale the ball. That's stupid. Now that
+scale the ball. That's stupid. Now that
+we have this, finally, before the ball
+we have this, finally, before the ball
+we have this, finally, before the ball
+lands, give a scale key frame to the
+lands, give a scale key frame to the
+lands, give a scale key frame to the
+empty object. And right after it
+empty object. And right after it
+empty object. And right after it
+bounces, make another one. So, it's all
+bounces, make another one. So, it's all
+bounces, make another one. So, it's all
+set. It's all back reset. And as the
+set. It's all back reset. And as the
+set. It's all back reset. And as the
+ball is on the floor, scale down its
+ball is on the floor, scale down its
+ball is on the floor, scale down its
+Z-axis and scale up the X and Y to the
+Z-axis and scale up the X and Y to the
+Z-axis and scale up the X and Y to the
+point where the ball overall feels like
+point where the ball overall feels like
+point where the ball overall feels like
+it has the same amount of volume as
+it has the same amount of volume as
+it has the same amount of volume as
+before. Right about thereish. Playing
+before. Right about thereish. Playing
+before. Right about thereish. Playing
+this back, the ball will squash with
+this back, the ball will squash with
+this back, the ball will squash with
+every landing. You can also use this
+every landing. You can also use this
+every landing. You can also use this
+technique to animate the stretch, but
+technique to animate the stretch, but
+technique to animate the stretch, but
+this is a dirty fix. The proper way I
+this is a dirty fix. The proper way I
+this is a dirty fix. The proper way I
+would personally do it is by giving the
+would personally do it is by giving the
+would personally do it is by giving the
+ball an armature rig with the main bone
+ball an armature rig with the main bone
+ball an armature rig with the main bone
+being on the ball's bottom and a
+being on the ball's bottom and a
+being on the ball's bottom and a
+disconnected child bone being in the
+disconnected child bone being in the
+disconnected child bone being in the
+ball's center. Weight paint the ball to
+ball's center. Weight paint the ball to
+ball's center. Weight paint the ball to
+the child bone. And now we have the same
+the child bone. And now we have the same
+the child bone. And now we have the same
+structure as before, just with bones.
+structure as before, just with bones.
+structure as before, just with bones.
+You can go watch my rigging tutorial for
+You can go watch my rigging tutorial for
+You can go watch my rigging tutorial for
+all the details you want. The main bone
+all the details you want. The main bone
+all the details you want. The main bone
+will move everything and its pivot point
+will move everything and its pivot point
+will move everything and its pivot point
+is in the bottom of the ball. And the
+is in the bottom of the ball. And the
+is in the bottom of the ball. And the
+child bone can handle all of the
+child bone can handle all of the
+child bone can handle all of the
+rotation animation without disturbing
+rotation animation without disturbing
+rotation animation without disturbing
+the main bone. Also, for the sake of
+the main bone. Also, for the sake of
+the main bone. Also, for the sake of
+convenience, you can also give your main
+convenience, you can also give your main
+convenience, you can also give your main
+bone the maintain volume constraint. So,
+bone the maintain volume constraint. So,
+bone the maintain volume constraint. So,
+it will do the squash and stretch
+it will do the squash and stretch
+it will do the squash and stretch
+automatically whenever you just scale
+automatically whenever you just scale
+automatically whenever you just scale
+down the Z. Just make sure that the free
+down the Z. Just make sure that the free
+down the Z. Just make sure that the free
+axis is set to Z since that's what you
+axis is set to Z since that's what you
+axis is set to Z since that's what you
+are animating. And this is your bouncy
+are animating. And this is your bouncy
+are animating. And this is your bouncy
+ball. This, in theory, is mostly
+ball. This, in theory, is mostly
+ball. This, in theory, is mostly
+everything you need to know about
+everything you need to know about
+everything you need to know about
+animation in Blender. From now on, it's
+animation in Blender. From now on, it's
+animation in Blender. From now on, it's
+just practice and perfection. But for
+just practice and perfection. But for
+just practice and perfection. But for
+the final part of this video, I decided
+the final part of this video, I decided
+the final part of this video, I decided
+we'll make an animation
+we'll make an animation
+we'll make an animation
+together. Welcome from the future. I've
+together. Welcome from the future. I've
+together. Welcome from the future. I've
+decided we'll animate a backflip because
+decided we'll animate a backflip because
+decided we'll animate a backflip because
+one, it's cool, and two, I get to show
+one, it's cool, and two, I get to show
+one, it's cool, and two, I get to show
+you a lot of physics, which is cool.
+you a lot of physics, which is cool.
+you a lot of physics, which is cool.
+I've got this thing here. The model is
+I've got this thing here. The model is
+I've got this thing here. The model is
+from Miximo, and it was rigged with
+from Miximo, and it was rigged with
+from Miximo, and it was rigged with
+Blender's Rigify add-on. First things
+Blender's Rigify add-on. First things
+Blender's Rigify add-on. First things
+first, you're going to need reference.
+first, you're going to need reference.
+first, you're going to need reference.
+It's not mandatory, but it helps a lot,
+It's not mandatory, but it helps a lot,
+It's not mandatory, but it helps a lot,
+actually. It's standard practice. I'm
+actually. It's standard practice. I'm
+actually. It's standard practice. I'm
+just going to go ahead and make my own,
+just going to go ahead and make my own,
+just going to go ahead and make my own,
+but you can also search for it on
+but you can also search for it on
+but you can also search for it on
+YouTube and you'll get a ton of stuff.
+YouTube and you'll get a ton of stuff.
+YouTube and you'll get a ton of stuff.
+And let's
+And let's
+And let's
+see. The character should start with
+see. The character should start with
+see. The character should start with
+their arms close to the body. I'm going
+their arms close to the body. I'm going
+their arms close to the body. I'm going
+to relax it a little bit. Just give it a
+to relax it a little bit. Just give it a
+to relax it a little bit. Just give it a
+nice pose. So, I've mentioned straight
+nice pose. So, I've mentioned straight
+nice pose. So, I've mentioned straight
+ahead and pose to pose. So, the smart
+ahead and pose to pose. So, the smart
+ahead and pose to pose. So, the smart
+thing to do would be to set key poses
+thing to do would be to set key poses
+thing to do would be to set key poses
+and then animate additional information
+and then animate additional information
+and then animate additional information
+in between. Let's try that. Also, I'm on
+in between. Let's try that. Also, I'm on
+in between. Let's try that. Also, I'm on
+60 fps. That's why the timeline is super
+60 fps. That's why the timeline is super
+60 fps. That's why the timeline is super
+fast. If you're wondering why you have
+fast. If you're wondering why you have
+fast. If you're wondering why you have
+different values than me, that's
+different values than me, that's
+different values than me, that's
+probably why. So the first thing in the
+probably why. So the first thing in the
+probably why. So the first thing in the
+reference, he swings his arms back and
+reference, he swings his arms back and
+reference, he swings his arms back and
+kind of bounces a little bit as he does
+kind of bounces a little bit as he does
+kind of bounces a little bit as he does
+that. So I want to do that from frame
+that. So I want to do that from frame
+that. So I want to do that from frame
+one to like 33. The arms should be
+one to like 33. The arms should be
+one to like 33. The arms should be
+swinging back. So I'll make a key frame
+swinging back. So I'll make a key frame
+swinging back. So I'll make a key frame
+by pressing I to all of the values that
+by pressing I to all of the values that
+by pressing I to all of the values that
+should be changed from here. So 33 I
+should be changed from here. So 33 I
+should be changed from here. So 33 I
+said I think at this point the arms
+said I think at this point the arms
+said I think at this point the arms
+would go back like so. Key frame. And
+would go back like so. Key frame. And
+would go back like so. Key frame. And
+the elbows would bend a little bit like
+the elbows would bend a little bit like
+the elbows would bend a little bit like
+so. Key frame. And do the same for the
+so. Key frame. And do the same for the
+so. Key frame. And do the same for the
+other one. Also don't keep it
+other one. Also don't keep it
+other one. Also don't keep it
+symmetrical. keep it different so it's
+symmetrical. keep it different so it's
+symmetrical. keep it different so it's
+more organic at ice and the body in this
+more organic at ice and the body in this
+more organic at ice and the body in this
+case this is the body this is what I'm
+case this is the body this is what I'm
+case this is the body this is what I'm
+animating the body does a little jump
+animating the body does a little jump
+animating the body does a little jump
+and at this point it should be tilted
+and at this point it should be tilted
+and at this point it should be tilted
+forward like so and maybe a little bit
+forward like so and maybe a little bit
+forward like so and maybe a little bit
+down but there's a jump in between that
+down but there's a jump in between that
+down but there's a jump in between that
+so take note and the legs also get
+so take note and the legs also get
+so take note and the legs also get
+brought backwards playing this back
+brought backwards playing this back
+brought backwards playing this back
+imagining the time I think at around
+imagining the time I think at around
+imagining the time I think at around
+frame 49 or so he should start to take
+frame 49 or so he should start to take
+frame 49 or so he should start to take
+off so the body should go here frame
+off so the body should go here frame
+off so the body should go here frame
+that And he should also be going down in
+that And he should also be going down in
+that And he should also be going down in
+between all that. Of course, you have to
+between all that. Of course, you have to
+between all that. Of course, you have to
+imagine the inbetweens. And also the
+imagine the inbetweens. And also the
+imagine the inbetweens. And also the
+arms would be going up like so. Maybe
+arms would be going up like so. Maybe
+arms would be going up like so. Maybe
+give it some non-uniform rotation so
+give it some non-uniform rotation so
+give it some non-uniform rotation so
+it's more interesting to look at you as
+it's more interesting to look at you as
+it's more interesting to look at you as
+well. Again, don't make it symmetrical.
+well. Again, don't make it symmetrical.
+well. Again, don't make it symmetrical.
+Oh, quaternian rotation is messing me
+Oh, quaternian rotation is messing me
+Oh, quaternian rotation is messing me
+up. Okay. I've noticed that when I made
+up. Okay. I've noticed that when I made
+up. Okay. I've noticed that when I made
+this key frame, the arms just go the
+this key frame, the arms just go the
+this key frame, the arms just go the
+other way because we have the quatnian
+other way because we have the quatnian
+other way because we have the quatnian
+rotation thing. Uh, that's a problem. I
+rotation thing. Uh, that's a problem. I
+rotation thing. Uh, that's a problem. I
+didn't talk much about this here nor in
+didn't talk much about this here nor in
+didn't talk much about this here nor in
+my rigging tutorial, but this is the
+my rigging tutorial, but this is the
+my rigging tutorial, but this is the
+XYZ, but it also has the fourth
+XYZ, but it also has the fourth
+XYZ, but it also has the fourth
+coordinate which is only there so it
+coordinate which is only there so it
+coordinate which is only there so it
+tries to orient the rotational axis if
+tries to orient the rotational axis if
+tries to orient the rotational axis if
+that makes sense. The quitterian
+that makes sense. The quitterian
+that makes sense. The quitterian
+rotation model prevents you from getting
+rotation model prevents you from getting
+rotation model prevents you from getting
+into gimbal lock. That is where two
+into gimbal lock. That is where two
+into gimbal lock. That is where two
+rotation axes do the same thing and you
+rotation axes do the same thing and you
+rotation axes do the same thing and you
+kind of lose one of the rotation axes.
+kind of lose one of the rotation axes.
+kind of lose one of the rotation axes.
+This prevents it, but this is a separate
+This prevents it, but this is a separate
+This prevents it, but this is a separate
+issue because it doesn't go above one.
+issue because it doesn't go above one.
+issue because it doesn't go above one.
+So, it picks the shortest path which is
+So, it picks the shortest path which is
+So, it picks the shortest path which is
+this. Think I'm going to get rid of this
+this. Think I'm going to get rid of this
+this. Think I'm going to get rid of this
+by, you know, selecting this and going
+by, you know, selecting this and going
+by, you know, selecting this and going
+into XYZ Oiler. And so is this one. And
+into XYZ Oiler. And so is this one. And
+into XYZ Oiler. And so is this one. And
+now I have to reanimate this stuff. A
+now I have to reanimate this stuff. A
+now I have to reanimate this stuff. A
+few moments later. So now it should
+few moments later. So now it should
+few moments later. So now it should
+work. Yep. Whoop. Those are key poses.
+work. Yep. Whoop. Those are key poses.
+work. Yep. Whoop. Those are key poses.
+Don't think about it too much yet. I'm
+Don't think about it too much yet. I'm
+Don't think about it too much yet. I'm
+animating in pose mode. By the way, if
+animating in pose mode. By the way, if
+animating in pose mode. By the way, if
+this is object mode, right, you go into
+this is object mode, right, you go into
+this is object mode, right, you go into
+pose mode by pressing control and tab or
+pose mode by pressing control and tab or
+pose mode by pressing control and tab or
+with this drop down up here. Just
+with this drop down up here. Just
+with this drop down up here. Just
+saying. If this is confusing, you know,
+saying. If this is confusing, you know,
+saying. If this is confusing, you know,
+seeing all the interpolations, I feel
+seeing all the interpolations, I feel
+seeing all the interpolations, I feel
+like a useful thing to do that would be
+like a useful thing to do that would be
+like a useful thing to do that would be
+to select everything and then select
+to select everything and then select
+to select everything and then select
+everything in the graph by pressing A
+everything in the graph by pressing A
+everything in the graph by pressing A
+and then just going T to get the
+and then just going T to get the
+and then just going T to get the
+interpolation and set it to constant.
+interpolation and set it to constant.
+interpolation and set it to constant.
+So, and then there's no interpolation.
+So, and then there's no interpolation.
+So, and then there's no interpolation.
+It's just straight up key frames, right?
+It's just straight up key frames, right?
+It's just straight up key frames, right?
+We can change it back later. I'm going
+We can change it back later. I'm going
+We can change it back later. I'm going
+to click normalize so I can see all of
+to click normalize so I can see all of
+to click normalize so I can see all of
+them. And I also think that this should
+them. And I also think that this should
+them. And I also think that this should
+be slower. So, I'll bring this up like
+be slower. So, I'll bring this up like
+be slower. So, I'll bring this up like
+so. This is one of the benefits of doing
+so. This is one of the benefits of doing
+so. This is one of the benefits of doing
+post to post. So, you can actually time
+post to post. So, you can actually time
+post to post. So, you can actually time
+it. So, if I play this Huh. Once the
+it. So, if I play this Huh. Once the
+it. So, if I play this Huh. Once the
+timings and the poses are done, you can
+timings and the poses are done, you can
+timings and the poses are done, you can
+commit to the
+commit to the
+commit to the
+animation and it lands here like 113.
+animation and it lands here like 113.
+animation and it lands here like 113.
+But now the thing is if I try to rotate
+But now the thing is if I try to rotate
+But now the thing is if I try to rotate
+this guy, the legs aren't coming along
+this guy, the legs aren't coming along
+this guy, the legs aren't coming along
+cuz the legs are made with IK handles.
+cuz the legs are made with IK handles.
+cuz the legs are made with IK handles.
+And the IK handles don't give a crap
+And the IK handles don't give a crap
+And the IK handles don't give a crap
+about what the body is doing. So I think
+about what the body is doing. So I think
+about what the body is doing. So I think
+it's about the right time for us to
+it's about the right time for us to
+it's about the right time for us to
+animate the legs as well. I will add a
+animate the legs as well. I will add a
+animate the legs as well. I will add a
+key frame for the legs. And on this key
+key frame for the legs. And on this key
+key frame for the legs. And on this key
+frame, the body jumps back a little bit.
+frame, the body jumps back a little bit.
+frame, the body jumps back a little bit.
+Right. Let's ignore all the physics and
+Right. Let's ignore all the physics and
+Right. Let's ignore all the physics and
+everything and just grab the legs. Move
+everything and just grab the legs. Move
+everything and just grab the legs. Move
+them back as if he already jumped.
+them back as if he already jumped.
+them back as if he already jumped.
+Randomize them a little bit so it's not
+Randomize them a little bit so it's not
+Randomize them a little bit so it's not
+that stiff. And also select everything.
+that stiff. And also select everything.
+that stiff. And also select everything.
+Press T constant so it doesn't Hey, so
+Press T constant so it doesn't Hey, so
+Press T constant so it doesn't Hey, so
+it doesn't slide. And I'm noticing here
+it doesn't slide. And I'm noticing here
+it doesn't slide. And I'm noticing here
+that it just goes forwards. Well, I
+that it just goes forwards. Well, I
+that it just goes forwards. Well, I
+think that the body should actually stay
+think that the body should actually stay
+think that the body should actually stay
+on top of the legs. So I can adjust this
+on top of the legs. So I can adjust this
+on top of the legs. So I can adjust this
+pose and rekey frame that. So instead of
+pose and rekey frame that. So instead of
+pose and rekey frame that. So instead of
+going forward, it's going back, right?
+going forward, it's going back, right?
+going forward, it's going back, right?
+And in between these two, there's going
+And in between these two, there's going
+And in between these two, there's going
+to be a little dip. Make a key frame for
+to be a little dip. Make a key frame for
+to be a little dip. Make a key frame for
+the legs here because they should be in
+the legs here because they should be in
+the legs here because they should be in
+the same place. But also now after this
+the same place. But also now after this
+the same place. But also now after this
+point, as the body is rotating, we want
+point, as the body is rotating, we want
+point, as the body is rotating, we want
+the legs to come with it because the
+the legs to come with it because the
+the legs to come with it because the
+character is no longer having contact
+character is no longer having contact
+character is no longer having contact
+with the floor. He's now taken off,
+with the floor. He's now taken off,
+with the floor. He's now taken off,
+right? So the legs have to be freely
+right? So the legs have to be freely
+right? So the legs have to be freely
+rotating. This rig actually has an IKFK
+rotating. This rig actually has an IKFK
+rotating. This rig actually has an IKFK
+switch. On this frame, I will key frame
+switch. On this frame, I will key frame
+switch. On this frame, I will key frame
+this by hovering it and pressing I. So
+this by hovering it and pressing I. So
+this by hovering it and pressing I. So
+the IKFK switch has been key framed. So,
+the IKFK switch has been key framed. So,
+the IKFK switch has been key framed. So,
+up until this point, it's at zero, which
+up until this point, it's at zero, which
+up until this point, it's at zero, which
+means IK. So, they're both acting with
+means IK. So, they're both acting with
+means IK. So, they're both acting with
+the IK uh deformers. But now, I'll go
+the IK uh deformers. But now, I'll go
+the IK uh deformers. But now, I'll go
+forward one frame and change this into
+forward one frame and change this into
+forward one frame and change this into
+an FK. You can see the legs sliding.
+an FK. You can see the legs sliding.
+an FK. You can see the legs sliding.
+I'll do it again. Whoop. Because the
+I'll do it again. Whoop. Because the
+I'll do it again. Whoop. Because the
+bones are not aligned, but that's fine
+bones are not aligned, but that's fine
+bones are not aligned, but that's fine
+because the character is jumping here.
+because the character is jumping here.
+because the character is jumping here.
+There's a lot of fast motion. We can
+There's a lot of fast motion. We can
+There's a lot of fast motion. We can
+hide the blend in the fast motion. And
+hide the blend in the fast motion. And
+hide the blend in the fast motion. And
+the legs no longer have a contact with
+the legs no longer have a contact with
+the legs no longer have a contact with
+the floor, which is perfect. We should
+the floor, which is perfect. We should
+the floor, which is perfect. We should
+also try to match it as close as
+also try to match it as close as
+also try to match it as close as
+possible because this jumps. Now, I will
+possible because this jumps. Now, I will
+possible because this jumps. Now, I will
+key frame the FK bones. These are the FK
+key frame the FK bones. These are the FK
+key frame the FK bones. These are the FK
+bones. If I move forward now, now you
+bones. If I move forward now, now you
+bones. If I move forward now, now you
+can see them actually affect the
+can see them actually affect the
+can see them actually affect the
+character because if I come back, this
+character because if I come back, this
+character because if I come back, this
+is where the legs are still IK. So this
+is where the legs are still IK. So this
+is where the legs are still IK. So this
+works and this doesn't work. But after
+works and this doesn't work. But after
+works and this doesn't work. But after
+frame 65, this becomes an FK. So this no
+frame 65, this becomes an FK. So this no
+frame 65, this becomes an FK. So this no
+longer works, but this works. So I will
+longer works, but this works. So I will
+longer works, but this works. So I will
+go back to frame 65 where this doesn't
+go back to frame 65 where this doesn't
+go back to frame 65 where this doesn't
+work yet and key frame the rotation on
+work yet and key frame the rotation on
+work yet and key frame the rotation on
+both thighs and both shins. And then
+both thighs and both shins. And then
+both thighs and both shins. And then
+move one frame forward and then I can
+move one frame forward and then I can
+move one frame forward and then I can
+move the rest of the bones to try to
+move the rest of the bones to try to
+move the rest of the bones to try to
+match it as close as possible.
+match it as close as possible.
+match it as close as possible.
+Yeah, this is good enough. But now when
+Yeah, this is good enough. But now when
+Yeah, this is good enough. But now when
+we have this, the whole body is going to
+we have this, the whole body is going to
+we have this, the whole body is going to
+spin. This is the next pose. Ponk. Ponk.
+spin. This is the next pose. Ponk. Ponk.
+spin. This is the next pose. Ponk. Ponk.
+And now we have to time the jump again.
+And now we have to time the jump again.
+And now we have to time the jump again.
+So imagine the
+So imagine the
+So imagine the
+backflip. And it's going to make a whole
+backflip. And it's going to make a whole
+backflip. And it's going to make a whole
+backflip. Land like so. And we'll have
+backflip. Land like so. And we'll have
+backflip. Land like so. And we'll have
+the legs adjust. And then as he lands,
+the legs adjust. And then as he lands,
+the legs adjust. And then as he lands,
+he's also going to crouch. And he's
+he's also going to crouch. And he's
+he's also going to crouch. And he's
+going to crouch like so. Wind back,
+going to crouch like so. Wind back,
+going to crouch like so. Wind back,
+jump, backflip, land. And then he's
+jump, backflip, land. And then he's
+jump, backflip, land. And then he's
+going to get back up and jump forward to
+going to get back up and jump forward to
+going to get back up and jump forward to
+catch himself. It's difficult to imagine
+catch himself. It's difficult to imagine
+catch himself. It's difficult to imagine
+without the legs, but trust me, this is
+without the legs, but trust me, this is
+without the legs, but trust me, this is
+fine. Actually, in between here where he
+fine. Actually, in between here where he
+fine. Actually, in between here where he
+does the back flip, we could add an
+does the back flip, we could add an
+does the back flip, we could add an
+additional one. This should be up and it
+additional one. This should be up and it
+additional one. This should be up and it
+should be like this. Yeah, it gives us
+should be like this. Yeah, it gives us
+should be like this. Yeah, it gives us
+more of an idea what's going
+more of an idea what's going
+more of an idea what's going
+on. And the last jump is too fast.
+on. And the last jump is too fast.
+on. And the last jump is too fast.
+Adjust timings. Pop hop pop.
+Adjust timings. Pop hop pop.
+Adjust timings. Pop hop pop.
+As the legs land, they also have to be
+As the legs land, they also have to be
+As the legs land, they also have to be
+back in IK because they have contact
+back in IK because they have contact
+back in IK because they have contact
+with the floor. Move one frame back. Key
+with the floor. Move one frame back. Key
+with the floor. Move one frame back. Key
+frame this. Move one frame forward and
+frame this. Move one frame forward and
+frame this. Move one frame forward and
+put it back to zero and key frame that.
+put it back to zero and key frame that.
+put it back to zero and key frame that.
+And I'll select the other one, go back,
+And I'll select the other one, go back,
+And I'll select the other one, go back,
+key frame this one, go forward, put it
+key frame this one, go forward, put it
+key frame this one, go forward, put it
+to zero, and key frame again. I'll key
+to zero, and key frame again. I'll key
+to zero, and key frame again. I'll key
+frame the IK. And then on the next
+frame the IK. And then on the next
+frame the IK. And then on the next
+frame, I will move the IK back into
+frame, I will move the IK back into
+frame, I will move the IK back into
+position. This is one pose. And this is
+position. This is one pose. And this is
+position. This is one pose. And this is
+the other pose. Now that the legs are in
+the other pose. Now that the legs are in
+the other pose. Now that the legs are in
+IK, the rest of the poses should
+IK, the rest of the poses should
+IK, the rest of the poses should
+actually be solid. And I guess I could
+actually be solid. And I guess I could
+actually be solid. And I guess I could
+tweak this. So it's like
+tweak this. So it's like
+tweak this. So it's like
+this. Uh the legs also have to be
+this. Uh the legs also have to be
+this. Uh the legs also have to be
+animated here on this pose. The legs
+animated here on this pose. The legs
+animated here on this pose. The legs
+should al also be fine. So I will key
+should al also be fine. So I will key
+should al also be fine. So I will key
+frame them here because he's still on
+frame them here because he's still on
+frame them here because he's still on
+the floor. And as he jumps, the legs
+the floor. And as he jumps, the legs
+the floor. And as he jumps, the legs
+here should be in their position, you
+here should be in their position, you
+here should be in their position, you
+know, like this. Randomized a little
+know, like this. Randomized a little
+know, like this. Randomized a little
+bit. But now this one has to be changed
+bit. But now this one has to be changed
+bit. But now this one has to be changed
+because he lands like so. And then the
+because he lands like so. And then the
+because he lands like so. And then the
+in between one could go higher. And here
+in between one could go higher. And here
+in between one could go higher. And here
+where the legs are stretched, I'm going
+where the legs are stretched, I'm going
+where the legs are stretched, I'm going
+to give another B frame for the IK. E
+to give another B frame for the IK. E
+to give another B frame for the IK. E
+frame that. So it looks like he
+frame that. So it looks like he
+frame that. So it looks like he
+jumped. I'm not going to animate all the
+jumped. I'm not going to animate all the
+jumped. I'm not going to animate all the
+follow through as he lands and gets back
+follow through as he lands and gets back
+follow through as he lands and gets back
+into a neutral pose. The main focus is
+into a neutral pose. The main focus is
+into a neutral pose. The main focus is
+just the back flip. Now let's do the
+just the back flip. Now let's do the
+just the back flip. Now let's do the
+arms and then I'll start adding all the
+arms and then I'll start adding all the
+arms and then I'll start adding all the
+details in the key frame where he's
+details in the key frame where he's
+details in the key frame where he's
+twisted upside down. The arms should go
+twisted upside down. The arms should go
+twisted upside down. The arms should go
+down like so. And the elbows should tuck
+down like so. And the elbows should tuck
+down like so. And the elbows should tuck
+in. I know because I do back flips. Yes,
+in. I know because I do back flips. Yes,
+in. I know because I do back flips. Yes,
+I'm pretty cool. How did you know? As
+I'm pretty cool. How did you know? As
+I'm pretty cool. How did you know? As
+you land, the arms should be extended
+you land, the arms should be extended
+you land, the arms should be extended
+next to the body cuz that's what
+next to the body cuz that's what
+next to the body cuz that's what
+happens. And as he comes down like so,
+happens. And as he comes down like so,
+happens. And as he comes down like so,
+the arms go forward and bend a little
+the arms go forward and bend a little
+the arms go forward and bend a little
+bit because they're they're stopping the
+bit because they're they're stopping the
+bit because they're they're stopping the
+momentum. I'm too hyperfocused to get
+momentum. I'm too hyperfocused to get
+momentum. I'm too hyperfocused to get
+give any commentary. I'm really focused
+give any commentary. I'm really focused
+give any commentary. I'm really focused
+on this animation, doing it right. And
+on this animation, doing it right. And
+on this animation, doing it right. And
+as he comes back up, the arms start
+as he comes back up, the arms start
+as he comes back up, the arms start
+going down. I'm just I'm just finishing
+going down. I'm just I'm just finishing
+going down. I'm just I'm just finishing
+the block out. Then I'll show you. Okay,
+the block out. Then I'll show you. Okay,
+the block out. Then I'll show you. Okay,
+that's the
+blockout. Let's move on to the actual
+blockout. Let's move on to the actual
+blockout. Let's move on to the actual
+animation. So, I'll select all the bones
+animation. So, I'll select all the bones
+animation. So, I'll select all the bones
+by pressing A. Select all the key frames
+by pressing A. Select all the key frames
+by pressing A. Select all the key frames
+in the graph by pressing A. And then
+in the graph by pressing A. And then
+in the graph by pressing A. And then
+I'll press T and select bezier like
+I'll press T and select bezier like
+I'll press T and select bezier like
+this. And I'll also press V and autoclan
+this. And I'll also press V and autoclan
+this. And I'll also press V and autoclan
+just in case it wasn't autoclan before.
+just in case it wasn't autoclan before.
+just in case it wasn't autoclan before.
+So, it's like
+So, it's like
+So, it's like
+this. Why does it flip the other way?
+this. Why does it flip the other way?
+this. Why does it flip the other way?
+Because this dude is still in quatia.
+Because this dude is still in quatia.
+Because this dude is still in quatia.
+This is what I was talking about. I hate
+This is what I was talking about. I hate
+This is what I was talking about. I hate
+this. If you need flips, make sure to
+this. If you need flips, make sure to
+this. If you need flips, make sure to
+change the quatnian one into any of the
+change the quatnian one into any of the
+change the quatnian one into any of the
+oiler ones. You need the full flip.
+oiler ones. You need the full flip.
+oiler ones. You need the full flip.
+Well, get rid of all the rotations. And
+Well, get rid of all the rotations. And
+Well, get rid of all the rotations. And
+I'll just reanimate the rotations again.
+I'll just reanimate the rotations again.
+I'll just reanimate the rotations again.
+I love
+this. Okay, now it looks like
+this. Okay, now it looks like
+this. Okay, now it looks like
+this. I have noticed that the timings
+this. I have noticed that the timings
+this. I have noticed that the timings
+are off in the end. It's a little bit
+are off in the end. It's a little bit
+are off in the end. It's a little bit
+too slow. So I'll select all the bones
+too slow. So I'll select all the bones
+too slow. So I'll select all the bones
+and I'll speed this part up by dragging
+and I'll speed this part up by dragging
+and I'll speed this part up by dragging
+these key frames in and then dragging
+these key frames in and then dragging
+these key frames in and then dragging
+all the rest in one by one. So it's
+all the rest in one by one. So it's
+all the rest in one by one. So it's
+like I think the timings are final. So
+like I think the timings are final. So
+like I think the timings are final. So
+now I'll try getting all the details in.
+now I'll try getting all the details in.
+now I'll try getting all the details in.
+So I'm making a little bounce here at
+So I'm making a little bounce here at
+So I'm making a little bounce here at
+the start like this. The legs are
+the start like this. The legs are
+the start like this. The legs are
+already sliding. We don't want that.
+already sliding. We don't want that.
+already sliding. We don't want that.
+I'll select this, copy paste the
+I'll select this, copy paste the
+I'll select this, copy paste the
+starting frames. I'll select this and
+starting frames. I'll select this and
+starting frames. I'll select this and
+copy paste the starting frame so it
+copy paste the starting frame so it
+copy paste the starting frame so it
+stays stationary here. And then as it
+stays stationary here. And then as it
+stays stationary here. And then as it
+jumps, uh, I will move them forward a
+jumps, uh, I will move them forward a
+jumps, uh, I will move them forward a
+little bit so we get some overlapping
+little bit so we get some overlapping
+little bit so we get some overlapping
+action. So not all the actions happen at
+action. So not all the actions happen at
+action. So not all the actions happen at
+the same time. While I'm here, I will
+the same time. While I'm here, I will
+the same time. While I'm here, I will
+move them further back because it feels
+move them further back because it feels
+move them further back because it feels
+like they need more support. If you look
+like they need more support. If you look
+like they need more support. If you look
+at the physics here, the main body
+at the physics here, the main body
+at the physics here, the main body
+jumped back, but because it has weight,
+jumped back, but because it has weight,
+jumped back, but because it has weight,
+it needs support from the back. So it
+it needs support from the back. So it
+it needs support from the back. So it
+stops itself from going back. So the
+stops itself from going back. So the
+stops itself from going back. So the
+legs have to go further back. Animation
+legs have to go further back. Animation
+legs have to go further back. Animation
+has a lot to do with physics. in the
+has a lot to do with physics. in the
+has a lot to do with physics. in the
+center as the legs are going up. Move
+center as the legs are going up. Move
+center as the legs are going up. Move
+them up. Move them back. Rotate them a
+them up. Move them back. Rotate them a
+them up. Move them back. Rotate them a
+little bit because they're freely
+little bit because they're freely
+little bit because they're freely
+hanging like that. It's like hook. And
+hanging like that. It's like hook. And
+hanging like that. It's like hook. And
+then from this point to this point, they
+then from this point to this point, they
+then from this point to this point, they
+should be the same. So it stays
+should be the same. So it stays
+should be the same. So it stays
+identical until the
+identical until the
+identical until the
+takeoff. It's a
+takeoff. It's a
+takeoff. It's a
+fly. I caught it. I caught the fly. What
+fly. I caught it. I caught the fly. What
+fly. I caught it. I caught the fly. What
+I'm essentially doing here is making the
+I'm essentially doing here is making the
+I'm essentially doing here is making the
+character do a little jump as he winds
+character do a little jump as he winds
+character do a little jump as he winds
+his arms back. And if you just take a
+his arms back. And if you just take a
+his arms back. And if you just take a
+look at the y-axis for the for the
+look at the y-axis for the for the
+look at the y-axis for the for the
+position, this is this one, right? If
+position, this is this one, right? If
+position, this is this one, right? If
+you just take a look at that, it should
+you just take a look at that, it should
+you just take a look at that, it should
+start slowly and as the character lands,
+start slowly and as the character lands,
+start slowly and as the character lands,
+it should start slowing down and it
+it should start slowing down and it
+it should start slowing down and it
+should slow down until this point and
+should slow down until this point and
+should slow down until this point and
+then just go straight up. So this from
+then just go straight up. So this from
+then just go straight up. So this from
+this point to this point, this should
+this point to this point, this should
+this point to this point, this should
+all be one large motion. And I think the
+all be one large motion. And I think the
+all be one large motion. And I think the
+sponsor of today's video can actually
+sponsor of today's video can actually
+sponsor of today's video can actually
+help me here. Introducing Graph Pilot, a
+help me here. Introducing Graph Pilot, a
+help me here. Introducing Graph Pilot, a
+genuinely useful add-on. You ever wanted
+genuinely useful add-on. You ever wanted
+genuinely useful add-on. You ever wanted
+precise bezier values and have them the
+precise bezier values and have them the
+precise bezier values and have them the
+same on multiple key frames? Just set
+same on multiple key frames? Just set
+same on multiple key frames? Just set
+the ease in and out values and hit
+the ease in and out values and hit
+the ease in and out values and hit
+apply. Boom. It works on multiple key
+apply. Boom. It works on multiple key
+apply. Boom. It works on multiple key
+frames. What about velocity? You've got
+frames. What about velocity? You've got
+frames. What about velocity? You've got
+it right here. It also works with
+it right here. It also works with
+it right here. It also works with
+real-time preview. If you turn this
+real-time preview. If you turn this
+real-time preview. If you turn this
+button on, is that too uniform for you?
+button on, is that too uniform for you?
+button on, is that too uniform for you?
+Well, you can randomize it. Create
+Well, you can randomize it. Create
+Well, you can randomize it. Create
+things like this pretty much instantly.
+things like this pretty much instantly.
+things like this pretty much instantly.
+You want to copy a bezier value? Click
+You want to copy a bezier value? Click
+You want to copy a bezier value? Click
+this and now it's in your settings. You
+this and now it's in your settings. You
+this and now it's in your settings. You
+can apply it anywhere. Clean your graph.
+can apply it anywhere. Clean your graph.
+can apply it anywhere. Clean your graph.
+apply the default handle types or
+apply the default handle types or
+apply the default handle types or
+transitions without opening any menus.
+transitions without opening any menus.
+transitions without opening any menus.
+It also lets you merge entire lengths of
+It also lets you merge entire lengths of
+It also lets you merge entire lengths of
+key frames into a single motion by using
+key frames into a single motion by using
+key frames into a single motion by using
+this button. And it also lets you
+this button. And it also lets you
+this button. And it also lets you
+preserve the ends of your selection with
+preserve the ends of your selection with
+preserve the ends of your selection with
+this function here. I wouldn't be
+this function here. I wouldn't be
+this function here. I wouldn't be
+promoting it if it didn't genuinely make
+promoting it if it didn't genuinely make
+promoting it if it didn't genuinely make
+my life easier. So, make your life
+my life easier. So, make your life
+my life easier. So, make your life
+easier. Click the link in the
+easier. Click the link in the
+easier. Click the link in the
+description and get Graph Pilot for
+description and get Graph Pilot for
+description and get Graph Pilot for
+yourself. Thanks again for the
+yourself. Thanks again for the
+yourself. Thanks again for the
+sponsorship and this amazing gem of a
+sponsorship and this amazing gem of a
+sponsorship and this amazing gem of a
+tool. Now, back to the video.
+tool. Now, back to the video.
+tool. Now, back to the video.
+Oh, if you don't have this, the tutorial
+Oh, if you don't have this, the tutorial
+Oh, if you don't have this, the tutorial
+is not impossible for you. It's just
+is not impossible for you. It's just
+is not impossible for you. It's just
+harder. So, download graph. I'll put
+harder. So, download graph. I'll put
+harder. So, download graph. I'll put
+both to like 36 or something. Turn on
+both to like 36 or something. Turn on
+both to like 36 or something. Turn on
+the change key frame values thing and
+the change key frame values thing and
+the change key frame values thing and
+click apply. I feel like the ease in
+click apply. I feel like the ease in
+click apply. I feel like the ease in
+here should be stronger. And I want to
+here should be stronger. And I want to
+here should be stronger. And I want to
+see this in real time. So, I'll click
+see this in real time. So, I'll click
+see this in real time. So, I'll click
+the real time thing. So, whenever I move
+the real time thing. So, whenever I move
+the real time thing. So, whenever I move
+the ease in, we can see what happens
+the ease in, we can see what happens
+the ease in, we can see what happens
+real time. But now, this handle is also
+real time. But now, this handle is also
+real time. But now, this handle is also
+being affected. I don't want that. So
+being affected. I don't want that. So
+being affected. I don't want that. So
+just click restrict the selection. It's
+just click restrict the selection. It's
+just click restrict the selection. It's
+only going to change the stuff between
+only going to change the stuff between
+only going to change the stuff between
+these key frames and not mess with the
+these key frames and not mess with the
+these key frames and not mess with the
+handles. So I can do this now. So it's
+handles. So I can do this now. So it's
+handles. So I can do this now. So it's
+like yeah, as far as the Z location
+like yeah, as far as the Z location
+like yeah, as far as the Z location
+goes, it should go down and up. The up
+goes, it should go down and up. The up
+goes, it should go down and up. The up
+should be faster. I'll just isolate it
+should be faster. I'll just isolate it
+should be faster. I'll just isolate it
+by making everything else invisible.
+by making everything else invisible.
+by making everything else invisible.
+I'll move this key frame away so it's
+I'll move this key frame away so it's
+I'll move this key frame away so it's
+not in sync with the rest of them, which
+not in sync with the rest of them, which
+not in sync with the rest of them, which
+is good because overlapping action is
+is good because overlapping action is
+is good because overlapping action is
+always good. And then this one I'll
+always good. And then this one I'll
+always good. And then this one I'll
+rotate because I want it to still have
+rotate because I want it to still have
+rotate because I want it to still have
+the motion as it's going in. It's kind
+the motion as it's going in. It's kind
+the motion as it's going in. It's kind
+of entering this key frame with velocity
+of entering this key frame with velocity
+of entering this key frame with velocity
+because it's not straight. It's going
+because it's not straight. It's going
+because it's not straight. It's going
+up. And at this point, he needs to land.
+up. And at this point, he needs to land.
+up. And at this point, he needs to land.
+So the jump is over. So I'll also rotate
+So the jump is over. So I'll also rotate
+So the jump is over. So I'll also rotate
+this one in a way that the the peak is
+this one in a way that the the peak is
+this one in a way that the the peak is
+somewhere in the middle. You know, we're
+somewhere in the middle. You know, we're
+somewhere in the middle. You know, we're
+making an arc now. So it looks like
+making an arc now. So it looks like
+making an arc now. So it looks like
+this. And this one I will also rotate a
+this. And this one I will also rotate a
+this. And this one I will also rotate a
+lot. Maybe scale this one
+lot. Maybe scale this one
+lot. Maybe scale this one
+out. I will also scale this one out so
+out. I will also scale this one out so
+out. I will also scale this one out so
+the exit is more intense. Now that I'm
+the exit is more intense. Now that I'm
+the exit is more intense. Now that I'm
+seeing this with transition, I I feel
+seeing this with transition, I I feel
+seeing this with transition, I I feel
+like the whole flip is too slow. So I'll
+like the whole flip is too slow. So I'll
+like the whole flip is too slow. So I'll
+select everything once again and I'll
+select everything once again and I'll
+select everything once again and I'll
+select all of these key frames and bring
+select all of these key frames and bring
+select all of these key frames and bring
+them in. Pressing G to move and pressing
+them in. Pressing G to move and pressing
+them in. Pressing G to move and pressing
+X to limit on the X- axis. I should have
+X to limit on the X- axis. I should have
+X to limit on the X- axis. I should have
+mentioned that before. Okay. And now the
+mentioned that before. Okay. And now the
+mentioned that before. Okay. And now the
+peak here should also be moved back.
+peak here should also be moved back.
+peak here should also be moved back.
+Yeah, that's great. That's the main
+Yeah, that's great. That's the main
+Yeah, that's great. That's the main
+control. So I want to focus on this
+control. So I want to focus on this
+control. So I want to focus on this
+first and add the details with the arms
+first and add the details with the arms
+first and add the details with the arms
+and the legs
+and the legs
+and the legs
+later. Okay, now we have this problem
+later. Okay, now we have this problem
+later. Okay, now we have this problem
+here. This whole motion could just be a
+here. This whole motion could just be a
+here. This whole motion could just be a
+single ease in and out. I'll open my
+single ease in and out. I'll open my
+single ease in and out. I'll open my
+graph pilot again. Thank you sponsor.
+graph pilot again. Thank you sponsor.
+graph pilot again. Thank you sponsor.
+This is great. Give some ease out and
+This is great. Give some ease out and
+This is great. Give some ease out and
+some ease in. Change key frame values
+some ease in. Change key frame values
+some ease in. Change key frame values
+and apply. So it's like this. Except the
+and apply. So it's like this. Except the
+and apply. So it's like this. Except the
+ease out which is the stuff that comes
+ease out which is the stuff that comes
+ease out which is the stuff that comes
+into the key frame should be barely
+into the key frame should be barely
+into the key frame should be barely
+visible at all because when you jump you
+visible at all because when you jump you
+visible at all because when you jump you
+have no control over your motion. So
+have no control over your motion. So
+have no control over your motion. So
+I'll delete this key frame in the
+I'll delete this key frame in the
+I'll delete this key frame in the
+middle. So I'll only select the handles,
+middle. So I'll only select the handles,
+middle. So I'll only select the handles,
+press V, and make them vector. So it's
+press V, and make them vector. So it's
+press V, and make them vector. So it's
+like but then as it lands it needs to
+like but then as it lands it needs to
+like but then as it lands it needs to
+have the same velocity as before. So
+have the same velocity as before. So
+have the same velocity as before. So
+I'll bring this up until it straightens
+I'll bring this up until it straightens
+I'll bring this up until it straightens
+out. So this is all straight and as it
+out. So this is all straight and as it
+out. So this is all straight and as it
+lands it's still going in the same
+lands it's still going in the same
+lands it's still going in the same
+direction. Then it slows down and it
+direction. Then it slows down and it
+direction. Then it slows down and it
+starts picking up the forward speed and
+starts picking up the forward speed and
+starts picking up the forward speed and
+it jumps and in the air you can't really
+it jumps and in the air you can't really
+it jumps and in the air you can't really
+slow down. So it's all linear here.
+slow down. So it's all linear here.
+slow down. So it's all linear here.
+Okay. Now focusing on the Z location.
+Okay. Now focusing on the Z location.
+Okay. Now focusing on the Z location.
+This is okay. This is okay. He jumps,
+This is okay. This is okay. He jumps,
+This is okay. This is okay. He jumps,
+falls back down, gets momentum, jumps up
+falls back down, gets momentum, jumps up
+falls back down, gets momentum, jumps up
+and lands here. This is all fine except
+and lands here. This is all fine except
+and lands here. This is all fine except
+the end should also be vector because
+the end should also be vector because
+the end should also be vector because
+you don't just slow down before you
+you don't just slow down before you
+you don't just slow down before you
+land. This is the torso. We still have
+land. This is the torso. We still have
+land. This is the torso. We still have
+the legs and the arms and and all the
+the legs and the arms and and all the
+the legs and the arms and and all the
+chest stuff in the head. Animation is a
+chest stuff in the head. Animation is a
+chest stuff in the head. Animation is a
+very long process. I've been recording
+very long process. I've been recording
+very long process. I've been recording
+this for over an hour now. Appreciate
+this for over an hour now. Appreciate
+this for over an hour now. Appreciate
+the animations in your life, man. Let's
+the animations in your life, man. Let's
+the animations in your life, man. Let's
+focus on the legs. I want to move their
+focus on the legs. I want to move their
+focus on the legs. I want to move their
+starting X locations so they're further
+starting X locations so they're further
+starting X locations so they're further
+spaced apart. I want to select both of
+spaced apart. I want to select both of
+spaced apart. I want to select both of
+them and then move them with G and Y.
+them and then move them with G and Y.
+them and then move them with G and Y.
+Right. So, I move both of them at once.
+Right. So, I move both of them at once.
+Right. So, I move both of them at once.
+This, I guess. Yes. Now, I think it's
+This, I guess. Yes. Now, I think it's
+This, I guess. Yes. Now, I think it's
+time to tackle the rotation. I'll make
+time to tackle the rotation. I'll make
+time to tackle the rotation. I'll make
+everything invisible except rotation.
+everything invisible except rotation.
+everything invisible except rotation.
+When it lands, I want the rotation kind
+When it lands, I want the rotation kind
+When it lands, I want the rotation kind
+of be facing outwards a little bit.
+of be facing outwards a little bit.
+of be facing outwards a little bit.
+Select these and move them up. And I'll
+Select these and move them up. And I'll
+Select these and move them up. And I'll
+do the same here. I've messed with this.
+do the same here. I've messed with this.
+do the same here. I've messed with this.
+So, these need to have their key frames
+So, these need to have their key frames
+So, these need to have their key frames
+tweaked. And at this point, the IKS are
+tweaked. And at this point, the IKS are
+tweaked. And at this point, the IKS are
+no longer the driving force of the
+no longer the driving force of the
+no longer the driving force of the
+animation. And during the jump, they
+animation. And during the jump, they
+animation. And during the jump, they
+only need two key frames. So when it
+only need two key frames. So when it
+only need two key frames. So when it
+goes up, the legs need to crouch in. So
+goes up, the legs need to crouch in. So
+goes up, the legs need to crouch in. So
+I'll bring this leg up. This one as
+I'll bring this leg up. This one as
+I'll bring this leg up. This one as
+well, but oops. This one as well, but a
+well, but oops. This one as well, but a
+well, but oops. This one as well, but a
+little less. It's not going to be a
+little less. It's not going to be a
+little less. It's not going to be a
+clean back flip. It's going to be like a
+clean back flip. It's going to be like a
+clean back flip. It's going to be like a
+little messy natural one. And key frame
+little messy natural one. And key frame
+little messy natural one. And key frame
+that as well. And then as the thing
+that as well. And then as the thing
+that as well. And then as the thing
+lands, the next one is already taken
+lands, the next one is already taken
+lands, the next one is already taken
+over by the IK. So one frame before
+over by the IK. So one frame before
+over by the IK. So one frame before
+that, we need to make a key frame like
+that, we need to make a key frame like
+that, we need to make a key frame like
+this. And I'll bend the legs so it gets
+this. And I'll bend the legs so it gets
+this. And I'll bend the legs so it gets
+into the correct position. I'll also try
+into the correct position. I'll also try
+into the correct position. I'll also try
+to rotate it a little bit like this. And
+to rotate it a little bit like this. And
+to rotate it a little bit like this. And
+we got this natural motion of the back
+we got this natural motion of the back
+we got this natural motion of the back
+foot speeding up midair. It doesn't
+foot speeding up midair. It doesn't
+foot speeding up midair. It doesn't
+actually speed up. It that's just the
+actually speed up. It that's just the
+actually speed up. It that's just the
+legs being pulled in. And this part, oh,
+legs being pulled in. And this part, oh,
+legs being pulled in. And this part, oh,
+I thought this is the final position of
+I thought this is the final position of
+I thought this is the final position of
+the legs, but it's actually back here.
+the legs, but it's actually back here.
+the legs, but it's actually back here.
+So, I'll zoom in, go back to 18, and
+So, I'll zoom in, go back to 18, and
+So, I'll zoom in, go back to 18, and
+I'll draw a line here. I will actually
+I'll draw a line here. I will actually
+I'll draw a line here. I will actually
+bring them down like so. And also, this
+bring them down like so. And also, this
+bring them down like so. And also, this
+key frame here, I feel like I want to
+key frame here, I feel like I want to
+key frame here, I feel like I want to
+bring up cuz it's too much now. So, if I
+bring up cuz it's too much now. So, if I
+bring up cuz it's too much now. So, if I
+bend the knee, it's going to be roughly
+bend the knee, it's going to be roughly
+bend the knee, it's going to be roughly
+on the same spot. This should be
+on the same spot. This should be
+on the same spot. This should be
+stronger. So, I'll press the period key,
+stronger. So, I'll press the period key,
+stronger. So, I'll press the period key,
+set it to individual centers, and I'll
+set it to individual centers, and I'll
+set it to individual centers, and I'll
+just scale these out to increase their
+just scale these out to increase their
+just scale these out to increase their
+effect. Like this, they get a slow
+effect. Like this, they get a slow
+effect. Like this, they get a slow
+effect like this. They tuck in, but then
+effect like this. They tuck in, but then
+effect like this. They tuck in, but then
+as it comes to the end, you're just
+as it comes to the end, you're just
+as it comes to the end, you're just
+releasing your tuck. You're releasing
+releasing your tuck. You're releasing
+releasing your tuck. You're releasing
+it, and then boom, you hit the floor.
+it, and then boom, you hit the floor.
+it, and then boom, you hit the floor.
+So, these ones down here, they should be
+So, these ones down here, they should be
+So, these ones down here, they should be
+vectors. They shouldn't slow down. And I
+vectors. They shouldn't slow down. And I
+vectors. They shouldn't slow down. And I
+feel like everything should come back
+feel like everything should come back
+feel like everything should come back
+here. This is the new landing. And I'll
+here. This is the new landing. And I'll
+here. This is the new landing. And I'll
+select everything beyond this point. And
+select everything beyond this point. And
+select everything beyond this point. And
+I'll move everything back here. So I'm
+I'll move everything back here. So I'm
+I'll move everything back here. So I'm
+only shortening this part. So it's like,
+only shortening this part. So it's like,
+only shortening this part. So it's like,
+yeah, something is off with the torso. I
+yeah, something is off with the torso. I
+yeah, something is off with the torso. I
+got to see what's going
+got to see what's going
+got to see what's going
+on. Now, back to my legs. Up here. They
+on. Now, back to my legs. Up here. They
+on. Now, back to my legs. Up here. They
+should be tucked in. I'm not looking at
+should be tucked in. I'm not looking at
+should be tucked in. I'm not looking at
+where the key frames are. I'm not just
+where the key frames are. I'm not just
+where the key frames are. I'm not just
+placing them where I where it feels
+placing them where I where it feels
+placing them where I where it feels
+right for them to be placed. So I also
+right for them to be placed. So I also
+right for them to be placed. So I also
+get overlapping action this way. Bonk
+get overlapping action this way. Bonk
+get overlapping action this way. Bonk
+this. Also, this one should be tucked
+this. Also, this one should be tucked
+this. Also, this one should be tucked
+back down like this. Okay, let's animate
+back down like this. Okay, let's animate
+back down like this. Okay, let's animate
+the foot. As the guy takes off, the foot
+the foot. As the guy takes off, the foot
+the foot. As the guy takes off, the foot
+should extend here. It should come back
+should extend here. It should come back
+should extend here. It should come back
+to normal. And then as it lands, try to
+to normal. And then as it lands, try to
+to normal. And then as it lands, try to
+be
+be
+be
+straight. Now, let's do the other
+straight. Now, let's do the other
+straight. Now, let's do the other
+foot. As far as the feet go, you know,
+foot. As far as the feet go, you know,
+foot. As far as the feet go, you know,
+it feels like they stay extended for way
+it feels like they stay extended for way
+it feels like they stay extended for way
+too long. Select these three key frame
+too long. Select these three key frame
+too long. Select these three key frame
+handles that go out. give it a vector.
+handles that go out. give it a vector.
+handles that go out. give it a vector.
+So, they try to correct as fast as
+So, they try to correct as fast as
+So, they try to correct as fast as
+possible. That feels natural. That feels
+possible. That feels natural. That feels
+possible. That feels natural. That feels
+like a back flip. It feels like the
+like a back flip. It feels like the
+like a back flip. It feels like the
+bottom part of the body is already done.
+bottom part of the body is already done.
+bottom part of the body is already done.
+Uh, this one is the hips. Oh, shake it.
+Uh, this one is the hips. Oh, shake it.
+Uh, this one is the hips. Oh, shake it.
+We could definitely use this key frame
+We could definitely use this key frame
+We could definitely use this key frame
+position. Make it move forward a bit.
+position. Make it move forward a bit.
+position. Make it move forward a bit.
+Key frame. Backward a bit. Key frame.
+Key frame. Backward a bit. Key frame.
+Key frame. Backward a bit. Key frame.
+More backward. Key frame. And as he
+More backward. Key frame. And as he
+More backward. Key frame. And as he
+jumps, make it move forward like that.
+jumps, make it move forward like that.
+jumps, make it move forward like that.
+You know, it's like a jump. And this
+You know, it's like a jump. And this
+You know, it's like a jump. And this
+will be a vector. Will just be very
+will be a vector. Will just be very
+will be a vector. Will just be very
+strong. Oh, maybe I can cheat here. As
+strong. Oh, maybe I can cheat here. As
+strong. Oh, maybe I can cheat here. As
+he's doing the flip, I can actually
+he's doing the flip, I can actually
+he's doing the flip, I can actually
+twist it back a little bit so it doesn't
+twist it back a little bit so it doesn't
+twist it back a little bit so it doesn't
+feel like it's too
+feel like it's too
+feel like it's too
+strong. And as he extends back up, the
+strong. And as he extends back up, the
+strong. And as he extends back up, the
+hips go out. And as he lands, the hips
+hips go out. And as he lands, the hips
+hips go out. And as he lands, the hips
+are in a natural position. What
+are in a natural position. What
+are in a natural position. What
+animation is is just posing. It's posing
+animation is is just posing. It's posing
+animation is is just posing. It's posing
+through time. I'm still bothered by this
+through time. I'm still bothered by this
+through time. I'm still bothered by this
+though. Make everything invisible except
+though. Make everything invisible except
+though. Make everything invisible except
+the Y position of the feet. Select these
+the Y position of the feet. Select these
+the Y position of the feet. Select these
+and move them more back. And now this as
+and move them more back. And now this as
+and move them more back. And now this as
+well. This is also Y position,
+well. This is also Y position,
+well. This is also Y position,
+right? Okay. One more thing with the
+right? Okay. One more thing with the
+right? Okay. One more thing with the
+leg. We have this thing which is called
+leg. We have this thing which is called
+leg. We have this thing which is called
+a foot roll. We're going to use it cuz
+a foot roll. We're going to use it cuz
+a foot roll. We're going to use it cuz
+it's cool. On frame 62, I'm going to key
+it's cool. On frame 62, I'm going to key
+it's cool. On frame 62, I'm going to key
+frame the rotation of this, the rotation
+frame the rotation of this, the rotation
+frame the rotation of this, the rotation
+of that. Just as it takes off, I will
+of that. Just as it takes off, I will
+of that. Just as it takes off, I will
+animate this. Then on the very next
+animate this. Then on the very next
+animate this. Then on the very next
+frame, reset and key frame both of them.
+frame, reset and key frame both of them.
+frame, reset and key frame both of them.
+I can maybe make this a little bit
+I can maybe make this a little bit
+I can maybe make this a little bit
+longer. So it's like
+longer. So it's like
+longer. So it's like
+this. This is way too rotated forward.
+this. This is way too rotated forward.
+this. This is way too rotated forward.
+Make the handles visible. and turn these
+Make the handles visible. and turn these
+Make the handles visible. and turn these
+into
+into
+into
+vectors. Now, I have this control as
+vectors. Now, I have this control as
+vectors. Now, I have this control as
+well as this control. They seem to do a
+well as this control. They seem to do a
+well as this control. They seem to do a
+very similar thing. So, I'll ignore this
+very similar thing. So, I'll ignore this
+very similar thing. So, I'll ignore this
+one and just focus on this one. Key
+one and just focus on this one. Key
+one and just focus on this one. Key
+frame rotation. Key frame rotation
+frame rotation. Key frame rotation
+frame rotation. Key frame rotation
+again, but here. And as you jump,
+again, but here. And as you jump,
+again, but here. And as you jump,
+straighten it up. These should be
+straighten it up. These should be
+straighten it up. These should be
+vector. On this stage, it goes in. And
+vector. On this stage, it goes in. And
+vector. On this stage, it goes in. And
+then at this stage, it's already going
+then at this stage, it's already going
+then at this stage, it's already going
+back out. So, it's looking at the floor,
+back out. So, it's looking at the floor,
+back out. So, it's looking at the floor,
+trying to locate the floor. And as it
+trying to locate the floor. And as it
+trying to locate the floor. And as it
+lands like so, it goes back down. So,
+lands like so, it goes back down. So,
+lands like so, it goes back down. So,
+and so you'll jump up, tuck in to get
+and so you'll jump up, tuck in to get
+and so you'll jump up, tuck in to get
+the speed, then extend fast so you can
+the speed, then extend fast so you can
+the speed, then extend fast so you can
+see the floor. And then keep your body
+see the floor. And then keep your body
+see the floor. And then keep your body
+there as you land. And then as you jump,
+there as you land. And then as you jump,
+there as you land. And then as you jump,
+you kind of relax your body. And as you
+you kind of relax your body. And as you
+you kind of relax your body. And as you
+land here, you kind of relax as well.
+land here, you kind of relax as well.
+land here, you kind of relax as well.
+Now, let's tackle the arms. The arms are
+Now, let's tackle the arms. The arms are
+Now, let's tackle the arms. The arms are
+always in FK mode cuz they have no
+always in FK mode cuz they have no
+always in FK mode cuz they have no
+contact with the floor or anything. So,
+contact with the floor or anything. So,
+contact with the floor or anything. So,
+they're always freely hanging. They
+they're always freely hanging. They
+they're always freely hanging. They
+should be going back until this point
+should be going back until this point
+should be going back until this point
+because you throw your arms back and as
+because you throw your arms back and as
+because you throw your arms back and as
+you land on your feet, that's the
+you land on your feet, that's the
+you land on your feet, that's the
+initiative for the arms to come up. It's
+initiative for the arms to come up. It's
+initiative for the arms to come up. It's
+like conserving momentum. Both of these
+like conserving momentum. Both of these
+like conserving momentum. Both of these
+lines of key frames should be moved
+lines of key frames should be moved
+lines of key frames should be moved
+forward. And as it comes here, all of
+forward. And as it comes here, all of
+forward. And as it comes here, all of
+these should be
+these should be
+these should be
+vector. As you land like this, all the
+vector. As you land like this, all the
+vector. As you land like this, all the
+outcoming ones are now vector because
+outcoming ones are now vector because
+outcoming ones are now vector because
+you have all the speed from the
+you have all the speed from the
+you have all the speed from the
+rotation. And this stop is way too
+rotation. And this stop is way too
+rotation. And this stop is way too
+abrupt. So, I'll move all of these key
+abrupt. So, I'll move all of these key
+abrupt. So, I'll move all of these key
+frames forward like this. And all of
+frames forward like this. And all of
+frames forward like this. And all of
+these ones will be moved like
+these ones will be moved like
+these ones will be moved like
+this. The ending ones, they could all be
+this. The ending ones, they could all be
+this. The ending ones, they could all be
+vector. And now, let's do the elbows. As
+vector. And now, let's do the elbows. As
+vector. And now, let's do the elbows. As
+he swings in, all of these incoming ones
+he swings in, all of these incoming ones
+he swings in, all of these incoming ones
+should be bigger. So, they ease more.
+should be bigger. So, they ease more.
+should be bigger. So, they ease more.
+They instantly want to go out. So, all
+They instantly want to go out. So, all
+They instantly want to go out. So, all
+of these should also be bigger. So, it's
+of these should also be bigger. So, it's
+of these should also be bigger. So, it's
+an ease out after an ease out, which
+an ease out after an ease out, which
+an ease out after an ease out, which
+doesn't make sense in nature, but it
+doesn't make sense in nature, but it
+doesn't make sense in nature, but it
+looks good here. So, we're going to
+looks good here. So, we're going to
+looks good here. So, we're going to
+cheat the rules here. We're breaking the
+cheat the rules here. We're breaking the
+cheat the rules here. We're breaking the
+rules. The laws of physics are mine.
+rules. The laws of physics are mine.
+rules. The laws of physics are mine.
+We're going to make some overlapping
+We're going to make some overlapping
+We're going to make some overlapping
+action. So, the arms don't just stop
+action. So, the arms don't just stop
+action. So, the arms don't just stop
+abruptly, but the elbows continue going
+abruptly, but the elbows continue going
+abruptly, but the elbows continue going
+after the upper part of the arm is
+after the upper part of the arm is
+after the upper part of the arm is
+stopped. So, I'm going to move all of
+stopped. So, I'm going to move all of
+stopped. So, I'm going to move all of
+these by a few frames. Well, this feels
+these by a few frames. Well, this feels
+these by a few frames. Well, this feels
+like a very intense transition, right?
+like a very intense transition, right?
+like a very intense transition, right?
+So, I will rotate this, delete this in
+So, I will rotate this, delete this in
+So, I will rotate this, delete this in
+between one, move the blue ones up, so
+between one, move the blue ones up, so
+between one, move the blue ones up, so
+it feels like more like a transition.
+it feels like more like a transition.
+it feels like more like a transition.
+And now this should also, you know, just
+And now this should also, you know, just
+And now this should also, you know, just
+be much more intense. Let's take a look
+be much more intense. Let's take a look
+be much more intense. Let's take a look
+at what we
+have. The ending is a little bit too
+have. The ending is a little bit too
+have. The ending is a little bit too
+intense. I feel like I want to correct
+intense. I feel like I want to correct
+intense. I feel like I want to correct
+some timings. I feel like the beginning
+some timings. I feel like the beginning
+some timings. I feel like the beginning
+is way too slow. Let's start with that.
+is way too slow. Let's start with that.
+is way too slow. Let's start with that.
+Move your mouse cursor here and press
+Move your mouse cursor here and press
+Move your mouse cursor here and press
+Alt and H to unhide all the layers. So
+Alt and H to unhide all the layers. So
+Alt and H to unhide all the layers. So
+these are all the key frames in the
+these are all the key frames in the
+these are all the key frames in the
+project. I'm going to go to frame 66 and
+project. I'm going to go to frame 66 and
+project. I'm going to go to frame 66 and
+I'm going to press the letter M, which
+I'm going to press the letter M, which
+I'm going to press the letter M, which
+will add a marker down here. Now I'm
+will add a marker down here. Now I'm
+will add a marker down here. Now I'm
+going to go to zero. Select everything
+going to go to zero. Select everything
+going to go to zero. Select everything
+up until the marker. Now I'll press
+up until the marker. Now I'll press
+up until the marker. Now I'll press
+period and select 2D cursor. So any
+period and select 2D cursor. So any
+period and select 2D cursor. So any
+transformation that I do now will happen
+transformation that I do now will happen
+transformation that I do now will happen
+from the location of the 2D cursor. I
+from the location of the 2D cursor. I
+from the location of the 2D cursor. I
+will press S to scale and then X so I
+will press S to scale and then X so I
+will press S to scale and then X so I
+can scale it on the X-axis. Move it in.
+can scale it on the X-axis. Move it in.
+can scale it on the X-axis. Move it in.
+Then I'll select everything else, move
+Then I'll select everything else, move
+Then I'll select everything else, move
+it with G and snap it on the X and move
+it with G and snap it on the X and move
+it with G and snap it on the X and move
+it closer in like this. What I've done
+it closer in like this. What I've done
+it closer in like this. What I've done
+is I've scaled the beginning in and then
+is I've scaled the beginning in and then
+is I've scaled the beginning in and then
+move the rest in. But now everything
+move the rest in. But now everything
+move the rest in. But now everything
+feels way too fast. So, I'll go back to
+feels way too fast. So, I'll go back to
+feels way too fast. So, I'll go back to
+one, but this time select everything.
+one, but this time select everything.
+one, but this time select everything.
+And because I still have the 2D cursor,
+And because I still have the 2D cursor,
+And because I still have the 2D cursor,
+I will just scale everything on the X to
+I will just scale everything on the X to
+I will just scale everything on the X to
+slow everything
+slow everything
+slow everything
+down. But now the last part is slow.
+down. But now the last part is slow.
+down. But now the last part is slow.
+Move these in. Move these in. I can also
+Move these in. Move these in. I can also
+Move these in. Move these in. I can also
+delete the marker. Select it. X. Delete
+delete the marker. Select it. X. Delete
+delete the marker. Select it. X. Delete
+marker. There's a bunch of tweaks to do.
+marker. There's a bunch of tweaks to do.
+marker. There's a bunch of tweaks to do.
+Sometimes the transitions are off.
+Sometimes the transitions are off.
+Sometimes the transitions are off.
+Sometimes the values are off. There's
+Sometimes the values are off. There's
+Sometimes the values are off. There's
+little tweaks to do because this feels
+little tweaks to do because this feels
+little tweaks to do because this feels
+off. It's hard to immediately tell where
+off. It's hard to immediately tell where
+off. It's hard to immediately tell where
+it's wrong, but it feels wrong because
+it's wrong, but it feels wrong because
+it's wrong, but it feels wrong because
+it rotates all the way here and then it
+it rotates all the way here and then it
+it rotates all the way here and then it
+just snaps
+here. I know it's hard to understand
+here. I know it's hard to understand
+here. I know it's hard to understand
+when I talk about this stuff, but this
+when I talk about this stuff, but this
+when I talk about this stuff, but this
+is genuinely just about practice. The
+is genuinely just about practice. The
+is genuinely just about practice. The
+more practice you have, the better you
+more practice you have, the better you
+more practice you have, the better you
+get, the more you understand. This is
+get, the more you understand. This is
+get, the more you understand. This is
+still not 100% there. There's still
+still not 100% there. There's still
+still not 100% there. There's still
+stuff to tweak. I can't tell you why
+stuff to tweak. I can't tell you why
+stuff to tweak. I can't tell you why
+just yet, but if I sit down, spend a
+just yet, but if I sit down, spend a
+just yet, but if I sit down, spend a
+couple of hours here to fix it, it's
+couple of hours here to fix it, it's
+couple of hours here to fix it, it's
+going to look great. This is a tutorial,
+going to look great. This is a tutorial,
+going to look great. This is a tutorial,
+though. I got to get this done. I've
+though. I got to get this done. I've
+though. I got to get this done. I've
+been doing this for three months now. Me
+been doing this for three months now. Me
+been doing this for three months now. Me
+and YouTube. Thanks again for my
+and YouTube. Thanks again for my
+and YouTube. Thanks again for my
+sponsor. Link is in the description.
+sponsor. Link is in the description.
+sponsor. Link is in the description.
+It's great. I love it. Pay it a visit
+It's great. I love it. Pay it a visit
+It's great. I love it. Pay it a visit
+for me. But with that, I'm out. See you
+for me. But with that, I'm out. See you
+for me. But with that, I'm out. See you
+next time on whatever video you vote for
+next time on whatever video you vote for
+next time on whatever video you vote for
+next. Stay sharp.

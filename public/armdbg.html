@@ -1,0 +1,14 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>a</title></head><body>
+<script type="importmap">{ "imports": { "three": "/node_modules/three/build/three.module.js", "three/addons/": "/node_modules/three/examples/jsm/" } }</script>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+new GLTFLoader().load('models/paciente_real.glb',(g)=>{
+  const bones={}; g.scene.traverse(o=>{if(o.isBone&&o.name)bones[o.name]=o;});
+  const find=(...n)=>{for(const x of n)if(bones[x])return bones[x];return null;};
+  const LA=find('LeftArm','J_Bip_L_UpperArm','DEF-upper_arm.L','mixamorig:LeftArm');
+  const RA=find('RightArm','J_Bip_R_UpperArm','DEF-upper_arm.R','mixamorig:RightArm');
+  function armDown(b){ if(!b) return null; let d=null; for(const c of b.children){ if(c&&c.isBone){d=c.position.clone();break;} } if(!d||d.lengthSq()<1e-6)return null; d.normalize(); const q=new THREE.Quaternion().setFromUnitVectors(d,new THREE.Vector3(0,-1,0)); const e=new THREE.Euler().setFromQuaternion(q); return {x:+e.x.toFixed(3),y:+e.y.toFixed(3),z:+e.z.toFixed(3), dir: d.toArray().map(v=>+v.toFixed(2))}; }
+  window.__res={ LA: armDown(LA), RA: armDown(RA), hasLA: !!LA, hasRA: !!RA };
+}, undefined, (e)=>{ window.__res='ERRO '+e.message; });
+</script></body></html>

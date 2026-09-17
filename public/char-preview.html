@@ -1,0 +1,154 @@
+<!DOCTYPE html><html lang="pt"><head><meta charset="UTF-8"><title>Character Preview</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+html,body{margin:0;height:100%;background:#161d26;overflow:hidden;font-family:system-ui}
+.sr-only{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+#c{width:100vw;height:100vh;display:block}
+#ui{position:fixed;left:12px;bottom:12px;display:flex;gap:8px;z-index:9}
+button{background:#22303f;color:#dfe9f5;border:1px solid #3a4c60;border-radius:8px;padding:8px 14px;font-size:13px;cursor:pointer}
+button:focus-visible{outline:2px solid #4aa3c8;outline-offset:2px}
+button.on{background:#2f6f8f;border-color:#4aa3c8}
+#hud{position:fixed;left:12px;top:12px;color:#9fb3c8;font-size:12px;z-index:9;background:#161d26cc;padding:6px 10px;border-radius:8px;max-width:70vw}
+#warn{position:fixed;right:12px;top:12px;color:#ffd9a0;background:#3a2a12cc;border:1px solid #6b4a20;padding:6px 10px;border-radius:8px;font-size:12px;z-index:9;display:none;max-width:60vw}
+</style></head>
+<body><main>
+<h1 class="sr-only">Visualizador 3D de personagem</h1>
+<canvas id="c" aria-label="Visualizador 3D do personagem"></canvas>
+<div id="hud" role="status">carregando…</div>
+<div id="warn" role="alert"></div>
+<div id="ui" role="toolbar" aria-label="Vistas da câmera">
+ <button data-cam="full" aria-label="Ver corpo inteiro">Corpo</button>
+ <button data-cam="torso" aria-label="Ver torso">Torso</button>
+ <button data-cam="face" aria-label="Ver rosto">Rosto</button>
+ <button id="rot" aria-pressed="false" aria-label="Alternar rotação automática">Girar</button>
+ <button id="retry" style="display:none" aria-label="Tentar carregar novamente">Tentar de novo</button>
+</div>
+</main>
+<script type="importmap">{ "imports": { "three": "./vendor/three/three.module.js", "three/addons/": "./vendor/three/jsm/" } }</script>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
+
+const qs = new URLSearchParams(location.search);
+const name = qs.get('m') || 'ana';
+const canvas = document.getElementById('c');
+const hud = document.getElementById('hud');
+const warn = document.getElementById('warn');
+const retryBtn = document.getElementById('retry');
+
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setSize(innerWidth, innerHeight);
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.05;
+
+const hasWebP = (() => { try { return renderer.extensions.has('EXT_texture_webp') || document.createElement('canvas').toDataURL('image/webp').startsWith('data:image/webp'); } catch (e) { return true; } })();
+if (!hasWebP) {
+  warn.style.display = 'block';
+  warn.textContent = 'Aviso: este navegador não suporta WebP — as texturas do modelo podem não aparecer.';
+}
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x1a2530);
+scene.add(new THREE.HemisphereLight(0xdfe9f5, 0x2a2622, 1.0));
+const key = new THREE.DirectionalLight(0xfff2e0, 2.4);
+key.position.set(4, 6, 7); key.castShadow = true; key.shadow.mapSize.set(2048, 2048);
+Object.assign(key.shadow.camera, { left: -3, right: 3, top: 3, bottom: -3 });
+scene.add(key);
+const rim = new THREE.DirectionalLight(0x9fc8ff, 1.1); rim.position.set(-3, 3, -4); scene.add(rim);
+const fill = new THREE.PointLight(0x9fd8ff, 4, 12); fill.position.set(-3, 2.4, 3); scene.add(fill);
+
+const floor = new THREE.Mesh(new THREE.CircleGeometry(5, 64), new THREE.MeshStandardMaterial({ color: 0x2a3742, roughness: 0.9 }));
+floor.rotation.x = -Math.PI / 2; floor.receiveShadow = true; scene.add(floor);
+
+const camera = new THREE.PerspectiveCamera(38, innerWidth / innerHeight, 0.05, 60);
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true; controls.dampingFactor = 0.08;
+controls.minDistance = 0.35; controls.maxDistance = 8;
+controls.target.set(0, 1.2, 0);
+try { controls.keys = { LEFT: 'ArrowLeft', UP: 'ArrowUp', RIGHT: 'ArrowRight', BOTTOM: 'ArrowDown' }; controls.listenToKeyEvents(window); } catch (e) { /* teclado opcional */ }
+
+const CAMS = {
+  full:  [[0, 1.15, 3.6], [0, 0.95, 0]],
+  torso: [[0, 1.32, 1.75], [0, 1.25, 0]],
+  face:  [[0.06, 1.58, 0.62], [0, 1.55, 0]],
+};
+function setCam(k) {
+  const c = CAMS[k] || CAMS.full;
+  camera.position.set(...c[0]);
+  controls.target.set(...c[1]);
+  controls.update();
+}
+document.querySelectorAll('#ui button[data-cam]').forEach(b => b.onclick = () => setCam(b.dataset.cam));
+let spin = false;
+const rotBtn = document.getElementById('rot');
+rotBtn.onclick = () => { spin = !spin; rotBtn.classList.toggle('on', spin); rotBtn.setAttribute('aria-pressed', String(spin)); };
+
+let model = null;
+function loadModel() {
+  retryBtn.style.display = 'none';
+  hud.textContent = 'carregando… 0%';
+  new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).load(`models/${name}.glb`, (g) => {
+    if (model) { scene.remove(model); }
+    const m = g.scene;
+    const box = new THREE.Box3().setFromObject(m);
+    const size = box.getSize(new THREE.Vector3());
+    m.scale.setScalar(1.72 / Math.max(size.y, 1e-4));
+    box.setFromObject(m);
+    m.position.y -= box.min.y;
+    m.position.x -= (box.max.x + box.min.x) / 2;
+    m.position.z -= (box.max.z + box.min.z) / 2;
+    m.traverse(o => { if (o.isMesh) { o.castShadow = true; o.receiveShadow = true; } });
+    scene.add(m);
+    model = m;
+    window.__ready = true;
+    window.__model = m;
+    window.__THREE = THREE;
+    hud.textContent = `${name} · 1.72 m · arraste = girar · scroll = zoom · setas = mover`;
+  }, (ev) => {
+    if (ev && ev.total) hud.textContent = `carregando… ${Math.round(100 * ev.loaded / ev.total)}%`;
+  }, (e) => {
+    console.error(e);
+    hud.textContent = 'erro ao carregar: ' + name;
+    retryBtn.style.display = 'inline-block';
+  });
+}
+retryBtn.onclick = loadModel;
+loadModel();
+
+if (qs.get('cam') === 'free') {
+  const g = (k, d) => parseFloat(qs.get(k) ?? d);
+  controls.minDistance = 0.02;
+  camera.position.set(g('cx', 0), g('cy', 1.2), g('cz', 3));
+  controls.target.set(g('tx', 0), g('ty', 1.2), g('tz', 0));
+  controls.update();
+} else {
+  setCam(qs.get('cam') || 'full');
+}
+let frames = 0, lastFpsT = performance.now();
+function loop() {
+  requestAnimationFrame(loop);
+  controls.autoRotate = spin;
+  controls.autoRotateSpeed = 1.6;
+  controls.update();
+  renderer.render(scene, camera);
+  frames++;
+  const now = performance.now();
+  if (now - lastFpsT >= 1000) {
+    const fps = Math.round(1000 * frames / (now - lastFpsT));
+    if (model && window.__ready) hud.textContent = `${name} · 1.72 m · ${fps} fps · arraste = girar · scroll = zoom`;
+    frames = 0; lastFpsT = now;
+  }
+}
+loop();
+addEventListener('resize', () => {
+  camera.aspect = innerWidth / innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(innerWidth, innerHeight);
+});
+</script></body></html>

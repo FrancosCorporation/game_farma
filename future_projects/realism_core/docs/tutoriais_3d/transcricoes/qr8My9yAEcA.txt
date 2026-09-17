@@ -1,0 +1,808 @@
+when you open a 3D software especially
+the kind used for animation you'll see
+that everything is made of these wir
+likee structures with loops spanning the
+entire structure this is the topology of
+3D mesh a topology refers to Arrangement
+and flow of these vertices edges and
+faces that make up a 3D mesh it dictates
+the structure of your model and plays a
+pivotal role in determining how well it
+forms animates and subdivides now once
+you get a bit nerdy and uh gain some
+hands-on experience you'll start
+recognizing topology in everything
+around you not just in 3D softwares
+similar to real world structures these
+vertices and polygons Define the
+topology of an object in 3D the more
+polygons you have the smoother the model
+and allowing for more more intricate
+details but impacting the performance
+it's going to be more laggier going to
+perform slower so reduce these vertices
+and polygons and you'll start seeing
+Jagged mes but the model can perform in
+real time using less resources of
+computer even handling large number of
+these objects a crowd of people let's
+say while maintaining a good computer
+performance is quite possible and easy
+for gaming engines the next time you
+play a game with crowds like FIFA or WWE
+and notice as you see in this footage
+John Cena and Randy Orton have all the
+muscles and everything while all the
+people in the crowd doesn't even have
+fingers so understand the developer were
+not lazy they were just managing polygon
+counts to ensure that the game performs
+well and investing more resources in
+characters like John Cena and Randy whom
+players pay for basically and not these
+people so in summary denser topology
+results in high resolution model and
+when things get high resolution needs
+more
+resources the good thing is that you're
+living in fortunate times where you
+don't have to model and create entire
+character in just 50 polygons so 15 to
+20 years ago this is how the characters
+used to look like in 3D games her entire
+body is less than 1/10th of resolution
+of this sandwich from current gen game
+Starfield Now understand even though
+this game might look visually outdated
+to current generation kids it used to be
+a big deal for us it inspired the whole
+action RPG genre and continues to
+influence many things to date so all the
+times are more forgiving now with
+powerful Hardware it's still crucial to
+respect and manage measure resolution
+despite technological advancements so
+nowadays games are incredibly details
+and expectations are even higher and
+even there are new things like AR and VR
+so managing 3D meses is still a thing so
+forgive me for assuming everyone here is
+new to 3D and I might State some obvious
+things but it's necessary to get few
+points across now I'll start with few
+absolute basic examples because there's
+a whole wide range of audience on my
+channel so I need to be a bit more
+considerate you never know where this
+video video is going to land so let's
+assume this is uh leg just bear with me
+now there's an Armature underneath it
+which is driving its motion so if I try
+to move it it's not going to move this
+object much because it's like a Lego
+piece at this moment literally there's
+nothing in it but now if you go to edit
+mode and add one more Loop here then
+you'll see at least this is like bare
+minimum required for making a legs
+motion but now if you want this to have
+some more smoothness you can add few
+more Loops here so that there are more
+Loops to support this deformation of the
+knee and then you keep on adding
+basically from here on I can
+uh do anything I want so now it's like
+officially a leg and then if I P some
+more attention leg only bends in one
+particular angle so if you come to think
+about it we need more Loops here and
+less Loops here so if I was working in a
+polygon constraints or something then I
+can just bevel this here and I have more
+Loops to bend but now the problem is
+here we have five points so this makes
+it uh and gone so it's quite easy to fix
+just take this one and connect it here
+you have cords everywhere
+now so this is just for an example don't
+go on and adding an Armature and then
+start modeling all right and then there
+is no end to it you can just keep on
+adding Loops if you want and keep
+detailing your model the more Loops
+there are the more it's going to Def
+well and can carry more details so let's
+say if you have some muscles here or if
+you want to put some corrective shapes
+then for that you need some more Loops
+here so these things might would help
+with it let's share smooth this and then
+let's say if you wanted to have some
+more muscular details here you can just
+tweak few of these
+loops and shape it more like a leg so
+I'm just going to try and eliminate
+every triangle or none I see now that I
+have proper quarts everywhere if I want
+to add some more details to this object
+I can just press controlr and keep on
+adding more details and this is going to
+be quite easy because uh the entire mesh
+is following a neat structure so let's
+say if I move this here I can uh maybe
+make it look like a a muscular leg or
+something so now I have more points to
+work with so I'm just going to try and
+utilize all of
+these and then you can say we have a
+detailed leg here so it's not that I'm
+trying to achieve a perfection in model
+here it's just that the point is the
+more Loops you add it helps you define
+the mesh better it makes it convenient
+to work with the mesh you have loops uh
+adding details is much more easier and
+then it deforms well so on every level
+clean topology helps you in many
+ways now let's say if you had uh instead
+of subdivision surface if you put some
+uh multi-resolution here and subdivide
+this a few times let's say three times
+then I can just go to sculpt mode maybe
+paint out some of more details
+here and now here we have plenty of
+resolution and I can keep on adding more
+details to it I can go to depth of any
+details if I want this resolution is
+quite high and I can subdivide this
+further if I want but the thing is uh we
+are losing the performance on this model
+you can clearly see as I scrub the
+timeline mesh is higher it can support
+details but it's no longer an optimized
+model so imagine if we had a entire
+character in this resolution that would
+be a disaster to animate and render and
+this is where normal maps come in so if
+I just quickly wrap these vertices Mark
+seam and unwrap this then I can just
+create a new image texture 4068 by 468
+not make this one non- color and put it
+into normal and then just work in the
+low resolution here disable all these
+subdivisions and then uh I I can
+simply bake bake all the details from
+the sculpt that we did into this texture
+so if I click on normal map bake from
+multi-resolution and click bake and this
+is going to take a few seconds and then
+now I can bring a normal map here and
+put it into color and if I try to render
+this
+now you'll see we have all the
+details from the high resolution model
+but in a normal map which is right here
+so this is a normal map image which we
+have generated from high resolution
+model so now this model is low
+resolution but it's also carrying all
+the details from high resolution model
+which is using six subdivisions and now
+we have a good feedback while we
+animating this so frame rate is high
+it's easy to work with easy to modify we
+can have an entire character in this
+resolution and it's going to perform
+quite well so even if I get rid of of
+this multi-resolution modifier now
+you'll see we still have all those
+details in normal map hope this gives
+you an idea about handling resolution
+and everything as you become more
+familiar with topology you'll discover
+it's not meant to complicate your life
+it's there to simplify it according to
+me differentiating between good and bad
+topology boils down to two major factors
+performance and
+appearance so the arrangement of these
+vertices and edges should follow the
+natural Contour of object that ensures
+the models maintain realistic and good
+appearance good topology allows addition
+of intricate details without distorting
+the overall shape with a fewer
+well-placed loops and mesh flows you can
+easily accentuate the forms in the
+object or body a consistent density of
+mesh across different parts of the model
+ensures a uniform level of details
+controlling a visually pleasing
+appearance so just because if one part
+of the body is bigger than the other or
+one is smaller it doesn't mean it
+requires less mesh or more mesh to
+capture the right details you need to
+put enough Loops otherwise things might
+would fall apart in the close-up shots
+or something the topology should also
+facilitate smooth surface enhancing the
+visual appearance of model quad based
+topology subdivides well and creates
+smoother surfaces well organized
+topology streamlines UV mapping for
+improved texture application and
+detailing it's really easy to work with
+a clean mesh where the topology is well
+organized selecting Loops cutting down
+the mesh modifying the geometry laying
+it flat for UV is much easier task and
+often if topology is cleaner there's a
+less chance for Distortion and visible
+stretching in
+textures the topology should be well
+optimized for performance whether you're
+making it for a game or movie it still
+needs to be under a certain quarter so
+it's important to manage a right balance
+between how well your model looks and
+how well it performs in rendering and
+animation in the later stage minimizing
+polygons with more than four sides and
+gones helps in preventing issues with
+smoothing and deformation so keep your
+topology based on quarts as much as
+possible and properly Leed Edge loops
+and strategic polygon distribution are
+crucial for animation specifically for
+characters good topology supports
+natural movement and deformation during
+animation process and we are going to
+talk about this in the very next chapter
+where we are going to modify the loops
+of the face which kind of resembles the
+actual human facial structure and
+muscles topology that aligns with the
+intended rigging system contributes to
+better deformation during the character
+animation for instance it matters what
+kind of rig you're planning to use to
+decide a topology for your character
+whether or not it's going to be simple
+rig or it could be based on muscle
+system so keeping all those things in
+mind you will have to make certain
+decisions about the topology of
+character additionally editing a mesh is
+much more straightforward with well-
+connected Loops in good topology tasks
+such as creating blend shapes and
+distributing weight pains for skinning
+becomes much more manageable when the
+mesh is clean now every object has its
+own topology tailored for specific
+purpose likewise in the 3D World
+topology isn't one size fits for all
+idea it varies based on different needs
+and industries in the gaming industry
+emphasises more on performance models in
+game often utilize techniques like
+normal maps and stimulate intricate
+details allowing game engines to handle
+extensive scenes in real time
+additionally level of details lods are
+used by game engines to preserve the
+high resolution details for objects that
+appear closer to camera while loading
+low resolution models or decimating a
+geometry for distant objects this
+prevents loading lags and enhances
+overall gaming frame rates and
+experience in the film and VFX sector
+the focus is on achieving highly
+detailed measures models sometimes are
+sculpted in millions of polygons to
+capture the intricate details while
+these models May undergo ret apologizing
+for creating a low resolution mesh for
+animation higher resolution versions are
+used for rendering incorporating
+displacement maps for realistic
+details now CAD modeling commonly used
+in industrial design relies on ner
+sculls nervs defined by control points
+and weights create precise and smooth
+surfaces the these models are
+particularly suited for product design
+and Manufacturing nerb surfaces are
+often created by patching together
+multiple curves this makes them well
+suited for creating Automotive surfaces
+product design Etc but they often
+provide a tool to convert or export
+models to format suitable for 3D
+printing and rendering softwares now
+Within These diverse examples from the
+animation film and game Industries
+there's a wide variety of styles and
+complexities from the cartoon industry
+to the ad film industry indie game
+developers motion graphic designers
+Indie filmmakers experimental filmmakers
+there's a whole mix of realistic
+non-realistic stylized and Abstract
+content here rules are often bent to
+achieve the goals of designers providing
+a sweet spot for experimentation and
+creative mixing and this is where I have
+landed and I have been working exploring
+a variety of creative
+possibilities now all this might be
+building up too much in your head and
+all these words might be making it seem
+scarier than it actually is let me give
+you a few quick examples of how you can
+control and manipulate topology in a
+mesh I'll give you a few basic examples
+and later on you can changee it to your
+heart's content in your own time using
+these links in description or you can do
+your own research so this is a simple
+mesh object uh simple grid just like any
+other other Primitives you have here so
+when you're modeling basically you
+extrude these points edges and faces and
+this is how you model so this low
+resolution model is quite easy to manage
+to animate render and going to perform
+quite well if I need to render this I
+can apply subdivision surface on this by
+pressing control 2 and uh this gives you
+uh a smoother surface shade smooth so
+this mesh the main mesh underneath it
+these points are there to control this
+is what you control to model the smoo
+surface is what you use to render now
+when you're working for a game you don't
+get to use subdivision surface or
+anything you just need to make sure your
+model on the base level itself have
+enough topology and whatever is in the
+model is going to render in the engine
+as well but when you're working in other
+animation Industries let's say film TV
+or something you can use subdivision
+modeling and this generates all the in
+between points gives you this smoother
+surface now subdivision surface takes
+the average of two points and creates
+this nice Arc in between which gives you
+smoother surface now in this case if you
+need a sharp edge you will have to add
+some more support Loops the closer these
+Loops are the harder Edge it's going to
+create like this so that's how you model
+with the subdivision now if I check the
+wireframe of this object you'll see in
+between all these quads we have have
+multiple of subdivisions going on in
+between every phase so let's say if this
+is a simple grid and I apply one
+subdivision surface on this it's going
+to smooth out all the
+edges and give me this circular kind of
+object and if I need to have
+a sharper
+ends I can add more Edge Loops the
+closer these Loops are the harder Edge
+it's going to produce working with
+subdivision might would seem a bit
+tricky but keep in mind it also gives
+you an advantage so you won't have have
+to create hundreds of points to make a
+simple smooth shape for instance create
+one simple insert with it let's add few
+more Loops here now I can get rid of
+these four
+faces and now if I scale these down
+you'll see we have a perfect circle here
+now without the subdivision we still
+have this Jagged hexagon kind of thing
+going on here but with subdivision you
+have this perfect circle and this way
+you can easily achieve smooth and uh
+complex mesh transitions with a control
+of quite a few points now when you're
+working with mesh we discussed plenty
+about this in the introduction series
+you can subdivide it and this will give
+you more control over the shape you can
+press contrl R add more Loops in a
+particular order if you need any Loops
+horizontally vertically you can keep on
+adding more geometry to it now if you
+need to make a manual cut take a knife
+tool press K you can cut a gemetry in
+any angle or any shape you want just
+make sure it's all quad even though I
+made a cut here it's still 1 2 3 4
+Points here and 1 2 3 4 Points here but
+if I I make one uh random cut let's say
+like this then I just need to make sure
+that all the ends meet well so let's
+click this and connect it here and click
+this connect it here with knife tool and
+now we have all quads all these are
+foursided quads now let's say if you had
+one a grid like this and in this if you
+want to make some cut let's say starting
+from here something like this then you
+can simply make a cut here and while
+you're trying to make Cuts just make
+sure you to utilize quarts as much as
+possible so this I'll have to make a
+triangle and we are going to convert
+this into quarts
+later so one triangle here one triangle
+here and then one triangle right here
+another triangle here and gone and
+triangle and
+gone and finally one quad and now I have
+kind of similar flow but I need to make
+few more points here and I need to
+convert these triangles and andon into
+into quads so just take a cut tool so in
+scenarios like this where you have one
+triangle and one five-sided you can
+simply create a cut from here to here
+and then you have four-sided cords here
+let me apply smooth so that you can see
+the visualization we have quads here and
+these are nicely subdividing but here
+triangles are struggling quite well to
+manage the flow I'm going to create one
+cut here similar situation now we have a
+quad here quad here and one board here
+so do the same thing create a cut and
+there you go then let's solve this
+one so mostly whatever Eng gon and
+triangles we had we have fixed those but
+despite of that if I select this it's
+not still quite a full loop which is uh
+connected through and through properly
+to make this follow a nice and smooth
+Arc I'll have to make a few more
+adjustments here once we have the main
+line which is this one I'll try to form
+the the lines surrounding it in the
+similar flow like this right
+here so that it supports the flow so now
+you can see kind of like a river or
+something it's flowing in the similar
+Direction and now visualization is much
+more clear what I'm thinking is I can
+have these Loops to flow in this
+direction and these Loops to flow
+something like this now to make this
+happen I'm going to just clean up a bit
+so if you find it too difficult to
+visualize where should I connect these
+triangles and how do I clean it further
+what you can do is simply select few of
+these Loops which are harder to
+visualize with control delete to disolve
+now you have clear path in front of
+you you can make few Fresh Cuts right
+here this is much more cleaner and uh
+now this should also flow like this so
+instead of these two at right angle what
+if we connect this here or maybe right
+here
+and now if I select this Loop you'll see
+it's going through and through there are
+few triangles on the Outer Edge which I
+can solve and now if I apply subdivision
+surface on this you can see it's clearly
+flowing in the direction of the sketch
+now I can bevel this and extrude this
+and it's going to create a smoother
+shape and since all of these are in good
+flow and connected well I can keep on
+adding more geometry to this with loops
+and everything and it's going to be
+quite easy for me to detail this out
+then make sure the distribution is
+equal
+now there are few endon and triangles
+here at the
+borders all right so now we have this
+flow in the direction of the initial
+sketch it's following the similar flow
+and all the supporting surrounding edges
+are kind of flowing the same direction
+so to modify it into a custom flow just
+make a cut first make sure it's all
+quads then connect the triangles and Eng
+gon shape the surrounding edges and then
+you start seeing a slightly more clearer
+visualization of where you need to be
+then delete out few of the edges and
+connect and make more quads now let's
+start with few more examples let's say
+if you wanted to have a flow like this
+so in that case it's going to be quite
+simpler just make one cut
+here like this and right here we have
+this situation if I apply subdivision
+surface it's going to be like this so
+just connect both of these and there you
+go your flow is changed right here and
+then let's say if you wanted to make a
+flow like this then you can simply make
+one cut
+here just make sure it connects with the
+rest of the edges and it forms the
+quads there you go the flow is now
+changed and it's moving like this now if
+you're making circular formations then
+for that you don't need to make Cuts you
+just need to make one insert and there
+you go you have this circular flowing
+Loop and then you can just scale out few
+of these you have circular flow right
+here then you can get rid of this and
+then make a few more extrusions there
+you
+go so now this one is a circular
+formation now as I mentioned earlier if
+you have a simple plane and you apply
+subdivision it becomes all round so if
+you want some sharp Corners you'll just
+have to add few supportive Loops like
+like
+this and there you have a slightly less
+sharper Square so the sharpness of the
+corner depends on how many Loops you are
+adding so right now there are two edges
+which is forming this radius but if
+I add one instead and get rid of these
+two then we have significantly more
+radius here now let's say if you have a
+situation where in the one side of the
+mesh you need less details but along the
+way you want to add some more details
+what would you do you simp simply need
+to make a cut like this just remember
+this and I'll also tell you a
+shortcut there you
+go so let's say if you needed less
+details here and more details here so
+more Loops here but not in this part
+without creating any endon what would
+you do so let's say if we add two Loops
+here but in this part I don't want any
+Loops then I can simply move it this
+way and create one cut like
+this now I can get rid of these
+edges and there you go we have one
+simple Square here and and I can make
+two rectangles here so basically less
+density here more density here now let's
+say if I wanted to have more details
+here so I can use the similar kind of
+structure for these faces as well you
+can simply create another cut like this
+and then you can connect it to the last
+one so now instead of three you have
+five or you can also create one for each
+of these
+phas now creating a manual cut like this
+takes some time so instead of this you
+can simply create one inser you can just
+get rid of these
+faces and
+then move it to the
+side so let's say if we have one more
+face here and if I wanted some more
+resolution here I can create one inser
+get rid of
+this and move it to
+side and I can keep on detailing this
+further so let's say if this was a arm
+and then I wanted more fingers so I can
+subdivide like this so there are no
+triangles or Eng gon here now let's say
+if you had a mesh like this without
+interrupting the flow of the previous
+mesh you wanted to reduce the number of
+Loops here you can simply push two of
+these and connect
+these and then you can get rid of these
+edges there you
+go so you have less resolution here now
+more resolution here you can also do the
+same thing by ripping these apart select
+two of these press V and rip this apart
+and now you can simply fill this area
+and then you can dissolve these two
+edges there you have quad here quad here
+and these are also quarts or in other
+situations where you need to collapse
+the entire row of such vertices you can
+simply collapse two of
+these then you can get rid of this
+entire
+thing now you got rid of one of the loop
+here but then you have one triangle here
+so to solve this just add one right here
+so this is a quad now and these around
+the center one are also quad so this
+kind of makes a diamond shape it's also
+useful in few of the scenarios now there
+might also be scenarios where you can't
+really make sense in mesh there are just
+a few Loops making no sense so instead
+of fixing these sometimes you can just
+use a simple grid fill just get rid of
+this
+pH and then grid fill if it says you
+need even number of vertices you can
+just bevel one of these vertices and
+then you have GD fill which works for
+you and then you can fix this one and
+also a really important thing just keep
+in mind two triangles make one quad so
+you can use this to manipulate poles
+poles are are where multiple of these
+lines meet these can create some weird
+artifacts just select every alternate
+elch and dissolve these then you have
+quad faces here now let's try this one
+more time you can simply make one cut
+like this just remember this pattern and
+then you can connect it through and
+through and this will subdivide it so
+you have cords and you have more
+resolution or you can simply insert this
+delete one side and then move it here
+now you have more resolution or you can
+simply add two Loops rip this apart fill
+this
+area and now you can get rid of these
+and there you go so based on the
+scenario you can use any of the method
+now let's say if you had a cylindrical
+object like this on which you have one
+subdivision surface and let's say there
+are two supportive Loops which makes it
+a cube kind of object now at the top you
+have this Eng gon which looks weird in
+the shading as well and it's really
+important to close this properly so to
+avoid this you can simply select this
+guy get rid of this
+face and then grid
+fill and then you can create one more
+insert like this so this is how you can
+manage quads manage the density of mesh
+change the flow and uh use the
+subdivision to your advantage work with
+the hard angles supportive loops and all
+that so I hope this clears out a few
+Basics how you can manipulate mesh flow
+and topology form quads and maintain the
+loop flow check the description for few
+useful links and reference images which
+will help you out now handling read
+topology for large scale models with
+thousands of phases might seem daunting
+and it is actually but there are tools
+to simplify this process artists have
+developed solutions to ease the burden
+for instance the blender add-on B
+surface allows you to draw lines of
+topology this automates the generation
+of mesh based on these lines enables you
+to create hundreds of links in the
+matter of seconds and this is much more
+intuitive instead of driving dragging
+vertices you can just sketch out few
+grids and you have your mesh in front of
+you additionally for highly detailed and
+complex characters sculpting or 3D scan
+can be utilized to capture intricate
+details subsequently the model can be
+theologized we discussed about this in
+one of the chapter from the previous
+series from animated content creation
+series if you're interested just check
+the chapter number six so to achieve a
+good topology understanding the
+Strategic placement of edge Loops is
+essential they Define the major contour
+and flow of your object and character
+contributing to both the appearance and
+functionality use quads as much as
+possible working with quals is preferred
+method and it's going to save you a lot
+of troubles reducing artifacts and Weir
+deformations when you subdivide it or
+animate it manage poles carefully
+especially on curved surfaces it matters
+where you position them if you can't get
+rid of poles just put it somewhere where
+it would create less problems now here
+are a few practices which might help a
+plan ahead before you start modeling
+have a clear idea of the final shape you
+want to achieve planning helps you
+create an efficient and effective
+topology keep it simple start with
+something really low resolution which is
+easier to manage when the need arrives
+you can keep on detailing further use
+quads avoid endon keep a prined visual
+reference guide in front of you if it
+helps maintain a good Edge flow plan
+your Edge Loops to follow the natural
+flow of object this is crucial for
+deformation and helps in creating more
+realistic and predictable models use
+Edge Loops whenever you're detailing
+instead of creating any abrupt models or
+cuts which will destroy the topology try
+to use Loops which connect end to end
+and close properly this helps in
+maintaining a clean structure and
+prevents unnecessary complications for
+later also possibly producing more quad-
+based structure and practice with
+reference images use reference images
+blueprints to guide your modeling keep
+some printed guidelines and printouts in
+front of you and you can also visit few
+of the models on sketch Fab or maybe
+works by some other artist and see how
+they plan on their topology try to
+shuffle between between subdivision mod
+on and off to ensure a smooth and
+accurate representation what's going on
+behind the smooth surface it's also
+really important but remember practice
+is key to improving your skills in
+modeling don't be afraid to experiment
+and make mistakes so it's not going to
+be one day's task or you won't be able
+to memorize all these uh at this stage
+but it will become a second nature of
+you in fact by the time we are done with
+this tutorial you'll have much more
+better command on topology like I
+mentioned while the definitions do clear
+out a few things it's beneficial to
+observe things firsthand begin noticing
+patterns in your surroundings and
+examine structures of various objects
+think about a framework of car chassis
+what goes underneath the shiny surface
+of the car it might help you understand
+the loops of the heart surfaces better
+and when it comes to modeling a human
+phas could it be the flow of facial
+structure inspired it so just think
+about it as you engage in this
+observation you'll gradually discover
+various principles guiding your thoughts
+so next time you model something you
+won't be approaching it blank slate to
+illustrate this let's create a
+simplified head model for our character
+and observe how these Loop Works
+actually come into play so let's jump
+onto this video and we are going to
+create this simple head model this might
+not be the most detailed head but we are
+going to practice some of the topology
+modification in this part so I'll see
+you guys in the next
+chapter

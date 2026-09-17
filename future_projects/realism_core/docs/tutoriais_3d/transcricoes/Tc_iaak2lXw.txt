@@ -1,0 +1,964 @@
+Kind: captions
+Language: en
+Hi. Hello, guys. I'm back again. This
+Hi. Hello, guys. I'm back again. This
+Hi. Hello, guys. I'm back again. This
+time I'm going to show you how to make a
+time I'm going to show you how to make a
+time I'm going to show you how to make a
+3D open box transition. And not just
+3D open box transition. And not just
+3D open box transition. And not just
+that, I'll also show you how to edit
+that, I'll also show you how to edit
+that, I'll also show you how to edit
+shapes manually in a light motion. Super
+shapes manually in a light motion. Super
+shapes manually in a light motion. Super
+easy, I promise. But before we jump in,
+easy, I promise. But before we jump in,
+easy, I promise. But before we jump in,
+as usual, don't forget to remove the
+as usual, don't forget to remove the
+as usual, don't forget to remove the
+background of your photo first. I've
+background of your photo first. I've
+background of your photo first. I've
+already put the app link down in the
+already put the app link down in the
+already put the app link down in the
+description, so you can grab it there.
+description, so you can grab it there.
+description, so you can grab it there.
+But you guys can just Google it and
+But you guys can just Google it and
+But you guys can just Google it and
+search for remove background. Still, I
+search for remove background. Still, I
+search for remove background. Still, I
+recommend using the app because with it,
+recommend using the app because with it,
+recommend using the app because with it,
+your photo quality stays nice and sharp.
+your photo quality stays nice and sharp.
+your photo quality stays nice and sharp.
+No blurry disasters.
+No blurry disasters.
+No blurry disasters.
+All right, enough chitchat. Let's dive
+All right, enough chitchat. Let's dive
+All right, enough chitchat. Let's dive
+straight into the tutorial. If you guys
+straight into the tutorial. If you guys
+straight into the tutorial. If you guys
+just want to see the 3D part, feel free
+just want to see the 3D part, feel free
+just want to see the 3D part, feel free
+to skip this section. No hard feelings,
+to skip this section. No hard feelings,
+to skip this section. No hard feelings,
+okay? All you got to do is click the
+okay? All you got to do is click the
+okay? All you got to do is click the
+little pencil icon on the far left. Then
+little pencil icon on the far left. Then
+little pencil icon on the far left. Then
+adjust the size. Make sure the frame
+adjust the size. Make sure the frame
+adjust the size. Make sure the frame
+rate is 30fps and for the background,
+rate is 30fps and for the background,
+rate is 30fps and for the background,
+switch it to light gray so your photo
+switch it to light gray so your photo
+switch it to light gray so your photo
+pops out more. You know what I'm saying?
+pops out more. You know what I'm saying?
+pops out more. You know what I'm saying?
+So, in this first step, we're making the
+So, in this first step, we're making the
+So, in this first step, we're making the
+box design. Just follow along. Nothing
+box design. Just follow along. Nothing
+box design. Just follow along. Nothing
+complicated. We don't need any extra
+complicated. We don't need any extra
+complicated. We don't need any extra
+materials. is the basic shapes that are
+materials. is the basic shapes that are
+materials. is the basic shapes that are
+already here. You just need to mess
+already here. You just need to mess
+already here. You just need to mess
+around with them a bit. Okay, so start
+around with them a bit. Okay, so start
+around with them a bit. Okay, so start
+with a square, then stretch it to cover
+with a square, then stretch it to cover
+with a square, then stretch it to cover
+the whole canvas and change the color to
+the whole canvas and change the color to
+the whole canvas and change the color to
+light pink. If you're not sure which
+light pink. If you're not sure which
+light pink. If you're not sure which
+shade to use, I already made a color
+shade to use, I already made a color
+shade to use, I already made a color
+palette, so you can just copy it. And if
+palette, so you can just copy it. And if
+palette, so you can just copy it. And if
+you're confused how to turn it on, you
+you're confused how to turn it on, you
+you're confused how to turn it on, you
+can check at the end of the video. Just
+can check at the end of the video. Just
+can check at the end of the video. Just
+skip ahead real quick.
+After that turn on stroke and make it a
+After that turn on stroke and make it a
+After that turn on stroke and make it a
+darker shade.
+darker shade.
+darker shade.
+Then add another square.
+Then add another square.
+Then add another square.
+Go to the size settings that is X and
+Go to the size settings that is X and
+Go to the size settings that is X and
+stretch it until it looks long.
+I'm using 1,290 here. And for the
+I'm using 1,290 here. And for the
+I'm using 1,290 here. And for the
+thickness, I just used um 20.
+thickness, I just used um 20.
+thickness, I just used um 20.
+Then duplicate it.
+Move the copy a little bit down
+and select both layers to group them.
+and select both layers to group them.
+and select both layers to group them.
+Next, move that group up with move and
+Next, move that group up with move and
+Next, move that group up with move and
+transform.
+Then add a circle. Drag it to the top
+Then add a circle. Drag it to the top
+Then add a circle. Drag it to the top
+corner. Adjust the size and match the
+corner. Adjust the size and match the
+corner. Adjust the size and match the
+color.
+color.
+color.
+and then turn on stroke again.
+Go to color and fill and click the one
+Go to color and fill and click the one
+Go to color and fill and click the one
+on the top left. It'll remove the fill
+on the top left. It'll remove the fill
+on the top left. It'll remove the fill
+so only the outline stays. Duplicate it.
+so only the outline stays. Duplicate it.
+so only the outline stays. Duplicate it.
+And on one of the copiers, turn the fill
+And on one of the copiers, turn the fill
+And on one of the copiers, turn the fill
+back on the same way.
+Make it smaller so there's space between
+Make it smaller so there's space between
+Make it smaller so there's space between
+the outer line and the inner circle.
+Crop them. Duplicate and slide the copy
+Crop them. Duplicate and slide the copy
+Crop them. Duplicate and slide the copy
+to the left corner.
+Now add another rectangle. Make it
+Now add another rectangle. Make it
+Now add another rectangle. Make it
+horizontal.
+Move it up and adjust it.
+Move it up and adjust it.
+Move it up and adjust it.
+Add another rectangle inside. Make it
+Add another rectangle inside. Make it
+Add another rectangle inside. Make it
+wide.
+wide.
+wide.
+Resize it so it fits. No need to be
+Resize it so it fits. No need to be
+Resize it so it fits. No need to be
+exact. Disable it.
+exact. Disable it.
+exact. Disable it.
+Add another rectangle again. Make it
+Add another rectangle again. Make it
+Add another rectangle again. Make it
+yellow.
+yellow.
+yellow.
+Duplicate it, move it up, and change the
+Duplicate it, move it up, and change the
+Duplicate it, move it up, and change the
+color to blue.
+Resize however you like. Then duplicate
+Resize however you like. Then duplicate
+Resize however you like. Then duplicate
+again.
+again.
+again.
+Make it color. And one more thing, make
+Make it color. And one more thing, make
+Make it color. And one more thing, make
+it a dark pink.
+Hey,
+Hey,
+Hey,
+hey, hey.
+hey, hey.
+hey, hey.
+for the speakers. Just duplicate the
+for the speakers. Just duplicate the
+for the speakers. Just duplicate the
+circle we made earlier.
+circle we made earlier.
+circle we made earlier.
+Edit group. Change the colors. And you
+Edit group. Change the colors. And you
+Edit group. Change the colors. And you
+guys can see what I'm doing.
+Heat. Heat.
+Place them on both sides, right and
+Place them on both sides, right and
+Place them on both sides, right and
+left.
+Now the box is starting to look Like a
+Now the box is starting to look Like a
+Now the box is starting to look Like a
+radio.
+After that, add more rectangles with
+After that, add more rectangles with
+After that, add more rectangles with
+red, yellow, and blue. And also add a
+red, yellow, and blue. And also add a
+red, yellow, and blue. And also add a
+plus shape or whatever you want to call
+plus shape or whatever you want to call
+plus shape or whatever you want to call
+it.
+Hey,
+hey, hey.
+hey, hey.
+hey, hey.
+Save it to your gallery. And we're ready
+Save it to your gallery. And we're ready
+Save it to your gallery. And we're ready
+for the next step.
+for the next step.
+for the next step.
+Move the bottom layer all the way to the
+Move the bottom layer all the way to the
+Move the bottom layer all the way to the
+top until it covers everything. Once
+top until it covers everything. Once
+top until it covers everything. Once
+that's done, just save it as an image.
+Now let's continue with tutorial two.
+Now let's continue with tutorial two.
+Now let's continue with tutorial two.
+It's basically the same only the canvas
+It's basically the same only the canvas
+It's basically the same only the canvas
+size is different.
+size is different.
+size is different.
+Wait, I'm going to hop back into the
+Wait, I'm going to hop back into the
+Wait, I'm going to hop back into the
+first project so I can copy that bottom
+first project so I can copy that bottom
+first project so I can copy that bottom
+layer.
+After that, just paste it and adjust it
+After that, just paste it and adjust it
+After that, just paste it and adjust it
+to fit the new canvas. If the stroke
+to fit the new canvas. If the stroke
+to fit the new canvas. If the stroke
+looks too thick, go ahead and make it
+looks too thick, go ahead and make it
+looks too thick, go ahead and make it
+thinner.
+thinner.
+thinner.
+Duplicate the layer and follow my step.
+Okay. Now add another square shape. Turn
+Okay. Now add another square shape. Turn
+Okay. Now add another square shape. Turn
+on the stroke, but turn off the fill and
+on the stroke, but turn off the fill and
+on the stroke, but turn off the fill and
+in the middle. I don't know what that's
+in the middle. I don't know what that's
+in the middle. I don't know what that's
+called, so just follow along. Then add
+called, so just follow along. Then add
+called, so just follow along. Then add
+the tileless effect.
+Besides adjusting the size, I want to
+Besides adjusting the size, I want to
+Besides adjusting the size, I want to
+make it a bit smaller here. Don't forget
+make it a bit smaller here. Don't forget
+make it a bit smaller here. Don't forget
+to also reduce the stroke thickness so
+to also reduce the stroke thickness so
+to also reduce the stroke thickness so
+it's not too bold.
+Okay. And then add a rounded rectangle
+Okay. And then add a rounded rectangle
+Okay. And then add a rounded rectangle
+shape.
+shape.
+shape.
+Then adjust the X to 425. Keep the
+Then adjust the X to 425. Keep the
+Then adjust the X to 425. Keep the
+thickness the same, but change the
+thickness the same, but change the
+thickness the same, but change the
+radius to 115
+radius to 115
+radius to 115
+and make it wide.
+Then add some text. Just follow along
+Then add some text. Just follow along
+Then add some text. Just follow along
+with mine. I'm using the default font
+with mine. I'm using the default font
+with mine. I'm using the default font
+from the app.
+And don't ask me how to pronounce it. I
+And don't ask me how to pronounce it. I
+And don't ask me how to pronounce it. I
+don't know. Okay. And then change the
+don't know. Okay. And then change the
+don't know. Okay. And then change the
+color to black.
+After that, duplicate the text and
+After that, duplicate the text and
+After that, duplicate the text and
+change the text into your username.
+change the text into your username.
+change the text into your username.
+Switch the font to barure swash regular.
+Switch the font to barure swash regular.
+Switch the font to barure swash regular.
+I don't know.
+I don't know.
+I don't know.
+Adjust the font settings just like I do.
+Adjust the font settings just like I do.
+Adjust the font settings just like I do.
+Okay.
+Okay.
+Okay.
+Hey,
+Hey,
+Hey,
+hey, hey.
+be
+be
+be
+doo doo doo doo doo doo doo doo doo doo.
+doo doo doo doo doo doo doo doo doo doo.
+doo doo doo doo doo doo doo doo doo doo.
+When you're done, duplicate the white
+When you're done, duplicate the white
+When you're done, duplicate the white
+part at the bottom. Then group
+part at the bottom. Then group
+part at the bottom. Then group
+everything and slide it up.
+Now add the photo where the background
+Now add the photo where the background
+Now add the photo where the background
+is already removed. Zoom in as much as
+is already removed. Zoom in as much as
+is already removed. Zoom in as much as
+you need.
+Next, add a rectangle shape to fill the
+Next, add a rectangle shape to fill the
+Next, add a rectangle shape to fill the
+whole screen. Then change the color to
+whole screen. Then change the color to
+whole screen. Then change the color to
+light pink.
+Lower the opacity of your photo to about
+Lower the opacity of your photo to about
+Lower the opacity of your photo to about
+68%
+68%
+68%
+or more if you want. Then add a
+or more if you want. Then add a
+or more if you want. Then add a
+colorized effect. Adjust it so it blends
+colorized effect. Adjust it so it blends
+colorized effect. Adjust it so it blends
+nicely with the background.
+After that, add another photo that's
+After that, add another photo that's
+After that, add another photo that's
+similar. Then put a white border around
+similar. Then put a white border around
+similar. Then put a white border around
+it. If you want, you can also add a
+it. If you want, you can also add a
+it. If you want, you can also add a
+shadow.
+shadow.
+shadow.
+Now, let's add some heart shapes. Change
+Now, let's add some heart shapes. Change
+Now, let's add some heart shapes. Change
+the colors, duplicate them, and position
+the colors, duplicate them, and position
+the colors, duplicate them, and position
+them however you like. Some white, some
+them however you like. Some white, some
+them however you like. Some white, some
+pink.
+pink.
+pink.
+You give them that glowy effect. Just
+You give them that glowy effect. Just
+You give them that glowy effect. Just
+duplicate them. Apply gion blur and add
+duplicate them. Apply gion blur and add
+duplicate them. Apply gion blur and add
+lighten.
+lighten.
+lighten.
+Play around until it looks nice.
+Play around until it looks nice.
+Play around until it looks nice.
+Then it grow all the heart shapes and
+Then it grow all the heart shapes and
+Then it grow all the heart shapes and
+add shadows.
+add shadows.
+add shadows.
+Once that's done, shave it as an image
+Once that's done, shave it as an image
+Once that's done, shave it as an image
+as usual. If you don't want to lose it,
+as usual. If you don't want to lose it,
+as usual. If you don't want to lose it,
+but also don't wanted to keep it here,
+but also don't wanted to keep it here,
+but also don't wanted to keep it here,
+you can copy it into another project.
+you can copy it into another project.
+you can copy it into another project.
+But in my case, I'm just going to delete
+But in my case, I'm just going to delete
+But in my case, I'm just going to delete
+it.
+Now add the image you just saved. Make
+Now add the image you just saved. Make
+Now add the image you just saved. Make
+it smaller. Add a stroke.
+it smaller. Add a stroke.
+it smaller. Add a stroke.
+and use a rectangle to turn it into kind
+and use a rectangle to turn it into kind
+and use a rectangle to turn it into kind
+of a bend eight shape. Okay, that was
+of a bend eight shape. Okay, that was
+of a bend eight shape. Okay, that was
+like
+like
+like
+Then add a rounded rectangle on top.
+Then add a rounded rectangle on top.
+Then add a rounded rectangle on top.
+Just follow along and Okay.
+Hey,
+Hey,
+Hey,
+hey, hey.
+And that's it. Shave it to your gallery
+And that's it. Shave it to your gallery
+And that's it. Shave it to your gallery
+as a photo, not as in video. Okay.
+as a photo, not as in video. Okay.
+as a photo, not as in video. Okay.
+All right. Don't leave. Stay inside the
+All right. Don't leave. Stay inside the
+All right. Don't leave. Stay inside the
+same project we were working on. Move
+same project we were working on. Move
+same project we were working on. Move
+the bottom layer all the way to the top
+the bottom layer all the way to the top
+the bottom layer all the way to the top
+and edit the text.
+and edit the text.
+and edit the text.
+I'm only changing the color here. So,
+I'm only changing the color here. So,
+I'm only changing the color here. So,
+just follow along.
+Heat. Heat. N.
+After that go back and create new
+After that go back and create new
+After that go back and create new
+project.
+project.
+project.
+Add two photos, one original and one
+Add two photos, one original and one
+Add two photos, one original and one
+where the background has already been
+where the background has already been
+where the background has already been
+removed.
+removed.
+removed.
+Zoom in on the background photo.
+Zoom in on the background photo.
+Zoom in on the background photo.
+Then add a pink rectangle shape. Stretch
+Then add a pink rectangle shape. Stretch
+Then add a pink rectangle shape. Stretch
+it to cover the whole canvas and lower
+it to cover the whole canvas and lower
+it to cover the whole canvas and lower
+the opacity.
+Now add a border to the cut out photo.
+Now add a border to the cut out photo.
+Now add a border to the cut out photo.
+The one without the background.
+The one without the background.
+The one without the background.
+Duplicate the layer.
+Duplicate it and add the wipe effect
+on one of the duplicate. Change the
+on one of the duplicate. Change the
+on one of the duplicate. Change the
+start to 50 present.
+start to 50 present.
+start to 50 present.
+Then change the border color to yellow.
+Then change the border color to yellow.
+Then change the border color to yellow.
+Next, add a circle shape and apply the
+Next, add a circle shape and apply the
+Next, add a circle shape and apply the
+fractal warp effect.
+For the settings, just copy the ones I'm
+For the settings, just copy the ones I'm
+For the settings, just copy the ones I'm
+using on the side
+using on the side
+using on the side
+right there.
+After that, add a triangle shape. Turn
+After that, add a triangle shape. Turn
+After that, add a triangle shape. Turn
+on the stroke and apply the tus effect
+on the stroke and apply the tus effect
+on the stroke and apply the tus effect
+again. Adjust the crop offset and spin
+again. Adjust the crop offset and spin
+again. Adjust the crop offset and spin
+settings until you like how it looks.
+up.
+Now add text using the same font as
+Now add text using the same font as
+Now add text using the same font as
+before.
+Duplicate the text. Then add the stripes
+Duplicate the text. Then add the stripes
+Duplicate the text. Then add the stripes
+effect.
+effect.
+effect.
+Make the stripes a mix of pink shades,
+Make the stripes a mix of pink shades,
+Make the stripes a mix of pink shades,
+lighter and darker alternative colors.
+lighter and darker alternative colors.
+lighter and darker alternative colors.
+For the text underneath, turn on stroke
+For the text underneath, turn on stroke
+For the text underneath, turn on stroke
+and set the color to pink.
+and set the color to pink.
+and set the color to pink.
+Duplicate it again, but this time make
+Duplicate it again, but this time make
+Duplicate it again, but this time make
+the stroke thicker and change it to a
+the stroke thicker and change it to a
+the stroke thicker and change it to a
+lighter pink.
+Add a shadow to with full alpha also in
+Add a shadow to with full alpha also in
+Add a shadow to with full alpha also in
+pink.
+group everything and adjust the
+group everything and adjust the
+group everything and adjust the
+position.
+position.
+position.
+Duplicate the text again and play around
+Duplicate the text again and play around
+Duplicate the text again and play around
+with the colors so it's not all the
+with the colors so it's not all the
+with the colors so it's not all the
+same.
+same.
+same.
+To give it a glowing effect, just
+To give it a glowing effect, just
+To give it a glowing effect, just
+duplicate it once more and add caution
+duplicate it once more and add caution
+duplicate it once more and add caution
+blur.
+When you're done, save it to your
+When you're done, save it to your
+When you're done, save it to your
+gallery.
+Now go back to the previous project that
+Now go back to the previous project that
+Now go back to the previous project that
+we left earlier. Add the image you just
+we left earlier. Add the image you just
+we left earlier. Add the image you just
+saved. Turn on stroke.
+Adjust the position.
+And that's it. Save it again and you're
+And that's it. Save it again and you're
+And that's it. Save it again and you're
+done.
+Now, if that's done, let's move straight
+Now, if that's done, let's move straight
+Now, if that's done, let's move straight
+to the 3D transition tutorial. Import
+to the 3D transition tutorial. Import
+to the 3D transition tutorial. Import
+your photo. Then add the hello box
+your photo. Then add the hello box
+your photo. Then add the hello box
+effect. Set it like I wrote above.
+effect. Set it like I wrote above.
+effect. Set it like I wrote above.
+Turn on stretch and then change the
+Turn on stretch and then change the
+Turn on stretch and then change the
+shading to flat.
+shading to flat.
+shading to flat.
+And for the thickness is 0.1.
+Change the width to 155,
+Change the width to 155,
+Change the width to 155,
+the height to 126.
+And for the scale, just zoom it in
+And for the scale, just zoom it in
+And for the scale, just zoom it in
+first.
+first.
+first.
+roti.
+And for the rotation on the yaxis,
+And for the rotation on the yaxis,
+And for the rotation on the yaxis,
+change it to 90
+change it to 90
+change it to 90
+on the position exactly on the Y. Just
+on the position exactly on the Y. Just
+on the position exactly on the Y. Just
+adjust it. For me, I want it to be 127.
+adjust it. For me, I want it to be 127.
+adjust it. For me, I want it to be 127.
+After that, go into move and transform
+After that, go into move and transform
+After that, go into move and transform
+because we're making the transition end.
+because we're making the transition end.
+because we're making the transition end.
+Add a K frame on the right and left. On
+Add a K frame on the right and left. On
+Add a K frame on the right and left. On
+the left K frame, zoom it and add a
+the left K frame, zoom it and add a
+the left K frame, zoom it and add a
+curve in the middle. For the bit point,
+curve in the middle. For the bit point,
+curve in the middle. For the bit point,
+just match it with your direction. Okay.
+Go back to the hollow box effect again.
+Go back to the hollow box effect again.
+Go back to the hollow box effect again.
+on the scale add a cave rim on the right
+on the scale add a cave rim on the right
+on the scale add a cave rim on the right
+and left but in the middle add a B
+and left but in the middle add a B
+and left but in the middle add a B
+point. So basically it covers three
+point. So basically it covers three
+point. So basically it covers three
+beads. After that change it to 265.
+beads. After that change it to 265.
+beads. After that change it to 265.
+Put the curve in the middle but this
+Put the curve in the middle but this
+Put the curve in the middle but this
+time use a different curve. Then just
+time use a different curve. Then just
+time use a different curve. Then just
+copy the curve.
+copy the curve.
+copy the curve.
+Under the position, add K rams to same
+Under the position, add K rams to same
+Under the position, add K rams to same
+as scale. Change it to 90 and paste the
+as scale. Change it to 90 and paste the
+as scale. Change it to 90 and paste the
+curve.
+Now on rotation add key frames too. Same
+Now on rotation add key frames too. Same
+Now on rotation add key frames too. Same
+placement
+placement
+placement
+on the left side for the Y change it.
+Paste the same curve.
+Paste the same curve.
+Paste the same curve.
+Continue to orientation. On part B, add
+Continue to orientation. On part B, add
+Continue to orientation. On part B, add
+KM 2. On the left, change it to 90. It's
+KM 2. On the left, change it to 90. It's
+KM 2. On the left, change it to 90. It's
+kind of alternative but hard to explain.
+kind of alternative but hard to explain.
+kind of alternative but hard to explain.
+Basically, you just stuck the K rims in
+Basically, you just stuck the K rims in
+Basically, you just stuck the K rims in
+different settings so they still go in
+different settings so they still go in
+different settings so they still go in
+together.
+together.
+together.
+Back again to rotation here. Just add
+Back again to rotation here. Just add
+Back again to rotation here. Just add
+another key rim at the corner and change
+another key rim at the corner and change
+another key rim at the corner and change
+it to 90.
+Paste the same curve.
+Paste the same curve.
+Paste the same curve.
+It's That's done. Duplicate and replace
+It's That's done. Duplicate and replace
+It's That's done. Duplicate and replace
+the photo.
+Adjust it and disable all sides except
+Adjust it and disable all sides except
+Adjust it and disable all sides except
+the top.
+Okay, now for rotation and the others.
+Okay, now for rotation and the others.
+Okay, now for rotation and the others.
+Just play with it until it looks like
+Just play with it until it looks like
+Just play with it until it looks like
+the box is opening. For the rotation,
+the box is opening. For the rotation,
+the box is opening. For the rotation,
+I'm changing it to min.
+I'm changing it to min.
+I'm changing it to min.
+Add the last cave room.
+Paste the curve
+for the position adjust it. I'm changing
+for the position adjust it. I'm changing
+for the position adjust it. I'm changing
+the Y to 140.
+the Y to 140.
+the Y to 140.
+If it's too confusing, just follow the
+If it's too confusing, just follow the
+If it's too confusing, just follow the
+formula on the side. It already has the
+formula on the side. It already has the
+formula on the side. It already has the
+exact number
+exact number
+exact number
+here. You just need to play smart with
+here. You just need to play smart with
+here. You just need to play smart with
+the curves.
+the curves.
+the curves.
+Do
+Do
+Do
+it.
+After that, just replace the photo.
+After that, just replace the photo.
+After that, just replace the photo.
+Wait, let's go back for a bit.
+Wait, let's go back for a bit.
+Wait, let's go back for a bit.
+Okay, guys. Here's a tip. So, your photo
+Okay, guys. Here's a tip. So, your photo
+Okay, guys. Here's a tip. So, your photo
+match the right size. Import the photos
+match the right size. Import the photos
+match the right size. Import the photos
+you already edit earlier with the sizes
+you already edit earlier with the sizes
+you already edit earlier with the sizes
+I mentioned at the very beginning. Just
+I mentioned at the very beginning. Just
+I mentioned at the very beginning. Just
+put in the ones that look more
+put in the ones that look more
+put in the ones that look more
+stretched. Save them. But basically, if
+stretched. Save them. But basically, if
+stretched. Save them. But basically, if
+the shape is longer and different from
+the shape is longer and different from
+the shape is longer and different from
+the box, just stretch it to fit. Replace
+the box, just stretch it to fit. Replace
+the box, just stretch it to fit. Replace
+the photo with the right position. Okay.
+the photo with the right position. Okay.
+the photo with the right position. Okay.
+Now, just follow along.
+After replacing some of the photos where
+After replacing some of the photos where
+After replacing some of the photos where
+you need to switch the sides, pay really
+you need to switch the sides, pay really
+you need to switch the sides, pay really
+close attention to this part. Okay, this
+close attention to this part. Okay, this
+close attention to this part. Okay, this
+step is a bit tricky, so just focus and
+step is a bit tricky, so just focus and
+step is a bit tricky, so just focus and
+follow along slowly. I do want to
+follow along slowly. I do want to
+follow along slowly. I do want to
+explain it in the tile, but I'm afraid
+explain it in the tile, but I'm afraid
+explain it in the tile, but I'm afraid
+it might distract you instead. So, it's
+it might distract you instead. So, it's
+it might distract you instead. So, it's
+better if you just carefully follow the
+better if you just carefully follow the
+better if you just carefully follow the
+steps one by one, nice and slow. Okay.
+steps one by one, nice and slow. Okay.
+steps one by one, nice and slow. Okay.
+Hey, hey, hey.
+Hey, hey, hey.
+Hey, hey, hey.
+Hey, hey, hey.
+Hey, hey, hey.
+Hey, hey, hey.
+down.
+Hey
+Are you
+Are you
+Are you
+Hey, hey, hey.
+Okay. Now, if that's done, add one photo
+Okay. Now, if that's done, add one photo
+Okay. Now, if that's done, add one photo
+where the background has already been
+where the background has already been
+where the background has already been
+removed. After that, apply the flip
+removed. After that, apply the flip
+removed. After that, apply the flip
+plier effect and also add a border.
+plier effect and also add a border.
+plier effect and also add a border.
+That's it. Just follow along with me
+That's it. Just follow along with me
+That's it. Just follow along with me
+here. Okay.
+here. Okay.
+here. Okay.
+Hey, Hey, hey, hey.
+Hey, Hey, hey, hey.
+Hey, Hey, hey, hey.
+Doo
+doo doo doo doo doo doo doo doo doo doo.
+Heat. Heat.
+Heat. Heat.
+Heat. Heat.
+This is the final step. Now you're free
+This is the final step. Now you're free
+This is the final step. Now you're free
+to add any background you like. For me,
+to add any background you like. For me,
+to add any background you like. For me,
+I already have mine ready, but if you
+I already have mine ready, but if you
+I already have mine ready, but if you
+want your background to look the same as
+want your background to look the same as
+want your background to look the same as
+mine, you can use the preset I've shared
+mine, you can use the preset I've shared
+mine, you can use the preset I've shared
+for you.
+And that's it, guys. We're done. Thanks
+And that's it, guys. We're done. Thanks
+And that's it, guys. We're done. Thanks
+so much for sticking around till the
+so much for sticking around till the
+so much for sticking around till the
+end, and I hope you had fun editing with
+end, and I hope you had fun editing with
+end, and I hope you had fun editing with
+me today. Don't forget to try it out
+me today. Don't forget to try it out
+me today. Don't forget to try it out
+with your own photos and make it your
+with your own photos and make it your
+with your own photos and make it your
+style. If you liked this tutorial, give
+style. If you liked this tutorial, give
+style. If you liked this tutorial, give
+it a thumbs up, drop a comment, and
+it a thumbs up, drop a comment, and
+it a thumbs up, drop a comment, and
+maybe share what you made. I'd love to
+maybe share what you made. I'd love to
+maybe share what you made. I'd love to
+see it. See you in the next one. Bye.

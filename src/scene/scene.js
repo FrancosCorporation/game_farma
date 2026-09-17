@@ -9,7 +9,7 @@ export function createScene(canvas) {
   renderer.shadowMap.type = THREE.PCFSoftShadowMap;
   renderer.outputColorSpace = THREE.SRGBColorSpace;
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
-  renderer.toneMappingExposure = 1.15;
+  renderer.toneMappingExposure = 0.82;
 
   const scene = new THREE.Scene();
   scene.background = new THREE.Color(0x0d1219);
@@ -20,18 +20,18 @@ export function createScene(canvas) {
   camera.position.set(0, 1.62, 2.7);
   camera.lookAt(0, 1.38, 0);
 
-  // Iluminação "loja de farmácia": ambiente frio + chave quente
-  scene.add(new THREE.HemisphereLight(0xdfe9f5, 0x2a2622, 0.9));
-  const key = new THREE.DirectionalLight(0xfff2e0, 1.8);
+  // Iluminação "loja de farmácia": ambiente frio + chave quente (valores contidos p/ não estourar)
+  scene.add(new THREE.HemisphereLight(0xdfe9f5, 0x2a2622, 0.45));
+  const key = new THREE.DirectionalLight(0xfff2e0, 1.05);
   key.position.set(2.5, 5.5, 6);
   key.castShadow = true;
   key.shadow.mapSize.set(1024, 1024);
   Object.assign(key.shadow.camera, { left: -9, right: 9, top: 9, bottom: -9 });
   scene.add(key);
-  const fill = new THREE.PointLight(0x9fd8ff, 10, 20);
+  const fill = new THREE.PointLight(0x9fd8ff, 0.8, 20);
   fill.position.set(-4, 3.2, -2);
   scene.add(fill);
-  const warm = new THREE.PointLight(0xffd9a0, 6, 12);
+  const warm = new THREE.PointLight(0xffd9a0, 0.55, 12);
   warm.position.set(2, 2.6, 1);
   scene.add(warm);
 

@@ -1,0 +1,2827 @@
+Kind: captions
+Language: en
+what's going on guys welcome back to
+what's going on guys welcome back to
+what's going on guys welcome back to
+another video today one of my favorite
+another video today one of my favorite
+another video today one of my favorite
+tutorials i've ever made one of my
+tutorials i've ever made one of my
+tutorials i've ever made one of my
+favorite things i'm so excited to teach
+favorite things i'm so excited to teach
+favorite things i'm so excited to teach
+you about we're gonna be creating 3d
+you about we're gonna be creating 3d
+you about we're gonna be creating 3d
+characters you may be asking yourself
+characters you may be asking yourself
+characters you may be asking yourself
+why do i need to create a 3d character
+why do i need to create a 3d character
+why do i need to create a 3d character
+learning the skill opens up so many
+learning the skill opens up so many
+learning the skill opens up so many
+different doors of opportunity you can
+different doors of opportunity you can
+different doors of opportunity you can
+create album art doing this you can
+create album art doing this you can
+create album art doing this you can
+create animations for your music videos
+create animations for your music videos
+create animations for your music videos
+or any other videos with your 3d
+or any other videos with your 3d
+or any other videos with your 3d
+characters you can even 3d print the
+characters you can even 3d print the
+characters you can even 3d print the
+models that you design and have physical
+models that you design and have physical
+models that you design and have physical
+collectibles you can sell them as nfts
+collectibles you can sell them as nfts
+collectibles you can sell them as nfts
+whatever it's all up to you i think it's
+whatever it's all up to you i think it's
+whatever it's all up to you i think it's
+a great money maker i think it's fun i
+a great money maker i think it's fun i
+a great money maker i think it's fun i
+think you can really get creative with
+think you can really get creative with
+think you can really get creative with
+this first we're going to start with
+this first we're going to start with
+this first we're going to start with
+some inspiration i want to show you guys
+some inspiration i want to show you guys
+some inspiration i want to show you guys
+some examples beautiful thing about this
+some examples beautiful thing about this
+some examples beautiful thing about this
+you don't have to create it in the style
+you don't have to create it in the style
+you don't have to create it in the style
+that i'm going to show you there's many
+that i'm going to show you there's many
+that i'm going to show you there's many
+different styles there's many different
+different styles there's many different
+different styles there's many different
+ways where you guys can really create
+ways where you guys can really create
+ways where you guys can really create
+some cool stuff we're going to be trying
+some cool stuff we're going to be trying
+some cool stuff we're going to be trying
+to create a 3d juice world i really
+to create a 3d juice world i really
+to create a 3d juice world i really
+really love how a lot of these look
+really love how a lot of these look
+really love how a lot of these look
+you can really get some like interesting
+you can really get some like interesting
+you can really get some like interesting
+stylistic cartoon designs this guy is
+stylistic cartoon designs this guy is
+stylistic cartoon designs this guy is
+nick baron i'm going to leave his
+nick baron i'm going to leave his
+nick baron i'm going to leave his
+instagram down below uh he creates some
+instagram down below uh he creates some
+instagram down below uh he creates some
+really amazing stuff everything from
+really amazing stuff everything from
+really amazing stuff everything from
+nfts
+nfts
+nfts
+different album artwork different little
+different album artwork different little
+different album artwork different little
+stylistic animations
+stylistic animations
+stylistic animations
+this one's showing mac miller in
+this one's showing mac miller in
+this one's showing mac miller in
+different styles really cool you guys
+different styles really cool you guys
+different styles really cool you guys
+can of course build on this i'm going to
+can of course build on this i'm going to
+can of course build on this i'm going to
+show you the absolute basics for getting
+show you the absolute basics for getting
+show you the absolute basics for getting
+started here's another awesome guy kat
+started here's another awesome guy kat
+started here's another awesome guy kat
+yum i'm pretty sure he's worked with rip
+yum i'm pretty sure he's worked with rip
+yum i'm pretty sure he's worked with rip
+and dip before so he's done this in like
+and dip before so he's done this in like
+and dip before so he's done this in like
+commercial aspects here you can see the
+commercial aspects here you can see the
+commercial aspects here you can see the
+3d creation with trippy red holding it
+3d creation with trippy red holding it
+3d creation with trippy red holding it
+so again really cool really fun let's
+so again really cool really fun let's
+so again really cool really fun let's
+dive in and show you exactly how you can
+dive in and show you exactly how you can
+dive in and show you exactly how you can
+do it yourself for free using blender
+do it yourself for free using blender
+do it yourself for free using blender
+and before we dive in as always i do
+and before we dive in as always i do
+and before we dive in as always i do
+want to say if you're new here consider
+want to say if you're new here consider
+want to say if you're new here consider
+subscribing slap a like on the video if
+subscribing slap a like on the video if
+subscribing slap a like on the video if
+you do enjoy means a huge amount to me
+you do enjoy means a huge amount to me
+you do enjoy means a huge amount to me
+with the youtube algorithm comment down
+with the youtube algorithm comment down
+with the youtube algorithm comment down
+below anything you'd like to see next
+below anything you'd like to see next
+below anything you'd like to see next
+let's get started if you guys don't have
+let's get started if you guys don't have
+let's get started if you guys don't have
+blender installed go ahead and install
+blender installed go ahead and install
+blender installed go ahead and install
+it the link will be down below like i
+it the link will be down below like i
+it the link will be down below like i
+mentioned earlier 100 free we're not
+mentioned earlier 100 free we're not
+mentioned earlier 100 free we're not
+using any plug-ins we're going to keep
+using any plug-ins we're going to keep
+using any plug-ins we're going to keep
+it all beginner-friendly once you're in
+it all beginner-friendly once you're in
+it all beginner-friendly once you're in
+blender we of course need our base mesh
+blender we of course need our base mesh
+blender we of course need our base mesh
+this is a big step for determining the
+this is a big step for determining the
+this is a big step for determining the
+style of your character you guys have
+style of your character you guys have
+style of your character you guys have
+two options here option number one you
+two options here option number one you
+two options here option number one you
+can completely start from scratch and
+can completely start from scratch and
+can completely start from scratch and
+you can model your own base mesh or
+you can model your own base mesh or
+you can model your own base mesh or
+option number two you can just download
+option number two you can just download
+option number two you can just download
+any free cartoony base mesh yourself you
+any free cartoony base mesh yourself you
+any free cartoony base mesh yourself you
+can search for any of those base meshes
+can search for any of those base meshes
+can search for any of those base meshes
+on something like cg trader on
+on something like cg trader on
+on something like cg trader on
+turbosquid there's tons of free ones
+turbosquid there's tons of free ones
+turbosquid there's tons of free ones
+i'll leave a link to the free one i use
+i'll leave a link to the free one i use
+i'll leave a link to the free one i use
+below
+below
+below
+and of course if you want to do it all
+and of course if you want to do it all
+and of course if you want to do it all
+from scratch i'll leave some tutorials
+from scratch i'll leave some tutorials
+from scratch i'll leave some tutorials
+where you can set up reference pictures
+where you can set up reference pictures
+where you can set up reference pictures
+and fully craft it all starting from
+and fully craft it all starting from
+and fully craft it all starting from
+nothing i think the base mesh is just a
+nothing i think the base mesh is just a
+nothing i think the base mesh is just a
+bit easier a it saves you time we can
+bit easier a it saves you time we can
+bit easier a it saves you time we can
+customize the base mesh to our liking in
+customize the base mesh to our liking in
+customize the base mesh to our liking in
+a bit to fit our needs if you're
+a bit to fit our needs if you're
+a bit to fit our needs if you're
+planning on making multiple different
+planning on making multiple different
+planning on making multiple different
+versions it's nice to just have a base
+versions it's nice to just have a base
+versions it's nice to just have a base
+mesh ready to go so choose your option
+mesh ready to go so choose your option
+mesh ready to go so choose your option
+here i'm going to start off with my base
+here i'm going to start off with my base
+here i'm going to start off with my base
+mesh here so once you've installed that
+mesh here so once you've installed that
+mesh here so once you've installed that
+for free using the link below i'm going
+for free using the link below i'm going
+for free using the link below i'm going
+to go ahead and click file import and
+to go ahead and click file import and
+to go ahead and click file import and
+i'm going to import in our fbx they're
+i'm going to import in our fbx they're
+i'm going to import in our fbx they're
+going to give you two options here the
+going to give you two options here the
+going to give you two options here the
+high poly and the low poly we're going
+high poly and the low poly we're going
+high poly and the low poly we're going
+to go with the low poly because we're
+to go with the low poly because we're
+to go with the low poly because we're
+going to customize a bunch of this we
+going to customize a bunch of this we
+going to customize a bunch of this we
+don't want tons of information and
+don't want tons of information and
+don't want tons of information and
+polygons so here's our base mesh if i
+polygons so here's our base mesh if i
+polygons so here's our base mesh if i
+zoom in here you can tell everything
+zoom in here you can tell everything
+zoom in here you can tell everything
+doesn't look as smooth to make
+doesn't look as smooth to make
+doesn't look as smooth to make
+everything a bit more smooth with our
+everything a bit more smooth with our
+everything a bit more smooth with our
+base mesh selected we're going to go
+base mesh selected we're going to go
+base mesh selected we're going to go
+down to the object data properties
+down to the object data properties
+down to the object data properties
+and under the normal section here we're
+and under the normal section here we're
+and under the normal section here we're
+just going to check off auto smooth and
+just going to check off auto smooth and
+just going to check off auto smooth and
+you should see everything look a lot
+you should see everything look a lot
+you should see everything look a lot
+more clay-like so now let's get into our
+more clay-like so now let's get into our
+more clay-like so now let's get into our
+creative phase let's figure out what
+creative phase let's figure out what
+creative phase let's figure out what
+we're going to be designing and start
+we're going to be designing and start
+we're going to be designing and start
+getting a overall vision of what it will
+getting a overall vision of what it will
+getting a overall vision of what it will
+look like to make this easier i
+look like to make this easier i
+look like to make this easier i
+recommend you use reference images so
+recommend you use reference images so
+recommend you use reference images so
+we're going to try and create juice
+we're going to try and create juice
+we're going to try and create juice
+world from the armed and dangerous video
+world from the armed and dangerous video
+world from the armed and dangerous video
+i went on google images and i just saved
+i went on google images and i just saved
+i went on google images and i just saved
+this reference picture here it also
+this reference picture here it also
+this reference picture here it also
+shows the clothing he's wearing which
+shows the clothing he's wearing which
+shows the clothing he's wearing which
+will be useful later when we go in and
+will be useful later when we go in and
+will be useful later when we go in and
+design that to bring that into blender
+design that to bring that into blender
+design that to bring that into blender
+as a reference if you go up to edit in
+as a reference if you go up to edit in
+as a reference if you go up to edit in
+preferences and go on to the add-on
+preferences and go on to the add-on
+preferences and go on to the add-on
+section you guys can search for import
+section you guys can search for import
+section you guys can search for import
+images as planes go ahead and check that
+images as planes go ahead and check that
+images as planes go ahead and check that
+on and then all you have to do is go up
+on and then all you have to do is go up
+on and then all you have to do is go up
+to file
+to file
+to file
+import and then click images as planes
+import and then click images as planes
+import and then click images as planes
+find your reference image and import
+find your reference image and import
+find your reference image and import
+that in to see the image on your plane
+that in to see the image on your plane
+that in to see the image on your plane
+you want to change to the viewport
+you want to change to the viewport
+you want to change to the viewport
+shading mode in the top right
+shading mode in the top right
+shading mode in the top right
+and with that plane selected if you need
+and with that plane selected if you need
+and with that plane selected if you need
+to rotate just go ahead and click that
+to rotate just go ahead and click that
+to rotate just go ahead and click that
+orange square the object properties and
+orange square the object properties and
+orange square the object properties and
+you can change any of those values to
+you can change any of those values to
+you can change any of those values to
+align it properly you can place that in
+align it properly you can place that in
+align it properly you can place that in
+your scene just by selecting it and
+your scene just by selecting it and
+your scene just by selecting it and
+clicking g to move it around you can
+clicking g to move it around you can
+clicking g to move it around you can
+click s to scale it down now we have a
+click s to scale it down now we have a
+click s to scale it down now we have a
+good little reference setup a good
+good little reference setup a good
+good little reference setup a good
+workstation to start designing our
+workstation to start designing our
+workstation to start designing our
+character so let's start off by adding
+character so let's start off by adding
+character so let's start off by adding
+in our eyes in object mode we're going
+in our eyes in object mode we're going
+in our eyes in object mode we're going
+to click shift a and then we're going to
+to click shift a and then we're going to
+to click shift a and then we're going to
+add in a sphere
+add in a sphere
+add in a sphere
+you can scale and move the sphere around
+you can scale and move the sphere around
+you can scale and move the sphere around
+using g in s and position it on the face
+using g in s and position it on the face
+using g in s and position it on the face
+where the eyes would be once you have
+where the eyes would be once you have
+where the eyes would be once you have
+that first eye in place we can select
+that first eye in place we can select
+that first eye in place we can select
+that sphere click ctrl c and ctrl v to
+that sphere click ctrl c and ctrl v to
+that sphere click ctrl c and ctrl v to
+copy and paste it and then move that
+copy and paste it and then move that
+copy and paste it and then move that
+duplication over into position as our
+duplication over into position as our
+duplication over into position as our
+second eye to smooth the eye out just
+second eye to smooth the eye out just
+second eye to smooth the eye out just
+select the object go up to that little
+select the object go up to that little
+select the object go up to that little
+object tab in the top left and go to
+object tab in the top left and go to
+object tab in the top left and go to
+shade smooth
+so pay attention to the steps that we
+so pay attention to the steps that we
+so pay attention to the steps that we
+just did because it's an important
+just did because it's an important
+just did because it's an important
+concept for the rest of this workflow
+concept for the rest of this workflow
+concept for the rest of this workflow
+we're adding in different basic objects
+we're adding in different basic objects
+we're adding in different basic objects
+and then manipulating them to fit our
+and then manipulating them to fit our
+and then manipulating them to fit our
+character i'll dive into this a bit more
+character i'll dive into this a bit more
+character i'll dive into this a bit more
+once we get into making more complex
+once we get into making more complex
+once we get into making more complex
+facial features and i'll tell you about
+facial features and i'll tell you about
+facial features and i'll tell you about
+my three-step process for modeling
+my three-step process for modeling
+my three-step process for modeling
+anything from scratch so stay tuned for
+anything from scratch so stay tuned for
+anything from scratch so stay tuned for
+now let's just keep working with the
+now let's just keep working with the
+now let's just keep working with the
+basics so let's add in some materials
+basics so let's add in some materials
+basics so let's add in some materials
+and we'll start with the skin so select
+and we'll start with the skin so select
+and we'll start with the skin so select
+our base mesh we're going to go down to
+our base mesh we're going to go down to
+our base mesh we're going to go down to
+our material properties tab and we're
+our material properties tab and we're
+our material properties tab and we're
+just going to click the little plus sign
+just going to click the little plus sign
+just going to click the little plus sign
+to create a new material you can double
+to create a new material you can double
+to create a new material you can double
+click and name that skin
+click and name that skin
+click and name that skin
+so under base color just click on it
+so under base color just click on it
+so under base color just click on it
+because we have that reference image
+because we have that reference image
+because we have that reference image
+already pulled up we can just click the
+already pulled up we can just click the
+already pulled up we can just click the
+little eyedropper tool select the exact
+little eyedropper tool select the exact
+little eyedropper tool select the exact
+skin color easy as that
+skin color easy as that
+skin color easy as that
+so great let's go back to the eyes for a
+so great let's go back to the eyes for a
+so great let's go back to the eyes for a
+second and we're going to add in some
+second and we're going to add in some
+second and we're going to add in some
+pupils i'm going to click shift a and
+pupils i'm going to click shift a and
+pupils i'm going to click shift a and
+then add in another sphere we're going
+then add in another sphere we're going
+then add in another sphere we're going
+to select that pupil object and in the
+to select that pupil object and in the
+to select that pupil object and in the
+object data properties so that little
+object data properties so that little
+object data properties so that little
+tab with the orange square under scale
+tab with the orange square under scale
+tab with the orange square under scale
+we're just going to squash the sphere a
+we're just going to squash the sphere a
+we're just going to squash the sphere a
+little bit by changing one of those
+little bit by changing one of those
+little bit by changing one of those
+scale values so it's more oval shaped
+scale values so it's more oval shaped
+scale values so it's more oval shaped
+and then we can click g and s to scale
+and then we can click g and s to scale
+and then we can click g and s to scale
+and position it over top of the eye
+and position it over top of the eye
+and position it over top of the eye
+where we want it you also want to make a
+where we want it you also want to make a
+where we want it you also want to make a
+material for the pupil so select it go
+material for the pupil so select it go
+material for the pupil so select it go
+to your material properties click the
+to your material properties click the
+to your material properties click the
+plus sign and make a new material and
+plus sign and make a new material and
+plus sign and make a new material and
+name it pupil and then just change the
+name it pupil and then just change the
+name it pupil and then just change the
+base color to black go ahead and click
+base color to black go ahead and click
+base color to black go ahead and click
+ctrl c ctrl v with that pupil selected
+ctrl c ctrl v with that pupil selected
+ctrl c ctrl v with that pupil selected
+and then by clicking g just move the
+and then by clicking g just move the
+and then by clicking g just move the
+duplicated pupil over to the second eye
+duplicated pupil over to the second eye
+duplicated pupil over to the second eye
+so now let's add in some eyebrows using
+so now let's add in some eyebrows using
+so now let's add in some eyebrows using
+similar steps to what we just did before
+similar steps to what we just did before
+similar steps to what we just did before
+i'm going to click shift a and this time
+i'm going to click shift a and this time
+i'm going to click shift a and this time
+i'm going to add in a cylinder
+i'm going to add in a cylinder
+i'm going to add in a cylinder
+so again just like we did with the eye
+so again just like we did with the eye
+so again just like we did with the eye
+you can position it using g you can
+you can position it using g you can
+you can position it using g you can
+scale it using s go to your material
+scale it using s go to your material
+scale it using s go to your material
+properties and create a little eyebrow
+properties and create a little eyebrow
+properties and create a little eyebrow
+material
+material
+material
+so again just like before material
+so again just like before material
+so again just like before material
+properties plus sign to make a new one
+properties plus sign to make a new one
+properties plus sign to make a new one
+choose your base color duplicate that to
+choose your base color duplicate that to
+choose your base color duplicate that to
+add the second one once you have those
+add the second one once you have those
+add the second one once you have those
+two eyebrows and you're good to go so
+two eyebrows and you're good to go so
+two eyebrows and you're good to go so
+you have the basics of modeling down
+you have the basics of modeling down
+you have the basics of modeling down
+just using those primitive objects and
+just using those primitive objects and
+just using those primitive objects and
+positioning them where you want what if
+positioning them where you want what if
+positioning them where you want what if
+you want to create something a little
+you want to create something a little
+you want to create something a little
+bit more complex for example our facial
+bit more complex for example our facial
+bit more complex for example our facial
+hair there's only so far circles cubes
+hair there's only so far circles cubes
+hair there's only so far circles cubes
+and cylinders can take you so let me
+and cylinders can take you so let me
+and cylinders can take you so let me
+show you the three-step method that's
+show you the three-step method that's
+show you the three-step method that's
+gonna make modeling anything extremely
+gonna make modeling anything extremely
+gonna make modeling anything extremely
+simple like before in object mode we're
+simple like before in object mode we're
+simple like before in object mode we're
+gonna click shift a and we're gonna add
+gonna click shift a and we're gonna add
+gonna click shift a and we're gonna add
+in another cylinder so step number one
+in another cylinder so step number one
+in another cylinder so step number one
+you want to create the basic shape using
+you want to create the basic shape using
+you want to create the basic shape using
+your primitives but this time we're to
+your primitives but this time we're to
+your primitives but this time we're to
+shape the cylinder so that it's in the
+shape the cylinder so that it's in the
+shape the cylinder so that it's in the
+rough shape of a mustache you want to
+rough shape of a mustache you want to
+rough shape of a mustache you want to
+kind of create like a minecraft version
+kind of create like a minecraft version
+kind of create like a minecraft version
+of what it's going to look like so to do
+of what it's going to look like so to do
+of what it's going to look like so to do
+this we need to switch over to edit mode
+this we need to switch over to edit mode
+this we need to switch over to edit mode
+so select our mustache click tab to
+so select our mustache click tab to
+so select our mustache click tab to
+quickly switch over to edit mode these
+quickly switch over to edit mode these
+quickly switch over to edit mode these
+options over here on the left you're
+options over here on the left you're
+options over here on the left you're
+gonna see you can either select the
+gonna see you can either select the
+gonna see you can either select the
+vertices the edges or the faces let's go
+vertices the edges or the faces let's go
+vertices the edges or the faces let's go
+to face select mode and then we're gonna
+to face select mode and then we're gonna
+to face select mode and then we're gonna
+select the top part of that cylinder and
+select the top part of that cylinder and
+select the top part of that cylinder and
+we're gonna click e to extrude the face
+we're gonna click e to extrude the face
+we're gonna click e to extrude the face
+so this is extremely important here guys
+so this is extremely important here guys
+so this is extremely important here guys
+make sure you note these few couple of
+make sure you note these few couple of
+make sure you note these few couple of
+shortcuts e to extrude is extremely
+shortcuts e to extrude is extremely
+shortcuts e to extrude is extremely
+important once you've clicked e and
+important once you've clicked e and
+important once you've clicked e and
+you've extruded the face and you left
+you've extruded the face and you left
+you've extruded the face and you left
+click to put it in place with that face
+click to put it in place with that face
+click to put it in place with that face
+still selected you can click g to move
+still selected you can click g to move
+still selected you can click g to move
+it around you can click s to scale it up
+it around you can click s to scale it up
+it around you can click s to scale it up
+and down or you can click r to rotate it
+and down or you can click r to rotate it
+and down or you can click r to rotate it
+so use those different positioning tools
+so use those different positioning tools
+so use those different positioning tools
+to again create your little minecraft
+to again create your little minecraft
+to again create your little minecraft
+rough draft shape of a mustache if you
+rough draft shape of a mustache if you
+rough draft shape of a mustache if you
+need to keep extruding so you click e
+need to keep extruding so you click e
+need to keep extruding so you click e
+extruded a bit click click s scale it a
+extruded a bit click click s scale it a
+extruded a bit click click s scale it a
+bit if you need to
+bit if you need to
+bit if you need to
+once you have your basic rough shape
+once you have your basic rough shape
+once you have your basic rough shape
+let's move on to step two step two is
+let's move on to step two step two is
+let's move on to step two step two is
+smooth the mesh out so you have the
+smooth the mesh out so you have the
+smooth the mesh out so you have the
+rough shape of what you're trying to
+rough shape of what you're trying to
+rough shape of what you're trying to
+make but it's just a little bit too
+make but it's just a little bit too
+make but it's just a little bit too
+sharp and blocky you can select your
+sharp and blocky you can select your
+sharp and blocky you can select your
+mesh you can go over to the modifiers
+mesh you can go over to the modifiers
+mesh you can go over to the modifiers
+tab and you can add a subdivision
+tab and you can add a subdivision
+tab and you can add a subdivision
+surface this splits the faces into
+surface this splits the faces into
+surface this splits the faces into
+smaller parts making them look more
+smaller parts making them look more
+smaller parts making them look more
+smooth just make sure you guys don't go
+smooth just make sure you guys don't go
+smooth just make sure you guys don't go
+overboard with this because the more you
+overboard with this because the more you
+overboard with this because the more you
+subdivide into smaller parts the higher
+subdivide into smaller parts the higher
+subdivide into smaller parts the higher
+the poly count gets so if you have
+the poly count gets so if you have
+the poly count gets so if you have
+something with a super high poly count
+something with a super high poly count
+something with a super high poly count
+it's going to use up a lot of memory
+it's going to use up a lot of memory
+it's going to use up a lot of memory
+it's going to raise your file sizes and
+it's going to raise your file sizes and
+it's going to raise your file sizes and
+it's going gonna make your computer
+it's going gonna make your computer
+it's going gonna make your computer
+start chugging a lot so again just be
+start chugging a lot so again just be
+start chugging a lot so again just be
+careful make sure you don't sub divide
+careful make sure you don't sub divide
+careful make sure you don't sub divide
+too many times and that should make
+too many times and that should make
+too many times and that should make
+things look a lot better now step three
+things look a lot better now step three
+things look a lot better now step three
+you have your general shape you have it
+you have your general shape you have it
+you have your general shape you have it
+smoothed out but maybe you just need to
+smoothed out but maybe you just need to
+smoothed out but maybe you just need to
+finalize the look a bit more make a tiny
+finalize the look a bit more make a tiny
+finalize the look a bit more make a tiny
+bit of changes how do you do that step
+bit of changes how do you do that step
+bit of changes how do you do that step
+three is by using your sculpting tools
+three is by using your sculpting tools
+three is by using your sculpting tools
+so if you select your object and just
+so if you select your object and just
+so if you select your object and just
+like we went into edit mode before you
+like we went into edit mode before you
+like we went into edit mode before you
+want to click that little drop down and
+want to click that little drop down and
+want to click that little drop down and
+go to sculpting mode here you can use
+go to sculpting mode here you can use
+go to sculpting mode here you can use
+any of these sculpting tools to shape
+any of these sculpting tools to shape
+any of these sculpting tools to shape
+this object in any which way you want
+this object in any which way you want
+this object in any which way you want
+you can add texture using this you can
+you can add texture using this you can
+you can add texture using this you can
+do a bunch of different stuff stick to
+do a bunch of different stuff stick to
+do a bunch of different stuff stick to
+the basics and just find the grab tool
+the basics and just find the grab tool
+the basics and just find the grab tool
+it's the little it's the little yellow
+it's the little it's the little yellow
+it's the little it's the little yellow
+one here use that grab brush you can
+one here use that grab brush you can
+one here use that grab brush you can
+change radius you can change strength
+change radius you can change strength
+change radius you can change strength
+whatever just use that grab brush and
+whatever just use that grab brush and
+whatever just use that grab brush and
+try and shape the mustache a little bit
+try and shape the mustache a little bit
+try and shape the mustache a little bit
+better very simple very easy once you've
+better very simple very easy once you've
+better very simple very easy once you've
+done that let's add the mustache to the
+done that let's add the mustache to the
+done that let's add the mustache to the
+other side of the face back in object
+other side of the face back in object
+other side of the face back in object
+mode just ctrl c ctrl v to paste it and
+mode just ctrl c ctrl v to paste it and
+mode just ctrl c ctrl v to paste it and
+then in your object data properties find
+then in your object data properties find
+then in your object data properties find
+your rotation change your rotation so
+your rotation change your rotation so
+your rotation change your rotation so
+that it's on the flip side of the face
+that it's on the flip side of the face
+that it's on the flip side of the face
+so let's quickly review that three-step
+so let's quickly review that three-step
+so let's quickly review that three-step
+process so so step number one you want
+process so so step number one you want
+process so so step number one you want
+to create a primitive so a cube a circle
+to create a primitive so a cube a circle
+to create a primitive so a cube a circle
+a cylinder you want to use the extrude
+a cylinder you want to use the extrude
+a cylinder you want to use the extrude
+tool the grab tool the scale tool to
+tool the grab tool the scale tool to
+tool the grab tool the scale tool to
+create a basic shape of what it is
+create a basic shape of what it is
+create a basic shape of what it is
+you're trying to make step number two is
+you're trying to make step number two is
+you're trying to make step number two is
+you want to smooth the mesh out so you
+you want to smooth the mesh out so you
+you want to smooth the mesh out so you
+want to subdivide it by going to the
+want to subdivide it by going to the
+want to subdivide it by going to the
+modifiers tab adding a subdivision
+modifiers tab adding a subdivision
+modifiers tab adding a subdivision
+surface and just bumping those sliders
+surface and just bumping those sliders
+surface and just bumping those sliders
+up a bit and step number three to
+up a bit and step number three to
+up a bit and step number three to
+finalize the shaping you go to sculpt
+finalize the shaping you go to sculpt
+finalize the shaping you go to sculpt
+mode and use that grab tool or any other
+mode and use that grab tool or any other
+mode and use that grab tool or any other
+or any other different sculpting tool
+or any other different sculpting tool
+or any other different sculpting tool
+just to finalize the look so let's go
+just to finalize the look so let's go
+just to finalize the look so let's go
+ahead and do that let's create a small
+ahead and do that let's create a small
+ahead and do that let's create a small
+beard this time this time i'm going to
+beard this time this time i'm going to
+beard this time this time i'm going to
+use cubes so again shift a create a cube
+use cubes so again shift a create a cube
+use cubes so again shift a create a cube
+and we'll name it beard
+and we'll name it beard
+and we'll name it beard
+i'm going to go into edit mode and i'm
+i'm going to go into edit mode and i'm
+i'm going to go into edit mode and i'm
+going to select the face of the cube i'm
+going to select the face of the cube i'm
+going to select the face of the cube i'm
+just going to click e to kind of pull it
+just going to click e to kind of pull it
+just going to click e to kind of pull it
+out a little bit i'll click g to move it
+out a little bit i'll click g to move it
+out a little bit i'll click g to move it
+around and again i'll just keep doing
+around and again i'll just keep doing
+around and again i'll just keep doing
+that until i have a rough shape of our
+that until i have a rough shape of our
+that until i have a rough shape of our
+beard next we'll smooth it out add those
+beard next we'll smooth it out add those
+beard next we'll smooth it out add those
+subdivisions shade it smooth and then
+subdivisions shade it smooth and then
+subdivisions shade it smooth and then
+sculpt it voila we have our facial
+sculpt it voila we have our facial
+sculpt it voila we have our facial
+features so keep that in mind that's a
+features so keep that in mind that's a
+features so keep that in mind that's a
+very essential step for creating any of
+very essential step for creating any of
+very essential step for creating any of
+the little small parts on the face so
+the little small parts on the face so
+the little small parts on the face so
+before we move on to the hair there are
+before we move on to the hair there are
+before we move on to the hair there are
+two quick tips that i want to mention
+two quick tips that i want to mention
+two quick tips that i want to mention
+number one let's go back to the eyes and
+number one let's go back to the eyes and
+number one let's go back to the eyes and
+we talked about smoothing if your eyes
+we talked about smoothing if your eyes
+we talked about smoothing if your eyes
+are kind of jagged on the edges you can
+are kind of jagged on the edges you can
+are kind of jagged on the edges you can
+just add a quick little subdivision onto
+just add a quick little subdivision onto
+just add a quick little subdivision onto
+them just to smooth those out number two
+them just to smooth those out number two
+them just to smooth those out number two
+you guys can use any of these steps that
+you guys can use any of these steps that
+you guys can use any of these steps that
+we just talked about to alter the facial
+we just talked about to alter the facial
+we just talked about to alter the facial
+features in any way so for example you
+features in any way so for example you
+features in any way so for example you
+guys could select the bass mesh you
+guys could select the bass mesh you
+guys could select the bass mesh you
+could extrude to try and make like a
+could extrude to try and make like a
+could extrude to try and make like a
+mouth shape you could add in teeth just
+mouth shape you could add in teeth just
+mouth shape you could add in teeth just
+by clicking shift a using those steps
+by clicking shift a using those steps
+by clicking shift a using those steps
+that i showed you um and making like a
+that i showed you um and making like a
+that i showed you um and making like a
+different facial expression you guys can
+different facial expression you guys can
+different facial expression you guys can
+make eyelids alter the face with the
+make eyelids alter the face with the
+make eyelids alter the face with the
+sculpting tools alter the eyes step for
+sculpting tools alter the eyes step for
+sculpting tools alter the eyes step for
+determining the style that you're trying
+determining the style that you're trying
+determining the style that you're trying
+to create
+to create
+to create
+so blender is your oyster have fun with
+so blender is your oyster have fun with
+so blender is your oyster have fun with
+the process and keep those steps in mind
+the process and keep those steps in mind
+the process and keep those steps in mind
+while you're putting together your final
+while you're putting together your final
+while you're putting together your final
+piece now for the hair there's two
+piece now for the hair there's two
+piece now for the hair there's two
+different ways that you guys can do this
+different ways that you guys can do this
+different ways that you guys can do this
+the first way is similar to how we made
+the first way is similar to how we made
+the first way is similar to how we made
+the eyes in the facial hair where you
+the eyes in the facial hair where you
+the eyes in the facial hair where you
+click shift a you add in a sphere you
+click shift a you add in a sphere you
+click shift a you add in a sphere you
+name it hair and you just kind of place
+name it hair and you just kind of place
+name it hair and you just kind of place
+it on the head using your grab tools
+it on the head using your grab tools
+it on the head using your grab tools
+your scale tools and then you use the
+your scale tools and then you use the
+your scale tools and then you use the
+sculpt mode to sculpt the hair to your
+sculpt mode to sculpt the hair to your
+sculpt mode to sculpt the hair to your
+liking so that's one way the second way
+liking so that's one way the second way
+liking so that's one way the second way
+and this is the way that i did it the
+and this is the way that i did it the
+and this is the way that i did it the
+method for how we're gonna do this is
+method for how we're gonna do this is
+method for how we're gonna do this is
+important because it's similar to how
+important because it's similar to how
+important because it's similar to how
+we're gonna make the clothes and blender
+we're gonna make the clothes and blender
+we're gonna make the clothes and blender
+later on i like to select the object i
+later on i like to select the object i
+later on i like to select the object i
+like to switch to edit mode and then i
+like to switch to edit mode and then i
+like to switch to edit mode and then i
+like to select the faces where i want
+like to select the faces where i want
+like to select the faces where i want
+the hair to be so just use your
+the hair to be so just use your
+the hair to be so just use your
+selection grab the little circle
+selection grab the little circle
+selection grab the little circle
+selection tool hold down shift and just
+selection tool hold down shift and just
+selection tool hold down shift and just
+select all of the different parts of the
+select all of the different parts of the
+select all of the different parts of the
+hair
+hair
+hair
+and make sure you take your time here
+and make sure you take your time here
+and make sure you take your time here
+make sure you don't miss any parts
+make sure you don't miss any parts
+make sure you don't miss any parts
+because whenever you create the mesh out
+because whenever you create the mesh out
+because whenever you create the mesh out
+of this you'll have like a big missing
+of this you'll have like a big missing
+of this you'll have like a big missing
+chunk once you have that hair base
+chunk once you have that hair base
+chunk once you have that hair base
+selection you want to click ctrl d and
+selection you want to click ctrl d and
+selection you want to click ctrl d and
+you want to right click as soon as you
+you want to right click as soon as you
+you want to right click as soon as you
+do that to put a duplication right in
+do that to put a duplication right in
+do that to put a duplication right in
+the same spot where the selection is now
+the same spot where the selection is now
+the same spot where the selection is now
+what you can do with everything still
+what you can do with everything still
+what you can do with everything still
+selected just right click on the
+selected just right click on the
+selected just right click on the
+selection and you want to go down to
+selection and you want to go down to
+selection and you want to go down to
+separate and separate by selection so in
+separate and separate by selection so in
+separate and separate by selection so in
+your object tray on the right you can
+your object tray on the right you can
+your object tray on the right you can
+rename this duplication to hair base
+rename this duplication to hair base
+rename this duplication to hair base
+let's give this hair a bit of volume
+let's give this hair a bit of volume
+let's give this hair a bit of volume
+with the hair selected we're going to go
+with the hair selected we're going to go
+with the hair selected we're going to go
+to modifiers and we're going to add a
+to modifiers and we're going to add a
+to modifiers and we're going to add a
+solidify modifier you can change the
+solidify modifier you can change the
+solidify modifier you can change the
+offset to something around 1 or 0.8 and
+offset to something around 1 or 0.8 and
+offset to something around 1 or 0.8 and
+that'll just kind of puff it up a bit
+that'll just kind of puff it up a bit
+that'll just kind of puff it up a bit
+more you can just go down to your
+more you can just go down to your
+more you can just go down to your
+material properties create a new
+material properties create a new
+material properties create a new
+material name it hair base and you could
+material name it hair base and you could
+material name it hair base and you could
+go down to your base color and just
+go down to your base color and just
+go down to your base color and just
+source your reference image for the
+source your reference image for the
+source your reference image for the
+color of the hair also make sure you
+color of the hair also make sure you
+color of the hair also make sure you
+select that skin texture and click the
+select that skin texture and click the
+select that skin texture and click the
+little negative just so that the hair
+little negative just so that the hair
+little negative just so that the hair
+paste material is the one that is
+paste material is the one that is
+paste material is the one that is
+assigned so now for the specific dread
+assigned so now for the specific dread
+assigned so now for the specific dread
+parts of the hair we're going to do this
+parts of the hair we're going to do this
+parts of the hair we're going to do this
+similar to how we added the facial
+similar to how we added the facial
+similar to how we added the facial
+features with a couple of different
+features with a couple of different
+features with a couple of different
+steps so first off what we're going to
+steps so first off what we're going to
+steps so first off what we're going to
+do is we're going to click shift a and
+do is we're going to click shift a and
+do is we're going to click shift a and
+we're just going to start with a
+we're just going to start with a
+we're just going to start with a
+cylinder so with our cylinder selected
+cylinder so with our cylinder selected
+cylinder so with our cylinder selected
+in edit mode we're going to go ahead and
+in edit mode we're going to go ahead and
+in edit mode we're going to go ahead and
+extrude the top face around five times
+extrude the top face around five times
+extrude the top face around five times
+so just click e drag it up a couple of
+so just click e drag it up a couple of
+so just click e drag it up a couple of
+times then we can just go and use our
+times then we can just go and use our
+times then we can just go and use our
+sculpt tool like we've been doing for
+sculpt tool like we've been doing for
+sculpt tool like we've been doing for
+everything else that three-step process
+everything else that three-step process
+everything else that three-step process
+to get the rough shape use references
+to get the rough shape use references
+to get the rough shape use references
+here if you guys are stuck either
+here if you guys are stuck either
+here if you guys are stuck either
+cartoony references or real world
+cartoony references or real world
+cartoony references or real world
+references just to kind of get a rough
+references just to kind of get a rough
+references just to kind of get a rough
+shape from different angles so make sure
+shape from different angles so make sure
+shape from different angles so make sure
+you're rotating around in blender and
+you're rotating around in blender and
+you're rotating around in blender and
+sculpting the way you want so now let's
+sculpting the way you want so now let's
+sculpting the way you want so now let's
+create a custom material so that we have
+create a custom material so that we have
+create a custom material so that we have
+this sort of color gradient for the
+this sort of color gradient for the
+this sort of color gradient for the
+dreads because as you see it's sort of
+dreads because as you see it's sort of
+dreads because as you see it's sort of
+blonde it's sort of darker near the top
+blonde it's sort of darker near the top
+blonde it's sort of darker near the top
+and then as you go down it gets more
+and then as you go down it gets more
+and then as you go down it gets more
+blondish
+blondish
+blondish
+to do that let's go and open up our
+to do that let's go and open up our
+to do that let's go and open up our
+shader editor with our dread piece
+shader editor with our dread piece
+shader editor with our dread piece
+selected also if you haven't already go
+selected also if you haven't already go
+selected also if you haven't already go
+to your material properties with it
+to your material properties with it
+to your material properties with it
+selected and just create a new material
+selected and just create a new material
+selected and just create a new material
+for the hair once you've done that you
+for the hair once you've done that you
+for the hair once you've done that you
+should be able to see the notes pop up
+should be able to see the notes pop up
+should be able to see the notes pop up
+in your shader editor
+in your shader editor
+in your shader editor
+we're going to click shift a and we're
+we're going to click shift a and we're
+we're going to click shift a and we're
+going to add in a color ramp node go
+going to add in a color ramp node go
+going to add in a color ramp node go
+ahead and connect that to the base color
+ahead and connect that to the base color
+ahead and connect that to the base color
+of your main principle bsdf shader on
+of your main principle bsdf shader on
+of your main principle bsdf shader on
+your color ramp you want to select the
+your color ramp you want to select the
+your color ramp you want to select the
+right input and change the color to
+right input and change the color to
+right input and change the color to
+black
+black
+black
+and on the left input you want to change
+and on the left input you want to change
+and on the left input you want to change
+the color and use your color dropper to
+the color and use your color dropper to
+the color and use your color dropper to
+pick a correct hair color from your
+pick a correct hair color from your
+pick a correct hair color from your
+reference image sometimes the color
+reference image sometimes the color
+reference image sometimes the color
+dropper can be muddled so if you need to
+dropper can be muddled so if you need to
+dropper can be muddled so if you need to
+go ahead and just tweak that color a
+go ahead and just tweak that color a
+go ahead and just tweak that color a
+little bit next we're going to click the
+little bit next we're going to click the
+little bit next we're going to click the
+plus sign to add another input point for
+plus sign to add another input point for
+plus sign to add another input point for
+our color ramp and then again use your
+our color ramp and then again use your
+our color ramp and then again use your
+color picker tool and select another
+color picker tool and select another
+color picker tool and select another
+part of the hair that way we can have
+part of the hair that way we can have
+part of the hair that way we can have
+this sort of gradient going from lighter
+this sort of gradient going from lighter
+this sort of gradient going from lighter
+on the far left have a little bit of a
+on the far left have a little bit of a
+on the far left have a little bit of a
+mid tone in the middle and then black on
+mid tone in the middle and then black on
+mid tone in the middle and then black on
+the right i'm just going to readjust
+the right i'm just going to readjust
+the right i'm just going to readjust
+those input points so that i have the
+those input points so that i have the
+those input points so that i have the
+correct gradient that i want for the
+correct gradient that i want for the
+correct gradient that i want for the
+hair once you've done that go ahead and
+hair once you've done that go ahead and
+hair once you've done that go ahead and
+click shift a and add in a mapping node
+click shift a and add in a mapping node
+click shift a and add in a mapping node
+connect the vector section to your color
+connect the vector section to your color
+connect the vector section to your color
+ramp
+ramp
+ramp
+and then click shift a again and add in
+and then click shift a again and add in
+and then click shift a again and add in
+a texture coordinate node
+a texture coordinate node
+a texture coordinate node
+and then go ahead and connect that
+and then go ahead and connect that
+and then go ahead and connect that
+generated section to the vector section
+generated section to the vector section
+generated section to the vector section
+on the mapping node
+on the mapping node
+on the mapping node
+from here you can use the mapping node
+from here you can use the mapping node
+from here you can use the mapping node
+to change around the scale the x and y
+to change around the scale the x and y
+to change around the scale the x and y
+positioning the rotate the rotation
+positioning the rotate the rotation
+positioning the rotate the rotation
+until you have that color ramp projected
+until you have that color ramp projected
+until you have that color ramp projected
+the way you want it and again to smooth
+the way you want it and again to smooth
+the way you want it and again to smooth
+this all out we're just going to go to
+this all out we're just going to go to
+this all out we're just going to go to
+the modifiers and add in another
+the modifiers and add in another
+the modifiers and add in another
+subdivision surface and bump up those
+subdivision surface and bump up those
+subdivision surface and bump up those
+settings slightly we have a nice smooth
+settings slightly we have a nice smooth
+settings slightly we have a nice smooth
+piece of hair so once you have that
+piece of hair so once you have that
+piece of hair so once you have that
+material locked in we're going to go
+material locked in we're going to go
+material locked in we're going to go
+ahead and just duplicate this dread
+ahead and just duplicate this dread
+ahead and just duplicate this dread
+piece a couple of times we're just gonna
+piece a couple of times we're just gonna
+piece a couple of times we're just gonna
+scale rotate um and move them around the
+scale rotate um and move them around the
+scale rotate um and move them around the
+head and position them in a way that we
+head and position them in a way that we
+head and position them in a way that we
+want and this is a huge tip here guys
+want and this is a huge tip here guys
+want and this is a huge tip here guys
+pay attention to proportions
+pay attention to proportions
+pay attention to proportions
+even though we're working in a cartoony
+even though we're working in a cartoony
+even though we're working in a cartoony
+fashion so things are not as correctly
+fashion so things are not as correctly
+fashion so things are not as correctly
+proportional you want to make sure that
+proportional you want to make sure that
+proportional you want to make sure that
+the hair is a correct scale you want to
+the hair is a correct scale you want to
+the hair is a correct scale you want to
+make sure that the eyes aren't too small
+make sure that the eyes aren't too small
+make sure that the eyes aren't too small
+or too beady really take your time here
+or too beady really take your time here
+or too beady really take your time here
+and make sure everything looks the way
+and make sure everything looks the way
+and make sure everything looks the way
+you want i think that's the biggest
+you want i think that's the biggest
+you want i think that's the biggest
+mistake i see people make is they make
+mistake i see people make is they make
+mistake i see people make is they make
+the eyes too small the hair too small
+the eyes too small the hair too small
+the eyes too small the hair too small
+for the head so again it just takes a
+for the head so again it just takes a
+for the head so again it just takes a
+little bit of time a little bit of
+little bit of time a little bit of
+little bit of time a little bit of
+experimenting with your scale
+experimenting with your scale
+experimenting with your scale
+positioning
+positioning
+positioning
+so on so forth once you're happy with
+so on so forth once you're happy with
+so on so forth once you're happy with
+where these dread pieces are placed go
+where these dread pieces are placed go
+where these dread pieces are placed go
+ahead and grab your sculpt tool and you
+ahead and grab your sculpt tool and you
+ahead and grab your sculpt tool and you
+can kind of use the grab tool to push
+can kind of use the grab tool to push
+can kind of use the grab tool to push
+them down onto the head or make any
+them down onto the head or make any
+them down onto the head or make any
+other little adjustments if you'd like
+other little adjustments if you'd like
+other little adjustments if you'd like
+all right you've made great progress so
+all right you've made great progress so
+all right you've made great progress so
+far before we start on the clothing i'm
+far before we start on the clothing i'm
+far before we start on the clothing i'm
+going to show you guys our lighting
+going to show you guys our lighting
+going to show you guys our lighting
+setup so if you guys want you can use
+setup so if you guys want you can use
+setup so if you guys want you can use
+the time stamps if you prefer to create
+the time stamps if you prefer to create
+the time stamps if you prefer to create
+the clothes before we do all the
+the clothes before we do all the
+the clothes before we do all the
+lighting before we set up the camera you
+lighting before we set up the camera you
+lighting before we set up the camera you
+could do that and then just come back
+could do that and then just come back
+could do that and then just come back
+here after either way let's go ahead and
+here after either way let's go ahead and
+here after either way let's go ahead and
+create our camera and position it so i'm
+create our camera and position it so i'm
+create our camera and position it so i'm
+going to delete the default camera and
+going to delete the default camera and
+going to delete the default camera and
+i'm going to click shift a and just add
+i'm going to click shift a and just add
+i'm going to click shift a and just add
+in a new one then what i'm going to do
+in a new one then what i'm going to do
+in a new one then what i'm going to do
+is just go into camera view by clicking
+is just go into camera view by clicking
+is just go into camera view by clicking
+the little camera button
+the little camera button
+the little camera button
+and then with our camera selected you
+and then with our camera selected you
+and then with our camera selected you
+can go down to your object data
+can go down to your object data
+can go down to your object data
+properties and just change the little
+properties and just change the little
+properties and just change the little
+position sliders until you have
+position sliders until you have
+position sliders until you have
+everything framed the way that you want
+everything framed the way that you want
+everything framed the way that you want
+it now let's go in and add in our
+it now let's go in and add in our
+it now let's go in and add in our
+lighting so we'll pop off of camera view
+lighting so we'll pop off of camera view
+lighting so we'll pop off of camera view
+make sure you guys change to the
+make sure you guys change to the
+make sure you guys change to the
+viewport shading rendered view so you
+viewport shading rendered view so you
+viewport shading rendered view so you
+can actually see how things are going to
+can actually see how things are going to
+can actually see how things are going to
+react with the light we're going to
+react with the light we're going to
+react with the light we're going to
+click shift a and we're going to add in
+click shift a and we're going to add in
+click shift a and we're going to add in
+first our key light so adding our key
+first our key light so adding our key
+first our key light so adding our key
+light we're going to give it a 45 degree
+light we're going to give it a 45 degree
+light we're going to give it a 45 degree
+angle so just go down to your object
+angle so just go down to your object
+angle so just go down to your object
+data properties on your rotation just
+data properties on your rotation just
+data properties on your rotation just
+give it a bit of a turn make sure it's
+give it a bit of a turn make sure it's
+give it a bit of a turn make sure it's
+pointed at your subject under our light
+pointed at your subject under our light
+pointed at your subject under our light
+settings i give it like 100 watts of
+settings i give it like 100 watts of
+settings i give it like 100 watts of
+power i try not to change that value and
+power i try not to change that value and
+power i try not to change that value and
+then i'll just go in and change around
+then i'll just go in and change around
+then i'll just go in and change around
+the environment everything else to tweak
+the environment everything else to tweak
+the environment everything else to tweak
+the final look so let's add in our fill
+the final look so let's add in our fill
+the final look so let's add in our fill
+light we can click shift a again add in
+light we can click shift a again add in
+light we can click shift a again add in
+another area light and this time we'll
+another area light and this time we'll
+another area light and this time we'll
+just position it on the right side and
+just position it on the right side and
+just position it on the right side and
+again we'll object data properties angle
+again we'll object data properties angle
+again we'll object data properties angle
+it towards our character this will
+it towards our character this will
+it towards our character this will
+remove the shadows on the other side
+remove the shadows on the other side
+remove the shadows on the other side
+that our key light is creating next what
+that our key light is creating next what
+that our key light is creating next what
+i'm going to do is just add in a 3d
+i'm going to do is just add in a 3d
+i'm going to do is just add in a 3d
+psych as our background so i found this
+psych as our background so i found this
+psych as our background so i found this
+cyclone model online i'll leave the link
+cyclone model online i'll leave the link
+cyclone model online i'll leave the link
+below um it's kind of just like a ramped
+below um it's kind of just like a ramped
+below um it's kind of just like a ramped
+studio stage i'm just going to file and
+studio stage i'm just going to file and
+studio stage i'm just going to file and
+import in that fbx just scale it up a
+import in that fbx just scale it up a
+import in that fbx just scale it up a
+bit i'll go to my material properties
+bit i'll go to my material properties
+bit i'll go to my material properties
+for it and i'll just create an orange
+for it and i'll just create an orange
+for it and i'll just create an orange
+base color and of course you guys can
+base color and of course you guys can
+base color and of course you guys can
+choose whatever color you want the
+choose whatever color you want the
+choose whatever color you want the
+cyclone gives a nice little gradient for
+cyclone gives a nice little gradient for
+cyclone gives a nice little gradient for
+the lighting and then you can add in
+the lighting and then you can add in
+the lighting and then you can add in
+some backlights so this will add a bit
+some backlights so this will add a bit
+some backlights so this will add a bit
+of depth from our background it'll also
+of depth from our background it'll also
+of depth from our background it'll also
+kind of give a little bit of
+kind of give a little bit of
+kind of give a little bit of
+illumination on the ears the hair so
+illumination on the ears the hair so
+illumination on the ears the hair so
+pretty simple again shift a add in our
+pretty simple again shift a add in our
+pretty simple again shift a add in our
+light angle it point it at the back you
+light angle it point it at the back you
+light angle it point it at the back you
+guys can go in and just experiment with
+guys can go in and just experiment with
+guys can go in and just experiment with
+other lights if you'd really like i
+other lights if you'd really like i
+other lights if you'd really like i
+added another backlight with a bit of
+added another backlight with a bit of
+added another backlight with a bit of
+purple color just for some color
+purple color just for some color
+purple color just for some color
+accenting it's really up to you once you
+accenting it's really up to you once you
+accenting it's really up to you once you
+have that basic three-point lighting
+have that basic three-point lighting
+have that basic three-point lighting
+setup you're pretty good to go in terms
+setup you're pretty good to go in terms
+setup you're pretty good to go in terms
+of cinematic lighting quality and it
+of cinematic lighting quality and it
+of cinematic lighting quality and it
+gives it a nice studio feel to finish it
+gives it a nice studio feel to finish it
+gives it a nice studio feel to finish it
+all off i'm going to go to the
+all off i'm going to go to the
+all off i'm going to go to the
+environment settings here and i'm going
+environment settings here and i'm going
+environment settings here and i'm going
+to load in an hdri so you guys can go to
+to load in an hdri so you guys can go to
+to load in an hdri so you guys can go to
+polyhaven.com i'll leave that link below
+polyhaven.com i'll leave that link below
+polyhaven.com i'll leave that link below
+and you can go to the hdri section and
+and you can go to the hdri section and
+and you can go to the hdri section and
+search for any of these hdris and hdri
+search for any of these hdris and hdri
+search for any of these hdris and hdri
+is basically a 360 environment when we
+is basically a 360 environment when we
+is basically a 360 environment when we
+plug it into our scene it's going to
+plug it into our scene it's going to
+plug it into our scene it's going to
+change the reflections and the lighting
+change the reflections and the lighting
+change the reflections and the lighting
+and how all those things react with our
+and how all those things react with our
+and how all those things react with our
+model so let's load it in to the base
+model so let's load it in to the base
+model so let's load it in to the base
+color here we'll just go to environment
+color here we'll just go to environment
+color here we'll just go to environment
+texture and we'll just play around with
+texture and we'll just play around with
+texture and we'll just play around with
+the strength until we get something we
+the strength until we get something we
+the strength until we get something we
+want you guys can play around with the
+want you guys can play around with the
+want you guys can play around with the
+textures on your actual character just
+textures on your actual character just
+textures on your actual character just
+to mess around with the skin tones make
+to mess around with the skin tones make
+to mess around with the skin tones make
+things more reflective or less
+things more reflective or less
+things more reflective or less
+reflective we can select our base mesh
+reflective we can select our base mesh
+reflective we can select our base mesh
+which has our skin material and in our
+which has our skin material and in our
+which has our skin material and in our
+material properties i'm just going to
+material properties i'm just going to
+material properties i'm just going to
+play around with the specular and the
+play around with the specular and the
+play around with the specular and the
+roughness until i have the skin looking
+roughness until i have the skin looking
+roughness until i have the skin looking
+the right way you don't have to mess
+the right way you don't have to mess
+the right way you don't have to mess
+with this much i think the only other
+with this much i think the only other
+with this much i think the only other
+thing i did here was click on the pupils
+thing i did here was click on the pupils
+thing i did here was click on the pupils
+and i just made them a lot more specular
+and i just made them a lot more specular
+and i just made them a lot more specular
+bumped down the roughness so i could
+bumped down the roughness so i could
+bumped down the roughness so i could
+have that sort of like shiny cartoon
+have that sort of like shiny cartoon
+have that sort of like shiny cartoon
+look in the eyes another side note here
+look in the eyes another side note here
+look in the eyes another side note here
+i'm doing all this in the eevee renderer
+i'm doing all this in the eevee renderer
+i'm doing all this in the eevee renderer
+which is a lot faster
+which is a lot faster
+which is a lot faster
+at the end we're going to render in
+at the end we're going to render in
+at the end we're going to render in
+cycles which looks a lot better in my
+cycles which looks a lot better in my
+cycles which looks a lot better in my
+opinion but it is more taxing it's
+opinion but it is more taxing it's
+opinion but it is more taxing it's
+harder to navigate so i recommend put
+harder to navigate so i recommend put
+harder to navigate so i recommend put
+everything together in eevee at the end
+everything together in eevee at the end
+everything together in eevee at the end
+we're gonna switch to cycles and i'll
+we're gonna switch to cycles and i'll
+we're gonna switch to cycles and i'll
+show you all my render settings alright
+show you all my render settings alright
+show you all my render settings alright
+so that's that i think the only other
+so that's that i think the only other
+so that's that i think the only other
+thing i did was duplicate the pupils one
+thing i did was duplicate the pupils one
+thing i did was duplicate the pupils one
+more time flatten them out and just make
+more time flatten them out and just make
+more time flatten them out and just make
+them white it made the eyes a bit more
+them white it made the eyes a bit more
+them white it made the eyes a bit more
+basic and just kind of popped out a bit
+basic and just kind of popped out a bit
+basic and just kind of popped out a bit
+more thought that looked cool let's put
+more thought that looked cool let's put
+more thought that looked cool let's put
+some clothes here we don't want our
+some clothes here we don't want our
+some clothes here we don't want our
+character in the nude the whole time so
+character in the nude the whole time so
+character in the nude the whole time so
+let's talk about how i go about doing
+let's talk about how i go about doing
+let's talk about how i go about doing
+that so i do want to say i do prefer to
+that so i do want to say i do prefer to
+that so i do want to say i do prefer to
+use a software called marvelous designer
+use a software called marvelous designer
+use a software called marvelous designer
+for 3d clothes you can sew the parts
+for 3d clothes you can sew the parts
+for 3d clothes you can sew the parts
+together it's nice for dynamic movements
+together it's nice for dynamic movements
+together it's nice for dynamic movements
+in the cloth
+in the cloth
+in the cloth
+there are a lot of blender add-ons that
+there are a lot of blender add-ons that
+there are a lot of blender add-ons that
+allow you to do the same thing but if
+allow you to do the same thing but if
+allow you to do the same thing but if
+you just want some quick basic clothes
+you just want some quick basic clothes
+you just want some quick basic clothes
+here's what you can do just within
+here's what you can do just within
+here's what you can do just within
+blender and if you do want to see some
+blender and if you do want to see some
+blender and if you do want to see some
+marvelous designer stuff down the line
+marvelous designer stuff down the line
+marvelous designer stuff down the line
+with this workflow let me know down in
+with this workflow let me know down in
+with this workflow let me know down in
+the comments i'm definitely down to do
+the comments i'm definitely down to do
+the comments i'm definitely down to do
+something like that in the future let's
+something like that in the future let's
+something like that in the future let's
+go ahead and just select our base mesh
+go ahead and just select our base mesh
+go ahead and just select our base mesh
+and we're going to switch over to edit
+and we're going to switch over to edit
+and we're going to switch over to edit
+mode you also want to check on x-ray
+mode you also want to check on x-ray
+mode you also want to check on x-ray
+mode here this little button just so
+mode here this little button just so
+mode here this little button just so
+whenever we select things it's going to
+whenever we select things it's going to
+whenever we select things it's going to
+select the parts behind it what i like
+select the parts behind it what i like
+select the parts behind it what i like
+to do is click and hold on our circle
+to do is click and hold on our circle
+to do is click and hold on our circle
+select and grab the box selection tool
+select and grab the box selection tool
+select and grab the box selection tool
+and i just like to select the area on
+and i just like to select the area on
+and i just like to select the area on
+the torso where our hoodie would be so
+the torso where our hoodie would be so
+the torso where our hoodie would be so
+go ahead and select those parts make
+go ahead and select those parts make
+go ahead and select those parts make
+sure you're not missing any parts so
+sure you're not missing any parts so
+sure you're not missing any parts so
+there aren't any holes within the mesh
+there aren't any holes within the mesh
+there aren't any holes within the mesh
+you can hold down shift to add on to the
+you can hold down shift to add on to the
+you can hold down shift to add on to the
+selection um you can switch between your
+selection um you can switch between your
+selection um you can switch between your
+tools just make sure that's all selected
+tools just make sure that's all selected
+tools just make sure that's all selected
+out and like we did with the hair base
+out and like we did with the hair base
+out and like we did with the hair base
+we're going to click shift d to
+we're going to click shift d to
+we're going to click shift d to
+duplicate and then we're going to right
+duplicate and then we're going to right
+duplicate and then we're going to right
+click just to put that duplication in
+click just to put that duplication in
+click just to put that duplication in
+the exact place where it is currently
+the exact place where it is currently
+the exact place where it is currently
+with everything still selected just
+with everything still selected just
+with everything still selected just
+right click and go to separate by
+right click and go to separate by
+right click and go to separate by
+selection so now we've cut out the
+selection so now we've cut out the
+selection so now we've cut out the
+hoodie part you can double click on that
+hoodie part you can double click on that
+hoodie part you can double click on that
+object and name it hoodie and to puff it
+object and name it hoodie and to puff it
+object and name it hoodie and to puff it
+up we can go in and add a solidify
+up we can go in and add a solidify
+up we can go in and add a solidify
+modifier so with our hoodie selected go
+modifier so with our hoodie selected go
+modifier so with our hoodie selected go
+to our modifiers tab and add in solidify
+to our modifiers tab and add in solidify
+to our modifiers tab and add in solidify
+i like to add a offset of between one or
+i like to add a offset of between one or
+i like to add a offset of between one or
+0.8 or one
+0.8 or one
+0.8 or one
+just to give it a bit more depth away
+just to give it a bit more depth away
+just to give it a bit more depth away
+from the skin you can go down to your
+from the skin you can go down to your
+from the skin you can go down to your
+material properties and you can create a
+material properties and you can create a
+material properties and you can create a
+new material name it hoodie
+new material name it hoodie
+new material name it hoodie
+and choose a base color if you'd like
+and choose a base color if you'd like
+and choose a base color if you'd like
+we're going to add in the exact hoodie
+we're going to add in the exact hoodie
+we're going to add in the exact hoodie
+texture from the arms and dangerous
+texture from the arms and dangerous
+texture from the arms and dangerous
+video in a bit so if you have any jagged
+video in a bit so if you have any jagged
+video in a bit so if you have any jagged
+edges on your hoodie here you guys could
+edges on your hoodie here you guys could
+edges on your hoodie here you guys could
+always click k and use the knife tool in
+always click k and use the knife tool in
+always click k and use the knife tool in
+edit mode just to kind of cut that part
+edit mode just to kind of cut that part
+edit mode just to kind of cut that part
+away just click click make a straight
+away just click click make a straight
+away just click click make a straight
+line and then you can delete those faces
+line and then you can delete those faces
+line and then you can delete those faces
+or you guys can just go into sculpting
+or you guys can just go into sculpting
+or you guys can just go into sculpting
+mode and sort of straighten everything
+mode and sort of straighten everything
+mode and sort of straighten everything
+out once you have that sorted out we're
+out once you have that sorted out we're
+out once you have that sorted out we're
+going to do the same to create some
+going to do the same to create some
+going to do the same to create some
+pants select your base mesh grab your
+pants select your base mesh grab your
+pants select your base mesh grab your
+box selection tool and just grab the
+box selection tool and just grab the
+box selection tool and just grab the
+legs we're going to click shift d right
+legs we're going to click shift d right
+legs we're going to click shift d right
+click and we're going to right click
+click and we're going to right click
+click and we're going to right click
+separate by selection and name that
+separate by selection and name that
+separate by selection and name that
+pants of course add your solidify
+pants of course add your solidify
+pants of course add your solidify
+modifier offset it a tiny bit there you
+modifier offset it a tiny bit there you
+modifier offset it a tiny bit there you
+go now we have some clothing repeat
+go now we have some clothing repeat
+go now we have some clothing repeat
+those steps for the shoes as well so now
+those steps for the shoes as well so now
+those steps for the shoes as well so now
+let's add a bit of details to the hoodie
+let's add a bit of details to the hoodie
+let's add a bit of details to the hoodie
+just to make it look more like a hoodie
+just to make it look more like a hoodie
+just to make it look more like a hoodie
+and not like a t-shirt right now it's
+and not like a t-shirt right now it's
+and not like a t-shirt right now it's
+sort of just a t-shirt and then we're
+sort of just a t-shirt and then we're
+sort of just a t-shirt and then we're
+going to go in and add our exact texture
+going to go in and add our exact texture
+going to go in and add our exact texture
+from the music video so first off what
+from the music video so first off what
+from the music video so first off what
+you want to do is go into edit mode with
+you want to do is go into edit mode with
+you want to do is go into edit mode with
+our hoodie selected and you can go and
+our hoodie selected and you can go and
+our hoodie selected and you can go and
+select the specific vertices to sort of
+select the specific vertices to sort of
+select the specific vertices to sort of
+taper different parts of the hoodie
+taper different parts of the hoodie
+taper different parts of the hoodie
+for example um you can scale up the
+for example um you can scale up the
+for example um you can scale up the
+sleeves a tiny bit just by selecting
+sleeves a tiny bit just by selecting
+sleeves a tiny bit just by selecting
+them with your box selection clicking s
+them with your box selection clicking s
+them with your box selection clicking s
+you can sort of taper the cuffs on the
+you can sort of taper the cuffs on the
+you can sort of taper the cuffs on the
+hoodie just by selecting them clicking s
+hoodie just by selecting them clicking s
+hoodie just by selecting them clicking s
+making them a bit smaller so again
+making them a bit smaller so again
+making them a bit smaller so again
+select the different parts sort of taper
+select the different parts sort of taper
+select the different parts sort of taper
+everything give it more of a thicker
+everything give it more of a thicker
+everything give it more of a thicker
+material appearance
+material appearance
+material appearance
+and of course you guys can go into
+and of course you guys can go into
+and of course you guys can go into
+sculpt mode and add more intricate
+sculpt mode and add more intricate
+sculpt mode and add more intricate
+details if you really want now for the
+details if you really want now for the
+details if you really want now for the
+hood this part is a bit more tricky so
+hood this part is a bit more tricky so
+hood this part is a bit more tricky so
+because we're only rendering an image
+because we're only rendering an image
+because we're only rendering an image
+from the front facing angle i'm not
+from the front facing angle i'm not
+from the front facing angle i'm not
+going to go super into detail creating
+going to go super into detail creating
+going to go super into detail creating
+like a fully
+like a fully
+like a fully
+360 degree hoodie i'm just going to do
+360 degree hoodie i'm just going to do
+360 degree hoodie i'm just going to do
+it fast and easy so it's passable as a
+it fast and easy so it's passable as a
+it fast and easy so it's passable as a
+hoodie what you want to do is in edit
+hoodie what you want to do is in edit
+hoodie what you want to do is in edit
+mode you want to be in edge selection
+mode you want to be in edge selection
+mode you want to be in edge selection
+mode and you want to alt left click on
+mode and you want to alt left click on
+mode and you want to alt left click on
+the top neckline that should select the
+the top neckline that should select the
+the top neckline that should select the
+edge around the neck
+edge around the neck
+edge around the neck
+you can click e to extrude it up and you
+you can click e to extrude it up and you
+you can click e to extrude it up and you
+can click s to scale it out a tiny bit
+can click s to scale it out a tiny bit
+can click s to scale it out a tiny bit
+so now you have this sort of circular
+so now you have this sort of circular
+so now you have this sort of circular
+collar what you want to do is just add
+collar what you want to do is just add
+collar what you want to do is just add
+some 3d depth to that so this time click
+some 3d depth to that so this time click
+some 3d depth to that so this time click
+e again and just left click
+e again and just left click
+e again and just left click
+and then click s with that new extrusion
+and then click s with that new extrusion
+and then click s with that new extrusion
+and scale it down a tiny bit so you have
+and scale it down a tiny bit so you have
+and scale it down a tiny bit so you have
+this round circular part around the neck
+this round circular part around the neck
+this round circular part around the neck
+once you have this ring around your neck
+once you have this ring around your neck
+once you have this ring around your neck
+you can go into vertex selection mode
+you can go into vertex selection mode
+you can go into vertex selection mode
+and you can just grab the parts of the
+and you can just grab the parts of the
+and you can just grab the parts of the
+hoodie click g and just place them in
+hoodie click g and just place them in
+hoodie click g and just place them in
+the parts that you want so it looks a
+the parts that you want so it looks a
+the parts that you want so it looks a
+bit more like a hood over the shoulders
+bit more like a hood over the shoulders
+bit more like a hood over the shoulders
+of course add your subdivision to smooth
+of course add your subdivision to smooth
+of course add your subdivision to smooth
+it out you can go into sculpt mode and
+it out you can go into sculpt mode and
+it out you can go into sculpt mode and
+fully make it look the way you want also
+fully make it look the way you want also
+fully make it look the way you want also
+side note for the hood what i like to do
+side note for the hood what i like to do
+side note for the hood what i like to do
+and this is personal preference i think
+and this is personal preference i think
+and this is personal preference i think
+it's just easier once we mess with the
+it's just easier once we mess with the
+it's just easier once we mess with the
+uv mapping you guys can separate it like
+uv mapping you guys can separate it like
+uv mapping you guys can separate it like
+we did with the other parts with that
+we did with the other parts with that
+we did with the other parts with that
+hoodie still selected before you do
+hoodie still selected before you do
+hoodie still selected before you do
+anything else go ahead and just click
+anything else go ahead and just click
+anything else go ahead and just click
+shift d
+shift d
+shift d
+right click separate by selection and
+right click separate by selection and
+right click separate by selection and
+name it hood and that's about it that's
+name it hood and that's about it that's
+name it hood and that's about it that's
+how i quickly just made that little hood
+how i quickly just made that little hood
+how i quickly just made that little hood
+again it's not going to look nice in the
+again it's not going to look nice in the
+again it's not going to look nice in the
+back but it works great just for quick
+back but it works great just for quick
+back but it works great just for quick
+images so now let's start getting the
+images so now let's start getting the
+images so now let's start getting the
+texture from the music video onto our
+texture from the music video onto our
+texture from the music video onto our
+clothing so luckily enough the reference
+clothing so luckily enough the reference
+clothing so luckily enough the reference
+image i had had the exact name of the
+image i had had the exact name of the
+image i had had the exact name of the
+bey hoodie that he wore in the music
+bey hoodie that he wore in the music
+bey hoodie that he wore in the music
+video so i'm just gonna search on google
+video so i'm just gonna search on google
+video so i'm just gonna search on google
+images and try and find a good picture
+images and try and find a good picture
+images and try and find a good picture
+of that hoodie once i find it i'm just
+of that hoodie once i find it i'm just
+of that hoodie once i find it i'm just
+going to right click and save it and
+going to right click and save it and
+going to right click and save it and
+then back in blender i'm going to select
+then back in blender i'm going to select
+then back in blender i'm going to select
+our hoodie with our hoodie selected go
+our hoodie with our hoodie selected go
+our hoodie with our hoodie selected go
+down to our shader editor and we're
+down to our shader editor and we're
+down to our shader editor and we're
+going to go ahead and click shift a and
+going to go ahead and click shift a and
+going to go ahead and click shift a and
+we're going to add in an image texture
+we're going to add in an image texture
+we're going to add in an image texture
+node in that image texture node let's go
+node in that image texture node let's go
+node in that image texture node let's go
+ahead and just load in the reference
+ahead and just load in the reference
+ahead and just load in the reference
+image that we saved from google and then
+image that we saved from google and then
+image that we saved from google and then
+let's connect that node into our base
+let's connect that node into our base
+let's connect that node into our base
+color for our hoodie material so now you
+color for our hoodie material so now you
+color for our hoodie material so now you
+can see the texture on our hoodie but
+can see the texture on our hoodie but
+can see the texture on our hoodie but
+it's not projected correctly so let me
+it's not projected correctly so let me
+it's not projected correctly so let me
+show you a quick fix so in edit mode
+show you a quick fix so in edit mode
+show you a quick fix so in edit mode
+we're going to go ahead and select the
+we're going to go ahead and select the
+we're going to go ahead and select the
+entire hoodie and then we're going to
+entire hoodie and then we're going to
+entire hoodie and then we're going to
+switch to the uv editor mode in the
+switch to the uv editor mode in the
+switch to the uv editor mode in the
+little drop down just go ahead and
+little drop down just go ahead and
+little drop down just go ahead and
+select the hoodie reference image now we
+select the hoodie reference image now we
+select the hoodie reference image now we
+want to click u and then select unwrap
+want to click u and then select unwrap
+want to click u and then select unwrap
+so now you should see the parts of the
+so now you should see the parts of the
+so now you should see the parts of the
+hoodie and how they're projected onto
+hoodie and how they're projected onto
+hoodie and how they're projected onto
+the image
+the image
+the image
+so all you have to really do is just
+so all you have to really do is just
+so all you have to really do is just
+select the specific parts you can select
+select the specific parts you can select
+select the specific parts you can select
+the one that looks like a torso
+the one that looks like a torso
+the one that looks like a torso
+obviously that's the torso part use your
+obviously that's the torso part use your
+obviously that's the torso part use your
+selection tools to grab all those parts
+selection tools to grab all those parts
+selection tools to grab all those parts
+click g click s click r to position it
+click g click s click r to position it
+click g click s click r to position it
+scale it rotate it onto the torso so
+scale it rotate it onto the torso so
+scale it rotate it onto the torso so
+that it's projected correctly do the
+that it's projected correctly do the
+that it's projected correctly do the
+same for the sleeve parts if you guys
+same for the sleeve parts if you guys
+same for the sleeve parts if you guys
+want to add the blue color to the cuffs
+want to add the blue color to the cuffs
+want to add the blue color to the cuffs
+of the sleeve or the bottom of the
+of the sleeve or the bottom of the
+of the sleeve or the bottom of the
+hoodie you guys could always just select
+hoodie you guys could always just select
+hoodie you guys could always just select
+the exact cuff parts and unwrap those
+the exact cuff parts and unwrap those
+the exact cuff parts and unwrap those
+specifically and then again just scale
+specifically and then again just scale
+specifically and then again just scale
+it over top of the blue or you could
+it over top of the blue or you could
+it over top of the blue or you could
+even just make another new material and
+even just make another new material and
+even just make another new material and
+just copy the reference color and apply
+just copy the reference color and apply
+just copy the reference color and apply
+it to the cuff area so it's up to you on
+it to the cuff area so it's up to you on
+it to the cuff area so it's up to you on
+how you want to do those little minor
+how you want to do those little minor
+how you want to do those little minor
+details you can do the same for the hood
+details you can do the same for the hood
+details you can do the same for the hood
+select the hood object go to edit mode
+select the hood object go to edit mode
+select the hood object go to edit mode
+and click a to select all the parts open
+and click a to select all the parts open
+and click a to select all the parts open
+up the uv editor click u unwrap it and
+up the uv editor click u unwrap it and
+up the uv editor click u unwrap it and
+then just position that circular hood
+then just position that circular hood
+then just position that circular hood
+area until you have a projection that
+area until you have a projection that
+area until you have a projection that
+works well so super fast super easy the
+works well so super fast super easy the
+works well so super fast super easy the
+only downside to this is we're only
+only downside to this is we're only
+only downside to this is we're only
+setting up the uv mapping for the front
+setting up the uv mapping for the front
+setting up the uv mapping for the front
+perspective so if you are creating an
+perspective so if you are creating an
+perspective so if you are creating an
+animation or a perspective where you can
+animation or a perspective where you can
+animation or a perspective where you can
+see the back you guys will have to
+see the back you guys will have to
+see the back you guys will have to
+unwrap and do the uv projection uh for
+unwrap and do the uv projection uh for
+unwrap and do the uv projection uh for
+the back side so keep that in mind reuse
+the back side so keep that in mind reuse
+the back side so keep that in mind reuse
+those steps that i just showed you if
+those steps that i just showed you if
+those steps that i just showed you if
+you need to do so so to make these
+you need to do so so to make these
+you need to do so so to make these
+clothes a bit more detailed i'm gonna
+clothes a bit more detailed i'm gonna
+clothes a bit more detailed i'm gonna
+load in some custom clothing normal maps
+load in some custom clothing normal maps
+load in some custom clothing normal maps
+so i got these maps from travis davids
+so i got these maps from travis davids
+so i got these maps from travis davids
+you can search for clothing maps online
+you can search for clothing maps online
+you can search for clothing maps online
+i'm sure you can find a bunch of free
+i'm sure you can find a bunch of free
+i'm sure you can find a bunch of free
+ones but either way once you have
+ones but either way once you have
+ones but either way once you have
+something like this in the shader editor
+something like this in the shader editor
+something like this in the shader editor
+for our hoodie all you have to do is
+for our hoodie all you have to do is
+for our hoodie all you have to do is
+just load in an image texture node or
+just load in an image texture node or
+just load in an image texture node or
+you could even just find the image and
+you could even just find the image and
+you could even just find the image and
+just drag it straight into blender then
+just drag it straight into blender then
+just drag it straight into blender then
+connect that normal map to the normal
+connect that normal map to the normal
+connect that normal map to the normal
+little node connector for our main
+little node connector for our main
+little node connector for our main
+principal shader check out the
+principal shader check out the
+principal shader check out the
+difference adds a lot more realistic
+difference adds a lot more realistic
+difference adds a lot more realistic
+detail i'm gonna do this with the pants
+detail i'm gonna do this with the pants
+detail i'm gonna do this with the pants
+as well i'll just go through my clothing
+as well i'll just go through my clothing
+as well i'll just go through my clothing
+textures folder
+textures folder
+textures folder
+i'll find one with jeans i'll go to my
+i'll find one with jeans i'll go to my
+i'll find one with jeans i'll go to my
+pants object i'll go to the shader
+pants object i'll go to the shader
+pants object i'll go to the shader
+editor and i'll just start dropping in
+editor and i'll just start dropping in
+editor and i'll just start dropping in
+those image maps and connecting them to
+those image maps and connecting them to
+those image maps and connecting them to
+the places that they correspond
+the places that they correspond
+the places that they correspond
+and that is about it from here your
+and that is about it from here your
+and that is about it from here your
+character is complete you can choose if
+character is complete you can choose if
+character is complete you can choose if
+you want to animate it if you want to
+you want to animate it if you want to
+you want to animate it if you want to
+pose it i'm going to leave you guys two
+pose it i'm going to leave you guys two
+pose it i'm going to leave you guys two
+tutorials for that below uh we talked a
+tutorials for that below uh we talked a
+tutorials for that below uh we talked a
+bunch about mixamo so tutorial number
+bunch about mixamo so tutorial number
+bunch about mixamo so tutorial number
+one we'll talk about taking this
+one we'll talk about taking this
+one we'll talk about taking this
+character plugging it into mixmo which
+character plugging it into mixmo which
+character plugging it into mixmo which
+is a free service owned by adobe it can
+is a free service owned by adobe it can
+is a free service owned by adobe it can
+auto generate rigs for your characters
+auto generate rigs for your characters
+auto generate rigs for your characters
+that have none and you can pick from a
+that have none and you can pick from a
+that have none and you can pick from a
+different library of animations to
+different library of animations to
+different library of animations to
+choose from and then just import back in
+choose from and then just import back in
+choose from and then just import back in
+the animations or alternatively you guys
+the animations or alternatively you guys
+the animations or alternatively you guys
+could use the second tutorial i'm to
+could use the second tutorial i'm to
+could use the second tutorial i'm to
+link to create a custom rig straight
+link to create a custom rig straight
+link to create a custom rig straight
+within blender if you want to animate
+within blender if you want to animate
+within blender if you want to animate
+yourself or if you just want to put it
+yourself or if you just want to put it
+yourself or if you just want to put it
+in a different pose of your choosing so
+in a different pose of your choosing so
+in a different pose of your choosing so
+i'll leave that down below it's like 16
+i'll leave that down below it's like 16
+i'll leave that down below it's like 16
+minutes but it's more thorough than what
+minutes but it's more thorough than what
+minutes but it's more thorough than what
+i can tell you here
+i can tell you here
+i can tell you here
+i'll go quickly through the steps for
+i'll go quickly through the steps for
+i'll go quickly through the steps for
+that while i show you the footage of
+that while i show you the footage of
+that while i show you the footage of
+what i did um what you want to do is
+what i did um what you want to do is
+what i did um what you want to do is
+just go to edit preferences and enable
+just go to edit preferences and enable
+just go to edit preferences and enable
+riggify and then you want to click shift
+riggify and then you want to click shift
+riggify and then you want to click shift
+a and add in a human armature you want
+a and add in a human armature you want
+a and add in a human armature you want
+to scale it down and position it in the
+to scale it down and position it in the
+to scale it down and position it in the
+correct place once you position all the
+correct place once you position all the
+correct place once you position all the
+bones correctly you want to click
+bones correctly you want to click
+bones correctly you want to click
+control a and just apply all
+control a and just apply all
+control a and just apply all
+transformations and then in object mode
+transformations and then in object mode
+transformations and then in object mode
+go to your armature settings and just
+go to your armature settings and just
+go to your armature settings and just
+generate an armature once you've done
+generate an armature once you've done
+generate an armature once you've done
+that you can go to your post mode and
+that you can go to your post mode and
+that you can go to your post mode and
+you can use your armature rig that you
+you can use your armature rig that you
+you can use your armature rig that you
+just created
+just created
+just created
+to pose the character however you want
+to pose the character however you want
+to pose the character however you want
+again that full tutorial will be down
+again that full tutorial will be down
+again that full tutorial will be down
+below it takes that quick explanation it
+below it takes that quick explanation it
+below it takes that quick explanation it
+shows it a bit more in depth and it also
+shows it a bit more in depth and it also
+shows it a bit more in depth and it also
+goes through a bunch of common problems
+goes through a bunch of common problems
+goes through a bunch of common problems
+and how you can fix it so i recommend
+and how you can fix it so i recommend
+and how you can fix it so i recommend
+you just watch that so hope you guys do
+you just watch that so hope you guys do
+you just watch that so hope you guys do
+enjoy again slap a like if you guys
+enjoy again slap a like if you guys
+enjoy again slap a like if you guys
+would like to see a part two
+would like to see a part two
+would like to see a part two
+if there's enough interest in something
+if there's enough interest in something
+if there's enough interest in something
+like this i could definitely make
+like this i could definitely make
+like this i could definitely make
+characters in different styles like some
+characters in different styles like some
+characters in different styles like some
+of those references i showed you at the
+of those references i showed you at the
+of those references i showed you at the
+beginning
+beginning
+beginning
+or i could talk about making accessories
+or i could talk about making accessories
+or i could talk about making accessories
+posing animating making 3d clothes
+posing animating making 3d clothes
+posing animating making 3d clothes
+that are dynamic and move with the
+that are dynamic and move with the
+that are dynamic and move with the
+movements of your animation there's a
+movements of your animation there's a
+movements of your animation there's a
+whole world of things you can do with
+whole world of things you can do with
+whole world of things you can do with
+this and that's why i'm excited for it
+this and that's why i'm excited for it
+this and that's why i'm excited for it
+and i think that it's a great thing that
+and i think that it's a great thing that
+and i think that it's a great thing that
+you guys could do and apply to your own
+you guys could do and apply to your own
+you guys could do and apply to your own
+work to generate money or have fun with
+work to generate money or have fun with
+work to generate money or have fun with
+your hobby or print out collectibles or
+your hobby or print out collectibles or
+your hobby or print out collectibles or
+do whatever to render this all out and
+do whatever to render this all out and
+do whatever to render this all out and
+admire your creation you guys want to go
+admire your creation you guys want to go
+admire your creation you guys want to go
+to your render settings once
+to your render settings once
+to your render settings once
+everything's finalized you can switch
+everything's finalized you can switch
+everything's finalized you can switch
+from ev to cycles you can also change
+from ev to cycles you can also change
+from ev to cycles you can also change
+from cpu to gpu compute so you can
+from cpu to gpu compute so you can
+from cpu to gpu compute so you can
+utilize your gpu in the processing makes
+utilize your gpu in the processing makes
+utilize your gpu in the processing makes
+it a lot faster and easier for samples i
+it a lot faster and easier for samples i
+it a lot faster and easier for samples i
+just put it at 250 everything came out
+just put it at 250 everything came out
+just put it at 250 everything came out
+very clean and that's really about it go
+very clean and that's really about it go
+very clean and that's really about it go
+to your output settings from there and
+to your output settings from there and
+to your output settings from there and
+you can choose the folder where you'd
+you can choose the folder where you'd
+you can choose the folder where you'd
+like to output it i just output it as a
+like to output it i just output it as a
+like to output it i just output it as a
+png if you guys want you could do tiff
+png if you guys want you could do tiff
+png if you guys want you could do tiff
+or whatever we're only rendering the
+or whatever we're only rendering the
+or whatever we're only rendering the
+first frame here so i'll just put the
+first frame here so i'll just put the
+first frame here so i'll just put the
+render frame start 1 frame n1 and i'll
+render frame start 1 frame n1 and i'll
+render frame start 1 frame n1 and i'll
+click render animation i love how this
+click render animation i love how this
+click render animation i love how this
+looks
+looks
+looks
+i think there's amazing things you guys
+i think there's amazing things you guys
+i think there's amazing things you guys
+can do with this as always guys thank
+can do with this as always guys thank
+can do with this as always guys thank
+you so much for watching thank you so
+you so much for watching thank you so
+you so much for watching thank you so
+much for supporting and i'll see you
+much for supporting and i'll see you
+much for supporting and i'll see you
+guys in the next

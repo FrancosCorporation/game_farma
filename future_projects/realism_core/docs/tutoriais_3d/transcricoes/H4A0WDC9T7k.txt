@@ -1,0 +1,73 @@
+in this video I'm going to show you how
+I create 3D game characters
+so unless you're making a character with
+a lot of flat faces like a robot you're
+going to want to use the subdivision
+modifier so in the modifiers tab I add
+the mirror modifier with clipping
+enabled and the subdivision modifier
+with a viewport level of two so creating
+the model is essentially just a lot of
+extruding or adding Loop cuts to faces
+and then scaling moving and rotating
+those faces here's the shortcut keys for
+those actions
+so once I've modeled the entire
+character I apply the subdivision
+modifier with a levels viewport of one
+because I still want the character to be
+reasonably low poly since I will be
+using him in a game now in edit mode I
+start adding his cosmetics
+now before I can texture him I need to
+UV unwrap him so I decided to UV unwrap
+him in the mirror mode which means that
+anything I paint will be applied to both
+sides of the character and it also
+allows for more UV space I am wrapped in
+by using UV project and then just move
+the UVS around to better fit so you can
+paint the entire character on one
+texture or you can split the textures up
+by assigning mesh to different materials
+which is what I decided to do because I
+want to change the color of the fog skin
+with a node
+now in texture mode add a base color
+texture and leave the default size
+because you can always decrease the
+texture size later so texturing the
+character I usually like to start by
+adding the details I want like this
+pattern on the skin and then painting
+imperfections which could just be
+different colors on the material and
+then usually the last step is to add
+shadows and highlights
+so same again with his stomach I add
+some chest and belly details and then
+add highlights and shadows
+and same again with his arm wraps except
+I use the line tool here to paint the
+details and highlights
+also a quick tip when you're adding
+Shadows you're going to want to change
+the blend mode to darken and when you're
+adding highlights you're going to want
+to change the blend mode to lighten
+foreign
+add-on is enabled then press shift a and
+create the human MetaBank then just
+delete all the bones you don't need and
+then rotate and move those bones to
+match your mesh
+also you can delete and mirror one side
+of the Armature by clicking on Armature
+then symmetrize
+so that's it obviously this wasn't a
+beginner friendly or in-depth tutorial
+but hopefully it was helpful let me know
+in the comments if you want to see more
+videos like these also don't forget to
+like And subscribe and stay tuned for my
+next Dev vlog

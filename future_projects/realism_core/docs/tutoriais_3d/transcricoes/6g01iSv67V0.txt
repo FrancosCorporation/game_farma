@@ -1,0 +1,763 @@
+Kind: captions
+Language: en
+this really truly excellent tutorial is
+this really truly excellent tutorial is
+this really truly excellent tutorial is
+brought to you by skos share and we're
+brought to you by skos share and we're
+brought to you by skos share and we're
+going to talk about them later in this
+going to talk about them later in this
+going to talk about them later in this
+tutorial I don't only want to show you
+tutorial I don't only want to show you
+tutorial I don't only want to show you
+how to make camera motion but like hyper
+how to make camera motion but like hyper
+how to make camera motion but like hyper
+realistic camera motion I mean look at
+realistic camera motion I mean look at
+realistic camera motion I mean look at
+this it looks like it was actually
+this it looks like it was actually
+this it looks like it was actually
+filmed and that's because it was we're
+filmed and that's because it was we're
+filmed and that's because it was we're
+basically going to use our phone
+basically going to use our phone
+basically going to use our phone
+particularly I think it has to be an
+particularly I think it has to be an
+particularly I think it has to be an
+iPhone sorry Android users to basically
+iPhone sorry Android users to basically
+iPhone sorry Android users to basically
+film our scene and translate that into
+film our scene and translate that into
+film our scene and translate that into
+blender let me show you the bad version
+blender let me show you the bad version
+blender let me show you the bad version
+first then we'll talk about how to do
+first then we'll talk about how to do
+first then we'll talk about how to do
+the good one okay so in blender this is
+the good one okay so in blender this is
+the good one okay so in blender this is
+the typical thing people will tell you
+the typical thing people will tell you
+the typical thing people will tell you
+to do they'll say take your camera key
+to do they'll say take your camera key
+to do they'll say take your camera key
+Frame It Go 100 frames down let's move
+Frame It Go 100 frames down let's move
+Frame It Go 100 frames down let's move
+it down over here and maybe have it like
+it down over here and maybe have it like
+it down over here and maybe have it like
+rotate a little key frame now the camera
+rotate a little key frame now the camera
+rotate a little key frame now the camera
+is moving then typically we open the
+is moving then typically we open the
+is moving then typically we open the
+graph editor where you can see all of
+graph editor where you can see all of
+graph editor where you can see all of
+our animation data so here you can see
+our animation data so here you can see
+our animation data so here you can see
+all our key frames we go into something
+all our key frames we go into something
+all our key frames we go into something
+like let's say the rotation mainly so
+like let's say the rotation mainly so
+like let's say the rotation mainly so
+you can think of rotation as uh where is
+you can think of rotation as uh where is
+you can think of rotation as uh where is
+the camera kind of facing for the X
+the camera kind of facing for the X
+the camera kind of facing for the X
+we're going to add some noise which you
+we're going to add some noise which you
+we're going to add some noise which you
+can see moves it up and down you make
+can see moves it up and down you make
+can see moves it up and down you make
+that thing slower you make it less in T
+that thing slower you make it less in T
+that thing slower you make it less in T
+you add a bit of detail then they say
+you add a bit of detail then they say
+you add a bit of detail then they say
+copy this modifier put it on y paste and
+copy this modifier put it on y paste and
+copy this modifier put it on y paste and
+then offset it and then same thing with
+then offset it and then same thing with
+then offset it and then same thing with
+z and then you get this kind of camera
+z and then you get this kind of camera
+z and then you get this kind of camera
+motion that is definitely random but I
+motion that is definitely random but I
+motion that is definitely random but I
+don't think it looks realistic at all so
+don't think it looks realistic at all so
+don't think it looks realistic at all so
+I'm using an application called camra AR
+I'm using an application called camra AR
+I'm using an application called camra AR
+there are other versions of this but
+there are other versions of this but
+there are other versions of this but
+this one has like pretty good free
+this one has like pretty good free
+this one has like pretty good free
+features and there isn't much to say
+features and there isn't much to say
+features and there isn't much to say
+about this right so you film what it is
+about this right so you film what it is
+about this right so you film what it is
+that you are seeing it will prompt you
+that you are seeing it will prompt you
+that you are seeing it will prompt you
+to select the floor which will
+to select the floor which will
+to select the floor which will
+automatically detect what is the floor
+automatically detect what is the floor
+automatically detect what is the floor
+and then you just walk around your scene
+and then you just walk around your scene
+and then you just walk around your scene
+for Preparation you can Define other
+for Preparation you can Define other
+for Preparation you can Define other
+pieces of geometry by kind of putting
+pieces of geometry by kind of putting
+pieces of geometry by kind of putting
+down these anchor points that we're
+down these anchor points that we're
+down these anchor points that we're
+going to be able to access later it's
+going to be able to access later it's
+going to be able to access later it's
+better to kind of tell the app these are
+better to kind of tell the app these are
+better to kind of tell the app these are
+the areas I'm going to go and get
+the areas I'm going to go and get
+the areas I'm going to go and get
+familiar with them before we start
+familiar with them before we start
+familiar with them before we start
+moving you hit record and then you do
+moving you hit record and then you do
+moving you hit record and then you do
+your camera motion again you want to
+your camera motion again you want to
+your camera motion again you want to
+kind of imagine that you're in the 3D
+kind of imagine that you're in the 3D
+kind of imagine that you're in the 3D
+space you stop recording and that's kind
+space you stop recording and that's kind
+space you stop recording and that's kind
+of the essence of it it will export all
+of the essence of it it will export all
+of the essence of it it will export all
+the files you need including the video
+the files you need including the video
+the files you need including the video
+which I think you could pick between 30
+which I think you could pick between 30
+which I think you could pick between 30
+and 60 FPS and more importantly it will
+and 60 FPS and more importantly it will
+and 60 FPS and more importantly it will
+export I guess a bunch of different file
+export I guess a bunch of different file
+export I guess a bunch of different file
+formats the one that I've actually gone
+formats the one that I've actually gone
+formats the one that I've actually gone
+to work is this like
+to work is this like
+to work is this like
+hfcs file I forget what it's called it
+hfcs file I forget what it's called it
+hfcs file I forget what it's called it
+stands for H film basically and there
+stands for H film basically and there
+stands for H film basically and there
+will be an add-on that lets you import
+will be an add-on that lets you import
+will be an add-on that lets you import
+it another thing I want to mention is
+it another thing I want to mention is
+it another thing I want to mention is
+that in this app they have like a 3D
+that in this app they have like a 3D
+that in this app they have like a 3D
+feature which lets you kind of get rid
+feature which lets you kind of get rid
+feature which lets you kind of get rid
+of what it is you're looking at and then
+of what it is you're looking at and then
+of what it is you're looking at and then
+really kind of feel what your camera
+really kind of feel what your camera
+really kind of feel what your camera
+motion is going to be like outside of
+motion is going to be like outside of
+motion is going to be like outside of
+context which may help or may hurt I'm
+context which may help or may hurt I'm
+context which may help or may hurt I'm
+not sure so I'm going to put a link in
+not sure so I'm going to put a link in
+not sure so I'm going to put a link in
+the description for where you get this
+the description for where you get this
+the description for where you get this
+like python script again you just
+like python script again you just
+like python script again you just
+install in your desktop you find hit
+install in your desktop you find hit
+install in your desktop you find hit
+film you add it enable it now when you
+film you add it enable it now when you
+film you add it enable it now when you
+go to file and import you have all your
+go to file and import you have all your
+go to file and import you have all your
+normal stuff but then also hit film AR
+normal stuff but then also hit film AR
+normal stuff but then also hit film AR
+tracking you hit it and then you pick
+tracking you hit it and then you pick
+tracking you hit it and then you pick
+your tracking file the issue is I don't
+your tracking file the issue is I don't
+your tracking file the issue is I don't
+really have a distinguisher between
+really have a distinguisher between
+really have a distinguisher between
+these so I'm just going to bring in one
+these so I'm just going to bring in one
+these so I'm just going to bring in one
+of these let's get rid of our default
+of these let's get rid of our default
+of these let's get rid of our default
+objects it's going to add a camera and
+objects it's going to add a camera and
+objects it's going to add a camera and
+then all of our anchor points as well
+then all of our anchor points as well
+then all of our anchor points as well
+and another thing to notice is even if
+and another thing to notice is even if
+and another thing to notice is even if
+you film in 1080P it seems to kind of
+you film in 1080P it seems to kind of
+you film in 1080P it seems to kind of
+like crop it to like a 4x3 aspect ratio
+like crop it to like a 4x3 aspect ratio
+like crop it to like a 4x3 aspect ratio
+we're going to go to the camera we're
+we're going to go to the camera we're
+we're going to go to the camera we're
+going to enable kind of like an overlay
+going to enable kind of like an overlay
+going to enable kind of like an overlay
+of a movie clip and if I'm correct this
+of a movie clip and if I'm correct this
+of a movie clip and if I'm correct this
+is the hallway shot we'll see yes okay
+is the hallway shot we'll see yes okay
+is the hallway shot we'll see yes okay
+so you can see the tracking isn't Pixel
+so you can see the tracking isn't Pixel
+so you can see the tracking isn't Pixel
+Perfect but it's pretty good even if you
+Perfect but it's pretty good even if you
+Perfect but it's pretty good even if you
+have like 1920 x 1080 like you have
+have like 1920 x 1080 like you have
+have like 1920 x 1080 like you have
+extra resolution it will kind of crop
+extra resolution it will kind of crop
+extra resolution it will kind of crop
+out these bars on the side which I guess
+out these bars on the side which I guess
+out these bars on the side which I guess
+kind of like desyncs these or unsyncs
+kind of like desyncs these or unsyncs
+kind of like desyncs these or unsyncs
+them so just hit crop and now you can
+them so just hit crop and now you can
+them so just hit crop and now you can
+see the full thing so I wonder if it
+see the full thing so I wonder if it
+see the full thing so I wonder if it
+actually has your 1080p but it's
+actually has your 1080p but it's
+actually has your 1080p but it's
+capturing extra stuff that you wouldn't
+capturing extra stuff that you wouldn't
+capturing extra stuff that you wouldn't
+normally get in your footage and let's
+normally get in your footage and let's
+normally get in your footage and let's
+kind of like Loosely model our area even
+kind of like Loosely model our area even
+kind of like Loosely model our area even
+though I'm not like texture projecting
+though I'm not like texture projecting
+though I'm not like texture projecting
+or anything like this cuz if I'm walking
+or anything like this cuz if I'm walking
+or anything like this cuz if I'm walking
+through a scene if I remake that scene
+through a scene if I remake that scene
+through a scene if I remake that scene
+in 3D it will make even more sense in
+in 3D it will make even more sense in
+in 3D it will make even more sense in
+context if you're getting some
+context if you're getting some
+context if you're getting some
+misalignment by the way with your
+misalignment by the way with your
+misalignment by the way with your
+Vanishing points that could either be a
+Vanishing points that could either be a
+Vanishing points that could either be a
+zooming issue which I don't know if it
+zooming issue which I don't know if it
+zooming issue which I don't know if it
+is it does seem to calculate for focal
+is it does seem to calculate for focal
+is it does seem to calculate for focal
+length on the Fly which I guess means
+length on the Fly which I guess means
+length on the Fly which I guess means
+you can like zoom in as you film but it
+you can like zoom in as you film but it
+you can like zoom in as you film but it
+could also be an issue with orientation
+could also be an issue with orientation
+could also be an issue with orientation
+so I'm going to add an empty empty is
+so I'm going to add an empty empty is
+so I'm going to add an empty empty is
+going to let me reorient the scene
+going to let me reorient the scene
+going to let me reorient the scene
+basically going to get rid of these
+basically going to get rid of these
+basically going to get rid of these
+anchor points I don't really need them
+anchor points I don't really need them
+anchor points I don't really need them
+for my case and take your camera and
+for my case and take your camera and
+for my case and take your camera and
+parent it to the empty the reason I'm
+parent it to the empty the reason I'm
+parent it to the empty the reason I'm
+doing this by way is the camera has all
+doing this by way is the camera has all
+doing this by way is the camera has all
+these key frames which means we can't
+these key frames which means we can't
+these key frames which means we can't
+really move it unless we parent it to
+really move it unless we parent it to
+really move it unless we parent it to
+something and then we can kind of move
+something and then we can kind of move
+something and then we can kind of move
+the parent but maintain the motion bring
+the parent but maintain the motion bring
+the parent but maintain the motion bring
+them up to the top of the ceiling and it
+them up to the top of the ceiling and it
+them up to the top of the ceiling and it
+is pretty good by the way that it kind
+is pretty good by the way that it kind
+is pretty good by the way that it kind
+of matches perspective clearly there are
+of matches perspective clearly there are
+of matches perspective clearly there are
+some issues but what are you going to
+some issues but what are you going to
+some issues but what are you going to
+do this is not a one for one by the way
+do this is not a one for one by the way
+do this is not a one for one by the way
+we have this like trash can I don't know
+we have this like trash can I don't know
+we have this like trash can I don't know
+if you can see there's a trash can over
+if you can see there's a trash can over
+if you can see there's a trash can over
+there that automatically opens when you
+there that automatically opens when you
+there that automatically opens when you
+say open except it totally doesn't do
+say open except it totally doesn't do
+say open except it totally doesn't do
+that it just opens when I say random
+that it just opens when I say random
+that it just opens when I say random
+ and I never know what the trigger
+ and I never know what the trigger
+ and I never know what the trigger
+word is either way you can see I've
+word is either way you can see I've
+word is either way you can see I've
+Loosely modeled this hallway it's mostly
+Loosely modeled this hallway it's mostly
+Loosely modeled this hallway it's mostly
+like inspired by this it's not one for
+like inspired by this it's not one for
+like inspired by this it's not one for
+one and one thing I want to mention is
+one and one thing I want to mention is
+one and one thing I want to mention is
+by default I did use 60 frames per
+by default I did use 60 frames per
+by default I did use 60 frames per
+second which is kind of like this crisp
+second which is kind of like this crisp
+second which is kind of like this crisp
+video but I don't like the look of it if
+video but I don't like the look of it if
+video but I don't like the look of it if
+I just changed this to 30 FPS you're
+I just changed this to 30 FPS you're
+I just changed this to 30 FPS you're
+going to see it is now 30 FPS but the
+going to see it is now 30 FPS but the
+going to see it is now 30 FPS but the
+motion is twice as slow cuz we're going
+motion is twice as slow cuz we're going
+motion is twice as slow cuz we're going
+from 60 to 30 so it takes twice as long
+from 60 to 30 so it takes twice as long
+from 60 to 30 so it takes twice as long
+to do the motion as you might expect
+to do the motion as you might expect
+to do the motion as you might expect
+since it takes twice as long we should
+since it takes twice as long we should
+since it takes twice as long we should
+make the camera twice as fast right so
+make the camera twice as fast right so
+make the camera twice as fast right so
+if we scale on the x-axis these key
+if we scale on the x-axis these key
+if we scale on the x-axis these key
+frames type in 0.5 and now this will be
+frames type in 0.5 and now this will be
+frames type in 0.5 and now this will be
+the same speed although I should mention
+the same speed although I should mention
+the same speed although I should mention
+when you do this the video is going to
+when you do this the video is going to
+when you do this the video is going to
+be out of sync now cuz the video is
+be out of sync now cuz the video is
+be out of sync now cuz the video is
+still 60 FPS FPS but we no longer need
+still 60 FPS FPS but we no longer need
+still 60 FPS FPS but we no longer need
+it so we don't care final thing let's
+it so we don't care final thing let's
+it so we don't care final thing let's
+just kind of set up our scene in a way
+just kind of set up our scene in a way
+just kind of set up our scene in a way
+that is a bit more interesting so I'm
+that is a bit more interesting so I'm
+that is a bit more interesting so I'm
+going to use Eevee let's make a checker
+going to use Eevee let's make a checker
+going to use Eevee let's make a checker
+board material to make it not stretch um
+board material to make it not stretch um
+board material to make it not stretch um
+this is because it's generated
+this is because it's generated
+this is because it's generated
+coordinates and the hallway is very long
+coordinates and the hallway is very long
+coordinates and the hallway is very long
+so it's stretching our coordinates just
+so it's stretching our coordinates just
+so it's stretching our coordinates just
+set this to object coordinates literally
+set this to object coordinates literally
+set this to object coordinates literally
+all you have to do pick a smaller number
+all you have to do pick a smaller number
+all you have to do pick a smaller number
+to make it smaller you get everything
+to make it smaller you get everything
+to make it smaller you get everything
+for free right like motion blur is going
+for free right like motion blur is going
+for free right like motion blur is going
+to be accurate but I'm just going to add
+to be accurate but I'm just going to add
+to be accurate but I'm just going to add
+some lights and here's a little trick by
+some lights and here's a little trick by
+some lights and here's a little trick by
+the way learned this recently if you
+the way learned this recently if you
+the way learned this recently if you
+have a bunch of objects of the same type
+have a bunch of objects of the same type
+have a bunch of objects of the same type
+like these lights and you want to make
+like these lights and you want to make
+like these lights and you want to make
+them brighter so let's say from 10 we go
+them brighter so let's say from 10 we go
+them brighter so let's say from 10 we go
+to 100 it's only affecting one light if
+to 100 it's only affecting one light if
+to 100 it's only affecting one light if
+you have all of them selected you could
+you have all of them selected you could
+you have all of them selected you could
+right click copy to selected and now
+right click copy to selected and now
+right click copy to selected and now
+they all have this property some ambient
+they all have this property some ambient
+they all have this property some ambient
+occlusion make that five times stronger
+occlusion make that five times stronger
+occlusion make that five times stronger
+so without and with maybe add Bloom
+so without and with maybe add Bloom
+so without and with maybe add Bloom
+maybe add screen space Reflections and
+maybe add screen space Reflections and
+maybe add screen space Reflections and
+definitely like motion blur and stuff
+definitely like motion blur and stuff
+definitely like motion blur and stuff
+like that even though your camera is
+like that even though your camera is
+like that even though your camera is
+referencing the original footage there's
+referencing the original footage there's
+referencing the original footage there's
+no reason you can't change it after the
+no reason you can't change it after the
+no reason you can't change it after the
+fact if you don't like it like you can
+fact if you don't like it like you can
+fact if you don't like it like you can
+over write animations or even uh change
+over write animations or even uh change
+over write animations or even uh change
+the focal length I guess I can just
+the focal length I guess I can just
+the focal length I guess I can just
+rightclick clear key frame so now the
+rightclick clear key frame so now the
+rightclick clear key frame so now the
+focal length doesn't change but you can
+focal length doesn't change but you can
+focal length doesn't change but you can
+like zoom out and have the same camera
+like zoom out and have the same camera
+like zoom out and have the same camera
+motion but it's like more zoomed out now
+motion but it's like more zoomed out now
+motion but it's like more zoomed out now
+whoa there I hope you weren't looking
+whoa there I hope you weren't looking
+whoa there I hope you weren't looking
+too closely at this screen anyways this
+too closely at this screen anyways this
+too closely at this screen anyways this
+tutorial you're watching right now is
+tutorial you're watching right now is
+tutorial you're watching right now is
+sponsored by skillshare you've heard of
+sponsored by skillshare you've heard of
+sponsored by skillshare you've heard of
+them it's the number one place to learn
+them it's the number one place to learn
+them it's the number one place to learn
+things online whether it's photography
+things online whether it's photography
+things online whether it's photography
+videography or in our cases most likely
+videography or in our cases most likely
+videography or in our cases most likely
+3D related stuff and skillshare has
+3D related stuff and skillshare has
+3D related stuff and skillshare has
+added learning paths which aren't just
+added learning paths which aren't just
+added learning paths which aren't just
+like independent like modules but it is
+like independent like modules but it is
+like independent like modules but it is
+a flow a sequence of them that you watch
+a flow a sequence of them that you watch
+a flow a sequence of them that you watch
+one after another after another and guys
+one after another after another and guys
+one after another after another and guys
+I got one that's relevant to you become
+I got one that's relevant to you become
+I got one that's relevant to you become
+a professional 3D animator career skills
+a professional 3D animator career skills
+a professional 3D animator career skills
+knowing my animation skills I better on
+knowing my animation skills I better on
+knowing my animation skills I better on
+this and when you go through the full
+this and when you go through the full
+this and when you go through the full
+learning path you might find at the very
+learning path you might find at the very
+learning path you might find at the very
+end adapting your 3D skills 3D animation
+end adapting your 3D skills 3D animation
+end adapting your 3D skills 3D animation
+from blund to Maya this is very topical
+from blund to Maya this is very topical
+from blund to Maya this is very topical
+because the VFX Studio I occasionally
+because the VFX Studio I occasionally
+because the VFX Studio I occasionally
+work at is setting up files to go over
+work at is setting up files to go over
+work at is setting up files to go over
+to Maya literally for animation but
+to Maya literally for animation but
+to Maya literally for animation but
+anyways Madison in this video talks
+anyways Madison in this video talks
+anyways Madison in this video talks
+about how do you transition from one
+about how do you transition from one
+about how do you transition from one
+software to another or you could think
+software to another or you could think
+software to another or you could think
+of it not as a transition but just
+of it not as a transition but just
+of it not as a transition but just
+adding another thing
+adding another thing
+adding another thing
+to your toolkit your tool belt so thank
+to your toolkit your tool belt so thank
+to your toolkit your tool belt so thank
+you Madison hernd for making this
+you Madison hernd for making this
+you Madison hernd for making this
+learning path so when you are ready to
+learning path so when you are ready to
+learning path so when you are ready to
+join skillshare I have a link it's in
+join skillshare I have a link it's in
+join skillshare I have a link it's in
+the description and the first 500 people
+the description and the first 500 people
+the description and the first 500 people
+who click it will get a on month free
+who click it will get a on month free
+who click it will get a on month free
+trial of skillshare PL of time to do
+trial of skillshare PL of time to do
+trial of skillshare PL of time to do
+that learning path and now realistic
+that learning path and now realistic
+that learning path and now realistic
+camera motion whoa let's do this one
+camera motion whoa let's do this one
+camera motion whoa let's do this one
+more time with a different scene just so
+more time with a different scene just so
+more time with a different scene just so
+you really get the process down it's not
+you really get the process down it's not
+you really get the process down it's not
+hard file import hit film background
+hard file import hit film background
+hard file import hit film background
+images movie clip so you can see it's
+images movie clip so you can see it's
+images movie clip so you can see it's
+now tracking perfectly if I want to
+now tracking perfectly if I want to
+now tracking perfectly if I want to
+change this to 1080
+change this to 1080
+change this to 1080
+remember the camera is not going to sink
+remember the camera is not going to sink
+remember the camera is not going to sink
+cuz we need to just set this to crop I
+cuz we need to just set this to crop I
+cuz we need to just set this to crop I
+believe parent your camera to the empty
+believe parent your camera to the empty
+believe parent your camera to the empty
+and then you can actually just kind of
+and then you can actually just kind of
+and then you can actually just kind of
+let's see reorient our coordinate system
+here okay let's see what that came out
+here okay let's see what that came out
+here okay let's see what that came out
+like okay I'm scanning the space my
+like okay I'm scanning the space my
+like okay I'm scanning the space my
+camera actually makes sense relative to
+camera actually makes sense relative to
+camera actually makes sense relative to
+what I'm doing I'm looking around
+what I'm doing I'm looking around
+what I'm doing I'm looking around
+corners okay you basically understand
+corners okay you basically understand
+corners okay you basically understand
+the concept but this is the technique
+the concept but this is the technique
+the concept but this is the technique
+that people use to make Back Room videos
+that people use to make Back Room videos
+that people use to make Back Room videos
+and analog found footage in 3D I got
+and analog found footage in 3D I got
+and analog found footage in 3D I got
+interested in this because cane pixels
+interested in this because cane pixels
+interested in this because cane pixels
+the oldest view which is the thing he
+the oldest view which is the thing he
+the oldest view which is the thing he
+made after his back room Series so there
+made after his back room Series so there
+made after his back room Series so there
+you go hopefully you have an iPhone

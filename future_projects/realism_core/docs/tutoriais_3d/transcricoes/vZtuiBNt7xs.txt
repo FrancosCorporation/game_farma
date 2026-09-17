@@ -1,0 +1,1702 @@
+in this video we'll learn to uv a
+character in blender
+this is a part of a series that goes
+through all the steps it takes to make a
+character blender
+if you haven't been following along it
+won't matter because
+this lesson will apply to any basic
+humanoid uving is a process we use
+to paint 3d objects so we take our 3d
+object
+we cut up all the surfaces and lay them
+out flat
+onto a 2d image plane we paint that 2d
+image plane
+and we get colors on our 3d object
+so here's our example let's go to
+solid mode and turn on wireframe
+so you can see the all these red lines
+the first thing we want to do is we want
+to
+create all these red lines or create
+these seams
+and then we want to lay them all out
+onto
+this uv layout
+when we do this we want to also try and
+make sure we have as little distortion
+in our surfaces
+surfaces as possible which i'll show how
+to do that
+and for some areas where we know we'll
+be looking close like the face
+we want to make those sections larger
+than the rest of the body
+okay let's get set to uv we'll go to our
+uv editing layout
+but we need three windows and to make a
+new window
+you move your cursor to a corner of a
+window
+any corner and if you click and drag
+it creates a new window you can make it
+disappear by
+if you get the white crosshair again and
+drag again
+you can make it go away so that's how
+you make windows so let's make one
+window here
+make one window there if you go to the
+editor type
+let's pick uv editor here and we'll pick
+a shader editor here and hit
+n to make that panel go away
+let's also go to our solid mode
+and let's turn off these lights actually
+let's hide everything
+we only want the um
+object that we want a uv visible so
+we'll pick our
+body and hit shift h to make everything
+else go away
+and i think that's all we need
+let's go back to our character here and
+before we get started
+i'm going to tweak the mesh a bit
+there's going to be nothing new here so
+feel free to skip it
+i'll record it in case anybody is
+interested in seeing me
+flail about
+it's
+okay i think that looks pretty good
+let's
+change our view to 190.
+now let's start our uving
+let's grab our object go to edit mode
+and
+edge mode so we want to break up our
+mesh
+into nice
+simple shapes that we can flatten out
+and get as little distortion as possible
+so let's do that so let's first grab
+the wrist ideally when you make your
+cuts you want to have them
+in simple loops it's just nice and clean
+and if you edit things in photoshop it
+can be
+easier for you you don't have to but it
+makes it easier
+so i have the selected now i'm going to
+go to edge and
+mark scene
+so that's the bottom of our kind of like
+arm area
+let's select it on the top also
+okay it's not great to select across
+poles but it's okay
+go to edge and mark scene
+and then let's select the inside edge
+it's a little bit less visible
+oh so i got the body too so you could um
+you know control drag select
+to hide them or if you're lazy like me
+you could hit l and h to hide that
+then go back to edge mode and
+alt click that and then go to
+edge and mark seam and you don't have to
+go and
+deselect as much
+so that is our first that's our first
+bound we defined our first boundary for
+our texture map
+so you can check it to make sure it's a
+closed boundary by going to face mode
+and
+hovering over one of the faces within
+your boundary and hitting l
+and you can see the selection stops at
+the boundaries
+and so that's a closed boundary you can
+also
+test it to see if um it'll unwrap more
+or less okay
+you can go to uv and unwrap
+i think i have proportional editing
+turned on so let's turn it off
+r negative 90. and let's move that and
+you can see this is pretty good
+we can probably just use that the way it
+is so that is
+that's our first unwrap
+so let's go and do the hand now
+i like to cut the hand right down the
+middle so it's
+a back side and front side so
+let's go and hide this again go to edge
+mode
+and let's find a nice line to go down
+the whole
+hand i mean the fingers so that's pretty
+good
+let's grab those two you'll remember we
+made all these fingers
+the same way so it should be a nice
+pattern where we pick these lines should
+be the same all the way across
+so we'll get that and then we'll get
+lines around the front
+and then grab this guy too
+and then the thumb
+and that
+edge and mark scene
+so that's pretty good let's check it
+here l okay
+all right so we have a closed boundary i
+also if i know i'm gonna color the
+the uh fingernails a different color or
+a different texture
+i i separate them out
+so i i'll go like that
+so this way i can put the fingernails
+on a separate part of the map and just
+easily color them to different colors or
+textures
+so let's do that it's
+got some drawbacks if you color the
+fingernails in this way
+when you finish your texture it'll be a
+very abrupt line
+between the fingernail color and the
+skin color
+but i usually do this it's not too much
+of a problem for me
+if someone doesn't like it then i'll
+just
+go into paint mode and kind of blur the
+edge a bit so it's not
+as abrupt but so far no one's had any
+problems with that
+so i will keep doing it
+grab all of these
+and plus is a pretty low resolution mesh
+so it's not really
+it's not super detailed anyway edge mark
+scene okay let's go to facebook and make
+sure those
+fingernails are all separate yep they
+are okay that's good
+alt h
+let's also do the feet in the same way
+so we will
+so edge mark seam
+and then let's cut our foot so i like to
+cut the foot
+along the bottom let's do it the same
+way as we cut our fingers
+i mean our hand
+because these toes were made this from
+the fingers actually so
+that should be closed loop
+and edge mark seam
+then let's cut a
+line somewhere here so pick up
+go to face mode l l h
+edge mode and alt click
+there then edge
+mark seam and alt h
+okay so now we've got
+let's check our boundary selections
+that's good
+that's good and let's just see how that
+unwraps
+uv unwrap
+and that's pretty good oh
+let's do toenails too
+it's a lot of repetition
+edge and mark seam there we go
+okay i guess i can show you what happens
+so if you uh
+go to face mode l
+uv unwrap we get our foot
+and then if we
+hide that i'll hide that
+we get our toenails oh i'm missing a
+toenail
+ah missing an edge okay
+edge mark scene
+l hide face mode
+l hide l hide
+grab our toenails uv unwrap
+alt h
+so if you look at our uv map
+what i do is color this all a skin color
+and then color this whatever
+color you want to color the toenails
+it'll be a lot easier to just put a
+rectangle
+around this and color it versus
+taking your cursor and painting all of
+these toenails it's really um
+tedious
+okay
+so that's our feet and our hands
+and i think we'll cut the ear
+that's probably a pretty good
+edge mark seam
+for the bottom of the head you want to
+put the line in some place where you
+kind of won't notice it
+i think there
+then when you cut the
+for the face if you just if you just did
+that
+oh she's got a hole in her head
+and a m a
+okay so um if you just
+put a seam right there when you unwrap
+it it's
+it'll distort it'll distort the
+um the face a lot
+so you can do things like you could you
+could
+put a cut down the front and unwrap it
+and so distort a lot less
+um but it's good to kind of think that
+you want to hide the seam below the hair
+so i'll usually do something
+like
+this
+so all of these these seams are below
+the hairline
+and so it's not going to be visible but
+since we have this big cut here
+it'll make it so that the face is being
+distorted less
+so let's mark seam uh sorry
+mark yeah marxian
+what happened here edge clear seam
+and then let's just cut the back of the
+head since we're here
+this might be visible below the hair and
+i don't like that
+so let's cut this like
+here instead
+edge mark seam
+okay this this part of the head is not
+you know the way it's cut off right now
+it'll distort a lot but
+it's not a big deal because it's covered
+by hair so
+i'm not too worried about that
+and it's usually a good idea to cut off
+the
+neck somewhere
+put a loop in there so it's a nice clean
+loop
+edge mark scene
+so the reason why i actually add
+geometry to get a nice clean loop is a
+lot of times
+i'll have a collar for a jacket
+or a choker or something like that
+and it's a it's an easy way to later on
+down the road where you can just
+select this mesh and offset it and make
+some clothing so
+it's not the best way to do this because
+i just added a bunch of
+faces but it does make it easier to to
+model later on down the road when you're
+making clothes
+so so that's why i did that
+let's see here so inside these eyes
+we gotta cut them off
+so we want a lot of detail on the face
+but then
+inside these pockets inside the head we
+don't really need that
+so let's cut that
+where we think we won't see the seam
+that's probably okay
+edge mark scene
+edge mark seam
+it it might not matter so you can
+probably skip that
+that's what i do we also want to cut off
+the
+inside of the mouth and it's hard to see
+so
+let's turn off our mirror
+then let's select it right
+there i think that's pretty good
+edge mark seam
+there we've got that selected nose eyes
+ears neck
+let's grab that hmm
+i don't like how this seam is so far
+forward
+i'd rather have it there
+so that's not super great
+but it will probably be under close so i
+think it's okay
+let's unselect that
+that's fine that was the same that loop
+went straight into the
+arm okay
+so let's go to edge and
+mark seam
+and then let's go and get the inside of
+the leg
+and this should run
+across the um crotch
+yeah that's okay
+edge and mark seam
+so that should be everything
+okay so i hit l and you can see
+i wanted to cut the front off from the
+back and you can see it's
+it's a it's selecting everything the
+front and the back so i'm
+missing something somewhere and i'm
+missing the shoulder
+so let's grab that
+and edge mark seam
+face mode l and okay so now we've got
+the front half
+back half
+the neck also needs a seam
+so let's put that
+right here
+edge mark scene
+okay
+neck back of head ears
+face eyes
+mouth
+little nose
+feet okay
+so i think that's all of our cuts
+okay so we've got our boundaries set up
+but we want to make sure
+our textures aren't stretching when we
+lay them out
+in the uv window so
+let's add a material a texture to check
+it
+we don't need this extra color anymore
+so let's delete
+go to object mode delete that select
+our skin rough go over to our
+shader editor shift a s i m a for image
+texture
+click that go to open and you can't see
+my window because i have a dual screen
+but
+let's drag this over okay
+now you can see it so let's pick these
+are free
+uv textures i have a link in the
+description below so you can get them
+and let's pick one to use let's pick
+this one right here
+and click open image then connect
+color to base color go to our shaded
+mode
+it's kind of kind of dark turn off
+world and lights and pick something like
+that
+and make it brighter
+okay so now we can see
+our texture map our uv texture map on
+our character
+so this is how you use this tool
+so let's grab go to edit mode let's grab
+our
+arm because we know that uv is actually
+pretty okay
+let's scale it down to a size i think
+it's going to be more finished with our
+character so roughly that size
+so in the uv window
+you can see this uh this unwrapped
+arm and how it maps up against this
+jpeg image and you can see in the 3d
+viewport the same thing
+so let's see here
+so this red square c18 we'll put that
+right in the middle of the shoulder so
+you can see it's right in the middle
+here
+of the shoulder and if you look over
+here in the 3d viewport you can see
+the c18 is right in the middle of the
+shoulder
+above it and on the left the b18
+is right up there and as you go down
+on this flat laid out arm you can see
+you go down
+in the three dimensional arm so that's
+that's kind of how how to look at these
+things
+as far and the other part so you want to
+when you look at these you want to make
+sure that
+all these squares since our 2d image
+is all squares you want to make sure
+that in 3d they're all squares
+so you can see here this is kind of
+becoming a rectangle which is not great
+but it's fine
+you know over here they're kind of bent
+but it's not too much so that's okay
+but if you see any extreme stretching
+it's no good
+so for example like this is extreme
+stretching right here
+and so that's so good this blue is you
+know
+it looks like overlapping vertices
+so that's no good and even over here in
+the
+chest area these are all rectangles not
+squares like our original map
+and that's no good and
+also for the entire body you want to
+have all the squares be around the same
+size
+so in the chest area they're too small
+they should be more the size of the arm
+okay so let's do some uving
+oh and and also after you get your uvs
+the way you like them
+just go and move your object oops
+move your object or your boundary off to
+the side somewhere
+okay so that's the arm
+let's do the palm hit l
+and then uv
+unwrap and it looks really
+funny but
+that's okay it'll map just fine so let's
+make sure
+these are the same these
+squares on the 3d viewport for the hand
+are the same as the arm
+so let's get a view where you can see
+both
+and scale that down so it's around the
+same size
+and i think that's pretty good so let's
+move this close to the arm
+and let's do the back of the hand so i
+hit l
+uv unwrap
+and that is crazy
+i have i've actually never seen that
+before that is really weird um
+why did that happen so there's some
+options when you're unwrapping so you
+can go to uv and unwrap
+and i wonder if it's because
+okay so i think the holes for the
+fingernails are causing problems
+i've never had a problem before but
+obviously today i
+am so let's just turn that off for now
+let's move this over make sure we should
+put that
+back later but let's rotate this so
+the squares are roughly the same as the
+arm
+and let's scale it down so the squares
+are the same
+size like that
+and it's a little bit
+like that
+okay so i'm seeing some weirdness here
+so for some reason the
+the the fingertip is collapsing into
+the end of the finger so these are
+overlapping verts
+so you don't want that in your uv layout
+so let's move these
+out um let's hit g and move it
+and that is really weird we don't want
+that
+so in the uv layout you have to have
+proportional editing turned on so turn
+that on
+and hit g to move but now we're moving
+the whole hand
+so just scroll really far so that the
+circle is small
+and then you'll move just what you want
+these are really small these verts so
+i'm going to just pick one
+so it makes it a little bit bigger
+so this minimizes um
+the stretching for the texture it's
+probably not a big deal because it's
+going to be a very small space
+on the actual geometry
+so you probably don't need to do that
+but you definitely need to
+not have overlapping verts
+i think that's pretty good
+so let's go and hide these
+oops
+oh so when you select your
+geometry to hide it make sure you're in
+face mode
+not in point mode when i was in point
+mode and hit
+h you can see i got little
+kind of disappear but i got some weird
+remnants that's because i had was in the
+wrong mode
+so make sure in face mode and then hit
+h and then you hide the parts you've uv
+so now we've got the fingernails we can
+drag and select it
+sometimes when you drag and select
+you don't get the geometry that's
+behind so
+let's show you here so if i grab if i
+want to grab the whole leg
+if i just drag and select i'm missing
+all of these faces here so if you go
+into
+x-ray mode where you can tell with these
+dots inside the faces then when you drag
+and select
+you're sure you get everything
+so i'm going to drag all of these drag
+across all these fingernails
+so to make sure i get everything i'll go
+to x-ray mode drag across
+go back out and now i know i have
+everything
+uv unwrap
+so i don't know if you can see it but
+all these fingernails are
+basically touching each other that's too
+tight
+um i'm not going to mess with these
+fingers too much after i just click the
+uv button
+so i want to have space in between them
+so let's go
+to margin and do like a point one
+and now you can see there's space you
+can do bigger 0.2 if you want to have
+more space
+we only need 1.1 let's go like that
+and let's turn back on fill holes
+because oops
+i'll leave the tool as default as
+possible
+and then let's h to unhide
+our arm
+and let's make sure that the map on the
+fingers is the same size as the map
+for the hands so let's move this down
+and scale the fingernails so they're
+roughly the size of
+fingernails
+which are pretty small
+let's look at them here and i they're so
+small i can't
+tell um
+okay so there's a little number here so
+let's see let's
+try and make this number five the same
+as
+the p so i think a bit smaller
+no bit bigger
+okay i think that's about the same
+a tad bit bigger okay
+so the hand and arm is all uv'd
+now let's do the feet
+we already did this top half which looks
+pretty good but it's not the wrong
+size so let's go over here
+and scale it so the squares are the same
+size as the hand
+that looks about right
+let's get these toenails
+oh you know what these are too close
+together so let's re-uv
+it uv unwrap 0.1 so it saves the
+settings
+and let's scale this down so it's
+the right scale
+and let's get the bottom of the foot so
+l
+uv unwrap
+let's scale this down oops
+until the rectangles here are the same
+size
+and then move this up here so the
+feet are all together okay
+so now we've got our feet our hands and
+our
+arm uv'd okay so let's also uv
+the ear face mode
+l uv unwrap
+and let's see what we got
+oops i had the foot selected still so
+that's control z
+out of there and click off and then
+get the ear uv unwrap but let's
+scale it so the squares are at least the
+same size
+and let's move this over here
+okay let's get inside the eye
+uv unwrap
+oh let's check to make let's check the
+ear to make sure we don't have
+overlapping verts
+and we're pretty close
+not quite but we're
+and this is actually pretty a pretty bad
+uv oh yeah we do we have we do have
+overlap here
+like i said i really don't sweat the
+ears that much
+um so now let's go back to the eye
+this is even less important because it's
+inside the eye
+so to save space on the texture map
+sorry as in point mode to save space in
+the texture map i'm just going to scale
+this down
+really small as you can see here i don't
+know if you can see it
+the cube the square grid on the inside
+of the eye
+it's going to be much bigger than the
+rest of the body because
+you want to kind of conserve as much
+space on your 2d image
+for your textures and since no one
+really sees the inside of the eye socket
+i'm going to make that really small so
+those are all the
+textures that are on one half only
+before we apply the mirror modifier you
+want to make sure there's no pinching
+i can show you what that looks like so
+we go
+to point mode so if you hit g and move
+inwards that's no good you don't want
+that
+it should be nice and even
+so just quickly go through make sure
+that you don't have any of that pinching
+so let's go through here and look at all
+this
+okay so we're good go to object mode
+and apply okay so now we have
+one solid mesh let's grab our object go
+to edit mode
+face mode and hit l to grab the
+front section then let's go to
+uv and unwrap and you can see we've got
+a whole front of our body uv'd
+so let's rotate this 90 and
+scale the body so the rectangles are all
+the same size
+and that looks about right
+a lot of times the female chest area
+gets
+skewed um because the chest comes out
+so you can tweak it it's actually not
+too bad right now but we can i can show
+you how you can tweak it
+so if you select the center
+of the chest go to select
+more more more something like that
+turn proportional editing on and go to
+sharp
+where is it here we go and then
+look at the texture and if you hit
+s to scale well that oh
+no let's uh you need to go to
+um transform by individual origins
+yeah that works but you need to
+change the proportional editing so
+scroll the mouse until the
+wheel gets bigger you kind of have to
+play with moving your mouse and
+scrolling the mouse wheel until you
+minimize the stretch
+on the chest so that looks pretty good
+you also want to make sure you don't get
+any overlapping like i just did here
+if you like the overall layout you can
+just locally
+fix it but again you have to mess with
+your
+partial editing wheel so let's scroll up
+back down
+and some here too let's see here
+okay that's not bad okay this map looks
+pretty good there's not much
+distortion however this v shape for our
+body uv layout it takes up a lot of
+space on the map
+and i don't like that i like to be able
+to fit
+my boundaries closer together
+so let's put this close together
+so put the 3d cursor right in the middle
+here
+and set our transform to around this 3d
+cursor
+and let's also go to face mode and hide
+everything else
+let's explain that so the reason why
+we're hiding everything else
+is you see how i selected the leg here
+so this is what i want to move but it
+also highlights
+some vertices at the ankle
+so it highlights if i grab the vertices
+at the end of the foot
+where the ankle is it selects these
+vertices here because they are
+right they're basically the same
+vertices it's like right on top of each
+other
+and so if you move if you grab these
+here and move it
+you also move the one up by the foot
+and we don't want to mess that one up so
+what you do is you go to face mode
+grab these all here h to hide and then
+go back
+to your vertex mode
+and grab these and then rotate
+and i'm looking at the top left corner
+to see how far we rotate
+oh oh okay i still have some
+other geometry here in this very corner
+it doesn't matter
+okay so back to rotating we're going to
+rotate this
+to
+looks like that's about good
+so it's going to be 39.5
+so type in negative 39.5
+then i'll do that same thing for the
+other side grab all of this
+r 39.5
+okay so you can see we've got some weird
+stretching here which is which is no
+good
+so we gotta fix that so let's g and
+y and pull this up a little bit
+and then we got to turn up proportional
+editing
+put this to smooth pull some of these
+down
+so that the stretching here and the
+pelvis area is not so bad let's
+proportion that thing on okay
+so you can see it it wasn't i was
+confused that
+because the proportional editing wheel
+wasn't appearing even though i was
+scrolling a mouse
+sometimes it's really small so you have
+to just kind of keep scrolling it closer
+and
+until it shows up okay
+let's pull this down a bit
+let's say grab these
+g y pull that down a bit
+let's grab just
+these two points
+go to sharp
+so you don't need to be super accurate
+with this but
+just kind of reduce the stretching a bit
+you can also
+instead of clicking things over here you
+can click it on the 3d viewport to see
+where it's stretching so
+looks like it's stretching right there
+so let's see what we can do with that
+i think maybe this gy
+that help yeah that helps a bit
+as you can see here i'm scrolling the
+mouse wheel as i'm
+moving in the uv layout while i'm
+looking
+at the 3d view to kind of
+get it to look okay so that's this is a
+little better
+and what's nice is this layout will fit
+better
+let's try and scale these legs in even
+more so that way
+it takes less space on our map so let's
+pull that
+in a little bit here
+pull this in a little bit there
+check our map in a 3d viewport and it's
+it's a little bit too much
+let's go back i know like this
+it's got a little warp right there let's
+grab that
+maybe it's right here
+then let's pull these into
+these you can ignore this geometry here
+this is the parts
+of the body that we didn't hide it's
+probably the head right here
+we'll um fix that later
+so let's see now i think
+you can see the squares for the leg are
+a little bit
+than the body so let's make this a bit
+bigger
+we'll scale by individual origins and
+hit and turn this off
+oh sorry scroll down
+and scale it a bit bigger
+okay i think that's a bit better
+okay so now let's alt h
+and grab our body again and let's make
+sure
+our body cubes are the same size as the
+arms and
+yeah that looks pretty good it's a
+little bit tighter in the pelvic area
+but
+it's okay obviously um
+this proportion or the size is too big
+for our map
+but as long as everything is consistent
+we can
+scale the whole thing down later okay
+so that's the body let's do the back of
+the body next
+go to face mode hit
+l uv and
+unwrap and r 90
+nope r negative 90.
+okay let's get these
+let's get our map roughly the same size
+so it looks like it's
+this is bigger than this one so let's
+scale it
+and let's straighten up these legs so
+we'll
+drop a 3d cursor here same thing as last
+time
+we will go to transform around 3d cursor
+turn on proportional editing
+and we'll grab uh let's go to point mode
+and grab some
+points
+and maybe grab these two
+and are oh so make sure
+so you can see here this leg is attached
+to this leg
+and this ankle so let's make sure we
+hide all that geometry we can hide this
+too
+and now let's do it again let's grab
+that grab that
+r should be like 30. oh i can't see it
+r i think was 35
+and a half yeah
+r negative 35.5
+let's do the same thing for the other
+side here
+oops oops
+r 35.5
+that's pretty good
+okay so let's reduce this distortion
+here
+it looks like uh this between the leg
+and the
+butt area it's distorted so let's
+grab this here and
+y let's scroll this wheel up a bit
+looks a little bit big right there
+so let's pull these
+down g y
+let's grab these two and
+these two and these two
+and g y and let's see here
+to see it because it's cut off let's
+scale in a bit so it's straighter
+and gy let's see here
+okay maybe like that
+okay
+if i was uh if i was doing this for real
+and not for the tutorial i'd probably
+spend a lot more time on this
+but for the video it's painful for you
+guys to sit here and watch me just
+noodle things around so i'm going to go
+faster but this obviously it's kind of
+choppy on the edges and that's kind of
+weird here
+really you should shouldn't do it like
+that
+and we've got oh look we've got an
+overlap that's not good
+just making sure i have no more overlaps
+anywhere else
+and it looks okay
+okay so that is the body
+and what else do we have the uv here we
+got to do the
+face
+i usually do that first okay so let's
+grab
+that and uv
+and unwrap okay so there we go
+let's hit 180 to rotate
+that around
+so as i said before the face usually
+would do higher resolution
+so let's make these cubes like half the
+size of the
+body that looks about right
+but you can see the nose is very
+distorted it's like really
+big in the lips also so we need to go
+and fix that
+so let's go and stretch this around
+so that this looks less distorted
+okay so let's fix our nose here
+so we'll just grab the nose to see where
+it is and it's
+right here so i'll grab the middle
+so we just want to modify the
+map so that the nose here this number
+is the same roughly the same size as the
+rest of the face
+so let's hit let's scale
+around itself and
+scale that
+and
+oh that's
+the front nose is okay but i think right
+in the middle there's too much
+stretching so let's see here
+let's grab both sides
+and let's scale this out a little bit
+so we can reduce that stretching
+and like that's a little better
+and let's maybe grab
+these and scale it the other way
+okay i think that's that's okay right
+now
+still a bit stretchy but i think it's
+better
+maybe that's a little stretchy too
+let's uh see here
+it's a little bit better and let's pull
+this up
+g y
+it's almost okay let's do it a bit more
+see this little tear there that's
+because we have overlapping surfaces
+so let's go and fix that
+scale and the x pull that out a bit
+okay okay now we're good
+let's check our lips our lips have
+lips aren't as bad as the nose
+i do like to uh see we have this open
+hole here for the mouth
+so the middle area is
+dead pixels we're not using them so i
+like to grab that and just
+let's okay
+so that's if your things are scaling or
+operating funding it's because you have
+other geometry that's visible that's
+connecting to it
+kind of like how our ankle and our leg
+so just go to face mode grab your face
+shift h and then everything else is
+hidden
+okay so back to what we're doing grab
+that
+and scale it down so this way
+now we're using these pixels of course i
+did make these
+uh to make it stretch a bit more
+but that's okay we'll fix it
+s x let's pull this
+out a bit maybe
+here also
+okay that's a little bit better still a
+little stretchy
+maybe grab these and pull it out a bit
+so i think that's pretty good let's see
+also let's go
+do we have why is that white
+oh here goes our nostril
+that's uh we have some overlapping
+surfaces here let's
+fix that really quick this is inside
+this
+hole right there rotate that
+g to just pull some
+things around now we see white is an
+overlapping surface which
+let's grab the eyes
+and let's scale around individual
+origins
+and we'll just do the same thing and
+scale this down a bit
+so that way we're using as many pixels
+as we can
+alt h
+so what do we have left here we've got
+the neck
+let's go to face mode
+and hit l and l we can unwrap both of
+these at the same time
+and also the inside the eyes
+and i don't think we got the inside of
+the mouth
+okay uv and unwrap
+let's move these aside here
+so for the top of the head
+the neck you see so let's make sure that
+these uvs are around the same
+size so let's move this
+aside here and then
+scale it a bit smaller
+that's okay
+the back of the head is less important
+because
+it's covered by the hair
+sometimes you can see behind the ear
+over here which is why i cut
+this scalp section higher up
+so this way we could we could actually
+make this quite a bit smaller
+and it's not going to really affect
+anything
+because people won't see it so let's
+move that over there
+if you know your character is going to
+have a bald head or something then you
+would want to make this
+the same scale
+let's grab this guy here what was this
+this was inside the mouth
+i can't see yeah inside the mouth
+so that one too doesn't really matter so
+let's
+scale it pretty small
+we'll move this over here
+then the ears
+oh sorry these are the eyes the eyes
+we're not going to see inside there
+unless the person's
+gonna have their eyes pop out of their
+head
+so put that there
+and i think that's everything
+you could go and uh tweak the face map
+to be a little bit better but
+i think it's okay for now and so
+now we need to lay these all out so that
+they fit
+nicely on the map
+i think i'm forgetting something
+ah okay i did forget something so
+remember how we
+uv the the arm and the hands and the
+feet and the ear because they're only on
+one side of the body so we need to
+separate those because right now they're
+taking the same space
+so if i hover over
+the left arm and hit l i select those
+maps
+if i hover over the right arm and hit l
+it
+selects maps that are in the exact same
+location so that's not going to work
+so let's go and fix those
+arms feet
+eyes
+is we want to
+shift h then go to
+x-ray modes we've got our little dots on
+our planes
+and go here and hit g
+g oh where's our feet
+okay gx
+oh so everything is coming together
+because we have proportional editing
+turned on so now we turn
+off
+okay that makes more sense so now we
+have
+you know the two sets of hands arms feet
+and everything like that let's make sure
+we've got
+one of these sets either this set or
+this set will be mirrored
+so let's make sure they're not mirrored
+so let's grab the front of this
+arm or one side of the arm here and see
+where it corresponds to so it's right
+here
+and then the back half is here and so
+that actually makes sense
+because it matches this arm
+so this one is okay now if we
+grab this one
+it should be backwards which it
+is well yeah you can see the text also
+it's backwards
+so then we'll go here s x negative one
+now they're all front-facing let's
+move this over and then alt
+h okay so now we've got
+all of our these are all the parts we
+need to lay all these out
+onto our map and
+okay there's something here so this
+might be
+what is that
+so these are the these are the insides
+of the nostrils so i forgot that so
+let's go and
+uv unwrap this is obviously the most
+important part of the model so we should
+make it really big
+just kidding let's go to
+transform around center scale that down
+and put this near
+all of these inside the head parts
+okay
+now i think that is everything and let's
+go and lay these
+out so there's a few ways you can do
+this
+you can do it really fast or really slow
+so i'll show you the fast way first
+so grab everything and then deselect the
+things that you
+want to keep the size they are so i want
+the face to stay
+big
+i want the top of the head to be oops
+big and
+let's see here the fingernails i don't
+care
+oh these are overlapping the fingernails
+i don't care about
+so we're gonna leave those
+off unselect
+those fingernails and these fingernails
+and those okay so everything i have
+selected
+should be i guess the standard size so
+then go to
+uv average islands scale
+and it should scale these all so they're
+about the same
+and then you can grab everything
+and go to uv and pack islands
+where is it here it goes maybe
+set the settings set this to just sets
+the boundary
+around each um object
+so you can set to 0.025
+and yeah and so everything
+is laid out
+it looks pretty decent but our face here
+has a higher
+resolution map than the rest which is
+what we want
+and all the little guys like these uh
+inside the eye is smaller because we
+don't really need that
+so that's a pretty decent way of doing
+it
+and it'll it'll work for most cases um
+i i like to do it by hand
+i don't know why i just do so i'll show
+you that too
+so grab this and scale it down
+until it's roughly the size you think
+it'll fit
+and the most important is the face so
+let's grab that
+and put this on here i find i usually do
+the face around
+a little over a quarter of the size of
+the map and it usually works out pretty
+good
+this map is driving me crazy let's
+uh let's
+let's get a different one okay
+get that here rotate this 90.
+so this is just manually laying things
+out but i like to do it like this
+because i
+i put things in close proximity
+when they're like related so here's the
+head
+here's uh inside the eyes inside the
+mouth and inside the nostril so they're
+all kind of together
+so if you're going to go into photoshop
+and edit
+your um your map after you
+texture paint it it's just kind of
+easier to find things
+so this is top of the head let's get rid
+of that
+usually i lay out the body next because
+that's the next biggest thing
+so let's hit l and
+let's make sure we're in face mode here
+we are and
+move these pretty close together
+but leave a little space
+and then place it somewhere it's going
+to fit there
+okay that's not bad i think we could
+probably
+scale it up a bit to make more use of
+the map
+and i can probably move this
+over more in fact let's grab
+this whole thing and move it up
+this this uh part of the video might be
+kind of boring i'm just
+just figuring out how to lay these
+things out so they're nice so really you
+can probably just
+skip it and look for the bookmark
+where we export the uv layout
+but for now i'm going to just keep on
+doing this
+i went into point mode vertex mode so i
+can
+grab the hand and see which arm
+corresponds to it
+i fight if i thought for half a second
+it'd probably be easy to figure out but
+well i just just didn't care to think
+and let's move this up here
+it's kind of nice to
+try and get your maps
+when there have many of opposites to
+have them perfectly mirrored
+because sometimes if you go and tweak
+your file in photoshop
+and you fix one hand you can
+just mirror it over to the other side in
+photoshop
+and then you don't have to edit both
+sides
+but really you shouldn't need to edit in
+photoshop if you if you're
+you know if you take a lot of time with
+your
+texture painting but for some reason
+i just end up doing it a lot more than i
+probably should okay so get the leg
+and let's just
+i mean the foot let's get this in place
+here
+hmm
+i must have jogged the foot by accident
+because it's this
+layout is not exactly the same as that
+so we can't do the whole mirror and
+photoshop thing but oh well
+r90 oops
+r90
+let's put that up over here
+and then let's get this over here
+and this over here let's rotate this 90.
+also where possible i try and orient
+these things
+so they make sense i mean the first
+thing is to make sure all your pieces
+fit and you make
+most use of your texture and but if
+possible i try and
+orient these things so that they
+they're aligned the same way when you
+look at the texture map as your model
+so let's rotate that this way
+and then get that there so i
+this is not the most efficient layout
+there's a lot of dead space here but
+so i could spend a lot of time getting
+this to
+be more efficient but for the sake of
+your time we're going to just stop right
+here okay
+so this is our uv
+mapped character
+and so everything you make you know for
+your character
+you'll have to go through this uv
+process and so i'll i'll walk you
+through all of those
+it's going to be this same process over
+and over again so you can probably skip
+all those parts but i'll
+i'll do it anyway in case anybody wants
+to watch me
+do the same thing over and over again
+okay
+we'll hide our body and let's open up
+our eyes get the color
+one here and zoom in on that
+then let's go and uv this so same thing
+again
+grab our eyeball oops
+grab our eyeball we will delete these
+extra colors because we don't need them
+make sure we've got our eyeball selected
+let's add a texture shift a
+s i n a for image texture
+click that there connect color to base
+color click
+open and
+i'm going to go to the
+where my uv images
+and you can't see because i have a dual
+screen set so let's go over here
+grab that click open
+and then go to well we're in shaded mode
+oh we can't see anything because the uvs
+probably don't line up
+and let's also go to this uv which is
+2048 2048 texel so it's probably
+this one here edit
+can't texture one
+textual texture okay here we go okay so
+let's go to our eyeball
+go to edit mode and edge mode and let's
+pick a place to
+cut it let's cut it right there
+edge mark scene
+that's that's probably all we need okay
+go to face mode hit l
+let's just grab both sides uv and
+unwrap
+and scale this down a little bit here
+and oh yeah so
+the front of the eyeball is seen a lot
+so let's
+scale that up
+and the back of the eyeball is not
+seeing much so let's
+scale that down
+yeah there you go
+okay so that eyeball is uv'd
+oh i forgot to um export uv maps
+so let's do that
+so let's go back to edit mode
+select a to select all so so you
+if you want to like the eyeball is a
+good
+a good example of this if you want to
+just grab a picture of an eyeball
+on the web somewhere and map it onto
+here
+it's pretty easy to do that in image
+editing program like photoshop
+so if you make a uv map
+a uv image map it makes that easy
+it just basically draws out these lines
+and you can open it in photoshop and
+then make a new layer
+and paste in a photo of an eye and you
+can just kind of like lay it out
+so so this is useful so i'll show you
+how to do that so go to uv
+export uv layout and
+pick a folder so i have a
+dual screen you can't see it so pick a
+folder
+and then you can call it something let's
+call it
+i
+uv map
+and pick a size 2k is pretty high but
+you know the eyes are the windows to the
+sole so let's make it really nice
+so great so now we've got
+that and let's just look at this
+image here so let's drag my window over
+here so you can see it
+so this is our eye texture
+and well since we got it here let's just
+oops
+i clicked the wrong one since we got it
+here let's just
+show you how it can be used
+so i'm going to double click that to
+open it in photoshop
+so here goes it's hard to see here
+so i just made a new layer by clicking
+this
+this button right there and i'm going to
+fill that hole there with white color so
+these two these two windows here are the
+colors
+for the foreground and background
+options
+for your brushes i guess you can call it
+so this background is white you can hit
+d just to make it black and white
+and then hit alt oops hit ctrl
+d sorry ctrl delete and it fills
+this new layer i made with this
+background color
+if you hit alt delete it fills it with
+the foreground color
+i don't know how much i want to go into
+photoshop because this is not a
+photoshop tutorial but
+i just want to show you how to use this
+map so here
+is our uv layout that we just created
+so usually i go here and go to multiply
+and i drop this down a bit and then i go
+and find an
+i image and i have one around here
+somewhere so let me go and find it so
+give me a second here i'll be right back
+okay here is a map we can use so this is
+uh this is an image
+map i made for another character so
+let's just grab that and copy it
+so say if i wanted to
+you know make a make an image map a
+texture map
+with photoshop and not use texture
+painting i could do that
+just paste this in hit control and left
+bracket to drop this down layer you can
+tell you can move it through layers hit
+v
+to go into this move mode
+and then you can just click and drag it
+around
+and then a space control to zoom in and
+just kind of line it up right in the
+middle
+and hit
+oh that's about the same size as our eye
+area
+maybe hit ctrl t and scale it down just
+a bit
+then you can save this as your working
+file so
+i uv map let's just call that
+and save it so we can always edit it
+later and then
+hide this these lines
+ctrl shift s to save it as hit tab and
+hit j to go to jpeg
+and then call this i
+alb for albedo
+and hit enter to save it
+and then let's go back to blender where
+is blender
+and grab our eye
+and make sure we've got the right
+texture here get rid of that one
+click open and you can't see
+because i have a dual screen so let's
+drag this over
+drag this over
+here and let's pick our jpeg i should
+have probably used a
+png that's okay and
+there you go so that's how you can use
+2d imaging programs and the uv layout to
+to make image textures
+you can see this is not lined up
+perfectly so
+you can see the blue is kind of running
+over the end of this
+so to fix that you would go to
+photoshop where is it
+you go turn this back on go to your
+color layer hit ctrl t
+again
+and scale down just a little bit more
+like that and then ctrl shift s
+tab j and then click on your
+image and overwrite it
+and then go back to blender get rid of
+that
+reopen it
+boy this this dual screen is really
+annoying
+i think in the next video i'll set this
+monitor that you see as
+the primary monitor so it's not um
+well it didn't help that much
+well so you can always fix this in the
+uv layout so you can grab this here
+grab that edge zoom in and see where it
+is
+and then we can
+uh go to edge mode and grab that
+turn on proportional editing and scale
+it
+like that okay there we go
+so that is texturing with
+2d image programs so let's go and
+uv everything else here
+shift h and alt h
+let's see what else we got here the
+hairs all done the eyes
+are done oh how about the teeth we
+didn't uv the teeth
+okay so let's go there
+with our bottom teeth too yeah
+okay so teeth should be pretty easy
+go here and
+you know what we don't need all of these
+surfaces they are useless to
+us so we'll do this
+we'll grab these two and hit h to hide
+and we will um
+alt click alt click and then
+x and faces
+so this way we have an open
+teeth but we don't need them so it's
+okay
+alt h to bring that back and this is
+probably ready to uv
+so let's do the same thing to this guy
+here
+go to isolation mode
+and go to face mode
+these two h to hide
+and control alt ctrl alt click
+ctrl alt shift click x and faces
+alt h bring everything back
+grab the other tooth okay
+so let's put both of these on the same
+map
+in fact let's also put the tongue on the
+same map let's grab that
+go to here go to edit mode
+and the subd is making this confusing so
+let's just
+turn this off and let's figure out where
+to cut it
+so let's go to edge mode let's cut it
+let's cut it right there and
+here i think that'll be okay
+edge in fact let's uh
+yeah good edge mark scene
+okay then we will
+go back grab our
+teeth and the tongue
+and they're all selected let's
+make sure these are all selected here
+and hit ctrl j
+oops let's apply
+these mirrors
+and then grab everything and join them
+we're joining them because you want them
+all on the same uv map
+let's go to edit mode face mode
+a to select all uv
+and unwrap
+why did this overlap that's really weird
+okay so uv average island scale
+and uv pack islands
+is that enough space it looks really
+tight
+0.05
+okay so then let's
+check the texture so we don't have
+stretching so shift a s i n a for image
+texture
+drag that there let's just use the same
+map
+oh gosh i can't see it
+connect color to color
+oh i bet you we have too many materials
+so let's go and
+delete this teeth um
+i'm guessing it's the tongue that has
+the
+texture math because it's the tongue
+that has it right here
+so between these two materials i'm
+guessing we delete the teeth
+and that's right and
+yeah a little stretchy but i mean
+there's not gonna be a lot of detail for
+the teeth so in the tongue so it's
+it's it's fine so let's get that back
+sub d back on and let's see if there's
+anything
+else to texture here so
+the hair is all textured the eyelashes
+eyebrows are all textured
+these are textured
+jumpsuit is garbage
+what is this oh so this is
+tongue and teeth okay that's textured
+yes
+i think we are we are all uv'd um let's
+delete this i
+i don't think we need a texture on the
+clear eye because
+it's just going to have a clear color so
+let's grab
+this color i
+and shift d put it back
+n for the information panel click
+the item and put a negative next to the
+x
+and we've got really crazy looking
+crazy looking uv character oh i know
+let's um
+also export uv layouts for the whole
+thing
+so a uv
+export uv layout let's call this
+body uv
+let's do this uh four o
+nine six
+four o nine six this way we have plenty
+of resolution you can
+down size it later if you need to
+and then let's get the tongue and teeth
+a uv export uv layout
+and this is tongue and teeth uv
+layout of two
+two four
+so i think that is everything
+thank you so much for watching i hope
+this video was useful to you
+and if it was let me know by leaving a
+comment subscribing
+or better yet supporting me on patreon
+in the next video we will do some
+texture painting
+see you then

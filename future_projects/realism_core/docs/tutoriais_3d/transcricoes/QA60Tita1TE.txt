@@ -1,0 +1,526 @@
+so today I'm putting out a new guide on
+3D characters and digital fashion
+because I found a new method which
+covers a lot of pain points people have
+had in the past all softwares I'm going
+to be showing today are free and you're
+going to get access to tens of thousands
+of autof fitting free clothing assets
+which is a huge win so let me show you
+how we can do it so for the character
+design itself we're still going to be
+using Daz this is old news I've talked
+about this on my channel a bunch I still
+prefer Daz Above the Rest for overall
+creation the reason is pretty simple
+it's a free software you have basic
+sliders and morphs for changing the
+character around plus you have a
+marketplace with character specific
+plugins for Niche things like face
+generator or other fun and useful stuff
+90% of the time my characters start as a
+Genesis 8 base model I usually bring
+that base model into blender change
+things around to make the character more
+unique now this is where things change
+with my guide in the past if you wanted
+to create clothing for your character I
+recommended you pay for Marvelous
+Designer because it's an amazing tool
+for creating clothing simulations and
+for crafting any garments that you want
+now if you chose not to pay for
+Marvelous Designer you are pretty
+limited to working with jazz assets from
+the marketplace or of course making them
+yourself which is never a bad thing I
+don't want you to think you have to do
+free methods these guides are all about
+saving time so let me show you my
+alternative so enter jinny 3D this is a
+free software by CL 3D which is the
+company that owns Marvelous Designer now
+I've been aware of jinny for a while but
+I didn't revisit it until I watched this
+recent ask any K video which just came
+out first of all if you're not sub to
+asken k a link will be down below his
+channel is a great resource for anyone
+working in 3D either way in the past I
+kind of lumped this software up as
+similar to vroid Studio where it's a
+cutesy anime character creator jinny is
+marketed as a way to learn digital
+fashion on a smaller scale well I ended
+up tinkering around with it a bit more
+and I realized how good it actually is
+all right so let's take a quick step
+back let me show you step byep exactly
+everything that I do so assum you make
+your character like me and Daz all you
+have to do is come over to figures and
+you're going to have these starter
+Essentials by default already within
+here so I'm going to load in a Genesis 8
+basic male character and now again from
+here if you want you can change any of
+the sliders to customize your character
+I'm just going to keep it default I'm
+going to go up to file export and I'm
+going to export out this Bas mesh as an
+obj which I've already done here you see
+I have the female and the male now that
+I have that we can open up jinny to
+start adding clothing to our characters
+all right so let's load in our custom
+character we're going to go to designer
+mode and we're going to load in our
+Avatar we'll go open
+Avatar I'm going to select the Genesis 8
+mail that I just exported as an obj from
+Dez now very important here if you want
+the autof fitting to work you want to
+make sure that your unit scale is
+correct so I know that I'm coming from
+Daz I want to set this to meters to be
+correct if for any reason you try
+something there's an error or your
+clothing isn't autof fitting correctly
+more likely than not you just need to
+change the scale for things to work
+properly so now that we have our custom
+character in here we can come over here
+in the top left to the clothing section
+and we can add in some of this presets
+gen official clothing and you can see
+how our Auto fitting will work so we'll
+click complete and it'll do all of the
+work for you so the awesome thing about
+this you have Marvelous Designer
+simulation in here as well so if we
+click simulate you can actually click
+and drag and see this real-time
+simulation of the cloth there's also
+some very simple controls over here on
+the right where if you just hover over
+it it'll show you exactly what it does
+you have one for wi one for length and
+you can even create custom sewing so for
+example I come in here and load in this
+t-shirt and maybe I want the sleeves to
+be a bit shorter I can just grab length
+grab the sleeve and move it back same
+goes with width now when we simulate you
+can see the changes that we made so very
+easy I've also tested this on more
+complex characters I loaded in my Mesmer
+character from my Elden ring Recreation
+video and yes they look pretty hilarious
+giving him this puffer jacket and all
+this High fashioned stuff but it is good
+to know that this does work now here's
+where things get really interesting
+let's go back over to add right now
+we've just been in these official
+presets but if you come over here to the
+purchase section you can see all of
+these assets which I downloaded from the
+online store and you don't even have to
+download these locally it's extremely
+easy here's how you can do it you just
+want to click up here in the top left
+this will automatically open up the
+store let's go over to price and set
+this to free now you see we have almost
+12,000 free items here which we can
+choose from and some of these are just
+insanely cool garments as well as fabric
+once you find something you like you
+just click add to cart here you don't
+even have to download the files
+connected to this and install them
+anywhere you can just come back over to
+Jenny go to add go over to your purchase
+section here and this will automatically
+pop up and you could load it in directly
+from here so yeah pretty pretty cool
+tons of different options available to
+you now once you're ready to texture you
+can come up here in the top left of this
+button icon you're going to see your
+fabric over here on the left so if I
+select the shirt and I click the plus
+you can search through the store as well
+as your purchases for any type of
+material you would like you can even
+directly view the store if you just
+click on this little icon right here so
+I can easily just come on here and
+search for cotton and then you can
+select to place on specific parts of the
+pattern or you can just click replace
+all to place it on the entire shirt
+another cool little feature with the
+texturing if we come over here you can
+click on grayscale and that it'll allow
+you to just choose any custom color up
+here in the top right now another really
+cool thing you can do here is say I come
+in here and I want to add something like
+a trench coat which I already have
+installed I'll click complete you can
+find these buttons right here and I'm
+just going to delete them now when we
+simulate this is going to completely
+open up because those buttons are gone
+and it's no longer fastening together
+you can also add in your own custom
+graphics so if you come to the graphics
+section I've already saved this little
+YouTube icon PNG we'll click open you
+can simply just click exactly where
+you'd like to place it once you've done
+that you can go over to the right and
+select this little pointer icon and then
+once you click again this will allow you
+to change the scale as well as rotate to
+position this correctly so there's about
+everything in jinnie extremely intuitive
+tool whether you're not using Marvelous
+Designer and you just want to take these
+clothes directly into your 3D software
+which I'm going to show you next or if
+you are using Marvelous Designer this is
+still 100% worth using just because of
+the ease of use of fitting everything
+making these Minor Adjustments just to
+get your overall look and then if you
+want to take it into marvelous to make
+any other intricate changes or to
+simulate the physics of the cloth itself
+you can go ahead and click save as save
+this as a garment file if you don't want
+to use Marvelous Designer and you're
+ready just to start animating this
+character what we can do is Click over
+here in the top right to this little
+Studio mode and now down here in the
+bottom right you can select the export
+fbx and then upload this will upload
+this whole outfit to your profiles so
+you can go back and reopen this whenever
+you want which is very convenient it's
+also going to just export the entire fbx
+file straight into your downloads folder
+on your computer once you click upload
+so go head and do that we're going to
+open up blender and I'm going to show
+you ways where we can combine animation
+as well as some other useful things for
+this workflow as a whole all right so I
+am in a fresh blender project file here
+again if you go to your download folder
+on your computer you'll find that fpx
+that you exported whenever you uploaded
+the file I just found the file in my
+downloads crl X and just plac it in this
+folder here I'm just going to copy this
+path import now when I import this I'm
+also going to come over here to the
+scale and just set this to 10 just
+because by default it's going to be a a
+little bit small and here is our
+character in our close we'll switch over
+to the rendered viewport shading and as
+you can see nothing we even really need
+to do with the materials if anything you
+can come in here and kind of just mess
+around with the roughness but it's going
+to look almost exactly like it did in
+Jenny which is very convenient so now
+let's talk about the next part of the
+workflow which is actually animating
+this character or using it to create
+your own renders and animations well
+first off we need a rig for this
+character so you have a couple of
+options we can select our character we
+can shift select our close and then just
+file export I'm going to name this
+tutorial for miimo and then over on the
+right just go limit to selected objects
+and then click export fpx so now we'll
+head over to miimo and we'll click
+upload character and then we'll select
+that tutorial for mixo file that we just
+exported once you've uploaded you can
+use the auto riger in mixo which is
+pretty self-explanatory you just follow
+the prompts right here and then we click
+next now you can see your character is
+fully rigged the one caveat to this
+being you're not going to have realistic
+cloth physics for the movement so if you
+do want that you need Marvelous Designer
+which again I recommend Marvelous
+Designer it's a great software if you're
+interested in the digital fashion you
+can have a lot of fun with it but either
+way now you can just select any of these
+movements from the library and your
+character will be fully animated you can
+see there's no sway to the clo they're
+kind of just pasted on the character so
+keep that in mind there's also just
+static poses as well which is pretty
+cool once you have the animation you
+like go ahead and download that and then
+back in blender we'll just Import in the
+fbx here's that idle animation I got
+from miimo you can see none of the
+textures ported over which is completely
+fine all you have to do is click here
+shift select the original character and
+then CLI contrl L and then just click
+link materials let's do the same with
+the actual character shift select contrl
+L link materials so now you'll have an
+animated version of that character again
+without cloth Dynamic so keep that in
+mind if you wanted to you could probably
+fake it with some rigging or with a
+little bit of texture tricks just to add
+a little bit of wind or ripples to the
+coat talked about something like that in
+the past I still think if you're going
+animated clothing fashion runways
+anything like that Marvelous Designer
+cloth Sims is probably your best bet but
+if this is just a background character
+or you don't really care about the super
+realism of the clothing then this is
+pretty cool now another benefit here
+because I created all of these to fit
+just the base Genesis 8 male again
+that's just the default mesh I chose you
+don't have to go specifically Genesis 8
+it could be your own custom mesh it
+could be Genesis 9 it could be character
+creator whatever as long as all of the
+characters I create are in that specific
+shape the outfit will always fit them
+all right so I set up this little visual
+representation just to show you the
+interchangeability of the rigs
+interchangeability of the different
+clothing and just the workflow going
+from bringing your clothes in bringing
+your character in to adding different
+animation all the way up to full motion
+capture with clothing animation that may
+have sound like a mouthful of confusing
+stuff let me just break it down very
+simply every single one of these
+characters here is the exact same Bas
+Mash this is just a Genesis 8 male which
+I showed you at the very beginning this
+is just the preset Daz character so
+starting off with number one on the far
+left this is what we brought in from
+Jenny this is just a t pose and our
+clothing number two this is what we
+brought into mixo what I just showed you
+so this has an animation but there
+aren't any clothing physics now number
+three number three this is just a Daz to
+Blender character so whenever you
+download Daz for the first time from
+that same Bridge you'll also be able to
+download this Daz to blender plug-in
+this will allow you to just create your
+custom character in Daz click file send
+a blender and then you can click this
+button and it'll Port it directly over
+to blender with the daz rig so if I turn
+this on you can see this has the Dazz
+rig fully connected and ready to go so I
+could just go and to pose mode click G
+and you'll move it around so if you want
+you can follow the tutorial to do
+exactly what I did here where I made the
+clothing for the base mesh you can go
+back into Daz create a custom character
+now with a different face just in the
+same Genesis 8 mail shape so the
+clothing will fit and we can transfer
+the clothing onto our custom character
+so here's how you can do that so first
+of all this is just the base model I
+don't want this I'm just going to click
+delete the clothes will stay there let's
+take our custom Daz to Blender character
+that I just brought in with the bridge
+plug-in I'm going to select the rig
+going to right click and select
+hierarchy just so both are selected and
+then over here this yellow object
+properties for the location just set
+that to zero so that it's easier to line
+up with our readymade clothes so this is
+now our custom character that I just
+brought in from the plugin again it's
+just a Genesis a character but with
+different facial structure and again
+this character if we go into pose mode
+so if I click R and move the arm the arm
+is moving now we want the close to
+follow the rig so here's how to connect
+the clo to the rig and the work for mix
+moo versions as well I'm just showing
+with the base Daz rig that comes from
+the bridge plugin so first off you want
+to select the normal character you want
+to shift select the clothes you want to
+go over to weight paint mode and you
+know you've selected the right thing
+correctly because all the clothes will
+be blue not the character go over to
+weights transfer weights click this
+check and go over to vertex mapping
+nearest face vertex come over to Source
+layer set that to by name now all you
+have to do
+is select the clothing one more time go
+to the modifiers and add an Armature
+modifier and then select the Armature
+here to connect it if I select the
+Armature once more we'll go to pose mode
+now you can see the clothes are moving
+with the Armature so that's how you can
+easily just swap from a base mail to a
+custom rigged character that you bring
+in from dasz now this will also work
+with a mixo animation so here is this
+exact same Bas mesh you take a look at
+the shape here and take a look look at
+the shape of the face here this is the
+exact same base match the only
+difference is I didn't touch the
+textures this one I just added in my
+custom face textures and I added ha so
+let's show you with the mix moo we'll
+show you the exact same steps I'm just
+going to delete this I'll delete this
+rig as well make sure we remove the
+Armature from the original clothes let's
+show you how we can swap clothes on here
+so very important little extra step you
+have to take here so anytime you're
+lining the clothes you want them to be
+in a t pose or an A Pose just so they
+will fit the clothing correctly like
+this well whenever you bring in
+something from mixo it's not going to
+automatically start in a t pose or an A
+Pose it's just going to bring in just
+the normal animation like this you can
+see the shape of the arms this is
+straight from mixo this is what we want
+so a quick little workaround for that
+you see I set up key frames here so it
+starts in my a pose and then it
+gradually goes into that animation that
+we brought in from mixo so here's how
+you can set that up first let me reset
+this so it's exactly how it would look
+if you brought in a mix Mo animation
+here's what it would look like it would
+automatically be like this where it goes
+straight into the animation you're going
+to want to go about 20 frames on the
+timeline right here again make sure the
+rig is connected so you can see all
+these key frames and then just take all
+of the key frames and move them over so
+they don't start until frame 20 now you
+can go back to frame zero we're going to
+switch over to pose mode click a just to
+select all of the bones before you do
+anything turn on auto keying and then go
+up to pose clear Transformations and
+then clear all so this will clear all of
+the data and because we have Auto keying
+it sets a key frame so this is the exact
+starting a pose and we created that key
+frame so it goes from the a pose which
+we can fit our clothing onto and it
+animates into our mix Moe animation so
+again very important just to fit
+everything the right way select the
+Armature put the location to zero just
+to make it easier to line up again
+everything fits the exact same because
+it's fit to the same base mesh now exact
+same thing select the character shift
+select the close weight paint weights
+transfer the weights exact same thing
+nearest face by name now we can add in
+the Armature and just select the rig as
+you can see just a little wave and again
+whenever you're not simulating the cloth
+data things can look weird so if you
+want to take this to the next level I
+recommend you get Marvelous Designer I
+have a free YouTube video just talking
+about the basic workflow of this I also
+have a paid course where I talk about
+adding full facial animation full body
+animation so that's what this version is
+here as you can see I have all these key
+frames with control facial animation
+also if I go along the timeline clothing
+is reacting with realistic physics to
+the full body animation so yeah very fun
+workflow again you can make the clothes
+you can have a collection of clothes
+which are all interchangeable whether if
+they have the cloth physics like this
+one does or if they do not have cloth
+physics depending on if you want to pay
+the subscription or not you can even
+copy a different animation and a
+different clothing set to a different
+character so if I delete the rig here if
+I delete the clothing here let's say I
+want this character but with this
+clothing and with this animation select
+the character shift select the character
+you want to replace shift s selection to
+active to move it there delete the
+character you don't want so now this is
+me same outfit connect it to the rig by
+clicking shift click the rig contrl P to
+parent and with automatic weights and
+there you go I have a particle system
+here which isn't following so I would
+have to go here make sure the Armature
+is at the
+beginning as you can see here is my face
+pretending I'm cool in the Yeet outfit
+so again if you want to learn more I
+have that free digital fashion guide
+video which shows using Marvelous
+Designer to create fully animated cloth
+simulations I also have my course linked
+down below that holds your hand through
+every step of the process and shows
+extra cool stuff like adding in full
+mocap performances there's a sale on the
+course right now plus you'll get my
+blender director 3D plug-in included for
+a limited time again link to all that
+will be down below if you want to check
+it out so as always guys thank you for
+watching thank thank you for supporting
+and I'll see you in the next one

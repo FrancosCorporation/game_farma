@@ -1,0 +1,2356 @@
+Kind: captions
+Language: en
+in today's video I'm going to walk you
+in today's video I'm going to walk you
+in today's video I'm going to walk you
+through start to finish how to make a
+through start to finish how to make a
+through start to finish how to make a
+low poly game ready base mesh inside a
+low poly game ready base mesh inside a
+low poly game ready base mesh inside a
+blender so let's just hop straight in
+blender so let's just hop straight in
+blender so let's just hop straight in
+right now okay this is going to be the
+right now okay this is going to be the
+right now okay this is going to be the
+final results of the character so when I
+final results of the character so when I
+final results of the character so when I
+started out I would always kind of use
+started out I would always kind of use
+started out I would always kind of use
+base like references like this but it
+base like references like this but it
+base like references like this but it
+just basically ended up with me unable
+just basically ended up with me unable
+just basically ended up with me unable
+to make basically any other character
+to make basically any other character
+to make basically any other character
+and also just spending hours trying to
+and also just spending hours trying to
+and also just spending hours trying to
+search for a decent reference image so
+search for a decent reference image so
+search for a decent reference image so
+I'm going to show you my method which is
+I'm going to show you my method which is
+I'm going to show you my method which is
+a lot easier and uh does not require
+a lot easier and uh does not require
+a lot easier and uh does not require
+using a base mesh or reference image
+using a base mesh or reference image
+using a base mesh or reference image
+like this so let's just hop in okay so
+like this so let's just hop in okay so
+like this so let's just hop in okay so
+on the left you can see my screencast
+on the left you can see my screencast
+on the left you can see my screencast
+keys so if I'm clicking something look
+keys so if I'm clicking something look
+keys so if I'm clicking something look
+over there to see what I'm doing uh
+over there to see what I'm doing uh
+over there to see what I'm doing uh
+because I will uh walk you through
+because I will uh walk you through
+because I will uh walk you through
+pretty quickly how to go through all of
+pretty quickly how to go through all of
+pretty quickly how to go through all of
+this okay so the first thing we're going
+this okay so the first thing we're going
+this okay so the first thing we're going
+to do to actually get good proportions
+to do to actually get good proportions
+to do to actually get good proportions
+on our character is set up a proportion
+on our character is set up a proportion
+on our character is set up a proportion
+guard now what we do this is basically
+guard now what we do this is basically
+guard now what we do this is basically
+we take a cube and this is going to be
+we take a cube and this is going to be
+we take a cube and this is going to be
+the size of our head especially like the
+the size of our head especially like the
+the size of our head especially like the
+vertical and then basically duplicate it
+vertical and then basically duplicate it
+vertical and then basically duplicate it
+down and then that's going to depend
+down and then that's going to depend
+down and then that's going to depend
+where the landmarks for the body go okay
+where the landmarks for the body go okay
+where the landmarks for the body go okay
+so you can see like this so you can see
+so you can see like this so you can see
+so you can see like this so you can see
+over here like this is the it is is a
+over here like this is the it is is a
+over here like this is the it is is a
+bit of like a stylistic Bas proportions
+bit of like a stylistic Bas proportions
+bit of like a stylistic Bas proportions
+um but you can see basically we have the
+um but you can see basically we have the
+um but you can see basically we have the
+head heart and then this you can kind of
+head heart and then this you can kind of
+head heart and then this you can kind of
+like learn where the landmarks are so
+like learn where the landmarks are so
+like learn where the landmarks are so
+you see like this is what uh three heads
+you see like this is what uh three heads
+you see like this is what uh three heads
+high and then his legs are three heads
+high and then his legs are three heads
+high and then his legs are three heads
+um so then basically like you can kind
+um so then basically like you can kind
+um so then basically like you can kind
+of set that into the proportions of
+of set that into the proportions of
+of set that into the proportions of
+this this is
+this this is
+this this is
+equal to the upper body and then plus
+equal to the upper body and then plus
+equal to the upper body and then plus
+and the head on top um usually I think
+and the head on top um usually I think
+and the head on top um usually I think
+it would be basically like the middle
+it would be basically like the middle
+it would be basically like the middle
+would be kind of the same proportions
+would be kind of the same proportions
+would be kind of the same proportions
+like this would be the same size as the
+like this would be the same size as the
+like this would be the same size as the
+top um but yeah that's essentially what
+top um but yeah that's essentially what
+top um but yeah that's essentially what
+we're going to use and you can basically
+we're going to use and you can basically
+we're going to use and you can basically
+use any reference image so this is pure
+use any reference image so this is pure
+use any reference image so this is pure
+by the way so pf.com let's go download
+by the way so pf.com let's go download
+by the way so pf.com let's go download
+it um so you can just slap your image in
+it um so you can just slap your image in
+it um so you can just slap your image in
+contrl D and then just figure out
+contrl D and then just figure out
+contrl D and then just figure out
+basically the rough proportions you can
+basically the rough proportions you can
+basically the rough proportions you can
+even just use like your hand to get like
+even just use like your hand to get like
+even just use like your hand to get like
+the middle of your character or whatever
+the middle of your character or whatever
+the middle of your character or whatever
+but this is what we're going to use for
+but this is what we're going to use for
+but this is what we're going to use for
+the proportions of a character and you
+the proportions of a character and you
+the proportions of a character and you
+can see so it's eight heads tall um I'm
+can see so it's eight heads tall um I'm
+can see so it's eight heads tall um I'm
+going to slap this on my second monitor
+going to slap this on my second monitor
+going to slap this on my second monitor
+but what we can do to set up this
+but what we can do to set up this
+but what we can do to set up this
+proportion system is Select our Cube on
+proportion system is Select our Cube on
+proportion system is Select our Cube on
+the right go to add modifier and then
+the right go to add modifier and then
+the right go to add modifier and then
+over here we're going to search and
+over here we're going to search and
+over here we're going to search and
+we're going to add a array modifier
+we're going to add a array modifier
+we're going to add a array modifier
+right out there cool you see now it's
+right out there cool you see now it's
+right out there cool you see now it's
+gone and duplicated it so it's just gone
+gone and duplicated it so it's just gone
+gone and duplicated it so it's just gone
+we can do here and if we set this to
+we can do here and if we set this to
+we can do here and if we set this to
+eight there you go you see now we get
+eight there you go you see now we get
+eight there you go you see now we get
+eight cubes obviously we want to go up
+eight cubes obviously we want to go up
+eight cubes obviously we want to go up
+because or maybe down uh because
+because or maybe down uh because
+because or maybe down uh because
+obviously we do a vertical character not
+obviously we do a vertical character not
+obviously we do a vertical character not
+horizontal so on the modifier we have
+horizontal so on the modifier we have
+horizontal so on the modifier we have
+this factor x going to set this to zero
+this factor x going to set this to zero
+this factor x going to set this to zero
+Z I'm going to set to -1 so it goes down
+Z I'm going to set to -1 so it goes down
+Z I'm going to set to -1 so it goes down
+and then you see now we have the setup
+and then you see now we have the setup
+and then you see now we have the setup
+now you can also set the heart of your
+now you can also set the heart of your
+now you can also set the heart of your
+car now uh so with n you can pull up the
+car now uh so with n you can pull up the
+car now uh so with n you can pull up the
+side panel and you can see 16 M tall
+side panel and you can see 16 M tall
+side panel and you can see 16 M tall
+which is obviously a little bit too tall
+which is obviously a little bit too tall
+which is obviously a little bit too tall
+um so I'm just going to scale this down
+um so I'm just going to scale this down
+um so I'm just going to scale this down
+and then we probably go to like 1.8 m or
+and then we probably go to like 1.8 m or
+and then we probably go to like 1.8 m or
+something like that um yeah let's just
+something like that um yeah let's just
+something like that um yeah let's just
+go to 1 1.8 m and then just bring it up
+go to 1 1.8 m and then just bring it up
+go to 1 1.8 m and then just bring it up
+so it's on the floor okay so now we are
+so it's on the floor okay so now we are
+so it's on the floor okay so now we are
+ready to get like everything
+ready to get like everything
+ready to get like everything
+done uh and also to make our life just a
+done uh and also to make our life just a
+done uh and also to make our life just a
+little bit easier um because obviously
+little bit easier um because obviously
+little bit easier um because obviously
+if I go back to Z solid you can see it's
+if I go back to Z solid you can see it's
+if I go back to Z solid you can see it's
+just one singular tube so I'm going to
+just one singular tube so I'm going to
+just one singular tube so I'm going to
+go to my object properties go viewport
+go to my object properties go viewport
+go to my object properties go viewport
+display and change this to wire okay so
+display and change this to wire okay so
+display and change this to wire okay so
+now even in solid view it's like this uh
+now even in solid view it's like this uh
+now even in solid view it's like this uh
+and then I'm also going to CH change
+and then I'm also going to CH change
+and then I'm also going to CH change
+this so we can't select it so over here
+this so we can't select it so over here
+this so we can't select it so over here
+I can open this menu uh turn on the
+I can open this menu uh turn on the
+I can open this menu uh turn on the
+little cursor and if I tick that you can
+little cursor and if I tick that you can
+little cursor and if I tick that you can
+see now I can't select this object okay
+see now I can't select this object okay
+see now I can't select this object okay
+so now it's just a wireframe thing in
+so now it's just a wireframe thing in
+so now it's just a wireframe thing in
+the center so now we can just model and
+the center so now we can just model and
+the center so now we can just model and
+not have to worry that much about it
+not have to worry that much about it
+not have to worry that much about it
+cool so let's go shift a and add in a
+cool so let's go shift a and add in a
+cool so let's go shift a and add in a
+mesh Cube now as you the uh middle of
+mesh Cube now as you the uh middle of
+mesh Cube now as you the uh middle of
+the character is going to be roughly the
+the character is going to be roughly the
+the character is going to be roughly the
+like third one up so roughly oh wait
+like third one up so roughly oh wait
+like third one up so roughly oh wait
+actually I was wrong earlier it is four
+actually I was wrong earlier it is four
+actually I was wrong earlier it is four
+so four is the leg and then upper body
+so four is the leg and then upper body
+so four is the leg and then upper body
+probably ends like here and then the
+probably ends like here and then the
+probably ends like here and then the
+head obviously so like neck okay so I'm
+head obviously so like neck okay so I'm
+head obviously so like neck okay so I'm
+going to push this up and scale it down
+going to push this up and scale it down
+going to push this up and scale it down
+so it's roughly like here at the center
+so it's roughly like here at the center
+so it's roughly like here at the center
+okay and then what I'm going to do is
+okay and then what I'm going to do is
+okay and then what I'm going to do is
+set this up so we can make basically the
+set this up so we can make basically the
+set this up so we can make basically the
+Torso so the first thing I'm going to do
+Torso so the first thing I'm going to do
+Torso so the first thing I'm going to do
+is add a mirror because if we mirror it
+is add a mirror because if we mirror it
+is add a mirror because if we mirror it
+one side is going to be on the other
+one side is going to be on the other
+one side is going to be on the other
+which uh just obviously saves a lot of
+which uh just obviously saves a lot of
+which uh just obviously saves a lot of
+time so to do that I'm going to go tab
+time so to do that I'm going to go tab
+time so to do that I'm going to go tab
+go edit mode go control R okay now we go
+go edit mode go control R okay now we go
+go edit mode go control R okay now we go
+to Edge grop and then just hover over
+to Edge grop and then just hover over
+to Edge grop and then just hover over
+the middle like at the top Edge and you
+the middle like at the top Edge and you
+the middle like at the top Edge and you
+see can go at a vertical line press
+see can go at a vertical line press
+see can go at a vertical line press
+escape and then we can just select the
+escape and then we can just select the
+escape and then we can just select the
+left side and go X vertices cool now in
+left side and go X vertices cool now in
+left side and go X vertices cool now in
+the modifiers we can go add a modifier
+the modifiers we can go add a modifier
+the modifiers we can go add a modifier
+mirror cool so you see now it's being
+mirror cool so you see now it's being
+mirror cool so you see now it's being
+mirrored across but if I select this you
+mirrored across but if I select this you
+mirrored across but if I select this you
+can see it can pull away from the center
+can see it can pull away from the center
+can see it can pull away from the center
+so I'm just going to click clipping and
+so I'm just going to click clipping and
+so I'm just going to click clipping and
+you see now it's stuck to the center
+you see now it's stuck to the center
+you see now it's stuck to the center
+nice okay on the side I'm going to go
+nice okay on the side I'm going to go
+nice okay on the side I'm going to go
+control R add another Edge and then I
+control R add another Edge and then I
+control R add another Edge and then I
+can go GX pull that out okay so you see
+can go GX pull that out okay so you see
+can go GX pull that out okay so you see
+now slightly round and then to make it
+now slightly round and then to make it
+now slightly round and then to make it
+even a little bit more round I'm going
+even a little bit more round I'm going
+even a little bit more round I'm going
+to go alt left click on the center and
+to go alt left click on the center and
+to go alt left click on the center and
+go scale y okay so you see now I've got
+go scale y okay so you see now I've got
+go scale y okay so you see now I've got
+a round piece like this
+a round piece like this
+a round piece like this
+nice now what I'm going to do from here
+nice now what I'm going to do from here
+nice now what I'm going to do from here
+I'm going to go z y frame I'm just going
+I'm going to go z y frame I'm just going
+I'm going to go z y frame I'm just going
+to box select the top just hold left
+to box select the top just hold left
+to box select the top just hold left
+click okay I'm going to go gz and pull
+click okay I'm going to go gz and pull
+click okay I'm going to go gz and pull
+up by the way if your mirror did not
+up by the way if your mirror did not
+up by the way if your mirror did not
+work then you need to make sure that
+work then you need to make sure that
+work then you need to make sure that
+you're working in front view so you can
+you're working in front view so you can
+you're working in front view so you can
+see here the the y axis is the front
+see here the the y axis is the front
+see here the the y axis is the front
+view you can also press this little uh
+view you can also press this little uh
+view you can also press this little uh
+key underneath your Escape key um go
+key underneath your Escape key um go
+key underneath your Escape key um go
+front for you or just one on your numpad
+front for you or just one on your numpad
+front for you or just one on your numpad
+if you have a numpad um
+if you have a numpad um
+if you have a numpad um
+but I always work in front of you make
+but I always work in front of you make
+but I always work in front of you make
+sure that your object's actually in the
+sure that your object's actually in the
+sure that your object's actually in the
+center of your scene uh makes your laa a
+center of your scene uh makes your laa a
+center of your scene uh makes your laa a
+lot easier and will mean that the mirror
+lot easier and will mean that the mirror
+lot easier and will mean that the mirror
+actually works but if it isn't then you
+actually works but if it isn't then you
+actually works but if it isn't then you
+can check the different axes
+can check the different axes
+can check the different axes
+cool now we can go add some Edge Loops
+cool now we can go add some Edge Loops
+cool now we can go add some Edge Loops
+over here so we can actually start
+over here so we can actually start
+over here so we can actually start
+shaping up this piece now I'm control R
+shaping up this piece now I'm control R
+shaping up this piece now I'm control R
+scroll up so you can see if I scroll up
+scroll up so you can see if I scroll up
+scroll up so you can see if I scroll up
+and down on my mass wheel it goes and
+and down on my mass wheel it goes and
+and down on my mass wheel it goes and
+adds more or less edges so I'm just
+adds more or less edges so I'm just
+adds more or less edges so I'm just
+going to add like two here and then we
+going to add like two here and then we
+going to add like two here and then we
+can just select these and we can just
+can just select these and we can just
+can just select these and we can just
+move them in and out you see like that
+move them in and out you see like that
+move them in and out you see like that
+that so we can just basically shape it
+that so we can just basically shape it
+that so we can just basically shape it
+up to whatever we want um and then
+up to whatever we want um and then
+up to whatever we want um and then
+obviously we can go edit this as we
+obviously we can go edit this as we
+obviously we can go edit this as we
+build it up and then I'm going to go
+build it up and then I'm going to go
+build it up and then I'm going to go
+side view and I'm going to scale on the
+side view and I'm going to scale on the
+side view and I'm going to scale on the
+Y so scale Y and I can push it Forward
+Y so scale Y and I can push it Forward
+Y so scale Y and I can push it Forward
+scale g y uh and then scale y you can
+scale g y uh and then scale y you can
+scale g y uh and then scale y you can
+also like rotate these at this point if
+also like rotate these at this point if
+also like rotate these at this point if
+you
+you
+you
+want but yeah you see there that's all
+want but yeah you see there that's all
+want but yeah you see there that's all
+good okay now what I'm going to do I'm
+good okay now what I'm going to do I'm
+good okay now what I'm going to do I'm
+going to set this bottom bit so just box
+going to set this bottom bit so just box
+going to set this bottom bit so just box
+selected like this hold left click X
+selected like this hold left click X
+selected like this hold left click X
+faces uh I'm just going to just make the
+faces uh I'm just going to just make the
+faces uh I'm just going to just make the
+viewport a little bit easier I'm just
+viewport a little bit easier I'm just
+viewport a little bit easier I'm just
+going to go hard my annotations it's
+going to go hard my annotations it's
+going to go hard my annotations it's
+just N View annotations and it draws d
+just N View annotations and it draws d
+just N View annotations and it draws d
+by the way um okay I'm going to go to
+by the way um okay I'm going to go to
+by the way um okay I'm going to go to
+Edge select up here I'm going to select
+Edge select up here I'm going to select
+Edge select up here I'm going to select
+these two and I'm going to go f to fill
+these two and I'm going to go f to fill
+these two and I'm going to go f to fill
+cool then I can just go extrude down
+cool then I can just go extrude down
+cool then I can just go extrude down
+cool uh and then I'm just going to
+cool uh and then I'm just going to
+cool uh and then I'm just going to
+select on the face delete the side face
+select on the face delete the side face
+select on the face delete the side face
+uh and then control r add a edge grop
+uh and then control r add a edge grop
+uh and then control r add a edge grop
+down the side cool and you see now what
+down the side cool and you see now what
+down the side cool and you see now what
+we've done this is we got 1 2 3 four
+we've done this is we got 1 2 3 four
+we've done this is we got 1 2 3 four
+five six vertices
+five six vertices
+five six vertices
+cool now this is good because like
+cool now this is good because like
+cool now this is good because like
+usually this is basically an opening for
+usually this is basically an opening for
+usually this is basically an opening for
+the leg you don't want to have like four
+the leg you don't want to have like four
+the leg you don't want to have like four
+vertices cuz that just mean that your
+vertices cuz that just mean that your
+vertices cuz that just mean that your
+legs are square cool uh and then I'm
+legs are square cool uh and then I'm
+legs are square cool uh and then I'm
+just going to go to Edge select and then
+just going to go to Edge select and then
+just going to go to Edge select and then
+I'm just going to go side view as well
+I'm just going to go side view as well
+I'm just going to go side view as well
+bring this down and then we basically
+bring this down and then we basically
+bring this down and then we basically
+just take these
+just take these
+just take these
+edges uh let's go vertex
+edges uh let's go vertex
+edges uh let's go vertex
+and then basically just round it out
+and then basically just round it out
+and then basically just round it out
+cool um now obviously you can see it's
+cool um now obviously you can see it's
+cool um now obviously you can see it's
+not very good from the front view but
+not very good from the front view but
+not very good from the front view but
+what we can do is go edit uh preferences
+what we can do is go edit uh preferences
+what we can do is go edit uh preferences
+add-ons and then look for Loop
+add-ons and then look for Loop
+add-ons and then look for Loop
+tools or might actually have to go get
+tools or might actually have to go get
+tools or might actually have to go get
+extensions and then look for Loop tools
+extensions and then look for Loop tools
+extensions and then look for Loop tools
+okay and then once you have that
+okay and then once you have that
+okay and then once you have that
+installed go add-ons make sure it's
+installed go add-ons make sure it's
+installed go add-ons make sure it's
+enabled uh what we can do is go uh so Al
+enabled uh what we can do is go uh so Al
+enabled uh what we can do is go uh so Al
+left click on this Edge and then we can
+left click on this Edge and then we can
+left click on this Edge and then we can
+go right click we can go W no might be I
+go right click we can go W no might be I
+go right click we can go W no might be I
+think it's right click normally I just
+think it's right click normally I just
+think it's right click normally I just
+rebound it uh loop tools Circle okay and
+rebound it uh loop tools Circle okay and
+rebound it uh loop tools Circle okay and
+you see so now it's actually circular
+you see so now it's actually circular
+you see so now it's actually circular
+flat like that and then I'll basically
+flat like that and then I'll basically
+flat like that and then I'll basically
+just scale it down a little bit like
+just scale it down a little bit like
+just scale it down a little bit like
+this okay and then now I've got a good
+this okay and then now I've got a good
+this okay and then now I've got a good
+start for the leg now I'm also just
+start for the leg now I'm also just
+start for the leg now I'm also just
+going to bring these edges so they kind
+going to bring these edges so they kind
+going to bring these edges so they kind
+of like almost line up you see uh and
+of like almost line up you see uh and
+of like almost line up you see uh and
+then this kind of Gap rer is quite big
+then this kind of Gap rer is quite big
+then this kind of Gap rer is quite big
+so then I might just go add another Edge
+so then I might just go add another Edge
+so then I might just go add another Edge
+Loop like that okay um or I can even
+Loop like that okay um or I can even
+Loop like that okay um or I can even
+just go shorten so I can that X delete
+just go shorten so I can that X delete
+just go shorten so I can that X delete
+edges um I can SE this and then just
+edges um I can SE this and then just
+edges um I can SE this and then just
+pull it up just gz like
+pull it up just gz like
+pull it up just gz like
+that okay there you go
+that okay there you go
+that okay there you go
+cool see so now I've got a pretty decent
+cool see so now I've got a pretty decent
+cool see so now I've got a pretty decent
+start for the leg
+start for the leg
+start for the leg
+cool so let's go get set up the other
+cool so let's go get set up the other
+cool so let's go get set up the other
+Edge Loops because basically we have a
+Edge Loops because basically we have a
+Edge Loops because basically we have a
+loop set up for our leg now now we need
+loop set up for our leg now now we need
+loop set up for our leg now now we need
+to get one for our arm and one far neck
+to get one for our arm and one far neck
+to get one for our arm and one far neck
+so let's go get the arm the arm is
+so let's go get the arm the arm is
+so let's go get the arm the arm is
+pretty uh
+pretty uh
+pretty uh
+simple so the first thing I do is I
+simple so the first thing I do is I
+simple so the first thing I do is I
+select this top verticy and you see we
+select this top verticy and you see we
+select this top verticy and you see we
+have like 1 2 3 4 five six so we' got
+have like 1 2 3 4 five six so we' got
+have like 1 2 3 4 five six so we' got
+two faces or quads uh I'm going to
+two faces or quads uh I'm going to
+two faces or quads uh I'm going to
+control and B to Bevel you see it does
+control and B to Bevel you see it does
+control and B to Bevel you see it does
+nothing so I'm going to V for vertex so
+nothing so I'm going to V for vertex so
+nothing so I'm going to V for vertex so
+you see now it's actually B beving that
+you see now it's actually B beving that
+you see now it's actually B beving that
+verticy um and then get whatever siid
+verticy um and then get whatever siid
+verticy um and then get whatever siid
+you want the neck and then when we've
+you want the neck and then when we've
+you want the neck and then when we've
+done that you can see that this turns
+done that you can see that this turns
+done that you can see that this turns
+into a Eng gon which is a face with more
+into a Eng gon which is a face with more
+into a Eng gon which is a face with more
+than five vertices um so what we can do
+than five vertices um so what we can do
+than five vertices um so what we can do
+you can actually use the knf tool so K
+you can actually use the knf tool so K
+you can actually use the knf tool so K
+and then just go cut across like that
+and then just go cut across like that
+and then just go cut across like that
+and you see now that ends up with two
+and you see now that ends up with two
+and you see now that ends up with two
+quads or two uh faces with four vertices
+quads or two uh faces with four vertices
+quads or two uh faces with four vertices
+same thing so K nav tool click uh click
+same thing so K nav tool click uh click
+same thing so K nav tool click uh click
+here press enter and you see now we have
+here press enter and you see now we have
+here press enter and you see now we have
+quads all around uh except for this
+quads all around uh except for this
+quads all around uh except for this
+middle bit but it's fine we're going to
+middle bit but it's fine we're going to
+middle bit but it's fine we're going to
+delete that now you can actually select
+delete that now you can actually select
+delete that now you can actually select
+this face so just select the face you
+this face so just select the face you
+this face so just select the face you
+can use three at the top of your screen
+can use three at the top of your screen
+can use three at the top of your screen
+uh and then just go right click Loop
+uh and then just go right click Loop
+uh and then just go right click Loop
+tools Circle okay and then you'll see it
+tools Circle okay and then you'll see it
+tools Circle okay and then you'll see it
+kind of like pops out a little bit so it
+kind of like pops out a little bit so it
+kind of like pops out a little bit so it
+just rotates until both edges are like
+just rotates until both edges are like
+just rotates until both edges are like
+completely flat um and there you go
+completely flat um and there you go
+completely flat um and there you go
+you've got set up for the neck so you
+you've got set up for the neck so you
+you've got set up for the neck so you
+can like push it up a little bit um
+can like push it up a little bit um
+can like push it up a little bit um
+usually I kind of like rotate this or
+usually I kind of like rotate this or
+usually I kind of like rotate this or
+whatever um you can kind of figure out
+whatever um you can kind of figure out
+whatever um you can kind of figure out
+look at the front view look at the
+look at the front view look at the
+look at the front view look at the
+different side views uh I'm just going
+different side views uh I'm just going
+different side views uh I'm just going
+to screw it up a little bit and then
+to screw it up a little bit and then
+to screw it up a little bit and then
+just delete that face X faces uh okay
+just delete that face X faces uh okay
+just delete that face X faces uh okay
+you see we got that ready and we can
+you see we got that ready and we can
+you see we got that ready and we can
+actually do the same thing so let just
+actually do the same thing so let just
+actually do the same thing so let just
+extrude down from the leg here pull it
+extrude down from the leg here pull it
+extrude down from the leg here pull it
+up because if you have it like close and
+up because if you have it like close and
+up because if you have it like close and
+when you rotate it you'll see it kind of
+when you rotate it you'll see it kind of
+when you rotate it you'll see it kind of
+snaps to the center so let's just pull
+snaps to the center so let's just pull
+snaps to the center so let's just pull
+it out further and then bring it just
+it out further and then bring it just
+it out further and then bring it just
+make sure that like you further out when
+make sure that like you further out when
+make sure that like you further out when
+you scale it um so we can scale it up
+you scale it um so we can scale it up
+you scale it um so we can scale it up
+like that cool there we go and maybe
+like that cool there we go and maybe
+like that cool there we go and maybe
+scale y so it's a bit
+scale y so it's a bit
+scale y so it's a bit
+thicker and then we just update that
+thicker and then we just update that
+thicker and then we just update that
+little shape
+little shape
+little shape
+quickly yeah okay that's a good
+quickly yeah okay that's a good
+quickly yeah okay that's a good
+start right now for the arm we have two
+start right now for the arm we have two
+start right now for the arm we have two
+options either we can select these two
+options either we can select these two
+options either we can select these two
+and then like inser and then bring it
+and then like inser and then bring it
+and then like inser and then bring it
+out and then like Loop tools Circle you
+out and then like Loop tools Circle you
+out and then like Loop tools Circle you
+see like that or we can just go add a
+see like that or we can just go add a
+see like that or we can just go add a
+edge Loop like this and then do the same
+edge Loop like this and then do the same
+edge Loop like this and then do the same
+thing basically so then just basically
+thing basically so then just basically
+thing basically so then just basically
+round it out a little bit and then just
+round it out a little bit and then just
+round it out a little bit and then just
+go extrude and then Loop tools cirle uh
+go extrude and then Loop tools cirle uh
+go extrude and then Loop tools cirle uh
+we can scale it down a little bit and
+we can scale it down a little bit and
+we can scale it down a little bit and
+then basically set up from the top view
+then basically set up from the top view
+then basically set up from the top view
+and yeah so basically the two options
+and yeah so basically the two options
+and yeah so basically the two options
+you have uh I kind of prefer this as it
+you have uh I kind of prefer this as it
+you have uh I kind of prefer this as it
+kind of just gives you an extra Edge
+kind of just gives you an extra Edge
+kind of just gives you an extra Edge
+Loop so you can even use it for like the
+Loop so you can even use it for like the
+Loop so you can even use it for like the
+chest if you want to give a definition
+chest if you want to give a definition
+chest if you want to give a definition
+there um so I'll usually do something
+there um so I'll usually do something
+there um so I'll usually do something
+kind of like this and then it also if
+kind of like this and then it also if
+kind of like this and then it also if
+you were to pull an edge from uh here if
+you were to pull an edge from uh here if
+you were to pull an edge from uh here if
+you pull an edge from here then you kind
+you pull an edge from here then you kind
+you pull an edge from here then you kind
+of lose a lot of definition on the side
+of lose a lot of definition on the side
+of lose a lot of definition on the side
+of the chest so uh I'd recommend going
+of the chest so uh I'd recommend going
+of the chest so uh I'd recommend going
+with this okay
+cool Okay cool so now we've got that set
+cool Okay cool so now we've got that set
+cool Okay cool so now we've got that set
+up we can go work on obviously the arms
+up we can go work on obviously the arms
+up we can go work on obviously the arms
+legs Etc cool so for the legs I'm just
+legs Etc cool so for the legs I'm just
+legs Etc cool so for the legs I'm just
+going to go Al left leg on this bottom
+going to go Al left leg on this bottom
+going to go Al left leg on this bottom
+and I'm just going to go extrude down
+and I'm just going to go extrude down
+and I'm just going to go extrude down
+all the way to like roughly where the
+all the way to like roughly where the
+all the way to like roughly where the
+top of the foot should be scale it down
+top of the foot should be scale it down
+top of the foot should be scale it down
+to like the angle cool then I'm going to
+to like the angle cool then I'm going to
+to like the angle cool then I'm going to
+go contrl R add edge hoop for the knee
+go contrl R add edge hoop for the knee
+go contrl R add edge hoop for the knee
+so this again when your reference can be
+so this again when your reference can be
+so this again when your reference can be
+useful so like I can see that the bottom
+useful so like I can see that the bottom
+useful so like I can see that the bottom
+of the knee is like roughly Lins up with
+of the knee is like roughly Lins up with
+of the knee is like roughly Lins up with
+this uh so we can push it to like here
+this uh so we can push it to like here
+this uh so we can push it to like here
+uh okay so I'm going to scale it down a
+uh okay so I'm going to scale it down a
+uh okay so I'm going to scale it down a
+little bit and then we maybe add like
+little bit and then we maybe add like
+little bit and then we maybe add like
+another Edge you put above it uh contrl
+another Edge you put above it uh contrl
+another Edge you put above it uh contrl
+R and then just scale rotate like that
+R and then just scale rotate like that
+R and then just scale rotate like that
+cool then usually the cough kind of
+cool then usually the cough kind of
+cool then usually the cough kind of
+pushes back a bit um same thing with the
+pushes back a bit um same thing with the
+pushes back a bit um same thing with the
+th actually well the back of the th is
+th actually well the back of the th is
+th actually well the back of the th is
+usually bit flat so like
+usually bit flat so like
+usually bit flat so like
+there and then I'm basically selecting
+there and then I'm basically selecting
+there and then I'm basically selecting
+bits just with box select and then it's
+bits just with box select and then it's
+bits just with box select and then it's
+going g y um but you can see here in the
+going g y um but you can see here in the
+going g y um but you can see here in the
+reference like you can see the back of
+reference like you can see the back of
+reference like you can see the back of
+the leg's quite straight and then the
+the leg's quite straight and then the
+the leg's quite straight and then the
+front is kind of like curves and then
+front is kind of like curves and then
+front is kind of like curves and then
+it's kind of the opposite so like this
+it's kind of the opposite so like this
+it's kind of the opposite so like this
+you can see the front is straight and
+you can see the front is straight and
+you can see the front is straight and
+then the back kind of Curves over um so
+then the back kind of Curves over um so
+then the back kind of Curves over um so
+it's kind of like a little S curve in
+it's kind of like a little S curve in
+it's kind of like a little S curve in
+the front of it or in there so
+the front of it or in there so
+the front of it or in there so
+yeah so we can go here contrl R and then
+yeah so we can go here contrl R and then
+yeah so we can go here contrl R and then
+bring this back a bit so there just gr r
+bring this back a bit so there just gr r
+bring this back a bit so there just gr r
+s kind of reposition like that and then
+s kind of reposition like that and then
+s kind of reposition like that and then
+just push this back like
+that nice and then when we do that
+that nice and then when we do that
+that nice and then when we do that
+sometimes you just have to kind of like
+sometimes you just have to kind of like
+sometimes you just have to kind of like
+push the whole body back so we can just
+push the whole body back so we can just
+push the whole body back so we can just
+in edit mode or in in y frame just
+in edit mode or in in y frame just
+in edit mode or in in y frame just
+rotate the whole body a little bit like
+rotate the whole body a little bit like
+rotate the whole body a little bit like
+that you can also bring like the whole
+that you can also bring like the whole
+that you can also bring like the whole
+up body you see there um maybe bit too
+up body you see there um maybe bit too
+up body you see there um maybe bit too
+much basically going to make it sure
+much basically going to make it sure
+much basically going to make it sure
+that it actually looks like it's
+that it actually looks like it's
+that it actually looks like it's
+balanced uh when you check it
+balanced uh when you check it
+balanced uh when you check it
+okay there we go quick and easy to add
+okay there we go quick and easy to add
+okay there we go quick and easy to add
+the legs in let's make sure that they're
+the legs in let's make sure that they're
+the legs in let's make sure that they're
+not too they are quite uh squished
+not too they are quite uh squished
+not too they are quite uh squished
+almost well like very oval hey by the
+almost well like very oval hey by the
+almost well like very oval hey by the
+way if you are enjoying this tutorial uh
+way if you are enjoying this tutorial uh
+way if you are enjoying this tutorial uh
+go check down below I have my low poly
+go check down below I have my low poly
+go check down below I have my low poly
+character guard and my uh topology guard
+character guard and my uh topology guard
+character guard and my uh topology guard
+for making characters where we will Deep
+for making characters where we will Deep
+for making characters where we will Deep
+dive making base mes and all of that
+dive making base mes and all of that
+dive making base mes and all of that
+stuff that goes into it and obviously
+stuff that goes into it and obviously
+stuff that goes into it and obviously
+with the low poly car guard everything
+with the low poly car guard everything
+with the low poly car guard everything
+that covers the entire workflow so go
+that covers the entire workflow so go
+that covers the entire workflow so go
+check those out first l in the
+check those out first l in the
+check those out first l in the
+description uh yeah let's go back to the
+video okay so next I'm just going to
+video okay so next I'm just going to
+video okay so next I'm just going to
+select the side so select these two
+select the side so select these two
+select the side so select these two
+faces and we can just go extrude out now
+faces and we can just go extrude out now
+faces and we can just go extrude out now
+now usually for getting the length of
+now usually for getting the length of
+now usually for getting the length of
+the arm again you can use your reference
+the arm again you can use your reference
+the arm again you can use your reference
+and then see basically what points it
+and then see basically what points it
+and then see basically what points it
+goes down to so you can see here
+goes down to so you can see here
+goes down to so you can see here
+basically goes to the three and a half
+basically goes to the three and a half
+basically goes to the three and a half
+or let's go the wrist so just over like
+or let's go the wrist so just over like
+or let's go the wrist so just over like
+the on the middle um it goes to so what
+the on the middle um it goes to so what
+the on the middle um it goes to so what
+we can do is we can actually just go set
+we can do is we can actually just go set
+we can do is we can actually just go set
+up a circle and the reason is because
+up a circle and the reason is because
+up a circle and the reason is because
+obviously the reference might have the
+obviously the reference might have the
+obviously the reference might have the
+wrist down other side but when modeling
+wrist down other side but when modeling
+wrist down other side but when modeling
+your character you want to have it
+your character you want to have it
+your character you want to have it
+basically up at like a t pose or basic
+basically up at like a t pose or basic
+basically up at like a t pose or basic
+like an a pose
+like an a pose
+like an a pose
+um because if you have it down on the
+um because if you have it down on the
+um because if you have it down on the
+side your topology is going to be a
+side your topology is going to be a
+side your topology is going to be a
+little bit weird and also when you try
+little bit weird and also when you try
+little bit weird and also when you try
+like rig and weight paint everything
+like rig and weight paint everything
+like rig and weight paint everything
+then having the arm right next to the
+then having the arm right next to the
+then having the arm right next to the
+leg is going to kind of make it so that
+leg is going to kind of make it so that
+leg is going to kind of make it so that
+the system doesn't really know how to
+the system doesn't really know how to
+the system doesn't really know how to
+like automatically uh set the rig to
+like automatically uh set the rig to
+like automatically uh set the rig to
+work properly all of that stuff so
+work properly all of that stuff so
+work properly all of that stuff so
+better to follow with a t pose um so to
+better to follow with a t pose um so to
+better to follow with a t pose um so to
+do that I'm just going to go my 3D
+do that I'm just going to go my 3D
+do that I'm just going to go my 3D
+cursor tool up here and place it like
+cursor tool up here and place it like
+cursor tool up here and place it like
+roughly at the uh shoulder I'm going to
+roughly at the uh shoulder I'm going to
+roughly at the uh shoulder I'm going to
+go shift a add a mesh
+go shift a add a mesh
+go shift a add a mesh
+Circle
+Circle
+Circle
+rx90 to rotate it and then get it to
+rx90 to rotate it and then get it to
+rx90 to rotate it and then get it to
+kind of the heart you want so it's
+kind of the heart you want so it's
+kind of the heart you want so it's
+basically just over the middle so
+basically just over the middle so
+basically just over the middle so
+basically like roughly there okay and
+basically like roughly there okay and
+basically like roughly there okay and
+then now we know exactly actually pretty
+then now we know exactly actually pretty
+then now we know exactly actually pretty
+close uh now exactly where the r should
+close uh now exactly where the r should
+close uh now exactly where the r should
+be so there and then simple thing you
+be so there and then simple thing you
+be so there and then simple thing you
+can also just duplicate it so um
+can also just duplicate it so um
+can also just duplicate it so um
+basically the elbow was like at the five
+basically the elbow was like at the five
+basically the elbow was like at the five
+um so like like there is so then you can
+um so like like there is so then you can
+um so like like there is so then you can
+just add edge Loop so like that okay I
+just add edge Loop so like that okay I
+just add edge Loop so like that okay I
+think it might be slightly too long but
+think it might be slightly too long but
+think it might be slightly too long but
+all so let pull that in and then let's
+all so let pull that in and then let's
+all so let pull that in and then let's
+just go add another Edge contrl R and
+just go add another Edge contrl R and
+just go add another Edge contrl R and
+then just the rest here what like doing
+then just the rest here what like doing
+then just the rest here what like doing
+is kind of taking these and rotating it
+is kind of taking these and rotating it
+is kind of taking these and rotating it
+like this just a little bit um because
+like this just a little bit um because
+like this just a little bit um because
+it just kind of feels un natural if the
+it just kind of feels un natural if the
+it just kind of feels un natural if the
+arm is too straight um over here I'm
+arm is too straight um over here I'm
+arm is too straight um over here I'm
+just going to scale this up a little bit
+just going to scale this up a little bit
+just going to scale this up a little bit
+on the y axis and then for the elbow I'm
+on the y axis and then for the elbow I'm
+on the y axis and then for the elbow I'm
+going to add like another Edge Loop like
+going to add like another Edge Loop like
+going to add like another Edge Loop like
+that and then just going to rotate and
+that and then just going to rotate and
+that and then just going to rotate and
+then push it like there um just having a
+then push it like there um just having a
+then push it like there um just having a
+second Edge loop on the elbow like this
+second Edge loop on the elbow like this
+second Edge loop on the elbow like this
+will help in terms of bending uh
+will help in terms of bending uh
+will help in terms of bending uh
+actually same thing over here so I might
+actually same thing over here so I might
+actually same thing over here so I might
+actually do the same thing on the knee
+actually do the same thing on the knee
+actually do the same thing on the knee
+uh we already kind of have it with that
+uh we already kind of have it with that
+uh we already kind of have it with that
+second Edge um but let's just add two
+second Edge um but let's just add two
+second Edge um but let's just add two
+edges like that um just to make sure
+edges like that um just to make sure
+edges like that um just to make sure
+that when you rig it and animate it that
+that when you rig it and animate it that
+that when you rig it and animate it that
+we don't have any
+we don't have any
+we don't have any
+problems okay okay so there uh yeah back
+problems okay okay so there uh yeah back
+problems okay okay so there uh yeah back
+to start arm so we basically add another
+to start arm so we basically add another
+to start arm so we basically add another
+edop scale it down and then bring it in
+edop scale it down and then bring it in
+edop scale it down and then bring it in
+for the uh elbow or the shoulder so
+for the uh elbow or the shoulder so
+for the uh elbow or the shoulder so
+there and then sometimes they like
+there and then sometimes they like
+there and then sometimes they like
+adding one Edge in the middle and then
+adding one Edge in the middle and then
+adding one Edge in the middle and then
+just like bringing it so that it's um
+just like bringing it so that it's um
+just like bringing it so that it's um
+down like this so this is kind of for
+down like this so this is kind of for
+down like this so this is kind of for
+the middle and then bring it up with a
+the middle and then bring it up with a
+the middle and then bring it up with a
+tricep and then you can basically just
+tricep and then you can basically just
+tricep and then you can basically just
+go bring these out
+go bring these out
+go bring these out
+um yeah
+um yeah
+um yeah
+so there I think the r might be too low
+so there I think the r might be too low
+so there I think the r might be too low
+so I'm just going to bring this up um
+so I'm just going to bring this up um
+so I'm just going to bring this up um
+you see obviously like that's with the
+you see obviously like that's with the
+you see obviously like that's with the
+shoulders so there um so sometimes like
+shoulders so there um so sometimes like
+shoulders so there um so sometimes like
+improving the shape of the upper body
+improving the shape of the upper body
+improving the shape of the upper body
+can help
+um so yeah just actually push this down
+um so yeah just actually push this down
+um so yeah just actually push this down
+slightly okay and then I might just take
+slightly okay and then I might just take
+slightly okay and then I might just take
+this whole top it and then just rotate
+this whole top it and then just rotate
+this whole top it and then just rotate
+it forward a bit like you see there uh
+it forward a bit like you see there uh
+it forward a bit like you see there uh
+same thing with like the neck cuz like
+same thing with like the neck cuz like
+same thing with like the neck cuz like
+it'll kind
+it'll kind
+it'll kind
+of uh give it the look of the kind like
+of uh give it the look of the kind like
+of uh give it the look of the kind like
+traps so if we bring this further down
+traps so if we bring this further down
+traps so if we bring this further down
+you can see there that kind of helps
+you can see there that kind of helps
+you can see there that kind of helps
+make look like it has actual muscle
+make look like it has actual muscle
+make look like it has actual muscle
+there um yeah and I think the chest is
+there um yeah and I think the chest is
+there um yeah and I think the chest is
+way too short uh so bring this down like
+that cool and and yeah I think when it
+that cool and and yeah I think when it
+that cool and and yeah I think when it
+comes to making low poly character just
+comes to making low poly character just
+comes to making low poly character just
+like models in general um you have to
+like models in general um you have to
+like models in general um you have to
+get more on a mindset of like it's not
+get more on a mindset of like it's not
+get more on a mindset of like it's not
+going to be inly perfect so just kind of
+going to be inly perfect so just kind of
+going to be inly perfect so just kind of
+mess around with it so like you get a
+mess around with it so like you get a
+mess around with it so like you get a
+clean model but then just kind of send
+clean model but then just kind of send
+clean model but then just kind of send
+spend some time messing around with it
+spend some time messing around with it
+spend some time messing around with it
+to get better proportions better shapes
+to get better proportions better shapes
+to get better proportions better shapes
+um to get something that you're you're
+um to get something that you're you're
+um to get something that you're you're
+more happy with um okay and one thing
+more happy with um okay and one thing
+more happy with um okay and one thing
+that actually helps a lot is going into
+that actually helps a lot is going into
+that actually helps a lot is going into
+sculpt mode control tab sculpt mode um
+sculpt mode control tab sculpt mode um
+sculpt mode control tab sculpt mode um
+just hit G for the grab rush and then
+just hit G for the grab rush and then
+just hit G for the grab rush and then
+you have strength and radius over here
+you have strength and radius over here
+you have strength and radius over here
+um and then you basically use that to
+um and then you basically use that to
+um and then you basically use that to
+kind of like reposition everything so uh
+kind of like reposition everything so uh
+kind of like reposition everything so uh
+very quick and easy way of changing
+very quick and easy way of changing
+very quick and easy way of changing
+proportions of everything um so hot Keys
+proportions of everything um so hot Keys
+proportions of everything um so hot Keys
+is also f for the size of the brush and
+is also f for the size of the brush and
+is also f for the size of the brush and
+shift f for the strength but yeah so you
+shift f for the strength but yeah so you
+shift f for the strength but yeah so you
+see here very useful for changing
+see here very useful for changing
+see here very useful for changing
+proportions um so usually can help like
+proportions um so usually can help like
+proportions um so usually can help like
+uh depending on how stylized of a
+uh depending on how stylized of a
+uh depending on how stylized of a
+character you want to make like the
+character you want to make like the
+character you want to make like the
+whole back B
+whole back B
+whole back B
+water uh but
+yeah okay and if you want to change the
+yeah okay and if you want to change the
+yeah okay and if you want to change the
+thickness of the arm or legs you can
+thickness of the arm or legs you can
+thickness of the arm or legs you can
+select them so here uh I'm also using
+select them so here uh I'm also using
+select them so here uh I'm also using
+the C for Circle select so you can
+the C for Circle select so you can
+the C for Circle select so you can
+scroll to change the size you can right
+scroll to change the size you can right
+scroll to change the size you can right
+click to cancel left click to add and
+click to cancel left click to add and
+click to cancel left click to add and
+then minid button to deselect uh and
+then minid button to deselect uh and
+then minid button to deselect uh and
+then use alt s to change the thickness
+then use alt s to change the thickness
+then use alt s to change the thickness
+so that's the shrink and fatten Tool uh
+so that's the shrink and fatten Tool uh
+so that's the shrink and fatten Tool uh
+and I think you could find it over here
+and I think you could find it over here
+and I think you could find it over here
+yeah so alt s is key cool and then I
+yeah so alt s is key cool and then I
+yeah so alt s is key cool and then I
+just use kind of measure on proportions
+just use kind of measure on proportions
+just use kind of measure on proportions
+check everything
+out okay so now I'm going to work on the
+out okay so now I'm going to work on the
+out okay so now I'm going to work on the
+head so I'm going to go shift a mesh
+head so I'm going to go shift a mesh
+head so I'm going to go shift a mesh
+Cube uh scale it up uh and you see cuz
+Cube uh scale it up uh and you see cuz
+Cube uh scale it up uh and you see cuz
+our 3D cursor was over here it's going
+our 3D cursor was over here it's going
+our 3D cursor was over here it's going
+to spawn over here so I'm going to go
+to spawn over here so I'm going to go
+to spawn over here so I'm going to go
+alt G uh or if you have like Nvidia and
+alt G uh or if you have like Nvidia and
+alt G uh or if you have like Nvidia and
+all that stuff object uh clear location
+all that stuff object uh clear location
+all that stuff object uh clear location
+okay and then I'm just going to go shift
+okay and then I'm just going to go shift
+okay and then I'm just going to go shift
+s and curs it to W origin so goes back
+s and curs it to W origin so goes back
+s and curs it to W origin so goes back
+to the center scales down uh control one
+to the center scales down uh control one
+to the center scales down uh control one
+to subdivide it you see have a
+to subdivide it you see have a
+to subdivide it you see have a
+subdivision um okay we can go contr a
+subdivision um okay we can go contr a
+subdivision um okay we can go contr a
+and visual geometry to M or just go here
+and visual geometry to M or just go here
+and visual geometry to M or just go here
+apply um so now we have actual Bish
+apply um so now we have actual Bish
+apply um so now we have actual Bish
+okay now usually what I'll do I'll basic
+okay now usually what I'll do I'll basic
+okay now usually what I'll do I'll basic
+take this and I'll push it out like on
+take this and I'll push it out like on
+take this and I'll push it out like on
+the y axis you see here make it a bit
+the y axis you see here make it a bit
+the y axis you see here make it a bit
+longer um and then grab the front pull
+longer um and then grab the front pull
+longer um and then grab the front pull
+it out and we don't actually have a
+it out and we don't actually have a
+it out and we don't actually have a
+mirror on this yet so again front view
+mirror on this yet so again front view
+mirror on this yet so again front view
+like y frame we can go select the left
+like y frame we can go select the left
+like y frame we can go select the left
+side x vertices and then just mirror
+side x vertices and then just mirror
+side x vertices and then just mirror
+modifier turn clipping on and let to go
+modifier turn clipping on and let to go
+modifier turn clipping on and let to go
+cool now I'm just going to bring these
+cool now I'm just going to bring these
+cool now I'm just going to bring these
+like forward so it's kind of the front
+like forward so it's kind of the front
+like forward so it's kind of the front
+of the face and then I'm going to take
+of the face and then I'm going to take
+of the face and then I'm going to take
+this and select it for the jaw extrude
+this and select it for the jaw extrude
+this and select it for the jaw extrude
+that down and they just like rotate go
+that down and they just like rotate go
+that down and they just like rotate go
+front view you see it kind of like does
+front view you see it kind of like does
+front view you see it kind of like does
+this so let's just bring it in and then
+this so let's just bring it in and then
+this so let's just bring it in and then
+basically just comes to shaping the
+basically just comes to shaping the
+basically just comes to shaping the
+whole thing uh I us just grab a side
+whole thing uh I us just grab a side
+whole thing uh I us just grab a side
+face bring it in a little bit and then
+face bring it in a little bit and then
+face bring it in a little bit and then
+yeah you just kind of start getting a
+yeah you just kind of start getting a
+yeah you just kind of start getting a
+good shape for your
+character something pretty
+character something pretty
+character something pretty
+simple
+okay nice and then remember check all
+okay nice and then remember check all
+okay nice and then remember check all
+the different views see if it's all fun
+the different views see if it's all fun
+the different views see if it's all fun
+okay uh so just a pretty pretty simple
+okay uh so just a pretty pretty simple
+okay uh so just a pretty pretty simple
+version of it but yeah we can select the
+version of it but yeah we can select the
+version of it but yeah we can select the
+three faces like this and then we can go
+three faces like this and then we can go
+three faces like this and then we can go
+inset and then c b for boundary so you
+inset and then c b for boundary so you
+inset and then c b for boundary so you
+can see the center doesn't go away um
+can see the center doesn't go away um
+can see the center doesn't go away um
+and if we do this we can go X faces and
+and if we do this we can go X faces and
+and if we do this we can go X faces and
+now we are ready to join the head up
+now we are ready to join the head up
+now we are ready to join the head up
+with the body now you can see over here
+with the body now you can see over here
+with the body now you can see over here
+we have 1 2 3 4 five six veres where
+we have 1 2 3 4 five six veres where
+we have 1 2 3 4 five six veres where
+over here it's 1 2 3 4 5 so the way we
+over here it's 1 2 3 4 5 so the way we
+over here it's 1 2 3 4 5 so the way we
+get it to work as you can see we have
+get it to work as you can see we have
+get it to work as you can see we have
+basically like it goes up here and
+basically like it goes up here and
+basically like it goes up here and
+that's where one of the edges come from
+that's where one of the edges come from
+that's where one of the edges come from
+the ver come from so what we can do is
+the ver come from so what we can do is
+the ver come from so what we can do is
+just s this Edge extrude down and then
+just s this Edge extrude down and then
+just s this Edge extrude down and then
+just select this next one click F and
+just select this next one click F and
+just select this next one click F and
+now it's fill and because we've done
+now it's fill and because we've done
+now it's fill and because we've done
+that this one is obviously gone so we
+that this one is obviously gone so we
+that this one is obviously gone so we
+have 1 2 3 4 5 uh okay so then this can
+have 1 2 3 4 5 uh okay so then this can
+have 1 2 3 4 5 uh okay so then this can
+just be pulled back so it's get like
+just be pulled back so it's get like
+just be pulled back so it's get like
+more ready to join with the body um okay
+more ready to join with the body um okay
+more ready to join with the body um okay
+and then this Gap might be a little bit
+and then this Gap might be a little bit
+and then this Gap might be a little bit
+too big so you can see like that um and
+too big so you can see like that um and
+too big so you can see like that um and
+obviously I think the neck is probably a
+obviously I think the neck is probably a
+obviously I think the neck is probably a
+little bit too thick so
+there but yeah you can see there
+there but yeah you can see there
+there but yeah you can see there
+and you see it's roughly the same size
+and you see it's roughly the same size
+and you see it's roughly the same size
+as the the cube we added for it um now
+as the the cube we added for it um now
+as the the cube we added for it um now
+we can s these two control J to join and
+we can s these two control J to join and
+we can s these two control J to join and
+then just select the two vertices that
+then just select the two vertices that
+then just select the two vertices that
+we want and then just go M at Center to
+we want and then just go M at Center to
+we want and then just go M at Center to
+merge
+merge
+merge
+them so
+them so
+them so
+there
+there
+there
+m m cool now usually what I do is I
+m m cool now usually what I do is I
+m m cool now usually what I do is I
+basically start smoothing everything out
+basically start smoothing everything out
+basically start smoothing everything out
+so I'm just going to basically like
+so I'm just going to basically like
+so I'm just going to basically like
+bring these down like that okay and
+bring these down like that okay and
+bring these down like that okay and
+there
+there
+there
+so there that looks good you see basic
+so there that looks good you see basic
+so there that looks good you see basic
+just a little bit
+just a little bit
+just a little bit
+smoother uh and then yeah cool so I'm
+smoother uh and then yeah cool so I'm
+smoother uh and then yeah cool so I'm
+going bring this
+going bring this
+going bring this
+forward yeah you see everything is
+there cool now I'm just going to delete
+there cool now I'm just going to delete
+there cool now I'm just going to delete
+these two guards cuz we don't really
+these two guards cuz we don't really
+these two guards cuz we don't really
+need them uh and now we can get the
+need them uh and now we can get the
+need them uh and now we can get the
+hands and feet done
+okay so for the feet we can just go
+okay so for the feet we can just go
+okay so for the feet we can just go
+select it and then maybe bring it up a
+select it and then maybe bring it up a
+select it and then maybe bring it up a
+little bit extrude down and we're going
+little bit extrude down and we're going
+little bit extrude down and we're going
+to go just make sure that is flat CU
+to go just make sure that is flat CU
+to go just make sure that is flat CU
+might not be uh s z0 to flatten it um
+might not be uh s z0 to flatten it um
+might not be uh s z0 to flatten it um
+okay and then probably need to be a
+okay and then probably need to be a
+okay and then probably need to be a
+little bit higher so that and then we
+little bit higher so that and then we
+little bit higher so that and then we
+can grab these faces so just go face s
+can grab these faces so just go face s
+can grab these faces so just go face s
+uh or just grab one face like this and
+uh or just grab one face like this and
+uh or just grab one face like this and
+just extrude out like that extrude on
+just extrude out like that extrude on
+just extrude out like that extrude on
+the Y AIS okay and you see looks a bit
+the Y AIS okay and you see looks a bit
+the Y AIS okay and you see looks a bit
+weird uh but you'll work on it so I'm
+weird uh but you'll work on it so I'm
+weird uh but you'll work on it so I'm
+going to go vertex select uh zy frame
+going to go vertex select uh zy frame
+going to go vertex select uh zy frame
+and just select the bottom like that uh
+and just select the bottom like that uh
+and just select the bottom like that uh
+and what we can do is go shift H okay
+and what we can do is go shift H okay
+and what we can do is go shift H okay
+when you do that it hases everything
+when you do that it hases everything
+when you do that it hases everything
+other than what you've selected uh so
+other than what you've selected uh so
+other than what you've selected uh so
+you can bring it back with alt H
+you can bring it back with alt H
+you can bring it back with alt H
+later okay now I'm going to go bottom
+later okay now I'm going to go bottom
+later okay now I'm going to go bottom
+View and then we can basically use this
+View and then we can basically use this
+View and then we can basically use this
+to start shaping up the foot so just get
+to start shaping up the foot so just get
+to start shaping up the foot so just get
+a good basic shape and then you can add
+a good basic shape and then you can add
+a good basic shape and then you can add
+edge Hoops so control R to wherever you
+edge Hoops so control R to wherever you
+edge Hoops so control R to wherever you
+need you can do like
+that okay so you see like
+that okay so you see like
+that okay so you see like
+there and then obviously go check front
+there and then obviously go check front
+there and then obviously go check front
+view so this is exactly gz bring it down
+view so this is exactly gz bring it down
+view so this is exactly gz bring it down
+maybe maybe we did bring it up too far
+maybe maybe we did bring it up too far
+maybe maybe we did bring it up too far
+like there and then check front view so
+like there and then check front view so
+like there and then check front view so
+sometimes it's nice to kind of like
+sometimes it's nice to kind of like
+sometimes it's nice to kind of like
+bring it down on like an angle like
+this okay so it doesn't really work that
+this okay so it doesn't really work that
+this okay so it doesn't really work that
+well in terms of right now because of
+well in terms of right now because of
+well in terms of right now because of
+this Edge joining so it kind of like
+this Edge joining so it kind of like
+this Edge joining so it kind of like
+collapses the foot so what we could do
+collapses the foot so what we could do
+collapses the foot so what we could do
+we set these two go J and then use that
+we set these two go J and then use that
+we set these two go J and then use that
+to like reposition so you see there U
+to like reposition so you see there U
+to like reposition so you see there U
+and then that kind of restores the like
+and then that kind of restores the like
+and then that kind of restores the like
+volume of the foot of it uh okay maybe
+volume of the foot of it uh okay maybe
+volume of the foot of it uh okay maybe
+still Bit Too Tall so let just bring
+still Bit Too Tall so let just bring
+still Bit Too Tall so let just bring
+these all down a
+these all down a
+these all down a
+bit
+bit
+bit
+okay that's good and then we can go alt
+okay that's good and then we can go alt
+okay that's good and then we can go alt
+H bring everything back I think it's
+H bring everything back I think it's
+H bring everything back I think it's
+good to kind of add another Edge shop
+good to kind of add another Edge shop
+good to kind of add another Edge shop
+and then just bring it in
+and then just bring it in
+and then just bring it in
+like that just so we can kind of control
+like that just so we can kind of control
+like that just so we can kind of control
+more of the shape a little bit uh this
+more of the shape a little bit uh this
+more of the shape a little bit uh this
+probably needs to be up a
+probably needs to be up a
+probably needs to be up a
+bit and maybe this also needs to be like
+bit and maybe this also needs to be like
+bit and maybe this also needs to be like
+there uh also what I like is sometimes
+there uh also what I like is sometimes
+there uh also what I like is sometimes
+taking this and then just rotating it
+taking this and then just rotating it
+taking this and then just rotating it
+out a little bit like there cuz usually
+out a little bit like there cuz usually
+out a little bit like there cuz usually
+it's kind of like more natural to you
+it's kind of like more natural to you
+it's kind of like more natural to you
+kind of stand like that um
+okay and then you can also again
+okay and then you can also again
+okay and then you can also again
+rocklick Loop tool Circle just make sure
+rocklick Loop tool Circle just make sure
+rocklick Loop tool Circle just make sure
+it's circular
+it's circular
+it's circular
+cool and
+cool and
+cool and
+then take
+this and there okay just take this
+this and there okay just take this
+this and there okay just take this
+bottom Edge F to fill it in there we go
+bottom Edge F to fill it in there we go
+bottom Edge F to fill it in there we go
+nice and there we go got some feet you
+nice and there we go got some feet you
+nice and there we go got some feet you
+can also change the scale and all of
+can also change the scale and all of
+can also change the scale and all of
+that if it's not uh fitting your
+that if it's not uh fitting your
+that if it's not uh fitting your
+character so you see like
+there okay yeah yeah CU obviously needs
+there okay yeah yeah CU obviously needs
+there okay yeah yeah CU obviously needs
+to be big enough to actually support the
+to be big enough to actually support the
+to be big enough to actually support the
+weight to your car so okay now get the
+weight to your car so okay now get the
+weight to your car so okay now get the
+hands done cuz the hands are pretty
+hands done cuz the hands are pretty
+hands done cuz the hands are pretty
+difficult so take this extrude out like
+difficult so take this extrude out like
+difficult so take this extrude out like
+that and then we can just grab the side
+that and then we can just grab the side
+that and then we can just grab the side
+edges so just two go G and G okay uh and
+edges so just two go G and G okay uh and
+edges so just two go G and G okay uh and
+then actually this is the wrong way
+then actually this is the wrong way
+then actually this is the wrong way
+because obviously the details on't side
+because obviously the details on't side
+because obviously the details on't side
+but like we actually need more vertices
+but like we actually need more vertices
+but like we actually need more vertices
+on the top of the hand because like we
+on the top of the hand because like we
+on the top of the hand because like we
+don't need a little bit of detail we
+don't need a little bit of detail we
+don't need a little bit of detail we
+don't need a lot of detail on the sides
+don't need a lot of detail on the sides
+don't need a lot of detail on the sides
+because like we want to actually get the
+because like we want to actually get the
+because like we want to actually get the
+the shape of it so what I'm going to do
+the shape of it so what I'm going to do
+the shape of it so what I'm going to do
+is I'm going to take this and then I'm
+is I'm going to take this and then I'm
+is I'm going to take this and then I'm
+basic just going to rotate it a little
+basic just going to rotate it a little
+basic just going to rotate it a little
+bit like that or you can the other way
+bit like that or you can the other way
+bit like that or you can the other way
+depend on what you want uh and then
+depend on what you want uh and then
+depend on what you want uh and then
+going straight out like that and you see
+going straight out like that and you see
+going straight out like that and you see
+now we have like we can just take these
+now we have like we can just take these
+now we have like we can just take these
+out like
+out like
+out like
+this and you see now we have the right
+this and you see now we have the right
+this and you see now we have the right
+kind of detail
+kind of detail
+kind of detail
+alignment uh so usually I'll give the
+alignment uh so usually I'll give the
+alignment uh so usually I'll give the
+hand cut like a little bit of a a
+hand cut like a little bit of a a
+hand cut like a little bit of a a
+rounding over just by doing that so you
+rounding over just by doing that so you
+rounding over just by doing that so you
+see just pulling it up and then this
+see just pulling it up and then this
+see just pulling it up and then this
+will be basically our opening for the
+will be basically our opening for the
+will be basically our opening for the
+fingers but we can protect this get to
+fingers but we can protect this get to
+fingers but we can protect this get to
+the like length we want um and I also
+the like length we want um and I also
+the like length we want um and I also
+sometimes just bring it in a little bit
+sometimes just bring it in a little bit
+sometimes just bring it in a little bit
+like this just to make it kind of U
+like this just to make it kind of U
+like this just to make it kind of U
+another Edge just to kind of control the
+another Edge just to kind of control the
+another Edge just to kind of control the
+shape of the wrist okay now let's go add
+shape of the wrist okay now let's go add
+shape of the wrist okay now let's go add
+another Edge grop at the bottom and we
+another Edge grop at the bottom and we
+another Edge grop at the bottom and we
+just scale it up a little bit and also
+just scale it up a little bit and also
+just scale it up a little bit and also
+the top you can kind of round it out
+the top you can kind of round it out
+the top you can kind of round it out
+simar to like where your like fingers
+simar to like where your like fingers
+simar to like where your like fingers
+would be um so you can kind of like
+would be um so you can kind of like
+would be um so you can kind of like
+simplify it into a shape um so
+simplify it into a shape um so
+simplify it into a shape um so
+there okay that should be good and then
+there okay that should be good and then
+there okay that should be good and then
+usually what I do is this will kind of
+usually what I do is this will kind of
+usually what I do is this will kind of
+set up the thumb so I'll kind of bring
+set up the thumb so I'll kind of bring
+set up the thumb so I'll kind of bring
+this out a little bit and then we'll
+this out a little bit and then we'll
+this out a little bit and then we'll
+kind of bring the thumb from here and
+kind of bring the thumb from here and
+kind of bring the thumb from here and
+then this we can take and just go
+then this we can take and just go
+then this we can take and just go
+extrude out like this and then just
+extrude out like this and then just
+extrude out like this and then just
+extrude again uh select this face oh
+extrude again uh select this face oh
+extrude again uh select this face oh
+Edge f f um and then from here we can
+Edge f f um and then from here we can
+Edge f f um and then from here we can
+shape it up and get it not looking uh
+shape it up and get it not looking uh
+shape it up and get it not looking uh
+atrocious so again C for Circle select I
+atrocious so again C for Circle select I
+atrocious so again C for Circle select I
+just like using Circle select so like
+just like using Circle select so like
+just like using Circle select so like
+there
+there
+there
+uh I think usually the hands like
+uh I think usually the hands like
+uh I think usually the hands like
+shorter than you think uh so I usually
+shorter than you think uh so I usually
+shorter than you think uh so I usually
+make the hands a little bit too long so
+make the hands a little bit too long so
+make the hands a little bit too long so
+like there
+like there
+like there
+maybe or maybe they're just too big in
+maybe or maybe they're just too big in
+maybe or maybe they're just too big in
+general um you can just grab like the
+general um you can just grab like the
+general um you can just grab like the
+top faces like this and then just make
+top faces like this and then just make
+top faces like this and then just make
+it thinner so you see like that which
+it thinner so you see like that which
+it thinner so you see like that which
+will help a little bit um and also
+will help a little bit um and also
+will help a little bit um and also
+sometimes weird like if the the edges AR
+sometimes weird like if the the edges AR
+sometimes weird like if the the edges AR
+completely line up uh also remember like
+completely line up uh also remember like
+completely line up uh also remember like
+the middle finger it's kind of like
+the middle finger it's kind of like
+the middle finger it's kind of like
+where the highest point is and that's
+where the highest point is and that's
+where the highest point is and that's
+kind of shifted over loish and then the
+kind of shifted over loish and then the
+kind of shifted over loish and then the
+pinky and L stuff is over there so maybe
+pinky and L stuff is over there so maybe
+pinky and L stuff is over there so maybe
+bring these in a little bit like
+bring these in a little bit like
+bring these in a little bit like
+that okay that's the wrong way around so
+that okay that's the wrong way around so
+that okay that's the wrong way around so
+SCT the middle one pull it over bring it
+SCT the middle one pull it over bring it
+SCT the middle one pull it over bring it
+out and then bring these ones
+in okay uh yep good start and then let's
+in okay uh yep good start and then let's
+in okay uh yep good start and then let's
+get the thumb in so we can actually see
+get the thumb in so we can actually see
+get the thumb in so we can actually see
+what we're working with uh what I'm
+what we're working with uh what I'm
+what we're working with uh what I'm
+going to do I'm just going to actually
+going to do I'm just going to actually
+going to do I'm just going to actually
+set up an edge just like this so okay
+set up an edge just like this so okay
+set up an edge just like this so okay
+for and after all and then just go like
+for and after all and then just go like
+for and after all and then just go like
+go add a triangle thing like this and
+go add a triangle thing like this and
+go add a triangle thing like this and
+then this is going to be for our thumb
+then this is going to be for our thumb
+then this is going to be for our thumb
+so we can back rotate it to whereever we
+so we can back rotate it to whereever we
+so we can back rotate it to whereever we
+need and then I usually kind of rotate
+need and then I usually kind of rotate
+need and then I usually kind of rotate
+it a little bit like that kind like
+it a little bit like that kind like
+it a little bit like that kind like
+drops and then extrude out like this uh
+drops and then extrude out like this uh
+drops and then extrude out like this uh
+we can dble right click l
+we can dble right click l
+we can dble right click l
+Circle and then we can use Double R it's
+Circle and then we can use Double R it's
+Circle and then we can use Double R it's
+like a different way of rotating um so
+like a different way of rotating um so
+like a different way of rotating um so
+you see here you kind like pull it in
+you see here you kind like pull it in
+you see here you kind like pull it in
+like that whereas usually can only
+like that whereas usually can only
+like that whereas usually can only
+rotate like this um so it's good for
+rotate like this um so it's good for
+rotate like this um so it's good for
+like just if you need to kind of push it
+like just if you need to kind of push it
+like just if you need to kind of push it
+like in different view when you're like
+like in different view when you're like
+like in different view when you're like
+front view or something um so like there
+front view or something um so like there
+front view or something um so like there
+and then we scale it down a little bit
+and then we scale it down a little bit
+and then we scale it down a little bit
+and we can extrude out like
+and we can extrude out like
+and we can extrude out like
+that um again we can use our sculpt
+that um again we can use our sculpt
+that um again we can use our sculpt
+tools so sculpt with grab brush just
+tools so sculpt with grab brush just
+tools so sculpt with grab brush just
+quickly reshape the
+quickly reshape the
+quickly reshape the
+hand just kind of get out the way and
+hand just kind of get out the way and
+hand just kind of get out the way and
+then I can like scale the thumb
+then I can like scale the thumb
+then I can like scale the thumb
+down so I usually kind of keep it like
+down so I usually kind of keep it like
+down so I usually kind of keep it like
+like that the uh let's get that full
+like that the uh let's get that full
+like that the uh let's get that full
+camera um that the hand kind of sits
+camera um that the hand kind of sits
+camera um that the hand kind of sits
+down like that you see so like there um
+down like that you see so like there um
+down like that you see so like there um
+and that's where it should be kind of
+and that's where it should be kind of
+and that's where it should be kind of
+sitting
+sitting
+sitting
+so if we compare that to to this you'll
+so if we compare that to to this you'll
+so if we compare that to to this you'll
+see like
+see like
+see like
+uh like where where it's sitting um yeah
+uh like where where it's sitting um yeah
+uh like where where it's sitting um yeah
+so kind of just work on the little
+so kind of just work on the little
+so kind of just work on the little
+verses of it um but yeah essentially
+verses of it um but yeah essentially
+verses of it um but yeah essentially
+this will give
+this will give
+this will give
+you uh
+also give you a pretty good start and
+also give you a pretty good start and
+also give you a pretty good start and
+then obviously once you got this you can
+then obviously once you got this you can
+then obviously once you got this you can
+mess around proportions check everything
+mess around proportions check everything
+mess around proportions check everything
+out um just start cuz like once the
+out um just start cuz like once the
+out um just start cuz like once the
+character is actually finished then you
+character is actually finished then you
+character is actually finished then you
+can actually work on stuff you can also
+can actually work on stuff you can also
+can actually work on stuff you can also
+use the proportional editing so like
+use the proportional editing so like
+use the proportional editing so like
+maybe the the top the arms also too big
+maybe the the top the arms also too big
+maybe the the top the arms also too big
+so like use the proportional editing you
+so like use the proportional editing you
+so like use the proportional editing you
+can use the scroll wheel to change the
+can use the scroll wheel to change the
+can use the scroll wheel to change the
+size of it of the amount that it
+size of it of the amount that it
+size of it of the amount that it
+controls um but yeah and it also go hard
+controls um but yeah and it also go hard
+controls um but yeah and it also go hard
+the proportion thing but yeah that ends
+the proportion thing but yeah that ends
+the proportion thing but yeah that ends
+up with a pretty good Bas fish and if
+up with a pretty good Bas fish and if
+up with a pretty good Bas fish and if
+you want to learn more about all of this
+you want to learn more about all of this
+you want to learn more about all of this
+and go more in depth then check the
+and go more in depth then check the
+and go more in depth then check the
+links down below to check out my low
+links down below to check out my low
+links down below to check out my low
+poly character course and my topology
+poly character course and my topology
+poly character course and my topology
+card for characters where we'll go on a
+card for characters where we'll go on a
+card for characters where we'll go on a
+deep dive uh on making character Bas
+deep dive uh on making character Bas
+deep dive uh on making character Bas
+messes just like this and everything
+messes just like this and everything
+messes just like this and everything
+else okay cool I hope you found this
+else okay cool I hope you found this
+else okay cool I hope you found this
+tutorial useful if you want to watch
+tutorial useful if you want to watch
+tutorial useful if you want to watch
+another one you can click right over
+another one you can click right over
+another one you can click right over
+here and I hope to see you in the next
+here and I hope to see you in the next
+here and I hope to see you in the next
+one

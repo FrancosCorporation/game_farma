@@ -328,10 +328,10 @@ export class PatientAvatar {
 import rigParams from '../data/rigParams.json' with { type: 'json' };
 
 const BONE_POSES = {
-  idle: {},
-  mao_no_peito: (p) => ({ ...p.mao_no_peito }),
-  cabeca_baixa: (p) => ({ ...p.cabeca_baixa }),
-  curvado: (p) => ({ ...p.curvado, ...p.cabeca_baixa }),
+  idle: () => ({ ...rigParams.idle }),
+  mao_no_peito: (p) => ({ ...p.idle, ...p.mao_no_peito }),
+  cabeca_baixa: (p) => ({ ...p.idle, ...p.cabeca_baixa }),
+  curvado: (p) => ({ ...p.idle, ...p.curvado, ...p.cabeca_baixa }),
 };
 
 export async function loadGLBFPatient(url, scene) {
@@ -347,7 +347,9 @@ export async function loadGLBFPatient(url, scene) {
   inner.position.z -= center.z;
   inner.position.y = -box.min.y;
 
-  // PBR: sombras + upgrade de pele (sheen fake-SSS) e olhos (clearcoat)
+  // Sombras + material do paciente — LEGADO realista (sheen fake-SSS / clearcoat).
+  // Ao entrar o asset estilizado, simplificar: roughness ~0.55, sem sheen/clearcoat.
+  // Ver docs/DIRETRIZES_ARTE_ESTILIZADA.md §3.
   inner.traverse((o) => {
     if (!o.isMesh && !o.isSkinnedMesh) return;
     o.castShadow = true;
@@ -373,7 +375,7 @@ export async function loadGLBFPatient(url, scene) {
   });
 
   // Rim light frio atrás do paciente (perfil contra o fundo escuro)
-  const rim = new THREE.PointLight(0x8fb6ff, 3.2, 4.5);
+  const rim = new THREE.PointLight(0x8fb6ff, 0.9, 4.5);
 
   // Pacote completo (paciente + rim) dentro de um grupo de posicionamento
   const root = new THREE.Group();

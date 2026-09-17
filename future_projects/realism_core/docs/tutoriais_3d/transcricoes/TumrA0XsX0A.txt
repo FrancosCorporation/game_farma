@@ -1,0 +1,221 @@
+today we take another look at character
+modeling in blender I'm going to show
+you my whole up-to-date process from
+starting with the basic sketch all the
+way through to my final 3D model but as
+always my name is kelen and welcome to
+my video on how to create amazing 3D
+characters in
+blender before we get started we need a
+concept and you can either try to create
+a piece of an you like or why not try
+sketching something yourself in this
+case I'm going to be sketching my own
+concept but it's currently 8:00 a.m.
+here in the UK so before we get started
+let's go ahead and make some coffee okay
+we're back so my preferred source of
+inspiration is Pinterest and I generally
+browse for around 20 minutes or so
+selecting between five and six pieces
+that I like for a mood board perfect I
+love these and if you're one of the
+artists Behind these pieces thank you
+you are amazing but now it's time to go
+ahead and grab your tools to start
+sketching now sometimes I use a pencil
+and paper for this but today we're going
+to be jumping into procreate on my iPad
+now I like procreate because we can take
+advantage of some of the awesome digital
+tools that we have access to because I'm
+not actually the best at 2D
+illustrations so I need all the help I
+can get and as a tip you can use the
+Symmetry tool here in procreate to make
+drawing symmetrical features a lot
+easier now hit that music and let's do
+this
+okay I think that'll do for my sketch
+and I kept this pretty basic for now as
+I'll be adding a lot more detail doing
+the 3D sculpt but now it's time to bring
+this little guy to life and to do that
+we're going to need to transition over
+to my computer to begin creating the 3D
+model and my software of choic is the
+one and only
+blender now if you've never heard of
+blender before it's an amazingly
+powerful 3D modeling software that lets
+you create 3D models CGI and animations
+and in my case I'm just going to be
+using it to create my 3D character which
+brings us nicely into the next step in
+my modeling
+process this step just involves using
+very basic shapes and blender to block
+out the general shape of my character
+think of this as just grabbing little
+bits of clay to help Define the initial
+base of your model and as you can see
+I've also loaded my sketch into the
+background to help me with my
+proportions during this process I
+generally start with the head and slowly
+work my way down the character using
+some of the basic sculpting brushes and
+blender to help grab and shape my
+objects as I go
+along personally I've always leaned
+quite heavily into stylized characters
+so generally features such as the head
+the hands and the feet are quite a bit
+larger than realistic proportions but
+reference is always key for these sort
+of things so I often look up some
+additional references as I go along here
+to help with the anatomy of my
+characters
+all right I'm happy with this rough
+blockout and with that step two is
+complete for this next step we're going
+to start sculpting the details so I like
+to plug in a tablet for that extra bit
+of control and just in case anyone asks
+I'm currently using a canvas Pro 16 from
+Pon now when it comes to sculpting my
+characters I like to start with the head
+and the process of sculpting and blender
+generally goes like this you start with
+a lower poly object as you define the
+basic shapes and then slowly add more
+topology to your mesh for the finer
+details I like to do this in sculpt mode
+using blender's remesh tool and I'll
+slowly keep increasing the amount of
+detail I have until I've got enough for
+the lips the eyes and the nose and all
+these extra little details and the
+remesh option is also going to merge
+these nicely into one object for me all
+right this is looking pretty cool and
+I've also added some UV spheres here to
+help with the placement of my eyes too
+and yes this guy is looking looking
+quite grumpy but I love my characters
+with a little bit of attitude now let's
+carry on and refine the body too using
+the same
+method and now it's time to add some
+here but obviously hair can come in all
+different shapes and sizes when it comes
+to 3D modeling but right now I'm leaning
+more towards a nice rounded plastic look
+and to do this I generally start by
+sculpting out the base of the hair and
+then I add in some additional rounded
+cubes to block out the general style
+that I'm looking for before I then go
+ahead and remesh and smooth this over
+for a nice finish o that's looking
+pretty good to me now I've been here for
+quite some time so I'm going to take a
+break for today and head to the cinema
+okay I'm back and TD's mut ninja turts
+was pretty good but it's day two and
+today is the day we finish this first up
+clothing for this I use a couple of
+methods but it all depends on what you
+need at the time but generally it boils
+down to two main approaches firstly The
+Mask extract simply paint a mask on the
+area you want to reuse hit mask extract
+in the menu and boom you've got a new
+mesh you can sculpt and reuse the other
+method is just good oldfashioned box
+modeling add the basic shape that you
+need and then sculpt them into
+shape oh yeah this is looking good but I
+do need to optimize this guy just a
+little bit and we all know the manual
+retopology is absolute so insert my
+secret weapon the quad remash add-on
+simply enter the amount of polygons you
+want hit the button and wow literally
+the best purchase of my life pair this
+with a multi-resolution modifier and now
+you've got a lower poly mesh for rigging
+and a higher poly mesh for the
+render I already read to apologize the
+main body too using the add-on so I'm
+just going to go ahead and duplicate
+part of the mesh here for the
+trousers for anything less organic such
+as the shoes I tend to model these sort
+of things with regular box modeling in
+this case I start from the bottom work
+my way up until I have my lovely big
+clown shoes
+and there we have our finished clothing
+I thought he looked a bit plain so I
+also gave him some gloves some socks and
+a cool jacket too I was thinking Back to
+the Future Vibes but before we go ahead
+and jump into the last section and a
+quick word from today's sponsor and that
+is yours truly me so here's a quick word
+from kelan from the future while I go
+water my succulents hey this is kelan
+from from the future and I just wanted
+to pop in and quickly tell you about my
+blender for beginners course now this
+course I have packed with everything I
+have learned over my years of learning
+blender and in this course I will cover
+everything from installing blender for
+the first time all the way through to
+modeling sculpting lighting rigging
+rendering and so much more you'll have
+access to this course for life including
+the many additional modules I have
+planned for releasing the future too so
+if you're perhaps interested in starting
+your blender Journey with me check out
+the link in the description below and
+thank you for listening
+today all right guys we're so close to
+the end now stick with me next up it's
+time to add some color to this character
+using blender's default
+shade where it gets a little bit
+different is the eyes in this case I use
+one material for the white of the eyes
+and I apply a separ material to the
+intersection then I use a basic node
+setup combining a gradient node with a
+color ramp to achieve my desired
+look to go the extra mile I also like to
+add an additional sphere around the eye
+with a very transmissive material and if
+you play around with the inverse of
+refraction 2 it creates a nice lens type
+effect to finish I just like to add a
+little bit of rosiness to my character's
+face and in this case I just plugged a
+color attribute node into my my default
+Shader so I could vertex paint some
+color directly onto my
+sculpt and I also add just a little bit
+of subsurface scattering for the cherry
+on top and all that's left to do now is
+for me to give this guy a quick rig for
+posing and then to add some lights for
+some cinematic renders but thank you so
+much for watching today my friends and
+don't forget to let me know what you
+think in the comments below let's do
+this yo what what's going on with
+his face dude what's what is
+that
+whoa dude your head come out the screen

@@ -1,0 +1,1630 @@
+in this series we'll go through all the
+steps it takes to make a character and
+blender
+in the last video we made the body in
+this video
+we'll make the hands and feet
+i made some templates for us to use as
+you can see here we have a front edge of
+hand
+we have a back of hand rear edge of hand
+and a palm so let's make it easier for
+us to make our hand
+you'll notice also that our concept
+sketch has a hand at an
+angle the template has them vertically
+much easier
+to build hands vertically i also created
+a
+visual step-by-step of sorts
+so this shows you step one
+red means extrude step two here pink
+means it adds
+loops and over here yellow means you do
+some shaping
+so if you take this for example here
+you extrude the thumb you shoot the
+finger you cut these little
+slivers for whims between the fingers
+and you shape the back of the hand
+and you shape these holes where the next
+fingers will come out
+so great reference to you know make your
+hand
+so let's get this stuff out of the way
+here so we will
+move that down here
+and so step one we want to extrude the
+red part
+we also need to add this loop here so
+this should actually be
+red
+okay so we want to do that so let's go
+and do that
+so grab our grab our
+object here go to edge mode and
+zoom in
+front view we also need to
+oh that's not good let's go to edge mode
+grab that
+and flatten it
+tools and plot two here we go
+face mode grab this let's just move it
+over to our template
+like that use our 3d cursor
+and move around through the cursor and
+rotate that
+looks really plastic man-like so let's
+turn it off
+or something some of the surface
+and you can see this the template
+is thicker than our hand so we're going
+to just
+roughly match it like that
+edge mode we'll extrude this
+and we'll rotate around itself
+extrude again here
+to roughly the middle of the knuckle
+and then let's scale this
+up and rotate it so it goes from
+the middle of the knuckle to the middle
+of the knuckle
+i also want to close this up
+so f f f
+so this way we have um three polys with
+two little triangles on the end
+and let's cut this
+control r go to point mode
+click click and a click
+click m a
+okay so that's that's our basic building
+block for our hand
+i want to scale um scale
+y so just straighten these up scale
+zero let's also straighten these up
+scale lines
+this just makes it easier to kind of
+keep track of everything that's going on
+oops scale y zero
+okay and then let's
+i think this is too thick let's go to
+our
+front view here and
+move this in just a bit
+here we'll move this in also
+yeah i think
+i think that's not bad
+okay oh let's hide our body
+it's gonna get in the way x-ray
+grab everything ctrl i h
+and
+now let's
+do some more
+okay so let's see where we are we've got
+this about this time now we need to
+cut some loops so this one here will
+shape
+where the thumb starts and this one here
+will be for the knuckle
+this one here will just even it out so
+let's go and do that
+over to our hand again
+and hit edge mode and control r and get
+this going around the knuckle
+this one up here will be around
+okay so let's grab some points make sure
+we're going all the way through the hand
+let's just roughly shape the base of the
+thumb we're not going to go all the way
+to the edge
+because we're going to add some geometry
+in a second so let's pull these out here
+let's pull them pull these out back here
+and get these two
+okay
+we want to add this loop cut down the
+middle of the hand
+and this red area here this is the
+geometry we want to add to the thumb
+area so we're going to inset that
+it'll give us material to shape the
+meaty part of the bottom
+of the thumb and also give us material
+to create a
+circle for the thumb and the finger
+this should actually be yellow like that
+so let's uh let's go and make that
+yellow here for a second here
+okay so let's uh let's go and do that
+let's go and
+cut that loop first
+okay so the reason why we want to
+cut that loop down the middle is because
+we have four fingers
+and so we want to have um one row for
+each finger and we'll look just we'll
+extrude each of those for each of the
+fingers
+and then we'll um loop tools and make a
+circle
+rotate and r and z
+the knuckles kind of have an arc shape
+to it slightly so let's just rotate it
+and make that
+feel like uh the way knuckles are
+we also want to add the geometry to that
+thumb area so let's grab some faces here
+and we'll have to inset that
+not too much then we need to shape it
+let's
+deselect these
+yeah it's good
+then we will rotate it around the 3d
+cursor
+without proportional editing on let's go
+and select that okay
+okay that's looking pretty good
+let me just pull this one out a little
+bit more
+oh let's actually let's actually make
+this a circle
+so now we've got our where we can have a
+circle so we can extrude the thumb
+let's pull it down it's actually
+the thumb kind of angles down so let's
+something like that it can be pretty
+rough we're going to fix all this later
+this is way too far and it should be
+further oops further out more but don't
+don't worry about that yet let's just um
+let's get all of our geometry in place
+okay so let's see what i'm going to do
+next
+next we are going to see right here
+okay next we're going to add some
+geometry for the webbing in between the
+fingers
+uh let's do it for all four fingers then
+we'll
+make circles for all the fingers so
+let's go and do that and then we'll
+extrude the
+index pointer finger and the thumb okay
+go back to our hand here
+and i think i think this doesn't look
+right i think the thumb the finger looks
+so this finger looks too big let's make
+it
+a little bit smaller so this if you see
+our sketch here
+and our highlighted circle here
+is too big let's scale it down so it's
+just a little bit
+bigger than our stitch then we'll put it
+back
+in the middle of the knuckle and the
+reason why we're making it
+a little bit bigger is the hexagon is
+rather pointy
+when you turn on your sub d
+it gets see well if you look
+if you look closely at this here it gets
+all
+smaller so it's bigger there smaller
+there so
+when you um when we're modeling this
+and comparing it to our sketch we want
+to have it actually we should make it
+just a touch
+bigger and then let's
+let's make it a little bit bigger then
+just pull these in so they're not
+as circular
+so now we hit k to cut
+the cut tool is i don't like using it
+because it seems like whenever i start
+cutting things
+it just slows things well it's kind of
+a finicky tool but it also slows things
+down
+so i don't like to use it
+but in this case i think it's gonna be
+faster to use
+okay so that's one finger and let's
+grab
+actually first this is not
+lined up right it's too
+i um i tried to line up in the middle of
+the knuckles and i
+didn't do a good job so let's move this
+now
+so that way it doesn't make it harder
+for us later
+just move these out
+okay now let's shape our fingers
+explode grab this right click loop tools
+and circle
+and let's go to uh template and scale it
+so it feels well we'll turn off
+proportional editing and scale it
+and we're turning off the portion
+editing because we just want to
+affect just this this
+surface finger here
+and let's see
+the knuckles kind of
+arc slightly so i'm going to place this
+nice
+like slightly higher and we want to make
+our fingers
+a little bit not quite as brown so we'll
+put it in a bit
+something like that
+yeah let's even decide okay so
+see how i'm eating this out i've just
+started to waste time
+let's move on here okay
+okay grab our next one right click
+loop tools circle
+scale this down so it's just a bit
+bigger than our finger
+and then let's pull this up
+and rotate it so it's curving
+nicely let's go to edge mode
+and transparent mode and pull these
+points
+overlapping
+because the pinky is going to be smaller
+than this finger
+and i think this finger is bigger than
+that one slightly
+let's do let's do that
+let's cut this again
+enter edge click ctrl r
+release mode grab these two right click
+loop tools and circle
+let's go to this here make sure
+it's way too thin
+and bring it
+it back pretty good here got a
+lot of overlap here
+it curves nicely a little bit too much
+the curves nicely but
+it's not too small
+but that's a bit too small
+okay so we've got these fingers all
+shaped and we've got
+the material for the web in place
+this is all crooked but we'll fix that
+later and what else do we have to do for
+this step let's see
+here oh yes extrude the thumb and the
+finger
+okay so let's go and do that so we'll
+grab our hand
+again zoom in
+this needs to come back
+okay grab a finger here
+and go to this
+let's just extrude that
+let's extrude let's extrude straight
+down
+you know what let's not use this finger
+um
+this finger is curving slightly this one
+looks like it comes straight down so
+let's just use
+that one for our first finger and
+i think this too needs to come down
+with proportional air tuning
+and this one a bit also
+okay let's grab our finger here
+extrude this to z
+turn off the partial entity
+in this transparent mode
+skate
+like that let's square
+zero
+let's do that
+okay so we've got our basic finger
+right there and how much detail do we
+put in here
+two loops
+let's get our template first line up the
+template
+let's go to x-rays we can see it better
+and i want to flatten this
+loop tools and then flatten and
+loop tools in flattened
+i think it gets a little bit smaller at
+the tip
+let's just taper it down slightly
+nice and elegant
+and i think the fingers curl a bit so
+let's just curl them a little bit here
+again and then face mode
+grab that 3d cursor
+rotate around 3d crease here and just
+actually pull this one first
+rotate it down slightly
+then
+and rotate it a little bit more
+let's see look like
+whoa it looks kind of like
+rude gesture okay so we've got the
+figure let's extrude the thumb
+grab this here go to the side here
+extrude
+i'm going to oops rotate around itself
+and scale it down so it matches our
+sketch
+the x-ray make sure
+okay again
+let's pull in the thumb
+okay so it's a little rough but um
+it's okay for now
+make sure we're in the right place
+okay oh i forgot something
+okay so we're rotating the thumb so it's
+in its natural position so you can see
+how
+the thumb
+kind of points towards the index finger
+so we didn't do that that's kind of
+naturally how it's
+i guess positioned in the body so let's
+go and make sure we don't
+skip any of our steps here
+let's just grab that and rotate it
+put the portion dancing on to
+point to the feet oops
+not that much
+let's grab this turn off push your
+button and rotate that a little bit more
+so maybe we'll take this one a little
+bit also
+so i'm trying to rotate this view so
+that
+it's like i'm looking straight at so i'm
+parallel to this um this
+this selection so it rotates actually
+okay
+great so we've got a thumb and a finger
+here
+and then what's next
+okay so next we are you can shape the
+back of the hand
+we're also diverting this loop so
+if you look here we
+we added over here we added that cut in
+but our arm up here doesn't have that so
+it's gonna
+it's gonna cause complications so we
+want to
+basically dissolve this edge here
+and this edge there so to do that you
+just you just divert it
+so over here you can see we uh
+we added a loop here and we added a
+face here and we just have this
+this uh this loop coming around
+so let's just do that we've done a whole
+bunch of times already let's just do it
+again
+to our hand that
+grab these and
+x these all edges
+and we will grab these
+and
+so when we dissolved that edge here
+it didn't dissolve through the points so
+if you go to point mode you can see
+there's still a point left over where
+that edge was so just grab those
+x and dissolve vertices
+and then go back to edge hit f
+and we are clean
+f
+all right now our topology is clean
+so next we will
+next we will add this red race track
+starting at the palm and going
+all the way through to the other side of
+the palm and through all the fingers
+for at least where the fingers come out
+okay so let's go to edge mode let's
+delete these
+uh unselect that select that and
+select that we'll go to control b
+to the pebble um
+actually hold on i want to get into a
+viewer i can see it better
+like that ctrl b and
+that looks pretty good
+put a point mode and click click and
+a
+click click ok i realize there's
+triangles there but we will fix that
+later
+let's make sure we're running through
+all this okay
+and we will shape it
+okay so next up see that
+so we just add the racetrack and now
+it looks like
+okay so the racetrack results in two
+triangles there's
+one here and there's one
+there so in the next step
+we're checking out those triangles so
+here we have a four-sided
+and here we have a four-sided by doing
+all this stuff in between so we'll we'll
+go and do all of this stuff here
+and it also we get some loops going
+across to
+make the crease in the hand and we add a
+crease up here
+but first let's take out these three
+sides
+and let's see where's our three sides
+it's right there
+pretty small let's pull
+the yeah cut it and
+cut it so now we have four sides there
+and then we will
+make use this to make
+a little bit and then
+attach that and how do we close this up
+here
+okay that closes there and
+that closes there
+okay so we've got that all closed up
+let's see what's next here so
+here you can see
+these faces
+we needed just a bit more geometry it's
+a little bit
+this is a little bit skewed here so we
+added these
+faces to give us more material to shape
+the back of the hand with
+so we can do that next and then we can
+also
+start to shape the fingertip and then
+cut the whole finger off so we can add
+these details
+so let's start doing that let's go to
+our hand here
+and zoom in and you can see this
+back of the thumb looks totally
+different because we
+didn't take any time to shape this
+so let's take a second to shape this
+uh just a touch and let's see
+here this view and
+proportional editing and move this out
+to match just a bit
+okay and let's see here to check the
+front view
+the thumbs way too flat you can see um
+the thumb comes out from the head
+so let's do that also so we'll grab
+um we'll grab these guys
+put in the 3d cursor
+so now oh let's rotate around the 3d
+cursor
+so now it kind of
+we can pull it down and
+you can rotate it
+let me pull that down a bit
+all right i want to leave that here so
+let's
+do something like
+that yep and you can see now we're
+getting the same condition here
+where this is it's not as bad here
+but i'm going to do it anyway because i
+think we could use that geometry
+there cut this
+two triangles
+and scale it in a bit
+so now we can
+we got more material to
+shape the back of the hand
+yeah nice um shape
+fingertip a bit here x-ray
+okay
+and this in a touch
+now let's cut the finger off
+x-ray here
+mesh separate by selection
+go back to object and edit
+so from here we want to
+step one is to
+add the loops so we can bend the finger
+and then inset the fingernail area
+so we have a loop running around the
+fingernail so let's go and do that
+so before we start let's square this up
+we're going to use this finger for
+all four fingers and it'll be easier if
+this was all parallel so let's do that
+scale z zero and rotate that
+and scale it out of it
+and scale z
+rotate it a bit
+let's grab this scale z zero
+rotate it a bit scale it out
+and these down here getting kind of
+shapey like so let's
+do this scale z zero
+and shift r
+thank you to i'm going to mangle your
+name
+one of the commenters gave this great
+tip if you hit
+shift r you can redo the last command
+this is a real time saver
+so thank you for that apologize for
+mangling your name okay so this is
+all squared up nice now let's go and
+what was it that's right we want to add
+some loops
+so our finger can blend so
+ctrl b pull this out scroll the mouse
+wheel
+and it looks pretty good for
+here we will just add some loops with
+ctrl r and ctrl
+r
+ooh and let's use our new hot key here
+shift r oh wait a minute hold on
+okay maybe it doesn't work all the time
+control r works just as good
+is that better or is it better
+no i think it's better down here
+let's move these forward just a bit
+to x
+okay let's see how this looks next to
+our
+template
+since we moved things around a bit and
+it's a little bit different
+probably doesn't matter too much
+let's just shape it
+just a touch
+let's move this finger tip in
+some
+okay i think that's good
+pull that back down so now our finger is
+nice and square and i think we
+also need to inset this thing
+so the tops the the back end of
+fingernails are
+kind of rounded so if we
+inset this it'll make a weird shape
+which is not very fingernail like
+so let's um let's do this
+we will grab these and pull them forward
+and i think we'll also know we'll do
+this later yeah now we'll do it now
+we'll pull this forward
+a bit or down a bit
+okay and now i think if we inset this
+it'll it'll feel a little bit more
+fingernail-like let's grab that
+alt s to push it in
+and then let's pull this one in two
+okay so let's
+see what's next
+so next up we've got let's see here
+let's put our colors
+on
+okay so we are scaling in
+this we're adding a loop cut here and
+then we are
+scaling in the fingernail so we can get
+some
+flesh on either side of the fingernail
+and then after we do that we are
+looks like we add one more loop cut and
+then scale in some more and pop in the
+flesh
+below the fingernail so let's go and do
+all that
+okay so back to our finger
+and it was add a loop
+let's scale it
+a bit let's um let's hide this
+okay go back to our finger
+l let's pull this back
+up
+and suppose we can move it to the side
+so i think we want to
+scale this in so it rounds better
+scale y
+not that much scale y
+so scale
+y
+so i'll have the nail on top coming in a
+bit
+and then back here it'll come back in
+more
+because i think the fleshy part is more
+rounded and the nail is a little bit
+sharp
+so we've got that their nails curved
+down a bit so we will
+pull this down just a bit
+okay then we had
+one more loop cut here ctrl r
+and we scaled it in
+scale y
+and scale this in
+scale the whole thing in
+and move it down a little tiny bit
+and then we'll push in the fingernail
+the skin below the fingernail
+let's get this down here
+something weird going down here
+faces
+okay that looks better
+let's pull this in
+so we kind of kind of roughly indicate a
+fingernail that's how
+see how it looks with our sub d turned
+on
+so this definitely won't hold up to
+close inspection
+but for a rough you know like a low poly
+model
+it'll it'll be fine so since we're going
+to be using this
+finger for all the fingers
+let's just take a second to sculpt it
+let's pull these in
+let's uh let's take a second to shape
+the rest of it
+because we're going to use this for all
+the fingers
+and
+again it probably wasn't totally
+necessary but it gives us a nice clean
+start
+for all of our fingers
+i think we can pull this down still a
+bit more
+do we want her fingers more knuckley
+from the
+front let's see here
+maybe a little bit
+so let's pull these in
+okay just a touch
+okay i think we have a good foundation
+finger to
+do the rest of our fingers let's alt
+h bring our hand back
+okay next we will duplicate this finger
+and scale and position them in place so
+it looks natural and we'll put a
+thumb in place so first we will
+duplicate this and keep this finger
+around
+because it might be useful one day
+and then let's delete this mirror
+so it just makes it easier to zoom in
+and let's move this over here
+that there roughly
+move around our 3d cursor rotate
+that slightly and scale it
+so this well actually let's duplicate
+this because we know that our
+middle finger will line up well that's
+when we started off modeling we'll place
+that
+then here we'll scale the index finger
+just a bit
+smaller than the middle finger
+we can just go and do all these to
+duplicate
+rotate that a bit
+scale this in a bit also
+you want to scale this in the okay so it
+scales
+funny because you have all these
+transforms on there
+but what we can do is change this to
+local transforms
+then s z and it should just get shorter
+so
+local transforms it around the
+selected objects local x y and z
+and global is the world x y and z
+and i need these knuckles to be outside
+the hand of it so i can see what's going
+on so let's just move those out
+and see where i want these knuckles so
+the knuckles kind of take this
+arc shape so i think
+it should be a bit lower that's good
+then let's line this up in the front the
+fingers
+aren't all straight either they also
+follow a slight arc
+so if you look from the very bottom
+these should be
+um somewhat shaped
+like that and the fingers kind of rotate
+so let's pick this guy and rotate it in
+z a bit
+and rotating the z a bit and
+same thing for this guy let's do this
+so if you hit r z it rotates along
+the i have local selected here so it
+rotates along
+the local z which might be what you want
+or might not
+if you just hit r it rotates it based on
+the view you're looking at
+so i think rotating in the view i'm
+looking at
+is what i want right now
+and then i think i want this
+so i'm kind of checking this sketch back
+here you can see we are not
+lined up with that sketch at all but i
+can look at it
+and see what kind of it feels like
+and then make it feel like the same way
+in your your cat
+so this here i'm just hitting r and
+rotating
+so now let's go and add our thumb
+so you can see here we have just one
+ring here
+then we have a thumb up to the first
+knuckle
+so what we'll do here we will
+select these faces and the tip
+x faces we will grab a finger
+shift duplicate we will delete
+everything up to the first
+knuckle
+okay and then we will
+get this
+to line up with it and
+he's got a little tiny
+oh okay so i'm trying to rotate this
+thumb
+and it's like whoa why is this not
+rotating around itself it's because the
+origin
+is way down here and we don't want that
+so
+if you go to object set origin and
+origin to geometry
+it puts that orange dot back in the
+middle of whatever you have selected
+so now it rotates more like you'd expect
+does that feel
+like it's the right angle
+i think it's not bad
+maybe it wants to rotate in a bit more
+grab that set 3d cursor
+rotate around 3d cursor and let's rotate
+this
+in like
+that
+and i think that's pretty good
+okay
+okay so the fingers are overlapping the
+hand
+but i want to get rid of these sub d's
+so i took one finger delayed
+the subdivision modifier i'm grabbing
+these other fingers
+with a sub d and then i grab the finger
+i just deleted the subd
+hit control l and make links
+modifiers and it just it just copies
+the last object selected so all the
+modifiers are now gone
+okay now let's grab these fingers and
+go to edit mode and we will
+um grab oops grab these
+turn on partial editing and move
+these down a bit
+i think the fingers and the hands were
+pretty good but they're just barely
+overlapping so i'll move the fingers a
+bit i'll move the hands a bit
+oops delete these faces here
+so let's delete these so we'll have a
+hole
+for all the fingers
+go back here go to point mode
+and let's just move like really roughly
+just
+move this to match it so
+we got proportional editing on and
+move this up
+um
+close that there
+move this up a little bit and uh
+i kind of just clicked here because i i
+was pretty sure
+there's a vertice there you can see when
+you click it turns orange
+if you're if you don't know your
+geometry that well
+or you're not that lucky you can make it
+and you can go to x-ray mode and just
+click it that way okay
+let's grab this here pull that away
+um the so this is really not lining up
+too well
+let's see the webbing um
+this webbing here wants to be
+in between the fingers
+so let's just get that to be closer
+does it have to be exact but closer is
+good
+um i think this finger here looks a
+little a little bit big
+so let's scale it down just a touch
+kill it around itself
+i think this is a big a bit big too
+okay so let's grab our fingers
+grab our body ctrl j so now they're all
+attached
+then we'll go to now we need to um
+connect all these so we will let's see
+what do i do you want to
+go to edit mode go to point mode
+so for each of these fingers you can see
+there's
+the finger floating in space and then
+there's a hole that attaches to the
+finger
+so for each one we want to decide
+do i want the hand to pull up
+to the hand to pull up to the finger
+do i want the finger to pull down to the
+hand so for here
+i want to go to the finger and
+m a whoops
+so so you click the first one that you
+want to keep click the second one that
+you want to move
+and hit m and then a okay
+now since i've just did that merge
+function
+i can use shift r so we'll click
+the finger that we want to keep the one
+that we want to move and hit
+shift r and it just moves in place
+okay now i'm
+here i think i want to keep this one
+okay i want to keep this one
+it's a little bit tedious here
+okay so those are all joined
+and then let's join this thumb here
+so remember this little race track here
+going along
+all the edges of the fingers let's make
+sure that one
+lines up with this one here and it looks
+like it's pretty close
+and i think i want to keep this i think
+the thumbs
+yeah so i want to keep this one here and
+move that one
+oops so i did something else so i lost
+my um
+shift r memory so we'll hit m a
+and now we have our shift r in memory so
+we can just
+hit shift r as we go
+so now our thumb is attached
+and lastly we do this kind of out of
+order but lastly we need to add
+these little bevels just to give a
+feel of the um the way the skin folds
+so we're going to add this one right
+here
+and then this one right here we've
+already done all this
+so let's go to here you can see this
+little triangle comes to a point right
+where that
+race track is so we'll get that one in
+shape
+and this one here it goes
+over the racetrack so we'll make sure we
+get that one
+right there also then this little bevel
+here really it's
+a middle section with two triangles it's
+kind of mangled but
+so there's only one little section in
+that sub-level so we'll get that in
+place too
+so back to our hand here
+zoom in and we will grab that
+because that little triangle just
+touches the racetrack
+and it will come over here and this one
+went through the racetrack so we'll grab
+that
+then ctrl v and just
+okay i made a mistake
+okay you want to have the selection one
+space short of where you want to end
+so i want this to end here so i'll have
+one
+space in between and i want
+this bevel here to end right there
+so i have one space in between so
+ctrl b and drag it like that
+scroll the mouse wheel one time
+then go to edge mode and select that
+little guy
+and this little guy x
+dissolve edges so now we have a quad
+and click click m a
+and click click shift r
+let's pull that back a little tiny bit
+and then scale this in
+and also we need to have a little crease
+here remember there's just one crease in
+the middle and these two
+just are triangles so
+um ctrl b oops
+grab that guy scaled in slightly
+why did that scale like that
+oh okay i must have hit alt scale by
+accident if you alt scale it scales it
+in normal
+like that hit scale it just scales
+in towards whatever this says
+so i want to scale it just in towards
+itself
+and then alt scale so it comes down
+okay so now we've got our two creases
+and i think that is
+it for the hand
+i do think we need to spend a moment to
+get this a little bit better in shape
+it's looking pretty rough
+let's go to sculpt mode
+let's make our make sure our shift is
+not set too high okay
+0.14 it's good
+let's go to elastic i love that tool
+and let's just shift to smooth things
+out
+let's get this to
+just kind of feel a little bit nicer
+i like using the elastic tool a lot
+so you can pull things out
+and stretch it around
+you can also use this tool here this
+tool is
+really i gotta say it's not the best
+user experience here
+um so if you go to tool if you have it
+set to
+plus it adds and it
+inflates things if you have it set to
+subtract it deflates things
+um really kludgy to work with
+works but it's just it's not
+it's not just smooth and slick
+i still love blender i'm just saying
+that one little detail is
+not great
+okay
+this should come down a bit
+shorter we don't have knuckles kind of a
+low poly model or
+low-ish um
+oops okay so i don't know if you can see
+what's going here i'm holding shift
+down and it's not really doing much
+you can see it's doing stuff for the
+thumb but not the finger
+there's a weird bug so if you notice
+that
+parts are smoothing and parts aren't hit
+alt h and then try it and then it just
+it works i don't know what that is i
+don't know why that happens but
+it does and so if you get that hit alt h
+it'll look the same but it'll work
+weird um weird little little bugaboo
+little blender bugaboo
+let's pull that in
+so
+oh yeah that's funny oh yeah that's
+better
+all right
+but i think i want to yeah okay
+pull that in some grab these
+leave that one
+no
+okay
+okay check it against our templates yeah
+that looks
+pretty good check it against that
+template
+thumbs in a very different position
+i think we should actually fix that
+okay that was too much
+i think that's good enough
+for now
+sorry okay i think that's good enough
+for now
+let's pull this back in place go to the
+front view
+and you know before i do that i'm going
+to
+take this and duplicate it
+and mesh separate by selection
+just so we have that so if
+if you ever need a hand later you've got
+it
+okay so let's get that there rotate
+that it's roughly in place
+um oh i i think her
+hand is a little bit too low
+okay i think that hand feels good let's
+hide this
+template hide this guy here
+and her arm looks really stiff so let's
+just flex this
+turn on proportional editing click
+middle up the elbow
+get this guy here and rotate it
+just a bit so that way we put the
+skeleton on
+in there it won't bend all funny
+you want to have the elbows and the
+knees
+bent slightly i think that looks pretty
+good
+let's make some feet turn off our sub d
+you can see our sketch has their wearing
+heels but i like to
+model feet flat and rig feet flat so i
+created these
+templates you can find them in the link
+below
+just place them roughly like this
+and like that okay so let's grab
+our foot edge mode grab that scale
+see we're just gonna uh extrude z we're
+gonna roughly block in
+the geometry for the foot
+scale in the y a bit move it
+and y extrude z
+rotate scale y
+g scale a bit more
+extrude z scale z
+zero
+okay let's see here
+so i like to have let's see turn off
+x-ray
+five face one face per toe so
+we need five we have four here so we
+will need to add one
+but for now let's just roughly get this
+in shape
+scale x
+g x scale x
+let's flatten that a bit scale in the y
+something like something like that um
+fix that later
+okay then we will extrude this
+again
+turn on 3d cursor and vertex snapping
+drag shift drag left click
+and scale the z so we can
+roughly shape that
+and then let's scale it out
+scale and the x a bit more that
+and let's see do i want to add one more
+here i think so
+so we're going to add one more face
+we're just going to extrude this and pop
+it out
+so this way we have five faces
+for the toes
+and let's see here
+we will extrude that again
+scale and the z
+so i want to get each of these
+faces to line up
+with each of the toes so let's go and do
+that
+let's go to this mode x-ray grabs this
+uh control um ctrl
+i and h to hide everything else
+go to top view and
+we've got these eyes in the way so let's
+hide those
+go to vertex mode and let's
+just roughly move
+these all in place
+what oh
+i'm not gonna make the foot bulge out
+that much
+i don't i don't like that
+okay so roughly something like that
+let's move this over here like
+that and
+let's see how we look in 3d it's a
+little little rough
+oops double hit
+turn off vertex snapping double hit g
+to pull these let's pull all these
+down
+let's let's see let's pop these out
+alt s
+pop these out alt
+s something
+like that let's go to sculpt mode
+and hold shift and just smooth things
+out a bit
+go back to edit do these need to
+um go back a bit
+and why okay
+maybe that one too
+okay so we've kind of roughly got a foot
+shape here
+and then we need to add some toes
+so we will go to
+where that finger we saved somewhere
+i think that was it take that
+shift duplicate
+that first one we will delete our sub d
+and our mirror and we will
+move this roughly in place
+our origin is way down there so let's
+pull that back to the middle
+so object set origin to geometry
+and zoom in rotate z
+negative 90. let's rotate it
+around itself rotate it x uh
+rotate it y negative 90.
+okay so we've got our toe our digit
+here and we don't need
+all of this i think we just need
+we'll delete uh we'll delete that
+and then l x faces
+okay so we want to attach these now
+they're they're not fingers anymore now
+they're thumps
+and toes i'm going to attach this toe to
+each of these faces so each of these
+toes has
+eight sections all the way around so we
+need to change this
+from four to eight so let's go and do
+that
+so remember this little band went across
+all the fingers
+we can add that back in here
+so we will do that
+so we'll add one here and one there it's
+roughly the same size so now we've got
+three one two three four five six seven
+so now we've got eight sections
+so we match our uh digit
+let's also add the webbing in between
+here
+oops
+just like we did with the hands and
+i think we want to add a cut here first
+now we'll do this
+so grab all of these it's a
+control b yeah there we go
+roll the mouse one time
+and then we will delete
+x dissolve edges
+point mode then click click
+m a click click
+right shift click click right shift
+so i i have a hotkey for right shift so
+i just do the one command which was you
+know click click
+um click click then m a
+and then after that you can just
+quickly hit your hot key and it just
+goes
+okay little shape
+let's let's shape these so they're
+roughly
+little circles or little rough circles
+right click loop tools and circle
+and let's go to the front view rotate
+this
+in let's grab this guy
+scale it in the x
+same thing loop tools circle
+rotate it i think this whole toe is
+smaller than
+the big toe so let's do that
+pull it in
+right click loop tools in circle
+so just getting these roughly to be
+in place
+glue tools circle rotate
+scale
+oops
+let's get an x
+right click to a circle
+rotate scale this down
+pinky toe's the smallest
+i think they kind of rotate in a bit
+see that one maybe
+it's a bit higher
+maybe it goes out a
+bit wider
+and let's make this
+okay so let's go to 3d view before i
+noodle that too much and
+make sure it's not weird it's a little
+weird
+so let's see let's go to edit mode and
+sculpt mode and let's just
+let's turn the strength down oh that's
+okay
+so we will just hold shift and just
+really lightly just smooth it out
+okay let's check our side
+view here we're really low
+so let's pull the whole thing up
+okay and i think uh
+let's also pull this
+out to line up with our template
+so you'll see the side view template i'm
+just i'm not following it that close
+um but i'm following this closer so
+a lot of times you'll find that the two
+views don't match so
+you kind of pick one that you think
+helps you more
+and follow that closer so in this case
+i'm matching
+this view more than matching that view
+and let's these kind of are no longer
+circles so let's just
+roughly get them back in shape
+it's good enough let's delete these
+x delete faces
+okay so then we just need to
+attach our toes well
+let's close up this first so let's see
+let's uh we're going to go to point mode
+and we're going to click
+a point and hit f
+uh come on
+f f
+let's just go around
+and then let's see here let's go and add
+one
+let's close that and let's
+do that and that
+and then let's let's just hit f a few
+times and see what happens
+oh it closed okay there you go
+let's go to sculpt mode and
+smooth that out a bit with the shift key
+and now we need to um let's put
+let's duplicate these toes and scale
+them so they
+look like these toes and then attach
+them
+okay let's shift d
+move this over and go to the
+well the heads in the way so i'll go to
+the bottom here
+oops and let's scale
+this uh big toe
+up to be roughly the right roughly the
+right diameter
+or thickness of the sketch
+and let's scout in z
+to be roughly the right thickness
+and let's see also we will
+rotate this
+kind of like that
+and then let's see so the
+you know big big toe knuckle is kind of
+right there
+so let's get our knuckle to be
+roughly in the same place
+and then let's do a little well let's
+check here
+okay let's rotate this a bit
+and move it down
+some
+so still a bit skinny
+and also let's check this let's double
+hit g
+and pull that back so we also want to
+get
+the opening for the big toe to match the
+opening in the foot
+so let's scale it down just a bit it
+could be
+you know rough but let's make it vaguely
+close
+so scale in the y g
+and the y
+so it's roughly in place
+i also want to make this toe thicker in
+the front
+i don't want to lose the geometry for
+the toe nail
+so let's just grab this geometry here
+turn proportional edging on and scout in
+the y
+then scroll our mouse wheel so we can
+kind of shape it like we want it to be
+so something like that
+and then let's make this toe smaller
+scale and the y
+i mean the toenail smaller
+and then let's make the toenail smaller
+more
+by scaling it in some
+let's just take a look with the subdies
+subdivision
+yeah okay that's all right
+i don't sweat the toes that much
+because you don't see them that much
+so it's pretty it's pretty rough
+okay so we've got one toe
+and let's go and add the rest we have
+the big toe let's add the rest of the
+small toes
+so shift d same deal let's
+go to the bottom view
+and scale it so it's
+kind of the right thickness and scale
+and z
+so it's the right length
+let's i think the knuckles there's
+actually a knuckle here but
+well i'm not going to do that
+these won't be anatomically correct toes
+scale in the x
+okay that looks pretty
+good let's
+delete that
+if possible i like to have the
+without the subdivision modifier
+i like to have it separate not
+overlapping
+so i'm just checking to see if we're
+overlapping
+and let's see let's pull this back a bit
+here edge mode
+double hit g and pull that down some
+let's make this match the same
+width of the hole in the toe so scale
+and the y
+and let's make this toenail a lot let's
+make it
+a bit thicker in the front and then make
+the toenail smaller so
+scale in the y
+and let's also make this smaller
+i'm making this narrower so that way we
+have
+less overlapping with this toe
+and then i'm going to make the whole
+thing a bit wider
+scale y
+kind of like that we're touching but
+we're almost you know we're kind of
+touching here but i think that's okay
+let's make this smaller
+and reduce
+the proportional editing so we're just
+getting just the toenail
+and scout in the x oops y
+uh z
+and g z
+and let's just pop oh it's a little
+weird looking
+let's put a sub d on there just to take
+a look and see what it looks like
+and
+yeah it's it's pretty good i mean
+no one looks at toes anyway
+so i'm not too worried about that
+so i think that's okay then later on
+we'll put some color in the toenail so
+that'll create some
+delineation between the fleshy part of
+the toe and the toenail
+so i say good enough
+and i kind of like this toe so what i'm
+going to do
+is i'm going to duplicate it
+here to scale it down some
+a bit more and scale z so it's a little
+bit longer
+yeah a little bit longer still
+and position it roughly
+like the sketch
+and let's edit
+the edge of this and rotate it a bit
+let's pull this in a little bit
+scale y
+okay shift d
+we're getting there two more toes to go
+let's scale the whole thing
+down some
+move it over and what's this doing
+ah toe's all bent
+so put that there
+let's check this
+i think it's better like that
+i think that feels a little more natural
+i'll have to fix this overlap but let's
+just get this
+let's get through all these
+let's grab this scout and the y
+g and the y get that double head g
+pull it back okay so we can attach that
+later
+and then we will shift d one last time
+scale this down so the pinkies
+stinky toe little toe
+it's there let's pull this
+in let's rotate it
+a little bit and
+oh it's a little tiny toe
+pull it down some
+rotate it down some let's rotate this
+too
+so yeah we're just getting these all in
+shape
+and i think that's pretty
+good
+okay so i think
+i think that's pretty good then we can
+go and attach all these oh we want to
+fix that overlap
+let's grab this x-ray mode
+grab some of that g and just pull it
+over
+same thing here
+just pull it over
+okay so we will shift click
+the toes shift click the body ctrl j to
+join it
+let's isolate with the slash button go
+to
+edit mode zoom in and now
+we need to
+attach this
+loop here to that loop there
+and i'm going to just out of a way to
+make it easier
+so let's just grab all of
+these x delete
+um vertices okay
+there we go and then let's just
+click a couple edges f
+and then f and then close it
+oh yeah that's that's easier if you're
+making hands later just
+do this this is a lot faster
+okay so that's our toes
+a little bit weird i think these caps
+are too big
+so let's go to point mode and
+make them smaller let's scale it around
+itself
+let's see alt s
+okay so we'll um
+do alt s and also s
+to just pull all these points in between
+the fingers
+in towards each other
+and maybe we'll do the same thing for
+these
+oops
+okay let's go to
+sculpt mode
+so we're just going to do a little bit
+of sculpting
+oops
+see here shift
+to just smooth it out
+smooth it out smooth it out
+and i think that's pretty good
+maybe that comes out let me so
+so you see it's scaling funny that's
+that weird alt
+h problem so hit alt h
+now pulls normally
+okay so we've got
+we've now got hands and feet
+just realized i forgot the ankle bone so
+let's bring back our templates with the
+slash key
+turn off our subdues
+and let's go to side view here and
+x-rayed so you can see
+in our sketch we have an ankle bone and
+the ankle bone should be more in the
+middle of the foot not way back towards
+the back
+so i'll fix that for you guys
+that download this template but for now
+we'll just use this
+so you will i think it needs to be lower
+yeah lower so we will put a loop here
+put a loop there make this roughly more
+circular that
+and then we will
+go to face mode
+inset and alt s
+to pop that out a bit
+then we will pop these two back in out s
+something like that the ankle bone if
+you can see the sketch here
+it's got a bone on both sides and it
+kind of slants
+from the middle downwards to the outside
+so we want to get this one
+here um a little bit
+higher than the one on the outside so
+we'll just
+gz and pull that up a bit
+and then let's also make this
+a little bit more circular kind of
+let's make this match
+okay face mode
+inset alt s
+pop that out then pop these back in
+um like that
+okay let's see here
+i think our whole uh ankle area is too
+wide so let's turn on proportional
+editing and just
+scale this whole thing in
+some like that
+that's a bit better
+yeah that's a bit better
+let's go to sculpt mode and just shape
+it
+a little bit more
+and i think this inside of the foot
+looks really flat
+and uh i'm looking at my foot it
+actually is pretty flat but
+i think we need a little bit more shape
+here
+that's
+let's see here
+okay that's feeling a bit better
+yeah okay
+let's go back to object mode
+bring back all that stuff turn on our
+sub d
+okay there we have it we've got
+she's got feet
+that's it for our video today i hope
+this was helpful to you
+if you want to see more content like
+this leave a comment subscribe
+or better yet support me on patreon in
+our next video
+we will work on the hair

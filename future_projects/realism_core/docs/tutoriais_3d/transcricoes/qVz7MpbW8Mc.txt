@@ -1,0 +1,1815 @@
+Kind: captions
+Language: en
+released in march of 2016
+released in march of 2016
+released in march of 2016
+overwatch took the world by storm with
+overwatch took the world by storm with
+overwatch took the world by storm with
+its fast-paced action
+its fast-paced action
+its fast-paced action
+and genre defining and unique signature
+and genre defining and unique signature
+and genre defining and unique signature
+art style
+art style
+art style
+in this video our good friend ryan
+in this video our good friend ryan
+in this video our good friend ryan
+powell is going to be sharing his study
+powell is going to be sharing his study
+powell is going to be sharing his study
+of the overwatch art style
+of the overwatch art style
+of the overwatch art style
+and share with us how he created this
+and share with us how he created this
+and share with us how he created this
+overwatch styled food cart environment
+overwatch styled food cart environment
+overwatch styled food cart environment
+including modeling storytelling and
+including modeling storytelling and
+including modeling storytelling and
+texturing along with a ton of amazing
+texturing along with a ton of amazing
+texturing along with a ton of amazing
+tips and tricks
+tips and tricks
+tips and tricks
+speaking of texturing if you want to
+speaking of texturing if you want to
+speaking of texturing if you want to
+learn how to master stylized texturing
+learn how to master stylized texturing
+learn how to master stylized texturing
+using substance painter
+using substance painter
+using substance painter
+feel free to join our latest course
+feel free to join our latest course
+feel free to join our latest course
+where you'll learn how to create
+where you'll learn how to create
+where you'll learn how to create
+beautiful stylized textures from scratch
+beautiful stylized textures from scratch
+beautiful stylized textures from scratch
+including anime
+including anime
+including anime
+and studio ghibli style textures i'll
+and studio ghibli style textures i'll
+and studio ghibli style textures i'll
+leave a link in the description
+leave a link in the description
+leave a link in the description
+if you want to consider getting the
+if you want to consider getting the
+if you want to consider getting the
+course now let's get into the video
+course now let's get into the video
+course now let's get into the video
+hey everyone ryan powell here with my
+hey everyone ryan powell here with my
+hey everyone ryan powell here with my
+overwatch food cart scene study
+overwatch food cart scene study
+overwatch food cart scene study
+this project was entirely designed to be
+this project was entirely designed to be
+this project was entirely designed to be
+a learning experience and to help me
+a learning experience and to help me
+a learning experience and to help me
+better understand the overwatch style
+better understand the overwatch style
+better understand the overwatch style
+through modeling texturing and lighting
+through modeling texturing and lighting
+through modeling texturing and lighting
+i'll go over the storytelling setup my
+i'll go over the storytelling setup my
+i'll go over the storytelling setup my
+studies of why overwatch textures look
+studies of why overwatch textures look
+studies of why overwatch textures look
+the way they do
+the way they do
+the way they do
+and the role they play in a first person
+and the role they play in a first person
+and the role they play in a first person
+shooter space and i'll include some tips
+shooter space and i'll include some tips
+shooter space and i'll include some tips
+to help achieve the same stylized look
+to help achieve the same stylized look
+to help achieve the same stylized look
+hopefully this project can help you
+hopefully this project can help you
+hopefully this project can help you
+discover more about the overwatch style
+discover more about the overwatch style
+discover more about the overwatch style
+and stylize art in general i learned so
+and stylize art in general i learned so
+and stylize art in general i learned so
+much though there are some things i
+much though there are some things i
+much though there are some things i
+would probably do differently next time
+would probably do differently next time
+would probably do differently next time
+i'll share my thoughts on those and
+i'll share my thoughts on those and
+i'll share my thoughts on those and
+maybe save you the effort in your own
+maybe save you the effort in your own
+maybe save you the effort in your own
+work
+work
+work
+i'd like to talk less about the
+i'd like to talk less about the
+i'd like to talk less about the
+technical aspect of the scene
+technical aspect of the scene
+technical aspect of the scene
+in this video and instead focus more on
+in this video and instead focus more on
+in this video and instead focus more on
+the overall methodology and thought
+the overall methodology and thought
+the overall methodology and thought
+process i use
+process i use
+process i use
+i'll cover a few important techniques
+i'll cover a few important techniques
+i'll cover a few important techniques
+including face weighted normals and
+including face weighted normals and
+including face weighted normals and
+something fun like editable splines
+something fun like editable splines
+something fun like editable splines
+but not in any comprehensive detail
+so you're ready to start making awesome
+so you're ready to start making awesome
+so you're ready to start making awesome
+art
+art
+art
+well i made sure to include some crucial
+well i made sure to include some crucial
+well i made sure to include some crucial
+steps in this video
+steps in this video
+steps in this video
+but you probably all heard them before
+but you probably all heard them before
+but you probably all heard them before
+gather reference
+gather reference
+gather reference
+number one uh not just to help you
+number one uh not just to help you
+number one uh not just to help you
+create convincing materials and prompts
+create convincing materials and prompts
+create convincing materials and prompts
+but also to inspire you for the scene i
+but also to inspire you for the scene i
+but also to inspire you for the scene i
+wanted to create a space near and dear
+wanted to create a space near and dear
+wanted to create a space near and dear
+to myself so i chose portland oregon as
+to myself so i chose portland oregon as
+to myself so i chose portland oregon as
+a setting
+a setting
+a setting
+and i went about gathering tons of
+and i went about gathering tons of
+and i went about gathering tons of
+reference from the streets to the food
+reference from the streets to the food
+reference from the streets to the food
+carts
+carts
+carts
+i referred back not just for how things
+i referred back not just for how things
+i referred back not just for how things
+look but for where they are and what
+look but for where they are and what
+look but for where they are and what
+colors to use
+colors to use
+colors to use
+pureref is an excellent tool for this uh
+pureref is an excellent tool for this uh
+pureref is an excellent tool for this uh
+just a quick download and you're ready
+just a quick download and you're ready
+just a quick download and you're ready
+to go
+to go
+to go
+for me i really like to organize and
+for me i really like to organize and
+for me i really like to organize and
+categorize and pureref
+categorize and pureref
+categorize and pureref
+is perfect for that you can group and
+is perfect for that you can group and
+is perfect for that you can group and
+categorize
+categorize
+categorize
+any pictures and references to your
+any pictures and references to your
+any pictures and references to your
+heart's content based on
+heart's content based on
+heart's content based on
+whatever metric you see fit one thing i
+whatever metric you see fit one thing i
+whatever metric you see fit one thing i
+will say about this important stage
+will say about this important stage
+will say about this important stage
+of gathering references is don't be
+of gathering references is don't be
+of gathering references is don't be
+afraid to add things that you may not
+afraid to add things that you may not
+afraid to add things that you may not
+use
+use
+use
+there is not a fire hydrant in my scene
+there is not a fire hydrant in my scene
+there is not a fire hydrant in my scene
+um but i
+um but i
+um but i
+and then in the moment that was
+and then in the moment that was
+and then in the moment that was
+something that i thought might be
+something that i thought might be
+something that i thought might be
+important and you never know
+important and you never know
+important and you never know
+and so uh just gather what you think you
+and so uh just gather what you think you
+and so uh just gather what you think you
+might use
+might use
+might use
+and save it for later because you never
+and save it for later because you never
+and save it for later because you never
+know what might be useful in the future
+know what might be useful in the future
+know what might be useful in the future
+up next on the list of important things
+up next on the list of important things
+up next on the list of important things
+to consider when you're putting together
+to consider when you're putting together
+to consider when you're putting together
+your scene is the storytelling and for
+your scene is the storytelling and for
+your scene is the storytelling and for
+me there are three big steps to
+me there are three big steps to
+me there are three big steps to
+storytelling
+storytelling
+storytelling
+first off right away you need to think
+first off right away you need to think
+first off right away you need to think
+about where is it
+about where is it
+about where is it
+where in the world where in the universe
+where in the world where in the universe
+where in the world where in the universe
+is your scene taking place
+is your scene taking place
+is your scene taking place
+and this is going to dictate a couple
+and this is going to dictate a couple
+and this is going to dictate a couple
+things um
+things um
+things um
+you know namely the climate what the
+you know namely the climate what the
+you know namely the climate what the
+foliage is like in this location the
+foliage is like in this location the
+foliage is like in this location the
+color temperature that you use
+color temperature that you use
+color temperature that you use
+is it appealing is it stark um
+is it appealing is it stark um
+is it appealing is it stark um
+really just generally thinking about
+really just generally thinking about
+really just generally thinking about
+all of those things if you just like
+all of those things if you just like
+all of those things if you just like
+pinpointed a spot on a map
+pinpointed a spot on a map
+pinpointed a spot on a map
+um where is this it doesn't have to be
+um where is this it doesn't have to be
+um where is this it doesn't have to be
+earth it doesn't have to be space it
+earth it doesn't have to be space it
+earth it doesn't have to be space it
+could be an alien world
+could be an alien world
+could be an alien world
+you can be very creative with this but
+you can be very creative with this but
+you can be very creative with this but
+you do need to think about
+you do need to think about
+you do need to think about
+um how that is going to tie into your
+um how that is going to tie into your
+um how that is going to tie into your
+scene
+scene
+scene
+because it does really set like that
+because it does really set like that
+because it does really set like that
+first broad stroke
+first broad stroke
+first broad stroke
+up next we have who lives here this is
+up next we have who lives here this is
+up next we have who lives here this is
+the
+the
+the
+the people or the creatures that inhabit
+the people or the creatures that inhabit
+the people or the creatures that inhabit
+the space in a very like population and
+the space in a very like population and
+the space in a very like population and
+general sense
+general sense
+general sense
+this will dictate things like
+this will dictate things like
+this will dictate things like
+architecture and the personality of
+architecture and the personality of
+architecture and the personality of
+these people or creatures
+these people or creatures
+these people or creatures
+is uh going to be evident in how you
+is uh going to be evident in how you
+is uh going to be evident in how you
+display this
+display this
+display this
+are they neat uh are they violent
+are they neat uh are they violent
+are they neat uh are they violent
+and thinking about how that's going to
+and thinking about how that's going to
+and thinking about how that's going to
+be represented through their
+be represented through their
+be represented through their
+architecture
+architecture
+architecture
+through the space and the types of props
+through the space and the types of props
+through the space and the types of props
+that you include in the scene
+that you include in the scene
+that you include in the scene
+um and lastly and this is the the third
+um and lastly and this is the the third
+um and lastly and this is the the third
+step that most people
+step that most people
+step that most people
+think of when they think of storytelling
+think of when they think of storytelling
+think of when they think of storytelling
+is what just happened
+is what just happened
+is what just happened
+this is the the bloody hand print on the
+this is the the bloody hand print on the
+this is the the bloody hand print on the
+door
+door
+door
+uh and things like that but it can be
+uh and things like that but it can be
+uh and things like that but it can be
+just as innocuous as some footsteps in
+just as innocuous as some footsteps in
+just as innocuous as some footsteps in
+the rain
+the rain
+the rain
+or a mop bucket and a wet floor or both
+or a mop bucket and a wet floor or both
+or a mop bucket and a wet floor or both
+um what just happened is what you need
+um what just happened is what you need
+um what just happened is what you need
+to think about when you think of what
+to think about when you think of what
+to think about when you think of what
+has transpired in this space over the
+has transpired in this space over the
+has transpired in this space over the
+last
+last
+last
+24 hours to few minutes um
+24 hours to few minutes um
+24 hours to few minutes um
+it is going to sort of demonstrate the
+it is going to sort of demonstrate the
+it is going to sort of demonstrate the
+the narrative that you're pushing
+the narrative that you're pushing
+the narrative that you're pushing
+underneath
+underneath
+underneath
+the broad strokes of where this
+the broad strokes of where this
+the broad strokes of where this
+is taking place and who lives here and
+is taking place and who lives here and
+is taking place and who lives here and
+really context is important for those
+really context is important for those
+really context is important for those
+types of things
+types of things
+types of things
+so they can all inform each other um
+so they can all inform each other um
+so they can all inform each other um
+really you want to think about them
+really you want to think about them
+really you want to think about them
+in the steps of one two three but it
+in the steps of one two three but it
+in the steps of one two three but it
+contextually they all sort of
+contextually they all sort of
+contextually they all sort of
+run together a little bit but it's
+run together a little bit but it's
+run together a little bit but it's
+important to kind of break it down when
+important to kind of break it down when
+important to kind of break it down when
+i was preparing for this scene
+i was preparing for this scene
+i was preparing for this scene
+after reference gathering and thinking
+after reference gathering and thinking
+after reference gathering and thinking
+about the storytelling i needed to do
+about the storytelling i needed to do
+about the storytelling i needed to do
+some research
+some research
+some research
+there are a couple things i found while
+there are a couple things i found while
+there are a couple things i found while
+looking over the rialto map that i think
+looking over the rialto map that i think
+looking over the rialto map that i think
+are very important and applied to just
+are very important and applied to just
+are very important and applied to just
+about every map in overwatch
+about every map in overwatch
+about every map in overwatch
+i took a screenshot from a vista point
+i took a screenshot from a vista point
+i took a screenshot from a vista point
+here in rialto and i just took some time
+here in rialto and i just took some time
+here in rialto and i just took some time
+with it
+with it
+with it
+i suggest you do the same with any type
+i suggest you do the same with any type
+i suggest you do the same with any type
+of art style you're looking to emulate
+of art style you're looking to emulate
+of art style you're looking to emulate
+firstly let's remember that overwatch is
+firstly let's remember that overwatch is
+firstly let's remember that overwatch is
+a performance game
+a performance game
+a performance game
+so right off the bat we can assume
+so right off the bat we can assume
+so right off the bat we can assume
+there's a great deal of ad sets being
+there's a great deal of ad sets being
+there's a great deal of ad sets being
+reused in this scene
+reused in this scene
+reused in this scene
+if you're making something of your own
+if you're making something of your own
+if you're making something of your own
+of the size you'll want reusability to
+of the size you'll want reusability to
+of the size you'll want reusability to
+be key
+be key
+be key
+for my scene i wasn't too concerned with
+for my scene i wasn't too concerned with
+for my scene i wasn't too concerned with
+the architecture as the food cart was my
+the architecture as the food cart was my
+the architecture as the food cart was my
+baby
+baby
+baby
+but for the next project i'm very much
+but for the next project i'm very much
+but for the next project i'm very much
+looking forward to creating a modular
+looking forward to creating a modular
+looking forward to creating a modular
+kit that can achieve something like this
+kit that can achieve something like this
+kit that can achieve something like this
+when we're thinking about overwatch we
+when we're thinking about overwatch we
+when we're thinking about overwatch we
+need to remember obviously it's a
+need to remember obviously it's a
+need to remember obviously it's a
+performance game but one of the more
+performance game but one of the more
+performance game but one of the more
+subtle things about it
+subtle things about it
+subtle things about it
+is how controlled the color and value
+is how controlled the color and value
+is how controlled the color and value
+of the textures is in all of the levels
+of the textures is in all of the levels
+of the textures is in all of the levels
+in reality we can see in
+in reality we can see in
+in reality we can see in
+this brick texture uh that the
+this brick texture uh that the
+this brick texture uh that the
+value range stays in and around 30 to 45
+value range stays in and around 30 to 45
+value range stays in and around 30 to 45
+percent
+percent
+percent
+pretty much everywhere it doesn't get
+pretty much everywhere it doesn't get
+pretty much everywhere it doesn't get
+too dark it doesn't get too bright
+too dark it doesn't get too bright
+too dark it doesn't get too bright
+this particular texture was in shadow if
+this particular texture was in shadow if
+this particular texture was in shadow if
+it was in
+it was in
+it was in
+the light that wouldn't make that much
+the light that wouldn't make that much
+the light that wouldn't make that much
+of a difference the point being
+of a difference the point being
+of a difference the point being
+that the value ranges are pretty close
+that the value ranges are pretty close
+that the value ranges are pretty close
+together and so they're not distracting
+together and so they're not distracting
+together and so they're not distracting
+if you want to create a performance
+if you want to create a performance
+if you want to create a performance
+first-person shooter game you want your
+first-person shooter game you want your
+first-person shooter game you want your
+heroes
+heroes
+heroes
+to be able to be seen uh when they peak
+to be able to be seen uh when they peak
+to be able to be seen uh when they peak
+you don't want the
+you don't want the
+you don't want the
+environment to become a distraction to
+environment to become a distraction to
+environment to become a distraction to
+be too loud so that you can't see
+be too loud so that you can't see
+be too loud so that you can't see
+somebody that you're targeting
+somebody that you're targeting
+somebody that you're targeting
+uh we can see here on
+uh we can see here on
+uh we can see here on
+this section uh kind of what i was
+this section uh kind of what i was
+this section uh kind of what i was
+talking about with it being in the light
+talking about with it being in the light
+talking about with it being in the light
+where the normal information does create
+where the normal information does create
+where the normal information does create
+some
+some
+some
+harsh contrast between the lit
+harsh contrast between the lit
+harsh contrast between the lit
+areas of the brick and the shadow spaces
+areas of the brick and the shadow spaces
+areas of the brick and the shadow spaces
+and
+and
+and
+you can see they've solved this problem
+you can see they've solved this problem
+you can see they've solved this problem
+by vertex blending in the
+by vertex blending in the
+by vertex blending in the
+flat stucco sort of texture
+flat stucco sort of texture
+flat stucco sort of texture
+over the top of it to alleviate that
+over the top of it to alleviate that
+over the top of it to alleviate that
+issue where
+issue where
+issue where
+we hear on the left we see that it's in
+we hear on the left we see that it's in
+we hear on the left we see that it's in
+shadow it's covering a lot more of the
+shadow it's covering a lot more of the
+shadow it's covering a lot more of the
+building
+building
+building
+um so generally as you go up in the
+um so generally as you go up in the
+um so generally as you go up in the
+building the bricks disappear
+building the bricks disappear
+building the bricks disappear
+but here they've taken the spot where
+but here they've taken the spot where
+but here they've taken the spot where
+you can see there's just a tiny bit of
+you can see there's just a tiny bit of
+you can see there's just a tiny bit of
+this in the light
+this in the light
+this in the light
+and the parts that would be creating a
+and the parts that would be creating a
+and the parts that would be creating a
+lot of harsh contrast
+lot of harsh contrast
+lot of harsh contrast
+are totally blended out with this vertex
+are totally blended out with this vertex
+are totally blended out with this vertex
+painting
+painting
+painting
+and here's where i take all that
+and here's where i take all that
+and here's where i take all that
+research and reference gathering
+research and reference gathering
+research and reference gathering
+and i turned it into something that was
+and i turned it into something that was
+and i turned it into something that was
+a little bit more useful
+a little bit more useful
+a little bit more useful
+for me to be able to draw the colors
+for me to be able to draw the colors
+for me to be able to draw the colors
+that i'd like to choose from my scene
+that i'd like to choose from my scene
+that i'd like to choose from my scene
+i just put a simple cutout filter over
+i just put a simple cutout filter over
+i just put a simple cutout filter over
+the
+the
+the
+references that i decided would probably
+references that i decided would probably
+references that i decided would probably
+be best to choose
+be best to choose
+be best to choose
+for the food cart and for any props and
+for the food cart and for any props and
+for the food cart and for any props and
+environment pieces
+environment pieces
+environment pieces
+and i ended up getting something similar
+and i ended up getting something similar
+and i ended up getting something similar
+to what we looked at in rialto with the
+to what we looked at in rialto with the
+to what we looked at in rialto with the
+blues and the reds
+blues and the reds
+blues and the reds
+however the cutout really does boil down
+however the cutout really does boil down
+however the cutout really does boil down
+the color choices in any given picture
+the color choices in any given picture
+the color choices in any given picture
+simplifying it so that it's not quite as
+simplifying it so that it's not quite as
+simplifying it so that it's not quite as
+loud and sort of homogenizes and
+loud and sort of homogenizes and
+loud and sort of homogenizes and
+averages out some colors
+averages out some colors
+averages out some colors
+so you can more easily choose something
+so you can more easily choose something
+so you can more easily choose something
+if you're going for
+if you're going for
+if you're going for
+a very specific color mood that is
+a very specific color mood that is
+a very specific color mood that is
+certainly not to say
+certainly not to say
+certainly not to say
+that i did not try out some other colors
+that i did not try out some other colors
+that i did not try out some other colors
+on my food cart
+on my food cart
+on my food cart
+another important thing i kept in mind
+another important thing i kept in mind
+another important thing i kept in mind
+during this process was the
+during this process was the
+during this process was the
+kiss method or keep it simple stupid
+kiss method or keep it simple stupid
+kiss method or keep it simple stupid
+this is really important as feature
+this is really important as feature
+this is really important as feature
+creep can your ability to keep a
+creep can your ability to keep a
+creep can your ability to keep a
+schedule when working on a scene you're
+schedule when working on a scene you're
+schedule when working on a scene you're
+passionate about
+passionate about
+passionate about
+it became clear to me about halfway
+it became clear to me about halfway
+it became clear to me about halfway
+through the project i wouldn't have time
+through the project i wouldn't have time
+through the project i wouldn't have time
+to work on
+to work on
+to work on
+an elaborate background and i didn't
+an elaborate background and i didn't
+an elaborate background and i didn't
+have any plans to make any actual
+have any plans to make any actual
+have any plans to make any actual
+buildings so instead i replaced
+buildings so instead i replaced
+buildings so instead i replaced
+the big wall i was planning on making
+the big wall i was planning on making
+the big wall i was planning on making
+with a single block
+with a single block
+with a single block
+i did this because i wanted to make it
+i did this because i wanted to make it
+i did this because i wanted to make it
+repeatable and modular
+repeatable and modular
+repeatable and modular
+the texture isn't distinct enough to
+the texture isn't distinct enough to
+the texture isn't distinct enough to
+catch your eye and all i need to do to
+catch your eye and all i need to do to
+catch your eye and all i need to do to
+adjust it is
+adjust it is
+adjust it is
+to rotate the block i can also put space
+to rotate the block i can also put space
+to rotate the block i can also put space
+between them
+between them
+between them
+i made the wall too thick so i could
+i made the wall too thick so i could
+i made the wall too thick so i could
+create space for these
+create space for these
+create space for these
+alcoves the bottom of the alcove is the
+alcoves the bottom of the alcove is the
+alcoves the bottom of the alcove is the
+same brick
+same brick
+same brick
+just sunken into the ground and i made a
+just sunken into the ground and i made a
+just sunken into the ground and i made a
+cross section
+cross section
+cross section
+here to avoid too many 90 degree angles
+here to avoid too many 90 degree angles
+here to avoid too many 90 degree angles
+which is something that you'll want to
+which is something that you'll want to
+which is something that you'll want to
+keep in mind
+keep in mind
+keep in mind
+keeping it modular really does make your
+keeping it modular really does make your
+keeping it modular really does make your
+life a lot easier as you're building
+life a lot easier as you're building
+life a lot easier as you're building
+your scene
+your scene
+your scene
+i also wanted to include elements that
+i also wanted to include elements that
+i also wanted to include elements that
+spoke to the broader world as the scene
+spoke to the broader world as the scene
+spoke to the broader world as the scene
+exists in a space
+exists in a space
+exists in a space
+and i do have some storytelling i want
+and i do have some storytelling i want
+and i do have some storytelling i want
+to accomplish to push the green
+to accomplish to push the green
+to accomplish to push the green
+living feel of the space i put in
+living feel of the space i put in
+living feel of the space i put in
+silhouettes of trees
+silhouettes of trees
+silhouettes of trees
+just flat plains with a mask and colored
+just flat plains with a mask and colored
+just flat plains with a mask and colored
+material same for the construction site
+material same for the construction site
+material same for the construction site
+you see behind there
+you see behind there
+you see behind there
+be careful with these for shadow and ao
+be careful with these for shadow and ao
+be careful with these for shadow and ao
+they can sometimes read
+they can sometimes read
+they can sometimes read
+as flat planes which is what they are
+as flat planes which is what they are
+as flat planes which is what they are
+and you want them to read as silhouettes
+and you want them to read as silhouettes
+and you want them to read as silhouettes
+not as flat objects in space
+not as flat objects in space
+not as flat objects in space
+their color relative to the sky and they
+their color relative to the sky and they
+their color relative to the sky and they
+have a subtle gradient as they descend
+have a subtle gradient as they descend
+have a subtle gradient as they descend
+something i like to do while i'm
+something i like to do while i'm
+something i like to do while i'm
+organizing materials while i'm working
+organizing materials while i'm working
+organizing materials while i'm working
+in my modeling software
+in my modeling software
+in my modeling software
+is to utilize sub-object materials in
+is to utilize sub-object materials in
+is to utilize sub-object materials in
+macs which is what i use primarily to
+macs which is what i use primarily to
+macs which is what i use primarily to
+create this scene so here we can see we
+create this scene so here we can see we
+create this scene so here we can see we
+have our cube
+have our cube
+have our cube
+like object and it is all composed of
+like object and it is all composed of
+like object and it is all composed of
+this
+this
+this
+one standard gray default material if i
+one standard gray default material if i
+one standard gray default material if i
+go to
+go to
+go to
+standard here and i select multi sub
+standard here and i select multi sub
+standard here and i select multi sub
+object
+object
+object
+i can create a new material that has a
+i can create a new material that has a
+i can create a new material that has a
+bunch of sub materials the default
+bunch of sub materials the default
+bunch of sub materials the default
+number is 10 but let's set it to 2.
+number is 10 but let's set it to 2.
+number is 10 but let's set it to 2.
+alrighty it started as black which is
+alrighty it started as black which is
+alrighty it started as black which is
+definitely not what we want so if we go
+definitely not what we want so if we go
+definitely not what we want so if we go
+here
+here
+here
+we choose standard or whatever it is
+we choose standard or whatever it is
+we choose standard or whatever it is
+that you're going for
+that you're going for
+that you're going for
+and now it's created a new material for
+and now it's created a new material for
+and now it's created a new material for
+us to edit and so i go here and let's
+us to edit and so i go here and let's
+us to edit and so i go here and let's
+choose
+choose
+choose
+blue alright so if we go back to parent
+blue alright so if we go back to parent
+blue alright so if we go back to parent
+we can see now that we have two
+we can see now that we have two
+we can see now that we have two
+materials and one of them is our blue
+materials and one of them is our blue
+materials and one of them is our blue
+material
+material
+material
+we go here we do the same thing choose
+we go here we do the same thing choose
+we go here we do the same thing choose
+standard and diffuse
+standard and diffuse
+standard and diffuse
+we just this and let's choose this very
+we just this and let's choose this very
+we just this and let's choose this very
+nice salmon color
+nice salmon color
+nice salmon color
+all right we go back to this material we
+all right we go back to this material we
+all right we go back to this material we
+can see that we have a checkerboard with
+can see that we have a checkerboard with
+can see that we have a checkerboard with
+our very nice blue and our very nice
+our very nice blue and our very nice
+our very nice blue and our very nice
+salmon
+salmon
+salmon
+this just helps me keep things organized
+this just helps me keep things organized
+this just helps me keep things organized
+and really
+and really
+and really
+if you go here just select the polygons
+if you go here just select the polygons
+if you go here just select the polygons
+that you want to apply your material to
+that you want to apply your material to
+that you want to apply your material to
+and now we have a single object
+and now we have a single object
+and now we have a single object
+with two materials that are nicely
+with two materials that are nicely
+with two materials that are nicely
+contained within
+contained within
+contained within
+their own material orb here in max
+their own material orb here in max
+their own material orb here in max
+it just helps me really keep things
+it just helps me really keep things
+it just helps me really keep things
+organized and i don't get too confused
+organized and i don't get too confused
+organized and i don't get too confused
+with having a thousand materials spread
+with having a thousand materials spread
+with having a thousand materials spread
+out across the whole editor
+out across the whole editor
+out across the whole editor
+you can do this different ways but i've
+you can do this different ways but i've
+you can do this different ways but i've
+uh found that this is the best way that
+uh found that this is the best way that
+uh found that this is the best way that
+works for me
+works for me
+works for me
+and once you get this into unreal there
+and once you get this into unreal there
+and once you get this into unreal there
+will be separate nodes for each of these
+will be separate nodes for each of these
+will be separate nodes for each of these
+materials that you can apply this works
+materials that you can apply this works
+materials that you can apply this works
+really well
+really well
+really well
+for those tiling textures when you're
+for those tiling textures when you're
+for those tiling textures when you're
+looking to keep things
+looking to keep things
+looking to keep things
+neat clean and performant and for your
+neat clean and performant and for your
+neat clean and performant and for your
+trim sheets when you need to apply
+trim sheets when you need to apply
+trim sheets when you need to apply
+different materials maybe there's part
+different materials maybe there's part
+different materials maybe there's part
+of a texture is
+of a texture is
+of a texture is
+a tiling material for the wall surface
+a tiling material for the wall surface
+a tiling material for the wall surface
+but you also have
+but you also have
+but you also have
+a sort of trim element that you're using
+a sort of trim element that you're using
+a sort of trim element that you're using
+a trim sheet for around the tops of the
+a trim sheet for around the tops of the
+a trim sheet for around the tops of the
+bottom
+bottom
+bottom
+this is a really easy way to break that
+this is a really easy way to break that
+this is a really easy way to break that
+up so when we're thinking about creating
+up so when we're thinking about creating
+up so when we're thinking about creating
+performant assets in a game and seeing
+performant assets in a game and seeing
+performant assets in a game and seeing
+like something for overwatch we need to
+like something for overwatch we need to
+like something for overwatch we need to
+make sure that we're utilizing
+make sure that we're utilizing
+make sure that we're utilizing
+our resources efficiently and that means
+our resources efficiently and that means
+our resources efficiently and that means
+tiling textures
+tiling textures
+tiling textures
+and trim sheets you can't include a
+and trim sheets you can't include a
+and trim sheets you can't include a
+distinct normal map
+distinct normal map
+distinct normal map
+on every object and every surface
+on every object and every surface
+on every object and every surface
+just will take up too much texture
+just will take up too much texture
+just will take up too much texture
+memory so what you can do is you can use
+memory so what you can do is you can use
+memory so what you can do is you can use
+a technique called face weighted normals
+a technique called face weighted normals
+a technique called face weighted normals
+we see here we have two objects we've
+we see here we have two objects we've
+we see here we have two objects we've
+got our cube and
+got our cube and
+got our cube and
+our cubelet object from before and
+our cubelet object from before and
+our cubelet object from before and
+this cube if it's got a normal edit
+this cube if it's got a normal edit
+this cube if it's got a normal edit
+normals modifier over the top of it you
+normals modifier over the top of it you
+normals modifier over the top of it you
+can see every vertex has got its normal
+can see every vertex has got its normal
+can see every vertex has got its normal
+information and every flat surface has
+information and every flat surface has
+information and every flat surface has
+got
+got
+got
+those normal directions pointing so
+those normal directions pointing so
+those normal directions pointing so
+we've got three for each vertex
+we've got three for each vertex
+we've got three for each vertex
+we go over here look each corner also
+we go over here look each corner also
+we go over here look each corner also
+has
+has
+has
+three tags for normal information each
+three tags for normal information each
+three tags for normal information each
+one of these
+one of these
+one of these
+vertex are using this much normal
+vertex are using this much normal
+vertex are using this much normal
+information each one of these corners
+information each one of these corners
+information each one of these corners
+has three vertices however it's using
+has three vertices however it's using
+has three vertices however it's using
+the same amount of information
+the same amount of information
+the same amount of information
+it looks much better but isn't taking up
+it looks much better but isn't taking up
+it looks much better but isn't taking up
+any more resources than this cube right
+any more resources than this cube right
+any more resources than this cube right
+here
+here
+here
+so why wouldn't you do it you would and
+so why wouldn't you do it you would and
+so why wouldn't you do it you would and
+it's really easy to do
+it's really easy to do
+it's really easy to do
+if you pick up a script we
+if you pick up a script we
+if you pick up a script we
+throw at a poly just to make this clear
+throw at a poly just to make this clear
+throw at a poly just to make this clear
+and it's all
+and it's all
+and it's all
+gonna be on one smoothing group here in
+gonna be on one smoothing group here in
+gonna be on one smoothing group here in
+max
+max
+max
+which is what i use primarily to create
+which is what i use primarily to create
+which is what i use primarily to create
+the scene
+if we go to my script
+there it smooth out all those all of
+there it smooth out all those all of
+there it smooth out all those all of
+them for me now i've got some really
+them for me now i've got some really
+them for me now i've got some really
+clean really nice smooth flat surfaces
+clean really nice smooth flat surfaces
+clean really nice smooth flat surfaces
+and nice transitions between them
+and nice transitions between them
+and nice transitions between them
+you've got a script you've got your face
+you've got a script you've got your face
+you've got a script you've got your face
+weighted normals all ready to go
+weighted normals all ready to go
+weighted normals all ready to go
+but you've got a surface that's just not
+but you've got a surface that's just not
+but you've got a surface that's just not
+really flattening out the way that you
+really flattening out the way that you
+really flattening out the way that you
+want it to
+want it to
+want it to
+there's a way that you can do it
+there's a way that you can do it
+there's a way that you can do it
+manually i recommend using this only for
+manually i recommend using this only for
+manually i recommend using this only for
+troubleshooting
+troubleshooting
+troubleshooting
+or for some really tricky services
+or for some really tricky services
+or for some really tricky services
+because it what it does it's going to
+because it what it does it's going to
+because it what it does it's going to
+average out the normals and it'll
+average out the normals and it'll
+average out the normals and it'll
+flatten out a flat surface
+flatten out a flat surface
+flatten out a flat surface
+but it'll also affect the normals around
+but it'll also affect the normals around
+but it'll also affect the normals around
+it as well if it's
+it as well if it's
+it as well if it's
+a more complicated object so if you've
+a more complicated object so if you've
+a more complicated object so if you've
+got a flat surface that you really have
+got a flat surface that you really have
+got a flat surface that you really have
+a forward facing
+a forward facing
+a forward facing
+on an object and you need it to be flat
+on an object and you need it to be flat
+on an object and you need it to be flat
+this will work
+this will work
+this will work
+but i would make sure that you use it
+but i would make sure that you use it
+but i would make sure that you use it
+with a sort of
+with a sort of
+with a sort of
+a cautious hand so what we do is we
+a cautious hand so what we do is we
+a cautious hand so what we do is we
+throw an edit normals over here
+throw an edit normals over here
+throw an edit normals over here
+and go down we can select face select
+and go down we can select face select
+and go down we can select face select
+the face it'll turn the normals
+the face it'll turn the normals
+the face it'll turn the normals
+attached to that polygon red and then we
+attached to that polygon red and then we
+attached to that polygon red and then we
+can average those out
+can average those out
+can average those out
+i'm going to do that same thing it's
+i'm going to do that same thing it's
+i'm going to do that same thing it's
+going to flatten out these normals and
+going to flatten out these normals and
+going to flatten out these normals and
+make them all
+make them all
+make them all
+nice and smooth
+nice and smooth
+nice and smooth
+this is working out really well because
+this is working out really well because
+this is working out really well because
+it is a cube like
+it is a cube like
+it is a cube like
+object with really flat surfaces on it
+object with really flat surfaces on it
+object with really flat surfaces on it
+but you can see here this one's already
+but you can see here this one's already
+but you can see here this one's already
+a little
+a little
+a little
+a little change so it does take a pretty
+a little change so it does take a pretty
+a little change so it does take a pretty
+careful hand
+careful hand
+careful hand
+to make sure that you get the same
+to make sure that you get the same
+to make sure that you get the same
+result uh the scripts are likely uh
+result uh the scripts are likely uh
+result uh the scripts are likely uh
+depending on which one you have
+depending on which one you have
+depending on which one you have
+doing something similar to this just
+doing something similar to this just
+doing something similar to this just
+they're doing it automatically for you
+they're doing it automatically for you
+they're doing it automatically for you
+um but one thing to note is that they do
+um but one thing to note is that they do
+um but one thing to note is that they do
+all need to be a single
+all need to be a single
+all need to be a single
+smoothing group uh if you're using macs
+smoothing group uh if you're using macs
+smoothing group uh if you're using macs
+in order for it to work effectively
+in order for it to work effectively
+in order for it to work effectively
+but there you go in the same vein of
+but there you go in the same vein of
+but there you go in the same vein of
+keep a simple suited i have
+keep a simple suited i have
+keep a simple suited i have
+my blinds which i was going to create a
+my blinds which i was going to create a
+my blinds which i was going to create a
+cube map for
+cube map for
+cube map for
+but decided ultimately against it and
+but decided ultimately against it and
+but decided ultimately against it and
+just painted in a texture
+just painted in a texture
+just painted in a texture
+and some hand-painted lighting
+and some hand-painted lighting
+and some hand-painted lighting
+information
+information
+information
+it's really up to you whether you want
+it's really up to you whether you want
+it's really up to you whether you want
+to decide whether or not really
+to decide whether or not really
+to decide whether or not really
+complicated shaders that create false
+complicated shaders that create false
+complicated shaders that create false
+senses of depth like parallax
+senses of depth like parallax
+senses of depth like parallax
+or cube maps are essential to you if you
+or cube maps are essential to you if you
+or cube maps are essential to you if you
+understand how to do them
+understand how to do them
+understand how to do them
+and they work well for you then by all
+and they work well for you then by all
+and they work well for you then by all
+means but know that
+means but know that
+means but know that
+sometimes there are simple solutions
+sometimes there are simple solutions
+sometimes there are simple solutions
+that can be almost
+that can be almost
+that can be almost
+as good and to keep them in an open mind
+as good and to keep them in an open mind
+as good and to keep them in an open mind
+as well
+as well
+as well
+another neat trick when you are working
+another neat trick when you are working
+another neat trick when you are working
+on something it doesn't necessarily have
+on something it doesn't necessarily have
+on something it doesn't necessarily have
+to be stylized per se but it really
+to be stylized per se but it really
+to be stylized per se but it really
+shines in stylized art
+shines in stylized art
+shines in stylized art
+is you've got these signs say for my
+is you've got these signs say for my
+is you've got these signs say for my
+scene or
+scene or
+scene or
+these cans that are underneath uh that
+these cans that are underneath uh that
+these cans that are underneath uh that
+bench in
+bench in
+bench in
+shadow sometimes it's really hard to
+shadow sometimes it's really hard to
+shadow sometimes it's really hard to
+pick those up and so
+pick those up and so
+pick those up and so
+what you can do is if we go here and i
+what you can do is if we go here and i
+what you can do is if we go here and i
+choose to do
+choose to do
+choose to do
+detail lighting we can see that i've
+detail lighting we can see that i've
+detail lighting we can see that i've
+applied some
+applied some
+applied some
+emissive maps to the surfaces of some
+emissive maps to the surfaces of some
+emissive maps to the surfaces of some
+objects in order to make them pop a
+objects in order to make them pop a
+objects in order to make them pop a
+little bit more
+little bit more
+little bit more
+that's a really easy way to overcome
+that's a really easy way to overcome
+that's a really easy way to overcome
+some obstacles with lighting in a
+some obstacles with lighting in a
+some obstacles with lighting in a
+stylized environment
+stylized environment
+stylized environment
+if you've got a little bit too much
+if you've got a little bit too much
+if you've got a little bit too much
+darkness but you don't want to change
+darkness but you don't want to change
+darkness but you don't want to change
+the lighting too much
+the lighting too much
+the lighting too much
+and you don't want to put a thousand
+and you don't want to put a thousand
+and you don't want to put a thousand
+lights everywhere you can
+lights everywhere you can
+lights everywhere you can
+add a little bit of emissive to a
+add a little bit of emissive to a
+add a little bit of emissive to a
+surface and it'll make it
+surface and it'll make it
+surface and it'll make it
+pop a little bit more it'll bring a
+pop a little bit more it'll bring a
+pop a little bit more it'll bring a
+little bit more attention to it without
+little bit more attention to it without
+little bit more attention to it without
+you having to
+you having to
+you having to
+totally change your lighting setup to do
+totally change your lighting setup to do
+totally change your lighting setup to do
+that i do want to talk about
+that i do want to talk about
+that i do want to talk about
+uh my editable spline actors uh i use
+uh my editable spline actors uh i use
+uh my editable spline actors uh i use
+these in a couple of the things that
+these in a couple of the things that
+these in a couple of the things that
+i've created recently
+i've created recently
+i've created recently
+um and they're just fun uh so what it is
+um and they're just fun uh so what it is
+um and they're just fun uh so what it is
+is uh if i turn off the grid here really
+is uh if i turn off the grid here really
+is uh if i turn off the grid here really
+quick
+quick
+quick
+um what it is it's a it's an editable
+um what it is it's a it's an editable
+um what it is it's a it's an editable
+spine just as it sounds i'm not going to
+spine just as it sounds i'm not going to
+spine just as it sounds i'm not going to
+show exactly how to set it up there are
+show exactly how to set it up there are
+show exactly how to set it up there are
+some
+some
+some
+excellent tutorials out there that will
+excellent tutorials out there that will
+excellent tutorials out there that will
+make it much more clear than i could in
+make it much more clear than i could in
+make it much more clear than i could in
+this video
+this video
+this video
+uh but it really lets you take a mesh
+uh but it really lets you take a mesh
+uh but it really lets you take a mesh
+and apply it
+and apply it
+and apply it
+to a spline like you would in max or
+to a spline like you would in max or
+to a spline like you would in max or
+maya and
+maya and
+maya and
+just put it in the editor and move it
+just put it in the editor and move it
+just put it in the editor and move it
+around and edit it you can
+around and edit it you can
+around and edit it you can
+adjust a lot of things like uh the the
+adjust a lot of things like uh the the
+adjust a lot of things like uh the the
+curve of it
+curve of it
+curve of it
+the size of different distinct places
+the size of different distinct places
+the size of different distinct places
+and it really just makes it super easy
+and it really just makes it super easy
+and it really just makes it super easy
+to do something like this tubing um so
+to do something like this tubing um so
+to do something like this tubing um so
+editable splines go look it up
+editable splines go look it up
+editable splines go look it up
+and lastly something that i do want to
+and lastly something that i do want to
+and lastly something that i do want to
+talk about um
+talk about um
+talk about um
+is that little bit of last polish that
+is that little bit of last polish that
+is that little bit of last polish that
+you've got going on
+you've got going on
+you've got going on
+um you can really create any scene
+um you can really create any scene
+um you can really create any scene
+and something's missing something's not
+and something's missing something's not
+and something's missing something's not
+right one of the pieces of feedback that
+right one of the pieces of feedback that
+right one of the pieces of feedback that
+i received big time
+i received big time
+i received big time
+was that everything was too clean you
+was that everything was too clean you
+was that everything was too clean you
+can see here
+can see here
+can see here
+the surfaces of the food carts are
+the surfaces of the food carts are
+the surfaces of the food carts are
+they've got some mud some drips uh down
+they've got some mud some drips uh down
+they've got some mud some drips uh down
+in the nooks and crannies you can see
+in the nooks and crannies you can see
+in the nooks and crannies you can see
+streaks coming down from places that
+streaks coming down from places that
+streaks coming down from places that
+make sense the signs
+make sense the signs
+make sense the signs
+uh they've got a little bit of roughness
+uh they've got a little bit of roughness
+uh they've got a little bit of roughness
+change on top of
+change on top of
+change on top of
+the grunge that i put down and there is
+the grunge that i put down and there is
+the grunge that i put down and there is
+a
+a
+a
+a tiling uh grunge alpha that goes over
+a tiling uh grunge alpha that goes over
+a tiling uh grunge alpha that goes over
+the top of
+the top of
+the top of
+this material on the bricks not the
+this material on the bricks not the
+this material on the bricks not the
+grass
+grass
+grass
+just the bricks and it really adds that
+just the bricks and it really adds that
+just the bricks and it really adds that
+extra level because everything
+extra level because everything
+extra level because everything
+being too clean doesn't look right and
+being too clean doesn't look right and
+being too clean doesn't look right and
+if you look around
+if you look around
+if you look around
+in overwatch everything's got like a
+in overwatch everything's got like a
+in overwatch everything's got like a
+little bit of a grunge map over the top
+little bit of a grunge map over the top
+little bit of a grunge map over the top
+of it
+of it
+of it
+and adding that little bit of detail is
+and adding that little bit of detail is
+and adding that little bit of detail is
+something that you really do
+something that you really do
+something that you really do
+need to do you need to add that extra
+need to do you need to add that extra
+need to do you need to add that extra
+bit of ironically polish
+bit of ironically polish
+bit of ironically polish
+uh but making it a little dirtier uh
+uh but making it a little dirtier uh
+uh but making it a little dirtier uh
+really just adds
+really just adds
+really just adds
+that extra bit that you need overall
+that extra bit that you need overall
+that extra bit that you need overall
+there was so much that went into this
+there was so much that went into this
+there was so much that went into this
+scene and i learned
+scene and i learned
+scene and i learned
+so much hopefully what i shared with you
+so much hopefully what i shared with you
+so much hopefully what i shared with you
+today was
+today was
+today was
+informative and helped you out with your
+informative and helped you out with your
+informative and helped you out with your
+own projects
+own projects
+own projects
+i'd like to thank thomas and style
+i'd like to thank thomas and style
+i'd like to thank thomas and style
+station for giving me the space to make
+station for giving me the space to make
+station for giving me the space to make
+this video
+this video
+this video
+and i hope you all have a great year
+and i hope you all have a great year
+and i hope you all have a great year
+thank you so much again
+thank you so much again
+thank you so much again
+you

@@ -1,0 +1,333 @@
+in this video we'll learn to add a faint
+sheen to the skin and add some glossy
+lipstick using a roughness map
+this is a part of a series that goes
+through all the steps it takes to make a
+character and blender if you haven't
+been following along all you need is a
+uv character and you're good to go
+here is an example of the kind of
+roughness map we're going to make so
+with this roughness map
+the lips are
+kind of semi-glossy and the skin is
+barely glossy
+with a with kind of a speckle pattern
+you can see if you watch closely here
+i'll turn it off
+so now it's completely matte
+if you turn it on here you can see the
+lips of course get shiny and the skin
+gets very faintly shiny
+and it gives a nice sheen to the skin a
+very faint jean and it makes the lips
+look
+glossy and luscious so that's what we're
+going to do and the fun part is we can
+paint it directly onto the character and
+we can see
+see the glossiness as we're painting it
+okay so let's get started let's get set
+up to do some texture painting so we'll
+go to our texture painting workspace
+let's make a shader editor here
+shader editor
+hit n to get rid of that and let's hide
+the hair because we don't need that for
+now
+so let's hide that let's turn it off
+and let's go to object mode grab our
+skin so we know this
+is the correct material
+and let's add a shader or a texture for
+our roughness so shift a s i m a for
+image texture
+click that there
+we'll click new
+we'll call this a u t
+roof
+and we'll make this 4k
+okay
+and then
+make this non-color
+plug this into the roughness
+and let's get that one here too autumn
+rough
+okay then let's go over here
+to our
+let's see
+texture painting let's grab the head
+and texture paint
+and make sure we're on autumn rough
+not these guys but this guy here
+let's change the world from this
+all-white scene to something more normal
+so we can see reflections in the skin so
+we'll go to world mode here
+and we will plug in this thing we had
+from before
+and this will be easier to see the
+highlights in the skin
+let's put this back to object
+and let's give a good foundation for
+the shininess of our skin right now it's
+too glossy
+so let's
+do this let's
+let's
+turn the
+roughness
+all the way down to zero and plug back
+in our roughness map
+okay let's
+turn this specular up so we can see it a
+little better the specular just
+increases the um
+effect of the light
+reflections and the
+spec and the roughness map so let's put
+this to here
+and the way the roughness map works is
+if it's dark it's very glossy if it's
+white it's
+less glossy so let's go to the end panel
+here and pick the paintbrush here uh the
+fill tool here
+let's make this
+desaturated and make it light gray
+and click right here
+and it should update
+our roughness map so she has a slight
+sheen to her skin
+let's just make sure
+she's got a slight chain so
+i'm positioning it so i can catch a
+highlight
+and if we take off the map you can see
+it's much more matte if we plug it in
+it's just faintly glossy and so that'll
+be a good foundation to start with
+let's go to
+image and save as and save it as autumn
+ruff
+let's go back to our brush tool here and
+let's pick
+black for a color
+whatever we color black will make it
+glossy
+let's make some more space for ourself
+here
+and let's zoom in so we can
+watch our 2d map as we're working
+and let's also
+pick mirror mode for the brush so we can
+only really need to color half of it at
+once
+and
+get rid of that
+okay so
+you just need to
+brush in
+a darker value and it makes the lips
+glossy
+super easy
+i'm going to
+turn this thing on here
+and let's zoom in on the area so we can
+focus and rotate around it
+let's just
+color in some glossiness
+okay
+i think that's that's all right
+it's hard to see
+it's hard to see because um
+you're looking for the reflections to
+see it
+you can also
+lower the strength
+and kind of
+overlap in between the skin and the lips
+so there's a little bit of fuzz going
+out
+like that
+yeah okay
+i think that's all right
+you can also color in here too
+um
+so you can color in the 2d view or the
+3d view however you want
+okay so i think that's pretty good
+okay let's add some
+randomness to her
+roughness texture here so let's go to
+tools
+we will
+duplicate this brush we'll call this a
+dash skin
+ref
+and let's make a new
+texture here so we'll call this a
+dash skin
+rough
+then let's get a
+texture map to use that i've
+pre-prepared
+for this
+lesson i'll give this to you so you can
+make your own textures
+so grab this guy
+this is kind of a generic skin texture
+you can use for your projects
+let's also
+make the
+base color the same as our skin so i
+mean our skin roughness
+so we'll hit s and copy that so this
+gray is the same color as that
+let's check the settings tiled is good
+turn it off 10 is fine
+mirrors on
+okay
+let's just make sure our texture
+is doing what we want and i it's really
+hard to see okay so you can see those
+little dots so that's what we want we
+want
+the texture to have a faint random
+feel to it but the reflectivity or the
+roughness should be about the same which
+i think it is
+so then just
+scale your head
+about this size scale your brush to
+whatever size you want your texture and
+just brush it over the whole
+you know all the main skin parts and
+it's very hard to see
+you can see it in a 2d view here we've
+got mirror mode turned on which is good
+but what you can do is you can unplug
+your skin texture and then lower this
+color
+so it's a lot easier to see
+and then you can go and
+brush it over everything this way and
+it's
+a little bit easier
+we might want to also turn off our
+eyelashes
+and just
+get to brushing
+it's kind of this is a very
+it's very simple but it's very
+satisfying i like doing this
+so you'll notice when you go over to the
+ears
+you can see the pattern gets much
+thicker and coarse that's because the
+ears the texture map is much lower
+resolution so it doesn't look as good
+that's okay
+and for me i'm going to focus more on
+the parts of the head that you can see
+then when you get to your lips
+be careful not to
+overlap it too much
+okay let's zoom in here
+and then
+brush it carefully around the lips
+okay
+so then for the rest of the body
+i usually lower the strength
+so it's much more faint
+let's check this to make sure it's very
+even
+and it looks pretty good
+okay so let's
+save this
+let's do the same thing for the rest of
+her body
+make sure it's okay yeah that's okay
+let's make it a bit smaller
+and then you can turn this off so you
+can see it well
+i can't see what's going on
+if you um
+zoom out or make this brush too big it
+really lags so that's why i'm using a
+very small circle
+yeah just go through and just
+brush it over the whole body
+just check here to make sure
+it's even
+you can
+change the
+background
+to make it so you can see it a bit more
+and it's not really
+it's not really helping
+i'm just checking here to see if there's
+any blank spots
+looks like there is
+oh below the neck
+okay
+i think that's pretty good
+let's go and put our skin texture back
+on
+and drop the specular back down a little
+bit
+so again it's really hard to see but
+it's uh it's it's actually
+doing something
+let's go and
+add some detail to the eyes a bit here
+so let's turn that back on
+and let's get our
+regular brush here so it's the uh it's a
+soft let's do this one here this is the
+default brush
+just makes a solid
+line
+like that
+let's make sure our mirror mode is
+turned on okay
+let's just add some not super glossy
+let's add
+some glossiness
+around the eyes here
+because usually this part's very um
+moist
+okay it's pretty good
+make sure it took over here too yep
+looks okay
+um let's also give her some
+glossy
+fingernail polish
+so let's go and turn this thing back on
+here and
+look for our fingernails so since these
+are our fingernails we can just
+let's make it darker
+there glossy
+yeah glossy fingernails
+let's give her glossy toenails
+okay let's see how it looks on her
+yeah shiny
+and shiny
+okay
+so let's make sure we save this
+image save
+let's lower our specular a little bit
+here
+let's go to object mode
+we can check cycles see how it looks
+yeah okay
+i think that's all right
+so that's it for our tutorial today i
+hope you found that useful
+if it was leave a comment to let me know
+or subscribe or better yet support me on
+patreon
+and in the next video we will paint a
+subsurface scattering map
+thanks

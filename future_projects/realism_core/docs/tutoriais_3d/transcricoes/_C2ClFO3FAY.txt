@@ -1,0 +1,2500 @@
+Kind: captions
+Language: en
+if you don't know anything about 3d
+if you don't know anything about 3d
+if you don't know anything about 3d
+character animation and want to become a
+character animation and want to become a
+character animation and want to become a
+pro reddit well you found the right
+pro reddit well you found the right
+pro reddit well you found the right
+video today I wouldn't be taking you
+video today I wouldn't be taking you
+video today I wouldn't be taking you
+from complete noob to look out Pixar
+from complete noob to look out Pixar
+from complete noob to look out Pixar
+here I come welcome to a new CG geek
+here I come welcome to a new CG geek
+here I come welcome to a new CG geek
+tutorial my name is Steve also known as
+tutorial my name is Steve also known as
+tutorial my name is Steve also known as
+Steve Lucci and because you guys voted
+Steve Lucci and because you guys voted
+Steve Lucci and because you guys voted
+for it today wouldn't be learning the
+for it today wouldn't be learning the
+for it today wouldn't be learning the
+basics of character animation and the
+basics of character animation and the
+basics of character animation and the
+fundamentals of how to animate
+fundamentals of how to animate
+fundamentals of how to animate
+characters inside of blender because one
+characters inside of blender because one
+characters inside of blender because one
+is free and awesome and as you guys know
+is free and awesome and as you guys know
+is free and awesome and as you guys know
+since I'm like the best at animation why
+since I'm like the best at animation why
+since I'm like the best at animation why
+not maybe I don't want to put that in my
+not maybe I don't want to put that in my
+not maybe I don't want to put that in my
+demo reel and also I'm excited to
+demo reel and also I'm excited to
+demo reel and also I'm excited to
+announce the new CG geeks discord server
+announce the new CG geeks discord server
+announce the new CG geeks discord server
+where all of us geeks are hanging out
+where all of us geeks are hanging out
+where all of us geeks are hanging out
+answering questions giving critique on
+answering questions giving critique on
+answering questions giving critique on
+our finished projects like animations
+our finished projects like animations
+our finished projects like animations
+for example so if you want to hang out
+for example so if you want to hang out
+for example so if you want to hang out
+with me along with that wasn't-- develop
+with me along with that wasn't-- develop
+with me along with that wasn't-- develop
+artists go ahead and follow that link in
+artists go ahead and follow that link in
+artists go ahead and follow that link in
+the description to the discord and I'll
+the description to the discord and I'll
+the description to the discord and I'll
+see you over there
+see you over there
+see you over there
+the 3d character models that we'll be
+the 3d character models that we'll be
+the 3d character models that we'll be
+animating today is from the blender
+animating today is from the blender
+animating today is from the blender
+cloud there is actually two really cool
+cloud there is actually two really cool
+cloud there is actually two really cool
+models that you can download on the
+models that you can download on the
+models that you can download on the
+blender cloud there's rain and then
+blender cloud there's rain and then
+blender cloud there's rain and then
+there's Vincent there's a completely
+there's Vincent there's a completely
+there's Vincent there's a completely
+free finished models that are great
+free finished models that are great
+free finished models that are great
+ready to go for animation so go ahead
+ready to go for animation so go ahead
+ready to go for animation so go ahead
+and download what are these two models
+and download what are these two models
+and download what are these two models
+there'll be a link below and actually
+there'll be a link below and actually
+there'll be a link below and actually
+character creation has been something
+character creation has been something
+character creation has been something
+I've wanted to do on the channel for a
+I've wanted to do on the channel for a
+I've wanted to do on the channel for a
+long time it's just kind of hard
+long time it's just kind of hard
+long time it's just kind of hard
+prioritizing what to do next
+prioritizing what to do next
+prioritizing what to do next
+but if you want to see that sooner than
+but if you want to see that sooner than
+but if you want to see that sooner than
+later leave a like on the video to let
+later leave a like on the video to let
+later leave a like on the video to let
+me know oh what is this
+me know oh what is this
+me know oh what is this
+80% of you guys aren't subscribed that's
+80% of you guys aren't subscribed that's
+80% of you guys aren't subscribed that's
+just a little hurtful do you guys want
+just a little hurtful do you guys want
+just a little hurtful do you guys want
+to make my day smash that subscribe
+to make my day smash that subscribe
+to make my day smash that subscribe
+button to join the geek squad I mean
+button to join the geek squad I mean
+button to join the geek squad I mean
+with that said let's roll that intro and
+with that said let's roll that intro and
+with that said let's roll that intro and
+start animating
+start animating
+start animating
+oh yeah same old intro still working on
+oh yeah same old intro still working on
+oh yeah same old intro still working on
+that new one but hey let's watch it
+that new one but hey let's watch it
+that new one but hey let's watch it
+anyway this is taking too long
+and this video is brought to you by
+and this video is brought to you by
+and this video is brought to you by
+skill share the online learning
+skill share the online learning
+skill share the online learning
+community for creatives where millions
+community for creatives where millions
+community for creatives where millions
+of people are already taking the next
+of people are already taking the next
+of people are already taking the next
+steps in their creative journey
+steps in their creative journey
+steps in their creative journey
+Skillshare offers thousands of courses
+Skillshare offers thousands of courses
+Skillshare offers thousands of courses
+on exciting topics like illustration
+on exciting topics like illustration
+on exciting topics like illustration
+design photography video and a whole lot
+design photography video and a whole lot
+design photography video and a whole lot
+more I've been watching a course on
+more I've been watching a course on
+more I've been watching a course on
+Skillshare by Tom throws on illustrating
+Skillshare by Tom throws on illustrating
+Skillshare by Tom throws on illustrating
+expressive stylized characters because
+expressive stylized characters because
+expressive stylized characters because
+I'd love to take my pencil art to the
+I'd love to take my pencil art to the
+I'd love to take my pencil art to the
+next level in 2020 and this course has
+next level in 2020 and this course has
+next level in 2020 and this course has
+been a lot of fun with some really
+been a lot of fun with some really
+been a lot of fun with some really
+creative tips on how to draw characters
+creative tips on how to draw characters
+creative tips on how to draw characters
+and more exaggerated stylized expression
+and more exaggerated stylized expression
+and more exaggerated stylized expression
+as this skill share is sponsoring this
+as this skill share is sponsoring this
+as this skill share is sponsoring this
+video you guys actually have the
+video you guys actually have the
+video you guys actually have the
+opportunity to watch this course or any
+opportunity to watch this course or any
+opportunity to watch this course or any
+others free yep the first thousand users
+others free yep the first thousand users
+others free yep the first thousand users
+to join with my link in the video
+to join with my link in the video
+to join with my link in the video
+description will get a two month free
+description will get a two month free
+description will get a two month free
+trial of skill share premium so you can
+trial of skill share premium so you can
+trial of skill share premium so you can
+explore your creativity so I'm using
+explore your creativity so I'm using
+explore your creativity so I'm using
+rain the character from the blender
+rain the character from the blender
+rain the character from the blender
+cloud and I'm just gonna go ahead and
+cloud and I'm just gonna go ahead and
+cloud and I'm just gonna go ahead and
+open that up inside of blender here and
+open that up inside of blender here and
+open that up inside of blender here and
+then you just want to click allow
+then you just want to click allow
+then you just want to click allow
+execution to let you character fully
+execution to let you character fully
+execution to let you character fully
+load up into blender I've been playing
+load up into blender I've been playing
+load up into blender I've been playing
+around with this rig for a few days now
+around with this rig for a few days now
+around with this rig for a few days now
+doing some basic character animating
+doing some basic character animating
+doing some basic character animating
+getting familiar with it is it really
+getting familiar with it is it really
+getting familiar with it is it really
+easy Greg to work with and not hard to
+easy Greg to work with and not hard to
+easy Greg to work with and not hard to
+get some good looking animations with so
+get some good looking animations with so
+get some good looking animations with so
+I'm gonna assume that you know just a
+I'm gonna assume that you know just a
+I'm gonna assume that you know just a
+little bit of the basics of navigating
+little bit of the basics of navigating
+little bit of the basics of navigating
+in blender for example the middle mouse
+in blender for example the middle mouse
+in blender for example the middle mouse
+button to kind of paint around in 3d
+button to kind of paint around in 3d
+button to kind of paint around in 3d
+space and then G to move bones R to
+space and then G to move bones R to
+space and then G to move bones R to
+rotate s to scale these are just a few
+rotate s to scale these are just a few
+rotate s to scale these are just a few
+of the very basic navigational things
+of the very basic navigational things
+of the very basic navigational things
+and if at any point you're not sure
+and if at any point you're not sure
+and if at any point you're not sure
+which button I'm pressing I have these
+which button I'm pressing I have these
+which button I'm pressing I have these
+screencast keys set up down here so you
+screencast keys set up down here so you
+screencast keys set up down here so you
+can see what button was pressed to in
+can see what button was pressed to in
+can see what button was pressed to in
+the corner there so let's get into some
+the corner there so let's get into some
+the corner there so let's get into some
+animating this is the rig settings here
+animating this is the rig settings here
+animating this is the rig settings here
+you can turn on and off things like the
+you can turn on and off things like the
+you can turn on and off things like the
+controls for the hair and the bones and
+controls for the hair and the bones and
+controls for the hair and the bones and
+the fingers this is great for turning on
+the fingers this is great for turning on
+the fingers this is great for turning on
+and off different bones depending on
+and off different bones depending on
+and off different bones depending on
+what you're animating you don't want a
+what you're animating you don't want a
+what you're animating you don't want a
+whole bunch of bones kind of crowding
+whole bunch of bones kind of crowding
+whole bunch of bones kind of crowding
+your space getting in the way when
+your space getting in the way when
+your space getting in the way when
+you're trying to animate and actually we
+you're trying to animate and actually we
+you're trying to animate and actually we
+can turn off the FK bones for now and
+can turn off the FK bones for now and
+can turn off the FK bones for now and
+just leave the I K enabled but that's
+just leave the I K enabled but that's
+just leave the I K enabled but that's
+really all I'm going to touch in these
+really all I'm going to touch in these
+really all I'm going to touch in these
+settings and you can just hit and then
+settings and you can just hit and then
+settings and you can just hit and then
+to close off your properties tab there
+to close off your properties tab there
+to close off your properties tab there
+so the first thing I want to do is bring
+so the first thing I want to do is bring
+so the first thing I want to do is bring
+in my timeline so I'm just gonna grab
+in my timeline so I'm just gonna grab
+in my timeline so I'm just gonna grab
+the corner window here and pull it up to
+the corner window here and pull it up to
+the corner window here and pull it up to
+make a new window and I'll change this
+make a new window and I'll change this
+make a new window and I'll change this
+window over to the animation timeline
+window over to the animation timeline
+window over to the animation timeline
+right here and
+right here and
+right here and
+as you can see we now have a time line
+as you can see we now have a time line
+as you can see we now have a time line
+this will show us what frame wrap so
+this will show us what frame wrap so
+this will show us what frame wrap so
+where we are in our animation really
+where we are in our animation really
+where we are in our animation really
+necessary for doing any sort of
+necessary for doing any sort of
+necessary for doing any sort of
+animating and blender and it can also do
+animating and blender and it can also do
+animating and blender and it can also do
+some basic keyframe editing inside the
+some basic keyframe editing inside the
+some basic keyframe editing inside the
+timeline which is again really necessary
+timeline which is again really necessary
+timeline which is again really necessary
+so to jump right into how key framing
+so to jump right into how key framing
+so to jump right into how key framing
+works in blender on frame 1 here I'm
+works in blender on frame 1 here I'm
+works in blender on frame 1 here I'm
+just going to grab the foot bone there
+just going to grab the foot bone there
+just going to grab the foot bone there
+and we'll just pull it up so it's like
+and we'll just pull it up so it's like
+and we'll just pull it up so it's like
+in a stepping position there and if I
+in a stepping position there and if I
+in a stepping position there and if I
+hit I this will allow me to insert a
+hit I this will allow me to insert a
+hit I this will allow me to insert a
+keyframe so I can choose location
+keyframe so I can choose location
+keyframe so I can choose location
+rotation right there and as you can see
+rotation right there and as you can see
+rotation right there and as you can see
+we now have a orange diamond marking
+we now have a orange diamond marking
+we now have a orange diamond marking
+that there's a keyframe on frame 1 and
+that there's a keyframe on frame 1 and
+that there's a keyframe on frame 1 and
+if I scroll through you'll see that
+if I scroll through you'll see that
+if I scroll through you'll see that
+there's no animation because you need
+there's no animation because you need
+there's no animation because you need
+more than one keyframe to have motion so
+more than one keyframe to have motion so
+more than one keyframe to have motion so
+let's go ahead and add one more keyframe
+let's go ahead and add one more keyframe
+let's go ahead and add one more keyframe
+just scrolling through our timeline to
+just scrolling through our timeline to
+just scrolling through our timeline to
+frame 20 here I'll grab the foot pull it
+frame 20 here I'll grab the foot pull it
+frame 20 here I'll grab the foot pull it
+down to the ground somewhere like that
+down to the ground somewhere like that
+down to the ground somewhere like that
+and then if I hit I and choose location
+and then if I hit I and choose location
+and then if I hit I and choose location
+rotation one more time
+rotation one more time
+rotation one more time
+I'll insert a second keyframe and now if
+I'll insert a second keyframe and now if
+I'll insert a second keyframe and now if
+I scrub through the timeline you can see
+I scrub through the timeline you can see
+I scrub through the timeline you can see
+we have our first character motion and
+we have our first character motion and
+we have our first character motion and
+like I said here you can use some basic
+like I said here you can use some basic
+like I said here you can use some basic
+keyframe adjustments then by grabbing
+keyframe adjustments then by grabbing
+keyframe adjustments then by grabbing
+that keyframe and moving along the
+that keyframe and moving along the
+that keyframe and moving along the
+timeline if you want it to take more
+timeline if you want it to take more
+timeline if you want it to take more
+frames to complete the action or maybe
+frames to complete the action or maybe
+frames to complete the action or maybe
+less frames to complete the action to
+less frames to complete the action to
+less frames to complete the action to
+make it happen faster and this is where
+make it happen faster and this is where
+make it happen faster and this is where
+you do your basic keyframe editing if
+you do your basic keyframe editing if
+you do your basic keyframe editing if
+you want to do more advanced keyframe
+you want to do more advanced keyframe
+you want to do more advanced keyframe
+editing you're gonna want to split your
+editing you're gonna want to split your
+editing you're gonna want to split your
+window here and switch this one over to
+window here and switch this one over to
+window here and switch this one over to
+the animation dopesheet
+the animation dopesheet
+the animation dopesheet
+here if i zoom in a little bit and drop
+here if i zoom in a little bit and drop
+here if i zoom in a little bit and drop
+this down you can see we have control
+this down you can see we have control
+this down you can see we have control
+over a lot more of the keyframes on this
+over a lot more of the keyframes on this
+over a lot more of the keyframes on this
+so there's a keyframe for every
+so there's a keyframe for every
+so there's a keyframe for every
+different access and 3d and here if i
+different access and 3d and here if i
+different access and 3d and here if i
+zoom in a little bit should I hide it
+zoom in a little bit should I hide it
+zoom in a little bit should I hide it
+over you can see that I can move a
+over you can see that I can move a
+over you can see that I can move a
+keyframe for just the X rotation for
+keyframe for just the X rotation for
+keyframe for just the X rotation for
+example or maybe I want to move just the
+example or maybe I want to move just the
+example or maybe I want to move just the
+Z location keyframes this is for kind of
+Z location keyframes this is for kind of
+Z location keyframes this is for kind of
+keyframe tweaking and where you're gonna
+keyframe tweaking and where you're gonna
+keyframe tweaking and where you're gonna
+do that for retiming your animation now
+do that for retiming your animation now
+do that for retiming your animation now
+every time you do any sort of key
+every time you do any sort of key
+every time you do any sort of key
+framing in blender it's automatically
+framing in blender it's automatically
+framing in blender it's automatically
+done on a linear curve this means that
+done on a linear curve this means that
+done on a linear curve this means that
+as the animation progresses if I pull
+as the animation progresses if I pull
+as the animation progresses if I pull
+this out just a little bit here you're
+this out just a little bit here you're
+this out just a little bit here you're
+gonna see that it starts off slow speeds
+gonna see that it starts off slow speeds
+gonna see that it starts off slow speeds
+up in the middle and then it comes to a
+up in the middle and then it comes to a
+up in the middle and then it comes to a
+slow stop and this is because it's on a
+slow stop and this is because it's on a
+slow stop and this is because it's on a
+curve and you can see this if you switch
+curve and you can see this if you switch
+curve and you can see this if you switch
+over from the dope sheets to the graph
+over from the dope sheets to the graph
+over from the dope sheets to the graph
+editor you can see on our animation here
+editor you can see on our animation here
+editor you can see on our animation here
+that we have it laid out as a curve if I
+that we have it laid out as a curve if I
+that we have it laid out as a curve if I
+just adjust our handle
+just adjust our handle
+just adjust our handle
+to zoom that in a little bit and this is
+to zoom that in a little bit and this is
+to zoom that in a little bit and this is
+gonna be how you tweak your animation to
+gonna be how you tweak your animation to
+gonna be how you tweak your animation to
+get more the right motion and speed that
+get more the right motion and speed that
+get more the right motion and speed that
+you want so for example if you didn't
+you want so for example if you didn't
+you want so for example if you didn't
+want this to come to a slow resting stop
+want this to come to a slow resting stop
+want this to come to a slow resting stop
+but more of a stomp you would grab the
+but more of a stomp you would grab the
+but more of a stomp you would grab the
+handle here for the Zed location so as
+handle here for the Zed location so as
+handle here for the Zed location so as
+you can see this that location is
+you can see this that location is
+you can see this that location is
+selected right there and if you didn't
+selected right there and if you didn't
+selected right there and if you didn't
+want the other access is visible you
+want the other access is visible you
+want the other access is visible you
+could just turn them off with these
+could just turn them off with these
+could just turn them off with these
+eyeballs so let's turn off the rotation
+eyeballs so let's turn off the rotation
+eyeballs so let's turn off the rotation
+because we don't need those right now
+because we don't need those right now
+because we don't need those right now
+and if I grab this handle and rotate it
+and if I grab this handle and rotate it
+and if I grab this handle and rotate it
+to be a sharp point at the end now
+to be a sharp point at the end now
+to be a sharp point at the end now
+you'll see that it comes down fast boom
+you'll see that it comes down fast boom
+you'll see that it comes down fast boom
+boom and you might want to do the same
+boom and you might want to do the same
+boom and you might want to do the same
+thing for these other keyframes just
+thing for these other keyframes just
+thing for these other keyframes just
+make sure that they come down to a harsh
+make sure that they come down to a harsh
+make sure that they come down to a harsh
+stop and then it's gonna be more like
+stop and then it's gonna be more like
+stop and then it's gonna be more like
+your foot stops to the ground and if I
+your foot stops to the ground and if I
+your foot stops to the ground and if I
+pull this keyframe and to make it happen
+pull this keyframe and to make it happen
+pull this keyframe and to make it happen
+a little bit faster you can see boom you
+a little bit faster you can see boom you
+a little bit faster you can see boom you
+have it come to a stop instead of come
+have it come to a stop instead of come
+have it come to a stop instead of come
+to a gradual stop and this is how you
+to a gradual stop and this is how you
+to a gradual stop and this is how you
+would tweak a keyframe animation now
+would tweak a keyframe animation now
+would tweak a keyframe animation now
+actually what wouldn't be doing today is
+actually what wouldn't be doing today is
+actually what wouldn't be doing today is
+starting with animation blocking this is
+starting with animation blocking this is
+starting with animation blocking this is
+sort of going through and every second
+sort of going through and every second
+sort of going through and every second
+or so on your animation hitting a key
+or so on your animation hitting a key
+or so on your animation hitting a key
+pose and then coming back and adding the
+pose and then coming back and adding the
+pose and then coming back and adding the
+in-between frames later this is the
+in-between frames later this is the
+in-between frames later this is the
+process that professionals used to hit
+process that professionals used to hit
+process that professionals used to hit
+the key poses that they want in an
+the key poses that they want in an
+the key poses that they want in an
+animation and then you'll work on the
+animation and then you'll work on the
+animation and then you'll work on the
+in-between frames to polish that
+in-between frames to polish that
+in-between frames to polish that
+animation later so to do this though
+animation later so to do this though
+animation later so to do this though
+what you're gonna want to do is you know
+what you're gonna want to do is you know
+what you're gonna want to do is you know
+want to change this from a linear curve
+want to change this from a linear curve
+want to change this from a linear curve
+to a constant curve and you can do that
+to a constant curve and you can do that
+to a constant curve and you can do that
+by just hitting the T key if you're in
+by just hitting the T key if you're in
+by just hitting the T key if you're in
+the timeline here hit the T key and
+the timeline here hit the T key and
+the timeline here hit the T key and
+choose an interpolation of constant make
+choose an interpolation of constant make
+choose an interpolation of constant make
+sure all your keyframes are selected
+sure all your keyframes are selected
+sure all your keyframes are selected
+when you choose constant and you'll see
+when you choose constant and you'll see
+when you choose constant and you'll see
+that it's now a sharp change so this is
+that it's now a sharp change so this is
+that it's now a sharp change so this is
+just gonna change from one pose to the
+just gonna change from one pose to the
+just gonna change from one pose to the
+next pose and this is the process of
+next pose and this is the process of
+next pose and this is the process of
+animation blocking and that's what we're
+animation blocking and that's what we're
+animation blocking and that's what we're
+gonna start off doing for our character
+gonna start off doing for our character
+gonna start off doing for our character
+animation so now we know the basics of
+animation so now we know the basics of
+animation so now we know the basics of
+adding keyframes and adjusting the
+adding keyframes and adjusting the
+adding keyframes and adjusting the
+timing and speed of the keyframes we're
+timing and speed of the keyframes we're
+timing and speed of the keyframes we're
+ready to actually do some cool character
+ready to actually do some cool character
+ready to actually do some cool character
+animating inside a blender so for
+animating inside a blender so for
+animating inside a blender so for
+starters what you're gonna need is
+starters what you're gonna need is
+starters what you're gonna need is
+reference reference reference animation
+reference reference reference animation
+reference reference reference animation
+reference is basically the most
+reference is basically the most
+reference is basically the most
+important part of animating and eating
+important part of animating and eating
+important part of animating and eating
+the most professional of professionals
+the most professional of professionals
+the most professional of professionals
+will use video reference before going to
+will use video reference before going to
+will use video reference before going to
+animate something because it's really
+animate something because it's really
+animate something because it's really
+impossible to imagine what a natural
+impossible to imagine what a natural
+impossible to imagine what a natural
+human movement would look like without
+human movement would look like without
+human movement would look like without
+first visualizing it and seeing some
+first visualizing it and seeing some
+first visualizing it and seeing some
+reference of it actually happening so
+reference of it actually happening so
+reference of it actually happening so
+either go ahead and take a video clip if
+either go ahead and take a video clip if
+either go ahead and take a video clip if
+you
+you
+you
+self-acting like an idiot in your
+self-acting like an idiot in your
+self-acting like an idiot in your
+backyard for some character animation
+backyard for some character animation
+backyard for some character animation
+reference or if you'd rather use
+reference or if you'd rather use
+reference or if you'd rather use
+something that's already out there
+something that's already out there
+something that's already out there
+outlined there's a ton of great
+outlined there's a ton of great
+outlined there's a ton of great
+character animation reference available
+character animation reference available
+character animation reference available
+online and on YouTube one of my favorite
+online and on YouTube one of my favorite
+online and on YouTube one of my favorite
+references for animation is Kevin
+references for animation is Kevin
+references for animation is Kevin
+Perry's hundred ways to walk video where
+Perry's hundred ways to walk video where
+Perry's hundred ways to walk video where
+he does all kinds of different ways
+he does all kinds of different ways
+he does all kinds of different ways
+humans will walk it's great for
+humans will walk it's great for
+humans will walk it's great for
+character reference as this kind of
+character reference as this kind of
+character reference as this kind of
+exaggerated movements which is perfect
+exaggerated movements which is perfect
+exaggerated movements which is perfect
+for 3d animation and what we're going to
+for 3d animation and what we're going to
+for 3d animation and what we're going to
+be using today actually
+be using today actually
+be using today actually
+so I recommend picking one of the
+so I recommend picking one of the
+so I recommend picking one of the
+reference walks in his video for your
+reference walks in his video for your
+reference walks in his video for your
+animation today and we're gonna be going
+animation today and we're gonna be going
+animation today and we're gonna be going
+head and blocking out some of this
+head and blocking out some of this
+head and blocking out some of this
+animation another video that I recommend
+animation another video that I recommend
+animation another video that I recommend
+checking out for some good reference
+checking out for some good reference
+checking out for some good reference
+along with a lot of animation tips if
+along with a lot of animation tips if
+along with a lot of animation tips if
+you're getting into 3d animation this is
+you're getting into 3d animation this is
+you're getting into 3d animation this is
+still a really great video to watch as
+still a really great video to watch as
+still a really great video to watch as
+there's tons of tips and techniques that
+there's tons of tips and techniques that
+there's tons of tips and techniques that
+will translate over to 3d animation and
+will translate over to 3d animation and
+will translate over to 3d animation and
+be super useful so with your reference
+be super useful so with your reference
+be super useful so with your reference
+video on hand you're ready to start
+video on hand you're ready to start
+video on hand you're ready to start
+character animating inside of blender if
+character animating inside of blender if
+character animating inside of blender if
+you want to match your character
+you want to match your character
+you want to match your character
+animation exactly you can actually add
+animation exactly you can actually add
+animation exactly you can actually add
+it in as a background image in 3d space
+it in as a background image in 3d space
+it in as a background image in 3d space
+by going shift a and then adding in an
+by going shift a and then adding in an
+by going shift a and then adding in an
+image background right there as you can
+image background right there as you can
+image background right there as you can
+see but I don't want to match this
+see but I don't want to match this
+see but I don't want to match this
+animation exactly I'm just gonna be
+animation exactly I'm just gonna be
+animation exactly I'm just gonna be
+using it closely as reference so what
+using it closely as reference so what
+using it closely as reference so what
+I'm gonna do is start off by clearing
+I'm gonna do is start off by clearing
+I'm gonna do is start off by clearing
+these keyframes they're going X and
+these keyframes they're going X and
+these keyframes they're going X and
+deleting keyframes and then if you hit
+deleting keyframes and then if you hit
+deleting keyframes and then if you hit
+alt R and alt G it will reset the rig to
+alt R and alt G it will reset the rig to
+alt R and alt G it will reset the rig to
+its original pose which is exactly what
+its original pose which is exactly what
+its original pose which is exactly what
+we want and I'm going to go ahead and
+we want and I'm going to go ahead and
+we want and I'm going to go ahead and
+close off our extra tab here for
+close off our extra tab here for
+close off our extra tab here for
+animation because we'll use that later
+animation because we'll use that later
+animation because we'll use that later
+on for tweaking our animation so the
+on for tweaking our animation so the
+on for tweaking our animation so the
+animation cycle that I'm going to be
+animation cycle that I'm going to be
+animation cycle that I'm going to be
+animating today is the skip just because
+animating today is the skip just because
+animating today is the skip just because
+it's a bit more interesting and emotive
+it's a bit more interesting and emotive
+it's a bit more interesting and emotive
+than a basic walk and what you're gonna
+than a basic walk and what you're gonna
+than a basic walk and what you're gonna
+do is you just want to scrub through it
+do is you just want to scrub through it
+do is you just want to scrub through it
+real slowly and pick some of the key
+real slowly and pick some of the key
+real slowly and pick some of the key
+poses out of it so as you can see there
+poses out of it so as you can see there
+poses out of it so as you can see there
+is the post where he's up in the air his
+is the post where he's up in the air his
+is the post where he's up in the air his
+arms are swinging and his legs to move
+arms are swinging and his legs to move
+arms are swinging and his legs to move
+in and then there's the pose where he
+in and then there's the pose where he
+in and then there's the pose where he
+lands on the ground and his legs are
+lands on the ground and his legs are
+lands on the ground and his legs are
+kind of close together as they're
+kind of close together as they're
+kind of close together as they're
+switching positions which is basically
+switching positions which is basically
+switching positions which is basically
+the two key poses in this skip as well
+the two key poses in this skip as well
+the two key poses in this skip as well
+as the basic key poses and pretty much
+as the basic key poses and pretty much
+as the basic key poses and pretty much
+any sort of walk cycle there's the legs
+any sort of walk cycle there's the legs
+any sort of walk cycle there's the legs
+up and then there's the legs crossing so
+up and then there's the legs crossing so
+up and then there's the legs crossing so
+we're gonna start off by making this
+we're gonna start off by making this
+we're gonna start off by making this
+pose here the up in the air arms swing
+pose here the up in the air arms swing
+pose here the up in the air arms swing
+in jolly old skipper ruski so I'm gonna
+in jolly old skipper ruski so I'm gonna
+in jolly old skipper ruski so I'm gonna
+go ahead and jump to frame 1 and what
+go ahead and jump to frame 1 and what
+go ahead and jump to frame 1 and what
+can I actually save you a lot of time
+can I actually save you a lot of time
+can I actually save you a lot of time
+and animating keyframes is clicking this
+and animating keyframes is clicking this
+and animating keyframes is clicking this
+button right here which is an automatic
+button right here which is an automatic
+button right here which is an automatic
+keyframe insertion basically if you now
+keyframe insertion basically if you now
+keyframe insertion basically if you now
+move any sort of bone and let go it's
+move any sort of bone and let go it's
+move any sort of bone and let go it's
+gonna
+gonna
+gonna
+we add in a keyframe so that will save
+we add in a keyframe so that will save
+we add in a keyframe so that will save
+you a little bit of time in case you
+you a little bit of time in case you
+you a little bit of time in case you
+might forget to add a keyframe at some
+might forget to add a keyframe at some
+might forget to add a keyframe at some
+point I always use this option so go
+point I always use this option so go
+point I always use this option so go
+ahead and leave that enabled and we're
+ahead and leave that enabled and we're
+ahead and leave that enabled and we're
+just going to hit three to jump into
+just going to hit three to jump into
+just going to hit three to jump into
+side view and start making the pose that
+side view and start making the pose that
+side view and start making the pose that
+we see here so for blocking you always
+we see here so for blocking you always
+we see here so for blocking you always
+best off starting with the center bone
+best off starting with the center bone
+best off starting with the center bone
+of your character in this case it's
+of your character in this case it's
+of your character in this case it's
+going to be the hips controller right
+going to be the hips controller right
+going to be the hips controller right
+here and getting that in place and then
+here and getting that in place and then
+here and getting that in place and then
+basically working off there so for this
+basically working off there so for this
+basically working off there so for this
+animation I'm going to first pose the
+animation I'm going to first pose the
+animation I'm going to first pose the
+hips then I'm going to pose the legs and
+hips then I'm going to pose the legs and
+hips then I'm going to pose the legs and
+then the arms and etc and also since
+then the arms and etc and also since
+then the arms and etc and also since
+we're doing a cycle we're not gonna be
+we're doing a cycle we're not gonna be
+we're doing a cycle we're not gonna be
+moving our character horizontally at all
+moving our character horizontally at all
+moving our character horizontally at all
+we're just going to be keeping it in one
+we're just going to be keeping it in one
+we're just going to be keeping it in one
+place up and down like it's walking on a
+place up and down like it's walking on a
+place up and down like it's walking on a
+treadmill and if you wanted to animate
+treadmill and if you wanted to animate
+treadmill and if you wanted to animate
+it later you could just animate this
+it later you could just animate this
+it later you could just animate this
+master sent your bone for the character
+master sent your bone for the character
+master sent your bone for the character
+so I'm just gonna start off by pulling
+so I'm just gonna start off by pulling
+so I'm just gonna start off by pulling
+up the pelvis bone here a bit because
+up the pelvis bone here a bit because
+up the pelvis bone here a bit because
+we're at the height of our skip in this
+we're at the height of our skip in this
+we're at the height of our skip in this
+pose and then I'm going to rotate the
+pose and then I'm going to rotate the
+pose and then I'm going to rotate the
+hip bone a little bit because this leg
+hip bone a little bit because this leg
+hip bone a little bit because this leg
+is gonna be the one up in the air so I'm
+is gonna be the one up in the air so I'm
+is gonna be the one up in the air so I'm
+we're gonna rotate that then I'm gonna
+we're gonna rotate that then I'm gonna
+we're gonna rotate that then I'm gonna
+grab the left foot there and I'm going
+grab the left foot there and I'm going
+grab the left foot there and I'm going
+to pick it up in the air for a jolly old
+to pick it up in the air for a jolly old
+to pick it up in the air for a jolly old
+skip we'll rotate a little bit position
+skip we'll rotate a little bit position
+skip we'll rotate a little bit position
+it something like that and then this
+it something like that and then this
+it something like that and then this
+foot we want to be kind of down this is
+foot we want to be kind of down this is
+foot we want to be kind of down this is
+the one pushing off the ground so we're
+the one pushing off the ground so we're
+the one pushing off the ground so we're
+just going to kind of zoom around our
+just going to kind of zoom around our
+just going to kind of zoom around our
+character using the middle mouse button
+character using the middle mouse button
+character using the middle mouse button
+we'll go ahead and rotate the step
+we'll go ahead and rotate the step
+we'll go ahead and rotate the step
+controller bone here to push it up on
+controller bone here to push it up on
+controller bone here to push it up on
+their toes a little bit and then go
+their toes a little bit and then go
+their toes a little bit and then go
+ahead and just pull that back and that
+ahead and just pull that back and that
+ahead and just pull that back and that
+looks like a good position for the legs
+looks like a good position for the legs
+looks like a good position for the legs
+now we'll go ahead and position the
+now we'll go ahead and position the
+now we'll go ahead and position the
+hands because this leg is forward the
+hands because this leg is forward the
+hands because this leg is forward the
+hint this hand will be kind of swinging
+hint this hand will be kind of swinging
+hint this hand will be kind of swinging
+backwards right along here and you just
+backwards right along here and you just
+backwards right along here and you just
+want to keep this arm nice and relaxed
+want to keep this arm nice and relaxed
+want to keep this arm nice and relaxed
+looking we're kind of kind of throw it
+looking we're kind of kind of throw it
+looking we're kind of kind of throw it
+back there
+back there
+back there
+rotate it then positioning the right
+rotate it then positioning the right
+rotate it then positioning the right
+hand as well this one's gonna be up in
+hand as well this one's gonna be up in
+hand as well this one's gonna be up in
+the air opposite the leg that's up in
+the air opposite the leg that's up in
+the air opposite the leg that's up in
+the air so we'll go ahead and position
+the air so we'll go ahead and position
+the air so we'll go ahead and position
+this somewhere around there we're doing
+this somewhere around there we're doing
+this somewhere around there we're doing
+a jolly old skip and there's our basic
+a jolly old skip and there's our basic
+a jolly old skip and there's our basic
+blocked out skipping animation we can go
+blocked out skipping animation we can go
+blocked out skipping animation we can go
+ahead and block it out just a little bit
+ahead and block it out just a little bit
+ahead and block it out just a little bit
+more but something like that is looking
+more but something like that is looking
+more but something like that is looking
+pretty good for the height of the jump
+pretty good for the height of the jump
+pretty good for the height of the jump
+here I might rotate that toe down a
+here I might rotate that toe down a
+here I might rotate that toe down a
+little bit like she's jumping off the
+little bit like she's jumping off the
+little bit like she's jumping off the
+ground there and there's the basic first
+ground there and there's the basic first
+ground there and there's the basic first
+pose we're gonna come back and tweak a
+pose we're gonna come back and tweak a
+pose we're gonna come back and tweak a
+few of these bones later so I'm just
+few of these bones later so I'm just
+few of these bones later so I'm just
+jumping forward to frame 10 in the
+jumping forward to frame 10 in the
+jumping forward to frame 10 in the
+timeline here I'll zoom in a little bit
+timeline here I'll zoom in a little bit
+timeline here I'll zoom in a little bit
+with my middle mouse button and we're
+with my middle mouse button and we're
+with my middle mouse button and we're
+going to go ahead to the next major pose
+going to go ahead to the next major pose
+going to go ahead to the next major pose
+to block it out so our next major pose
+to block it out so our next major pose
+to block it out so our next major pose
+is the leg cross over as our character
+is the leg cross over as our character
+is the leg cross over as our character
+lands on the ground as you can see right
+lands on the ground as you can see right
+lands on the ground as you can see right
+here so this is going to be arms at the
+here so this is going to be arms at the
+here so this is going to be arms at the
+legs crossing over each other so again
+legs crossing over each other so again
+legs crossing over each other so again
+I'm going to start off by grabbing the
+I'm going to start off by grabbing the
+I'm going to start off by grabbing the
+center pelvic bone we're gonna pull it
+center pelvic bone we're gonna pull it
+center pelvic bone we're gonna pull it
+down because our character is kind of
+down because our character is kind of
+down because our character is kind of
+landing on the ground here this foot is
+landing on the ground here this foot is
+landing on the ground here this foot is
+going to come all the way down to the
+going to come all the way down to the
+going to come all the way down to the
+ground and be flat on the ground now so
+ground and be flat on the ground now so
+ground and be flat on the ground now so
+we want to rotate that back to be a nice
+we want to rotate that back to be a nice
+we want to rotate that back to be a nice
+flat foot and position it on the ground
+flat foot and position it on the ground
+flat foot and position it on the ground
+and this is the leg that's going to be
+and this is the leg that's going to be
+and this is the leg that's going to be
+crossing over being picked up for the
+crossing over being picked up for the
+crossing over being picked up for the
+next skip in the animation here you also
+next skip in the animation here you also
+next skip in the animation here you also
+want to rotate the hip bones because
+want to rotate the hip bones because
+want to rotate the hip bones because
+we're no longer jumping off that leg so
+we're no longer jumping off that leg so
+we're no longer jumping off that leg so
+we can go ahead and straighten out the
+we can go ahead and straighten out the
+we can go ahead and straighten out the
+hip bones for this keyframe the arms as
+hip bones for this keyframe the arms as
+hip bones for this keyframe the arms as
+I mentioned have to be swinging down to
+I mentioned have to be swinging down to
+I mentioned have to be swinging down to
+the waist now because of course we're
+the waist now because of course we're
+the waist now because of course we're
+coming down at the bottom of our skip
+coming down at the bottom of our skip
+coming down at the bottom of our skip
+here so I'm just pulling the arms down
+here so I'm just pulling the arms down
+here so I'm just pulling the arms down
+to a sort of neutral position along the
+to a sort of neutral position along the
+to a sort of neutral position along the
+side of our character and there's our
+side of our character and there's our
+side of our character and there's our
+basic crossover pose then you don't want
+basic crossover pose then you don't want
+basic crossover pose then you don't want
+to hit a to grab all your bones and then
+to hit a to grab all your bones and then
+to hit a to grab all your bones and then
+under the timeline here hit T and choose
+under the timeline here hit T and choose
+under the timeline here hit T and choose
+constant because as I mentioned we're
+constant because as I mentioned we're
+constant because as I mentioned we're
+only blocking the animation right now
+only blocking the animation right now
+only blocking the animation right now
+we're not working on the in-between
+we're not working on the in-between
+we're not working on the in-between
+frames so as you can see here now we
+frames so as you can see here now we
+frames so as you can see here now we
+have our two poses the top of our skip
+have our two poses the top of our skip
+have our two poses the top of our skip
+and then the landing of our skip with
+and then the landing of our skip with
+and then the landing of our skip with
+the next leg pulling up for the next
+the next leg pulling up for the next
+the next leg pulling up for the next
+jump now what we can do to save on a lot
+jump now what we can do to save on a lot
+jump now what we can do to save on a lot
+of time is when you have a character
+of time is when you have a character
+of time is when you have a character
+you're walking or skipping the pose with
+you're walking or skipping the pose with
+you're walking or skipping the pose with
+their left leg is going to be the same
+their left leg is going to be the same
+their left leg is going to be the same
+with their right leg what you can do is
+with their right leg what you can do is
+with their right leg what you can do is
+you can actually copy our first pose
+you can actually copy our first pose
+you can actually copy our first pose
+here where our left leg is the one up in
+here where our left leg is the one up in
+here where our left leg is the one up in
+the air hit a to select all of your
+the air hit a to select all of your
+the air hit a to select all of your
+bones there and go pose copy pose and
+bones there and go pose copy pose and
+bones there and go pose copy pose and
+then what we can do is move on to where
+then what we can do is move on to where
+then what we can do is move on to where
+we want the right leg to be the one up
+we want the right leg to be the one up
+we want the right leg to be the one up
+in the air which will jump to frame 24
+in the air which will jump to frame 24
+in the air which will jump to frame 24
+and instead of having to reanimate this
+and instead of having to reanimate this
+and instead of having to reanimate this
+we can just go pose paced posed flipped
+we can just go pose paced posed flipped
+we can just go pose paced posed flipped
+this we'll go ahead and put our right
+this we'll go ahead and put our right
+this we'll go ahead and put our right
+knee up in the air like it is with the
+knee up in the air like it is with the
+knee up in the air like it is with the
+left one here and basically just flip
+left one here and basically just flip
+left one here and basically just flip
+the animation and you can see this works
+the animation and you can see this works
+the animation and you can see this works
+for the most part there's a few
+for the most part there's a few
+for the most part there's a few
+keyframes that need to be tweaked where
+keyframes that need to be tweaked where
+keyframes that need to be tweaked where
+the elbows as you can see right here all
+the elbows as you can see right here all
+the elbows as you can see right here all
+right pointing the right direction so
+right pointing the right direction so
+right pointing the right direction so
+what I have to do for this is just go to
+what I have to do for this is just go to
+what I have to do for this is just go to
+that keyframe grab our elbow and pointer
+that keyframe grab our elbow and pointer
+that keyframe grab our elbow and pointer
+this is where the elbow will be pointing
+this is where the elbow will be pointing
+this is where the elbow will be pointing
+at and just pull it down so we have the
+at and just pull it down so we have the
+at and just pull it down so we have the
+arm at the waist there I'll go ahead and
+arm at the waist there I'll go ahead and
+arm at the waist there I'll go ahead and
+just add a little bit of variation to
+just add a little bit of variation to
+just add a little bit of variation to
+this one by pulling that arm down a
+this one by pulling that arm down a
+this one by pulling that arm down a
+little bit there something like that and
+little bit there something like that and
+little bit there something like that and
+that pose looks pretty good to me now we
+that pose looks pretty good to me now we
+that pose looks pretty good to me now we
+can do the same thing for our second
+can do the same thing for our second
+can do the same thing for our second
+keyframe here just copy it by hitting a
+keyframe here just copy it by hitting a
+keyframe here just copy it by hitting a
+to select all the bones pose copy pose
+to select all the bones pose copy pose
+to select all the bones pose copy pose
+jump to frame 30 we're just going by
+jump to frame 30 we're just going by
+jump to frame 30 we're just going by
+increments of 10 right now to keep it
+increments of 10 right now to keep it
+increments of 10 right now to keep it
+simple and we'll go paste post flipped
+simple and we'll go paste post flipped
+simple and we'll go paste post flipped
+again and now you can see we have our
+again and now you can see we have our
+again and now you can see we have our
+character
+character
+character
+in the in-between pose but flipped this
+in the in-between pose but flipped this
+in the in-between pose but flipped this
+time as I mentioned you might have to
+time as I mentioned you might have to
+time as I mentioned you might have to
+tweak a few of these bones just a little
+tweak a few of these bones just a little
+tweak a few of these bones just a little
+bit mainly just the hand balance it
+bit mainly just the hand balance it
+bit mainly just the hand balance it
+seems get a little bit messed up when
+seems get a little bit messed up when
+seems get a little bit messed up when
+you do this now all we need is one more
+you do this now all we need is one more
+you do this now all we need is one more
+major keyframe to make this loopable and
+major keyframe to make this loopable and
+major keyframe to make this loopable and
+that is the first keyframe so all we
+that is the first keyframe so all we
+that is the first keyframe so all we
+need to do is jump over frame one with
+need to do is jump over frame one with
+need to do is jump over frame one with
+all the bones selected again go pose
+all the bones selected again go pose
+all the bones selected again go pose
+copy pose and we're just going to paste
+copy pose and we're just going to paste
+copy pose and we're just going to paste
+this one not flipped at frame 40 here so
+this one not flipped at frame 40 here so
+this one not flipped at frame 40 here so
+just paste pose right there and if I
+just paste pose right there and if I
+just paste pose right there and if I
+made our timeline only last 40 frames
+made our timeline only last 40 frames
+made our timeline only last 40 frames
+which is all the key frames we have here
+which is all the key frames we have here
+which is all the key frames we have here
+so I'll just change the end here to be
+so I'll just change the end here to be
+so I'll just change the end here to be
+40 actually we're gonna go 39 because we
+40 actually we're gonna go 39 because we
+40 actually we're gonna go 39 because we
+want one less frame because we don't
+want one less frame because we don't
+want one less frame because we don't
+want that duplicate frame in there from
+want that duplicate frame in there from
+want that duplicate frame in there from
+40 to zero you can see that our
+40 to zero you can see that our
+40 to zero you can see that our
+animation would cycle to do so this is
+animation would cycle to do so this is
+animation would cycle to do so this is
+our first pass of character animation
+our first pass of character animation
+our first pass of character animation
+blocking and this is when you want to
+blocking and this is when you want to
+blocking and this is when you want to
+make some of your more major tweaks
+make some of your more major tweaks
+make some of your more major tweaks
+maybe to the animation so I might want
+maybe to the animation so I might want
+maybe to the animation so I might want
+to take our first frame here and just
+to take our first frame here and just
+to take our first frame here and just
+make it a little bit more exaggerated
+make it a little bit more exaggerated
+make it a little bit more exaggerated
+let's give her a little bit more height
+let's give her a little bit more height
+let's give her a little bit more height
+in her skip with putting a little bit of
+in her skip with putting a little bit of
+in her skip with putting a little bit of
+extra bounce in her step we'll go ahead
+extra bounce in her step we'll go ahead
+extra bounce in her step we'll go ahead
+and pull this keyframe up a little bit
+and pull this keyframe up a little bit
+and pull this keyframe up a little bit
+pull it back a little bit like she's
+pull it back a little bit like she's
+pull it back a little bit like she's
+really jumping forward into that
+really jumping forward into that
+really jumping forward into that
+animation a little bit more and this is
+animation a little bit more and this is
+animation a little bit more and this is
+where you can kind of go ahead and just
+where you can kind of go ahead and just
+where you can kind of go ahead and just
+push the limits of what a normal
+push the limits of what a normal
+push the limits of what a normal
+character could do because we're going
+character could do because we're going
+character could do because we're going
+for more of a stylized cartoon animation
+for more of a stylized cartoon animation
+for more of a stylized cartoon animation
+and make it just a little bit more
+and make it just a little bit more
+and make it just a little bit more
+exaggerated at this stage so we're just
+exaggerated at this stage so we're just
+exaggerated at this stage so we're just
+giving her a lot of energy in her step a
+giving her a lot of energy in her step a
+giving her a lot of energy in her step a
+lot of energy in her arms maybe we'll
+lot of energy in her arms maybe we'll
+lot of energy in her arms maybe we'll
+rotate those hips forward just a little
+rotate those hips forward just a little
+rotate those hips forward just a little
+bit and if you're happy with your more
+bit and if you're happy with your more
+bit and if you're happy with your more
+extreme pose then you can go ahead and
+extreme pose then you can go ahead and
+extreme pose then you can go ahead and
+of course copy it to those other
+of course copy it to those other
+of course copy it to those other
+locations again by going copy pose jump
+locations again by going copy pose jump
+locations again by going copy pose jump
+into frame 20 and pasting the pose
+into frame 20 and pasting the pose
+into frame 20 and pasting the pose
+flipped you might want to tweak that
+flipped you might want to tweak that
+flipped you might want to tweak that
+elbow again right there but otherwise
+elbow again right there but otherwise
+elbow again right there but otherwise
+it's pretty good and ready to go and
+it's pretty good and ready to go and
+it's pretty good and ready to go and
+then of course you just need to paste
+then of course you just need to paste
+then of course you just need to paste
+that pose again on frame 40 so now we
+that pose again on frame 40 so now we
+that pose again on frame 40 so now we
+have our major poses sort of blocked out
+have our major poses sort of blocked out
+have our major poses sort of blocked out
+here we need to work on our in-between
+here we need to work on our in-between
+here we need to work on our in-between
+pose for the in-between pose I'm going
+pose for the in-between pose I'm going
+pose for the in-between pose I'm going
+to pick the frame where both feet are on
+to pick the frame where both feet are on
+to pick the frame where both feet are on
+the ground and one arm is up in the air
+the ground and one arm is up in the air
+the ground and one arm is up in the air
+this is sort of the transition pose
+this is sort of the transition pose
+this is sort of the transition pose
+between the two poses we already blocked
+between the two poses we already blocked
+between the two poses we already blocked
+out here so jumping back into blender
+out here so jumping back into blender
+out here so jumping back into blender
+you'll see that at frame five we'll want
+you'll see that at frame five we'll want
+you'll see that at frame five we'll want
+to go ahead and make this pose so
+to go ahead and make this pose so
+to go ahead and make this pose so
+starting off with our hips we want the
+starting off with our hips we want the
+starting off with our hips we want the
+character to have landed on the ground
+character to have landed on the ground
+character to have landed on the ground
+because all feet are touching the ground
+because all feet are touching the ground
+because all feet are touching the ground
+at this point so we're gonna pull that
+at this point so we're gonna pull that
+at this point so we're gonna pull that
+Center pelvic bone down a little bit
+Center pelvic bone down a little bit
+Center pelvic bone down a little bit
+grab the feet and land them on the
+grab the feet and land them on the
+grab the feet and land them on the
+ground as well if you accidentally hide
+ground as well if you accidentally hide
+ground as well if you accidentally hide
+your bone you probably put
+your bone you probably put
+your bone you probably put
+eh and is alt H to unhide it that's
+eh and is alt H to unhide it that's
+eh and is alt H to unhide it that's
+something that I tend to do a lot
+something that I tend to do a lot
+something that I tend to do a lot
+because it's right next to G so I
+because it's right next to G so I
+because it's right next to G so I
+thought I'd mention that placing the
+thought I'd mention that placing the
+thought I'd mention that placing the
+feet of the ground pulling the center
+feet of the ground pulling the center
+feet of the ground pulling the center
+hip bone down to give a nice sort of
+hip bone down to give a nice sort of
+hip bone down to give a nice sort of
+landing position this arm should still
+landing position this arm should still
+landing position this arm should still
+be up in the air just pull that elbow
+be up in the air just pull that elbow
+be up in the air just pull that elbow
+down a little bit this arm should be
+down a little bit this arm should be
+down a little bit this arm should be
+kind of swinging to the side that should
+kind of swinging to the side that should
+kind of swinging to the side that should
+work is a pretty good in-between frame
+work is a pretty good in-between frame
+work is a pretty good in-between frame
+if we kind of scrub through here you can
+if we kind of scrub through here you can
+if we kind of scrub through here you can
+see we have that in-between pose so now
+see we have that in-between pose so now
+see we have that in-between pose so now
+that we have these three key frames
+that we have these three key frames
+that we have these three key frames
+these are the only major key frames we
+these are the only major key frames we
+these are the only major key frames we
+really need in this skip walk animation
+really need in this skip walk animation
+really need in this skip walk animation
+cycle that we're creating so all we need
+cycle that we're creating so all we need
+cycle that we're creating so all we need
+to do is copy and paste these frames now
+to do is copy and paste these frames now
+to do is copy and paste these frames now
+as we were doing earlier to make it a
+as we were doing earlier to make it a
+as we were doing earlier to make it a
+walk cycle so I have these three frames
+walk cycle so I have these three frames
+walk cycle so I have these three frames
+and I actually want to pull frame 20 in
+and I actually want to pull frame 20 in
+and I actually want to pull frame 20 in
+to be a little bit tighter so now we can
+to be a little bit tighter so now we can
+to be a little bit tighter so now we can
+kind of work on the timing of these key
+kind of work on the timing of these key
+kind of work on the timing of these key
+frames so we have these first few frames
+frames so we have these first few frames
+frames so we have these first few frames
+and it takes a little too long to get to
+and it takes a little too long to get to
+and it takes a little too long to get to
+frame 20 so I'm gonna go ahead and pull
+frame 20 so I'm gonna go ahead and pull
+frame 20 so I'm gonna go ahead and pull
+this in a few frames maybe you drop it
+this in a few frames maybe you drop it
+this in a few frames maybe you drop it
+at about frame 16 right there
+at about frame 16 right there
+at about frame 16 right there
+so you can see we have that do to do
+so you can see we have that do to do
+so you can see we have that do to do
+perfect and now all we need to do is
+perfect and now all we need to do is
+perfect and now all we need to do is
+copy and paste our landing pose flipped
+copy and paste our landing pose flipped
+copy and paste our landing pose flipped
+for the other side so I'm going to grab
+for the other side so I'm going to grab
+for the other side so I'm going to grab
+key frame 5 grab all the bones on key
+key frame 5 grab all the bones on key
+key frame 5 grab all the bones on key
+frame private go pose copy pose
+frame private go pose copy pose
+frame private go pose copy pose
+now I'm gonna jump to frame 20 or 21
+now I'm gonna jump to frame 20 or 21
+now I'm gonna jump to frame 20 or 21
+here we'll say 21 and go pose paste
+here we'll say 21 and go pose paste
+here we'll say 21 and go pose paste
+posed flipped perfect all we need to do
+posed flipped perfect all we need to do
+posed flipped perfect all we need to do
+is correct those two elbowing bones
+is correct those two elbowing bones
+is correct those two elbowing bones
+because those didn't flip properly and
+because those didn't flip properly and
+because those didn't flip properly and
+that looks pretty good
+that looks pretty good
+that looks pretty good
+with all of our bones selected we can
+with all of our bones selected we can
+with all of our bones selected we can
+grab these frames here pull them in
+grab these frames here pull them in
+grab these frames here pull them in
+about five frames after twenty-one so
+about five frames after twenty-one so
+about five frames after twenty-one so
+we're gonna go to 26 with these and then
+we're gonna go to 26 with these and then
+we're gonna go to 26 with these and then
+grab our last major keyframe there and
+grab our last major keyframe there and
+grab our last major keyframe there and
+we're gonna position that at 31 now we
+we're gonna position that at 31 now we
+we're gonna position that at 31 now we
+just need to make our finish timeline
+just need to make our finish timeline
+just need to make our finish timeline
+last only 30 frames because that is the
+last only 30 frames because that is the
+last only 30 frames because that is the
+number of key frames we have now and we
+number of key frames we have now and we
+number of key frames we have now and we
+should have a nice cycling keyframe
+should have a nice cycling keyframe
+should have a nice cycling keyframe
+animation and we do so this is happening
+animation and we do so this is happening
+animation and we do so this is happening
+a little fast right now and I mainly
+a little fast right now and I mainly
+a little fast right now and I mainly
+want it to hold its key pose of the
+want it to hold its key pose of the
+want it to hold its key pose of the
+character being in the air longer so I'm
+character being in the air longer so I'm
+character being in the air longer so I'm
+gonna grab all the key frames after
+gonna grab all the key frames after
+gonna grab all the key frames after
+frame one and we're gonna make this last
+frame one and we're gonna make this last
+frame one and we're gonna make this last
+until about 10 frames there so the jump
+until about 10 frames there so the jump
+until about 10 frames there so the jump
+in the air lasts a while and they're
+in the air lasts a while and they're
+in the air lasts a while and they're
+gonna move all of these frames forward
+gonna move all of these frames forward
+gonna move all of these frames forward
+to frame 30 so we have those gaps where
+to frame 30 so we have those gaps where
+to frame 30 so we have those gaps where
+our character is in the air that looks
+our character is in the air that looks
+our character is in the air that looks
+pretty good and if we adjust our
+pretty good and if we adjust our
+pretty good and if we adjust our
+timeline for those key frames now you
+timeline for those key frames now you
+timeline for those key frames now you
+can see that we have a better looking
+can see that we have a better looking
+can see that we have a better looking
+skip animation so now that our basic key
+skip animation so now that our basic key
+skip animation so now that our basic key
+frames are looking pretty good it's time
+frames are looking pretty good it's time
+frames are looking pretty good it's time
+to add a little bit more of those
+to add a little bit more of those
+to add a little bit more of those
+adjustment key frame
+adjustment key frame
+adjustment key frame
+that I was talking about so here's where
+that I was talking about so here's where
+that I was talking about so here's where
+you can spend a lot of time sort of
+you can spend a lot of time sort of
+you can spend a lot of time sort of
+perfecting your animation a little bit
+perfecting your animation a little bit
+perfecting your animation a little bit
+starting by adding in a few more
+starting by adding in a few more
+starting by adding in a few more
+keyframes to different bones so I'm
+keyframes to different bones so I'm
+keyframes to different bones so I'm
+gonna hit end to bring up our character
+gonna hit end to bring up our character
+gonna hit end to bring up our character
+layers here and turn on the FK bones
+layers here and turn on the FK bones
+layers here and turn on the FK bones
+this will allow me to sort of rotate and
+this will allow me to sort of rotate and
+this will allow me to sort of rotate and
+stretch these shoulders with on frame 1
+stretch these shoulders with on frame 1
+stretch these shoulders with on frame 1
+when the left leg is up we might want
+when the left leg is up we might want
+when the left leg is up we might want
+these shoulders to kind of be rotated to
+these shoulders to kind of be rotated to
+these shoulders to kind of be rotated to
+match that a little bit so what I can do
+match that a little bit so what I can do
+match that a little bit so what I can do
+is I can grab the waist here and rotate
+is I can grab the waist here and rotate
+is I can grab the waist here and rotate
+it to kind of match the swing of the
+it to kind of match the swing of the
+it to kind of match the swing of the
+hips there a little bit as well then we
+hips there a little bit as well then we
+hips there a little bit as well then we
+go ahead and jump back down to frame 15
+go ahead and jump back down to frame 15
+go ahead and jump back down to frame 15
+rotate that back to be more in the
+rotate that back to be more in the
+rotate that back to be more in the
+center there and then I frame 20 we
+center there and then I frame 20 we
+center there and then I frame 20 we
+rotated the opposite direction because
+rotated the opposite direction because
+rotated the opposite direction because
+our character is now jumping with the
+our character is now jumping with the
+our character is now jumping with the
+other leg there so we'd rotate that
+other leg there so we'd rotate that
+other leg there so we'd rotate that
+along the way that ways we might have to
+along the way that ways we might have to
+along the way that ways we might have to
+move the hand balance a little bit to
+move the hand balance a little bit to
+move the hand balance a little bit to
+match that movement and there you can
+match that movement and there you can
+match that movement and there you can
+see we have that little extra skipping
+see we have that little extra skipping
+see we have that little extra skipping
+the shoulders as they're kind of
+the shoulders as they're kind of
+the shoulders as they're kind of
+rotating you can see if you look
+rotating you can see if you look
+rotating you can see if you look
+straight down a little bit more the bone
+straight down a little bit more the bone
+straight down a little bit more the bone
+you might want to just in some of these
+you might want to just in some of these
+you might want to just in some of these
+frames is the chest bone when our
+frames is the chest bone when our
+frames is the chest bone when our
+character is at the top of her jump
+character is at the top of her jump
+character is at the top of her jump
+there might be a little bit more
+there might be a little bit more
+there might be a little bit more
+stretched out and when it lands on the
+stretched out and when it lands on the
+stretched out and when it lands on the
+ground you might be a little bit more
+ground you might be a little bit more
+ground you might be a little bit more
+hunched over here you might want to work
+hunched over here you might want to work
+hunched over here you might want to work
+on the hair animation so in the
+on the hair animation so in the
+on the hair animation so in the
+character properties tab here you can
+character properties tab here you can
+character properties tab here you can
+turn on the hair we can go ahead at
+turn on the hair we can go ahead at
+turn on the hair we can go ahead at
+frame 1 and position the hair from
+frame 1 and position the hair from
+frame 1 and position the hair from
+however we want it at the top of the
+however we want it at the top of the
+however we want it at the top of the
+skip the hair we kind of be blowing back
+skip the hair we kind of be blowing back
+skip the hair we kind of be blowing back
+here so we can go ahead and grab these
+here so we can go ahead and grab these
+here so we can go ahead and grab these
+keyframes position it so the hair is
+keyframes position it so the hair is
+keyframes position it so the hair is
+kind of blowing back on the head there
+kind of blowing back on the head there
+kind of blowing back on the head there
+as you can see here jump forward to the
+as you can see here jump forward to the
+as you can see here jump forward to the
+landing keyframe here the hair will be
+landing keyframe here the hair will be
+landing keyframe here the hair will be
+kind of coming in at frame 15 the hair
+kind of coming in at frame 15 the hair
+kind of coming in at frame 15 the hair
+shouldn't be kind of bouncing against
+shouldn't be kind of bouncing against
+shouldn't be kind of bouncing against
+the back of the head a little bit pacing
+the back of the head a little bit pacing
+the back of the head a little bit pacing
+that first frame at the end again we can
+that first frame at the end again we can
+that first frame at the end again we can
+see we may now animated the hair to kind
+see we may now animated the hair to kind
+see we may now animated the hair to kind
+of go with the animation and this is
+of go with the animation and this is
+of go with the animation and this is
+where you can see the animation blocking
+where you can see the animation blocking
+where you can see the animation blocking
+just makes it a lot easier to make sure
+just makes it a lot easier to make sure
+just makes it a lot easier to make sure
+you're hitting those key poses but now
+you're hitting those key poses but now
+you're hitting those key poses but now
+we're done with the blocking and we can
+we're done with the blocking and we can
+we're done with the blocking and we can
+tweak some of the curves on the
+tweak some of the curves on the
+tweak some of the curves on the
+animation so what I'm gonna do is I'm
+animation so what I'm gonna do is I'm
+animation so what I'm gonna do is I'm
+gonna hit a to grab all of our keyframes
+gonna hit a to grab all of our keyframes
+gonna hit a to grab all of our keyframes
+under the timeline here I'm gonna hover
+under the timeline here I'm gonna hover
+under the timeline here I'm gonna hover
+my mouse and hit T and switch it back to
+my mouse and hit T and switch it back to
+my mouse and hit T and switch it back to
+be easier curve now if I play it you can
+be easier curve now if I play it you can
+be easier curve now if I play it you can
+see we have our character animation with
+see we have our character animation with
+see we have our character animation with
+those curves so the animation looks
+those curves so the animation looks
+those curves so the animation looks
+pretty good but again we have those
+pretty good but again we have those
+pretty good but again we have those
+keyframes that kind of look like they
+keyframes that kind of look like they
+keyframes that kind of look like they
+are floating because everything is on a
+are floating because everything is on a
+are floating because everything is on a
+Bezier curve so here's where you can
+Bezier curve so here's where you can
+Bezier curve so here's where you can
+tweak your animation using the graph
+tweak your animation using the graph
+tweak your animation using the graph
+editor so I'm gonna split my window like
+editor so I'm gonna split my window like
+editor so I'm gonna split my window like
+I showed earlier and I'm going to switch
+I showed earlier and I'm going to switch
+I showed earlier and I'm going to switch
+this window over to the animation graph
+this window over to the animation graph
+this window over to the animation graph
+editor and as you can see you have all
+editor and as you can see you have all
+editor and as you can see you have all
+these confusing keyframes that might
+these confusing keyframes that might
+these confusing keyframes that might
+kind of
+kind of
+kind of
+intimidates you a little bit but we're
+intimidates you a little bit but we're
+intimidates you a little bit but we're
+only going to focus on a few bones to
+only going to focus on a few bones to
+only going to focus on a few bones to
+tweak here so I'm gonna grab the pelvic
+tweak here so I'm gonna grab the pelvic
+tweak here so I'm gonna grab the pelvic
+bone in the center of the mesh first and
+bone in the center of the mesh first and
+bone in the center of the mesh first and
+we're only going to be focusing on the Y
+we're only going to be focusing on the Y
+we're only going to be focusing on the Y
+location of this bone so I'm going to
+location of this bone so I'm going to
+location of this bone so I'm going to
+turn off all of the other axes of this
+turn off all of the other axes of this
+turn off all of the other axes of this
+bone so we just have the Y location
+bone so we just have the Y location
+bone so we just have the Y location
+making it nice and easy to see what we
+making it nice and easy to see what we
+making it nice and easy to see what we
+have selected and here you can see this
+have selected and here you can see this
+have selected and here you can see this
+is where we want the character to kind
+is where we want the character to kind
+is where we want the character to kind
+of gain some momentum falling so she
+of gain some momentum falling so she
+of gain some momentum falling so she
+comes to a faster stop once you kind of
+comes to a faster stop once you kind of
+comes to a faster stop once you kind of
+lands at the bottom of her skip all we
+lands at the bottom of her skip all we
+lands at the bottom of her skip all we
+need to do is grab our handle and pull
+need to do is grab our handle and pull
+need to do is grab our handle and pull
+this to be a much tighter landing for
+this to be a much tighter landing for
+this to be a much tighter landing for
+that bone right there and as you can see
+that bone right there and as you can see
+that bone right there and as you can see
+now our character lands with a little
+now our character lands with a little
+now our character lands with a little
+bit more weight so we want to go ahead
+bit more weight so we want to go ahead
+bit more weight so we want to go ahead
+and do that for the first time a
+and do that for the first time a
+and do that for the first time a
+character Lance as well making it nice
+character Lance as well making it nice
+character Lance as well making it nice
+and sharp so our character lands with a
+and sharp so our character lands with a
+and sharp so our character lands with a
+little bit more weight to her body the
+little bit more weight to her body the
+little bit more weight to her body the
+other thing we want to do is adjust the
+other thing we want to do is adjust the
+other thing we want to do is adjust the
+timing a little bit of a few of the
+timing a little bit of a few of the
+timing a little bit of a few of the
+bones not all of them just the center
+bones not all of them just the center
+bones not all of them just the center
+pelvic bone because right now is taking
+pelvic bone because right now is taking
+pelvic bone because right now is taking
+five frames to jump in the air and then
+five frames to jump in the air and then
+five frames to jump in the air and then
+ten frames to come to a landing which is
+ten frames to come to a landing which is
+ten frames to come to a landing which is
+pretty fakie looking because gravity
+pretty fakie looking because gravity
+pretty fakie looking because gravity
+will be pulling you down on a jump just
+will be pulling you down on a jump just
+will be pulling you down on a jump just
+as fast as you're going up so we need to
+as fast as you're going up so we need to
+as fast as you're going up so we need to
+adjust that and that is where we want to
+adjust that and that is where we want to
+adjust that and that is where we want to
+go to the dope sheet like I showed
+go to the dope sheet like I showed
+go to the dope sheet like I showed
+earlier so we'll switch from the graph
+earlier so we'll switch from the graph
+earlier so we'll switch from the graph
+editor here over to the dope sheet zoom
+editor here over to the dope sheet zoom
+editor here over to the dope sheet zoom
+in here a bit drop this down so to make
+in here a bit drop this down so to make
+in here a bit drop this down so to make
+our character float a little bit less in
+our character float a little bit less in
+our character float a little bit less in
+the air we're gonna grab the Y bone here
+the air we're gonna grab the Y bone here
+the air we're gonna grab the Y bone here
+in our dope sheet and on our first jump
+in our dope sheet and on our first jump
+in our dope sheet and on our first jump
+here it should land on the ground a
+here it should land on the ground a
+here it should land on the ground a
+little bit quicker than ten frames so
+little bit quicker than ten frames so
+little bit quicker than ten frames so
+what we're gonna do is we're gonna grab
+what we're gonna do is we're gonna grab
+what we're gonna do is we're gonna grab
+the falling animation there and we'll
+the falling animation there and we'll
+the falling animation there and we'll
+pull it over three frames so it's
+pull it over three frames so it's
+pull it over three frames so it's
+landing at frame seven now instead of
+landing at frame seven now instead of
+landing at frame seven now instead of
+frame ten and I'm gonna go to the next
+frame ten and I'm gonna go to the next
+frame ten and I'm gonna go to the next
+jump here and when do the same thing
+jump here and when do the same thing
+jump here and when do the same thing
+where we're gonna pull this frame over
+where we're gonna pull this frame over
+where we're gonna pull this frame over
+about three frames so our character
+about three frames so our character
+about three frames so our character
+lands on the ground a little bit faster
+lands on the ground a little bit faster
+lands on the ground a little bit faster
+after her jump so just with those two
+after her jump so just with those two
+after her jump so just with those two
+key frames offset you can already see
+key frames offset you can already see
+key frames offset you can already see
+that the animation looks a lot better
+that the animation looks a lot better
+that the animation looks a lot better
+now the other thing that you can
+now the other thing that you can
+now the other thing that you can
+actually tweak in the graph editor that
+actually tweak in the graph editor that
+actually tweak in the graph editor that
+makes animating really easy as I can see
+makes animating really easy as I can see
+makes animating really easy as I can see
+here I think maybe her feet a little bit
+here I think maybe her feet a little bit
+here I think maybe her feet a little bit
+too far spread apart I think it might be
+too far spread apart I think it might be
+too far spread apart I think it might be
+a little bit nicer looking if they're a
+a little bit nicer looking if they're a
+a little bit nicer looking if they're a
+little bit closer together so what you
+little bit closer together so what you
+little bit closer together so what you
+can do is you can switch now from the
+can do is you can switch now from the
+can do is you can switch now from the
+dope sheet back to the graph editor foot
+dope sheet back to the graph editor foot
+dope sheet back to the graph editor foot
+bone selected to make it easy we'll just
+bone selected to make it easy we'll just
+bone selected to make it easy we'll just
+turn off the visibility of all the
+turn off the visibility of all the
+turn off the visibility of all the
+different locations except for the X
+different locations except for the X
+different locations except for the X
+location over here leaving just the X
+location over here leaving just the X
+location over here leaving just the X
+location the one selected so then on the
+location the one selected so then on the
+location the one selected so then on the
+graph editor I can hit a to just select
+graph editor I can hit a to just select
+graph editor I can hit a to just select
+all of the X location keyframes and then
+all of the X location keyframes and then
+all of the X location keyframes and then
+if I hit G and Y you can
+if I hit G and Y you can
+if I hit G and Y you can
+I can move the location of that X
+I can move the location of that X
+I can move the location of that X
+keyframe anywhere wants along the x-axis
+keyframe anywhere wants along the x-axis
+keyframe anywhere wants along the x-axis
+and this is really great because you
+and this is really great because you
+and this is really great because you
+keep all of the keyframe animation data
+keep all of the keyframe animation data
+keep all of the keyframe animation data
+and you're just tweaking all of those
+and you're just tweaking all of those
+and you're just tweaking all of those
+keyframes along one access so by hitting
+keyframes along one access so by hitting
+keyframes along one access so by hitting
+G and Y and then holding shift to make
+G and Y and then holding shift to make
+G and Y and then holding shift to make
+just a very minor change I can pull that
+just a very minor change I can pull that
+just a very minor change I can pull that
+leg in a little bit closer and I think
+leg in a little bit closer and I think
+leg in a little bit closer and I think
+that just looks a little bit better I
+that just looks a little bit better I
+that just looks a little bit better I
+can do the same thing with the other
+can do the same thing with the other
+can do the same thing with the other
+foot there and just pull that leg in a
+foot there and just pull that leg in a
+foot there and just pull that leg in a
+little bit tighter there something like
+little bit tighter there something like
+little bit tighter there something like
+that and now you can see as our
+that and now you can see as our
+that and now you can see as our
+character moves the legs are a little
+character moves the legs are a little
+character moves the legs are a little
+bit tighter together and I think that
+bit tighter together and I think that
+bit tighter together and I think that
+just looks a little bit more natural so
+just looks a little bit more natural so
+just looks a little bit more natural so
+now you can spend as much time as you
+now you can spend as much time as you
+now you can spend as much time as you
+like going through and tweaking this
+like going through and tweaking this
+like going through and tweaking this
+animation if you maybe want the head to
+animation if you maybe want the head to
+animation if you maybe want the head to
+kind of rock with the animation you
+kind of rock with the animation you
+kind of rock with the animation you
+could rotate that a little bit at the
+could rotate that a little bit at the
+could rotate that a little bit at the
+peak of the jump and now you can see you
+peak of the jump and now you can see you
+peak of the jump and now you can see you
+have a little bit of head movement
+have a little bit of head movement
+have a little bit of head movement
+making that look a little bit more
+making that look a little bit more
+making that look a little bit more
+natural adding a little bit of rotation
+natural adding a little bit of rotation
+natural adding a little bit of rotation
+along the Y to the hips to kind of have
+along the Y to the hips to kind of have
+along the Y to the hips to kind of have
+them twist a little bit as the body
+them twist a little bit as the body
+them twist a little bit as the body
+twists with the legs can look nice and
+twists with the legs can look nice and
+twists with the legs can look nice and
+what's just doing a little bit of
+what's just doing a little bit of
+what's just doing a little bit of
+tweaking on your character you can see
+tweaking on your character you can see
+tweaking on your character you can see
+that you now have a nice sort of
+that you now have a nice sort of
+that you now have a nice sort of
+skipping animation going on and if you
+skipping animation going on and if you
+skipping animation going on and if you
+wanted to turn off the rig just hit the
+wanted to turn off the rig just hit the
+wanted to turn off the rig just hit the
+little eyeball up there so you can see
+little eyeball up there so you can see
+little eyeball up there so you can see
+what the character looks like without a
+what the character looks like without a
+what the character looks like without a
+rig so there's our finished basic
+rig so there's our finished basic
+rig so there's our finished basic
+character animation we have a nice
+character animation we have a nice
+character animation we have a nice
+little skipping character jolly Jolly
+little skipping character jolly Jolly
+little skipping character jolly Jolly
+skipping along the road here and this
+skipping along the road here and this
+skipping along the road here and this
+was a lot of fun to do so that's the
+was a lot of fun to do so that's the
+was a lot of fun to do so that's the
+basics of character animating inside a
+basics of character animating inside a
+basics of character animating inside a
+blender this is just a simple animation
+blender this is just a simple animation
+blender this is just a simple animation
+that we whipped up in what twenty thirty
+that we whipped up in what twenty thirty
+that we whipped up in what twenty thirty
+minutes not too much work at all and as
+minutes not too much work at all and as
+minutes not too much work at all and as
+you can see it's a ton of fun to play
+you can see it's a ton of fun to play
+you can see it's a ton of fun to play
+around with if this is to normal of an
+around with if this is to normal of an
+around with if this is to normal of an
+animation for you though you just grab a
+animation for you though you just grab a
+animation for you though you just grab a
+center bone and really get the character
+center bone and really get the character
+center bone and really get the character
+stretch and going on but I hope you guys
+stretch and going on but I hope you guys
+stretch and going on but I hope you guys
+enjoyed this video created some cool
+enjoyed this video created some cool
+enjoyed this video created some cool
+animations and as I said we now have
+animations and as I said we now have
+animations and as I said we now have
+these CG geeks discord server so if you
+these CG geeks discord server so if you
+these CG geeks discord server so if you
+created some animation and you want some
+created some animation and you want some
+created some animation and you want some
+feedback on it go ahead and join our
+feedback on it go ahead and join our
+feedback on it go ahead and join our
+discord server hanging out with me and
+discord server hanging out with me and
+discord server hanging out with me and
+thousands of others CG artists where
+thousands of others CG artists where
+thousands of others CG artists where
+we're all creating cool things together
+we're all creating cool things together
+we're all creating cool things together
+and sharing what we creates over there
+and sharing what we creates over there
+and sharing what we creates over there
+so now I encourage you to go ahead and
+so now I encourage you to go ahead and
+so now I encourage you to go ahead and
+create some more extreme animations
+create some more extreme animations
+create some more extreme animations
+here's one that I worked out in an
+here's one that I worked out in an
+here's one that I worked out in an
+evening the other day and as you can see
+evening the other day and as you can see
+evening the other day and as you can see
+it's just a lot of fun to get some more
+it's just a lot of fun to get some more
+it's just a lot of fun to get some more
+extreme animating and that's where you
+extreme animating and that's where you
+extreme animating and that's where you
+really need the character blocking to
+really need the character blocking to
+really need the character blocking to
+make sure you hit all those key poses
+make sure you hit all those key poses
+make sure you hit all those key poses
+throughout an animation like this and
+throughout an animation like this and
+throughout an animation like this and
+here's another walk cycle that I made
+here's another walk cycle that I made
+here's another walk cycle that I made
+using the character rig just a lot of
+using the character rig just a lot of
+using the character rig just a lot of
+fun to play around with different styles
+fun to play around with different styles
+fun to play around with different styles
+of walks and whatnot so I hope you had
+of walks and whatnot so I hope you had
+of walks and whatnot so I hope you had
+some fun learning how to animate
+some fun learning how to animate
+some fun learning how to animate
+characters in blender if you did I
+characters in blender if you did I
+characters in blender if you did I
+appreciate that thumbs up and let me
+appreciate that thumbs up and let me
+appreciate that thumbs up and let me
+know if you had any comments in the
+know if you had any comments in the
+know if you had any comments in the
+comment section below
+comment section below
+comment section below
+but now I must go so I will see you all
+but now I must go so I will see you all
+but now I must go so I will see you all
+at
+at
+at
+other time mother

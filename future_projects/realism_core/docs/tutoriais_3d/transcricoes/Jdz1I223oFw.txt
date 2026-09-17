@@ -1,0 +1,42 @@
+How about we turn any image into a 3D
+model? Isn't that just dope? To get some
+images, you can go to Pinterest, search
+for anything interesting to you, make
+the search on front face, then save the
+ones you like. Now, we need to take this
+image we saved and drop it on this site
+which is fully free. We do this to
+generate a depth map, a kind of map to
+determine the distance of the surfaces
+from the viewer. White is close surface
+while black is far.
+So open the image here. Wait for it a
+few seconds and you will get this heat
+map. So switch to the second option for
+the depth map. We can also increase
+ensemble size to max for better quality.
+So do that. Hit apply and save the depth
+map with right click and save image.
+Next, in Blender, let's clear the scene.
+Then, from the add menu, go to image
+mesh plane or what used to be known as
+image as plane. Pick it and choose the
+image from Pinterest to import it to the
+scene. We need some subs on this plane.
+So, right click in edit mode and
+subdivide. Might go up to 40 or 50. Once
+you're done, go to the modifiers and
+look for the displace one. Add it on the
+plane. Then hit new and click on this
+show texture icon.
+Here we can open the depth map. Switch
+the color space to non-color. Then back
+to the displayplace modifier. Put the
+coordinates on UV and adjust the
+strength to fit. A subdivision surface
+modifier is needed here to smooth the
+shape. And you can adjust the level
+based on the details. And that's it.
+Hope you have fun with it. Like and sub
+for more dope and drop any question in
+the comments. Stay sharp. Goodbye.

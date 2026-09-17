@@ -1,0 +1,489 @@
+Kind: captions
+Language: en
+hey guys um welcome to my first tutorial
+hey guys um welcome to my first tutorial
+hey guys um welcome to my first tutorial
+in unity I'm still a bit little bit um
+in unity I'm still a bit little bit um
+in unity I'm still a bit little bit um
+still don't really know much about Unity
+still don't really know much about Unity
+still don't really know much about Unity
+but I know enough to uh teach you how to
+but I know enough to uh teach you how to
+but I know enough to uh teach you how to
+make a simple um game in unity um the
+make a simple um game in unity um the
+make a simple um game in unity um the
+game I'm going to be showing you today
+game I'm going to be showing you today
+game I'm going to be showing you today
+how to make the style is going to be um
+how to make the style is going to be um
+how to make the style is going to be um
+Borderlands Borderland style and I
+Borderlands Borderland style and I
+Borderlands Borderland style and I
+figured I'd celebrate the opening not
+figured I'd celebrate the opening not
+figured I'd celebrate the opening not
+really the opening but the release of of
+really the opening but the release of of
+really the opening but the release of of
+um Borderlands so first thing I'm going
+um Borderlands so first thing I'm going
+um Borderlands so first thing I'm going
+to
+to
+to
+do I went a little bit ahead of you I'm
+do I went a little bit ahead of you I'm
+do I went a little bit ahead of you I'm
+going to go to terrain I'm going to
+going to go to terrain I'm going to
+going to go to terrain I'm going to
+create terrain I'm going to select my
+create terrain I'm going to select my
+create terrain I'm going to select my
+terrain I'm going to go over here where
+terrain I'm going to go over here where
+terrain I'm going to go over here where
+it's paint texture I'm going to go edit
+it's paint texture I'm going to go edit
+it's paint texture I'm going to go edit
+textures and add
+textures and add
+textures and add
+texture I'm going to click this little
+texture I'm going to click this little
+texture I'm going to click this little
+Dot and I'm going to click it and I'm
+Dot and I'm going to click it and I'm
+Dot and I'm going to click it and I'm
+going to go good dirt ah
+going to go good dirt ah
+going to go good dirt ah
+sorry yeah I'll go good good good dirt
+sorry yeah I'll go good good good dirt
+sorry yeah I'll go good good good dirt
+okay so I'm going to click add it's
+okay so I'm going to click add it's
+okay so I'm going to click add it's
+going to show up like that it's going to
+going to show up like that it's going to
+going to show up like that it's going to
+show up a bit different for you but I
+show up a bit different for you but I
+show up a bit different for you but I
+have tune shading enabled and
+have tune shading enabled and
+have tune shading enabled and
+I'll this is what you do I'll post the
+I'll this is what you do I'll post the
+I'll this is what you do I'll post the
+um file in the
+um file in the
+um file in the
+description you go to my documents or
+description you go to my documents or
+description you go to my documents or
+wherever your project is saved and you
+wherever your project is saved and you
+wherever your project is saved and you
+go assets standard assets um tune
+go assets standard assets um tune
+go assets standard assets um tune
+shading sources and shaders and you
+shading sources and shaders and you
+shading sources and shaders and you
+should see four of these lighted outline
+should see four of these lighted outline
+should see four of these lighted outline
+lighted basic outline basic
+lighted basic outline basic
+lighted basic outline basic
+um I'm going to place basic outline in
+um I'm going to place basic outline in
+um I'm going to place basic outline in
+it right
+it right
+it right
+here terrain um that's the file that I'm
+here terrain um that's the file that I'm
+here terrain um that's the file that I'm
+going to give to you um all you need to
+going to give to you um all you need to
+going to give to you um all you need to
+do is place it in there and boom the
+do is place it in there and boom the
+do is place it in there and boom the
+terrain
+terrain
+terrain
+changes so I'm going to edit the texture
+changes so I'm going to edit the texture
+changes so I'm going to edit the texture
+a little bit and I'm going to go edit
+a little bit and I'm going to go edit
+a little bit and I'm going to go edit
+texture I'm going to change this to 100
+texture I'm going to change this to 100
+texture I'm going to change this to 100
+CU it like corrupts the way the texture
+CU it like corrupts the way the texture
+CU it like corrupts the way the texture
+is I'm going to change that to about 50
+is I'm going to change that to about 50
+is I'm going to change that to about 50
+actually oh no 550 okay so now I'm going
+actually oh no 550 okay so now I'm going
+actually oh no 550 okay so now I'm going
+to press apply so now all shall be like
+to press apply so now all shall be like
+to press apply so now all shall be like
+that I'm going to place our character
+that I'm going to place our character
+that I'm going to place our character
+controller our first person controller
+controller our first person controller
+controller our first person controller
+right in the
+right in the
+right in the
+map so you should see he's right there
+map so you should see he's right there
+map so you should see he's right there
+going to move him up a little bit and
+going to move him up a little bit and
+going to move him up a little bit and
+I'm going to go down here near movement
+I'm going to go down here near movement
+I'm going to go down here near movement
+I'm going to change the max forward
+I'm going to change the max forward
+I'm going to change the max forward
+speed to 12 and the max sideways speed
+speed to 12 and the max sideways speed
+speed to 12 and the max sideways speed
+to 12 I'm going to leave the backwards
+to 12 I'm going to leave the backwards
+to 12 I'm going to leave the backwards
+speed like that you can change it as
+speed like that you can change it as
+speed like that you can change it as
+much as you want
+um okay so now it's like that now
+um okay so now it's like that now
+um okay so now it's like that now
+jumping I'm going to double this and
+jumping I'm going to double this and
+jumping I'm going to double this and
+double
+double
+double
+that save my scene so now when you
+that save my scene so now when you
+that save my scene so now when you
+play You're jumping
+play You're jumping
+play You're jumping
+around next thing we're going to do
+around next thing we're going to do
+around next thing we're going to do
+we're going to actually add
+we're going to actually add
+we're going to actually add
+mountains so we're going to click on the
+mountains so we're going to click on the
+mountains so we're going to click on the
+terrain and we're going to go over here
+terrain and we're going to go over here
+terrain and we're going to go over here
+going raise a lower terrain and I'm
+going raise a lower terrain and I'm
+going raise a lower terrain and I'm
+going to choose a brush and I'm just
+going to choose a brush and I'm just
+going to choose a brush and I'm just
+going to click and it's going
+going to click and it's going
+going to click and it's going
+to build me a big giant
+Mountain build as many as you want I'm
+Mountain build as many as you want I'm
+Mountain build as many as you want I'm
+only going to build
+only going to build
+only going to build
+like that's too big that's way too
+like that's too big that's way too
+like that's too big that's way too
+big change
+just to give a little bit of
+landscape so as you can see it's like
+that kind of looks good I think I'm
+that kind of looks good I think I'm
+that kind of looks good I think I'm
+going to change the texture on the
+going to change the texture on the
+going to change the texture on the
+terrain a little bit so going to go edit
+terrain a little bit so going to go edit
+terrain a little bit so going to go edit
+texture change from that from Good Dirt
+texture change from that from Good Dirt
+texture change from that from Good Dirt
+to not that regular dirt there we go
+okay
+okay
+okay
+um next thing I'm going to do is I'm
+um next thing I'm going to do is I'm
+um next thing I'm going to do is I'm
+going to import an object and I'm G
+going to import an object and I'm G
+going to import an object and I'm G
+to make it so it's cell shaded or tuny
+to make it so it's cell shaded or tuny
+to make it so it's cell shaded or tuny
+shaded so I'm going to
+shaded so I'm going to
+shaded so I'm going to
+go assets import new asset but since I
+go assets import new asset but since I
+go assets import new asset but since I
+already imported it I'm just going to
+already imported it I'm just going to
+already imported it I'm just going to
+select it and I'm going to drag it in I
+select it and I'm going to drag it in I
+select it and I'm going to drag it in I
+already set the texture up and
+already set the texture up and
+already set the texture up and
+everything you don't have your texture
+everything you don't have your texture
+everything you don't have your texture
+set up you click on that skin or
+set up you click on that skin or
+set up you click on that skin or
+whatever the model name is
+whatever the model name is
+whatever the model name is
+where it has materials select materials
+where it has materials select materials
+where it has materials select materials
+you
+you
+you
+select and you go Shader you click on
+select and you go Shader you click on
+select and you go Shader you click on
+Shader down here and you go to tune
+Shader down here and you go to tune
+Shader down here and you go to tune
+basic
+outline sorry I just messed up
+outline sorry I just messed up
+outline sorry I just messed up
+there t this got
+there t this got
+there t this got
+one and you select your texture right
+one and you select your texture right
+one and you select your texture right
+there crap I messed up
+basic outline
+yeah
+crap I kind of messed up there I don't
+crap I kind of messed up there I don't
+crap I kind of messed up there I don't
+know what I
+know what I
+know what I
+did all right so so you select your
+did all right so so you select your
+did all right so so you select your
+texture I'm just going to select my
+texture I'm just going to select my
+texture I'm just going to select my
+skin my texture for it Cube map I'm
+skin my texture for it Cube map I'm
+skin my texture for it Cube map I'm
+going to do tuny
+going to do tuny
+going to do tuny
+lighting so now it shows up like that
+lighting so now it shows up like that
+lighting so now it shows up like that
+I'm going to scale it way down doesn't
+I'm going to scale it way down doesn't
+I'm going to scale it way down doesn't
+need to be that
+big I'm going to put it out in the
+big I'm going to put it out in the
+big I'm going to put it out in the
+landscape kind of like at the top of
+landscape kind of like at the top of
+landscape kind of like at the top of
+this
+this
+this
+mountain kind kind of like in the middle
+mountain kind kind of like in the middle
+mountain kind kind of like in the middle
+this is going to be part of a town cuz
+this is going to be part of a town cuz
+this is going to be part of a town cuz
+this is going to be made into a game
+this is going to be made into a game
+this is going to be made into a game
+eventually so there's your model added
+eventually so there's your model added
+eventually so there's your model added
+to it so you just added your model to
+to it so you just added your model to
+to it so you just added your model to
+the
+game
+game
+game
+so models right
+so models right
+so models right
+there if you want Collision you select
+there if you want Collision you select
+there if you want Collision you select
+your model you go component physics and
+your model you go component physics and
+your model you go component physics and
+a mesh Collider your mesh you select
+a mesh Collider your mesh you select
+a mesh Collider your mesh you select
+your mesh
+name oh oops I selected the wrong
+name oh oops I selected the wrong
+name oh oops I selected the wrong
+one mesh we're going to select it's
+one mesh we're going to select it's
+one mesh we're going to select it's
+going to be that
+going to be that
+going to be that
+one all right so now you got your
+one all right so now you got your
+one all right so now you got your
+um thing
+um thing
+um thing
+added and it should have
+Collision there you have have a basic
+Collision there you have have a basic
+Collision there you have have a basic
+Borderland Style game um I'm actually
+Borderland Style game um I'm actually
+Borderland Style game um I'm actually
+going to change the player height and
+going to change the player height and
+going to change the player height and
+I'm going to go render settings I'm
+I'm going to go render settings I'm
+I'm going to go render settings I'm
+going to change the Sky
+Box
+to overcast
+to so there you have it there you have
+to so there you have it there you have
+to so there you have it there you have
+your basic Borderland style shaded game
+your basic Borderland style shaded game
+your basic Borderland style shaded game
+uh
+uh
+uh
+I guess it's Borderland style it's I
+I guess it's Borderland style it's I
+I guess it's Borderland style it's I
+like to call it that cuz I feel like I
+like to call it that cuz I feel like I
+like to call it that cuz I feel like I
+accomplished something anyways um thanks
+accomplished something anyways um thanks
+accomplished something anyways um thanks
+for watching this video I really hope it
+for watching this video I really hope it
+for watching this video I really hope it
+helped it probably didn't but if it if
+helped it probably didn't but if it if
+helped it probably didn't but if it if
+it did help please leave a comment
+it did help please leave a comment
+it did help please leave a comment
+please leave a little like in the
+please leave a little like in the
+please leave a little like in the
+description which you probably won't
+description which you probably won't
+description which you probably won't
+change the player hype by the way go
+change the player hype by the way go
+change the player hype by the way go
+over here type into what you
+over here type into what you
+over here type into what you
+want do
+that player is tall now I can walk
+that player is tall now I can walk
+that player is tall now I can walk
+around around customize your game
+around around customize your game
+around around customize your game
+however you would like um if you want to
+however you would like um if you want to
+however you would like um if you want to
+you can send um I'm going to do a little
+you can send um I'm going to do a little
+you can send um I'm going to do a little
+more tutorials for this probably maybe
+more tutorials for this probably maybe
+more tutorials for this probably maybe
+if enough people like it
+if enough people like it
+if enough people like it
+um please if you want to you can leave a
+um please if you want to you can leave a
+um please if you want to you can leave a
+link to your game in the descri and a
+link to your game in the descri and a
+link to your game in the descri and a
+comment or something or even uh message
+comment or something or even uh message
+comment or something or even uh message
+me your game and I'll check it
+me your game and I'll check it
+me your game and I'll check it
+out and if you have any problems
+out and if you have any problems
+out and if you have any problems
+just send me a message or leave a
+just send me a message or leave a
+just send me a message or leave a
+comment and I'll try and help as best as
+comment and I'll try and help as best as
+comment and I'll try and help as best as
+I possibly can I really hope this helped
+I possibly can I really hope this helped
+I possibly can I really hope this helped
+it probably didn't but I don't care um
+it probably didn't but I don't care um
+it probably didn't but I don't care um
+Goodbye Oh
+Goodbye Oh
+Goodbye Oh
+God all right so I think that looks
+God all right so I think that looks
+God all right so I think that looks
+pretty cool so I'm just going to exit
+pretty cool so I'm just going to exit
+pretty cool so I'm just going to exit
+this now

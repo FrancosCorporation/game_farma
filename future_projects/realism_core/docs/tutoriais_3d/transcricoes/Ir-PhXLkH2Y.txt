@@ -1,0 +1,967 @@
+when you're selling something like a
+shirt or a cell phone nice photography
+can make all the difference
+the same idea applies to showing off
+your character models
+in this video we will learn to make a
+simple setup so you can make a bunch of
+nice attractive renderings
+and the setups are all saved so you can
+go back and make revisions because well
+who doesn't like doing revisions
+if that's interesting to you do please
+hit that like button and away we go
+here we have a brand new blender file
+and this will be our example character
+for this tutorial
+but any rigged character will do fine
+okay let's get started
+let's go to our render settings here and
+set this to Cycles turn on GPU if you
+have a decent GPU or the viewport
+settings this is fine if you set this
+higher like 0.1 it'll be pretty quick to
+update
+for the renderers
+I think 512 is okay 0.01 that's okay
+make sure we've got denoise turned on
+okay let's name these collections here
+this is our character
+let's make a new collection by right
+clicking and hitting new collection and
+type in scene and let's
+start making our scene We'll add a
+backdrop first shift a to add mesh and
+plane tab to go to edit mode a to select
+all s and then type 3 to scale times
+three hit G and Y to move it in Y type
+in 1.5 to move it back a bit
+then hit 2 to go to Edge mode and click
+control click control click
+e to extrude Z to move that in Z and
+type in four
+let's go to modifiers and add a sub D
+like that let's
+add a couple here
+go back into edit mode with tab go to
+face mode with three a to select all
+face shade smooth here we go
+and then let's go
+to Edge mode again hit Ctrl r
+and hover around the front here and then
+scroll the mouse wheel up
+to add a couple cuts
+um
+enter to drop it s x to pull that out a
+bit
+same thing here Ctrl r
+let's add just one cut
+enter g z to pull that down a bit
+then
+hit alt Z to go to x-ray
+go to Edge mode with one
+grab that and g y negative two
+click and I think that's a nice backdrop
+let's add some color to this backdrop so
+let's make sure we have it selected go
+to this materials panel here click new
+we'll call this backdrop
+and let's make it some kind of color so
+some thoughts on color
+so if you pick a contrasting color to
+what you want your focus to be then
+it'll make it pop more
+and that's what I want to do here so her
+skin is kind of uh
+you know orange so the opposite of
+orange would be a blue I think
+let's see here
+this is kind of skin kind of area like
+that so the opposite would be
+this kind of a teal color so it should
+theoretically make her pop more
+and then let's make this a lot darker
+and I think that works pretty good
+let's also
+turn up the roughness
+like that and let's drop the saturation
+so it just looks
+sorry the specular so it looks darker
+well I know I said to contrast it but
+just play with it and see what you like
+but in general if you kind of contrast
+to what your focal is then this should
+pop more I like I like this better and I
+want to do saturate it
+so you can roll the saturation back a
+bit like that let's make it a bit darker
+okay let's add um
+let's add an environment so let's go to
+our shading workspace here
+and
+let's get
+rid of this window
+and let's make
+this window here or Shader editor
+and then go to world
+foreign
+to show you something I'm not going to
+use but it's super useful so I'm going
+to show it to anyway so shift a s c o o
+r d for texture coordinates
+shift a s m a p p for mapping
+and shift a s e n v
+environment texture so generated into
+vector vector to Vector color to color
+and so we're going to do is attach a
+hdri environment to this here
+so this way you can instead of using
+these default ones you can go to world
+and use your own pink means there's
+nothing here right now so let's go and
+add that
+I like to get my hdris from
+polyhaven.com this is not a paid
+advertisement but this is a great
+website it's free and you can click on
+hdris here
+and you can find some hdris you can use
+I'm going to pick
+I like these Studio ones it kind of
+feels like it works good for studio
+photography
+and I'll grab this one here and just
+click download I have already downloaded
+this I won't do it again but there on
+patreon so definitely support them if
+you can if you are able to
+put back in blender click on open I've
+already saved this to this folder so
+just click that here and click open
+and we have our hdri
+set up here you can kind of see
+it's all in the background and all so
+all this lighting here
+for this environment will affect the
+model if you rotate the environment you
+can see it will affect the lighting
+as you can see it changes how it looks
+so this this is actually really nice it
+can get you some pretty decent renders
+right off the bat
+but we're going to go with a little more
+custom control
+so we're going to turn that off
+but this is very useful I use it a lot
+so I wanted to show you that
+okay
+let's go back to our modeling workspace
+here
+and let's exit edit mode
+and now let's add in some lights
+let's make sure we are in our
+scene here our scene collection
+shift a we're going to add a controller
+for our lights so let's go and pick
+these arrows so we're going to
+use this to easily move all of our
+lights together let's call this light
+pivot
+and let's shift a again go to
+lights shift a light here we go an area
+area lights are nice because they make a
+nice kind of soft light for our
+character
+and let's
+world and seeing lights
+this way we can see
+it's a this is a closer
+rendition of what the lights will look
+like
+g z to move that up
+and then
+our X oops okay so let's move let's
+rotate this light
+around the 3D cursor so the 3D cursor
+basically if you hold shift and right
+click this little circle moves around
+and then if you set the transform mode
+to
+3D cursor
+let's go here transform to 3D cursor
+when you rotate something
+it rotates around that 3D cursor
+so it's it's kind of weird at first but
+it becomes very useful when you get used
+to it
+so let's put this back into the origin
+shift
+a and one oops shift s and one shift s
+brings up the controls for moving the 3D
+cursor the things related to that to
+that so shift s and one
+and then grab that RX
+say 45.
+and then let's click the light control
+click the light pivot that we just made
+control oops control p and object
+so now when we click the light pivot and
+rotate in Z you can see it moves the
+light
+and it's
+more useful when you have more than one
+light so let's go and create some basic
+lights shift d r
+put that one roughly here shift d
+R and put that one roughly there
+now when we grab our light pivot and r z
+you can see it moves them all together
+it just this is kind of a nice quick way
+to move things
+okay so that's good let's also add our
+camera
+we're going to add another empty shift a
+let's add a different looking one we'll
+make it like a
+you know
+plain axes
+so it looks a little bit different
+call this camera
+pivot
+okay
+now let's shift a
+and add our camera
+I want to zero this camera out so let's
+just do this go here type in zero zero
+zero
+this way we know we start off nice and
+square
+let's rotate this on the X and hit 90.
+let's move this by local this is the
+this is the uh
+frame of reference or the orientation
+for how objects are moved if you hit
+this to Global it moves things and X and
+Y and Z based on this here
+if you do by local it moves it by the
+objects whatever object you have it's
+inherent x y and z
+so it's a little a little confusing
+but um
+once you get used to that also it
+becomes very intuitive so I'm going to
+move this and this object's own z-axis g
+z
+you can see it goes back
+versus if you go in global and hit
+g z it moves it up and down
+a little weird I know
+so let's just move that to there for now
+and then let's click the camera control
+click camera pivot Ctrl p and object
+let's also add another empty
+this is going to be where the camera
+focuses on so shift a empty and let's
+make it a
+cone
+something that just stands out let's
+scale this down a bit
+call this
+camera Focus
+I like to do this because
+it's a nice visual way to set the camera
+like where the camera is focusing on
+because I like to use lots of depth of
+field
+let's grab our camera here go to camera
+settings here
+and click on depth of field
+pick this here and pick camera Focus
+that'll control the depth of fuel for
+the camera so it's not where the camera
+looks at it's where the camera focuses
+at I hope that makes sense I'll show you
+in a second
+but this is this is our basic setup so
+now let's go and tweak things to get
+everything the way we want to be so
+let's do a couple things here
+let's make a separate window
+and to hide that
+two to hide that two to hide that
+it's also drag up from here
+and create a timeline
+window and let's drag that across so we
+have a bigger timeline so this is this
+is how you do animations this is um
+this is the simple version there's lots
+of depth for animation but this is just
+the basics so if you um
+click this here this goes into recording
+mode
+so now so right now if you slide this
+nothing moves
+um this is what frame you're on so right
+now we're at frame zero if we go here
+it's kind of like moving it's like
+hitting the play button it goes forward
+and nothing's moving
+if you grab an object
+and hit I and go to location rotation
+scale it sets a keyframe for that object
+so now this
+this keyframe
+tells blender to put this camera
+in this location and in this rotation
+for frame 0.
+so if we go to frame 30
+and hit G and move this and rotate it
+it'll tell blender to put the camera in
+this location of rotation at frame 30.
+so now if you go back here
+and go through the timeline you can see
+it's it this is how it controls
+animation
+okay so let's go and delete that if you
+click so you can grab
+um
+grab this keyframe here and hit X and
+you can delete the keyframe okay
+so what we're going to do here and and
+when you leave us on whenever you move
+the object on a different um
+actually wherever you are whenever you
+move it with this record turned on it'll
+set a keyframe so it's a it's a nice
+easy way to like
+automatically set keyframes
+so let's go back to zero
+and
+with the camera selected we're gonna if
+you click this here you can
+see what the camera sees
+like that
+and so
+anything outside you don't see anything
+inside this box you do see it let's hit
+n to make that go away
+and so let's just basically get this
+into a generic setup so we can tune our
+lights and our camera
+so let's click this here this is the
+camera pivot hit
+let's transform by global and hit gz and
+you can see as we move
+the camera pivot it also moves the
+camera because it's grouped and in the
+right window here this this camera view
+you can see
+that it's changing what we're looking at
+so let's just put this focus at our face
+we'll we'll tweet this more later
+let's put this into
+a shaded view so we can see a little bit
+better
+okay
+and let's hit insert to toggle all this
+um
+the overlays same as clicking this here
+so you can kind of see a little bit
+better
+I forgot one more light sorry
+so um
+this light will not be attached to the
+background uh to the light pivot it's
+just going to be floating in the
+background so that's
+shift right click on that background so
+we just create a little pivot there
+transform pivot there shift a and let's
+do a
+light and an area light
+you can see you can see it over here too
+that's R and X to pull it back
+and then go to
+g y
+g x and let's rotate Let's uh rotate
+this around bounding box center which is
+the center of the object you're holding
+and 30. so this just
+so we can see what's going on in the
+background
+background light
+let's look at the camera controls a bit
+so if we click our camera pivot I like
+to use this part for all the pivot
+functions so
+RZ it goes left and right or RX it goes
+up and down I like to have this on local
+so that way it's always moving in
+relation to the camera's own axes
+and for zooming in and out
+I like to use the actual camera so hit
+gz goes in and out
+and then
+to Y to come down a bit
+for um
+rendering faces I find it's useful to
+set this really high so I go to like 300
+I find this is nice because it doesn't
+distort
+the facial features as much
+this is another
+photography thing
+okay it's pretty good let's adjust our
+focus camera Focus let's go to our side
+view here
+the X-ray again
+oops must have moved
+put that right there
+let's pull the camera back a bit you can
+actually click if you have overlays on
+you can click this here
+and since they're moving around local
+you can hit g z even in this window
+and you can pull the camera back
+so that's pretty good here
+and let's do some of our light setup
+okay back to our camera again here
+let's grab our camera
+and let's zoom in so we can see a bit
+better
+as I said I like to use lots of depth of
+field so let's go and
+set this to like
+what so these are
+f-stop and blades and rotate all this is
+um camera
+lingo
+so I don't know it exactly but I know if
+you lower this it makes it blurrier so
+let's
+more blurry
+okay
+probably too blurry but
+let's do that so we can see how this
+Focus works so remember our little um
+cone here so that's our Focus
+and if we go to the side view
+okay this is another thing that's um
+another trick here so I want to go to
+the side view and I want to move the
+camera Focus
+you could go shift Z and in x-ray mode
+so you can see it this way
+but then everything is invisible and I
+don't like that
+so what you can do to get rid of this
+background
+select it
+Ctrl I and then hit slash
+to go to isolate mode so it's still
+there in this window but you don't see
+it in this left window so now let's go
+and grab our camera Focus let's go
+inside view by hitting X
+and then you can see let's zoom in here
+and let's hit insert to get rid of that
+overlay
+so now you can see
+get closer so now you can see as we move
+this around this little orange dot
+that's the middle of this cone so as you
+move this around you can see
+we're adjusting where it's focusing on
+um this is obviously too much depth of
+field so now let's adjust this to
+something more reasonable like
+yeah maybe that's good
+another thing we're going to do is we're
+going to group
+the focus to her face somewhere
+so let's
+grab the rig for our character
+go to edit mode with control tab let's
+grab
+bone to click onto so this is the head
+bone you can see it moves the head
+go here and
+copy this name Ctrl C
+TRL tab again to get out of there
+grab our camera Focus
+go to here
+get
+a child of constraint
+click this eyedropper and click our rig
+somewhere
+okay and then
+Ctrl V and paste in that head bone
+and it might move this uh
+um
+Focus might move way out there just
+click set inverse I have no idea why it
+does that but it does
+and so now let's see if this works so
+let's go back into our front view you
+see the hair back here is blurry but her
+eyes are in focus
+now if you grab your character go into
+pose mode grab our pelvis
+and move her closer or further you can
+see it stays in focus to where her eyes
+are
+then you can tweak it once you get your
+pose and your camera angle set up
+let's get our lights set up
+let's actually hide this again Ctrl I
+slash let's go to our render preview
+mode
+so we can see the actual lighting
+then let's hide these two lights
+you can
+grab them go to the outliner hit number
+pad period
+and you can see them and you can hide
+them like that
+okay so let's mess with this main light
+here
+grab that
+let's rotate it
+okay I want to rotate this around
+the light pivot
+so let's grab a light pivot
+let's actually move this around
+our point of Interest
+and then hit shift s and two so you snap
+the 3D cursor to
+the light pivot then grab this guy
+transform around 3D cursor
+we have this set to local and then our X
+you can pull this down a bit
+then go to top view and rotate this to
+the side of it so you have just a little
+bit of Shadow for her nose
+I think that's pretty good
+then we can
+balance this out a bit with kind of a
+fill light
+so we'll hit shift d
+and rotate that
+like there
+let's make this
+a weaker light
+make this one a stronger light
+and let's make this light slightly
+warmer I think warm light it kind of um
+makes it look nicer
+I think
+it's kind of cool because you'll get a
+little bit of highlight with these um
+these area lights
+but it looks funny with it even so let's
+pull this one down a bit
+so
+r x and pull it down we're in local mode
+so we're local and transforming around
+the 3D cursor
+so let's do it like that a bit
+okay
+um uplighting is really hard to make
+things look good so if you pull a light
+below the face
+it starts to go up below our chin and it
+just it's really um
+you can do it but it's just hard to make
+it look good so I like to keep it above
+the eyes
+let's make this 20.
+okay so that's kind of a nice even
+lighting
+let's call this key
+let's call this one fill
+okay
+so that's pretty good and let's work
+with our
+halo lights
+so we'll call this the rim light
+so this light here this is going to
+basically light the back of the head or
+back of the hair we'll get some of the
+shoulder
+so let's make this cool we're making
+this cool to
+um
+so we have warm lights in the foreground
+and cool in the background it'll create
+a sense of depth
+and this you can blow it really bright
+so let's try 150.
+okay
+too cool
+okay that's pretty good
+and so what you're trying to do with
+this light here is you're trying to just
+create a
+and then a Halo of like of light so
+right here how it's getting just the
+outer edge of the shape lit that's kind
+of nice
+but we're focusing more on the head here
+so let's try and get this look here on
+the hair
+to rotate that back a bit now over here
+a bit
+let's hit RX to pull it down a bit
+gets a little bit better
+and pull it out of it
+okay that's looking pretty good
+I think it might be even a little bit
+too bright
+okay that's good
+then let's work with our last Light here
+so this is
+this is kind of a rim light also
+so let's see here we'll call this Rim
+cool
+and this will be rim
+neutral
+okay so let's make this like 50 so it's
+weaker than the other one
+get this
+creating some form on the very edges I
+think it's pretty good
+and then another thing I like to do
+especially with um shiny hair I like to
+bring out some of the highlights so this
+is another thing you can try hit shift d
+to duplicate that
+let's call this spin neutral highlight
+make the size like 0.001 so it's super
+small
+and make the power like 100
+and so what this will do is this will
+create um
+let's just create some shininess on
+these lights
+and you can control it too so you have
+your
+your Rim light here your neutral Rim
+light to kind of create that bit of core
+this highlight you can create
+a bit of glossiness
+so you can see you can move it around a
+bit
+and get it to be where you want maybe 75
+I'm just trying to find a spot where it
+kind of accentuates those um Curves in
+her hair
+um don't go so far where it hits the
+front of the face because this is a very
+harsh light and so it'll create um
+strong shadows and you don't want that
+for face photography it's kind of nice
+to have very soft lighting so let's pull
+that back there
+and maybe go
+like
+here
+so now we've got some
+nice definition for the perimeter and
+light for the front I think the front
+light is not even it's not strong enough
+so let's
+make this like 30.
+40 and like
+15.
+okay so I think that's um no maybe like
+10. this the shadow here is too even so
+it looks funny
+you want the shadow to be um
+more biased to one side let's put back
+to seven
+okay okay so this is our basic setup for
+our camera and for our lighting
+I mentioned that we're going to save all
+of our setups so let's talk about that a
+bit so the way we do that is with
+animation so if you grab everything here
+let's save our default location for
+everything so grab everything hit I
+location rotation and scale
+and let's grab our character Also let's
+grab her rig she actually has two rigs
+one for her hair and one for her body
+go to pose mode with control tab hit I
+uh a i location rotation scale
+so she is saved and this
+A-frame position
+and all the lights are saved in this
+location so we can always
+go back to this Frame and grab it again
+to reset everything
+let's go to say frame five let's do our
+first shot
+I'm going to guess that your goal for
+creating renderings of your character
+are to either sell the greatness of your
+character or to sell
+the greatness of your ability to create
+a gray character
+one challenge with this is that when
+people are reviewing all these
+renderings or submissions or designs
+there there's not a lot of attention
+span to to look at these things or or
+they might be saying like hundreds of
+these things so
+it's really important to show as few
+images as possible but to have each one
+be as impactful as possible
+and what I found worked well is to do a
+portrait shot of the character's face
+and to do a full body shot
+I've also found that it's valuable to
+use facial expression or an interesting
+body position to generate either
+excitement or to make the rendering
+speak to the viewer so so it just it
+becomes that much more powerful so let's
+go and do that
+so let's go to frame five here and let's
+set a pose we can make this
+in this preview mode so it's faster
+so this is like you
+you just pose your character how you
+like it
+so you can go and
+you know set your pose however you want
+so it's kind of interesting I like to
+use hands for expression a lot
+okay so it's something
+something like that
+okay I think that post is pretty good
+enough at least for the tutorial
+um then we can tweak our lights so let's
+go to your scene and grab the light
+pivot
+so you can kind of just rotate this and
+see if anything helps it too harsh
+or you can rotate them individually
+let's see grab our
+light pivot
+shift s and two to bring the 3D cursor
+to the middle of the pivot
+and then grab
+the lights
+so it's the neutral here
+let's transform around 3D cursor and
+rotate a bit
+or like that
+let's transform around local and hit gz
+to pull it back a bit
+so it's not as harsh
+I'm gonna mess with that little uh
+highlight
+okay I think that's pretty good
+and then you can go to your renderer
+get your settings this is set to 0.01
+512 is okay you can set your resolution
+so 1920 by 1080 is pretty standard you
+can do it higher if you want to crop in
+I'll set this to 100 so it just renders
+one to one
+just click render which is F12
+I usually render at 200 percent so
+there's some extra
+pixels to work with but for the demo
+let's just do this pretty quickly
+okay so that's our first rendering it's
+could be better you can see the depth of
+field effect where the hair is blurry
+and the uh the eyes are sharp it kind of
+adds a nice sophisticated portrait
+photography look and uh the facial
+expression and the hand gesture and the
+body pose it just makes it more
+interesting or appealing to people so I
+think it's um I find it very valuable to
+do stuff like this
+so let's go and do another rendering
+okay so let's do our second rendering
+let's make sure we're um have everything
+saved again
+I can't see the camera here if you can't
+see the camera it's either overlays is
+turned off
+you can see here you can toggle
+um
+extras is for
+lights and cameras and things or it
+might be turned off here which it is
+turned off there so if you can turn it
+on here you can see
+it reappears
+and
+so there's no keyframe for this camera
+let's grab everything
+I
+location rotation scale
+okay so now we know there's a keyframe
+on this
+so we can always go back to it
+okay frame 10. so this will be our full
+body shot
+um and
+let go and grab the camera
+transform around local gz to pull way
+out
+t y
+foreign
+turned off here too
+there you go
+gy 2C
+and then let's grab our camera set
+camera pivot
+and our X
+and g y
+Okay so
+so one way to do it is to do a standing
+full body shot where you can see the
+whole character do an interesting pose
+and that that's that works pretty good
+um personally I find that
+when you're away is zoomed out like this
+you just can't see a lot of the
+character and so I like to get closer on
+the character
+it's a little more dramatic to me
+and so to do that what I like to do is I
+like to make the character sitting or
+something
+so let's go and do that so let's um
+shift right click here shift a let's
+just add a cube I would usually have a
+chair or something but we'll just use a
+cube so bring the cube in here shift
+click the background Ctrl L to copy the
+materials and Link materials
+again it's probably better to like
+put something logical there but instead
+of just a cube
+let's just use a cube
+okay
+got a cube there and let's make her
+sitting
+grab this
+okay this background's getting in the
+way again
+Ctrl I and slash to isolate
+then let's go and make her sit
+settings always um it's actually kind of
+difficult oops it's going to pose mode
+here
+sittings sitting is actually difficult
+characters aren't usually rigged to sit
+nicely
+usually they just run around
+but you can fake it by using
+angles or points of view
+to hide where it looks funny
+okay let's pose her head
+let's set the camera see what we're
+looking at here first
+g z
+so you can see um it's it's just I find
+it more interesting to see
+the character sitting
+you can get
+the character bigger on the screen I
+mean usually I would get even closer I'd
+probably
+do something like that and just skip the
+shoes
+but I know a lot of times people want to
+show the whole body so let's
+let's do something like that
+a little static looking at the front
+like that let's um
+let's rotate the camera bit camera pivot
+I think it's nicer like that
+and I think her feet are clipping
+so let's keep working on the pose and
+let's make her face
+have a nice expression
+have happy eyes yeah she's kind of
+squinting oh look she's so happy nice
+and let's tweak the lights a bit so
+let's exit pose mode go to our light
+pivot
+top view
+and rotate it a bit and see if we can
+quickly get a nice light
+uh
+okay that's kind of good I think the um
+Rim neutral let's adjust that a little
+bit
+it's kind of hard to see what's going on
+but this is the camera
+and it's rotating around itself we don't
+want that we want to rotate around the
+pivot
+so let's grab our light pivot again hit
+shift s and 2 to move our 3D cursor
+then go and grab our light again and
+transform around
+3D cursor
+okay
+Let's Get Closer with this
+not too much let's grab that highlight
+see where it looks good
+okay this cube is really really boring
+and it's throwing the balance for the
+whole composition off so let's
+just mess with it a little bit here
+let's go to point mode just so it's a
+little more centered
+you could do off an asymmetric layout a
+lot of times I'll
+do an asymmetric layout so we can put
+copy on one side and the image on the
+other but let's just let's just do this
+um before we render it I do want to show
+you
+that um if you if you have something
+selected that has keyframes
+so for example this has key this does
+not have keyframes here so let's hit a
+I location rotation scale okay so now
+this light that we have selected
+has keyframes for frame 10 5 and 0. if
+you hit up and down arrow it'll jump
+between the keyframes
+so what you can do is if you want to
+if you um
+want to go back and change that first
+rendering you can just jump to this
+Frame here and you can go back and edit
+this image
+so it's a nice way to like kind of
+bookmark your renderings and save it all
+in one file
+but let's go and render this and see how
+it looks okay render number two
+okay here is render number two
+you can't see the full body or you can't
+see the standard A-frame pose but I
+think it has more um more visual
+interest and more
+um connection to people so I do think
+that doing things this way is more
+valuable
+hopefully this was helpful to you leave
+a comment to let me know what you
+thought or like or subscribe or better
+yet support me on patreon
+and I hope to see you in the next
+tutorial
+thanks

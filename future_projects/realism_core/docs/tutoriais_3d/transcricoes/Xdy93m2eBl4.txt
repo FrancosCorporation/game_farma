@@ -1,0 +1,951 @@
+welcome back everyone I hope you have
+been keeping up and successfully
+completed the character body model today
+we are diving into the fun part creating
+3D model of t-shirt shorts and cap and
+hair for our character a jacket shoes
+glasses and more will be tackled in the
+next session this is one of those
+lighter chapters in between the intense
+sessions where you can just use the
+modeling knowledge you picked up in the
+beginners introduction series and have
+easy time and maybe even improvise a
+little I'm Ram from Cross mine studio
+and you're tuning into chapter number
+five of of animated character creation
+series I hope you are enjoying this
+series and can't wait to see your
+version of character for this complete
+course including bonus chapters project
+files and other useful things check out
+the premium version so details hard keys
+PDF and more are in the description
+let's Dive Right
+In
+so let's start with the t-shirt it's
+going to be pretty easy first I'm going
+to select the character body and uh go
+to the edit mode and select all the
+faces somewhere in between till the
+upper arm abdomen and uh till here the
+neck part press control plus and expand
+your
+selection and uh yeah till about here
+now I don't want this much of
+neck yeah till here I want so once you
+have these faces selected press shift d
+to duplicate these selected faces and
+within this uh edit mode I'm going to
+use a separate command all right and I'm
+going to name this
+t-shirt I'll select this go to the edit
+mode select all the faces and expand
+this a little there's a tool shrink and
+fatten you can select this and drag it a
+little just so that there's a bit of
+offset between the body and the T-shirt
+just a little bit all right now these
+edges that we had made for to define a
+bit of uh ABS select these press delete
+and disolve these edges because we don't
+really need all that for the T-shirt so
+any editing you want to do at this
+moment just keep it on the left side so
+we can symmetrize it on the right side
+and uh this shoulder these faces I can
+select these
+edges press delete dissolve these
+edges select this middle Edge and push
+it up a little you can select everything
+symmetrize from minus X which is min - x
+here to plus X so all that is copied to
+the right side as well so this seems
+fine now what I want to do is uh extend
+this t-shirt all the way till
+here let me just select global
+mode SZ
+sz0 to straighten this
+sz0 so this seems fine let me see with
+without the smooth modifier what is
+happening here so maybe few more Loops
+here and uh just want to make sure
+everything is uh equally distributed
+this seems fine as well I'm going to
+save the fire just light view these few
+of these Edge Loops to create a even
+distribution of the mesh now there's a
+difference when you're modeling for body
+and when you're making clothes so this
+Edge was helping Define the area around
+the spine so we don't really need all
+that here so we can uh relax these a
+bit so double tapping G is letting me
+slide these
+edges sliding edges maintains the shape
+and uh at the same time you can uh
+manipulate it a little so whenever
+fixing the topology slide will keep the
+volume maintained I think one more Loop
+here should do the
+trick so right about here here on the
+neck part we can uh start arranging
+these in a slightly more circular
+formation for the
+neck just like this Loops here look a
+bit stretched out so I'm just going to
+add one Loop here and slide this a
+little do the same at the back of the
+T-shirt control one for rear view this
+is back view and just make a slight
+rounder
+formation
+as you can see I'm only working on the
+one side of the T-shirt you can always
+delete half of the t-shirt and apply
+mirror modifier again might won't be
+necessary we are just making a fewer
+changes here the other reason is I'm
+going to do a bit of sculpting uh for
+the cloth filter so in a moment I I will
+be needing the full t-shirt instead of
+just the half one with mirror modifier
+to run the simulation on it all right
+symmetrize there you go and uh then we
+can select this entire Loop
+relax this a bit with this smooth
+tool let's extrude this and scale it
+down let's try to work on the neck
+formation round
+colar and here as well I can use a bit
+of smooth just trying to keep it round
+and clean so it looks pretty
+good going to add one more Loop here
+with
+controlr and uh I think we are more or
+less done but one thing is at this
+moment this t-shirt looks a bit stiff so
+we can use few Dynamic modeling tools to
+give it a bit of relaxation like it's
+actually worn by a person so there's a
+thing in sculpt tool if you go to the
+sculpt tool
+here let me apply this smooth uh
+subdivision surface thing so that we
+have a little more mesh to run the
+simulation of the cloth
+now in the sculpt mode control tab
+sculpt mode if you scroll down all the
+way till here there's a cloth filter
+tool just click on this we are going to
+do a very minor adjustment with this
+first select the body and uh in the
+dynamic properties click on collisions
+so in this I'm going to define the
+thickness of the cloth point two select
+the T-shirt control tab sculpt mode and
+let's go back to cloth filter and here
+you have multiple options so I just want
+this cloth filter to work with gravity
+to fall down a little so increase the
+brush size and use collisions so that it
+uses this Collision of the body now once
+I start dragging this click and move it
+to the right you'll see the cloth is
+falling down now you'll have to decide
+where to stop instead of dragging tools
+the right waiting for this entire tissue
+to stretch and fall down I'm going to
+shake it a little like up and down up
+and and down and just wiggle it a little
+just a little dab so that it it just
+rests on the body and that's all we need
+so just give it a few attempts and it
+should work so at this moment it looks
+fine I just don't want to overdo this so
+all these edges here feels like it's
+resting on the arm so this feels much
+better so I'm going to go to the edit
+mode and fix any of the overlapping
+faces just use the proportionate editing
+to remove any penetrations and and avoid
+these overlapping areas symmetrize
+again I'm just checking what is
+happening here in the T-shirt yeah
+because of symmetri I guess there is a
+bit of stupid thing happening I can
+select these faces Control Plus control
+minus to expand it and reduce it and
+then just get rid of these
+faces and grid fill this this is fine I
+can merge at Center and get rid of this
+stupid vertex here dissolve vertices
+maybe I made some mistake while I was
+doing symmetrize contrl save contrl s
+and uh let's see
+symmetrize yeah this is fine so t-shirt
+seems fine now right about here let's
+see if I can use Loop tool for circular
+formation
+Circle disable
+flatten yeah this looks much more
+circular much smoother than manually
+arranging these vertices Loop tools are
+really handy you just need to make sure
+when you use a circle from the loop tool
+to disable the flatten otherwise it's
+going to flatten the entire circle let's
+try and do the same for this other Edge
+Loop where we are going to create round
+neck circle circle from uh loop tools
+and somewhere in between I think this
+should work uh just about this much so
+if you're not sure where to find the
+loop tool it's in edit preferences
+add-ons Loop tool just enable this okay
+you can find it on the your special
+context menu right click or in the edit
+section all right controlr add Loop
+contrl
+B add
+bevel and ALT e extrude along normals
+this should create a separation for the
+seam now let's see if this is better
+than
+before there's too much Gap I'm just
+going to slide the entire Edge
+Loop and try to reduce this a bit just
+trying to keep it subtle yeah looks fine
+and for the Border I'm going to select
+this extrude it scale it down push it
+down a little extrude it again scale it
+down push it down a little bit of fabric
+thickness you can say here so right here
+these Corners are sort of stretching
+colors so I think maybe if I add one
+more Loop here it might help for this to
+relax basically this will reduce the
+tension a little that should be enough
+let's try and do the same for the
+sleeves of the
+arms just going to add one Edge Loop
+here select the Border Edge Loop extrude
+it scale it
+down and extrude again I just want these
+to have bold round borders with the
+proportionate editing scale this entire
+thing here something like this and then
+let's do the same thing here as well
+create one bevel and add two more
+segments in
+between extrude it inside to create a
+seam going to repeat the same process at
+the border of the T-shirt uh right right
+at the bottom let's see what do we have
+here uh maybe first I'll create a
+thicker
+fabric just add one uh loop here and
+scale it down let's disable the
+proportionate
+editing and uh just like this scale it
+down extrude it up again exactly what we
+did in the sleeves and then add one more
+Edge Loop
+here create a
+bevel just going to disable the uh
+subdivision surface for now just going
+to add one more Loop here for seam a bit
+of
+separation and maybe extrude this in or
+add another loop Loop and manually move
+it inside just observe if it's too harsh
+then keep it one Loop the more edges you
+add the stronger the harsher it's going
+to
+get I'm just going to select everything
+symmetrize again all right so t-shirt
+part is done we're just temporarily
+going to add a simple material to see
+how this looking in the
+render uh it's all right uh I think we
+can jump onto the next part let's put
+some pants on this
+shorts to be exact the process going to
+be similar to what we did in
+t-shirt we are going to go to edit mode
+and see if we can extract something from
+within this let's select loop from the
+both side
+control+ separate
+selection select everything and expand
+this with the shrink and
+fat there you go let's get rid of uh
+half of this
+and U let's use the mirror modifier to
+save all that trouble get rid of
+collision from this that we applied for
+the t-shir simulation since we made a
+duplicate from the same body then I'm
+going to move this mirror modifier right
+above the subdivision surface now let's
+simplify
+this so I'm going to get rid of this
+upper these
+Loops then select this entire Loop make
+a Extrusion e and move it above then
+scale it down s z to flatten this like I
+mentioned topology of cloth should be
+much simpler than body so we can
+simplify some of these Edge Loops let's
+see what all we can
+do we should remove these uh unnecessary
+faces let's select the entire thing
+control+ delete these
+faces and then create a fresh one
+extrude it and move it in X Direction
+Let's enable the
+clipping there you
+go let's see if we can get rid of these
+faces as
+well and do a GD fill grd fill often
+fills the area up with the simpler loops
+and uh now let's push it out and uh
+smooth this out a
+little
+just make sure it doesn't penetrate with
+the body and
+uh yeah I think we will have to
+straighten these pands a
+little so I'm going to select this last
+Loop here and
+uh push it down till here control R to
+add few rings keep the distribution even
+use slide tool double tap G then with
+the proportionate editing tool
+I'm going to straighten this up
+basically we don't want this these pants
+to conform too much to the body it
+should fall down straight so hit o for
+proportionate
+editing then I'm going to just simplify
+a few of these Loops maybe add one here
+and get rid of this one uh which is
+unnecessary rerouting for for pands we
+don't need
+that let's smooth this out a little
+little more uh it looks bit bulky at the
+back so just going to straighten
+this something like this and
+then let's add one Bel Loop here and
+then slide of these below a little to
+make more room for it straighten this up
+s
+z and then just just trying to remove
+unnecessary tension between these loops
+and relax it as much as
+possible yeah just keep using
+proportionate editing and uh and work on
+the overall
+shape I think the base mesh looks fine
+uh we'll add a little more details at
+the
+borders let me just shorten these a
+little about the knee
+length
+so the base meeses there for pads I do
+see a few problems especially right here
+there's a triangle going on which is
+creating this weird shape I can surely
+fix this let me see if I can find a
+suitable Loop for this so maybe if I
+select this Loop then this goes right
+here so instead let's see how this is
+circling around and I'm just trying to
+figure this out let me just get rid of
+this Edge first so I can think
+great so let's see if I can uh loop this
+one first so it's somehow is uh circling
+around yeah so instead of
+uh this connecting here it's going
+upwards so that's a
+problem so so this
+should this we should uh disconnect
+here dissolve
+Edge
+now we need to just
+find disconnect this
+one connect with
+this so some something I should have
+paid attention to but I can still fix it
+and uh one Loop is complete now I need
+to just take care of uh this half add
+one Loop here contrl R and
+then connect this broken Loop the half
+one that we had
+left so why I'm not skipping these parts
+is U the main point of this exercise is
+modeling something organic and all these
+are part of your daily routine when
+you're modeling something organic so
+fixing loops and everything thing so if
+I skip this part that defeats the
+purpose of this entire tutorial so
+fixing Edge Loops manipulating vertices
+fixing triangles and GS and all that
+it's part of our job and daily routine
+so making mistakes is something we we
+can't really prevent uh we can be
+careful but uh if something goes wrong
+we should know how to fix it so almost
+done I think uh that Loop which was
+circling around
+we have cleaned it up a
+little so just going to slide few of
+these and um even these
+out I'm going to select this entire
+thing and uh use the smooth option A it
+so pretty much done with it I'm just
+crosschecking everything uh removing
+penetrations uh yeah I think we
+are done with this part at any point if
+you feel if you have an instinct that
+this should have been like this or this
+step should have been like this you
+should try and do that it's not that
+everything I'm doing here it's a perfect
+process it's not a linear process
+jumping back and forth a bit jumping in
+between trying to fix previous mistakes
+making new things that's how it's going
+to
+work so for the base mesh this looks
+fine now what I'm thinking here is to
+have a little bit of folds so I'm just
+going to make a duplicate hide this as a
+backup then uh start preparing for these
+folds a little what I'm thinking is uh
+just add a loop here usually borders of
+the shs are slightly
+broader select this border extrude and
+scale it inside and then extrude again
+and move it up to make this border
+so a bit of seam I want to create
+here seems like uh one Ed is not
+enough we might have to do extrude along
+normals and create something more dense
+going to add one more Edge Loop here
+similar to what you see around the
+stitches in
+pants this is a bit much so this was
+looking a bit harsh so instead of
+extruding it I'm going to make one Loop
+and move it
+inside yeah something like this and then
+uh I can select this
+part move it out add one more Loop here
+add another one and maybe one more and
+then move it in and out and I just want
+to create uh this little thick area
+which you see around the stitches but
+this looks fine and uh maybe one more
+edge here and uh what I'm thinking is
+has a bit of folded look so for that I
+can um scale this down move it down like
+this and uh
+just maybe try to distort this a bit it
+looks way too rigid way too
+stiff so this is a bit uneven from
+here you can always use proportionate
+editing to fix things up
+so don't be too scared of uh leaving a
+few mistakes here and there everything
+can be
+fixed if you like detailing a bit too
+much what you can do is uh create a bit
+of offset between this and this scene so
+it it might look more natural so I think
+at this point you might have understood
+this basic process uh what we are doing
+making simple extrusions simple geometry
+and manipulating it so feel free to
+improvise a bit there's need of seams
+from this side as
+well so we can do the same thing here
+create a
+bevel create few more edges in
+between contrl R control B select this
+uh entire loop with alt alt e extrude
+along
+normal move it
+inside and there you
+go I think uh I'm going to add a few
+more loops around it and just trying to
+add that partition which you see around
+the stitches few more Loops to reinforce
+this area and let's see how it
+looks all right so more or less we are
+done don't forget to save your file you
+can try and do the same thing here as
+well bit of uh variation just make sure
+while you're doing this in case if
+you're using propor editing just select
+connected only otherwise it's going to
+project the entire thing on edges around
+it now here comes the bit of detailing
+part right
+here going to create a few more loops
+and uh move this out it's like cloth is
+bulging out a
+little
+so I'm going to move this
+up try to create a bit of
+a variation in
+surface so don't be shy of adding few
+more Loops because if you want some some
+details you'll have to add more
+resolution if there were finer details I
+could have used normal
+Maps but in this case these details are
+a bit junky and not really finer details
+which you
+expect normal map for that's the reason
+I'm thinking of not using the sculpting
+and getting into
+the all those
+complexities at this moment also at this
+stage for beginner level introduction
+video for character I think that might
+be too much we will talk about sculpted
+character once we uh make another Series
+where we are working on detail cin sort
+of a character so there's a workflow for
+every different kind of character so not
+necessarily always you have to use
+skirting for simple characters like this
+or if you're doing illustrations or
+maybe something for a simple ad or maybe
+just a poster or small animations you
+can just go ahead with poly
+modeling here I'm thinking that
+everything I'm doing is uh reflecting on
+the both both sides so it's because of
+the mirror I'm going to apply this this
+mirror modifier so that I can um create
+some variation in both sides it's
+usually advised that you keep the model
+symmetrical and uh which I think uh
+that's how it should be it ease out
+plenty of tasks likeing skin painting
+and all that so I'm risking it a bit at
+at the cost of detailing but feel free
+to keep it symmetrical and just stick
+with the symmetrical model with mirror
+modifier all right so shorts are done
+and uh one thing I completely forgot I
+think a bit more detail is required here
+for the zipper line so I'm just going to
+make a little more room here slide few
+of these edges and try to make a
+formation similar to zipper line all
+right so for the zip part we can
+uh create one seam line first and uh
+let's see how this works out first thing
+I'm going to do is create the
+same simply extrude that area out and
+uh I can select this entire Edge rip
+this apart press V to rip these edges
+now these are separate like this move it
+inside a
+little now let's see what more we need I
+think uh I'm going to slide few of these
+loops whates around this way to create
+that flap on the zip
+line I'm going to select these
+edges this entire Loop and uh press
+contrl B and this is going to create
+sort of a border and then add one Edge
+Loop and push it inside to create that
+scene a bit of
+Separation can't see much with wire mesh
+so I'm just going to disable wireframe
+and try again maybe a bit more subtle
+this
+time still finding it bit sharp so I'm
+just going to undo and try again create
+a wider bevel this time and uh maybe not
+that harsh
+Edge Let's
+see and right here I think there's a bit
+of Gap I'm going to
+fix
+now if you want you can also create the
+Belt part but we won't be seeing this uh
+underneath the T-shirt so I don't really
+want to overdo this but I'm pretty sure
+you can handle this just need to create
+a border extrude along the
+normal and uh do it twice to create a
+prominent Edge all right so I think we
+are done with this as well and we have
+t-shirt we have pants and this this is
+starting to look a bit more complete now
+let's work on the cap part a bit and
+then we can also add the hair
+strands cap is going to be quite simple
+actually just go to side view mesh UV
+sphere get rid of half of
+these not exactly half just one row less
+than
+half just want to make sure this is in
+the center shade uh
+smooth just going to select The
+centermost Edge at the
+top slowly trying to shape this
+up so there are going to be few hair
+strands right here so just want to leave
+a very little Gap so that there is no
+penetration between cap and hair strands
+so just want to leave a little Gap and
+uh then take the proportionate editing
+brush and uh make just make a few
+adjustment to conform it to the shape of
+head we can also get rid of half of
+these uh
+faces and use the mirror modifier for
+symmetry on the both sides so that we
+can work on just one side arrange these
+uh front vertices around the forehead in
+little Arc where we are going to create
+hood of the cap so just make a nice
+smooth Arc
+here now right about here I'm going to
+create a seam so from about here we can
+create a
+hood about this much just need to smooth
+it out a
+little and this seam right here first
+I'm going to get rid of this top Circle
+else this area might get too congested
+once once we create few
+bevels yeah so this seam right here we
+can uh bevel this with control B alt e
+extrude along normal and uh this looks a
+bit too much so instead of extruding
+this whole thing inside I'm manually
+going to create one Edge Loop here and
+move it inside a little so I don't think
+we need a two Loops
+here yeah so manually created a few
+faces here instead of extrude command
+this feels
+fine now the problem with extrude is uh
+you can't really solidify
+at this moment so if I make one extrude
+here it's creating a hollow surface
+extrude along normals I realized it a
+bit
+late so that's a problem because of this
+uh what I'm thinking is instead delete
+all of these faces and uh instead
+extrude
+this right here this entire Loop just
+make one extra Edge Loop to create this
+uh section uh from where where we are
+going to extrude the hood of the Gap and
+this way it's going to be solid and uh
+we can see the faces from the both sides
+so it looks all right
+now let's create a few
+loops and uh you can add a loop here as
+well to thicken this
+wall and uh yeah I think this might have
+solved it so that saved us and uh right
+here this entire Loop I'm simply going
+to extrude this and scale it down like
+this and extrude it again and push this
+up just sort of create one thick wall so
+I want this entire model to look soft
+and uh have no sharp edges at the top I
+can select this so grid fill is not
+working because uh it's half of the
+model and not complete Loop so I can
+apply this mirror modifier and then if I
+try
+to grid fill this
+this should
+work simple blending now here I'm going
+to create one simple
+Cube and this is where we are going to
+align the button of the cap let just
+bring a simple clean geometry and we are
+going to place it right here enter the
+edit mode let's get rid of half of this
+Cube and
+uh align it here just scale these Loops
+in and out to make the shape of the
+button if I insert these I may be able
+to create a rounder formation you can
+also try and get rid of these middle two
+edges that would work as well so just
+working based on observation just keep
+it round and soft and maybe we can add
+one uh seam right in the middle I think
+this should be
+enough this is done the last thing I'm
+thinking of doing here is uh select
+these four
+Loops select this
+area and
+uh move it down a
+bit just want to thicken this wall a
+little the Hood part basically and maybe
+add another Edge Loop to make a hard
+formation I think this should work but
+right now it looks a bit strange because
+we don't have hair for for the character
+so let's work on the hair part a little
+bit so I'm going to add few hair for
+this character and that's going to be
+pretty simple you have done so much here
+if you're following along let me give
+you something much easier to model this
+time so you can relax a bit Yeah so here
+we are going to add some n scurve so
+this is n scurve all right so if you
+extrude it so from the median point this
+is going to create a curve all right so
+I'm going to delete all of these ver
+veres in the edit mode control click
+here control click here so we have a new
+curve if you press V you can free these
+handles manipulate these curves if these
+are set to Vector everything is going to
+appear straight now we have this curve
+now all we need to do is uh create a
+profile curve so let's say if this was a
+hair strand we need a profile curve to
+make it a solid curve let's add one
+additional V curve for that in which we
+are going to create a profile of this
+hair strand going to delete the smooth
+curve and create a fresh vertices here
+with control click disable proportionate
+editing now just control click a few
+times and create some uh shape something
+like this something noisy and
+organic and uh now select everything
+free going to create a few sharp edges
+so just manipulate these handles and
+create few sharp Corners in between
+so what I'm doing here is creating a
+profile for hair uh sort of a Clum so
+it's not one hair it's a bunch of hair
+and uh like what you see in anime and
+later on we are going to work with the
+Shader to create some nice separation
+and find the strands now if you select
+this hair strand and uh go to the curve
+property here you have geometry section
+in Geometry you have three options
+create a simple round geometry uh
+interesting profile for the for the
+sides or you can add a different object
+which which should be a curve object to
+create a profile for this so now we have
+a profile curve and in the edit mode
+here oops I see a bit of offset I think
+that's to do with the origin so I think
+uh first I need to set the origin to
+center of this object origin to Geometry
+yeah now the profile will appear where
+where the curve is exactly so if you
+press alt s you can Define the radius of
+the curve alternatively you can see here
+in the N properties panel you will see
+tilt of the curve weight of the curve
+and radius of the curve here I'm going
+to leave the radius to one right here I
+see some sharp edges so what you can do
+is Select
+everything and in the interpolation you
+can use B
+spine this gives much smoother results
+you can also use Cardin that works as
+well so now we have hair strand you can
+isolate these and uh just see if you
+want to fix this so at this moment it
+appears way to thicker I'm going to
+reduce the
+thickness instead of shrinking
+everything down I'm going to move few of
+these
+manually so right here it looks a bit
+flat so I think it's this part I can
+subdivide this to add one more
+point and uh select these subdivide
+this add one more
+point so like this you have multiple
+hair so I want to keep it bulky softer
+this side appears a bit too
+flat this can be like this now exit the
+edit mode um isolation mode this right
+here I'm going to copy here object set
+origin to Geometry now I'm going to
+start placing these strands here for the
+character go to the edit
+mode and start fixing this around the
+the character's
+head so I don't plan to create the
+entire hairline since we have a cap for
+character and uh here you can use a tilt
+option to align press control t for
+that create a duplicate if you select
+all of these vertices and uh reduce the
+radius uh press alt s and scale this
+down you can create a thinner strand so
+take your time explore uh good hairstyle
+for your character and maybe sketch it
+out and then uh work on placements if
+you find exploring in 3D time consuming
+just carefully placing few strands uh we
+have to make a very few hair because uh
+the shape is pretty big and uh we don't
+really need to have too much density
+around these areas and we can control a
+lot in the Shader part shading part
+where we going to create nice finer hair
+um from these strands so yeah just uh
+don't try to overpopulate
+this just making sure there is a sort of
+roundness in in the hair strand and
+things are not flat so that it catches
+more light shift
+d scale this down and uh create one more
+strand just keep switching views so that
+uh the hair folds in different
+directions and it's not really flat
+smoother and rounder the curves are the
+more lights and specular it's going to
+catch so as soon as we put some hair for
+this character you'll see starting to
+look much more
+complete so with everything we are
+getting closer to finishing our
+character I'm just excited to see how
+this is going to look with the
+colors so there are many methods to
+create hair and hair strands some with
+particles some with
+curves and even geometry nodes can
+create hair strands so depending on kind
+of Animation you're dealing with if
+you're going for something realistic
+then obviously you'll have to go with
+the particle hair if you're going for
+something as stylized as this like the
+softer character with bold details then
+bulky hair strands will uh look good I
+guess and like I said there's much to be
+done in shading part so don't judge it
+as of now yeah so just keep making
+duplic GES with shift d of these hair
+strands twist it with the controll T and
+do a simple transformation uh just
+populate the rest of the area we are
+pretty much done and then you can uh
+select multiple of these in edit mode
+and uh tweak these together all right so
+for now I'm going to leave the hair as
+it is and we'll see after we apply the
+materials and everything how this turns
+out if needed we can always adjust
+things later since there's no color
+information at this moment so I don't
+want to make any unnecessary decisions
+with which I can't even judge without
+the colors so now the only things which
+are left is the shoes and the jacket all
+right so let's do that just in case if
+you want to make your previews a bit
+more exciting what you can do is uh
+since we haven't worked on materials or
+anything so every time you make a new
+object you have to assign a new material
+or the same material so instead of that
+just make an object just making a cube
+and
+here I'm going to name this a preview
+material so this preview material I can
+uh load in the in the passes view layer
+properties so right right here you'll
+see override so what will happen is if I
+enable the render preview right now it's
+going to show material which are
+assigned to model but if you go to
+override and select your preview
+material any material so everything will
+be shaded in the same material so this
+is going to override whatever material
+information is there on the model so
+this is a quick and easy way of uh sort
+of creating a clear render or something
+all the surfaces have the same color
+same shading so this is an quick and
+easy way and
+here I'm going to add a bit of
+subsurface scattering if you're using
+blender version 4.0 then instead of
+subsurface you'll have to tweak scale of
+subsurface so just keep that in mind a
+bit of a change in the principal bsdf
+node so so this video was recorded in
+during the alpha stage of uh blender 4.0
+but a bit of update shouldn't be too
+difficult so there you go you have a
+solid preview which which looks much
+better than having gray materials so
+this shows Contours a bit better so this
+is just a personal preference so that
+wraps up this session I'm trying to keep
+the chapters short and we'll continue to
+build on on this in the next one so
+let's jump to the next video and craft a
+nice jacket and shoe model the character
+model will start to look complete by the
+end of the next video but it's up to us
+how far we want to take it I can't wait
+to see what you guys are creating so do
+share your version of this model with me
+on social media or on the Discord links
+are in the description happy modeling
+jump to Discord server if you'd like to
+discuss anything related to this on
+channel dedicated to this series check
+pin command for frequently asked
+questions and problems check description
+for PDF of keyboard shortcuts discount
+coupons and other mentioned resources
+for this tutorial if you enjoyed this
+chapter do check out the full playlist
+and hope you continue all the way till
+the end also consider buying the premium
+version and unlock the additional
+chapters and project files and bonus
+content which will take you through the
+process of rigging with rigify creating
+a nice walk cycle animation creating
+secondary animations using plot physics
+and Bone constraints and rendering your
+entire project using Cycles Render
+engine share your work with me on
+Instagram tag me with insta cross mind
+and participate in discussion on Discord
+channel for this course links are in the
+description please give it a like And
+subscribe and stay tuned for more share
+your thoughts in the comment section and
+don't forget to share it with your
+colleagues and on social media to help
+us reach the wider audience thank you
+for all your support and love let's jump
+to the next video

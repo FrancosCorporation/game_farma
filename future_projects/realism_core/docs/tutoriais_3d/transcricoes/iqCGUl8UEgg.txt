@@ -1,0 +1,1720 @@
+Kind: captions
+Language: en
+Do you ever look through printables or
+Do you ever look through printables or
+Do you ever look through printables or
+Maker World and such and wonder, man, I
+Maker World and such and wonder, man, I
+Maker World and such and wonder, man, I
+wish I could create my own models, but
+wish I could create my own models, but
+wish I could create my own models, but
+it looks so hard. Well, fear not,
+it looks so hard. Well, fear not,
+it looks so hard. Well, fear not,
+because today we're going to give you a
+because today we're going to give you a
+because today we're going to give you a
+runthrough of a very, very basic
+runthrough of a very, very basic
+runthrough of a very, very basic
+workflow on how to create your own
+workflow on how to create your own
+workflow on how to create your own
+design. This is intended for absolute
+design. This is intended for absolute
+design. This is intended for absolute
+beginners. So, if you know a bit of
+beginners. So, if you know a bit of
+beginners. So, if you know a bit of
+modeling already, then this video is
+modeling already, then this video is
+modeling already, then this video is
+probably not for you. And because we're
+probably not for you. And because we're
+probably not for you. And because we're
+aiming for beginners, all of the
+aiming for beginners, all of the
+aiming for beginners, all of the
+software that you will see here is free
+software that you will see here is free
+software that you will see here is free
+and downloadable and open source. So, if
+and downloadable and open source. So, if
+and downloadable and open source. So, if
+you want to learn how to turn this into
+you want to learn how to turn this into
+you want to learn how to turn this into
+this, stay
+this, stay
+this, stay
+tuned. What you're about to see is my
+tuned. What you're about to see is my
+tuned. What you're about to see is my
+workflow. There's lots of ways to do
+workflow. There's lots of ways to do
+workflow. There's lots of ways to do
+this, and some ways might suit you
+this, and some ways might suit you
+this, and some ways might suit you
+better depending on what you're actually
+better depending on what you're actually
+better depending on what you're actually
+designing, but everything we're going to
+designing, but everything we're going to
+designing, but everything we're going to
+do today is going to be really, really
+do today is going to be really, really
+do today is going to be really, really
+basic. You don't need to have any
+basic. You don't need to have any
+basic. You don't need to have any
+experience with modeling software at all
+experience with modeling software at all
+experience with modeling software at all
+to do this. We're starting with Blender.
+to do this. We're starting with Blender.
+to do this. We're starting with Blender.
+Blender is free and open source and is a
+Blender is free and open source and is a
+Blender is free and open source and is a
+very versatile program. There are other
+very versatile program. There are other
+very versatile program. There are other
+programs out there for sure, but most
+programs out there for sure, but most
+programs out there for sure, but most
+are not free or if they give you a free
+are not free or if they give you a free
+are not free or if they give you a free
+version, it's not the whole thing. H
+version, it's not the whole thing. H
+version, it's not the whole thing. H
+there are limited features with these.
+there are limited features with these.
+there are limited features with these.
+With Blender, you have everything for
+With Blender, you have everything for
+With Blender, you have everything for
+free. So, let's start off with a cube.
+free. So, let's start off with a cube.
+free. So, let's start off with a cube.
+And pretty much everything you're going
+And pretty much everything you're going
+And pretty much everything you're going
+to make today will start off as a cube.
+to make today will start off as a cube.
+to make today will start off as a cube.
+Even if you need to make something
+Even if you need to make something
+Even if you need to make something
+spherical, you're using a
+spherical, you're using a
+spherical, you're using a
+cube. Our cube is made of points called
+cube. Our cube is made of points called
+cube. Our cube is made of points called
+vertices and lines connecting these. And
+vertices and lines connecting these. And
+vertices and lines connecting these. And
+when three or more vertices are joined,
+when three or more vertices are joined,
+when three or more vertices are joined,
+you have a polygon, the building block
+you have a polygon, the building block
+you have a polygon, the building block
+of all 3D models. The vast majority of
+of all 3D models. The vast majority of
+of all 3D models. The vast majority of
+modeling is simply manipulating these.
+modeling is simply manipulating these.
+modeling is simply manipulating these.
+So, let's do that. Right now, we only
+So, let's do that. Right now, we only
+So, let's do that. Right now, we only
+have six faces. But if we subdivide
+have six faces. But if we subdivide
+have six faces. But if we subdivide
+this, we'll have more. More polygons
+this, we'll have more. More polygons
+this, we'll have more. More polygons
+equal more ways to manipulate an object.
+equal more ways to manipulate an object.
+equal more ways to manipulate an object.
+But the more polygons we have, the more
+But the more polygons we have, the more
+But the more polygons we have, the more
+overwhelming this process is. We can't
+overwhelming this process is. We can't
+overwhelming this process is. We can't
+really move each face or vertex for a
+really move each face or vertex for a
+really move each face or vertex for a
+model that might have hundreds of
+model that might have hundreds of
+model that might have hundreds of
+thousands of these. I mean, we can, but
+thousands of these. I mean, we can, but
+thousands of these. I mean, we can, but
+don't don't do that. The most efficient
+don't don't do that. The most efficient
+don't don't do that. The most efficient
+way to make a highresolution model while
+way to make a highresolution model while
+way to make a highresolution model while
+only working with a handful of vertices
+only working with a handful of vertices
+only working with a handful of vertices
+is with modifiers. The first one we'll
+is with modifiers. The first one we'll
+is with modifiers. The first one we'll
+use is a mirror modifier. So, what we're
+use is a mirror modifier. So, what we're
+use is a mirror modifier. So, what we're
+going to do is select the left faces of
+going to do is select the left faces of
+going to do is select the left faces of
+this cube and just delete them. Then go
+this cube and just delete them. Then go
+this cube and just delete them. Then go
+over to the modifiers and select mirror
+over to the modifiers and select mirror
+over to the modifiers and select mirror
+and the axis along which those faces
+and the axis along which those faces
+and the axis along which those faces
+were
+deleted. Now we just have the vertices
+deleted. Now we just have the vertices
+deleted. Now we just have the vertices
+and the faces on one side to play with
+and the faces on one side to play with
+and the faces on one side to play with
+and the others will be generated
+and the others will be generated
+and the others will be generated
+automatically for us in a symmetrical
+automatically for us in a symmetrical
+automatically for us in a symmetrical
+fashion. So we don't need to worry about
+fashion. So we don't need to worry about
+fashion. So we don't need to worry about
+them. So what I do with one side it does
+them. So what I do with one side it does
+them. So what I do with one side it does
+with the other. The next one is called
+with the other. The next one is called
+with the other. The next one is called
+subdivision surface. This will subdivide
+subdivision surface. This will subdivide
+subdivision surface. This will subdivide
+the cube like we did before, but with a
+the cube like we did before, but with a
+the cube like we did before, but with a
+much higher factor. And it uses an
+much higher factor. And it uses an
+much higher factor. And it uses an
+algorithm to do this called catmol
+algorithm to do this called catmol
+algorithm to do this called catmol
+Clark. So, we only have a handful of
+Clark. So, we only have a handful of
+Clark. So, we only have a handful of
+polygons to play with, but Blender will
+polygons to play with, but Blender will
+polygons to play with, but Blender will
+create a much higher density mesh with
+create a much higher density mesh with
+create a much higher density mesh with
+these polygons. We're setting this to a
+these polygons. We're setting this to a
+these polygons. We're setting this to a
+factor of two for the minute, but at the
+factor of two for the minute, but at the
+factor of two for the minute, but at the
+end, you can raise it to whatever you
+end, you can raise it to whatever you
+end, you can raise it to whatever you
+want to get the perfect resolution for
+want to get the perfect resolution for
+want to get the perfect resolution for
+your needs. Okay, let's start
+your needs. Okay, let's start
+your needs. Okay, let's start
+manipulating things. I am going to
+manipulating things. I am going to
+manipulating things. I am going to
+design a chibi like robot. Very simple,
+design a chibi like robot. Very simple,
+design a chibi like robot. Very simple,
+very quick to do, very basic. He'll have
+very quick to do, very basic. He'll have
+very quick to do, very basic. He'll have
+a cubish head. So, not much needs to be
+a cubish head. So, not much needs to be
+a cubish head. So, not much needs to be
+done here except for an introduction on
+done here except for an introduction on
+done here except for an introduction on
+scaling and your best friend
+scaling and your best friend
+scaling and your best friend
+hotkeys. Just like a slicer, we can
+hotkeys. Just like a slicer, we can
+hotkeys. Just like a slicer, we can
+stretch out the model on each axis. To
+stretch out the model on each axis. To
+stretch out the model on each axis. To
+do this, select the model and press S
+do this, select the model and press S
+do this, select the model and press S
+and move the mouse to adjust. To do it
+and move the mouse to adjust. To do it
+and move the mouse to adjust. To do it
+along a single axis, click the model,
+along a single axis, click the model,
+along a single axis, click the model,
+press S, and the axis to stretch along.
+press S, and the axis to stretch along.
+press S, and the axis to stretch along.
+So, S and X for stretching on the X-axis
+So, S and X for stretching on the X-axis
+So, S and X for stretching on the X-axis
+and Y and Z for the others. Now, we can
+and Y and Z for the others. Now, we can
+and Y and Z for the others. Now, we can
+give it a bit more shape. Click on the
+give it a bit more shape. Click on the
+give it a bit more shape. Click on the
+face selection in the top left and
+face selection in the top left and
+face selection in the top left and
+leftclick a face to select it. You can
+leftclick a face to select it. You can
+leftclick a face to select it. You can
+then click and hold the axis selection
+then click and hold the axis selection
+then click and hold the axis selection
+tool. For the Z, it is the blue arrow.
+tool. For the Z, it is the blue arrow.
+tool. For the Z, it is the blue arrow.
+Click and drag to however you want it.
+Click and drag to however you want it.
+Click and drag to however you want it.
+You can also select multiple faces here
+You can also select multiple faces here
+You can also select multiple faces here
+as I'm doing. So, click one face to
+as I'm doing. So, click one face to
+as I'm doing. So, click one face to
+select and control and click the next
+select and control and click the next
+select and control and click the next
+and it will select both. Then I can
+and it will select both. Then I can
+and it will select both. Then I can
+scale both along the Z axis by pressing
+scale both along the Z axis by pressing
+scale both along the Z axis by pressing
+S and Z and adjusting with the mouse and
+S and Z and adjusting with the mouse and
+S and Z and adjusting with the mouse and
+we have a slightly rounded box shape.
+we have a slightly rounded box shape.
+we have a slightly rounded box shape.
+So, I want this robot's head to have
+So, I want this robot's head to have
+So, I want this robot's head to have
+sort of like a frame, like a screen. So,
+sort of like a frame, like a screen. So,
+sort of like a frame, like a screen. So,
+I'm going to duplicate this current
+I'm going to duplicate this current
+I'm going to duplicate this current
+shape by pressing Ctrl and D. It
+shape by pressing Ctrl and D. It
+shape by pressing Ctrl and D. It
+generates it. And I can move it out of
+generates it. And I can move it out of
+generates it. And I can move it out of
+the way by clicking and dragging on the
+the way by clicking and dragging on the
+the way by clicking and dragging on the
+red arrow, which is the X-axis selection
+red arrow, which is the X-axis selection
+red arrow, which is the X-axis selection
+tool. To have more control and add
+tool. To have more control and add
+tool. To have more control and add
+greater detail, I can add a loop cut by
+greater detail, I can add a loop cut by
+greater detail, I can add a loop cut by
+pressing controll and R. This will
+pressing controll and R. This will
+pressing controll and R. This will
+segment a loop of faces, basically
+segment a loop of faces, basically
+segment a loop of faces, basically
+dividing them with lines to give more
+dividing them with lines to give more
+dividing them with lines to give more
+faces which I can then manipulate and
+faces which I can then manipulate and
+faces which I can then manipulate and
+adjust. I'm selecting them like I did
+adjust. I'm selecting them like I did
+adjust. I'm selecting them like I did
+before with a controllclick option. And
+before with a controllclick option. And
+before with a controllclick option. And
+I'm going to extrude them out by
+I'm going to extrude them out by
+I'm going to extrude them out by
+pressing E and Y. This way I am
+pressing E and Y. This way I am
+pressing E and Y. This way I am
+extruding the selecting faces on the
+extruding the selecting faces on the
+extruding the selecting faces on the
+Yaxis only. I can also adjust the
+Yaxis only. I can also adjust the
+Yaxis only. I can also adjust the
+vertices themselves by controll-clicking
+vertices themselves by controll-clicking
+vertices themselves by controll-clicking
+to select whichever I want and moving
+to select whichever I want and moving
+to select whichever I want and moving
+them with the axis selection tool. Here
+them with the axis selection tool. Here
+them with the axis selection tool. Here
+I am just making sure the mirrored area
+I am just making sure the mirrored area
+I am just making sure the mirrored area
+lines up with the part I am adjusting so
+lines up with the part I am adjusting so
+lines up with the part I am adjusting so
+there are no sharp angles and everything
+there are no sharp angles and everything
+there are no sharp angles and everything
+is smooth. If you make a mistake like I
+is smooth. If you make a mistake like I
+is smooth. If you make a mistake like I
+have done here and the edge of your mesh
+have done here and the edge of your mesh
+have done here and the edge of your mesh
+wanders over to the mirrored area, you
+wanders over to the mirrored area, you
+wanders over to the mirrored area, you
+can put it back by selecting the vertex
+can put it back by selecting the vertex
+can put it back by selecting the vertex
+and in the top right click on the little
+and in the top right click on the little
+and in the top right click on the little
+tiny arrow which opens the transform
+tiny arrow which opens the transform
+tiny arrow which opens the transform
+toolbar. The edges of your mesh
+toolbar. The edges of your mesh
+toolbar. The edges of your mesh
+shouldn't wander over to the mirrored
+shouldn't wander over to the mirrored
+shouldn't wander over to the mirrored
+area. All of them should be at zero on
+area. All of them should be at zero on
+area. All of them should be at zero on
+the Xaxis. If it happens, it won't look
+the Xaxis. If it happens, it won't look
+the Xaxis. If it happens, it won't look
+good and you might also overlap
+good and you might also overlap
+good and you might also overlap
+surfaces, which is bad in modeling.
+surfaces, which is bad in modeling.
+surfaces, which is bad in modeling.
+Don't do that. Okay, let's leave that
+Don't do that. Okay, let's leave that
+Don't do that. Okay, let's leave that
+for the minute. We'll come back to it
+for the minute. We'll come back to it
+for the minute. We'll come back to it
+later. We're going to make some facial
+later. We're going to make some facial
+later. We're going to make some facial
+features now. So, do exactly what we did
+features now. So, do exactly what we did
+features now. So, do exactly what we did
+before with the cube, but this time, no
+before with the cube, but this time, no
+before with the cube, but this time, no
+mirroring. We're going to turn this cube
+mirroring. We're going to turn this cube
+mirroring. We're going to turn this cube
+into the robot's eye. Scale it on the Y
+into the robot's eye. Scale it on the Y
+into the robot's eye. Scale it on the Y
+to make it flatter, and adjust the edges
+to make it flatter, and adjust the edges
+to make it flatter, and adjust the edges
+to make it rounder to make a eyelike
+shape. Let's make it a bit angry. He's
+shape. Let's make it a bit angry. He's
+shape. Let's make it a bit angry. He's
+going to be an angry robot. Okay,
+going to be an angry robot. Okay,
+going to be an angry robot. Okay,
+perfect. Let's make the other eye by
+perfect. Let's make the other eye by
+perfect. Let's make the other eye by
+duplicating it and mirroring it by
+duplicating it and mirroring it by
+duplicating it and mirroring it by
+hitting Ctrl and M and then X. So, we're
+hitting Ctrl and M and then X. So, we're
+hitting Ctrl and M and then X. So, we're
+mirroring it on the Xaxis only. You can
+mirroring it on the Xaxis only. You can
+mirroring it on the Xaxis only. You can
+then click the duplicate and move it
+then click the duplicate and move it
+then click the duplicate and move it
+along the X by clicking and dragging the
+along the X by clicking and dragging the
+along the X by clicking and dragging the
+red
+red
+red
+arrow. To make it perfectly symmetrical
+arrow. To make it perfectly symmetrical
+arrow. To make it perfectly symmetrical
+with the other eye, press tab to go to
+with the other eye, press tab to go to
+with the other eye, press tab to go to
+the object mode. And in the transform
+the object mode. And in the transform
+the object mode. And in the transform
+toolbar in the top right, you can see
+toolbar in the top right, you can see
+toolbar in the top right, you can see
+where it is located on the X-axis.
+where it is located on the X-axis.
+where it is located on the X-axis.
+Select the value and press Ctrl + C to
+Select the value and press Ctrl + C to
+Select the value and press Ctrl + C to
+copy and then select the duplicate and
+copy and then select the duplicate and
+copy and then select the duplicate and
+press Ctrl +V to paste it in. Hit enter
+press Ctrl +V to paste it in. Hit enter
+press Ctrl +V to paste it in. Hit enter
+and it's perfect. To keep symmetry on
+and it's perfect. To keep symmetry on
+and it's perfect. To keep symmetry on
+the mirrored side, simply negate the
+the mirrored side, simply negate the
+the mirrored side, simply negate the
+number that you have on the right side.
+number that you have on the right side.
+number that you have on the right side.
+Now let's make the mouth. So make the
+Now let's make the mouth. So make the
+Now let's make the mouth. So make the
+cube just like we did before, no
+cube just like we did before, no
+cube just like we did before, no
+mirroring, and flatten it as before and
+mirroring, and flatten it as before and
+mirroring, and flatten it as before and
+stretch it out on the X-axis so it's
+stretch it out on the X-axis so it's
+stretch it out on the X-axis so it's
+just a line. Press tab to go to edit
+just a line. Press tab to go to edit
+just a line. Press tab to go to edit
+mode and we can manipulate the vertices
+mode and we can manipulate the vertices
+mode and we can manipulate the vertices
+to give him a bit of a grimace. Okay,
+to give him a bit of a grimace. Okay,
+to give him a bit of a grimace. Okay,
+new feature time. On the top of the
+new feature time. On the top of the
+new feature time. On the top of the
+screen, there is something called
+screen, there is something called
+screen, there is something called
+proportional editing. With proportional
+proportional editing. With proportional
+proportional editing. With proportional
+editing activated, grabbing the vertices
+editing activated, grabbing the vertices
+editing activated, grabbing the vertices
+will show a gray circle. This is the
+will show a gray circle. This is the
+will show a gray circle. This is the
+area of effect. Whatever you move will
+area of effect. Whatever you move will
+area of effect. Whatever you move will
+move everything in that circle along a
+move everything in that circle along a
+move everything in that circle along a
+proportional gradient, making organic
+proportional gradient, making organic
+proportional gradient, making organic
+curves a lot easier. Change as you wish.
+curves a lot easier. Change as you wish.
+curves a lot easier. Change as you wish.
+And then you may want to rotate things a
+And then you may want to rotate things a
+And then you may want to rotate things a
+bit. Do this by pressing tab to go to
+bit. Do this by pressing tab to go to
+bit. Do this by pressing tab to go to
+object mode and selecting the object you
+object mode and selecting the object you
+object mode and selecting the object you
+wish to rotate. Then hit R and whichever
+wish to rotate. Then hit R and whichever
+wish to rotate. Then hit R and whichever
+axis you want to rotate on. So, I'm
+axis you want to rotate on. So, I'm
+axis you want to rotate on. So, I'm
+pressing R and Y to rotate it on the
+pressing R and Y to rotate it on the
+pressing R and Y to rotate it on the
+Y-axis only. Looks
+Y-axis only. Looks
+Y-axis only. Looks
+nice. Okay, new cube. We're making ear
+nice. Okay, new cube. We're making ear
+nice. Okay, new cube. We're making ear
+type things this time. Do the same thing
+type things this time. Do the same thing
+type things this time. Do the same thing
+with the cube and flatten the cube along
+with the cube and flatten the cube along
+with the cube and flatten the cube along
+the X-axis. Select the center faces on
+the X-axis. Select the center faces on
+the X-axis. Select the center faces on
+each side and press S to scale. This
+each side and press S to scale. This
+each side and press S to scale. This
+time, however, we don't want to scale
+time, however, we don't want to scale
+time, however, we don't want to scale
+along the X-axis, just the Y and the Z.
+along the X-axis, just the Y and the Z.
+along the X-axis, just the Y and the Z.
+To do this, press S to scale and then
+To do this, press S to scale and then
+To do this, press S to scale and then
+shift and the axis you want to exclude.
+shift and the axis you want to exclude.
+shift and the axis you want to exclude.
+And now it is scaling on all axes but
+And now it is scaling on all axes but
+And now it is scaling on all axes but
+the axis you don't want. Now you can
+the axis you don't want. Now you can
+the axis you don't want. Now you can
+adjust to make the ear a bit rounder.
+adjust to make the ear a bit rounder.
+adjust to make the ear a bit rounder.
+I'm duplicating the object again and
+I'm duplicating the object again and
+I'm duplicating the object again and
+moving it a bit outward to complete the
+moving it a bit outward to complete the
+moving it a bit outward to complete the
+ear. Looks good. Now I just need them on
+ear. Looks good. Now I just need them on
+ear. Looks good. Now I just need them on
+the other side. So duplicate them like
+the other side. So duplicate them like
+the other side. So duplicate them like
+we did before and symmetriize them like
+we did before and symmetriize them like
+we did before and symmetriize them like
+we did with the eyes. Okay, new cube
+we did with the eyes. Okay, new cube
+we did with the eyes. Okay, new cube
+time. We're making the body now. Do the
+time. We're making the body now. Do the
+time. We're making the body now. Do the
+same thing with the cube, but we're
+same thing with the cube, but we're
+same thing with the cube, but we're
+mirroring now. And do exactly what we
+mirroring now. And do exactly what we
+mirroring now. And do exactly what we
+did before. Simply select the faces to
+did before. Simply select the faces to
+did before. Simply select the faces to
+make a body shape. We're going to keep
+make a body shape. We're going to keep
+make a body shape. We're going to keep
+this pretty basic. He's a robot. He
+this pretty basic. He's a robot. He
+this pretty basic. He's a robot. He
+doesn't need
+doesn't need
+doesn't need
+abs. To do the arms, we can select a
+abs. To do the arms, we can select a
+abs. To do the arms, we can select a
+couple of side faces and extrude them by
+couple of side faces and extrude them by
+couple of side faces and extrude them by
+pressing E and moving out with the mouse
+pressing E and moving out with the mouse
+pressing E and moving out with the mouse
+button. We can also make him a little
+button. We can also make him a little
+button. We can also make him a little
+animated like
+animated like
+animated like
+this. Okay. Select the bottom faces on
+this. Okay. Select the bottom faces on
+this. Okay. Select the bottom faces on
+the little stumps we just created and
+the little stumps we just created and
+the little stumps we just created and
+extrude out again with E. I am only
+extrude out again with E. I am only
+extrude out again with E. I am only
+extruding a bit and then repeating
+extruding a bit and then repeating
+extruding a bit and then repeating
+instead of extruding all the way so I
+instead of extruding all the way so I
+instead of extruding all the way so I
+have more faces to control. But you can
+have more faces to control. But you can
+have more faces to control. But you can
+just do another loop cut like we did
+just do another loop cut like we did
+just do another loop cut like we did
+before if you want. Now just adjust the
+before if you want. Now just adjust the
+before if you want. Now just adjust the
+arms as you wish by moving faces and
+arms as you wish by moving faces and
+arms as you wish by moving faces and
+vertices the way you want it to look
+vertices the way you want it to look
+vertices the way you want it to look
+like. That's fine for the minute. Let's
+like. That's fine for the minute. Let's
+like. That's fine for the minute. Let's
+create a new cube and make some legs and
+create a new cube and make some legs and
+create a new cube and make some legs and
+feet. We're just doing the same thing
+feet. We're just doing the same thing
+feet. We're just doing the same thing
+again. No mirror necessary for this.
+again. No mirror necessary for this.
+again. No mirror necessary for this.
+Adjust the faces as you wish like we did
+Adjust the faces as you wish like we did
+Adjust the faces as you wish like we did
+before. To add some robotic like joints,
+before. To add some robotic like joints,
+before. To add some robotic like joints,
+select the loop around the leg and hit E
+select the loop around the leg and hit E
+select the loop around the leg and hit E
+to extrude, but then press S to scale
+to extrude, but then press S to scale
+to extrude, but then press S to scale
+them. You can move the mouse up and down
+them. You can move the mouse up and down
+them. You can move the mouse up and down
+to make this little
+to make this little
+to make this little
+depression. Great. Now add a loop cut
+depression. Great. Now add a loop cut
+depression. Great. Now add a loop cut
+along the bottom faces, and these are
+along the bottom faces, and these are
+along the bottom faces, and these are
+going to be his feet. Scale and adjust
+going to be his feet. Scale and adjust
+going to be his feet. Scale and adjust
+as desired, and then symmetriize them
+as desired, and then symmetriize them
+as desired, and then symmetriize them
+using the transform toolbar to position
+using the transform toolbar to position
+using the transform toolbar to position
+the legs.
+You can also rotate them a bit. Okay,
+You can also rotate them a bit. Okay,
+You can also rotate them a bit. Okay,
+now we have a basic little robot dude.
+now we have a basic little robot dude.
+now we have a basic little robot dude.
+Cute. Let's go back to the head
+Cute. Let's go back to the head
+Cute. Let's go back to the head
+duplicate we made and go to edit mode. I
+duplicate we made and go to edit mode. I
+duplicate we made and go to edit mode. I
+want to take the little frame we made
+want to take the little frame we made
+want to take the little frame we made
+and copy it over. So on our modifiers on
+and copy it over. So on our modifiers on
+and copy it over. So on our modifiers on
+the right side, we can apply the mirror
+the right side, we can apply the mirror
+the right side, we can apply the mirror
+and subdivision surface modifier by
+and subdivision surface modifier by
+and subdivision surface modifier by
+clicking on the apply buttons. You can
+clicking on the apply buttons. You can
+clicking on the apply buttons. You can
+use the numpad on your keyboard to get
+use the numpad on your keyboard to get
+use the numpad on your keyboard to get
+various views. Press 1, three, and seven
+various views. Press 1, three, and seven
+various views. Press 1, three, and seven
+to see different side and top
+to see different side and top
+to see different side and top
+orthographic views and see which parts
+orthographic views and see which parts
+orthographic views and see which parts
+we need. To select a range of polygons
+we need. To select a range of polygons
+we need. To select a range of polygons
+in edit mode, click and drag to make a
+in edit mode, click and drag to make a
+in edit mode, click and drag to make a
+selection box. We just want the frame
+selection box. We just want the frame
+selection box. We just want the frame
+part. When you have selected what you
+part. When you have selected what you
+part. When you have selected what you
+need, press P and click selection. Now,
+need, press P and click selection. Now,
+need, press P and click selection. Now,
+this separates your mesh selection from
+this separates your mesh selection from
+this separates your mesh selection from
+the object, creating a new object. By
+the object, creating a new object. By
+the object, creating a new object. By
+the way, you don't really need to do
+the way, you don't really need to do
+the way, you don't really need to do
+this. You've surely noticed that I like
+this. You've surely noticed that I like
+this. You've surely noticed that I like
+making new cubes for each new part of
+making new cubes for each new part of
+making new cubes for each new part of
+the model. This is because Blender,
+the model. This is because Blender,
+the model. This is because Blender,
+unlike Fusion, doesn't have a really
+unlike Fusion, doesn't have a really
+unlike Fusion, doesn't have a really
+good undo feature. You can press Ctrl
+good undo feature. You can press Ctrl
+good undo feature. You can press Ctrl
+and Zed to undo the last change you
+and Zed to undo the last change you
+and Zed to undo the last change you
+made. But if you only notice a problem
+made. But if you only notice a problem
+made. But if you only notice a problem
+like 10 minutes later, then you can't
+like 10 minutes later, then you can't
+like 10 minutes later, then you can't
+really control Zed all the way back.
+really control Zed all the way back.
+really control Zed all the way back.
+That's why I like making cubes for each
+That's why I like making cubes for each
+That's why I like making cubes for each
+new part of the model because if you do
+new part of the model because if you do
+new part of the model because if you do
+make a mistake, then you just need to
+make a mistake, then you just need to
+make a mistake, then you just need to
+start that part again rather than
+start that part again rather than
+start that part again rather than
+starting the whole thing from scratch.
+starting the whole thing from scratch.
+starting the whole thing from scratch.
+Okay, back to the model. We just want
+Okay, back to the model. We just want
+Okay, back to the model. We just want
+the frame. So, select the parts that you
+the frame. So, select the parts that you
+the frame. So, select the parts that you
+don't want with the selection box. And
+don't want with the selection box. And
+don't want with the selection box. And
+also, if you want to select the specific
+also, if you want to select the specific
+also, if you want to select the specific
+loop of faces, you can select one face
+loop of faces, you can select one face
+loop of faces, you can select one face
+and then control-click on a face further
+and then control-click on a face further
+and then control-click on a face further
+away. This will select all of the faces
+away. This will select all of the faces
+away. This will select all of the faces
+between the first one that you clicked
+between the first one that you clicked
+between the first one that you clicked
+on and the control cllicked one. You can
+on and the control cllicked one. You can
+on and the control cllicked one. You can
+also hold shiftclick to keep the
+also hold shiftclick to keep the
+also hold shiftclick to keep the
+selection you already have, but add
+more. When you have all that you wanted
+more. When you have all that you wanted
+more. When you have all that you wanted
+selected, just press delete to get rid
+selected, just press delete to get rid
+selected, just press delete to get rid
+of them. We now have a frame and we can
+of them. We now have a frame and we can
+of them. We now have a frame and we can
+drag it over to the original shape and
+drag it over to the original shape and
+drag it over to the original shape and
+scale it as you wish. You might notice
+scale it as you wish. You might notice
+scale it as you wish. You might notice
+that this has a big hole on one side
+that this has a big hole on one side
+that this has a big hole on one side
+where we separated it. We need to close
+where we separated it. We need to close
+where we separated it. We need to close
+this. It's an incomplete mesh and any
+this. It's an incomplete mesh and any
+this. It's an incomplete mesh and any
+gaps in meshes are not printable. To
+gaps in meshes are not printable. To
+gaps in meshes are not printable. To
+close meshes with more than one loop,
+close meshes with more than one loop,
+close meshes with more than one loop,
+simply select an edge on one loop and
+simply select an edge on one loop and
+simply select an edge on one loop and
+another on the other loop. Press F to
+another on the other loop. Press F to
+another on the other loop. Press F to
+fill and it will create a face joining
+fill and it will create a face joining
+fill and it will create a face joining
+them. This has made both loops into a
+them. This has made both loops into a
+them. This has made both loops into a
+single continuous loop. You can now
+single continuous loop. You can now
+single continuous loop. You can now
+altclick one of the edges which selects
+altclick one of the edges which selects
+altclick one of the edges which selects
+the loop and press F to fill. And hey,
+the loop and press F to fill. And hey,
+the loop and press F to fill. And hey,
+it is filled. I'm making this a bit
+it is filled. I'm making this a bit
+it is filled. I'm making this a bit
+bigger by dragging it over the Y-axis.
+bigger by dragging it over the Y-axis.
+bigger by dragging it over the Y-axis.
+And I just noticed that I have one
+And I just noticed that I have one
+And I just noticed that I have one
+polygon missing here, which must have
+polygon missing here, which must have
+polygon missing here, which must have
+happened when I was separating it. This
+happened when I was separating it. This
+happened when I was separating it. This
+isn't really a problem. Just select the
+isn't really a problem. Just select the
+isn't really a problem. Just select the
+edges and press F to fill it. Okay,
+edges and press F to fill it. Okay,
+edges and press F to fill it. Okay,
+let's get back to the feet. So, I'm
+let's get back to the feet. So, I'm
+let's get back to the feet. So, I'm
+going to make them more footlike simply
+going to make them more footlike simply
+going to make them more footlike simply
+by doing what we did before and dragging
+by doing what we did before and dragging
+by doing what we did before and dragging
+out the faces and vertices. We can give
+out the faces and vertices. We can give
+out the faces and vertices. We can give
+the legs a more knee-ike shape, but
+the legs a more knee-ike shape, but
+the legs a more knee-ike shape, but
+let's not worry too much about detail.
+let's not worry too much about detail.
+let's not worry too much about detail.
+This is a very basic introductory model.
+This is a very basic introductory model.
+This is a very basic introductory model.
+We can just duplicate this one and then
+We can just duplicate this one and then
+We can just duplicate this one and then
+replace the older version with it. Going
+replace the older version with it. Going
+replace the older version with it. Going
+back to the head in object mode, I am
+back to the head in object mode, I am
+back to the head in object mode, I am
+selecting everything we have done before
+selecting everything we have done before
+selecting everything we have done before
+and rotating it. He's angry. Let's make
+and rotating it. He's angry. Let's make
+and rotating it. He's angry. Let's make
+him glare. Okay, new cube like we did
+him glare. Okay, new cube like we did
+him glare. Okay, new cube like we did
+before. We're making very basic fingers.
+before. We're making very basic fingers.
+before. We're making very basic fingers.
+Fingers and hands are the hardest thing
+Fingers and hands are the hardest thing
+Fingers and hands are the hardest thing
+to model. I guess it's like drawing.
+to model. I guess it's like drawing.
+to model. I guess it's like drawing.
+Everyone has difficulty with these.
+Everyone has difficulty with these.
+Everyone has difficulty with these.
+Maybe the brain is not wired to
+Maybe the brain is not wired to
+Maybe the brain is not wired to
+reproduce these. Just scale, adjust, and
+reproduce these. Just scale, adjust, and
+reproduce these. Just scale, adjust, and
+extrude like we did before. We're giving
+extrude like we did before. We're giving
+extrude like we did before. We're giving
+him basic blocky robotic fingers. You
+him basic blocky robotic fingers. You
+him basic blocky robotic fingers. You
+can copy and paste them and then adjust
+can copy and paste them and then adjust
+can copy and paste them and then adjust
+and rotate each to fit the hand we
+and rotate each to fit the hand we
+and rotate each to fit the hand we
+created. We can also adjust the hand and
+created. We can also adjust the hand and
+created. We can also adjust the hand and
+arm and round the shoulders a bit and
+arm and round the shoulders a bit and
+arm and round the shoulders a bit and
+give a rudimentary elbow,
+too. Let's go back to his body again.
+too. Let's go back to his body again.
+too. Let's go back to his body again.
+We're going to give him a waistline just
+We're going to give him a waistline just
+We're going to give him a waistline just
+like we did with his knee joint. It's
+like we did with his knee joint. It's
+like we did with his knee joint. It's
+the exact same process. Create a loop
+the exact same process. Create a loop
+the exact same process. Create a loop
+cut. Select that loop. Press E to
+cut. Select that loop. Press E to
+cut. Select that loop. Press E to
+extrude and S to scale inwards. Adjust
+extrude and S to scale inwards. Adjust
+extrude and S to scale inwards. Adjust
+the mirror edge vertices and remove the
+the mirror edge vertices and remove the
+the mirror edge vertices and remove the
+overlapping faces. We can make those
+overlapping faces. We can make those
+overlapping faces. We can make those
+angles a bit tighter,
+angles a bit tighter,
+angles a bit tighter,
+too. We can also adjust his lower part
+too. We can also adjust his lower part
+too. We can also adjust his lower part
+to make them more like shorts by loop
+to make them more like shorts by loop
+to make them more like shorts by loop
+cutting and selecting and extruding the
+cutting and selecting and extruding the
+cutting and selecting and extruding the
+faces. Adjust the vertices as you see
+faces. Adjust the vertices as you see
+faces. Adjust the vertices as you see
+fit. Let's also give him hand joints for
+fit. Let's also give him hand joints for
+fit. Let's also give him hand joints for
+his wrists. It's the exact same process
+his wrists. It's the exact same process
+his wrists. It's the exact same process
+as the waist and the knees. I think you
+as the waist and the knees. I think you
+as the waist and the knees. I think you
+need some more accessories. There is one
+need some more accessories. There is one
+need some more accessories. There is one
+useful thing in Blender and other
+useful thing in Blender and other
+useful thing in Blender and other
+modeling programs, which is to import an
+modeling programs, which is to import an
+modeling programs, which is to import an
+image as a 3D model. And when I say an
+image as a 3D model. And when I say an
+image as a 3D model. And when I say an
+image, I am speaking specifically about
+image, I am speaking specifically about
+image, I am speaking specifically about
+SVGs, vector images. So, I want a little
+SVGs, vector images. So, I want a little
+SVGs, vector images. So, I want a little
+design on my robot guy. I'm thinking a
+design on my robot guy. I'm thinking a
+design on my robot guy. I'm thinking a
+lightning bolt would be quite sporting.
+lightning bolt would be quite sporting.
+lightning bolt would be quite sporting.
+Go to Google image search and find
+Go to Google image search and find
+Go to Google image search and find
+something basic. We just need a very
+something basic. We just need a very
+something basic. We just need a very
+simple image for this. One color, no
+simple image for this. One color, no
+simple image for this. One color, no
+gradients. Download that and open it in
+gradients. Download that and open it in
+gradients. Download that and open it in
+a program that supports vector formats.
+a program that supports vector formats.
+a program that supports vector formats.
+You can use Illustrator if you have it,
+You can use Illustrator if you have it,
+You can use Illustrator if you have it,
+but you can also use Inkscape, which is
+but you can also use Inkscape, which is
+but you can also use Inkscape, which is
+free and open source. In Inkscape,
+free and open source. In Inkscape,
+free and open source. In Inkscape,
+simply export it as an SVG. And in
+simply export it as an SVG. And in
+simply export it as an SVG. And in
+Blender, go to file, import, and SVG. It
+Blender, go to file, import, and SVG. It
+Blender, go to file, import, and SVG. It
+will open and it will be tiny. On the
+will open and it will be tiny. On the
+will open and it will be tiny. On the
+right side, you can see all your
+right side, you can see all your
+right side, you can see all your
+objects. So, scroll down to the bottom
+objects. So, scroll down to the bottom
+objects. So, scroll down to the bottom
+and select it. It will be in a subfolder
+and select it. It will be in a subfolder
+and select it. It will be in a subfolder
+of the SVG. And you'll notice it has a
+of the SVG. And you'll notice it has a
+of the SVG. And you'll notice it has a
+different icon. This is because it is a
+different icon. This is because it is a
+different icon. This is because it is a
+curve, not a mesh. To convert it to a
+curve, not a mesh. To convert it to a
+curve, not a mesh. To convert it to a
+mesh, just right click on it while in
+mesh, just right click on it while in
+mesh, just right click on it while in
+object mode and click convert to and
+object mode and click convert to and
+object mode and click convert to and
+then mesh. And boom, it's a mesh. And
+then mesh. And boom, it's a mesh. And
+then mesh. And boom, it's a mesh. And
+you can modify it like all of the other
+you can modify it like all of the other
+you can modify it like all of the other
+objects you created. You might notice it
+objects you created. You might notice it
+objects you created. You might notice it
+looks a bit gross while in edit mode.
+looks a bit gross while in edit mode.
+looks a bit gross while in edit mode.
+That's okay. It happens with SVGs. We
+That's okay. It happens with SVGs. We
+That's okay. It happens with SVGs. We
+can rightclick and click on limited
+can rightclick and click on limited
+can rightclick and click on limited
+dissolve, which will delete any lines
+dissolve, which will delete any lines
+dissolve, which will delete any lines
+that are unnecessary for its basic
+that are unnecessary for its basic
+that are unnecessary for its basic
+geometry. Let's put it on his head. And
+geometry. Let's put it on his head. And
+geometry. Let's put it on his head. And
+using the transform toolbar, align it to
+using the transform toolbar, align it to
+using the transform toolbar, align it to
+the same rotation as his head. I'm just
+the same rotation as his head. I'm just
+the same rotation as his head. I'm just
+going to fix this guy's booty a bit. Uh,
+going to fix this guy's booty a bit. Uh,
+going to fix this guy's booty a bit. Uh,
+okay, maybe not. Let's put that
+okay, maybe not. Let's put that
+okay, maybe not. Let's put that
+lightning bolt on his shirt, too. And
+lightning bolt on his shirt, too. And
+lightning bolt on his shirt, too. And
+you may notice that it is very angular.
+you may notice that it is very angular.
+you may notice that it is very angular.
+It's not going to look very nice on his
+It's not going to look very nice on his
+It's not going to look very nice on his
+nicely toned physique. Don't worry,
+nicely toned physique. Don't worry,
+nicely toned physique. Don't worry,
+Blender has a modifier called shrink
+Blender has a modifier called shrink
+Blender has a modifier called shrink
+wrap to deform and align a straight
+wrap to deform and align a straight
+wrap to deform and align a straight
+object along a curved object.
+object along a curved object.
+object along a curved object.
+This is easiest to do for a simple
+This is easiest to do for a simple
+This is easiest to do for a simple
+object, but depending on the shape, you
+object, but depending on the shape, you
+object, but depending on the shape, you
+might need to play around with the
+might need to play around with the
+might need to play around with the
+settings. And also, the object should be
+settings. And also, the object should be
+settings. And also, the object should be
+both clean and with a high enough
+both clean and with a high enough
+both clean and with a high enough
+polygon count to actually bend it around
+polygon count to actually bend it around
+polygon count to actually bend it around
+the curve. So, I have just used a single
+the curve. So, I have just used a single
+the curve. So, I have just used a single
+face of the bolt, subdivided it by
+face of the bolt, subdivided it by
+face of the bolt, subdivided it by
+right-clicking in edit mode and clicking
+right-clicking in edit mode and clicking
+right-clicking in edit mode and clicking
+subdivide, and then hitting controll to
+subdivide, and then hitting controll to
+subdivide, and then hitting controll to
+turn the single face into multiple
+turn the single face into multiple
+turn the single face into multiple
+triangles, which is enough for the
+triangles, which is enough for the
+triangles, which is enough for the
+general shape. You can then use the
+general shape. You can then use the
+general shape. You can then use the
+shrink wrap modifier and I have selected
+shrink wrap modifier and I have selected
+shrink wrap modifier and I have selected
+target normal project for the wrap
+target normal project for the wrap
+target normal project for the wrap
+method. The snap mode is on surface and
+method. The snap mode is on surface and
+method. The snap mode is on surface and
+an offset is 0.1 m which just means it
+an offset is 0.1 m which just means it
+an offset is 0.1 m which just means it
+will be 0.1 m over the object that
+will be 0.1 m over the object that
+will be 0.1 m over the object that
+you're wrapping it to. Now apply that
+you're wrapping it to. Now apply that
+you're wrapping it to. Now apply that
+modifier and go to edit mode and extrude
+modifier and go to edit mode and extrude
+modifier and go to edit mode and extrude
+it so it is a solid mesh.
+it so it is a solid mesh.
+it so it is a solid mesh.
+Lovely. Okay, we're pretty much done
+Lovely. Okay, we're pretty much done
+Lovely. Okay, we're pretty much done
+modeling. There are a few things left to
+modeling. There are a few things left to
+modeling. There are a few things left to
+do, but let's see what the model looks
+do, but let's see what the model looks
+do, but let's see what the model looks
+like after applying the subdivision
+like after applying the subdivision
+like after applying the subdivision
+surface modifier at a higher factor.
+surface modifier at a higher factor.
+surface modifier at a higher factor.
+Let's increase each object to a level
+Let's increase each object to a level
+Let's increase each object to a level
+viewport of four. We can remove the grid
+viewport of four. We can remove the grid
+viewport of four. We can remove the grid
+and the axis selection and overlays in
+and the axis selection and overlays in
+and the axis selection and overlays in
+the top right and view with shading. And
+the top right and view with shading. And
+the top right and view with shading. And
+he's looking pretty nice and
+he's looking pretty nice and
+he's looking pretty nice and
+disgruntled. There is really only one
+disgruntled. There is really only one
+disgruntled. There is really only one
+thing left to do, but it is very
+thing left to do, but it is very
+thing left to do, but it is very
+important, and that is prepping these
+important, and that is prepping these
+important, and that is prepping these
+parts for printing. As Blender is not
+parts for printing. As Blender is not
+parts for printing. As Blender is not
+specifically designed for 3D printing,
+specifically designed for 3D printing,
+specifically designed for 3D printing,
+we need to rely on an add-on from doing
+we need to rely on an add-on from doing
+we need to rely on an add-on from doing
+this quickly. Go to edit and
+this quickly. Go to edit and
+this quickly. Go to edit and
+preferences, then add-ons. Go to the
+preferences, then add-ons. Go to the
+preferences, then add-ons. Go to the
+search and type in 3D print toolbox.
+search and type in 3D print toolbox.
+search and type in 3D print toolbox.
+Enable it and you will now have this
+Enable it and you will now have this
+Enable it and you will now have this
+toolbar on the right side of the screen.
+toolbar on the right side of the screen.
+toolbar on the right side of the screen.
+This automatically finds problems with
+This automatically finds problems with
+This automatically finds problems with
+your parts. Click on an object and press
+your parts. Click on an object and press
+your parts. Click on an object and press
+tab to go to edit mode and then to the
+tab to go to edit mode and then to the
+tab to go to edit mode and then to the
+3D print toolbar and click check all. If
+3D print toolbar and click check all. If
+3D print toolbar and click check all. If
+everything was done correctly, pretty
+everything was done correctly, pretty
+everything was done correctly, pretty
+much nothing will show up. That's good.
+much nothing will show up. That's good.
+much nothing will show up. That's good.
+But something might. And if you see
+But something might. And if you see
+But something might. And if you see
+something on non-manifold edges, then
+something on non-manifold edges, then
+something on non-manifold edges, then
+that's a problem. Click on it and it
+that's a problem. Click on it and it
+that's a problem. Click on it and it
+will highlight the areas of concern.
+will highlight the areas of concern.
+will highlight the areas of concern.
+Non-manifold refers to parts that are
+Non-manifold refers to parts that are
+Non-manifold refers to parts that are
+not continuous or enclosed. This is
+not continuous or enclosed. This is
+not continuous or enclosed. This is
+normally specific to parts with holes or
+normally specific to parts with holes or
+normally specific to parts with holes or
+gaps or where a face may overlap
+gaps or where a face may overlap
+gaps or where a face may overlap
+another. Overlapping faces can be tricky
+another. Overlapping faces can be tricky
+another. Overlapping faces can be tricky
+to fix. It is obviously better to make
+to fix. It is obviously better to make
+to fix. It is obviously better to make
+sure they don't happen in the first
+sure they don't happen in the first
+sure they don't happen in the first
+place by ensuring you don't overlap the
+place by ensuring you don't overlap the
+place by ensuring you don't overlap the
+mirrored mesh. Caps are normally easy to
+mirrored mesh. Caps are normally easy to
+mirrored mesh. Caps are normally easy to
+fix, like we did with the robot's face
+fix, like we did with the robot's face
+fix, like we did with the robot's face
+frame earlier. Check all your objects to
+frame earlier. Check all your objects to
+frame earlier. Check all your objects to
+see if they are manifold. I have an
+see if they are manifold. I have an
+see if they are manifold. I have an
+overlap here, and while the make
+overlap here, and while the make
+overlap here, and while the make
+manifold button can help, it's not
+manifold button can help, it's not
+manifold button can help, it's not
+always perfect. In some cases, you might
+always perfect. In some cases, you might
+always perfect. In some cases, you might
+need to delete the offending parts and
+need to delete the offending parts and
+need to delete the offending parts and
+fill them in like we did before. Now,
+fill them in like we did before. Now,
+fill them in like we did before. Now,
+while you could just export this thing
+while you could just export this thing
+while you could just export this thing
+as an STL right now, it is a nasty model
+as an STL right now, it is a nasty model
+as an STL right now, it is a nasty model
+to print in one piece. This is another
+to print in one piece. This is another
+to print in one piece. This is another
+reason why I separate everything. We can
+reason why I separate everything. We can
+reason why I separate everything. We can
+print each individual object separately.
+print each individual object separately.
+print each individual object separately.
+And when printing things, it is best to
+And when printing things, it is best to
+And when printing things, it is best to
+have one side that is completely flat so
+have one side that is completely flat so
+have one side that is completely flat so
+it has a nice base for the first layer
+it has a nice base for the first layer
+it has a nice base for the first layer
+and we can reduce the need for supports.
+and we can reduce the need for supports.
+and we can reduce the need for supports.
+We also need to make sure that each part
+We also need to make sure that each part
+We also need to make sure that each part
+can fit into each other part. We're
+can fit into each other part. We're
+can fit into each other part. We're
+going to be snap fitting these together
+going to be snap fitting these together
+going to be snap fitting these together
+or gluing. Most slicers have peg
+or gluing. Most slicers have peg
+or gluing. Most slicers have peg
+creation features if you want it to be
+creation features if you want it to be
+creation features if you want it to be
+easy to assemble without glue. So, let's
+easy to assemble without glue. So, let's
+easy to assemble without glue. So, let's
+just focus on flat parts. And this is
+just focus on flat parts. And this is
+just focus on flat parts. And this is
+easier to do at the end because it is
+easier to do at the end because it is
+easier to do at the end because it is
+not always easy to mesh something with
+not always easy to mesh something with
+not always easy to mesh something with
+one completely flat base when using the
+one completely flat base when using the
+one completely flat base when using the
+subdivision algorithm. To do this, I use
+subdivision algorithm. To do this, I use
+subdivision algorithm. To do this, I use
+a boolean modifier. Here I am carving a
+a boolean modifier. Here I am carving a
+a boolean modifier. Here I am carving a
+gap for the frame to fit the head by
+gap for the frame to fit the head by
+gap for the frame to fit the head by
+selecting the part to be carved, the
+selecting the part to be carved, the
+selecting the part to be carved, the
+head in this case, and adding the
+head in this case, and adding the
+head in this case, and adding the
+modifier on the right side. Click the
+modifier on the right side. Click the
+modifier on the right side. Click the
+picker under object and click the object
+picker under object and click the object
+picker under object and click the object
+you wish to carve with the frame and go
+you wish to carve with the frame and go
+you wish to carve with the frame and go
+to apply. And now you have a carving
+to apply. And now you have a carving
+to apply. And now you have a carving
+that allows a perfect fit for gluing. It
+that allows a perfect fit for gluing. It
+that allows a perfect fit for gluing. It
+is always a good idea to use the 3D
+is always a good idea to use the 3D
+is always a good idea to use the 3D
+print toolbox after a boolean modifier
+print toolbox after a boolean modifier
+print toolbox after a boolean modifier
+too. Now we can do the same thing for
+too. Now we can do the same thing for
+too. Now we can do the same thing for
+all of the other parts. Using the exact
+all of the other parts. Using the exact
+all of the other parts. Using the exact
+solver works pretty well, but if it
+solver works pretty well, but if it
+solver works pretty well, but if it
+doesn't choose fast, and if that doesn't
+doesn't choose fast, and if that doesn't
+doesn't choose fast, and if that doesn't
+work, then something is wrong with one
+work, then something is wrong with one
+work, then something is wrong with one
+of the meshes. Check the 3D print
+of the meshes. Check the 3D print
+of the meshes. Check the 3D print
+toolbox again.
+toolbox again.
+toolbox again.
+Also, always make sure that the part
+Also, always make sure that the part
+Also, always make sure that the part
+that is actually going to slot into
+that is actually going to slot into
+that is actually going to slot into
+another will be able to fit. Boolean
+another will be able to fit. Boolean
+another will be able to fit. Boolean
+modifiers just carve exactly as the
+modifiers just carve exactly as the
+modifiers just carve exactly as the
+object looks. There is no guarantee that
+object looks. There is no guarantee that
+object looks. There is no guarantee that
+it will fit the part if it's curved
+it will fit the part if it's curved
+it will fit the part if it's curved
+enough. So, in some cases, it is best
+enough. So, in some cases, it is best
+enough. So, in some cases, it is best
+that the part to slot in is flat on
+that the part to slot in is flat on
+that the part to slot in is flat on
+every side. At this point, I just
+every side. At this point, I just
+every side. At this point, I just
+realized there is an ugly strip down the
+realized there is an ugly strip down the
+realized there is an ugly strip down the
+middle of the torso. You can edit the
+middle of the torso. You can edit the
+middle of the torso. You can edit the
+mesh to fix this, but there is also
+mesh to fix this, but there is also
+mesh to fix this, but there is also
+another way to do it. in the top left
+another way to do it. in the top left
+another way to do it. in the top left
+where the view mode is, go to sculpt.
+where the view mode is, go to sculpt.
+where the view mode is, go to sculpt.
+Sculpting is a whole other ballgame and
+Sculpting is a whole other ballgame and
+Sculpting is a whole other ballgame and
+really useful for very complicated
+really useful for very complicated
+really useful for very complicated
+organic parts. This is not a sculpting
+organic parts. This is not a sculpting
+organic parts. This is not a sculpting
+tutorial, but for our purposes, we're
+tutorial, but for our purposes, we're
+tutorial, but for our purposes, we're
+going to use the smooth brush to get rid
+going to use the smooth brush to get rid
+going to use the smooth brush to get rid
+of the imperfection which is at the
+of the imperfection which is at the
+of the imperfection which is at the
+bottom in the middle. Select it and
+bottom in the middle. Select it and
+bottom in the middle. Select it and
+simply brush down along the strip and it
+simply brush down along the strip and it
+simply brush down along the strip and it
+will disappear. Voila. Okay, back to
+will disappear. Voila. Okay, back to
+will disappear. Voila. Okay, back to
+boolean modifiers. To make a flat base,
+boolean modifiers. To make a flat base,
+boolean modifiers. To make a flat base,
+I simply use the modifier with a
+I simply use the modifier with a
+I simply use the modifier with a
+generated cube. That's it. So now the
+generated cube. That's it. So now the
+generated cube. That's it. So now the
+carve side is completely flat and now
+carve side is completely flat and now
+carve side is completely flat and now
+the base of the leg here will have no
+the base of the leg here will have no
+the base of the leg here will have no
+problem being printed. Lastly, for slot
+problem being printed. Lastly, for slot
+problem being printed. Lastly, for slot
+in and glue pieces, I always scale them
+in and glue pieces, I always scale them
+in and glue pieces, I always scale them
+down a bit so they can slide in easier.
+down a bit so they can slide in easier.
+down a bit so they can slide in easier.
+You can do this by selecting the object,
+You can do this by selecting the object,
+You can do this by selecting the object,
+pressing S for scale, and then typing
+pressing S for scale, and then typing
+pressing S for scale, and then typing
+the value you want to multiply with.
+the value you want to multiply with.
+the value you want to multiply with.
+Scaling down just 2% is enough. So I
+Scaling down just 2% is enough. So I
+Scaling down just 2% is enough. So I
+press S and
+press S and
+press S and
+0.98 and enter. And you're done. That's
+0.98 and enter. And you're done. That's
+0.98 and enter. And you're done. That's
+basically it, guys. Now you have this
+basically it, guys. Now you have this
+basically it, guys. Now you have this
+little robot dude. This has been a very
+little robot dude. This has been a very
+little robot dude. This has been a very
+basic tutorial on Blender. There's a lot
+basic tutorial on Blender. There's a lot
+basic tutorial on Blender. There's a lot
+more to Blender and modeling in general
+more to Blender and modeling in general
+more to Blender and modeling in general
+than what we just saw. But if you can do
+than what we just saw. But if you can do
+than what we just saw. But if you can do
+what was described, then you can create
+what was described, then you can create
+what was described, then you can create
+something like this in 30 to 60 minutes.
+something like this in 30 to 60 minutes.
+something like this in 30 to 60 minutes.
+The learning curve for the features
+The learning curve for the features
+The learning curve for the features
+described here is very shallow. A little
+described here is very shallow. A little
+described here is very shallow. A little
+bit of practice and these will come to
+bit of practice and these will come to
+bit of practice and these will come to
+you essentially like second nature. The
+you essentially like second nature. The
+you essentially like second nature. The
+hard part of this is finding the right
+hard part of this is finding the right
+hard part of this is finding the right
+playlist for your workflow. So check out
+playlist for your workflow. So check out
+playlist for your workflow. So check out
+our Discord where we have a specific
+our Discord where we have a specific
+our Discord where we have a specific
+channel for banging tunes. And if you
+channel for banging tunes. And if you
+channel for banging tunes. And if you
+completely screw up, then we also have a
+completely screw up, then we also have a
+completely screw up, then we also have a
+channel for that, too. As always, guys,
+channel for that, too. As always, guys,
+channel for that, too. As always, guys,
+let us know what you think in the
+let us know what you think in the
+let us know what you think in the
+comments below. And we'll see you guys
+comments below. And we'll see you guys
+comments below. And we'll see you guys
+next time. Happy modeling later.
+next time. Happy modeling later.
+next time. Happy modeling later.

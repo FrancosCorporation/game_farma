@@ -1,0 +1,476 @@
+if you have already crafted the face of
+your character let me reassure you with
+this thought you have already overcome
+the most challenging part now moving
+forward working on the character's body
+will be much smoother experience now
+after this chapter you will discover
+yourself noticing more intriguing
+details about body whether you're
+looking in the mirror hitting the gym
+reading comic books and looking at your
+favorite comic book characters or even
+observing lean beef patty working out
+your mind will be constantly picking up
+on things once you dive into creating
+body in 3D by the way if you're skilled
+at imagining try picturing an invisible
+character wearing visible undergarments
+it will Aid you in today's assignment
+don't ask me how now welcome back
+everyone this is Ram from Cross M studio
+and you are now tuned into chapter
+number three of animated character
+creation series for bonus chapters
+project files and other valuable
+resources check out the premium version
+details are in descriptions let's Dive
+Right
+In
+now just as we discussed we are going to
+make a simple block of geometry first
+maybe with a cube and then keep on
+adding more Loop and uh just work on the
+initial form first just like previous
+chapter Define the basic block first
+then work on the initial structure and
+proportions then slowly uh refine to the
+overall volumes and then keep on adding
+more details later on arrive to the
+final details so for the Torso there is
+no right or wrong way to start with you
+can start with a cube or even a sphere
+cylinder whatever you want but as long
+as you keep the geometry low resolution
+and don't have much Loops uh it's good
+to go so I'm going to start with a cube
+to make the first torso Arc so first
+thing I'm going to do is go to the front
+view and uh add one Loop right in the
+middle with
+controlr so that way I can get rid of
+half of this
+Cube and apply one mirror
+modifier all
+right now I'll go to the left view
+control
+3 and first thing I'm going to do is
+Define the structure the body is sort of
+vertical and Tall taller shape so that
+is what I'm going to do here to some
+extent I can fix the proportions later
+on as well if something is not working
+right but I'll try to be as careful as
+possible this is going to be sort of a
+shoulder part so if this is neck a
+little slanted vertices uh edges here
+and uh this is where the groins uh the
+hip part is going to
+be so now we have initial
+block I just want to keep it lean and uh
+really Slim character all
+right
+so I have the initial block and now I'm
+going to work on the structure of it so
+usually if you pay a little attention to
+your body your body is not like this it
+there's a slight curvature this is your
+upper back this is lower back and uh
+this is your
+chest and yeah hip area
+so so similar sort of structure I'm
+going to try and bring it here press
+controlr
+and add two Loops right in the middle
+all right just going to divide this into
+three sections the upper body just turn
+this slightly upwards this main Loop and
+the bottom Loop I'm going to push this
+forward and just tilt it downwards a
+little around the hip part and then back
+vertices slightly up to make the hip
+part so slowly we are going to get the
+the structure of the Torso initial block
+and then side vertices we can push
+inside a little so let's say if this was
+a Roblox or Minecraft character you have
+a decent torso model for that kind of
+character style press control 2 to
+smooth this out this is going to bring
+one subdivision surface on top of my
+model so my preference was to um have
+less vertices at initial stage for
+building such a simple shape if you had
+to manipulate 32 vertices that that that
+won be an efficient way so the start
+seems good I'm happy with it
+now I'm going to make a duplicate of
+this just in case if I make any error
+and fight this all right now at this
+point I can apply this subdivision
+modifier and now I can start working on
+bit more details now before we proceed
+further pardon my stupid drawings right
+now I'm going to bring a really simple
+drawing here so you remember when we
+were kids like we used to draw human
+like this with arm arms and legs
+extruding straight out of the Torso so
+it was actually a fairly decent
+representation but however now we are
+getting into more advanced things so
+when modeling in 3D you will need to pay
+more attention to few certain parts uh
+let's call them transition areas so I've
+seen beginners including myself when I
+started with this make the same mistake
+extruding the arms and legs straight out
+of the Torso so instead if You observe
+closely this is how I used to think arms
+and legs are attached to the body so
+instead of this your arms and legs
+actually attach this way oversimplifying
+this here this is how your chest and uh
+shoulder muscles run towards the arm all
+of this is going to start making sense
+in a moment in a 3D model so just bear
+with my drawings additionally there's a
+transition from um torso to the hip part
+where your groins are and if you're
+having difficult time imagining just uh
+uh think of an underwear just the
+underwear this is actually a pretty good
+way to visualize torso 3D model without
+the legs attached to it now here if you
+try to extrude arm like this this is a
+wrong way of modeling most of the
+beginners make mistake when creating
+arms and legs I mean you can make it
+work if you want but you will run into
+many problems when working with a rig
+and uh your character won't Bend
+properly around these areas so you need
+to First create these transition areas
+like shoulders and groins and then
+attach limbs similarly in the hip area
+there's going to be formation of the
+groins and then the leg is attached here
+so leg is not like this this is not how
+the leg
+starts it's like this these are pretty
+obvious things but sometimes these slip
+out of mind and needs to be addressed so
+not everyone is uh on the same level
+with Anatomy here now if you you are
+still here with me after watching those
+stupid drawings now we are going to try
+and make a shoulder out of this I'll add
+another loop here right
+here and uh this double g to slide
+vertices yeah so I'm just focusing on
+the shoulder
+part so this is the chest area and these
+vertices are going to help me form the
+the shoulder
+part I'm pressing double g to slide
+vertices so that when I move the
+vertices it doesn't change the shape so
+once you get used to these parts of the
+anatomy the hip part and the the
+shoulder how the formation happens the
+modeling process around around these
+parts become much more uh clearer and
+less confusing and you and all of your
+loops and geometry is going to fall in
+right place attaching Limbs and
+everything is going to to be much more
+easier so these six quads is what we are
+going to form shoulder with so I have
+enough vertices here but I feel I can
+add one more Loop right here all right
+before I work with the shoulder so one
+more Loop right here one right at the
+center so just trying to keep the
+geometry smooth for the shoulder part
+usually the flow is like
+this yeah so for the upper body the
+loops are going to flow like this right
+here just like how I explained the chest
+muscles are moving upwards and moving
+towards the
+shoulder and right here is going to be
+shoulder then arm right here so right
+now the upper chest flow is moving
+horizontally the loops are moving this
+way so what we can do is we need two
+things right now make a shoulder and
+correct the flow of these upper Loops so
+these should run right right into the
+shoulder so if we extrude these six
+faces which are going to form the
+shoulder first let's make a geometry for
+it with a simple Extrusion and then we
+can take these Corner vertices which are
+right here between the shoulder and in
+the chest and we can merge these
+vertices at the center you can press M
+to
+merge merge at Center
+merge at Center so now you'll see these
+Loops are flowing slightly upwards a
+little bit of correction in the
+loops and this is going to keep the
+topology in much better formation
+especially for rigging it's going to be
+helpful so keep correcting the geometry
+after adding more details let's try to
+keep fixing the form so as we discussed
+in that stupid sketch that we made
+earlier so this right here is where the
+arms are going to extrude from but at
+this moment there are only six vertices
+right here I feel there could be one
+more
+Loop so I'm going to add one more Loop
+here I think we can make this block a
+bit more cylindrical uh just like a
+waste uh push these vertices inside a
+little for waist and chest area at the
+side so just making space for arm a
+little bit now I can get rid of
+these faces and uh if you have uh the
+loop tools enabled just click on Circle
+all right and this is going to fix the
+formation of these vertices and make it
+into a smooth
+Circle just keep adjusting the loops in
+between to make sure that all the areas
+are evenly
+distributed now it's a common concern
+that might cross your mind especially if
+you're just starting out there's
+understanding understandable worry that
+you'll have to memorize all these steps
+that I'm doing in specific order or your
+model might want to turn out well
+however that's not entirely accurate
+after practicing a few times you'll
+realize that this isn't this process
+isn't about the order in which you add
+Loops or use commands in reality it's
+quite simple actually understand the
+shape you intend to create manage the
+geometry by keeping it low resolution
+until you are confident in the shape and
+uh then gradually detail while ensuring
+consistent geometry so these practices
+become a second nature with a bit of
+practice I used to worry about all of
+these a lot as well so don't worry you
+are in the same boat it gets
+better so we have uh the formation of
+the shoulders now the next thing I'm
+going to do is uh fix the hip area so
+I'll get rid of these uh six faces at
+the
+bottom
+delete and uh I'll start working on U
+creating the hip part so delete the
+bottom vertices try to imagine the shape
+that we discussed earlier shape of the
+undergarments how it conforms to the
+body so this bottom phase uh right here
+we can connect we can select this one
+and this one and extrude it down like
+this then after that you can press F to
+fill this part and add two more Loops
+right here two or
+three now if you see we are sort of
+making a formation a shape which is much
+more recognizable right here at the back
+I'm going to keep tweaking these
+vertices to create a better formation of
+the
+hip so this part is where legs are going
+to be attached if I smooth this out with
+a subdivision smooth modifier and you
+you'll see exactly what we're talking
+about here and this feels much more
+natural so I'm going to stop talking for
+a moment and fix the proportions shape
+of these areas a bit so I think the
+overall torso is slightly taller for my
+character I imagine it to be a pretty
+short character so I'm just going to
+slide few of these vertices upwards with
+uh by double tapping G so more or less
+uh I think it's there it's a good start
+I guess we just need to uh fix a few
+things uh keep revisiting the overall
+shape volume and proportions uh now
+let's just uh add a few more Loops
+right uh for the top of the
+legs yeah so I think uh this is good to
+go okay so seems like we have a good
+base for the Torso so since we are not
+dealing with the realistic proportions
+I'm going to scale These Arms
+down a little and
+also extrude these bottom vertices edges
+which are going to form the hip area all
+right this is where we are going to
+attach the legs hip area
+basically so just try and uh smooth
+things out
+here there is no better reference than
+uh your own body so try to visualize
+imagine and observe yourself collect few
+references if you need
+to much better and
+now we can select
+these control B create one bevel and
+this is going to change the flow of mesh
+to form the groins overall structure
+seems fine now let's try to adjust the
+volume I'm going to add one Loop and
+scale this up so we are slowly
+transitioning from torso to the
+legs I'm going to select these five or
+six six I think at the back and uh inser
+these I can uh smooth these out and uh
+push this slightly further so I got a
+bit carried away while explaining and uh
+made this into slightly more realistic
+proportions but we are not too far from
+what we need so yeah this seems fine if
+I add one subd surface you'll see it's
+working well but I'll have to adjust it
+a bit and make it less curvaceous just
+keep correcting whatever is necessary
+before moving on to the next stage
+wherever you feel there's a more tension
+in the surface and it's stretching out
+averaging things out bit too much you
+can always add extra Loops right
+here right here and uh now you have
+slightly more control I'm just going to
+disable the subdivision surface for now
+and clean up here a bit it's bit
+congested after making a few changes I
+often use smooth tool a little bit to
+clean up the mesh just going to move
+these vertices out to form the BX area
+so right here I feel I can add another
+loop so that I can Define this back area
+a little bit more even though we don't
+need that much of detailing underneath
+the cloth but I still want to clear out
+a few essentials it's maybe not
+anatomically correct but it's a decent
+structure for dorso just bevel this
+upper Edge to add one extra Loop and
+then uh just slide few these loops and
+cross check if everything is in uh
+spaced out well if not then uh just
+cross check and keep sliding these
+Loops according to the flow of the body
+try to imagine chest so these Loops
+should be slightly pushed up
+upwards try to not keep things on uh on
+average every Loop should be creating a
+bit of tension to form a certain
+part it matters where you place these
+Loops so if I move this right
+here it's going to help Define chest
+area much more PR ently and uh here I
+can always add more
+loops and this room right here for the
+abdomen this right here seems like a
+good area for adding more
+details I'm thinking of selecting these
+uh and what if I insert
+this disable the Border you can detail
+uh the stomach area a little bit if you
+want maybe add one
+nav here just make an insert in these
+faces with the boundary disabled and try
+to scale it up and down I can create
+another insert smooth things
+out another insert we're just going to
+extrude it inside
+instead let's see how it looks with
+subdivision
+surface then I can scale this down a
+little this looks a bit stretched out so
+maybe we need to add one more Loop and
+adjust the spacing a
+bit so just tweak and clean up a little
+and uh this way you can fix that tension
+in between so this looks decent and um
+from topology point of view I think uh
+the overall
+formation seems fine I just want to
+smooth things out a bit now here I'm
+thinking of uh making it less arched
+back and uh just just trying to fix the
+proportions and overall structure of the
+character because I'm not going for a
+realistic uh figure and I just need
+something really
+lean and now at the top of these faces
+we can create a neck part I can get rid
+of this actually
+faces select all of these click on
+Circle and then extrude this
+one I'm going to select this line this
+problem right here these these vertices
+were stretching way too far into neck so
+to create a better transition I can make
+another loop or you can simply bevel
+these
+edges and then just add a few more Loops
+in the neck and uh
+yeah and we are done with the Torso part
+now the only thing left is to add arms
+and legs to this torso model and Stitch
+up the whole model so later on we will
+also be adding clothes props into this
+but that would be piece of cake for you
+after modeling the character body
+because I find character body is much
+more complicated task to model and uh
+the clothing and everything can be just
+extracted from the existing mesh and uh
+we won't have to create everything from
+ground up for that so that's about it
+for today's chapter jump to Discord
+server if you'd like to discuss anything
+related to this on channel dedicated to
+this series check pin command for
+frequently asked questions and problems
+check description for PDF of keyboard
+shortcuts discount coupons and other
+mentioned resources for this tutorial if
+you enjoyed this chapter do check out
+the full playlist and hope you continue
+all the way till the end also consider
+buying the premium version and unlock
+the additional chapters and project
+files and bonus content which will take
+you through the process of rigging with
+rigify creating a nice walk CLE
+animation creating secondary animations
+using clot physics and Bone constraints
+and rendering your entire project using
+Cycles Render engine share your work
+with me on Instagram tag me with instros
+mind and participate in discussion on
+Discord channel for this course links
+are in the description please give it a
+like And subscribe and stay tuned for
+more share your thoughts in the comment
+section and don't forget to share it
+with your colleagues and on social media
+to help us reach the wider audience
+thank you for all your support and love
+let's jump to the next video

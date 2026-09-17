@@ -1,0 +1,924 @@
+It's finally time to add some textures
+and shaders to this character and turn
+this gray model into something vibrant.
+We'll paint a basic texture for the
+face, add textures and shaders to the
+eyes, and transform these bulky hair
+shapes into fine hair strands. So,
+welcome back everyone. This is Ram from
+Craftsmind Studio, and you're watching
+chapter number nine of the animated
+character creation series. for the
+premium version of this course which
+includes 10 bonus chapters, project
+files, and other useful things. Check
+out the details, hotkeys, PDF, and more
+in the description. Let's dive right in.
+Now before we jump into today's session,
+there's an important update to discuss.
+With each Blender version, we anticipate
+new updates and the recent release of
+version 4.0 is no exception. This update
+has brought about several enhancement
+across the different aspects of Blender.
+So including interface improvements,
+rigging layers, snapping, node tools and
+few advancement in graph editors. So
+these updates are scattered in all parts
+of the blender. So we'll try and use
+these updates as much as possible
+whichever fall in our uh workflow and
+process and integrate these updates into
+our workflow in the later rigging
+chapters as well. But one specific
+update directly impacting today's
+session is related to the principal BSDF
+node. When you access this node, you'll
+notice the change in the interface. They
+are now collapsible enhancing
+organization. You have much more room to
+organize your nodes. and with a bit of
+uh change in the order in how these
+properties appear. So there's a bit of
+shuffling going on and there's also an
+overall update in how this node operates
+improving the quality of output. So
+specifically Sheen produces now much
+more natural and good-looking results.
+Now this chapter and the next one was
+recorded using experimental version
+during the development of 4.0. As a
+result, the node version featured in the
+video is from the previous LTS release.
+It's essential to clarify that despite
+this, there won't be any impact on the
+workflow. So, we will continue our
+session with the videos recorded in the
+LTS version. And towards the end of each
+video, we will revisit all our shaders
+and open them in version 4.0. In Blender
+4.0, we'll utilize the reworked sheen
+effect on few of the clothing items. And
+it's important to note that if you are
+already using Blender 4.0, there's no
+need to go back to the older version.
+you can seamlessly follow the tutorial
+in whichever version you're using
+whether it's LTS 4.0. So let me just
+take you through few of these changes
+now. Now to demonstrate few of these
+changes I have this file with a simple
+cube. It's actually the same file which
+I have opened in the previous versions
+of Blender 3.6 and this one is using
+4.0. So from here you can see this is
+version 4.0. As you can see here, this
+is the principal BSDF that we are used
+to and it's still being used in LTS
+version. But right here in 4.0, this
+looks much more compact. But as you
+might have already noticed that the
+properties which are mentioned right
+here remains the same. There is a base
+color in both of these. There's metallic
+right here, metallic right here as well.
+Roughness, sheen, alpha, and everything
+is listed here as well. But the
+interface is slightly different. Instead
+of a huge list right here, all of these
+subproperties are divided into several
+categories like specular which is right
+here under the collapsible menu. So if
+you expand this, this gives you all the
+properties related to subsurface. So
+right here subsurface radius, subsurface
+IUR, subsurface anistrophe, all those
+things are listed under the subsurface
+category. Similarly, properties related
+to specular are mentioned under the
+specular collapsible menu.
+Then we have transmission and
+transmission roughness which is listed
+here. Now the roughness of transmission
+is being controlled by the overall
+roughness here. This property is removed
+from uh new principle BSDF. And then we
+have sheen which is uh sheen tint, sheen
+weight which is listed in the sheen menu
+here. And the clear code which is
+mentioned here is now called code. So if
+you expand all of these you'll see we
+have exactly the same thing but the
+order is slightly different. So when
+you're working with PBR textures and
+everything it's much more convenient now
+to plug all those PBR textures like
+metallic roughness IU and alpha and
+normal. Those main properties are found
+right here. And also collapsible nodes
+give you much more room to organize your
+nodes. Similar thing is being followed
+in the geometry node as well. Now other
+than the interface few things have been
+removed like I mentioned under the
+transmission roughness is removed which
+can be controlled with the overall
+roughness right here. Similarly
+subsurface color is removed as well. So
+instead of having to use different color
+for subsurface you can simply use a
+color here and the same color will be
+used for the subsurface as well. So you
+don't need to copy the same color at the
+both properties. Subsurface can use the
+base color itself. Now this file right
+here is the exact copy of this file. In
+fact, you'll see whatever changes I'll
+make here will update right here as
+well. I'm just going to render this in
+cycle.
+If I change the base color and save this
+file,
+then you'll see once I refresh the file,
+we have the base color changed here and
+it renders exactly the same. Similarly,
+if I bring a texture, let's say noise
+texture, and plug it into specular right
+here and save the file,
+Then the same will be plugged into the
+specular section on the IUR level. So if
+you need to use any specular texture,
+you can plug that into under the
+specular IUR level. And now if I bring
+bump node
+and try to use the same texture here.
+Now this bump node goes under the
+normals here. Now right here as well
+under the code you have normals. But
+don't confuse it with this. This is a
+normal for the clear coat. The main
+normal which you need which which was
+right here is now located at the top of
+the node. So if if I refresh the file
+you'll see this normal now goes right
+here right under the main four
+properties. Now let me disconnect all of
+these.
+Now if I bring in some of this
+subsurface value let's say 0.5 then this
+is the result I get. Now let's say if I
+use green color here then I I need to
+copy the same color right here as well.
+So to do this in the new 4.0 version
+node new principle BSDF I need to go to
+the subsurface
+and enable the weight all the way to
+one. Now this makes it a subsurface
+material. Now right here we only had one
+parameter. Now here you'll see this main
+subsurface parameter is divided into two
+of these. One is the weight which
+decides whether or not it's a subsurface
+material and the second thing is scale
+of subsurface. From here you can tweak
+how farther deep the object captures the
+light. The scale of the subsurface. Now
+if I save this file you'll see right
+here I have 0.5 in the subsurface. If I
+revert this, let's expand the subsurface
+menu. And here you'll see subsurface
+weight is all the way to one and the
+scale is set to 0.5. And that's all you
+need to take care of. All right. So if
+you are making some subsurface material,
+let's say for skin shader or something,
+just bring it all the way to one. And
+whatever value I'm inputting in the
+subsurface, use the same value in the
+scale of the subsurface. All right?
+which I will also be mentioning in few
+of the annotations in the video later
+on. This is all you need to keep in mind
+while you are following this tutorial.
+And I'm pretty sure this might would
+seem pretty obvious. I didn't actually
+have to explain all of this but few of
+the beginners who are actually new to
+Blender, those who needed a bit bit of
+explanation what exactly changed. So now
+we are going to continue using this node
+in our tutorial and once we are done we
+are going to open our main files in
+Blender version 4.0 O just to give you a
+run through and then we are going to use
+sheen on few of the cloth objects which
+have been reworked and gives much better
+results. For instance, if I disable
+subsurface all the way, you can see if I
+bring in sheen here, it doesn't show
+much of the effect.
+But right here in 4.0,
+you can clearly see the difference.
+I think to demonstrate this, I'll bring
+a slightly rounder object.
+Now you should clearly be able to see
+here sheen to me it doesn't actually
+make any of the difference to my shader.
+But right here in 4.0
+it's much more evident and you can also
+control the color of the sheen. So this
+might be helpful for our cloth items in
+the characters model. Other than that
+rest everything remains the same. So
+let's continue building on our
+characters uh shaders and textures and
+if you have any query feel free to jump
+on discord or discuss it in the comment
+section. So we are back to our blender
+file and uh this is where we had left
+off in the previous chapter. So before
+proceeding further one thing to keep in
+mind is that to set the right scale for
+the character for whatever scale you are
+going for in your project just cross
+check if everything is in line before
+proceeding further. So maybe there could
+be hair dynamics or the shaders and
+things like these could change if you
+later on uh decide to change the scale
+of the character. So just go to the side
+properties and uh select the character's
+body and uh accordingly just check the
+dimensions of the character and if you'd
+like to scale things up and down just do
+that before proceeding further. All
+right. So right now it's showing me 3.37
+m. If you'd like you can just select
+everything right here. Just scale it
+down. So if you're going for something
+realistic then this should be the right
+scale for you. All right. So once you're
+done just Ctrl A and uh apply scale.
+That's it. So now the scale of
+everything is one right here. Just save
+your file. So I'm going to start with
+the character's body first. Just going
+to isolate this with a forward slash on
+number pad. So we already have a body
+shader that we had made during previous
+chapter UV section. So right here I have
+UDIMS. If you go to the UV editor,
+you'll see if I go to the edit mode, we
+have the UVs here. All right. So, let's
+go back to the shader editor. First
+things first, I just want a little bit
+of uh subsurface scattering for this
+character. So, if I disable the texture
+for now, I'm going to leave rest
+everything as it is. Just wanted a
+little bit of subsurface scattering. And
+uh change this to random walk. So, this
+is the base material for our character.
+If I hit the render preview, just make
+sure you are using cycles render.
+All right. So, at this moment, we don't
+have much to be seen on this character.
+So, so let's first work on the texture
+that we have. I'm going to get into
+texture paint mode and then jump to
+active tool properties right here.
+In the texture paint mode, I'm simply
+going to fill a skin color in this. So,
+something like this. and then take the
+fill tool from the toolbar on the side
+and just click once on your character
+like this. So now if you go to the UV
+editor, you'll see it's filling the
+color on the entire UV map. Now every
+time you do any changes, you'll have to
+save the textures right here. Right
+after you have made some progress in
+texturing, just make sure to save your
+UDI's textures, whatever changes you
+have made. Otherwise, it's not going to
+show up in the render. Once that is
+done, pick slightly more darker like red
+color or something.
+Now I'm going to pick draw tool from
+here for brush. Now with this color
+selected, I'm going to draw a stroke
+here. So in case if you don't see this
+stroke, just cross check your
+properties. Just make sure there's
+nothing in the texture. The stroke type
+is set to space and spacing is set to
+10%. If the spacing is too much, then
+this is going to create gaps in between
+the strokes. All right. Now I'm just
+going to paint a few patches on the
+skin. Going to reduce the strength right
+here. And enable the symmetry on the
+X-axis. And then paint a few patches
+right here.
+Very light patches. A few around cheek
+right here.
+A little bit on the lips. I'm keeping
+the brush light. I mean, I can keep
+painting on top of this and make it
+darker, but it's really hard to blend a
+darker stroke. So let's say if I paint
+like this, then I'll have to blend it.
+That takes a lot of time.
+So that's why I'm keeping it lighter
+so that there's a gradation everywhere
+like this. A few patches on the nose
+right here. I hope you can see it.
+Then I'm going to paint a bit of circle
+around here. This is not really accurate
+to actual human skin. So I just wanted
+to show that skin have some uh thickness
+and there's a presence of blood in
+instead of everything having a flat
+shade
+and this character is of fair
+complexion. So it makes sense if we see
+few red areas kids have softer skin. So
+I think we are not too off even if
+anatomically it's not correct.
+And if you're working on really low
+configuration, I would suggest that you
+keep your textures to limited. And
+honestly, I think since we are not
+really creating some crisp and
+highdetailed texture, I could have used
+low resolution texture like 2K because
+this is really cartoony and simple
+character. We won't be making any
+wrinkles or high detailed bump on the
+skin pores and all that. Just pay
+attention to your resources. And uh if
+you're struggling to paint, just reduce
+the texture size. Just go to the UV
+editor and save your texture.
+If you are having difficulty reaching to
+certain parts and let's say if we can
+see this here inside the mouth we are
+having difficulty painting. So what you
+can do is change this to image editor
+and in image editor right here you can
+see view we are viewing the image
+instead change this to paint. Then you
+have access to all these tools right
+here as well. So I'm just going to
+reduce a brush size. If you're wondering
+what are the short keys for reducing the
+brush size, increase and decrease. It's
+same as Photoshop. Square brackets up
+and down.
+So just paint a few patches here.
+If you want, you can just fill this
+entire area. Inside of the mouth is red.
+So this makes sense.
+And uh inside the nostrils, you can also
+paint.
+So going back to the orthographic view.
+Hit five on the number pad. And all the
+short commands can be seen in the PDF in
+the description as well.
+We're just going to reden these parts.
+If I increase the strength,
+bigger strokes take time to register and
+uh that's fine.
+Now let's go to the shader editor and uh
+I'm going to plug the same image in
+subsurface color.
+Overall it's working fine but I feel
+there could be more redness.
+Now there are few other parameters you
+can uh consider changing if you want to
+make the skin softer. You have these
+radius parameters for subsurface. Now
+I'll paint a little more on this
+texture.
+So I'll stop talking and just do a bit
+of quick jog.
+So I think this is enough. So if you
+have multiple uh let's say if you're
+painting two colors, one in the for
+foreground color, one in the background
+color and you can switch these bit by
+pressing X just like Photoshop. So, I'm
+just switching these and uh blending
+colors right here. Now, going to save
+the file. Just paint a few more here
+like this. I'm just going to reduce the
+brush size. Change the mode to darken or
+multiply. And in the brush properties,
+you can either access these properties
+from here or if you're working in the
+full screen mode, you have these
+properties here as well. Or you can have
+a larger view uh from side panel.
+Texture paint tool right here. So now we
+have this smaller brush. In this brush,
+I'm going to increase the spacing from
+10% to something around 50 or something
+like this. Then in the jitter amount, if
+you increase this all the way to one or
+two, you'll see we are getting these uh
+freckles kind of thing. So going to
+increase the brush size, increase the
+strength and paint a few freckles.
+Maybe reduce the strength.
+I hope you can see it. So, it's a very
+minor impression right here. So, I'm
+just going to paint a little bit here.
+And uh then
+reduce the jitter, reduce the spacing
+back to 10.
+You can also change the stroke method
+from space to anchored.
+And uh now if you increase the strength,
+you can create few points like this.
+So if you have certain texture in that
+case that helps. Right now I'm going to
+just manually uh increase and decrease
+the brush size. Maybe few larger dots
+right here
+and few smaller dots.
+If you're working with a brush, you can
+always use the brush pressure right here
+to increase and decrease the size of the
+brush. By brush, I mean a stylus.
+So this seems enough. I'm going to save
+the file, go back to the shader editor,
+and let's see what's happening in the
+render.
+So, I think subsurface looks a bit too
+much. From
+06, we can reduce it to 03.
+All right. So, this looks fine. I'm
+going to work on the rest of the things
+and see according to the overall
+appearance of the character. If anything
+needs to be changed later, I'll do that.
+But for for the kind of simple look I'm
+going for, this is absolutely fine. Now,
+anything about this, if you'd like to
+tweak, just shift F, merge these by
+dragging, and you can uh you can bring
+hue, saturation, or uh RGB curves. And
+you can tweak a certain aspect here.
+Now other than the face uh these parts
+the hands and a bit of knee will be
+visible. Other than that everything is
+under the clothes. So let's paint a few
+patches here. A little bit of redness
+around these areas. Now keep in mind
+when I paint this whatever areas are
+hiding behind some surface occluded
+you'll start seeing this um paint mask.
+So that's a bit of problem. Now there's
+a option here uh just disable this
+occlude only paint onto the faces
+directly under the brush.
+All right. So if you disable this the
+paint is going to go through and
+through. But the problem is area behind
+now is not painted. So for that if you
+disable back face coloring now it should
+go through and through.
+But then you'll start seeing these lines
+right here. That's because brush is not
+reaching these particular angles. There
+you'll see these lines. So for that in
+the fall off angle you can reduce this
+to somewhere around 45 or 50 55°
+something. So what will happen is
+whatever is uh pointing towards the
+screen only there our brush will work.
+So in that case we won't be painting on
+the sides like on these parts and
+there's a less room for those lines to
+appear.
+So it's like we are avoiding to paint on
+the sides.
+Now the problem here is if I paint now
+somewhere it's going to paint through
+and through because I have disabled
+these options. So just keep that in
+mind. Do not try to paint uh while the
+other mesh is behind it. For now, while
+painting a bit of redness around the
+finger, I'll use these options. Leave
+the occlude and back face coloring off
+and paint a few patches here.
+And once that is done, I'll enable the
+option again
+so that I don't accidentally paint in
+areas where I don't want to. Like right
+here, I painted a few patches here which
+appeared on the backside as well. So for
+this area it's not good option. I'm
+going to enable these again
+and uh reduce the fall off further.
+If you want, you can also paint nails
+here. Uh, just going to make a bit of
+suggestion about nails.
+Let me just go back to the view and
+you'll see. So, our character is
+starting to look good. We may have to
+adjust the shader a bit more.
+So, just tweak the numbers a bit here in
+subsurface scattering. So the scatter
+radius was a bit too much because of
+which it it was looking way too soft.
+Just turn this down a bit. And I'm also
+thinking maybe I can uh reduce the
+redness a bit
+with the help of this RGB curves.
+So this looks fine and I think uh we can
+go ahead with this. On these glasses I'm
+going to create a simple shader and uh
+let's call this one
+glasses. And for faster preview, I'm
+just going to reduce the sample a
+little.
+So in the shader editor, let's type
+glass BSDF. Get rid of principle BSDF.
+And with control shift click, you can
+just connect this with the material
+output. So pretty simple default glass
+shader. On this glass object, I'm using
+a solidify and a subdivision surface
+modifier for smoother round edges. And
+for the frame here, I'm just going to
+select the frame
+and create a new material. Call this one
+frame.
+Just going to use a bit of warm color
+here in the base color.
+And for this, I'm going to increase the
+transmission all the way to one.
+And leave rest everything as it is.
+And if you want you can add one volume
+absorption right here. And uh
+let's say if you have a glass and uh you
+want to fill the volume with certain
+dense color. So with the help of volume
+absorption you can make it appear like
+solid glass.
+So it's going to give you a nice solid
+look for the glass.
+Now for the eyes of the character, I'm
+simply going to select both of these. So
+we had made these uh dummy eyes for
+quick visualization.
+But now let's try and make a UV sphere
+with the 16 segments and uh scale it
+down of about the same size that we had
+for the previous eye.
+And now let's get rid of these two. We
+won't be needing these at the center. If
+you want to have quads, you can simply
+select every alternate edge
+and delete dissolve edges. Now, if you
+apply subdivision surface,
+you'll see a smoother quads at the
+center as well. Shade smooth. And I'm
+going to make a duplicate of this. Let
+me just apply all transform.
+I'll select about these many faces. Ctrl
+I to invert and delete these faces.
+Let me just disable the proportionate
+editing. And I'm going to push these
+inside and make a shape like this.
+We can get rid of these center faces.
+Extrude this. Scale it down. Push these
+inside.
+Something like this. This is for the
+iris part. At the end right here, just
+select the entire thing and grid fill
+this. All right. And to UV the outer
+area, I'm simply going to select one of
+these loops, mark seam, and select
+everything and unwrap in the UV editor.
+This is what you should get. This is the
+front side, and this is the back side.
+Now, in the shader editor, let's create
+a new shader and uh bring one gradient
+texture.
+and change this to spherical texture.
+Now, if I press CtrlT on this to bring
+the mapping coordinates and use our UV,
+this is what you're going to get. Now,
+what we need to do is align this
+gradient to the front side of the eye.
+So, first thing I'm going to crunch
+these number down so we can start seeing
+this this radial formation. Now, you'll
+have to pay attention to these numbers a
+little. So this is a bit tricky part. So
+to avoid this, if you are having
+difficulty, you can simply bring one
+image texture, make a image texture and
+paint a little bit of white consistent
+area in the center uh for the iris mask.
+Now let's see if we can make this work.
+I'm simply going to drag these numbers.
+So I think we are reaching the front
+and then move it upwards.
+And it seems like we might be able to do
+it without the image texture.
+Now in the main shader, use the same
+thing to create a mask. Let me just hide
+this area. Now we have this texture
+here, but the intensity of this is uh a
+bit dull. So I'm going to bring a math
+node
+and plug this right here. Change this to
+multiply so we can make a bright patch
+here.
+Now let's plug this in transmission as
+well.
+Let's go to the render view.
+Reduce the roughness
+and this is what you will see. Let's
+bring one simple mix color node
+and give it a bit of off-white color.
+Now what we need to do is mask this area
+out. Simply bring a transparent material
+and then bring a mix shader.
+Now we can use the same thing, same
+gradient for this factor.
+Now all the insides are masked out. So
+now here we see the iris part.
+If you want to have some refractions
+here, transmission here, you can simply
+bring on add shader and use the another
+layer of same shader here. So now you'll
+see these reflections here.
+For the internal part, simply create one
+material, diffuse BSDF, and put it right
+here. Now for the UV for iris. Simply
+select everything. Press U to unwrap
+project from view. And uh that should
+create a decent UV for iris. I'm going
+to bring one image texture.
+Connect this to diffuse color. And in
+this I'm going to open one uh iris
+texture that I have a PNG image.
+This image texture is a bit map. And uh
+you can use any paint program, Critter,
+Photoshop to paint this out. You can
+also make it using uh Blender itself.
+For that you need a quite some decent
+knowledge about nodes. So at this moment
+it might would be a bit difficult to
+pack all that information within this
+modeling tutorial and uh it'll be it
+might be a bit too much of information.
+So maybe we can discuss nodes in some
+other tutorials. But your end goal is to
+have a bit of texture for iris part. And
+you can do that in many ways.
+I'm going to fix these UVs a bit
+with proportionate editing. Scale these
+up
+like this. Now let's see what's going on
+here.
+Now if you want you can select both of
+these press Ctrl J to combine this and
+then you can press Ctrl A apply location
+and then when you apply mirror modifier
+this would fill in for other eye on the
+right
+you can see the eyes on the both sides I
+can adjust the eyes scale a bit in the
+edit mode just going to scale it up a
+bit
+just check from all different views if
+it's sitting in properly or not.
+Yeah, I think more or less it's there.
+All right. So now let's move on to the
+next part which is going to be hair and
+uh eye seems to be working fine. The
+texture is bit stylized but uh kind of
+like the gradation in this texture so
+not going to bother much about it.
+Just make sure eyes are resting well in
+the sockets. If there's any uh
+modification needed, just do that. All
+right. So, I see a bit of gap here. And
+uh I'll fix that. Maybe
+I'm just going to make a shape key
+sockets just in case if anything goes
+wrong, I can always tune it up and down.
+Now for the hair part, let me just
+select one of the strand and I'm going
+to isolate this one.
+We are going to create a new material.
+And in this material, let's apply one um
+noise texture.
+Let me just make a bit of room for
+shader editor.
+Now let's bring mapping coordinates with
+Ctrl D. And I'm going to stretch this
+texture in one of the direction. Let me
+just change this to UV first.
+So what I'm doing here is trying to
+adjust the grains a bit. So I want these
+lines to be running across the entire
+hair strand.
+So something like this.
+Now with this node selected, let's apply
+one color ramp. Now in this color ramp,
+we can add multiple colors. Let me just
+add a few points.
+We can start with something darker shade
+of brown. Then the second one could be
+slightly more variation of brown. And at
+the center we can have sort of a
+bright color.
+Just play with these color headers until
+you find something uh useful.
+So yeah, something like this. Let's see
+how this looks in render.
+This can work for our model. But uh at
+this moment it looks a bit junky and not
+really soft. So what I'm thinking is we
+can use the same texture in the alpha
+map. So if I plug this here, you'll see
+there's a transparency in between. And
+if I map range this,
+I can make this work. So just by
+controlling the levels of this texture,
+I can uh control the opacity of this uh
+entire hair hair strand based on the
+noise texture. So it would appear as if
+there are finer strands of hair. Pardon
+the voice over gets a bit glitchy when
+recording during rendering.
+All right. So this looks nice. Actually
+the model looks much more softer. Now
+what if we use the same thing in the
+roughness as well?
+We can also use a bit of subsurface.
+It's not really a perfect way, but I
+just want to catch some of the
+backlight, make it appear as if it's
+translucent.
+So, in this case, this works and u it's
+not much of cheating if if it works.
+So yeah, this seems much better.
+Now there's one thing I wanted to
+mention is that if you remember when we
+were making this these hair, we had used
+this profile, right? Let me just bring
+it back.
+So this is the profile that we had made.
+But if you look at this now, this
+profile is much more detailed. So what's
+happening in this is basically I have
+added a few more circles. If I go to the
+edit mode,
+if I keep adding more detail here, that
+will reflect here as well. So instead of
+having one strand, I was thinking we
+could have few circles to detail the
+profile so that in side views there will
+be a break in silhouette. And if you
+want to make the overall thing a bit
+more dense,
+you can simply select few of these
+points and make a duplicate.
+So now within your profile you have uh
+multiple curves and uh the geometry is
+not really hollow. There are few more
+curves within. Because of that the
+appearance will be much more denser.
+Just make sure to not make it too heavy.
+If you feel computer is having
+performance issues, then you can always
+just keep it simple. You can also adjust
+the resolution of these profile curves
+from here.
+So let's go back to the full view. So
+I'm going to select all of these curves
+and then select this curve and press
+Ctrl Link material. Now this will
+transfer the material to rest of the
+hair strands.
+It seems we are pretty close. It's just
+that uh it will be nice if we could see
+through these hair a bit. So maybe
+tweaking opacity might work.
+So this looks good. I think we can go
+ahead with this. With clear coat, we can
+add another layer of glossiness.
+So yeah, this looks good. So slowly it's
+starting to at least uh look alive and
+instead of gray materials everywhere, we
+can uh see the character's face. It kind
+of looks cute. I think it this is
+turning out well. Let's spend some more
+time on the rest of the things on the
+clothes and everything. And uh I'm sure
+once we see some more colors around it,
+this will start to look much more
+better, even more vibrant. Now here I
+have opened the same file in LTS
+version. And right here we have 4.0.
+So if I select the body and this is the
+shader that we have made. Now right here
+in the 4.0 you can see it's the same
+shader and instead of this uh subsurface
+color which we had connected right here
+in subsurface color since that property
+is removed here without that as well
+it's producing the same effect. You just
+need to plug your texture into the base
+color and automatically that will be
+used in the subsurface as well. And then
+for the subsurface radius and everything
+3.06.36
+and subsurface uh overall weight 063 is
+now in the scale right here. And the
+rest of the shaders were pretty simple.
+So I'm not going to explain those
+right here. Uh for the hair shader,
+let's see what's going on. So pretty
+much everything is same. So hope it
+clears out few doubts and we'll continue
+to do the same in the next chapter as
+well. We are going to create shaders for
+clothes and uh there we are going to
+update few of our shaders in 4.0 using
+uh this sheen. It creates this nice
+frenel kind of effect which could be
+quite useful for the clo parts and if
+you want you can use some of this in
+skin just for the bit of stylized look
+but I think this will be more relevant
+for the clothes parts. So if you have
+any more doubts you can just use the
+comment section or discord and hope this
+helps even if you're using the previous
+version or the latest version of the
+blender. So that's all for now
+concluding this chapter. If you want to
+push your character for more realistic
+look you can use detailed brushes
+instead of simple colors and incorporate
+additional maps. You can learn more
+about this in chapter number six of
+content creation series which we did a
+while ago where we modeled this skull
+but not now that might be too much for
+you and might be distracting. So after
+you have completed this course so that
+you don't get distracted texturing in
+detail is a whole different subject and
+we can't fit everything in this series
+but the basic texturing process remains
+the same. So I hope this uh chapter
+helped you understand how to navigate in
+the texturing workspace. This process
+itself might take some time to get used
+to. Keep it simple for now and focus on
+memorizing the process. In the next
+chapter, we are going to shade the
+clothes, create some vibrant shaders,
+paint a few textures, and combine them
+with some other downloaded PBR textures.
+Jump to Discord server if you'd like to
+discuss anything related to this on
+channel dedicated to this series. Check
+pin comment for frequently asked
+questions and problems. Check
+description for PDF of keyboard
+shortcuts, discount coupons, and other
+mentioned resources for this tutorial.
+If you enjoyed this chapter, do check
+out the full playlist and hope you
+continue all the way till the end. Also,
+consider buying the premium version and
+unlock the additional chapters and
+project files and bonus content which
+will take you through the process of
+rigging with rigify, creating a nice
+walk cycle animation, creating secondary
+animations using plot physics and bone
+constraints and rendering your entire
+project using cycles render engine.
+Share your work with me on Instagram,
+tag me with instacross mind and
+participate in discussion on discord
+channel for this course. Links are in
+the description. Please give it a like
+and subscribe and stay tuned for more.
+Share your thoughts in the comment
+section and don't forget to share it
+with your colleagues and on social media
+to help us reach the wider audience.
+Thank you for all your support and love.

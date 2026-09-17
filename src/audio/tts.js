@@ -42,8 +42,10 @@ export const TTS = {
       const vs = speechSynthesis.getVoices();
       this.voice = vs.find((v) => /pt[-_]BR/i.test(v.lang)) || vs.find((v) => /^pt/i.test(v.lang)) || null;
     };
-    pick();
+    // getVoices() pode bloquear alguns segundos em ambientes sem backend de voz
+    // (ex.: Chromium headless) — a leitura é adiada para não travar o boot do jogo.
     speechSynthesis.addEventListener('voiceschanged', pick);
+    setTimeout(pick, 0);
   },
 
   setCase(caseId) {

@@ -1,0 +1,1110 @@
+Kind: captions
+Language: en
+there are people who have spent literal
+there are people who have spent literal
+there are people who have spent literal
+decades trying to get better at
+decades trying to get better at
+decades trying to get better at
+character animation so you can spend
+character animation so you can spend
+character animation so you can spend
+that much time if you want to I don't
+that much time if you want to I don't
+that much time if you want to I don't
+want that but a lot of the hard work has
+want that but a lot of the hard work has
+want that but a lot of the hard work has
+been done already and now there are
+been done already and now there are
+been done already and now there are
+tools workflows and resources that will
+tools workflows and resources that will
+tools workflows and resources that will
+help you achieve your goals much faster
+help you achieve your goals much faster
+help you achieve your goals much faster
+in order to start animating characters
+in order to start animating characters
+in order to start animating characters
+fast you're gonna need a rigged
+fast you're gonna need a rigged
+fast you're gonna need a rigged
+character now you can make these
+character now you can make these
+character now you can make these
+yourself but we're in a hurry so the
+yourself but we're in a hurry so the
+yourself but we're in a hurry so the
+first option is miximo Which is popular
+first option is miximo Which is popular
+first option is miximo Which is popular
+so you might have already heard of it it
+so you might have already heard of it it
+so you might have already heard of it it
+has a lot of free characters to choose
+has a lot of free characters to choose
+has a lot of free characters to choose
+from that are already rigged and you can
+from that are already rigged and you can
+from that are already rigged and you can
+even choose from their library of
+even choose from their library of
+even choose from their library of
+animations it basically removes all of
+animations it basically removes all of
+animations it basically removes all of
+the work and just does the animation for
+the work and just does the animation for
+the work and just does the animation for
+you you can also upload your own
+you you can also upload your own
+you you can also upload your own
+character model and it will
+character model and it will
+character model and it will
+automatically rig it for you so that you
+automatically rig it for you so that you
+automatically rig it for you so that you
+can use their animations it can work
+can use their animations it can work
+can use their animations it can work
+really well but it's very automatic so
+really well but it's very automatic so
+really well but it's very automatic so
+there is a chance that your model won't
+there is a chance that your model won't
+there is a chance that your model won't
+deform as you expect it to if you want
+deform as you expect it to if you want
+deform as you expect it to if you want
+to animate one of their characters
+to animate one of their characters
+to animate one of their characters
+manually you might have a hard time
+manually you might have a hard time
+manually you might have a hard time
+because miximo doesn't make any rig
+because miximo doesn't make any rig
+because miximo doesn't make any rig
+controls for you by default it just
+controls for you by default it just
+controls for you by default it just
+gives you the bones that are needed to
+gives you the bones that are needed to
+gives you the bones that are needed to
+make it deform if you want to use this
+make it deform if you want to use this
+make it deform if you want to use this
+rig then you can try using this auto ik
+rig then you can try using this auto ik
+rig then you can try using this auto ik
+option which could help you pose the
+option which could help you pose the
+option which could help you pose the
+model more easily just turn it on select
+model more easily just turn it on select
+model more easily just turn it on select
+a bone press G to move it and then you
+a bone press G to move it and then you
+a bone press G to move it and then you
+can use the scroll wheel to change the
+can use the scroll wheel to change the
+can use the scroll wheel to change the
+chain length for different results Auto
+chain length for different results Auto
+chain length for different results Auto
+ik is nice but it's not going to be as
+ik is nice but it's not going to be as
+ik is nice but it's not going to be as
+good as a rig that actually has luckily
+good as a rig that actually has luckily
+good as a rig that actually has luckily
+there is a free miximo add-on that will
+there is a free miximo add-on that will
+there is a free miximo add-on that will
+take any rigged model from miximo and
+take any rigged model from miximo and
+take any rigged model from miximo and
+generate a bunch of controls to make it
+generate a bunch of controls to make it
+generate a bunch of controls to make it
+easier to use so definitely use this if
+easier to use so definitely use this if
+easier to use so definitely use this if
+you plan on doing manual animation for a
+you plan on doing manual animation for a
+you plan on doing manual animation for a
+simple rigged character you can download
+simple rigged character you can download
+simple rigged character you can download
+one that I made from gumroad it'll be
+one that I made from gumroad it'll be
+one that I made from gumroad it'll be
+easier to control than the one from
+easier to control than the one from
+easier to control than the one from
+miximo but it doesn't have any face
+miximo but it doesn't have any face
+miximo but it doesn't have any face
+controls so it's only good for body
+controls so it's only good for body
+controls so it's only good for body
+animation for rigs with all of the
+animation for rigs with all of the
+animation for rigs with all of the
+controls you could ever want check out
+controls you could ever want check out
+controls you could ever want check out
+the free characters from blender Studio
+the free characters from blender Studio
+the free characters from blender Studio
+these are the same ones they use in
+these are the same ones they use in
+these are the same ones they use in
+their short movies like this one has
+their short movies like this one has
+their short movies like this one has
+fine-tuned controls for the face stretch
+fine-tuned controls for the face stretch
+fine-tuned controls for the face stretch
+controllers to make things cartoony and
+controllers to make things cartoony and
+controllers to make things cartoony and
+even has a pose library and if you use
+even has a pose library and if you use
+even has a pose library and if you use
+these make sure to check the bone layers
+these make sure to check the bone layers
+these make sure to check the bone layers
+in the side panel to see all of the
+in the side panel to see all of the
+in the side panel to see all of the
+options they give you there are plenty
+options they give you there are plenty
+options they give you there are plenty
+of other free rigged characters but I'd
+of other free rigged characters but I'd
+of other free rigged characters but I'd
+basically just be doing Google searches
+basically just be doing Google searches
+basically just be doing Google searches
+at this point so let's move on to
+at this point so let's move on to
+at this point so let's move on to
+actually animating again the first
+actually animating again the first
+actually animating again the first
+method is a little more automatic and
+method is a little more automatic and
+method is a little more automatic and
+that is by getting motion capture
+that is by getting motion capture
+that is by getting motion capture
+animations or by doing motion capture
+animations or by doing motion capture
+animations or by doing motion capture
+yourself the animations from miximo are
+yourself the animations from miximo are
+yourself the animations from miximo are
+motion capture data but a quick search
+motion capture data but a quick search
+motion capture data but a quick search
+for free mocap animations reveals that
+for free mocap animations reveals that
+for free mocap animations reveals that
+you can find this stuff all over the
+you can find this stuff all over the
+you can find this stuff all over the
+place you can also do your own motion
+place you can also do your own motion
+place you can also do your own motion
+capture for free with Rococo video all
+capture for free with Rococo video all
+capture for free with Rococo video all
+you have to do is film a video of
+you have to do is film a video of
+you have to do is film a video of
+yourself doing the performance you want
+yourself doing the performance you want
+yourself doing the performance you want
+to capture then you upload it to their
+to capture then you upload it to their
+to capture then you upload it to their
+website and use their application to
+website and use their application to
+website and use their application to
+clean things up and Export them and if
+clean things up and Export them and if
+clean things up and Export them and if
+you use the Rococo add-on for blender
+you use the Rococo add-on for blender
+you use the Rococo add-on for blender
+then you can retarget the animations to
+then you can retarget the animations to
+then you can retarget the animations to
+work with whatever rig you want to use
+work with whatever rig you want to use
+work with whatever rig you want to use
+using this free method isn't going to be
+using this free method isn't going to be
+using this free method isn't going to be
+as clean as having a motion capture suit
+as clean as having a motion capture suit
+as clean as having a motion capture suit
+like you have to be careful about
+like you have to be careful about
+like you have to be careful about
+whether your arms and legs can be seen
+whether your arms and legs can be seen
+whether your arms and legs can be seen
+clearly but for a free option this is
+clearly but for a free option this is
+clearly but for a free option this is
+super valuable I personally haven't done
+super valuable I personally haven't done
+super valuable I personally haven't done
+much motion capture but I tried this and
+much motion capture but I tried this and
+much motion capture but I tried this and
+it was pretty easy to figure out without
+it was pretty easy to figure out without
+it was pretty easy to figure out without
+looking anything up next we should talk
+looking anything up next we should talk
+looking anything up next we should talk
+about animating manually so here are
+about animating manually so here are
+about animating manually so here are
+some posing and keyframing tips and
+some posing and keyframing tips and
+some posing and keyframing tips and
+don't worry I'll talk about more
+don't worry I'll talk about more
+don't worry I'll talk about more
+automatic Solutions later on basic
+automatic Solutions later on basic
+automatic Solutions later on basic
+posing is very simple go into pose mode
+posing is very simple go into pose mode
+posing is very simple go into pose mode
+by selecting an Armature and changing
+by selecting an Armature and changing
+by selecting an Armature and changing
+this to pose mode or by pressing Ctrl
+this to pose mode or by pressing Ctrl
+this to pose mode or by pressing Ctrl
+tab then you can select a bone and press
+tab then you can select a bone and press
+tab then you can select a bone and press
+gr or s to move rotate and scale for
+gr or s to move rotate and scale for
+gr or s to move rotate and scale for
+trackball rotation you can press r twice
+trackball rotation you can press r twice
+trackball rotation you can press r twice
+you can also transform Bones on specific
+you can also transform Bones on specific
+you can also transform Bones on specific
+axes for example you can move a bone on
+axes for example you can move a bone on
+axes for example you can move a bone on
+the x-axis by pressing G and then X or
+the x-axis by pressing G and then X or
+the x-axis by pressing G and then X or
+you could rotate a bone on the local
+you could rotate a bone on the local
+you could rotate a bone on the local
+y-axis by pressing R and then y twice
+y-axis by pressing R and then y twice
+y-axis by pressing R and then y twice
+you'll end up using local axes a lot
+you'll end up using local axes a lot
+you'll end up using local axes a lot
+while posing so you can also change the
+while posing so you can also change the
+while posing so you can also change the
+default up here if you like I already
+default up here if you like I already
+default up here if you like I already
+mentioned the auto ik option but we can
+mentioned the auto ik option but we can
+mentioned the auto ik option but we can
+also turn on pose mirroring up here and
+also turn on pose mirroring up here and
+also turn on pose mirroring up here and
+it should work as long as the bones are
+it should work as long as the bones are
+it should work as long as the bones are
+named properly which is likely if you
+named properly which is likely if you
+named properly which is likely if you
+downloaded the rig I talk more about
+downloaded the rig I talk more about
+downloaded the rig I talk more about
+this in my rigging video if you're
+this in my rigging video if you're
+this in my rigging video if you're
+interested in learning more if you want
+interested in learning more if you want
+interested in learning more if you want
+to make long chains of Bones curl try
+to make long chains of Bones curl try
+to make long chains of Bones curl try
+changing the pivot point to individual
+changing the pivot point to individual
+changing the pivot point to individual
+Origins by pressing period or by using
+Origins by pressing period or by using
+Origins by pressing period or by using
+this drop down then select the bones you
+this drop down then select the bones you
+this drop down then select the bones you
+want and start rotating this is really
+want and start rotating this is really
+want and start rotating this is really
+useful for controlling fingers Tails or
+useful for controlling fingers Tails or
+useful for controlling fingers Tails or
+any other chain of bones with a bone
+any other chain of bones with a bone
+any other chain of bones with a bone
+selected you can press I to insert a
+selected you can press I to insert a
+selected you can press I to insert a
+keyframe and then you can choose between
+keyframe and then you can choose between
+keyframe and then you can choose between
+location rotation and scale or for a
+location rotation and scale or for a
+location rotation and scale or for a
+combination of the three you should see
+combination of the three you should see
+combination of the three you should see
+keyframes on your timeline now move to a
+keyframes on your timeline now move to a
+keyframes on your timeline now move to a
+different point on your timeline and
+different point on your timeline and
+different point on your timeline and
+press I to insert another keyframe press
+press I to insert another keyframe press
+press I to insert another keyframe press
+the space bar to play and
+the space bar to play and
+the space bar to play and
+congratulations now you're an animator
+congratulations now you're an animator
+congratulations now you're an animator
+now this
+now this
+now this
+back to posing you can copy a pose by
+back to posing you can copy a pose by
+back to posing you can copy a pose by
+selecting bones and pressing Ctrl C
+selecting bones and pressing Ctrl C
+selecting bones and pressing Ctrl C
+paste it with Ctrl V and flip the pose
+paste it with Ctrl V and flip the pose
+paste it with Ctrl V and flip the pose
+with Ctrl shift V and this also works
+with Ctrl shift V and this also works
+with Ctrl shift V and this also works
+for keyframes on the timeline as long as
+for keyframes on the timeline as long as
+for keyframes on the timeline as long as
+you have the bones and the keyframes
+you have the bones and the keyframes
+you have the bones and the keyframes
+selected we have the breakdowner tool
+selected we have the breakdowner tool
+selected we have the breakdowner tool
+that lets you blend between different
+that lets you blend between different
+that lets you blend between different
+poses on the timeline as well as push
+poses on the timeline as well as push
+poses on the timeline as well as push
+and relax if you click and hold the tool
+and relax if you click and hold the tool
+and relax if you click and hold the tool
+button last is the motion paths option
+button last is the motion paths option
+button last is the motion paths option
+which can be found under object data
+which can be found under object data
+which can be found under object data
+properties just select some bones and
+properties just select some bones and
+properties just select some bones and
+press calculate and it will show where
+press calculate and it will show where
+press calculate and it will show where
+those bones move over time just know
+those bones move over time just know
+those bones move over time just know
+that it won't update in real time as you
+that it won't update in real time as you
+that it won't update in real time as you
+place keyframes and you'll have to press
+place keyframes and you'll have to press
+place keyframes and you'll have to press
+the update path button to see the
+the update path button to see the
+the update path button to see the
+changes you can also quickly jump
+changes you can also quickly jump
+changes you can also quickly jump
+between visible keyframes with the up
+between visible keyframes with the up
+between visible keyframes with the up
+and down arrow keys your timeline will
+and down arrow keys your timeline will
+and down arrow keys your timeline will
+get messy really fast so you can drag
+get messy really fast so you can drag
+get messy really fast so you can drag
+this Arrow to see all of the bones
+this Arrow to see all of the bones
+this Arrow to see all of the bones
+individually but for maximum control you
+individually but for maximum control you
+individually but for maximum control you
+should be using the dope sheet in the
+should be using the dope sheet in the
+should be using the dope sheet in the
+graph editor let's make a new window and
+graph editor let's make a new window and
+graph editor let's make a new window and
+change this to the dope sheet now you
+change this to the dope sheet now you
+change this to the dope sheet now you
+can see we have a few of other menus
+can see we have a few of other menus
+can see we have a few of other menus
+here this bus button this button makes
+here this bus button this button makes
+here this bus button this button makes
+it so you can see all of the keyframes
+it so you can see all of the keyframes
+it so you can see all of the keyframes
+without having the bone selected and
+without having the bone selected and
+without having the bone selected and
+there are a ton of options in the key
+there are a ton of options in the key
+there are a ton of options in the key
+menu that you should explore but they'll
+menu that you should explore but they'll
+menu that you should explore but they'll
+make a lot more sense in the graph
+make a lot more sense in the graph
+make a lot more sense in the graph
+editor and we can get there by hovering
+editor and we can get there by hovering
+editor and we can get there by hovering
+over the dope sheet or the timeline and
+over the dope sheet or the timeline and
+over the dope sheet or the timeline and
+pressing Ctrl tab the graph editor can
+pressing Ctrl tab the graph editor can
+pressing Ctrl tab the graph editor can
+be overwhelming so here are a few tips
+be overwhelming so here are a few tips
+be overwhelming so here are a few tips
+that will instantly make it easier to
+that will instantly make it easier to
+that will instantly make it easier to
+use click and drag to box select and you
+use click and drag to box select and you
+use click and drag to box select and you
+can frame the selected points with
+can frame the selected points with
+can frame the selected points with
+period on the number pad or by pressing
+period on the number pad or by pressing
+period on the number pad or by pressing
+the back tick key this normalize option
+the back tick key this normalize option
+the back tick key this normalize option
+will display everything to have a value
+will display everything to have a value
+will display everything to have a value
+of negative one to one which can make it
+of negative one to one which can make it
+of negative one to one which can make it
+easier to look at sometimes you can hide
+easier to look at sometimes you can hide
+easier to look at sometimes you can hide
+channels by selecting them over here and
+channels by selecting them over here and
+channels by selecting them over here and
+pressing H or the little eyeball you can
+pressing H or the little eyeball you can
+pressing H or the little eyeball you can
+isolate them by pressing shift H and you
+isolate them by pressing shift H and you
+isolate them by pressing shift H and you
+can bring everything back with alt H
+can bring everything back with alt H
+can bring everything back with alt H
+also if you press n you can add
+also if you press n you can add
+also if you press n you can add
+modifiers to the curves like noise to
+modifiers to the curves like noise to
+modifiers to the curves like noise to
+make it more random or cycle for when
+make it more random or cycle for when
+make it more random or cycle for when
+you want a motion to repeat so under the
+you want a motion to repeat so under the
+you want a motion to repeat so under the
+key menu we have interpolation mode
+key menu we have interpolation mode
+key menu we have interpolation mode
+which you can also get to by pressing t
+which you can also get to by pressing t
+which you can also get to by pressing t
+and this has some useful curve shapes
+and this has some useful curve shapes
+and this has some useful curve shapes
+you can play with everything uses bezier
+you can play with everything uses bezier
+you can play with everything uses bezier
+curves by default but you should look at
+curves by default but you should look at
+curves by default but you should look at
+all of the other ones like this one
+all of the other ones like this one
+all of the other ones like this one
+called back that overshoots the endpoint
+called back that overshoots the endpoint
+called back that overshoots the endpoint
+by just a little and if you want to and
+by just a little and if you want to and
+by just a little and if you want to and
+if you want to if you want to flip the
+if you want to if you want to flip the
+if you want to if you want to flip the
+interpolation Direction you can change
+interpolation Direction you can change
+interpolation Direction you can change
+the easing type with control E I like
+the easing type with control E I like
+the easing type with control E I like
+setting it to ease in and out and using
+setting it to ease in and out and using
+setting it to ease in and out and using
+these interpolation shapes in the middle
+these interpolation shapes in the middle
+these interpolation shapes in the middle
+and for when you want very specific
+and for when you want very specific
+and for when you want very specific
+curve shapes use a bezier interpolation
+curve shapes use a bezier interpolation
+curve shapes use a bezier interpolation
+and you can change the handle types with
+and you can change the handle types with
+and you can change the handle types with
+v then move rotate or scale the handles
+v then move rotate or scale the handles
+v then move rotate or scale the handles
+back in the dope sheet we also have the
+back in the dope sheet we also have the
+back in the dope sheet we also have the
+action editor which will let you save
+action editor which will let you save
+action editor which will let you save
+animations you can rename them and click
+animations you can rename them and click
+animations you can rename them and click
+the shield icon to save them and you can
+the shield icon to save them and you can
+the shield icon to save them and you can
+create a new one by clicking this which
+create a new one by clicking this which
+create a new one by clicking this which
+will duplicate what you have currently
+will duplicate what you have currently
+will duplicate what you have currently
+or press the X and click new for an
+or press the X and click new for an
+or press the X and click new for an
+empty action this is nice for when you
+empty action this is nice for when you
+empty action this is nice for when you
+want to save animations to reuse them
+want to save animations to reuse them
+want to save animations to reuse them
+like walk cycles and gestures this is
+like walk cycles and gestures this is
+like walk cycles and gestures this is
+also really useful for when you start
+also really useful for when you start
+also really useful for when you start
+using the nla editor which will let you
+using the nla editor which will let you
+using the nla editor which will let you
+add these actions together and layer
+add these actions together and layer
+add these actions together and layer
+them on top of each other but that's a
+them on top of each other but that's a
+them on top of each other but that's a
+topic for a longer video the next option
+topic for a longer video the next option
+topic for a longer video the next option
+is auto keying which is the most fun
+is auto keying which is the most fun
+is auto keying which is the most fun
+method in my opinion all you have to do
+method in my opinion all you have to do
+method in my opinion all you have to do
+is press this button and now whenever
+is press this button and now whenever
+is press this button and now whenever
+you move rotate or scale a keyframe will
+you move rotate or scale a keyframe will
+you move rotate or scale a keyframe will
+automatically be placed and this means
+automatically be placed and this means
+automatically be placed and this means
+that you can press the space bar and
+that you can press the space bar and
+that you can press the space bar and
+move your Armature to record the
+move your Armature to record the
+move your Armature to record the
+movement in real time you might be
+movement in real time you might be
+movement in real time you might be
+watching this thinking that this feature
+watching this thinking that this feature
+watching this thinking that this feature
+is just a gimmick well it kind of is and
+is just a gimmick well it kind of is and
+is just a gimmick well it kind of is and
+I love it because it feels like playing
+I love it because it feels like playing
+I love it because it feels like playing
+with toys and the results are always
+with toys and the results are always
+with toys and the results are always
+hilarious there are some quirks to
+hilarious there are some quirks to
+hilarious there are some quirks to
+mention though like if you try to use
+mention though like if you try to use
+mention though like if you try to use
+this on top of other keyframes it will
+this on top of other keyframes it will
+this on top of other keyframes it will
+look pretty glitchy so I try to avoid
+look pretty glitchy so I try to avoid
+look pretty glitchy so I try to avoid
+that but there are a few ways around it
+that but there are a few ways around it
+that but there are a few ways around it
+one way is with keying sets on the
+one way is with keying sets on the
+one way is with keying sets on the
+timeline there's this keying drop down
+timeline there's this keying drop down
+timeline there's this keying drop down
+which lets you choose what channels you
+which lets you choose what channels you
+which lets you choose what channels you
+want to keyframe and then you can use
+want to keyframe and then you can use
+want to keyframe and then you can use
+this Arrow to make Auto keying only
+this Arrow to make Auto keying only
+this Arrow to make Auto keying only
+place keyframes on those channels this
+place keyframes on those channels this
+place keyframes on those channels this
+should let you record things like
+should let you record things like
+should let you record things like
+location and rotation separately this
+location and rotation separately this
+location and rotation separately this
+also means that when you press I to
+also means that when you press I to
+also means that when you press I to
+insert a keyframe it will automatically
+insert a keyframe it will automatically
+insert a keyframe it will automatically
+insert it to whatever you had selected
+insert it to whatever you had selected
+insert it to whatever you had selected
+as your keying set to do layered Auto
+as your keying set to do layered Auto
+as your keying set to do layered Auto
+keying you can also mute Channels with
+keying you can also mute Channels with
+keying you can also mute Channels with
+these check boxes and you can lock
+these check boxes and you can lock
+these check boxes and you can lock
+Channels with the lock icon and to
+Channels with the lock icon and to
+Channels with the lock icon and to
+smooth out rough motion you can go to
+smooth out rough motion you can go to
+smooth out rough motion you can go to
+the graph editor select some points and
+the graph editor select some points and
+the graph editor select some points and
+press alt o and that will smooth those
+press alt o and that will smooth those
+press alt o and that will smooth those
+curves out if you look closely you'll
+curves out if you look closely you'll
+curves out if you look closely you'll
+notice I actually used auto keying in a
+notice I actually used auto keying in a
+notice I actually used auto keying in a
+lot of my videos and I'm pretty sure
+lot of my videos and I'm pretty sure
+lot of my videos and I'm pretty sure
+other popular animations on YouTube use
+other popular animations on YouTube use
+other popular animations on YouTube use
+similar methods if you want to save
+similar methods if you want to save
+similar methods if you want to save
+poses to reuse later you can use the
+poses to reuse later you can use the
+poses to reuse later you can use the
+pose Library first make sure you're in
+pose Library first make sure you're in
+pose Library first make sure you're in
+pose mode and select the bones that are
+pose mode and select the bones that are
+pose mode and select the bones that are
+part of the pose then you can press F3
+part of the pose then you can press F3
+part of the pose then you can press F3
+and search for create pose asset if you
+and search for create pose asset if you
+and search for create pose asset if you
+open up the N side panel and go to the
+open up the N side panel and go to the
+open up the N side panel and go to the
+animation tab you should see the pose it
+animation tab you should see the pose it
+animation tab you should see the pose it
+created for you and if you have two or
+created for you and if you have two or
+created for you and if you have two or
+more poses you can click and drag them
+more poses you can click and drag them
+more poses you can click and drag them
+to blend between them you can also add
+to blend between them you can also add
+to blend between them you can also add
+poses from the assat browser under the
+poses from the assat browser under the
+poses from the assat browser under the
+asset menu and rename them in the N side
+asset menu and rename them in the N side
+asset menu and rename them in the N side
+panel over here poses are saved as
+panel over here poses are saved as
+panel over here poses are saved as
+actions so if you want to edit a pose
+actions so if you want to edit a pose
+actions so if you want to edit a pose
+you can do that from the action editor
+you can do that from the action editor
+you can do that from the action editor
+next is about a free add-on that I love
+next is about a free add-on that I love
+next is about a free add-on that I love
+called Wiggle Bones 2 and it uses
+called Wiggle Bones 2 and it uses
+called Wiggle Bones 2 and it uses
+physics to add some secondary motion to
+physics to add some secondary motion to
+physics to add some secondary motion to
+your movements it's very easy to use and
+your movements it's very easy to use and
+your movements it's very easy to use and
+the link is down below after installing
+the link is down below after installing
+the link is down below after installing
+it go into pose mode and select the bone
+it go into pose mode and select the bone
+it go into pose mode and select the bone
+that you want to wiggle press n to open
+that you want to wiggle press n to open
+that you want to wiggle press n to open
+the side panel go to animation and you
+the side panel go to animation and you
+the side panel go to animation and you
+can turn it on there adding it to the
+can turn it on there adding it to the
+can turn it on there adding it to the
+Bone head will make it move from the
+Bone head will make it move from the
+Bone head will make it move from the
+base of the bone and tail will move the
+base of the bone and tail will move the
+base of the bone and tail will move the
+tip of the bone and make it rotate a
+tip of the bone and make it rotate a
+tip of the bone and make it rotate a
+little more you can preview the motion
+little more you can preview the motion
+little more you can preview the motion
+by pressing the space bar and moving the
+by pressing the space bar and moving the
+by pressing the space bar and moving the
+Armature around and if you really wanted
+Armature around and if you really wanted
+Armature around and if you really wanted
+to you could keyframe all of this motion
+to you could keyframe all of this motion
+to you could keyframe all of this motion
+manually but this just makes it so much
+manually but this just makes it so much
+manually but this just makes it so much
+easier it has quite a few options like
+easier it has quite a few options like
+easier it has quite a few options like
+if you turn the stiffness down things
+if you turn the stiffness down things
+if you turn the stiffness down things
+will move a lot more and you can also
+will move a lot more and you can also
+will move a lot more and you can also
+add collision by selecting an object or
+add collision by selecting an object or
+add collision by selecting an object or
+a collection if you like what it adds to
+a collection if you like what it adds to
+a collection if you like what it adds to
+your animation and you want to render it
+your animation and you want to render it
+your animation and you want to render it
+out you have to bake it first and you
+out you have to bake it first and you
+out you have to bake it first and you
+can do that with the bake action button
+can do that with the bake action button
+can do that with the bake action button
+at the very bottom this will turn all of
+at the very bottom this will turn all of
+at the very bottom this will turn all of
+the motion you see into keyframes
+the motion you see into keyframes
+the motion you see into keyframes
+another way that I like to do it is by
+another way that I like to do it is by
+another way that I like to do it is by
+going to the action editor and saving
+going to the action editor and saving
+going to the action editor and saving
+the current action and then and
+the current action and then and
+the current action and then and
+duplicating it then press F3 and search
+duplicating it then press F3 and search
+duplicating it then press F3 and search
+for bake action select visual keying
+for bake action select visual keying
+for bake action select visual keying
+overwrite current action and press ok
+overwrite current action and press ok
+overwrite current action and press ok
+now since you duplicated the action
+now since you duplicated the action
+now since you duplicated the action
+you'll have one with the wiggle baked in
+you'll have one with the wiggle baked in
+you'll have one with the wiggle baked in
+and one that is unaltered in case you
+and one that is unaltered in case you
+and one that is unaltered in case you
+want to change it later the next tips
+want to change it later the next tips
+want to change it later the next tips
+are more about workflow and should help
+are more about workflow and should help
+are more about workflow and should help
+you tackle animating pretty much
+you tackle animating pretty much
+you tackle animating pretty much
+anything first is to look into animation
+anything first is to look into animation
+anything first is to look into animation
+principles which will help you
+principles which will help you
+principles which will help you
+understand what makes motion look
+understand what makes motion look
+understand what makes motion look
+natural like squash and stretch
+natural like squash and stretch
+natural like squash and stretch
+anticipation and secondary action next
+anticipation and secondary action next
+anticipation and secondary action next
+is video reference if you watch behind
+is video reference if you watch behind
+is video reference if you watch behind
+the scenes content from an animated
+the scenes content from an animated
+the scenes content from an animated
+movie you're likely to see animators
+movie you're likely to see animators
+movie you're likely to see animators
+recording themselves and referencing
+recording themselves and referencing
+recording themselves and referencing
+that as they animate the way I like to
+that as they animate the way I like to
+that as they animate the way I like to
+bring references into blender is
+bring references into blender is
+bring references into blender is
+literally just by dragging them in like
+literally just by dragging them in like
+literally just by dragging them in like
+this now you should be able to scrub
+this now you should be able to scrub
+this now you should be able to scrub
+through the timeline and see the video
+through the timeline and see the video
+through the timeline and see the video
+move as you animate if you want to
+move as you animate if you want to
+move as you animate if you want to
+change the frame range or edit the start
+change the frame range or edit the start
+change the frame range or edit the start
+Point select the image and go to object
+Point select the image and go to object
+Point select the image and go to object
+data properties and you'll see all of
+data properties and you'll see all of
+data properties and you'll see all of
+those options right here if you're ever
+those options right here if you're ever
+those options right here if you're ever
+struggling to animate something
+struggling to animate something
+struggling to animate something
+definitely try recording some video
+definitely try recording some video
+definitely try recording some video
+reference an animation workflow that is
+reference an animation workflow that is
+reference an animation workflow that is
+very common is called pose to pose this
+very common is called pose to pose this
+very common is called pose to pose this
+means focusing on the big recognizable
+means focusing on the big recognizable
+means focusing on the big recognizable
+key poses first and then later you can
+key poses first and then later you can
+key poses first and then later you can
+go back and fill in the space between
+go back and fill in the space between
+go back and fill in the space between
+them this can help you figure out the
+them this can help you figure out the
+them this can help you figure out the
+timing of your animation before making
+timing of your animation before making
+timing of your animation before making
+it really complex and this style isn't
+it really complex and this style isn't
+it really complex and this style isn't
+for everyone so if you don't like it you
+for everyone so if you don't like it you
+for everyone so if you don't like it you
+can check out other approaches like
+can check out other approaches like
+can check out other approaches like
+focusing on individual sections of the
+focusing on individual sections of the
+focusing on individual sections of the
+body and layering them up one by one I
+body and layering them up one by one I
+body and layering them up one by one I
+put a video about that in the
+put a video about that in the
+put a video about that in the
+description one thing that has helped me
+description one thing that has helped me
+description one thing that has helped me
+a lot is by watching videos that aren't
+a lot is by watching videos that aren't
+a lot is by watching videos that aren't
+about blender whether it's about Maya
+about blender whether it's about Maya
+about blender whether it's about Maya
+Cinema 4D or even 2D animation a lot of
+Cinema 4D or even 2D animation a lot of
+Cinema 4D or even 2D animation a lot of
+the concepts and principles will still
+the concepts and principles will still
+the concepts and principles will still
+be useful so don't limit Yourself by
+be useful so don't limit Yourself by
+be useful so don't limit Yourself by
+only searching for blender resources and
+only searching for blender resources and
+only searching for blender resources and
+if you're serious about getting better
+if you're serious about getting better
+if you're serious about getting better
+then the best thing you can do is
+then the best thing you can do is
+then the best thing you can do is
+practice I know this video is meant to
+practice I know this video is meant to
+practice I know this video is meant to
+be for impatient people which is why I
+be for impatient people which is why I
+be for impatient people which is why I
+talked about automatic approaches first
+talked about automatic approaches first
+talked about automatic approaches first
+but you have to understand that progress
+but you have to understand that progress
+but you have to understand that progress
+takes time and if you practice smarter
+takes time and if you practice smarter
+takes time and if you practice smarter
+not harder then it won't take you
+not harder then it won't take you
+not harder then it won't take you
+decades to become proficient and knowing
+decades to become proficient and knowing
+decades to become proficient and knowing
+about all of the concepts from this
+about all of the concepts from this
+about all of the concepts from this
+video will help you level up faster if
+video will help you level up faster if
+video will help you level up faster if
+you have any other character animation
+you have any other character animation
+you have any other character animation
+tips to share make sure to leave a
+tips to share make sure to leave a
+tips to share make sure to leave a
+comment and one more tip if you're
+comment and one more tip if you're
+comment and one more tip if you're
+really impatient you can also just get
+really impatient you can also just get
+really impatient you can also just get
+someone to animate for you

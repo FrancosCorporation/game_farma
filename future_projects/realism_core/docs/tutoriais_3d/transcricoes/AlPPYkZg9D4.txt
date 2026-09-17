@@ -1,0 +1,1741 @@
+Kind: captions
+Language: en
+hello my name is eve i'm a 3dr sdn
+hello my name is eve i'm a 3dr sdn
+hello my name is eve i'm a 3dr sdn
+illustrator and today i'll be showing
+illustrator and today i'll be showing
+illustrator and today i'll be showing
+you how to make this 3d model i'm going
+you how to make this 3d model i'm going
+you how to make this 3d model i'm going
+to summarize some basics and run you
+to summarize some basics and run you
+to summarize some basics and run you
+through my process from start to finish
+through my process from start to finish
+through my process from start to finish
+the video will be split into two parts
+the video will be split into two parts
+the video will be split into two parts
+this is part one where i'll be showing
+this is part one where i'll be showing
+this is part one where i'll be showing
+you how to model the character and then
+you how to model the character and then
+you how to model the character and then
+in part two i'll show you how to uv
+in part two i'll show you how to uv
+in part two i'll show you how to uv
+unwrap texture light and render your
+unwrap texture light and render your
+unwrap texture light and render your
+character if you find this video useful
+character if you find this video useful
+character if you find this video useful
+make sure to subscribe also turn on the
+make sure to subscribe also turn on the
+make sure to subscribe also turn on the
+notifications so you get notified when
+notifications so you get notified when
+notifications so you get notified when
+part two is up before we start modeling
+part two is up before we start modeling
+part two is up before we start modeling
+you need to turn on a few add-ons that
+you need to turn on a few add-ons that
+you need to turn on a few add-ons that
+are off by default in blender go to edit
+are off by default in blender go to edit
+are off by default in blender go to edit
+preferences and then go into keymap
+preferences and then go into keymap
+preferences and then go into keymap
+here you turn on tab for pi menu as well
+here you turn on tab for pi menu as well
+here you turn on tab for pi menu as well
+as extra shading pi menu items
+as extra shading pi menu items
+as extra shading pi menu items
+then in the input tab turn on emulate
+then in the input tab turn on emulate
+then in the input tab turn on emulate
+free button mouse
+free button mouse
+free button mouse
+and finally in add-ons turn on add mesh
+and finally in add-ons turn on add mesh
+and finally in add-ons turn on add mesh
+extra objects
+extra objects
+extra objects
+as well as mesh loop tools
+as well as mesh loop tools
+as well as mesh loop tools
+these are going to make your workflow
+these are going to make your workflow
+these are going to make your workflow
+much easier and faster after that press
+much easier and faster after that press
+much easier and faster after that press
+here and save preferences so before we
+here and save preferences so before we
+here and save preferences so before we
+begin i want to say that blender can be
+begin i want to say that blender can be
+begin i want to say that blender can be
+very overwhelming at first and it's
+very overwhelming at first and it's
+very overwhelming at first and it's
+completely normal to feel intimidated by
+completely normal to feel intimidated by
+completely normal to feel intimidated by
+all of the information but it's actually
+all of the information but it's actually
+all of the information but it's actually
+really easy to pick up so you don't need
+really easy to pick up so you don't need
+really easy to pick up so you don't need
+to worry about it just try to take it
+to worry about it just try to take it
+to worry about it just try to take it
+one step at a time and i'll run you
+one step at a time and i'll run you
+one step at a time and i'll run you
+through all the basics that you need to
+through all the basics that you need to
+through all the basics that you need to
+get started okay so to rotate around
+get started okay so to rotate around
+get started okay so to rotate around
+your object you use the middle mouse
+your object you use the middle mouse
+your object you use the middle mouse
+button
+button
+button
+if you press shift middle mouse button
+if you press shift middle mouse button
+if you press shift middle mouse button
+you can pan around your scene
+you can pan around your scene
+you can pan around your scene
+you zoom in and out with the wheel on
+you zoom in and out with the wheel on
+you zoom in and out with the wheel on
+your mouse
+your mouse
+your mouse
+i'll leave a little cheat sheet of all
+i'll leave a little cheat sheet of all
+i'll leave a little cheat sheet of all
+the shortcuts i'll be using in the
+the shortcuts i'll be using in the
+the shortcuts i'll be using in the
+description below
+description below
+description below
+so the first thing i want to explain is
+so the first thing i want to explain is
+so the first thing i want to explain is
+a couple of basic 3d concepts if you're
+a couple of basic 3d concepts if you're
+a couple of basic 3d concepts if you're
+not a complete beginner feel free to
+not a complete beginner feel free to
+not a complete beginner feel free to
+skip this part so our 3d model here is
+skip this part so our 3d model here is
+skip this part so our 3d model here is
+made from vertices edges and faces which
+made from vertices edges and faces which
+made from vertices edges and faces which
+are also called polygons
+are also called polygons
+are also called polygons
+all of these little points where the
+all of these little points where the
+all of these little points where the
+edges meet are called vertices
+edges meet are called vertices
+edges meet are called vertices
+edges are these lines between two
+edges are these lines between two
+edges are these lines between two
+vertices
+vertices
+vertices
+and finally this is a face or polygon
+and finally this is a face or polygon
+and finally this is a face or polygon
+faces are where three or more vertices
+faces are where three or more vertices
+faces are where three or more vertices
+meet to make a visible surface
+meet to make a visible surface
+meet to make a visible surface
+so all of these
+so all of these
+so all of these
+are faces how are we going to make our
+are faces how are we going to make our
+are faces how are we going to make our
+bunny model today is by manipulating and
+bunny model today is by manipulating and
+bunny model today is by manipulating and
+moving around faces edges and vertices
+moving around faces edges and vertices
+moving around faces edges and vertices
+in order to get the shape we want
+in order to get the shape we want
+in order to get the shape we want
+that was just a super quick summary
+that was just a super quick summary
+that was just a super quick summary
+which i hope helped us explain what
+which i hope helped us explain what
+which i hope helped us explain what
+we'll be doing
+we'll be doing
+we'll be doing
+okay so let's import a reference image
+okay so let's import a reference image
+okay so let's import a reference image
+now
+now
+now
+first delete this cube by pressing x and
+first delete this cube by pressing x and
+first delete this cube by pressing x and
+confirming
+confirming
+confirming
+then press shift a and select image
+then press shift a and select image
+then press shift a and select image
+reference
+reference
+reference
+find your reference image and click
+find your reference image and click
+find your reference image and click
+align to view and then load the
+align to view and then load the
+align to view and then load the
+reference image
+reference image
+reference image
+now you want to rotate it press r to
+now you want to rotate it press r to
+now you want to rotate it press r to
+rotate and then x to constrain the
+rotate and then x to constrain the
+rotate and then x to constrain the
+rotation only to the x-axis you can also
+rotation only to the x-axis you can also
+rotation only to the x-axis you can also
+enter the rotation here on the right
+enter the rotation here on the right
+enter the rotation here on the right
+side as well i'll just put in 90 degrees
+side as well i'll just put in 90 degrees
+side as well i'll just put in 90 degrees
+in there now we're going to go down here
+in there now we're going to go down here
+in there now we're going to go down here
+in object date properties and we're
+in object date properties and we're
+in object date properties and we're
+going to reduce the opacity of the image
+going to reduce the opacity of the image
+going to reduce the opacity of the image
+and position it
+and position it
+and position it
+press front as we want the image to be
+press front as we want the image to be
+press front as we want the image to be
+in front of your mesh
+in front of your mesh
+in front of your mesh
+and then reduce the opacity from here so
+and then reduce the opacity from here so
+and then reduce the opacity from here so
+you can actually see your mesh behind
+you can actually see your mesh behind
+you can actually see your mesh behind
+the image now we're ready to start
+the image now we're ready to start
+the image now we're ready to start
+modeling press shift a and go into mesh
+modeling press shift a and go into mesh
+modeling press shift a and go into mesh
+then select a rounded cube
+then select a rounded cube
+then select a rounded cube
+the reason we use a rounded cube and not
+the reason we use a rounded cube and not
+the reason we use a rounded cube and not
+a sphere is because a cube doesn't have
+a sphere is because a cube doesn't have
+a sphere is because a cube doesn't have
+triangles which can be troublesome when
+triangles which can be troublesome when
+triangles which can be troublesome when
+animating later on
+animating later on
+animating later on
+set the radius of the cube to 1 to make
+set the radius of the cube to 1 to make
+set the radius of the cube to 1 to make
+it rounded we're now going to delete
+it rounded we're now going to delete
+it rounded we're now going to delete
+half of this rounded cube and mirror it
+half of this rounded cube and mirror it
+half of this rounded cube and mirror it
+over
+over
+over
+that way we only need to work on one
+that way we only need to work on one
+that way we only need to work on one
+half at a time and then the result gets
+half at a time and then the result gets
+half at a time and then the result gets
+mirrored over to the other side
+mirrored over to the other side
+mirrored over to the other side
+press on this little arrow here in the
+press on this little arrow here in the
+press on this little arrow here in the
+top right corner and turn on x-ray mode
+top right corner and turn on x-ray mode
+top right corner and turn on x-ray mode
+this way you're able to select the
+this way you're able to select the
+this way you're able to select the
+vertices in the front of the mesh as
+vertices in the front of the mesh as
+vertices in the front of the mesh as
+well as the ones in the back
+well as the ones in the back
+well as the ones in the back
+if you hold down on the selection tool
+if you hold down on the selection tool
+if you hold down on the selection tool
+up here you can activate selection lasso
+up here you can activate selection lasso
+up here you can activate selection lasso
+which i prefer using
+which i prefer using
+which i prefer using
+press tab and then go into edit mode
+press tab and then go into edit mode
+press tab and then go into edit mode
+then press 1 to enter vertices selection
+then press 1 to enter vertices selection
+then press 1 to enter vertices selection
+mode
+mode
+mode
+now select one half of the mesh
+now select one half of the mesh
+now select one half of the mesh
+and with all of these vertices selected
+and with all of these vertices selected
+and with all of these vertices selected
+press x to delete them
+press x to delete them
+press x to delete them
+then you can press tab and go back into
+then you can press tab and go back into
+then you can press tab and go back into
+object mode press on this little wrench
+object mode press on this little wrench
+object mode press on this little wrench
+tool and add a modifier we want to add
+tool and add a modifier we want to add
+tool and add a modifier we want to add
+the mirror modifier make sure that
+the mirror modifier make sure that
+the mirror modifier make sure that
+clipping is turned on now when you work
+clipping is turned on now when you work
+clipping is turned on now when you work
+on one side your results will be
+on one side your results will be
+on one side your results will be
+mirrored over to the other side as well
+mirrored over to the other side as well
+mirrored over to the other side as well
+we'll also add another modifier on here
+we'll also add another modifier on here
+we'll also add another modifier on here
+called subdivision surface which smooths
+called subdivision surface which smooths
+called subdivision surface which smooths
+your mesh
+your mesh
+your mesh
+add two levels to your modifier
+add two levels to your modifier
+add two levels to your modifier
+as you can see the mesh still doesn't
+as you can see the mesh still doesn't
+as you can see the mesh still doesn't
+look smooth
+look smooth
+look smooth
+how you fix that is by smoothing the
+how you fix that is by smoothing the
+how you fix that is by smoothing the
+normals by right clicking and then
+normals by right clicking and then
+normals by right clicking and then
+selecting shades move
+selecting shades move
+selecting shades move
+now it's all nice and smooth
+now it's all nice and smooth
+now it's all nice and smooth
+press numpad 1 to go into front view and
+press numpad 1 to go into front view and
+press numpad 1 to go into front view and
+then press tab to go into edit mode what
+then press tab to go into edit mode what
+then press tab to go into edit mode what
+we're going to do is push and pull these
+we're going to do is push and pull these
+we're going to do is push and pull these
+vertices around to match the shape of
+vertices around to match the shape of
+vertices around to match the shape of
+the reference
+the reference
+the reference
+before you start make sure you turn on
+before you start make sure you turn on
+before you start make sure you turn on
+x-ray mode and then select all of these
+x-ray mode and then select all of these
+x-ray mode and then select all of these
+vertices
+vertices
+vertices
+then we press g to start moving them
+then we press g to start moving them
+then we press g to start moving them
+around
+around
+around
+a very useful tool i use a lot is the
+a very useful tool i use a lot is the
+a very useful tool i use a lot is the
+proportional editing tool the shortcut
+proportional editing tool the shortcut
+proportional editing tool the shortcut
+on the keyboard for it is o
+on the keyboard for it is o
+on the keyboard for it is o
+it's basically like a soft selection and
+it's basically like a soft selection and
+it's basically like a soft selection and
+moves everything around the area you've
+moves everything around the area you've
+moves everything around the area you've
+selected with the scroll mouse button
+selected with the scroll mouse button
+selected with the scroll mouse button
+you can increase or decrease the area it
+you can increase or decrease the area it
+you can increase or decrease the area it
+affects
+affects
+affects
+this tool is very very handy if you want
+this tool is very very handy if you want
+this tool is very very handy if you want
+to move bigger chunks of geometry around
+to move bigger chunks of geometry around
+to move bigger chunks of geometry around
+while you're moving the vertices around
+while you're moving the vertices around
+while you're moving the vertices around
+you want to make sure that your faces
+you want to make sure that your faces
+you want to make sure that your faces
+are more or less square and that you
+are more or less square and that you
+are more or less square and that you
+reduce any stretching
+reduce any stretching
+reduce any stretching
+so you don't want big rectangular areas
+so you don't want big rectangular areas
+so you don't want big rectangular areas
+like here
+like here
+like here
+if you do this when you decide to
+if you do this when you decide to
+if you do this when you decide to
+animate your model it will actually
+animate your model it will actually
+animate your model it will actually
+deform properly
+deform properly
+deform properly
+to straighten this edge press s to scale
+to straighten this edge press s to scale
+to straighten this edge press s to scale
+then z to constrain to the z-axis and
+then z to constrain to the z-axis and
+then z to constrain to the z-axis and
+then zero
+then zero
+then zero
+here i'm just pushing and pulling the
+here i'm just pushing and pulling the
+here i'm just pushing and pulling the
+mesh around while trying to keep it nice
+mesh around while trying to keep it nice
+mesh around while trying to keep it nice
+and tidy
+and tidy
+and tidy
+now what we're going to do is smooth the
+now what we're going to do is smooth the
+now what we're going to do is smooth the
+mesh in order to have more faces to work
+mesh in order to have more faces to work
+mesh in order to have more faces to work
+with
+with
+with
+then we can start working on the ears
+then we can start working on the ears
+then we can start working on the ears
+go into object mode and apply the
+go into object mode and apply the
+go into object mode and apply the
+subdivision surface modifier with levels
+subdivision surface modifier with levels
+subdivision surface modifier with levels
+reduced to 1.
+reduced to 1.
+reduced to 1.
+press here and apply
+press here and apply
+press here and apply
+what that does is smooth out the mesh
+what that does is smooth out the mesh
+what that does is smooth out the mesh
+not just in preview so now you have more
+not just in preview so now you have more
+not just in preview so now you have more
+faces to work with
+faces to work with
+faces to work with
+here i'm applying another subdivision
+here i'm applying another subdivision
+here i'm applying another subdivision
+surface modifier just so everything is
+surface modifier just so everything is
+surface modifier just so everything is
+nice and smooth
+nice and smooth
+nice and smooth
+now press tab and go into edit mode
+now press tab and go into edit mode
+now press tab and go into edit mode
+press 1 to go into vertices selection
+press 1 to go into vertices selection
+press 1 to go into vertices selection
+mode select this vertice and then shift
+mode select this vertice and then shift
+mode select this vertice and then shift
+select this one
+select this one
+select this one
+press x to delete them
+press x to delete them
+press x to delete them
+now we have a nice hole here from which
+now we have a nice hole here from which
+now we have a nice hole here from which
+we can start to extrude the ears
+we can start to extrude the ears
+we can start to extrude the ears
+double click on this edge then right
+double click on this edge then right
+double click on this edge then right
+click and go into loop tools circle
+click and go into loop tools circle
+click and go into loop tools circle
+as you can see it makes it circular but
+as you can see it makes it circular but
+as you can see it makes it circular but
+it rotates it a bit weird so we can fix
+it rotates it a bit weird so we can fix
+it rotates it a bit weird so we can fix
+that by pressing r and rotating it so
+that by pressing r and rotating it so
+that by pressing r and rotating it so
+it's aligned nicely
+it's aligned nicely
+it's aligned nicely
+i'm also pressing s and then y to scale
+i'm also pressing s and then y to scale
+i'm also pressing s and then y to scale
+it on the y axis so the opening is nice
+it on the y axis so the opening is nice
+it on the y axis so the opening is nice
+and oval
+press one on the numpad to align to the
+press one on the numpad to align to the
+press one on the numpad to align to the
+front view and then with your edge loop
+front view and then with your edge loop
+front view and then with your edge loop
+selected press e to start extruding
+selected press e to start extruding
+selected press e to start extruding
+press s if you need to scale down your
+press s if you need to scale down your
+press s if you need to scale down your
+selection
+selection
+selection
+then press e again to extrude up while
+then press e again to extrude up while
+then press e again to extrude up while
+extruding still make sure to maintain
+extruding still make sure to maintain
+extruding still make sure to maintain
+your faces square and make sure that
+your faces square and make sure that
+your faces square and make sure that
+you're not making them too rectangular
+and now for the top part
+and now for the top part
+and now for the top part
+press e to extrude and then press m to
+press e to extrude and then press m to
+press e to extrude and then press m to
+merge the vertices at the center
+merge the vertices at the center
+merge the vertices at the center
+now your ear is finished
+now your ear is finished
+now your ear is finished
+also very useful hotkey to focus on the
+also very useful hotkey to focus on the
+also very useful hotkey to focus on the
+area you're working on currently is the
+area you're working on currently is the
+area you're working on currently is the
+dot on the numpad basically it centers
+dot on the numpad basically it centers
+dot on the numpad basically it centers
+your camera on the selection
+your camera on the selection
+your camera on the selection
+okay after some adjustment we have the
+okay after some adjustment we have the
+okay after some adjustment we have the
+ears all done now
+ears all done now
+ears all done now
+so what i'm going to do now is edit the
+so what i'm going to do now is edit the
+so what i'm going to do now is edit the
+overall shape of the head so it doesn't
+overall shape of the head so it doesn't
+overall shape of the head so it doesn't
+look so round from the side
+look so round from the side
+look so round from the side
+i'm still being careful to follow the
+i'm still being careful to follow the
+i'm still being careful to follow the
+outline from the front while editing the
+outline from the front while editing the
+outline from the front while editing the
+side view
+side view
+side view
+i'm using the proportional editing tool
+i'm using the proportional editing tool
+i'm using the proportional editing tool
+in order to grab bigger sections of the
+in order to grab bigger sections of the
+in order to grab bigger sections of the
+model and i'm moving them in the y-axis
+model and i'm moving them in the y-axis
+model and i'm moving them in the y-axis
+only
+only
+only
+i'm using the mouse scroll button in
+i'm using the mouse scroll button in
+i'm using the mouse scroll button in
+order to increase or decrease the area
+order to increase or decrease the area
+order to increase or decrease the area
+that the proportional editing tool is
+that the proportional editing tool is
+that the proportional editing tool is
+affecting
+when done with the overall shape press
+when done with the overall shape press
+when done with the overall shape press
+ctrl r to add another edge to the bottom
+ctrl r to add another edge to the bottom
+ctrl r to add another edge to the bottom
+of the ears in order to harden the
+of the ears in order to harden the
+of the ears in order to harden the
+transition
+transition
+transition
+and now the head's all done
+and now the head's all done
+and now the head's all done
+now we're ready to start working on the
+now we're ready to start working on the
+now we're ready to start working on the
+body
+body
+body
+go back into object mode and now we're
+go back into object mode and now we're
+go back into object mode and now we're
+going to insert another rounded cube for
+going to insert another rounded cube for
+going to insert another rounded cube for
+the body
+the body
+the body
+you can also extrude it from the head
+you can also extrude it from the head
+you can also extrude it from the head
+but i like to work in separate parts
+but i like to work in separate parts
+but i like to work in separate parts
+press shift a to insert a mesh then
+press shift a to insert a mesh then
+press shift a to insert a mesh then
+we're going to insert the rounded cube
+we're going to insert the rounded cube
+we're going to insert the rounded cube
+again
+again
+again
+we're going to follow the exact same
+we're going to follow the exact same
+we're going to follow the exact same
+process that we did with the head
+process that we did with the head
+process that we did with the head
+right click and press shades move
+right click and press shades move
+right click and press shades move
+then press tab
+then press tab
+then press tab
+edit mode and press 1 to go into
+edit mode and press 1 to go into
+edit mode and press 1 to go into
+vertices selection mode turn on x-ray as
+vertices selection mode turn on x-ray as
+vertices selection mode turn on x-ray as
+well
+well
+well
+now we select half of the mesh press x
+now we select half of the mesh press x
+now we select half of the mesh press x
+to delete it
+to delete it
+to delete it
+and then we add a mirror modifier from
+and then we add a mirror modifier from
+and then we add a mirror modifier from
+the area on the right
+the area on the right
+the area on the right
+make sure the clipping is turned on and
+make sure the clipping is turned on and
+make sure the clipping is turned on and
+then add a subdivision surface modifier
+then add a subdivision surface modifier
+then add a subdivision surface modifier
+with two levels to smooth out the mesh
+with two levels to smooth out the mesh
+with two levels to smooth out the mesh
+press tab and go back into object mode
+press tab and go back into object mode
+press tab and go back into object mode
+and just scale and position your mesh
+and just scale and position your mesh
+and just scale and position your mesh
+where the body is
+then go back into edit mode and start
+then go back into edit mode and start
+then go back into edit mode and start
+pulling the vertices around using g in
+pulling the vertices around using g in
+pulling the vertices around using g in
+order to shape the body
+order to shape the body
+order to shape the body
+here i'm just making sure my vertices
+here i'm just making sure my vertices
+here i'm just making sure my vertices
+aren't too wonky and that they're nice
+aren't too wonky and that they're nice
+aren't too wonky and that they're nice
+and straight
+and straight
+and straight
+time to start editing the side view
+we want to grab the top vertices here
+we want to grab the top vertices here
+we want to grab the top vertices here
+and with the proportional editing tool
+and with the proportional editing tool
+and with the proportional editing tool
+turned on press s to scale y to
+turned on press s to scale y to
+turned on press s to scale y to
+constrain to the y axis
+constrain to the y axis
+constrain to the y axis
+and then scroll to increase the
+and then scroll to increase the
+and then scroll to increase the
+selection
+selection
+selection
+this way we're scaling a bigger area of
+this way we're scaling a bigger area of
+this way we're scaling a bigger area of
+the mesh at the same time
+the mesh at the same time
+the mesh at the same time
+after you're happy with the overall
+after you're happy with the overall
+after you're happy with the overall
+shape of the body
+shape of the body
+shape of the body
+go back into object mode and apply the
+go back into object mode and apply the
+go back into object mode and apply the
+subdivision modifier with one level so
+subdivision modifier with one level so
+subdivision modifier with one level so
+you can get more faces to work with then
+you can get more faces to work with then
+you can get more faces to work with then
+apply another subdivision surface
+apply another subdivision surface
+apply another subdivision surface
+modifier just to further smooth out the
+modifier just to further smooth out the
+modifier just to further smooth out the
+mesh then go back into edit mode press 1
+mesh then go back into edit mode press 1
+mesh then go back into edit mode press 1
+for vertices selection and choose a
+for vertices selection and choose a
+for vertices selection and choose a
+vertice in the bottom somewhere in the
+vertice in the bottom somewhere in the
+vertice in the bottom somewhere in the
+middle of the body press x to delete the
+middle of the body press x to delete the
+middle of the body press x to delete the
+vertices
+vertices
+vertices
+and like we did before
+and like we did before
+and like we did before
+select the edge right click loop tools
+select the edge right click loop tools
+select the edge right click loop tools
+circle then we just rotate the edge so
+circle then we just rotate the edge so
+circle then we just rotate the edge so
+it's nice and aligned from all sides
+it's nice and aligned from all sides
+it's nice and aligned from all sides
+so now we can extrude the legs from the
+so now we can extrude the legs from the
+so now we can extrude the legs from the
+body like we did with the ears press e
+body like we did with the ears press e
+body like we did with the ears press e
+to extrude
+to extrude
+to extrude
+z to constrain to the z axis rotate the
+z to constrain to the z axis rotate the
+z to constrain to the z axis rotate the
+edge around so it's nice and straight
+edge around so it's nice and straight
+edge around so it's nice and straight
+press e to extrude
+press e to extrude
+press e to extrude
+z to constrain to the z axis again and
+z to constrain to the z axis again and
+z to constrain to the z axis again and
+then just repeat the process a few times
+then just repeat the process a few times
+then just repeat the process a few times
+then here i'm selecting all the bottom
+then here i'm selecting all the bottom
+then here i'm selecting all the bottom
+vertices pressing o to turn on
+vertices pressing o to turn on
+vertices pressing o to turn on
+proportional editing and then s to scale
+proportional editing and then s to scale
+proportional editing and then s to scale
+down everything from the bottom edge
+down everything from the bottom edge
+down everything from the bottom edge
+then i'm just moving the area to be able
+then i'm just moving the area to be able
+then i'm just moving the area to be able
+to match the reference proportions
+to match the reference proportions
+to match the reference proportions
+close off the bottom of the mesh press e
+close off the bottom of the mesh press e
+close off the bottom of the mesh press e
+to extrude and then m to merge it at the
+to extrude and then m to merge it at the
+to extrude and then m to merge it at the
+center then press free to go into face
+center then press free to go into face
+center then press free to go into face
+selection mode
+selection mode
+selection mode
+and now we're going to extrude the boots
+and now we're going to extrude the boots
+and now we're going to extrude the boots
+select all the faces on the bottom of
+select all the faces on the bottom of
+select all the faces on the bottom of
+the leg
+the leg
+the leg
+press o to turn off proportional editing
+press o to turn off proportional editing
+press o to turn off proportional editing
+and then press e to extrude
+and then press e to extrude
+and then press e to extrude
+then press s to scale and scale it right
+then press s to scale and scale it right
+then press s to scale and scale it right
+up
+up
+up
+then i press 2 to go into edge editing
+then i press 2 to go into edge editing
+then i press 2 to go into edge editing
+mode and just move this edge down
+mode and just move this edge down
+mode and just move this edge down
+i also press ctrl and r to add an edge
+i also press ctrl and r to add an edge
+i also press ctrl and r to add an edge
+loop around the top area of the boot
+loop around the top area of the boot
+loop around the top area of the boot
+just so it's nice and hard around the
+just so it's nice and hard around the
+just so it's nice and hard around the
+top edge
+top edge
+top edge
+now to make the front of the foot press
+now to make the front of the foot press
+now to make the front of the foot press
+free to go into face selection mode
+free to go into face selection mode
+free to go into face selection mode
+select this face and then shift select
+select this face and then shift select
+select this face and then shift select
+this face and then press e to extrude
+this face and then press e to extrude
+this face and then press e to extrude
+them press y to constrain to the y axis
+them press y to constrain to the y axis
+them press y to constrain to the y axis
+like so
+like so
+like so
+i'm scaling them slightly in and playing
+i'm scaling them slightly in and playing
+i'm scaling them slightly in and playing
+around with the shape
+around with the shape
+around with the shape
+make sure to also select all the
+make sure to also select all the
+make sure to also select all the
+vertices on the bottom of the foot and
+vertices on the bottom of the foot and
+vertices on the bottom of the foot and
+flatten them
+flatten them
+flatten them
+now it's time for the arms
+now it's time for the arms
+now it's time for the arms
+we're going to do the exact same thing
+we're going to do the exact same thing
+we're going to do the exact same thing
+we did for the legs and ears
+we did for the legs and ears
+we did for the legs and ears
+make sure you're still in edit mode and
+make sure you're still in edit mode and
+make sure you're still in edit mode and
+then press 1 to go into vertices
+then press 1 to go into vertices
+then press 1 to go into vertices
+selection mode select this vertice and
+selection mode select this vertice and
+selection mode select this vertice and
+press x to delete it double click on the
+press x to delete it double click on the
+press x to delete it double click on the
+edges right click loop tool circle
+edges right click loop tool circle
+edges right click loop tool circle
+after you're happy with the shape of
+after you're happy with the shape of
+after you're happy with the shape of
+everything you can start extruding the
+everything you can start extruding the
+everything you can start extruding the
+arms press e to extrude and then r to
+arms press e to extrude and then r to
+arms press e to extrude and then r to
+rotate the edge
+make sure your edges are facing in the
+make sure your edges are facing in the
+make sure your edges are facing in the
+direction you're extruding in
+here i'm just tidying up the edge loops
+here i'm just tidying up the edge loops
+here i'm just tidying up the edge loops
+and making sure that all my faces are
+and making sure that all my faces are
+and making sure that all my faces are
+somewhat square
+now we're ready to make the hand
+now we're ready to make the hand
+now we're ready to make the hand
+we're going to select this edge then
+we're going to select this edge then
+we're going to select this edge then
+shift select this edge
+shift select this edge
+shift select this edge
+right click and choose bridge edge loops
+right click and choose bridge edge loops
+right click and choose bridge edge loops
+then just add two more edges on the face
+then just add two more edges on the face
+then just add two more edges on the face
+you just created by pressing ctrl r
+then you just move this face out a
+then you just move this face out a
+then you just move this face out a
+little bit so it can be the base of the
+little bit so it can be the base of the
+little bit so it can be the base of the
+palm after that you can bridge the side
+palm after that you can bridge the side
+palm after that you can bridge the side
+edges
+edges
+edges
+now i'm going to select the individual
+now i'm going to select the individual
+now i'm going to select the individual
+faces and extrude the fingers
+faces and extrude the fingers
+faces and extrude the fingers
+my characters all have four fingers
+my characters all have four fingers
+my characters all have four fingers
+there's a quirk that i like to add to
+there's a quirk that i like to add to
+there's a quirk that i like to add to
+them but if you want to have an
+them but if you want to have an
+them but if you want to have an
+anatomically correct hand you can just
+anatomically correct hand you can just
+anatomically correct hand you can just
+add another loop on your mesh and
+add another loop on your mesh and
+add another loop on your mesh and
+extrude five fingers instead to position
+extrude five fingers instead to position
+extrude five fingers instead to position
+the fingers properly make sure you work
+the fingers properly make sure you work
+the fingers properly make sure you work
+from all angles and rotate them around
+from all angles and rotate them around
+from all angles and rotate them around
+so they're uniform
+so they're uniform
+so they're uniform
+here i'm just pushing and pulling them
+here i'm just pushing and pulling them
+here i'm just pushing and pulling them
+around until they start looking good
+around until they start looking good
+around until they start looking good
+after you're happy with the shape select
+after you're happy with the shape select
+after you're happy with the shape select
+all the fingers apart from the thumb
+all the fingers apart from the thumb
+all the fingers apart from the thumb
+press one on the numpad to go into front
+press one on the numpad to go into front
+press one on the numpad to go into front
+view and then just rotate them slightly
+view and then just rotate them slightly
+view and then just rotate them slightly
+so they're just facing down
+so they're just facing down
+so they're just facing down
+now i'm selecting all of the faces and
+now i'm selecting all of the faces and
+now i'm selecting all of the faces and
+moving them down to match the reference
+moving them down to match the reference
+moving them down to match the reference
+proportions and then just adding another
+proportions and then just adding another
+proportions and then just adding another
+edge loop to fill the gap here
+i'm also adding some more edge loops to
+i'm also adding some more edge loops to
+i'm also adding some more edge loops to
+the fingers
+the fingers
+the fingers
+you can press ctrl r in order to add
+you can press ctrl r in order to add
+you can press ctrl r in order to add
+those
+those
+those
+generally as a rule you want more edge
+generally as a rule you want more edge
+generally as a rule you want more edge
+loops where your mesh will be deforming
+loops where your mesh will be deforming
+loops where your mesh will be deforming
+when animated so for example the fingers
+when animated so for example the fingers
+when animated so for example the fingers
+here around the wrist elbow and knees is
+here around the wrist elbow and knees is
+here around the wrist elbow and knees is
+where you would add more edge loops
+where you would add more edge loops
+where you would add more edge loops
+here i realized i extruded the wrong
+here i realized i extruded the wrong
+here i realized i extruded the wrong
+face for the thumb so i'm fixing my
+face for the thumb so i'm fixing my
+face for the thumb so i'm fixing my
+mistake
+mistake
+mistake
+i'm deleting the thumb and extruding a
+i'm deleting the thumb and extruding a
+i'm deleting the thumb and extruding a
+face on the side of the fingers instead
+face on the side of the fingers instead
+face on the side of the fingers instead
+to remake the thumb
+to remake the thumb
+to remake the thumb
+this way the hand is nice and flat
+next up is the hat and the dress we're
+next up is the hat and the dress we're
+next up is the hat and the dress we're
+going to press free to go into face
+going to press free to go into face
+going to press free to go into face
+selection mode and select all the faces
+selection mode and select all the faces
+selection mode and select all the faces
+that make up the dress
+that make up the dress
+that make up the dress
+[Laughter]
+after you have them all selected press
+after you have them all selected press
+after you have them all selected press
+shift d to duplicate them and then press
+shift d to duplicate them and then press
+shift d to duplicate them and then press
+escape
+escape
+escape
+after that press p to separate the mesh
+after that press p to separate the mesh
+after that press p to separate the mesh
+out if you go back into object mode now
+out if you go back into object mode now
+out if you go back into object mode now
+you can see that we have two separate
+you can see that we have two separate
+you can see that we have two separate
+parts one is the body and one is the
+parts one is the body and one is the
+parts one is the body and one is the
+clothes which is a separate mesh
+clothes which is a separate mesh
+clothes which is a separate mesh
+as you can see here i missed the face
+as you can see here i missed the face
+as you can see here i missed the face
+when i was making the selection earlier
+when i was making the selection earlier
+when i was making the selection earlier
+so i'm just bridging these two edges to
+so i'm just bridging these two edges to
+so i'm just bridging these two edges to
+fix that
+fix that
+fix that
+now i'm making an opening for the head
+now i'm making an opening for the head
+now i'm making an opening for the head
+by deleting these two faces
+and we have a little hole for the head
+and we have a little hole for the head
+and we have a little hole for the head
+now
+select the bottom edge of the dress and
+select the bottom edge of the dress and
+select the bottom edge of the dress and
+press s to scale
+press s to scale
+press s to scale
+z to constrain to the z axis and then
+z to constrain to the z axis and then
+z to constrain to the z axis and then
+zero
+zero
+zero
+now you have a straight area to work
+now you have a straight area to work
+now you have a straight area to work
+from
+from
+from
+then we're just going to scale the loops
+then we're just going to scale the loops
+then we're just going to scale the loops
+up
+and after some adjustment you can start
+and after some adjustment you can start
+and after some adjustment you can start
+extruding the bottom of the dress
+extruding the bottom of the dress
+extruding the bottom of the dress
+keep extruding and scaling those edges
+keep extruding and scaling those edges
+keep extruding and scaling those edges
+up and remember to work both from the
+up and remember to work both from the
+up and remember to work both from the
+front view and the side view to keep
+front view and the side view to keep
+front view and the side view to keep
+your model looking nice from all angles
+your model looking nice from all angles
+your model looking nice from all angles
+here i'm just scaling the loops on the y
+here i'm just scaling the loops on the y
+here i'm just scaling the loops on the y
+axis to make them less wide
+axis to make them less wide
+axis to make them less wide
+a fast way to fix areas where your mesh
+a fast way to fix areas where your mesh
+a fast way to fix areas where your mesh
+intersects
+intersects
+intersects
+is by going to sculpt mode from up here
+is by going to sculpt mode from up here
+is by going to sculpt mode from up here
+you can use the grab brush to move your
+you can use the grab brush to move your
+you can use the grab brush to move your
+mesh around
+mesh around
+mesh around
+it's a faster way to move things but it
+it's a faster way to move things but it
+it's a faster way to move things but it
+does mess up your topology a bit so you
+does mess up your topology a bit so you
+does mess up your topology a bit so you
+will have to fix that later
+will have to fix that later
+will have to fix that later
+here i'm just using it to quickly fix
+here i'm just using it to quickly fix
+here i'm just using it to quickly fix
+those areas where the dress intersects
+those areas where the dress intersects
+those areas where the dress intersects
+after you're happy with the torso area
+after you're happy with the torso area
+after you're happy with the torso area
+of the dress you can start on the
+of the dress you can start on the
+of the dress you can start on the
+sleeves what i'm doing here is just
+sleeves what i'm doing here is just
+sleeves what i'm doing here is just
+roughly scaling up the edge loops on the
+roughly scaling up the edge loops on the
+roughly scaling up the edge loops on the
+sleeves
+sleeves
+sleeves
+i'm not being too precious with the
+i'm not being too precious with the
+i'm not being too precious with the
+scale being accurate at this point
+scale being accurate at this point
+scale being accurate at this point
+later i go in and delete those loops and
+later i go in and delete those loops and
+later i go in and delete those loops and
+then reinsert them evenly by pressing
+then reinsert them evenly by pressing
+then reinsert them evenly by pressing
+ctrl r that's a really quick way to get
+ctrl r that's a really quick way to get
+ctrl r that's a really quick way to get
+your loops to be even and not wonky here
+your loops to be even and not wonky here
+your loops to be even and not wonky here
+i'm just adjusting the neckline merging
+i'm just adjusting the neckline merging
+i'm just adjusting the neckline merging
+the vertices at the front in the middle
+the vertices at the front in the middle
+the vertices at the front in the middle
+to get a nice sharp point
+to get a nice sharp point
+to get a nice sharp point
+then i remove the subdivision surface
+then i remove the subdivision surface
+then i remove the subdivision surface
+modifier to be able to seed the mesh
+modifier to be able to seed the mesh
+modifier to be able to seed the mesh
+without it
+without it
+without it
+i'm just adjusting the shape and making
+i'm just adjusting the shape and making
+i'm just adjusting the shape and making
+sure it's nice and even
+sure it's nice and even
+sure it's nice and even
+like we did for the top of the ear
+like we did for the top of the ear
+like we did for the top of the ear
+extrude the last edge of the sleeve and
+extrude the last edge of the sleeve and
+extrude the last edge of the sleeve and
+then press m to merge it at the center
+then press m to merge it at the center
+then press m to merge it at the center
+then fix the vertices at the center and
+then fix the vertices at the center and
+then fix the vertices at the center and
+reapply the subdivision modifier to
+reapply the subdivision modifier to
+reapply the subdivision modifier to
+smooth the mesh
+smooth the mesh
+smooth the mesh
+now your dress is done
+now your dress is done
+now your dress is done
+for the hat
+for the hat
+for the hat
+add a cone by pressing shift a
+add a cone by pressing shift a
+add a cone by pressing shift a
+position it on the head and scale it and
+position it on the head and scale it and
+position it on the head and scale it and
+rotate it around until it fits and
+rotate it around until it fits and
+rotate it around until it fits and
+doesn't intersect with the ears
+doesn't intersect with the ears
+doesn't intersect with the ears
+from this point on i've sped up the
+from this point on i've sped up the
+from this point on i've sped up the
+tutorials i'm essentially using the same
+tutorials i'm essentially using the same
+tutorials i'm essentially using the same
+techniques we did before feel free to
+techniques we did before feel free to
+techniques we did before feel free to
+put in half speed or ask any questions
+put in half speed or ask any questions
+put in half speed or ask any questions
+in the comments if anything is unclear
+in the comments if anything is unclear
+in the comments if anything is unclear
+and i'll be here to help
+and i'll be here to help
+and i'll be here to help
+for the eyes add another smooth cube by
+for the eyes add another smooth cube by
+for the eyes add another smooth cube by
+pressing shift a then right click and
+pressing shift a then right click and
+pressing shift a then right click and
+press shades move after that like before
+press shades move after that like before
+press shades move after that like before
+enter edit mode turn on x-ray and delete
+enter edit mode turn on x-ray and delete
+enter edit mode turn on x-ray and delete
+half of the mesh on the back scale and
+half of the mesh on the back scale and
+half of the mesh on the back scale and
+rotate the mesh around so it can fit the
+rotate the mesh around so it can fit the
+rotate the mesh around so it can fit the
+head without any gaps on the sides
+head without any gaps on the sides
+head without any gaps on the sides
+here it really helps having the front of
+here it really helps having the front of
+here it really helps having the front of
+the face slightly flat
+the face slightly flat
+the face slightly flat
+it is still a bit fiddly to get right
+it is still a bit fiddly to get right
+it is still a bit fiddly to get right
+but just keep rotating and scaling it
+but just keep rotating and scaling it
+but just keep rotating and scaling it
+down and up until you get it right
+feel free to use sculpt mode to adjust
+feel free to use sculpt mode to adjust
+feel free to use sculpt mode to adjust
+the head shape so it fits the eyes
+the head shape so it fits the eyes
+the head shape so it fits the eyes
+better
+better
+better
+once you're happy with the positioning
+once you're happy with the positioning
+once you're happy with the positioning
+of the eye you want to mirror it over
+of the eye you want to mirror it over
+of the eye you want to mirror it over
+in order to do that without having a
+in order to do that without having a
+in order to do that without having a
+weird offset you need to have no values
+weird offset you need to have no values
+weird offset you need to have no values
+in the location here on the right
+in the location here on the right
+in the location here on the right
+and as you can see here we have some
+and as you can see here we have some
+and as you can see here we have some
+values in the location
+values in the location
+values in the location
+so what we want to do is get rid of
+so what we want to do is get rid of
+so what we want to do is get rid of
+those and zero those out how we do that
+those and zero those out how we do that
+those and zero those out how we do that
+is we go to object apply or transforms
+is we go to object apply or transforms
+is we go to object apply or transforms
+now it's all zeroed out and we can apply
+now it's all zeroed out and we can apply
+now it's all zeroed out and we can apply
+the mirror modifier
+here you go now it's all nice and
+here you go now it's all nice and
+here you go now it's all nice and
+centered without a weird offset
+centered without a weird offset
+centered without a weird offset
+after that you want to duplicate the
+after that you want to duplicate the
+after that you want to duplicate the
+eyes to make the pupil then just scale
+eyes to make the pupil then just scale
+eyes to make the pupil then just scale
+them down and rotate them until they fit
+them down and rotate them until they fit
+them down and rotate them until they fit
+on without any gaps
+as you can see there is a weird offset
+as you can see there is a weird offset
+as you can see there is a weird offset
+on the right pupil so we'll just remove
+on the right pupil so we'll just remove
+on the right pupil so we'll just remove
+the mirror modifier then we will again
+the mirror modifier then we will again
+the mirror modifier then we will again
+go into object apply
+go into object apply
+go into object apply
+all transforms
+all transforms
+all transforms
+then you can reapply your mirror
+then you can reapply your mirror
+then you can reapply your mirror
+modifier
+modifier
+modifier
+and your iris will be nice and centered
+and your iris will be nice and centered
+and your iris will be nice and centered
+next are the eyebrows add another smooth
+next are the eyebrows add another smooth
+next are the eyebrows add another smooth
+cube by pressing shift a and just scale
+cube by pressing shift a and just scale
+cube by pressing shift a and just scale
+and rotate them around to match the
+and rotate them around to match the
+and rotate them around to match the
+reference
+reference
+reference
+make sure to flatten them so they're not
+make sure to flatten them so they're not
+make sure to flatten them so they're not
+too bulky
+too bulky
+too bulky
+then once again you know the drill you
+then once again you know the drill you
+then once again you know the drill you
+go into object apply or transform and
+go into object apply or transform and
+go into object apply or transform and
+then you can add a mirror modifier the
+then you can add a mirror modifier the
+then you can add a mirror modifier the
+nose add yet another smooth cube and
+nose add yet another smooth cube and
+nose add yet another smooth cube and
+just position it to fit the reference
+for the whiskers i added cylinders by
+for the whiskers i added cylinders by
+for the whiskers i added cylinders by
+pressing shift a
+pressing shift a
+pressing shift a
+scale and rotate those to match the
+scale and rotate those to match the
+scale and rotate those to match the
+reference
+reference
+reference
+then select and duplicate the faces by
+then select and duplicate the faces by
+then select and duplicate the faces by
+pressing shift d and use them for the
+pressing shift d and use them for the
+pressing shift d and use them for the
+other parts of the whiskers
+other parts of the whiskers
+other parts of the whiskers
+finally move those a bit forward
+here i'm just tidying up my topology a
+here i'm just tidying up my topology a
+here i'm just tidying up my topology a
+bit and making sure everything is nice
+bit and making sure everything is nice
+bit and making sure everything is nice
+and aligned and more or less square
+and aligned and more or less square
+and aligned and more or less square
+after that's done select the two rows of
+after that's done select the two rows of
+after that's done select the two rows of
+faces in the middle of the dress
+faces in the middle of the dress
+faces in the middle of the dress
+right click
+right click
+right click
+and select extruded long normals then
+and select extruded long normals then
+and select extruded long normals then
+just pull those faces out
+just pull those faces out
+just pull those faces out
+you can also add some edge loops on the
+you can also add some edge loops on the
+you can also add some edge loops on the
+corner of the belt to harden that area a
+corner of the belt to harden that area a
+corner of the belt to harden that area a
+bit
+bit
+bit
+[Laughter]
+[Laughter]
+[Laughter]
+here i'm selecting the edges where i
+here i'm selecting the edges where i
+here i'm selecting the edges where i
+want the normals to be harder
+want the normals to be harder
+want the normals to be harder
+and then i'm right clicking and choosing
+and then i'm right clicking and choosing
+and then i'm right clicking and choosing
+mark sharp
+and finally for the last model for the
+and finally for the last model for the
+and finally for the last model for the
+little bag
+little bag
+little bag
+insert another smooth cube and then
+insert another smooth cube and then
+insert another smooth cube and then
+mirror it over like we did before adjust
+mirror it over like we did before adjust
+mirror it over like we did before adjust
+the vertices to match the shape of the
+the vertices to match the shape of the
+the vertices to match the shape of the
+reference
+reference
+reference
+flatten the front and back by scaling
+flatten the front and back by scaling
+flatten the front and back by scaling
+the faces with s
+the faces with s
+the faces with s
+then y and then zero
+then y and then zero
+then y and then zero
+and then position it on the mesh
+and then position it on the mesh
+and then position it on the mesh
+to make the closing mechanism just
+to make the closing mechanism just
+to make the closing mechanism just
+duplicate the bag mesh and scale it down
+duplicate the bag mesh and scale it down
+duplicate the bag mesh and scale it down
+after that select all of these top faces
+after that select all of these top faces
+after that select all of these top faces
+and extrude them along normals then you
+and extrude them along normals then you
+and extrude them along normals then you
+can add an edge on the lip of the bag
+can add an edge on the lip of the bag
+can add an edge on the lip of the bag
+just to harden that area
+just to harden that area
+just to harden that area
+to make the bag on the side i just
+to make the bag on the side i just
+to make the bag on the side i just
+duplicated the model and just positioned
+duplicated the model and just positioned
+duplicated the model and just positioned
+it over here
+it over here
+it over here
+finally i also added a little cylinder
+finally i also added a little cylinder
+finally i also added a little cylinder
+to the back to finish the closing clasp
+and for the last step i'm extruding the
+and for the last step i'm extruding the
+and for the last step i'm extruding the
+bottom of the dress inwards and then
+bottom of the dress inwards and then
+bottom of the dress inwards and then
+pressing m to merge it in the middle
+pressing m to merge it in the middle
+pressing m to merge it in the middle
+i also add a little edge on the corner
+i also add a little edge on the corner
+i also add a little edge on the corner
+to make it a bit harder
+to make it a bit harder
+to make it a bit harder
+and that's it our model is done
+and that's it our model is done
+and that's it our model is done
+in part two of this video i'll show you
+in part two of this video i'll show you
+in part two of this video i'll show you
+how to uv unwrap texture
+how to uv unwrap texture
+how to uv unwrap texture
+light and render your model as well
+light and render your model as well
+light and render your model as well
+make sure you subscribe and turn on the
+make sure you subscribe and turn on the
+make sure you subscribe and turn on the
+notifications so you don't miss it and i
+notifications so you don't miss it and i
+notifications so you don't miss it and i
+really hope you learned something today
+really hope you learned something today
+really hope you learned something today
+bye until next time

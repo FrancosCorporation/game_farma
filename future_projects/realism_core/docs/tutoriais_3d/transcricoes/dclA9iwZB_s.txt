@@ -1,0 +1,561 @@
+Kind: captions
+Language: en
+before we dive into all the technical
+before we dive into all the technical
+before we dive into all the technical
+stuff about how to set up the project
+stuff about how to set up the project
+stuff about how to set up the project
+and get animating I want to take a few
+and get animating I want to take a few
+and get animating I want to take a few
+minutes and share some of the
+minutes and share some of the
+minutes and share some of the
+interesting tips and tricks that I found
+interesting tips and tricks that I found
+interesting tips and tricks that I found
+while researching the topic and also
+while researching the topic and also
+while researching the topic and also
+share some resources that you can check
+share some resources that you can check
+share some resources that you can check
+out if you want to learn more beyond
+out if you want to learn more beyond
+out if you want to learn more beyond
+what's just covered in the course first
+what's just covered in the course first
+what's just covered in the course first
+up some general do's and don'ts number
+up some general do's and don'ts number
+up some general do's and don'ts number
+one gameplay comes first
+one gameplay comes first
+one gameplay comes first
+while we obviously want our animations
+while we obviously want our animations
+while we obviously want our animations
+to look cool it's more important to make
+to look cool it's more important to make
+to look cool it's more important to make
+sure that they communicate the action
+sure that they communicate the action
+sure that they communicate the action
+without getting in the way of the player
+without getting in the way of the player
+without getting in the way of the player
+a short snappy but otherwise boring
+a short snappy but otherwise boring
+a short snappy but otherwise boring
+animation can't be better than a fancy
+animation can't be better than a fancy
+animation can't be better than a fancy
+one with lots of anticipation and
+one with lots of anticipation and
+one with lots of anticipation and
+flourish because your player is going to
+flourish because your player is going to
+flourish because your player is going to
+be watching this hundreds if not
+be watching this hundreds if not
+be watching this hundreds if not
+thousands of times it might be fun the
+thousands of times it might be fun the
+thousands of times it might be fun the
+first couple times but after that the
+first couple times but after that the
+first couple times but after that the
+distraction or extra time it takes can
+distraction or extra time it takes can
+distraction or extra time it takes can
+be frustrating you don't want to make
+be frustrating you don't want to make
+be frustrating you don't want to make
+your player wait around an extra second
+your player wait around an extra second
+your player wait around an extra second
+every time they do an action just so
+every time they do an action just so
+every time they do an action just so
+that you can show off your cool
+that you can show off your cool
+that you can show off your cool
+animation skills that said we do want to
+animation skills that said we do want to
+animation skills that said we do want to
+try to use the limited time we have well
+try to use the limited time we have well
+try to use the limited time we have well
+and make things feel fluid and natural
+and make things feel fluid and natural
+and make things feel fluid and natural
+and most importantly fun but just be
+and most importantly fun but just be
+and most importantly fun but just be
+aware that that can be a secondary goal
+aware that that can be a secondary goal
+aware that that can be a secondary goal
+check out this video by new frame plus
+check out this video by new frame plus
+check out this video by new frame plus
+on the animation of Smash Bros
+on the animation of Smash Bros
+on the animation of Smash Bros
+characters to see how you can strike a
+characters to see how you can strike a
+characters to see how you can strike a
+great balance between style and function
+great balance between style and function
+great balance between style and function
+the animators in that use the fact that
+the animators in that use the fact that
+the animators in that use the fact that
+they only have a few frames to actually
+they only have a few frames to actually
+they only have a few frames to actually
+influence and inform the style and end
+influence and inform the style and end
+influence and inform the style and end
+up with a really satisfying result I'd
+up with a really satisfying result I'd
+up with a really satisfying result I'd
+also highly recommend his video on
+also highly recommend his video on
+also highly recommend his video on
+overwatch this first-person animation
+overwatch this first-person animation
+overwatch this first-person animation
+and how the different animation styles
+and how the different animation styles
+and how the different animation styles
+for different characters can convey
+for different characters can convey
+for different characters can convey
+personality it's a perfect example of
+personality it's a perfect example of
+personality it's a perfect example of
+how if you're really careful you can
+how if you're really careful you can
+how if you're really careful you can
+have your cake and eat it too when it
+have your cake and eat it too when it
+have your cake and eat it too when it
+comes to style versus functionality I'm
+comes to style versus functionality I'm
+comes to style versus functionality I'm
+going to try to strike a good balance in
+going to try to strike a good balance in
+going to try to strike a good balance in
+this course but feel free to lean a
+this course but feel free to lean a
+this course but feel free to lean a
+little more one way or the other if you
+little more one way or the other if you
+little more one way or the other if you
+think mine is either too boring or too
+think mine is either too boring or too
+think mine is either too boring or too
+fast a common technique for making your
+fast a common technique for making your
+fast a common technique for making your
+animations feel snappy to the player is
+animations feel snappy to the player is
+animations feel snappy to the player is
+to not start on the first frame when
+to not start on the first frame when
+to not start on the first frame when
+animating you need that first frame of
+animating you need that first frame of
+animating you need that first frame of
+idle to make sure that the transition
+idle to make sure that the transition
+idle to make sure that the transition
+feels natural but in-game you can start
+feels natural but in-game you can start
+feels natural but in-game you can start
+on the second or even third frame
+on the second or even third frame
+on the second or even third frame
+sometimes and jump the player right into
+sometimes and jump the player right into
+sometimes and jump the player right into
+the action as soon as they hit that
+the action as soon as they hit that
+the action as soon as they hit that
+button on that same topic of not
+button on that same topic of not
+button on that same topic of not
+frustrating the player don't block
+frustrating the player don't block
+frustrating the player don't block
+whatever they're trying to look at with
+whatever they're trying to look at with
+whatever they're trying to look at with
+the animation this GDC talk by David
+the animation this GDC talk by David
+the animation this GDC talk by David
+Helsby about the first-person animation
+Helsby about the first-person animation
+Helsby about the first-person animation
+of destiny refers to the combat corridor
+of destiny refers to the combat corridor
+of destiny refers to the combat corridor
+the area down the middle
+the area down the middle
+the area down the middle
+of the screen that the player is focused
+of the screen that the player is focused
+of the screen that the player is focused
+on try to keep that clear as much as you
+on try to keep that clear as much as you
+on try to keep that clear as much as you
+can so that they don't miss anything
+can so that they don't miss anything
+can so that they don't miss anything
+important in that same talk David also
+important in that same talk David also
+important in that same talk David also
+mentions the idea of framing the reticle
+mentions the idea of framing the reticle
+mentions the idea of framing the reticle
+it's a nice touch that just feels good
+it's a nice touch that just feels good
+it's a nice touch that just feels good
+and instead of blocking the player
+and instead of blocking the player
+and instead of blocking the player
+you're helping them stay focused on that
+you're helping them stay focused on that
+you're helping them stay focused on that
+most important area
+most important area
+most important area
+another great lesson from him is why you
+another great lesson from him is why you
+another great lesson from him is why you
+should be super careful when animating
+should be super careful when animating
+should be super careful when animating
+the camera when we run our head stays
+the camera when we run our head stays
+the camera when we run our head stays
+somewhat stable but unlike a chicken
+somewhat stable but unlike a chicken
+somewhat stable but unlike a chicken
+still rotates and moves a noticeable
+still rotates and moves a noticeable
+still rotates and moves a noticeable
+amount when you try to animate that
+amount when you try to animate that
+amount when you try to animate that
+though you're going to make your players
+though you're going to make your players
+though you're going to make your players
+sick because their sense of balance
+sick because their sense of balance
+sick because their sense of balance
+while sitting down and then what they're
+while sitting down and then what they're
+while sitting down and then what they're
+seeing in the game don't line up and
+seeing in the game don't line up and
+seeing in the game don't line up and
+that misalignment is what triggers
+that misalignment is what triggers
+that misalignment is what triggers
+motion sickness if any of you have
+motion sickness if any of you have
+motion sickness if any of you have
+trouble reading while riding in a car
+trouble reading while riding in a car
+trouble reading while riding in a car
+you know what I mean
+you know what I mean
+you know what I mean
+so translate it a bit for effect if you
+so translate it a bit for effect if you
+so translate it a bit for effect if you
+really need some camera shake or
+really need some camera shake or
+really need some camera shake or
+something but stay far away from
+something but stay far away from
+something but stay far away from
+rotation especially while walking
+rotation especially while walking
+rotation especially while walking
+running or when the player is directly
+running or when the player is directly
+running or when the player is directly
+in control of the action if you need to
+in control of the action if you need to
+in control of the action if you need to
+throw some in for effects during a
+throw some in for effects during a
+throw some in for effects during a
+cutscene or something like I did for my
+cutscene or something like I did for my
+cutscene or something like I did for my
+shot of the robot getting up then that's
+shot of the robot getting up then that's
+shot of the robot getting up then that's
+fine but try to do it sparingly I also
+fine but try to do it sparingly I also
+fine but try to do it sparingly I also
+thought it was interesting that in
+thought it was interesting that in
+thought it was interesting that in
+destiny and a lot of other FPS games
+destiny and a lot of other FPS games
+destiny and a lot of other FPS games
+there's a second camera for the
+there's a second camera for the
+there's a second camera for the
+character with its own field of view
+character with its own field of view
+character with its own field of view
+maybe your game has an adjustable field
+maybe your game has an adjustable field
+maybe your game has an adjustable field
+of view or maybe you decide that you
+of view or maybe you decide that you
+of view or maybe you decide that you
+need to change the focal length later
+need to change the focal length later
+need to change the focal length later
+well if you've only used one camera all
+well if you've only used one camera all
+well if you've only used one camera all
+that hard work you've done on the
+that hard work you've done on the
+that hard work you've done on the
+animations is suddenly out the window
+animations is suddenly out the window
+animations is suddenly out the window
+because it totally alters how it looks
+because it totally alters how it looks
+because it totally alters how it looks
+and feels the solution is to have one
+and feels the solution is to have one
+and feels the solution is to have one
+camera for the player with a set field
+camera for the player with a set field
+camera for the player with a set field
+of view we just copy destiny and used 77
+of view we just copy destiny and used 77
+of view we just copy destiny and used 77
+because that felt good and then a second
+because that felt good and then a second
+because that felt good and then a second
+camera for everything else that can be
+camera for everything else that can be
+camera for everything else that can be
+freely adjusted to your liking without
+freely adjusted to your liking without
+freely adjusted to your liking without
+messing the other stuff up with those
+messing the other stuff up with those
+messing the other stuff up with those
+design tips in mind here are some
+design tips in mind here are some
+design tips in mind here are some
+technical tips that I found helpful when
+technical tips that I found helpful when
+technical tips that I found helpful when
+I was first starting out it works either
+I was first starting out it works either
+I was first starting out it works either
+way to have the hand parented to the gun
+way to have the hand parented to the gun
+way to have the hand parented to the gun
+or the gun parented to the hand but I
+or the gun parented to the hand but I
+or the gun parented to the hand but I
+found it easier to work with the gun
+found it easier to work with the gun
+found it easier to work with the gun
+parented to the hand so that all the
+parented to the hand so that all the
+parented to the hand so that all the
+characters movements are in one action
+characters movements are in one action
+characters movements are in one action
+and all of the guns movements are in
+and all of the guns movements are in
+and all of the guns movements are in
+another overall you'll end up with less
+another overall you'll end up with less
+another overall you'll end up with less
+actions to deal with this way and it'll
+actions to deal with this way and it'll
+actions to deal with this way and it'll
+be more intuitive to animate you can
+be more intuitive to animate you can
+be more intuitive to animate you can
+then parently left hand to the right
+then parently left hand to the right
+then parently left hand to the right
+hand or the gun so that it follows along
+hand or the gun so that it follows along
+hand or the gun so that it follows along
+the next decision is whether to animate
+the next decision is whether to animate
+the next decision is whether to animate
+it all in one long
+it all in one long
+it all in one long
+go or break it up into multiple actions
+go or break it up into multiple actions
+go or break it up into multiple actions
+while it's another case of you can
+while it's another case of you can
+while it's another case of you can
+technically do either and it'll turn out
+technically do either and it'll turn out
+technically do either and it'll turn out
+fine
+fine
+fine
+I found that it's a lot easier to manage
+I found that it's a lot easier to manage
+I found that it's a lot easier to manage
+by making a different action for each
+by making a different action for each
+by making a different action for each
+movement and then using the NLA editor
+movement and then using the NLA editor
+movement and then using the NLA editor
+to arrange them into a sequence that way
+to arrange them into a sequence that way
+to arrange them into a sequence that way
+the actions for the character and the
+the actions for the character and the
+the actions for the character and the
+actions for the gun won't get out of
+actions for the gun won't get out of
+actions for the gun won't get out of
+sync or confused as you work your way
+sync or confused as you work your way
+sync or confused as you work your way
+through them just be sure that you key
+through them just be sure that you key
+through them just be sure that you key
+frame all of the important values
+frame all of the important values
+frame all of the important values
+including constraint influences so that
+including constraint influences so that
+including constraint influences so that
+when you change something in another
+when you change something in another
+when you change something in another
+strip down the road things won't get all
+strip down the road things won't get all
+strip down the road things won't get all
+funky also this way is just really easy
+funky also this way is just really easy
+funky also this way is just really easy
+to import into unity as all those
+to import into unity as all those
+to import into unity as all those
+actions are separate animations as you
+actions are separate animations as you
+actions are separate animations as you
+work save a pose in the pose library for
+work save a pose in the pose library for
+work save a pose in the pose library for
+the default poses like idle for each
+the default poses like idle for each
+the default poses like idle for each
+weapon iron sights etc so that you can
+weapon iron sights etc so that you can
+weapon iron sights etc so that you can
+easily revert back to them at any time
+easily revert back to them at any time
+easily revert back to them at any time
+since it'll be different than your
+since it'll be different than your
+since it'll be different than your
+resting pose
+resting pose
+resting pose
+you won't be able to alt G and alt are
+you won't be able to alt G and alt are
+you won't be able to alt G and alt are
+your way back to safety lastly we need
+your way back to safety lastly we need
+your way back to safety lastly we need
+to structure our assets so that they
+to structure our assets so that they
+to structure our assets so that they
+import well into unity or unreal in the
+import well into unity or unreal in the
+import well into unity or unreal in the
+course I show you how to link two
+course I show you how to link two
+course I show you how to link two
+separate asset files into a new
+separate asset files into a new
+separate asset files into a new
+animation file using proxies or the new
+animation file using proxies or the new
+animation file using proxies or the new
+library overrides which by the way are
+library overrides which by the way are
+library overrides which by the way are
+super cool and then take the baked
+super cool and then take the baked
+super cool and then take the baked
+animation data back into the original
+animation data back into the original
+animation data back into the original
+files for cleaner exporting this is the
+files for cleaner exporting this is the
+files for cleaner exporting this is the
+way to go if you're working with a large
+way to go if you're working with a large
+way to go if you're working with a large
+team or a huge number of assets but if
+team or a huge number of assets but if
+team or a huge number of assets but if
+it's just you and you're doing a few
+it's just you and you're doing a few
+it's just you and you're doing a few
+simple animations for one character and
+simple animations for one character and
+simple animations for one character and
+only a couple of weapons then it might
+only a couple of weapons then it might
+only a couple of weapons then it might
+not be worth that extra hassle and you
+not be worth that extra hassle and you
+not be worth that extra hassle and you
+can just do it all in one file and not
+can just do it all in one file and not
+can just do it all in one file and not
+really worry about it now that you have
+really worry about it now that you have
+really worry about it now that you have
+those tips floating around in the back
+those tips floating around in the back
+those tips floating around in the back
+of your mind I think we're ready to get
+of your mind I think we're ready to get
+of your mind I think we're ready to get
+started I hope you found them helpful
+started I hope you found them helpful
+started I hope you found them helpful
+and I'd encourage you to take some time
+and I'd encourage you to take some time
+and I'd encourage you to take some time
+to check out those videos I mentioned at
+to check out those videos I mentioned at
+to check out those videos I mentioned at
+the beginning if you're curious and then
+the beginning if you're curious and then
+the beginning if you're curious and then
+jump into the course when you're ready
+jump into the course when you're ready
+jump into the course when you're ready
+see you there

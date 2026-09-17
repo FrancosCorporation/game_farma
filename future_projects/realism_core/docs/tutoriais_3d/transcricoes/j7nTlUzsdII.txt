@@ -1,0 +1,2036 @@
+this is part two of the shoe tutorial
+and in this video we will cover
+creating textures and creating
+normal maps
+we've got our shoe modeled we have our
+uvs done now we need to export a uv
+layout so you can create the textures in
+photoshop this will also work in
+but i'm going to show photoshop
+so let's grab our shoe here
+go to edit mode
+hit a to select all
+go to our uv window here and click uv
+export uv layout
+let's just click this but you type what
+you want to call it here the 2k is
+probably too high but we'll leave it at
+that
+you can always reduce it later
+and then export uv layout
+the uv map is hard to figure out what's
+going on in photoshop so here's a little
+trick to make it easier for yourself
+so go to your shader window here
+to your
+albedo that's plugged in and click on
+the file and i saved it here
+okay let's go to our texture painting
+window here
+and let's go to our shoe
+okay and it's uh it's hard to see so
+let's change the lighting
+to
+something brighter
+maybe this one
+and turn up the strength
+okay
+okay so it's it's definitely on there
+let's isolate so we have just our
+new shoe
+and
+let's do some texture painting
+so let's also make sure we're on the
+right map which we are
+and then hit the n key
+and tool
+and make sure we're on the same material
+and we have the correct texture we're
+going to paint on which is the uv we
+just saved okay and let's scooch this
+let's actually
+make it visible here too
+so it
+when you look at the map
+in your other program
+this is rather confusing it's like what
+is this piece here what is this little
+thing there which orientation is up it's
+confusing so
+i do this really quickly just to make it
+easier for myself
+to understand what's what
+so let's grab the paint tool
+let's grab a color here like
+blue or something
+make this smaller
+and we'll just
+you know point up
+so we know what's up
+we can do things like we want stitching
+there we can just indicate okay the
+stitching is going to go roughly
+there so just go through your shoe and
+put little notes for yourself on
+so you can understand what's where
+change the color here
+that's up
+then if you want stitching here we can
+do that so
+indicate where that stitching would be
+it's kind of the same thing to the whole
+shoe
+and you don't need to worry about
+the quality of it too much
+this is just to help you out
+and and also
+let's just save it so we don't lose
+anything so image
+save as so don't save it over your
+current one save it over um
+like uv guide
+because we're going to use the the
+actual uv map so let's just save that
+here okay let's go back to
+adding our little notes
+do they have that on the uv i think that
+was here okay so let's just go so i had
+two materials here
+this way you could kind of see that that
+part's a
+chrome buckle
+let's just delete that nest this should
+now take our current uv
+put a little arrow here it should show
+up
+on our texture okay that's correct so
+that's up
+and what is this oh that's that
+okay
+so you can see how this this map gets
+confusing sometimes so this helps me out
+tremendously
+i have some stitching on this guy here
+so let's
+go and
+indicate that for ourselves
+it's a little bit tedious but
+boy if you're
+doing texture work in photoshop
+this helps a lot
+okay so let's see oh it's to the soul i
+mean the um
+inside sole i'm not sure what that's
+called
+inside
+i remember this trim here
+was a separate piece let's just color
+that
+okay so i think
+i think that's enough detail for us here
+image save as
+save
+this is the look that we're going for so
+you can see we've got a smooth toe and
+smooth heel that connects to a smooth
+strap
+we've got stitching going around the
+heel and the strap
+and the toe area
+we've got a diamond pattern
+on these two areas here
+with a little extra stitching
+then we've got a couple of chrome pieces
+we've got the heel and the
+latch that's chrome
+and then we've got it's hard to see but
+there's a leather texture on this
+flat inside area and a darker leather
+texture down here so let's go and add
+all those in
+we're also going to
+we're also going to create fillets on
+some of these areas here
+when we make normal maps
+it'll soften up all these crisp edges
+okay let's go jump into photoshop
+let's open up
+our uv map here so we'll open up our uv
+map and then we'll also
+open up
+our
+guide for ourselves here so we've got
+both of those
+we will
+drag this here
+to the side
+hit v or click this here
+click
+hold shift and drag it over
+and that should drop it right in the
+exact alignment
+as the original
+you can check it
+by toggling that you can see it's lined
+up
+let's call this guide
+and we'll call this uv
+uv
+briefly how you navigate in photoshop
+you hold down the space button and a
+hand appears
+and if you left click and drag you move
+around
+if you space plus control and left click
+you zoom in
+space control alt and left click you
+zoom out
+so that's how you navigate so let's go
+and
+bring in a texture for that diamond
+pattern so let's go to file and open
+so let's just use like this one here so
+so this is a free texture
+that i got online the link for it is
+below
+so you can go and get your own free
+textures there
+but let's just grab this make sure it's
+an rgb
+because we're going to
+use it to make a normal map so
+go to image and mode and rgb here we go
+mode rgb
+okay looks the same
+and control a control c
+control w to close it
+ctrl v to paste it
+okay
+so now we have to do a little bit of
+guesswork
+here so first we need to mirror this uh
+sorry duplicated a few times
+let's explain the layers here so
+yeah so so you can see there's different
+layers here on the layer
+panel
+and so each one
+lies on top of another one
+and you can make them
+opaque the way they normally are if you
+have it set to normal or you can make it
+to
+multiply and it kind of adds the color
+to it so you can play with different
+layering
+styles so let's leave it on normal for
+now
+and what we want to do
+is we want to take our texture here
+oh yeah so if you
+you have to have the layer selected that
+you want to affect so i'm going to click
+this layer one
+let's call this diamond
+which is what i want to manipulate
+so i hit v and you can move this around
+so we want to do is we want to put this
+texture over
+the areas that we wanted to have that
+texture and it was the
+was the area in front of
+behind the heel behind the toe
+and this little strappy this little side
+area and we can check it
+okay so we want it in this green area
+here
+and
+this blue area okay so let's go back to
+our
+photoshop file so we want it in this
+green area here and the blue area was
+the strap here so these areas here
+so we want to put this texture over
+those but this looks like it's going to
+be way too big
+so let's
+and if we scale it down
+it's probably not going to fit
+oops let's tell you how i scaled that so
+if you hit ctrl t while this layer is
+selected
+you
+you get these little control nodes on
+the corners and you can click it
+and scale it down or if you hold shift
+it proportionately scales things down so
+that's how you can
+scale things in photoshop
+but first i think it's good to mirror it
+so you can repeat this pattern by
+hitting the v
+tool
+hold alt
+left click and
+then drag and you'll see it move the
+second one here then hold shift
+and then if you kind of mess around with
+where you have it when you hit shift
+it'll constrain it
+along one axis and it will snap in place
+then hit ctrl e to merge that layer down
+let me show you that again so
+i'm on this layer here if you hit ctrl e
+it merges it down to the layer just
+below it
+so now this is all one big chunk
+okay
+again hit v to make sure you're on the v
+tool
+or the move tool hit alt
+you get that double arrow
+left click and drag
+then hold shift
+and drag it down until it snaps
+then hit ctrl e to merge it down
+and let's do it one more time just to be
+sure we have enough material
+this is a
+pretty slow
+okay so now we've got this big old map
+we can use the scale down as small as we
+want to
+and let's duplicate this in case we mess
+it up
+we've got our layer selected
+we've got our guide above it so we can
+still see
+where we're going to put this and hit
+control t
+to transform it
+click a corner hold shift and just drag
+the whole thing down
+to as big as you think the timing
+pattern should be
+so
+i'm just
+clicking and dragging here
+looking here and i think
+this is that front area
+i think it's still too big so let's zoom
+out a bit so we can see our handles it's
+just a very freeform kind of way of
+doing this i think that looks
+okay okay we can fit over here and there
+so that's good
+so hit enter to
+freeze it or apply it and so now it's
+locked and
+done
+and so that's good but we also want to
+cover this area here
+so hit v
+we're on that layer here that we just
+made
+i mean scale down
+hit alt
+then left click and drag and it moves it
+down here
+like that
+okay
+so we have this part covered
+but it's also covering this blue area
+that we just made so we don't want this
+seam to be visible
+so let's click this layer here to see
+which one we're actually affecting
+now let's erase this area here
+so the easiest way to do this would be
+to hit l so normally l is the
+it's a lasso tool
+so you can select like that
+i don't like that so i hit ctrl d to
+unselect it
+and i'm going to hold shift and hit l
+and this you just click click click and
+you can
+draw a polygon style
+loop
+i like that tool better hit delete so
+it's deleted so now this way we're not
+blocking
+our lower texture map
+okay
+then let's delete everything else
+because we don't need any of that so
+let's just hit l and circle
+around
+our little area here
+like that
+and hit ctrl shift i to invert the
+selection and hit delete to delete it
+so now this is covering just that little
+island
+and
+i suppose we can do that for up here too
+so let's hit l again
+and just click through
+like that i can see i
+didn't go far enough that's okay
+then we will control shift i and hit
+delete oops we're on so i delete the
+wrong layer
+so make sure we're on the correct
+layer and hit delete to delete it okay
+that's good
+then hit ctrl d to unselect
+l to lasso again and just
+click through because we don't want our
+toe to have this texture okay and delete
+then control d to unselect
+and then we also want to cover this
+little thing here i cut off or something
+say s to go to the stamp or the clone
+tool
+hit
+alt and you see this little circle
+crosshair
+which is the sample
+for the clone stamp
+since we're
+um we want to expand it right where this
+these two lines cross
+we should click it where it crosses so
+click it right there with the alt left
+click
+then go down here
+you can kind of line it up
+and then let's just add a bit more there
+okay
+okay so let's see here
+now let's merge this layer down
+ctrl e
+so this is all of our diamond pattern
+pattern area
+so let's just check it out and see how
+it looks really quick so ctrl shift s
+i'm going to save it as jpeg for now
+because it's just
+it saves it fast but we won't save the
+final file like that so let's just
+let's save it in textures
+and
+uv map
+test
+and save so then let's check it out in
+blender
+okay so let's go and
+load up the texture we just created
+open
+okay so we've got our diamond pattern on
+this front area here which is good we've
+got it
+here which is good and
+oh
+we actually didn't want it here
+so let's go and delete that okay so
+let's go back to photoshop
+delete this area here
+and let's also add in
+a leather texture for this area here
+and this area down there
+back in photoshop here let's make sure
+we are on our diamond texture
+click that layer here hit l
+and let's click around
+the
+area that we want to delete
+enter delete
+control d okay
+so that is good now let's add the
+leather texture to
+the sole area
+down here
+and all of
+these purpley areas
+here and there
+and then this inside area too
+and these are not purple so i think this
+is the outside trim
+so let's figure out what do that later
+okay let's open another texture so file
+and open
+let's go to our archive these this one i
+got from polyhaven there it's free ccno
+definitely support them on patreon i'll
+put the link below
+and let's grab that ctrl w ctrl v
+okay so let's do the same thing here
+let's
+hit the v tool drag it and let's just
+hold alt and shift and duplicate it a
+couple times
+okay so let's drag that down here
+let's just make sure this leather
+texture looks like it's the right size
+for the sole
+and
+maybe a touch
+i smaller that's okay hit enter
+and hit the l key and let's
+select here actually let's
+call this leather
+and let's duplicate that in case we mess
+up
+hide that make sure we're on our copy
+here
+hit l
+on the keyboard
+so i hit l to get this so
+hit l to start the tool
+click
+to actually put your first point
+then you can hold shift and constrain it
+so you can it's it that helps when you
+have islands laid out flat so hold shift
+and click
+and then i'm going to zoom in with space
+and control
+and it's going to go around here
+and go around here
+and down here and enter okay
+so i've got all the inside and the
+outside
+ctrl shift i
+delete
+control d to delete that
+so the colors are really different i'm
+not worrying about that right now we'll
+deal with that later
+and then let's uh
+let's just make sure this is in the
+right place ctrl shift s
+tab
+j for jpeg
+not sure why we're here
+and let's re-save our test
+and yes
+and yes
+okay back in blender let's reload our
+test so let's grab that click that and
+hit enter
+and okay so we've got
+let's go to object
+mode
+okay so now we've got our object
+selected here
+and let's go to edit mode and click a
+face and then zoom in
+okay so now
+that's all covered let's go over here
+and that's all covered okay
+the soul
+is all covered heel is covered
+we actually wanted this area to be
+that chrome so let's go back to texture
+paint
+hit end grab our tool
+click tool let's pick a color like
+gold let's make it gold
+right gold
+cold
+yes
+expensive limit okay so that's cold air
+let's
+call this gold too so we just know
+okay let's go to image and
+save as
+and save over our photoshop jpeg here
+okay and let's go
+back into photoshop okay back in
+photoshop
+file open let's grab our
+updated
+texture here ctrl a ctrl c ctrl w
+ctrl v
+let's put this
+up here
+okay so the gold area is
+right there so let's hide this let's
+call this reference
+and let's go into the correct layer
+if you
+get a bunch of layers here and you don't
+know where you're at you can hit v
+and hit control and click on a texture
+like on the page and it'll you can see
+the layer jumps to where you're at
+so that's helpful so
+control there you can see from here and
+just m is for this marquee tool
+l is for the last hole tool
+so m and then
+grab it
+delete it ctrl d to unselect
+okay so this is all good
+this was our gold area so let's just
+make that gold so let's make a layer
+here
+let's call it
+oops
+if you double click over here it pulls
+up this layer style if you double click
+exactly on the letters you can change
+the name
+okay
+gold
+m for marquee
+click and drag around
+this area because we wanted that gold
+and we wanted these areas let's see here
+yep
+to be gold also so let's grab those grab
+those
+let's make it gold color
+okay all right
+so now those are colored gold
+since we're here let's
+color these areas
+another color so let's call this um i
+don't know smooth
+smooth leather
+and let's go and select those areas
+so i'm going to hit the l key
+and just click around all of this area
+here
+and
+i
+don't think we want that outside area
+well i'll just grab it here for now
+just oops
+n for marquee so i've selected this area
+actually let's go in here
+i missed this here
+actually let me show you how i did that
+so i missed this here i don't want to
+add this selection so i have l for lasso
+selected i'm going to hold shift
+and you get a little plus and then you
+can
+add to your selection
+okay
+and then
+hit m for marquee
+hold shift again
+i have a little plus it's kind of hard
+to see
+and
+click
+and drag
+oops and then
+we've added to our selection okay so
+this is the smooth leather that i want
+this
+down here might not work but we're going
+to put it there for now and then i want
+to fill that with a color so let's go
+and color this like
+light gray
+alt delete
+and now that whole area is filled with
+light gray
+okay
+so let's go and
+see how this looks in
+blender i want to see what this stuff is
+so ctrl shift s
+tab j
+let's go back to our
+textures here and save our test
+yes
+okay back in blender again
+reload our
+test and let's see what we've got here
+so we
+you can't tell so
+so this is
+this is all the area that we
+colored light gray and it looks the same
+but this part out here
+is that part that we weren't sure what
+it was this area here but you can see
+there's the light gray in
+this 2d layout
+and i think it'll be nice to have
+this outside trim match
+this here
+this part is going to be almost white so
+i think that will match okay
+okay so that's pretty good
+we've got all our basics laid out let's
+also
+let's add some stitching
+okay so let's add stitching everywhere
+we have these little dashed lines
+okay so back in photoshop let's go and
+add our stitching
+so we will go to our layers
+and make a new layer call this stitching
+go to our pen tool with the p key
+or click this here
+then we're going to go and
+draw in where we want stitching the way
+this pen tool works is if you click and
+drag you create a handles that controls
+the direction
+and strength of the curve
+so you click and drag once click and
+drag a second time you can see the curve
+appears
+with this tool the less
+control points you add the easier it is
+to handle
+and then let's
+just click a few times and go through
+and let's add all the stitching in one
+chain so let's click and drag there
+so this method of creating stitching is
+a
+it's probably not as high quality as
+creating it in blender
+but it's um it's a lot easier
+okay let's go and continue our stitching
+like that
+let's see what else we got here
+okay
+and was there anything else there was
+and i
+went over here so i have to fix that
+later
+okay let's add these stitchings
+to this part
+and i think that was everything
+yes
+so i'm gonna hit enter to finish that
+then let's
+so grab this corner point tool
+and then
+drag over and we can move things around
+here we go so it's
+oops
+hit a for the
+open arrow tool
+i guess that one works better
+so move that over here let's grab this
+one move that over there
+this curve is messing things up so let's
+go back to that
+carrot tool
+and then click the handle and drag and
+you can
+abruptly kind of move it
+like that hit a again and move this
+over so this way nothing is kind of like
+overlapping
+okay so that's all done now let's make
+this look like stitching so first let's
+make this smaller
+and how big do we want this
+i think that's okay
+and let's go to our
+dashes and
+click that
+um
+these are all
+boxes let's go and change that oops
+and make it round
+okay that's good
+let's click more options to make that
+smaller
+let's say
+this first
+number here is for that dash here
+the second is for the gap so you can
+make this one
+it's too tight
+1.5
+maybe
+this could be 2.5
+just make it so it looks nice i think
+that's nice
+okay
+that's
+good and then let's go and check it out
+really quick and see how it looks
+let's turn off our guide
+like that so that way we can see a
+little bit better
+then ctrl shift s tab j for jpeg
+let's go back to our textures and save
+our test
+and
+let's load up our test
+click enter and okay so we've got
+stitching
+so some of it needs to be
+a little loose there
+don't worry about that one we'll delete
+that in photoshop later that looks more
+or less okay you can get this as detail
+as you want it should probably fix that
+one
+so just go through and see where you
+like to improve things
+i think for me the only place i'm really
+concerned about is like down here
+maybe there so let's see if we can find
+this let's go back to photoshop here
+i believe it was the heel let's grab our
+guide
+so it's either this side
+or that side so
+let's see here
+oops
+a for the open arrow tool you can click
+and drag that
+let me put that there
+let me tighten this one up a bit
+all right i think that's maybe this one
+here too
+okay
+ctrl shift s tab j
+go to textures
+save that
+yes
+let's switch back into blender
+again load our test
+and
+oh we left the guide on but we can still
+see the dashes that looks better
+yeah okay i think that's pretty good
+so that's basically the
+most the work is done for the texture
+now we just need to make this all
+have the right colors and we'll create
+normal maps for it so let's go back into
+photoshop and do that
+okay so back in photoshop let's
+duplicate our stitching layer
+and hide that
+and then we will
+compress it
+so
+if you grab
+the stitching
+this is actually a vector
+it's made with a vector so if you
+you need to
+translate that to pixels so if you grab
+that vector layer here
+with the blank layer if you click this
+here you make a layer
+so i'm going to grab those two layers
+and hit ctrl e
+and then that collapses it so now this
+is no longer a vector this is this is
+pixels
+so if you hit the m tool and drag and
+select and hit delete now you can delete
+this
+okay so let's go and delete everything
+that we don't need
+we can do that by going back to this uv
+map layer
+hitting the w for the wand key
+this will select everything that's not
+an island so
+click here and you can see everything is
+selected
+that's not an island
+go to select
+modify
+contract
+and say 5 pixels so this makes your
+whole selection smaller by 5 pixels
+you can see everything moved out
+from the island by a little bit
+and now let's make sure we're on our
+stitching layer and then hit delete
+and then
+that was hard to see okay let's go here
+so hit delete
+and then everything that we don't need
+for the stitching gets deleted
+i do see that we've still got this we
+don't want that
+let's delete that
+okay let's hide our guide
+oh we don't need this too
+m to select that
+delete
+we don't need this select that and
+delete
+ctrl delete
+ctrl
+d to unselect
+okay that's pretty good
+so now let's make these
+all the colors we want
+let's hide this uv map too so this
+diamond pattern
+so you can do this destructively or
+non-destructively
+if you
+have this layer selected
+ctrl d to make sure you have nothing
+selected so this next command will
+affect everything on this layer
+right here
+if you hit ctrl l
+it'll adjust the levels for everything
+on that layer so you can make this whole
+thing lighter
+or you can have this layer selected
+hit control
+left click so you have
+everything on that layer selected
+and then hit this here and go to
+brightness and contrast
+or levels
+and then you can
+do the same thing
+in a non-destructive way so this way you
+can
+lighten the whole thing up and i think
+she's going gonna have
+white shoes
+so let's just make this
+really really really light
+i mean
+for doing true pbr be like that so we're
+kind of faking it
+so let's do something like that so it's
+a kind of a fake pbr
+okay so let's
+make our smooth leather here so let's
+click the v tool control click on
+the smooth leather
+so this one
+since it's all one color
+you don't really damage the you don't
+lose any data by
+doing a levels command on there versus
+here if you did levels you would lose
+data
+i hope that makes sense so i'm going to
+just highlight this later layer hit ctrl
+l and i'll make this whole thing lighter
+so it's almost so just make it visually
+match
+the toe
+okay we've got that
+this whole um inside leather
+i don't want
+that's way too dark
+so i'm going to control click that
+go to i'm going to go to hue saturation
+and take all that brown out of there
+because i want that to be
+very faint
+i'm not gonna mess with the lightness
+then i'm going to control click that
+leather layer again
+go to contrast brightness actually i'll
+go to levels
+and i'm going to lighten this whole
+thing up
+like that
+maybe let's explain the levels here a
+bit in photoshop so if you do if you
+drag these
+this basically increases the contrast
+for your layer
+if you drag these this makes everything
+kind of flat
+so you can see it's almost one color so
+there's different ways to adjust things
+for this
+i'm going to get a little bit of
+contrast in the texture by dragging that
+down
+then dragging this up so it's really
+light so
+that's going to be the color
+okay
+let's do the gold next v and then hit
+ctrl left click to select the gold
+and then for this
+um
+i don't know how to color that
+let's just make it a pale
+pale gold so i'm going to grab that
+layer here
+this is all one color so there's no fear
+of losing data
+or information by
+applying a levels command to this layer
+so i'm going to
+highlight that
+ctrl d to make sure nothing is selected
+hit ctrl l and i'm just going to
+lighten that up a bit
+nope
+ctrl u for hue saturation i'm going to
+desaturate it
+and lighten it a bit
+i think that's
+good we're going to make this metallic
+so it
+kind of reacts differently
+okay so then let's mess with our um
+stitching so let's see here stitching
+layer
+oops
+stitching
+so let's
+duplicate this so we have oops
+i dragged it to the garbage can by
+accident so if you drag it to this
+page icon you duplicate it
+so let's hide our original
+and so for our stitching layer let's hit
+ctrl
+u for hue saturation let's just lighten
+the whole thing up
+let's make it white
+it's a little too white let's make it
+very very very very light gray
+okay so i think that's pretty nice i
+think our leather
+area here is too brown so let's hit v
+control click
+find our hue saturation down here
+let's take out some color
+okay so we have barely any color
+and then ctrl shift s
+tab j for jpeg let's go back to our test
+here
+save that
+let's go back to blender and reload
+our test
+okay so that looks
+that looks pretty nice oh we got to make
+this whole area darker shoot
+let's go and do that really quick
+back into photoshop
+let's turn on our guide okay which one
+was the bottom
+this one here
+so let's hit l to select
+let's just grab
+all of the
+bottom area
+this is the bottom leather area
+and let's go and
+we want to apply this
+next command
+on just this layer here
+so i want to have this
+this layer
+highlighted so it'll apply this filter
+right over here
+if you did it up here it may mess with
+other things
+like all these other layers so make sure
+you have the layer you want to affect
+only
+then let's go to
+i guess brightness and contrast
+and let's just make it darker oops
+darker
+it didn't do too much maybe we can pull
+this up here
+okay that's better
+it's it's nice doing things this way
+because you can always adjust things
+later which we will do when we create
+our normal map for this shoe
+okay so i think that's pretty good let's
+turn off our guide
+maybe a little too dark
+so i think i think
+that's pretty good
+ctrl shift s tab j
+let's go
+back to our
+test
+save that
+let's go back into blender
+and let's reload
+our test
+okay
+i think that looks
+pretty good
+so now let's make some let's make a
+normal map for our stitching and for
+this little diamond pattern and
+some of this leather texture stuff
+okay back in photoshop let's actually
+make our metal map and our roughness map
+first before the normals so let's
+go over here hit v and then control left
+click to find our layer so here's our
+gold layer these things here we'll make
+those metal
+let's drag that layer down to this
+paper icon and then move it up here so
+this is our
+duplicated gold layer
+let's make a blank layer by clicking
+that and put it just below the gold
+layer
+then let's
+color the whole thing black
+so you can do that by
+these two colors here this is the
+foreground color and background color so
+you can change that to white and black
+by hitting d
+and then
+if you go to your layer here and hit
+alt delete
+it fills the whole thing with this
+foreground color
+so that's all black there
+and for the gold we will
+this is probably okay the way it is so
+let's save it ctrl shift s
+and we'll save this
+as a tiff file and i think it's going to
+be good so
+let's turn off the layers reduce the
+file size and we'll call this maryjane
+metal
+and click save
+okay so that should be fine
+so let's go and
+un uh hide those
+we can put those
+inside a layer
+folder
+so we um
+so you have them if you need them
+let's hide that okay so whatever is
+light will be matte whatever is dark
+will be glossy
+so let's pull our glide let's pull our
+guide up here and
+see what to make
+glossy
+so we want
+the heel area the toe area
+we
+wanted the metal areas should be glossy
+also
+this outside trim should be glossy and
+i'm trying to remember what we did with
+these things here so
+this part's matte this part's glossy so
+i think it's whatever is the smooth
+white
+so we'll hit v
+hit control left click and it will
+if you hit control and left click on the
+layer here
+you'll select whatever that layer is
+okay so now we've got that all selected
+it's hard to see here
+let's go up here make a new layer
+we'll call this um
+smooth
+and we'll alt
+click
+make it all black
+let's put this
+below the guide
+okay so we've got
+our heel our toe
+this part here
+this was not
+yeah okay so i think this is the part
+that we want to be glossy
+so we want that and then we also want
+the metal parts to be glossy so let's
+grab that also
+so if you
+control
+left click on the layer you grab
+whatever's in it layer if you ctrl shift
+and left click on a layer you'll add to
+the selection so now we have
+all of the black area and all the yellow
+area then we will control
+oops we will alt delete
+so now we have them both selected so
+that's all going to be super glossy
+okay that's good
+now we want the stitching
+not to be glossy so
+let's go and find our stitching
+which is right here
+let's duplicate that
+down here and drag this above the smooth
+layer we just made
+let's control d to unselect okay so now
+we have the stitching over here
+and this part will be matte because it's
+white so that's i think that's good
+this um
+check the checkered texture or the uh
+diamond texture should be
+i think maybe a little bit glossy so
+let's control click that
+that's
+here
+so we can probably do this let's
+hide that
+we'll control click the diamond layer
+down here
+so we have that selected and we'll make
+a new
+adjustment layer so we'll click this and
+do um
+levels
+and so let's make that pretty light but
+not super light so
+it's a little bit darker that'll be a
+little bit glossy so something
+like that
+maybe like that
+it'd be kind of like half glossy
+a little bit lighter
+yeah
+and then let's check our guide again
+here
+so the inside of the shoe and the sole
+let's turn off our guide
+so the sole i think we can go pretty
+dark
+let's go v control click grab that
+let's just grab that selection here
+and go up
+to where our smooth layer was make a new
+layer
+and we will
+go alt delete and the fill with black
+that'll make it shiny
+and then let's hit ctrl l to go to our
+levels tool and just make this
+pretty pretty light
+i think the bottom of the shoe is pretty
+non
+shiny
+okay
+back to our guide we've got this inside
+area
+i think that should be just a little bit
+glossy so let's just go and
+grab
+that
+enter to select it
+then
+make a new layer again let's fill it
+with black
+to hide the guide
+so maybe about as glossy as these uh
+diamond areas so ctrl l for levels
+and let's just bring that up
+like
+that
+and just make sure i'm not missing
+something here
+yeah stitching
+time patterns
+did we get that outside area
+yeah that was glossy
+i bet you this whole smooth area is
+probably too glossy so let's control d
+to unselect
+control l
+let's
+lighten this just
+just a bit
+okay
+so now let's save this ctrl shift s
+and
+i'm guessing it's okay so let's
+do an actual save in the jpeg we'll call
+this mary jane smooth
+okay let's go to blender and check them
+out
+okay back in blender let's expand our
+material window here so let's add our
+rough our smooth so shift a s i m a for
+image texture
+put that there
+that's weird click open
+let's navigate to where our texture is
+and so let's look for these
+smooth
+make this non-color
+and drag that to the smooth the uh
+roughness
+and let's go to
+the preview here
+hard to see let's
+change
+the environment
+to
+something where you can see it better
+okay so we can kind of see
+the toe is
+shiny the stitching is not
+this diamond pattern is not shiny
+the sole area or the insider is not
+shiny
+soul's not shiny okay so i think we've
+got this correctly done
+then let's add a metalness map here so
+let's grab this shift d
+x that out click open and let's navigate
+to our textures and open our
+metal map
+let's plug that into
+the metallic oh let's make this
+non-color
+and plug this into metallic so that
+should make it
+metallic
+okay so now our
+latch detail and our heel is metal
+looking
+okay so now let's go back and do our
+normal map
+okay so back in photoshop let's um put
+all of these layers we used for our
+roughness and metalness
+i mean our roughness into a layer here
+or a folder
+okay let's put this down here let's grab
+these guys
+i think was those put that in here
+and then hide that
+okay and save it
+okay so for our normal map
+anything that's that's light comes
+forward and anything that's dark fades
+back so you want to make
+make this so that it reflects that so
+basically if we want to come forward
+make it lighter
+i i usually save this as a separate file
+because it messes everything up so let's
+go to file and save as
+we'll call this i actually just tested
+it so i already have it saved so let's
+save again here so save over
+and okay
+start with this trigger pattern
+so let's make whatever see here
+black will set back and then the white
+will come forward so let's see here
+let's
+adjust this
+it's the more contrasty to make it the
+more extreme it'll be this part is more
+of a texture so i don't want to mess
+with it too much
+i want this whole background to be
+darker than the stitching so let's
+bring that back a bit here so i think
+that's gonna be pretty good
+let's do the sole here at the bottom
+so i think that can be pretty flat
+so let's lower the contrast on that
+make sure it's the right one yeah lower
+the contrast
+we have that rather medium
+for this leather on the inside of the
+shoe
+let's see here
+i think we want these middle parts to
+come
+up
+so whatever you want to come
+away from the surface make it light
+so we should probably do this we'll grab
+all of that other texture and apply an
+inverse
+or invert
+okay there we go
+so now for the sole anything that's
+light will come up whenever it's dark
+goes back same thing for the
+uh other part of the heel but let's uh
+let's actually hide that
+okay that's probably better
+so this part i don't want to be too much
+texture i think it's probably okay
+then let's go and mess with
+this bottom part again and make that
+lower contrast
+so that's not working so good let's do a
+different one that's two levels
+levels
+and then let's
+do that
+okay that's what i want so it's just
+much less punchy
+so it's gonna this will make it pretty
+smooth
+okay so that's pretty good
+these are smooth that's fine
+for the smooth area here
+this one let's ctrl left click that and
+add a levels to it
+so let's just knock it back a bit
+so that way
+the stitching can come off of it
+so put that like there
+and then let's go to our stitching
+and let's add some
+form to it so
+again remember whatever is dark will set
+back whatever's
+white will come forward so
+i'm duplicating the two i'm duplicating
+the stitching so we have two stitching
+layers so for the back one
+ctrl d ctrl l
+i'm going to
+make that a little bit darker
+and then for the front one it's going to
+be lighter
+but we will
+control left click that
+select
+modify feather
+and one
+this is going to make a fuzzy selection
+around this edge
+then let's hit ctrl shift
+i
+so now it's selecting everything outside
+up to this mark
+but it's a little bit fuzzy
+so when you delete it the middle part
+will stay white and the edges will
+go transparent
+so now what you can see is
+it's a little bit brighter in the middle
+than it is on the side you can't see
+much but it's
+it's actually doing something if you
+turn it off
+it's kind of like that
+you can let's see let's exaggerate that
+let's delete it again here
+okay
+maybe you can see it a bit more now
+let's ctrl d
+let's ctrl l and see if it's
+full of white
+it wasn't
+so you can see a bit more contrast and
+we can actually go back to this lower
+layer
+ctrl l and make it a bit darker
+so now you can see there's a little more
+form
+you want to be careful though because
+for this back part of the stitching
+if the contrast is too close between
+the smooth part of the shoe and this you
+won't see much of a difference so let's
+go back to our
+smooth part of the shoe by hitting v and
+control left click
+so now i've got that let's make this
+whole thing darker
+so the stitching really pops out
+okay so i
+i think
+that's
+it
+okay so now let's make the normal map so
+let's just save this okay
+ctrl s and let's grab everything that's
+active
+doesn't matter if these are not active
+and just drag it to this new
+here ctrl e to just merge it all so now
+it's
+all just
+compressed
+then let's go to filter 3d and
+normal map
+and also has the same functions so
+you can do this in that if you want to
+and not pay for
+photoshop
+okay so you can kind of preview it and
+it looks
+looks about right
+so let's click ok you can only tell so
+much sometimes these things look
+inverted so you can
+try and flip it
+this view always confuses me so i i just
+kind of like
+i just kind of export it and see if it's
+not good i'll flip it in photoshop or
+blender so click ok
+then ctrl shift s
+we'll save this as a tip with no layers
+and we'll call this
+mary jane
+normal
+save yes replace and okay
+okay
+now let's go and see how it looks in
+blender okay so let's add our normal
+maps let's get this out of the way
+shift a s i m a for image texture
+click open let's go and find our newly
+made normal map
+mary jane normal open that
+and set this to non color
+so drag color to normal
+then shift a s n o r for normal map
+click that on that line and that applies
+the
+normal map so now we can take a look and
+see how it looks
+okay so now the
+stitching is
+popping out
+yep popping out there
+it's hard to see if this
+has a texture
+um we can
+take off the roughness
+and lower it so now we can now you can
+see
+it catches the highlight and okay that's
+got a texture that's good
+see if this
+base here has a texture and yep it's got
+of texture so okay so we've got our
+normal map is doing something so let's
+reconnect our
+roughness here
+so that is half of the normal map
+so now we're going to make a high
+resolution version of this shoe
+and then we'll bake
+that high resolution version
+with this normal map onto
+a low resolution
+version of the shoe which is what we
+have right in front of us
+and then we'll have all of these little
+textures
+i mean the normal map
+textures plus a nicely shaped shoe
+baked onto
+a low poly shoe
+okay
+i hope that made sense so let's go and
+do that
+okay let's go to the modeling workspace
+and
+turn off x-ray and go into object mode
+and then let's create a new collection
+just to make it easier for us to
+navigate and we'll call it
+bake
+let's grab our shoe hit m oops
+grab our shoe go over here and hit m
+go to bake
+and let's
+toggle everything
+off that we're not using
+this way it's just easier for us to stay
+organized
+grab this shoe let's call this
+fancy flat
+half
+round
+so this is what we'll be using in the
+end this will be our low poly version
+i've noticed that when blender bakes
+organic shapes
+it does a better job when there's no
+edge creases or sharp
+in it in the mesh
+versus um hard surface edges or flat
+edges
+it seems to work okay with creases so
+we're going to
+modify this shoe
+so that way we take out all the creases
+except for some of the hard areas
+so let's do that first we'll hit a to
+select all go to edge mode here
+and then
+edge
+and
+clear sharp
+and then go to shift e and
+one shift e is
+i'm not sure what it is shift e is
+edge crease so edge crease and type
+negative one then the whole thing should
+get all
+doughy so you can see everything is very
+smooth now
+but let's go up in and add some creases
+so we have all these um red lines which
+are seams let's turn that off so we
+don't confuse ourselves let's turn off
+our seams
+okay so now you can see
+we'll be able to tell which parts are
+sharp
+so let's
+alt grab that grab that grab that and
+grab that
+and we'll do shift e plus one
+then edge and mark sharp
+and let's grab these two and
+shift e and let's just drag our cursor
+until it's
+almost all the way sharp
+i think that's okay
+then let's grab
+go to face mode and hit l and l
+then go back to edge mode and shift e
+plus one
+this part's pretty straight so we're
+just going to make that sharp
+and then edge and mark
+sharp
+okay
+so that's all good
+i've also noticed that when you have
+open surfaces like
+this strap here you can see it's a
+open surface on the inside
+and it's up against
+the front of this part
+here that that kind of causes problems
+when baking
+it'll just project this whole thing onto
+the surface here and it's so close that
+you can't adjust it to work at least i
+haven't
+so
+i'm going to move some things around
+but i don't want to mess up this mesh
+so we're going to do is use shape keys
+go here click
+basis and then click key 1
+drag this to 1 and now we can modify
+this mesh so let's grab this
+l
+just move it aside grab this l and g
+move it aside because these are open
+also
+and then let's go ahead and grab this
+here and it's
+alt click
+and shift shift shift
+shift
+let's set
+and so this one it's obviously it's
+attached so we can't just move it so
+we're going to just bend it
+so let's drop a 3d cursor with shift
+right click we will navigate around the
+3d cursor with
+this
+here
+and then
+hit r and just rotate that out
+grab this here go select m m
+then right shift right shift
+r again
+drop that again
+select m m
+r and that's
+probably good so like from the side view
+here
+oops from the side view
+it's not overlapping and so this way the
+rays are
+it's it's pretty far away so it's not
+gonna be a problem okay so that's pretty
+good
+oh also
+these surfaces here same thing they're
+open and colliding through you can't see
+it but
+it's just barely overlapping here so
+let's move those
+unfortunately these are attached so if
+you just
+if you go l and l and grab those if you
+hit g it's stuck
+so you can go it's actually partially
+stuck so you can go to mesh and split
+and selection
+then hit g and just move that over here
+and then same thing l l
+l this is all together
+and then mesh
+split selection and hit g
+move that over here
+okay so we're going to bake it like this
+and we're all done we'll just turn it
+off and it goes back so
+it's kind of an easy way to
+deal with these open surfaces
+poking through or being close to other
+surfaces let's go to object mode
+and let's grab this and shift d to
+duplicate we'll call this
+fancy
+flat
+high detail okay let's hide the other
+one and let's go and add some detail to
+this shoe here so
+you can see everything is
+kind of one big blob now you can see it
+easier over here it's just all smooth
+because we took off all of our nice
+sharps so let's go and add back in
+those sharp details but now we can
+control which parts you want softer and
+which parts you want smoother
+so this crease here
+is the outer edge of the leather and so
+i want that to be
+smoother
+so i'll use the fillet command
+so control b
+now when you do the fill make sure
+you're not blowing through your geometry
+um if you have the subd turned on it's
+harder to see
+so make sure you turn it off before you
+do it
+then drag that a bit if you scroll the
+mouse you'll see you can add more cuts
+you don't need that much it's a shoe so
+no one really
+no one really cares about the shoe
+you don't usually see it so you don't
+need that much detail
+even though we're going to throw this
+all away
+you have to rebake it
+but the more cuts you add the harder it
+is to
+do the rest of our bevels so let's not
+go crazy with this
+if possible it works better to have
+the
+bevel run through the whole thing and
+not stop
+and here you can see it's going to be
+harder because we're so close so let's
+ctrl b and just move
+that a bit
+like that
+if you turn on you can see
+it gave us some nice definition there
+you also want to
+put bevels on these guys here this part
+you want to be sharp
+so put a very small bevel
+same thing over here
+and then let's zoom in really close
+because this part here is going to be
+a problem
+so ctrl b and move it just a little bit
+maybe add one more cut to make it look
+very sharp the more you add the more the
+sharper it'll look in this small area
+and then turn that on
+and it's hard to see it's shiny okay
+so that looks pretty sharp
+okay
+uh for these guys here oh let's actually
+let's blow away all these sharp edges so
+for our high poly we don't need the
+sharp edges so hit a
+shift e minus one
+and then edge clear sharp
+okay
+and let's go and grab all of these
+things so these will want oops let's go
+to x-ray
+and grab all the edges
+and then
+control let's turn this off
+so ctrl v and just
+make sure we don't go too far okay
+that's good these parts are flattened so
+you can leave it to fill it very small
+so it's nice and sharp
+okay let's see what else we got here
+so this heel turn that back on so
+obviously this is a problem
+and turn off x-ray
+so let's go and grab
+these loops here
+and let's make them smooth
+i mean a sharp
+with a control b
+and just a bit
+and then we want to bring the sharpness
+back into the front area so let's go and
+do that
+and this is terminating here it might
+mess
+might not be nice let's see what happens
+control b
+might be okay
+it kind of works better when the loop
+runs all the way through an object
+so it's ctrl b
+and drag it up a bit
+i think that's a little that's a little
+bit cleaner
+okay
+okay so that platform there little tiny
+heel is nice and sharp
+let's go and add some
+roundness here this one should be less
+sharp
+so ctrl b let's try and make this bigger
+let's do less cuts
+let me like that
+let's add one here and let's make this
+smaller so it's sharper
+and maybe add more cuts
+looks pretty good
+then let's add one here and make this
+one soft too control b
+let's see this platform here
+i think that looks okay
+so let's leave that
+okay so that's our high detail
+version let's make sure we have no edge
+cuts
+yep x-ray mode and
+no pink edges that's good let's go back
+to our uv editing workspace and let's
+turn on our
+low detail and our high detail
+and then we will
+bake this
+so right now we have this is the normal
+we made in photoshop so that's
+without all these fillets on there so
+let's make a new
+material a new texture shift a
+shift a s i m a for image texture
+put that there
+and then
+let's click new
+and mary jane
+normal
+normal high okay let's call that normal
+high and we'll make this
+4096 so
+i noticed that when you bake normals
+it's not very smooth so i like to bake
+it twice the size and then i res it down
+in photoshop
+so that way it kind of makes it
+kind of like a it's like a poor man's
+anti-aliasing
+so that's why this is very big
+so we'll click ok
+make this non-color
+and then let's
+display it here
+mary jane normal hi
+this way we can see it
+as we as we bake let me let's save this
+very drain hi
+textures
+okay
+so i've done a few tutorials on
+baking
+but let's just go over this again so we
+know how this
+in case you're just doing this shoe
+thing here the shoe tutorial so the way
+baking works
+is you have a high poly
+mesh that we made already we have a low
+poly mesh
+and then you have
+a
+texture here
+in your material
+and then you display it here and so when
+you bake you want to
+physically use your mouse to grab
+your material so it's highlighted
+then you want to grab your high detail
+mesh i find it easier to click it here
+and then shift click your low detail
+mesh
+so make sure your low detail is yellow
+in the outliner
+and then
+go to your render setup
+and make sure it's on cycles
+that's the engine that we use to bake
+then scroll down to bake
+right down there
+make sure this is set to normal
+so when you bake
+you want to play with the extrusion and
+the ray distance settings
+and so that's a real pain and
+i usually have to try it a few times
+until i get it right
+so let's go and do that so i tested
+already so i know what settings to use
+for this shoe but
+let's let's do it once where it looks
+bad and we'll do it once where it looks
+good so you know what bad looks like
+so let's set this to zero and zero and
+let's click bake and see what happens
+okay so you can see all these yellows
+and
+oranges so that's a bad bake
+and i can explain how that happened
+so let's figure out how to fix
+this when you're baking
+you want so the orange here is the high
+poly mesh and the yellow is the low poly
+mesh you want the yellow mesh to be just
+a little bit bigger than the high poly
+mesh and you can do that by using
+extrusion so if you make this bigger
+so now the
+low poly mesh is .05 meters bigger than
+the high poly
+and this way when you're baking
+all the rays will shoot evenly from the
+low poly from the high poly to the low
+poly it shoots outwards
+towards the low poly mesh
+the ray distance controls how far the
+rays will go usually i leave that at
+zero so it's infinity so let's click
+bake and see what happens but when
+you're doing your baking
+you'll probably have to
+play with this setting a few times to
+get it to be the perfect
+perfect setting
+if you go too little you'll get lots of
+yellows if you go too much you'll get um
+you'll get weird little deformations
+will pop up in your
+normal map
+okay so let's check this out here
+okay that looks a lot better this is a
+bit weird there
+but overall this is actually pretty good
+okay so let's um test this and see how
+it looks let's turn off our high detail
+mesh
+turn on our low detail mesh
+and then let's
+go to our
+shape key and turn that off
+and then
+this here is our high detail
+and so let's drag this color to the
+color there
+and now it is applied
+let's um
+let's let's actually
+toggle it so we can see the difference
+so this was
+this is the normal without the shape
+information and this is the normal with
+the shape information you can see it
+just gets a lot more defined
+even though the mesh itself
+is pretty doughy
+then we can go back in and
+add some oops
+we can actually delete this
+and delete that delete that
+so we can actually go back in and
+add some
+let's hide our seams
+we can add some sharps shift e
+plus one so we can further enhance the
+crispiness exactly where we want it
+so this shift e plus one
+i want that to be more defined
+these are good they're all soft
+this one here let's make that sharper
+then this metal stuff you want that
+sharp oh it's already sharp
+and that's sharp
+yeah so i think that's um
+that's our normal map
+it's all baked and we still have the
+normal maps from our photoshop work too
+so all the stitching that bumps out so
+so we are i think we're good to go
+all right so we've got a shoe we can
+also
+grab a shoe
+zoom to it you'll need to mirror this
+so make sure your origin is right at the
+zero point
+and go to
+mirror you can mirror the leg too
+wait i don't see my origin
+let's move our origin to the zero point
+so shift s
+shift s and one to move our 3d cursor to
+the zero point grab our leg
+object set origin
+origin 3d cursor
+and then
+now let's mirror it
+all right
+so
+she's got shoes
+that's it for our shoe tutorial i hope
+your character now has a fabulous pair
+of shoes
+if this was helpful let me know by
+leaving a comment
+or liking or subscribing
+or better yet supporting me on patreon
+if you've been following along with the
+entire complete character tutorial
+series
+this is the end of all the modeling and
+in the next video
+we will cover rigging
+thanks

@@ -3,11 +3,29 @@ import { setLang, applyI18n } from './i18n.js';
 
 const $ = (id) => document.getElementById(id);
 
-/** Wrapper seguro: toca SFX sem quebrar o fluxo se o áudio falhar. */
+/** Wrapper seguro: garante o AudioContext sem quebrar o fluxo se o áudio falhar. */
 const withSfx = (fn) => (ev) => {
-  try { SFX.ensure(); SFX.pop(); } catch { /* áudio é opcional */ }
+  try { SFX.ensure(); } catch { /* áudio é opcional */ }
   fn(ev);
 };
+
+/** Enquanto a capa está aberta, o jogo atrás fica inerte (sem Tab/clique vazando).
+ *  Percorre a árvore sem tocar na capa (nem nos ancestrais dela) e mantém o modal de refs usável. */
+const KEEP_IDS = new Set(['capa', 'refs']);
+function setBackgroundInert(on) {
+  const capa = document.getElementById('capa');
+  const ancestors = new Set();
+  for (let n = capa; n; n = n.parentElement) ancestors.add(n);
+  const walk = (parent) => {
+    for (const el of parent.children) {
+      if (KEEP_IDS.has(el.id)) continue;
+      if (ancestors.has(el)) { walk(el); continue; }
+      if (el.tagName === 'SCRIPT' || el.tagName === 'STYLE') continue;
+      el.toggleAttribute('inert', on);
+    }
+  };
+  walk(document.body);
+}
 
 export function initCapa() {
   const capa = $('capa');
@@ -15,6 +33,13 @@ export function initCapa() {
   const refs = $('refs');
   const pt = $('capa-lang-pt');
   const en = $('capa-lang-en');
+
+  setBackgroundInert(true);
+
+  // Som de clique físico no pressionar (acompanha a animação de afundamento)
+  for (const el of [$('capa-iniciar'), $('capa-refs'), pt, en]) {
+    el.addEventListener('pointerdown', () => { try { SFX.ensure(); SFX.click(); } catch { /* opcional */ } }, { passive: true });
+  }
 
   const markLang = () => {
     const cur = document.documentElement.lang;
@@ -25,6 +50,7 @@ export function initCapa() {
   $('capa-iniciar').addEventListener('click', withSfx(() => {
     capa.hidden = true;
     menu.hidden = false;
+    setBackgroundInert(false);
   }));
 
   $('capa-refs').addEventListener('click', withSfx(() => { refs.hidden = !refs.hidden; }));
@@ -47,11 +73,15 @@ export function initCapa() {
       chip.classList.add('lang-bump');
     });
   }
-  // Insere o keyframe uma única vez
-  if (!document.getElementById('lang-bump-style')) {
-    const s = document.createElement('style');
-    s.id = 'lang-bump-style';
-    s.textContent = '@keyframes lang-pop{0%{transform:scale(1)}40%{transform:scale(.82)}70%{transform:scale(1.08)}100%{transform:scale(1)}} .lang-bump{animation:lang-pop .28s ease}';
-    document.head.appendChild(s);
+
+  // Física da pílula de idioma: afunda junto com o chip pressionado (sem depender de :has())
+  const langPill = document.querySelector('.capa-lang');
+  if (langPill) {
+    for (const chip of [pt, en]) {
+      chip.addEventListener('pointerdown', () => langPill.classList.add('pressing'));
+      for (const ev of ['pointerup', 'pointerleave', 'pointercancel']) {
+        chip.addEventListener(ev, () => langPill.classList.remove('pressing'));
+      }
+    }
   }
 }

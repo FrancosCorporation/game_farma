@@ -1,0 +1,3622 @@
+Kind: captions
+Language: en
+Today, we'll go through all the basics
+Today, we'll go through all the basics
+Today, we'll go through all the basics
+you need to get started in Blender by
+you need to get started in Blender by
+you need to get started in Blender by
+making this super cute and super simple
+making this super cute and super simple
+making this super cute and super simple
+scene. I've also made this exact scene
+scene. I've also made this exact scene
+scene. I've also made this exact scene
+on my i7 laptop from 2017 that has no
+on my i7 laptop from 2017 that has no
+on my i7 laptop from 2017 that has no
+ graphics card. So, with a bit of
+ graphics card. So, with a bit of
+ graphics card. So, with a bit of
+patience, you should be able to follow
+patience, you should be able to follow
+patience, you should be able to follow
+along on most computers, so there's no
+along on most computers, so there's no
+along on most computers, so there's no
+excuses. Okay, so when we open up
+excuses. Okay, so when we open up
+excuses. Okay, so when we open up
+Blender, it should look like 
+Blender, it should look like 
+Blender, it should look like 
+this. I'm also using a normal mouse
+this. I'm also using a normal mouse
+this. I'm also using a normal mouse
+here. So, this is like a Razer Naga Pro,
+here. So, this is like a Razer Naga Pro,
+here. So, this is like a Razer Naga Pro,
+you know. Look, it just has to be a
+you know. Look, it just has to be a
+you know. Look, it just has to be a
+mouse with buttons. The main section in
+mouse with buttons. The main section in
+mouse with buttons. The main section in
+the middle here with this grid is called
+the middle here with this grid is called
+the middle here with this grid is called
+the viewport. So, this will be where you
+the viewport. So, this will be where you
+the viewport. So, this will be where you
+spend most of your time in Blender and
+spend most of your time in Blender and
+spend most of your time in Blender and
+where you create all of your scenes. So,
+where you create all of your scenes. So,
+where you create all of your scenes. So,
+here we can see there's a cube, there's
+here we can see there's a cube, there's
+here we can see there's a cube, there's
+a camera, and there's a light up here.
+a camera, and there's a light up here.
+a camera, and there's a light up here.
+Um, when you click with your left mouse
+Um, when you click with your left mouse
+Um, when you click with your left mouse
+button, um, you can also see that
+button, um, you can also see that
+button, um, you can also see that
+they're getting highlighted up here. Um,
+they're getting highlighted up here. Um,
+they're getting highlighted up here. Um,
+so if you want to see your objects from
+so if you want to see your objects from
+so if you want to see your objects from
+a different angle, you can hold down
+a different angle, you can hold down
+a different angle, you can hold down
+your middle mouse button and that will
+your middle mouse button and that will
+your middle mouse button and that will
+let you rotate around um, and look at it
+let you rotate around um, and look at it
+let you rotate around um, and look at it
+from all different angles. Or if you
+from all different angles. Or if you
+from all different angles. Or if you
+don't have the middle mouse button, you
+don't have the middle mouse button, you
+don't have the middle mouse button, you
+can also click up here um, and hold down
+can also click up here um, and hold down
+can also click up here um, and hold down
+the left mouse button and that will also
+the left mouse button and that will also
+the left mouse button and that will also
+let you see your scene from a different
+let you see your scene from a different
+let you see your scene from a different
+angle. Um, you can also use your scroll
+angle. Um, you can also use your scroll
+angle. Um, you can also use your scroll
+wheel to scroll in and out. So those are
+wheel to scroll in and out. So those are
+wheel to scroll in and out. So those are
+really the two ways that I will navigate
+really the two ways that I will navigate
+really the two ways that I will navigate
+around my viewport a lot. I'll also hold
+around my viewport a lot. I'll also hold
+around my viewport a lot. I'll also hold
+down the left shift button and the
+down the left shift button and the
+down the left shift button and the
+middle mouse button at the same time.
+middle mouse button at the same time.
+middle mouse button at the same time.
+And then that will let me pan um around
+And then that will let me pan um around
+And then that will let me pan um around
+the scene like that. So between
+the scene like that. So between
+the scene like that. So between
+scrolling, so in and out, and also
+scrolling, so in and out, and also
+scrolling, so in and out, and also
+panning left and right um with my shift
+panning left and right um with my shift
+panning left and right um with my shift
+being held down, my middle mouse button,
+being held down, my middle mouse button,
+being held down, my middle mouse button,
+and I'm just moving my mouse left and
+and I'm just moving my mouse left and
+and I'm just moving my mouse left and
+right, and also zooming in with that
+right, and also zooming in with that
+right, and also zooming in with that
+scroll wheel. Um but that is how we
+scroll wheel. Um but that is how we
+scroll wheel. Um but that is how we
+navigate through our scene. The other
+navigate through our scene. The other
+navigate through our scene. The other
+panel that I think is useful to also be
+panel that I think is useful to also be
+panel that I think is useful to also be
+aware of is the properties panel um over
+aware of is the properties panel um over
+aware of is the properties panel um over
+here, which pretty much lets us change
+here, which pretty much lets us change
+here, which pretty much lets us change
+the properties of our objects and things
+the properties of our objects and things
+the properties of our objects and things
+happening in our scene. We'll only
+happening in our scene. We'll only
+happening in our scene. We'll only
+really be using a couple of these, which
+really be using a couple of these, which
+really be using a couple of these, which
+I will explain as we get to them. You
+I will explain as we get to them. You
+I will explain as we get to them. You
+definitely don't need to use all of
+definitely don't need to use all of
+definitely don't need to use all of
+these, especially when you're a
+these, especially when you're a
+these, especially when you're a
+beginner. The other important thing that
+beginner. The other important thing that
+beginner. The other important thing that
+I will let you know right now is that
+I will let you know right now is that
+I will let you know right now is that
+you need to know how to save. So, if
+you need to know how to save. So, if
+you need to know how to save. So, if
+you've used any like programs before,
+you've used any like programs before,
+you've used any like programs before,
+you probably know how to save. Um you
+you probably know how to save. Um you
+you probably know how to save. Um you
+just go off into file and you can click
+just go off into file and you can click
+just go off into file and you can click
+save as. Um or you can click save here.
+save as. Um or you can click save here.
+save as. Um or you can click save here.
+So Ctrl S. Um so let's do that right now
+So Ctrl S. Um so let's do that right now
+So Ctrl S. Um so let's do that right now
+so that we have um our project is ready
+so that we have um our project is ready
+so that we have um our project is ready
+to go. Okay, let's save this. We're
+to go. Okay, let's save this. We're
+to go. Okay, let's save this. We're
+going to call it tree scene with all
+going to call it tree scene with all
+going to call it tree scene with all
+capitals and we're just going to save as
+capitals and we're just going to save as
+capitals and we're just going to save as
+there. And then you can press Ctrl S and
+there. And then you can press Ctrl S and
+there. And then you can press Ctrl S and
+that will save it. So we want to look
+that will save it. So we want to look
+that will save it. So we want to look
+and see what shapes we need in our
+and see what shapes we need in our
+and see what shapes we need in our
+scene. So let's start with the grass and
+scene. So let's start with the grass and
+scene. So let's start with the grass and
+the dirt here. Um, so these are just
+the dirt here. Um, so these are just
+the dirt here. Um, so these are just
+squished cubes, which makes life really
+squished cubes, which makes life really
+squished cubes, which makes life really
+easy for us. So, let's go back into our
+easy for us. So, let's go back into our
+easy for us. So, let's go back into our
+scene. Let's delete this. Um, you've
+scene. Let's delete this. Um, you've
+scene. Let's delete this. Um, you've
+always got to delete the um default
+always got to delete the um default
+always got to delete the um default
+cube. It's the Blender right of passage.
+cube. It's the Blender right of passage.
+cube. It's the Blender right of passage.
+Um, and what we need to do now is add in
+Um, and what we need to do now is add in
+Um, and what we need to do now is add in
+a cube. So, you might have had a look up
+a cube. So, you might have had a look up
+a cube. So, you might have had a look up
+here already in our viewport. Um, we
+here already in our viewport. Um, we
+here already in our viewport. Um, we
+have add up here. So, we've got view,
+have add up here. So, we've got view,
+have add up here. So, we've got view,
+select, add an object. We want to add
+select, add an object. We want to add
+select, add an object. We want to add
+objects into our scene. So, we need to
+objects into our scene. So, we need to
+objects into our scene. So, we need to
+get we're going to need to click the add
+get we're going to need to click the add
+get we're going to need to click the add
+button. So when we click add um we get
+button. So when we click add um we get
+button. So when we click add um we get
+mesh, curve, surface, you know, a whole
+mesh, curve, surface, you know, a whole
+mesh, curve, surface, you know, a whole
+bunch of these that we don't really need
+bunch of these that we don't really need
+bunch of these that we don't really need
+to worry about, but right now we do need
+to worry about, but right now we do need
+to worry about, but right now we do need
+to think about mesh. Um and these are
+to think about mesh. Um and these are
+to think about mesh. Um and these are
+all the objects that we have access to
+all the objects that we have access to
+all the objects that we have access to
+um at kind of a beginner level to create
+um at kind of a beginner level to create
+um at kind of a beginner level to create
+things in our scene. So we know that we
+things in our scene. So we know that we
+things in our scene. So we know that we
+need two squished cubes to make our like
+need two squished cubes to make our like
+need two squished cubes to make our like
+grass plane sort of objects. So let's
+grass plane sort of objects. So let's
+grass plane sort of objects. So let's
+grab a cube and let's pop him in here.
+grab a cube and let's pop him in here.
+grab a cube and let's pop him in here.
+Beautiful. Okay, we've got another cube.
+Beautiful. Okay, we've got another cube.
+Beautiful. Okay, we've got another cube.
+You know, everything's looking great,
+You know, everything's looking great,
+You know, everything's looking great,
+but now we need to squish it down to the
+but now we need to squish it down to the
+but now we need to squish it down to the
+right side. So, we need to edit our
+right side. So, we need to edit our
+right side. So, we need to edit our
+cube. So, left click on your cube and
+cube. So, left click on your cube and
+cube. So, left click on your cube and
+we're going to go up here to where it
+we're going to go up here to where it
+we're going to go up here to where it
+says object mode and we're going to
+says object mode and we're going to
+says object mode and we're going to
+click that. Now, we get a drop down
+click that. Now, we get a drop down
+click that. Now, we get a drop down
+here, but don't worry about it and just
+here, but don't worry about it and just
+here, but don't worry about it and just
+click edit mode here. So, now we can
+click edit mode here. So, now we can
+click edit mode here. So, now we can
+edit our cube. So, now we have
+edit our cube. So, now we have
+edit our cube. So, now we have
+everything selected. Everything is
+everything selected. Everything is
+everything selected. Everything is
+orange, which means that our cube has
+orange, which means that our cube has
+orange, which means that our cube has
+everything selected that can possibly be
+everything selected that can possibly be
+everything selected that can possibly be
+selected. And if we look up here, we
+selected. And if we look up here, we
+selected. And if we look up here, we
+have three options next to edit mode. We
+have three options next to edit mode. We
+have three options next to edit mode. We
+have vertex select mode, we have edge
+have vertex select mode, we have edge
+have vertex select mode, we have edge
+select mode, and we have face select
+select mode, and we have face select
+select mode, and we have face select
+mode. Vertexes, we're just going to
+mode. Vertexes, we're just going to
+mode. Vertexes, we're just going to
+click away here. So now it's gray, so
+click away here. So now it's gray, so
+click away here. So now it's gray, so
+not nothing is selected. Now we can see
+not nothing is selected. Now we can see
+not nothing is selected. Now we can see
+there's nothing orange, which means
+there's nothing orange, which means
+there's nothing orange, which means
+nothing is selected. So if we're in our
+nothing is selected. So if we're in our
+nothing is selected. So if we're in our
+vertex mode here, you can see we've got
+vertex mode here, you can see we've got
+vertex mode here, you can see we've got
+our little dots. So these are our
+our little dots. So these are our
+our little dots. So these are our
+vertexes. So that's where our edges
+vertexes. So that's where our edges
+vertexes. So that's where our edges
+meet. So we can move these around if we
+meet. So we can move these around if we
+meet. So we can move these around if we
+want, which I will show in a second. And
+want, which I will show in a second. And
+want, which I will show in a second. And
+we've also got our edges. So that's
+we've also got our edges. So that's
+we've also got our edges. So that's
+pretty straightforward. Now we can
+pretty straightforward. Now we can
+pretty straightforward. Now we can
+select our edges instead of those little
+select our edges instead of those little
+select our edges instead of those little
+points. And then we've also got our face
+points. And then we've also got our face
+points. And then we've also got our face
+select mode, which as it sounds, you get
+select mode, which as it sounds, you get
+select mode, which as it sounds, you get
+to select entire faces, which is what
+to select entire faces, which is what
+to select entire faces, which is what
+we're going to use. So we want to move
+we're going to use. So we want to move
+we're going to use. So we want to move
+this face downwards.
+this face downwards.
+this face downwards.
+So let's click on this face up here. So
+So let's click on this face up here. So
+So let's click on this face up here. So
+we just have that top face selected. And
+we just have that top face selected. And
+we just have that top face selected. And
+now you might have had a little look as
+now you might have had a little look as
+now you might have had a little look as
+well at all of these tools in the
+well at all of these tools in the
+well at all of these tools in the
+toolbar on the left. So, when we went
+toolbar on the left. So, when we went
+toolbar on the left. So, when we went
+into edit mode, we got a whole bunch
+into edit mode, we got a whole bunch
+into edit mode, we got a whole bunch
+more tools. Again, we don't need to
+more tools. Again, we don't need to
+more tools. Again, we don't need to
+worry about those right now, but we do
+worry about those right now, but we do
+worry about those right now, but we do
+want to use these three tools here. So,
+want to use these three tools here. So,
+want to use these three tools here. So,
+these are really useful, and these also
+these are really useful, and these also
+these are really useful, and these also
+stay when you're in object mode because
+stay when you're in object mode because
+stay when you're in object mode because
+they're the most basic tools you can
+they're the most basic tools you can
+they're the most basic tools you can
+use. So, we have move, rotate, scale,
+use. So, we have move, rotate, scale,
+use. So, we have move, rotate, scale,
+and then transform. So, we want to move
+and then transform. So, we want to move
+and then transform. So, we want to move
+that top face down to squish our cube.
+that top face down to squish our cube.
+that top face down to squish our cube.
+So, let's click on our move tool here.
+So, let's click on our move tool here.
+So, let's click on our move tool here.
+And now we've got this like little
+And now we've got this like little
+And now we've got this like little
+gimbal here where we've got our Z axis,
+gimbal here where we've got our Z axis,
+gimbal here where we've got our Z axis,
+which is the blue, our X-axis, and our
+which is the blue, our X-axis, and our
+which is the blue, our X-axis, and our
+Yaxis. So, let's click with our left
+Yaxis. So, let's click with our left
+Yaxis. So, let's click with our left
+mouse button on this blue one. And now
+mouse button on this blue one. And now
+mouse button on this blue one. And now
+we can move it up and down. So, you can
+we can move it up and down. So, you can
+we can move it up and down. So, you can
+make a really tall cube here, or you can
+make a really tall cube here, or you can
+make a really tall cube here, or you can
+make a small one. So, we want to squish
+make a small one. So, we want to squish
+make a small one. So, we want to squish
+it down cuz that's our plan. So, now
+it down cuz that's our plan. So, now
+it down cuz that's our plan. So, now
+we're just going to move that down and
+we're just going to move that down and
+we're just going to move that down and
+then let go when you're happy with it.
+then let go when you're happy with it.
+then let go when you're happy with it.
+And then there we go. Beautiful. It's
+And then there we go. Beautiful. It's
+And then there we go. Beautiful. It's
+looking great. Now, we can head back
+looking great. Now, we can head back
+looking great. Now, we can head back
+into object mode. So, we're going to
+into object mode. So, we're going to
+into object mode. So, we're going to
+click up here again, and we're going to
+click up here again, and we're going to
+click up here again, and we're going to
+go to object mode. Now, the only problem
+go to object mode. Now, the only problem
+go to object mode. Now, the only problem
+here is that if we go back over to our
+here is that if we go back over to our
+here is that if we go back over to our
+move when we're in object mode. Now, our
+move when we're in object mode. Now, our
+move when we're in object mode. Now, our
+object is getting moved from this origin
+object is getting moved from this origin
+object is getting moved from this origin
+point. So, this little
+point. So, this little
+point. So, this little
+this little orange bit is called our
+this little orange bit is called our
+this little orange bit is called our
+origin point. So, that's going to be
+origin point. So, that's going to be
+origin point. So, that's going to be
+where our object um moves from when it's
+where our object um moves from when it's
+where our object um moves from when it's
+in this default setting. So, we need to
+in this default setting. So, we need to
+in this default setting. So, we need to
+move that back into the center of our
+move that back into the center of our
+move that back into the center of our
+object. just so you know, we don't have
+object. just so you know, we don't have
+object. just so you know, we don't have
+to kind of like struggle with this like
+to kind of like struggle with this like
+to kind of like struggle with this like
+weird gap. So, we're just going to right
+weird gap. So, we're just going to right
+weird gap. So, we're just going to right
+click on our object while it's selected.
+click on our object while it's selected.
+click on our object while it's selected.
+And we're just going to go down to set
+And we're just going to go down to set
+And we're just going to go down to set
+origin. And then we're going to go to I
+origin. And then we're going to go to I
+origin. And then we're going to go to I
+always forget geometry to origin or
+always forget geometry to origin or
+always forget geometry to origin or
+origin to geometry, origin to geometry
+origin to geometry, origin to geometry
+origin to geometry, origin to geometry
+because we want our origin to move to
+because we want our origin to move to
+because we want our origin to move to
+our geometry. And now that's back in the
+our geometry. And now that's back in the
+our geometry. And now that's back in the
+middle, which just, you know, makes life
+middle, which just, you know, makes life
+middle, which just, you know, makes life
+easy. So, we'll just pop it back um in
+easy. So, we'll just pop it back um in
+easy. So, we'll just pop it back um in
+the center of our scene. Okay, [snorts]
+the center of our scene. Okay, [snorts]
+the center of our scene. Okay, [snorts]
+beautiful. So now we've got this one
+beautiful. So now we've got this one
+beautiful. So now we've got this one
+beautiful squished cube ready to go. But
+beautiful squished cube ready to go. But
+beautiful squished cube ready to go. But
+now we don't just want this like blocky
+now we don't just want this like blocky
+now we don't just want this like blocky
+looking thing right in the middle of our
+looking thing right in the middle of our
+looking thing right in the middle of our
+scene. We want it to look a little bit
+scene. We want it to look a little bit
+scene. We want it to look a little bit
+more cute. So we're going to use a
+more cute. So we're going to use a
+more cute. So we're going to use a
+modifier. So again, with our object
+modifier. So again, with our object
+modifier. So again, with our object
+selected, we're going to head over to
+selected, we're going to head over to
+selected, we're going to head over to
+our properties panel and our modifiers
+our properties panel and our modifiers
+our properties panel and our modifiers
+tab is this one right here. So it's our
+tab is this one right here. So it's our
+tab is this one right here. So it's our
+little spanner. So we're going to click
+little spanner. So we're going to click
+little spanner. So we're going to click
+on that and that allows us to modify our
+on that and that allows us to modify our
+on that and that allows us to modify our
+object using a whole bunch of different
+object using a whole bunch of different
+object using a whole bunch of different
+modifiers. We've got our object selected
+modifiers. We've got our object selected
+modifiers. We've got our object selected
+here. Then we're going to go to our
+here. Then we're going to go to our
+here. Then we're going to go to our
+spanner in our properties tab and we're
+spanner in our properties tab and we're
+spanner in our properties tab and we're
+going to click add modifier. Then we're
+going to click add modifier. Then we're
+going to click add modifier. Then we're
+going to click search here and we're
+going to click search here and we're
+going to click search here and we're
+going to search in bevel cuz it's
+going to search in bevel cuz it's
+going to search in bevel cuz it's
+probably not going to be at the top for
+probably not going to be at the top for
+probably not going to be at the top for
+you there. And then bevel will come up.
+you there. And then bevel will come up.
+you there. And then bevel will come up.
+Beautiful. Okay. This isn't really what
+Beautiful. Okay. This isn't really what
+Beautiful. Okay. This isn't really what
+we want. Um but we have our amount that
+we want. Um but we have our amount that
+we want. Um but we have our amount that
+it's being beveled. So we can change
+it's being beveled. So we can change
+it's being beveled. So we can change
+that. And you can see um how those edges
+that. And you can see um how those edges
+that. And you can see um how those edges
+kind of change. And then the segments.
+kind of change. And then the segments.
+kind of change. And then the segments.
+So, the more segments um the smoother
+So, the more segments um the smoother
+So, the more segments um the smoother
+that it will look. So, I'm probably
+that it will look. So, I'm probably
+that it will look. So, I'm probably
+going to sit it at about um five. I
+going to sit it at about um five. I
+going to sit it at about um five. I
+think that looks kind of fine. And this
+think that looks kind of fine. And this
+think that looks kind of fine. And this
+is also where you can start taking um
+is also where you can start taking um
+is also where you can start taking um
+creative liberties and kind of um come
+creative liberties and kind of um come
+creative liberties and kind of um come
+back to it and make it look as you want.
+back to it and make it look as you want.
+back to it and make it look as you want.
+Oops. Let me explain what I just did
+Oops. Let me explain what I just did
+Oops. Let me explain what I just did
+there. Um so, we can see that we still
+there. Um so, we can see that we still
+there. Um so, we can see that we still
+have our funky edges and it's like, ooh,
+have our funky edges and it's like, ooh,
+have our funky edges and it's like, ooh,
+that's not that cute. Um, but what you
+that's not that cute. Um, but what you
+that's not that cute. Um, but what you
+can do is you can click on your object
+can do is you can click on your object
+can do is you can click on your object
+with a left click and you can right
+with a left click and you can right
+with a left click and you can right
+click and then you can go shade smooth
+click and then you can go shade smooth
+click and then you can go shade smooth
+and then those edges kind of disappear
+and then those edges kind of disappear
+and then those edges kind of disappear
+which is really useful once you have um
+which is really useful once you have um
+which is really useful once you have um
+extra geometry added in by using
+extra geometry added in by using
+extra geometry added in by using
+something like the bevel or the
+something like the bevel or the
+something like the bevel or the
+subdivision surface modify if that's
+subdivision surface modify if that's
+subdivision surface modify if that's
+something you're familiar with. All
+something you're familiar with. All
+something you're familiar with. All
+righty. Okay, so we've got one done.
+righty. Okay, so we've got one done.
+righty. Okay, so we've got one done.
+Beautiful. But we need two. So what
+Beautiful. But we need two. So what
+Beautiful. But we need two. So what
+we're going to do here is we're going to
+we're going to do here is we're going to
+we're going to do here is we're going to
+duplicate this to make another one so we
+duplicate this to make another one so we
+duplicate this to make another one so we
+don't have to go through that same
+don't have to go through that same
+don't have to go through that same
+process again. Um, duplicating things is
+process again. Um, duplicating things is
+process again. Um, duplicating things is
+a lifesaver in Blender. I duplicate
+a lifesaver in Blender. I duplicate
+a lifesaver in Blender. I duplicate
+things like nothing else because it
+things like nothing else because it
+things like nothing else because it
+saves so much time. We're going to
+saves so much time. We're going to
+saves so much time. We're going to
+leftclick on our object to select it.
+leftclick on our object to select it.
+leftclick on our object to select it.
+We're going to rightclick here and then
+We're going to rightclick here and then
+We're going to rightclick here and then
+we're going to go duplicate objects. So,
+we're going to go duplicate objects. So,
+we're going to go duplicate objects. So,
+it also says here the um shortcut is
+it also says here the um shortcut is
+it also says here the um shortcut is
+shift D. And then once we click that,
+shift D. And then once we click that,
+shift D. And then once we click that,
+wo, it's moving around like this. And
+wo, it's moving around like this. And
+wo, it's moving around like this. And
+we've got it. And we can click and it
+we've got it. And we can click and it
+we've got it. And we can click and it
+will stay there. Um, but that's kind of
+will stay there. Um, but that's kind of
+will stay there. Um, but that's kind of
+an annoying spot for it to be. So, I'm
+an annoying spot for it to be. So, I'm
+an annoying spot for it to be. So, I'm
+going to control Z that. Oh, why is my
+going to control Z that. Oh, why is my
+going to control Z that. Oh, why is my
+key viz not working? Okay, so what we're
+key viz not working? Okay, so what we're
+key viz not working? Okay, so what we're
+going to do instead is we're going to
+going to do instead is we're going to
+going to do instead is we're going to
+duplicate it, but we're going to
+duplicate it, but we're going to
+duplicate it, but we're going to
+rightclick and then that is still
+rightclick and then that is still
+rightclick and then that is still
+duplicated. We can see that we've got
+duplicated. We can see that we've got
+duplicated. We can see that we've got
+two cubes in our scene, but they're just
+two cubes in our scene, but they're just
+two cubes in our scene, but they're just
+on top of each other. So, if we click
+on top of each other. So, if we click
+on top of each other. So, if we click
+again, we select the top one and then
+again, we select the top one and then
+again, we select the top one and then
+you can just move it up. So, we also
+you can just move it up. So, we also
+you can just move it up. So, we also
+have this move tool, I think, is
+have this move tool, I think, is
+have this move tool, I think, is
+selected by default, but now we've got
+selected by default, but now we've got
+selected by default, but now we've got
+two, which is great, beautiful, amazing.
+two, which is great, beautiful, amazing.
+two, which is great, beautiful, amazing.
+I love it. But I kind of want my top one
+I love it. But I kind of want my top one
+I love it. But I kind of want my top one
+to be a little bit skinnier than the
+to be a little bit skinnier than the
+to be a little bit skinnier than the
+bottom one cuz I just think that will
+bottom one cuz I just think that will
+bottom one cuz I just think that will
+look cuter. It's just a creative choice.
+look cuter. It's just a creative choice.
+look cuter. It's just a creative choice.
+So, we've got two options. We can either
+So, we've got two options. We can either
+So, we've got two options. We can either
+stay in object mode and we can go scale.
+stay in object mode and we can go scale.
+stay in object mode and we can go scale.
+And that brings up this gizmo with these
+And that brings up this gizmo with these
+And that brings up this gizmo with these
+um
+um
+um
+uh like cubes at the end instead. And
+uh like cubes at the end instead. And
+uh like cubes at the end instead. And
+you can just use these to scale it down.
+you can just use these to scale it down.
+you can just use these to scale it down.
+Um so that is a really good option. But
+Um so that is a really good option. But
+Um so that is a really good option. But
+then if we do it that way, you'll notice
+then if we do it that way, you'll notice
+then if we do it that way, you'll notice
+that the way it's beveing now isn't even
+that the way it's beveing now isn't even
+that the way it's beveing now isn't even
+anymore. And that's because we haven't
+anymore. And that's because we haven't
+anymore. And that's because we haven't
+applied our scale. So this is also a
+applied our scale. So this is also a
+applied our scale. So this is also a
+really good troubleshooting um method to
+really good troubleshooting um method to
+really good troubleshooting um method to
+be aware of cuz when I was starting, I
+be aware of cuz when I was starting, I
+be aware of cuz when I was starting, I
+would change my objects using this
+would change my objects using this
+would change my objects using this
+method all the time and get really
+method all the time and get really
+method all the time and get really
+confused why my modifiers weren't
+confused why my modifiers weren't
+confused why my modifiers weren't
+applying evenly. So if you do this and
+applying evenly. So if you do this and
+applying evenly. So if you do this and
+it looks funky, you need to go ctrl A
+it looks funky, you need to go ctrl A
+it looks funky, you need to go ctrl A
+and that brings up the apply menu and
+and that brings up the apply menu and
+and that brings up the apply menu and
+you need to apply scale. And you'll see
+you need to apply scale. And you'll see
+you need to apply scale. And you'll see
+now that's looking even. Another basic
+now that's looking even. Another basic
+now that's looking even. Another basic
+tool to be aware of at this point is
+tool to be aware of at this point is
+tool to be aware of at this point is
+this guy right here. So we know what
+this guy right here. So we know what
+this guy right here. So we know what
+this orange dot is. So it's our origin
+this orange dot is. So it's our origin
+this orange dot is. So it's our origin
+point, which we have different origin
+point, which we have different origin
+point, which we have different origin
+points for each object. You can see that
+points for each object. You can see that
+points for each object. You can see that
+origin point moving each time I select
+origin point moving each time I select
+origin point moving each time I select
+different objects. So, it's really good
+different objects. So, it's really good
+different objects. So, it's really good
+to be aware of where your origin point
+to be aware of where your origin point
+to be aware of where your origin point
+is just cuz otherwise things can get a
+is just cuz otherwise things can get a
+is just cuz otherwise things can get a
+little bit confusing. Um, and I don't
+little bit confusing. Um, and I don't
+little bit confusing. Um, and I don't
+like the gap and I always like my origin
+like the gap and I always like my origin
+like the gap and I always like my origin
+to be in the center of my object. And
+to be in the center of my object. And
+to be in the center of my object. And
+you can again move it by clicking um on
+you can again move it by clicking um on
+you can again move it by clicking um on
+your object and going set origin and
+your object and going set origin and
+your object and going set origin and
+then geometry to origin, origin to
+then geometry to origin, origin to
+then geometry to origin, origin to
+geometry. But you see here there's
+geometry. But you see here there's
+geometry. But you see here there's
+origin to 3D cursor. Now, what's that?
+origin to 3D cursor. Now, what's that?
+origin to 3D cursor. Now, what's that?
+So, our 3D cursor is this guy here. And
+So, our 3D cursor is this guy here. And
+So, our 3D cursor is this guy here. And
+it is so useful. I feel like people
+it is so useful. I feel like people
+it is so useful. I feel like people
+don't talk about how useful the 3D
+don't talk about how useful the 3D
+don't talk about how useful the 3D
+cursor is. So, in this beginner
+cursor is. So, in this beginner
+cursor is. So, in this beginner
+tutorial, we are definitely going to be
+tutorial, we are definitely going to be
+tutorial, we are definitely going to be
+using the 3D cursor. So, you can see
+using the 3D cursor. So, you can see
+using the 3D cursor. So, you can see
+kind of like stays in the same place no
+kind of like stays in the same place no
+kind of like stays in the same place no
+matter where we are. We can see it
+matter where we are. We can see it
+matter where we are. We can see it
+through different objects. But why it's
+through different objects. But why it's
+through different objects. But why it's
+so useful is because it is where
+so useful is because it is where
+so useful is because it is where
+[snorts] your 3D cursor is where all
+[snorts] your 3D cursor is where all
+[snorts] your 3D cursor is where all
+your objects will spawn in to your
+your objects will spawn in to your
+your objects will spawn in to your
+scene. And you can move it around by
+scene. And you can move it around by
+scene. And you can move it around by
+shift and right clicking. So, I'm moving
+shift and right clicking. So, I'm moving
+shift and right clicking. So, I'm moving
+it around like this. And that's moving
+it around like this. And that's moving
+it around like this. And that's moving
+to the top of the plane um that I'm
+to the top of the plane um that I'm
+to the top of the plane um that I'm
+putting it on. So that's not actually at
+putting it on. So that's not actually at
+putting it on. So that's not actually at
+that origin point cuz that's at the
+that origin point cuz that's at the
+that origin point cuz that's at the
+middle. This is at the top um of this
+middle. This is at the top um of this
+middle. This is at the top um of this
+cube here. But it just makes it really
+cube here. But it just makes it really
+cube here. But it just makes it really
+it's really great because now what we
+it's really great because now what we
+it's really great because now what we
+want to do is we want to look at our
+want to do is we want to look at our
+want to do is we want to look at our
+reference render again and okay. So we
+reference render again and okay. So we
+reference render again and okay. So we
+have this like trunky looking thing. So
+have this like trunky looking thing. So
+have this like trunky looking thing. So
+a trunk is like a cylinder. So, that's
+a trunk is like a cylinder. So, that's
+a trunk is like a cylinder. So, that's
+really easy because there's a cylinder
+really easy because there's a cylinder
+really easy because there's a cylinder
+in our add mesh dropdown. So, we're
+in our add mesh dropdown. So, we're
+in our add mesh dropdown. So, we're
+going to move our 3D cursor to about the
+going to move our 3D cursor to about the
+going to move our 3D cursor to about the
+middle. So, all I'm doing is shift and
+middle. So, all I'm doing is shift and
+middle. So, all I'm doing is shift and
+right clicking there. And that's moved
+right clicking there. And that's moved
+right clicking there. And that's moved
+that into the middle of our grass and
+that into the middle of our grass and
+that into the middle of our grass and
+we're going to go to add mesh and we're
+we're going to go to add mesh and we're
+we're going to go to add mesh and we're
+going to go to cylinder. Bang. We've got
+going to go to cylinder. Bang. We've got
+going to go to cylinder. Bang. We've got
+a cylinder and it's spawned right of
+a cylinder and it's spawned right of
+a cylinder and it's spawned right of
+where my 3D cursor is. Great. So, that
+where my 3D cursor is. Great. So, that
+where my 3D cursor is. Great. So, that
+origin point is lined up. The origin
+origin point is lined up. The origin
+origin point is lined up. The origin
+point of the cylinder is lined up to my
+point of the cylinder is lined up to my
+point of the cylinder is lined up to my
+3D cursor now, which is super useful,
+3D cursor now, which is super useful,
+3D cursor now, which is super useful,
+you know, makes life really easy. Now,
+you know, makes life really easy. Now,
+you know, makes life really easy. Now,
+we're going to scale this down. So,
+we're going to scale this down. So,
+we're going to scale this down. So,
+let's go and click. So, what I'm doing
+let's go and click. So, what I'm doing
+let's go and click. So, what I'm doing
+here is I've clicked on my cylinder.
+here is I've clicked on my cylinder.
+here is I've clicked on my cylinder.
+I've got my scale tool selected, and
+I've got my scale tool selected, and
+I've got my scale tool selected, and
+then we're clicking on this um
+then we're clicking on this um
+then we're clicking on this um
+white circle here at the edge to scale
+white circle here at the edge to scale
+white circle here at the edge to scale
+it down evenly. Because if you've got
+it down evenly. Because if you've got
+it down evenly. Because if you've got
+one of these, it's going to only scale
+one of these, it's going to only scale
+one of these, it's going to only scale
+it on the axis or you can do two axis
+it on the axis or you can do two axis
+it on the axis or you can do two axis
+here, but we want all three axis at the
+here, but we want all three axis at the
+here, but we want all three axis at the
+same time. You can also use S if that's
+same time. You can also use S if that's
+same time. You can also use S if that's
+easier for you, but I don't want to
+easier for you, but I don't want to
+easier for you, but I don't want to
+overwhelm you with um all these
+overwhelm you with um all these
+overwhelm you with um all these
+shortcuts, but if you see me
+shortcuts, but if you see me
+shortcuts, but if you see me
+accidentally doing that, that's what's
+accidentally doing that, that's what's
+accidentally doing that, that's what's
+going on. So, we've scaled him down, and
+going on. So, we've scaled him down, and
+going on. So, we've scaled him down, and
+now we're going to go to our move tool
+now we're going to go to our move tool
+now we're going to go to our move tool
+and move him up so that he's not kind of
+and move him up so that he's not kind of
+and move him up so that he's not kind of
+like sitting
+like sitting
+like sitting
+um underneath our planes here. but it's
+um underneath our planes here. but it's
+um underneath our planes here. but it's
+not really the right height. So, we're
+not really the right height. So, we're
+not really the right height. So, we're
+going to go into edit mode again. And
+going to go into edit mode again. And
+going to go into edit mode again. And
+we're still in face mode. And we're
+we're still in face mode. And we're
+we're still in face mode. And we're
+going to select that top face and move
+going to select that top face and move
+going to select that top face and move
+it up. And then we're also going to
+it up. And then we're also going to
+it up. And then we're also going to
+scale down this top face here because I
+scale down this top face here because I
+scale down this top face here because I
+want it to have like a cute kind of like
+want it to have like a cute kind of like
+want it to have like a cute kind of like
+it it just looks nicer. All right. It
+it it just looks nicer. All right. It
+it it just looks nicer. All right. It
+just looks nicer. Just going to use S to
+just looks nicer. Just going to use S to
+just looks nicer. Just going to use S to
+scale that down a little bit faster. And
+scale that down a little bit faster. And
+scale that down a little bit faster. And
+that is looking pretty good, I'd say.
+that is looking pretty good, I'd say.
+that is looking pretty good, I'd say.
+You know, we can edit things as we go.
+You know, we can edit things as we go.
+You know, we can edit things as we go.
+So, we're going to go back into object
+So, we're going to go back into object
+So, we're going to go back into object
+mode now cuz we're kind of done here.
+mode now cuz we're kind of done here.
+mode now cuz we're kind of done here.
+Um, we're going to actually click on
+Um, we're going to actually click on
+Um, we're going to actually click on
+this and right click and go shade smooth
+this and right click and go shade smooth
+this and right click and go shade smooth
+as well. It looks a bit funny in this
+as well. It looks a bit funny in this
+as well. It looks a bit funny in this
+mode because we don't really have um
+mode because we don't really have um
+mode because we don't really have um
+many faces going on, so it just makes it
+many faces going on, so it just makes it
+many faces going on, so it just makes it
+look a bit strange, but it will look
+look a bit strange, but it will look
+look a bit strange, but it will look
+fine in our rendered view. But yeah, for
+fine in our rendered view. But yeah, for
+fine in our rendered view. But yeah, for
+more advanced users, adding something
+more advanced users, adding something
+more advanced users, adding something
+like a subdivision surface um would be
+like a subdivision surface um would be
+like a subdivision surface um would be
+useful and insetting your faces. Um, but
+useful and insetting your faces. Um, but
+useful and insetting your faces. Um, but
+if this is your very first time in
+if this is your very first time in
+if this is your very first time in
+Blender, don't worry about that. Um, you
+Blender, don't worry about that. Um, you
+Blender, don't worry about that. Um, you
+don't have to worry. So, I'm just shift
+don't have to worry. So, I'm just shift
+don't have to worry. So, I'm just shift
+and right clicking to add our 3D cursor
+and right clicking to add our 3D cursor
+and right clicking to add our 3D cursor
+at the top here because now we want to
+at the top here because now we want to
+at the top here because now we want to
+add in our blobs that are going to be
+add in our blobs that are going to be
+add in our blobs that are going to be
+like our tree leaves, I guess. Um, so
+like our tree leaves, I guess. Um, so
+like our tree leaves, I guess. Um, so
+it's just nice to move that up so we
+it's just nice to move that up so we
+it's just nice to move that up so we
+don't have to do unnecessary work. Uh,
+don't have to do unnecessary work. Uh,
+don't have to do unnecessary work. Uh,
+we're going to go up to add again, mesh,
+we're going to go up to add again, mesh,
+we're going to go up to add again, mesh,
+and we're going to go UV sphere because
+and we're going to go UV sphere because
+and we're going to go UV sphere because
+we want big circles. I'm going to use S
+we want big circles. I'm going to use S
+we want big circles. I'm going to use S
+to scale them down. And then I'm just
+to scale them down. And then I'm just
+to scale them down. And then I'm just
+going to move them super super easy.
+going to move them super super easy.
+going to move them super super easy.
+Right click and shade smooth to get rid
+Right click and shade smooth to get rid
+Right click and shade smooth to get rid
+of those icky faces cuz we have enough
+of those icky faces cuz we have enough
+of those icky faces cuz we have enough
+geometry that it looks fine. Um it
+geometry that it looks fine. Um it
+geometry that it looks fine. Um it
+doesn't do this weird thing cuz there's
+doesn't do this weird thing cuz there's
+doesn't do this weird thing cuz there's
+not enough faces on that. This has
+not enough faces on that. This has
+not enough faces on that. This has
+enough faces to make it look smooth
+enough faces to make it look smooth
+enough faces to make it look smooth
+which is good. Um and now what we're
+which is good. Um and now what we're
+which is good. Um and now what we're
+going to do is we're going to duplicate
+going to do is we're going to duplicate
+going to do is we're going to duplicate
+these again. But the shortcut to
+these again. But the shortcut to
+these again. But the shortcut to
+duplicate is shift D. So that just makes
+duplicate is shift D. So that just makes
+duplicate is shift D. So that just makes
+life a lot easier rather than right
+life a lot easier rather than right
+life a lot easier rather than right
+clicking and going to duplicate objects
+clicking and going to duplicate objects
+clicking and going to duplicate objects
+and then you know doing that. Um, it is
+and then you know doing that. Um, it is
+and then you know doing that. Um, it is
+a lot faster to be using shortcuts.
+a lot faster to be using shortcuts.
+a lot faster to be using shortcuts.
+I might just do a slow one here just so
+I might just do a slow one here just so
+I might just do a slow one here just so
+you can see what I'm doing. So, I'm
+you can see what I'm doing. So, I'm
+you can see what I'm doing. So, I'm
+clicking on this shift D. Wh There he
+clicking on this shift D. Wh There he
+clicking on this shift D. Wh There he
+is. Right click to let him go and then
+is. Right click to let him go and then
+is. Right click to let him go and then
+pull him out.
+Okay, so that completes our tree. You
+Okay, so that completes our tree. You
+Okay, so that completes our tree. You
+can make yours look as even or uneven as
+can make yours look as even or uneven as
+can make yours look as even or uneven as
+you'd like. But to finish off, but to
+you'd like. But to finish off, but to
+you'd like. But to finish off, but to
+add an extra detail here, let's add in
+add an extra detail here, let's add in
+add an extra detail here, let's add in
+like this extra trunk. So, shift and
+like this extra trunk. So, shift and
+like this extra trunk. So, shift and
+right click to move our 3D cursor to
+right click to move our 3D cursor to
+right click to move our 3D cursor to
+where we want the trunk to be. And then
+where we want the trunk to be. And then
+where we want the trunk to be. And then
+we're going to go add and we're going to
+we're going to go add and we're going to
+we're going to go add and we're going to
+go mesh and then cylinder. And then
+go mesh and then cylinder. And then
+go mesh and then cylinder. And then
+we're going to go S to scale it all the
+we're going to go S to scale it all the
+we're going to go S to scale it all the
+way down. And then we're going to head
+way down. And then we're going to head
+way down. And then we're going to head
+over to our rotate. And we're going to
+over to our rotate. And we're going to
+over to our rotate. And we're going to
+use these. And we're just clicking and
+use these. And we're just clicking and
+use these. And we're just clicking and
+dragging to kind of like get it into the
+dragging to kind of like get it into the
+dragging to kind of like get it into the
+right position.
+right position.
+right position.
+But this is going to need to be a lot
+But this is going to need to be a lot
+But this is going to need to be a lot
+smaller. Hey. So, we're going to make
+smaller. Hey. So, we're going to make
+smaller. Hey. So, we're going to make
+that a bit smaller with our S. And then
+that a bit smaller with our S. And then
+that a bit smaller with our S. And then
+[snorts] we're going to go into edit
+[snorts] we're going to go into edit
+[snorts] we're going to go into edit
+mode. And we want it to be a bit longer.
+mode. And we want it to be a bit longer.
+mode. And we want it to be a bit longer.
+So, we're going to click here. But now,
+So, we're going to click here. But now,
+So, we're going to click here. But now,
+we've run into this problem. I want to
+we've run into this problem. I want to
+we've run into this problem. I want to
+go out this way. But I've already
+go out this way. But I've already
+go out this way. But I've already
+rotated my object. So, now I don't want
+rotated my object. So, now I don't want
+rotated my object. So, now I don't want
+to go this way. I don't want to go this
+to go this way. I don't want to go this
+to go this way. I don't want to go this
+way. It's not going to look that cute.
+way. It's not going to look that cute.
+way. It's not going to look that cute.
+So what you can do is this is currently
+So what you can do is this is currently
+So what you can do is this is currently
+on our global axis. So you can see our Y
+on our global axis. So you can see our Y
+on our global axis. So you can see our Y
+is going that way, our X is going that
+is going that way, our X is going that
+is going that way, our X is going that
+way and our Z is going that way. But if
+way and our Z is going that way. But if
+way and our Z is going that way. But if
+we click up here, we click on global,
+we click up here, we click on global,
+we click up here, we click on global,
+you can choose local instead. And then
+you can choose local instead. And then
+you can choose local instead. And then
+the axis becomes local to your object.
+the axis becomes local to your object.
+the axis becomes local to your object.
+So this object zed is going that way. So
+So this object zed is going that way. So
+So this object zed is going that way. So
+that makes life h so much easier. So so
+that makes life h so much easier. So so
+that makes life h so much easier. So so
+so much easier, I reckon. Let's just
+so much easier, I reckon. Let's just
+so much easier, I reckon. Let's just
+keep it like that. Okay, let's go back
+keep it like that. Okay, let's go back
+keep it like that. Okay, let's go back
+into object mode. cute. I think I do
+into object mode. cute. I think I do
+into object mode. cute. I think I do
+want it to be a little bit bigger. So,
+want it to be a little bit bigger. So,
+want it to be a little bit bigger. So,
+let's also go back into global. Um,
+let's also go back into global. Um,
+let's also go back into global. Um,
+yeah, just make sure that this is always
+yeah, just make sure that this is always
+yeah, just make sure that this is always
+set to global once you're done. So, if I
+set to global once you're done. So, if I
+set to global once you're done. So, if I
+select both of these and I go into local
+select both of these and I go into local
+select both of these and I go into local
+and I try to move them, they're going to
+and I try to move them, they're going to
+and I try to move them, they're going to
+move in totally different directions
+move in totally different directions
+move in totally different directions
+because their local axis is different.
+because their local axis is different.
+because their local axis is different.
+Um, so if you get that problem, make
+Um, so if you get that problem, make
+Um, so if you get that problem, make
+sure that you're set to global and not
+sure that you're set to global and not
+sure that you're set to global and not
+um local. transformation orientation
+um local. transformation orientation
+um local. transformation orientation
+needs to always be at global unless
+needs to always be at global unless
+needs to always be at global unless
+you're editing um a specific object. And
+you're editing um a specific object. And
+you're editing um a specific object. And
+let's also put this one onto shade
+let's also put this one onto shade
+let's also put this one onto shade
+smooth so that it will look nice in our
+smooth so that it will look nice in our
+smooth so that it will look nice in our
+final render. Okay, let's make our grass
+final render. Okay, let's make our grass
+final render. Okay, let's make our grass
+tough. So, we're going to use circles to
+tough. So, we're going to use circles to
+tough. So, we're going to use circles to
+make these cuz we need a little bit more
+make these cuz we need a little bit more
+make these cuz we need a little bit more
+geometry to be able to bend things and
+geometry to be able to bend things and
+geometry to be able to bend things and
+have a little bit more control on our
+have a little bit more control on our
+have a little bit more control on our
+objects. Cuz at the moment on our
+objects. Cuz at the moment on our
+objects. Cuz at the moment on our
+cylinder, we can only really change
+cylinder, we can only really change
+cylinder, we can only really change
+these faces here. um which isn't really
+these faces here. um which isn't really
+these faces here. um which isn't really
+what we need for a grass. So, let's move
+what we need for a grass. So, let's move
+what we need for a grass. So, let's move
+our 3D cursor with shift and right click
+our 3D cursor with shift and right click
+our 3D cursor with shift and right click
+to wherever we want to spawn in our
+to wherever we want to spawn in our
+to wherever we want to spawn in our
+grass. And then we're going to go Oops.
+grass. And then we're going to go Oops.
+grass. And then we're going to go Oops.
+We're going to go into add mesh and
+We're going to go into add mesh and
+We're going to go into add mesh and
+circle. It's a little bit big. So, we're
+circle. It's a little bit big. So, we're
+circle. It's a little bit big. So, we're
+going to scale it down with S. We're
+going to scale it down with S. We're
+going to scale it down with S. We're
+going to go into our edit mode. And
+going to go into our edit mode. And
+going to go into our edit mode. And
+first, we're just going to press F. And
+first, we're just going to press F. And
+first, we're just going to press F. And
+that will fill in. So F for fill to just
+that will fill in. So F for fill to just
+that will fill in. So F for fill to just
+fill in that um circle and give us a
+fill in that um circle and give us a
+fill in that um circle and give us a
+plane in the middle that we can work
+plane in the middle that we can work
+plane in the middle that we can work
+with. And then we're going to head down
+with. And then we're going to head down
+with. And then we're going to head down
+to our extrude region tool. So then that
+to our extrude region tool. So then that
+to our extrude region tool. So then that
+if we press this little plus here is
+if we press this little plus here is
+if we press this little plus here is
+going to make us um a cylinder. And if
+going to make us um a cylinder. And if
+going to make us um a cylinder. And if
+we keep on clicking that plus, it's
+we keep on clicking that plus, it's
+we keep on clicking that plus, it's
+going to give us um all this extra
+going to give us um all this extra
+going to give us um all this extra
+geometry with these loops in it which
+geometry with these loops in it which
+geometry with these loops in it which
+you can then edit. So if we go into edge
+you can then edit. So if we go into edge
+you can then edit. So if we go into edge
+select mode instead of face and we click
+select mode instead of face and we click
+select mode instead of face and we click
+on these edges. Now, we'll just head
+on these edges. Now, we'll just head
+on these edges. Now, we'll just head
+back into move. Um, and then if you go
+back into move. Um, and then if you go
+back into move. Um, and then if you go
+shift and alt at the same time, and then
+shift and alt at the same time, and then
+shift and alt at the same time, and then
+you click, you can select this entire
+you click, you can select this entire
+you click, you can select this entire
+um, loop. And now you can see we have a
+um, loop. And now you can see we have a
+um, loop. And now you can see we have a
+lot more control on what we want to do
+lot more control on what we want to do
+lot more control on what we want to do
+with our object. Um, so we can start to
+with our object. Um, so we can start to
+with our object. Um, so we can start to
+really customize what we are doing.
+really customize what we are doing.
+really customize what we are doing.
+Instead of just scaling up and down
+Instead of just scaling up and down
+Instead of just scaling up and down
+these faces, we get to add in faces
+these faces, we get to add in faces
+these faces, we get to add in faces
+wherever we want. So, let's just z
+wherever we want. So, let's just z
+wherever we want. So, let's just z
+because this isn't really the shape that
+because this isn't really the shape that
+because this isn't really the shape that
+we want here. Um, but let's just go down
+we want here. Um, but let's just go down
+we want here. Um, but let's just go down
+and start to extrude. I'm going to do
+and start to extrude. I'm going to do
+and start to extrude. I'm going to do
+this like relatively
+this like relatively
+this like relatively
+um evenly so that we kind of have like
+um evenly so that we kind of have like
+um evenly so that we kind of have like
+even [snorts] sections here. And this is
+even [snorts] sections here. And this is
+even [snorts] sections here. And this is
+I'm also going to scale this down just
+I'm also going to scale this down just
+I'm also going to scale this down just
+so you know. Um, and then I want this to
+so you know. Um, and then I want this to
+so you know. Um, and then I want this to
+start to taper off a little bit. So I'm
+start to taper off a little bit. So I'm
+start to taper off a little bit. So I'm
+going to go S and scale this down. We're
+going to go S and scale this down. We're
+going to go S and scale this down. We're
+going to go plus again and scale it down
+going to go plus again and scale it down
+going to go plus again and scale it down
+again so that then we start getting this
+again so that then we start getting this
+again so that then we start getting this
+kind of um
+kind of um
+kind of um
+I don't know what do you call this? Like
+I don't know what do you call this? Like
+I don't know what do you call this? Like
+a cone shape on top.
+a cone shape on top.
+a cone shape on top.
+And I reckon that is going to be enough
+And I reckon that is going to be enough
+And I reckon that is going to be enough
+for us. So now if we go into edge select
+for us. So now if we go into edge select
+for us. So now if we go into edge select
+mode again, um we can start to move
+mode again, um we can start to move
+mode again, um we can start to move
+these faces. Let's also just get out of
+these faces. Let's also just get out of
+these faces. Let's also just get out of
+extrude so we don't have those buttons
+extrude so we don't have those buttons
+extrude so we don't have those buttons
+showing up and shift and alt and then we
+showing up and shift and alt and then we
+showing up and shift and alt and then we
+click and we get that whole loop. Now
+click and we get that whole loop. Now
+click and we get that whole loop. Now
+the next thing that's super useful is
+the next thing that's super useful is
+the next thing that's super useful is
+using this up here, the proportional
+using this up here, the proportional
+using this up here, the proportional
+editing. So, what you'll notice with
+editing. So, what you'll notice with
+editing. So, what you'll notice with
+proportional editing off, so it's all
+proportional editing off, so it's all
+proportional editing off, so it's all
+grayed out up there, is when I move
+grayed out up there, is when I move
+grayed out up there, is when I move
+that, that's like, wo, like that's not
+that, that's like, wo, like that's not
+that, that's like, wo, like that's not
+really giving me anything that I can
+really giving me anything that I can
+really giving me anything that I can
+work with. It's not smooth. But if we go
+work with. It's not smooth. But if we go
+work with. It's not smooth. But if we go
+up and we turn proportional editing on,
+up and we turn proportional editing on,
+up and we turn proportional editing on,
+so that becomes um blue. And we can see
+so that becomes um blue. And we can see
+so that becomes um blue. And we can see
+this is set to like a nice curve there.
+this is set to like a nice curve there.
+this is set to like a nice curve there.
+So, it's smooth. You have other options,
+So, it's smooth. You have other options,
+So, it's smooth. You have other options,
+but again, we don't need those right
+but again, we don't need those right
+but again, we don't need those right
+now. And then if we move Oh, mine's way
+now. And then if we move Oh, mine's way
+now. And then if we move Oh, mine's way
+too big. Um, so if we move like that, we
+too big. Um, so if we move like that, we
+too big. Um, so if we move like that, we
+can see this big circle comes up and we
+can see this big circle comes up and we
+can see this big circle comes up and we
+get to move things really smoothly. Now,
+get to move things really smoothly. Now,
+get to move things really smoothly. Now,
+this is obviously way too big. So, use
+this is obviously way too big. So, use
+this is obviously way too big. So, use
+your scroll wheel to make this a lot
+your scroll wheel to make this a lot
+your scroll wheel to make this a lot
+smaller so that the area that changes is
+smaller so that the area that changes is
+smaller so that the area that changes is
+smaller. So, then you can go up and down
+smaller. So, then you can go up and down
+smaller. So, then you can go up and down
+here and you can start to kind of like
+here and you can start to kind of like
+here and you can start to kind of like
+edit your object as you like. Um, so
+edit your object as you like. Um, so
+edit your object as you like. Um, so
+whatever you think looks like um grass.
+whatever you think looks like um grass.
+whatever you think looks like um grass.
+And you can also use S to like scale up
+And you can also use S to like scale up
+And you can also use S to like scale up
+these different bits. So I'm going to do
+these different bits. So I'm going to do
+these different bits. So I'm going to do
+that. Oops, I've selected the wrong bit.
+that. Oops, I've selected the wrong bit.
+that. Oops, I've selected the wrong bit.
+So just shift alt um to select a loop
+So just shift alt um to select a loop
+So just shift alt um to select a loop
+there. So I'm clicking one edge, shift
+there. So I'm clicking one edge, shift
+there. So I'm clicking one edge, shift
+alt, click the next one, and we're
+alt, click the next one, and we're
+alt, click the next one, and we're
+scaling that down. Now that's looking
+scaling that down. Now that's looking
+scaling that down. Now that's looking
+like a pretty cute grass tuft there.
+like a pretty cute grass tuft there.
+like a pretty cute grass tuft there.
+Beautiful. I might also rotate this top
+Beautiful. I might also rotate this top
+Beautiful. I might also rotate this top
+face just cuz I don't think it looks
+face just cuz I don't think it looks
+face just cuz I don't think it looks
+that cute. Maybe I'll scale it down just
+that cute. Maybe I'll scale it down just
+that cute. Maybe I'll scale it down just
+like a little bit. And then let's like
+like a little bit. And then let's like
+like a little bit. And then let's like
+go like here back into edit mode. Shade
+go like here back into edit mode. Shade
+go like here back into edit mode. Shade
+smooth. And it's like a little bit
+smooth. And it's like a little bit
+smooth. And it's like a little bit
+chunky, but it's going to be small
+chunky, but it's going to be small
+chunky, but it's going to be small
+enough in our scene that I don't really
+enough in our scene that I don't really
+enough in our scene that I don't really
+think it matters. But I do want it to be
+think it matters. But I do want it to be
+think it matters. But I do want it to be
+a bit more elongated. I think it's a
+a bit more elongated. I think it's a
+a bit more elongated. I think it's a
+little bit too chunky right now. So, oh,
+little bit too chunky right now. So, oh,
+little bit too chunky right now. So, oh,
+and you can see our origin is where our
+and you can see our origin is where our
+and you can see our origin is where our
+um
+um
+um
+where our
+where our
+where our
+circle was spawned in, which means that
+circle was spawned in, which means that
+circle was spawned in, which means that
+it's going to scale from that point. If
+it's going to scale from that point. If
+it's going to scale from that point. If
+you want it to scale from the middle and
+you want it to scale from the middle and
+you want it to scale from the middle and
+to move everything from the middle
+to move everything from the middle
+to move everything from the middle
+again, just click on your object, right
+again, just click on your object, right
+again, just click on your object, right
+click, and then go set origin and go
+click, and then go set origin and go
+click, and then go set origin and go
+origin to geometry. And that will put it
+origin to geometry. And that will put it
+origin to geometry. And that will put it
+in the middle. And now you're scaling
+in the middle. And now you're scaling
+in the middle. And now you're scaling
+from the middle. 
+Now we've got our grass. So now you can
+Now we've got our grass. So now you can
+Now we've got our grass. So now you can
+duplicate it to your heart's content. So
+duplicate it to your heart's content. So
+duplicate it to your heart's content. So
+I am going to go crazy with the
+I am going to go crazy with the
+I am going to go crazy with the
+duplicating here and make a whole ton of
+duplicating here and make a whole ton of
+duplicating here and make a whole ton of
+these. So, I'm just shift D,
+these. So, I'm just shift D,
+these. So, I'm just shift D,
+shift D, right click to let it go, and
+shift D, right click to let it go, and
+shift D, right click to let it go, and
+then just moving the one I've duplicated
+then just moving the one I've duplicated
+then just moving the one I've duplicated
+out from underneath um its partner.
+out from underneath um its partner.
+out from underneath um its partner.
+So, I'm just going click and then I'm
+So, I'm just going click and then I'm
+So, I'm just going click and then I'm
+using delete on my computer on my like
+using delete on my computer on my like
+using delete on my computer on my like
+numpad thingy. You can also just right
+numpad thingy. You can also just right
+numpad thingy. You can also just right
+click and go delete there if that's
+click and go delete there if that's
+click and go delete there if that's
+easier for you. So, I want to duplicate
+easier for you. So, I want to duplicate
+easier for you. So, I want to duplicate
+these two together cuz I think they look
+these two together cuz I think they look
+these two together cuz I think they look
+cuter together.
+&gt;&gt; 
+&gt;&gt; 
+&gt;&gt; 
+&gt;&gt; And you can also edit these um to make
+&gt;&gt; And you can also edit these um to make
+&gt;&gt; And you can also edit these um to make
+them unique because you'll see that they
+them unique because you'll see that they
+them unique because you'll see that they
+it's pretty obvious that I've duplicated
+it's pretty obvious that I've duplicated
+it's pretty obvious that I've duplicated
+a whole bunch of geometry over and over.
+a whole bunch of geometry over and over.
+a whole bunch of geometry over and over.
+Um so you can go into the individual
+Um so you can go into the individual
+Um so you can go into the individual
+geometry and start moving things around
+geometry and start moving things around
+geometry and start moving things around
+here. I've just pressed G and that means
+here. I've just pressed G and that means
+here. I've just pressed G and that means
+you can just move it um as where your
+you can just move it um as where your
+you can just move it um as where your
+mouse is. So that is a really easy way
+mouse is. So that is a really easy way
+mouse is. So that is a really easy way
+to make it unique.
+to make it unique.
+to make it unique.
+um so that it's less obvious that you
+um so that it's less obvious that you
+um so that it's less obvious that you
+just duplicated the entire thing over
+just duplicated the entire thing over
+just duplicated the entire thing over
+and over. Um rotating is also a really
+and over. Um rotating is also a really
+and over. Um rotating is also a really
+good way to do that. 
+If you feel like these are looking a
+If you feel like these are looking a
+If you feel like these are looking a
+little bit chunky and you have a
+little bit chunky and you have a
+little bit chunky and you have a
+computer that can handle it, I would
+computer that can handle it, I would
+computer that can handle it, I would
+also suggest using the subdivision
+also suggest using the subdivision
+also suggest using the subdivision
+surface modifier to smooth out your
+surface modifier to smooth out your
+surface modifier to smooth out your
+grass a little bit. I'm just looking at
+grass a little bit. I'm just looking at
+grass a little bit. I'm just looking at
+these and going, you know what, they
+these and going, you know what, they
+these and going, you know what, they
+look like a little bit too chunky for
+look like a little bit too chunky for
+look like a little bit too chunky for
+me. Um, so I'm going and I'm clicking on
+me. Um, so I'm going and I'm clicking on
+me. Um, so I'm going and I'm clicking on
+it and I'm going to modifiers, add
+it and I'm going to modifiers, add
+it and I'm going to modifiers, add
+modifier, and then I'm searching up
+modifier, and then I'm searching up
+modifier, and then I'm searching up
+subdivision surface. And you can just
+subdivision surface. And you can just
+subdivision surface. And you can just
+see how that's added a bunch of extra
+see how that's added a bunch of extra
+see how that's added a bunch of extra
+geometry, um, and just made everything a
+geometry, um, and just made everything a
+geometry, um, and just made everything a
+lot smoother. It has given us this
+lot smoother. It has given us this
+lot smoother. It has given us this
+little funky bit at the top, but that
+little funky bit at the top, but that
+little funky bit at the top, but that
+doesn't really matter right now. Um, and
+doesn't really matter right now. Um, and
+doesn't really matter right now. Um, and
+it just looks a lot smoother. Um, so for
+it just looks a lot smoother. Um, so for
+it just looks a lot smoother. Um, so for
+my other final render, I have used
+my other final render, I have used
+my other final render, I have used
+subdivision surfaces on these. Um, but
+subdivision surfaces on these. Um, but
+subdivision surfaces on these. Um, but
+it's up to you whether or not that's
+it's up to you whether or not that's
+it's up to you whether or not that's
+something that you um want to do and
+something that you um want to do and
+something that you um want to do and
+whether or not your computer can handle
+whether or not your computer can handle
+whether or not your computer can handle
+it and having that extra geometry um in
+it and having that extra geometry um in
+it and having that extra geometry um in
+your scene. Okay. So, now we're going to
+your scene. Okay. So, now we're going to
+your scene. Okay. So, now we're going to
+make our petal. So, we're going to shift
+make our petal. So, we're going to shift
+make our petal. So, we're going to shift
+and right click to put the 3D curve
+and right click to put the 3D curve
+and right click to put the 3D curve
+wherever we want our petal to be. And
+wherever we want our petal to be. And
+wherever we want our petal to be. And
+then we're going to add in a circle
+then we're going to add in a circle
+then we're going to add in a circle
+here. And we're going to scale it down
+here. And we're going to scale it down
+here. And we're going to scale it down
+using S. And we're going to head into
+using S. And we're going to head into
+using S. And we're going to head into
+edit mode. And then we're going to go
+edit mode. And then we're going to go
+edit mode. And then we're going to go
+into vertex mode, which I already had
+into vertex mode, which I already had
+into vertex mode, which I already had
+selected. Um, and we can see all of the
+selected. Um, and we can see all of the
+selected. Um, and we can see all of the
+little vertices that make up our circle.
+little vertices that make up our circle.
+little vertices that make up our circle.
+So, we want to do a similar thing with
+So, we want to do a similar thing with
+So, we want to do a similar thing with
+what we did with our um, grass. And we
+what we did with our um, grass. And we
+what we did with our um, grass. And we
+want to make it kind of like a nice
+want to make it kind of like a nice
+want to make it kind of like a nice
+smooth shape here, like smooth kind of
+smooth shape here, like smooth kind of
+smooth shape here, like smooth kind of
+going out to get that petal shape. So,
+going out to get that petal shape. So,
+going out to get that petal shape. So,
+we're going to turn our proportional
+we're going to turn our proportional
+we're going to turn our proportional
+editing back on. And we're just going to
+editing back on. And we're just going to
+editing back on. And we're just going to
+like move it like this. Maybe I'll make
+like move it like this. Maybe I'll make
+like move it like this. Maybe I'll make
+it a little bit bigger. And that's
+it a little bit bigger. And that's
+it a little bit bigger. And that's
+beautiful. I feel like that's a really
+beautiful. I feel like that's a really
+beautiful. I feel like that's a really
+nice shape. So then we're going to go A
+nice shape. So then we're going to go A
+nice shape. So then we're going to go A
+to select everything so they all go
+to select everything so they all go
+to select everything so they all go
+orange. And then we're just going to
+orange. And then we're just going to
+orange. And then we're just going to
+extrude it. So we're going to go E. Oh,
+extrude it. So we're going to go E. Oh,
+extrude it. So we're going to go E. Oh,
+hold on. We need to fill it first. So if
+hold on. We need to fill it first. So if
+hold on. We need to fill it first. So if
+that happens, so you can see I've
+that happens, so you can see I've
+that happens, so you can see I've
+extruded it, but there's no cap on top.
+extruded it, but there's no cap on top.
+extruded it, but there's no cap on top.
+So I want there to be a cap. So I'm
+So I want there to be a cap. So I'm
+So I want there to be a cap. So I'm
+going to go F first um to fill that in.
+going to go F first um to fill that in.
+going to go F first um to fill that in.
+And now you can see when we extrude,
+And now you can see when we extrude,
+And now you can see when we extrude,
+bang, it's got a it's got a roof. Um
+bang, it's got a it's got a roof. Um
+bang, it's got a it's got a roof. Um
+okay, beautiful. So go E, click, and
+okay, beautiful. So go E, click, and
+okay, beautiful. So go E, click, and
+it's done. We're going to go S. Oops.
+it's done. We're going to go S. Oops.
+it's done. We're going to go S. Oops.
+But when we go S, we have a pro
+But when we go S, we have a pro
+But when we go S, we have a pro
+proportional editing on, which is
+proportional editing on, which is
+proportional editing on, which is
+editing it too much. We want to scale it
+editing it too much. We want to scale it
+editing it too much. We want to scale it
+down um a lot more
+down um a lot more
+down um a lot more
+nicely than that, I guess. And we're
+nicely than that, I guess. And we're
+nicely than that, I guess. And we're
+going to go E again. Click and S. And
+going to go E again. Click and S. And
+going to go E again. Click and S. And
+that's giving us that nice curve there.
+that's giving us that nice curve there.
+that's giving us that nice curve there.
+E, click, S, down.
+And that's probably looking good for our
+And that's probably looking good for our
+And that's probably looking good for our
+petal. So, let's go back into object
+petal. So, let's go back into object
+petal. So, let's go back into object
+mode. Right click, shade smooth.
+mode. Right click, shade smooth.
+mode. Right click, shade smooth.
+Beautiful. And now we have a petal as
+Beautiful. And now we have a petal as
+Beautiful. And now we have a petal as
+well. So go ahead and shift D and
+well. So go ahead and shift D and
+well. So go ahead and shift D and
+duplicate that into your scene and add a
+duplicate that into your scene and add a
+duplicate that into your scene and add a
+whole bunch and add them where you want
+whole bunch and add them where you want
+whole bunch and add them where you want
+it. Um, but also before we do too much
+it. Um, but also before we do too much
+it. Um, but also before we do too much
+of that, let's also add in our lake so
+of that, let's also add in our lake so
+of that, let's also add in our lake so
+we kind of know like where we want to
+we kind of know like where we want to
+we kind of know like where we want to
+put our um or our puddle so we kind of
+put our um or our puddle so we kind of
+put our um or our puddle so we kind of
+know where we want to put everything.
+know where we want to put everything.
+know where we want to put everything.
+So, let's duplicate out um a petal here
+So, let's duplicate out um a petal here
+So, let's duplicate out um a petal here
+cuz we're going to use the petal
+cuz we're going to use the petal
+cuz we're going to use the petal
+geometry to also make the lake. Um so,
+geometry to also make the lake. Um so,
+geometry to also make the lake. Um so,
+let's scale it back up again. Honestly,
+let's scale it back up again. Honestly,
+let's scale it back up again. Honestly,
+you can just kind of leave it there if
+you can just kind of leave it there if
+you can just kind of leave it there if
+you want. Um but I think I want mine to
+you want. Um but I think I want mine to
+you want. Um but I think I want mine to
+be maybe like a little bit more natural
+be maybe like a little bit more natural
+be maybe like a little bit more natural
+looking and have a little bit more
+looking and have a little bit more
+looking and have a little bit more
+movement. So, I'm going to go back into
+movement. So, I'm going to go back into
+movement. So, I'm going to go back into
+edit mode. Um and then you can grab your
+edit mode. Um and then you can grab your
+edit mode. Um and then you can grab your
+vertices and we'll turn our proportional
+vertices and we'll turn our proportional
+vertices and we'll turn our proportional
+editing back on. And then you can just
+editing back on. And then you can just
+editing back on. And then you can just
+start to like move things um and just
+start to like move things um and just
+start to like move things um and just
+kind of like make it a little bit more
+kind of like make it a little bit more
+kind of like make it a little bit more
+um of a natural shape. Like it really
+um of a natural shape. Like it really
+um of a natural shape. Like it really
+depends um what you want your scene to
+depends um what you want your scene to
+depends um what you want your scene to
+look like. So take your creative freedom
+look like. So take your creative freedom
+look like. So take your creative freedom
+here um and make your lake as big or as
+here um and make your lake as big or as
+here um and make your lake as big or as
+small as you want or you know you could
+small as you want or you know you could
+small as you want or you know you could
+add a whole bunch of little puddles and
+add a whole bunch of little puddles and
+add a whole bunch of little puddles and
+make it into like a cute little rainy
+make it into like a cute little rainy
+make it into like a cute little rainy
+kind of scene. But I think that that um
+kind of scene. But I think that that um
+kind of scene. But I think that that um
+is looking pretty good for me. Now,
+is looking pretty good for me. Now,
+is looking pretty good for me. Now,
+before I go ahead and start duplicating
+before I go ahead and start duplicating
+before I go ahead and start duplicating
+everything, we need to set up our camera
+everything, we need to set up our camera
+everything, we need to set up our camera
+angle. Because if we want to have a
+angle. Because if we want to have a
+angle. Because if we want to have a
+beautiful final scene, we kind of need
+beautiful final scene, we kind of need
+beautiful final scene, we kind of need
+to know where everything is going to sit
+to know where everything is going to sit
+to know where everything is going to sit
+in relation to our camera. Because, you
+in relation to our camera. Because, you
+in relation to our camera. Because, you
+know, if I was doing it like this, I'd
+know, if I was doing it like this, I'd
+know, if I was doing it like this, I'd
+want my things I want more over here.
+want my things I want more over here.
+want my things I want more over here.
+I'd want more over here. But if I'm
+I'd want more over here. But if I'm
+I'd want more over here. But if I'm
+doing it like here, we don't really need
+doing it like here, we don't really need
+doing it like here, we don't really need
+any at the back. Um, but we definitely
+any at the back. Um, but we definitely
+any at the back. Um, but we definitely
+need more at our front. So, let's set up
+need more at our front. So, let's set up
+need more at our front. So, let's set up
+our camera angle so we know exactly
+our camera angle so we know exactly
+our camera angle so we know exactly
+where we're going to put all our things.
+where we're going to put all our things.
+where we're going to put all our things.
+Um, so let's add in a camera. So, we
+Um, so let's add in a camera. So, we
+Um, so let's add in a camera. So, we
+don't have a camera in our scene at the
+don't have a camera in our scene at the
+don't have a camera in our scene at the
+moment, which means we need to bring one
+moment, which means we need to bring one
+moment, which means we need to bring one
+back in. So, we're going to go add, and
+back in. So, we're going to go add, and
+back in. So, we're going to go add, and
+then we're going to head down to camera
+then we're going to head down to camera
+then we're going to head down to camera
+here. So, now that's added in our camera
+here. So, now that's added in our camera
+here. So, now that's added in our camera
+over here. We just got to move it out of
+over here. We just got to move it out of
+over here. We just got to move it out of
+the way because our 3D cursor is just
+the way because our 3D cursor is just
+the way because our 3D cursor is just
+over here. Um, which is a little bit of
+over here. Um, which is a little bit of
+over here. Um, which is a little bit of
+a bad spot for it actually. Um, but
+a bad spot for it actually. Um, but
+a bad spot for it actually. Um, but
+that's fine. So, here's our camera. Now,
+that's fine. So, here's our camera. Now,
+that's fine. So, here's our camera. Now,
+if you click on this button here, it's
+if you click on this button here, it's
+if you click on this button here, it's
+going to show you what the camera is
+going to show you what the camera is
+going to show you what the camera is
+seeing. But, you know, it's not really
+seeing. But, you know, it's not really
+seeing. But, you know, it's not really
+it's not really looking that good, is
+it's not really looking that good, is
+it's not really looking that good, is
+it? I also want my scene to be square.
+it? I also want my scene to be square.
+it? I also want my scene to be square.
+So before we do anything, let's go to
+So before we do anything, let's go to
+So before we do anything, let's go to
+our properties tab and click on render
+our properties tab and click on render
+our properties tab and click on render
+properties.
+properties.
+properties.
+Is this the right one? Actually, no,
+Is this the right one? Actually, no,
+Is this the right one? Actually, no,
+sorry. We're going to click on output.
+sorry. We're going to click on output.
+sorry. We're going to click on output.
+And we're going to change this from
+And we're going to change this from
+And we're going to change this from
+1920x 1080 to 1080x 1080. And that's
+1920x 1080 to 1080x 1080. And that's
+1920x 1080 to 1080x 1080. And that's
+going to make this square. So if we
+going to make this square. So if we
+going to make this square. So if we
+click back in, we can see that now it's
+click back in, we can see that now it's
+click back in, we can see that now it's
+a square, which is beautiful. So that
+a square, which is beautiful. So that
+a square, which is beautiful. So that
+means our final render will be a square.
+means our final render will be a square.
+means our final render will be a square.
+So now we can also see when we have our
+So now we can also see when we have our
+So now we can also see when we have our
+camera selected, we get this little
+camera selected, we get this little
+camera selected, we get this little
+option down here where there's a little
+option down here where there's a little
+option down here where there's a little
+picture of a camera. Why is that doing
+picture of a camera. Why is that doing
+picture of a camera. Why is that doing
+that? Yeah. So you can see when we have
+that? Yeah. So you can see when we have
+that? Yeah. So you can see when we have
+other things selected that disappears
+other things selected that disappears
+other things selected that disappears
+and we get different options. When we
+and we get different options. When we
+and we get different options. When we
+have our camera selected, we get camera
+have our camera selected, we get camera
+have our camera selected, we get camera
+now comes up in our um options of things
+now comes up in our um options of things
+now comes up in our um options of things
+that we can choose. So let's click on
+that we can choose. So let's click on
+that we can choose. So let's click on
+the camera and then it gives us a bunch
+the camera and then it gives us a bunch
+the camera and then it gives us a bunch
+of options to change things about our
+of options to change things about our
+of options to change things about our
+camera. So, I want mine to actually not
+camera. So, I want mine to actually not
+camera. So, I want mine to actually not
+be um perspective. I want this to be
+be um perspective. I want this to be
+be um perspective. I want this to be
+orthographic. But now you can see that
+orthographic. But now you can see that
+orthographic. But now you can see that
+gives us a completely different look.
+gives us a completely different look.
+gives us a completely different look.
+So, when we're in perspective versus
+So, when we're in perspective versus
+So, when we're in perspective versus
+when we're in orthographic, it looks
+when we're in orthographic, it looks
+when we're in orthographic, it looks
+totally different. So, now I'm going to
+totally different. So, now I'm going to
+totally different. So, now I'm going to
+line up using shift X and shift Y. I'm
+line up using shift X and shift Y. I'm
+line up using shift X and shift Y. I'm
+going to line it up to my scene. And I'm
+going to line it up to my scene. And I'm
+going to line it up to my scene. And I'm
+also going to use orthographic scale
+also going to use orthographic scale
+also going to use orthographic scale
+here to just like move this like this.
+here to just like move this like this.
+here to just like move this like this.
+So, we're also getting out of that zone
+So, we're also getting out of that zone
+So, we're also getting out of that zone
+here. Um, the reason why that's doing
+here. Um, the reason why that's doing
+here. Um, the reason why that's doing
+that is cuz it's actually way too close
+that is cuz it's actually way too close
+that is cuz it's actually way too close
+to the scene. So, maybe let's move that
+to the scene. So, maybe let's move that
+to the scene. So, maybe let's move that
+out. So, we're going to click on this
+out. So, we're going to click on this
+out. So, we're going to click on this
+and we don't have our axis u where we
+and we don't have our axis u where we
+and we don't have our axis u where we
+want it. So, we're going to choose local
+want it. So, we're going to choose local
+want it. So, we're going to choose local
+instead so that we have that option um
+instead so that we have that option um
+instead so that we have that option um
+to move our camera straight back like
+to move our camera straight back like
+to move our camera straight back like
+that. Go back into global so it doesn't
+that. Go back into global so it doesn't
+that. Go back into global so it doesn't
+cause us any um headaches. And now,
+cause us any um headaches. And now,
+cause us any um headaches. And now,
+yeah, that weird little gray section
+yeah, that weird little gray section
+yeah, that weird little gray section
+there has disappeared because it's not
+there has disappeared because it's not
+there has disappeared because it's not
+um it's not interfering anymore with our
+um it's not interfering anymore with our
+um it's not interfering anymore with our
+um
+um
+um
+with our camera. So now I'm just going
+with our camera. So now I'm just going
+with our camera. So now I'm just going
+to stay in camera mode. So you can tell
+to stay in camera mode. So you can tell
+to stay in camera mode. So you can tell
+you're in camera view um when you have
+you're in camera view um when you have
+you're in camera view um when you have
+this kind of like gray area um at the
+this kind of like gray area um at the
+this kind of like gray area um at the
+back. So that's my camera view. So
+back. So that's my camera view. So
+back. So that's my camera view. So
+that's exactly what's going to be
+that's exactly what's going to be
+that's exactly what's going to be
+rendered um in my final scene. Now, we
+rendered um in my final scene. Now, we
+rendered um in my final scene. Now, we
+can see things aren't quite right here.
+can see things aren't quite right here.
+can see things aren't quite right here.
+So I'm going to go in and scale and move
+So I'm going to go in and scale and move
+So I'm going to go in and scale and move
+things. Those are all things you need
+things. Those are all things you need
+things. Those are all things you need
+that you already know how to do um to
+that you already know how to do um to
+that you already know how to do um to
+make my scene look how I want it to
+make my scene look how I want it to
+make my scene look how I want it to
+look.
+look.
+look.
+Um I'm also deciding that I do want all
+Um I'm also deciding that I do want all
+Um I'm also deciding that I do want all
+of these to have the subdivision surface
+of these to have the subdivision surface
+of these to have the subdivision surface
+modifier. So if you want to mass apply
+modifier. So if you want to mass apply
+modifier. So if you want to mass apply
+um things to different objects that
+um things to different objects that
+um things to different objects that
+aren't linked. So, if I click on one, I
+aren't linked. So, if I click on one, I
+aren't linked. So, if I click on one, I
+go add subdivision surface. And then I
+go add subdivision surface. And then I
+go add subdivision surface. And then I
+would have to go into every single one
+would have to go into every single one
+would have to go into every single one
+and this add the subdivision surface
+and this add the subdivision surface
+and this add the subdivision surface
+like this. What you can do is click on
+like this. What you can do is click on
+like this. What you can do is click on
+all of your ones. So, what all of your
+all of your ones. So, what all of your
+all of your ones. So, what all of your
+ones that don't have the subdivision
+ones that don't have the subdivision
+ones that don't have the subdivision
+surface. So, I'm clicking on this one
+surface. So, I'm clicking on this one
+surface. So, I'm clicking on this one
+here and then shift. I'm holding down
+here and then shift. I'm holding down
+here and then shift. I'm holding down
+shift and I'm clicking on all the ones
+shift and I'm clicking on all the ones
+shift and I'm clicking on all the ones
+um that don't have the subdivision
+um that don't have the subdivision
+um that don't have the subdivision
+surface um modifier on them. And then on
+surface um modifier on them. And then on
+surface um modifier on them. And then on
+my final one, I'm shiftclicking on one
+my final one, I'm shiftclicking on one
+my final one, I'm shiftclicking on one
+that does have the modifier. And then
+that does have the modifier. And then
+that does have the modifier. And then
+I'm going into object. We're going down
+I'm going into object. We're going down
+I'm going into object. We're going down
+to link and transfer data. And we're
+to link and transfer data. And we're
+to link and transfer data. And we're
+going down to copy modifiers.
+going down to copy modifiers.
+going down to copy modifiers.
+And that will add that to all of them so
+And that will add that to all of them so
+And that will add that to all of them so
+that we didn't have to go in and do it
+that we didn't have to go in and do it
+that we didn't have to go in and do it
+all um manually.
+&gt;&gt; 
+&gt;&gt; Um, we want to start adding in our
+&gt;&gt; Um, we want to start adding in our
+&gt;&gt; Um, we want to start adding in our
+materials and getting ready for our
+materials and getting ready for our
+materials and getting ready for our
+final render. So, we need to add in our
+final render. So, we need to add in our
+final render. So, we need to add in our
+materials. What we're going to do is
+materials. What we're going to do is
+materials. What we're going to do is
+we're going to go up to our render
+we're going to go up to our render
+we're going to go up to our render
+settings. I'm going to be using cycles
+settings. I'm going to be using cycles
+settings. I'm going to be using cycles
+today and I did also use cycles on my
+today and I did also use cycles on my
+today and I did also use cycles on my
+laptop. It was a little bit it took a
+laptop. It was a little bit it took a
+laptop. It was a little bit it took a
+little bit of patience. Um, but I do
+little bit of patience. Um, but I do
+little bit of patience. Um, but I do
+prefer using cycles if I can. Um, so
+prefer using cycles if I can. Um, so
+prefer using cycles if I can. Um, so
+what we're going to do to set up for
+what we're going to do to set up for
+what we're going to do to set up for
+cycles is we're going to go into edit
+cycles is we're going to go into edit
+cycles is we're going to go into edit
+and then preferences first. And we're
+and then preferences first. And we're
+and then preferences first. And we're
+going to go down to system. And if you
+going to go down to system. And if you
+going to go down to system. And if you
+have a graphics card, you should click
+have a graphics card, you should click
+have a graphics card, you should click
+on optics and choose your graphics card.
+on optics and choose your graphics card.
+on optics and choose your graphics card.
+So you can see in this computer at the
+So you can see in this computer at the
+So you can see in this computer at the
+moment I do have a 5080, which is like
+moment I do have a 5080, which is like
+moment I do have a 5080, which is like
+yeah, pretty decent at the moment. Like
+yeah, pretty decent at the moment. Like
+yeah, pretty decent at the moment. Like
+I think the best you can get is a 5090.
+I think the best you can get is a 5090.
+I think the best you can get is a 5090.
+Um, but the 5080 is one step down and
+Um, but the 5080 is one step down and
+Um, but the 5080 is one step down and
+that works really well for me. So I'm
+that works really well for me. So I'm
+that works really well for me. So I'm
+feeling good about that. Um, so that
+feeling good about that. Um, so that
+feeling good about that. Um, so that
+means that my cycles render will go a
+means that my cycles render will go a
+means that my cycles render will go a
+lot faster than it did on my computer
+lot faster than it did on my computer
+lot faster than it did on my computer
+and just make things a bit easy so I
+and just make things a bit easy so I
+and just make things a bit easy so I
+don't have to have quite as much
+don't have to have quite as much
+don't have to have quite as much
+patience and kind of like testing
+patience and kind of like testing
+patience and kind of like testing
+things. So I'm going to choose optics
+things. So I'm going to choose optics
+things. So I'm going to choose optics
+here and go out of that. And then we're
+here and go out of that. And then we're
+here and go out of that. And then we're
+going to go in our render properties
+going to go in our render properties
+going to go in our render properties
+here. We're going to change from EV to
+here. We're going to change from EV to
+here. We're going to change from EV to
+cycles. Change our device to GPU
+cycles. Change our device to GPU
+cycles. Change our device to GPU
+compute. And we're going to change our
+compute. And we're going to change our
+compute. And we're going to change our
+maximum samples here down to 200 because
+maximum samples here down to 200 because
+maximum samples here down to 200 because
+4,000 is going to take our computer so
+4,000 is going to take our computer so
+4,000 is going to take our computer so
+long. It's even going to take my
+long. It's even going to take my
+long. It's even going to take my
+computer like a lot more time than it
+computer like a lot more time than it
+computer like a lot more time than it
+needs. So, let's set that there. Um, and
+needs. So, let's set that there. Um, and
+needs. So, let's set that there. Um, and
+now up here in the right hand corner, we
+now up here in the right hand corner, we
+now up here in the right hand corner, we
+have um a bunch of different ways that
+have um a bunch of different ways that
+have um a bunch of different ways that
+we can see our viewport. So, at the
+we can see our viewport. So, at the
+we can see our viewport. So, at the
+moment, we're in viewport shading solid.
+moment, we're in viewport shading solid.
+moment, we're in viewport shading solid.
+Um, we also have X-ray mode. Sorry, we
+Um, we also have X-ray mode. Sorry, we
+Um, we also have X-ray mode. Sorry, we
+have wireframe mode here, which looks
+have wireframe mode here, which looks
+have wireframe mode here, which looks
+like this. Um, that has X-ray on so you
+like this. Um, that has X-ray on so you
+like this. Um, that has X-ray on so you
+can see through your objects. Um, solid
+can see through your objects. Um, solid
+can see through your objects. Um, solid
+mode is what we've been using. There's,
+mode is what we've been using. There's,
+mode is what we've been using. There's,
+um, material preview mode, um, which is
+um, material preview mode, um, which is
+um, material preview mode, um, which is
+also useful, but I don't want to load
+also useful, but I don't want to load
+also useful, but I don't want to load
+that right now because what I want to
+that right now because what I want to
+that right now because what I want to
+use is rendered. So, make sure you save
+use is rendered. So, make sure you save
+use is rendered. So, make sure you save
+here. So, I'm going to Ctrl S right
+here. So, I'm going to Ctrl S right
+here. So, I'm going to Ctrl S right
+there to save because this is where, um,
+there to save because this is where, um,
+there to save because this is where, um,
+your computer is most likely to crash.
+your computer is most likely to crash.
+your computer is most likely to crash.
+And then click on um, rendered now. Oh,
+And then click on um, rendered now. Oh,
+And then click on um, rendered now. Oh,
+no, it's all gray because there's no
+no, it's all gray because there's no
+no, it's all gray because there's no
+lights in our scene. That's also
+lights in our scene. That's also
+lights in our scene. That's also
+something that we need to add in is
+something that we need to add in is
+something that we need to add in is
+there's no light. So, we can see that
+there's no light. So, we can see that
+there's no light. So, we can see that
+there's kind of like a little bit, I
+there's kind of like a little bit, I
+there's kind of like a little bit, I
+think it's called ambient occlusion. Um,
+think it's called ambient occlusion. Um,
+think it's called ambient occlusion. Um,
+but we want lights in our scene. Now, my
+but we want lights in our scene. Now, my
+but we want lights in our scene. Now, my
+favorite way to add in lights is by
+favorite way to add in lights is by
+favorite way to add in lights is by
+using an HDR, right? Which kind of like
+using an HDR, right? Which kind of like
+using an HDR, right? Which kind of like
+brings in a scene that could be around
+brings in a scene that could be around
+brings in a scene that could be around
+your object um into Blender. So, I'm
+your object um into Blender. So, I'm
+your object um into Blender. So, I'm
+going to go down into world here. And
+going to go down into world here. And
+going to go down into world here. And
+then in surface, we've got surface,
+then in surface, we've got surface,
+then in surface, we've got surface,
+background, and color. We're going to
+background, and color. We're going to
+background, and color. We're going to
+click this little dot here. And then
+click this little dot here. And then
+click this little dot here. And then
+we're going to go into environment
+we're going to go into environment
+we're going to go into environment
+texture. I really like Polyhaven. Um, so
+texture. I really like Polyhaven. Um, so
+texture. I really like Polyhaven. Um, so
+let's go into Polyhaven and find one
+let's go into Polyhaven and find one
+let's go into Polyhaven and find one
+that's going to work for us. I like
+that's going to work for us. I like
+that's going to work for us. I like
+Lakeside Sunrise. I don't know why, but
+Lakeside Sunrise. I don't know why, but
+Lakeside Sunrise. I don't know why, but
+I just I just like this one. Um, so
+I just I just like this one. Um, so
+I just I just like this one. Um, so
+we're going to press download here, and
+we're going to press download here, and
+we're going to press download here, and
+that will download an EXR file. So,
+that will download an EXR file. So,
+that will download an EXR file. So,
+let's head back over to Blender, and in
+let's head back over to Blender, and in
+let's head back over to Blender, and in
+world surface, drop down. Um, we've
+world surface, drop down. Um, we've
+world surface, drop down. Um, we've
+color, we've clicked that little thing,
+color, we've clicked that little thing,
+color, we've clicked that little thing,
+clicked environment texture. We're going
+clicked environment texture. We're going
+clicked environment texture. We're going
+to go open here cuz there's nothing
+to go open here cuz there's nothing
+to go open here cuz there's nothing
+there. Um, and we're going to go and
+there. Um, and we're going to go and
+there. Um, and we're going to go and
+search EXR. if you have too many things.
+search EXR. if you have too many things.
+search EXR. if you have too many things.
+You can see all the different ones that
+You can see all the different ones that
+You can see all the different ones that
+I've downloaded. And we're going to
+I've downloaded. And we're going to
+I've downloaded. And we're going to
+download Lake. We're going to add we're
+download Lake. We're going to add we're
+download Lake. We're going to add we're
+going to open Lakeside Sunrise. And then
+going to open Lakeside Sunrise. And then
+going to open Lakeside Sunrise. And then
+bang. Wow. It already looks so cute.
+bang. Wow. It already looks so cute.
+bang. Wow. It already looks so cute.
+Now, if you don't have a graphics card,
+Now, if you don't have a graphics card,
+Now, if you don't have a graphics card,
+it's going to render a lot slower than
+it's going to render a lot slower than
+it's going to render a lot slower than
+that. Um it took a long time on my um
+that. Um it took a long time on my um
+that. Um it took a long time on my um
+laptop. You can also see that there's a
+laptop. You can also see that there's a
+laptop. You can also see that there's a
+massive gap here because I'm only
+massive gap here because I'm only
+massive gap here because I'm only
+interested in how it looks from here.
+interested in how it looks from here.
+interested in how it looks from here.
+I'm not rendering it from here. So, I
+I'm not rendering it from here. So, I
+I'm not rendering it from here. So, I
+don't care what this looks like. This
+don't care what this looks like. This
+don't care what this looks like. This
+doesn't worry me. Um, but anyway, we
+doesn't worry me. Um, but anyway, we
+doesn't worry me. Um, but anyway, we
+need to also add in a plane here because
+need to also add in a plane here because
+need to also add in a plane here because
+you can see when we're in rendered mode
+you can see when we're in rendered mode
+you can see when we're in rendered mode
+that it's just sitting on nothing. So,
+that it's just sitting on nothing. So,
+that it's just sitting on nothing. So,
+let's put our 3D cursor down here. You
+let's put our 3D cursor down here. You
+let's put our 3D cursor down here. You
+should probably be doing this in solid
+should probably be doing this in solid
+should probably be doing this in solid
+mode because it's a lot easier on your
+mode because it's a lot easier on your
+mode because it's a lot easier on your
+computer. And we're going to go add. I
+computer. And we're going to go add. I
+computer. And we're going to go add. I
+press shift because I go to press shift
+press shift because I go to press shift
+press shift because I go to press shift
+A because that's what I usually do to
+A because that's what I usually do to
+A because that's what I usually do to
+add things. U but because I want things
+add things. U but because I want things
+add things. U but because I want things
+to be a bit simpler, I'm not doing that
+to be a bit simpler, I'm not doing that
+to be a bit simpler, I'm not doing that
+today. I'm just using um S and E.
+today. I'm just using um S and E.
+today. I'm just using um S and E.
+[snorts] And then I've scaled that up so
+[snorts] And then I've scaled that up so
+[snorts] And then I've scaled that up so
+that it's covering our entire space. We
+that it's covering our entire space. We
+that it's covering our entire space. We
+can see in our um camera view. So let's
+can see in our um camera view. So let's
+can see in our um camera view. So let's
+head back over to our um rendered view.
+head back over to our um rendered view.
+head back over to our um rendered view.
+And this is looking pretty cute. Feeling
+And this is looking pretty cute. Feeling
+And this is looking pretty cute. Feeling
+good about it. Um so let me drag up this
+good about it. Um so let me drag up this
+good about it. Um so let me drag up this
+here. Now this is your timeline. If you
+here. Now this is your timeline. If you
+here. Now this is your timeline. If you
+had an animation, you'd be able to see
+had an animation, you'd be able to see
+had an animation, you'd be able to see
+it animating when you pressed play here.
+it animating when you pressed play here.
+it animating when you pressed play here.
+But obviously we have no animation, so
+But obviously we have no animation, so
+But obviously we have no animation, so
+we're not going to worry about that. But
+we're not going to worry about that. But
+we're not going to worry about that. But
+what we're going to do is we're going to
+what we're going to do is we're going to
+what we're going to do is we're going to
+click on where it says timeline up here
+click on where it says timeline up here
+click on where it says timeline up here
+in the left. And we have this little
+in the left. And we have this little
+in the left. And we have this little
+drop down. And now this gives us the
+drop down. And now this gives us the
+drop down. And now this gives us the
+option to choose any of the panels that
+option to choose any of the panels that
+option to choose any of the panels that
+you can choose from in Blender. So the
+you can choose from in Blender. So the
+you can choose from in Blender. So the
+panel that we want to pull up is our
+panel that we want to pull up is our
+panel that we want to pull up is our
+shader editor so that we can start
+shader editor so that we can start
+shader editor so that we can start
+adding materials into our scene. But the
+adding materials into our scene. But the
+adding materials into our scene. But the
+first thing we want to do is I don't
+first thing we want to do is I don't
+first thing we want to do is I don't
+like this shadow. I don't think it's
+like this shadow. I don't think it's
+like this shadow. I don't think it's
+cute. I don't want it to be there. So we
+cute. I don't want it to be there. So we
+cute. I don't want it to be there. So we
+need to move it. So what we're going to
+need to move it. So what we're going to
+need to move it. So what we're going to
+do that means that we need to rotate our
+do that means that we need to rotate our
+do that means that we need to rotate our
+HDRI. So we need to click on object here
+HDRI. So we need to click on object here
+HDRI. So we need to click on object here
+and we need to go into world here. And
+and we need to go into world here. And
+and we need to go into world here. And
+now we can see this is the image that's
+now we can see this is the image that's
+now we can see this is the image that's
+going into the background that's going
+going into the background that's going
+going into the background that's going
+into the surface of our world output. So
+into the surface of our world output. So
+into the surface of our world output. So
+this is um an HDRI is really just an
+this is um an HDRI is really just an
+this is um an HDRI is really just an
+image. So, it's that image that we saw
+image. So, it's that image that we saw
+image. So, it's that image that we saw
+um here is kind of being projected into
+um here is kind of being projected into
+um here is kind of being projected into
+our scene and giving us the light from
+our scene and giving us the light from
+our scene and giving us the light from
+that scene as if we were there in our
+that scene as if we were there in our
+that scene as if we were there in our
+Blender scene, but it needs to be
+Blender scene, but it needs to be
+Blender scene, but it needs to be
+rotated. So, [snorts] let's add in an
+rotated. So, [snorts] let's add in an
+rotated. So, [snorts] let's add in an
+add-on that's super useful. So, let's go
+add-on that's super useful. So, let's go
+add-on that's super useful. So, let's go
+up to edit preferences, and we're going
+up to edit preferences, and we're going
+up to edit preferences, and we're going
+to go to add-ons this time, and we're
+to go to add-ons this time, and we're
+to go to add-ons this time, and we're
+going to search in Node Wrangler, and
+going to search in Node Wrangler, and
+going to search in Node Wrangler, and
+we're going to turn that on. Now, this
+we're going to turn that on. Now, this
+we're going to turn that on. Now, this
+is super useful, and everybody always
+is super useful, and everybody always
+is super useful, and everybody always
+has it on. Um, so turn that guy on. Now
+has it on. Um, so turn that guy on. Now
+has it on. Um, so turn that guy on. Now
+we're going to come back to our shader
+we're going to come back to our shader
+we're going to come back to our shader
+editor and click onto our Lakeside
+editor and click onto our Lakeside
+editor and click onto our Lakeside
+Sunrise 4K EXR. And we're going to press
+Sunrise 4K EXR. And we're going to press
+Sunrise 4K EXR. And we're going to press
+CtrlT. And now that's added in a couple
+CtrlT. And now that's added in a couple
+CtrlT. And now that's added in a couple
+of extra nodes. Um, so Blender's
+of extra nodes. Um, so Blender's
+of extra nodes. Um, so Blender's
+material system runs on nodes. Each of
+material system runs on nodes. Each of
+material system runs on nodes. Each of
+these is a little node that has a bunch
+these is a little node that has a bunch
+these is a little node that has a bunch
+of code and things in that that you
+of code and things in that that you
+of code and things in that that you
+don't have to worry about. Thank god.
+don't have to worry about. Thank god.
+don't have to worry about. Thank god.
+Um, and we just get to change these
+Um, and we just get to change these
+Um, and we just get to change these
+parameters here to give the effect that
+parameters here to give the effect that
+parameters here to give the effect that
+we want on our material. So, we want to
+we want on our material. So, we want to
+we want on our material. So, we want to
+rotate it. So, I rotate it on the Z
+rotate it. So, I rotate it on the Z
+rotate it. So, I rotate it on the Z
+axis. And you can see that I'm just
+axis. And you can see that I'm just
+axis. And you can see that I'm just
+clicking and dragging here. And that
+clicking and dragging here. And that
+clicking and dragging here. And that
+that's moving where the sun is. So, I
+that's moving where the sun is. So, I
+that's moving where the sun is. So, I
+kind of like it around here. But then
+kind of like it around here. But then
+kind of like it around here. But then
+the shadow is pretty long. So, I'm also
+the shadow is pretty long. So, I'm also
+the shadow is pretty long. So, I'm also
+going to change the Y to like bring the
+going to change the Y to like bring the
+going to change the Y to like bring the
+sun um upwards a little bit cuz I think
+sun um upwards a little bit cuz I think
+sun um upwards a little bit cuz I think
+that that is nice. Oh yes, this is my
+that that is nice. Oh yes, this is my
+that that is nice. Oh yes, this is my
+favorite part. Um, so that starts to
+favorite part. Um, so that starts to
+favorite part. Um, so that starts to
+look pretty cute. Now everything's
+look pretty cute. Now everything's
+look pretty cute. Now everything's
+white, which isn't what we want. So
+white, which isn't what we want. So
+white, which isn't what we want. So
+we're still in our world in our shader
+we're still in our world in our shader
+we're still in our world in our shader
+editor. So let's head back to object so
+editor. So let's head back to object so
+editor. So let's head back to object so
+that we can edit our objects instead of
+that we can edit our objects instead of
+that we can edit our objects instead of
+our world. So click here and we'll go to
+our world. So click here and we'll go to
+our world. So click here and we'll go to
+object. Now let's start adding in our
+object. Now let's start adding in our
+object. Now let's start adding in our
+objects. Our materials or our objects.
+objects. Our materials or our objects.
+objects. Our materials or our objects.
+So click on whatever object you want to
+So click on whatever object you want to
+So click on whatever object you want to
+add a material and just click new here.
+add a material and just click new here.
+add a material and just click new here.
+And then bang, it's going to give you a
+And then bang, it's going to give you a
+And then bang, it's going to give you a
+white material. So, if you click on the
+white material. So, if you click on the
+white material. So, if you click on the
+base color here and you move this, then
+base color here and you move this, then
+base color here and you move this, then
+it's going to give you a different um
+it's going to give you a different um
+it's going to give you a different um
+color, which is nice. And then we'll
+color, which is nice. And then we'll
+color, which is nice. And then we'll
+also be mcking with our metallicness and
+also be mcking with our metallicness and
+also be mcking with our metallicness and
+our roughness of these objects. So, if I
+our roughness of these objects. So, if I
+our roughness of these objects. So, if I
+go all the way up and make it super
+go all the way up and make it super
+go all the way up and make it super
+metallic, you can see it looks kind of
+metallic, you can see it looks kind of
+metallic, you can see it looks kind of
+like metal. And then if we bring that
+like metal. And then if we bring that
+like metal. And then if we bring that
+back down and if we change our
+back down and if we change our
+back down and if we change our
+roughness, you can see it makes it like
+roughness, you can see it makes it like
+roughness, you can see it makes it like
+super shiny or not shiny. I don't want
+super shiny or not shiny. I don't want
+super shiny or not shiny. I don't want
+that metallicness up at all. So, for our
+that metallicness up at all. So, for our
+that metallicness up at all. So, for our
+grass, I don't really want it to be like
+grass, I don't really want it to be like
+grass, I don't really want it to be like
+shiny. So, I think we're going to keep
+shiny. So, I think we're going to keep
+shiny. So, I think we're going to keep
+it at like a normal level. Um, and
+it at like a normal level. Um, and
+it at like a normal level. Um, and
+metallicness off. And then let's do the
+metallicness off. And then let's do the
+metallicness off. And then let's do the
+same thing. And actually, let's name
+same thing. And actually, let's name
+same thing. And actually, let's name
+this because we're being good about
+this because we're being good about
+this because we're being good about
+naming things. Um, so that's called
+naming things. Um, so that's called
+naming things. Um, so that's called
+material 001. Now, let's just click on
+material 001. Now, let's just click on
+material 001. Now, let's just click on
+that name, backspace, and change it to
+that name, backspace, and change it to
+that name, backspace, and change it to
+grass. And then now if we wanted to
+grass. And then now if we wanted to
+grass. And then now if we wanted to
+change our grass, we can also go there
+change our grass, we can also go there
+change our grass, we can also go there
+and instead of clicking new, we'll click
+and instead of clicking new, we'll click
+and instead of clicking new, we'll click
+on this little drop down here because we
+on this little drop down here because we
+on this little drop down here because we
+can see the materials we already have.
+can see the materials we already have.
+can see the materials we already have.
+It's not showing me the preview, but it
+It's not showing me the preview, but it
+It's not showing me the preview, but it
+says grass. So we can just click grass
+says grass. So we can just click grass
+says grass. So we can just click grass
+and that will apply that. Now, we
+and that will apply that. Now, we
+and that will apply that. Now, we
+obviously want all of our grasses to be
+obviously want all of our grasses to be
+obviously want all of our grasses to be
+the same. Um, so we're going to do that
+the same. Um, so we're going to do that
+the same. Um, so we're going to do that
+same method I showed before of linking
+same method I showed before of linking
+same method I showed before of linking
+our materials. So, select all of your
+our materials. So, select all of your
+our materials. So, select all of your
+grasses or everything that you want to
+grasses or everything that you want to
+grasses or everything that you want to
+be that same green. Select them all. So,
+be that same green. Select them all. So,
+be that same green. Select them all. So,
+I'm just holding shift and I'm left
+I'm just holding shift and I'm left
+I'm just holding shift and I'm left
+clicking. Um, and that's how we're
+clicking. Um, and that's how we're
+clicking. Um, and that's how we're
+getting all of those selected at once.
+getting all of those selected at once.
+getting all of those selected at once.
+And then for the final selection, you
+And then for the final selection, you
+And then for the final selection, you
+want to shift and click on that one with
+want to shift and click on that one with
+want to shift and click on that one with
+the green. And that will have that
+the green. And that will have that
+the green. And that will have that
+orange outline where the rest of them
+orange outline where the rest of them
+orange outline where the rest of them
+will have that kind of ready outline.
+will have that kind of ready outline.
+will have that kind of ready outline.
+We're going to go object
+We're going to go object
+We're going to go object
+um link and then we're going to go link
+um link and then we're going to go link
+um link and then we're going to go link
+materials. And then that's going to make
+materials. And then that's going to make
+materials. And then that's going to make
+those all nice and green here. Um now
+those all nice and green here. Um now
+those all nice and green here. Um now
+before we go too much further, um I also
+before we go too much further, um I also
+before we go too much further, um I also
+want to change um my render settings a
+want to change um my render settings a
+want to change um my render settings a
+little bit. I didn't do this before. So
+little bit. I didn't do this before. So
+little bit. I didn't do this before. So
+we're going into our properties uh
+we're going into our properties uh
+we're going into our properties uh
+panel. We're going to render and we're
+panel. We're going to render and we're
+panel. We're going to render and we're
+heading down to color management at the
+heading down to color management at the
+heading down to color management at the
+bottom. We're keeping it as sRGB, but
+bottom. We're keeping it as sRGB, but
+bottom. We're keeping it as sRGB, but
+we're going to change our view to
+we're going to change our view to
+we're going to change our view to
+Filmic. You can see it just makes it a
+Filmic. You can see it just makes it a
+Filmic. You can see it just makes it a
+little bit more vibrant. So then we
+little bit more vibrant. So then we
+little bit more vibrant. So then we
+don't have to go into Photoshop later on
+don't have to go into Photoshop later on
+don't have to go into Photoshop later on
+and start to edit things in Photoshop.
+and start to edit things in Photoshop.
+and start to edit things in Photoshop.
+We can kind of like keep our workspace
+We can kind of like keep our workspace
+We can kind of like keep our workspace
+here in Blender, which is really
+here in Blender, which is really
+here in Blender, which is really
+convenient. I also usually like to have
+convenient. I also usually like to have
+convenient. I also usually like to have
+my exposure a little bit higher. You can
+my exposure a little bit higher. You can
+my exposure a little bit higher. You can
+start mcking with curves and things like
+start mcking with curves and things like
+start mcking with curves and things like
+that as well if you kind of want to have
+that as well if you kind of want to have
+that as well if you kind of want to have
+um different things be a bit more
+um different things be a bit more
+um different things be a bit more
+saturated.
+saturated.
+saturated.
+Um yeah, an S-curve is usually a very
+Um yeah, an S-curve is usually a very
+Um yeah, an S-curve is usually a very
+popular um option for these kind of
+popular um option for these kind of
+popular um option for these kind of
+edits. So, we want a brown for our
+edits. So, we want a brown for our
+edits. So, we want a brown for our
+grass. So, let's go and add in a new one
+grass. So, let's go and add in a new one
+grass. So, let's go and add in a new one
+there because we don't want, you know,
+there because we don't want, you know,
+there because we don't want, you know,
+we don't want it to be grain. So, then
+we don't want it to be grain. So, then
+we don't want it to be grain. So, then
+we're going to just like choose a nice
+we're going to just like choose a nice
+we're going to just like choose a nice
+brown here. You can adjust these however
+brown here. You can adjust these however
+brown here. You can adjust these however
+you like. I also like to um use these
+you like. I also like to um use these
+you like. I also like to um use these
+sliders here. I've been using those a
+sliders here. I've been using those a
+sliders here. I've been using those a
+lot more recently.
+lot more recently.
+lot more recently.
+So, that's quite nice, I reckon. So,
+So, that's quite nice, I reckon. So,
+So, that's quite nice, I reckon. So,
+let's just go dirt for that one. Um and
+let's just go dirt for that one. Um and
+let's just go dirt for that one. Um and
+then we'll click on our trunk and let's
+then we'll click on our trunk and let's
+then we'll click on our trunk and let's
+add in a new one again. And then we kind
+add in a new one again. And then we kind
+add in a new one again. And then we kind
+of want like a lighter sort of like it's
+of want like a lighter sort of like it's
+of want like a lighter sort of like it's
+still brown
+still brown
+still brown
+but maybe a bit more
+but maybe a bit more
+but maybe a bit more
+light. So, that's looking good. Let's
+light. So, that's looking good. Let's
+light. So, that's looking good. Let's
+call that one trunk.
+call that one trunk.
+call that one trunk.
+[snorts] And then we're I'm going to go
+[snorts] And then we're I'm going to go
+[snorts] And then we're I'm going to go
+trunk for that one as well. And then we
+trunk for that one as well. And then we
+trunk for that one as well. And then we
+want to have these like pink bowls up
+want to have these like pink bowls up
+want to have these like pink bowls up
+here. [snorts] Now, I want this to be
+here. [snorts] Now, I want this to be
+here. [snorts] Now, I want this to be
+like really pink and beautiful. And then
+like really pink and beautiful. And then
+like really pink and beautiful. And then
+we're going to turn the roughness all
+we're going to turn the roughness all
+we're going to turn the roughness all
+the way down here because I think this
+the way down here because I think this
+the way down here because I think this
+is just a creative choice. I think that
+is just a creative choice. I think that
+is just a creative choice. I think that
+the roughness being low is really
+the roughness being low is really
+the roughness being low is really
+pretty. Um, so let's kind of go what
+pretty. Um, so let's kind of go what
+pretty. Um, so let's kind of go what
+what are we going to call these? Like
+what are we going to call these? Like
+what are we going to call these? Like
+pink pink balls.
+pink pink balls.
+pink pink balls.
+And then I think I want my petals to be
+And then I think I want my petals to be
+And then I think I want my petals to be
+a bit of a lighter pink. I think I don't
+a bit of a lighter pink. I think I don't
+a bit of a lighter pink. I think I don't
+want them to kind of like take too much
+want them to kind of like take too much
+want them to kind of like take too much
+attention away from the balls up here.
+attention away from the balls up here.
+attention away from the balls up here.
+Um, but I'm also going to change the
+Um, but I'm also going to change the
+Um, but I'm also going to change the
+roughness actually to zero, I think, cuz
+roughness actually to zero, I think, cuz
+roughness actually to zero, I think, cuz
+I think that's cuter. Petals, we'll call
+I think that's cuter. Petals, we'll call
+I think that's cuter. Petals, we'll call
+that. And then, you know, we're going to
+that. And then, you know, we're going to
+that. And then, you know, we're going to
+link these. So, again, I'm holding down
+link these. So, again, I'm holding down
+link these. So, again, I'm holding down
+shift and I'm just clicking on all of
+shift and I'm just clicking on all of
+shift and I'm just clicking on all of
+these so that we don't have to add the
+these so that we don't have to add the
+these so that we don't have to add the
+material individually. And then the
+material individually. And then the
+material individually. And then the
+final one, we're clicking on the one
+final one, we're clicking on the one
+final one, we're clicking on the one
+that already has the color object link
+that already has the color object link
+that already has the color object link
+link materials. Perfect. And then we're
+link materials. Perfect. And then we're
+link materials. Perfect. And then we're
+going to go to our like uh water. New.
+going to go to our like uh water. New.
+going to go to our like uh water. New.
+And then we're going to choose like a
+And then we're going to choose like a
+And then we're going to choose like a
+like a like a turquoise. And now we're
+like a like a turquoise. And now we're
+like a like a turquoise. And now we're
+going to turn our roughness all the way
+going to turn our roughness all the way
+going to turn our roughness all the way
+down and our metallic all the way up. Um
+down and our metallic all the way up. Um
+down and our metallic all the way up. Um
+you can like use like a glass shader
+you can like use like a glass shader
+you can like use like a glass shader
+here, but it's too hard on the computer.
+here, but it's too hard on the computer.
+here, but it's too hard on the computer.
+My final touches that I personally love
+My final touches that I personally love
+My final touches that I personally love
+is I always love to add in a little bit
+is I always love to add in a little bit
+is I always love to add in a little bit
+of depth of field. And then if you click
+of depth of field. And then if you click
+of depth of field. And then if you click
+on the edge, it selects your camera. So
+on the edge, it selects your camera. So
+on the edge, it selects your camera. So
+let's go down to our camera here. And
+let's go down to our camera here. And
+let's go down to our camera here. And
+then we're going to turn on depth of
+then we're going to turn on depth of
+then we're going to turn on depth of
+field. But you can choose your focus
+field. But you can choose your focus
+field. But you can choose your focus
+distance. So let's just go with our tree
+distance. So let's just go with our tree
+distance. So let's just go with our tree
+trunk there. Um, so we're just turning
+trunk there. Um, so we're just turning
+trunk there. Um, so we're just turning
+down our f-stop here. So now what we
+down our f-stop here. So now what we
+down our f-stop here. So now what we
+need to do is get it into a format that
+need to do is get it into a format that
+need to do is get it into a format that
+we can upload to Instagram, share with
+we can upload to Instagram, share with
+we can upload to Instagram, share with
+our friends, send to our clients, you
+our friends, send to our clients, you
+our friends, send to our clients, you
+know, it depends what we're doing. Um,
+know, it depends what we're doing. Um,
+know, it depends what we're doing. Um,
+so we'll just go into our render mode
+so we'll just go into our render mode
+so we'll just go into our render mode
+again here and just double check that
+again here and just double check that
+again here and just double check that
+our samples are kind of low. I feel like
+our samples are kind of low. I feel like
+our samples are kind of low. I feel like
+this is all that I'm worried about at
+this is all that I'm worried about at
+this is all that I'm worried about at
+the moment. But once we're happy with
+the moment. But once we're happy with
+the moment. But once we're happy with
+all of our settings here, um, what we're
+all of our settings here, um, what we're
+all of our settings here, um, what we're
+going to do is we're going to click up
+going to do is we're going to click up
+going to do is we're going to click up
+on render here and we're just going to
+on render here and we're just going to
+on render here and we're just going to
+choose render image since we don't have
+choose render image since we don't have
+choose render image since we don't have
+an animation. We're just going to click
+an animation. We're just going to click
+an animation. We're just going to click
+render image. Again, make sure you save
+render image. Again, make sure you save
+render image. Again, make sure you save
+here. Ctrl S. Um, this is a really
+here. Ctrl S. Um, this is a really
+here. Ctrl S. Um, this is a really
+important place to save because you can
+important place to save because you can
+important place to save because you can
+crash here. And click render image. And
+crash here. And click render image. And
+crash here. And click render image. And
+now hopefully you've been patient. Um,
+now hopefully you've been patient. Um,
+now hopefully you've been patient. Um,
+and this has rendered and your computer
+and this has rendered and your computer
+and this has rendered and your computer
+hasn't crashed. Um, and then to save it
+hasn't crashed. Um, and then to save it
+hasn't crashed. Um, and then to save it
+out, we go image here and we go save as.
+out, we go image here and we go save as.
+out, we go image here and we go save as.
+And you can choose to save it as a PNG.
+And you can choose to save it as a PNG.
+And you can choose to save it as a PNG.
+This is I think this setup is fine. And
+This is I think this setup is fine. And
+This is I think this setup is fine. And
+you can just call this render. We'll go
+you can just call this render. We'll go
+you can just call this render. We'll go
+save image. And then let's check it out.
+save image. And then let's check it out.
+save image. And then let's check it out.
+And then beautiful. Well,
+And then beautiful. Well,
+And then beautiful. Well,
+congratulations on finishing your first
+congratulations on finishing your first
+congratulations on finishing your first
+Blender tutorial. I hope that you have a
+Blender tutorial. I hope that you have a
+Blender tutorial. I hope that you have a
+super cute render that you're happy
+super cute render that you're happy
+super cute render that you're happy
+with. Um, please feel free to upload it
+with. Um, please feel free to upload it
+with. Um, please feel free to upload it
+onto Instagram and tag me at lana.e and
+onto Instagram and tag me at lana.e and
+onto Instagram and tag me at lana.e and
+I will reshare it onto my page. Um, if
+I will reshare it onto my page. Um, if
+I will reshare it onto my page. Um, if
+you want to buy the project file for
+you want to buy the project file for
+you want to buy the project file for
+this tutorial, it's on Gumroad and you
+this tutorial, it's on Gumroad and you
+this tutorial, it's on Gumroad and you
+can purchase it there for like5
+can purchase it there for like5
+can purchase it there for like5
+Australian dollars. I also have a couple
+Australian dollars. I also have a couple
+Australian dollars. I also have a couple
+of other a bit more tricky tutorials
+of other a bit more tricky tutorials
+of other a bit more tricky tutorials
+that I've made that are also a little
+that I've made that are also a little
+that I've made that are also a little
+bit longer. Um, so if you are keen on
+bit longer. Um, so if you are keen on
+bit longer. Um, so if you are keen on
+really getting into the nitty-gritty and
+really getting into the nitty-gritty and
+really getting into the nitty-gritty and
+expanding on your skills, I'd suggest
+expanding on your skills, I'd suggest
+expanding on your skills, I'd suggest
+watching those other tutorials as well.
+watching those other tutorials as well.
+watching those other tutorials as well.
+Um, don't forget to like and subscribe.
+Um, don't forget to like and subscribe.
+Um, don't forget to like and subscribe.
+I post tutorials and I also post like 3D
+I post tutorials and I also post like 3D
+I post tutorials and I also post like 3D
+art lifestyle content. Comment, reach
+art lifestyle content. Comment, reach
+art lifestyle content. Comment, reach
+out, let me know how you went. I love
+out, let me know how you went. I love
+out, let me know how you went. I love
+seeing people's renders. It makes me
+seeing people's renders. It makes me
+seeing people's renders. It makes me
+really happy when people send me their
+really happy when people send me their
+really happy when people send me their
+renders. Smash that subscribe button, as
+renders. Smash that subscribe button, as
+renders. Smash that subscribe button, as
+they say. Um, and I'll see you in the
+they say. Um, and I'll see you in the
+they say. Um, and I'll see you in the
+next

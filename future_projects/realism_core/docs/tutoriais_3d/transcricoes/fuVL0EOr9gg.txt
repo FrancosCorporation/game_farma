@@ -1,0 +1,560 @@
+Kind: captions
+Language: en
+A new army just walked onto the
+A new army just walked onto the
+A new army just walked onto the
+tabletop. Carnivorous plants in iron
+tabletop. Carnivorous plants in iron
+tabletop. Carnivorous plants in iron
+bark armor.
+Seed pod cannons, a pack of leaping
+Seed pod cannons, a pack of leaping
+Seed pod cannons, a pack of leaping
+predators frozen mid-pounce. Here's the
+predators frozen mid-pounce. Here's the
+predators frozen mid-pounce. Here's the
+part that matters. A real miniature
+part that matters. A real miniature
+part that matters. A real miniature
+studio would put a team of sculptors on
+studio would put a team of sculptors on
+studio would put a team of sculptors on
+a faction like this for months. I
+a faction like this for months. I
+a faction like this for months. I
+designed this entire range alone in a
+designed this entire range alone in a
+designed this entire range alone in a
+weekend. 
+weekend. 
+weekend. 
+And every single model you're about to
+And every single model you're about to
+And every single model you're about to
+see came out of one platform. No ZBrush
+see came out of one platform. No ZBrush
+see came out of one platform. No ZBrush
+marathon, no outsourcing. One guy, one
+marathon, no outsourcing. One guy, one
+marathon, no outsourcing. One guy, one
+tool, 
+tool, 
+tool, 
+one original fiction inspired by
+one original fiction inspired by
+one original fiction inspired by
+Warhammer 40K, built from nothing. This
+Warhammer 40K, built from nothing. This
+Warhammer 40K, built from nothing. This
+is the empire of the plants. The design
+is the empire of the plants. The design
+is the empire of the plants. The design
+brief I wrote for myself was simple.
+brief I wrote for myself was simple.
+brief I wrote for myself was simple.
+What if a forest decided to conquer the
+What if a forest decided to conquer the
+What if a forest decided to conquer the
+galaxy? Ironwood bark that grows like
+galaxy? Ironwood bark that grows like
+galaxy? Ironwood bark that grows like
+forged armor plates, blade leaves, root
+forged armor plates, blade leaves, root
+forged armor plates, blade leaves, root
+tendril muscle, seed pods glowing with
+tendril muscle, seed pods glowing with
+tendril muscle, seed pods glowing with
+toxic green sap. Look at the consistency
+toxic green sap. Look at the consistency
+toxic green sap. Look at the consistency
+across the range. The warrior, the
+across the range. The warrior, the
+across the range. The warrior, the
+sergeant, the Bloom Guard Elite, the
+sergeant, the Bloom Guard Elite, the
+sergeant, the Bloom Guard Elite, the
+Spore Leaper Pack. Same bark, same
+Spore Leaper Pack. Same bark, same
+Spore Leaper Pack. Same bark, same
+thorns, same sickly green light on every
+thorns, same sickly green light on every
+thorns, same sickly green light on every
+unit. That consistency is not luck. It's
+unit. That consistency is not luck. It's
+unit. That consistency is not luck. It's
+the whole system I'm about to show you.
+the whole system I'm about to show you.
+the whole system I'm about to show you.
+Everything in this  video happens
+Everything in this  video happens
+Everything in this  video happens
+inside Tripo. If you haven't looked at
+inside Tripo. If you haven't looked at
+inside Tripo. If you haven't looked at
+Tripo since last year, it is not the
+Tripo since last year, it is not the
+Tripo since last year, it is not the
+same product. It's now a full 3D
+same product. It's now a full 3D
+same product. It's now a full 3D
+workspace used by over 6 and 1/2 million
+workspace used by over 6 and 1/2 million
+workspace used by over 6 and 1/2 million
+people. And the March update added the
+people. And the March update added the
+people. And the March update added the
+two things this project lives on. A
+two things this project lives on. A
+two things this project lives on. A
+brand new mode called Smart Mesh and a
+brand new mode called Smart Mesh and a
+brand new mode called Smart Mesh and a
+serious upgrade to their flagship called
+serious upgrade to their flagship called
+serious upgrade to their flagship called
+HD model H 3.1. My pipeline has five
+HD model H 3.1. My pipeline has five
+HD model H 3.1. My pipeline has five
+steps. Build the faction bible, test
+steps. Build the faction bible, test
+steps. Build the faction bible, test
+silhouettes, generate the hero models,
+silhouettes, generate the hero models,
+silhouettes, generate the hero models,
+clean them up, and bring them to life.
+clean them up, and bring them to life.
+clean them up, and bring them to life.
+And I'm going to be straight with you
+And I'm going to be straight with you
+And I'm going to be straight with you
+about where each mode is the right call
+about where each mode is the right call
+about where each mode is the right call
+and where it isn't. Because using the
+and where it isn't. Because using the
+and where it isn't. Because using the
+wrong mode wastes your credits. Step
+wrong mode wastes your credits. Step
+wrong mode wastes your credits. Step
+one, and this is the step everyone
+one, and this is the step everyone
+one, and this is the step everyone
+skips. Before you touch 3D, you write a
+skips. Before you touch 3D, you write a
+skips. Before you touch 3D, you write a
+faction Bible. Mine is one paragraph, a
+faction Bible. Mine is one paragraph, a
+faction Bible. Mine is one paragraph, a
+style block that defines the bark, the
+style block that defines the bark, the
+style block that defines the bark, the
+thorns, the sap, the color palette,
+thorns, the sap, the color palette,
+thorns, the sap, the color palette,
+ and I pre-pended it to every
+ and I pre-pended it to every
+ and I pre-pended it to every
+single prompt. That's the consistency
+single prompt. That's the consistency
+single prompt. That's the consistency
+trick. Now, here's why I'm doing this
+trick. Now, here's why I'm doing this
+trick. Now, here's why I'm doing this
+inside Trypo instead of a separate image
+inside Trypo instead of a separate image
+inside Trypo instead of a separate image
+tool. The image generation module runs
+tool. The image generation module runs
+tool. The image generation module runs
+Nano Banana or GPT right inside the
+Nano Banana or GPT right inside the
+Nano Banana or GPT right inside the
+platform. So, my reference images live
+platform. So, my reference images live
+platform. So, my reference images live
+in the same project as my 3D
+in the same project as my 3D
+in the same project as my 3D
+generations. I generate four to six
+generations. I generate four to six
+generations. I generate four to six
+variants per unit, and I only keep the
+variants per unit, and I only keep the
+variants per unit, and I only keep the
+ones with a strong silhouette. And this
+ones with a strong silhouette. And this
+ones with a strong silhouette. And this
+feature genuinely saved me hours. Pose
+feature genuinely saved me hours. Pose
+feature genuinely saved me hours. Pose
+conversion. My favorite concept came out
+conversion. My favorite concept came out
+conversion. My favorite concept came out
+mid-swing. Great image, terrible
+mid-swing. Great image, terrible
+mid-swing. Great image, terrible
+modeling reference. One click, Trypo
+modeling reference. One click, Trypo
+modeling reference. One click, Trypo
+converts it to a neutral pose
+converts it to a neutral pose
+converts it to a neutral pose
+turnaround. That turnaround becomes the
+turnaround. That turnaround becomes the
+turnaround. That turnaround becomes the
+input for the 3D stage. Concept to clean
+input for the 3D stage. Concept to clean
+input for the 3D stage. Concept to clean
+reference without ever leaving the
+reference without ever leaving the
+reference without ever leaving the
+project. Step two is where the new smart
+project. Step two is where the new smart
+project. Step two is where the new smart
+mesh mode earns its place. Smart mesh
+mesh mode earns its place. Smart mesh
+mesh mode earns its place. Smart mesh
+generates a white model, around 5,000
+generates a white model, around 5,000
+generates a white model, around 5,000
+faces, no textures, clean topology, in
+faces, no textures, clean topology, in
+faces, no textures, clean topology, in
+seconds. And that speed changes how you
+seconds. And that speed changes how you
+seconds. And that speed changes how you
+design. In tabletop, silhouette is
+design. In tabletop, silhouette is
+design. In tabletop, silhouette is
+everything. If you can't identify a unit
+everything. If you can't identify a unit
+everything. If you can't identify a unit
+at arms length on the table, the design
+at arms length on the table, the design
+at arms length on the table, the design
+has failed.
+So, I run every unit through smart mesh
+So, I run every unit through smart mesh
+So, I run every unit through smart mesh
+first, shrink the render down to
+first, shrink the render down to
+first, shrink the render down to
+thumbnail size, and if I can still
+thumbnail size, and if I can still
+thumbnail size, and if I can still
+instantly tell the Bloomguard from the
+instantly tell the Bloomguard from the
+instantly tell the Bloomguard from the
+warrior, the silhouette works at 32 mm.
+warrior, the silhouette works at 32 mm.
+warrior, the silhouette works at 32 mm.
+If not, I've burned seconds, not
+If not, I've burned seconds, not
+If not, I've burned seconds, not
+minutes, and almost no credits. Look at
+minutes, and almost no credits. Look at
+minutes, and almost no credits. Look at
+this wireframe. This is not the melted
+this wireframe. This is not the melted
+this wireframe. This is not the melted
+geometry soup you might remember from
+geometry soup you might remember from
+geometry soup you might remember from
+early AI 3D. This is structured low-poly
+early AI 3D. This is structured low-poly
+early AI 3D. This is structured low-poly
+game engine ready topology. If you're
+game engine ready topology. If you're
+game engine ready topology. If you're
+building for real-time games, web, AR,
+building for real-time games, web, AR,
+building for real-time games, web, AR,
+smart mesh output is usable as is. Step
+smart mesh output is usable as is. Step
+smart mesh output is usable as is. Step
+three, the hero pass. The silhouette is
+three, the hero pass. The silhouette is
+three, the hero pass. The silhouette is
+locked, so now, and only now, I spend
+locked, so now, and only now, I spend
+locked, so now, and only now, I spend
+the real credits. HD model H 3.1 is
+the real credits. HD model H 3.1 is
+the real credits. HD model H 3.1 is
+Tripo's high-fidelity mode, and this is
+Tripo's high-fidelity mode, and this is
+Tripo's high-fidelity mode, and this is
+the March upgrade doing the work. Look
+the March upgrade doing the work. Look
+the March upgrade doing the work. Look
+at the geometric precision on those
+at the geometric precision on those
+at the geometric precision on those
+overlapping bark plates. Look at the
+overlapping bark plates. Look at the
+overlapping bark plates. Look at the
+texture clarity on the sap channels.
+texture clarity on the sap channels.
+texture clarity on the sap channels.
+This is roughly 1.9 million faces of
+This is roughly 1.9 million faces of
+This is roughly 1.9 million faces of
+production-grade geometry with full PBR
+production-grade geometry with full PBR
+production-grade geometry with full PBR
+textures generated from a single
+textures generated from a single
+textures generated from a single
+reference image. Here's my honest review
+reference image. Here's my honest review
+reference image. Here's my honest review
+on the two modes because this is the
+on the two modes because this is the
+on the two modes because this is the
+question everyone asks. Smart mesh is
+question everyone asks. Smart mesh is
+question everyone asks. Smart mesh is
+for speed, iteration, and real-time
+for speed, iteration, and real-time
+for speed, iteration, and real-time
+assets. HD is for hero pieces, the
+assets. HD is for hero pieces, the
+assets. HD is for hero pieces, the
+models you're going to render, print, or
+models you're going to render, print, or
+models you're going to render, print, or
+put on a store page. You want both in
+put on a store page. You want both in
+put on a store page. You want both in
+one pipeline. Draft in smart mesh,
+one pipeline. Draft in smart mesh,
+one pipeline. Draft in smart mesh,
+commit in HD. That two-mode workflow is
+commit in HD. That two-mode workflow is
+commit in HD. That two-mode workflow is
+the single biggest reason this project
+the single biggest reason this project
+the single biggest reason this project
+took a weekend instead of a month.
+took a weekend instead of a month.
+took a weekend instead of a month.
+Step four is the unglamorous part nobody
+Step four is the unglamorous part nobody
+Step four is the unglamorous part nobody
+shows you, which is exactly why I'm
+shows you, which is exactly why I'm
+shows you, which is exactly why I'm
+showing you. First, segment. One click,
+showing you. First, segment. One click,
+showing you. First, segment. One click,
+and Tripo splits the model into
+and Tripo splits the model into
+and Tripo splits the model into
+independent parts. For me, that means
+independent parts. For me, that means
+independent parts. For me, that means
+the Bloom Guard's giant amber blade
+the Bloom Guard's giant amber blade
+the Bloom Guard's giant amber blade
+becomes its own piece, which matters if
+becomes its own piece, which matters if
+becomes its own piece, which matters if
+you ever want to print this because
+you ever want to print this because
+you ever want to print this because
+free-floating fine detail dies in
+free-floating fine detail dies in
+free-floating fine detail dies in
+molding.  Thorns that connect
+molding.  Thorns that connect
+molding.  Thorns that connect
+back to the body survive. A detached
+back to the body survive. A detached
+back to the body survive. A detached
+vine doesn't. Second, retopology. My HD
+vine doesn't. Second, retopology. My HD
+vine doesn't. Second, retopology. My HD
+Spore Leaper is 2 million faces.
+Spore Leaper is 2 million faces.
+Spore Leaper is 2 million faces.
+Beautiful, but you cannot rig that
+Beautiful, but you cannot rig that
+Beautiful, but you cannot rig that
+efficiently. Retopo lays down clean,
+efficiently. Retopo lays down clean,
+efficiently. Retopo lays down clean,
+animation-friendly topology
+animation-friendly topology
+animation-friendly topology
+automatically. And third, the 8K texture
+automatically. And third, the 8K texture
+automatically. And third, the 8K texture
+engine with magic brush. This shoulder
+engine with magic brush. This shoulder
+engine with magic brush. This shoulder
+plate came out slightly muddy. So,
+plate came out slightly muddy. So,
+plate came out slightly muddy. So,
+instead of regenerating the entire model
+instead of regenerating the entire model
+instead of regenerating the entire model
+and losing everything that was already
+and losing everything that was already
+and losing everything that was already
+right, I brush over just that area and
+right, I brush over just that area and
+right, I brush over just that area and
+let it restore the detail locally.
+let it restore the detail locally.
+let it restore the detail locally.
+Targeted fixes. That's the difference
+Targeted fixes. That's the difference
+Targeted fixes. That's the difference
+between a toy and a tool. Step five is
+between a toy and a tool. Step five is
+between a toy and a tool. Step five is
+my favorite thing in this entire
+my favorite thing in this entire
+my favorite thing in this entire
+pipeline.
+pipeline.
+pipeline.
+&gt;&gt; 
+&gt;&gt; 
+&gt;&gt; 
+&gt;&gt; The Spore Leaper is the faction's fast
+&gt;&gt; The Spore Leaper is the faction's fast
+&gt;&gt; The Spore Leaper is the faction's fast
+attack unit, And a fast attack model
+attack unit, And a fast attack model
+attack unit, And a fast attack model
+standing flat footed is a boring model.
+standing flat footed is a boring model.
+standing flat footed is a boring model.
+So watch this. Auto rigging. And yes, it
+So watch this. Auto rigging. And yes, it
+So watch this. Auto rigging. And yes, it
+handles quadrupeds, not just humanoids.
+handles quadrupeds, not just humanoids.
+handles quadrupeds, not just humanoids.
+Then I pull a leap from Mixamo's mocap
+Then I pull a leap from Mixamo's mocap
+Then I pull a leap from Mixamo's mocap
+animation library, and my carnivorous
+animation library, and my carnivorous
+animation library, and my carnivorous
+plant panther is genuinely running.
+plant panther is genuinely running.
+plant panther is genuinely running.
+Now here's the feature that solves a
+Now here's the feature that solves a
+Now here's the feature that solves a
+problem miniature designers have had
+problem miniature designers have had
+problem miniature designers have had
+forever. Lock frame export. I scrub the
+forever. Lock frame export. I scrub the
+forever. Lock frame export. I scrub the
+animation, find the exact apex of the
+animation, find the exact apex of the
+animation, find the exact apex of the
+pounce, that one frame where the
+pounce, that one frame where the
+pounce, that one frame where the
+silhouette is perfect, and freeze it.
+silhouette is perfect, and freeze it.
+silhouette is perfect, and freeze it.
+Mixamo exports that single frame as a
+Mixamo exports that single frame as a
+Mixamo exports that single frame as a
+static 3D model. No manual
+static 3D model. No manual
+static 3D model. No manual
+repositioning, no sculpting the pose by
+repositioning, no sculpting the pose by
+repositioning, no sculpting the pose by
+hand. That's how I got three different
+hand. That's how I got three different
+hand. That's how I got three different
+pounce poses for the pack. Pick a frame,
+pounce poses for the pack. Pick a frame,
+pounce poses for the pack. Pick a frame,
+lock it, export, done. If you're into 3D
+lock it, export, done. If you're into 3D
+lock it, export, done. If you're into 3D
+printing, this feature alone is worth
+printing, this feature alone is worth
+printing, this feature alone is worth
+the subscription.  Dynamic poses
+the subscription.  Dynamic poses
+the subscription.  Dynamic poses
+straight to printable models. One guy,
+straight to printable models. One guy,
+straight to printable models. One guy,
+one weekend, one original faction that
+one weekend, one original faction that
+one weekend, one original faction that
+looks like  it shipped from a
+looks like  it shipped from a
+looks like  it shipped from a
+real studio. Concept art, silhouette
+real studio. Concept art, silhouette
+real studio. Concept art, silhouette
+drafts, hero models, cleanup, rigging,
+drafts, hero models, cleanup, rigging,
+drafts, hero models, cleanup, rigging,
+and print ready poses, all in one
+and print ready poses, all in one
+and print ready poses, all in one
+platform. Mixamo sponsored this video,
+platform. Mixamo sponsored this video,
+platform. Mixamo sponsored this video,
+and here's the honest bottom line I'd
+and here's the honest bottom line I'd
+and here's the honest bottom line I'd
+give you, even if they hadn't. The smart
+give you, even if they hadn't. The smart
+give you, even if they hadn't. The smart
+mesh to HD workflow is currently the
+mesh to HD workflow is currently the
+mesh to HD workflow is currently the
+fastest path I know from an idea in your
+fastest path I know from an idea in your
+fastest path I know from an idea in your
+head to a model on your screen. If you
+head to a model on your screen. If you
+head to a model on your screen. If you
+want to build your own faction, my
+want to build your own faction, my
+want to build your own faction, my
+invite link in the description gets you
+invite link in the description gets you
+invite link in the description gets you
+500 bonus credits on Mixamo. And with
+500 bonus credits on Mixamo. And with
+500 bonus credits on Mixamo. And with
+the code Mixamo crew, new users get 60%
+the code Mixamo crew, new users get 60%
+the code Mixamo crew, new users get 60%
+off. That's pro for under $8 in your
+off. That's pro for under $8 in your
+off. That's pro for under $8 in your
+first month, with every feature I just
+first month, with every feature I just
+first month, with every feature I just
+showed you unlocked. Drop your faction
+showed you unlocked. Drop your faction
+showed you unlocked. Drop your faction
+idea in the comments. I read all of
+idea in the comments. I read all of
+idea in the comments. I read all of
+them. And honestly, I might build the
+them. And honestly, I might build the
+them. And honestly, I might build the
+best one. Keep creating, build your
+best one. Keep creating, build your
+best one. Keep creating, build your
+systems, and I'll see you in the next
+systems, and I'll see you in the next
+systems, and I'll see you in the next
+one.

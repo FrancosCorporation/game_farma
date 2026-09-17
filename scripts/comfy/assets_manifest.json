@@ -1,0 +1,295 @@
+{
+ "version": 1,
+ "generated": "2026-09-15T14:57:54.111Z",
+ "assets": [
+  {
+   "id": "nelson_infarto",
+   "kind": "character",
+   "nome": "Seu Nelson",
+   "idade": 58,
+   "sexo": "male",
+   "ref": "refs/nelson_infarto.png",
+   "out": "public/models/stylized/nelson_infarto.glb",
+   "prompt": "stylized 3D render, Pixar style, casual mobile game art, friendly middle-aged man pharmacy patient, 58 years old, full body, standing neutral pose with both hands resting on hips, simple casual clothes, gray hair, soft pastel palette, smooth PBR, clean textures, soft global illumination, clean symmetric eyes, round irises, centered pupils, calm friendly gaze, warm smile, hands cleanly modeled, naturally curled relaxed fingers, clear finger separation, no objects overlapping the hands, clean neutral studio background, centered composition, head to feet visible, game asset",
+   "cores": {
+    "camisa": "#8b8378",
+    "calca": "#37414b",
+    "cabelo": "#9a9a9a",
+    "pele": "#d9a066"
+   }
+  },
+  {
+   "id": "marina_amoxicilina",
+   "kind": "character",
+   "nome": "Marina",
+   "idade": 29,
+   "sexo": "female",
+   "ref": "refs/marina_amoxicilina.png",
+   "out": "public/models/stylized/marina_amoxicilina.glb",
+   "prompt": "stylized 3D render, Pixar style, casual mobile game art, friendly adult woman pharmacy patient, 29 years old, full body, standing neutral pose with both hands resting on hips, simple casual clothes, black hair, soft pastel palette, smooth PBR, clean textures, soft global illumination, clean symmetric eyes, round irises, centered pupils, calm friendly gaze, warm smile, hands cleanly modeled, naturally curled relaxed fingers, clear finger separation, no objects overlapping the hands, clean neutral studio background, centered composition, head to feet visible, game asset",
+   "cores": {
+    "camisa": "#4a7a8c",
+    "calca": "#2b3440",
+    "cabelo": "#2b2b2b",
+    "pele": "#c98a5b"
+   }
+  },
+  {
+   "id": "jose_gripe",
+   "kind": "character",
+   "nome": "Seu José",
+   "idade": 44,
+   "sexo": "male",
+   "ref": "refs/jose_gripe.png",
+   "out": "public/models/stylized/jose_gripe.glb",
+   "prompt": "stylized 3D render, Pixar style, casual mobile game art, friendly adult man pharmacy patient, 44 years old, full body, standing neutral pose with both hands resting on hips, simple casual clothes, black hair, soft pastel palette, smooth PBR, clean textures, soft global illumination, clean symmetric eyes, round irises, centered pupils, calm friendly gaze, warm smile, hands cleanly modeled, naturally curled relaxed fingers, clear finger separation, no objects overlapping the hands, clean neutral studio background, centered composition, head to feet visible, game asset",
+   "cores": {
+    "camisa": "#2f6f4f",
+    "calca": "#3a3a3a",
+    "cabelo": "#2e2b28",
+    "pele": "#c68642"
+   }
+  },
+  {
+   "id": "ana_coriza",
+   "kind": "character",
+   "nome": "Ana",
+   "idade": 21,
+   "sexo": "female",
+   "ref": "refs/ana_coriza.png",
+   "out": "public/models/stylized/ana_coriza.glb",
+   "prompt": "stylized 3D render, Pixar style, casual mobile game art, friendly young adult woman pharmacy patient, 21 years old, full body, standing neutral pose with both hands resting on hips, simple casual clothes, brown hair, soft pastel palette, smooth PBR, clean textures, soft global illumination, clean symmetric eyes, round irises, centered pupils, calm friendly gaze, warm smile, hands cleanly modeled, naturally curled relaxed fingers, clear finger separation, no objects overlapping the hands, clean neutral studio background, centered composition, head to feet visible, game asset",
+   "cores": {
+    "camisa": "#7a5c8c",
+    "calca": "#333a45",
+    "cabelo": "#6b4a2b",
+    "pele": "#f1c27d"
+   }
+  },
+  {
+   "id": "clara_cefaleia",
+   "kind": "character",
+   "nome": "Clara",
+   "idade": 33,
+   "sexo": "female",
+   "ref": "refs/clara_cefaleia.png",
+   "out": "public/models/stylized/clara_cefaleia.glb",
+   "prompt": "stylized 3D render, Pixar style, casual mobile game art, friendly adult woman pharmacy patient, 33 years old, full body, standing neutral pose with both hands resting on hips, simple casual clothes, brown hair, soft pastel palette, smooth PBR, clean textures, soft global illumination, clean symmetric eyes, round irises, centered pupils, calm friendly gaze, warm smile, hands cleanly modeled, naturally curled relaxed fingers, clear finger separation, no objects overlapping the hands, clean neutral studio background, centered composition, head to feet visible, game asset",
+   "cores": {
+    "camisa": "#9c5b3b",
+    "calca": "#3b3b3b",
+    "cabelo": "#4a2e1b",
+    "pele": "#d9a066"
+   }
+  },
+  {
+   "id": "paulo_dor_lombar",
+   "kind": "character",
+   "nome": "Paulo",
+   "idade": 47,
+   "sexo": "male",
+   "ref": "refs/paulo_dor_lombar.png",
+   "out": "public/models/stylized/paulo_dor_lombar.glb",
+   "prompt": "stylized 3D render, Pixar style, casual mobile game art, friendly middle-aged man pharmacy patient, 47 years old, full body, standing neutral pose with both hands resting on hips, simple casual clothes, black hair, soft pastel palette, smooth PBR, clean textures, soft global illumination, clean symmetric eyes, round irises, centered pupils, calm friendly gaze, warm smile, hands cleanly modeled, naturally curled relaxed fingers, clear finger separation, no objects overlapping the hands, clean neutral studio background, centered composition, head to feet visible, game asset",
+   "cores": {
+    "camisa": "#4f6d8c",
+    "calca": "#33393f",
+    "cabelo": "#2e2b28",
+    "pele": "#c68642"
+   }
+  },
+  {
+   "id": "joao_queimacao",
+   "kind": "character",
+   "nome": "João",
+   "idade": 39,
+   "sexo": "male",
+   "ref": "refs/joao_queimacao.png",
+   "out": "public/models/stylized/joao_queimacao.glb",
+   "prompt": "stylized 3D render, Pixar style, casual mobile game art, friendly adult man pharmacy patient, 39 years old, full body, standing neutral pose with both hands resting on hips, simple casual clothes, black hair, soft pastel palette, smooth PBR, clean textures, soft global illumination, clean symmetric eyes, round irises, centered pupils, calm friendly gaze, warm smile, hands cleanly modeled, naturally curled relaxed fingers, clear finger separation, no objects overlapping the hands, clean neutral studio background, centered composition, head to feet visible, game asset",
+   "cores": {
+    "camisa": "#6e7b3f",
+    "calca": "#3a3a3a",
+    "cabelo": "#2b2b2b",
+    "pele": "#d9a066"
+   }
+  },
+  {
+   "id": "helena_avc",
+   "kind": "character",
+   "nome": "Dona Helena",
+   "idade": 68,
+   "sexo": "female",
+   "ref": "refs/helena_avc.png",
+   "out": "public/models/stylized/helena_avc.glb",
+   "prompt": "stylized 3D render, Pixar style, casual mobile game art, friendly elderly woman pharmacy patient, 68 years old, full body, standing neutral pose with both hands resting on hips, simple casual clothes, brown hair, soft pastel palette, smooth PBR, clean textures, soft global illumination, clean symmetric eyes, round irises, centered pupils, calm friendly gaze, warm smile, hands cleanly modeled, naturally curled relaxed fingers, clear finger separation, no objects overlapping the hands, clean neutral studio background, centered composition, head to feet visible, game asset",
+   "cores": {
+    "camisa": "#8c5b7a",
+    "calca": "#4a4a5a",
+    "cabelo": "#cfc3b0",
+    "pele": "#f1c27d"
+   }
+  },
+  {
+   "id": "dona_rosa_hipotensao",
+   "kind": "character",
+   "nome": "Dona Rosa",
+   "idade": 72,
+   "sexo": "female",
+   "ref": "refs/dona_rosa_hipotensao.png",
+   "out": "public/models/stylized/dona_rosa_hipotensao.glb",
+   "prompt": "stylized 3D render, Pixar style, casual mobile game art, friendly elderly woman pharmacy patient, 72 years old, full body, standing neutral pose with both hands resting on hips, simple casual clothes, white hair, soft pastel palette, smooth PBR, clean textures, soft global illumination, clean symmetric eyes, round irises, centered pupils, calm friendly gaze, warm smile, hands cleanly modeled, naturally curled relaxed fingers, clear finger separation, no objects overlapping the hands, clean neutral studio background, centered composition, head to feet visible, game asset",
+   "cores": {
+    "camisa": "#8c5b9c",
+    "calca": "#4a3a4a",
+    "cabelo": "#cfcfcf",
+    "pele": "#c98a5b"
+   }
+  },
+  {
+   "id": "carlos_asma",
+   "kind": "character",
+   "nome": "Carlos",
+   "idade": 30,
+   "sexo": "male",
+   "ref": "refs/carlos_asma.png",
+   "out": "public/models/stylized/carlos_asma.glb",
+   "prompt": "stylized 3D render, Pixar style, casual mobile game art, friendly adult man pharmacy patient, 30 years old, full body, standing neutral pose with both hands resting on hips, simple casual clothes, black hair, soft pastel palette, smooth PBR, clean textures, soft global illumination, clean symmetric eyes, round irises, centered pupils, calm friendly gaze, warm smile, hands cleanly modeled, naturally curled relaxed fingers, clear finger separation, no objects overlapping the hands, clean neutral studio background, centered composition, head to feet visible, game asset",
+   "cores": {
+    "camisa": "#3f6e6e",
+    "calca": "#2e2e2e",
+    "cabelo": "#2b2b2b",
+    "pele": "#c68642"
+   }
+  },
+  {
+   "id": "bia_apendicite",
+   "kind": "character",
+   "nome": "Bia",
+   "idade": 22,
+   "sexo": "female",
+   "ref": "refs/bia_apendicite.png",
+   "out": "public/models/stylized/bia_apendicite.glb",
+   "prompt": "stylized 3D render, Pixar style, casual mobile game art, friendly young adult woman pharmacy patient, 22 years old, full body, standing neutral pose with both hands resting on hips, simple casual clothes, brown hair, soft pastel palette, smooth PBR, clean textures, soft global illumination, clean symmetric eyes, round irises, centered pupils, calm friendly gaze, warm smile, hands cleanly modeled, naturally curled relaxed fingers, clear finger separation, no objects overlapping the hands, clean neutral studio background, centered composition, head to feet visible, game asset",
+   "cores": {
+    "camisa": "#9c6b3b",
+    "calca": "#3a3a3a",
+    "cabelo": "#4a2e1b",
+    "pele": "#d9a066"
+   }
+  },
+  {
+   "id": "carla_dengue",
+   "kind": "character",
+   "nome": "Carla",
+   "idade": 24,
+   "sexo": "female",
+   "ref": "refs/carla_dengue.png",
+   "out": "public/models/stylized/carla_dengue.glb",
+   "prompt": "stylized 3D render, Pixar style, casual mobile game art, friendly young adult woman woman, 24 years old, full body, (isolated on an empty plain light-gray studio background:1.3),  standing alone on a plain seamless studio backdrop, nothing else in frame, no animals, no furniture, no scattered objects, both legs fully visible, standing neutral pose with both hands resting on hips, simple casual clothes, black hair, no dog, no animal, no shelves, no products, no furniture, soft pastel palette, smooth PBR, clean textures, soft global illumination, clean symmetric eyes, round irises, centered pupils, calm friendly gaze, warm smile, hands cleanly modeled, naturally curled relaxed fingers, clear finger separation, no objects overlapping the hands, clean neutral studio background, centered composition, head to feet visible, game asset",
+   "cores": {
+    "camisa": "#3e8f7a",
+    "calca": "#27404b",
+    "cabelo": "#1f1a17",
+    "pele": "#a9714b"
+   },
+   "seed": 9104
+  },
+  {
+   "id": "roberto_dispepsia",
+   "kind": "character",
+   "nome": "Roberto",
+   "idade": 30,
+   "sexo": "male",
+   "ref": "refs/roberto_dispepsia.png",
+   "out": "public/models/stylized/roberto_dispepsia.glb",
+   "prompt": "stylized 3D render, Pixar style, casual mobile game art, friendly adult man pharmacy patient, 30 years old, full body, standing alone on a plain seamless studio backdrop, nothing else in frame, no animals, no furniture, no scattered objects, both legs fully visible, standing neutral pose with both hands resting on hips, simple casual clothes, dark brown hair, light stubble, soft pastel palette, smooth PBR, clean textures, soft global illumination, clean symmetric eyes, round irises, centered pupils, calm friendly gaze, warm smile, hands cleanly modeled, naturally curled relaxed fingers, clear finger separation, no objects overlapping the hands, clean neutral studio background, centered composition, head to feet visible, game asset",
+   "cores": {
+    "camisa": "#5b7fa6",
+    "calca": "#30363f",
+    "cabelo": "#2b2b2b",
+    "pele": "#e0ac69"
+   },
+   "seed": 9103
+  },
+  {
+   "id": "catia_dermatite",
+   "kind": "character",
+   "nome": "Cátia",
+   "idade": 45,
+   "sexo": "female",
+   "ref": "refs/catia_dermatite.png",
+   "out": "public/models/stylized/catia_dermatite.glb",
+   "prompt": "stylized 3D render, Pixar style, casual mobile game art, friendly middle-aged woman pharmacy patient, 45 years old, full body, standing neutral pose with both hands resting on hips, simple casual clothes, brown hair, soft pastel palette, smooth PBR, clean textures, soft global illumination, clean symmetric eyes, round irises, centered pupils, calm friendly gaze, warm smile, hands cleanly modeled, naturally curled relaxed fingers, clear finger separation, no objects overlapping the hands, clean neutral studio background, centered composition, head to feet visible, game asset",
+   "cores": {
+    "camisa": "#c78f4e",
+    "calca": "#6b4f3a",
+    "cabelo": "#4a3325",
+    "pele": "#d9a066"
+   }
+  },
+  {
+   "id": "atendente_balcon",
+   "kind": "character",
+   "nome": "Atendente balcão",
+   "idade": 30,
+   "sexo": "female",
+   "ref": "refs/atendente_balcon.png",
+   "out": "public/models/stylized/atendente_balcon.glb",
+   "prompt": "stylized 3D render, Pixar style, casual mobile game art, friendly adult female pharmacy clerk, full body, standing alone on a plain seamless studio backdrop, nothing else in frame, no animals, no furniture, no scattered objects, both legs fully visible, standing neutral pose, simple casual clothes under a clean white coat, soft pastel palette, smooth PBR, clean textures, soft global illumination, clean symmetric eyes, round irises, centered pupils, friendly smile, hands cleanly modeled, naturally relaxed fingers, clean neutral studio background, centered composition, head to feet visible, game asset",
+   "cores": {},
+   "seed": 9101
+  },
+  {
+   "id": "atendente_gondola",
+   "kind": "character",
+   "nome": "Atendente gôndola",
+   "idade": 28,
+   "sexo": "male",
+   "ref": "refs/atendente_gondola.png",
+   "out": "public/models/stylized/atendente_gondola.glb",
+   "prompt": "stylized 3D render, Pixar style, casual mobile game art, friendly adult male pharmacy clerk, full body, standing neutral pose, simple casual clothes under a clean white coat, soft pastel palette, smooth PBR, clean textures, soft global illumination, clean symmetric eyes, round irises, centered pupils, friendly smile, hands cleanly modeled, naturally relaxed fingers, clean neutral studio background, centered composition, head to feet visible, game asset",
+   "cores": {}
+  },
+  {
+   "id": "prop_balcao",
+   "kind": "prop",
+   "ref": "refs/prop_balcao.png",
+   "out": "public/models/stylized/prop_balcao.glb",
+   "prompt": "stylized 3D render, casual mobile game art, clean pharmacy counter desk, wooden top, chunky readable shapes, smooth PBR, clean textures, soft global illumination, soft pastel palette, clean neutral studio background, centered, game prop",
+   "cores": {}
+  },
+  {
+   "id": "prop_pc",
+   "kind": "prop",
+   "ref": "refs/prop_pc.png",
+   "out": "public/models/stylized/prop_pc.glb",
+   "prompt": "stylized 3D render, casual mobile game art, small pharmacy computer monitor on a desk, chunky readable shapes, smooth PBR, clean textures, soft global illumination, soft pastel palette, clean neutral studio background, centered, game prop",
+   "cores": {}
+  },
+  {
+   "id": "prop_mesa",
+   "kind": "prop",
+   "ref": "refs/prop_mesa.png",
+   "out": "public/models/stylized/prop_mesa.glb",
+   "prompt": "stylized 3D render, casual mobile game art, simple side table with a first aid tray, chunky readable shapes, smooth PBR, clean textures, soft global illumination, soft pastel palette, clean neutral studio background, centered, game prop",
+   "cores": {}
+  },
+  {
+   "id": "prop_gondola",
+   "kind": "prop",
+   "ref": "refs/prop_gondola.png",
+   "out": "public/models/stylized/prop_gondola.glb",
+   "prompt": "stylized 3D render, casual mobile game art, clean pharmacy shelf with few colorful medicine boxes, chunky readable shapes, smooth PBR, clean textures, soft global illumination, soft pastel palette, clean neutral studio background, centered, game prop",
+   "cores": {}
+  },
+  {
+   "id": "prop_vitrine",
+   "kind": "prop",
+   "ref": "refs/prop_vitrine.png",
+   "out": "public/models/stylized/prop_vitrine.glb",
+   "prompt": "stylized 3D render, casual mobile game art, glass display cabinet for pharmacy products, chunky readable shapes, smooth PBR, clean textures, soft global illumination, soft pastel palette, clean neutral studio background, centered, game prop",
+   "cores": {}
+  }
+ ]
+}

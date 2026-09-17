@@ -72,25 +72,95 @@
 
 @media (prefers-reduced-motion: reduce) { .dot, .pop-in { animation:none; } }
 
-/* ============ F0 — Capa (arte com botões pintados) ============ */
+/* ============ F0 — Capa (arte estilizada + botões DOM com press físico) ============ */
 .capa-backdrop { position:absolute; inset:0; display:grid; place-items:center; background:#020617; }
-.capa-stage { position:relative;
+.capa-stage { position:relative; container-type:inline-size;
               width:min(100vw, calc(100vh * (1376 / 768)));
               aspect-ratio:1376 / 768;
               background-color:#020617;
-              background-image:url('/capa/inicio_game.webp');
+              background-image:url('/capa/inicio_game_clean.webp');
               background-size:100% 100%; background-repeat:no-repeat; background-position:center; }
-.capa-hotspot { position:absolute; margin:0; padding:0; border:0; background:transparent;
-                cursor:pointer; border-radius:0.75rem;
-                transition:transform .12s ease, filter .12s ease, box-shadow .12s ease; }
-.capa-hotspot:hover { transform:scale(1.02) translateY(-1px); filter:brightness(1.14);
-                      box-shadow:0 6px 18px rgba(45,212,191,.25); }
-.capa-hotspot:active { transform:scale(.96) translateY(2px); filter:brightness(.92);
-                       box-shadow:inset 0 2px 10px rgba(2,6,23,.55); transition-duration:.06s; }
-.capa-hotspot:focus-visible { outline:2px solid #2dd4bf; outline-offset:2px; }
-.capa-hotspot-chip { border-radius:0.6rem; }
-.capa-hotspot-chip[aria-pressed="true"] { outline:2px solid #5eead4; outline-offset:1px;
-                      filter:brightness(1.3); box-shadow:0 0 14px rgba(94,234,212,.5); }
+
+/* Base: pílula casual (gradiente + anel creme + bisel) com afundamento físico no clique.
+   Geometria em %/cqw medida sobre a arte original (1376x768) — fidelidade 1:1. */
+.capa-btn, .capa-lang { position:absolute; margin:0; border:0; padding:0 0.85cqw;
+            display:flex; align-items:center; justify-content:center;
+            font-family:'Baloo 2', var(--font-display), system-ui, sans-serif; font-weight:800;
+            text-transform:uppercase; color:#fff;
+            letter-spacing:0.02em; border-radius:999px; user-select:none;
+            -webkit-tap-highlight-color:transparent;
+            text-shadow:0 2px 0 rgba(0,0,0,.22), 0 1px 4px rgba(0,0,0,.28);
+            box-shadow:inset 0 2px 0 rgba(255,255,255,.38),
+                       inset 0 -9px 14px rgba(0,0,0,.15),
+                       0 0 0 2px rgba(255,255,255,.9),
+                       0 0 0 5px #eeeae0,
+                       0 0 0 6px rgba(90,80,60,.16),
+                       0 8px 14px rgba(15,20,30,.35);
+            transform:translateY(0);
+            transition:transform .3s cubic-bezier(.34,1.56,.64,1),
+                       box-shadow .3s cubic-bezier(.34,1.56,.64,1),
+                       filter .18s ease; }
+/* press físico: desce, comprime e a sombra encosta na base.
+   A pílula de idioma recebe `.pressing` via JS (pointerdown dos chips) — sem depender de :has(). */
+.capa-btn:active:not(:disabled),
+.capa-lang.pressing {
+            transform:translateY(6px) scale(.986);
+            box-shadow:inset 0 6px 12px rgba(0,0,0,.28),
+                       inset 0 -2px 6px rgba(0,0,0,.12),
+                       0 0 0 2px rgba(255,255,255,.9),
+                       0 0 0 5px #eeeae0,
+                       0 0 0 6px rgba(90,80,60,.16),
+                       0 2px 5px rgba(15,20,30,.3);
+            transition:transform .08s ease-in, box-shadow .08s ease-in, filter .1s ease; }
+.capa-btn:hover:not(:disabled) { filter:brightness(1.05); }
+.capa-btn:disabled { opacity:.6; cursor:progress; }
+.capa-btn:focus-visible, .capa-langcell:focus-visible { outline:3px solid #7dd3fc; outline-offset:4px; }
+
+.capa-btn { cursor:pointer; }
+.capa-btn-txt { white-space:nowrap; font-size:clamp(.9rem, 2.8vw, 2.85rem);
+                font-size:clamp(.9rem, 2.8cqw, 2.85rem); line-height:1; }
+.capa-btn-ico { display:block; flex-shrink:0; height:72%; width:auto; margin-right:0.90cqw;
+                filter:drop-shadow(0 2px 3px rgba(0,0,0,.22)); pointer-events:none; }
+.capa-btn-play { display:block; flex-shrink:0; height:41%; width:auto; margin-left:0.55cqw;
+                 filter:drop-shadow(0 2px 3px rgba(0,0,0,.25)); pointer-events:none; }
+
+.capa-btn--iniciar { left:33.4666%; top:41.6016%; width:33.0669%; height:16.7969%;
+                     background:linear-gradient(180deg,#9acb78 0%,#78b85f 25%,#56a758 58%,#357748 100%); }
+.capa-btn--refs { left:35.7922%; top:59.9609%; width:27.7616%; height:12.6302%;
+                  background:linear-gradient(180deg,#5ca8c9 0%,#4b94bd 50%,#3d80b3 100%); }
+.capa-btn--refs .capa-btn-ico { height:62%; margin-right:1.10cqw; }
+.capa-btn--refs .capa-btn-txt { font-size:clamp(.85rem, 2.66vw, 2.65rem);
+                                font-size:clamp(.85rem, 2.66cqw, 2.65rem); }
+
+/* Pílula de idioma (abriga os chips PT/EN); afunda junto quando um chip é pressionado */
+.capa-lang { left:35.0654%; top:75.1953%; width:29.7965%; height:12.6302%;
+             background:linear-gradient(180deg,#7186c4 0%,#6677ba 42%,#5d6db1 72%,#394c80 100%); }
+.capa-lang-globe { display:block; flex-shrink:0; height:62%; width:auto; margin-right:0.83cqw;
+                   filter:drop-shadow(0 2px 3px rgba(0,0,0,.22)); pointer-events:none; }
+.capa-lang-txt { white-space:nowrap; font-size:clamp(.85rem, 2.66vw, 2.65rem);
+                 font-size:clamp(.85rem, 2.66cqw, 2.65rem); line-height:1; }
+.capa-lang-panel { display:flex; gap:0.27cqw; height:64%; padding:0.21cqw; margin-left:0.42cqw;
+                   background:#26364e; border-radius:0.5cqw;
+                   box-shadow:inset 0 2px 6px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.16); }
+.capa-langcell { display:flex; flex-direction:column; gap:0.19cqw; width:2.8cqw;
+                 padding:0; border:0; cursor:pointer;
+                 background:transparent; border-radius:0.35cqw; -webkit-tap-highlight-color:transparent; }
+.capa-langcell-txt { flex:1; display:grid; place-items:center; padding:0 0.28cqw; border-radius:0.34cqw;
+                     font-family:'Baloo 2', var(--font-display), system-ui, sans-serif; font-weight:800;
+                     line-height:1; letter-spacing:0.03em;
+                     font-size:clamp(.48rem, 1.0vw, 1.1rem); font-size:clamp(.48rem, 1.0cqw, 1.1rem);
+                     transition:background .15s ease, color .15s ease, transform .08s ease; }
+.capa-langcell[aria-pressed="true"] .capa-langcell-txt { background:#6283a7; color:#fff;
+                     text-shadow:0 1px 0 rgba(0,0,0,.35); box-shadow:inset 0 1px 0 rgba(255,255,255,.45); }
+.capa-langcell[aria-pressed="false"] .capa-langcell-txt { background:#1f384f; color:#8a93a6; text-shadow:none;
+                     box-shadow:inset 0 2px 4px rgba(0,0,0,.45); }
+.capa-langcell-flag { flex:1; width:100%; object-fit:contain; display:block; pointer-events:none; }
+.capa-langcell[aria-pressed="false"] .capa-langcell-flag { filter:brightness(.8) saturate(.85); }
+.capa-langcell:active .capa-langcell-txt { transform:translateY(1px); }
+
+/* Bump do chip ao trocar de idioma */
+@keyframes lang-pop { 0%{transform:scale(1)} 40%{transform:scale(.82)} 70%{transform:scale(1.08)} 100%{transform:scale(1)} }
+.lang-bump { animation:lang-pop .28s ease; }
 
 /* ============ F0 — Modal de Referências ============ */
 .refs-panel { width:min(42rem, calc(100% - 2rem)); max-height:85vh; overflow-y:auto;
@@ -113,7 +183,12 @@
               font-size:0.6rem; text-transform:uppercase; letter-spacing:0.06em; white-space:nowrap;
               color:#fbbf24; background:rgba(251,191,36,.1); border:1px solid rgba(251,191,36,.35); }
 
-@media (prefers-reduced-motion: reduce) { .capa-hotspot { transition:none; } .capa-hotspot:hover, .capa-hotspot:active { transform:none; } }
+@media (prefers-reduced-motion: reduce) {
+  .capa-btn, .capa-lang, .capa-langcell-txt { transition:none; }
+  .capa-btn:hover, .capa-btn:active, .capa-lang.pressing,
+  .capa-langcell:active .capa-langcell-txt { transform:none; }
+  .lang-bump { animation:none; }
+}
 
 /* ============ F2 — Painel do bulário (computador) ============ */
 .bulario-card { padding: 0.55rem 0.75rem; border-radius: 0.6rem; border: 1px solid rgba(255,255,255,.1);

@@ -1,0 +1,10 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch();
+const p = await b.newPage();
+p.on('console', m => { if (m.type() === 'error') console.log('CONSOLE ERROR:\n' + m.text().slice(0, 900)); });
+p.on('pageerror', e => console.log('PAGEERROR:\n' + (e.stack || e.message).slice(0, 900)));
+await p.goto('http://127.0.0.1:4180/real-preview.html?m=trellis_ana', { waitUntil: 'networkidle', timeout: 30000 }).catch(() => {});
+await p.waitForTimeout(4000);
+const ready = await p.evaluate(() => window.__ready === true).catch(() => false);
+console.log('ready:', ready);
+await b.close();

@@ -1,0 +1,633 @@
+WEBVTT
+Kind: captions
+Language: en
+today's task is bit less creative and&nbsp;
+more technical we are going to unwrap
+the 3D model into a 2d UV layout allowing&nbsp;
+us to paint and project 2D textures onto 3D
+model and apply shaders we briefly discussed&nbsp;
+this in introduction series about blender on
+this channel in short your model is going to&nbsp;
+resemble cloth templates that you might have
+seen on a tailor shop before it's uh all stitched&nbsp;
+up so the reason for this is that textures images
+are 2D and can't conform to 3D space so we need&nbsp;
+to unfold the model in 2D space to use images as
+Textures in Shader so welcome back everyone&nbsp;
+this is Ram from Cross mine studio and you
+are watching chapter number eight of the animated&nbsp;
+character creation series for the premium version
+of this course which includes 10 bonus chapters&nbsp;
+project files and other useful resources check
+out the details hard keys PDF and more in the&nbsp;
+description let's Dive Right  In 
+the only complex part which I see is main body&nbsp;
+other than that these are pretty simple ones
+so let's start with uh the most basic one first&nbsp;
+in this one viewport I'm going to bring one UV
+editor and at the left we have the model all right&nbsp;
+let's say we start with these shards I'm going to
+isolate this one and uh few things we need to do&nbsp;
+before we start uh first go to the edit mode this
+is where we can unfold our UVS make sure you have&nbsp;
+UV editor on the right go to the shading viewport
+viewport shading and here uh if you remember&nbsp;
+we had made one simple material for everything
+just for the preview within that material itself&nbsp;
+we are going to apply one simple texture image
+texture and this could be click on new call it&nbsp;
+UV or anything this could be 2K or 4K whatever
+we just want to see basic UV Grid or color grid&nbsp;
+and and once we plug that into the base color
+you won't see much because we haven't UV mapped&nbsp;
+this model yet so just want to make sure that the
+material is actually working preview material&nbsp;
+we have in material override let's go back to
+UV editor let's go to the edit mode if I select&nbsp;
+all of these faces and just press U and unwrap
+it this is auto unwrapping all right but we need&nbsp;
+certain kind of layout like how you tailor clothes
+you have a layout so I'm just going to select few&nbsp;
+sides through and through which is going to cut
+our model and uh lay it flat so this seems like&nbsp;
+a good Edge now press contr e for basically the
+edge menu and Mark seam so this becomes a seam&nbsp;
+from where UV editor is going to cut it open
+do the same thing on the other side Mark seam&nbsp;
+just make sure it's selecting the entire Loop
+if there is any weird disconnection between just&nbsp;
+guide it until it meets the end so here as well
+I think any of these Loops will work fine Mark&nbsp;
+scene select all the open borders marking and uh
+this upper border as well Mark seams and uh just&nbsp;
+make sure this Edge meets here as well Maxine so
+let's see how it turns out so here in the viewport&nbsp;
+I'm just going to click on uh options live unwrap
+select all of these you unwrap now we have all&nbsp;
+the sides unwrapped properly all right now if I
+go to the shading viewport this should show me the&nbsp;
+texture that we had before sharer editor preview
+material so at this this moment we are using&nbsp;
+preview material in override so the thing is
+override material doesn't show up in viewboard&nbsp;
+shading so what I do is instead select the
+material which is there on the shorts here&nbsp;
+I'm going to manually assign this material
+override as well so that I can see it in the&nbsp;
+viewport you can see all the UVS basically the
+texturing is happening evenly nothing seems&nbsp;
+stretched out if I disconnect this click on
+generated or something and this is the kind&nbsp;
+of stretching that that could happen if you
+don't have UVS all right just to make sure that&nbsp;
+there is no stretching just go to the UV editor
+select everything click on the sync minimize&nbsp;
+stretch now this is going to just relax things
+down a bit if there's any tension in between&nbsp;
+edges so it's sort of a relaxed tool you can
+do few more things as well you have relax brush&nbsp;
+here just make sure to not overdo any of it lock
+borders so I don't find it necessary&nbsp;
+at this moment everything seems like
+it's working fine just make sure to utilize&nbsp;
+all the space you have here so just going
+to put this here next to uh the other&nbsp;
+side which is this one and these two
+here
+just not scaling this up and down too much&nbsp;
+because uh I don't want the texture scale to
+vary all right so this seems fine save&nbsp;
+your file now let's do the same thing
+for the jacket just disable the geometry node&nbsp;
+modifier first otherwise it's going to give you
+some these weird things in the viewport all&nbsp;
+right so similarly I'm going to apply same
+material on the jacket so I can see things uh&nbsp;
+visualize the U first thing I'm going to do is
+assign seams so this right here for the sleeves&nbsp;
+Mark seam let do the same on the other side Mark
+seam I'm going to select this seam as&nbsp;
+well which is uh going all the way till
+here just want to make sure that it's&nbsp;
+reaching the end if not then just select
+the last Edge and connected Mark seam&nbsp;
+and uh select the Border Mark seam as
+well there are few things here I think&nbsp;
+this needs to be connected to this one
+just cross check on the intersections&nbsp;
+as well if things are connecting well
+sometimes there's a tiny Edge in between that&nbsp;
+could lead to mesh not unfolding properly
+all right now I'm just going to select&nbsp;
+this bottom one Mark SE this and then
+we have this one Edge for the front&nbsp;
+opening and uh on the both sides we
+have this Edge so let's do that and&nbsp;
+uh seems like there's a break here
+then I'm just thinking whether or not&nbsp;
+we should uh I think we can leave the
+callers we'll see how this turns out so so&nbsp;
+since we have live unwrapping clicked here
+so while we were assigning seams this was&nbsp;
+unfolding automatically so since we have
+the UV sync selection enabled whatever&nbsp;
+I select in viewport it's going to show
+show up here so right now I do see a bit of&nbsp;
+a trouble and it seems like we didn't really
+select bder here so I'm going to Mark seam&nbsp;
+this one let's see if things are connecting
+well so this part this part front and back&nbsp;
+unfolded properly but this side unfolded
+from only the one side that that's because&nbsp;
+we didn't actually made a seam here Mark
+seam on this side and then Mark seam&nbsp;
+here and let's see if this is meeting
+intersection just crosschecking end&nbsp;
+where it meets the border so this is
+back back front front front and uh then&nbsp;
+this whole jacket is not cutting open
+properly so something in these parts&nbsp;
+and uh this is where it's stuck so I
+can maybe select this part zoom in and see&nbsp;
+if I can uh make these parts meet with the
+intersection and there you go this is back&nbsp;
+and uh this is front now we have a bit of
+problem here so just solving it one by one so&nbsp;
+this front side is open now right here this is
+the other right front side and it seems&nbsp;
+we don't have a seam here so somewhere
+it's not meeting the end mark SE here as&nbsp;
+well and then at the top Let's cross check
+somewhere here we have
+disconnection and I'm going to Mark seam&nbsp;
+here as well and I think we have it so if
+we Shar viewport properly now let's see&nbsp;
+if there's any stretching happening so
+the jacket seems fine but it seems like&nbsp;
+pocket geometry need a bit of room for UV
+it's may be shrinking down too much we can&nbsp;
+separate out these Pockets from the seams
+right here let's see if it's going through&nbsp;
+and through if I mark this as seam so it's
+going to rip apart this whole section place it&nbsp;
+somewhere else let's do the same for the other
+side yeah so this and this part I'm going to&nbsp;
+merge at Center there was a bit of problem
+with geometry Mark seam as well so both the&nbsp;
+pockets are now separate part now this part
+is bit deep so I don't want to go in and&nbsp;
+out too much so instead I'm just going
+to select the main Loops uh maybe I can uh&nbsp;
+select the whole flap pocket cover and Mark
+these as seam and as we are assigning&nbsp;
+new seams you can clearly see the UVS
+are starting to work out properly all right so&nbsp;
+this seems fine let's do the same on the other
+side so that is Sol now I'm going to select&nbsp;
+everything and minimize stretch and let's
+see minimize stretching if you click anywhere&nbsp;
+it's going to interrupt the stretching it's
+basically going to stop relaxing and leave&nbsp;
+this pop open where you can adust just the
+iterations later this was 800 so this&nbsp;
+seems bit too much I'm just going to go
+100 actually yeah so I think this this&nbsp;
+looks fine we don't really have much of
+stretching happening in any of the&nbsp;
+areas I can uh clearly see all the
+squares showing up in the size is&nbsp;
+similar now we are going to go for
+G for this let's first assign the
+borders mark C then we can uh select one of
+these we can separate out&nbsp;
+this guy right here and one of
+these just going to apply a preview material&nbsp;
+yeah this looks fine I'm going to apply preview
+material on shoes as well so we can see the UV&nbsp;
+now for the shoes I'm just going to isolate this
+one for now first thing select the borders Mark&nbsp;
+seam and just by selecting the borders we have
+solved a lot of UV problems so just going to&nbsp;
+select this main Loop which separates out main
+shoe from the soul this right here all right&nbsp;
+just select any any Loop which is separating
+uh the entire up and upper and lower body of&nbsp;
+the shoe uh the full complete Loop and Mark
+that as a c do the same for the other sections&nbsp;
+as well front and back don't necessarily have
+to follow the exact same edges just observe your&nbsp;
+model see what kind of sections you have in your
+model and based on that you make select these&nbsp;
+bigger patches and make the seams since you
+have live unwrapping enabled you can quickly&nbsp;
+just preview how it's unfolding in UV editor
+just keep making seams and check the layout undo&nbsp;
+if it's not working out and ALT Edge to unhide
+it and uh so this guy right here seems to have&nbsp;
+some problem uh in UVS so I think it could be
+let's hide this guy so that we can see what's&nbsp;
+going on here so the borders are running from
+here I'm just looking for edges which separate&nbsp;
+out the inner lining of the shoe from the outer
+leather part uh so just uh I think these edges&nbsp;
+uh should be uh what separate out the outer and
+inner part we just need to unfold this one and&nbsp;
+pressing L to select all the linked faces till
+the seam but it's not uh selecting the entire&nbsp;
+patch so these two edges were not meeting and
+uh because of that front eyland was not&nbsp;
+opening up properly in UVS seems like uh
+uh there's bit of stretching going on what&nbsp;
+I'm thinking is uh separate out this bottom
+part let's look at the UVS let's see what's going&nbsp;
+on here so it seems like both of these are still
+merged somewhere at this part right here yeah so&nbsp;
+here's a bit of loose connection so mark this as
+seene now it seems like it's working fine all&nbsp;
+the UVS seems to have similar proportions these
+shoelaces are made of car objects usually&nbsp;
+they have automatic UV coordinates which
+should work but we'll see later if it requires&nbsp;
+UV let's work on the socks for now Mark Seam
+for socks Mark seam and there you go socks&nbsp;
+is done the most easiest object yeah just
+make sure to pack islands all right so that it&nbsp;
+utilizes most of the area in the texture now
+comes the main part main body of the character&nbsp;
+let's assign few seams right here just making
+selection with shift and control Mark SE&nbsp;
+and then we want to create a separation
+between uh the main head and uh this part&nbsp;
+mark seam here as well then you can uh
+select These
+Arms then maybe I'm just
+thinking just cross check everything first uh I
+think I'm just going to create&nbsp;
+a seam for Years Mark SE and
+uh
+and uh yeah just forgot to mention if your&nbsp;
+model is symmetrical and uh then uh let's
+say if we make a few seams here Mark seam&nbsp;
+and uh right here so what you can do is you
+can select one of these edges the seams&nbsp;
+and then you can select similar seam all
+right so it's going to select all the seams&nbsp;
+and then you can uh select mirror and then
+this is going to select all the edges on the&nbsp;
+opposite side as well and then you can Mark
+seam here as well all right so this works if&nbsp;
+your model is symmetrical so yeah it's quite
+useful let's do the same for
+hands somewhere here till
+here
+seams clear seams here just&nbsp;
+going to make a separate one for
+thumb and
+then so let's see what's happening in
+hands so maybe if I remove seam from one of&nbsp;
+these edges it won't make a separate Island
+for this entire thing and keep it as one mesh&nbsp;
+for the rest of the arm we are going to do a
+similar kind of UV that we did for a T-shirt and&nbsp;
+stuff I'm just thinking maybe from here till here
+maxing yeah so characters slowly unfolding&nbsp;
+for the back I can select this somewhere
+till here Mark seam and from here&nbsp;
+you can take a bit of turn till
+here and uh now let's select one of&nbsp;
+these seams select similar seam and
+then select mirror and then Mark SC so&nbsp;
+now it's happening on the both sides
+so something is not right so the face&nbsp;
+is not really unfolding in a way that
+I was expecting so just not sure what&nbsp;
+exactly is happening what is this right
+here I'm just going to manually select&nbsp;
+the entire thing and see what's going
+on Control Plus is to expand your selection&nbsp;
+just for beginners and unwrap this separately
+yeah maybe it's because of some&nbsp;
+selection error so I'm just going
+to rotate this minus 90° and uh then apply&nbsp;
+the material that we have for UVS preview
+material let's look at the preview yeah&nbsp;
+so there's too much going on for the head
+so I'm just going to put the entire head&nbsp;
+in one of the UVS then maybe I can make
+a separate one for this so it seems like uh&nbsp;
+we need a little more to unfold this properly
+so I'm just thinking what if I make a cut&nbsp;
+here this is not really a character made in
+realistic proportions so I'm just thinking if&nbsp;
+I make a few Cuts here then maybe I can solve
+this something strange is going on here not&nbsp;
+sure what the issue is uh uh but uh I'm just
+trying to figure it out if I leave this one Edge&nbsp;
+it straightens out the UV but uh if I connect it
+through and through it's kind of making this&nbsp;
+weird shape so I'm just going to uh leave it
+as it is so this seems fine let's see if rest of&nbsp;
+the things are working okay oops forgot to turn
+off this shape key that we had made for mouth&nbsp;
+open you can delete it if you want what I would
+like to do here is uh instead of using all the UVS&nbsp;
+on the same plate I can create a multiple textures
+so that face utilizes the most of the area in the&nbsp;
+texture and just small things which might won't
+even be seen under the clothes can take a separate&nbsp;
+low resolution texture maybe basically instead
+of crunching everything down in one tile we can&nbsp;
+make another tile and apply two Textures in two
+different parts it's called yudum let me explain&nbsp;
+a bit about it in the Shader editor I'm just going
+to duplicate this material uh I'm just going to&nbsp;
+duplicate this material and call this uh body
+Shader and now in the body Shader I'm just going&nbsp;
+to get rid of this whole thing now here we are
+going to create one New Image texture and in this&nbsp;
+new image texture we are going to click on new
+let's call this one face and click on tiled this&nbsp;
+will make it a udm so instead of one UV tile we'll
+now have multiple UV tiles I'm going to bring&nbsp;
+color grid as of now we can paint over it later
+on 4068 by 468 if you want you can do a 2K texture&nbsp;
+that's completely all right 1K 2K the kind of RAM
+and machine you're using for this kind of simple&nbsp;
+character I think 2K resolution is fine as well
+so I'm just going to create this new texture and&nbsp;
+plug that in the base color control T to bring the
+coordinates for mapping with the node triangular&nbsp;
+add-on and now if you go to the UV editor we have
+face right here so if I just select this entire&nbsp;
+thing just the face part let's go to the face mode
+and press L on face and turn it around minus 90°&nbsp;
+and put it right here now if you go to the image
+section in uh UV editor here you'll see it's&nbsp;
+showing udm tiles instead of single image now
+now I can create one more tile and this tile&nbsp;
+I want to keep it uh you can actually keep it
+low resolution like 2K or something but for now I&nbsp;
+going to keep it uh 4068 by 4068 4K texture label
+this one if you want you can uh just write a&nbsp;
+name for it all right but I'll just leave it
+blank so one1 is main tile one2 is the second&nbsp;
+TI I forgot to enable uh U color grid 4068
+406 and then we can select all of these UV pack&nbsp;
+Island closest udm and this is going to pack it
+inside the second udm we have so now let's see I&nbsp;
+think we might would need a seam here from here to
+here Max seam and uh from here to here as well Max&nbsp;
+seam and these parts in the UV editor if you press
+L to select the linked faces you can select seams&nbsp;
+from the popup menu so it's going to select the
+entire Island till the seam so these parts I can&nbsp;
+move into the first udum and the rest of things I
+can move to the second udum so every time we make&nbsp;
+a new seam it's going to reset the layout or make
+changes in the layout because our live unwrapping&nbsp;
+is enabled so I'm just going to disable that in a
+moment I'm just going to disable live&nbsp;
+unwrapping so that any changes I do
+now won't really affect the layout we&nbsp;
+just need to make few more seams in the
+legs I'm just going to disable this texture for&nbsp;
+now you can always look it again we have the
+udm ties here so now I can see it properly so it&nbsp;
+seems like we have to create a seam for legs as
+well from here to here I can Mark a seam from&nbsp;
+here till here one more Scene then I'll press
+L to select the linked faces on the both legs&nbsp;
+and then press U to unwrap it manually because
+our live unwrapping is disabled when you're&nbsp;
+moving stuff around just make sure you're in
+face mode otherwise it's going to move the&nbsp;
+shared edges as well or vertices faces are
+not shared all right so let's bring back the&nbsp;
+UV the texture that we have so just going to
+do a bit of manual work right here first I'm&nbsp;
+going to put aside these then uh I'm going
+to put aside arms so these are arms and then&nbsp;
+these are hands so these are feet feet won't
+be visible at all so I can completely shrink&nbsp;
+it down like this and then these are top of the
+hand this is inside of the mouth so this can&nbsp;
+shrink we can shrink it down a little it's not
+taking much of space but still so hands will&nbsp;
+be the most visible part in the body so I'm
+just going to scale it up like this body not so&nbsp;
+much so I think it's fine this way we can uh try
+and minimize the stretch if any Happening Here It&nbsp;
+seems to be working fine but right now I just want
+to make sure arms are in um similar proportions&nbsp;
+so just keep an eye on this te texture that we
+have the whole purpose of this is so that we can&nbsp;
+visualize a stretch in the scale of the UV so if
+this Checker texture looks too small or too big&nbsp;
+at certain part then you can always scale those
+particular Islands up and down to keep the UVS&nbsp;
+consistent before I jump on to anything else I
+just want to make sure that we save this file this&nbsp;
+texture that we have made phas which we assign on
+the main body this we need to save so let's save&nbsp;
+it it's going to automatically create tiles and
+here you can see face ud. PNG once I save it it's&nbsp;
+going to take a while maybe and if I try to save
+as you can see there are two face tyes phase&nbsp;
+001.png pH 002.png so these two textures are
+automatically load here because blender knows that&nbsp;
+in the Shader editor we are using udm tiles in the
+texture the texture is not a single image it's&nbsp;
+using tiles and within those tiles in UV editor
+or in image editor in image section within those&nbsp;
+ties it's assigning texture space ud. PNG now if
+I let's say go to the texture paint paint any&nbsp;
+of the details let's say if I make uh make one
+plus sign here it's going to paint on udim 1 if&nbsp;
+I write a question it's going to paint on udm 2
+and if I save these it's going to save all the&nbsp;
+udims AL together and let's go to the save as
+you'll see my textures are updating right here&nbsp;
+all right I'm just going to undo few of these
+changes and save the tiles just be a bit careful&nbsp;
+after you're done doing the udim part save your
+image textures now we are going to jump on to the&nbsp;
+next part which is uh bag and on this we are going
+to apply the same preview material and I'm just&nbsp;
+going to disable the preview of that particular
+image that one was just for the body the face that&nbsp;
+we have here and for this guy right here uh what
+we can do let's see first I'm going to select&nbsp;
+just the main body and press h hide unselected
+from the popup menu I'm just going to do a few&nbsp;
+bold selections here uh maybe this guy right here
+so these two look good for seam then we can mark&nbsp;
+this as  seam unwrap yeah this looks like
+a character right in the nose and mouth anyways&nbsp;
+so maybe we can create one seam here let's see
+preview marking what with the
+pockets so it seems like we have a problem here&nbsp;
+so I'm just going to subdivide this this Edge
+connect verx path connect it with this one&nbsp;
+and uh I'll do the same for this guy right
+here so any problems you see just try&nbsp;
+to fix it on the spot just doing my
+part to make sure there are no errors&nbsp;
+left for later part as much as I can
+do I think this should
+work one more seam here let's see unhide with&nbsp;
+alt Edge just going to quickly unwrap this
+guy these could use uh UVS as well so just going&nbsp;
+to repeat the same process a few more times select
+the edges through and through mostly the borders&nbsp;
+and uh the main sections and keep assigning seams
+and because you have live unwrapping enabled&nbsp;
+it should uh give you quick and nice feedback
+of uh how it's unfolding and you can see the&nbsp;
+visualization in in the texture basically the
+color grid that we have so if it unfolds properly&nbsp;
+you're going to see these nice and even squares
+so for these basic parts I think it shouldn't&nbsp;
+be too difficult to unwrap I think this is done
+as well and just the just the top just the just&nbsp;
+the cover part we need to unfold I think we can
+separate out this entire flap uh from the&nbsp;
+rest of the pocket so that uh it's a clean
+cutout just going to hide this whole
+thing and quickly unwrap these straps as well&nbsp;
+just doing a basic job I'm not quite sure if
+we will be actually painting some stuff on&nbsp;
+this bag but let's say you want to create
+some seams like stitches or something in&nbsp;
+texture so it didn't took much time and
+uh this is quite a basic unwrapping something&nbsp;
+happened here I'm not quite sure what actually
+triggered this so before we unwrapped&nbsp;
+these it was working fine but after the
+straps H
+strange just going to unwrap it separately and&nbsp;
+uh select everything UV back up Islands I'm
+just going to do a quick check for uh if there is&nbsp;
+any stretching in some parts all right so I think
+our character is done and this guy is the most&nbsp;
+simplest one just going to isolate this quickly
+create few seams which are inside Mark seam and a&nbsp;
+few vertical edges at the back Mark seam as well
+and there you go even easier than the socks we&nbsp;
+are just going to apply same preview material to
+visualize UVS and if you're not sure about hair&nbsp;
+you can see UVS are working fine because it's
+a curve object and uh UVS are Auto assigned just&nbsp;
+select all of these and select this one control L
+link material so let's see if there's anything&nbsp;
+else I'm just thinking about the face of the
+character I'm just thinking if we can and&nbsp;
+improve some of these parts should we or
+should we not what I feel is the lips&nbsp;
+part are bit stretched and sort of uh
+there's pinching happening so what if I apply&nbsp;
+one little stroke of uh relax brush right
+here
+same for the
+mouth in the Shader editor I'm just going to&nbsp;
+increase the scale of this texture and uh then
+from the udm I'm just going to single image for&nbsp;
+now just to visualize this part now it's a simple
+tieable texture instead of YMS we can always&nbsp;
+change this back to udm and type one here so
+single image just to visualize this yeah so there&nbsp;
+is a bit of stretching happening here so that's
+a problem I guess we can fix that so I think the&nbsp;
+smoothing is required we can just select certain
+parts press C for Circle selection brush and then&nbsp;
+I'm going to search minimize stretch and uh see
+if it works so it did reduce a bit of stretching&nbsp;
+but we need to find a decent balance just working
+with relax brush here just trying to match the the&nbsp;
+tile size on lips with the rest of the things so
+what if I select these vertices the entire border&nbsp;
+and then scale this up with proportionate editing
+enabled to give it a bit more
+room yeah just scale it up a little scroll&nbsp;
+your brush up and down with mouse wheel when
+using proportionate editing I think this&nbsp;
+might work we just need to be a bit more
+subtle and the inside of the&nbsp;
+mouth I can scale down like
+this yeah I think that did the trick and
+uh now we can go back to our Sher editor change&nbsp;
+it back to from single image to udum and texture
+scale to one and let's see yeah this looks fine&nbsp;
+just thinking in the nose area as well we can
+uh use a bit of uh relaxation right here&nbsp;
+just going to scale it up like this with
+proportionate editing enabled it's going to scale&nbsp;
+the rest of the edges around that pinching is bit
+reduced cheeks are fine cheeks eyes and uh that's&nbsp;
+it now now here I'm going to create one shape key
+and call it eyes closed and in this one I'm&nbsp;
+simply going to uh first enable the Symmetry
+in x axis I'm just going to move these down&nbsp;
+roughly from here till here just move it down
+like this just try to close the eyelids from here&nbsp;
+to here SZ select the entire grid close the both
+sides and uh SZ again with the proportionate&nbsp;
+editing enabled just make sure these Loops are
+transforming gradually around the eyelids now if&nbsp;
+you go to the object mode you scrub this number
+all the way till here now you can see in the mesh&nbsp;
+there's the texture around eyelids is stretching
+so we need to fix that in UV I'm just going&nbsp;
+to select these Loops right here and this one
+scale these down s y in the y AIS just scale it&nbsp;
+down with proportionate editing enabled and you
+can see by scrolling your proportionate editing&nbsp;
+brush up and down you can do a a decent job like
+here so that's it now for the t-shirt do the
+same thing select these edges&nbsp;
+assign seam Mark seam on the
+borders Mark seam make a cut on the side Mark seam&nbsp;
+make a cut on the top Mark seam as well select a
+seam in the colors select one select similar seams&nbsp;
+select mirror you get the point right it's the
+same thing same process and quickly unwrap this UV&nbsp;
+editor so yeah Auto unwrapping did work so this is
+fine and uh I think your character is done and&nbsp;
+also in the viewport shading if you're wondering
+why the UV Maps look so faded that's because the&nbsp;
+subsurface scattering here which I had used for
+the clear rendering so if you'd like to have a&nbsp;
+clear view of your UVS just reduce the subsurface
+and uh it will make the entire texture clearer&nbsp;
+in the viewboard so that's about it our model
+is ready for shading and texturing in the next&nbsp;
+video we'll shade the main body of the character
+we'll do a bit of basic color painting mainly on&nbsp;
+the face just to explain the process along with
+the head we'll also work on hair and eye Shader&nbsp;
+by the end of it the face of the character will
+start to look more lively and uh you won't have&nbsp;
+to see this gray flat shaded model anymore jump
+to Discord server if you'd like to discuss&nbsp;
+anything related to this on channel dedicated
+to this series check pin comment for frequently&nbsp;
+asked questions and problems check description
+for PDF of keyboard shortcuts discount coupons&nbsp;
+and other mentioned resources for this tutorial
+if you enjoyed this chapter do check out the full&nbsp;
+playlist and hope you continue all the way to the
+end also consider buying the premium version and&nbsp;
+unlock the additional chapters and project files
+and bonus content which will take you through the&nbsp;
+process of rigging with rigify creating a nice
+walk cycle animation creating secondary animations&nbsp;
+using plot physics and Bone constraints and
+rendering your entire project using Cycles Render&nbsp;
+engine share your work with me on Instagram tag me
+with instros mind and participate in discussion on&nbsp;
+Discord channel for this course links are in the
+description please give it a like And subscribe&nbsp;
+anday stay tuned for more share your thoughts in
+the comment section and don't forget to share&nbsp;
+it with your colleagues and on social media to
+help us reach the wider audience thank you for all&nbsp;
+your support and love let's jump to the next video

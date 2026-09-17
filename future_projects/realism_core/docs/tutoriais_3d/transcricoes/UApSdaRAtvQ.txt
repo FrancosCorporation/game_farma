@@ -1,0 +1,691 @@
+Kind: captions
+Language: en
+Jack D Films is one of the fastest
+Jack D Films is one of the fastest
+Jack D Films is one of the fastest
+growing shorts channels on YouTube right
+growing shorts channels on YouTube right
+growing shorts channels on YouTube right
+now, pulling in billions of views every
+now, pulling in billions of views every
+now, pulling in billions of views every
+single month. And if you trust VidIQ's
+single month. And if you trust VidIQ's
+single month. And if you trust VidIQ's
+numbers, this channel is making over
+numbers, this channel is making over
+numbers, this channel is making over
+$116,000
+$116,000
+$116,000
+a month. But here's the crazy part. It's
+a month. But here's the crazy part. It's
+a month. But here's the crazy part. It's
+not just the views, it's the
+not just the views, it's the
+not just the views, it's the
+consistency. Every single short this
+consistency. Every single short this
+consistency. Every single short this
+channel puts out racks up millions of
+channel puts out racks up millions of
+channel puts out racks up millions of
+views. And behind all of that, a
+views. And behind all of that, a
+views. And behind all of that, a
+specific style of 3D animated explainer
+specific style of 3D animated explainer
+specific style of 3D animated explainer
+shorts with storytelling  so
+shorts with storytelling  so
+shorts with storytelling  so
+addictive, you literally can't scroll
+addictive, you literally can't scroll
+addictive, you literally can't scroll
+past it. Now, if you go search how to
+past it. Now, if you go search how to
+past it. Now, if you go search how to
+make videos like Jack D Films on
+make videos like Jack D Films on
+make videos like Jack D Films on
+YouTube, you'll find a ton of videos on
+YouTube, you'll find a ton of videos on
+YouTube, you'll find a ton of videos on
+it. But after watching through all of
+it. But after watching through all of
+it. But after watching through all of
+them, I can say  with full
+them, I can say  with full
+them, I can say  with full
+confidence those guys are basically
+confidence those guys are basically
+confidence those guys are basically
+teaching you how to make AI slop and
+teaching you how to make AI slop and
+teaching you how to make AI slop and
+calling it 3D animated shorts. Because
+calling it 3D animated shorts. Because
+calling it 3D animated shorts. Because
+here's the reality. Jack D's team has
+here's the reality. Jack D's team has
+here's the reality. Jack D's team has
+around 50 members, 30 of them animators.
+around 50 members, 30 of them animators.
+around 50 members, 30 of them animators.
+But to hit that same level of quality,
+But to hit that same level of quality,
+But to hit that same level of quality,
+you don't need a team, you don't need
+you don't need a team, you don't need
+you don't need a team, you don't need
+animators, and you definitely don't need
+animators, and you definitely don't need
+animators, and you definitely don't need
+to rewrite scripts from scratch. In
+to rewrite scripts from scratch. In
+to rewrite scripts from scratch. In
+today's video, I'm going to show you how
+today's video, I'm going to show you how
+today's video, I'm going to show you how
+to make Jack D Films level videos
+to make Jack D Films level videos
+to make Jack D Films level videos
+completely free using Claude AI. And
+completely free using Claude AI. And
+completely free using Claude AI. And
+here's the most important part. I'm not
+here's the most important part. I'm not
+here's the most important part. I'm not
+just covering shorts today. I'm also
+just covering shorts today. I'm also
+just covering shorts today. I'm also
+giving you the full tutorial for making
+giving you the full tutorial for making
+giving you the full tutorial for making
+long-form 3D animated videos. For all of
+long-form 3D animated videos. For all of
+long-form 3D animated videos. For all of
+this, you're going to need a script,
+this, you're going to need a script,
+this, you're going to need a script,
+visuals, and animation. 
+visuals, and animation. 
+visuals, and animation. 
+And no, you don't have to write out
+And no, you don't have to write out
+And no, you don't have to write out
+separate prompts for each of these
+separate prompts for each of these
+separate prompts for each of these
+because I've already built a single
+because I've already built a single
+because I've already built a single
+master prompt that handles everything
+master prompt that handles everything
+master prompt that handles everything
+for you. I'll show you exactly how to
+for you. I'll show you exactly how to
+for you. I'll show you exactly how to
+get this prompt by the end of the video.
+get this prompt by the end of the video.
+get this prompt by the end of the video.
+So don't skip a single second. All
+So don't skip a single second. All
+So don't skip a single second. All
+right, let's get into it. All right,
+right, let's get into it. All right,
+right, let's get into it. All right,
+first thing you're going to do is select
+first thing you're going to do is select
+first thing you're going to do is select
+and copy the entire master prompt from
+and copy the entire master prompt from
+and copy the entire master prompt from
+this list. Then head over to Claude AI
+this list. Then head over to Claude AI
+this list. Then head over to Claude AI
+and paste in the prompt you just copied
+and paste in the prompt you just copied
+and paste in the prompt you just copied
+and hit enter. Once you do that, Claude
+and hit enter. Once you do that, Claude
+and hit enter. Once you do that, Claude
+AI is going to ask you which niche you
+AI is going to ask you which niche you
+AI is going to ask you which niche you
+want to make videos in. Think AI and
+want to make videos in. Think AI and
+want to make videos in. Think AI and
+tech, human body and biology, history,
+tech, human body and biology, history,
+tech, human body and biology, history,
+stuff like that. It'll actually suggest
+stuff like that. It'll actually suggest
+stuff like that. It'll actually suggest
+a bunch of options for you, and you can
+a bunch of options for you, and you can
+a bunch of options for you, and you can
+pick one of those or type in your own
+pick one of those or type in your own
+pick one of those or type in your own
+niche based on whatever you need. Right
+niche based on whatever you need. Right
+niche based on whatever you need. Right
+now, I want to make a video about human
+now, I want to make a video about human
+now, I want to make a video about human
+body and biology. So, I'll just type
+body and biology. So, I'll just type
+body and biology. So, I'll just type
+that into the chat and hit enter. From
+that into the chat and hit enter. From
+that into the chat and hit enter. From
+there, Claude AI generates the top 10
+there, Claude AI generates the top 10
+there, Claude AI generates the top 10
+viral topic ideas for that niche. Below
+viral topic ideas for that niche. Below
+viral topic ideas for that niche. Below
+that, it'll give you some video length
+that, it'll give you some video length
+that, it'll give you some video length
+options: 5 seconds, 10 seconds, a
+options: 5 seconds, 10 seconds, a
+options: 5 seconds, 10 seconds, a
+minute. But, if you want something
+minute. But, if you want something
+minute. But, if you want something
+longer, there's a custom option, too,
+longer, there's a custom option, too,
+longer, there's a custom option, too,
+where you can set any length you want.
+where you can set any length you want.
+where you can set any length you want.
+And last but not least, you get the most
+And last but not least, you get the most
+And last but not least, you get the most
+important setting of all, video ratio.
+important setting of all, video ratio.
+important setting of all, video ratio.
+You can make both long-form and
+You can make both long-form and
+You can make both long-form and
+short-form content here. For this one,
+short-form content here. For this one,
+short-form content here. For this one,
+I'm going with the topic, "What happens
+I'm going with the topic, "What happens
+I'm going with the topic, "What happens
+to your body when you hold in a sneeze?"
+to your body when you hold in a sneeze?"
+to your body when you hold in a sneeze?"
+Setting the length to 30 seconds and the
+Setting the length to 30 seconds and the
+Setting the length to 30 seconds and the
+aspect ratio to 16:9, then hitting
+aspect ratio to 16:9, then hitting
+aspect ratio to 16:9, then hitting
+enter. Now, Claude AI starts writing out
+enter. Now, Claude AI starts writing out
+enter. Now, Claude AI starts writing out
+the video prompts and script. And check
+the video prompts and script. And check
+the video prompts and script. And check
+this  out. The first thing it
+this  out. The first thing it
+this  out. The first thing it
+gives you is a Blender prompt, because
+gives you is a Blender prompt, because
+gives you is a Blender prompt, because
+we're not making the same AI slop
+we're not making the same AI slop
+we're not making the same AI slop
+everyone else is putting out. And if
+everyone else is putting out. And if
+everyone else is putting out. And if
+you're thinking, "I don't even know how
+you're thinking, "I don't even know how
+you're thinking, "I don't even know how
+to use Blender." Don't worry about it.
+to use Blender." Don't worry about it.
+to use Blender." Don't worry about it.
+AI is going to handle that part, too.
+AI is going to handle that part, too.
+AI is going to handle that part, too.
+ I'll walk you through exactly
+ I'll walk you through exactly
+ I'll walk you through exactly
+how in a second. So, under that Blender
+how in a second. So, under that Blender
+how in a second. So, under that Blender
+prompt, Claude gives you the image
+prompt, Claude gives you the image
+prompt, Claude gives you the image
+prompt and video prompt for that
+prompt and video prompt for that
+prompt and video prompt for that
+specific scene. And after laying out
+specific scene. And after laying out
+specific scene. And after laying out
+prompts for every single scene like
+prompts for every single scene like
+prompts for every single scene like
+that, it also hands you the voice-over
+that, it also hands you the voice-over
+that, it also hands you the voice-over
+settings underneath. If you're using
+settings underneath. If you're using
+settings underneath. If you're using
+ElevenLabs, you can just plug those
+ElevenLabs, you can just plug those
+ElevenLabs, you can just plug those
+right in. It even gives you a caption
+right in. It even gives you a caption
+right in. It even gives you a caption
+style on top of that. At this point,
+style on top of that. At this point,
+style on top of that. At this point,
+you're probably starting to see just how
+you're probably starting to see just how
+you're probably starting to see just how
+high-quality this content is going to
+high-quality this content is going to
+high-quality this content is going to
+be. So, here's the workflow. Using the
+be. So, here's the workflow. Using the
+be. So, here's the workflow. Using the
+Blender prompt Claude gave us, we'll
+Blender prompt Claude gave us, we'll
+Blender prompt Claude gave us, we'll
+build our scene in Blender first, then
+build our scene in Blender first, then
+build our scene in Blender first, then
+convert it into a proper video using
+convert it into a proper video using
+convert it into a proper video using
+SeaDance 2.5. And the final result
+SeaDance 2.5. And the final result
+SeaDance 2.5. And the final result
+matches your script exactly, with video
+matches your script exactly, with video
+matches your script exactly, with video
+quality right up there with Jack D.
+quality right up there with Jack D.
+quality right up there with Jack D.
+Films. To pull this off, we need a bit
+Films. To pull this off, we need a bit
+Films. To pull this off, we need a bit
+of basic setup first. And once that's
+of basic setup first. And once that's
+of basic setup first. And once that's
+done, the rest of the process is smooth
+done, the rest of the process is smooth
+done, the rest of the process is smooth
+sailing. So, to set things up, first
+sailing. So, to set things up, first
+sailing. So, to set things up, first
+head over to Higgsfield's official
+head over to Higgsfield's official
+head over to Higgsfield's official
+website. Link's in the description and
+website. Link's in the description and
+website. Link's in the description and
+pinned comment. Once you're there, go to
+pinned comment. Once you're there, go to
+pinned comment. Once you're there, go to
+the plugins section and select Blender.
+the plugins section and select Blender.
+the plugins section and select Blender.
+You'll get an interface that looks like
+You'll get an interface that looks like
+You'll get an interface that looks like
+this. First, you'll see a download
+this. First, you'll see a download
+this. First, you'll see a download
+option that lets you connect Blender
+option that lets you connect Blender
+option that lets you connect Blender
+directly to Higgsfield. But if you want
+directly to Higgsfield. But if you want
+directly to Higgsfield. But if you want
+more direct control over Blender and
+more direct control over Blender and
+more direct control over Blender and
+Higgsfield together, scroll down a bit
+Higgsfield together, scroll down a bit
+Higgsfield together, scroll down a bit
+and you'll find Higgsfield's bridge URL.
+and you'll find Higgsfield's bridge URL.
+and you'll find Higgsfield's bridge URL.
+Copy that because that's what we'll use
+Copy that because that's what we'll use
+Copy that because that's what we'll use
+to connect Claude to Higgsfield. Once
+to connect Claude to Higgsfield. Once
+to connect Claude to Higgsfield. Once
+you've copied that, head to Claude AI,
+you've copied that, head to Claude AI,
+you've copied that, head to Claude AI,
+click customize on the left side, then
+click customize on the left side, then
+click customize on the left side, then
+connectors. Hit add, choose add custom
+connectors. Hit add, choose add custom
+connectors. Hit add, choose add custom
+connector, and paste in that link to
+connector, and paste in that link to
+connector, and paste in that link to
+connect Higgsfield to Claude. Now
+connect Higgsfield to Claude. Now
+connect Higgsfield to Claude. Now
+Higgsfield is connected to Claude. Next,
+Higgsfield is connected to Claude. Next,
+Higgsfield is connected to Claude. Next,
+we need to connect Blender to
+we need to connect Blender to
+we need to connect Blender to
+Higgsfield. Go back to the Higgsfield
+Higgsfield. Go back to the Higgsfield
+Higgsfield. Go back to the Higgsfield
+website, click that download option
+website, click that download option
+website, click that download option
+again, and import the zip file you just
+again, and import the zip file you just
+again, and import the zip file you just
+downloaded straight into Blender. Then
+downloaded straight into Blender. Then
+downloaded straight into Blender. Then
+hit okay. That installs Higgsfield
+hit okay. That installs Higgsfield
+hit okay. That installs Higgsfield
+inside Blender, and you'll see a sign-in
+inside Blender, and you'll see a sign-in
+inside Blender, and you'll see a sign-in
+option pop up. Go ahead and sign in, and
+option pop up. Go ahead and sign in, and
+option pop up. Go ahead and sign in, and
+that's it. Setup's complete. You'll
+that's it. Setup's complete. You'll
+that's it. Setup's complete. You'll
+notice a bunch of options now: scene
+notice a bunch of options now: scene
+notice a bunch of options now: scene
+builder, 3D models, and more. But for
+builder, 3D models, and more. But for
+builder, 3D models, and more. But for
+now, we're just using scene builder. If
+now, we're just using scene builder. If
+now, we're just using scene builder. If
+you want to build something, just
+you want to build something, just
+you want to build something, just
+describe it in your own words, and
+describe it in your own words, and
+describe it in your own words, and
+Higgsfield's Blender integration will
+Higgsfield's Blender integration will
+Higgsfield's Blender integration will
+create it for you. So let's copy the
+create it for you. So let's copy the
+create it for you. So let's copy the
+Blender prompt Claude gave us for scene
+Blender prompt Claude gave us for scene
+Blender prompt Claude gave us for scene
+one. Paste it in and hit enter. Scene
+one. Paste it in and hit enter. Scene
+one. Paste it in and hit enter. Scene
+one starts building. This might take a
+one starts building. This might take a
+one starts building. This might take a
+bit, and there we  go. Scene one
+bit, and there we  go. Scene one
+bit, and there we  go. Scene one
+is built and ready. From here, you can
+is built and ready. From here, you can
+is built and ready. From here, you can
+set your camera movements and everything
+set your camera movements and everything
+set your camera movements and everything
+else exactly how you want before
+else exactly how you want before
+else exactly how you want before
+rendering, which means you won't have to
+rendering, which means you won't have to
+rendering, which means you won't have to
+keep regenerating the video later, and
+keep regenerating the video later, and
+keep regenerating the video later, and
+you'll save on credits, too. Now let's
+you'll save on credits, too. Now let's
+you'll save on credits, too. Now let's
+render the scene. Set your output to
+render the scene. Set your output to
+render the scene. Set your output to
+1,280
+1,280
+1,280
+pixels by 720 pixels, frame rate to 24
+pixels by 720 pixels, frame rate to 24
+pixels by 720 pixels, frame rate to 24
+frames per second, select the video
+frames per second, select the video
+frames per second, select the video
+option, and hit render. There's your
+option, and hit render. There's your
+option, and hit render. There's your
+final result.
+Now we need to turn this into an actual
+Now we need to turn this into an actual
+Now we need to turn this into an actual
+video. But before that, we're going to
+video. But before that, we're going to
+video. But before that, we're going to
+generate an image for our video that
+generate an image for our video that
+generate an image for our video that
+we'll use as a reference. Copy the scene
+we'll use as a reference. Copy the scene
+we'll use as a reference. Copy the scene
+one image prompt from Claude. Head to
+one image prompt from Claude. Head to
+one image prompt from Claude. Head to
+Higgsfield, go to the image option, and
+Higgsfield, go to the image option, and
+Higgsfield, go to the image option, and
+generate your scene one image. Once
+generate your scene one image. Once
+generate your scene one image. Once
+that's ready, go back to Claude and copy
+that's ready, go back to Claude and copy
+that's ready, go back to Claude and copy
+the scene one video prompt. Then, in
+the scene one video prompt. Then, in
+the scene one video prompt. Then, in
+Higgsfield, open up the video option and
+Higgsfield, open up the video option and
+Higgsfield, open up the video option and
+select C Dance 2.5.  Here, we
+select C Dance 2.5.  Here, we
+select C Dance 2.5.  Here, we
+need to add a few references first. For
+need to add a few references first. For
+need to add a few references first. For
+visual style and the environment's color
+visual style and the environment's color
+visual style and the environment's color
+theme, upload the scene one image we
+theme, upload the scene one image we
+theme, upload the scene one image we
+just generated. And just as important,
+just generated. And just as important,
+just generated. And just as important,
+add the Blender render of scene one as a
+add the Blender render of scene one as a
+add the Blender render of scene one as a
+reference, too. Then, copy the full
+reference, too. Then, copy the full
+reference, too. Then, copy the full
+video prompt for scene one from Claude,
+video prompt for scene one from Claude,
+video prompt for scene one from Claude,
+paste it into the prompt box, and hit
+paste it into the prompt box, and hit
+paste it into the prompt box, and hit
+ enter. Scene one's video starts
+ enter. Scene one's video starts
+ enter. Scene one's video starts
+generating, and here it is. Now, you can
+generating, and here it is. Now, you can
+generating, and here it is. Now, you can
+compare the reference and the final
+compare the reference and the final
+compare the reference and the final
+video side-by-side, and you'll see the
+video side-by-side, and you'll see the
+video side-by-side, and you'll see the
+camera angles and everything else line
+camera angles and everything else line
+camera angles and everything else line
+up exactly.  Just repeat the same
+up exactly.  Just repeat the same
+up exactly.  Just repeat the same
+process for the rest of your scenes, and
+process for the rest of your scenes, and
+process for the rest of your scenes, and
+once all your videos are generated,
+once all your videos are generated,
+once all your videos are generated,
+download them using the download option.
+download them using the download option.
+download them using the download option.
+Now, we've got all our visuals ready.
+Now, we've got all our visuals ready.
+Now, we've got all our visuals ready.
+Next up is the voiceover. Head back to
+Next up is the voiceover. Head back to
+Next up is the voiceover. Head back to
+Claude, copy the full script for your
+Claude, copy the full script for your
+Claude, copy the full script for your
+video, then go to Higgsfield, select the
+video, then go to Higgsfield, select the
+video, then go to Higgsfield, select the
+audio option, and paste in your script.
+audio option, and paste in your script.
+audio option, and paste in your script.
+Choose 11 Labs as the model, pick a good
+Choose 11 Labs as the model, pick a good
+Choose 11 Labs as the model, pick a good
+voice, and hit generate. Your
+voice, and hit generate. Your
+voice, and hit generate. Your
+voiceover's ready. Download it. And at
+voiceover's ready. Download it. And at
+voiceover's ready. Download it. And at
+this point, everything's done. Last
+this point, everything's done. Last
+this point, everything's done. Last
+step, video editing. Open up any editing
+step, video editing. Open up any editing
+step, video editing. Open up any editing
+software. I'm using CapCut here. Import
+software. I'm using CapCut here. Import
+software. I'm using CapCut here. Import
+your video clips and voiceover. Drag
+your video clips and voiceover. Drag
+your video clips and voiceover. Drag
+your voiceover onto the timeline and
+your voiceover onto the timeline and
+your voiceover onto the timeline and
+line up all your clips to match it. Once
+line up all your clips to match it. Once
+line up all your clips to match it. Once
+everything's synced up perfectly with
+everything's synced up perfectly with
+everything's synced up perfectly with
+the voiceover, add a simple transition
+the voiceover, add a simple transition
+the voiceover, add a simple transition
+between each pair of clips and hit apply
+between each pair of clips and hit apply
+between each pair of clips and hit apply
+to all, so it carries across
+to all, so it carries across
+to all, so it carries across
+automatically. And there's your final
+automatically. And there's your final
+automatically. And there's your final
+video.
+video.
+video.
+&gt;&gt; When you hold in a sneeze, your body
+&gt;&gt; When you hold in a sneeze, your body
+&gt;&gt; When you hold in a sneeze, your body
+doesn't cancel the reflex, it traps it.
+doesn't cancel the reflex, it traps it.
+doesn't cancel the reflex, it traps it.
+Air that would normally rush out at over
+Air that would normally rush out at over
+Air that would normally rush out at over
+100 miles per hour gets forced backward,
+100 miles per hour gets forced backward,
+100 miles per hour gets forced backward,
+building pressure inside your airways up
+building pressure inside your airways up
+building pressure inside your airways up
+to 20 times higher than normal.
+to 20 times higher than normal.
+to 20 times higher than normal.
+That pressure has nowhere to go, pushing
+That pressure has nowhere to go, pushing
+That pressure has nowhere to go, pushing
+into your sinuses, your inner ear, even
+into your sinuses, your inner ear, even
+into your sinuses, your inner ear, even
+the blood vessels in your neck and eyes.
+the blood vessels in your neck and eyes.
+the blood vessels in your neck and eyes.
+In rare cases, this trapped force can
+In rare cases, this trapped force can
+In rare cases, this trapped force can
+rupture vessels or damage the eardrum.
+rupture vessels or damage the eardrum.
+rupture vessels or damage the eardrum.
+Your body braces against it, but next
+Your body braces against it, but next
+Your body braces against it, but next
+time,
+time,
+time,
+&gt;&gt; 
+&gt;&gt; 
+&gt;&gt; 
+&gt;&gt; it's safer just to let it out.
+&gt;&gt; it's safer just to let it out.
+&gt;&gt; it's safer just to let it out.
+&gt;&gt; Now that you've seen the quality here,
+&gt;&gt; Now that you've seen the quality here,
+&gt;&gt; Now that you've seen the quality here,
+you can tell this is nothing like
+you can tell this is nothing like
+you can tell this is nothing like
+typical AI slop content. I've dropped
+typical AI slop content. I've dropped
+typical AI slop content. I've dropped
+the Higgs field link in the description,
+the Higgs field link in the description,
+the Higgs field link in the description,
+so go make your first 3D animated video
+so go make your first 3D animated video
+so go make your first 3D animated video
+using Blender. And if you want that
+using Blender. And if you want that
+using Blender. And if you want that
+prompt list, just comment prompt link
+prompt list, just comment prompt link
+prompt list, just comment prompt link
+below and I'll send it  to you
+below and I'll send it  to you
+below and I'll send it  to you
+personally.

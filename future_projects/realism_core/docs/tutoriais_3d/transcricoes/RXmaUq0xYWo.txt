@@ -1,0 +1,619 @@
+Kind: captions
+Language: en
+in this video we will create the main
+in this video we will create the main
+in this video we will create the main
+character for our ps1 horror game in the
+character for our ps1 horror game in the
+character for our ps1 horror game in the
+last video we talked about the setup of
+last video we talked about the setup of
+last video we talked about the setup of
+a first person character and what we
+a first person character and what we
+a first person character and what we
+have to look out for so if you haven't
+have to look out for so if you haven't
+have to look out for so if you haven't
+watched that video um check it out let's
+watched that video um check it out let's
+watched that video um check it out let's
+dive into it important step before we
+dive into it important step before we
+dive into it important step before we
+even start modeling is reference
+even start modeling is reference
+even start modeling is reference
+scouting for our character so google and
+scouting for our character so google and
+scouting for our character so google and
+such
+such
+such
+images that can
+images that can
+images that can
+come near your vision for your character
+come near your vision for your character
+come near your vision for your character
+for your idea of the character then
+for your idea of the character then
+for your idea of the character then
+basically create concept art and the
+basically create concept art and the
+basically create concept art and the
+best case scenario would be a front side
+best case scenario would be a front side
+best case scenario would be a front side
+and back view of the character if you
+and back view of the character if you
+and back view of the character if you
+are skilled enough and can't draw you
+are skilled enough and can't draw you
+are skilled enough and can't draw you
+can create yourself and in reference
+can create yourself and in reference
+can create yourself and in reference
+image or if you have the big money for
+image or if you have the big money for
+image or if you have the big money for
+it or the budget for your project and
+it or the budget for your project and
+it or the budget for your project and
+such big enough you can commission an
+such big enough you can commission an
+such big enough you can commission an
+artist to create a character reference
+artist to create a character reference
+artist to create a character reference
+concept art sheet for your main
+concept art sheet for your main
+concept art sheet for your main
+character this will save definitely a
+character this will save definitely a
+character this will save definitely a
+lot of time but not money the other
+lot of time but not money the other
+lot of time but not money the other
+option would be to go the the photo
+option would be to go the the photo
+option would be to go the the photo
+image based references
+image based references
+image based references
+uh reference way like i
+uh reference way like i
+uh reference way like i
+explained in the ps1 style yourself
+explained in the ps1 style yourself
+explained in the ps1 style yourself
+tutorial
+tutorial
+tutorial
+um a lot of things from that tutorial
+um a lot of things from that tutorial
+um a lot of things from that tutorial
+will be um coming back in this tutorial
+will be um coming back in this tutorial
+will be um coming back in this tutorial
+of course because it's
+of course because it's
+of course because it's
+just character modeling
+just character modeling
+just character modeling
+in my
+in my
+in my
+particular case for my main character i
+particular case for my main character i
+particular case for my main character i
+made uh the first thing i made was a
+made uh the first thing i made was a
+made uh the first thing i made was a
+gameplay concept a mockup
+gameplay concept a mockup
+gameplay concept a mockup
+i made a concept art piece for what
+i made a concept art piece for what
+i made a concept art piece for what
+on-screen game experience will look like
+on-screen game experience will look like
+on-screen game experience will look like
+i just simply bashed a lot of photos
+i just simply bashed a lot of photos
+i just simply bashed a lot of photos
+roughly together
+roughly together
+roughly together
+um you can do this basically even on a
+um you can do this basically even on a
+um you can do this basically even on a
+phone
+phone
+phone
+um and this will make
+um and this will make
+um and this will make
+the process of communicating visions
+the process of communicating visions
+the process of communicating visions
+with others way easier and also to get
+with others way easier and also to get
+with others way easier and also to get
+understanding of the feel it's going to
+understanding of the feel it's going to
+understanding of the feel it's going to
+have and such
+have and such
+have and such
+so this can simplify decisions we have
+so this can simplify decisions we have
+so this can simplify decisions we have
+to make along the way
+to make along the way
+to make along the way
+um for the character
+um for the character
+um for the character
+concept reference sheet
+concept reference sheet
+concept reference sheet
+art
+art
+art
+i took the time and bashed again images
+i took the time and bashed again images
+i took the time and bashed again images
+together because i can't draw like you
+together because i can't draw like you
+together because i can't draw like you
+mentioned in the find your style video
+mentioned in the find your style video
+mentioned in the find your style video
+so
+so
+so
+i sadly have only a front and a back
+i sadly have only a front and a back
+i sadly have only a front and a back
+view so i have to make up the the side
+view so i have to make up the the side
+view so i have to make up the the side
+view or use the other reference for
+view or use the other reference for
+view or use the other reference for
+scale in my case i use the
+scale in my case i use the
+scale in my case i use the
+the the skeleton reference sheet i'm
+the the skeleton reference sheet i'm
+the the skeleton reference sheet i'm
+it which is available on my on my
+it which is available on my on my
+it which is available on my on my
+website uh so basically i go through the
+website uh so basically i go through the
+website uh so basically i go through the
+process in heart mode let's talk about
+process in heart mode let's talk about
+process in heart mode let's talk about
+the design of the main character we
+the design of the main character we
+the design of the main character we
+should tone down the colors and the the
+should tone down the colors and the the
+should tone down the colors and the the
+design of the character
+design of the character
+design of the character
+it's better to be a bit basic than to
+it's better to be a bit basic than to
+it's better to be a bit basic than to
+noisy because we will mainly look at
+noisy because we will mainly look at
+noisy because we will mainly look at
+other stuff in the game and i want to
+other stuff in the game and i want to
+other stuff in the game and i want to
+keep some space for the player to
+keep some space for the player to
+keep some space for the player to
+project themselves into the character
+project themselves into the character
+project themselves into the character
+so
+so
+so
+don't overdo it with that said i still
+don't overdo it with that said i still
+don't overdo it with that said i still
+wanted to make the hands a bit more pop
+wanted to make the hands a bit more pop
+wanted to make the hands a bit more pop
+which will be in the frame a lot
+which will be in the frame a lot
+which will be in the frame a lot
+because of two reasons i made some
+because of two reasons i made some
+because of two reasons i made some
+drastic styling decisions i want the
+drastic styling decisions i want the
+drastic styling decisions i want the
+playthrough of the game
+playthrough of the game
+playthrough of the game
+to be
+to be
+to be
+easy to differentiate on first sight
+easy to differentiate on first sight
+easy to differentiate on first sight
+very often i see no difference in horror
+very often i see no difference in horror
+very often i see no difference in horror
+games from one to another so with the
+games from one to another so with the
+games from one to another so with the
+with the red design of the of the of the
+with the red design of the of the of the
+with the red design of the of the of the
+gloves
+gloves
+gloves
+we clearly
+we clearly
+we clearly
+see there's something going on uh
+see there's something going on uh
+see there's something going on uh
+something differentish and also the
+something differentish and also the
+something differentish and also the
+second um decision
+second um decision
+second um decision
+the second reason was the the game will
+the second reason was the the game will
+the second reason was the the game will
+be very heavy bluish and i wanted the
+be very heavy bluish and i wanted the
+be very heavy bluish and i wanted the
+hands to
+hands to
+hands to
+uh have some contrast to the to the
+uh have some contrast to the to the
+uh have some contrast to the to the
+bluish scene on screen
+bluish scene on screen
+bluish scene on screen
+so i
+so i
+so i
+was going with this red and basically
+was going with this red and basically
+was going with this red and basically
+could also be orange or yellow
+could also be orange or yellow
+could also be orange or yellow
+um but but red is a bit more you know a
+um but but red is a bit more you know a
+um but but red is a bit more you know a
+bit more
+bit more
+bit more
+uh not that noisy again
+uh not that noisy again
+uh not that noisy again
+so now i will model the arms
+so now i will model the arms
+so now i will model the arms
+uh for the hand i was going with an
+uh for the hand i was going with an
+uh for the hand i was going with an
+golden eye situation a thumb a pointer
+golden eye situation a thumb a pointer
+golden eye situation a thumb a pointer
+and the rest of the hand this will allow
+and the rest of the hand this will allow
+and the rest of the hand this will allow
+us to express ourselves
+us to express ourselves
+us to express ourselves
+in more ways and to trigger finger
+in more ways and to trigger finger
+in more ways and to trigger finger
+anything basically
+anything basically
+anything basically
+if you want a simple fps set up
+if you want a simple fps set up
+if you want a simple fps set up
+you're basically done with modeling the
+you're basically done with modeling the
+you're basically done with modeling the
+arms and the hand uh hands are enough
+arms and the hand uh hands are enough
+arms and the hand uh hands are enough
+but i will continue modeling the whole
+but i will continue modeling the whole
+but i will continue modeling the whole
+character because i'm still not sure if
+character because i'm still not sure if
+character because i'm still not sure if
+i want to
+i want to
+i want to
+implement later on um
+implement later on um
+implement later on um
+feet and multiplayer and at some point
+feet and multiplayer and at some point
+feet and multiplayer and at some point
+at some point i have to go back and
+at some point i have to go back and
+at some point i have to go back and
+model all that stuff
+model all that stuff
+model all that stuff
+anyway if um i explained that part in
+anyway if um i explained that part in
+anyway if um i explained that part in
+the previous video interesting enough
+the previous video interesting enough
+the previous video interesting enough
+the head is the least important thing
+the head is the least important thing
+the head is the least important thing
+for the character it's not that
+for the character it's not that
+for the character it's not that
+important
+important
+important
+so because the player itself will won't
+so because the player itself will won't
+so because the player itself will won't
+see the head anyway it will be very easy
+see the head anyway it will be very easy
+see the head anyway it will be very easy
+to replace the the head with a different
+to replace the the head with a different
+to replace the the head with a different
+look or something um afterwards anyway
+look or something um afterwards anyway
+look or something um afterwards anyway
+bingo banger bongo the body is done
+bingo banger bongo the body is done
+bingo banger bongo the body is done
+lacking subscribe we ended up with a
+lacking subscribe we ended up with a
+lacking subscribe we ended up with a
+three part full character model
+three part full character model
+three part full character model
+head arms and body
+head arms and body
+head arms and body
+with less polygons than a metal gear
+with less polygons than a metal gear
+with less polygons than a metal gear
+character
+character
+character
+from the ps1 game
+from the ps1 game
+from the ps1 game
+so that's pretty low poly now we are uv
+so that's pretty low poly now we are uv
+so that's pretty low poly now we are uv
+unwrapping the whole thing placing seam
+unwrapping the whole thing placing seam
+unwrapping the whole thing placing seam
+it's at edges cutting at places and
+it's at edges cutting at places and
+it's at edges cutting at places and
+unwrap the whole thing okay okay okay
+unwrap the whole thing okay okay okay
+unwrap the whole thing okay okay okay
+now i'm pretty proud of this part um i
+now i'm pretty proud of this part um i
+now i'm pretty proud of this part um i
+always used uh images stencils for
+always used uh images stencils for
+always used uh images stencils for
+texturing and the results are always
+texturing and the results are always
+texturing and the results are always
+pretty decent i recommend you to do also
+pretty decent i recommend you to do also
+pretty decent i recommend you to do also
+if you're close to a deadline it's it's
+if you're close to a deadline it's it's
+if you're close to a deadline it's it's
+way faster
+way faster
+way faster
+but
+but
+but
+um
+um
+um
+on this particular main character for
+on this particular main character for
+on this particular main character for
+this game i wanted to
+this game i wanted to
+this game i wanted to
+i wanted and i tried to improve in hand
+i wanted and i tried to improve in hand
+i wanted and i tried to improve in hand
+painting skills so i give it a try and i
+painting skills so i give it a try and i
+painting skills so i give it a try and i
+only cried um
+only cried um
+only cried um
+maybe three times
+maybe three times
+maybe three times
+and it turned out pretty decent i think
+and it turned out pretty decent i think
+and it turned out pretty decent i think
+it started as usual with the image
+it started as usual with the image
+it started as usual with the image
+stencil
+stencil
+stencil
+technique straight from the character
+technique straight from the character
+technique straight from the character
+reference onto the mesh then i blocked
+reference onto the mesh then i blocked
+reference onto the mesh then i blocked
+out the main
+out the main
+out the main
+colors
+colors
+colors
+after that i placed and painted shadow
+after that i placed and painted shadow
+after that i placed and painted shadow
+areas with a darker color then i blended
+areas with a darker color then i blended
+areas with a darker color then i blended
+them
+them
+them
+into the shadow areas into the main
+into the shadow areas into the main
+into the shadow areas into the main
+color by smearing and softening with the
+color by smearing and softening with the
+color by smearing and softening with the
+dedicated tools and then i brought in
+dedicated tools and then i brought in
+dedicated tools and then i brought in
+some highlights for the cloth textures
+some highlights for the cloth textures
+some highlights for the cloth textures
+like for the t-shirt and for the pants
+like for the t-shirt and for the pants
+like for the t-shirt and for the pants
+that was that was a process it took a
+that was that was a process it took a
+that was that was a process it took a
+lot of very precise
+lot of very precise
+lot of very precise
+placing of the folds in the clothes and
+placing of the folds in the clothes and
+placing of the folds in the clothes and
+um the the right direction and size was
+um the the right direction and size was
+um the the right direction and size was
+important for the for the come out yeah
+important for the for the come out yeah
+important for the for the come out yeah
+i think this is something you just have
+i think this is something you just have
+i think this is something you just have
+to try and to develop a feeling it was a
+to try and to develop a feeling it was a
+to try and to develop a feeling it was a
+process
+process
+process
+but i want to get better i'm still not
+but i want to get better i'm still not
+but i want to get better i'm still not
+ready for faces so i returned to my old
+ready for faces so i returned to my old
+ready for faces so i returned to my old
+uh stencil technique and just uh fruit
+uh stencil technique and just uh fruit
+uh stencil technique and just uh fruit
+some ai face on this
+some ai face on this
+some ai face on this
+bad boy and that's the result
+um he still looks a bit plank but that's
+um he still looks a bit plank but that's
+um he still looks a bit plank but that's
+on purpose like he said in game you will
+on purpose like he said in game you will
+on purpose like he said in game you will
+actually never see his face or his head
+actually never see his face or his head
+actually never see his face or his head
+so we could always change his
+so we could always change his
+so we could always change his
+head still mid-way through the project
+head still mid-way through the project
+head still mid-way through the project
+and also we can always improve on the
+and also we can always improve on the
+and also we can always improve on the
+textures well well
+textures well well
+textures well well
+i hope this video was informative if you
+i hope this video was informative if you
+i hope this video was informative if you
+need help or something wasn't unclear
+need help or something wasn't unclear
+need help or something wasn't unclear
+just ask i'm i'm there for you
+just ask i'm i'm there for you
+just ask i'm i'm there for you
+if you wanna help the channel and
+if you wanna help the channel and
+if you wanna help the channel and
+support me in a big way consider
+support me in a big way consider
+support me in a big way consider
+becoming a patreon like those lovely
+becoming a patreon like those lovely
+becoming a patreon like those lovely
+people on this part of the journey i
+people on this part of the journey i
+people on this part of the journey i
+covered a lot of stuff uh and things i
+covered a lot of stuff uh and things i
+covered a lot of stuff uh and things i
+already
+already
+already
+explained in a fleshed out tutorial on
+explained in a fleshed out tutorial on
+explained in a fleshed out tutorial on
+the channel
+the channel
+the channel
+in more than a few
+in more than a few
+in more than a few
+tutorials but in the next time uh in the
+tutorials but in the next time uh in the
+tutorials but in the next time uh in the
+next part we will attack uh a new stuff
+next part we will attack uh a new stuff
+next part we will attack uh a new stuff
+uh rigging and animating our
+uh rigging and animating our
+uh rigging and animating our
+main character for our ps1 style horror
+main character for our ps1 style horror
+main character for our ps1 style horror
+game
+game
+game
+so i'm glad you stick by and see you in
+so i'm glad you stick by and see you in
+so i'm glad you stick by and see you in
+the next one bye

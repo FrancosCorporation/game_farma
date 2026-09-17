@@ -1,0 +1,425 @@
+Kind: captions
+Language: en
+in this video I'm going to be showing
+in this video I'm going to be showing
+in this video I'm going to be showing
+you how easy it is to create an epic
+you how easy it is to create an epic
+you how easy it is to create an epic
+realistic Spider-Man animation on
+realistic Spider-Man animation on
+realistic Spider-Man animation on
+blender you're going to learn how we can
+blender you're going to learn how we can
+blender you're going to learn how we can
+find and use completely free assets and
+find and use completely free assets and
+find and use completely free assets and
+models from the internet to set up some
+models from the internet to set up some
+models from the internet to set up some
+awesome shots in a night City stick
+awesome shots in a night City stick
+awesome shots in a night City stick
+around to the end of the video to see my
+around to the end of the video to see my
+around to the end of the video to see my
+epic final animation
+epic final animation
+epic final animation
+okay so I have this epic idea for an
+okay so I have this epic idea for an
+okay so I have this epic idea for an
+animation I want to see Spider-Man on a
+animation I want to see Spider-Man on a
+animation I want to see Spider-Man on a
+high rooftop overlooking the night City
+high rooftop overlooking the night City
+high rooftop overlooking the night City
+I don't want to spend hours modeling
+I don't want to spend hours modeling
+I don't want to spend hours modeling
+Spider-Man an entire night City so how
+Spider-Man an entire night City so how
+Spider-Man an entire night City so how
+do we do this the answer my friend is
+do we do this the answer my friend is
+do we do this the answer my friend is
+the internet well let's start with
+the internet well let's start with
+the internet well let's start with
+Spider-Man himself if we go to sketchfab
+Spider-Man himself if we go to sketchfab
+Spider-Man himself if we go to sketchfab
+we're gonna find literally dozens of
+we're gonna find literally dozens of
+we're gonna find literally dozens of
+free downloadable Spider-Man models pick
+free downloadable Spider-Man models pick
+free downloadable Spider-Man models pick
+anyone you like I've linked the one I
+anyone you like I've linked the one I
+anyone you like I've linked the one I
+used in the description once we make
+used in the description once we make
+used in the description once we make
+sure the motto is t-posing we can then
+sure the motto is t-posing we can then
+sure the motto is t-posing we can then
+export the mesh to a separate fbx make
+export the mesh to a separate fbx make
+export the mesh to a separate fbx make
+sure to check embed textures while
+sure to check embed textures while
+sure to check embed textures while
+exporting to pack all the materials now
+exporting to pack all the materials now
+exporting to pack all the materials now
+we're going to miximo.com to upload our
+we're going to miximo.com to upload our
+we're going to miximo.com to upload our
+export we can automatically rig out
+export we can automatically rig out
+export we can automatically rig out
+Spider-Man with its easy upload process
+Spider-Man with its easy upload process
+Spider-Man with its easy upload process
+and then bam you can now search for
+and then bam you can now search for
+and then bam you can now search for
+thousands of motion capture animations
+thousands of motion capture animations
+thousands of motion capture animations
+all ready to download and import nice
+all ready to download and import nice
+all ready to download and import nice
+tip is to search for standard terms like
+tip is to search for standard terms like
+tip is to search for standard terms like
+run jump and they even have a whole
+run jump and they even have a whole
+run jump and they even have a whole
+section dedicated to superheroes before
+section dedicated to superheroes before
+section dedicated to superheroes before
+you import make sure you download the
+you import make sure you download the
+you import make sure you download the
+mix and more add-on develop it to
+mix and more add-on develop it to
+mix and more add-on develop it to
+blender okay once we bring on a mixable
+blender okay once we bring on a mixable
+blender okay once we bring on a mixable
+animation we can use the add-on to
+animation we can use the add-on to
+animation we can use the add-on to
+create a dedicated control rig that's
+create a dedicated control rig that's
+create a dedicated control rig that's
+better also we might need to mess around
+better also we might need to mess around
+better also we might need to mess around
+with spidey's textures to make it look
+with spidey's textures to make it look
+with spidey's textures to make it look
+right here's a quick tip if you ever
+right here's a quick tip if you ever
+right here's a quick tip if you ever
+want to grab another miximo animation
+want to grab another miximo animation
+want to grab another miximo animation
+you can just download the fbx without
+you can just download the fbx without
+you can just download the fbx without
+the skin this means it's just the
+the skin this means it's just the
+the skin this means it's just the
+Armature then you bring that in and
+Armature then you bring that in and
+Armature then you bring that in and
+check this out with the old animation
+check this out with the old animation
+check this out with the old animation
+you can zero out the rig select a new
+you can zero out the rig select a new
+you can zero out the rig select a new
+Armature as the source then apply the
+Armature as the source then apply the
+Armature as the source then apply the
+animation and boom easy animation
+animation and boom easy animation
+animation and boom easy animation
+switches okay now we need an entire
+switches okay now we need an entire
+switches okay now we need an entire
+environment and remember we're going to
+environment and remember we're going to
+environment and remember we're going to
+keep this super fast and free let's
+keep this super fast and free let's
+keep this super fast and free let's
+start by making a rooftop for our Spidey
+start by making a rooftop for our Spidey
+start by making a rooftop for our Spidey
+I'll model a basic rooftop and slap on
+I'll model a basic rooftop and slap on
+I'll model a basic rooftop and slap on
+some concrete textures then I'll search
+some concrete textures then I'll search
+some concrete textures then I'll search
+the internet for any free assets of
+the internet for any free assets of
+the internet for any free assets of
+things like pipes ACS electricals
+things like pipes ACS electricals
+things like pipes ACS electricals
+antennas finding these assets is another
+antennas finding these assets is another
+antennas finding these assets is another
+scale by itself but notable free assets
+scale by itself but notable free assets
+scale by itself but notable free assets
+I found was just set from sketchfab and
+I found was just set from sketchfab and
+I found was just set from sketchfab and
+video co-pilot's rooftop collection from
+video co-pilot's rooftop collection from
+video co-pilot's rooftop collection from
+years back now we can bash a little
+years back now we can bash a little
+years back now we can bash a little
+rooftop scene placing everything
+rooftop scene placing everything
+rooftop scene placing everything
+together
+together
+together
+okay but we still need an entire night
+okay but we still need an entire night
+okay but we still need an entire night
+City there's an entire set of YouTube
+City there's an entire set of YouTube
+City there's an entire set of YouTube
+videos dedicated to this to sum it up
+videos dedicated to this to sum it up
+videos dedicated to this to sum it up
+you can model the basic cubes make it
+you can model the basic cubes make it
+you can model the basic cubes make it
+glossy and slap an image texture of
+glossy and slap an image texture of
+glossy and slap an image texture of
+building lights and use the bright parts
+building lights and use the bright parts
+building lights and use the bright parts
+to drive their mission but there's even
+to drive their mission but there's even
+to drive their mission but there's even
+a faster and easier way if you do the
+a faster and easier way if you do the
+a faster and easier way if you do the
+right searching you can actually find
+right searching you can actually find
+right searching you can actually find
+photo scans of entire cities at day and
+photo scans of entire cities at day and
+photo scans of entire cities at day and
+night these people capture really cool
+night these people capture really cool
+night these people capture really cool
+and usable stuff with drones so huge
+and usable stuff with drones so huge
+and usable stuff with drones so huge
+thanks to them for making our jobs
+thanks to them for making our jobs
+thanks to them for making our jobs
+easier once we bring those cities all in
+easier once we bring those cities all in
+easier once we bring those cities all in
+we can repeat the kid bashing process by
+we can repeat the kid bashing process by
+we can repeat the kid bashing process by
+placing duplicating and rotating the
+placing duplicating and rotating the
+placing duplicating and rotating the
+scans to create one Unique city okay now
+scans to create one Unique city okay now
+scans to create one Unique city okay now
+we want to turn every city scan really
+we want to turn every city scan really
+we want to turn every city scan really
+dark so only the lights stand up we'll
+dark so only the lights stand up we'll
+dark so only the lights stand up we'll
+create an emission Shader now we'll mix
+create an emission Shader now we'll mix
+create an emission Shader now we'll mix
+this with the diffuse vsdf using a mixed
+this with the diffuse vsdf using a mixed
+this with the diffuse vsdf using a mixed
+Shader now here's the trick just use the
+Shader now here's the trick just use the
+Shader now here's the trick just use the
+original image colors throughout color
+original image colors throughout color
+original image colors throughout color
+ramp to drive the mix Factor now you can
+ramp to drive the mix Factor now you can
+ramp to drive the mix Factor now you can
+ramp up the contrast until only the
+ramp up the contrast until only the
+ramp up the contrast until only the
+building highlights are driving the
+building highlights are driving the
+building highlights are driving the
+mission and there you go night City to
+mission and there you go night City to
+mission and there you go night City to
+make things look better we can find some
+make things look better we can find some
+make things look better we can find some
+individual skyscraper models for the
+individual skyscraper models for the
+individual skyscraper models for the
+ones near Spidey you can also disconnect
+ones near Spidey you can also disconnect
+ones near Spidey you can also disconnect
+a glossy and brick displacement to a
+a glossy and brick displacement to a
+a glossy and brick displacement to a
+cube to make a building we can also
+cube to make a building we can also
+cube to make a building we can also
+bring in some good looking distant nice
+bring in some good looking distant nice
+bring in some good looking distant nice
+city photos from textures.com this means
+city photos from textures.com this means
+city photos from textures.com this means
+we can extend the Horizon a bit and make
+we can extend the Horizon a bit and make
+we can extend the Horizon a bit and make
+things look cleaner
+things look cleaner
+things look cleaner
+we'll also add a cube of subtle
+we'll also add a cube of subtle
+we'll also add a cube of subtle
+volumetric fog
+volumetric fog
+volumetric fog
+let's set up a night sky quickly we'll
+let's set up a night sky quickly we'll
+let's set up a night sky quickly we'll
+just cut a sphere in half and drive a
+just cut a sphere in half and drive a
+just cut a sphere in half and drive a
+scaled noise texture through a
+scaled noise texture through a
+scaled noise texture through a
+controlled color ramp and connect to a
+controlled color ramp and connect to a
+controlled color ramp and connect to a
+mission and now we have beautiful stars
+mission and now we have beautiful stars
+mission and now we have beautiful stars
+to make things more advanced we can also
+to make things more advanced we can also
+to make things more advanced we can also
+create the horizons atmosphere using a
+create the horizons atmosphere using a
+create the horizons atmosphere using a
+foggy color that's positioned by
+foggy color that's positioned by
+foggy color that's positioned by
+gradients and mapping to create a band
+gradients and mapping to create a band
+gradients and mapping to create a band
+of white against black that can drive
+of white against black that can drive
+of white against black that can drive
+the mix Shader slap on an emissive Moon
+the mix Shader slap on an emissive Moon
+the mix Shader slap on an emissive Moon
+texture and boom night sky now all
+texture and boom night sky now all
+texture and boom night sky now all
+there's left to do is just plan out our
+there's left to do is just plan out our
+there's left to do is just plan out our
+animation sequences this means creating
+animation sequences this means creating
+animation sequences this means creating
+and putting a camera where we want it
+and putting a camera where we want it
+and putting a camera where we want it
+position our animated Spidey animate the
+position our animated Spidey animate the
+position our animated Spidey animate the
+camera moving and use Ian Hubert's free
+camera moving and use Ian Hubert's free
+camera moving and use Ian Hubert's free
+camera add-on to add realistic camera
+camera add-on to add realistic camera
+camera add-on to add realistic camera
+Shake since everything is dark you might
+Shake since everything is dark you might
+Shake since everything is dark you might
+need to add some point lights or rim
+need to add some point lights or rim
+need to add some point lights or rim
+lights to highlight a character a bit I
+lights to highlight a character a bit I
+lights to highlight a character a bit I
+used cool and warm lights as well as
+used cool and warm lights as well as
+used cool and warm lights as well as
+Moonlight lots of Lights now of course
+Moonlight lots of Lights now of course
+Moonlight lots of Lights now of course
+you can get even more advanced you might
+you can get even more advanced you might
+you can get even more advanced you might
+want to combine certain animations or
+want to combine certain animations or
+want to combine certain animations or
+get into The Swinging action and there's
+get into The Swinging action and there's
+get into The Swinging action and there's
+tons of good tutorials out there I just
+tons of good tutorials out there I just
+tons of good tutorials out there I just
+hope to give you a bit of a head start
+hope to give you a bit of a head start
+hope to give you a bit of a head start
+to show that it is possible to make
+to show that it is possible to make
+to show that it is possible to make
+really cool animations with entirely
+really cool animations with entirely
+really cool animations with entirely
+free stuff and small effort obviously
+free stuff and small effort obviously
+free stuff and small effort obviously
+the more love and effort you give things
+the more love and effort you give things
+the more love and effort you give things
+the better anyways as promised here's
+the better anyways as promised here's
+the better anyways as promised here's
+what I came up with for my final
+what I came up with for my final
+what I came up with for my final
+animation
+foreign
+liking the video and subscribing for
+liking the video and subscribing for
+liking the video and subscribing for
+more content it helps me out a ton
+more content it helps me out a ton
+more content it helps me out a ton
+thanks for watching and I'll see you
+thanks for watching and I'll see you
+thanks for watching and I'll see you
+next time

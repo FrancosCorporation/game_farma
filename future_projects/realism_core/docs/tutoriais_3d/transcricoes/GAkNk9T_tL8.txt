@@ -1,0 +1,716 @@
+Kind: captions
+Language: en
+everyone says a quick video here and
+everyone says a quick video here and
+everyone says a quick video here and
+I've been working on a game for quite a
+I've been working on a game for quite a
+I've been working on a game for quite a
+while however just quite simply put just
+while however just quite simply put just
+while however just quite simply put just
+another time to do it and but I shifted
+another time to do it and but I shifted
+another time to do it and but I shifted
+over to Unreal Engine for a while um and
+over to Unreal Engine for a while um and
+over to Unreal Engine for a while um and
+one of the things that caught my
+one of the things that caught my
+one of the things that caught my
+attention that was the incredible Matrix
+attention that was the incredible Matrix
+attention that was the incredible Matrix
+demo
+demo
+demo
+um but when I started getting into it
+um but when I started getting into it
+um but when I started getting into it
+and I bought a tutorial set and when I
+and I bought a tutorial set and when I
+and I bought a tutorial set and when I
+started getting into it I decided that I
+started getting into it I decided that I
+started getting into it I decided that I
+see unreal's clunky sometimes a little
+see unreal's clunky sometimes a little
+see unreal's clunky sometimes a little
+bit difficult to do simple things so I
+bit difficult to do simple things so I
+bit difficult to do simple things so I
+set up a very basic scene with a
+set up a very basic scene with a
+set up a very basic scene with a
+building and made an openable door that
+building and made an openable door that
+building and made an openable door that
+I could go through and that took me
+I could go through and that took me
+I could go through and that took me
+quite a while
+quite a while
+quite a while
+decided to Thai English to a pet project
+decided to Thai English to a pet project
+decided to Thai English to a pet project
+and I want to see how far agk can
+and I want to see how far agk can
+and I want to see how far agk can
+actually be pushed so what I've got here
+actually be pushed so what I've got here
+actually be pushed so what I've got here
+is a first person very simple city scene
+is a first person very simple city scene
+is a first person very simple city scene
+and I do intend to make it more complex
+and I do intend to make it more complex
+and I do intend to make it more complex
+and when I can figure out how I intend
+and when I can figure out how I intend
+and when I can figure out how I intend
+to make all of this open source so
+to make all of this open source so
+to make all of this open source so
+anybody can have a look at it and
+anybody can have a look at it and
+anybody can have a look at it and
+contribute and hopefully improve it and
+contribute and hopefully improve it and
+contribute and hopefully improve it and
+this is just a hobby this is a pet
+this is just a hobby this is a pet
+this is just a hobby this is a pet
+project so basically I've used all
+project so basically I've used all
+project so basically I've used all
+existing Technologies I've built so this
+existing Technologies I've built so this
+existing Technologies I've built so this
+is all based on the agk World Builder
+is all based on the agk World Builder
+is all based on the agk World Builder
+and the game engine I3 together
+and the game engine I3 together
+and the game engine I3 together
+particularly this very simple scene but
+particularly this very simple scene but
+particularly this very simple scene but
+what I can do is come up to the store
+what I can do is come up to the store
+what I can do is come up to the store
+here and I can just click to open it
+here and I can just click to open it
+here and I can just click to open it
+and I can close the door so I can open
+and I can close the door so I can open
+and I can close the door so I can open
+close doors and I can come in here now
+close doors and I can come in here now
+close doors and I can come in here now
+educate's natural Shadows means shaders
+educate's natural Shadows means shaders
+educate's natural Shadows means shaders
+and shadows when I turn this way it's
+and shadows when I turn this way it's
+and shadows when I turn this way it's
+culling the back of the building so I'll
+culling the back of the building so I'll
+culling the back of the building so I'll
+have to set
+have to set
+have to set
+um some kind of code to stop that
+um some kind of code to stop that
+um some kind of code to stop that
+happening when things are up within a
+happening when things are up within a
+happening when things are up within a
+certain distance I can close the door I
+certain distance I can close the door I
+certain distance I can close the door I
+can open it to the hearts content these
+can open it to the hearts content these
+can open it to the hearts content these
+can also be set to automatically close
+can also be set to automatically close
+can also be set to automatically close
+after a certain amount of time when
+after a certain amount of time when
+after a certain amount of time when
+they're open
+they're open
+they're open
+however this does allow me you can see
+however this does allow me you can see
+however this does allow me you can see
+the textures here ignore this this is a
+the textures here ignore this this is a
+the textures here ignore this this is a
+very simple mock building that through
+very simple mock building that through
+very simple mock building that through
+together so none of the textures are
+together so none of the textures are
+together so none of the textures are
+accurate they're all just built to
+accurate they're all just built to
+accurate they're all just built to
+separate meshes from an fbx export and
+separate meshes from an fbx export and
+separate meshes from an fbx export and
+but what you can see here is I do have
+but what you can see here is I do have
+but what you can see here is I do have
+staircases I've got multi-stories I can
+staircases I've got multi-stories I can
+staircases I've got multi-stories I can
+come along and I can claim the stairs
+come along and I can claim the stairs
+come along and I can claim the stairs
+and I can go all the way to the top
+and then here I have a simple flat
+and then here I have a simple flat
+and then here I have a simple flat
+that's modeled where you can go in and
+that's modeled where you can go in and
+that's modeled where you can go in and
+there's multiple rooms multiple walls
+there's multiple rooms multiple walls
+there's multiple rooms multiple walls
+and again ignoring all the textures
+and again ignoring all the textures
+and again ignoring all the textures
+we've got Windows you can see too etc
+we've got Windows you can see too etc
+we've got Windows you can see too etc
+etc and so what I wanted to demonstrate
+etc and so what I wanted to demonstrate
+etc and so what I wanted to demonstrate
+today was how
+today was how
+today was how
+him easy I can actually make it to
+him easy I can actually make it to
+him easy I can actually make it to
+create an openable door in egk because
+create an openable door in egk because
+create an openable door in egk because
+educates how it seems powerful so I'm
+educates how it seems powerful so I'm
+educates how it seems powerful so I'm
+just going to come out this just now and
+just going to come out this just now and
+just going to come out this just now and
+quit that and for now I'm going to go
+quit that and for now I'm going to go
+quit that and for now I'm going to go
+back into the actual editing software
+back into the actual editing software
+back into the actual editing software
+so I'm gonna load up the World Builder
+so I'm gonna load up the World Builder
+so I'm gonna load up the World Builder
+I'm going to look for where's my city
+I'm going to look for where's my city
+I'm going to look for where's my city
+I'm gonna load up the city that full
+I'm gonna load up the city that full
+I'm gonna load up the city that full
+time now what I'm going to do is
+time now what I'm going to do is
+time now what I'm going to do is
+separately in blender and you can see
+separately in blender and you can see
+separately in blender and you can see
+here here's the building that I'll be
+here here's the building that I'll be
+here here's the building that I'll be
+modeling and so everything's a bit
+modeling and so everything's a bit
+modeling and so everything's a bit
+square feet because of the meshes Etc
+square feet because of the meshes Etc
+square feet because of the meshes Etc
+and but separate to that I've made
+and but separate to that I've made
+and but separate to that I've made
+another door so it's a little simple
+another door so it's a little simple
+another door so it's a little simple
+door of pre-exported it's a Victorian
+door of pre-exported it's a Victorian
+door of pre-exported it's a Victorian
+door it's very simple and I want to put
+door it's very simple and I want to put
+door it's very simple and I want to put
+that in the inside of my flat so you can
+that in the inside of my flat so you can
+that in the inside of my flat so you can
+see in the World Builder here's my very
+see in the World Builder here's my very
+see in the World Builder here's my very
+subtle it's a very simple scene from a
+subtle it's a very simple scene from a
+subtle it's a very simple scene from a
+bunch of free assets that are noted and
+bunch of free assets that are noted and
+bunch of free assets that are noted and
+the only one that's not downloaded is
+the only one that's not downloaded is
+the only one that's not downloaded is
+the main building here in red which I've
+the main building here in red which I've
+the main building here in red which I've
+been building but you can see that
+been building but you can see that
+been building but you can see that
+already if I scale right out and that
+already if I scale right out and that
+already if I scale right out and that
+scene is using just a tiny bit of the
+scene is using just a tiny bit of the
+scene is using just a tiny bit of the
+world Builders usable scale
+world Builders usable scale
+world Builders usable scale
+so what I want to do is this is
+so what I want to do is this is
+so what I want to do is this is
+obviously got the LD you can see at the
+obviously got the LD you can see at the
+obviously got the LD you can see at the
+moment I've got 833 megabytes worth of
+moment I've got 833 megabytes worth of
+moment I've got 833 megabytes worth of
+mainly used and if I scroll right in the
+mainly used and if I scroll right in the
+mainly used and if I scroll right in the
+streaming the background texture
+streaming the background texture
+streaming the background texture
+streaming will start filling up the
+streaming will start filling up the
+streaming will start filling up the
+moment again as I come right in until
+moment again as I come right in until
+moment again as I come right in until
+we're up to 1200 make 1.2 gig again I
+we're up to 1200 make 1.2 gig again I
+we're up to 1200 make 1.2 gig again I
+haven't optimized any of these textures
+haven't optimized any of these textures
+haven't optimized any of these textures
+um that would be the final stage but I
+um that would be the final stage but I
+um that would be the final stage but I
+want to combine my LOD details on my
+want to combine my LOD details on my
+want to combine my LOD details on my
+engine just to see how much of a city I
+engine just to see how much of a city I
+engine just to see how much of a city I
+can actually build and keep it running
+can actually build and keep it running
+can actually build and keep it running
+but for now let's focus on just adding
+but for now let's focus on just adding
+but for now let's focus on just adding
+in the door to that flat
+in the door to that flat
+in the door to that flat
+is going to come up here
+is going to come up here
+is going to come up here
+been in my object library and I'm going
+been in my object library and I'm going
+been in my object library and I'm going
+to load in my Victorian door which is
+to load in my Victorian door which is
+to load in my Victorian door which is
+here
+here
+here
+let's load that up and that brings in
+let's load that up and that brings in
+let's load that up and that brings in
+the door and I'm going to try and get it
+the door and I'm going to try and get it
+the door and I'm going to try and get it
+to roughly the size of the door frame
+to roughly the size of the door frame
+to roughly the size of the door frame
+um but we'll sort that out once you're
+um but we'll sort that out once you're
+um but we'll sort that out once you're
+done and slap that object in just now
+done and slap that object in just now
+done and slap that object in just now
+come back there
+come back there
+come back there
+again my gallery my texture Gallery I'm
+again my gallery my texture Gallery I'm
+again my gallery my texture Gallery I'm
+going to load in the Victorian door
+going to load in the Victorian door
+going to load in the Victorian door
+texture
+texture
+texture
+so we go here again it's 256 by 1024
+so we go here again it's 256 by 1024
+so we go here again it's 256 by 1024
+pixels it doesn't have to be that big
+pixels it doesn't have to be that big
+pixels it doesn't have to be that big
+but I haven't optimized anything so I'm
+but I haven't optimized anything so I'm
+but I haven't optimized anything so I'm
+going to do is just go in here and I'm
+going to do is just go in here and I'm
+going to do is just go in here and I'm
+going to set its texture
+come out there as soon as I come out
+come out there as soon as I come out
+come out there as soon as I come out
+it'll do in that texture so there we go
+it'll do in that texture so there we go
+it'll do in that texture so there we go
+so I've done I could drag and drop that
+so I've done I could drag and drop that
+so I've done I could drag and drop that
+but you know
+but you know
+but you know
+and so what I'm going to do is just come
+and so what I'm going to do is just come
+and so what I'm going to do is just come
+in here and I'm going to edit the store
+in here and I'm going to edit the store
+in here and I'm going to edit the store
+a little bit I'm going to spin it around
+a little bit I'm going to spin it around
+a little bit I'm going to spin it around
+180 degrees
+and now I'm going to position it in the
+and now I'm going to position it in the
+and now I'm going to position it in the
+doorway
+and be very rough with this and
+and be very rough with this and
+and be very rough with this and
+obviously you'd want to spend a little
+obviously you'd want to spend a little
+obviously you'd want to spend a little
+bit more time you want to get a little
+bit more time you want to get a little
+bit more time you want to get a little
+bit more exact
+bit more exact
+bit more exact
+ly I'm scaling's a little bit off here
+ly I'm scaling's a little bit off here
+ly I'm scaling's a little bit off here
+I'm just going to shoot that down
+I'm just going to shoot that down
+I'm just going to shoot that down
+we go and I think at the top it was a
+we go and I think at the top it was a
+we go and I think at the top it was a
+little bit here as well
+little bit here as well
+little bit here as well
+and then the Precision on the scaling in
+and then the Precision on the scaling in
+and then the Precision on the scaling in
+the engine at the moment is not
+the engine at the moment is not
+the engine at the moment is not
+fantastic
+fantastic
+fantastic
+but that'll do for a very rough example
+but that'll do for a very rough example
+but that'll do for a very rough example
+I just want to show that the general
+I just want to show that the general
+I just want to show that the general
+gist of how something you can do in
+gist of how something you can do in
+gist of how something you can do in
+unreal that's much much too large
+unreal that's much much too large
+unreal that's much much too large
+um
+can be done
+can be done
+can be done
+um in ATK with relative ease
+um in ATK with relative ease
+um in ATK with relative ease
+so if anybody's ever tried doing
+so if anybody's ever tried doing
+so if anybody's ever tried doing
+anything like this and Unreal Engine to
+anything like this and Unreal Engine to
+anything like this and Unreal Engine to
+see how that's set on the other side
+see how that's set on the other side
+see how that's set on the other side
+a little bit
+a little bit
+a little bit
+there we go and the way this generally
+there we go and the way this generally
+there we go and the way this generally
+works is the easiest thing is true
+works is the easiest thing is true
+works is the easiest thing is true
+though it's always on tags and labels so
+though it's always on tags and labels so
+though it's always on tags and labels so
+I work in the same principle so if I go
+I work in the same principle so if I go
+I work in the same principle so if I go
+and look at this door down here you can
+and look at this door down here you can
+and look at this door down here you can
+see that it's got an object name tag
+see that it's got an object name tag
+see that it's got an object name tag
+saying door open up
+saying door open up
+saying door open up
+now imagine I've obviously coded door
+now imagine I've obviously coded door
+now imagine I've obviously coded door
+openable to be a trigger or something so
+openable to be a trigger or something so
+openable to be a trigger or something so
+all I have to do is come to this object
+all I have to do is come to this object
+all I have to do is come to this object
+select it here
+select it here
+select it here
+give it a name tag of door open the bowl
+give it a name tag of door open the bowl
+give it a name tag of door open the bowl
+hit confirm and there we go job's good
+hit confirm and there we go job's good
+hit confirm and there we go job's good
+on now theoretically what I'm going to
+on now theoretically what I'm going to
+on now theoretically what I'm going to
+do is I'm just going to come out here
+do is I'm just going to come out here
+do is I'm just going to come out here
+I'm going to save my world
+I'm going to save my world
+I'm going to save my world
+and I'm going to export a final build
+and I'm going to export a final build
+and I'm going to export a final build
+include grass
+include grass
+include grass
+just give that a minute well it just
+just give that a minute well it just
+just give that a minute well it just
+exports all the models and textures and
+exports all the models and textures and
+exports all the models and textures and
+everything else
+I'm going to quit out of the editor
+I'm going to quit out of the editor
+I'm going to quit out of the editor
+so we'll go back into the actual City
+so we'll go back into the actual City
+so we'll go back into the actual City
+Engine itself
+Engine itself
+Engine itself
+I'm going to make this full screen
+I'm going to make this full screen
+I'm going to make this full screen
+because the first person mode was a bit
+because the first person mode was a bit
+because the first person mode was a bit
+of a hacked that I did last night so
+of a hacked that I did last night so
+of a hacked that I did last night so
+the mouse is a bit squiffy just now
+the mouse is a bit squiffy just now
+the mouse is a bit squiffy just now
+since it starts so you have to make it
+since it starts so you have to make it
+since it starts so you have to make it
+full screen before it starts otherwise
+full screen before it starts otherwise
+full screen before it starts otherwise
+it's a bit of a pain
+just give it a second for it to start so
+just give it a second for it to start so
+just give it a second for it to start so
+my jaunty little music there now in this
+my jaunty little music there now in this
+my jaunty little music there now in this
+world here is all in in debug mode so
+world here is all in in debug mode so
+world here is all in in debug mode so
+you can see here this is actually path
+you can see here this is actually path
+you can see here this is actually path
+mapping data so everywhere that is red
+mapping data so everywhere that is red
+mapping data so everywhere that is red
+is essentially a non-walkable area and
+is essentially a non-walkable area and
+is essentially a non-walkable area and
+if it's green is walkable it's a very
+if it's green is walkable it's a very
+if it's green is walkable it's a very
+large grid I'm going to shake it down
+large grid I'm going to shake it down
+large grid I'm going to shake it down
+what I'm going to just press F1 turn on
+what I'm going to just press F1 turn on
+what I'm going to just press F1 turn on
+AI and so we can see my little NPC start
+AI and so we can see my little NPC start
+AI and so we can see my little NPC start
+to walk under bright City now what they
+to walk under bright City now what they
+to walk under bright City now what they
+do have as you can see here they've got
+do have as you can see here they've got
+do have as you can see here they've got
+PATH map smoothing switched on so
+PATH map smoothing switched on so
+PATH map smoothing switched on so
+actually they'll walk across the
+actually they'll walk across the
+actually they'll walk across the
+radiators and if they can see a clear
+radiators and if they can see a clear
+radiators and if they can see a clear
+path to it so if path mapping is
+path to it so if path mapping is
+path to it so if path mapping is
+extremely efficient
+extremely efficient
+extremely efficient
+but that wasn't what I wasn't sure so
+but that wasn't what I wasn't sure so
+but that wasn't what I wasn't sure so
+I'm going to go back here and focus on
+I'm going to go back here and focus on
+I'm going to go back here and focus on
+opening this door here and come in here
+opening this door here and come in here
+opening this door here and come in here
+go back up my stairs I should have made
+go back up my stairs I should have made
+go back up my stairs I should have made
+that ground floor flat really but never
+that ground floor flat really but never
+that ground floor flat really but never
+mind
+okay so obviously once this is textured
+okay so obviously once this is textured
+okay so obviously once this is textured
+properly and I put in some guard wheels
+properly and I put in some guard wheels
+properly and I put in some guard wheels
+and stuff like that'd be much easier to
+and stuff like that'd be much easier to
+and stuff like that'd be much easier to
+navigate any speed here we can see the
+navigate any speed here we can see the
+navigate any speed here we can see the
+door now down at the bottom corner there
+door now down at the bottom corner there
+door now down at the bottom corner there
+and you've got your xyab you can control
+and you've got your xyab you can control
+and you've got your xyab you can control
+this with the joypad if you so wish
+this with the joypad if you so wish
+this with the joypad if you so wish
+there's a third person mode you can see
+there's a third person mode you can see
+there's a third person mode you can see
+here it's got open so if I just click
+here it's got open so if I just click
+here it's got open so if I just click
+that boom functional door it's a bit
+that boom functional door it's a bit
+that boom functional door it's a bit
+rough rough and ready but actually it's
+rough rough and ready but actually it's
+rough rough and ready but actually it's
+the gist of how to set up
+the gist of how to set up
+the gist of how to set up
+a very basic City there's no roof
+a very basic City there's no roof
+a very basic City there's no roof
+obviously so Lightning's a bit even here
+obviously so Lightning's a bit even here
+obviously so Lightning's a bit even here
+but with full functional doors and I
+but with full functional doors and I
+but with full functional doors and I
+could clone that door and put it in any
+could clone that door and put it in any
+could clone that door and put it in any
+doorway I want and as long as I tag the
+doorway I want and as long as I tag the
+doorway I want and as long as I tag the
+object as door openable the same color
+object as door openable the same color
+object as door openable the same color
+fire on it and whenever you interact
+fire on it and whenever you interact
+fire on it and whenever you interact
+with that object and it'll cause it to
+with that object and it'll cause it to
+with that object and it'll cause it to
+open and close
+open and close
+open and close
+so as powerful as Unreal Engine is
+so as powerful as Unreal Engine is
+so as powerful as Unreal Engine is
+actually very quickly and easily because
+actually very quickly and easily because
+actually very quickly and easily because
+this is only about six hours worth of
+this is only about six hours worth of
+this is only about six hours worth of
+work in Total and that's taking my
+work in Total and that's taking my
+work in Total and that's taking my
+existing game engine and hacking apart
+existing game engine and hacking apart
+existing game engine and hacking apart
+rebuilding it and putting in new
+rebuilding it and putting in new
+rebuilding it and putting in new
+features such as the ability to do the
+features such as the ability to do the
+features such as the ability to do the
+scripts in the doors
+scripts in the doors
+scripts in the doors
+um you can actually do it really quickly
+um you can actually do it really quickly
+um you can actually do it really quickly
+in education is actually despite its age
+in education is actually despite its age
+in education is actually despite its age
+still relatively powerful I just do wish
+still relatively powerful I just do wish
+still relatively powerful I just do wish
+they'd sort out the Shadows

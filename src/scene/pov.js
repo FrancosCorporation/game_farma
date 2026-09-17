@@ -20,6 +20,11 @@ const LIM_YAW = 0.6;   // limite do look-around (rad)
 const LIM_PITCH = 0.3;
 const DUR_TWEEN = 0.9;
 
+// Andar livre (WASD) — limites do salão (piso 18x13, paredes em ±9 / z -6.5..6.5)
+const VEL = 2.6; // m/s
+const ANDAR = { x0: -8.4, x1: 8.4, z0: -5.6, z1: 5.8, balcaoX: 3.4, balcaoZ: 2.0 };
+const EYE = 1.6;
+
 export function createPOV({ camera, addTicker, canvas, povControl }) {
   const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -32,15 +37,24 @@ export function createPOV({ camera, addTicker, canvas, povControl }) {
   let retorno = null;                      // mola de volta ao enquadramento da zona
   const listeners = new Set();
 
+  // modo livre (WASD): congela o enquadramento atual como base (sem mola de retorno)
+  let livre = false;
+  let baseYaw = ZONAS.paciente.yaw;
+  let basePitch = ZONAS.paciente.pitch;
+  const teclas = new Set();
+
   const aplicar = () => {
-    const z = ZONAS[zonaAtual];
-    camera.rotation.set(z.pitch + off.pitch, z.yaw + off.yaw, 0);
+    camera.rotation.set(basePitch + off.pitch, baseYaw + off.yaw, 0);
   };
 
   function irPara(nome, { instantaneo = false } = {}) {
     if (!ZONAS[nome]) return;
     zonaAtual = nome;
+    livre = false;
+    teclas.clear();
     const z = ZONAS[nome];
+    baseYaw = z.yaw;
+    basePitch = z.pitch;
     off = { yaw: 0, pitch: 0 };
     retorno = null;
     if (instantaneo || reduceMotion) {
@@ -62,8 +76,20 @@ export function createPOV({ camera, addTicker, canvas, povControl }) {
     listeners.forEach((fn) => fn(zonaAtual));
   }
 
+  // Entra no modo livre: congela o enquadramento atual como base do olhar
+  const entrarLivre = () => {
+    if (livre) return;
+    livre = true;
+    tween = null;
+    retorno = null;
+    baseYaw = camera.rotation.y;
+    basePitch = camera.rotation.x;
+    off = { yaw: 0, pitch: 0 };
+  };
+
   // Mola do look-around de volta ao enquadramento da zona (snapping suave)
   const soltarLook = () => {
+    if (livre) return; // andando livre: olhar fica onde ficou
     if (Math.abs(off.yaw) < 0.01 && Math.abs(off.pitch) < 0.01) { off = { yaw: 0, pitch: 0 }; return; }
     retorno = { t: 0, dur: 0.4, fromYaw: off.yaw, fromPitch: off.pitch };
   };
@@ -78,6 +104,22 @@ export function createPOV({ camera, addTicker, canvas, povControl }) {
       camera.rotation.y = tween.fromYaw + (tween.toYaw - tween.fromYaw) * e;
       camera.rotation.x = tween.fromPitch + (tween.toPitch - tween.fromPitch) * e;
       if (p >= 1) tween = null;
+      return;
+    }
+    // andar livre (WASD): move no plano olhando para o yaw atual
+    if (livre) {
+      const f = (teclas.has('w') ? 1 : 0) - (teclas.has('s') ? 1 : 0);
+      const r = (teclas.has('d') ? 1 : 0) - (teclas.has('a') ? 1 : 0);
+      if (f || r) {
+        const sy = Math.sin(baseYaw + off.yaw), cy = Math.cos(baseYaw + off.yaw);
+        let nx = camera.position.x + (-sy * f + cy * r) * VEL * dt;
+        let nz = camera.position.z + (-cy * f - sy * r) * VEL * dt;
+        nx = clamp(nx, ANDAR.x0, ANDAR.x1);
+        nz = clamp(nz, ANDAR.z0, ANDAR.z1);
+        if (Math.abs(nx) < ANDAR.balcaoX) nz = Math.max(nz, ANDAR.balcaoZ); // balcão bloqueia
+        camera.position.set(nx, EYE, nz);
+      }
+      aplicar();
       return;
     }
     // mola do look-around
@@ -118,10 +160,17 @@ export function createPOV({ camera, addTicker, canvas, povControl }) {
   canvas.addEventListener('pointerup', fimDrag);
   canvas.addEventListener('pointercancel', fimDrag);
 
-  // Teclado: 1/2/3 (ou ←/→) navegam entre os pontos de interesse
+  // Teclado: WASD anda livre; 1/2/3 (ou ←/→) navegam entre os pontos de interesse
   const ORDEM = ['paciente', 'computador', 'mesa'];
   document.addEventListener('keydown', (e) => {
     if (e.target && /input|textarea|select/i.test(e.target.tagName)) return;
+    const k = e.key.toLowerCase();
+    if (k === 'w' || k === 'a' || k === 's' || k === 'd') {
+      teclas.add(k);
+      entrarLivre();
+      e.preventDefault();
+      return;
+    }
     if (e.key === '1') irPara('paciente');
     else if (e.key === '2') irPara('computador');
     else if (e.key === '3') irPara('mesa');
@@ -133,6 +182,8 @@ export function createPOV({ camera, addTicker, canvas, povControl }) {
       irPara(ORDEM[(i + 1) % ORDEM.length]);
     }
   });
+  document.addEventListener('keyup', (e) => { teclas.delete(e.key.toLowerCase()); });
+  window.addEventListener('blur', () => teclas.clear());
 
   povControl.owned = true; // desliga o balanço idle do scene.js (câmera agora é do POV)
   camera.position.copy(ZONAS.paciente.pos);

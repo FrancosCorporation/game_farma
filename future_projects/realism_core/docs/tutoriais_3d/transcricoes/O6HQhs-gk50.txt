@@ -1,0 +1,4017 @@
+Kind: captions
+Language: en
+so you want to make a character well
+so you want to make a character well
+so you want to make a character well
+there are a few ways to go about it I
+there are a few ways to go about it I
+there are a few ways to go about it I
+prefer box modeling that's what I'm
+prefer box modeling that's what I'm
+prefer box modeling that's what I'm
+doing in this video and it's basically
+doing in this video and it's basically
+doing in this video and it's basically
+just starting with simple shapes pushing
+just starting with simple shapes pushing
+just starting with simple shapes pushing
+points around and slowly adding detail
+points around and slowly adding detail
+points around and slowly adding detail
+as you need it another common workflow
+as you need it another common workflow
+as you need it another common workflow
+is sculpting and then retopologizing
+is sculpting and then retopologizing
+is sculpting and then retopologizing
+with sculpting the upside is that you
+with sculpting the upside is that you
+with sculpting the upside is that you
+can make whatever shapes you want
+can make whatever shapes you want
+can make whatever shapes you want
+without worrying about topology but then
+without worrying about topology but then
+without worrying about topology but then
+you end up with a really dense mesh and
+you end up with a really dense mesh and
+you end up with a really dense mesh and
+that makes it not very good for rigging
+that makes it not very good for rigging
+that makes it not very good for rigging
+and animating so you have to fix the
+and animating so you have to fix the
+and animating so you have to fix the
+topology if you want to do those things
+topology if you want to do those things
+topology if you want to do those things
+there's also something to be said about
+there's also something to be said about
+there's also something to be said about
+style like if you want to make a more
+style like if you want to make a more
+style like if you want to make a more
+realistic model then the arms and the
+realistic model then the arms and the
+realistic model then the arms and the
+legs will probably be connected to the
+legs will probably be connected to the
+legs will probably be connected to the
+Torso and you have to put a little more
+Torso and you have to put a little more
+Torso and you have to put a little more
+effort into making things attach
+effort into making things attach
+effort into making things attach
+properly but if you're all right with
+properly but if you're all right with
+properly but if you're all right with
+how it looks there's nothing stopping
+how it looks there's nothing stopping
+how it looks there's nothing stopping
+you from keeping all of the limbs as
+you from keeping all of the limbs as
+you from keeping all of the limbs as
+separate objects which is what I usually
+separate objects which is what I usually
+separate objects which is what I usually
+do and it's what we'll do to make this
+do and it's what we'll do to make this
+do and it's what we'll do to make this
+character because it's a little more
+character because it's a little more
+character because it's a little more
+beginner friendly but before we do that
+beginner friendly but before we do that
+beginner friendly but before we do that
+I want to show you how quickly you can
+I want to show you how quickly you can
+I want to show you how quickly you can
+make a low poly human model I personally
+make a low poly human model I personally
+make a low poly human model I personally
+don't really like like making realistic
+don't really like like making realistic
+don't really like like making realistic
+humans and I think if you plan on doing
+humans and I think if you plan on doing
+humans and I think if you plan on doing
+that you should just find a free human
+that you should just find a free human
+that you should just find a free human
+model to use as a base mesh and then
+model to use as a base mesh and then
+model to use as a base mesh and then
+sculpt on top of it and do some
+sculpt on top of it and do some
+sculpt on top of it and do some
+retopology there are plenty of free
+retopology there are plenty of free
+retopology there are plenty of free
+models and retopology tools just for
+models and retopology tools just for
+models and retopology tools just for
+realistic humans and Nagi over here
+realistic humans and Nagi over here
+realistic humans and Nagi over here
+actually does this in a few videos but
+actually does this in a few videos but
+actually does this in a few videos but
+for the sake of knowledge let's make a
+for the sake of knowledge let's make a
+for the sake of knowledge let's make a
+low poly human and then you can make the
+low poly human and then you can make the
+low poly human and then you can make the
+lethal company squl or something like
+lethal company squl or something like
+lethal company squl or something like
+that so let's open up blender and this
+that so let's open up blender and this
+that so let's open up blender and this
+is version 4.1 but all of this should
+is version 4.1 but all of this should
+is version 4.1 but all of this should
+work even if you're using version 3.0 so
+work even if you're using version 3.0 so
+work even if you're using version 3.0 so
+don't worry too much about that also
+don't worry too much about that also
+don't worry too much about that also
+this is a beginner tutorial but if you
+this is a beginner tutorial but if you
+this is a beginner tutorial but if you
+don't know how to move around blender or
+don't know how to move around blender or
+don't know how to move around blender or
+if you want to learn a little more a
+if you want to learn a little more a
+if you want to learn a little more a
+little or if you want to learn a little
+little or if you want to learn a little
+little or if you want to learn a little
+about modeling first then check out
+about modeling first then check out
+about modeling first then check out
+these two videos of mine to get up to
+these two videos of mine to get up to
+these two videos of mine to get up to
+speed and just know that you might have
+speed and just know that you might have
+speed and just know that you might have
+to pause occasionally to follow this
+to pause occasionally to follow this
+to pause occasionally to follow this
+video so if you want a reference picture
+video so if you want a reference picture
+video so if you want a reference picture
+you can drag it directly into blender
+you can drag it directly into blender
+you can drag it directly into blender
+when you're in object mode and you can
+when you're in object mode and you can
+when you're in object mode and you can
+change the opacity over here but I'm not
+change the opacity over here but I'm not
+change the opacity over here but I'm not
+using one in this video so I'm just
+using one in this video so I'm just
+using one in this video so I'm just
+going to delete it with X okay first
+going to delete it with X okay first
+going to delete it with X okay first
+thing we need is a cube so if you don't
+thing we need is a cube so if you don't
+thing we need is a cube so if you don't
+already have one in your scene you can
+already have one in your scene you can
+already have one in your scene you can
+press shift a and add in a cube right
+press shift a and add in a cube right
+press shift a and add in a cube right
+here and if you're wondering why my
+here and if you're wondering why my
+here and if you're wondering why my
+colors look like this and you want yours
+colors look like this and you want yours
+colors look like this and you want yours
+to look like this you can just go up to
+to look like this you can just go up to
+to look like this you can just go up to
+the top right up here click this arrow
+the top right up here click this arrow
+the top right up here click this arrow
+set it to mat cap and choose this one or
+set it to mat cap and choose this one or
+set it to mat cap and choose this one or
+one of the other ones from the list and
+one of the other ones from the list and
+one of the other ones from the list and
+I also always have cavity turned on and
+I also always have cavity turned on and
+I also always have cavity turned on and
+set to both and this just accentuates
+set to both and this just accentuates
+set to both and this just accentuates
+the edges and makes it a little easier
+the edges and makes it a little easier
+the edges and makes it a little easier
+to see so this cube is going to be used
+to see so this cube is going to be used
+to see so this cube is going to be used
+for the Torso I'm just going to press
+for the Torso I'm just going to press
+for the Torso I'm just going to press
+one to look from the front right here
+one to look from the front right here
+one to look from the front right here
+and tab into edit mode and this should
+and tab into edit mode and this should
+and tab into edit mode and this should
+already be selected but you can also
+already be selected but you can also
+already be selected but you can also
+press a to select everything G and Z to
+press a to select everything G and Z to
+press a to select everything G and Z to
+bring it up just a little bit right
+bring it up just a little bit right
+bring it up just a little bit right
+there and S to scale it down now you
+there and S to scale it down now you
+there and S to scale it down now you
+might be able to see these squares right
+might be able to see these squares right
+might be able to see these squares right
+here each one of these squares is 1 M
+here each one of these squares is 1 M
+here each one of these squares is 1 M
+and people are typically under 2 m tall
+and people are typically under 2 m tall
+and people are typically under 2 m tall
+so I usually use uh two of these squares
+so I usually use uh two of these squares
+so I usually use uh two of these squares
+as like a reference for human height so
+as like a reference for human height so
+as like a reference for human height so
+I'm just going toy try to keep
+I'm just going toy try to keep
+I'm just going toy try to keep
+everything under 2 m press s to scale
+everything under 2 m press s to scale
+everything under 2 m press s to scale
+and right now I'm looking for the width
+and right now I'm looking for the width
+and right now I'm looking for the width
+of this I'm going to make it as wide as
+of this I'm going to make it as wide as
+of this I'm going to make it as wide as
+I think the Torso should be so maybe
+I think the Torso should be so maybe
+I think the Torso should be so maybe
+right about here s and Z to scale it up
+right about here s and Z to scale it up
+right about here s and Z to scale it up
+gz bring it up now let's look from the
+gz bring it up now let's look from the
+gz bring it up now let's look from the
+side and I want to make this a little
+side and I want to make this a little
+side and I want to make this a little
+skinnier so s and Y to scale it on the Y
+skinnier so s and Y to scale it on the Y
+skinnier so s and Y to scale it on the Y
+AIS right there now I'm going to add a
+AIS right there now I'm going to add a
+AIS right there now I'm going to add a
+neck you can either press three to go
+neck you can either press three to go
+neck you can either press three to go
+into face select mode or click this
+into face select mode or click this
+into face select mode or click this
+button up here select the top face I to
+button up here select the top face I to
+button up here select the top face I to
+inset just a little bit and I want this
+inset just a little bit and I want this
+inset just a little bit and I want this
+to be a little more Square so I'll press
+to be a little more Square so I'll press
+to be a little more Square so I'll press
+s and x and we can scale it on the x
+s and x and we can scale it on the x
+s and x and we can scale it on the x
+axis G and Z to bring it up just a
+axis G and Z to bring it up just a
+axis G and Z to bring it up just a
+little bit e to extrude to bring this up
+little bit e to extrude to bring this up
+little bit e to extrude to bring this up
+e to extrude again s to scale this is
+e to extrude again s to scale this is
+e to extrude again s to scale this is
+going to be for the head e to extrude e
+going to be for the head e to extrude e
+going to be for the head e to extrude e
+to extrude and S to scale that down so
+to extrude and S to scale that down so
+to extrude and S to scale that down so
+now we have a torso and a head and I
+now we have a torso and a head and I
+now we have a torso and a head and I
+want a spot for the arm to come out so
+want a spot for the arm to come out so
+want a spot for the arm to come out so
+let's press controlr to add in a loop
+let's press controlr to add in a loop
+let's press controlr to add in a loop
+cut and we'll bring this up to right
+cut and we'll bring this up to right
+cut and we'll bring this up to right
+about here I'm looking for something
+about here I'm looking for something
+about here I'm looking for something
+that's kind of close to a square shape
+that's kind of close to a square shape
+that's kind of close to a square shape
+right here now again press three to go
+right here now again press three to go
+right here now again press three to go
+into face select mode or click this
+into face select mode or click this
+into face select mode or click this
+button up here select that face right
+button up here select that face right
+button up here select that face right
+there e to extrude just a little bit we
+there e to extrude just a little bit we
+there e to extrude just a little bit we
+can press s to scale that down this is
+can press s to scale that down this is
+can press s to scale that down this is
+going to be for the shoulder area now e
+going to be for the shoulder area now e
+going to be for the shoulder area now e
+to extrude we're going to extrude out to
+to extrude we're going to extrude out to
+to extrude we're going to extrude out to
+where we think maybe the wrist should be
+where we think maybe the wrist should be
+where we think maybe the wrist should be
+scale that down now if you want to make
+scale that down now if you want to make
+scale that down now if you want to make
+this more rectangular you can I'll press
+this more rectangular you can I'll press
+this more rectangular you can I'll press
+s and Z we can scale it down right about
+s and Z we can scale it down right about
+s and Z we can scale it down right about
+there this is going to be for the wrist
+there this is going to be for the wrist
+there this is going to be for the wrist
+now we can e to extrude for the hand
+now we can e to extrude for the hand
+now we can e to extrude for the hand
+contrl R for another loop cut this is
+contrl R for another loop cut this is
+contrl R for another loop cut this is
+going to be for the thumb we're not
+going to be for the thumb we're not
+going to be for the thumb we're not
+going to make all the fingers this is
+going to make all the fingers this is
+going to make all the fingers this is
+going to be kind of Mitten style press
+going to be kind of Mitten style press
+going to be kind of Mitten style press
+three to go into face select mode or
+three to go into face select mode or
+three to go into face select mode or
+that button up there e to extrude out
+that button up there e to extrude out
+that button up there e to extrude out
+for the thumb and we can scale that down
+for the thumb and we can scale that down
+for the thumb and we can scale that down
+um I'm going to scale it on the z-axis
+um I'm going to scale it on the z-axis
+um I'm going to scale it on the z-axis
+to make it a little skinnier at the end
+to make it a little skinnier at the end
+to make it a little skinnier at the end
+now don't worry about the other side
+now don't worry about the other side
+now don't worry about the other side
+right now because we're just going to
+right now because we're just going to
+right now because we're just going to
+add a mirror modifier later so we're
+add a mirror modifier later so we're
+add a mirror modifier later so we're
+only going to do one side right now it's
+only going to do one side right now it's
+only going to do one side right now it's
+a good idea to add some loops for the
+a good idea to add some loops for the
+a good idea to add some loops for the
+elbow so I'll press crlr we can add one
+elbow so I'll press crlr we can add one
+elbow so I'll press crlr we can add one
+right in the middle with right click now
+right in the middle with right click now
+right in the middle with right click now
+I'll bevel this with crl b and use the
+I'll bevel this with crl b and use the
+I'll bevel this with crl b and use the
+scroll wheel to add another loop in the
+scroll wheel to add another loop in the
+scroll wheel to add another loop in the
+middle right here this will make it so
+middle right here this will make it so
+middle right here this will make it so
+the elbow deforms a little better when
+the elbow deforms a little better when
+the elbow deforms a little better when
+we bend the arm now we need a spot for
+we bend the arm now we need a spot for
+we bend the arm now we need a spot for
+the legs to come out so we're going to
+the legs to come out so we're going to
+the legs to come out so we're going to
+add a loop cut right down the middle
+add a loop cut right down the middle
+add a loop cut right down the middle
+right here with contrl r three to go
+right here with contrl r three to go
+right here with contrl r three to go
+into face select mode select that bottom
+into face select mode select that bottom
+into face select mode select that bottom
+face e to extrude and we can scale that
+face e to extrude and we can scale that
+face e to extrude and we can scale that
+down just a little bit now we'll look
+down just a little bit now we'll look
+down just a little bit now we'll look
+from the front with one and E2 extrude
+from the front with one and E2 extrude
+from the front with one and E2 extrude
+down to right about here where we think
+down to right about here where we think
+down to right about here where we think
+like the ankle is going to start we can
+like the ankle is going to start we can
+like the ankle is going to start we can
+s to scale and I also want to extrude
+s to scale and I also want to extrude
+s to scale and I also want to extrude
+down this is going to be for our foot
+down this is going to be for our foot
+down this is going to be for our foot
+now if you want it to snap to the zero
+now if you want it to snap to the zero
+now if you want it to snap to the zero
+point perfectly you can go up here to
+point perfectly you can go up here to
+point perfectly you can go up here to
+snapping settings leave it set to
+snapping settings leave it set to
+snapping settings leave it set to
+increment but we can turn on absolute
+increment but we can turn on absolute
+increment but we can turn on absolute
+grid snap now when you're moving this
+grid snap now when you're moving this
+grid snap now when you're moving this
+around with G you can hold control and
+around with G you can hold control and
+around with G you can hold control and
+it will snap to the grid so we can snap
+it will snap to the grid so we can snap
+it will snap to the grid so we can snap
+it to that perfect point right there and
+it to that perfect point right there and
+it to that perfect point right there and
+you can even see over here that the Z is
+you can even see over here that the Z is
+you can even see over here that the Z is
+set to 0 m so we know it works right now
+set to 0 m so we know it works right now
+set to 0 m so we know it works right now
+I'll look from the side over here make
+I'll look from the side over here make
+I'll look from the side over here make
+sure you're in face select we can select
+sure you're in face select we can select
+sure you're in face select we can select
+this front face and E to extrude this is
+this front face and E to extrude this is
+this front face and E to extrude this is
+going to be for the foot you know maybe
+going to be for the foot you know maybe
+going to be for the foot you know maybe
+zoom out to make sure that it's the size
+zoom out to make sure that it's the size
+zoom out to make sure that it's the size
+you want go into Edge select mode with
+you want go into Edge select mode with
+you want go into Edge select mode with
+that button or two and we can bring this
+that button or two and we can bring this
+that button or two and we can bring this
+top part down and if you want the foot
+top part down and if you want the foot
+top part down and if you want the foot
+to be able to bend in the middle a
+to be able to bend in the middle a
+to be able to bend in the middle a
+little better you can also add a loop
+little better you can also add a loop
+little better you can also add a loop
+cut here press contrl B to Bevel it and
+cut here press contrl B to Bevel it and
+cut here press contrl B to Bevel it and
+again you can use the scroll wheel to
+again you can use the scroll wheel to
+again you can use the scroll wheel to
+make sure that there's a loop in the
+make sure that there's a loop in the
+make sure that there's a loop in the
+middle also to shape the foot a little
+middle also to shape the foot a little
+middle also to shape the foot a little
+little more let's press one to look from
+little more let's press one to look from
+little more let's press one to look from
+the front alt Z to go into x-ray mode or
+the front alt Z to go into x-ray mode or
+the front alt Z to go into x-ray mode or
+you can press this button up here one
+you can press this button up here one
+you can press this button up here one
+for vertex select and I'll just select
+for vertex select and I'll just select
+for vertex select and I'll just select
+the whole bottom of the foot and press s
+the whole bottom of the foot and press s
+the whole bottom of the foot and press s
+and X to scale that out just a little
+and X to scale that out just a little
+and X to scale that out just a little
+bit right here and I'll select these two
+bit right here and I'll select these two
+bit right here and I'll select these two
+points right here and pull this out for
+points right here and pull this out for
+points right here and pull this out for
+the heel now we can add a loop for the
+the heel now we can add a loop for the
+the heel now we can add a loop for the
+knee with contrl r and again contrl B to
+knee with contrl r and again contrl B to
+knee with contrl r and again contrl B to
+Bevel that and make sure that there's a
+Bevel that and make sure that there's a
+Bevel that and make sure that there's a
+loop in the middle another thing I like
+loop in the middle another thing I like
+loop in the middle another thing I like
+to do for the hip area is again press
+to do for the hip area is again press
+to do for the hip area is again press
+alt Z to go in into x-ray mode select
+alt Z to go in into x-ray mode select
+alt Z to go in into x-ray mode select
+these points right here and just bring
+these points right here and just bring
+these points right here and just bring
+them up slightly like that now we should
+them up slightly like that now we should
+them up slightly like that now we should
+probably mirror this to get the arm and
+probably mirror this to get the arm and
+probably mirror this to get the arm and
+the leg to the other side so I'm
+the leg to the other side so I'm
+the leg to the other side so I'm
+actually just going to select everything
+actually just going to select everything
+actually just going to select everything
+on this side right here again I'm in
+on this side right here again I'm in
+on this side right here again I'm in
+x-ray mode for this so I am actually
+x-ray mode for this so I am actually
+x-ray mode for this so I am actually
+selecting all the way through press X
+selecting all the way through press X
+selecting all the way through press X
+and delete all the vertices now we can
+and delete all the vertices now we can
+and delete all the vertices now we can
+come over here to the modifier panel it
+come over here to the modifier panel it
+come over here to the modifier panel it
+looks like a little wrench click the add
+looks like a little wrench click the add
+looks like a little wrench click the add
+modifier button and you can either type
+modifier button and you can either type
+modifier button and you can either type
+in Mirror just start typing mirror or
+in Mirror just start typing mirror or
+in Mirror just start typing mirror or
+under generate you can add the mirror
+under generate you can add the mirror
+under generate you can add the mirror
+modifier right there now if this isn't
+modifier right there now if this isn't
+modifier right there now if this isn't
+working right for you it might mean that
+working right for you it might mean that
+working right for you it might mean that
+your origin point is not actually in the
+your origin point is not actually in the
+your origin point is not actually in the
+center so just select your model right
+center so just select your model right
+center so just select your model right
+here press crol a and apply the location
+here press crol a and apply the location
+here press crol a and apply the location
+and that should make this work now we
+and that should make this work now we
+and that should make this work now we
+can also smooth this out with a
+can also smooth this out with a
+can also smooth this out with a
+subdivision surface modifier you can
+subdivision surface modifier you can
+subdivision surface modifier you can
+press contrl 1rl 2 or contrl 3 and
+press contrl 1rl 2 or contrl 3 and
+press contrl 1rl 2 or contrl 3 and
+that's just going to change the viewport
+that's just going to change the viewport
+that's just going to change the viewport
+level over here and now we can go into
+level over here and now we can go into
+level over here and now we can go into
+edit mode again and start smoothing this
+edit mode again and start smoothing this
+edit mode again and start smoothing this
+out so it's a little less boxy you can
+out so it's a little less boxy you can
+out so it's a little less boxy you can
+see it's pretty flat in the front right
+see it's pretty flat in the front right
+see it's pretty flat in the front right
+there so what I like to do is select the
+there so what I like to do is select the
+there so what I like to do is select the
+whole Center Loop right here you can do
+whole Center Loop right here you can do
+whole Center Loop right here you can do
+that with alt and left click and I'll
+that with alt and left click and I'll
+that with alt and left click and I'll
+press seven to look from the top s and Y
+press seven to look from the top s and Y
+press seven to look from the top s and Y
+and we can scale this out just a little
+and we can scale this out just a little
+and we can scale this out just a little
+bit and you can see it's getting a
+bit and you can see it's getting a
+bit and you can see it's getting a
+little more round and if you want you
+little more round and if you want you
+little more round and if you want you
+can do this separately for the head and
+can do this separately for the head and
+can do this separately for the head and
+for the body but I just did it for the
+for the body but I just did it for the
+for the body but I just did it for the
+whole thing I'll make the head a little
+whole thing I'll make the head a little
+whole thing I'll make the head a little
+bit wider also so again I'm in x-ray
+bit wider also so again I'm in x-ray
+bit wider also so again I'm in x-ray
+mode for this with alt Z I'll just
+mode for this with alt Z I'll just
+mode for this with alt Z I'll just
+select these two points right here and
+select these two points right here and
+select these two points right here and
+we can bring it out so it's a little
+we can bring it out so it's a little
+we can bring it out so it's a little
+more round and if if you want to mess
+more round and if if you want to mess
+more round and if if you want to mess
+with any of the proportions you know
+with any of the proportions you know
+with any of the proportions you know
+make the legs a little longer anything
+make the legs a little longer anything
+make the legs a little longer anything
+like that you can make your character uh
+like that you can make your character uh
+like that you can make your character uh
+skinnier now is the time to do that it's
+skinnier now is the time to do that it's
+skinnier now is the time to do that it's
+also a good idea to press crlr and add
+also a good idea to press crlr and add
+also a good idea to press crlr and add
+one or two Loops in the body right here
+one or two Loops in the body right here
+one or two Loops in the body right here
+and that will make it deform a little
+and that will make it deform a little
+and that will make it deform a little
+bit better as well this is low poly but
+bit better as well this is low poly but
+bit better as well this is low poly but
+when you rig it up it will deform pretty
+when you rig it up it will deform pretty
+when you rig it up it will deform pretty
+well isn't that
+well isn't that
+well isn't that
+right if this is too low res for you you
+right if this is too low res for you you
+right if this is too low res for you you
+can add more detail by applying the
+can add more detail by applying the
+can add more detail by applying the
+subdivision surface modifier and then
+subdivision surface modifier and then
+subdivision surface modifier and then
+you'll have more verts to work with
+you'll have more verts to work with
+you'll have more verts to work with
+there are also ways of making the joints
+there are also ways of making the joints
+there are also ways of making the joints
+to form better and you can find some
+to form better and you can find some
+to form better and you can find some
+topology guides if you look around I
+topology guides if you look around I
+topology guides if you look around I
+like searching on Pinterest but this is
+like searching on Pinterest but this is
+like searching on Pinterest but this is
+definitely enough for a beginner video
+definitely enough for a beginner video
+definitely enough for a beginner video
+so let's put this stylized character
+so let's put this stylized character
+so let's put this stylized character
+together now the main difference with
+together now the main difference with
+together now the main difference with
+this one is that all of the limbs are
+this one is that all of the limbs are
+this one is that all of the limbs are
+separate pieces and I think this makes
+separate pieces and I think this makes
+separate pieces and I think this makes
+it much easier to get complex shapes
+it much easier to get complex shapes
+it much easier to get complex shapes
+because you don't really have to worry
+because you don't really have to worry
+because you don't really have to worry
+about connecting them you'll see what I
+about connecting them you'll see what I
+about connecting them you'll see what I
+mean but first let's talk about Playbook
+mean but first let's talk about Playbook
+mean but first let's talk about Playbook
+who was the sponsor for this video
+who was the sponsor for this video
+who was the sponsor for this video
+Playbook is a cloud storage website that
+Playbook is a cloud storage website that
+Playbook is a cloud storage website that
+is specifically made for creatives and
+is specifically made for creatives and
+is specifically made for creatives and
+collaboration and before I tell you
+collaboration and before I tell you
+collaboration and before I tell you
+anything else you can use my link to get
+anything else you can use my link to get
+anything else you can use my link to get
+4 terabytes of storage for free yes for
+4 terabytes of storage for free yes for
+4 terabytes of storage for free yes for
+free no strings attached now that I have
+free no strings attached now that I have
+free no strings attached now that I have
+your attention I think Playbook is going
+your attention I think Playbook is going
+your attention I think Playbook is going
+to be a great fit for most of you
+to be a great fit for most of you
+to be a great fit for most of you
+watching first off it definitely excels
+watching first off it definitely excels
+watching first off it definitely excels
+at viewing and organizing images and
+at viewing and organizing images and
+at viewing and organizing images and
+videos I dropped all my renders in here
+videos I dropped all my renders in here
+videos I dropped all my renders in here
+and it kept the folder structure which
+and it kept the folder structure which
+and it kept the folder structure which
+is cool but you can also re order stuff
+is cool but you can also re order stuff
+is cool but you can also re order stuff
+check it out in a different view or
+check it out in a different view or
+check it out in a different view or
+group files together you can also add
+group files together you can also add
+group files together you can also add
+tags to everything so if I want to see
+tags to everything so if I want to see
+tags to everything so if I want to see
+all my avatar renders I can give them a
+all my avatar renders I can give them a
+all my avatar renders I can give them a
+tag and then see them all at once even
+tag and then see them all at once even
+tag and then see them all at once even
+if they're in different folders you can
+if they're in different folders you can
+if they're in different folders you can
+also link other cloud storage sites like
+also link other cloud storage sites like
+also link other cloud storage sites like
+Google Drive and Dropbox to see all of
+Google Drive and Dropbox to see all of
+Google Drive and Dropbox to see all of
+your files in Playbook sharing files is
+your files in Playbook sharing files is
+your files in Playbook sharing files is
+really easy just turn on sharing and
+really easy just turn on sharing and
+really easy just turn on sharing and
+anyone with the link can view and
+anyone with the link can view and
+anyone with the link can view and
+comment and even leave timestamps on
+comment and even leave timestamps on
+comment and even leave timestamps on
+videos which makes it really good for
+videos which makes it really good for
+videos which makes it really good for
+client work since they'll be able to
+client work since they'll be able to
+client work since they'll be able to
+comment about changes they'd like and if
+comment about changes they'd like and if
+comment about changes they'd like and if
+you want to give more control you can
+you want to give more control you can
+you want to give more control you can
+invite people as collaborators and then
+invite people as collaborators and then
+invite people as collaborators and then
+they can add things of their own you
+they can add things of their own you
+they can add things of their own you
+could also publish one of your boards
+could also publish one of your boards
+could also publish one of your boards
+and use it like a portfolio or as a way
+and use it like a portfolio or as a way
+and use it like a portfolio or as a way
+of sharing files with the public
+of sharing files with the public
+of sharing files with the public
+Playbook is still pretty new so they're
+Playbook is still pretty new so they're
+Playbook is still pretty new so they're
+always adding new features and you can
+always adding new features and you can
+always adding new features and you can
+see what's on the road map and suggest
+see what's on the road map and suggest
+see what's on the road map and suggest
+features yourself 4 tabt is a ton of
+features yourself 4 tabt is a ton of
+features yourself 4 tabt is a ton of
+free storage and if you need more you
+free storage and if you need more you
+free storage and if you need more you
+can sign up for one of their other plans
+can sign up for one of their other plans
+can sign up for one of their other plans
+and just so you know these other paid
+and just so you know these other paid
+and just so you know these other paid
+plans is how they make money and what
+plans is how they make money and what
+plans is how they make money and what
+makes this free tier possible they
+makes this free tier possible they
+makes this free tier possible they
+aren't in the business of selling data
+aren't in the business of selling data
+aren't in the business of selling data
+and if they were I wouldn't be
+and if they were I wouldn't be
+and if they were I wouldn't be
+advertising this right now so use my
+advertising this right now so use my
+advertising this right now so use my
+link in the description for 4 terabytes
+link in the description for 4 terabytes
+link in the description for 4 terabytes
+of storage and a brand new creative Hub
+of storage and a brand new creative Hub
+of storage and a brand new creative Hub
+on playbook for real check out Playbook
+on playbook for real check out Playbook
+on playbook for real check out Playbook
+when you support them you're also
+when you support them you're also
+when you support them you're also
+supporting me all right back to the
+supporting me all right back to the
+supporting me all right back to the
+video so for the next character let's
+video so for the next character let's
+video so for the next character let's
+start a new file just make sure you save
+start a new file just make sure you save
+start a new file just make sure you save
+first so for this one I do have some
+first so for this one I do have some
+first so for this one I do have some
+reference photos let's just make a new
+reference photos let's just make a new
+reference photos let's just make a new
+collection by hovering over here and
+collection by hovering over here and
+collection by hovering over here and
+pressing C so I have them right here I
+pressing C so I have them right here I
+pressing C so I have them right here I
+have three of them and you can get these
+have three of them and you can get these
+have three of them and you can get these
+by following the link in the description
+by following the link in the description
+by following the link in the description
+I'm just going to press one to look from
+I'm just going to press one to look from
+I'm just going to press one to look from
+the front and then I'll drag it in I'll
+the front and then I'll drag it in I'll
+the front and then I'll drag it in I'll
+press three to look from the side drag
+press three to look from the side drag
+press three to look from the side drag
+in the side picture and seven to look
+in the side picture and seven to look
+in the side picture and seven to look
+from above and these are the numpad
+from above and these are the numpad
+from above and these are the numpad
+shortcuts you can also just use this uh
+shortcuts you can also just use this uh
+shortcuts you can also just use this uh
+widget in the corner from the top let's
+widget in the corner from the top let's
+widget in the corner from the top let's
+just drag in the top right here and we
+just drag in the top right here and we
+just drag in the top right here and we
+can select all of them press alt G and
+can select all of them press alt G and
+can select all of them press alt G and
+that will snap them to the center now
+that will snap them to the center now
+that will snap them to the center now
+from the front I'm just going to bring
+from the front I'm just going to bring
+from the front I'm just going to bring
+this up G and z and we can scale it down
+this up G and z and we can scale it down
+this up G and z and we can scale it down
+again I'm just looking at these two
+again I'm just looking at these two
+again I'm just looking at these two
+squares so we can scale them down until
+squares so we can scale them down until
+squares so we can scale them down until
+it looks about the right height and they
+it looks about the right height and they
+it looks about the right height and they
+should all be the same size so you don't
+should all be the same size so you don't
+should all be the same size so you don't
+really have to resize them now with all
+really have to resize them now with all
+really have to resize them now with all
+of them selected you can press this
+of them selected you can press this
+of them selected you can press this
+button over here and we can turn on
+button over here and we can turn on
+button over here and we can turn on
+opacity but while you're checking this
+opacity but while you're checking this
+opacity but while you're checking this
+hold alt and that will toggle it for all
+hold alt and that will toggle it for all
+hold alt and that will toggle it for all
+of them at the same time now we can turn
+of them at the same time now we can turn
+of them at the same time now we can turn
+this down slightly and again I'm holding
+this down slightly and again I'm holding
+this down slightly and again I'm holding
+alt while I change this otherwise it's
+alt while I change this otherwise it's
+alt while I change this otherwise it's
+only going to change one now just so
+only going to change one now just so
+only going to change one now just so
+they don't get in the way of anything
+they don't get in the way of anything
+they don't get in the way of anything
+I'm going to push them around and now if
+I'm going to push them around and now if
+I'm going to push them around and now if
+we want to turn them on and off we have
+we want to turn them on and off we have
+we want to turn them on and off we have
+all of them in the their own collection
+all of them in the their own collection
+all of them in the their own collection
+up here and I'm just going to make it so
+up here and I'm just going to make it so
+up here and I'm just going to make it so
+none of them can be selected by pressing
+none of them can be selected by pressing
+none of them can be selected by pressing
+this button right here and if you don't
+this button right here and if you don't
+this button right here and if you don't
+have that you can turn it on with this
+have that you can turn it on with this
+have that you can turn it on with this
+button over here in the corner now let's
+button over here in the corner now let's
+button over here in the corner now let's
+make a new collection and this is just
+make a new collection and this is just
+make a new collection and this is just
+going to be for our cat which is named
+going to be for our cat which is named
+going to be for our cat which is named
+bzo you can name it whatever you want
+bzo you can name it whatever you want
+bzo you can name it whatever you want
+though and again we're just going to
+though and again we're just going to
+though and again we're just going to
+start with some cubes so shift a add in
+start with some cubes so shift a add in
+start with some cubes so shift a add in
+a cube right here I'm going to press
+a cube right here I'm going to press
+a cube right here I'm going to press
+control 2 to add a subdivision surface
+control 2 to add a subdivision surface
+control 2 to add a subdivision surface
+modifier as you can see over here now
+modifier as you can see over here now
+modifier as you can see over here now
+from the front bring it up scale it down
+from the front bring it up scale it down
+from the front bring it up scale it down
+this is going to be for the head we're
+this is going to be for the head we're
+this is going to be for the head we're
+just going to get a lot of the shapes
+just going to get a lot of the shapes
+just going to get a lot of the shapes
+started shift d bring this down this is
+started shift d bring this down this is
+started shift d bring this down this is
+going to be for the body then I'll add
+going to be for the body then I'll add
+going to be for the body then I'll add
+in a plane with shift a and this is
+in a plane with shift a and this is
+in a plane with shift a and this is
+going to be for the arms and the legs
+going to be for the arms and the legs
+going to be for the arms and the legs
+and I'm going to use the skin modifier
+and I'm going to use the skin modifier
+and I'm going to use the skin modifier
+for this you can actually make a whole
+for this you can actually make a whole
+for this you can actually make a whole
+base character with the skin modifier
+base character with the skin modifier
+base character with the skin modifier
+and you can see that in this video over
+and you can see that in this video over
+and you can see that in this video over
+here so let's go to the modifier panel
+here so let's go to the modifier panel
+here so let's go to the modifier panel
+press the add modifier button and I'm
+press the add modifier button and I'm
+press the add modifier button and I'm
+just going to search for Mirror you can
+just going to search for Mirror you can
+just going to search for Mirror you can
+just start typing so we have the mirror
+just start typing so we have the mirror
+just start typing so we have the mirror
+modifier I want the skin modifier enter
+modifier I want the skin modifier enter
+modifier I want the skin modifier enter
+and a subdivision surface so the skin
+and a subdivision surface so the skin
+and a subdivision surface so the skin
+modifier basically what it does is it
+modifier basically what it does is it
+modifier basically what it does is it
+gives thickness to edges as you can see
+gives thickness to edges as you can see
+gives thickness to edges as you can see
+here and then the subdivision is just
+here and then the subdivision is just
+here and then the subdivision is just
+smoothing it out so now we can tab into
+smoothing it out so now we can tab into
+smoothing it out so now we can tab into
+edit mode I'm going to look from the
+edit mode I'm going to look from the
+edit mode I'm going to look from the
+front alt Z for x-ray mode and I
+front alt Z for x-ray mode and I
+front alt Z for x-ray mode and I
+actually want to merge everything into
+actually want to merge everything into
+actually want to merge everything into
+one point so M merge at Center like that
+one point so M merge at Center like that
+one point so M merge at Center like that
+make sure you're in vertex select mode
+make sure you're in vertex select mode
+make sure you're in vertex select mode
+select this point and press crl a and
+select this point and press crl a and
+select this point and press crl a and
+that's how you scale it up and down or
+that's how you scale it up and down or
+that's how you scale it up and down or
+you can mess with these values over here
+you can mess with these values over here
+you can mess with these values over here
+so I'm going to scale this down until
+so I'm going to scale this down until
+so I'm going to scale this down until
+the thickness looks about right and we
+the thickness looks about right and we
+the thickness looks about right and we
+can just start moving this around again
+can just start moving this around again
+can just start moving this around again
+I'm in edit mode for this this is going
+I'm in edit mode for this this is going
+I'm in edit mode for this this is going
+to be for the leg so I'll bring it up
+to be for the leg so I'll bring it up
+to be for the leg so I'll bring it up
+here e to extrude Z to bring it straight
+here e to extrude Z to bring it straight
+here e to extrude Z to bring it straight
+down like that it might be hard to tell
+down like that it might be hard to tell
+down like that it might be hard to tell
+in the recording but there is a circle
+in the recording but there is a circle
+in the recording but there is a circle
+around this point right here and that
+around this point right here and that
+around this point right here and that
+means that this is the route which is
+means that this is the route which is
+means that this is the route which is
+important because if you have a line
+important because if you have a line
+important because if you have a line
+that doesn't have a root the skin
+that doesn't have a root the skin
+that doesn't have a root the skin
+modifier won't recognize it and it won't
+modifier won't recognize it and it won't
+modifier won't recognize it and it won't
+make it thick so make sure that you're
+make it thick so make sure that you're
+make it thick so make sure that you're
+duplicating the one with the circle
+duplicating the one with the circle
+duplicating the one with the circle
+around it so shift d and I'll bring that
+around it so shift d and I'll bring that
+around it so shift d and I'll bring that
+up right about here e and X and we can
+up right about here e and X and we can
+up right about here e and X and we can
+bring it out we're not going to make the
+bring it out we're not going to make the
+bring it out we're not going to make the
+hands right now we'll make those in a
+hands right now we'll make those in a
+hands right now we'll make those in a
+little bit and just to show you how to
+little bit and just to show you how to
+little bit and just to show you how to
+handle this if it doesn't have a root um
+handle this if it doesn't have a root um
+handle this if it doesn't have a root um
+let's just duplicate this one right here
+let's just duplicate this one right here
+let's just duplicate this one right here
+and to bring it to the center we can go
+and to bring it to the center we can go
+and to bring it to the center we can go
+up here and for the X Type in zero and
+up here and for the X Type in zero and
+up here and for the X Type in zero and
+we'll extrude that upward now this
+we'll extrude that upward now this
+we'll extrude that upward now this
+doesn't have any thickness so let's just
+doesn't have any thickness so let's just
+doesn't have any thickness so let's just
+select this point right here go over to
+select this point right here go over to
+select this point right here go over to
+the modifier panel and press Mark rot
+the modifier panel and press Mark rot
+the modifier panel and press Mark rot
+and now it will get thicker let's tab
+and now it will get thicker let's tab
+and now it will get thicker let's tab
+back into object mode shift a and I'm
+back into object mode shift a and I'm
+back into object mode shift a and I'm
+going to add in a cube and this is going
+going to add in a cube and this is going
+going to add in a cube and this is going
+to be for the feet let's press tab to go
+to be for the feet let's press tab to go
+to be for the feet let's press tab to go
+into edit mode
+into edit mode
+into edit mode
+GZ1 that's going to bring it up one
+GZ1 that's going to bring it up one
+GZ1 that's going to bring it up one
+meter tab back into object mode and that
+meter tab back into object mode and that
+meter tab back into object mode and that
+just makes it so that the origin is at
+just makes it so that the origin is at
+just makes it so that the origin is at
+the very bottom so when we scale it you
+the very bottom so when we scale it you
+the very bottom so when we scale it you
+can see it's uh instead of scaling from
+can see it's uh instead of scaling from
+can see it's uh instead of scaling from
+the center it's scaling from the bottom
+the center it's scaling from the bottom
+the center it's scaling from the bottom
+of the cube so for this I actually want
+of the cube so for this I actually want
+of the cube so for this I actually want
+a mirror modifier we can just press this
+a mirror modifier we can just press this
+a mirror modifier we can just press this
+type in mirror and if we move it to the
+type in mirror and if we move it to the
+type in mirror and if we move it to the
+side you can see it's not really
+side you can see it's not really
+side you can see it's not really
+mirroring again that's because it
+mirroring again that's because it
+mirroring again that's because it
+mirrors from the origin point so like I
+mirrors from the origin point so like I
+mirrors from the origin point so like I
+said before you can press CR a and apply
+said before you can press CR a and apply
+said before you can press CR a and apply
+the location and that will work but I
+the location and that will work but I
+the location and that will work but I
+like being able to scale it from here so
+like being able to scale it from here so
+like being able to scale it from here so
+instead of doing that let's go to this
+instead of doing that let's go to this
+instead of doing that let's go to this
+mirror object and the modifier panel I'm
+mirror object and the modifier panel I'm
+mirror object and the modifier panel I'm
+going to select the head basically you
+going to select the head basically you
+going to select the head basically you
+want it to be something that's in the
+want it to be something that's in the
+want it to be something that's in the
+middle because that's what's determining
+middle because that's what's determining
+middle because that's what's determining
+the center point for the mirror modifier
+the center point for the mirror modifier
+the center point for the mirror modifier
+so now we can move this to wherever we
+so now we can move this to wherever we
+so now we can move this to wherever we
+want over here let's turn the reference
+want over here let's turn the reference
+want over here let's turn the reference
+back on and just scale it to a point
+back on and just scale it to a point
+back on and just scale it to a point
+where you think it looks good or if it
+where you think it looks good or if it
+where you think it looks good or if it
+matches the reference now with
+matches the reference now with
+matches the reference now with
+everything in place let's press a contrl
+everything in place let's press a contrl
+everything in place let's press a contrl
+a and apply the scale this is important
+a and apply the scale this is important
+a and apply the scale this is important
+important uh for modifiers cuz a lot of
+important uh for modifiers cuz a lot of
+important uh for modifiers cuz a lot of
+modifiers look at the scale and this
+modifiers look at the scale and this
+modifiers look at the scale and this
+will change how they act so it's
+will change how they act so it's
+will change how they act so it's
+important to apply your scale right now
+important to apply your scale right now
+important to apply your scale right now
+nothing is named over here you can uh
+nothing is named over here you can uh
+nothing is named over here you can uh
+either select things over here double
+either select things over here double
+either select things over here double
+click and rename it so I'll name this
+click and rename it so I'll name this
+click and rename it so I'll name this
+head or you can do this in the viewport
+head or you can do this in the viewport
+head or you can do this in the viewport
+by selecting and pressing F2 I'll name
+by selecting and pressing F2 I'll name
+by selecting and pressing F2 I'll name
+this torso Limbs and feet and don't
+this torso Limbs and feet and don't
+this torso Limbs and feet and don't
+forget to save so just like the first
+forget to save so just like the first
+forget to save so just like the first
+model you can stop right here and use
+model you can stop right here and use
+model you can stop right here and use
+this as a base for a bunch of different
+this as a base for a bunch of different
+this as a base for a bunch of different
+characters let's keep going though so so
+characters let's keep going though so so
+characters let's keep going though so so
+we can make this a little more polished
+we can make this a little more polished
+we can make this a little more polished
+we'll start with the head I'm just going
+we'll start with the head I'm just going
+we'll start with the head I'm just going
+to duplicate this with shift d and this
+to duplicate this with shift d and this
+to duplicate this with shift d and this
+is what we're going to use to make this
+is what we're going to use to make this
+is what we're going to use to make this
+mouth area that you can see in the
+mouth area that you can see in the
+mouth area that you can see in the
+reference S and Y to bring this out a
+reference S and Y to bring this out a
+reference S and Y to bring this out a
+little bit and we can just get this kind
+little bit and we can just get this kind
+little bit and we can just get this kind
+of close look from the front SX and we
+of close look from the front SX and we
+of close look from the front SX and we
+can bring this across if we want we can
+can bring this across if we want we can
+can bring this across if we want we can
+scale this in slightly now again make
+scale this in slightly now again make
+scale this in slightly now again make
+sure that you're applying the scale of
+sure that you're applying the scale of
+sure that you're applying the scale of
+these so I'll select both of them crl a
+these so I'll select both of them crl a
+these so I'll select both of them crl a
+apply scale so when we select the head
+apply scale so when we select the head
+apply scale so when we select the head
+and tab into edit mode you can see that
+and tab into edit mode you can see that
+and tab into edit mode you can see that
+it's still a cube and I want to make the
+it's still a cube and I want to make the
+it's still a cube and I want to make the
+ears and the fur and stuff like that but
+ears and the fur and stuff like that but
+ears and the fur and stuff like that but
+if I start adding more Loop Cuts with
+if I start adding more Loop Cuts with
+if I start adding more Loop Cuts with
+controlr you can see it's changing the
+controlr you can see it's changing the
+controlr you can see it's changing the
+shape pretty dramatically so before
+shape pretty dramatically so before
+shape pretty dramatically so before
+going into edit mode Let's actually go
+going into edit mode Let's actually go
+going into edit mode Let's actually go
+over to the modifiers and we can
+over to the modifiers and we can
+over to the modifiers and we can
+actually apply this right here I like to
+actually apply this right here I like to
+actually apply this right here I like to
+apply it with as little detail as I need
+apply it with as little detail as I need
+apply it with as little detail as I need
+we can click this button press apply and
+we can click this button press apply and
+we can click this button press apply and
+then we can tab back into edit mode and
+then we can tab back into edit mode and
+then we can tab back into edit mode and
+we have all these squares to work with
+we have all these squares to work with
+we have all these squares to work with
+now let's select these two fa is right
+now let's select these two fa is right
+now let's select these two fa is right
+here I to inset I again for individual
+here I to inset I again for individual
+here I to inset I again for individual
+right here and I'll scale this down
+right here and I'll scale this down
+right here and I'll scale this down
+pretty small and now I want to bring
+pretty small and now I want to bring
+pretty small and now I want to bring
+this out for this I like to use alt s
+this out for this I like to use alt s
+this out for this I like to use alt s
+which is the shrink and fatten tool like
+which is the shrink and fatten tool like
+which is the shrink and fatten tool like
+that look from the front and get this
+that look from the front and get this
+that look from the front and get this
+pretty close and if we want we can
+pretty close and if we want we can
+pretty close and if we want we can
+smooth this out back in object mode with
+smooth this out back in object mode with
+smooth this out back in object mode with
+control 2 and we're going to use the
+control 2 and we're going to use the
+control 2 and we're going to use the
+mirror modifier for this one so let's
+mirror modifier for this one so let's
+mirror modifier for this one so let's
+tab back into edit mode alt Z I'm going
+tab back into edit mode alt Z I'm going
+tab back into edit mode alt Z I'm going
+to press one to go into vertex select
+to press one to go into vertex select
+to press one to go into vertex select
+select half X delete those now back in
+select half X delete those now back in
+select half X delete those now back in
+object mode we can add a mirror modifier
+object mode we can add a mirror modifier
+object mode we can add a mirror modifier
+you can see the seam in the middle
+you can see the seam in the middle
+you can see the seam in the middle
+that's just because the mirror modifier
+that's just because the mirror modifier
+that's just because the mirror modifier
+isn't first so we can just drag it to
+isn't first so we can just drag it to
+isn't first so we can just drag it to
+the top like that and it should clear
+the top like that and it should clear
+the top like that and it should clear
+that up now tab back into object mode
+that up now tab back into object mode
+that up now tab back into object mode
+for the ears I'm going to select these
+for the ears I'm going to select these
+for the ears I'm going to select these
+and extrude them but I want them to be
+and extrude them but I want them to be
+and extrude them but I want them to be
+more circular so I'm going to press
+more circular so I'm going to press
+more circular so I'm going to press
+contrl Z to go back and we actually want
+contrl Z to go back and we actually want
+contrl Z to go back and we actually want
+to use an add-on for this but it's
+to use an add-on for this but it's
+to use an add-on for this but it's
+already built in so you don't have to
+already built in so you don't have to
+already built in so you don't have to
+worry about downloading anything just go
+worry about downloading anything just go
+worry about downloading anything just go
+to edit preference is add-ons and you
+to edit preference is add-ons and you
+to edit preference is add-ons and you
+can search for Loop tools make sure this
+can search for Loop tools make sure this
+can search for Loop tools make sure this
+is enabled and then you can go to save
+is enabled and then you can go to save
+is enabled and then you can go to save
+preferences if you want that to always
+preferences if you want that to always
+preferences if you want that to always
+be on with these faces selected right
+be on with these faces selected right
+be on with these faces selected right
+click Loop tools is at the top and you
+click Loop tools is at the top and you
+click Loop tools is at the top and you
+can just select Circle and it will turn
+can just select Circle and it will turn
+can just select Circle and it will turn
+all of these into a circle so I'm just
+all of these into a circle so I'm just
+all of these into a circle so I'm just
+going to scale this up don't scale it up
+going to scale this up don't scale it up
+going to scale this up don't scale it up
+so much so that you know these points
+so much so that you know these points
+so much so that you know these points
+overlap over here but I'm going to scale
+overlap over here but I'm going to scale
+overlap over here but I'm going to scale
+it up pretty big and E to extrude right
+it up pretty big and E to extrude right
+it up pretty big and E to extrude right
+about there I'm going to scale this down
+about there I'm going to scale this down
+about there I'm going to scale this down
+I want them to be kind of round at the
+I want them to be kind of round at the
+I want them to be kind of round at the
+edge you can look from the side and I'll
+edge you can look from the side and I'll
+edge you can look from the side and I'll
+bring this forward just a little bit if
+bring this forward just a little bit if
+bring this forward just a little bit if
+you want you can also make this even
+you want you can also make this even
+you want you can also make this even
+more round by going into x-ray mode
+more round by going into x-ray mode
+more round by going into x-ray mode
+press one for vertex select we can
+press one for vertex select we can
+press one for vertex select we can
+select these and just move them up like
+select these and just move them up like
+select these and just move them up like
+that I'm also going to select this and
+that I'm also going to select this and
+that I'm also going to select this and
+bring it forward now if you're having
+bring it forward now if you're having
+bring it forward now if you're having
+trouble seeing where the points are we
+trouble seeing where the points are we
+trouble seeing where the points are we
+have a few options uh over here on the
+have a few options uh over here on the
+have a few options uh over here on the
+subdivision surface modifier you can
+subdivision surface modifier you can
+subdivision surface modifier you can
+either turn this off in the viewport
+either turn this off in the viewport
+either turn this off in the viewport
+this works for object and edit mode this
+this works for object and edit mode this
+this works for object and edit mode this
+one right here turns it off only in edit
+one right here turns it off only in edit
+one right here turns it off only in edit
+mode and this one Mak makes it so that
+mode and this one Mak makes it so that
+mode and this one Mak makes it so that
+it kind of conforms to it so usually I
+it kind of conforms to it so usually I
+it kind of conforms to it so usually I
+just kind of turn it on and off and
+just kind of turn it on and off and
+just kind of turn it on and off and
+you'll see me do that quite a bit so now
+you'll see me do that quite a bit so now
+you'll see me do that quite a bit so now
+I want to make the inner ear so I'm
+I want to make the inner ear so I'm
+I want to make the inner ear so I'm
+going to select these two faces I to
+going to select these two faces I to
+going to select these two faces I to
+inset I again so it's not individual and
+inset I again so it's not individual and
+inset I again so it's not individual and
+we can scale that in quite a bit going
+we can scale that in quite a bit going
+we can scale that in quite a bit going
+to select these three points right here
+to select these three points right here
+to select these three points right here
+and drag them down bring them in like
+and drag them down bring them in like
+and drag them down bring them in like
+that let's select these faces again and
+that let's select these faces again and
+that let's select these faces again and
+just extrude that and if you want you
+just extrude that and if you want you
+just extrude that and if you want you
+can also scale it up slightly let's make
+can also scale it up slightly let's make
+can also scale it up slightly let's make
+these whiskers next so I'm just going to
+these whiskers next so I'm just going to
+these whiskers next so I'm just going to
+select this right here and you can see
+select this right here and you can see
+select this right here and you can see
+we're still working with a cube so I'm
+we're still working with a cube so I'm
+we're still working with a cube so I'm
+actually going to apply this also and
+actually going to apply this also and
+actually going to apply this also and
+I'll press control 2 in the viewport tab
+I'll press control 2 in the viewport tab
+I'll press control 2 in the viewport tab
+into edit mode select these three faces
+into edit mode select these three faces
+into edit mode select these three faces
+right here I to inset I again and if
+right here I to inset I again and if
+right here I to inset I again and if
+these aren't Square enough for you you
+these aren't Square enough for you you
+these aren't Square enough for you you
+can do a few things you can rightclick
+can do a few things you can rightclick
+can do a few things you can rightclick
+go to Loop tools and change this to a
+go to Loop tools and change this to a
+go to Loop tools and change this to a
+circle you only have four points to work
+circle you only have four points to work
+circle you only have four points to work
+with so it's just going to turn it into
+with so it's just going to turn it into
+with so it's just going to turn it into
+a square basically and if you want to
+a square basically and if you want to
+a square basically and if you want to
+scale it down further but they're all
+scale it down further but they're all
+scale it down further but they're all
+scaling at the same time like that you
+scaling at the same time like that you
+scaling at the same time like that you
+can press period and change the pivot
+can press period and change the pivot
+can press period and change the pivot
+point to individual Origins that's also
+point to individual Origins that's also
+point to individual Origins that's also
+this option up here and then it will
+this option up here and then it will
+this option up here and then it will
+scale the individual faces down now we
+scale the individual faces down now we
+scale the individual faces down now we
+can press e to extrude these out and you
+can press e to extrude these out and you
+can press e to extrude these out and you
+can see they're already being pushed in
+can see they're already being pushed in
+can see they're already being pushed in
+the normal Direction but if they aren't
+the normal Direction but if they aren't
+the normal Direction but if they aren't
+you can contrl Z to go back and you can
+you can contrl Z to go back and you can
+you can contrl Z to go back and you can
+use alt e instead and then you have
+use alt e instead and then you have
+use alt e instead and then you have
+these other options one of which is
+these other options one of which is
+these other options one of which is
+extrude faces along normals which should
+extrude faces along normals which should
+extrude faces along normals which should
+make that work and I want these to be
+make that work and I want these to be
+make that work and I want these to be
+sharp right here instead of smooth like
+sharp right here instead of smooth like
+sharp right here instead of smooth like
+that so going to press two to go into
+that so going to press two to go into
+that so going to press two to go into
+Edge select mode and we can select this
+Edge select mode and we can select this
+Edge select mode and we can select this
+edge with alt and left click and you can
+edge with alt and left click and you can
+edge with alt and left click and you can
+see when I have the subdivision surface
+see when I have the subdivision surface
+see when I have the subdivision surface
+turned on and I change this mean crease
+turned on and I change this mean crease
+turned on and I change this mean crease
+option all the way up it becomes sharp
+option all the way up it becomes sharp
+option all the way up it becomes sharp
+right there um the shortcut for that is
+right there um the shortcut for that is
+right there um the shortcut for that is
+shift e so let's select this one with
+shift e so let's select this one with
+shift e so let's select this one with
+alt and left click and press shift e
+alt and left click and press shift e
+alt and left click and press shift e
+instead you can see it does the same
+instead you can see it does the same
+instead you can see it does the same
+thing so we can do that for all of them
+thing so we can do that for all of them
+thing so we can do that for all of them
+let's mirror this also so in edit mode
+let's mirror this also so in edit mode
+let's mirror this also so in edit mode
+let's just go into x-ray mode and we can
+let's just go into x-ray mode and we can
+let's just go into x-ray mode and we can
+select this half and I'll delete the
+select this half and I'll delete the
+select this half and I'll delete the
+vertices you can go over here add the
+vertices you can go over here add the
+vertices you can go over here add the
+mirror modifier and make sure it's at
+mirror modifier and make sure it's at
+mirror modifier and make sure it's at
+the top for the nose we're going to use
+the top for the nose we're going to use
+the top for the nose we're going to use
+some modifiers for this too so shift a
+some modifiers for this too so shift a
+some modifiers for this too so shift a
+add in a plane press
+add in a plane press
+add in a plane press
+rx90 to rotate at 90° drag it up and I'm
+rx90 to rotate at 90° drag it up and I'm
+rx90 to rotate at 90° drag it up and I'm
+just going to start scaling it down and
+just going to start scaling it down and
+just going to start scaling it down and
+getting it into place and I want to add
+getting it into place and I want to add
+getting it into place and I want to add
+two modifiers one of which is the
+two modifiers one of which is the
+two modifiers one of which is the
+subdivision surface so for that we can
+subdivision surface so for that we can
+subdivision surface so for that we can
+do control 2 and the other one is to
+do control 2 and the other one is to
+do control 2 and the other one is to
+give it some thickness and that is the
+give it some thickness and that is the
+give it some thickness and that is the
+solidify modifier so I either under
+solidify modifier so I either under
+solidify modifier so I either under
+generate you can choose solidify or you
+generate you can choose solidify or you
+generate you can choose solidify or you
+can just start typing it in and to make
+can just start typing it in and to make
+can just start typing it in and to make
+this smoother we can just bring the
+this smoother we can just bring the
+this smoother we can just bring the
+solidify to the top and we can also play
+solidify to the top and we can also play
+solidify to the top and we can also play
+with the thickness amount and I usually
+with the thickness amount and I usually
+with the thickness amount and I usually
+like to set the offset to zero so that
+like to set the offset to zero so that
+like to set the offset to zero so that
+it's extruding from the center like that
+it's extruding from the center like that
+it's extruding from the center like that
+let's bring this a little closer to the
+let's bring this a little closer to the
+let's bring this a little closer to the
+face look from the front and we can
+face look from the front and we can
+face look from the front and we can
+start shaping this if it's too hard to
+start shaping this if it's too hard to
+start shaping this if it's too hard to
+see you can actually just select other
+see you can actually just select other
+see you can actually just select other
+objects and press h to hide them and
+objects and press h to hide them and
+objects and press h to hide them and
+then you can press alt H to bring them
+then you can press alt H to bring them
+then you can press alt H to bring them
+back so I'm just going to hide these two
+back so I'm just going to hide these two
+back so I'm just going to hide these two
+we can select the nose and keep modeling
+we can select the nose and keep modeling
+we can select the nose and keep modeling
+in edit mode so I'm just going to select
+in edit mode so I'm just going to select
+in edit mode so I'm just going to select
+these top two points and we can scale
+these top two points and we can scale
+these top two points and we can scale
+this out quite a bit scale this one down
+this out quite a bit scale this one down
+this out quite a bit scale this one down
+so in object mode I'll press alt H
+so in object mode I'll press alt H
+so in object mode I'll press alt H
+rotate it from the side to kind of make
+rotate it from the side to kind of make
+rotate it from the side to kind of make
+it conform to the Head now if you want a
+it conform to the Head now if you want a
+it conform to the Head now if you want a
+mouth that's a little more realistic and
+mouth that's a little more realistic and
+mouth that's a little more realistic and
+is actually built into the head you can
+is actually built into the head you can
+is actually built into the head you can
+use the method that I show in this video
+use the method that I show in this video
+use the method that I show in this video
+over here it'll show you some topology
+over here it'll show you some topology
+over here it'll show you some topology
+tricks to make it pretty easy but for
+tricks to make it pretty easy but for
+tricks to make it pretty easy but for
+this one we're going to go for a more 2D
+this one we're going to go for a more 2D
+this one we're going to go for a more 2D
+style mouth and it's basically using the
+style mouth and it's basically using the
+style mouth and it's basically using the
+same method that I used for the nose so
+same method that I used for the nose so
+same method that I used for the nose so
+we can just duplicate the nose right
+we can just duplicate the nose right
+we can just duplicate the nose right
+here press alt R to reset the rotation
+here press alt R to reset the rotation
+here press alt R to reset the rotation
+rx90 to rotate it 90° we can drag it
+rx90 to rotate it 90° we can drag it
+rx90 to rotate it 90° we can drag it
+down into the side tab into edit mode we
+down into the side tab into edit mode we
+down into the side tab into edit mode we
+can scale this down a little scale this
+can scale this down a little scale this
+can scale this down a little scale this
+one up to make it a little more
+one up to make it a little more
+one up to make it a little more
+rectangular select everything with a s
+rectangular select everything with a s
+rectangular select everything with a s
+to scale Z we'll make this a little
+to scale Z we'll make this a little
+to scale Z we'll make this a little
+thinner I'll add a loop cut in the
+thinner I'll add a loop cut in the
+thinner I'll add a loop cut in the
+middle scale this select these two side
+middle scale this select these two side
+middle scale this select these two side
+points bring it down a little and rotate
+points bring it down a little and rotate
+points bring it down a little and rotate
+I want it even thinner so I'll select
+I want it even thinner so I'll select
+I want it even thinner so I'll select
+all of these points on the bottom and
+all of these points on the bottom and
+all of these points on the bottom and
+press GG to Loop slide now back in
+press GG to Loop slide now back in
+press GG to Loop slide now back in
+object mode we can rotate this a little
+object mode we can rotate this a little
+object mode we can rotate this a little
+now this looks a little too thick so we
+now this looks a little too thick so we
+now this looks a little too thick so we
+can select it go to the modifier panel
+can select it go to the modifier panel
+can select it go to the modifier panel
+and turn down the thickness um if it's
+and turn down the thickness um if it's
+and turn down the thickness um if it's
+moving too fast you can hold shift and
+moving too fast you can hold shift and
+moving too fast you can hold shift and
+that makes it move a little slower like
+that makes it move a little slower like
+that makes it move a little slower like
+that and if you don't want to have to
+that and if you don't want to have to
+that and if you don't want to have to
+like rotate This and like Snap to the
+like rotate This and like Snap to the
+like rotate This and like Snap to the
+face manually you can turn on face
+face manually you can turn on face
+face manually you can turn on face
+snapping so to do that go up to the
+snapping so to do that go up to the
+snapping so to do that go up to the
+snapping menu up here you can turn on
+snapping menu up here you can turn on
+snapping menu up here you can turn on
+face turn on Center and you can turn on
+face turn on Center and you can turn on
+face turn on Center and you can turn on
+a line rotation to Target that's going
+a line rotation to Target that's going
+a line rotation to Target that's going
+to make it rotate based on the face that
+to make it rotate based on the face that
+to make it rotate based on the face that
+you're snapping it to um just make sure
+you're snapping it to um just make sure
+you're snapping it to um just make sure
+to turn it off if you want it to stop
+to turn it off if you want it to stop
+to turn it off if you want it to stop
+rotating so now when you press G and
+rotating so now when you press G and
+rotating so now when you press G and
+hold control it will snap like that
+hold control it will snap like that
+hold control it will snap like that
+let's go into x-ray mode and just line
+let's go into x-ray mode and just line
+let's go into x-ray mode and just line
+this up a little closer we can also
+this up a little closer we can also
+this up a little closer we can also
+rotate it a little like that if you want
+rotate it a little like that if you want
+rotate it a little like that if you want
+you can scale it down do whatever you
+you can scale it down do whatever you
+you can scale it down do whatever you
+want to make it look good to you if you
+want to make it look good to you if you
+want to make it look good to you if you
+do scale it at all just make sure that
+do scale it at all just make sure that
+do scale it at all just make sure that
+you're applying the scale afterward
+you're applying the scale afterward
+you're applying the scale afterward
+again for the eyes we're going to do
+again for the eyes we're going to do
+again for the eyes we're going to do
+kind of a two-dimensional method but if
+kind of a two-dimensional method but if
+kind of a two-dimensional method but if
+you want something that's more realistic
+you want something that's more realistic
+you want something that's more realistic
+you can watch this video over here I
+you can watch this video over here I
+you can watch this video over here I
+talk about how to make three different
+talk about how to make three different
+talk about how to make three different
+types of eyes and don't worry about
+types of eyes and don't worry about
+types of eyes and don't worry about
+rigging and animating this cuz I'm going
+rigging and animating this cuz I'm going
+rigging and animating this cuz I'm going
+to show that in the next video it's
+to show that in the next video it's
+to show that in the next video it's
+actually really easy to rig a 2d style
+actually really easy to rig a 2d style
+actually really easy to rig a 2d style
+eye like this so don't worry about that
+eye like this so don't worry about that
+eye like this so don't worry about that
+so let's just select the nose again
+so let's just select the nose again
+so let's just select the nose again
+shift d to duplicate and I'm actually
+shift d to duplicate and I'm actually
+shift d to duplicate and I'm actually
+going to bring this back to the origin
+going to bring this back to the origin
+going to bring this back to the origin
+first with alt G and ALT R we can tab
+first with alt G and ALT R we can tab
+first with alt G and ALT R we can tab
+into edit mode I'm going to delete this
+into edit mode I'm going to delete this
+into edit mode I'm going to delete this
+and I'm going to add a plane the reason
+and I'm going to add a plane the reason
+and I'm going to add a plane the reason
+I'm doing this is basically so that we
+I'm doing this is basically so that we
+I'm doing this is basically so that we
+can keep the modifiers that we already
+can keep the modifiers that we already
+can keep the modifiers that we already
+have but I am going to add a new one
+have but I am going to add a new one
+have but I am going to add a new one
+which is the mirror modifier just make
+which is the mirror modifier just make
+which is the mirror modifier just make
+sure that's at the very top and we don't
+sure that's at the very top and we don't
+sure that's at the very top and we don't
+want this to merge together unless
+want this to merge together unless
+want this to merge together unless
+you're looking for something a little
+you're looking for something a little
+you're looking for something a little
+more like a Sonic style eye so I'm going
+more like a Sonic style eye so I'm going
+more like a Sonic style eye so I'm going
+to turn off merging back in object mode
+to turn off merging back in object mode
+to turn off merging back in object mode
+I'm just going to uh set the mirror
+I'm just going to uh set the mirror
+I'm just going to uh set the mirror
+object to the Head now I still have face
+object to the Head now I still have face
+object to the Head now I still have face
+snapping turned on over here so I'll
+snapping turned on over here so I'll
+snapping turned on over here so I'll
+press G and hold control and you can see
+press G and hold control and you can see
+press G and hold control and you can see
+it's kind of snapping to the face we can
+it's kind of snapping to the face we can
+it's kind of snapping to the face we can
+just scale that down over here so that
+just scale that down over here so that
+just scale that down over here so that
+they're not like plates stuck to the
+they're not like plates stuck to the
+they're not like plates stuck to the
+head like this I'm actually going to use
+head like this I'm actually going to use
+head like this I'm actually going to use
+the shrink wrap modifier so again we can
+the shrink wrap modifier so again we can
+the shrink wrap modifier so again we can
+go to add modifier shrink wrap which I
+go to add modifier shrink wrap which I
+go to add modifier shrink wrap which I
+think is under deform it is right here
+think is under deform it is right here
+think is under deform it is right here
+but you can also just type it in now
+but you can also just type it in now
+but you can also just type it in now
+let's bring this again to the very top
+let's bring this again to the very top
+let's bring this again to the very top
+and we can Target the head that cuz
+and we can Target the head that cuz
+and we can Target the head that cuz
+that's what we want it to shrink wrap to
+that's what we want it to shrink wrap to
+that's what we want it to shrink wrap to
+so it looks like it disappeared but it's
+so it looks like it disappeared but it's
+so it looks like it disappeared but it's
+actually just inside of the head and
+actually just inside of the head and
+actually just inside of the head and
+that's because it's only actually
+that's because it's only actually
+that's because it's only actually
+snapping Four Points let's come into
+snapping Four Points let's come into
+snapping Four Points let's come into
+edit mode right click and we can
+edit mode right click and we can
+edit mode right click and we can
+subdivide once go to Loop tools and turn
+subdivide once go to Loop tools and turn
+subdivide once go to Loop tools and turn
+this into a circle back in object mode
+this into a circle back in object mode
+this into a circle back in object mode
+we can also press control a and apply
+we can also press control a and apply
+we can also press control a and apply
+the scale and that's just going to make
+the scale and that's just going to make
+the scale and that's just going to make
+it so that the solidify modifier is
+it so that the solidify modifier is
+it so that the solidify modifier is
+actually reading an accurate thickness
+actually reading an accurate thickness
+actually reading an accurate thickness
+right here we can make that thicker now
+right here we can make that thicker now
+right here we can make that thicker now
+we can basically just scale this to
+we can basically just scale this to
+we can basically just scale this to
+whatever we think looks good um I'll use
+whatever we think looks good um I'll use
+whatever we think looks good um I'll use
+the reference and this is actually
+the reference and this is actually
+the reference and this is actually
+pretty close already so to rotate it so
+pretty close already so to rotate it so
+pretty close already so to rotate it so
+that they're not all diagonal like this
+that they're not all diagonal like this
+that they're not all diagonal like this
+I'll press R ZZ and that's going to
+I'll press R ZZ and that's going to
+I'll press R ZZ and that's going to
+rotate it on the local axis and we can
+rotate it on the local axis and we can
+rotate it on the local axis and we can
+just get it a little flatter and back in
+just get it a little flatter and back in
+just get it a little flatter and back in
+edit mode if you want you can you know
+edit mode if you want you can you know
+edit mode if you want you can you know
+change the shape of these bring these
+change the shape of these bring these
+change the shape of these bring these
+down a little I'll select the middle and
+down a little I'll select the middle and
+down a little I'll select the middle and
+I'll bring that down now for the pupils
+I'll bring that down now for the pupils
+I'll bring that down now for the pupils
+we can do the same thing I'm actually
+we can do the same thing I'm actually
+we can do the same thing I'm actually
+just going to duplicate this and I'm
+just going to duplicate this and I'm
+just going to duplicate this and I'm
+going to turn off shrink wrapping and we
+going to turn off shrink wrapping and we
+going to turn off shrink wrapping and we
+can scale this down back in edit mode
+can scale this down back in edit mode
+can scale this down back in edit mode
+just select everything right click and
+just select everything right click and
+just select everything right click and
+turn this into a circle back in object
+turn this into a circle back in object
+turn this into a circle back in object
+mode we can press G and hold control to
+mode we can press G and hold control to
+mode we can press G and hold control to
+start snapping like this and and if you
+start snapping like this and and if you
+start snapping like this and and if you
+don't like how the origin point isn't
+don't like how the origin point isn't
+don't like how the origin point isn't
+actually in the very center you can
+actually in the very center you can
+actually in the very center you can
+reset it by right clicking set origin to
+reset it by right clicking set origin to
+reset it by right clicking set origin to
+center of mass surface like that using
+center of mass surface like that using
+center of mass surface like that using
+face snapping with rotating um makes
+face snapping with rotating um makes
+face snapping with rotating um makes
+this a lot easier because you don't
+this a lot easier because you don't
+this a lot easier because you don't
+actually have to adjust the rotation so
+actually have to adjust the rotation so
+actually have to adjust the rotation so
+I definitely recommend using that and
+I definitely recommend using that and
+I definitely recommend using that and
+don't forget to apply the scale when
+don't forget to apply the scale when
+don't forget to apply the scale when
+you're done with this because it's going
+you're done with this because it's going
+you're done with this because it's going
+to change what the solidify modifier
+to change what the solidify modifier
+to change what the solidify modifier
+actually looks like the eyebrows are
+actually looks like the eyebrows are
+actually looks like the eyebrows are
+using the same method so let's just
+using the same method so let's just
+using the same method so let's just
+duplicate the pupils right here we can
+duplicate the pupils right here we can
+duplicate the pupils right here we can
+drag this up I'm just going to hide a
+drag this up I'm just going to hide a
+drag this up I'm just going to hide a
+few of these with h press alt R
+few of these with h press alt R
+few of these with h press alt R
+rx90 so that it's flat it's a little
+rx90 so that it's flat it's a little
+rx90 so that it's flat it's a little
+easier to work with when it's flat in my
+easier to work with when it's flat in my
+easier to work with when it's flat in my
+opinion now in edit mode Let's select
+opinion now in edit mode Let's select
+opinion now in edit mode Let's select
+this Loop right here with alt left click
+this Loop right here with alt left click
+this Loop right here with alt left click
+and we can press contrl X that will
+and we can press contrl X that will
+and we can press contrl X that will
+actually dissolve it I believe if you
+actually dissolve it I believe if you
+actually dissolve it I believe if you
+just press X you also get dissolve
+just press X you also get dissolve
+just press X you also get dissolve
+options right here and I was in Edge
+options right here and I was in Edge
+options right here and I was in Edge
+mode for that so you want to make sure
+mode for that so you want to make sure
+mode for that so you want to make sure
+you're dissolving the edges now let's
+you're dissolving the edges now let's
+you're dissolving the edges now let's
+just bring this a little closer over
+just bring this a little closer over
+just bring this a little closer over
+here a little further out can scale this
+here a little further out can scale this
+here a little further out can scale this
+down scale this down also scale the
+down scale this down also scale the
+down scale this down also scale the
+center up and in object mode this is
+center up and in object mode this is
+center up and in object mode this is
+where we can rotate it to you know get
+where we can rotate it to you know get
+where we can rotate it to you know get
+it a little closer I am going to come in
+it a little closer I am going to come in
+it a little closer I am going to come in
+here select these two press a g and then
+here select these two press a g and then
+here select these two press a g and then
+x x and that will move it in the the
+x x and that will move it in the the
+x x and that will move it in the the
+local orientation cuz I know these are
+local orientation cuz I know these are
+local orientation cuz I know these are
+supposed to be a little longer probably
+supposed to be a little longer probably
+supposed to be a little longer probably
+back in object mode alt H so we can
+back in object mode alt H so we can
+back in object mode alt H so we can
+actually see everything and now we can
+actually see everything and now we can
+actually see everything and now we can
+start rotating this and I'll snap it to
+start rotating this and I'll snap it to
+start rotating this and I'll snap it to
+the pupils to match the rotation and we
+the pupils to match the rotation and we
+the pupils to match the rotation and we
+can just drag it up like that and and I
+can just drag it up like that and and I
+can just drag it up like that and and I
+also want to make this thicker the only
+also want to make this thicker the only
+also want to make this thicker the only
+thing left is the hair and for that
+thing left is the hair and for that
+thing left is the hair and for that
+shift a we can add in a cube in edit
+shift a we can add in a cube in edit
+shift a we can add in a cube in edit
+mode gz one to Move It Up 1 meter then
+mode gz one to Move It Up 1 meter then
+mode gz one to Move It Up 1 meter then
+back in object mode you can see it's
+back in object mode you can see it's
+back in object mode you can see it's
+scaling from the bottom now I'll look
+scaling from the bottom now I'll look
+scaling from the bottom now I'll look
+from the side and bring it up over here
+from the side and bring it up over here
+from the side and bring it up over here
+to where the hair is can just scale it
+to where the hair is can just scale it
+to where the hair is can just scale it
+down control 2 to give it a subdivision
+down control 2 to give it a subdivision
+down control 2 to give it a subdivision
+surface scale it up on the Z and then s
+surface scale it up on the Z and then s
+surface scale it up on the Z and then s
+shift Z to make it skinnier and I'm just
+shift Z to make it skinnier and I'm just
+shift Z to make it skinnier and I'm just
+trying to gauge the thickness it should
+trying to gauge the thickness it should
+trying to gauge the thickness it should
+be so the shape that I'm looking for is
+be so the shape that I'm looking for is
+be so the shape that I'm looking for is
+going to be something like this in edit
+going to be something like this in edit
+going to be something like this in edit
+mode make sure you're in x-ray mode also
+mode make sure you're in x-ray mode also
+mode make sure you're in x-ray mode also
+let's just bring this down quite a bit
+let's just bring this down quite a bit
+let's just bring this down quite a bit
+you can add one Loop in the center I'll
+you can add one Loop in the center I'll
+you can add one Loop in the center I'll
+move this a little like that and for the
+move this a little like that and for the
+move this a little like that and for the
+two ends I'll rotate them like this and
+two ends I'll rotate them like this and
+two ends I'll rotate them like this and
+that's going to get us a shape that's a
+that's going to get us a shape that's a
+that's going to get us a shape that's a
+little closer to this Arc over here can
+little closer to this Arc over here can
+little closer to this Arc over here can
+also scale down the end and if you want
+also scale down the end and if you want
+also scale down the end and if you want
+you can scale this up okay now back in
+you can scale this up okay now back in
+you can scale this up okay now back in
+object mode we can actually get this in
+object mode we can actually get this in
+object mode we can actually get this in
+place and start rotating shift d to
+place and start rotating shift d to
+place and start rotating shift d to
+duplicate scale it down shift d one more
+duplicate scale it down shift d one more
+duplicate scale it down shift d one more
+more time and we can bring it over here
+more time and we can bring it over here
+more time and we can bring it over here
+with G scale it down rotate it you know
+with G scale it down rotate it you know
+with G scale it down rotate it you know
+just line it up now let's make sure all
+just line it up now let's make sure all
+just line it up now let's make sure all
+of these have the scale applied with crl
+of these have the scale applied with crl
+of these have the scale applied with crl
+a apply the scale now in the reference
+a apply the scale now in the reference
+a apply the scale now in the reference
+these aren't actually going
+these aren't actually going
+these aren't actually going
+straightforward they're kind of sticking
+straightforward they're kind of sticking
+straightforward they're kind of sticking
+off to the side a little so we can mimic
+off to the side a little so we can mimic
+off to the side a little so we can mimic
+that by selecting the hair and rotating
+that by selecting the hair and rotating
+that by selecting the hair and rotating
+on the z-axis like that bring it to the
+on the z-axis like that bring it to the
+on the z-axis like that bring it to the
+side just a little and I want to keep
+side just a little and I want to keep
+side just a little and I want to keep
+the hair looking like it's kind of in
+the hair looking like it's kind of in
+the hair looking like it's kind of in
+the center so I'll just drag these few
+the center so I'll just drag these few
+the center so I'll just drag these few
+now if you want to stay organized it's
+now if you want to stay organized it's
+now if you want to stay organized it's
+probably a good idea to actually name
+probably a good idea to actually name
+probably a good idea to actually name
+all of these things so I'm just going to
+all of these things so I'm just going to
+all of these things so I'm just going to
+go through real fast and rename
+go through real fast and rename
+go through real fast and rename
+everything next we can work on the coat
+everything next we can work on the coat
+everything next we can work on the coat
+right here so for that I'm just going to
+right here so for that I'm just going to
+right here so for that I'm just going to
+actually duplicate the body scale it up
+actually duplicate the body scale it up
+actually duplicate the body scale it up
+a little and rename it with F2 I'll just
+a little and rename it with F2 I'll just
+a little and rename it with F2 I'll just
+name it coat this is still a cube so
+name it coat this is still a cube so
+name it coat this is still a cube so
+what I'm going to do is turn this down
+what I'm going to do is turn this down
+what I'm going to do is turn this down
+one subdivision like that and then apply
+one subdivision like that and then apply
+one subdivision like that and then apply
+it and then press control 2 to add
+it and then press control 2 to add
+it and then press control 2 to add
+another subdivision surface back in and
+another subdivision surface back in and
+another subdivision surface back in and
+I also want this to have a thickness to
+I also want this to have a thickness to
+I also want this to have a thickness to
+it so I'm going to add a solidify
+it so I'm going to add a solidify
+it so I'm going to add a solidify
+modifier and just make sure that this is
+modifier and just make sure that this is
+modifier and just make sure that this is
+at the top so that it's extruding and
+at the top so that it's extruding and
+at the top so that it's extruding and
+then smoothing that out now if I come
+then smoothing that out now if I come
+then smoothing that out now if I come
+into edit mode look from the front and
+into edit mode look from the front and
+into edit mode look from the front and
+I'm actually just going to delete the
+I'm actually just going to delete the
+I'm actually just going to delete the
+bottom point right here you can see that
+bottom point right here you can see that
+bottom point right here you can see that
+it does actually have a little bit of a
+it does actually have a little bit of a
+it does actually have a little bit of a
+thickness to it but let's make it even
+thickness to it but let's make it even
+thickness to it but let's make it even
+thicker like that I'll select the entire
+thicker like that I'll select the entire
+thicker like that I'll select the entire
+bottom Loop
+bottom Loop
+bottom Loop
+sz0 and that's just going to flatten it
+sz0 and that's just going to flatten it
+sz0 and that's just going to flatten it
+out on the z-axis we can bring this down
+out on the z-axis we can bring this down
+out on the z-axis we can bring this down
+to about here and scale it out if you
+to about here and scale it out if you
+to about here and scale it out if you
+want this to be more circular you can
+want this to be more circular you can
+want this to be more circular you can
+use the loop tools add-on for that again
+use the loop tools add-on for that again
+use the loop tools add-on for that again
+to get this collar what we can do is
+to get this collar what we can do is
+to get this collar what we can do is
+select the top Point press contrl plus
+select the top Point press contrl plus
+select the top Point press contrl plus
+and that's just going to expand the
+and that's just going to expand the
+and that's just going to expand the
+selection can press three to go into
+selection can press three to go into
+selection can press three to go into
+face select mode and I'm just going to
+face select mode and I'm just going to
+face select mode and I'm just going to
+inset this with I I don't want this to
+inset this with I I don't want this to
+inset this with I I don't want this to
+be individual so I'll press I again I'll
+be individual so I'll press I again I'll
+be individual so I'll press I again I'll
+right click go to Loop tools and circle
+right click go to Loop tools and circle
+right click go to Loop tools and circle
+extrude that up and I'm actually going
+extrude that up and I'm actually going
+extrude that up and I'm actually going
+to press X and delete the faces and
+to press X and delete the faces and
+to press X and delete the faces and
+that's just going to make it Hollow at
+that's just going to make it Hollow at
+that's just going to make it Hollow at
+the top also I want to select this top
+the top also I want to select this top
+the top also I want to select this top
+Loop so go into vertex select and we can
+Loop so go into vertex select and we can
+Loop so go into vertex select and we can
+just scale this out basically what I'm
+just scale this out basically what I'm
+just scale this out basically what I'm
+looking for for is that so it isn't
+looking for for is that so it isn't
+looking for for is that so it isn't
+cutting into the head really so I'm
+cutting into the head really so I'm
+cutting into the head really so I'm
+going to look from the side we can
+going to look from the side we can
+going to look from the side we can
+rotate it a little like that also maybe
+rotate it a little like that also maybe
+rotate it a little like that also maybe
+scale it out a little more I'm going to
+scale it out a little more I'm going to
+scale it out a little more I'm going to
+select some of these points and press GG
+select some of these points and press GG
+select some of these points and press GG
+to Loop slide to make this crease a
+to Loop slide to make this crease a
+to Loop slide to make this crease a
+little less sharp and I'm only focusing
+little less sharp and I'm only focusing
+little less sharp and I'm only focusing
+on one side because we're just going to
+on one side because we're just going to
+on one side because we're just going to
+mirror it after I'll bring this one down
+mirror it after I'll bring this one down
+mirror it after I'll bring this one down
+too and before doing the sleeve or
+too and before doing the sleeve or
+too and before doing the sleeve or
+deleting half and adding the mirror
+deleting half and adding the mirror
+deleting half and adding the mirror
+modifier um I'm going to work on this
+modifier um I'm going to work on this
+modifier um I'm going to work on this
+bottom part right here you can see in
+bottom part right here you can see in
+bottom part right here you can see in
+the reference it looks like there's kind
+the reference it looks like there's kind
+the reference it looks like there's kind
+of this um almost like an elastic
+of this um almost like an elastic
+of this um almost like an elastic
+waistband so to make that let's go back
+waistband so to make that let's go back
+waistband so to make that let's go back
+to edit mode I'll select the entire
+to edit mode I'll select the entire
+to edit mode I'll select the entire
+bottom Loop e to extrude S to scale and
+bottom Loop e to extrude S to scale and
+bottom Loop e to extrude S to scale and
+we'll just scale in and extrude down on
+we'll just scale in and extrude down on
+we'll just scale in and extrude down on
+the Z axis I'll select this entire Loop
+the Z axis I'll select this entire Loop
+the Z axis I'll select this entire Loop
+right here this middle one with alt and
+right here this middle one with alt and
+right here this middle one with alt and
+left click and we can just drag that up
+left click and we can just drag that up
+left click and we can just drag that up
+it will start to kind of uh cut through
+it will start to kind of uh cut through
+it will start to kind of uh cut through
+and you just have to move things around
+and you just have to move things around
+and you just have to move things around
+until it matches the shape a little
+until it matches the shape a little
+until it matches the shape a little
+better the bottommost loop we can scale
+better the bottommost loop we can scale
+better the bottommost loop we can scale
+that out a little bit also I'll select
+that out a little bit also I'll select
+that out a little bit also I'll select
+all of them and just uh start moving
+all of them and just uh start moving
+all of them and just uh start moving
+them around a little bit it looks like
+them around a little bit it looks like
+them around a little bit it looks like
+we're pretty close to the reference so
+we're pretty close to the reference so
+we're pretty close to the reference so
+let's go into edit mode xray mode and
+let's go into edit mode xray mode and
+let's go into edit mode xray mode and
+then delete half of this and we can add
+then delete half of this and we can add
+then delete half of this and we can add
+in the mirror modifier make sure that's
+in the mirror modifier make sure that's
+in the mirror modifier make sure that's
+at the very top and that merge is
+at the very top and that merge is
+at the very top and that merge is
+actually on now we can make the sleeve
+actually on now we can make the sleeve
+actually on now we can make the sleeve
+over here so for that I'll go into face
+over here so for that I'll go into face
+over here so for that I'll go into face
+select select these two faces I to inset
+select select these two faces I to inset
+select select these two faces I to inset
+right click and use Loop tools to make a
+right click and use Loop tools to make a
+right click and use Loop tools to make a
+circle right here I'll just scale that
+circle right here I'll just scale that
+circle right here I'll just scale that
+down so nothing is overlapping now from
+down so nothing is overlapping now from
+down so nothing is overlapping now from
+the front I don't really want this to go
+the front I don't really want this to go
+the front I don't really want this to go
+inward like that so I'll drag it out and
+inward like that so I'll drag it out and
+inward like that so I'll drag it out and
+I want to scale this down to be a little
+I want to scale this down to be a little
+I want to scale this down to be a little
+bit smaller right here and just going
+bit smaller right here and just going
+bit smaller right here and just going
+around where the arm is I'll press e and
+around where the arm is I'll press e and
+around where the arm is I'll press e and
+then X to extrude it outward like this
+then X to extrude it outward like this
+then X to extrude it outward like this
+sx0 and that will flatten it on the xais
+sx0 and that will flatten it on the xais
+sx0 and that will flatten it on the xais
+contrl r to add some Loop Cuts so we can
+contrl r to add some Loop Cuts so we can
+contrl r to add some Loop Cuts so we can
+get the shape of the sleeve a little
+get the shape of the sleeve a little
+get the shape of the sleeve a little
+better and as we move it you can see
+better and as we move it you can see
+better and as we move it you can see
+that the loop is changing shape so if I
+that the loop is changing shape so if I
+that the loop is changing shape so if I
+want to match the shape of one side or
+want to match the shape of one side or
+want to match the shape of one side or
+the other you can press e and to switch
+the other you can press e and to switch
+the other you can press e and to switch
+sides you can press F so it's either
+sides you can press F so it's either
+sides you can press F so it's either
+going to copy the exact shape of one
+going to copy the exact shape of one
+going to copy the exact shape of one
+side or the exact shape of the other
+side or the exact shape of the other
+side or the exact shape of the other
+right here so I'll put it right there
+right here so I'll put it right there
+right here so I'll put it right there
+contrl R to add another loop right here
+contrl R to add another loop right here
+contrl R to add another loop right here
+and I forgot I actually want to delete
+and I forgot I actually want to delete
+and I forgot I actually want to delete
+these faces right here so that they're
+these faces right here so that they're
+these faces right here so that they're
+open now I can select these loops and
+open now I can select these loops and
+open now I can select these loops and
+scale them up like this if you want this
+scale them up like this if you want this
+scale them up like this if you want this
+cuff to be a little sharper you can do
+cuff to be a little sharper you can do
+cuff to be a little sharper you can do
+the same thing as I did for the
+the same thing as I did for the
+the same thing as I did for the
+waistband and kind of make them overlap
+waistband and kind of make them overlap
+waistband and kind of make them overlap
+like this this Loop right here I'll
+like this this Loop right here I'll
+like this this Loop right here I'll
+scale on the z-axis like that and drag
+scale on the z-axis like that and drag
+scale on the z-axis like that and drag
+it down a little you can do the same
+it down a little you can do the same
+it down a little you can do the same
+thing for for this one too if you want
+thing for for this one too if you want
+thing for for this one too if you want
+I'm also going to select this part and
+I'm also going to select this part and
+I'm also going to select this part and
+drag it in a little just to uh make it a
+drag it in a little just to uh make it a
+drag it in a little just to uh make it a
+little more triangular again make sure
+little more triangular again make sure
+little more triangular again make sure
+that the scale is applied and if
+that the scale is applied and if
+that the scale is applied and if
+anything changes you can adjust it to
+anything changes you can adjust it to
+anything changes you can adjust it to
+look how you want let's do the hands
+look how you want let's do the hands
+look how you want let's do the hands
+next so we can just select this right
+next so we can just select this right
+next so we can just select this right
+here tab into edit mode look from the
+here tab into edit mode look from the
+here tab into edit mode look from the
+top hands with the skin modifier is
+top hands with the skin modifier is
+top hands with the skin modifier is
+actually pretty easy extrude on the
+actually pretty easy extrude on the
+actually pretty easy extrude on the
+x-axis a little bit and then CR a to
+x-axis a little bit and then CR a to
+x-axis a little bit and then CR a to
+scale it down quite quite a bit as you
+scale it down quite quite a bit as you
+scale it down quite quite a bit as you
+can see I only have three fingers right
+can see I only have three fingers right
+can see I only have three fingers right
+here if you want you can add four you
+here if you want you can add four you
+here if you want you can add four you
+can add as many as you want really
+can add as many as you want really
+can add as many as you want really
+basically all you do is just extrude to
+basically all you do is just extrude to
+basically all you do is just extrude to
+the tip of the fingers right here or I
+the tip of the fingers right here or I
+the tip of the fingers right here or I
+guess the bottom of the fingers and then
+guess the bottom of the fingers and then
+guess the bottom of the fingers and then
+I'll select all of them right here I'm
+I'll select all of them right here I'm
+I'll select all of them right here I'm
+just going to press s x and zero to
+just going to press s x and zero to
+just going to press s x and zero to
+flatten them out on the x- axis and then
+flatten them out on the x- axis and then
+flatten them out on the x- axis and then
+e and X we can extrude it out I'll bring
+e and X we can extrude it out I'll bring
+e and X we can extrude it out I'll bring
+this out a little further and for the
+this out a little further and for the
+this out a little further and for the
+thumb we can extrude from the same point
+thumb we can extrude from the same point
+thumb we can extrude from the same point
+right about here and then e y press CR a
+right about here and then e y press CR a
+right about here and then e y press CR a
+to start scaling it up and you can see
+to start scaling it up and you can see
+to start scaling it up and you can see
+at some point it will start to actually
+at some point it will start to actually
+at some point it will start to actually
+connect everything together now we can
+connect everything together now we can
+connect everything together now we can
+just select all of the fingers so I'm
+just select all of the fingers so I'm
+just select all of the fingers so I'm
+using box select right here click and
+using box select right here click and
+using box select right here click and
+drag and holding shift and then crol a
+drag and holding shift and then crol a
+drag and holding shift and then crol a
+and you can just scale everything up
+and you can just scale everything up
+and you can just scale everything up
+until it's the thickness that you want
+until it's the thickness that you want
+until it's the thickness that you want
+another thing to pay attention to is the
+another thing to pay attention to is the
+another thing to pay attention to is the
+thumb placement so you can see as I move
+thumb placement so you can see as I move
+thumb placement so you can see as I move
+it the topology is going to change
+it the topology is going to change
+it the topology is going to change
+basically just try to avoid it um
+basically just try to avoid it um
+basically just try to avoid it um
+kinking and overlapping and stuff like
+kinking and overlapping and stuff like
+kinking and overlapping and stuff like
+this so that's it for the hands we can
+this so that's it for the hands we can
+this so that's it for the hands we can
+tab back into object mode and we can do
+tab back into object mode and we can do
+tab back into object mode and we can do
+the shoes next I'll add a subdivision
+the shoes next I'll add a subdivision
+the shoes next I'll add a subdivision
+surface with control 2 tab into edit
+surface with control 2 tab into edit
+surface with control 2 tab into edit
+mode face select I'll grab the front
+mode face select I'll grab the front
+mode face select I'll grab the front
+face right here look from the side and
+face right here look from the side and
+face right here look from the side and
+I'll just drag it out right about here
+I'll just drag it out right about here
+I'll just drag it out right about here
+I'll select these points and drag this
+I'll select these points and drag this
+I'll select these points and drag this
+out and I'm going to add a few Loops now
+out and I'm going to add a few Loops now
+out and I'm going to add a few Loops now
+so let's add a loop cut right here with
+so let's add a loop cut right here with
+so let's add a loop cut right here with
+crlr crl r again let's select these
+crlr crl r again let's select these
+crlr crl r again let's select these
+points right here move them down a
+points right here move them down a
+points right here move them down a
+little bit these ones right here and
+little bit these ones right here and
+little bit these ones right here and
+pull them up we can and just try to kind
+pull them up we can and just try to kind
+pull them up we can and just try to kind
+of match the shape of the reference over
+of match the shape of the reference over
+of match the shape of the reference over
+here we can add a loop cut with r right
+here we can add a loop cut with r right
+here we can add a loop cut with r right
+here another way instead of pressing E
+here another way instead of pressing E
+here another way instead of pressing E
+and F and stuff like that you can just
+and F and stuff like that you can just
+and F and stuff like that you can just
+bring it all the way to the bottom right
+bring it all the way to the bottom right
+bring it all the way to the bottom right
+here and then move it back up like that
+here and then move it back up like that
+here and then move it back up like that
+and it'll be flat also so this is for
+and it'll be flat also so this is for
+and it'll be flat also so this is for
+the bottom part of the shoe right here
+the bottom part of the shoe right here
+the bottom part of the shoe right here
+let's go into face select mode alt and
+let's go into face select mode alt and
+let's go into face select mode alt and
+left click to select this Loop of faces
+left click to select this Loop of faces
+left click to select this Loop of faces
+e to extrude S to scale and then shift Z
+e to extrude S to scale and then shift Z
+e to extrude S to scale and then shift Z
+so that it doesn't scale up on the you
+so that it doesn't scale up on the you
+so that it doesn't scale up on the you
+know the z- axis like that uh I also
+know the z- axis like that uh I also
+know the z- axis like that uh I also
+want to turn merging off so that it
+want to turn merging off so that it
+want to turn merging off so that it
+doesn't actually connect to the other
+doesn't actually connect to the other
+doesn't actually connect to the other
+shoe and to make it a little more even
+shoe and to make it a little more even
+shoe and to make it a little more even
+we can scale it on just the xais right
+we can scale it on just the xais right
+we can scale it on just the xais right
+there two to go into Edge select mode
+there two to go into Edge select mode
+there two to go into Edge select mode
+alt and left click right here and let's
+alt and left click right here and let's
+alt and left click right here and let's
+turn the mean crease all the way up for
+turn the mean crease all the way up for
+turn the mean crease all the way up for
+this like that now if you want you can
+this like that now if you want you can
+this like that now if you want you can
+adjust the thickness of this again with
+adjust the thickness of this again with
+adjust the thickness of this again with
+scaling on whatever axis until it looks
+scaling on whatever axis until it looks
+scaling on whatever axis until it looks
+good to you let's select this whole face
+good to you let's select this whole face
+good to you let's select this whole face
+loop again with alt and left click s and
+loop again with alt and left click s and
+loop again with alt and left click s and
+X we can scale that out a little bit to
+X we can scale that out a little bit to
+X we can scale that out a little bit to
+make these shoes a little chunkier I
+make these shoes a little chunkier I
+make these shoes a little chunkier I
+know the shoes are touching each other
+know the shoes are touching each other
+know the shoes are touching each other
+but I want them big and this is
+but I want them big and this is
+but I want them big and this is
+something that we can remedy when it
+something that we can remedy when it
+something that we can remedy when it
+gets to like rigging and uh setting
+gets to like rigging and uh setting
+gets to like rigging and uh setting
+poses and stuff like that but if this is
+poses and stuff like that but if this is
+poses and stuff like that but if this is
+bothering you you can go back into
+bothering you you can go back into
+bothering you you can go back into
+object mode and just scale them down you
+object mode and just scale them down you
+object mode and just scale them down you
+can also make the the character wider so
+can also make the the character wider so
+can also make the the character wider so
+their legs are further apart but in edit
+their legs are further apart but in edit
+their legs are further apart but in edit
+mode still I'm just going to select this
+mode still I'm just going to select this
+mode still I'm just going to select this
+face right here shift d to duplicate I
+face right here shift d to duplicate I
+face right here shift d to duplicate I
+to inset and we're going to delete this
+to inset and we're going to delete this
+to inset and we're going to delete this
+face with x the shortcut to select an
+face with x the shortcut to select an
+face with x the shortcut to select an
+entire separated piece of a mesh is L
+entire separated piece of a mesh is L
+entire separated piece of a mesh is L
+we're in face select so we can just
+we're in face select so we can just
+we're in face select so we can just
+hover over any face and press L and it
+hover over any face and press L and it
+hover over any face and press L and it
+will select that whole piece that we
+will select that whole piece that we
+will select that whole piece that we
+just made now we can just extrude that
+just made now we can just extrude that
+just made now we can just extrude that
+upward right here L again to select the
+upward right here L again to select the
+upward right here L again to select the
+whole thing we can scale this on the Y
+whole thing we can scale this on the Y
+whole thing we can scale this on the Y
+let's also scale this up and I'm just
+let's also scale this up and I'm just
+let's also scale this up and I'm just
+moving it into place right here if you
+moving it into place right here if you
+moving it into place right here if you
+got the thickness wrong you can always
+got the thickness wrong you can always
+got the thickness wrong you can always
+select this inner loop again with alt
+select this inner loop again with alt
+select this inner loop again with alt
+and left click to select those faces and
+and left click to select those faces and
+and left click to select those faces and
+then s shift Z and you can scale it all
+then s shift Z and you can scale it all
+then s shift Z and you can scale it all
+however you want for the tongue of the
+however you want for the tongue of the
+however you want for the tongue of the
+shoe right here I'm basically just going
+shoe right here I'm basically just going
+shoe right here I'm basically just going
+to select this face shift d to duplicate
+to select this face shift d to duplicate
+to select this face shift d to duplicate
+and I'll drag it up scale it down just a
+and I'll drag it up scale it down just a
+and I'll drag it up scale it down just a
+little bit we can add a loop cut you
+little bit we can add a loop cut you
+little bit we can add a loop cut you
+know to get the shape a little better we
+know to get the shape a little better we
+know to get the shape a little better we
+can scale this in you know scale uh
+can scale this in you know scale uh
+can scale this in you know scale uh
+individual edges right here I like to
+individual edges right here I like to
+individual edges right here I like to
+scale the middle one out a little it
+scale the middle one out a little it
+scale the middle one out a little it
+makes it much rounder then we can select
+makes it much rounder then we can select
+makes it much rounder then we can select
+this top part right here and try to kind
+this top part right here and try to kind
+this top part right here and try to kind
+of match this angle and the subdivision
+of match this angle and the subdivision
+of match this angle and the subdivision
+surface is actually smoothing this out
+surface is actually smoothing this out
+surface is actually smoothing this out
+quite a bit let's select these two faces
+quite a bit let's select these two faces
+quite a bit let's select these two faces
+and E to extrude to give this a little
+and E to extrude to give this a little
+and E to extrude to give this a little
+bit of a thickness like that if it's too
+bit of a thickness like that if it's too
+bit of a thickness like that if it's too
+thick or too thin you can press alt s to
+thick or too thin you can press alt s to
+thick or too thin you can press alt s to
+shrink or fatten it like that let's
+shrink or fatten it like that let's
+shrink or fatten it like that let's
+select this and rotate it more I'll
+select this and rotate it more I'll
+select this and rotate it more I'll
+press L to select the whole thing and we
+press L to select the whole thing and we
+press L to select the whole thing and we
+can move it into place last are the
+can move it into place last are the
+can move it into place last are the
+shorts and if you want you can skip this
+shorts and if you want you can skip this
+shorts and if you want you can skip this
+and just change the color of the legs to
+and just change the color of the legs to
+and just change the color of the legs to
+make it look more like tight pants but I
+make it look more like tight pants but I
+make it look more like tight pants but I
+kind of like the shorts so for those I'm
+kind of like the shorts so for those I'm
+kind of like the shorts so for those I'm
+actually going to use the shoes right
+actually going to use the shoes right
+actually going to use the shoes right
+here we can just duplicate that I'll
+here we can just duplicate that I'll
+here we can just duplicate that I'll
+press alt G to bring it back into the
+press alt G to bring it back into the
+press alt G to bring it back into the
+center tab into edit mode a to select
+center tab into edit mode a to select
+center tab into edit mode a to select
+everything X and we'll delete everything
+everything X and we'll delete everything
+everything X and we'll delete everything
+and add in a cube scale it down quite a
+and add in a cube scale it down quite a
+and add in a cube scale it down quite a
+bit and I'm just going to delete the
+bit and I'm just going to delete the
+bit and I'm just going to delete the
+bottom face right here so we can press X
+bottom face right here so we can press X
+bottom face right here so we can press X
+delete that face and I also want to add
+delete that face and I also want to add
+delete that face and I also want to add
+a solidify modifier so type in solidify
+a solidify modifier so type in solidify
+a solidify modifier so type in solidify
+and just make sure that that is above
+and just make sure that that is above
+and just make sure that that is above
+the subdivision surface right here back
+the subdivision surface right here back
+the subdivision surface right here back
+in object mode I'm just going to get
+in object mode I'm just going to get
+in object mode I'm just going to get
+this into place and be the size that I
+this into place and be the size that I
+this into place and be the size that I
+want before I actually apply the scale
+want before I actually apply the scale
+want before I actually apply the scale
+and mess with the solidify okay I think
+and mess with the solidify okay I think
+and mess with the solidify okay I think
+this is pretty close let's press contr a
+this is pretty close let's press contr a
+this is pretty close let's press contr a
+apply the scale and then we can come
+apply the scale and then we can come
+apply the scale and then we can come
+over to the solidify and we can change
+over to the solidify and we can change
+over to the solidify and we can change
+the thickness to be a little thicker and
+the thickness to be a little thicker and
+the thickness to be a little thicker and
+now we basically just have to move these
+now we basically just have to move these
+now we basically just have to move these
+faces around until we think that it
+faces around until we think that it
+faces around until we think that it
+looks good so let's just select the
+looks good so let's just select the
+looks good so let's just select the
+bottom Loop scale it out can also bring
+bottom Loop scale it out can also bring
+bottom Loop scale it out can also bring
+this up quite a bit higher all right
+this up quite a bit higher all right
+this up quite a bit higher all right
+back in object mode we can select
+back in object mode we can select
+back in object mode we can select
+everything rightclick and shade smooth
+everything rightclick and shade smooth
+everything rightclick and shade smooth
+the only thing that isn't going to be
+the only thing that isn't going to be
+the only thing that isn't going to be
+shaded smooth is what we made with the
+shaded smooth is what we made with the
+shaded smooth is what we made with the
+skin modifier and we should actually do
+skin modifier and we should actually do
+skin modifier and we should actually do
+duplicate this anyway so that we can
+duplicate this anyway so that we can
+duplicate this anyway so that we can
+apply it mainly because it's going to
+apply it mainly because it's going to
+apply it mainly because it's going to
+make it easier to texture paint when we
+make it easier to texture paint when we
+make it easier to texture paint when we
+get to that so let's press shift d to
+get to that so let's press shift d to
+get to that so let's press shift d to
+duplicate this and then we can find it
+duplicate this and then we can find it
+duplicate this and then we can find it
+in the outliner and we can just hide
+in the outliner and we can just hide
+in the outliner and we can just hide
+that right there let's select this one
+that right there let's select this one
+that right there let's select this one
+that's visible and we can apply the skin
+that's visible and we can apply the skin
+that's visible and we can apply the skin
+modifier right there so now if we tab
+modifier right there so now if we tab
+modifier right there so now if we tab
+into edit mode you can see that you know
+into edit mode you can see that you know
+into edit mode you can see that you know
+it's more than just a few edges we also
+it's more than just a few edges we also
+it's more than just a few edges we also
+have a ton of faces and thickness and
+have a ton of faces and thickness and
+have a ton of faces and thickness and
+whatnot now we should be able to right
+whatnot now we should be able to right
+whatnot now we should be able to right
+click it and shade smooth if you want to
+click it and shade smooth if you want to
+click it and shade smooth if you want to
+shade smooth with the skin modifier you
+shade smooth with the skin modifier you
+shade smooth with the skin modifier you
+just have to use this button right here
+just have to use this button right here
+just have to use this button right here
+the whiskers look kind of weird because
+the whiskers look kind of weird because
+the whiskers look kind of weird because
+they're shaded smooth even where it's
+they're shaded smooth even where it's
+they're shaded smooth even where it's
+supposed to be sharp right here so you
+supposed to be sharp right here so you
+supposed to be sharp right here so you
+used to be able to rightclick and shade
+used to be able to rightclick and shade
+used to be able to rightclick and shade
+Smooth by angle but now it's a little
+Smooth by angle but now it's a little
+Smooth by angle but now it's a little
+different just select the whiskers go to
+different just select the whiskers go to
+different just select the whiskers go to
+the modifier panel and under normals we
+the modifier panel and under normals we
+the modifier panel and under normals we
+have Smooth by angle and that's just
+have Smooth by angle and that's just
+have Smooth by angle and that's just
+going to clear it right up for you next
+going to clear it right up for you next
+going to clear it right up for you next
+we can add some color there are a lot of
+we can add some color there are a lot of
+we can add some color there are a lot of
+ways to add color in materials and I'll
+ways to add color in materials and I'll
+ways to add color in materials and I'll
+be showing how to use this color palette
+be showing how to use this color palette
+be showing how to use this color palette
+method but you could also use texture
+method but you could also use texture
+method but you could also use texture
+painting you could make a separate
+painting you could make a separate
+painting you could make a separate
+material for each color you want and
+material for each color you want and
+material for each color you want and
+then select and assign those materials
+then select and assign those materials
+then select and assign those materials
+to different parts of the model you can
+to different parts of the model you can
+to different parts of the model you can
+find free textures from a site like poly
+find free textures from a site like poly
+find free textures from a site like poly
+Haven then use the node Wrangler add-ons
+Haven then use the node Wrangler add-ons
+Haven then use the node Wrangler add-ons
+shift controlt shortcut to set them up
+shift controlt shortcut to set them up
+shift controlt shortcut to set them up
+fast or you can use a separate program
+fast or you can use a separate program
+fast or you can use a separate program
+like substance painter now I'm not going
+like substance painter now I'm not going
+like substance painter now I'm not going
+to cover all of these things but at
+to cover all of these things but at
+to cover all of these things but at
+least you'll know what to search for if
+least you'll know what to search for if
+least you'll know what to search for if
+you want to learn more so you can
+you want to learn more so you can
+you want to learn more so you can
+download this color palette for free
+download this color palette for free
+download this color palette for free
+from gumroad and then just come back
+from gumroad and then just come back
+from gumroad and then just come back
+here to set up the color palette we
+here to set up the color palette we
+here to set up the color palette we
+should go into the shading tab up here
+should go into the shading tab up here
+should go into the shading tab up here
+I'll select the head and then we can
+I'll select the head and then we can
+I'll select the head and then we can
+press new right here all we have to do
+press new right here all we have to do
+press new right here all we have to do
+is bring in the image texture so let's
+is bring in the image texture so let's
+is bring in the image texture so let's
+press shift a and you can just search
+press shift a and you can just search
+press shift a and you can just search
+image and choose image texture then
+image and choose image texture then
+image and choose image texture then
+press open and find the texture pette
+press open and find the texture pette
+press open and find the texture pette
+that you just downloaded so it might be
+that you just downloaded so it might be
+that you just downloaded so it might be
+in your downloads folder mine is over
+in your downloads folder mine is over
+in your downloads folder mine is over
+here and then we can just press open now
+here and then we can just press open now
+here and then we can just press open now
+just drag the color into the base color
+just drag the color into the base color
+just drag the color into the base color
+right here make sure this is set to
+right here make sure this is set to
+right here make sure this is set to
+closest you can also give the material a
+closest you can also give the material a
+closest you can also give the material a
+name and that's it now we just have to
+name and that's it now we just have to
+name and that's it now we just have to
+add this material to everything else so
+add this material to everything else so
+add this material to everything else so
+with this still selected you can press a
+with this still selected you can press a
+with this still selected you can press a
+contrl l and then you can press linked
+contrl l and then you can press linked
+contrl l and then you can press linked
+materials and that should add it to
+materials and that should add it to
+materials and that should add it to
+everything else now let's go over to the
+everything else now let's go over to the
+everything else now let's go over to the
+UV editing tab up here just make sure
+UV editing tab up here just make sure
+UV editing tab up here just make sure
+you turn on material preview so you can
+you turn on material preview so you can
+you turn on material preview so you can
+actually see the colors properly and we
+actually see the colors properly and we
+actually see the colors properly and we
+want to see our pallette over here so
+want to see our pallette over here so
+want to see our pallette over here so
+press this button up at the top and make
+press this button up at the top and make
+press this button up at the top and make
+sure you choose the pallette anything
+sure you choose the pallette anything
+sure you choose the pallette anything
+that we made with the skin modifier
+that we made with the skin modifier
+that we made with the skin modifier
+isn't going to be unwrapped so what you
+isn't going to be unwrapped so what you
+isn't going to be unwrapped so what you
+can do is just select everything tab
+can do is just select everything tab
+can do is just select everything tab
+into edit mode press a to select
+into edit mode press a to select
+into edit mode press a to select
+everything over here in the viewport and
+everything over here in the viewport and
+everything over here in the viewport and
+we can press U and for this method it
+we can press U and for this method it
+we can press U and for this method it
+doesn't matter too much what the UV map
+doesn't matter too much what the UV map
+doesn't matter too much what the UV map
+looks like most people will use Smart UV
+looks like most people will use Smart UV
+looks like most people will use Smart UV
+project and I usually just set the
+project and I usually just set the
+project and I usually just set the
+island margin to something like
+island margin to something like
+island margin to something like
+0.5 and press enter and that should be
+0.5 and press enter and that should be
+0.5 and press enter and that should be
+fine let's reset everything to White so
+fine let's reset everything to White so
+fine let's reset everything to White so
+come over to the UV editor press a to
+come over to the UV editor press a to
+come over to the UV editor press a to
+select everything s to scale and zero
+select everything s to scale and zero
+select everything s to scale and zero
+and everything will scale down to this
+and everything will scale down to this
+and everything will scale down to this
+single point over here and then you can
+single point over here and then you can
+single point over here and then you can
+press G to move it around and you can
+press G to move it around and you can
+press G to move it around and you can
+see as I do that all of the colors are
+see as I do that all of the colors are
+see as I do that all of the colors are
+changing and that is basically how you
+changing and that is basically how you
+changing and that is basically how you
+change the colors over here we can tab
+change the colors over here we can tab
+change the colors over here we can tab
+back into object mode basically you just
+back into object mode basically you just
+back into object mode basically you just
+select any of the objects tab back into
+select any of the objects tab back into
+select any of the objects tab back into
+edit mode a to select everything and
+edit mode a to select everything and
+edit mode a to select everything and
+then over here in the UV editor you can
+then over here in the UV editor you can
+then over here in the UV editor you can
+just move this around to change the
+just move this around to change the
+just move this around to change the
+color and whatever you put it on top of
+color and whatever you put it on top of
+color and whatever you put it on top of
+that's the color that it's going to be
+that's the color that it's going to be
+that's the color that it's going to be
+I'll put it somewhere around here you
+I'll put it somewhere around here you
+I'll put it somewhere around here you
+can also select multiple things at a
+can also select multiple things at a
+can also select multiple things at a
+time so I know I want some other things
+time so I know I want some other things
+time so I know I want some other things
+to be orange I'm just going to shift and
+to be orange I'm just going to shift and
+to be orange I'm just going to shift and
+left click on everything that I want to
+left click on everything that I want to
+left click on everything that I want to
+be orange I'll choose the eyebrows and
+be orange I'll choose the eyebrows and
+be orange I'll choose the eyebrows and
+I'll choose the body tab into edit mode
+I'll choose the body tab into edit mode
+I'll choose the body tab into edit mode
+a to select everything and you can see
+a to select everything and you can see
+a to select everything and you can see
+now we have a DOT on white and one on
+now we have a DOT on white and one on
+now we have a DOT on white and one on
+orange because we already Chang change
+orange because we already Chang change
+orange because we already Chang change
+part of it to Orange so what you can do
+part of it to Orange so what you can do
+part of it to Orange so what you can do
+is just click and drag to select this
+is just click and drag to select this
+is just click and drag to select this
+over here and then G and just move it to
+over here and then G and just move it to
+over here and then G and just move it to
+the same spot I want the eyebrows to be
+the same spot I want the eyebrows to be
+the same spot I want the eyebrows to be
+a darker color orange so I'll press alt
+a darker color orange so I'll press alt
+a darker color orange so I'll press alt
+a to deselect everything I can hover
+a to deselect everything I can hover
+a to deselect everything I can hover
+over the eyebrow and press l so now we
+over the eyebrow and press l so now we
+over the eyebrow and press l so now we
+can come over here and press G and Y and
+can come over here and press G and Y and
+can come over here and press G and Y and
+let's just move this up right there
+let's just move this up right there
+let's just move this up right there
+let's select the pupil and the mouth tab
+let's select the pupil and the mouth tab
+let's select the pupil and the mouth tab
+into edit mode press a to select
+into edit mode press a to select
+into edit mode press a to select
+everything let's make this black back in
+everything let's make this black back in
+everything let's make this black back in
+object mode I'll select this mouth part
+object mode I'll select this mouth part
+object mode I'll select this mouth part
+with the whiskers I want to select only
+with the whiskers I want to select only
+with the whiskers I want to select only
+the whiskers so I'll go into vertex
+the whiskers so I'll go into vertex
+the whiskers so I'll go into vertex
+select and x-ray mode and I'll just
+select and x-ray mode and I'll just
+select and x-ray mode and I'll just
+shift and drag to select just the tips
+shift and drag to select just the tips
+shift and drag to select just the tips
+then Control Plus on the numpad to
+then Control Plus on the numpad to
+then Control Plus on the numpad to
+select everything go back into face
+select everything go back into face
+select everything go back into face
+select and then we can just drag this
+select and then we can just drag this
+select and then we can just drag this
+down to make these black I want the nose
+down to make these black I want the nose
+down to make these black I want the nose
+and the inner ear to be the same color
+and the inner ear to be the same color
+and the inner ear to be the same color
+so I'll select the nose and shift select
+so I'll select the nose and shift select
+so I'll select the nose and shift select
+the head in object mode tab into edit
+the head in object mode tab into edit
+the head in object mode tab into edit
+mode alt Z to turn xray mode off we can
+mode alt Z to turn xray mode off we can
+mode alt Z to turn xray mode off we can
+select the nose and let's select these
+select the nose and let's select these
+select the nose and let's select these
+two faces right here over here I'll
+two faces right here over here I'll
+two faces right here over here I'll
+press a s and zero to scale those to the
+press a s and zero to scale those to the
+press a s and zero to scale those to the
+same point and we can put both of these
+same point and we can put both of these
+same point and we can put both of these
+over to like a pale pink color like that
+over to like a pale pink color like that
+over to like a pale pink color like that
+I don't like how the ear looks I think
+I don't like how the ear looks I think
+I don't like how the ear looks I think
+this should be a little sharper in here
+this should be a little sharper in here
+this should be a little sharper in here
+so we can go into edit mode press n to
+so we can go into edit mode press n to
+so we can go into edit mode press n to
+open this side panel and instead of the
+open this side panel and instead of the
+open this side panel and instead of the
+faces I just want the outer edges so
+faces I just want the outer edges so
+faces I just want the outer edges so
+let's go into Edge select mode and we
+let's go into Edge select mode and we
+let's go into Edge select mode and we
+can deselect this with shift click and
+can deselect this with shift click and
+can deselect this with shift click and
+let's turn mean crease up until we like
+let's turn mean crease up until we like
+let's turn mean crease up until we like
+the size so I think right around 0.5
+the size so I think right around 0.5
+the size so I think right around 0.5
+looks pretty good and we can tab back
+looks pretty good and we can tab back
+looks pretty good and we can tab back
+into object mode and press n to make
+into object mode and press n to make
+into object mode and press n to make
+that panel go away let's select the coat
+that panel go away let's select the coat
+that panel go away let's select the coat
+right here a to select everything let's
+right here a to select everything let's
+right here a to select everything let's
+make this also a purpley color and a
+make this also a purpley color and a
+make this also a purpley color and a
+little more pale tab back into object
+little more pale tab back into object
+little more pale tab back into object
+mode select the shorts a to select
+mode select the shorts a to select
+mode select the shorts a to select
+everything let's make this uh a little
+everything let's make this uh a little
+everything let's make this uh a little
+darker back in object mode select the
+darker back in object mode select the
+darker back in object mode select the
+shoes tab into edit mode I want this
+shoes tab into edit mode I want this
+shoes tab into edit mode I want this
+part of the shoe to be the same color as
+part of the shoe to be the same color as
+part of the shoe to be the same color as
+the coat so what we can do is maybe
+the coat so what we can do is maybe
+the coat so what we can do is maybe
+let's select everything else it might be
+let's select everything else it might be
+let's select everything else it might be
+easier to do that so in face select mode
+easier to do that so in face select mode
+easier to do that so in face select mode
+all and left click right here to select
+all and left click right here to select
+all and left click right here to select
+that Loop contrl plus to grow the
+that Loop contrl plus to grow the
+that Loop contrl plus to grow the
+selection can hover over this and press
+selection can hover over this and press
+selection can hover over this and press
+L and the same thing with the tongue and
+L and the same thing with the tongue and
+L and the same thing with the tongue and
+now we can press control I and that
+now we can press control I and that
+now we can press control I and that
+should invert the selection so we have
+should invert the selection so we have
+should invert the selection so we have
+the bottom of the shoe also which is
+the bottom of the shoe also which is
+the bottom of the shoe also which is
+fine now in object mode I'm going to
+fine now in object mode I'm going to
+fine now in object mode I'm going to
+shift select this go back into edit mode
+shift select this go back into edit mode
+shift select this go back into edit mode
+now we can actually see both so let's
+now we can actually see both so let's
+now we can actually see both so let's
+just select the white part and move it
+just select the white part and move it
+just select the white part and move it
+to the same spot I think this part and
+to the same spot I think this part and
+to the same spot I think this part and
+that part should be white but maybe
+that part should be white but maybe
+that part should be white but maybe
+let's select the tongue and make it the
+let's select the tongue and make it the
+let's select the tongue and make it the
+same color as the nose back in object
+same color as the nose back in object
+same color as the nose back in object
+mode select the shoe shift select the
+mode select the shoe shift select the
+mode select the shoe shift select the
+nose like that and we can drag the white
+nose like that and we can drag the white
+nose like that and we can drag the white
+part to this color over here so they're
+part to this color over here so they're
+part to this color over here so they're
+the same and that's it for the color
+the same and that's it for the color
+the same and that's it for the color
+this method is pretty easy for blocking
+this method is pretty easy for blocking
+this method is pretty easy for blocking
+out solid colors with objects like this
+out solid colors with objects like this
+out solid colors with objects like this
+but if you're texture painting it might
+but if you're texture painting it might
+but if you're texture painting it might
+be a little easier if all of these are
+be a little easier if all of these are
+be a little easier if all of these are
+joined together so let's just go back to
+joined together so let's just go back to
+joined together so let's just go back to
+the layout tab right here and I'll show
+the layout tab right here and I'll show
+the layout tab right here and I'll show
+you how to apply all of the modifiers at
+you how to apply all of the modifiers at
+you how to apply all of the modifiers at
+once and join everything together what I
+once and join everything together what I
+once and join everything together what I
+would suggest is turning down the
+would suggest is turning down the
+would suggest is turning down the
+subdivision surface as low as you think
+subdivision surface as low as you think
+subdivision surface as low as you think
+it can go so you could turn all of these
+it can go so you could turn all of these
+it can go so you could turn all of these
+to one another thing you can also do is
+to one another thing you can also do is
+to one another thing you can also do is
+press a to select everything and then
+press a to select everything and then
+press a to select everything and then
+hold alt while you press this and you
+hold alt while you press this and you
+hold alt while you press this and you
+can turn all of them down at the same
+can turn all of them down at the same
+can turn all of them down at the same
+time obviously this looks too low poly
+time obviously this looks too low poly
+time obviously this looks too low poly
+but we could turn it up by one maybe and
+but we could turn it up by one maybe and
+but we could turn it up by one maybe and
+that actually looks all right then what
+that actually looks all right then what
+that actually looks all right then what
+we can do is right click still with
+we can do is right click still with
+we can do is right click still with
+everything selected we can go to convert
+everything selected we can go to convert
+everything selected we can go to convert
+to mesh right here and that's kind of a
+to mesh right here and that's kind of a
+to mesh right here and that's kind of a
+quick way of applying all of the
+quick way of applying all of the
+quick way of applying all of the
+modifiers and to join all of these
+modifiers and to join all of these
+modifiers and to join all of these
+together what you can do is just select
+together what you can do is just select
+together what you can do is just select
+one of the objects again press a to
+one of the objects again press a to
+one of the objects again press a to
+select everything and contrl J and when
+select everything and contrl J and when
+select everything and contrl J and when
+you do that the actively selected object
+you do that the actively selected object
+you do that the actively selected object
+the one that is outlined in like a
+the one that is outlined in like a
+the one that is outlined in like a
+yellow lighter color that's the object
+yellow lighter color that's the object
+yellow lighter color that's the object
+that all of them will be joined to so
+that all of them will be joined to so
+that all of them will be joined to so
+you can see over here everything was
+you can see over here everything was
+you can see over here everything was
+joined to the coat now if you want to
+joined to the coat now if you want to
+joined to the coat now if you want to
+smooth this back out you can just press
+smooth this back out you can just press
+smooth this back out you can just press
+control1 to add a subdivision surface to
+control1 to add a subdivision surface to
+control1 to add a subdivision surface to
+everything again and that's why I think
+everything again and that's why I think
+everything again and that's why I think
+it's good to set the subdivision surface
+it's good to set the subdivision surface
+it's good to set the subdivision surface
+to as low as you think it and go because
+to as low as you think it and go because
+to as low as you think it and go because
+you can always add one back on top sorry
+you can always add one back on top sorry
+you can always add one back on top sorry
+what was that this isn't enough and you
+what was that this isn't enough and you
+what was that this isn't enough and you
+want to see the character move well to
+want to see the character move well to
+want to see the character move well to
+make that happen you'll have to learn
+make that happen you'll have to learn
+make that happen you'll have to learn
+about rigging I actually have a whole
+about rigging I actually have a whole
+about rigging I actually have a whole
+playlist about it and I'm planning on
+playlist about it and I'm planning on
+playlist about it and I'm planning on
+making a video soon where I actually rig
+making a video soon where I actually rig
+making a video soon where I actually rig
+the character from this video thanks for
+the character from this video thanks for
+the character from this video thanks for
+watching and have a good one
+watching and have a good one
+watching and have a good one
+la

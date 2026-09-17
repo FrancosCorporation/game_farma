@@ -1,0 +1,1262 @@
+when someone has a great smile it can
+make you feel happy and when you see
+someone sad it can make you feel the
+same way
+that's because facial expressions have
+the amazing effect of connecting to
+people's emotions
+the problem is that making a good
+expression with a rigged character is
+hard and can really slow down animators
+or anyone working with a character rig
+in this video we will learn to make
+expressions with a rigged character and
+save them in a pose library
+with this library anyone working with
+your model can easily bring back the
+expressions you painstakingly create
+it's a huge time saver
+you'll need a character with a face
+rigged with bones a rigofy face is good
+but i prefer a few more bones for the
+mouth auto rig pro is an adam for
+blender made by artel it makes rigs with
+more bones in the mouth they also
+provide a free rigged character named
+mike that you can use for this tutorial
+if you are a tomcat patron you can use a
+rigged bust i made specifically for this
+tutorial which works too
+there are links for both of these rigs
+in the description below
+so let's get things set up first go to
+edit
+preferences and add-ons here
+over here type in pose
+you see pose library make sure that's
+turned on
+close that you can make sure it's
+installed by grabbing your armature
+going to pose mode
+and if you hit the n key you should see
+this panel pop up and you want to look
+for the animation here so
+that is
+that's how you know that the add-on is
+installed
+on the right here is an example of a
+pose library that we'll be making
+and you can see that now all these
+expressions or
+poses are saved all you need to do is
+click a button and it takes on
+whatever whatever pose we made
+besides just clicking you can also click
+and drag
+so and you can um
+set that pose in increments so for these
+surprised eyes you can click it and drag
+it
+just a little bit and it moves it a bit
+or you can drag it more and it goes all
+the way
+like this smile hurt you can make her
+smile a little
+or you can drag it to smile a lot
+so it's a great tool it saves a ton of
+time
+and
+this can be used not just for facial
+expressions but it can be used for hand
+poses so you can
+make her make a fist or a peace sign
+it can also be used for
+making it easier to grip weapons so you
+can see right now she's not holding
+the weapon too well so this this
+weapon's already parented to her hand so
+it'll um
+move along with it
+but to make it easier to make the hand
+to grip it i just have
+that so this way you can see her hand
+automatically holds the pistol and
+it's a lot easier than trying to pose
+every single time
+you can also use the pose library for
+the entire body so for example you can
+click one of these here and
+the entire character takes whatever pose
+you have pre-saved so
+super great tool saved a ton of time
+i won't be showing how to do the hand or
+the body just the the face but it's the
+same process so once you watch this
+video you'll be able to do all of that i
+forgot to mention this little detail
+here so when you have nothing on your
+rig selected and you click say the
+browse moving around it will move them
+around
+also
+if you
+select say only
+some bones
+here just uh
+those
+and say click browse browse angry
+it will only move
+the bones you have selected so you can
+kind of control how it works if you
+only select some it'll only move the
+ones you select if you have
+nothing selected it will move
+everything to start with let's go
+through the process of making a pose and
+saving in the pose library and then
+we'll go and make a bunch of expressions
+together so first
+let's open a
+timeline
+like that let's turn this on to save it
+so this this is the basic animation tool
+here so
+down here is your keyframe it shows you
+what frame you're on
+you can hit you can grab a bone and hit
+i
+and
+choose location rotation and scale
+and that saves this bone in this
+position at this keyframe
+and if you go to frame 20 you can move
+it like that
+with this turned on it automatically
+saves the keyframe if it's off you have
+to hit i
+and do location rotation scale so with
+this on it just automatically does it
+and now you can see
+this has saved it saved this bone in
+this location at frame 20 and at frame 0
+it saved it right there so that's that's
+basically how animation works
+so let's
+x and delete that
+you don't actually need to use
+animations to create poses but i i do
+this to make it easier to remember what
+i've made
+so that's why i'm showing it to you so
+let's hit a i
+location rotation and scale and then
+let's also make another window here
+let's go to the asset browser okay this
+way we can see all of our poses
+and let's click that there
+okay running out of space here
+okay something like that i think that's
+a pretty good setup
+and we do we already set these keyframes
+we did
+so let's go forward one one frame by
+hitting the right arrow
+and i think we are all good to go
+okay let's uh let's create our first
+pose here let's click on animation we
+are in frame one that's good okay
+so let's do something easy let's grab
+the eyebrows
+make sure mirror is turned on which it
+is
+this movement
+is set to local mode so if you hit
+g and z which is usually
+up and down
+it moves it side to side because it's
+moving it
+in relation to the currently selected
+object's axis which is going this way
+set this to global and g z will now move
+it up and down the way you would think
+you think it would like z is going up
+and let's just make
+a little pose here
+that has her eyebrows kind of like going
+up it's kind of like
+a little
+surprised you can rotate or
+move it however you want
+okay so i think that's pretty good and a
+good rule of thumb when you're doing
+these types of
+poses
+is try and actually go more extreme than
+you think is necessary
+because you can always
+reduce the amount of um
+the expression with the pose library
+itself so you know something like that
+looks pretty extreme
+but it'll actually work out nicely
+and then select the bones you want to be
+part of this bookmark or pose library i
+just turn on x-ray to make sure i'm not
+selecting something behind behind it by
+accident
+and i like that
+and then click create pose asset
+and there you go this is your first pose
+so if you move this all crazy
+you can click that and it it sets it the
+way you saved it so that's fun
+there should be an icon here and so to
+make that work you need to set the
+camera
+so let's go out of pose mode
+let's go to front view
+and we have a camera in the scene it's
+that's right here
+you should have one by default if not
+you can make a new one
+by going to shift a
+and the camera but since we already have
+it we don't need to
+let's zoom in on the face like that
+and then go to
+view
+align view
+view align
+view active camera to
+view
+like that
+it's too close let's grab that
+and let's go g y and pull that out a bit
+g z
+so i think something like that should
+work it's kind of hit and miss
+and so whatever you see on this little
+camera view here
+so you can
+bring it back by
+clicking here
+whatever you see here
+this is what will make the icon for the
+pose library
+so let's
+see and you can see the camera's right
+there so let's see if it worked let's
+grab our pose
+let's go here if you take our pose and
+right click
+and select pose bones it selects
+whatever you had
+previously selected
+and then let's make a new pose same
+thing let's click it now you can see
+there's an icon showing the pose we just
+saved and you can see the eyebrows are
+up so this way you'll be easier to tell
+what you're looking at
+let's name this also
+so in this asset browser we made we
+pulled up
+and we also pulled up this
+n panel here
+okay we can click our new one and click
+this and write browse
+up
+there so that is our that that's our
+first pose okay so let's go
+left arrow to go back to frame zero you
+can see this is with
+no changes if you go right one this is
+our eyebrows up
+so let's go one more
+for our next pose and let's go a
+alt grs
+to set her face back at default and now
+let's make our next pose oh let's also
+delete um this one we don't need that
+anymore
+so let's grab that
+right click clear asset
+so that's gone let's put our browse back
+a grs
+okay so now let's work on
+let's work on a smile smiles are really
+really really hard
+so let's let's do that
+and uh there's a trick to it
+i find it's impossible to get the smile
+to work with just the bones so i use
+shape keys and corrective drivers to
+make the mouth look better when she's
+smiling so it's and this that's the only
+way i can get a good looking smile so
+i'll show that to you
+a couple of tips that can make things
+easier is one get a mirror so that way
+you can look at your own smile or your
+other expressions as you're making these
+these expressions and the other is get
+some reference images
+so i have a reference image here that i
+downloaded
+and let's try and get her smile as close
+as we can
+to this picture
+let's just go here and hit g and just
+move things around
+i think our jaw's slightly open let's do
+that
+and let's try and hit the smile first
+maybe we'll exaggerate it if we need to
+we want to
+i'm hurt she's staring at me it's kind
+of distracting let's do that
+one big problem with the lips is they're
+just really when your lips um when you
+smile your lips
+kind of like stretch along your teeth
+and uh and they get thinner because of
+that and that doesn't happen
+with just these bones so we'll have to
+simulate that but we can
+pull these
+back
+so they're
+more pressed against the teeth
+so it
+kind of gets us halfway there so it's
+it's like this is popping way out it
+looks really funny
+this should actually be
+pressed up against her lower teeth let's
+pull these back a bit
+okay it's a little better
+it's more creased i think it comes out a
+bit more so let's pull that out a bit
+more back a bit more
+and let's rotate this on the z
+to make it follow
+teeth more
+yes i'm just trying to like
+get this to follow along the teeth and
+be kind of smiling
+i want to show a bit of gums which we
+have
+maybe pull this up a bit and see
+it's hard because these lips are
+different from her lips so
+if you look at this top line here it's
+coming down quite a bit here it's going
+out quite a bit
+but the inside
+this is coming down too so yeah maybe
+let's pull this up a bit
+okay
+that up a bit it seems more like a v
+shape
+oh and she's showing some bottom teeth
+too so let's
+pull that down a bit
+yeah really
+creepy let's rotate this and z
+it's kind of lumpy let's
+do that a bit
+gy and pull that back a bit
+okay so it's looking like
+more like the skin the lips are pressed
+up against the teeth on the inside so i
+think that's better
+it still looks really creepy
+so let's um let's try
+and create a shape key and see if that
+helps
+okay so let's go and thin out the lips
+and the sides here
+so it matches that better
+with shape keys
+so let's
+go into object mode grab our mesh
+go to the mesh properties here click
+under shape keys click plus plus
+set this to one make sure let's name
+this
+fix smile
+okay make sure this is selected not that
+one
+let's bring that back over here and
+let's get some more space for us to work
+with
+okay so let's go and sculpt this
+so it's smaller let's go to
+sculpt mode
+i like to use the elastic tool it's a
+great tool you can
+turn on the mesh
+you can
+move things around
+f makes it bigger or smaller
+so you move less around
+and shift f
+adjusts the strength
+okay so let's see
+trying to see i'm looking at the
+curvature for the inside here
+and seeing how it is there
+the top one is much straighter
+as it comes to the edge
+so let's do that let's uh oh and it's
+also much um
+narrower from the left to right so let's
+do that first
+so remove the inside but leave the
+outside where it is
+this kind of really
+detailed like tweaking of the mesh is
+easier with the mesh visible
+i'm trying to make sure this doesn't
+move
+let's move this out a bit too
+if you're moving too much you can hit f
+to reduce your area of influence
+i find it's useful when you're making
+these lips smaller to try and also pull
+it outwards
+as well as up
+okay sang that out
+oh i think i did too much
+it was too much it's more of a straight
+line
+i guess it curves down a bit
+okay so that's pretty good down here
+it's pretty straight down here it's
+kind of negative
+and positive
+and also feels like
+yeah it feels like it's wider on top
+than it is in bottom
+the bottom kind of almost comes up and
+then out
+ours is much whiter on bottom
+let's try and um
+mess with the bones a bit first see if
+we can help that
+so let's go gx a bit
+rotate it a bit
+okay
+just leave it at that and go back to
+sculpt mode
+so it's kind of constant back and forth
+you're just
+trying to tweak it
+so it looks uh
+close to the smile you're trying to
+achieve but also so it looks not creepy
+the creepiness factor is trying to get
+the lips to look like they're resting
+realistically against the uh the teeth
+that's
+that's that's as far as i can figure out
+so you can see as we're narrowing this
+down it looks a little bit better
+less creepy
+i think it's too
+too open here
+and i think we can make this bottom a
+little bit narrower
+yeah it's a little bit narrower here so
+let's do that
+let's pull this up a bit
+let's turn
+that on
+pull it up a bit
+let's pull this in a bit
+and let's pull
+this over here a bit
+maybe pull it back too
+oops
+you can see this curve here is much
+flatter this one's coming down more
+and this has less gums this has more
+gums so i think this whole upper lip
+needs to come down a bit so let's try
+and mess with that
+let's pull that down some
+here
+here
+it's up a little bit
+turn off x-rays we can see this hidden
+bone
+i don't like this
+convex thing going here so let's pull it
+out a bit
+okay
+it's still
+kind of creepy
+it's hard because there's no shadows so
+that's part of what's making it weird
+but let's
+pull this
+down
+some
+here
+i think we need to see a little more
+a little bit more gums
+maybe this comes in
+a bit
+okay
+that's a little better
+let's see here
+oh let's turn the lights in the world on
+oh that helps a lot so now it's a got
+some shade going on
+we can check in cycles also let's go
+here
+and set our render mode to cycles
+if you're not using cycles then don't
+just leave it with eb
+still a little bit uh lippy on the
+bottom here so let's just fix that a
+little bit more
+i think we're getting close though
+object sculpt mode
+so you can see that the smile is like um
+smiles are really really hard
+i struggle quite a bit with them
+but
+you know if you tweak it long enough
+it'll get
+there other expressions i feel are a
+little bit easier
+oh
+puckering puckering is hard to pucker
+ellipse is hard
+but okay i think this is looking a
+little bit i think this is okay i think
+this is okay okay so that is our shape
+key
+let's see how it looks with our shape
+key turned off
+so we turn it off
+really lippy
+this looks much more natural
+okay
+so you can see
+in the
+rest this is the rest
+shape for the mouth you can see it looks
+funny so when you turn it off
+this looks normal again so what we're
+going to do now
+is create a driver so that
+the lips thin out
+when let's see here
+so we'll create a driver
+so that when this bone
+goes outwards
+the lips will thin out kind of like if
+you're you know if she's actually
+smiling
+and um when the lips pull outwards they
+get thin so we'll create a driver to do
+that
+let's get rid of this guy here
+okay
+let's make a new window here we'll set
+this to drivers
+let's go to object mode grab our mesh
+pick our fix smile
+pick our fix smile right click here
+create add driver
+set this to averaged value
+for the object we want to pick our
+armature so let's go and grab our
+armature
+and hit insert number pad to see what
+it's called it's groovy space girl rig
+let's grab that right click here again
+edit driver
+pick
+c
+this is the groovy space coil rig
+for the bone it's that corner smiling
+bone let's see what that's called
+you can't see here
+okay that is called the
+this here let's just copy that
+back to object mode grab the mesh again
+go to here
+right click
+edit driver
+and paste
+so we grab that
+okay
+and then we need to
+also
+set the
+direction
+so this um
+so we're telling
+this driver to look at this armature
+and this bone from the armature and
+we're going to tell it to
+look for that bone and when it moves
+in this direction that's when it'll turn
+that
+shape key on so we want to do
+local space
+so this means that when this bone moves
+in a direction based on its local axis
+then it'll turn on and i need to figure
+out which local axis it is
+so let's grab this bone so usually z is
+up x left and right y is forward and
+backwards but we're using local because
+we're just looking at this one bone
+so we need to set this to
+local
+then hit
+g z let's see okay so
+we know that this local axis goes in
+left and right it's the z
+and so we'll use that one okay so grab
+this again here right click here
+and
+edit driver
+and set this to local
+and
+z
+okay then let's go down here hit a to
+select all actually let's do this
+we'll pick this one here that's the one
+we just made
+a to select all number bed period to
+zoom in so now we can see the curve
+we're actually dealing with
+i'm going to do something to make it a
+little bit easier for us to see what's
+going on so let's let's actually just
+grab everything with a
+let's go down to our timeline here
+you can see we've got three keyframes
+set 0 was
+face at neutral
+one was eyebrows up the mouth is just
+kind of in between
+and two was full smile
+so all we're going to care about is the
+smile right now
+let's grab this keyframe from 2
+and drag it to 10.
+so this way if you watch the smile
+you can see it gradually goes
+our driver all our driver is going to
+look for
+is this bone here
+and how far
+um from here how far to the right it
+goes
+it doesn't care about up and down just
+cares about left and right okay so let's
+go over here make sure we have
+our smile driver selected let's pick it
+here
+now you can see as we step back and
+forth the smile goes from
+100 or 1 all the way down to zero
+we want this here to read
+when we're at 10 we want this to say one
+when it comes down to here we want to
+say zero
+and we do that by adjusting this curve
+now take a look at this
+let's zoom in here
+let's just zoom in manually
+okay so
+if you watch
+as we step forward
+through the keyframes you can see this
+white line goes
+to the left
+but it's going down
+that's a negative number we don't want
+this to go negative we want to go
+positive
+so
+we want so if we're at frame 10 right
+now we want this
+white cursor
+to actually be
+all the way up
+we want to be right there
+we get that to happen by adjusting this
+bezier curve
+so let's grab this
+control point there
+grab the bezier handle here oops
+right okay here we go so it's right
+there
+i'm going to drag that
+until you can see
+that white
+crosshair is going up
+we want to adjust this until it's right
+at 1.
+like
+that
+okay
+so now at frame 10
+you can see here
+let's get this up here
+frame 10 you can see this is at 1
+and as you go back down to frame zero
+you can see the shape key gradually goes
+to zero
+so now we have a working shape key
+and this should
+work for if you do kind of an in-between
+smile and make a new one it should work
+for that one too or if you make an even
+bigger smile a wider smile it'll stop at
+one so it won't get any thinner than
+that so if you want it to be thinner you
+have to actually make this
+you have to sculpt it to make it thinner
+okay so now we have a smile with the
+shape key driver i usually only do this
+one
+sometimes you might need another shape
+view driver for
+the lips puckering
+so that's that
+okay let's hit a to select all let's put
+this back
+to frame
+two okay so that's
+our smile let's actually put let's put
+our
+eyes back to the middle
+and let's grab everything here so i
+didn't i didn't like how actually
+it was nice that the lips were kind of
+in between smiling
+for um to show the shape key drivers but
+i like to have
+each keyframe show one of our
+expressions so it's easy to recall and
+edit
+our expressions later so let's just
+let's go here and
+right click and
+select our post bones
+ctrl i
+and then
+alt grs
+so it puts everything back to
+neutral except for our eyebrows
+so here we'll have
+full neutral here we have just the
+eyebrows going up
+and here we have just the smile that's
+different i almost forgot let's save our
+mouth
+in the pose library so turn on all the
+layers that
+involve the face for an auto rig pro
+rig it's these two layers
+you have to do the same for your rig
+let's grab all the bones for the
+mouth that involve the mouth
+and then let's go and click create pose
+asset
+there we go
+now let's rename it mouth
+smile
+all right now we've got our smile made
+it's good to also save a default pose
+for the mouth it's just convenient so
+let's create a new pose here with create
+pose asset and we'll call this
+mouth default okay great maybe since
+we're here we can do the same thing for
+the eyebrows so let's unselect that by
+clicking off
+right click the browse up
+and select pose bones we've got that
+there and this is the default position
+for the eyebrows
+so we'll create a new pose asset
+and call this browse
+default okay
+um this kind of re-adjusts
+alphabetically so maybe it's a good idea
+to to name the default version of each
+of the
+facial features with a double space
+it'll always be at the top of the list
+of all the mouth shapes and this brow
+default will be the top of all the brow
+shapes
+just make it a little bit easier for us
+that's the whole process a little bit
+fiddly but not too difficult
+if all you needed to learn was how to do
+it then you are good to go happy
+expression making like or subscribe if
+you feel generous and if you think it's
+useful to walk through making a few more
+expressions you are very welcome to hang
+out a little longer okay let's get to it
+okay let's make a sad mouth next
+let's go over here to keyframe three go
+into pose mode i grabbed a little uh
+image here we can reference
+let's make some space for us like that
+and let's
+grab the mouth bones again
+and reset it
+grs
+okay
+let's close her mouth bit
+g z
+let's make some more space here
+maybe we do a closed mouth also
+that might be useful
+let's select mouth bones uh select pose
+bones
+let's go and do this thing again
+n
+animation
+create pose
+okay so this will be mouth closed
+bring that back
+and let's make
+another one here this will be mouth sad
+so it's kind of got a slight turn down
+making the sad faces hard also
+like a fish feels like it's too uh
+this is this is where all the artistry
+is it's just a lot of uh
+using your
+feelings
+to try and make it
+look like the expression you're trying
+to achieve
+and not look weird
+so well that's kind of sad
+i like the little
+wrinkle there
+i'm looking in a mirror right now you
+can't see and i'm trying to look at a
+sad face
+or more sad
+little concave there let's do that we
+need to rotate that up
+oh that looks really funny
+well that's hard too
+oh that's a little
+that looks a little more sad okay
+that's looking kind of sad
+okay that's good
+so let's select the pose bones
+and
+create pose asset
+and let's name it oops
+okay
+let's hide that one and that's
+happy sad let's make this uh
+that's a ch
+okay let's make this angry mouth next
+okay let's
+now
+let's see here this was smile closed sad
+okay
+let's actually grab everything
+and i
+location rotation scale so that way we
+know this is not going to
+move anything
+and let's go here and alt grs
+and oh boy this is going to be tough so
+it's not open mouth that's closed so her
+teeth touch and then she's revealing
+gums on the bottom so it's
+moved
+and she's revealing gums on the top
+and it seems like it kind of
+comes up and then down
+it goes further out
+so let's
+do that you can um
+you can grab the bone and toggle it off
+and kind of move it so you can see
+better
+like that
+i think she's got
+too much gums on the top and that's
+it's kind of not too bad
+maybe come out a bit more
+looks like she's smiling let's rotate it
+looks more angry when her lips
+are wider
+maybe we can do some of this asymmetry
+that we've got in this photo
+so i'm just rotating and moving things
+around a bit
+let me show more teeth on the side
+yeah kind of like i like that it's like
+er oh my teeth don't go high enough
+so we could
+could modify the mesh or we could modify
+the expression
+okay she's looking a little
+let's see here i think the lips are too
+oh okay i'm looking in the mirror at my
+own mouth and sneering or the bottom
+lips do kind of protrude out they don't
+stick to the teeth so i think that's
+actually okay
+sometimes it's nice to turn on the wire
+frame so you can see what's going on so
+maybe it's a little bit too much let's
+tighten this in a bit
+but not all the way and even the upper
+lips are not really touching the teeth
+so maybe pull this forward a tiny bit
+oh we've got a hole again
+shoot
+so we'll have to pull that back a bit
+okay
+okay oh we got a little bit of a crest
+or a peak there that does not happen
+it's actually the opposite
+and i think
+more teeth so i'm done with this sketch
+here
+this little image i think more
+teeth on the side
+yeah i like that i kind of like
+these sneer
+i mean on the bottom too
+okay
+does that feel like she's angry
+it's hard to tell when
+up here it's like not angry
+oh yeah okay i think that mouth works
+okay so let's go and save this so let's
+grab one of the mouth
+poses and select pose bones
+make sure we don't have anything else
+selected
+and let's
+create pose asset
+and then drag this over and
+mouth
+sneer
+okay
+we've got an angry mouth
+i think you're starting to get the idea
+here
+um these are kind of the more difficult
+expressions
+let's do one more for the mouth
+oh boy this is this is the hard one so
+we are sad
+angry a
+i
+location rotation scales and let's go
+over here
+and alt
+grs set that back
+oh boy this is not gonna be easy
+okay teeth are
+we're okay
+and let's um let's just start moving
+stuff looks like there's a little bit of
+gums
+z
+it's kind of like the last one a bit but
+it's more
+ch not as much gums on the bottom it's
+really boxy let's make this look boxy
+the way you're gonna move your bones
+it's going to really depend on how
+how the character is how the weights are
+if um you download this this bust from
+the patron it'll be exactly the same but
+most likely it's going to be very
+different for you
+the rigafy face has
+one less bone
+per quarter and i just find it makes it
+a little bit more difficult
+to make poses you can do it it's just
+harder
+she's got more lip on the bottom it
+feels like kind of almost a pout
+close
+i think uh this thing's come forward
+let me rotate it in z
+that's a little better
+open up a second window
+to make it a little bit easier
+to rotate things differently so if you
+want to just rotate this
+in z instead of hitting
+r z and kind of like
+guessing how it's working you can just
+hit r here it does the same thing
+but you can kind of rotate it
+here
+and
+not have your mouse or all these bones
+blocking the view
+so
+going for a cha
+cha shape
+is that looking
+like a ch shape
+let's see
+lips look a little bit thinner up here
+so let's try and do that
+so we will go into this view here and
+rotate it like that
+grab this one too
+oh my mesh is still showing through
+let's go and
+g z pull it down a bit
+okay that's kind of kind of
+looking kind of like a ch shape
+i think it's a little bit too um
+almost puckering over here
+so let's uh reduce that
+yeah okay i think that is a cha
+chuchu let's click off
+to hide that
+grab our mouth bone select post bones
+okay let's make sure we're in the right
+place this is the angry huh angry is
+kind of close to the cha and then let's
+create pose asset and
+mouth
+ch
+okay
+so i think you're getting the idea with
+the mouth maybe let's move on to
+something else let's finish the eyebrows
+so normally you'd go through like all
+the expressions and all the vizims and
+everything in one section here
+down here and then
+i find it's it's good to do some
+renderings or some animations and you'll
+see where things are not working
+and then you can go and tweak it
+and you can easily
+get to them here because it's already
+saved
+that's why i do it that way
+so let's
+let's move the eyebrows
+to a new section
+so let's grab that
+and g to move oh so so the keyframes you
+can move around i don't think i talked
+about this yet
+but you can
+grab say just one part
+and that's this keyframe for just this
+one bone
+where you can hit a for everything you
+can grab that and just move it
+to a different keyframe
+so now
+there is no keyframe in frame one it's
+just gonna
+it'll blend from this keyframe to this
+kind of frame here
+but what we can do is take that pull
+that all back
+there so we have our default then we
+have our mouth shapes
+and then we have our eyebrow shapes so
+let's do some more let's do some more
+eyebrows
+okay so let's go to
+this is our eyebrows
+up
+let's select our
+actually
+let's make this
+eyebrows default
+this eyebrows up
+okay
+location rotation scale
+and the same
+so it's neutral
+up
+let's make the eyebrows down here let's
+go to default for now
+and let's make these brows go
+down
+a z let's pull this down
+so maybe this will be like a slight
+frown
+so a
+little a little bit angry
+let's select our brows
+oops select off
+right click select these pose bones
+then we'll create a new asset
+and call that
+browse down
+let's go a
+i
+location duration scale
+and let's see we've got
+let's do brows angry now
+pull this further down
+and pull it in a bit
+the eyebrow expressions are a little bit
+easier
+than the mouth
+it's not bad i wonder if uh
+rotating this
+in would make it more
+angry like is that a little more angry
+get a faint impression of a crease
+it helps a bit but it starts to look
+funny too
+you can turn on wireframe to see what's
+going on with your uh mesh
+okay i think that's pretty good
+it's angry enough
+to make it more angry
+okay i think that's good
+right click select pose bone
+this is down and this is angry
+okay great
+let's make sure we've got just the right
+bone selected
+create pose asset
+browse angry
+okay
+then maybe let's make a few let's make
+um
+let's make the eyes closed next
+a i location rotation scale
+go over here alt grs
+and let's make the eyes closed this rig
+the way it works is there's bones to
+control the overall eye pull that down
+you can see it doesn't totally work
+it's pretty good but it doesn't totally
+work so you have to like
+do it yourself for the rest of it with
+these smaller bones
+okay something
+like that it's pretty good
+let's grab all of the eye related bones
+here
+grab those grab those let's go to
+create pose asset
+and let's go and name this
+eyes closed
+a
+i
+location rotation scale
+sometimes it's fun to make um
+like happy closed eyes
+i don't know i don't know what a happy
+closed eye looks like but
+i imagine it's
+kind of like
+this shape so maybe
+it looks happy
+a little funny but it kind of looks a
+little bit happy
+uh and let's select the eyes closed okay
+we got those saved create pose asset
+okay this is
+eyes closed happy oh my god
+and that's eyes closed
+happy
+closed
+a i location rotation scale
+and then let's go to the next frame here
+and
+grs and maybe we can make a surprised
+eye just
+open the eyes up a little bit
+eyes surprised okay so that's pretty
+straightforward
+i think the mouth is really the mouth is
+really the hardest part you can also do
+say like one eye you know open so get
+everything
+grs and then you can select since we
+already have the eyes closed you can
+just
+select half the face
+and click eyes closed click eyes closed
+over here and you have one eye closed
+and you can save that also right click
+select pose bones and then
+create new pose and save that one too
+eyes closed right
+then we have an eyes closed right and
+then you can
+flip the pose click off and click eyes
+closed right so flip pose flips the pose
+to the other side so now we have the
+left eye closed and select the pose
+bones create new pose and call this eyes
+closed
+left there now we have left eye closed
+right eye closed okay let's see if we
+can make something with uh our
+expressions here so let's go a all the
+grs to set that back and let's like uh
+let's make her like angry a little bit
+angry
+and let's make her eyes
+a little bit closed
+like little
+crooked angry eyes
+i think when you're angry the bottoms of
+the eyes go up a bit so let's do that a
+bit
+okay so she looks angry and let's pick a
+good face for angry
+i had uh oh i see i had a bone picked so
+nothing happened
+there you go
+nope
+nope
+yeah
+oh she's angry so maybe uh maybe this
+character always gets angry
+and so you can save this entire face
+setup as um as a pose itself so you can
+just grab all the bones that involve the
+face
+and then create a new pose asset
+and
+name it signature face
+angry
+there and now
+uh whenever you want to
+bring back this angry face you just go
+and see here now you want to bring back
+her signature angry face just
+click oops click
+angry face and choose angry
+that is it for the video today i hope
+you found it useful if it was like
+subscribe support me on patreon pick up
+a model or leave a comment to let me
+know what you'd like to learn about next
+see you soon

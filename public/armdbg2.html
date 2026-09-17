@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>a</title></head><body>
+<script type="importmap">{ "imports": { "three": "/node_modules/three/build/three.module.js", "three/addons/": "/node_modules/three/examples/jsm/" } }</script>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+new GLTFLoader().load('models/paciente_real.glb',(g)=>{
+  const bones={}; g.scene.traverse(o=>{if(o.isBone&&o.name)bones[o.name]=o;});
+  const LA=bones['J_Bip_L_UpperArm'];
+  const hand=bones['J_Bip_L_Hand'];
+  g.scene.updateMatrixWorld(true);
+  const before=hand.getWorldPosition(new THREE.Vector3()).clone();
+  LA.rotation.set(0,0,-1.571);
+  g.scene.updateMatrixWorld(true);
+  const after=hand.getWorldPosition(new THREE.Vector3()).clone();
+  window.__res={ before:before.toArray().map(v=>+v.toFixed(2)), after:after.toArray().map(v=>+v.toFixed(2)) };
+}, undefined, (e)=>{ window.__res='ERRO '+e.message; });
+</script></body></html>

@@ -1,0 +1,3582 @@
+Kind: captions
+Language: en
+in this tutorial I'm going to show you
+in this tutorial I'm going to show you
+in this tutorial I'm going to show you
+how to model rig and animate an idle and
+how to model rig and animate an idle and
+how to model rig and animate an idle and
+run animation just like this for a low
+run animation just like this for a low
+run animation just like this for a low
+poly character in blender and then I'm
+poly character in blender and then I'm
+poly character in blender and then I'm
+going to also show you how to implement
+going to also show you how to implement
+going to also show you how to implement
+that character into a simple third
+that character into a simple third
+that character into a simple third
+person controller with smooth animation
+person controller with smooth animation
+person controller with smooth animation
+transitions just like you're seeing here
+transitions just like you're seeing here
+transitions just like you're seeing here
+in Godot 4. I do not recommend this
+in Godot 4. I do not recommend this
+in Godot 4. I do not recommend this
+tutorial for people that have zero
+tutorial for people that have zero
+tutorial for people that have zero
+experience with blender orgado but if
+experience with blender orgado but if
+experience with blender orgado but if
+you have at least a slight introduction
+you have at least a slight introduction
+you have at least a slight introduction
+to either of them I think you should be
+to either of them I think you should be
+to either of them I think you should be
+able to get through this and hopefully
+able to get through this and hopefully
+able to get through this and hopefully
+learn something so if you want to get
+learn something so if you want to get
+learn something so if you want to get
+started the only thing you're going to
+started the only thing you're going to
+started the only thing you're going to
+need is a turnaround reference so I
+need is a turnaround reference so I
+need is a turnaround reference so I
+Googled human turnaround for this and
+Googled human turnaround for this and
+Googled human turnaround for this and
+I'm going to be using just the first
+I'm going to be using just the first
+I'm going to be using just the first
+result right here as a reference for
+result right here as a reference for
+result right here as a reference for
+modeling the character so go ahead and
+modeling the character so go ahead and
+modeling the character so go ahead and
+get yourself one of those and then you
+get yourself one of those and then you
+get yourself one of those and then you
+can get started
+can get started
+can get started
+okay let's get started by setting up our
+okay let's get started by setting up our
+okay let's get started by setting up our
+reference images I'm going to press a
+reference images I'm going to press a
+reference images I'm going to press a
+X and delete everything
+X and delete everything
+X and delete everything
+then let's drag in the turnaround
+then let's drag in the turnaround
+then let's drag in the turnaround
+reference I'll click it alt R and ALT G
+reference I'll click it alt R and ALT G
+reference I'll click it alt R and ALT G
+to reset the rotation and location to
+to reset the rotation and location to
+to reset the rotation and location to
+the origin
+the origin
+the origin
+and then r x 90 enter shift d to
+and then r x 90 enter shift d to
+and then r x 90 enter shift d to
+duplicate it r z ninety
+duplicate it r z ninety
+duplicate it r z ninety
+and this will be the front view this
+and this will be the front view this
+and this will be the front view this
+will be the side view so now let's
+will be the side view so now let's
+will be the side view so now let's
+position those so if I press numpad 1
+position those so if I press numpad 1
+position those so if I press numpad 1
+I'll go to the front view I'll click it
+I'll go to the front view I'll click it
+I'll go to the front view I'll click it
+GX and then let's position this so that
+GX and then let's position this so that
+GX and then let's position this so that
+it's centered you can hold shift to be a
+it's centered you can hold shift to be a
+it's centered you can hold shift to be a
+bit more precise with your positioning
+bit more precise with your positioning
+bit more precise with your positioning
+that's pretty good numpad 3 to go to the
+that's pretty good numpad 3 to go to the
+that's pretty good numpad 3 to go to the
+side view let's do the same thing with
+side view let's do the same thing with
+side view let's do the same thing with
+the side view now g y
+the side view now g y
+the side view now g y
+and shift and that's pretty good now we
+and shift and that's pretty good now we
+and shift and that's pretty good now we
+also want to bring it so that the feet
+also want to bring it so that the feet
+also want to bring it so that the feet
+are at the level of the origin so I'll
+are at the level of the origin so I'll
+are at the level of the origin so I'll
+just drag across to get both of these
+just drag across to get both of these
+just drag across to get both of these
+g z
+g z
+g z
+shift that's pretty good and then we
+shift that's pretty good and then we
+shift that's pretty good and then we
+just want to move them away from the
+just want to move them away from the
+just want to move them away from the
+origins that we actually have room to
+origins that we actually have room to
+origins that we actually have room to
+make the model so I'll click the front
+make the model so I'll click the front
+make the model so I'll click the front
+facing one g y I'll hold Ctrl and drag
+facing one g y I'll hold Ctrl and drag
+facing one g y I'll hold Ctrl and drag
+it
+it
+it
+four units away
+four units away
+four units away
+and with the side view GX one two three
+and with the side view GX one two three
+and with the side view GX one two three
+four all right that's pretty good shift
+four all right that's pretty good shift
+four all right that's pretty good shift
+a go to mesh Cube back to the front view
+a go to mesh Cube back to the front view
+a go to mesh Cube back to the front view
+gz drag it up here this cube is two
+gz drag it up here this cube is two
+gz drag it up here this cube is two
+meters tall
+meters tall
+meters tall
+and we are going to want this human to
+and we are going to want this human to
+and we are going to want this human to
+be a little bit shorter than two meters
+be a little bit shorter than two meters
+be a little bit shorter than two meters
+so I'm going to click this and then
+so I'm going to click this and then
+so I'm going to click this and then
+shift click this one go up here and
+shift click this one go up here and
+shift click this one go up here and
+click 3D cursor and then I'll go back to
+click 3D cursor and then I'll go back to
+click 3D cursor and then I'll go back to
+the front view alt Z to go to x-ray mode
+the front view alt Z to go to x-ray mode
+the front view alt Z to go to x-ray mode
+so you can see through the cube and then
+so you can see through the cube and then
+so you can see through the cube and then
+let's scale both of these down so it's a
+let's scale both of these down so it's a
+let's scale both of these down so it's a
+little bit shorter than the cube
+little bit shorter than the cube
+little bit shorter than the cube
+all right so our reference is set up and
+all right so our reference is set up and
+all right so our reference is set up and
+now we can start the actual model
+now we can start the actual model
+now we can start the actual model
+let's model the Torso first so click the
+let's model the Torso first so click the
+let's model the Torso first so click the
+cube press tab to go into edit mode
+cube press tab to go into edit mode
+cube press tab to go into edit mode
+numpad 1 for front view control R for a
+numpad 1 for front view control R for a
+numpad 1 for front view control R for a
+loop cut left click right click to keep
+loop cut left click right click to keep
+loop cut left click right click to keep
+it centered
+it centered
+it centered
+box select these vertices on the left
+box select these vertices on the left
+box select these vertices on the left
+press X and delete the vertices now
+press X and delete the vertices now
+press X and delete the vertices now
+we're going to add a mirror modifier so
+we're going to add a mirror modifier so
+we're going to add a mirror modifier so
+click the wrench add modifier mirror and
+click the wrench add modifier mirror and
+click the wrench add modifier mirror and
+then select clipping to be true with
+then select clipping to be true with
+then select clipping to be true with
+clipping true it just makes it so that
+clipping true it just makes it so that
+clipping true it just makes it so that
+the middle stays connected if clipping
+the middle stays connected if clipping
+the middle stays connected if clipping
+weren't
+weren't
+weren't
+you could separate like that so we want
+you could separate like that so we want
+you could separate like that so we want
+to keep clipping on and let's
+to keep clipping on and let's
+to keep clipping on and let's
+try to start this torso here so I'll
+try to start this torso here so I'll
+try to start this torso here so I'll
+drag it in like this scale Z oh change
+drag it in like this scale Z oh change
+drag it in like this scale Z oh change
+this from 3 to cursor back to medium
+this from 3 to cursor back to medium
+this from 3 to cursor back to medium
+point scale C
+point scale C
+point scale C
+okay GC
+okay GC
+okay GC
+side view oh s y
+side view oh s y
+side view oh s y
+okay and then I'm going to add some Loop
+okay and then I'm going to add some Loop
+okay and then I'm going to add some Loop
+Cuts here so Ctrl r
+Cuts here so Ctrl r
+Cuts here so Ctrl r
+right here and then Mouse up twice left
+right here and then Mouse up twice left
+right here and then Mouse up twice left
+click right click and then I am just
+click right click and then I am just
+click right click and then I am just
+going to go through box selecting these
+going to go through box selecting these
+going to go through box selecting these
+vertices trying to position them
+vertices trying to position them
+vertices trying to position them
+according to this character
+okay that's pretty good for the front
+okay that's pretty good for the front
+okay that's pretty good for the front
+view I'm going to press numpad 3 to go
+view I'm going to press numpad 3 to go
+view I'm going to press numpad 3 to go
+to the side view now and I'm going to
+to the side view now and I'm going to
+to the side view now and I'm going to
+try to do the same thing now just box
+try to do the same thing now just box
+try to do the same thing now just box
+select and try to move it to this
+select and try to move it to this
+select and try to move it to this
+outline
+um
+okay so I pressed alt Z just to come on
+okay so I pressed alt Z just to come on
+okay so I pressed alt Z just to come on
+x-ray mode and take a look this is
+x-ray mode and take a look this is
+x-ray mode and take a look this is
+looking pretty good so far but I'm gonna
+looking pretty good so far but I'm gonna
+looking pretty good so far but I'm gonna
+make just some minor adjustments to make
+make just some minor adjustments to make
+make just some minor adjustments to make
+it look a little bit better
+okay all I did was just move some of
+okay all I did was just move some of
+okay all I did was just move some of
+these vertices back a little bit and and
+these vertices back a little bit and and
+these vertices back a little bit and and
+this one back as well uh in the the
+this one back as well uh in the the
+this one back as well uh in the the
+y-axis just to make it look a little bit
+y-axis just to make it look a little bit
+y-axis just to make it look a little bit
+more rounded uh but I am pretty happy
+more rounded uh but I am pretty happy
+more rounded uh but I am pretty happy
+with this overall so we're going to
+with this overall so we're going to
+with this overall so we're going to
+leave it there and we will move on to
+leave it there and we will move on to
+leave it there and we will move on to
+the limbs
+the limbs
+the limbs
+make sure you're still in edit mode uh
+make sure you're still in edit mode uh
+make sure you're still in edit mode uh
+I'm going to go to the front view turn
+I'm going to go to the front view turn
+I'm going to go to the front view turn
+X-ray back on with alt Z
+X-ray back on with alt Z
+X-ray back on with alt Z
+shift a
+shift a
+shift a
+Cube and I'll scale this down
+Cube and I'll scale this down
+Cube and I'll scale this down
+quite a bit and I'll move it up here
+quite a bit and I'll move it up here
+quite a bit and I'll move it up here
+actually I'm going to turn clipping off
+actually I'm going to turn clipping off
+actually I'm going to turn clipping off
+first because these need to be separated
+first because these need to be separated
+first because these need to be separated
+and I'm going to select the top vertices
+and I'm going to select the top vertices
+and I'm going to select the top vertices
+scale it down
+scale it down
+scale it down
+take these bottom ones move it up a
+take these bottom ones move it up a
+take these bottom ones move it up a
+little bit
+little bit
+little bit
+scale that down a little bit press e to
+scale that down a little bit press e to
+scale that down a little bit press e to
+extrude bring this down a ways scale
+extrude bring this down a ways scale
+extrude bring this down a ways scale
+that down okay now I'll click anywhere
+that down okay now I'll click anywhere
+that down okay now I'll click anywhere
+just to deselect all of that now I'll go
+just to deselect all of that now I'll go
+just to deselect all of that now I'll go
+Mouse over one of these vertices and
+Mouse over one of these vertices and
+Mouse over one of these vertices and
+press L to select all the linked
+press L to select all the linked
+press L to select all the linked
+geometry and then shift d
+geometry and then shift d
+geometry and then shift d
+this will be our
+this will be our
+this will be our
+like bicep area this will be our forearm
+like bicep area this will be our forearm
+like bicep area this will be our forearm
+and then shift d again this can be
+and then shift d again this can be
+and then shift d again this can be
+used for the
+used for the
+used for the
+the leg as well so we're gonna focus on
+the leg as well so we're gonna focus on
+the leg as well so we're gonna focus on
+the arm first
+the arm first
+the arm first
+so I am going to just grab this and try
+so I am going to just grab this and try
+so I am going to just grab this and try
+rotating it and just kind of positioning
+rotating it and just kind of positioning
+rotating it and just kind of positioning
+it again Loosely based on on this
+it again Loosely based on on this
+it again Loosely based on on this
+outline
+okay that looks all right for the front
+okay that looks all right for the front
+okay that looks all right for the front
+view I'm actually going to grab these
+view I'm actually going to grab these
+view I'm actually going to grab these
+shoulder vertices and drag them out just
+shoulder vertices and drag them out just
+shoulder vertices and drag them out just
+a little bit farther I want them to be
+a little bit farther I want them to be
+a little bit farther I want them to be
+covered a little bit more but I think
+covered a little bit more but I think
+covered a little bit more but I think
+I'll move this up a little bit gz
+I'll move this up a little bit gz
+I'll move this up a little bit gz
+yeah I think I like that more okay now
+yeah I think I like that more okay now
+yeah I think I like that more okay now
+I'm going to do the same thing with this
+I'm going to do the same thing with this
+I'm going to do the same thing with this
+one
+okay you can see I just kind of stuck it
+okay you can see I just kind of stuck it
+okay you can see I just kind of stuck it
+inside the other one that's one thing
+inside the other one that's one thing
+inside the other one that's one thing
+with low poly models that you'll see a
+with low poly models that you'll see a
+with low poly models that you'll see a
+lot you'll just have shapes just kind of
+lot you'll just have shapes just kind of
+lot you'll just have shapes just kind of
+sticking into the other ones they don't
+sticking into the other ones they don't
+sticking into the other ones they don't
+need to necessarily be linked together
+need to necessarily be linked together
+need to necessarily be linked together
+so I'm gonna go to the side view now
+so I'm gonna go to the side view now
+so I'm gonna go to the side view now
+and for this turnaround you can see the
+and for this turnaround you can see the
+and for this turnaround you can see the
+arms over here so I'm going to select
+arms over here so I'm going to select
+arms over here so I'm going to select
+both of these and drag them over here
+both of these and drag them over here
+both of these and drag them over here
+for a moment so I have everything
+for a moment so I have everything
+for a moment so I have everything
+deselected l l just make sure that
+deselected l l just make sure that
+deselected l l just make sure that
+you're next to one of the vertices for
+you're next to one of the vertices for
+you're next to one of the vertices for
+that geometry g y and then I'll line up
+that geometry g y and then I'll line up
+that geometry g y and then I'll line up
+that shoulder
+that shoulder
+that shoulder
+so we just need to rotate this bottom
+so we just need to rotate this bottom
+so we just need to rotate this bottom
+piece a little bit so L For That
+piece a little bit so L For That
+piece a little bit so L For That
+rotate
+rotate
+rotate
+why
+why
+why
+okay I'm gonna adjust this just a little
+okay I'm gonna adjust this just a little
+okay I'm gonna adjust this just a little
+bit
+bit
+bit
+and I'm going to take a look at this gz
+uh we don't want any of these edges to
+uh we don't want any of these edges to
+uh we don't want any of these edges to
+overlap like this so I'm going to press
+overlap like this so I'm going to press
+overlap like this so I'm going to press
+G left click on this edge here to select
+G left click on this edge here to select
+G left click on this edge here to select
+this Loop and scale it down a little bit
+this Loop and scale it down a little bit
+this Loop and scale it down a little bit
+and that looks a little bit better to be
+and that looks a little bit better to be
+and that looks a little bit better to be
+able to go back to X-ray and I'm just
+able to go back to X-ray and I'm just
+able to go back to X-ray and I'm just
+going to
+going to
+going to
+um
+um
+um
+press two to go to Edge mode select all
+press two to go to Edge mode select all
+press two to go to Edge mode select all
+these
+these
+these
+and scale that in a little bit too just
+and scale that in a little bit too just
+and scale that in a little bit too just
+to make sure that that edge thing
+to make sure that that edge thing
+to make sure that that edge thing
+doesn't happen anymore and I'll select
+doesn't happen anymore and I'll select
+doesn't happen anymore and I'll select
+this Edge
+this Edge
+this Edge
+and then gz just bring it up a little
+and then gz just bring it up a little
+and then gz just bring it up a little
+bit and I I think we should be fine
+actually just just to be safe
+move it up just a little bit higher yeah
+move it up just a little bit higher yeah
+move it up just a little bit higher yeah
+okay all right but enough of that
+okay all right but enough of that
+okay all right but enough of that
+moving on to the hand
+moving on to the hand
+moving on to the hand
+press three to go to face select I'm
+press three to go to face select I'm
+press three to go to face select I'm
+going to go back to the front view I'll
+going to go back to the front view I'll
+going to go back to the front view I'll
+extrude this with e to about there
+extrude this with e to about there
+extrude this with e to about there
+and then two for Edge select take that
+and then two for Edge select take that
+and then two for Edge select take that
+outer edge
+outer edge
+outer edge
+scale it up good amount like that
+scale it up good amount like that
+scale it up good amount like that
+inner Edge I'll scale it up not quite as
+inner Edge I'll scale it up not quite as
+inner Edge I'll scale it up not quite as
+much
+not quite as much okay
+not quite as much okay
+not quite as much okay
+I'll move this out
+I'll move this out
+I'll move this out
+this out the other way with GX
+this out the other way with GX
+this out the other way with GX
+and this down a little bit
+and this down a little bit
+and this down a little bit
+and I want it to kind of be like inward
+and I want it to kind of be like inward
+and I want it to kind of be like inward
+a little bit not
+a little bit not
+a little bit not
+not so parallel with it so I'll select
+not so parallel with it so I'll select
+not so parallel with it so I'll select
+all those bottom edges
+all those bottom edges
+all those bottom edges
+EX
+then I gotta bring this guy down a
+then I gotta bring this guy down a
+then I gotta bring this guy down a
+little bit
+and
+and
+and
+I'm just gonna I'm just gonna move them
+I'm just gonna I'm just gonna move them
+I'm just gonna I'm just gonna move them
+up a little
+up a little
+up a little
+okay that's pretty good so I'm going to
+okay that's pretty good so I'm going to
+okay that's pretty good so I'm going to
+go back to side view box select all of
+go back to side view box select all of
+go back to side view box select all of
+this
+this
+this
+g y drag that back into place
+g y drag that back into place
+g y drag that back into place
+okay and those are our arms okay now
+okay and those are our arms okay now
+okay and those are our arms okay now
+we're going to move on to the legs so
+we're going to move on to the legs so
+we're going to move on to the legs so
+let's do the same thing I'll use this
+let's do the same thing I'll use this
+let's do the same thing I'll use this
+one and try to position it Loosely with
+one and try to position it Loosely with
+one and try to position it Loosely with
+this upper leg
+okay and while we're in the front I'm
+okay and while we're in the front I'm
+okay and while we're in the front I'm
+just going to do the same thing with the
+just going to do the same thing with the
+just going to do the same thing with the
+lower leg
+thank you
+okay I can't can't very easily match uh
+okay I can't can't very easily match uh
+okay I can't can't very easily match uh
+the curvature here but that's fine you
+the curvature here but that's fine you
+the curvature here but that's fine you
+know it's a low poly model
+know it's a low poly model
+know it's a low poly model
+let's go to the side view and Line This
+let's go to the side view and Line This
+let's go to the side view and Line This
+lower leg up a bit better
+I'm going to make this calf pop just a
+I'm going to make this calf pop just a
+I'm going to make this calf pop just a
+little bit more by putting in a loop cut
+little bit more by putting in a loop cut
+little bit more by putting in a loop cut
+right here so left click right click
+right here so left click right click
+right here so left click right click
+that's Ctrl R to make a loop cut
+that's Ctrl R to make a loop cut
+that's Ctrl R to make a loop cut
+and I'll do gz just to make it line up
+and I'll do gz just to make it line up
+and I'll do gz just to make it line up
+with this kind of this point here this
+with this kind of this point here this
+with this kind of this point here this
+farthest point out of the calf box
+farthest point out of the calf box
+farthest point out of the calf box
+select this vertex
+select this vertex
+select this vertex
+g y just drag that out and that looks
+g y just drag that out and that looks
+g y just drag that out and that looks
+just a bit more interesting
+just a bit more interesting
+just a bit more interesting
+and then we're just going to do the feet
+and then we're just going to do the feet
+and then we're just going to do the feet
+so go to face select with three select
+so go to face select with three select
+so go to face select with three select
+this bottom face go to side view e to
+this bottom face go to side view e to
+this bottom face go to side view e to
+extrude bring that down to the floor
+extrude bring that down to the floor
+extrude bring that down to the floor
+select the front face
+select the front face
+select the front face
+back to side view e to extrude
+back to side view e to extrude
+back to side view e to extrude
+right there one to go to vertex select
+right there one to go to vertex select
+right there one to go to vertex select
+gz bring this down it's got a front view
+gz bring this down it's got a front view
+gz bring this down it's got a front view
+let's drag GX these guys out here
+let's drag GX these guys out here
+let's drag GX these guys out here
+and uh one thing that I I really like to
+and uh one thing that I I really like to
+and uh one thing that I I really like to
+do is I'll take this top vertex and then
+do is I'll take this top vertex and then
+do is I'll take this top vertex and then
+shift-click this bottom one here on the
+shift-click this bottom one here on the
+shift-click this bottom one here on the
+outer corner of the foot then press m
+outer corner of the foot then press m
+outer corner of the foot then press m
+at last and merging those together makes
+at last and merging those together makes
+at last and merging those together makes
+a a nice looking foot in my opinion so
+a a nice looking foot in my opinion so
+a a nice looking foot in my opinion so
+okay that is the limbs there we go
+okay that is the limbs there we go
+okay that is the limbs there we go
+okay to finish the modeling we are just
+okay to finish the modeling we are just
+okay to finish the modeling we are just
+going to need to make the head and the
+going to need to make the head and the
+going to need to make the head and the
+neck so make sure you're still in edit
+neck so make sure you're still in edit
+neck so make sure you're still in edit
+mode Let's go to front view shift a
+mode Let's go to front view shift a
+mode Let's go to front view shift a
+Cube
+Cube
+Cube
+scale it way down
+scale it way down
+scale it way down
+control R let's put a vertical Loop cut
+control R let's put a vertical Loop cut
+control R let's put a vertical Loop cut
+left click right click box select the
+left click right click box select the
+left click right click box select the
+vertices on the left X delete the
+vertices on the left X delete the
+vertices on the left X delete the
+vertices and let's turn clipping back on
+vertices and let's turn clipping back on
+vertices and let's turn clipping back on
+so let's select all of these
+so let's select all of these
+so let's select all of these
+and GZ drag it up here
+and GZ drag it up here
+and GZ drag it up here
+okay then I'll drag
+okay then I'll drag
+okay then I'll drag
+these in a little bit there okay nice
+these in a little bit there okay nice
+these in a little bit there okay nice
+and I'm going to put two Loop Cuts in
+and I'm going to put two Loop Cuts in
+and I'm going to put two Loop Cuts in
+here so Ctrl r
+here so Ctrl r
+here so Ctrl r
+I'm going to put a vertical one in right
+I'm going to put a vertical one in right
+I'm going to put a vertical one in right
+here left click right click
+here left click right click
+here left click right click
+and control R horizontal as well left
+and control R horizontal as well left
+and control R horizontal as well left
+click right click back to front view
+click right click back to front view
+click right click back to front view
+and I'm just going to try to position
+and I'm just going to try to position
+and I'm just going to try to position
+things again like we've been doing this
+things again like we've been doing this
+things again like we've been doing this
+entire time
+okay that's a good start let's go to the
+okay that's a good start let's go to the
+okay that's a good start let's go to the
+side view
+side view
+side view
+and do the same thing
+all right uh so with the head it's a
+all right uh so with the head it's a
+all right uh so with the head it's a
+little bit more complicated
+little bit more complicated
+little bit more complicated
+and I'm definitely gonna have to make
+and I'm definitely gonna have to make
+and I'm definitely gonna have to make
+some changes here but
+some changes here but
+some changes here but
+uh first one thing that I want to do is
+uh first one thing that I want to do is
+uh first one thing that I want to do is
+in order to make things a little bit
+in order to make things a little bit
+in order to make things a little bit
+more circular I'm going to do so click
+more circular I'm going to do so click
+more circular I'm going to do so click
+to deselect everything I'll just select
+to deselect everything I'll just select
+to deselect everything I'll just select
+all of this linked geometry shift s
+all of this linked geometry shift s
+all of this linked geometry shift s
+cursor just selected press n Go to view
+cursor just selected press n Go to view
+cursor just selected press n Go to view
+turn the 3D cursor X location to zero
+turn the 3D cursor X location to zero
+turn the 3D cursor X location to zero
+and then I'm going to turn this pivot to
+and then I'm going to turn this pivot to
+and then I'm going to turn this pivot to
+the 3D cursor again and now I'm going to
+the 3D cursor again and now I'm going to
+the 3D cursor again and now I'm going to
+select some of these vertices that I
+select some of these vertices that I
+select some of these vertices that I
+want to pull into the 3D cursor and I'm
+want to pull into the 3D cursor and I'm
+want to pull into the 3D cursor and I'm
+going to do
+going to do
+going to do
+this one this one this one
+this one this one this one
+this one this one this one
+this one and this one and then I'm gonna
+this one and this one and then I'm gonna
+this one and this one and then I'm gonna
+press s
+press s
+press s
+and drag in and already I feel like
+and drag in and already I feel like
+and drag in and already I feel like
+that's starting to look a lot better
+that's starting to look a lot better
+that's starting to look a lot better
+okay uh I don't love how pointy this
+okay uh I don't love how pointy this
+okay uh I don't love how pointy this
+chin is so I'm going to drag that up
+chin is so I'm going to drag that up
+chin is so I'm going to drag that up
+a little bit
+a little bit
+a little bit
+and
+and
+and
+bring this down a little bit as well
+bring this down a little bit as well
+bring this down a little bit as well
+really doesn't have to be perfect I'm
+really doesn't have to be perfect I'm
+really doesn't have to be perfect I'm
+going to leave x-ray mode just to get a
+going to leave x-ray mode just to get a
+going to leave x-ray mode just to get a
+better look at this
+yeah I mean
+yeah I mean
+yeah I mean
+that could be just fine tab
+that could be just fine tab
+that could be just fine tab
+uh I do want to make it a little bit
+uh I do want to make it a little bit
+uh I do want to make it a little bit
+bigger so s x
+bigger so s x
+bigger so s x
+s c
+hmm I want to just mess with it a little
+hmm I want to just mess with it a little
+hmm I want to just mess with it a little
+bit more I think
+actually no I'm gonna call it there for
+actually no I'm gonna call it there for
+actually no I'm gonna call it there for
+the head I'm gonna say that's fine so
+the head I'm gonna say that's fine so
+the head I'm gonna say that's fine so
+front view
+front view
+front view
+side view
+side view
+side view
+just going to rotate it just a touch
+just going to rotate it just a touch
+just going to rotate it just a touch
+position it right like
+position it right like
+position it right like
+that okay and now I promise I'm actually
+that okay and now I promise I'm actually
+that okay and now I promise I'm actually
+done okay now just the neck and then we
+done okay now just the neck and then we
+done okay now just the neck and then we
+are complete leave finished
+are complete leave finished
+are complete leave finished
+so Cube
+so Cube
+so Cube
+uh scale it way down well first I'm
+uh scale it way down well first I'm
+uh scale it way down well first I'm
+going to put a loop cut in again let's
+going to put a loop cut in again let's
+going to put a loop cut in again let's
+click right click
+click right click
+click right click
+get rid of those vertices
+okay
+okay
+okay
+uh L to select the link to Geometry I've
+uh L to select the link to Geometry I've
+uh L to select the link to Geometry I've
+got a front view
+got a front view
+got a front view
+scale it down again G to move
+scale it down again G to move
+scale it down again G to move
+okay that's pretty good
+and
+and
+and
+just position it like we've been
+just position it like we've been
+just position it like we've been
+positioning everything
+positioning everything
+positioning everything
+like this
+like this
+like this
+I like to have the neck kind of
+I like to have the neck kind of
+I like to have the neck kind of
+shrink in size a little bit as it goes
+shrink in size a little bit as it goes
+shrink in size a little bit as it goes
+to the top I feel like that makes it
+to the top I feel like that makes it
+to the top I feel like that makes it
+look a little bit better
+but let's take a look at what we got so
+but let's take a look at what we got so
+but let's take a look at what we got so
+we need x-ray mode oh this is gonna have
+we need x-ray mode oh this is gonna have
+we need x-ray mode oh this is gonna have
+to
+to
+to
+go up a little bit gz
+go up a little bit gz
+go up a little bit gz
+I'm going to want to bring that in so
+I'm going to want to bring that in so
+I'm going to want to bring that in so
+right to x-ray mode
+right to x-ray mode
+right to x-ray mode
+let's just uh
+let's just uh
+let's just uh
+select all these I'm just gonna shift to
+select all these I'm just gonna shift to
+select all these I'm just gonna shift to
+select all of these vertices
+select all of these vertices
+select all of these vertices
+uh go back to
+uh go back to
+uh go back to
+median point scale that down a little
+median point scale that down a little
+median point scale that down a little
+bit and then GC bring that up
+and that looks pretty good
+and that looks pretty good
+and that looks pretty good
+okay so I'm gonna call it there for the
+okay so I'm gonna call it there for the
+okay so I'm gonna call it there for the
+model uh hopefully yours looks something
+model uh hopefully yours looks something
+model uh hopefully yours looks something
+like this and next we can move on to
+like this and next we can move on to
+like this and next we can move on to
+rigging it
+rigging it
+rigging it
+before rigging this model I'm just going
+before rigging this model I'm just going
+before rigging this model I'm just going
+to take our one thing here and that is
+to take our one thing here and that is
+to take our one thing here and that is
+I'm going to set this object origin to
+I'm going to set this object origin to
+I'm going to set this object origin to
+the world origin here so make sure that
+the world origin here so make sure that
+the world origin here so make sure that
+you're in object mode press shift s
+you're in object mode press shift s
+you're in object mode press shift s
+curse it a world origin then click the
+curse it a world origin then click the
+curse it a world origin then click the
+model then right click set origin origin
+model then right click set origin origin
+model then right click set origin origin
+to 3D cursor and the origin should be
+to 3D cursor and the origin should be
+to 3D cursor and the origin should be
+down here then and this is going to be
+down here then and this is going to be
+down here then and this is going to be
+helpful for when we import the model to
+helpful for when we import the model to
+helpful for when we import the model to
+Godot then I'm just going to go ahead
+Godot then I'm just going to go ahead
+Godot then I'm just going to go ahead
+and hide these references by clicking
+and hide these references by clicking
+and hide these references by clicking
+these eyes and now we can start rigging
+these eyes and now we can start rigging
+these eyes and now we can start rigging
+okay for rigging make sure that you're
+okay for rigging make sure that you're
+okay for rigging make sure that you're
+in object mode press shift a then go to
+in object mode press shift a then go to
+in object mode press shift a then go to
+Armature and I'm going to go into front
+Armature and I'm going to go into front
+Armature and I'm going to go into front
+mode I'm going to click this little
+mode I'm going to click this little
+mode I'm going to click this little
+green guide tab down here
+green guide tab down here
+green guide tab down here
+go to viewport display then click in
+go to viewport display then click in
+go to viewport display then click in
+front just so you'll always be able to
+front just so you'll always be able to
+front just so you'll always be able to
+see these bones press gz with the entire
+see these bones press gz with the entire
+see these bones press gz with the entire
+bone selected and I'll move this up so
+bone selected and I'll move this up so
+bone selected and I'll move this up so
+that that's at the pelvis area and then
+that that's at the pelvis area and then
+that that's at the pelvis area and then
+I'm going to go into edit mode make sure
+I'm going to go into edit mode make sure
+I'm going to go into edit mode make sure
+this top part is selected gz and then
+this top part is selected gz and then
+this top part is selected gz and then
+I'll move that down to where the neck
+I'll move that down to where the neck
+I'll move that down to where the neck
+connects and then for a bone for the
+connects and then for a bone for the
+connects and then for a bone for the
+head I'm going to press e to extrude put
+head I'm going to press e to extrude put
+head I'm going to press e to extrude put
+0 out to the Z axis and drag it up to
+0 out to the Z axis and drag it up to
+0 out to the Z axis and drag it up to
+the top of the head now let's make a
+the top of the head now let's make a
+the top of the head now let's make a
+bone for this left arm
+bone for this left arm
+bone for this left arm
+click the whole thing drag it up there
+click the whole thing drag it up there
+click the whole thing drag it up there
+make sure it matches up with the
+make sure it matches up with the
+make sure it matches up with the
+shoulder
+shoulder
+shoulder
+and
+and
+and
+we want it to
+we want it to
+we want it to
+be right about where this crease would
+be right about where this crease would
+be right about where this crease would
+be I'll move this up a little bit to
+be I'll move this up a little bit to
+be I'll move this up a little bit to
+match better with the shoulder all right
+match better with the shoulder all right
+match better with the shoulder all right
+click this end part here the elbow e to
+click this end part here the elbow e to
+click this end part here the elbow e to
+extrude bring that down to about the
+extrude bring that down to about the
+extrude bring that down to about the
+wrist area I'm not going to make a bone
+wrist area I'm not going to make a bone
+wrist area I'm not going to make a bone
+for the hand
+for the hand
+for the hand
+uh and now let's do the leg shift a
+uh and now let's do the leg shift a
+uh and now let's do the leg shift a
+again
+again
+again
+position that at the top of the leg
+position that at the top of the leg
+position that at the top of the leg
+whoops
+G to move that down
+okay
+okay
+okay
+this up just a little bit
+this up just a little bit
+this up just a little bit
+that looks pretty good e to extrude
+that looks pretty good e to extrude
+that looks pretty good e to extrude
+again down to the ankle
+again down to the ankle
+again down to the ankle
+and I will make a foot bone so you need
+and I will make a foot bone so you need
+and I will make a foot bone so you need
+to extrude that down as well
+to extrude that down as well
+to extrude that down as well
+okay that's pretty good now let's just
+okay that's pretty good now let's just
+okay that's pretty good now let's just
+go to the side view numpad 3 and
+go to the side view numpad 3 and
+go to the side view numpad 3 and
+position these a little bit better so g
+position these a little bit better so g
+position these a little bit better so g
+y I'll move this head bone forward a
+y I'll move this head bone forward a
+y I'll move this head bone forward a
+little bit
+little bit
+little bit
+to you why I'll move this
+to you why I'll move this
+to you why I'll move this
+neck connection area back a little bit
+neck connection area back a little bit
+neck connection area back a little bit
+I want to move this shoulder back this
+I want to move this shoulder back this
+I want to move this shoulder back this
+elbow back a little bit make sure that
+elbow back a little bit make sure that
+elbow back a little bit make sure that
+it's just that that's selected
+it's just that that's selected
+it's just that that's selected
+all right and this wrist area here
+all right and this wrist area here
+all right and this wrist area here
+I'm going to move forward a bit as well
+I'm going to move forward a bit as well
+I'm going to move forward a bit as well
+just so it's right in the middle
+just so it's right in the middle
+just so it's right in the middle
+okay and for the legs this top part of
+okay and for the legs this top part of
+okay and for the legs this top part of
+the leg looks pretty good
+the leg looks pretty good
+the leg looks pretty good
+for the knee that's pretty good for the
+for the knee that's pretty good for the
+for the knee that's pretty good for the
+knee actually for the ankle I'll move
+knee actually for the ankle I'll move
+knee actually for the ankle I'll move
+this back
+and for the foot I'll move it forward
+and for the foot I'll move it forward
+and for the foot I'll move it forward
+like that
+and I am just going to move the top of
+and I am just going to move the top of
+and I am just going to move the top of
+this leg back oops right there uh just a
+this leg back oops right there uh just a
+this leg back oops right there uh just a
+little bit because later when we're
+little bit because later when we're
+little bit because later when we're
+setting up inverse kinematics it's good
+setting up inverse kinematics it's good
+setting up inverse kinematics it's good
+to start with a little bit of a Bend
+to start with a little bit of a Bend
+to start with a little bit of a Bend
+like this
+like this
+like this
+the leg okay
+the leg okay
+the leg okay
+so uh let's set up uh these two bones to
+so uh let's set up uh these two bones to
+so uh let's set up uh these two bones to
+be Children of the root bone so that
+be Children of the root bone so that
+be Children of the root bone so that
+when the body rotates the arm and the
+when the body rotates the arm and the
+when the body rotates the arm and the
+legs will rotate with it and be affected
+legs will rotate with it and be affected
+legs will rotate with it and be affected
+by that
+by that
+by that
+so click this upper arm bone shift left
+so click this upper arm bone shift left
+so click this upper arm bone shift left
+click this bone
+click this bone
+click this bone
+and then press Ctrl P make parent keep
+and then press Ctrl P make parent keep
+and then press Ctrl P make parent keep
+offset do the same thing
+offset do the same thing
+offset do the same thing
+for the upper leg bone keep offset all
+for the upper leg bone keep offset all
+for the upper leg bone keep offset all
+right perfect now we just want to go
+right perfect now we just want to go
+right perfect now we just want to go
+through and name the bones so we can
+through and name the bones so we can
+through and name the bones so we can
+click them one at a time F2 I'll call
+click them one at a time F2 I'll call
+click them one at a time F2 I'll call
+this one head
+this one head
+this one head
+F2 I'll call this one
+F2 I'll call this one
+F2 I'll call this one
+body
+body
+body
+I'll call this one upper arm and we're
+I'll call this one upper arm and we're
+I'll call this one upper arm and we're
+going to mirror these bones over to the
+going to mirror these bones over to the
+going to mirror these bones over to the
+right side so it's important that for
+right side so it's important that for
+right side so it's important that for
+these you do dot l
+these you do dot l
+these you do dot l
+upperarm.l
+upperarm.l
+upperarm.l
+owerarm.l
+upper leg dot l
+lower leg dot l
+lower leg dot l
+lower leg dot l
+and foot dot l
+and foot dot l
+and foot dot l
+okay and that is a good start to the
+okay and that is a good start to the
+okay and that is a good start to the
+rigging of this character
+rigging of this character
+rigging of this character
+if I go to this menu in the top left and
+if I go to this menu in the top left and
+if I go to this menu in the top left and
+then select pose mode I can click any of
+then select pose mode I can click any of
+then select pose mode I can click any of
+these bones press r
+these bones press r
+these bones press r
+move my mouse around and then right
+move my mouse around and then right
+move my mouse around and then right
+click just so that it resets
+click just so that it resets
+click just so that it resets
+and I could start noticing these child
+and I could start noticing these child
+and I could start noticing these child
+parent relationships with the bone
+parent relationships with the bone
+parent relationships with the bone
+rotations and if you click this body
+rotations and if you click this body
+rotations and if you click this body
+bone and press G you can see all the
+bone and press G you can see all the
+bone and press G you can see all the
+other bones move with it but if I press
+other bones move with it but if I press
+other bones move with it but if I press
+g z on it move it down it would be nice
+g z on it move it down it would be nice
+g z on it move it down it would be nice
+if these feet stayed planted that would
+if these feet stayed planted that would
+if these feet stayed planted that would
+make animating things a lot easier
+make animating things a lot easier
+make animating things a lot easier
+so we can do that by setting up
+so we can do that by setting up
+so we can do that by setting up
+something called inverse kinematics on
+something called inverse kinematics on
+something called inverse kinematics on
+the legs which we're going to set up now
+the legs which we're going to set up now
+the legs which we're going to set up now
+so I'm going to go back to edit mode
+so I'm going to go back to edit mode
+so I'm going to go back to edit mode
+numpad 3 to go to the side view click
+numpad 3 to go to the side view click
+numpad 3 to go to the side view click
+this knee joint eui to extrude this
+this knee joint eui to extrude this
+this knee joint eui to extrude this
+forward and then I'll click this bone
+forward and then I'll click this bone
+forward and then I'll click this bone
+alt P clear parent
+alt P clear parent
+alt P clear parent
+uh and I'll move it forward
+uh and I'll move it forward
+uh and I'll move it forward
+this bone for the inverse kinematics is
+this bone for the inverse kinematics is
+this bone for the inverse kinematics is
+going to dictate which way the knee is
+going to dictate which way the knee is
+going to dictate which way the knee is
+facing so I'll show that a little bit
+facing so I'll show that a little bit
+facing so I'll show that a little bit
+later I'm going to name it F2
+later I'm going to name it F2
+later I'm going to name it F2
+iklegpole dot L make sure you don't
+iklegpole dot L make sure you don't
+iklegpole dot L make sure you don't
+forget the dot l
+forget the dot l
+forget the dot l
+and back into side view this heel ey
+and back into side view this heel ey
+and back into side view this heel ey
+elid this back
+elid this back
+elid this back
+and again alt P clear parent and I'll
+and again alt P clear parent and I'll
+and again alt P clear parent and I'll
+call this one I K leg
+call this one I K leg
+call this one I K leg
+Target dot l
+Target dot l
+Target dot l
+okay
+okay
+okay
+so let's go back into pose mode
+so let's go back into pose mode
+so let's go back into pose mode
+and let's click this lower leg here and
+and let's click this lower leg here and
+and let's click this lower leg here and
+you should see this blue bone menu here
+you should see this blue bone menu here
+you should see this blue bone menu here
+and we're going to add a bone constraint
+and we're going to add a bone constraint
+and we're going to add a bone constraint
+to the lower leg
+to the lower leg
+to the lower leg
+so go ahead add bone constraint
+so go ahead add bone constraint
+so go ahead add bone constraint
+inverse kinematics Target Armature bone
+inverse kinematics Target Armature bone
+inverse kinematics Target Armature bone
+is going to be
+iklegtarget.l pull Target
+iklegtarget.l pull Target
+iklegtarget.l pull Target
+select Armature again ik leg pull dot L
+select Armature again ik leg pull dot L
+select Armature again ik leg pull dot L
+and don't freak out
+and don't freak out
+and don't freak out
+chain length set this to two and pull
+chain length set this to two and pull
+chain length set this to two and pull
+angle set this to 90 degrees
+and oh one last thing for both of these
+and oh one last thing for both of these
+and oh one last thing for both of these
+bones go to that green bone menu and
+bones go to that green bone menu and
+bones go to that green bone menu and
+uncheck deform for both of them so now
+uncheck deform for both of them so now
+uncheck deform for both of them so now
+if I grab this body bone press G and
+if I grab this body bone press G and
+if I grab this body bone press G and
+move it around the heel is staying put
+move it around the heel is staying put
+move it around the heel is staying put
+but you can still see that the foot is
+but you can still see that the foot is
+but you can still see that the foot is
+bending forward through the floor
+bending forward through the floor
+bending forward through the floor
+so we're going to set up one more bone
+so we're going to set up one more bone
+so we're going to set up one more bone
+constraint
+constraint
+constraint
+that is going to be on this foot
+that is going to be on this foot
+that is going to be on this foot
+first click the green bone menu and go
+first click the green bone menu and go
+first click the green bone menu and go
+to relations and then uncheck inherit
+to relations and then uncheck inherit
+to relations and then uncheck inherit
+rotation
+rotation
+rotation
+then let's actually add the constraints
+then let's actually add the constraints
+then let's actually add the constraints
+so add bone constraint copy rotation
+so add bone constraint copy rotation
+so add bone constraint copy rotation
+Target Armature bone ik leg Target dot L
+Target Armature bone ik leg Target dot L
+Target Armature bone ik leg Target dot L
+Target an owner set both of these to
+Target an owner set both of these to
+Target an owner set both of these to
+local space
+local space
+local space
+and we want this bone this foot bone to
+and we want this bone this foot bone to
+and we want this bone this foot bone to
+inherit the rotation of this ik leg
+inherit the rotation of this ik leg
+inherit the rotation of this ik leg
+Target so
+Target so
+Target so
+if I try it on the different axes that
+if I try it on the different axes that
+if I try it on the different axes that
+looks pretty good an x r y though it
+looks pretty good an x r y though it
+looks pretty good an x r y though it
+seems to be kind of the opposite
+seems to be kind of the opposite
+seems to be kind of the opposite
+direction and it's the same thing with r
+direction and it's the same thing with r
+direction and it's the same thing with r
+z
+z
+z
+so
+so
+so
+clicking that foot bone here I'm going
+clicking that foot bone here I'm going
+clicking that foot bone here I'm going
+to invert Y and Z and then everything
+to invert Y and Z and then everything
+to invert Y and Z and then everything
+seems to
+seems to
+seems to
+seems to rotate properly
+seems to rotate properly
+seems to rotate properly
+okay so now
+okay so now
+okay so now
+if I move this down and I can move this
+if I move this down and I can move this
+if I move this down and I can move this
+pole around this is going to make things
+pole around this is going to make things
+pole around this is going to make things
+a lot
+a lot
+a lot
+a lot easier for animating things
+uh I'm gonna select everything
+uh I'm gonna select everything
+uh I'm gonna select everything
+alt G alt R just to make sure that
+alt G alt R just to make sure that
+alt G alt R just to make sure that
+everything's back to normal and the last
+everything's back to normal and the last
+everything's back to normal and the last
+thing that we're going to do is create
+thing that we're going to do is create
+thing that we're going to do is create
+the bones for the right side and if you
+the bones for the right side and if you
+the bones for the right side and if you
+followed that dot L convention properly
+followed that dot L convention properly
+followed that dot L convention properly
+this is actually pretty easy so I'll
+this is actually pretty easy so I'll
+this is actually pretty easy so I'll
+open the edit mode
+open the edit mode
+open the edit mode
+press a to select all of the bones and
+press a to select all of the bones and
+press a to select all of the bones and
+then I'll right click on the Armature
+then I'll right click on the Armature
+then I'll right click on the Armature
+and then click symmetrize
+and then click symmetrize
+and then click symmetrize
+and there we go if I go back to pose
+and there we go if I go back to pose
+and there we go if I go back to pose
+mode
+mode
+mode
+you can see all of these
+you can see all of these
+you can see all of these
+work
+work
+work
+perfectly
+perfectly
+perfectly
+all right awesome
+all right awesome
+all right awesome
+the last thing that we need to do in
+the last thing that we need to do in
+the last thing that we need to do in
+order to finish rigging is make it so
+order to finish rigging is make it so
+order to finish rigging is make it so
+that the mesh actually deforms along
+that the mesh actually deforms along
+that the mesh actually deforms along
+with the skeleton bones so let's do that
+with the skeleton bones so let's do that
+with the skeleton bones so let's do that
+first in pose mode I'm just going to
+first in pose mode I'm just going to
+first in pose mode I'm just going to
+press a to select all the bones alt R
+press a to select all the bones alt R
+press a to select all the bones alt R
+and ALT G just to make sure everything
+and ALT G just to make sure everything
+and ALT G just to make sure everything
+is back to its starting position then
+is back to its starting position then
+is back to its starting position then
+let's go back to object mode up in this
+let's go back to object mode up in this
+let's go back to object mode up in this
+top left menu click the mesh and then
+top left menu click the mesh and then
+top left menu click the mesh and then
+shift-click the Armature
+shift-click the Armature
+shift-click the Armature
+press Ctrl p and then select Armature
+press Ctrl p and then select Armature
+press Ctrl p and then select Armature
+deform with empty groups and then select
+deform with empty groups and then select
+deform with empty groups and then select
+just the mesh press tab to go into edit
+just the mesh press tab to go into edit
+just the mesh press tab to go into edit
+mode and ALT Z to go into x-ray mode and
+mode and ALT Z to go into x-ray mode and
+mode and ALT Z to go into x-ray mode and
+now we just need to assign these
+now we just need to assign these
+now we just need to assign these
+vertices to its corresponding vertex
+vertices to its corresponding vertex
+vertices to its corresponding vertex
+Group which there is one per bone
+Group which there is one per bone
+Group which there is one per bone
+so for example these body vertices I'm
+so for example these body vertices I'm
+so for example these body vertices I'm
+going to go near one of these vertices
+going to go near one of these vertices
+going to go near one of these vertices
+press L to select all the linked
+press L to select all the linked
+press L to select all the linked
+geometry and then I go down to this
+geometry and then I go down to this
+geometry and then I go down to this
+object data menu here and then there is
+object data menu here and then there is
+object data menu here and then there is
+a body vertex group so I'll assign all
+a body vertex group so I'll assign all
+a body vertex group so I'll assign all
+of these
+of these
+of these
+to the body vertex Group by clicking
+to the body vertex Group by clicking
+to the body vertex Group by clicking
+assign and in order to check what is
+assign and in order to check what is
+assign and in order to check what is
+assigned to what group just deselect
+assigned to what group just deselect
+assigned to what group just deselect
+everything have what group you want to
+everything have what group you want to
+everything have what group you want to
+check selected here and then click
+check selected here and then click
+check selected here and then click
+select and it'll show you what vertex is
+select and it'll show you what vertex is
+select and it'll show you what vertex is
+in what group
+in what group
+in what group
+you want to make sure that you don't
+you want to make sure that you don't
+you want to make sure that you don't
+assign any of these to the wrong group
+assign any of these to the wrong group
+assign any of these to the wrong group
+because your animations are going to
+because your animations are going to
+because your animations are going to
+start looking really weird if that
+start looking really weird if that
+start looking really weird if that
+happens so let's move on to the head so
+happens so let's move on to the head so
+happens so let's move on to the head so
+I'll go near one of the head vertices L
+I'll go near one of the head vertices L
+I'll go near one of the head vertices L
+one of the neck vertices as well and
+one of the neck vertices as well and
+one of the neck vertices as well and
+press l
+press l
+press l
+sign both of those to head for upper arm
+sign both of those to head for upper arm
+sign both of those to head for upper arm
+dot L we'll select that
+dot L we'll select that
+dot L we'll select that
+and then assigned to upperarm.l
+and then assigned to upperarm.l
+and then assigned to upperarm.l
+do the same thing with lower arm.l
+do the same thing with lower arm.l
+do the same thing with lower arm.l
+and the same thing with upper leg dot l
+and the same thing with upper leg dot l
+and the same thing with upper leg dot l
+whoops like that L sign
+whoops like that L sign
+whoops like that L sign
+and for lower a lower leg dot L I don't
+and for lower a lower leg dot L I don't
+and for lower a lower leg dot L I don't
+want to assign these bottom vertices I
+want to assign these bottom vertices I
+want to assign these bottom vertices I
+want that to be for the foot so I'm just
+want that to be for the foot so I'm just
+want that to be for the foot so I'm just
+going to shift
+going to shift
+going to shift
+left click to deselect
+left click to deselect
+left click to deselect
+all of those vertices
+all of those vertices
+all of those vertices
+I'll assign the rest to lower leg.l and
+I'll assign the rest to lower leg.l and
+I'll assign the rest to lower leg.l and
+then I will just box select all of those
+then I will just box select all of those
+then I will just box select all of those
+and assign them to foot.l
+and assign them to foot.l
+and assign them to foot.l
+uh so I'll leave x-ray mode with alt Z
+uh so I'll leave x-ray mode with alt Z
+uh so I'll leave x-ray mode with alt Z
+and then go back to object mode with tab
+and then go back to object mode with tab
+and then go back to object mode with tab
+select the Armature go back into pose
+select the Armature go back into pose
+select the Armature go back into pose
+mode
+mode
+mode
+and now
+and now
+and now
+the mesh should be deforming properly
+all right now we can move on to
+all right now we can move on to
+all right now we can move on to
+animation
+now that the character is rigged go
+now that the character is rigged go
+now that the character is rigged go
+ahead and click animation up at the top
+ahead and click animation up at the top
+ahead and click animation up at the top
+I'm going to zoom in on both of these
+I'm going to zoom in on both of these
+I'm going to zoom in on both of these
+displays
+displays
+displays
+click this dope sheet drop down over
+click this dope sheet drop down over
+click this dope sheet drop down over
+here and then select action editor
+here and then select action editor
+here and then select action editor
+click new and let's call this default
+click new and let's call this default
+click new and let's call this default
+click this Shield icon this just makes
+click this Shield icon this just makes
+click this Shield icon this just makes
+it as far as I'm aware so that blender
+it as far as I'm aware so that blender
+it as far as I'm aware so that blender
+doesn't delete any data about the
+doesn't delete any data about the
+doesn't delete any data about the
+animation even if it's not being used or
+animation even if it's not being used or
+animation even if it's not being used or
+something like that everybody always
+something like that everybody always
+something like that everybody always
+clicks The Shield so I just click it too
+clicks The Shield so I just click it too
+clicks The Shield so I just click it too
+press a up in this window make sure that
+press a up in this window make sure that
+press a up in this window make sure that
+you're in pose mode here then press I
+you're in pose mode here then press I
+you're in pose mode here then press I
+and click location rotation and scale
+and click location rotation and scale
+and click location rotation and scale
+so now we just have a default pose for
+so now we just have a default pose for
+so now we just have a default pose for
+the skeleton that will ship along with
+the skeleton that will ship along with
+the skeleton that will ship along with
+the other animations once we export it
+the other animations once we export it
+the other animations once we export it
+click new action here
+click new action here
+click new action here
+and let's make an idle animation I'll
+and let's make an idle animation I'll
+and let's make an idle animation I'll
+call it idle underscore Loop the
+call it idle underscore Loop the
+call it idle underscore Loop the
+underscore Loop in this animation name
+underscore Loop in this animation name
+underscore Loop in this animation name
+makes it so that when we import this
+makes it so that when we import this
+makes it so that when we import this
+character into Godot it will
+character into Godot it will
+character into Godot it will
+automatically recognize this as a
+automatically recognize this as a
+automatically recognize this as a
+looping animation if we didn't add this
+looping animation if we didn't add this
+looping animation if we didn't add this
+to the end of the name we would just
+to the end of the name we would just
+to the end of the name we would just
+have to set it to Loop by hand
+have to set it to Loop by hand
+have to set it to Loop by hand
+so this is a pretty good starting pose
+so this is a pretty good starting pose
+so this is a pretty good starting pose
+for the idle animation I am going to
+for the idle animation I am going to
+for the idle animation I am going to
+select auto keying down here and auto
+select auto keying down here and auto
+select auto keying down here and auto
+king just makes it so that when I rotate
+king just makes it so that when I rotate
+king just makes it so that when I rotate
+and position these bones blender will
+and position these bones blender will
+and position these bones blender will
+automatically assign them as keyframes
+automatically assign them as keyframes
+automatically assign them as keyframes
+this way I don't have to press I and
+this way I don't have to press I and
+this way I don't have to press I and
+insert keyframes by hand every time so
+insert keyframes by hand every time so
+insert keyframes by hand every time so
+for this first frame I'm just going to
+for this first frame I'm just going to
+for this first frame I'm just going to
+bring these arms in a little bit so our
+bring these arms in a little bit so our
+bring these arms in a little bit so our
+y kind of straighten them out
+y kind of straighten them out
+y kind of straighten them out
+like that okay then I'll go to frame 20
+like that okay then I'll go to frame 20
+like that okay then I'll go to frame 20
+and I'm going to bring this body down a
+and I'm going to bring this body down a
+and I'm going to bring this body down a
+little bit so I'll click the body bone
+little bit so I'll click the body bone
+little bit so I'll click the body bone
+gz just bring it down a little bit like
+gz just bring it down a little bit like
+gz just bring it down a little bit like
+that and then I'll bring the arms back
+that and then I'll bring the arms back
+that and then I'll bring the arms back
+out our y
+out our y
+out our y
+just like that
+okay pretty good
+okay pretty good
+okay pretty good
+I'll press a to select all the bones
+I'll press a to select all the bones
+I'll press a to select all the bones
+again then down in the animation
+again then down in the animation
+again then down in the animation
+timeline I'll press a twice to deselect
+timeline I'll press a twice to deselect
+timeline I'll press a twice to deselect
+everything
+everything
+everything
+I'll click this top dot here on summary
+I'll click this top dot here on summary
+I'll click this top dot here on summary
+just to select everything in this Frame
+just to select everything in this Frame
+just to select everything in this Frame
+then press shift d and then drop
+then press shift d and then drop
+then press shift d and then drop
+everything here
+everything here
+everything here
+on frame 40.
+on frame 40.
+on frame 40.
+go down to the bottom right and change
+go down to the bottom right and change
+go down to the bottom right and change
+the end frame to 39 you want it to be
+the end frame to 39 you want it to be
+the end frame to 39 you want it to be
+one frame before frame 40 this is just
+one frame before frame 40 this is just
+one frame before frame 40 this is just
+how you set up looping animations in
+how you set up looping animations in
+how you set up looping animations in
+blender
+blender
+blender
+and let's press spacebar to see how it
+and let's press spacebar to see how it
+and let's press spacebar to see how it
+looks
+I don't really like how the knees are
+I don't really like how the knees are
+I don't really like how the knees are
+kind of pointed inward so we can fix
+kind of pointed inward so we can fix
+kind of pointed inward so we can fix
+that by dragging these uh inverse
+that by dragging these uh inverse
+that by dragging these uh inverse
+kinematic leg poles out a little bit so
+kinematic leg poles out a little bit so
+kinematic leg poles out a little bit so
+let's do that I'll press spacebar to
+let's do that I'll press spacebar to
+let's do that I'll press spacebar to
+stop the animation
+stop the animation
+stop the animation
+and I'll just select these poles
+and I'll just select these poles
+and I'll just select these poles
+and then down here press a to select all
+and then down here press a to select all
+and then down here press a to select all
+of these frames X and I'll delete all of
+of these frames X and I'll delete all of
+of these frames X and I'll delete all of
+these keyframes go back to frame one
+these keyframes go back to frame one
+these keyframes go back to frame one
+and then for each of these I'll just
+and then for each of these I'll just
+and then for each of these I'll just
+click this one GX I'll drag it out a
+click this one GX I'll drag it out a
+click this one GX I'll drag it out a
+little bit and then for this one GX drag
+little bit and then for this one GX drag
+little bit and then for this one GX drag
+that out in the opposite direction
+that out in the opposite direction
+that out in the opposite direction
+all right then let's press spacebar
+all right then let's press spacebar
+all right then let's press spacebar
+again
+again
+again
+yeah now those knees are facing a little
+yeah now those knees are facing a little
+yeah now those knees are facing a little
+bit more outward that looks nicer to me
+bit more outward that looks nicer to me
+bit more outward that looks nicer to me
+okay so now we have our idle animation
+okay so now we have our idle animation
+okay so now we have our idle animation
+uh we can move on to the Run animation
+uh we can move on to the Run animation
+uh we can move on to the Run animation
+now
+now
+now
+before moving on to the next animation
+before moving on to the next animation
+before moving on to the next animation
+let's make sure that this Shield has
+let's make sure that this Shield has
+let's make sure that this Shield has
+been clicked and that check mark is
+been clicked and that check mark is
+been clicked and that check mark is
+there and then we can go ahead and start
+there and then we can go ahead and start
+there and then we can go ahead and start
+the new one so let's click new action
+the new one so let's click new action
+the new one so let's click new action
+and we'll call this one run
+and we'll call this one run
+and we'll call this one run
+underscore Loop uh press a to select all
+underscore Loop uh press a to select all
+underscore Loop uh press a to select all
+the bones so this actually duplicated
+the bones so this actually duplicated
+the bones so this actually duplicated
+the previous animation so I'm gonna box
+the previous animation so I'm gonna box
+the previous animation so I'm gonna box
+select everything that's away from the
+select everything that's away from the
+select everything that's away from the
+first frame press X I'm going to delete
+first frame press X I'm going to delete
+first frame press X I'm going to delete
+all of those keyframes
+all of those keyframes
+all of those keyframes
+and for this run animation I'm going to
+and for this run animation I'm going to
+and for this run animation I'm going to
+be basing it off of this Run Cycle key
+be basing it off of this Run Cycle key
+be basing it off of this Run Cycle key
+poses image here you can Google Run
+poses image here you can Google Run
+poses image here you can Google Run
+Cycle and and use this one as well if
+Cycle and and use this one as well if
+Cycle and and use this one as well if
+you'd like
+you'd like
+you'd like
+or you can just follow along with what
+or you can just follow along with what
+or you can just follow along with what
+I'm going to try to do here so uh numpad
+I'm going to try to do here so uh numpad
+I'm going to try to do here so uh numpad
+3 to go to side view and then numpad 9
+3 to go to side view and then numpad 9
+3 to go to side view and then numpad 9
+to go to the right side
+so let's start with the legs
+so let's start with the legs
+so let's start with the legs
+so I'll grab that
+so I'll grab that
+so I'll grab that
+ik Target g r
+ik Target g r
+ik Target g r
+just try to rotate and position it kind
+just try to rotate and position it kind
+just try to rotate and position it kind
+of similar to that graphic I'm not going
+of similar to that graphic I'm not going
+of similar to that graphic I'm not going
+to exaggerate it quite as much
+to exaggerate it quite as much
+to exaggerate it quite as much
+I'm gonna try to keep it a little bit
+I'm gonna try to keep it a little bit
+I'm gonna try to keep it a little bit
+more
+more
+more
+contained I'm going to rotate this body
+contained I'm going to rotate this body
+contained I'm going to rotate this body
+bone forward a little bit
+bone forward a little bit
+bone forward a little bit
+just like that and then this right arm
+just like that and then this right arm
+just like that and then this right arm
+can come forward
+grab that left arm bone
+grab that left arm bone
+grab that left arm bone
+okay we will get the forearms later
+okay we will get the forearms later
+okay we will get the forearms later
+let's just focus on
+let's just focus on
+let's just focus on
+side view for now
+side view for now
+side view for now
+okay that's pretty good for frame one so
+okay that's pretty good for frame one so
+okay that's pretty good for frame one so
+now let's move to frame three
+now let's move to frame three
+now let's move to frame three
+all right so now uh
+all right so now uh
+all right so now uh
+let's move the body down a little bit so
+let's move the body down a little bit so
+let's move the body down a little bit so
+gz just down a tad
+gz just down a tad
+gz just down a tad
+and this left foot
+and this left foot
+and this left foot
+kind of comes to the floor like that
+kind of comes to the floor like that
+kind of comes to the floor like that
+all right and then
+all right and then
+all right and then
+his right foot comes in a little bit
+his right foot comes in a little bit
+his right foot comes in a little bit
+more maybe rotate it forward a little
+more maybe rotate it forward a little
+more maybe rotate it forward a little
+yeah okay so we can rotate these a
+yeah okay so we can rotate these a
+yeah okay so we can rotate these a
+little bit closer to the center
+little bit closer to the center
+little bit closer to the center
+I think the body comes a little bit
+I think the body comes a little bit
+I think the body comes a little bit
+farther forward
+farther forward
+farther forward
+and let's rotate the head forward to
+and let's rotate the head forward to
+and let's rotate the head forward to
+just a little bit okay
+just a little bit okay
+just a little bit okay
+that looks good so now let's move to
+that looks good so now let's move to
+that looks good so now let's move to
+frame five
+frame five
+frame five
+so now
+so now
+so now
+the right foot
+is going to be
+is going to be
+is going to be
+forward like this the body bone actually
+forward like this the body bone actually
+forward like this the body bone actually
+is going to go up a little bit again too
+is going to go up a little bit again too
+is going to go up a little bit again too
+back to kind of where it was initially
+back to kind of where it was initially
+back to kind of where it was initially
+and now this left foot
+and now this left foot
+and now this left foot
+that toe is going to be
+that toe is going to be
+that toe is going to be
+kind of touching back like that
+kind of touching back like that
+kind of touching back like that
+now this right arm is going to be
+now this right arm is going to be
+now this right arm is going to be
+starting to go to the back and then the
+starting to go to the back and then the
+starting to go to the back and then the
+left arm
+left arm
+left arm
+will be coming
+will be coming
+will be coming
+forward
+forward
+forward
+like that and then I'll keep these
+like that and then I'll keep these
+like that and then I'll keep these
+rotations on these the same for now
+rotations on these the same for now
+rotations on these the same for now
+okay and then we'll go to frame eight
+okay and then we'll go to frame eight
+okay and then we'll go to frame eight
+so now this is a little bit farther
+so now this is a little bit farther
+so now this is a little bit farther
+forward kind of rotate that heel out
+forward kind of rotate that heel out
+forward kind of rotate that heel out
+a little more okay
+a little more okay
+a little more okay
+and then this foot is off the ground now
+and then this foot is off the ground now
+and then this foot is off the ground now
+too
+too
+too
+we'll rotate that back
+we'll rotate that back
+we'll rotate that back
+and we can rotate These Arms out
+and we can rotate These Arms out
+and we can rotate These Arms out
+a little bit more
+a little bit more
+a little bit more
+and I'll rotate this body
+and I'll rotate this body
+and I'll rotate this body
+and head
+and head
+and head
+back a little bit as well I'm actually
+back a little bit as well I'm actually
+back a little bit as well I'm actually
+going to move
+going to move
+going to move
+the body up a little bit too cheesy
+the body up a little bit too cheesy
+the body up a little bit too cheesy
+move that up
+move that up
+move that up
+okay
+okay
+okay
+so now we are going to make it so that
+so now we are going to make it so that
+so now we are going to make it so that
+if you press AC all this we're going to
+if you press AC all this we're going to
+if you press AC all this we're going to
+Loop this but on the opposite direction
+Loop this but on the opposite direction
+Loop this but on the opposite direction
+so it'll start at frame 12. so press a
+so it'll start at frame 12. so press a
+so it'll start at frame 12. so press a
+to select all of these keyframes that
+to select all of these keyframes that
+to select all of these keyframes that
+we've made already
+we've made already
+we've made already
+press Ctrl C to copy them and then press
+press Ctrl C to copy them and then press
+press Ctrl C to copy them and then press
+Ctrl shift V to paste them but with the
+Ctrl shift V to paste them but with the
+Ctrl shift V to paste them but with the
+rotations flipped so you can see
+rotations flipped so you can see
+rotations flipped so you can see
+that it's now a complete Run Cycle we
+that it's now a complete Run Cycle we
+that it's now a complete Run Cycle we
+just have to press double A to deselect
+just have to press double A to deselect
+just have to press double A to deselect
+everything
+everything
+everything
+and then press this dot up here to
+and then press this dot up here to
+and then press this dot up here to
+select this Frame we're going to go four
+select this Frame we're going to go four
+select this Frame we're going to go four
+frames past this so one two three four
+frames past this so one two three four
+frames past this so one two three four
+so 23 and shift d
+so 23 and shift d
+so 23 and shift d
+put this here and then to make this Loop
+put this here and then to make this Loop
+put this here and then to make this Loop
+properly we'll go one frame before this
+properly we'll go one frame before this
+properly we'll go one frame before this
+last one here so set the end to
+last one here so set the end to
+last one here so set the end to
+22 like that one last thing press a
+22 like that one last thing press a
+22 like that one last thing press a
+shift e and make cyclic that's just
+shift e and make cyclic that's just
+shift e and make cyclic that's just
+going to make it a little bit smoother
+going to make it a little bit smoother
+going to make it a little bit smoother
+all right then let's press space and see
+all right then let's press space and see
+all right then let's press space and see
+what we got
+what we got
+what we got
+okay and it's not bad now we just want
+okay and it's not bad now we just want
+okay and it's not bad now we just want
+to add in the forearm rotations so let's
+to add in the forearm rotations so let's
+to add in the forearm rotations so let's
+do that so real quick I'm going to
+do that so real quick I'm going to
+do that so real quick I'm going to
+click both of these uh if it's not the
+click both of these uh if it's not the
+click both of these uh if it's not the
+first frame I'm going to delete it right
+first frame I'm going to delete it right
+first frame I'm going to delete it right
+now and then we'll go to frame one and
+now and then we'll go to frame one and
+now and then we'll go to frame one and
+let's start setting these
+let's start setting these
+let's start setting these
+so for this front arm I'm gonna do r
+so for this front arm I'm gonna do r
+so for this front arm I'm gonna do r
+if I press R and Z it rotates it in the
+if I press R and Z it rotates it in the
+if I press R and Z it rotates it in the
+global z-axis but if I press r z and Z
+global z-axis but if I press r z and Z
+global z-axis but if I press r z and Z
+it rotates it in its local z-axis kind
+it rotates it in its local z-axis kind
+it rotates it in its local z-axis kind
+of takes into account this upper arm
+of takes into account this upper arm
+of takes into account this upper arm
+rotation as well so all of these forearm
+rotation as well so all of these forearm
+rotation as well so all of these forearm
+rotations that I'm going to do I'm going
+rotations that I'm going to do I'm going
+rotations that I'm going to do I'm going
+to do with r z z so just R and then
+to do with r z z so just R and then
+to do with r z z so just R and then
+press z twice so r as you can see let's
+press z twice so r as you can see let's
+press z twice so r as you can see let's
+bring that form in a little bit
+bring that form in a little bit
+bring that form in a little bit
+and for its back one rzz
+and for its back one rzz
+and for its back one rzz
+let's bring that one in two okay and
+let's bring that one in two okay and
+let's bring that one in two okay and
+then to frame three now we want to bring
+then to frame three now we want to bring
+then to frame three now we want to bring
+them back out a little bit so they don't
+them back out a little bit so they don't
+them back out a little bit so they don't
+collide with the legs
+yep as you see
+yep as you see
+yep as you see
+okay
+okay
+okay
+frame five
+uh actually
+uh actually
+uh actually
+those look pretty good so I'm just going
+those look pretty good so I'm just going
+those look pretty good so I'm just going
+to keep it the same for five and then
+to keep it the same for five and then
+to keep it the same for five and then
+eight
+eight
+eight
+we can start bringing them in
+we can start bringing them in
+we can start bringing them in
+a little bit more again
+all right so again
+all right so again
+all right so again
+I'll bring this to 12. and then I'll
+I'll bring this to 12. and then I'll
+I'll bring this to 12. and then I'll
+just box select all of oh wait no I want
+just box select all of oh wait no I want
+just box select all of oh wait no I want
+both of these selected so I'll box
+both of these selected so I'll box
+both of these selected so I'll box
+select all that control C and then Ctrl
+select all that control C and then Ctrl
+select all that control C and then Ctrl
+shift V and then again we have to uh
+shift V and then again we have to uh
+shift V and then again we have to uh
+select this first frame and put it back
+select this first frame and put it back
+select this first frame and put it back
+at the end so
+at the end so
+at the end so
+I'll just shift d
+I'll just shift d
+I'll just shift d
+and then put that over
+and then put that over
+and then put that over
+on frame 23
+on frame 23
+on frame 23
+okay so now let's see how that looks
+all right I'm pretty happy with that so
+all right I'm pretty happy with that so
+all right I'm pretty happy with that so
+let's go ahead and click this Shield
+let's go ahead and click this Shield
+let's go ahead and click this Shield
+icon and that is our run animation
+with our animations made now we can
+with our animations made now we can
+with our animations made now we can
+start thinking about exporting this
+start thinking about exporting this
+start thinking about exporting this
+model to Godot and we're just going to
+model to Godot and we're just going to
+model to Godot and we're just going to
+do a couple small things before we
+do a couple small things before we
+do a couple small things before we
+actually export it here and the first
+actually export it here and the first
+actually export it here and the first
+thing that we're going to do is we're
+thing that we're going to do is we're
+thing that we're going to do is we're
+going to take our looping animations and
+going to take our looping animations and
+going to take our looping animations and
+we're going to shift them over to the
+we're going to shift them over to the
+we're going to shift them over to the
+left one frame so that they all start at
+left one frame so that they all start at
+left one frame so that they all start at
+frame zero because if it starts at frame
+frame zero because if it starts at frame
+frame zero because if it starts at frame
+one when we import it to Godot it's
+one when we import it to Godot it's
+one when we import it to Godot it's
+going to stutter a little bit so we just
+going to stutter a little bit so we just
+going to stutter a little bit so we just
+want to do that with our looping
+want to do that with our looping
+want to do that with our looping
+animations so I'll press a up here to
+animations so I'll press a up here to
+animations so I'll press a up here to
+select all the bones then a down here to
+select all the bones then a down here to
+select all the bones then a down here to
+select all the frames G and drag it to
+select all the frames G and drag it to
+select all the frames G and drag it to
+the left one so that it starts at frame
+the left one so that it starts at frame
+the left one so that it starts at frame
+zero and I'll do the same thing with the
+zero and I'll do the same thing with the
+zero and I'll do the same thing with the
+idle Loop press a g drag it to the left
+idle Loop press a g drag it to the left
+idle Loop press a g drag it to the left
+one all right perfect now we can go back
+one all right perfect now we can go back
+one all right perfect now we can go back
+over to the layout tab
+over to the layout tab
+over to the layout tab
+earlier in this video we set the object
+earlier in this video we set the object
+earlier in this video we set the object
+origin of the mesh here to the world
+origin of the mesh here to the world
+origin of the mesh here to the world
+origin and we're going to want to do the
+origin and we're going to want to do the
+origin and we're going to want to do the
+same thing with the Armature here so
+same thing with the Armature here so
+same thing with the Armature here so
+press shift s cursor to world origin
+press shift s cursor to world origin
+press shift s cursor to world origin
+just to make sure that the 3D cursor is
+just to make sure that the 3D cursor is
+just to make sure that the 3D cursor is
+down there and then in object mode go
+down there and then in object mode go
+down there and then in object mode go
+ahead and left click the Armature then
+ahead and left click the Armature then
+ahead and left click the Armature then
+right click set origin origin to 3D
+right click set origin origin to 3D
+right click set origin origin to 3D
+cursor okay and then the last thing that
+cursor okay and then the last thing that
+cursor okay and then the last thing that
+we're going to do before we actually
+we're going to do before we actually
+we're going to do before we actually
+export is we're going to assign a a
+export is we're going to assign a a
+export is we're going to assign a a
+color to this mesh if I press Z material
+color to this mesh if I press Z material
+color to this mesh if I press Z material
+preview this is the default color of the
+preview this is the default color of the
+preview this is the default color of the
+material that we're going to be
+material that we're going to be
+material that we're going to be
+exporting the mesh with but we want to
+exporting the mesh with but we want to
+exporting the mesh with but we want to
+give it a color when we import a ticket
+give it a color when we import a ticket
+give it a color when we import a ticket
+though so I'm going to click the mesh
+though so I'm going to click the mesh
+though so I'm going to click the mesh
+click this red ball icon down here click
+click this red ball icon down here click
+click this red ball icon down here click
+new click base color and then I'm going
+new click base color and then I'm going
+new click base color and then I'm going
+to drag it to this red color right here
+to drag it to this red color right here
+to drag it to this red color right here
+so this is the color that it'll have now
+so this is the color that it'll have now
+so this is the color that it'll have now
+when we export it to Godot and now we
+when we export it to Godot and now we
+when we export it to Godot and now we
+can actually export it
+can actually export it
+can actually export it
+so make sure that these references are
+so make sure that these references are
+so make sure that these references are
+hidden here like like I have them press
+hidden here like like I have them press
+hidden here like like I have them press
+a to select the Armature and the mesh
+a to select the Armature and the mesh
+a to select the Armature and the mesh
+file
+file
+file
+go to export down here gltf 2.0
+go to export down here gltf 2.0
+go to export down here gltf 2.0
+and there's a couple settings to select
+and there's a couple settings to select
+and there's a couple settings to select
+here limit to selected objects
+here limit to selected objects
+here limit to selected objects
+make sure that plus y up is selected
+make sure that plus y up is selected
+make sure that plus y up is selected
+there geometry mesh select apply
+there geometry mesh select apply
+there geometry mesh select apply
+modifiers
+modifiers
+modifiers
+and then an animation skinning select
+and then an animation skinning select
+and then an animation skinning select
+export deformation bones only that's
+export deformation bones only that's
+export deformation bones only that's
+just going to make it so that our ik
+just going to make it so that our ik
+just going to make it so that our ik
+Target and ik pole bones don't appear in
+Target and ik pole bones don't appear in
+Target and ik pole bones don't appear in
+the engine because it's not necessary
+the engine because it's not necessary
+the engine because it's not necessary
+for them to appear they would just get
+for them to appear they would just get
+for them to appear they would just get
+in the way
+in the way
+in the way
+so go ahead and Export it
+so go ahead and Export it
+so go ahead and Export it
+and then we can hop over to Godot
+and then we can hop over to Godot
+and then we can hop over to Godot
+I've got a new Godot 4 project opened
+I've got a new Godot 4 project opened
+I've got a new Godot 4 project opened
+here so let's do a couple things to set
+here so let's do a couple things to set
+here so let's do a couple things to set
+this up before we import the character
+this up before we import the character
+this up before we import the character
+go up to project project settings input
+go up to project project settings input
+go up to project project settings input
+map I'm going to add a couple actions
+map I'm going to add a couple actions
+map I'm going to add a couple actions
+here forward back left right and quit
+here forward back left right and quit
+here forward back left right and quit
+forward I am going to make the W key
+back I'll make s
+left I'll make a
+and then right I'll make d
+quit I'm going to assign the Escape key
+okay go ahead make the root node a
+okay go ahead make the root node a
+okay go ahead make the root node a
+normal node I'll call it World add a
+normal node I'll call it World add a
+normal node I'll call it World add a
+mesh instance 3D
+mesh instance 3D
+mesh instance 3D
+I'll call it
+I'll call it
+I'll call it
+ground and then I'm going to make it a
+ground and then I'm going to make it a
+ground and then I'm going to make it a
+plane mesh
+plane mesh
+plane mesh
+and I'll make it
+and I'll make it
+and I'll make it
+20 by 20 and then go ahead and click
+20 by 20 and then go ahead and click
+20 by 20 and then go ahead and click
+this mesh menu up at the top of the
+this mesh menu up at the top of the
+this mesh menu up at the top of the
+viewport and click create try mesh
+viewport and click create try mesh
+viewport and click create try mesh
+static body so that the player can
+static body so that the player can
+static body so that the player can
+collide with it
+collide with it
+collide with it
+and then I'm gonna add the world
+and then I'm gonna add the world
+and then I'm gonna add the world
+environment and directional light that
+environment and directional light that
+environment and directional light that
+are in this uh preview scene here by
+are in this uh preview scene here by
+are in this uh preview scene here by
+clicking these dots up here and clicking
+clicking these dots up here and clicking
+clicking these dots up here and clicking
+add sun to scene and add environment to
+add sun to scene and add environment to
+add sun to scene and add environment to
+scene okay and with that I'll go ahead
+scene okay and with that I'll go ahead
+scene okay and with that I'll go ahead
+and save it
+and save it
+and save it
+we can start importing our character
+we can start importing our character
+we can start importing our character
+go ahead and locate that dot glb file
+go ahead and locate that dot glb file
+go ahead and locate that dot glb file
+that we exported from the end of the
+that we exported from the end of the
+that we exported from the end of the
+blender section and click and drag it
+blender section and click and drag it
+blender section and click and drag it
+into your Godot project over here right
+into your Godot project over here right
+into your Godot project over here right
+click the import click new inherited
+click the import click new inherited
+click the import click new inherited
+scene and let's make sure the animation
+scene and let's make sure the animation
+scene and let's make sure the animation
+is imported properly go to idle
+is imported properly go to idle
+is imported properly go to idle
+we can see that because we named them
+we can see that because we named them
+we can see that because we named them
+underscore Loop they are looping
+underscore Loop they are looping
+underscore Loop they are looping
+properly in Godot
+properly in Godot
+properly in Godot
+everything looks good
+okay I'm going to change the root node
+okay I'm going to change the root node
+okay I'm going to change the root node
+here to a
+here to a
+here to a
+character body 3D and then I'll give
+character body 3D and then I'll give
+character body 3D and then I'll give
+that
+that
+that
+node a collision shape 3D
+node a collision shape 3D
+node a collision shape 3D
+I'll make it a capsule shape
+I'll make it a capsule shape
+I'll make it a capsule shape
+Ctrl drag that up one unit
+Ctrl drag that up one unit
+Ctrl drag that up one unit
+give it a radius of point
+give it a radius of point
+give it a radius of point
+five okay that looks good and then I'm
+five okay that looks good and then I'm
+five okay that looks good and then I'm
+gonna give it a camera
+gonna give it a camera
+gonna give it a camera
+but first I'll give it this node 3D and
+but first I'll give it this node 3D and
+but first I'll give it this node 3D and
+Call it spring arm pivot that'll be used
+Call it spring arm pivot that'll be used
+Call it spring arm pivot that'll be used
+for rotating the camera
+for rotating the camera
+for rotating the camera
+I'll give that a spring arm 3D
+I'll give that a spring arm 3D
+I'll give that a spring arm 3D
+and I'll give that a camera 3D
+and I'll give that a camera 3D
+and I'll give that a camera 3D
+okay and so we could see that the camera
+okay and so we could see that the camera
+okay and so we could see that the camera
+by default is facing the negative Z
+by default is facing the negative Z
+by default is facing the negative Z
+Direction and so I'm going to go to the
+Direction and so I'm going to go to the
+Direction and so I'm going to go to the
+skeleton 3D
+skeleton 3D
+skeleton 3D
+transform and rotate that 180 degrees
+transform and rotate that 180 degrees
+transform and rotate that 180 degrees
+and then for the spring arm 3D let's
+and then for the spring arm 3D let's
+and then for the spring arm 3D let's
+give it an arm length of three
+give it an arm length of three
+give it an arm length of three
+and we don't want it on the floor we're
+and we don't want it on the floor we're
+and we don't want it on the floor we're
+going to want it more shoulder level so
+going to want it more shoulder level so
+going to want it more shoulder level so
+I'll drag the spring arm up to about
+I'll drag the spring arm up to about
+I'll drag the spring arm up to about
+there
+there
+there
+okay and then I'll save this scene and
+okay and then I'll save this scene and
+okay and then I'll save this scene and
+let's give it a script and I am going to
+let's give it a script and I am going to
+let's give it a script and I am going to
+use the template that comes with the
+use the template that comes with the
+use the template that comes with the
+character body 3D so I'll create that
+character body 3D so I'll create that
+character body 3D so I'll create that
+I'm not going to use any of the jump
+I'm not going to use any of the jump
+I'm not going to use any of the jump
+stuff here so I'll get rid of that jump
+stuff here so I'll get rid of that jump
+stuff here so I'll get rid of that jump
+velocity and these lines about handling
+velocity and these lines about handling
+velocity and these lines about handling
+jumping
+jumping
+jumping
+uh for input and moving I'm going to
+uh for input and moving I'm going to
+uh for input and moving I'm going to
+change these right here to the forward
+change these right here to the forward
+change these right here to the forward
+back left and right inputs that we
+back left and right inputs that we
+back left and right inputs that we
+assigned right when we started the
+assigned right when we started the
+assigned right when we started the
+project so change that to left right
+project so change that to left right
+project so change that to left right
+that can be forward
+that can be forward
+that can be forward
+and that'll be back and then I'm going
+and that'll be back and then I'm going
+and that'll be back and then I'm going
+to make it so that when I press Escape
+to make it so that when I press Escape
+to make it so that when I press Escape
+it'll just close the window that's it's
+it'll just close the window that's it's
+it'll just close the window that's it's
+really nice to set that up for when
+really nice to set that up for when
+really nice to set that up for when
+you're testing stuff so Funk uh
+you're testing stuff so Funk uh
+you're testing stuff so Funk uh
+unhandled input if input is action just
+unhandled input if input is action just
+unhandled input if input is action just
+pressed
+pressed
+pressed
+quit
+quit
+quit
+get tree
+get tree
+get tree
+quit
+quit
+quit
+okay now I'll go to the world scene and
+okay now I'll go to the world scene and
+okay now I'll go to the world scene and
+Ctrl shift a I'll add
+Ctrl shift a I'll add
+Ctrl shift a I'll add
+lowepolymand.tscn and I'll click play
+lowepolymand.tscn and I'll click play
+lowepolymand.tscn and I'll click play
+select current and okay we have movement
+select current and okay we have movement
+select current and okay we have movement
+now we want to make it so that the mouse
+now we want to make it so that the mouse
+now we want to make it so that the mouse
+is captured and that we can rotate the
+is captured and that we can rotate the
+is captured and that we can rotate the
+camera
+camera
+camera
+so I'll go back to the low poly man
+so I'll go back to the low poly man
+so I'll go back to the low poly man
+script
+script
+script
+and I'll add a ready function up here
+and I'll add a ready function up here
+and I'll add a ready function up here
+funk
+funk
+funk
+ready and then input that set Mouse mode
+ready and then input that set Mouse mode
+ready and then input that set Mouse mode
+Let's do input.mouse mode captured
+Let's do input.mouse mode captured
+Let's do input.mouse mode captured
+and then in the unhandled input function
+and then in the unhandled input function
+and then in the unhandled input function
+we'll actually handle that rotation but
+we'll actually handle that rotation but
+we'll actually handle that rotation but
+first we need to actually get access to
+first we need to actually get access to
+first we need to actually get access to
+some of these nodes here
+some of these nodes here
+some of these nodes here
+so at onready far spring arm pivot
+so at onready far spring arm pivot
+so at onready far spring arm pivot
+equals
+equals
+equals
+spring arm pivot at on ready bar
+spring arm pivot at on ready bar
+spring arm pivot at on ready bar
+spring arm equals
+spring arm equals
+spring arm equals
+spring arm 3D
+spring arm 3D
+spring arm 3D
+so if event is input event Mouse motion
+so if event is input event Mouse motion
+so if event is input event Mouse motion
+uh let's see so if we're moving the
+uh let's see so if we're moving the
+uh let's see so if we're moving the
+mouse left and right so the mouse Motion
+mouse left and right so the mouse Motion
+mouse left and right so the mouse Motion
+in the X direction we're going to rotate
+in the X direction we're going to rotate
+in the X direction we're going to rotate
+along the y-axis on the spring arm pivot
+along the y-axis on the spring arm pivot
+along the y-axis on the spring arm pivot
+so spring arm pivot dot rotate y
+so spring arm pivot dot rotate y
+so spring arm pivot dot rotate y
+negative event dot X or event dot
+negative event dot X or event dot
+negative event dot X or event dot
+relative dot X
+small number because this is in radians
+small number because this is in radians
+small number because this is in radians
+and then in the Y Mouse motion we will
+and then in the Y Mouse motion we will
+and then in the Y Mouse motion we will
+rotate on the x-axis for the spring arm
+rotate on the x-axis for the spring arm
+rotate on the x-axis for the spring arm
+3D so spring arm dot rotate X
+3D so spring arm dot rotate X
+3D so spring arm dot rotate X
+negative event
+negative event
+negative event
+relative y
+relative y
+relative y
+and then we don't want to be able to
+and then we don't want to be able to
+and then we don't want to be able to
+infinitely rotate on the spring arm
+infinitely rotate on the spring arm
+infinitely rotate on the spring arm
+because then we can kind of like rotate
+because then we can kind of like rotate
+because then we can kind of like rotate
+uh infinitely and kind of disorient the
+uh infinitely and kind of disorient the
+uh infinitely and kind of disorient the
+players so I'll just clamp that quick so
+players so I'll just clamp that quick so
+players so I'll just clamp that quick so
+spring arm dot rotation dot x equals
+spring arm dot rotation dot x equals
+spring arm dot rotation dot x equals
+clamp
+clamp
+clamp
+spring under rotation.x
+spring under rotation.x
+spring under rotation.x
+and then I'll do negative pi over four
+and then I'll do negative pi over four
+and then I'll do negative pi over four
+pi over 4.
+pi over 4.
+pi over 4.
+okay let's see what that looks like
+okay so now we can move the camera but
+okay so now we can move the camera but
+okay so now we can move the camera but
+the player's movement isn't lined up
+the player's movement isn't lined up
+the player's movement isn't lined up
+with the direction that the camera is
+with the direction that the camera is
+with the direction that the camera is
+facing so let's add that
+and we can add that just by going to
+and we can add that just by going to
+and we can add that just by going to
+this direction Vector here
+this direction Vector here
+this direction Vector here
+and then we just need to adjust that
+and then we just need to adjust that
+and then we just need to adjust that
+along with the
+along with the
+along with the
+uh we need we need to rotate that with
+uh we need we need to rotate that with
+uh we need we need to rotate that with
+the spring arm pivot y rotation so
+the spring arm pivot y rotation so
+the spring arm pivot y rotation so
+Direction equals Direction
+Direction equals Direction
+Direction equals Direction
+dot rotated axis would be Vector 3 dot
+dot rotated axis would be Vector 3 dot
+dot rotated axis would be Vector 3 dot
+up so the y-axis
+up so the y-axis
+up so the y-axis
+and then the angle will be the
+and then the angle will be the
+and then the angle will be the
+spring arm pivot dot rotation
+spring arm pivot dot rotation
+spring arm pivot dot rotation
+dot y
+dot y
+dot y
+okay let's see that
+okay let's see that
+okay let's see that
+okay and now whatever way I'm facing
+okay and now whatever way I'm facing
+okay and now whatever way I'm facing
+that's forward
+that's forward
+that's forward
+yep movement seems to be going just fine
+yep movement seems to be going just fine
+yep movement seems to be going just fine
+so
+so
+so
+we've got all the movement set up now
+we've got all the movement set up now
+we've got all the movement set up now
+now we just need to make the player
+now we just need to make the player
+now we just need to make the player
+animate properly with this movement so
+animate properly with this movement so
+animate properly with this movement so
+that will be the final order of business
+that will be the final order of business
+that will be the final order of business
+the first thing that we're going to do
+the first thing that we're going to do
+the first thing that we're going to do
+in order to get the animation working
+in order to get the animation working
+in order to get the animation working
+smoothly is we're going to make it so
+smoothly is we're going to make it so
+smoothly is we're going to make it so
+that when we are moving the player is
+that when we are moving the player is
+that when we are moving the player is
+going to rotate in the direction of that
+going to rotate in the direction of that
+going to rotate in the direction of that
+movement so we'll do that by rotating
+movement so we'll do that by rotating
+movement so we'll do that by rotating
+the Armature node so let's get access to
+the Armature node so let's get access to
+the Armature node so let's get access to
+that
+that
+that
+on ready VAR Armature equals
+on ready VAR Armature equals
+on ready VAR Armature equals
+Armature and for a lot of this animation
+Armature and for a lot of this animation
+Armature and for a lot of this animation
+stuff we're going to be interpolating so
+stuff we're going to be interpolating so
+stuff we're going to be interpolating so
+I'm going to add a const
+I'm going to add a const
+I'm going to add a const
+alert file here and give it a value of
+alert file here and give it a value of
+alert file here and give it a value of
+0.15
+0.15
+0.15
+we are going to rotate the player when
+we are going to rotate the player when
+we are going to rotate the player when
+the direction is not zero so here I'll
+the direction is not zero so here I'll
+the direction is not zero so here I'll
+set that rotation so Armature dot
+set that rotation so Armature dot
+set that rotation so Armature dot
+rotation dot y
+rotation dot y
+rotation dot y
+equals lerp angle
+armature.rotation dot y
+armature.rotation dot y
+armature.rotation dot y
+uh and then here we need to we need to
+uh and then here we need to we need to
+uh and then here we need to we need to
+get the angle in the X Z plane of the
+get the angle in the X Z plane of the
+get the angle in the X Z plane of the
+Velocity Vector so we can do that with
+Velocity Vector so we can do that with
+Velocity Vector so we can do that with
+this A10 2 function and we will use
+this A10 2 function and we will use
+this A10 2 function and we will use
+uh
+negative velocity dot X and negative
+negative velocity dot X and negative
+negative velocity dot X and negative
+velocity dot Z to do that and then here
+velocity dot Z to do that and then here
+velocity dot Z to do that and then here
+we just use that lerp vowel
+we just use that lerp vowel
+we just use that lerp vowel
+so let's make sure that this rotates
+so let's make sure that this rotates
+so let's make sure that this rotates
+properly now so it's always LARPing
+properly now so it's always LARPing
+properly now so it's always LARPing
+smoothly forward left
+smoothly forward left
+smoothly forward left
+right back okay perfect now we just have
+right back okay perfect now we just have
+right back okay perfect now we just have
+to actually put the animations in there
+to actually put the animations in there
+to actually put the animations in there
+so we'll do that with an animation tree
+so we'll do that with an animation tree
+so we'll do that with an animation tree
+so add an animation tree right here I'll
+so add an animation tree right here I'll
+so add an animation tree right here I'll
+make the tree root a animation node
+make the tree root a animation node
+make the tree root a animation node
+blend tree and then assign the animation
+blend tree and then assign the animation
+blend tree and then assign the animation
+player to it
+player to it
+player to it
+all right I'll make this a little bit
+all right I'll make this a little bit
+all right I'll make this a little bit
+bigger
+bigger
+bigger
+right click in here and then let's add a
+right click in here and then let's add a
+right click in here and then let's add a
+blend space 1D open the editor
+blend space 1D open the editor
+blend space 1D open the editor
+click this icon here I'm going to change
+click this icon here I'm going to change
+click this icon here I'm going to change
+this from negative 1 to 0.
+this from negative 1 to 0.
+this from negative 1 to 0.
+and what we're going to do is right
+and what we're going to do is right
+and what we're going to do is right
+click right here add animation idle over
+click right here add animation idle over
+click right here add animation idle over
+here add animation run and we will set
+here add animation run and we will set
+here add animation run and we will set
+based on the player's velocity length
+based on the player's velocity length
+based on the player's velocity length
+the length of the Velocity Vector we're
+the length of the Velocity Vector we're
+the length of the Velocity Vector we're
+going to set this to a value between 0
+going to set this to a value between 0
+going to set this to a value between 0
+and 1 based on max speed so it will
+and 1 based on max speed so it will
+and 1 based on max speed so it will
+interpolate smoothly between the idle
+interpolate smoothly between the idle
+interpolate smoothly between the idle
+and run animation so make sure that this
+and run animation so make sure that this
+and run animation so make sure that this
+is set to zero and one and then you've
+is set to zero and one and then you've
+is set to zero and one and then you've
+got them on the ends here so we'll go
+got them on the ends here so we'll go
+got them on the ends here so we'll go
+back to root and connect this and make
+back to root and connect this and make
+back to root and connect this and make
+sure that that animation tree is also
+sure that that animation tree is also
+sure that that animation tree is also
+set to active
+set to active
+set to active
+okay so now we just need to make it so
+okay so now we just need to make it so
+okay so now we just need to make it so
+that this value is set based on velocity
+that this value is set based on velocity
+that this value is set based on velocity
+and we can do that
+and we can do that
+and we can do that
+by first well there's one problem right
+by first well there's one problem right
+by first well there's one problem right
+now and that is
+now and that is
+now and that is
+the velocity doesn't actually
+the velocity doesn't actually
+the velocity doesn't actually
+interpolate
+interpolate
+interpolate
+the velocity is either just on at Max
+the velocity is either just on at Max
+the velocity is either just on at Max
+Speed or set to zero so we'll first have
+Speed or set to zero so we'll first have
+Speed or set to zero so we'll first have
+to make the velocity interpolate and we
+to make the velocity interpolate and we
+to make the velocity interpolate and we
+can do that by changing so velocity at X
+can do that by changing so velocity at X
+can do that by changing so velocity at X
+we can change this to lerp
+we can change this to lerp
+we can change this to lerp
+uh
+so alert from velocity.x to the
+so alert from velocity.x to the
+so alert from velocity.x to the
+direction dot x times speed and then
+direction dot x times speed and then
+direction dot x times speed and then
+we'll use
+we'll use
+we'll use
+alert value again and then I'm going to
+alert value again and then I'm going to
+alert value again and then I'm going to
+copy this
+copy this
+copy this
+paste it down here and just change this
+paste it down here and just change this
+paste it down here and just change this
+to Z all three of those
+to Z all three of those
+to Z all three of those
+okay and then I am going to
+okay and then I am going to
+okay and then I am going to
+copy it twice down here again
+copy it twice down here again
+copy it twice down here again
+and then here instead of Direction times
+and then here instead of Direction times
+and then here instead of Direction times
+speed I'll just change it to 0.0 for
+speed I'll just change it to 0.0 for
+speed I'll just change it to 0.0 for
+both of these
+both of these
+both of these
+and change these
+and change these
+and change these
+to Z
+to Z
+to Z
+and now
+you might not be able to tell but there
+you might not be able to tell but there
+you might not be able to tell but there
+is some more interpolation going on here
+is some more interpolation going on here
+is some more interpolation going on here
+it's not just setting on and off
+it's not just setting on and off
+it's not just setting on and off
+but you will be able to tell once we set
+but you will be able to tell once we set
+but you will be able to tell once we set
+that value in the animation tree
+that value in the animation tree
+that value in the animation tree
+so let's get access to that animation
+so let's get access to that animation
+so let's get access to that animation
+tree
+tree
+tree
+on ready bar
+on ready bar
+on ready bar
+anim tree equals animation tree
+anim tree equals animation tree
+anim tree equals animation tree
+and then we will adjust every physics
+and then we will adjust every physics
+and then we will adjust every physics
+process frame set that so anim tree dot
+process frame set that so anim tree dot
+process frame set that so anim tree dot
+set
+set
+set
+and then so here we just have to put the
+and then so here we just have to put the
+and then so here we just have to put the
+property path and here we will put the
+property path and here we will put the
+property path and here we will put the
+value so the value is going to be
+value so the value is going to be
+value so the value is going to be
+velocity dot length
+velocity dot length
+velocity dot length
+divided by speed
+divided by speed
+divided by speed
+okay and then the property path we can
+okay and then the property path we can
+okay and then the property path we can
+actually click the animation tree go to
+actually click the animation tree go to
+actually click the animation tree go to
+parameters this is that blend space that
+parameters this is that blend space that
+parameters this is that blend space that
+we added and then this is that parameter
+we added and then this is that parameter
+we added and then this is that parameter
+so we can right click this and then
+so we can right click this and then
+so we can right click this and then
+click copy property path
+click copy property path
+click copy property path
+and then go in here and paste there it
+and then go in here and paste there it
+and then go in here and paste there it
+is
+and there we go we've got a smooth low
+and there we go we've got a smooth low
+and there we go we've got a smooth low
+poly character controller
+poly character controller
+poly character controller
+pretty cool
+pretty cool
+pretty cool
+thanks for watching this video if you
+thanks for watching this video if you
+thanks for watching this video if you
+made it this far uh I'm impressed and
+made it this far uh I'm impressed and
+made it this far uh I'm impressed and
+I'd also appreciate it if you could like
+I'd also appreciate it if you could like
+I'd also appreciate it if you could like
+this video And subscribe to my channel
+this video And subscribe to my channel
+this video And subscribe to my channel
+please feel free to let me know if you'd
+please feel free to let me know if you'd
+please feel free to let me know if you'd
+like any more of these tutorials and if
+like any more of these tutorials and if
+like any more of these tutorials and if
+there's any improvements you think I
+there's any improvements you think I
+there's any improvements you think I
+could make I'd really like to make more
+could make I'd really like to make more
+could make I'd really like to make more
+of them thanks

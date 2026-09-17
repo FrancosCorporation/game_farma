@@ -1,0 +1,814 @@
+if you have been following along in the
+past few chapters you have probably
+noticed how your brain is now all about
+body shapes character anatomy and it
+just won't quit right I bet many of you
+can relate Learning Works in a weird
+ways ask a few questions make a few
+attempts and suddenly things start
+clicking now we are just one step away
+from wrapping up this character body
+model arms and legs are pretty
+straightforward but when it comes to
+modeling hands get ready for some new
+challenges and lessons so that's why we
+are here though let's add some limbs to
+this character and wrap up our first big
+milestone complete this character body
+so big shout out to those who have made
+it to chapter number four I commend your
+commitment so this is Ram from Cross
+mine studio and you are tuning into
+chapter number four of animated
+character creation series for bonus
+chapters project files and other useful
+stuff check out the premium version
+details are in the description along
+with the PDF and other resources
+required for this tutorial so let's Jump
+Right
+In
+now that we have the Torso part it's
+going to be relatively easy to make arms
+and legs out of it so what I'm going to
+do is this space that we had made for
+arms I'm going to select this and make a
+circle out of it with the loop tools and
+once that is done I just want to enable
+statistics right here
+let me just disable the proportionate
+editing let's start making arms
+first so I'm just going to rotate this
+thing slightly backwards to a much more
+relaxed
+position so that uh it looks natural
+that's all and then I'll make a simple
+Extrusion out of it and place it right
+here I'm just going to disable the
+subdivision for
+now so let me just push this uh all the
+way till
+here and I'm going to rotate this
+slightly like
+this let's just stretch it out to the
+full arm length now if you notice your
+arm when it's in the resting position
+it's slightly Twisted when your palm is
+facing downwards towards the floor
+there's a slight twist so that's what
+this is about and I'm going to subdivide
+this basically adding a simple Edge Loop
+and push this backwards keep it simple
+relax and keep adding Loop in between
+start with low resolution and keep
+adding Loops when the need arrives so
+this is for biceps slightly push this
+outwards this to
+downwards and if you
+want uh we not really trying to make
+anything muscular here but
+still just
+to make this more organic and natural
+and not really a flat cylindrical shape
+I'm going to make it like
+this one bevel
+here and add the middle segment with the
+scroll
+wheel and same thing I'm going to do
+here add one Loop in
+between Edge
+Loop try to form the forearm add another
+loop right here like this quite simple
+and easy let's add one more Loop
+here and one here just trying to keep it
+equally spaced out now for these part
+for elbows so with these two edges
+selected I'm going to just press bevel
+contrl B and uh then scale these down
+like this so when subdivided this is
+going to create a sort of a pinch and uh
+that's what we want but one 2 3 4 5 this
+is we need to take care of make it a
+quad I'm using a cut tool knife tool
+which is uh right here knife short
+command for knife tool is K on
+keyboard that's all
+and this point and this point I'm going
+to select both of these and scale it
+outwards like
+this and right at the back let's select
+just this
+one and bble
+this yeah this seems right and then uh
+let's do the same thing press k for
+knife
+tool and make it
+quads let's select these four points
+scale these up to make a nice round
+shape and then you can uh select this
+Edge push this out if you want you can
+pinch
+these
+in to form the elbow
+uh not bad
+actually quite
+nice so shape of elbow looks all
+right and then let's select this entire
+ring and see how many vertices we have
+we have nine vertices now to form the
+hand we're going to try and keep even
+number let's make it a circle of 10 so
+to make a circle of 10 I'm going to add
+one more Loop
+here
+that's right this seems to be a circle
+of 10 so let's go to front view and I'm
+going to press shift d and select this
+Loop and move it away from the body and
+now I'm going to just separate this
+selection we are going to attach this
+hand later with this body let's isolate
+this I'm going to disable mirror for now
+now with this hand first thing we are
+going to do is uh let's make it flat
+circle just trying to flatten this in x
+axis so it's easy to model it in all the
+views with these vertices I'm going to
+try and form the crosssection of the
+hand palm area
+basically let's try AR top like this
+then we have
+bot so just make sure we have even
+number uh same number of vertices at the
+top and the bottom 1 2 3 4 5 1 2 3 4 5
+this we can drag
+here yeah 1 2 3 4 5 1 2 3 4 5 so this
+seems like a good start go to the top
+view and in the edit mode going to just
+extrude these
+out select everything just make sure
+that all the normals are facing outside
+recalculate normals outside side just to
+cross check shade smooth this now after
+you have extruded this just try to form
+the shape of the Palm slightly
+arched uh give these a little angle so
+that these these fingers are going to be
+spread out so these should point this
+way this way this way and this way this
+is where we are going to attach fingers
+just take your time to shape this up
+properly bring as much of palm shape as
+POS possible now I'm just going to
+select all of these and press grid fill
+now I'm going to select this side one
+and uh going to extrude this out this is
+where we are going to create
+thumb extrude this out I'm just going to
+disable the subdivision surface for now
+and work on formation of the
+thumb let us rotate this downwards a
+little to a much more relaxed position
+for thumb that seems like a good start
+just just going to make a backup of this
+I'm going to extrude this again and
+scale this down and push this
+outwards let's make a thumb out of this
+so let me just slide this here and add
+one more Loop right here this could be
+rotated this
+way this might be too skin for a thumb
+so move few of these faces and uh just
+try to form slightly more thicker volume
+I'm just trying to figure out I'm
+looking at my hand and trying to
+observe so I'm just going to orient my
+thumb in this direction of the screen uh
+I'm going to place my palm thumb facing
+downwards and try to observe these
+vertices should be pinched inside like
+this
+all right it sometimes get Messier if I
+leave the subdivision surface on and try
+to model this so I keep switching in
+between and then let's come to the
+fingers so at this moment I'm just going
+to extrude out one of the
+finger right here let just scale this
+down add two more Loops in
+between this facing this
+way rotate this
+downwards
+and something like this the entire
+finger on much more relaxed
+position so now we are going to delete
+these
+faces because we are going to copy the
+same finger right here as well now I'm
+going to enable the subdivision modifier
+so so with this I'm going to apply
+subdivision modifier and once I do that
+I'll get much more resolution to work
+with and this is going to be much easier
+to form fingers
+with so now I have many more Loops in
+between but at the same time we are not
+too far from the resolution that we are
+dealing
+with so pressing double g to slide these
+outwards and inwards I'm just going to
+move this
+inwards
+right here like this just like a finger
+all right and once that is done I'm
+going to take a BCT
+tool and going to select everything and
+create a bisc uh loop right here it's
+going to cut the geometry through and
+through right where the fingers fold
+just make two Loops like this in the in
+the shape of a sort of a V and similarly
+we are going to add one section here BCT
+right here
+and
+here now let's put these more Loops to
+use double g double
+g to make a sort
+of that formation at the top of the
+finger folds that you
+see I'm going to push these inside
+slightly right here starting to look
+like a finger which is a good sign and
+then we can simply select the
+if you want you can make a nail with it
+I'm going to insert this and rotate this
+like this slightly
+downwards if I apply subdivision surface
+on this this is how it's going to look
+like let's enable cage on modifier so we
+can work in edit mode so what if we push
+this slightly more
+downwards and inwards like
+this I think I think it would look
+slightly more better if we made a
+Extrusion in the front
+faces right here extrude scale it down
+just a bit more prominent shape of a
+nail now if you want you can add more
+Loops if you're working with a high
+resolution model you can keep on
+defining more of this but we are not
+going to do that because our model is
+comparatively less detailed simple of a
+software look we are going for now I'm
+going to select this
+Loop control+ Plus to expand the
+selection let's go to top view and push
+this inside a little control+ one more
+time and now I'm going to make a
+duplicate of this align with the rest of
+the fingers take your time to align
+these on much more relaxed
+position if you want you can use a
+shrink and fatn tool to shrink the pinky
+finger down a little and once you have
+these you can also use uh slightly more
+natural
+rotation let's scale this up a
+little now more or less I think fingers
+are there now what we need to do is
+attach these fingers to this model so
+before I attach the finger I'm going to
+make a similar sort of formation right
+here that you see hands are one of the
+most complex Parts in the body when it
+comes to 3D
+modeling now let's merge these fingers
+and to merge these I'm just quickly
+going to use Auto merge right here and
+enable the snapping put it to work mode
+with this I can simply drag
+vertices and this is going to Auto
+merge so this is going to go to the top
+this will go right here just be a bit
+more
+careful there is a lot going on
+here just clear out whatever is uh clear
+and easy at the first align bottom
+vertices with the bottom side vertices
+with the side middle with the
+middle I'm going to select this
+Loop and then I'm going to select the
+same
+Loop this right here and I'll see where
+these two vertices are falling so this
+needs to be attached
+here let's put it right
+here and then let's put this right here
+if you're having difficulty uh working
+in these parts you can just temporarily
+push these out so that there's more room
+to work with it seems like uh I might
+have made a bit of mistake so I'm just
+going to rip these apart by pressing V
+and uh so this needs to
+go right here and
+then let's select these uh Center
+ones this need to go right
+here yeah so that this Loop connects
+this entire thing let's do the same
+thing for other finger as well this
+might take some time if you're doing
+this for very first time and uh it's a
+complex thing so just be patient with
+it don't worry you won't always have to
+keep making hands for every new model
+you can always reuse geometry if you're
+doing this for very first time it's
+important that you make one uh every
+part of body by yourself until you uh
+become an expert only then you are
+allowed to make some shortcuts
+so I think more or less we are done let
+me just disable this Auto merge and uh
+then I'm going to Simply clean this up a
+little let's push this here here let's
+go to the bottom
+view let me just select these four faces
+and uh with the proportionate editing
+I'm going to just make the thumb a
+little
+more thicker like
+this press I to make an inser for
+nail and uh let's do the same
+thing and then let's extrude these two
+scale this
+down I might have stretched it too
+far now this nail looks bit bigger so
+I'm just going to push this uh loop
+right
+here you can always scale this down
+later on if you
+want just scale this down push this
+in and then uh let me just disable
+smooth subdivision
+surface I'm just going to try and form
+the similar Loops that we have in
+fingers on each
+joint so that it can fold with
+bones something like
+this so now I think more or less we are
+done I'm just going to add these Center
+edges between the
+fingers uh let me just clean this a
+bit so let's select these Center edges
+right here right here Press contrl B to
+create a
+bevel now this is going to give us a few
+more few more edges in between to sort
+of smooth out these pinching
+Corners spread these uh Corners out a
+little um right between the
+fingers but now right here we have weird
+faces these are like hexagons or
+something so I'm just going to select
+this one and this one and uh connect
+conect vertex
+path connect vertex path connect vertex
+path and uh let's repeat this for the
+rest so this one right here is a five
+five side phas so we are going to fix
+that simply by dragging this
+one here and dragging this one
+here so you have a quad pH here quad
+face here all of these are quads which
+is quite an important thing actually
+it's not going to be end of word for us
+even if we leave a few quads here but we
+are just trying
+to trying to make few good practices
+here and uh topology is one of our main
+learning so let's enable the subdivision
+surface and see what's going on
+everything seems all right we can add a
+few more Loops here so if I add Loop
+here so this thing is going right in the
+thumb and I don't want want that so what
+I'll do is I'll select this right here
+and this one going to subdivide this and
+that's going to add a vertex in between
+and because of that this Loop is going
+to break so now if I add a loop it's
+going to end till here and now I can add
+one Loop here I'm just going to press k
+for knife and
+uh just trying to keep it all quads
+let's see just going to click right here
+here here and then we are going to Route
+this let's add one more Loop here but
+then again it's going all the way here
+in the thumb we don't want that so I'm
+going to do the same thing
+subdivide and uh let's see how far so we
+are going to subdivide this as
+well and then press
+k for knife tool cut this this
+thing so here we can uh
+simply make it like
+this now I'm just going to try and uh
+change the volume a bit so that it
+matches with my
+character uh bit more softer hand bit
+more fat fingers so let me just select
+these shrink and fatten
+this expand selection Control Plus on
+keyword shrink and
+fatn you can enable proportionate
+editing for this to work on surroundings
+a bit but leave connected
+only so we are done with hand and uh I'm
+just going to bring everything back and
+now I'm going to align this with our
+character in edit
+mode because our origin is still at the
+center of the
+character and let's select our character
+press control J and merge it so with
+this now let's uh select both the loops
+now this right here says 10 vertices and
+this Loop right here says 20 vertices
+which is uh sort of double for us so
+what do we do about about this uh what
+I'm thinking is I'm just going to select
+these
+alternate
+edges and fill these up press f for fill
+exactly what we discussed in topology
+section the first chapter select both
+side edges and
+fill if I was going for something more
+realistic model uh I would have extended
+these Loops I could have formed some of
+the wrist veins and something that's not
+the case with uh our model
+so maybe I can add one Loop here I'm
+thinking boundary
+unchecked so that this inser happens at
+the
+boundary so now we have 12 Loops in the
+hand and 12 Loops in the arm so we tried
+to mix it up a
+little for now don't worry about how big
+or small hand is uh if any other tweak
+is required we'll do that in a moment
+first let's just align it select this Lo
+and we are going to work with the
+proportionate editing and fix
+this s
+y if you want you can manually uh weld
+these together merge these together so
+I'm going to Auto merge with the
+snapping so let's fix this
+one let me fix this right
+here and
+then this right
+here so let's see what's going on now
+I'm going to save the file and uh
+on this transition
+part around the wrist I'm going to try
+and see if I can bring a slightly better
+formation we can add one Loop
+here like
+this so this thing here is creating a
+sort of a pinch and then we can uh just
+tweak a few of these vertices so I'm
+going to select this entire
+Loop and push this slightly here and
+then push this right
+here so I just want something cleaner on
+the wrist side that's
+all
+now you can select few of these faces
+and try to form the Palm formation you
+can keep on cutting and rerouting these
+if you want to have those lines like
+create a bevel out of this and maybe add
+few more Loops but uh so that you have
+much more detail on the other side of
+hand but uh we are going to skip that
+part we are going for something uh
+really simple this already is way too
+much for a kind of style that we are
+going for but I wanted to clear out a
+few of the thing about topology as we
+are focusing on learning character
+topology a little so however simple but
+it's important that we we discuss the
+hand part at least the essentials are
+there so with this we have the arm part
+completed now let's work on the legs now
+making legs is going to be comparatively
+easy because we are not going to be
+modeling feet character is wearing the
+shoes so we going to skip the feet part
+I'm going to extrude this and flatten
+this and uh scale this down in Z axis so
+that we have upper leg and quite a neat
+Loop in the side view I'm just going to
+rotate slightly like this and push this
+outwards then you can create another
+Extrusion rotate this downwards a little
+extrude right
+here and then extrude it like this so we
+are going to take care of proportions in
+a moment but for now just bear with me
+so this formation is what we are looking
+for now let's push this slightly inside
+add a loop here push this this
+way so this part you can keep slightly
+more straighter but this right should
+have bit of
+Arc contrl B bevel this to add more
+loops and then we are going to take care
+of this a
+little control B and bevel
+this so making legs is not a difficult
+task but what's difficult is to
+understand uh the formation of the leg
+so legs are not like this it's it's not
+a straight formation from hip it comes
+it goes down like this
+slightly and then there's a knee part
+and then there
+is a bit more formation like this and
+then there is foot so this you need to
+understand a little It's never enough
+how much thought you put in anatomy of
+character but doesn't matter whether
+you're making realistic character or
+stylized character for simple things
+like this there's always a similar sort
+of structure which needs to be followed
+so for KN we are going to add one Loop
+right at the
+center and then with these two edges
+selected I'm going to create a bevel all
+right scale this up and then we can cut
+this and connect with the rest similar
+to what we did in arms at the elbow side
+make few cuts to convert these in
+quads I'm just going to enable
+subdivision surface to see how the knees
+are forming up I'm just going to make a
+duplicate of this so that I can see the
+this thing without the
+wireframe just going to select these
+push these inwards a
+bit double G and slide these like
+this now these points I'm going to push
+these
+backwards and
+uh this I'm going to push this outwards
+a
+little yeah a bit like this and then I'm
+going to select these two
+sides and scale these
+down like
+this so even though this is not super
+detailed but you can see a slight tweak
+in the vertices can help you create a
+natural formation now if You observe
+behind your legs there's a bit of a
+muscle stretch going on I'm pretty sure
+once you are in this when you are
+exploring this subject you start
+noticing things within your body so it's
+important to pay attention to your body
+and it's not always you need to go out
+and uh take a reference from an image so
+for demonstration purpose I think uh
+this is fine but uh our character is
+slightly more simple cuter kid these hip
+look a bit more feminine to match this
+to our characters we are going to uh
+tone these down a
+little
+now for feed we are simply going to
+extrude this so after this Extrusion uh
+I'm just going to select these few of
+the front
+faces extrude these
+outwards if you want you can even skip
+the feed part um you can simply put a
+shoe
+here I'm just going to mix something so
+that in some cases if uh skin underneath
+is
+seen just for that purpose I just want
+to put something under the
+cloth right that's all I'm not going to
+spend much time here we can create a
+soft bevel at the
+front right here and that's all I do see
+a few more of end gon in the geometry so
+I'll try to fix these in a cleanup stage
+at this moment I just want to finish the
+entire body with the essential things
+and then I'll revisit some of these
+areas just going to tweak the loops a
+bit there's a bit of tension in between
+Loops uh in the lower leg so just tweak
+those a little and
+uh just going to make this a Slimmer
+character I'm not too concerned about
+the details of the inside but still want
+to fix uh few things uh just don't want
+to leave it uh too abrupt let's see if
+we can bring some decent shape and
+topology now that we have the legs and
+everything you can uh just try and fix a
+few things in the
+gesture so just enable the proportionate
+editing and uh fix this up a little just
+take a bigger brush so you can control
+the overall
+Arch now I'm going to bring the
+character head here and uh in the body
+of the character at the top we have few
+Loops so I'm just going to select these
+many of faces I'm going to delete these
+up let's select all of these this entire
+loop with the mirror modify enabled if
+you go to the tool
+section yeah if you go to the loop tool
+section and click on Circle this is
+going to create a full circle right here
+so let's bring back the character head
+let's see what's going on ins side view
+let's align it to our
+character and then combine it with our
+character control J now that both of
+these are combined let's select this
+Loop and see how many vertices we have
+we have 12 vertices let's select this
+Loop we have eight vertices so we need
+to do a bit of work going to select
+these faces and delete these first I'm
+going to select these faces and align
+this to this neck so we have less
+vertices here more vertices here so we
+can uh add few more right here what if I
+create one
+inser and disable
+boundary something like
+this I think this should
+work so now we have nine at the bottom
+and uh 12 at the top just simply create
+one bevel
+here uh sorry insert with the boundary
+disabled and let's create another one
+this should uh give us 11 vertic at the
+bottom 12 at the top so maybe if we
+create one more insert here this will be
+enough 12 right here and 12 right here
+so first I'm going to select this with L
+select linked Auto merge enabled enable
+the snap to vertices and let's start
+pushing these uh to our character at the
+bottom
+if you don't want to turn on or off the
+snap you can simply press control so
+whatever mod snap is set to that is
+going to toggle with control so you can
+simply press control while pressing G
+press control and put it here G control
+put it
+here and since automerge is enabled this
+is going to merge it with
+it sorry G control right here
+now we can disable auto merge and
+uh start fixing this part a bit of mess
+that we have
+made I'm just going to select this Loop
+this part and I'm just going to smooth
+this out a
+little all right I think the neck looks
+uh bit too much so we can just scale
+this down scale this down push this
+inside like this all right so your
+character is done now just to make sure
+everything is
+symmetrical I'm just going to disable
+the Symmetry and just check all the
+vertices right
+here select
+everything select this entire border if
+you want this crosssection and press s
+x0 sorry s x0 so that there is no offset
+I mean sometimes some vertices are
+moving here in there so all those are
+right at the center now all right and
+there you go you have the character with
+you we have the entire character body
+topology seems to be all right we are
+not going for something high resolution
+this is not like a character that
+typical human body character that you
+see so we are going for something much
+more simpler so that we can get the
+basic concepts of topology right and
+then once we jump onto the much more
+complex characters which are sculpted
+and everything on those higher end
+characters we'll deal with the much more
+complex issues and we'll discuss a few
+more things there at this moment these
+Hollow eyes look odd so what I'm going
+to do is Place one UV
+sphere something like this and uh shade
+smooth so pretty basic eye setup I can
+make with icosphere so just select these
+faces move it
+inside actually before that I'm just
+going to make a duplicate of
+this move it
+inside not going to go uh into much
+detail for the eyes at this
+moment all right and uh then for the
+outer layer we can do the
+opposite push it out a bit I'm just
+going to apply a really basic material
+on this one just going to select the
+center vertex and expand the selection
+with control+ for the iris part and
+apply one simple black color
+Shader and invert the selection control
+eye and apply a new material and make it
+a white color
+Shader
+yeah something like this just going to
+select this Loop and apply white on this
+as
+well and then for this I can make a
+simple
+class bstf join both of these with
+control J then just going to scale this
+up a bit bring it to the eye
+socket apply
+location and then apply mirror modifier
+and then make few
+adjustments all right this seems fine uh
+at this moment eyes might would look a
+bit odd because we don't have our
+eyelashes or anything but we'll make few
+more adjustments once we arrive to that
+part and there you have it the whole
+character body model is officially
+completed now it's time to spice things
+up with some clothes and props imagine
+doing all that fun stuff passively maybe
+sitting with coffee chatting with
+friends and casually modeling clothes
+for this character it won't even take up
+that much of head space and most of it
+will flow effortlessly from what you
+have already put together just a bit of
+extracting from existing mesh and
+tweaking and rerouting few Loops so I'm
+curious to hear about your overall
+learning experience what challenges are
+you facing and what parts are you
+enjoying the most drop your thoughts in
+the comment section and let's keep the
+conversation going so thank you for all
+your support and love jump to Discord
+server if you'd like to discuss anything
+related to this on channel dedicated to
+this series check pin comment for
+frequently asked questions and problems
+check description for PDF of keyboard
+shortcuts discount coupons and other
+mentioned resources for this tutorial if
+you enjoyed this chapter do check out
+the full playlist and hope you continue
+all the way till the end also consider
+buying the premium version and unlock
+the additional chapters and project
+files and bonus content which will take
+you through the process of rigging with
+rigify creating a nice walk cycle
+animation creating secondary animations
+using plot physics and phone constraints
+and rendering your entire project using
+Cycles Render engine share your work
+with me on Instagram tag me with instar
+cross mind and participate in discussion
+on Discord channel for this course links
+are in the description please give it a
+like And subscribe and stay tuned for
+more share your thoughts in the comment
+section and don't forget to share it
+with your colleagues and on social media
+to help us reach the wider audience
+thank you for all your support and love
+let's jump to the next video

@@ -1,0 +1,1236 @@
+we are just one step away from
+completing this model and I see many of
+you are still actively following this
+series let's breathe more life into this
+character by adding shaders to the rest
+of the clothes props and wrap this up
+after that we'll create a nice render of
+our first little character to celebrate
+the major Milestone I hope you are as
+excited as I am welcome back everyone
+this is Ram from Cross M studio and
+you're watching chapter number 10 of the
+animated character creation series for
+the premium version of this course which
+includes 10 bonus chapters from riging
+to animation project files and other
+useful resources are also included check
+out the details hotkeys PDF more in the
+description let's Dive Right
+In now as I mentioned in the previous
+chapter where we discussed updates to
+the new principled bstf node in the
+Shader editor we'll continue building
+our shaders using the previous version
+of the node which is still in use by LTS
+versions and blender 3.6 and later on
+once we are done shading all these
+models we are going to open this file in
+version 4.0 just so that you can compare
+it whichever version you're using and
+also we'll make a few more improvements
+especially in the clothing items we can
+use improved Sheen Shader which will
+enhance the overall appearance of the
+clothes now if you missed the part where
+we explored these changes in the new
+bsdf node please watch the beginning of
+the previous chapter for detailed
+overview now let's continue shading our
+model all right so let's move on to the
+next part select this Gap I'm going to
+isolate this one so in this G we are
+going to Simply add one red
+color and reduce the specular a bit so
+here I'm going to bring one uh image
+texture and this is from 3D model
+heaven.com so here I have downloaded two
+textures one is the leather and other is
+fabric texture so for the leather
+material I'm not going to use the color
+because I wanted these non-realistic
+colors instead of hyper realistic
+texture that is provided here but we can
+use the normal bump and the roughness
+map so leather roughness map I'm going
+to bring it here and in this I'm going
+to use the normal map in the normal map
+just make sure you're using non-color
+data all right and press contr T to
+bring the texture coordinates and use
+the same coordinates for both this will
+go in the specular roughness and this
+will go into go into the normal and
+right in between you will need another
+node called normal map so this will give
+you nice texture of the Leather So if
+you find the specular Reflections too
+much you can always reduce the
+roughness and now one last thing in
+image texture I'm going to create a new
+image texture
+stitches for C
+final and uh this could be 468 by 468
+you can use a 2K texture as well and uh
+this I'm going to use mix color node
+let's copy the same red color
+here so this cap will be of red color
+stitches will be of white color put
+those here and use this texture that we
+have made as a factor of this mix color
+now let's jump to texture paint mode
+what I want here is in the active tool
+properties so I want to paint few
+stitches on top of this now to do that
+you can load a texture click on new and
+from the properties just open a texture
+that you have just find something like
+this
+stitches so this stitches texture is
+going to let us uh paint some stitches
+but at this moment it's not really
+working properly probably because it's
+all white so I'm just going to swap
+these color
+colors so it seems like texture is
+working but it's not quite showing the
+effect now before I do anything I'll
+just go to the image
+editor stitches for cap final just save
+this and uh move back to the Shader
+editor now go to full screen in the
+stroke section just increase the
+stroke increase the spacing in the
+stroke so
+that you start seeing these dashed lines
+so this is the texture that we are
+using but the problem is it's not really
+rotating and it's following the same
+direction all the way so in the texture
+from here where you have this texture
+loaded up right under the angle click on
+rig and what this will do is align your
+texture to the stroke Direction so once
+you have all that sorted out paint a few
+lines across the borders now if you find
+it too difficult to paint a smooth line
+you can always use stabilize stroke and
+tweak these numbers a bit with this I'm
+going to just paint a few
+strokes and while painting don't zoom in
+and zoom out a bit your brush size
+doesn't change according to zoom in and
+zoom out so if you zoom out your patches
+will be much bigger if you zoom in your
+patches will be much smaller so stick to
+similar zoom
+level
+at the end if you're having difficulty
+painting in the smaller parts you can
+disable stabilize
+stroke I'll do the same thing here as
+well
+and few Strokes right here you can also
+use symmetry click X and use
+symmetry uh this will paint your texture
+on the both
+sides just make sure to save your
+texture go back to Shader editor and uh
+yeah I feel bump is bit too much so I'm
+going to reduce it 2.5 see how our model
+looks this looks fine so I just want to
+break this solid color a bit we can use
+this musra texture as a red
+color put a color ramp here and copy
+paste the same red color
+here I just want to break this red color
+a bit that's
+all very little small variation it looks
+looks bit faded here bit darker here so
+this looks much better than entire solid
+thing you can scale this up and down if
+you
+want for the top button I'll just move
+the uis aside so that it doesn't catches
+any of these stitches let's look into
+the render and see what's happening so
+now let's move on to the next part is
+going to be this Muffler in the Shader
+editor let's create a new material in
+this I'm going to bring one simple
+fabric
+texture
+so this from uh 3D model heaven.com I'm
+going to load this
+texture plug this in base color press
+controll T and increase the scale of
+texture so something really finer uh
+like this so let's make it 80 or
+something and then what I'm going to do
+is bring one Checker
+texture and we are going to combine both
+of these now this checker texture can
+have brown
+color and then I'm going to combine both
+of these control shift click and
+drag now this will bring a mix
+node so instead of mix let's click on
+darken and right here it seems like it's
+not really following UVS so you can use
+the same coordinates in the vector and
+then scale this texture a
+bit like this now here we are going to
+bring one another image texture and this
+we are going to plug in the normal map
+normal map put it here put this in the
+color in this we are going to load
+fabric textures normal
+map make sure you're using non-color
+data in the color space otherwise it's
+going to give you a weird ARS press CR T
+so I'm not going to keep it on the
+similar scale as the above texture but
+instead I'll make this one a slightly
+more finer this is for finer fabric
+bump something like this now I think
+this looks bit too glossy so I'm going
+to increase the
+roughness and uh reduce the specular a
+bit now let's look into the
+render I think we can cheat this
+material a
+bit just to make it appear a bit
+translucent
+something like
+this now let's bring the entire
+character and see what's going
+on all right so this seems fine so let's
+jump onto the next part and uh we are
+going to shade this t-shirt and jacket
+so for the T-shirt let's isolate this
+create a new material t-shirt final and
+this is going to be a black color
+T-shirt let's jump to viewport preview
+so in the base color I'm going to bring
+one simple
+texture so I have this artwork a t-shirt
+print something like this press contrl
+T and uh I think this looks way too big
+so
+instead I'm going to scale it down so
+instead of repeating this texture let's
+use
+extend and align this texture at the
+center
+it seems like uh it needs to be flipped
+so what if I flip this in y
+AIS yeah so this seems fine bring
+another
+texture image texture and in this I'm
+going to load another simple text I've
+simply written with hands a simple logo
+and
+uh so I'll just make a duplicate of this
+material and in this I'm going to load a
+white color
+and now we are going to combine both of
+these
+materials control shift click and drag
+or you can bring a mixed Shader node now
+in the factor here we are going to use
+the color of the text that we have
+brought
+in this one you can swap these
+materials now press control T and now
+you need to align
+this minus one in y direction minus one
+in X Direction it seems so just just
+observing the text needs to be scaled
+down so instead of repeat let's click on
+extend
+again just align it on top of
+t-shirt and uh in the image
+texture load another fabric texture I'm
+going to use the same roughness that we
+used in the previous one fabric pattern
+roughness press contr T to bring the
+mapping coordinates make a duplicate of
+this in this I'm going to load uh fabric
+normal maps and uh let's bring one
+normal map put this in the normals
+non-color data click right here drag
+this into
+roughness and uh you'll start seeing
+this bump texture and roughness a bit so
+just scale It Up and Down based on your
+taste I'm going to reduce the strength
+of this uh normal
+map also if you want you can assign a
+different material for this right here
+at the bottom alt click on one of these
+faces to select the entire Loop press
+control+ you can simply make one more
+material use the same material t-shirt
+final and uh duplicate this one and in
+this in the base color instead of uh
+black use something brighter and assign
+it for this you don't need all of this
+because uh we not using any text or
+t-shirt print this just the outline so
+slight variation that's all now let's go
+back to the 3D view let see the
+render so yeah it's slowly taking shape
+now for shorts what I'm thinking is
+let's select the t-shirt that we have
+here the border of the t-shirt at the
+bottom I'm going to select all these
+nodes and copy these because we kind of
+need the same texture for fabric so
+let's simply create a new material for
+shorts shs final and uh Delete all these
+nodes and paste the nodes that you
+brought from the t-shirt now all you
+need to do is just make it black color
+and uh what I was thinking is that base
+color could have something different
+than t-shirt so that it would appear
+like a denim or something so I'm going
+to plug the same thing in the base color
+and in the color ramp what if we make it
+black but in the
+center we can have
+something something of brown
+shade
+yeah that's all so instead of simple
+black material you have a bit of
+variation this feels like slightly rough
+material so I'm going to make a
+duplicate of this shorts
+final and uh I'll quickly grab these
+edges control+ to expand selection I'm
+going to apply the the duplicate
+material here and in this I'm going to
+Simply change color a
+little that's
+all now let's talk about uh jacket so
+before we work on any of these materials
+I'm going to assign a few different
+materials for the different sections
+first is going to be jacket
+main assign this all over the jacket so
+this is jacket Main and then second one
+is going to
+be jacket zip
+lining
+and this we are going to assign at
+the let's select both of these Edge
+loops and uh if you press control+ plus
+then uh this should select all of these
+uh where this zipper is so just assign
+this right here for now just make it
+slightly darker color so we'll get to
+the material part in a bit and same
+thing right here just select all of this
+control+ on number pad and then assign
+and then for these sleeves right at the
+end we are going to make a
+selection we are going to assign a new
+material jacket sleeves let's say
+something like this so now that we have
+all this let's jump to the main uh
+jacket material first so one thing I'm
+noticing right here uh in Geometry node
+editor the zipper that we had made it
+seems like uh when we scaled this whole
+thing down uh that
+made these things a bit weird so I'm
+just going to
+scale this down a
+bit something like
+this let's get back to Shader editor and
+make more room for this
+thing so first things first I'm going to
+bring one uh geometry node and in this
+geometry node I'm going to assign this
+pointiness to the base color to preview
+this we are going to jump to rendered
+preview in Cycles because this only
+works with cycles and not in viewboard
+so what we can do with this is wherever
+there are pointy area in the geometry
+around those angles we can find some
+edges so if I map range
+this control shift click on this one to
+preview
+this so just play with these numbers
+until you find these Shades showing
+curvature of the geometry based on
+pointiness then once you have that let's
+assign a color ramp so here I'm going to
+bring some some colors just going to
+find a few warm color probably just the
+yellow variations just play with the
+position of these headers and colors
+until these concave areas to have a bit
+of Darker shade and uh brighter colors
+on the convex areas for which we used a
+geometry pointiness node so you might
+won't notice much of difference but once
+you compare it with the flat color
+you'll see it's catching some of those
+highlights so this is just to break
+those flat values in the
+material let's see if we can exaggerate
+this a bit
+more all right so once this is done what
+you can do is bring a simple noise
+texture and uh plug this into
+roughness now all those flat gradients
+are broken down into rough
+highlights now in the normal map we are
+going to add one
+texture image texture if you can
+guess in this I'm going to open leather
+texture that we brought from uh 3D model
+heaven.com normal map of leather
+texture just make sure you're using
+non-color space reduce the strength a
+bit what I think is we can reduce the
+scale of uh this
+texture so now this is done and we are
+going to create a new image texture and
+this is going to be for the stitches so
+just click on new jacket stitches final
+this we can uh combine with the base
+color just hold shift and control and
+click and drag this is going to bring a
+mix Shader so instead of mix right here
+plug this into
+factor and then switch this so we want
+this as base color and whatever stitches
+will appear those will be in the white
+color just make sure it's 100% white and
+then we can just quickly go to the image
+editor jacket stitches final just make
+sure to save
+this all right and go back to the Shader
+editor then you can go full screen now
+enter the texture paint mode and don't
+forget to save the file all right you
+never know when your file is going to
+crash so since we have already painted
+stitches on uh cap part so that texture
+is still loaded here and if you want to
+use this in the future you just click on
+this Shield button fake user so that
+this always stays here in this file so
+it seems like uh all the settings from
+previous session are still there this
+seems
+fine and since we have symmetry enabled
+it's working on the both
+sides
+if you want you can improve your
+viewport preview from here there's one
+thing you can do is from Cycles just
+switch to EV for now and here enable
+ambient occlusion and then switch back
+to Cycles so now in the viewport shading
+you have am occlusion from the EV and uh
+in the final render you still have your
+Cycles Render so back to the stitches in
+texture paint mode maybe increase the
+brush size a
+little
+I'm quite liking this view texture
+painting performance seems quite smooth
+basically in
+blender and then one line we can create
+here if you're not able to reach certain
+part then you can always go to the image
+editor and click on paint so you can
+paint and stitches here as well just see
+which part is this so this
+area as you can see it appears right
+here we can create one line at the
+bottom all right so this is fine a bit
+of symmetry issue right here in the
+model that's okay that's a cost for
+being too picky about things few
+stitches right here
+so if you have Stylus with you it's
+going to be much faster to to draw with
+a pen and uh yeah grip on pen is much
+more
+comfortable and then one last thing we
+can create few stitches right
+here so just save your texture and then
+go back to the Shader editor now one
+thing I would like to do here is add one
+bump map put it right here so this
+texture that we have painted I can use
+this in height map
+here along with the normal map that we
+have these stitches are creating a
+little bit of bump in material just a
+little bit of detail that might would
+create a bit of difference when seen
+from distance instead of having just the
+paint you have now a bit of bump texture
+when this interacts with the light it's
+going to look better and a few Strokes
+we can paint
+here
+so I'm rushing things a bit here since
+I'm working on for a tutorial you can
+take your time to be a bit more precise
+and uh yeah beauty is in the details so
+take your
+time and uh yeah now for uh jacket zip
+lining for this we can use a pretty
+simple kind of a same thing let's see
+I'm just going to copy pump P Leather
+texture and noise texture from this part
+and put this right
+here let's bring a map
+range reduce the specular and increase
+the
+roughness now for sleeves right here
+copy this entire thing copy this paste
+it here I'll get rid of these
+stitches and uh in the bump texture
+instead of leather I'm going to switch
+this with a different texture of fabric
+and this I brought from ambient
+c.com and uh it's sort of a Woolen thing
+so if I plug this normal map you'll see
+a quite nicely detailed texture right
+here so since UVS are laid out properly
+it's aligning quite well with
+cuffs we can simply use this bump map
+I'll just make this color slightly
+darker and I'm also thinking what if we
+use uh if you press control shift T it's
+going to duplicate this node while all
+the previous connections are intact so
+I'm just thinking what if we plug the
+same color in base
+color and uh let's bring this fabric
+color let's try and see
+what if I bring one map
+range I think since the texture have
+some values right here instead of using
+flat color using a texture might would
+make more sense maybe dial this down a
+little and that's it now go back to the
+full
+view let's hit a
+render yeah this is turning out well the
+next thing let's uh do a easy one these
+socks going to select these and isolate
+this part so for these socks right here
+I'm going to make a new
+material and in this first thing I'm
+going to do is bring one wave texture
+plug this in base color control T to
+bring the mapping
+coordinates and instead of generated
+click on UV now I'm going to bring one
+color ramp and plug this right here in
+the wave texture instead of sign we can
+use
+triangle instead of linear in color ramp
+we'll use
+constant so now we have these stripe
+bands now let's bring one image
+texture and use the same coordinates and
+in this bring the same fabric color that
+we have used on the
+sleeves all
+right just work on the scale of the
+fabric and uh
+so we are going to use this Fabric in
+the base color of these
+socks and to change the color of this
+texture I'm going to Simply add one
+color RAM and in this we can change this
+to a slightly brownish
+color now press control shift d on this
+so that we can make a duplicate with the
+same coordinates and change this to
+normal map from srgb change this to non
+color add one normal map and put this in
+the
+normals and then we can make one more
+copy of this use the roughness map and
+plug that into roughness so these
+textures are from Ambi and CG now that
+we have these two things Stripes from
+wave texture and color from this fabric
+texture we can control shift click and
+drag to combine both of these with mix
+node but instead of using mix I'm going
+to use a multiply
+node so let's switch these so now along
+with that texture we have these
+Stripes so it seems fine just that the
+size of the texture is way too big so
+for all of these textures if I try to
+reduce the size it's also going to
+reduce the waves so what I can do is
+just control these shift F and drag on
+these connections which are working
+towards these textures and simply bring
+Vector
+math and click on
+scale and make it slightly
+finer now the only thing which is left
+is this bag and these shoes so yeah we
+are pretty much done so gather your
+strength we almost there quite excited
+to see the final render honestly let's
+grab these shoes these laces and uh s
+boock and isolate this all right so in
+the shoe model we have quite a few of
+different sections so first thing let's
+get rid of this material that we have
+here and create a new one so let's call
+this shoe brown I just select one of
+these faces and uh hit L to select
+linked faces to see how far this reaches
+uh it seems like uh some of these seams
+are not really connected select this
+this and this and uh I'll just disable
+the live unwrap Maxim this this is just
+to make the selection and right here as
+well I'm just trying to reach
+the this
+Edge Maxim now the reason I did that is
+so that when I hit L this is going to
+select only this part assign shoe brown
+material for now just give it a simple
+Brown material and then select this make
+a new material assign this give it a bit
+of green ish army green tint sort of
+shoe
+green once that is done we can select
+this line with alt click expand the
+selection with
+control+ assign a new
+material cloth lining for now give it a
+gray color and this sort of the same
+thing is running all the way till here
+as well
+so just hit control+
+and assign cloth lining so I'll assign
+the same thing on this as well cloth
+lining and let's see if I can find
+something
+more just going to assign the same
+material on these faces which were left
+out so we have this separation now we
+just need to detail out these materials
+for the soulle part uh what I'm thinking
+is let's hit L and
+see let's create a separate material for
+this part and
+then separate material for this part so
+now that we have materials assigned
+let's uh detail this out a bit so for
+the green part I'm simply going to
+select this and make it slightly darker
+color bring one image texture we are
+going to load uh the same leather
+texture that we brought from 3D model
+heaven.com so we have leather roughness
+leather normal so first this one and uh
+then in leather normal plug this in
+specular plug this in normal bring a
+normal map in between for this thing to
+work reduce the strength a bit hit
+control T use the same coordinate right
+here and let's
+see we can map range this a
+little so the scale of the texture is
+bit too
+much yeah we need something finer like
+this so let's copy the same thing and go
+to the shoe brown and paste it right
+here let's plug this thing in uh
+roughness this in normal so in this I
+think I can use slightly brighter
+color sort of like this and specular is
+bit too
+much so yeah reduce the roughness a
+little this should work now for the
+cloth lining part I'm thinking we can
+use the same fabric texture
+bring this fabric texture put it in the
+base color controll t for mapping
+coordinates and scale it down like
+this yeah so I'll just make a quickly
+duplicate of this combine it with a mix
+node and uh scale this further like
+this so a bit of variation of uh the
+same sort of fabric bre and then we can
+simply add one color ramp and make this
+one bit
+grayish and then in the normal map I'll
+just make a duplicate of these one of
+this and uh in the normal map I'm going
+to add the fabric normal plug this in
+normal and uh let's make another
+duplicate of this bring roughness
+map
+if you want you can tweak this further
+with Hue saturation
+node so yeah that's about it for this
+one let's select the shoelaces so what
+we have done here in cloth lining I'm
+going to copy all of this and for
+shoelaces create a new material Sho laes
+final and just paste everything right
+here
+so I'll just create a bit of variation
+right here what I think is we can use
+uh what if we bring a different texture
+normal that we used uh in the
+sleeves all right so it seems like the
+UVS are not really consistent for these
+shoelaces so what if we go to UV editor
+and uh we can convert this to mesh
+select these one by
+one s y
+SX Sy y SX so just trying
+to match the scale of
+everything I'm using L on keyboard to
+select linked faces and in the UV editor
+sync selection is on at the top left so
+so the smaller this island is the more
+texture is going to capture so I'm just
+going to take a visual call on
+this seems like there are way too many
+islands so we can get rid of half of
+this delete faces and use mirror
+modifier let's go back to the Shader
+editor and uh just make it slightly
+brighter
+yeah so this looks much better than
+before and uh now the only part which is
+left is this Soul part so Soul green
+uh so bottom first let's select this
+bottom part and for this I'm simply
+going to use a bit of uh dark
+material maybe we can simply plug a
+noise texture in roughness and detail
+this
+out like
+this reduce the specular and then for
+the sole main I'm going to Simply use a
+green
+color something of this sort what I'm
+thinking is I can add a bit of texture
+right here so I'm just going to select
+uh these two lines with alt click and uh
+assign a new
+material so I'll just bring the same
+copy
+in this as well we are going to assign
+this material and uh simply bring one
+image texture and a normal map so
+basically we want to have a bit of bump
+texture running around this area so sort
+of a texture that you see in rubber of
+Footwear so in textures I have uh this
+this thing uh let me just show
+you yeah I need to plug this into color
+and uh scale this so This rubber texture
+that you typically see in
+footware so this I'm going to plug right
+here so I see a bit of problem in
+UV uh something is going on
+here not sure what's
+happening just going to unwrap this
+again so if you're not sure where to
+find this or how to make this texture
+what you can do is create a plane
+subdivide this a few times extrude
+individual
+faces and then you change the pivot
+point to individual Origins and scale
+these down once you have this what you
+can do is go to the viewport shading and
+here you have these mat caps so from the
+mat caps you can change this to uh
+Studio light check normal can either go
+to the top view and screen grab this or
+something or maybe you can do do the
+same from the baking let's let me show
+you in Shader editor if you bring a
+material press controlt and here you
+have uh normals just plug those in base
+color go to the top view and you can
+bake this using Cycles uh you have
+baking right here all right I'm pretty
+sure you can easily find tutorials on
+these how to bake normal Maps so yeah
+this seems fine now the only part which
+is left is this part so let's select
+this one and uh I'm going to assign a
+new material on this one to Inner flap
+first let me just select this outer line
+cloth lining let's assign this so in the
+Sho inner flap I'm going to copy the
+same material which is shoe brown copy
+this paste it right here and make it
+slightly
+darker and one last thing I would like
+to do here is just select four of these
+faces maybe create or duplicate separate
+this selection what I'm thinking is if I
+can uh add a tag here let's see let's go
+to the front view straighten the these
+edges select this pull this out control
+R control R here and one
+here just trying to wrap it around the
+shoe so that it looks like it's sticking
+like a a tag or something let me assign
+a new
+material and let's call this one shoe
+tag Final in this one we can use cloth
+lining material copy everything shoe tag
+final paste it right
+here so in the base color we can simply
+use black color and right here I'm going
+to get rid of uh whatever we had made
+for the diffuse color and instead I'm
+going to bring one image texture a
+simple text that I've
+written something like this base color
+all right so I think I need to unwrap
+this what if I go to the UV editor and
+bring blend. jpg that we have uh just
+brought in unwrap
+this try to match it
+up with the proportionate editing just
+try to push this in the
+shoe that's it so at this moment with
+the mirror modifier other tag is living
+as well so in the mirror modifier just
+click on mirror u in the data and that
+should solve the problem so more or less
+we are done with the shoe as well change
+this texture from repeat to extend so
+that these stitches don't repeat and if
+you want you can spend a little more
+time on UV editing I've done pretty lazy
+job
+here and uh in the bump just add one
+bump node use the same as height
+reduce the strength a little let's bring
+back the entire character and see let's
+see how far we have
+reached so not bad at all and uh let's
+work on the bag now let's isolate this
+bag create a new material so in this I'm
+going to bring one new node called
+geometry and plug the random Island in
+base color so what I was thinking was
+pretty simple thing so I just wanted all
+of these islands whatever there is in
+the geometry so for every different
+section we'll have a different value
+this is just to differentiate different
+parts and islands of the bag a flat
+color might would look boring now if you
+want you can plug a simple map range and
+try to reduce the contrast and make it
+more subtle so this doesn't show up in
+EV so so I'm going to have to work with
+Cycles now let's bring one mus grave
+texture make these patches slightly
+bigger
+then we are going to combine both of
+these using a mix node change this to
+Overlay and use the combined values in
+diffuse color so now we have this base
+variation in values so this is nothing
+just to break the flat colors just like
+before we used pointiness and everything
+so this is just a different way all
+right if you want you can remove the
+musk grave texture if you find it too
+much
+or we can use mix as
+well now let's bring a ramp color ramp
+and in this I'm going to add a sort of
+green color and find few more variations
+of green at the different values now
+right here I'm going to bring the same
+uh textures that we have for the leather
+leather normal and uh leather color
+roughness so I think uh we had leather
+roughness right here I'm going to plug
+this in roughness plug this in
+normal normal
+map reduce the strength 2.4 and press
+contr T to bring the texture coordinates
+use the same coordinates for both
+textures and then we can scale this up
+and
+down like this I think specular looks
+bit too much uh it's way too
+glossy so just dial this down a little
+with roughness map using map range
+yeah so this looks fine now the only
+thing I'm going to do is bring a image
+texture click on new and uh call this
+one bag stitches
+final bring one mixed color
+node use this as a factor and plug this
+base color right here this is going to
+be color of stitches go to the texture
+paint and start painting the
+seams
+all right
+and at this moment I'm seeing u a bit of
+stretch in UV so let's go to the UV
+editor first I want to do is uh back
+stitch final save this texture that we
+have and go back to the UV editor so
+these faces right here I'm uh seeing
+some stretch in UV I think I'll have to
+manually figure something
+out
+all right so I think this is enough and
+uh texture paint Let's uh do the texture
+painting while in this tutorial I'm not
+able to fix this but if I'm in generally
+working on any of the models or textures
+so things like this require some more
+time you know just spend a bit more time
+relaxing few edges here and there even
+though this is not much but it can be
+improved so sometimes in uh in some of
+the close-up shots this can create a
+problem but uh for our purpose at this
+moment it's fine uh I don't want to drag
+this tutorial for too long I'm going to
+select few of these uh assign a new
+material on this assign and then in
+Shader editor back final material I'm
+going to copy everything
+and put this right here as well so I'll
+get rid of these stitches that we made
+and uh instead I'll just darken this
+color a
+little and in
+this uh instead of leather I'm going to
+use the Woolen
+texture all right and
+uh roughness map from the
+same yeah this seems appropriate
+we can actually apply the same material
+here as well just go to UV editor and uh
+I'm going to scale this up a little
+almost done we just need to color these
+badges a little quickly grab these
+badges one of these make a new material
+bring one image
+texture and plug this in base
+color project from view UVS just do a
+pretty quick
+job reduce the roughness go back back to
+the main
+view I'm just going to delete this make
+a duplicate again make a duplicate of
+this material and apply a different
+sticker
+so seems like pretty much everything is
+done uh let's go back to Eevee in the
+screen space reflection just make sure
+this is enabled and reflection as well
+and for this material of glasses what
+I'm going to do is uh enable the screen
+space refractions and uh in the blend
+mode alpha blend and this should work
+this is just for preview purpose now for
+these glasses I'm going to quickly grab
+one simple image texture and uh plug
+this uh just quickly preview this for
+now press contr T and uh what we can do
+is simply bring one texture called cross
+mind all right now in the UV editor I'll
+select this cross mind
+texture what I'll do is I'll just grab
+few of these side
+faces
+and unwrap this right here I'm going to
+select rest everything and scale this
+down like this since this is a glass and
+nothing else have texture it doesn't
+matter how big or small this whole thing
+is and I'm just going to quickly try to
+align this S xus one to flip
+it and uh roughly place the UVS like
+this all
+right now in the Shader editor I'm going
+going to bring one diffuse bstf and
+combine both of these using this texture
+flip the sockets and this seems fine all
+right bring back everything now I'll
+quickly grab one of these faces unwrap
+this and place it right here Sy
+y now in the Shader editor image texture
+cross mind and uh let's bring one
+diffuse bsdf combine both of these
+materials using the factor of this
+texture and uh instead of uh repeat use
+extend and in the UV
+editor I'll select all the other faces
+and scale these down place it like this
+and this one right here let's align it
+this way now that UVS are
+done just switch back these and uh the
+same should work on this side now here
+in the mirror modifier in the data click
+mirror you so that the whole thing is
+not flipped and one more thing right
+here in the pant I'm just thinking what
+if we select two of these edges
+duplicate this with shift d and uh
+separate this selection let me just
+isolate this quickly extrude this a few
+times on this I'm going to create a new
+material or whatever material is
+assigned the shorts material I'm going
+to make a duplicate of this
+charts
+tag and bring one image
+texture now for now I'm just going to
+quickly preview this it seems like we
+need to unwrap this just select
+everything first recalculate outside to
+flip the normals let me add a loop here
+what I'm thinking is let's grab these
+front
+faces and unwrap these
+separately and uh let's see just
+everything else is fine let's go to
+Shader editor assign the
+material in the base color we can have
+this instead shade smooth bring back
+everything go to the front view
+orthographic view let's see yeah this is
+way to
+B one thing I completely forgot is these
+eyebrows so I'm just going to quickly
+hide these glasses for now
+so these eyebrows that we have first let
+me just make sure that everything is
+aligned
+properly we can also use shrink wrap
+modifier this will rest perfectly fine
+above the surface which is underneath it
+but for now let me just do a quick
+job now on this one what I'm thinking is
+these two let's join both both of these
+it seems like something is wrong with
+the normal
+recalculate outside control a and apply
+the mirror
+modifier and uh now let's apply
+one particle system here scale down the
+length all
+right and in the hair child
+interpolate let's go to the particle
+edit just grab a comp
+brush just keep the flow like this
+slightly up more towards right right
+right right and
+this yeah just Comal this
+nicely from the both
+sides
+so just save your file and if you find
+something which you need to cut down you
+can just take a cut brush and cut down
+few of these
+strands and in the material section just
+make a new
+material eyebrow here and in the
+particle view just go to the render
+section eybrow here and uh get rid of
+this principle bsdf and bring principal
+hair
+bsdf render this
+out so this is way too dense for our
+need so we'll have to reduce the
+density so these still look too rough I
+think we need to edit the particles a
+bit
+more
+let's render this
+out so it seems like it's working so
+here in the
+color change this to uh this melanin
+concentration in the sculpt mode again
+particle edit I'm just going to take
+this brush length if I press shift this
+is going to reduce the length so at the
+end I'm finding the length is bit too
+much and I can reduce it like this then
+take the com brush
+again and if you want you can trim down
+some of some of these
+parts all right so let's bring back our
+character and uh bring back
+glasses
+the scale of eyebrows is a bit off so
+I'm just going to try and adjust it
+let's see let me just quickly reset the
+origin and
+uh yeah just make sure it's resting on
+the
+skin and uh yeah these uh quick bands
+just just do a quick job on this let's
+just create a simple material for this
+simple
+uh geometry random per
+Island H
+saturation now this random island is
+going to give us color variation in Hue
+saturation and then we can just map
+range it to adjust the
+influence now let's bring a new texture
+and this is going to be same view
+texture for
+fabric quickly adjust the scale of
+texture unwrap your model and uh yeah
+this should be easy one
+going to make a quick preview and see if
+there's anything left to do now here I
+have the same file now I'm using blender
+version
+4.0 and uh everything looks the same and
+you can see the node is updated now with
+this new principal bsdf node with the
+collapsible menus so in terms of
+appearance nothing have changed
+everything looks exactly the same now
+what we going to do is just to benefit
+from the new principal bsdf node uh as I
+mentioned in the previous chapter there
+are few improvements in the sheen
+section right here so we are going to
+use this for few of these clothing items
+so let's select this Muffler and uh
+right here I'm going to expand Sheen
+let's isolate this so just going to
+increase the weight of Sheen right here
+as you can see it gives you nice frenel
+kind of uh effect you can even change
+the color from
+here so this actually adds a bit in
+overall softness of the material and
+around the edges uh it brings in nice
+gradiation and it's not just for that uh
+I think it kind of adds a nice rim to
+overall thing and it helps it stand out
+from the background and you can also use
+this with a few noise textures to add
+dust on your clothing items or any
+surfaces I think this is a nice value
+addition and I'm definitely going to use
+this just going to reduce the roughness
+a bit I don't want this to spread so
+much towards the
+front and yeah
+without Sheen with Sheen same thing we
+can use in pants right
+here for the main short
+material let's use the same thing if you
+want you can use some colors
+here yeah so as you can see this
+separates out uh and creates a nice rim
+for all these surfaces previously I used
+to add a different layer of glossy
+material on top of this and then use
+frenel to add this kind of effect effect
+on U shaders but now with the ease of
+this I don't need to do that same thing
+for these socks Sheen a bit of
+weight same for the shoes shoe
+green yeah this looks nice so I might
+have overdone it here just going to
+reduce it a bit
+and uh same thing for uh this
+part I think it's a nice touch and for
+jacket I'm not quite
+sure let's see if we can uh use this for
+bag as
+well
+so yeah I think uh it separates out uh
+all of these objects there's a nice
+highlight going on around each of these
+feel free to use it it's a nice new
+feature and it's much more improved and
+also as you can already compare there
+isn't much change in the previous
+version of the node and the new version
+of the node our entire Shader is still
+intact and it's actually all the inputs
+are aligned to exact same inputs it's
+just that it's there's a bit of
+shuffling in the placement of these
+properties which we discussed in the
+previous chapters so yeah I think we are
+done with this so here we are everything
+is wrapped up it looks complete feels
+like it's about to move and walk and
+come to life even though I'm creating
+this for tutorial series I'm quite
+liking this character and I'm quite
+happy with how this turned out and also
+feels like I've learned a lot uh during
+this process as well I hope all of you
+feel the same way I'm eager to to see
+more from community and what you guys
+have been making put it on Discord or
+Instagram so that we can talk about it
+and celebrate it it really boost me up
+so let's make a nice rendered
+presentation out of this in the next
+video we are going to create a simple
+turntable presentation along with a
+basic light setup and render this out
+jump to Discord server if you'd like to
+discuss anything related to this on
+channel dedicated to this series check
+pin commment for frequently asked
+questions and problems check description
+for PDF of keyboard shortcuts discount
+coupons and other mentioned resources
+for for this tutorial if you enjoyed
+this chapter do check out the full
+playlist and hope you continue all the
+way to the end also consider buying the
+premium version and unlock the
+additional chapters and project files
+and bonus content which will take you
+through the process of rigging with
+rigify creating a nice walk cycle
+animation creating secondary animations
+using plot physics and Bone constraints
+and rendering your entire project using
+Cycles Render engine share your work
+with me on Instagram tag me with instros
+mind and participate in discussion on
+Discord channel for this course links
+are in the description please give it a
+like And subscribe and stay tuned for
+more share your thoughts in the comment
+section and don't forget to share it
+with your colleagues and on social media
+to help us reach the wider audience
+thank you for all your support and love
+let's jump to the next video

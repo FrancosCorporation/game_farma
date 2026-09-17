@@ -1,0 +1,2213 @@
+Kind: captions
+Language: en
+In this video, I'll be recreating this
+In this video, I'll be recreating this
+In this video, I'll be recreating this
+new fern red style inside of Blender.
+new fern red style inside of Blender.
+new fern red style inside of Blender.
+You're going to learn how to design the
+You're going to learn how to design the
+You're going to learn how to design the
+characters, build environment, and
+characters, build environment, and
+characters, build environment, and
+lighting setup so you can achieve the
+lighting setup so you can achieve the
+lighting setup so you can achieve the
+same aesthetic style that got 1.3
+same aesthetic style that got 1.3
+same aesthetic style that got 1.3
+million views. So, if you want to follow
+million views. So, if you want to follow
+million views. So, if you want to follow
+along, all useful links are going to be
+along, all useful links are going to be
+along, all useful links are going to be
+available in the description. Now, let's
+available in the description. Now, let's
+available in the description. Now, let's
+start. Okay. To make this scene, I'm
+start. Okay. To make this scene, I'm
+start. Okay. To make this scene, I'm
+going to be using Blender Kit a lot. So,
+going to be using Blender Kit a lot. So,
+going to be using Blender Kit a lot. So,
+the link is in the description. You have
+the link is in the description. You have
+the link is in the description. You have
+the free plan with a lot of free uh high
+the free plan with a lot of free uh high
+the free plan with a lot of free uh high
+quality assets that you can just drag
+quality assets that you can just drag
+quality assets that you can just drag
+and drop into your Blender scene and are
+and drop into your Blender scene and are
+and drop into your Blender scene and are
+already texture and with the right size.
+already texture and with the right size.
+already texture and with the right size.
+But they also have this full plan that I
+But they also have this full plan that I
+But they also have this full plan that I
+highly recommend because it's super
+highly recommend because it's super
+highly recommend because it's super
+cheap compared to all the amount of
+cheap compared to all the amount of
+cheap compared to all the amount of
+assets you have and the speed in which
+assets you have and the speed in which
+assets you have and the speed in which
+you can just drag and drop all the files
+you can just drag and drop all the files
+you can just drag and drop all the files
+into your Blender setup. Honestly, since
+into your Blender setup. Honestly, since
+into your Blender setup. Honestly, since
+I started using this, I was able to
+I started using this, I was able to
+I started using this, I was able to
+build scenes a lot faster. So yeah, I
+build scenes a lot faster. So yeah, I
+build scenes a lot faster. So yeah, I
+highly recommend it. Then Fern on his
+highly recommend it. Then Fern on his
+highly recommend it. Then Fern on his
+original video probably used character
+original video probably used character
+original video probably used character
+creator. I will also link the link of
+creator. I will also link the link of
+creator. I will also link the link of
+that in the description. It's a
+that in the description. It's a
+that in the description. It's a
+character creation software that
+character creation software that
+character creation software that
+specializes on this realistic characters
+specializes on this realistic characters
+specializes on this realistic characters
+and gives you great results. But yeah, I
+and gives you great results. But yeah, I
+and gives you great results. But yeah, I
+don't have a character creator. Instead,
+don't have a character creator. Instead,
+don't have a character creator. Instead,
+I have an alternative which is the human
+I have an alternative which is the human
+I have an alternative which is the human
+generator add-on which is specifically
+generator add-on which is specifically
+generator add-on which is specifically
+made for Blender. So I will also link
+made for Blender. So I will also link
+made for Blender. So I will also link
+that in the description. So yeah, in
+that in the description. So yeah, in
+that in the description. So yeah, in
+this tutorial I'm going to be using
+this tutorial I'm going to be using
+this tutorial I'm going to be using
+that. But just so you know, Fern
+that. But just so you know, Fern
+that. But just so you know, Fern
+actually used character creator. So here
+actually used character creator. So here
+actually used character creator. So here
+in Blender, I'm just going to delete
+in Blender, I'm just going to delete
+in Blender, I'm just going to delete
+everything. And now here in the Blender
+everything. And now here in the Blender
+everything. And now here in the Blender
+kit add-on, I'm going to search for a
+kit add-on, I'm going to search for a
+kit add-on, I'm going to search for a
+table. Round wooden table. And I'm going
+table. Round wooden table. And I'm going
+table. Round wooden table. And I'm going
+to look for one that matches what I'm
+to look for one that matches what I'm
+to look for one that matches what I'm
+looking for. Okay, I think the most
+looking for. Okay, I think the most
+looking for. Okay, I think the most
+similar one is this one. But we have to
+similar one is this one. But we have to
+similar one is this one. But we have to
+make a couple adjustments on the
+make a couple adjustments on the
+make a couple adjustments on the
+material because as you can see this
+material because as you can see this
+material because as you can see this
+part right here is not wood. So what I'm
+part right here is not wood. So what I'm
+part right here is not wood. So what I'm
+going to do is press shift S and cursor
+going to do is press shift S and cursor
+going to do is press shift S and cursor
+to select it and then shift A mesh and
+to select it and then shift A mesh and
+to select it and then shift A mesh and
+let's add a cylinder like this and S
+let's add a cylinder like this and S
+let's add a cylinder like this and S
+seed.
+seed.
+seed.
+Okay. S
+Okay. S
+Okay. S
+and let's try to match
+and let's try to match
+and let's try to match
+right here. and then SC seed
+right here. and then SC seed
+right here. and then SC seed
+GC. I think this is good enough. Let me
+GC. I think this is good enough. Let me
+GC. I think this is good enough. Let me
+hide this and just delete this part
+hide this and just delete this part
+hide this and just delete this part
+right here. So, let me press Ctrl+ A and
+right here. So, let me press Ctrl+ A and
+right here. So, let me press Ctrl+ A and
+apply scale. And now let's add a
+apply scale. And now let's add a
+apply scale. And now let's add a
+subdivision surface modifier and leave
+subdivision surface modifier and leave
+subdivision surface modifier and leave
+it at one and then shade smooth. And now
+it at one and then shade smooth. And now
+it at one and then shade smooth. And now
+go to edit mode and two and select these
+go to edit mode and two and select these
+go to edit mode and two and select these
+two edges. And then CtrlB.
+And just a little bevel right here.
+And just a little bevel right here.
+And just a little bevel right here.
+Just to make this part like this. And
+Just to make this part like this. And
+Just to make this part like this. And
+then maybe a loop cut.
+then maybe a loop cut.
+then maybe a loop cut.
+And three look cuts. And now let's add a
+And three look cuts. And now let's add a
+And three look cuts. And now let's add a
+wood material with the Blender Kit
+wood material with the Blender Kit
+wood material with the Blender Kit
+add-on. So I'm going to search for wood.
+add-on. So I'm going to search for wood.
+add-on. So I'm going to search for wood.
+And I think I like this one. So I'm just
+And I think I like this one. So I'm just
+And I think I like this one. So I'm just
+going to select it. And right now it's
+going to select it. And right now it's
+going to select it. And right now it's
+looking like this. We just have to go to
+looking like this. We just have to go to
+looking like this. We just have to go to
+the shader editor right here. Let me
+the shader editor right here. Let me
+the shader editor right here. Let me
+hide this. And then let's decrease this
+hide this. And then let's decrease this
+hide this. And then let's decrease this
+so it looks a bit better. Something like
+so it looks a bit better. Something like
+so it looks a bit better. Something like
+this.
+this.
+this.
+7. And now I think it's looking better.
+7. And now I think it's looking better.
+7. And now I think it's looking better.
+And I'm going to leave the rest as it
+And I'm going to leave the rest as it
+And I'm going to leave the rest as it
+is. With the Blender Kit add-on, I'm
+is. With the Blender Kit add-on, I'm
+is. With the Blender Kit add-on, I'm
+going to add a wooden chair. And I'm
+going to add a wooden chair. And I'm
+going to add a wooden chair. And I'm
+going to select this one, which is the
+going to select this one, which is the
+going to select this one, which is the
+exact one they used on the documentary.
+exact one they used on the documentary.
+exact one they used on the documentary.
+So 7 R and then minus 90. And then G,
+So 7 R and then minus 90. And then G,
+So 7 R and then minus 90. And then G,
+and somewhere right here. And now I'm
+and somewhere right here. And now I'm
+and somewhere right here. And now I'm
+going to change the pivot point from
+going to change the pivot point from
+going to change the pivot point from
+medium point to 3D cursor. And I'm going
+medium point to 3D cursor. And I'm going
+medium point to 3D cursor. And I'm going
+to press shift S and press cursor toward
+to press shift S and press cursor toward
+to press shift S and press cursor toward
+origin. And now uh all the
+origin. And now uh all the
+origin. And now uh all the
+transformations are going to happen from
+transformations are going to happen from
+transformations are going to happen from
+this point right here from the 3D
+this point right here from the 3D
+this point right here from the 3D
+cursor. And this is useful because I
+cursor. And this is useful because I
+cursor. And this is useful because I
+want to duplicate this like this. Alt D
+want to duplicate this like this. Alt D
+want to duplicate this like this. Alt D
+and then R.
+and then R.
+and then R.
+And now I'm going to make this.
+And now I'm going to make this.
+And now I'm going to make this.
+And it's going to be easier, you know,
+And it's going to be easier, you know,
+And it's going to be easier, you know,
+put the chairs in the right place. Now
+put the chairs in the right place. Now
+put the chairs in the right place. Now
+I'm just going to change the pivot point
+I'm just going to change the pivot point
+I'm just going to change the pivot point
+again to medium point. And what medium
+again to medium point. And what medium
+again to medium point. And what medium
+point does is like it will scale from
+point does is like it will scale from
+point does is like it will scale from
+the pivot point which is this orange dot
+the pivot point which is this orange dot
+the pivot point which is this orange dot
+on the mesh basically. Now I'm going to
+on the mesh basically. Now I'm going to
+on the mesh basically. Now I'm going to
+add a plane. Let's go to edit mode.
+add a plane. Let's go to edit mode.
+add a plane. Let's go to edit mode.
+Let's select this edge right here.
+Let's select this edge right here.
+Let's select this edge right here.
+Pressing two first and then E and C. And
+Pressing two first and then E and C. And
+Pressing two first and then E and C. And
+let's make a wall right here. There you
+let's make a wall right here. There you
+let's make a wall right here. There you
+go. And now let's add a solidify
+go. And now let's add a solidify
+go. And now let's add a solidify
+modifier just so this has a little bit
+modifier just so this has a little bit
+modifier just so this has a little bit
+of of thickness. Now I think I want to
+of of thickness. Now I think I want to
+of of thickness. Now I think I want to
+position the camera right now. So I'm
+position the camera right now. So I'm
+position the camera right now. So I'm
+just going to put this right here. And
+just going to put this right here. And
+just going to put this right here. And
+then I'm going to press shift A and add
+then I'm going to press shift A and add
+then I'm going to press shift A and add
+a camera like this. And then Ctrl Alt C
+a camera like this. And then Ctrl Alt C
+a camera like this. And then Ctrl Alt C
+and add another view right here. And
+and add another view right here. And
+and add another view right here. And
+this is going to be my camera view. So,
+this is going to be my camera view. So,
+this is going to be my camera view. So,
+I'm just going to uncheck uh the gizmo
+I'm just going to uncheck uh the gizmo
+I'm just going to uncheck uh the gizmo
+and the overlays and push this right
+and the overlays and push this right
+and the overlays and push this right
+here. And then go to camera properties,
+here. And then go to camera properties,
+here. And then go to camera properties,
+viewport display, increase the passport
+viewport display, increase the passport
+viewport display, increase the passport
+to one. Then I'm going to go out of the
+to one. Then I'm going to go out of the
+to one. Then I'm going to go out of the
+camera view right here. And now I'm
+camera view right here. And now I'm
+camera view right here. And now I'm
+going to try to get this right. This
+going to try to get this right. This
+going to try to get this right. This
+chair should be like more rotated like
+chair should be like more rotated like
+chair should be like more rotated like
+this way maybe. And uh for now, let's
+this way maybe. And uh for now, let's
+this way maybe. And uh for now, let's
+put this GX
+put this GX
+put this GX
+roughly right here. And let's see what
+roughly right here. And let's see what
+roughly right here. And let's see what
+that does. I'm going to add a character
+that does. I'm going to add a character
+that does. I'm going to add a character
+right now. And as I already told you,
+right now. And as I already told you,
+right now. And as I already told you,
+I'm going to use human gen add-on. So,
+I'm going to use human gen add-on. So,
+I'm going to use human gen add-on. So,
+I'm just going to go here to the human
+I'm just going to go here to the human
+I'm just going to go here to the human
+gen and select a preset right here. I
+gen and select a preset right here. I
+gen and select a preset right here. I
+think I want this one. And generate new
+think I want this one. And generate new
+think I want this one. And generate new
+human. Now that it's generated, I'm
+human. Now that it's generated, I'm
+human. Now that it's generated, I'm
+going to isolate it. And also I forgot
+going to isolate it. And also I forgot
+going to isolate it. And also I forgot
+to send this cylinder to the round table
+to send this cylinder to the round table
+to send this cylinder to the round table
+right here collection. And then the
+right here collection. And then the
+right here collection. And then the
+plane I'm going to leave it out of all
+plane I'm going to leave it out of all
+plane I'm going to leave it out of all
+the collections. And the camera I'm just
+the collections. And the camera I'm just
+the collections. And the camera I'm just
+going to give it a camera location.
+going to give it a camera location.
+going to give it a camera location.
+Although we are just going to have just
+Although we are just going to have just
+Although we are just going to have just
+one camera. Now I'm going to go to
+one camera. Now I'm going to go to
+one camera. Now I'm going to go to
+material preview and start working on
+material preview and start working on
+material preview and start working on
+this character. I'm going to leave it as
+this character. I'm going to leave it as
+this character. I'm going to leave it as
+it is with this hair and all the stuff.
+it is with this hair and all the stuff.
+it is with this hair and all the stuff.
+I want to change the beard so it's
+I want to change the beard so it's
+I want to change the beard so it's
+looking similar to our character from
+looking similar to our character from
+looking similar to our character from
+the original video. So I'm just going to
+the original video. So I'm just going to
+the original video. So I'm just going to
+go to hair right here and face. And I'm
+go to hair right here and face. And I'm
+go to hair right here and face. And I'm
+going to select a full beard right here.
+going to select a full beard right here.
+going to select a full beard right here.
+And let's make this completely dark like
+And let's make this completely dark like
+And let's make this completely dark like
+this. I think this is good enough. Now
+this. I think this is good enough. Now
+this. I think this is good enough. Now
+I'm also going to give it some clothes.
+I'm also going to give it some clothes.
+I'm also going to give it some clothes.
+And I'm just going to use the clothes
+And I'm just going to use the clothes
+And I'm just going to use the clothes
+from the add-on which are enough in this
+from the add-on which are enough in this
+from the add-on which are enough in this
+case. So, I'm just going to select this
+case. So, I'm just going to select this
+case. So, I'm just going to select this
+one right here. And then for the
+one right here. And then for the
+one right here. And then for the
+footware, I think this one is good
+footware, I think this one is good
+footware, I think this one is good
+enough. And now I can just change the
+enough. And now I can just change the
+enough. And now I can just change the
+colors of these clothes easily with the
+colors of these clothes easily with the
+colors of these clothes easily with the
+add-on. So, I'm just going to lower the
+add-on. So, I'm just going to lower the
+add-on. So, I'm just going to lower the
+saturation
+saturation
+saturation
+of all of them. And this part right here
+of all of them. And this part right here
+of all of them. And this part right here
+should be like darker. This dark
+should be like darker. This dark
+should be like darker. This dark
+like this. And then this right here,
+like this. And then this right here,
+like this. And then this right here,
+lower the saturation
+lower the saturation
+lower the saturation
+and then make it
+and then make it
+and then make it
+dark like this. And now for the skin, we
+dark like this. And now for the skin, we
+dark like this. And now for the skin, we
+are going to go to the shader editor.
+are going to go to the shader editor.
+are going to go to the shader editor.
+This is super complex, but basically you
+This is super complex, but basically you
+This is super complex, but basically you
+just have to change the base color right
+just have to change the base color right
+just have to change the base color right
+here. So I'm going to press shift A and
+here. So I'm going to press shift A and
+here. So I'm going to press shift A and
+add a mix color and put it right here.
+add a mix color and put it right here.
+add a mix color and put it right here.
+And now uh this is already gray.
+And now uh this is already gray.
+And now uh this is already gray.
+So what I want to do is like increase
+So what I want to do is like increase
+So what I want to do is like increase
+the factor right here to something like
+the factor right here to something like
+the factor right here to something like
+0.9.
+0.9.
+0.9.
+And now we get this effect from the fern
+And now we get this effect from the fern
+And now we get this effect from the fern
+video. Maybe here I also want to change
+video. Maybe here I also want to change
+video. Maybe here I also want to change
+the color of the eyes. So I'm going to
+the color of the eyes. So I'm going to
+the color of the eyes. So I'm going to
+go yeah to the skin right here and then
+go yeah to the skin right here and then
+go yeah to the skin right here and then
+iris color. And let's just lower the
+iris color. And let's just lower the
+iris color. And let's just lower the
+saturation. And we are going to leave it
+saturation. And we are going to leave it
+saturation. And we are going to leave it
+like this. Maybe like a darker a darker
+like this. Maybe like a darker a darker
+like this. Maybe like a darker a darker
+tone. Something like this. And then
+tone. Something like this. And then
+tone. Something like this. And then
+maybe add a color ramp here before the
+maybe add a color ramp here before the
+maybe add a color ramp here before the
+the roughness. Just so when we lower the
+the roughness. Just so when we lower the
+the roughness. Just so when we lower the
+value right here. As you can see, it's
+value right here. As you can see, it's
+value right here. As you can see, it's
+super noticeable that this is super
+super noticeable that this is super
+super noticeable that this is super
+shiny. So let's increase this dark
+shiny. So let's increase this dark
+shiny. So let's increase this dark
+value.
+value.
+value.
+So it's not that shiny. And now we can
+So it's not that shiny. And now we can
+So it's not that shiny. And now we can
+modify this.
+So I guess like this is looking fine.
+So I guess like this is looking fine.
+So I guess like this is looking fine.
+Now another nice thing from this add-on
+Now another nice thing from this add-on
+Now another nice thing from this add-on
+is that this has like pre-made poses. So
+is that this has like pre-made poses. So
+is that this has like pre-made poses. So
+we can go to the library here and select
+we can go to the library here and select
+we can go to the library here and select
+the sitting poses and then just select
+the sitting poses and then just select
+the sitting poses and then just select
+one that is best suited for us. So in
+one that is best suited for us. So in
+one that is best suited for us. So in
+this case I think this one is good. We
+this case I think this one is good. We
+this case I think this one is good. We
+just have to go to pose mode and then A
+just have to go to pose mode and then A
+just have to go to pose mode and then A
+and then go here to pose and paste pose
+and then go here to pose and paste pose
+and then go here to pose and paste pose
+flipped like this. So now it's looking
+flipped like this. So now it's looking
+flipped like this. So now it's looking
+to the right direction. And let's hide
+to the right direction. And let's hide
+to the right direction. And let's hide
+the hair. Hey guys, it's me from the
+the hair. Hey guys, it's me from the
+the hair. Hey guys, it's me from the
+future. What you're seeing right now is
+future. What you're seeing right now is
+future. What you're seeing right now is
+actually the first time of me trying to
+actually the first time of me trying to
+actually the first time of me trying to
+make this edit. So once I render the
+make this edit. So once I render the
+make this edit. So once I render the
+final animation, I saw some areas of
+final animation, I saw some areas of
+final animation, I saw some areas of
+improvement. So now I'm going to tell
+improvement. So now I'm going to tell
+improvement. So now I'm going to tell
+you the final improvements I made for
+you the final improvements I made for
+you the final improvements I made for
+the final render specifically about the
+the final render specifically about the
+the final render specifically about the
+character. So if you are using human
+character. So if you are using human
+character. So if you are using human
+gen, you can increase how real
+gen, you can increase how real
+gen, you can increase how real
+characters look by going to this area
+characters look by going to this area
+characters look by going to this area
+right here and then skin. And if you go
+right here and then skin. And if you go
+right here and then skin. And if you go
+all the way down, you have a soft
+all the way down, you have a soft
+all the way down, you have a soft
+surface scattering. So I will put this
+surface scattering. So I will put this
+surface scattering. So I will put this
+on. And then regarding to the hair, so
+on. And then regarding to the hair, so
+on. And then regarding to the hair, so
+let's bring the hair right here. the
+let's bring the hair right here. the
+let's bring the hair right here. the
+normal setting is like not enough hair
+normal setting is like not enough hair
+normal setting is like not enough hair
+and my character in the first try was
+and my character in the first try was
+and my character in the first try was
+looking like bald. So what you can do to
+looking like bald. So what you can do to
+looking like bald. So what you can do to
+increase like the density of this hair
+increase like the density of this hair
+increase like the density of this hair
+is going to the particles right here.
+is going to the particles right here.
+is going to the particles right here.
+And now you have these two particle
+And now you have these two particle
+And now you have these two particle
+systems right here. And to increase the
+systems right here. And to increase the
+systems right here. And to increase the
+density of this, you just have to go all
+density of this, you just have to go all
+density of this, you just have to go all
+the way down here to children. And you
+the way down here to children. And you
+the way down here to children. And you
+just need to increase the display amount
+just need to increase the display amount
+just need to increase the display amount
+here. So originally this was 100 and I
+here. So originally this was 100 and I
+here. So originally this was 100 and I
+increased it to 200. And then here on
+increased it to 200. And then here on
+increased it to 200. And then here on
+this other one, originally it was at 30
+this other one, originally it was at 30
+this other one, originally it was at 30
+and I increased it to 60. So I doubled
+and I increased it to 60. So I doubled
+and I increased it to 60. So I doubled
+that and at the end the result looked
+that and at the end the result looked
+that and at the end the result looked
+much better. So yeah, those are little
+much better. So yeah, those are little
+much better. So yeah, those are little
+improvements I made for the character
+improvements I made for the character
+improvements I made for the character
+specifically. And now let's put this
+specifically. And now let's put this
+specifically. And now let's put this
+character
+character
+character
+where it needs to be
+where it needs to be
+where it needs to be
+like this.
+And now we need to improve the pose
+And now we need to improve the pose
+And now we need to improve the pose
+right here.
+So just made the pose right here. I'm
+So just made the pose right here. I'm
+So just made the pose right here. I'm
+going to go back to the 3D viewport.
+going to go back to the 3D viewport.
+going to go back to the 3D viewport.
+And now I think the the angle right here
+And now I think the the angle right here
+And now I think the the angle right here
+is looking
+is looking
+is looking
+pretty good. Our seed twice. And yeah,
+pretty good. Our seed twice. And yeah,
+pretty good. Our seed twice. And yeah,
+for now it's looking good. So now we
+for now it's looking good. So now we
+for now it's looking good. So now we
+need a window right here. So I'm just
+need a window right here. So I'm just
+need a window right here. So I'm just
+going to look for a window. And this is
+going to look for a window. And this is
+going to look for a window. And this is
+pretty similar to the one we want to
+pretty similar to the one we want to
+pretty similar to the one we want to
+use. So let's put it right here. Let's
+use. So let's put it right here. Let's
+use. So let's put it right here. Let's
+pick this empty roughly right here
+pick this empty roughly right here
+pick this empty roughly right here
+like this. And then G.
+Now I'm going to press shift S and
+Now I'm going to press shift S and
+Now I'm going to press shift S and
+cursor to select it and shift A and cube
+cursor to select it and shift A and cube
+cursor to select it and shift A and cube
+GC and S
+GC and S
+GC and S
+and now SC seed. So basically what I
+and now SC seed. So basically what I
+and now SC seed. So basically what I
+want to do is create a cube
+want to do is create a cube
+want to do is create a cube
+that is the size of this window because
+that is the size of this window because
+that is the size of this window because
+I want to cut a hole basically on this
+I want to cut a hole basically on this
+I want to cut a hole basically on this
+wall. So I'm going to apply scale right
+wall. So I'm going to apply scale right
+wall. So I'm going to apply scale right
+here. And now I'm going to move this
+here. And now I'm going to move this
+here. And now I'm going to move this
+cube to a new collection by pressing M.
+cube to a new collection by pressing M.
+cube to a new collection by pressing M.
+And let's call this booleans.
+And let's call this booleans.
+And let's call this booleans.
+Although we are just going to have one
+Although we are just going to have one
+Although we are just going to have one
+boolean. And now let's select the wall
+boolean. And now let's select the wall
+boolean. And now let's select the wall
+right here. Let's go to modifiers and
+right here. Let's go to modifiers and
+right here. Let's go to modifiers and
+add a boolean modifier. And now let's
+add a boolean modifier. And now let's
+add a boolean modifier. And now let's
+select this object right here. And now
+select this object right here. And now
+select this object right here. And now
+let's hide this and see if it worked.
+let's hide this and see if it worked.
+let's hide this and see if it worked.
+And yeah, it worked. So we can go to
+And yeah, it worked. So we can go to
+And yeah, it worked. So we can go to
+this cube right here and go to object
+this cube right here and go to object
+this cube right here and go to object
+properties and then viewport display and
+properties and then viewport display and
+properties and then viewport display and
+set it as bounds. So it's not bothering
+set it as bounds. So it's not bothering
+set it as bounds. So it's not bothering
+us right here. Hey guys, it's me again.
+us right here. Hey guys, it's me again.
+us right here. Hey guys, it's me again.
+Well, another improvement I made for the
+Well, another improvement I made for the
+Well, another improvement I made for the
+final edit was removing the glass right
+final edit was removing the glass right
+final edit was removing the glass right
+here entirely because it is it was
+here entirely because it is it was
+here entirely because it is it was
+giving me some weird effects that I
+giving me some weird effects that I
+giving me some weird effects that I
+didn't want and the scene just looked a
+didn't want and the scene just looked a
+didn't want and the scene just looked a
+lot better without the glass and you
+lot better without the glass and you
+lot better without the glass and you
+wouldn't even notice that. So yeah, if
+wouldn't even notice that. So yeah, if
+wouldn't even notice that. So yeah, if
+you're recreating this, just remove the
+you're recreating this, just remove the
+you're recreating this, just remove the
+glass right here and your lighting is
+glass right here and your lighting is
+glass right here and your lighting is
+going to look much better and all the
+going to look much better and all the
+going to look much better and all the
+effects. So yeah, back to the video. And
+effects. So yeah, back to the video. And
+effects. So yeah, back to the video. And
+now we need another person like through
+now we need another person like through
+now we need another person like through
+this window. So I'm just going to add
+this window. So I'm just going to add
+this window. So I'm just going to add
+that with the add-on right here. So I
+that with the add-on right here. So I
+that with the add-on right here. So I
+think this model is pretty similar. So
+think this model is pretty similar. So
+think this model is pretty similar. So
+I'm going to isolate this and I'm going
+I'm going to isolate this and I'm going
+I'm going to isolate this and I'm going
+to work on the materials and the
+to work on the materials and the
+to work on the materials and the
+clothing just as I did for the previous
+clothing just as I did for the previous
+clothing just as I did for the previous
+character.
+Perfect. So now I made the character. I
+Perfect. So now I made the character. I
+Perfect. So now I made the character. I
+think the only thing that is left is
+think the only thing that is left is
+think the only thing that is left is
+making the texture for these walls. So
+making the texture for these walls. So
+making the texture for these walls. So
+let me check on the reference again.
+let me check on the reference again.
+let me check on the reference again.
+Well, I'm watching at the reference and
+Well, I'm watching at the reference and
+Well, I'm watching at the reference and
+it seems like it's just a basic
+it seems like it's just a basic
+it seems like it's just a basic
+material. So I'm going to stick with
+material. So I'm going to stick with
+material. So I'm going to stick with
+that. I'm going to add like a basic
+that. I'm going to add like a basic
+that. I'm going to add like a basic
+material and then I'm going to play with
+material and then I'm going to play with
+material and then I'm going to play with
+the base color in case we need it. I'm
+the base color in case we need it. I'm
+the base color in case we need it. I'm
+just going to check here on the chair
+just going to check here on the chair
+just going to check here on the chair
+for example because as you can see it's
+for example because as you can see it's
+for example because as you can see it's
+colored and we don't want that. So I'm
+colored and we don't want that. So I'm
+colored and we don't want that. So I'm
+just going to go here to the shader
+just going to go here to the shader
+just going to go here to the shader
+editor. Let's enter this group right
+editor. Let's enter this group right
+editor. Let's enter this group right
+here. And before the base color, let's
+here. And before the base color, let's
+here. And before the base color, let's
+add a hue saturation and value node. And
+add a hue saturation and value node. And
+add a hue saturation and value node. And
+let's decrease the saturation. And I
+let's decrease the saturation. And I
+let's decrease the saturation. And I
+think this is good enough. Uh maybe
+think this is good enough. Uh maybe
+think this is good enough. Uh maybe
+let's add a brightness
+let's add a brightness
+let's add a brightness
+and contrast
+and contrast
+and contrast
+just to Oh, sorry. Instead of that,
+just to Oh, sorry. Instead of that,
+just to Oh, sorry. Instead of that,
+let's add a color ramp
+just to increase these black parts right
+just to increase these black parts right
+just to increase these black parts right
+here.
+here.
+here.
+Yeah, I like this a bit more. Now, let
+Yeah, I like this a bit more. Now, let
+Yeah, I like this a bit more. Now, let
+me also add a cube right here.
+me also add a cube right here.
+me also add a cube right here.
+specifically right here before our
+specifically right here before our
+specifically right here before our
+character. Let's press Ctrl A and apply
+character. Let's press Ctrl A and apply
+character. Let's press Ctrl A and apply
+scale. Let's go to object. Uh so first
+scale. Let's go to object. Uh so first
+scale. Let's go to object. Uh so first
+let's press M new collection and I'm
+let's press M new collection and I'm
+let's press M new collection and I'm
+going to name this volume. And now let's
+going to name this volume. And now let's
+going to name this volume. And now let's
+go to viewport display and bounce. And
+go to viewport display and bounce. And
+go to viewport display and bounce. And
+now here in the shader editor I'm going
+now here in the shader editor I'm going
+now here in the shader editor I'm going
+to add a new material and call this fog.
+to add a new material and call this fog.
+to add a new material and call this fog.
+And I'm going to delete the principal
+And I'm going to delete the principal
+And I'm going to delete the principal
+BSDF and going to add a volume scatter
+BSDF and going to add a volume scatter
+BSDF and going to add a volume scatter
+node and plug it into the volume. And
+node and plug it into the volume. And
+node and plug it into the volume. And
+lower this to 0.005
+and the anotrophy 2.3. And let's see how
+and the anotrophy 2.3. And let's see how
+and the anotrophy 2.3. And let's see how
+that looks later. Oh, I also want to add
+that looks later. Oh, I also want to add
+that looks later. Oh, I also want to add
+first I want to go to the camera right
+first I want to go to the camera right
+first I want to go to the camera right
+here and to the camera collection and go
+here and to the camera collection and go
+here and to the camera collection and go
+to empty and sphere
+to empty and sphere
+to empty and sphere
+GC and S and yeah, maybe I want this
+GC and S and yeah, maybe I want this
+GC and S and yeah, maybe I want this
+roughly right here. This is going to
+roughly right here. This is going to
+roughly right here. This is going to
+control the depth of field of the
+control the depth of field of the
+control the depth of field of the
+camera. So, I'm going to activate it
+camera. So, I'm going to activate it
+camera. So, I'm going to activate it
+right now. Here, depth of field. And in
+right now. Here, depth of field. And in
+right now. Here, depth of field. And in
+the focus distance, I want this ent to
+the focus distance, I want this ent to
+the focus distance, I want this ent to
+be the target. And let's lower this to
+be the target. And let's lower this to
+be the target. And let's lower this to
+1.4. Let's go to the war properties and
+1.4. Let's go to the war properties and
+1.4. Let's go to the war properties and
+reduce the strength of our world. And
+reduce the strength of our world. And
+reduce the strength of our world. And
+now I'm going to select the table. Shift
+now I'm going to select the table. Shift
+now I'm going to select the table. Shift
+S, cursor to selected, shift A. Uh,
+S, cursor to selected, shift A. Uh,
+S, cursor to selected, shift A. Uh,
+light and spotlight. Yeah. Or maybe area
+light and spotlight. Yeah. Or maybe area
+light and spotlight. Yeah. Or maybe area
+light.
+light.
+light.
+And put it roughly right here. and G X.
+Yeah. And I think something like this
+Yeah. And I think something like this
+Yeah. And I think something like this
+should be fine. And I want this to be
+should be fine. And I want this to be
+should be fine. And I want this to be
+white. And yeah, maybe let's also move
+white. And yeah, maybe let's also move
+white. And yeah, maybe let's also move
+this right here. And like this. And
+this right here. And like this. And
+this right here. And like this. And
+let's see how that looks later. Let's
+let's see how that looks later. Let's
+let's see how that looks later. Let's
+also select this character. Shift S,
+also select this character. Shift S,
+also select this character. Shift S,
+cursor to selected. And then shift a
+cursor to selected. And then shift a
+cursor to selected. And then shift a
+light. And another area light.
+light. And another area light.
+light. And another area light.
+And let's put this roughly right here.
+And let's put this roughly right here.
+And let's put this roughly right here.
+And now this has to be red
+And now this has to be red
+And now this has to be red
+somewhere right here. Now let's go to
+somewhere right here. Now let's go to
+somewhere right here. Now let's go to
+the render engine and change it to
+the render engine and change it to
+the render engine and change it to
+cycles and experimental GPU compute.
+cycles and experimental GPU compute.
+cycles and experimental GPU compute.
+Let's lower the samples for the viewport
+Let's lower the samples for the viewport
+Let's lower the samples for the viewport
+to 50 and activate D noiseis. And for
+to 50 and activate D noiseis. And for
+to 50 and activate D noiseis. And for
+the max samples here, I probably use
+the max samples here, I probably use
+the max samples here, I probably use
+like 300 just to be sure. and change
+like 300 just to be sure. and change
+like 300 just to be sure. and change
+this to optics. And then here on light
+this to optics. And then here on light
+this to optics. And then here on light
+pads, I'm going to increase the light
+pads, I'm going to increase the light
+pads, I'm going to increase the light
+pass for the volume because we have
+pass for the volume because we have
+pass for the volume because we have
+volume right here. Now let's go to color
+volume right here. Now let's go to color
+volume right here. Now let's go to color
+management and
+management and
+management and
+high contrast. And that should be it.
+high contrast. And that should be it.
+high contrast. And that should be it.
+Let's see how this is looking for now.
+Let's see how this is looking for now.
+Let's see how this is looking for now.
+Okay. So now it's looking like this. I
+Okay. So now it's looking like this. I
+Okay. So now it's looking like this. I
+forgot to change here the material for
+forgot to change here the material for
+forgot to change here the material for
+this. So let's do that. shader editor.
+this. So let's do that. shader editor.
+this. So let's do that. shader editor.
+And then let's do the same we did for
+And then let's do the same we did for
+And then let's do the same we did for
+the chair right here. So, actually, I'm
+the chair right here. So, actually, I'm
+the chair right here. So, actually, I'm
+going to select the chair, copy these
+going to select the chair, copy these
+going to select the chair, copy these
+two nodes right here. Select this. Try
+two nodes right here. Select this. Try
+two nodes right here. Select this. Try
+to put this
+to put this
+to put this
+right here. There you go. Now, I'm also
+right here. There you go. Now, I'm also
+right here. There you go. Now, I'm also
+going to select this cube right here,
+going to select this cube right here,
+going to select this cube right here,
+which is the boolean cube, and
+which is the boolean cube, and
+which is the boolean cube, and
+hide it in viewport. And now let's
+hide it in viewport. And now let's
+hide it in viewport. And now let's
+increase the strength of this to
+increase the strength of this to
+increase the strength of this to
+or maybe more.
+Now I'm going to select this light as
+Now I'm going to select this light as
+Now I'm going to select this light as
+and as you can see I'm able to see this
+and as you can see I'm able to see this
+and as you can see I'm able to see this
+right here. So I'm going to go to the
+right here. So I'm going to go to the
+right here. So I'm going to go to the
+object properties visibility ray
+object properties visibility ray
+object properties visibility ray
+visibility and then disable on
+visibility and then disable on
+visibility and then disable on
+transmission so it doesn't appear here
+transmission so it doesn't appear here
+transmission so it doesn't appear here
+on the window. Let me lower the value of
+on the window. Let me lower the value of
+on the window. Let me lower the value of
+this space color right here.
+Just something like this.
+Okay, so I finished polishing the
+Okay, so I finished polishing the
+Okay, so I finished polishing the
+lighting and all that stuff. Um,
+lighting and all that stuff. Um,
+lighting and all that stuff. Um,
+basically I and I tweaked a little bit
+basically I and I tweaked a little bit
+basically I and I tweaked a little bit
+the fog. I changed this light so it's a
+the fog. I changed this light so it's a
+the fog. I changed this light so it's a
+spotlight. I changed the camera angle
+spotlight. I changed the camera angle
+spotlight. I changed the camera angle
+and decided to go with a 35 mm
+and decided to go with a 35 mm
+and decided to go with a 35 mm
+perspective. I lowered basically the
+perspective. I lowered basically the
+perspective. I lowered basically the
+value of this material right here and
+value of this material right here and
+value of this material right here and
+also did an interesting technique which
+also did an interesting technique which
+also did an interesting technique which
+is light linking right here. So instead
+is light linking right here. So instead
+is light linking right here. So instead
+of both of these lights which are white
+of both of these lights which are white
+of both of these lights which are white
+lights, instead of them casting lights
+lights, instead of them casting lights
+lights, instead of them casting lights
+on everything on, you know, the room and
+on everything on, you know, the room and
+on everything on, you know, the room and
+all that stuff, I only want this to
+all that stuff, I only want this to
+all that stuff, I only want this to
+affect all this area right here, the
+affect all this area right here, the
+affect all this area right here, the
+desk and the chair and the character. So
+desk and the chair and the character. So
+desk and the chair and the character. So
+basically how I did that is I selected
+basically how I did that is I selected
+basically how I did that is I selected
+the light right here and went to the
+the light right here and went to the
+the light right here and went to the
+object properties. And here in shading
+object properties. And here in shading
+object properties. And here in shading
+and then light linking, I entered all
+and then light linking, I entered all
+and then light linking, I entered all
+these objects that I wanted to be
+these objects that I wanted to be
+these objects that I wanted to be
+affected only by this light or something
+affected only by this light or something
+affected only by this light or something
+like that or this light only affects
+like that or this light only affects
+like that or this light only affects
+these subjects. So yeah, it's a pretty
+these subjects. So yeah, it's a pretty
+these subjects. So yeah, it's a pretty
+useful technique when you want to
+useful technique when you want to
+useful technique when you want to
+achieve these kinds of results. And then
+achieve these kinds of results. And then
+achieve these kinds of results. And then
+I decided to go with a spotlight right
+I decided to go with a spotlight right
+I decided to go with a spotlight right
+here because it was giving me like
+here because it was giving me like
+here because it was giving me like
+better atmosphere effects right here as
+better atmosphere effects right here as
+better atmosphere effects right here as
+you can see. So I went with that. And
+you can see. So I went with that. And
+you can see. So I went with that. And
+yeah, that's it. Let's start with
+yeah, that's it. Let's start with
+yeah, that's it. Let's start with
+animation. So, let me go here to the
+animation. So, let me go here to the
+animation. So, let me go here to the
+timeline and lift this up a little bit.
+timeline and lift this up a little bit.
+timeline and lift this up a little bit.
+Just like this. Now, I want to go to
+Just like this. Now, I want to go to
+Just like this. Now, I want to go to
+camera properties and activate the
+camera properties and activate the
+camera properties and activate the
+composition guides center. And let's
+composition guides center. And let's
+composition guides center. And let's
+activate overlays right here. And as you
+activate overlays right here. And as you
+activate overlays right here. And as you
+can see, I can see the center right
+can see, I can see the center right
+can see, I can see the center right
+here. So, I'm going to go back to solid
+here. So, I'm going to go back to solid
+here. So, I'm going to go back to solid
+mode. And now I'm going to press shift S
+mode. And now I'm going to press shift S
+mode. And now I'm going to press shift S
+closer to selected and shift a empty.
+closer to selected and shift a empty.
+closer to selected and shift a empty.
+And let's go with a cube. And now let's
+And let's go with a cube. And now let's
+And let's go with a cube. And now let's
+try to position the origin point from
+try to position the origin point from
+try to position the origin point from
+the cube in the center. This guide right
+the cube in the center. This guide right
+the cube in the center. This guide right
+here. So I'm going to make a lot of zoom
+here. So I'm going to make a lot of zoom
+here. So I'm going to make a lot of zoom
+and try to make this. So now what I want
+and try to make this. So now what I want
+and try to make this. So now what I want
+to do is select the camera, go to
+to do is select the camera, go to
+to do is select the camera, go to
+constraints, and add a track two
+constraints, and add a track two
+constraints, and add a track two
+constraint and select the cube right
+constraint and select the cube right
+constraint and select the cube right
+here. And as you can see now, the frame
+here. And as you can see now, the frame
+here. And as you can see now, the frame
+is not going to move or anything like
+is not going to move or anything like
+is not going to move or anything like
+that because I positioned the the cube
+that because I positioned the the cube
+that because I positioned the the cube
+in the center. But now we have this
+in the center. But now we have this
+in the center. But now we have this
+controller right here. So I'm going to
+controller right here. So I'm going to
+controller right here. So I'm going to
+add a key frame right here. Pressing I
+add a key frame right here. Pressing I
+add a key frame right here. Pressing I
+on the camera. And then let's go to the
+on the camera. And then let's go to the
+on the camera. And then let's go to the
+frame 100. And let's just get closer
+frame 100. And let's just get closer
+frame 100. And let's just get closer
+like this. And then press I again. And
+like this. And then press I again. And
+like this. And then press I again. And
+then select both of these and press
+then select both of these and press
+then select both of these and press
+linear. And now we have this slow zoom
+linear. And now we have this slow zoom
+linear. And now we have this slow zoom
+right here. And now from the frame 70 or
+right here. And now from the frame 70 or
+right here. And now from the frame 70 or
+so, I want to select the camera and
+so, I want to select the camera and
+so, I want to select the camera and
+press shift S and cursor to selected
+press shift S and cursor to selected
+press shift S and cursor to selected
+shift A. And let's add another empty,
+shift A. And let's add another empty,
+shift A. And let's add another empty,
+which is going to be yeah, another
+which is going to be yeah, another
+which is going to be yeah, another
+sphere. And by the way, let's move all
+sphere. And by the way, let's move all
+sphere. And by the way, let's move all
+of these empties to the camera
+of these empties to the camera
+of these empties to the camera
+collection like this. And now let's
+collection like this. And now let's
+collection like this. And now let's
+parent this camera to this empty right
+parent this camera to this empty right
+parent this camera to this empty right
+here. Ctrl P and parent object. And now
+here. Ctrl P and parent object. And now
+here. Ctrl P and parent object. And now
+this empty also controls the camera. So
+this empty also controls the camera. So
+this empty also controls the camera. So
+now from the frame 70, I'm going to
+now from the frame 70, I'm going to
+now from the frame 70, I'm going to
+press I again. And I don't know, let's
+press I again. And I don't know, let's
+press I again. And I don't know, let's
+go to the frame 250. And by the way, I'm
+go to the frame 250. And by the way, I'm
+go to the frame 250. And by the way, I'm
+doing this animation in 1920 by 1080 and
+doing this animation in 1920 by 1080 and
+doing this animation in 1920 by 1080 and
+24 fps just because I'm doing a
+24 fps just because I'm doing a
+24 fps just because I'm doing a
+tutorial. probably Fern uh makes this a
+tutorial. probably Fern uh makes this a
+tutorial. probably Fern uh makes this a
+lot higher quality like 4K and maybe 30
+lot higher quality like 4K and maybe 30
+lot higher quality like 4K and maybe 30
+fps. So yeah, now I'm just going to get
+fps. So yeah, now I'm just going to get
+fps. So yeah, now I'm just going to get
+closer
+closer
+closer
+like this and press I and maybe move
+like this and press I and maybe move
+like this and press I and maybe move
+this last frame a little bit more to the
+this last frame a little bit more to the
+this last frame a little bit more to the
+right like out of the animation. I'm
+right like out of the animation. I'm
+right like out of the animation. I'm
+going to go to the first frame of this
+going to go to the first frame of this
+going to go to the first frame of this
+empty and then select this cube that
+empty and then select this cube that
+empty and then select this cube that
+controls where the camera is looking and
+controls where the camera is looking and
+controls where the camera is looking and
+press I. And then let's go to the last
+press I. And then let's go to the last
+press I. And then let's go to the last
+frame of this empty. Let's go back to
+frame of this empty. Let's go back to
+frame of this empty. Let's go back to
+the empty that controls the camera. And
+the empty that controls the camera. And
+the empty that controls the camera. And
+now let's try to
+now let's try to
+now let's try to
+focus it here on the guy. Let's press I
+focus it here on the guy. Let's press I
+focus it here on the guy. Let's press I
+again. And yeah, maybe I want this
+to be
+to be
+to be
+yeah roughly right here. I again let's
+yeah roughly right here. I again let's
+yeah roughly right here. I again let's
+select the cube and let's lift this up a
+select the cube and let's lift this up a
+select the cube and let's lift this up a
+little bit. I again now we will have
+little bit. I again now we will have
+little bit. I again now we will have
+this effect. First we have this slow
+this effect. First we have this slow
+this effect. First we have this slow
+zoom and then slowly we start to have
+zoom and then slowly we start to have
+zoom and then slowly we start to have
+like this slow zooming to to the guy.
+like this slow zooming to to the guy.
+like this slow zooming to to the guy.
+But let's give it like a more
+But let's give it like a more
+But let's give it like a more
+interesting effect. So let's add another
+interesting effect. So let's add another
+interesting effect. So let's add another
+workspace right here. And let's go to
+workspace right here. And let's go to
+workspace right here. And let's go to
+the graph editor and press normalize.
+the graph editor and press normalize.
+the graph editor and press normalize.
+And now we have these key frames right
+And now we have these key frames right
+And now we have these key frames right
+here. I'm going to select the ones from
+here. I'm going to select the ones from
+here. I'm going to select the ones from
+the cube and from the empty. I'm going
+the cube and from the empty. I'm going
+the cube and from the empty. I'm going
+to select all these key frames right
+to select all these key frames right
+to select all these key frames right
+here. So the start and end key frames.
+here. So the start and end key frames.
+here. So the start and end key frames.
+And then here I'm going to change the
+And then here I'm going to change the
+And then here I'm going to change the
+pivot point from bounding box center to
+pivot point from bounding box center to
+pivot point from bounding box center to
+individual centers. And then I'm going
+individual centers. And then I'm going
+individual centers. And then I'm going
+to press S and X to increase the scale
+to press S and X to increase the scale
+to press S and X to increase the scale
+of this. And now we will have a more
+of this. And now we will have a more
+of this. And now we will have a more
+exaggerated effect of an slow ramp up in
+exaggerated effect of an slow ramp up in
+exaggerated effect of an slow ramp up in
+velocity and then a ramp down in
+velocity and then a ramp down in
+velocity and then a ramp down in
+velocity. And let's see how this looks.
+Okay, for me it's looking like too slow
+Okay, for me it's looking like too slow
+Okay, for me it's looking like too slow
+on the second part. So, I'm going to
+on the second part. So, I'm going to
+on the second part. So, I'm going to
+press Ctrl C to undo all the easing we
+press Ctrl C to undo all the easing we
+press Ctrl C to undo all the easing we
+did. And let's just move all these key
+did. And let's just move all these key
+did. And let's just move all these key
+frames like here closer.
+frames like here closer.
+frames like here closer.
+Maybe to this part right here. And let's
+Maybe to this part right here. And let's
+Maybe to this part right here. And let's
+see how that looks. So, maybe we make
+see how that looks. So, maybe we make
+see how that looks. So, maybe we make
+the animation shorter. That's not a
+the animation shorter. That's not a
+the animation shorter. That's not a
+problem.
+problem.
+problem.
+Yeah. Before previewing all of these,
+Yeah. Before previewing all of these,
+Yeah. Before previewing all of these,
+I'm going to select all these key frames
+I'm going to select all these key frames
+I'm going to select all these key frames
+right here. And then S. And let's see
+right here. And then S. And let's see
+right here. And then S. And let's see
+how this is looking.
+Yeah, for me it's looking a lot better.
+Yeah, for me it's looking a lot better.
+Yeah, for me it's looking a lot better.
+So I'm just going to cut the animation
+So I'm just going to cut the animation
+So I'm just going to cut the animation
+at the frame 230.
+at the frame 230.
+at the frame 230.
+Now, what I'm going to do is from this
+Now, what I'm going to do is from this
+Now, what I'm going to do is from this
+point right here from 120, I'm going to
+point right here from 120, I'm going to
+point right here from 120, I'm going to
+basically select this light right here
+basically select this light right here
+basically select this light right here
+and I'm going to add a key frame here on
+and I'm going to add a key frame here on
+and I'm going to add a key frame here on
+the power. And then here on this part
+the power. And then here on this part
+the power. And then here on this part
+right here on the 170, I'm going to turn
+right here on the 170, I'm going to turn
+right here on the 170, I'm going to turn
+this light all the way down. So, I'm
+this light all the way down. So, I'm
+this light all the way down. So, I'm
+going to add another key frame. And now
+going to add another key frame. And now
+going to add another key frame. And now
+at the same time I'm going to turn these
+at the same time I'm going to turn these
+at the same time I'm going to turn these
+lights into uh you know red lights. So
+lights into uh you know red lights. So
+lights into uh you know red lights. So
+I'm going to add key frames here on the
+I'm going to add key frames here on the
+I'm going to add key frames here on the
+color like this on both of these lights.
+color like this on both of these lights.
+color like this on both of these lights.
+Then go to the last key frame of this
+Then go to the last key frame of this
+Then go to the last key frame of this
+light right here. And now let's go to
+light right here. And now let's go to
+light right here. And now let's go to
+the render view. And let's put this in
+the render view. And let's put this in
+the render view. And let's put this in
+red. And let's copy the hex code to this
+red. And let's copy the hex code to this
+red. And let's copy the hex code to this
+part right here. And now let's add a key
+part right here. And now let's add a key
+part right here. And now let's add a key
+frame. and add a key frame. Maybe at the
+frame. and add a key frame. Maybe at the
+frame. and add a key frame. Maybe at the
+same time we can make key frames on the
+same time we can make key frames on the
+same time we can make key frames on the
+power. So I'm going to select here the
+power. So I'm going to select here the
+power. So I'm going to select here the
+power and then go to the last frame
+power and then go to the last frame
+power and then go to the last frame
+and maybe increase the power
+and maybe increase the power
+and maybe increase the power
+to 70 and then another key frame and
+to 70 and then another key frame and
+to 70 and then another key frame and
+then here to I don't know seven and make
+then here to I don't know seven and make
+then here to I don't know seven and make
+another key frame. So now we have that
+another key frame. So now we have that
+another key frame. So now we have that
+transition, but now we have a problem
+transition, but now we have a problem
+transition, but now we have a problem
+and is that the depth of field is still
+and is that the depth of field is still
+and is that the depth of field is still
+focusing on this area right here. So
+focusing on this area right here. So
+focusing on this area right here. So
+what we want to do is roughly right here
+what we want to do is roughly right here
+what we want to do is roughly right here
+before the camera starts moving. I'm
+before the camera starts moving. I'm
+before the camera starts moving. I'm
+going to press I on this empty and then
+going to press I on this empty and then
+going to press I on this empty and then
+let's go to the last frame.
+let's go to the last frame.
+let's go to the last frame.
+Maybe a little bit sooner. 80.
+Maybe a little bit sooner. 80.
+Maybe a little bit sooner. 80.
+And now let's press seven and
+And now let's press seven and
+And now let's press seven and
+G and put this
+G and put this
+G and put this
+roughly right here
+like this. And then I
+like this. And then I
+like this. And then I
+and now we have that that movement.
+and now we have that that movement.
+and now we have that that movement.
+Okay. So here I don't like how the wood
+Okay. So here I don't like how the wood
+Okay. So here I don't like how the wood
+from the table is looking and it's
+from the table is looking and it's
+from the table is looking and it's
+because of this color ram. So I'm just
+because of this color ram. So I'm just
+because of this color ram. So I'm just
+going to disconnect it. And now it looks
+going to disconnect it. And now it looks
+going to disconnect it. And now it looks
+it it looks good. Okay. So here in
+it it looks good. Okay. So here in
+it it looks good. Okay. So here in
+compositing I just added it's already
+compositing I just added it's already
+compositing I just added it's already
+looking good for me. I just added a
+looking good for me. I just added a
+looking good for me. I just added a
+little bit of glare and lens distortion.
+little bit of glare and lens distortion.
+little bit of glare and lens distortion.
+So the glare I set it up to fog glow
+So the glare I set it up to fog glow
+So the glare I set it up to fog glow
+high quality threshold to 6 and smooth
+high quality threshold to 6 and smooth
+high quality threshold to 6 and smooth
+to one and the size to one also. And
+to one and the size to one also. And
+to one and the size to one also. And
+then the distortion and dispersion to
+then the distortion and dispersion to
+then the distortion and dispersion to
+0.01.
+0.01.
+0.01.
+And to be able to preview all of the all
+And to be able to preview all of the all
+And to be able to preview all of the all
+of the compositing results here in the
+of the compositing results here in the
+of the compositing results here in the
+render view, you just have to click on
+render view, you just have to click on
+render view, you just have to click on
+this arrow and it's going to be on
+this arrow and it's going to be on
+this arrow and it's going to be on
+disabled and you either put it on camera
+disabled and you either put it on camera
+disabled and you either put it on camera
+or always. So I just have it enabled on
+or always. So I just have it enabled on
+or always. So I just have it enabled on
+camera and now I can see all the
+camera and now I can see all the
+camera and now I can see all the
+compositing things I did. Oh, something
+compositing things I did. Oh, something
+compositing things I did. Oh, something
+pretty important. You have to disable
+pretty important. You have to disable
+pretty important. You have to disable
+this camera bottom here on the booleans
+this camera bottom here on the booleans
+this camera bottom here on the booleans
+because otherwise the cube we did right
+because otherwise the cube we did right
+because otherwise the cube we did right
+here is going to appear on the final
+here is going to appear on the final
+here is going to appear on the final
+render. So we have all animation done.
+render. So we have all animation done.
+render. So we have all animation done.
+Now let's start working on the animation
+Now let's start working on the animation
+Now let's start working on the animation
+of this character right here. So let's
+of this character right here. So let's
+of this character right here. So let's
+go here to expression and add facial
+go here to expression and add facial
+go here to expression and add facial
+rig. And basically what I want to do is
+rig. And basically what I want to do is
+rig. And basically what I want to do is
+let's activate here the mirror right
+let's activate here the mirror right
+let's activate here the mirror right
+here. And yeah, basically what I want to
+here. And yeah, basically what I want to
+here. And yeah, basically what I want to
+do is make him close his eyes because
+do is make him close his eyes because
+do is make him close his eyes because
+that's how it looked on the
+that's how it looked on the
+that's how it looked on the
+on the phone video. And let's make him
+on the phone video. And let's make him
+on the phone video. And let's make him
+like this.
+Okay, now I think everything is looking
+Okay, now I think everything is looking
+Okay, now I think everything is looking
+good. So, this is like the preview. Now,
+good. So, this is like the preview. Now,
+good. So, this is like the preview. Now,
+I'm going to go over some cycle settings
+I'm going to go over some cycle settings
+I'm going to go over some cycle settings
+and rendering this animation. So, I
+and rendering this animation. So, I
+and rendering this animation. So, I
+guess I'll try to reduce the max
+guess I'll try to reduce the max
+guess I'll try to reduce the max
+samples, but increase the mean samples.
+samples, but increase the mean samples.
+samples, but increase the mean samples.
+This is something someone recommend me
+This is something someone recommend me
+This is something someone recommend me
+recently. So, I'm just going to try it.
+recently. So, I'm just going to try it.
+recently. So, I'm just going to try it.
+If if it's not good, then I'm going to
+If if it's not good, then I'm going to
+If if it's not good, then I'm going to
+re-record this. No problem. Then here on
+re-record this. No problem. Then here on
+re-record this. No problem. Then here on
+light pads, I'm going to leave it like
+light pads, I'm going to leave it like
+light pads, I'm going to leave it like
+this, but I'm going to decrease this.
+this, but I'm going to decrease this.
+this, but I'm going to decrease this.
+Although there's not a lot of glass.
+Although there's not a lot of glass.
+Although there's not a lot of glass.
+There's almost any glass in in this
+There's almost any glass in in this
+There's almost any glass in in this
+scene or anything like that. And then
+scene or anything like that. And then
+scene or anything like that. And then
+I'm going to increase this. Okay. Then
+I'm going to increase this. Okay. Then
+I'm going to increase this. Okay. Then
+I'm going to deactivate this. This makes
+I'm going to deactivate this. This makes
+I'm going to deactivate this. This makes
+your scene a little bit less realistic
+your scene a little bit less realistic
+your scene a little bit less realistic
+on everything about glass and refractive
+on everything about glass and refractive
+on everything about glass and refractive
+things and all that stuff. In this case,
+things and all that stuff. In this case,
+things and all that stuff. In this case,
+I don't think it's going to make a lot
+I don't think it's going to make a lot
+I don't think it's going to make a lot
+of impact, but let's see. Then I'm also
+of impact, but let's see. Then I'm also
+of impact, but let's see. Then I'm also
+going to activate fast GI approximation
+going to activate fast GI approximation
+going to activate fast GI approximation
+and set it up to two bounces. Now,
+and set it up to two bounces. Now,
+and set it up to two bounces. Now,
+simplify here and I'm going to set the
+simplify here and I'm going to set the
+simplify here and I'm going to set the
+texture limit to 4K. Now here in
+texture limit to 4K. Now here in
+texture limit to 4K. Now here in
+performance I'm going to activate
+performance I'm going to activate
+performance I'm going to activate
+persistent data. And I think everything
+persistent data. And I think everything
+persistent data. And I think everything
+else is fine. Let me see. And I'm going
+else is fine. Let me see. And I'm going
+else is fine. Let me see. And I'm going
+to send this job to super luminal render
+to send this job to super luminal render
+to send this job to super luminal render
+farm. You can render this locally if you
+farm. You can render this locally if you
+farm. You can render this locally if you
+want. I just want to get this done fast.
+want. I just want to get this done fast.
+want. I just want to get this done fast.
+But yeah, if you want to render this
+But yeah, if you want to render this
+But yeah, if you want to render this
+locally, make sure to go to output and
+locally, make sure to go to output and
+locally, make sure to go to output and
+then set it to PNG, color depth to
+then set it to PNG, color depth to
+then set it to PNG, color depth to
+eight, and compression to 15%. And then
+eight, and compression to 15%. And then
+eight, and compression to 15%. And then
+here, select a folder where you want the
+here, select a folder where you want the
+here, select a folder where you want the
+final frames of your animation to be
+final frames of your animation to be
+final frames of your animation to be
+exported. Once you do that, just go to
+exported. Once you do that, just go to
+exported. Once you do that, just go to
+render and render animation. In my case,
+render and render animation. In my case,
+render and render animation. In my case,
+yeah, I'm doing this literally on the
+yeah, I'm doing this literally on the
+yeah, I'm doing this literally on the
+go. I didn't render like a preview
+go. I didn't render like a preview
+go. I didn't render like a preview
+animation or anything like that. So, if
+animation or anything like that. So, if
+animation or anything like that. So, if
+you don't know Super Luminal, I'm going
+you don't know Super Luminal, I'm going
+you don't know Super Luminal, I'm going
+to leave a link in the description.
+to leave a link in the description.
+to leave a link in the description.
+Basically, you will land here and you
+Basically, you will land here and you
+Basically, you will land here and you
+have to click on start rendering. In my
+have to click on start rendering. In my
+have to click on start rendering. In my
+case, I'm already logged in. So, this is
+case, I'm already logged in. So, this is
+case, I'm already logged in. So, this is
+my account. I'm just going to delete the
+my account. I'm just going to delete the
+my account. I'm just going to delete the
+projects I currently have. And now I'm
+projects I currently have. And now I'm
+projects I currently have. And now I'm
+going to create a new project. And I'm
+going to create a new project. And I'm
+going to create a new project. And I'm
+going to name it red style video and
+going to name it red style video and
+going to name it red style video and
+create project. And now I can select
+create project. And now I can select
+create project. And now I can select
+this project inside of Blender. By the
+this project inside of Blender. By the
+this project inside of Blender. By the
+way, I have a tutorial and also a
+way, I have a tutorial and also a
+way, I have a tutorial and also a
+comparison on different render farms you
+comparison on different render farms you
+comparison on different render farms you
+can use to animate and speed up render
+can use to animate and speed up render
+can use to animate and speed up render
+times. So here on my channel, you have
+times. So here on my channel, you have
+times. So here on my channel, you have
+this video which is a comparison about
+this video which is a comparison about
+this video which is a comparison about
+all my favorite render farms. But then
+all my favorite render farms. But then
+all my favorite render farms. But then
+here on my course about 3D documentary
+here on my course about 3D documentary
+here on my course about 3D documentary
+style uh where you will learn everything
+style uh where you will learn everything
+style uh where you will learn everything
+about animating like fern cipher
+about animating like fern cipher
+about animating like fern cipher
+imperial and all stuff you have a whole
+imperial and all stuff you have a whole
+imperial and all stuff you have a whole
+section about rendering where I teach
+section about rendering where I teach
+section about rendering where I teach
+you like everything about rendering and
+you like everything about rendering and
+you like everything about rendering and
+also how to use different render farms
+also how to use different render farms
+also how to use different render farms
+and I also teach you how to use super
+and I also teach you how to use super
+and I also teach you how to use super
+lumino. This is inside my community
+lumino. This is inside my community
+lumino. This is inside my community
+render room and you can join for free
+render room and you can join for free
+render room and you can join for free
+with the link in the description. And
+with the link in the description. And
+with the link in the description. And
+yeah, also if you charge balance here on
+yeah, also if you charge balance here on
+yeah, also if you charge balance here on
+super luminal, it will give you an
+super luminal, it will give you an
+super luminal, it will give you an
+option to add a code. For example, I
+option to add a code. For example, I
+option to add a code. For example, I
+added a firm code and it gave me like
+added a firm code and it gave me like
+added a firm code and it gave me like
+$10 on my first purchase. And you can do
+$10 on my first purchase. And you can do
+$10 on my first purchase. And you can do
+the same but with my code which is Lucas
+the same but with my code which is Lucas
+the same but with my code which is Lucas
+edits. So, if you type Lucas Edit as
+edits. So, if you type Lucas Edit as
+edits. So, if you type Lucas Edit as
+your referral code, whatever you charge
+your referral code, whatever you charge
+your referral code, whatever you charge
+here, you will receive an extra $10 for
+here, you will receive an extra $10 for
+here, you will receive an extra $10 for
+free. So, yeah, you will have also the
+free. So, yeah, you will have also the
+free. So, yeah, you will have also the
+link for that in the description. Okay.
+link for that in the description. Okay.
+link for that in the description. Okay.
+So, now if you go to Blender, you are
+So, now if you go to Blender, you are
+So, now if you go to Blender, you are
+going to be able to select between your
+going to be able to select between your
+going to be able to select between your
+projects. In this case, I just has have
+projects. In this case, I just has have
+projects. In this case, I just has have
+one, which is the red style video. Now,
+one, which is the red style video. Now,
+one, which is the red style video. Now,
+I'm going to check this and check this.
+I'm going to check this and check this.
+I'm going to check this and check this.
+And yep, this is all good. And now, I'm
+And yep, this is all good. And now, I'm
+And yep, this is all good. And now, I'm
+going to submit animation. This is going
+going to submit animation. This is going
+going to submit animation. This is going
+to appear. I just going to wait. Okay.
+to appear. I just going to wait. Okay.
+to appear. I just going to wait. Okay.
+So now it appear on my browser and as
+So now it appear on my browser and as
+So now it appear on my browser and as
+you can see it's running. So let's enter
+you can see it's running. So let's enter
+you can see it's running. So let's enter
+here and let's see how it's going. Okay.
+here and let's see how it's going. Okay.
+here and let's see how it's going. Okay.
+So now it's done and it's looking like
+So now it's done and it's looking like
+So now it's done and it's looking like
+this. So it has some rough edges. I
+this. So it has some rough edges. I
+this. So it has some rough edges. I
+probably just experiment a little bit
+probably just experiment a little bit
+probably just experiment a little bit
+more and show you the final result which
+more and show you the final result which
+more and show you the final result which
+will have like everything done already.
+will have like everything done already.
+will have like everything done already.
+But I just wanted to show you the
+But I just wanted to show you the
+But I just wanted to show you the
+process. And as you can see, if we go
+process. And as you can see, if we go
+process. And as you can see, if we go
+here, the cost was just $2 and the time
+here, the cost was just $2 and the time
+here, the cost was just $2 and the time
+was just seven minutes. So, really good,
+was just seven minutes. So, really good,
+was just seven minutes. So, really good,
+really fast, and all that stuff. And
+really fast, and all that stuff. And
+really fast, and all that stuff. And
+now, if you want to convert everything
+now, if you want to convert everything
+now, if you want to convert everything
+to an actual animation, you have to do
+to an actual animation, you have to do
+to an actual animation, you have to do
+the following. Go back to Blender. And
+the following. Go back to Blender. And
+the following. Go back to Blender. And
+now, here in the Super Luminal add-on,
+now, here in the Super Luminal add-on,
+now, here in the Super Luminal add-on,
+you have to go to manage and download
+you have to go to manage and download
+you have to go to manage and download
+and then refresh right here. And you
+and then refresh right here. And you
+and then refresh right here. And you
+will have your project right here. So
+will have your project right here. So
+will have your project right here. So
+you just have to select it and then
+you just have to select it and then
+you just have to select it and then
+select a download path. And once you do
+select a download path. And once you do
+select a download path. And once you do
+that, you just have to click here on
+that, you just have to click here on
+that, you just have to click here on
+download job output. This is going to
+download job output. This is going to
+download job output. This is going to
+appear. As you can see, it's pretty
+appear. As you can see, it's pretty
+appear. As you can see, it's pretty
+fast. Now that it's done, in order to
+fast. Now that it's done, in order to
+fast. Now that it's done, in order to
+convert it to video, you just have to,
+convert it to video, you just have to,
+convert it to video, you just have to,
+well, I recommend you to save your file,
+well, I recommend you to save your file,
+well, I recommend you to save your file,
+and then open a new project, a fresh
+and then open a new project, a fresh
+and then open a new project, a fresh
+project, and then go to here and click
+project, and then go to here and click
+project, and then go to here and click
+video editing, and video editing again.
+video editing, and video editing again.
+video editing, and video editing again.
+And here in this workspace, first make
+And here in this workspace, first make
+And here in this workspace, first make
+sure this is good. In my case, it's
+sure this is good. In my case, it's
+sure this is good. In my case, it's
+good. So, I'm just going to press shift
+good. So, I'm just going to press shift
+good. So, I'm just going to press shift
+A here on the timeline and press image
+A here on the timeline and press image
+A here on the timeline and press image
+sequence. So, here are all my frames.
+sequence. So, here are all my frames.
+sequence. So, here are all my frames.
+I'm going to press A to select all of
+I'm going to press A to select all of
+I'm going to press A to select all of
+them. And then the end frame is going to
+them. And then the end frame is going to
+them. And then the end frame is going to
+be 230 and add image strip. And now I
+be 230 and add image strip. And now I
+be 230 and add image strip. And now I
+have to adjust the end so it's 230.
+have to adjust the end so it's 230.
+have to adjust the end so it's 230.
+And now here I have my animation. So now
+And now here I have my animation. So now
+And now here I have my animation. So now
+I just have to go down right here and
+I just have to go down right here and
+I just have to go down right here and
+change the file format to FFmpeg video.
+change the file format to FFmpeg video.
+change the file format to FFmpeg video.
+Go to encoding and change from matroska
+Go to encoding and change from matroska
+Go to encoding and change from matroska
+to MPEG 4 and select here from medium
+to MPEG 4 and select here from medium
+to MPEG 4 and select here from medium
+quality to high quality. Then select
+quality to high quality. Then select
+quality to high quality. Then select
+again a folder. And once that's done,
+again a folder. And once that's done,
+again a folder. And once that's done,
+I'm going to go here to render and
+I'm going to go here to render and
+I'm going to go here to render and
+render animation. So this is the final
+render animation. So this is the final
+render animation. So this is the final
+result. If you like this video, you will
+result. If you like this video, you will
+result. If you like this video, you will
+probably like this one. Consider
+probably like this one. Consider
+probably like this one. Consider
+subscribing and I'll see you in the next
+subscribing and I'll see you in the next
+subscribing and I'll see you in the next
+one. Bye-bye.

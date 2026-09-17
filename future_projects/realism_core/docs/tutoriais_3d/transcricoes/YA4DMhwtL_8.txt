@@ -1,0 +1,1461 @@
+in this series we'll learn to create a
+dress similar to this one we will cover
+modeling uving creating fine fabric
+details
+sculpting wrinkles
+baking a normal map and adding
+decorations when you're finished you
+have a dress something like this one
+to make this dress you'll need blender
+photoshop
+and the mesh with around 5000 faces
+similar to the one that was covered in
+the blender complete character tutorial
+series
+but if you haven't been following along
+with that you can download a free body
+mesh and template that you can use to
+complete this series
+these are the plugins we'll use during
+this series so make sure you go to the
+add-ons sectional blender and add these
+in
+okay let's get started
+let's import our concept sketch so we'll
+go to the front view shift a image and
+reference
+i'll give this sketch here to you if you
+want to use it
+then let's scale this down
+size doesn't matter too much
+let's reduce the transparency on this
+something like that
+and let's also lock it
+with that okay
+okay let's hide the hair we don't need
+that for now and let's check out our
+sketch
+so looks like the sketch only covers the
+torso and the legs
+we're going to do is we're going to
+select
+the faces on the body
+that only covers the torso and the legs
+and we're going to duplicate them and
+make them into a new object
+so let's do that here l to grab the
+front l to grab the back
+and it looks like what we have selected
+covers all of the dress so we'll hit
+shift d to duplicate
+escape to drop it
+mesh
+separate selection
+get out of there grab our new mesh here
+let's go to the material
+and let's delete the skin that we had
+set we'll create a new one
+let's just call this dress
+okay let's go into edit mode make sure
+face mode is selected we'll hit l
+and l here
+and if you hit s normally it scales
+based on whatever you have selected here
+if you hit alt s it scales all the faces
+along its own normal so it kind of makes
+makes it kind of fat
+so what you can do is
+just
+hit alt s and scale it just a bit so
+it's
+sitting off of the body
+and if we go back into this mode here
+you can see it looks like she has a a
+white jumpsuit on
+eventually you'll probably rig this
+clothing to follow the body so when the
+body flexes the clothes follows it now
+the closer you offset the clothing from
+the body the
+um the harder it becomes because the
+body pokes through the clothing and
+looks bad so you see here i left quite a
+bit of distance
+from the body so that way it just it
+makes it a little bit easier later on
+down the road okay let's go into edit
+mode and let's just delete some of the
+faces we don't think we'll need
+so these parts here we don't need that
+whoops x
+faces
+let's go here delete these
+and then let's see here it looks like
+just a basic
+tube top that comes across the chest so
+let's
+go and delete some of these here
+x
+faces
+don't think we need those
+x faces
+and oops i don't think we need
+that
+and then
+grab this
+stuff here
+i think we don't need these
+where's our sketch
+yeah so let's delete that
+i'm not sure about
+these here
+i think maybe we don't need those
+okay
+i think that's pretty good let's also
+delete half of this
+so get that out of there get that out of
+there and that out of there
+and then go to
+mirror
+where is mirror here we go
+okay
+let's do
+this
+and clipping
+okay so let's work on this top area here
+and
+flatten the whole thing out
+okay let's um set this up so it's easier
+for us so turn on snapping make sure
+face mode is turned on make sure project
+individual elements is turned on and
+these two are turned on
+so what this does is when you are
+let's go to vertex mode so when you are
+moving
+you know some some vertexes
+over
+the body mesh or any other mesh
+if you move it
+you can see
+those points always
+follow the the mesh that's below it so
+if you go over here now it's over the
+neck if you go up here
+now it's over the chin
+so this is this just makes it easier
+when you're kind of pushing and pulling
+these points around
+to to make the the dress look the how
+you want to look they always follow the
+body so that helps out here and this is
+this is um commonly used for read
+topology
+so let's
+also do this i like to make the body
+semi-translucent
+so um so let's explain what i'm doing
+here so grab the body make sure the
+texture is selected
+then go down
+to
+where to go here viewport display
+then
+turn blend mode to
+like alpha hashed
+and shadow mode to
+alpha hashed
+and then go up to
+alpha here and make this body
+translucent so that's probably too
+translucent but just make it like a
+little bit translucent
+and so what this does is if your body if
+your clothing
+goes
+below to turn off snap if your clothing
+goes below
+the body mesh you can see that's behind
+it so that's going to help out also
+let's uh let's start shaping this
+top part here
+there are three methods i like to use
+when i'm shaping the clothing so let's
+go and
+i'll show you how those work one i
+started to talk about earlier
+which was
+with snaps turned on
+with the snaps turned on if you hit say
+g
+you can see these
+vertices move
+and follow the mesh that's below it
+and this is good but it also means that
+the vertices push into
+the body and so you have to offset them
+later it's okay it's just a nature of
+this method of moving
+the other way is by double hitting g so
+if you hit g twice
+and move it you can see it moves things
+along the edges
+and that's pretty good
+but it also
+pushes the vertices towards the body so
+for this method i like to turn off snaps
+so if you hit double hit g
+then
+all the verts and the meshes stay the
+same distance away and so this way you
+don't have to
+re-re-offset those faces so that's
+another method of moving things
+and then the third method is in sculpt
+mode
+with dino topo turned off
+and this with the elastic tool you can
+just
+move things around and so that's kind of
+nice too
+this doesn't follow the mesh at all it
+just
+moves things but it's a nice
+sculptural easy way to to move things
+around so i kind of use those three
+methods when i'm shaping the clothing
+the other thing i like to do is i like
+to have a clean loops
+around the tops and the edges of the
+clothing so
+see this here this is nice it runs
+across the
+top this here is not nice because it
+runs across then stops and goes down
+and then we don't have anything
+connecting
+this area here
+with this area here so let's try and
+figure out how to connect this up to
+there
+also i
+i should have left this off so so
+clipping is nice because um
+you know if you so if clipping is turned
+off and you
+g and move this in you'll see it it
+doesn't connect if clipping is turned on
+and if you do this it stops in the
+middle and snaps
+but it can it can when you get geometry
+really close together like this
+clipping can actually mess things up so
+i think in this case i'm going to leave
+it off
+because i'm going to be messing with the
+geometry right here
+so
+sometimes you leave this on sometimes
+you leave it off for now i'm going to
+leave it off if i get tears down the
+middle i'll fix them later
+okay
+so let's go back into
+and figure out how to get a loop coming
+across the top
+i think the best way to do that is just
+hit k
+and
+cut through here
+x dissolve edges then k again and just
+just
+do that so that way we have two quads
+and it should all just run across okay
+so that's good
+let's look at our sketch here
+so let's just pull
+the all this top area down so it's going
+straight across so i think
+we just need to move
+all of these faces down to this level
+so one way we can do that is with the
+double hit g method
+so you can grab these faces and double
+hit g with snaps turned off
+just move
+all this stuff in
+this might be too tedious
+for some people
+actually it's two tds for me so let's go
+to sculpt mode
+and elastic tool and then
+just move stuff in
+i'm making the
+um
+area of influence smaller so that way it
+doesn't mess around with everything else
+it's just the
+edge oops make sure you don't
+snap on the stuff behind you can see
+it's moving the back of the dress
+so kind of just be careful you can see
+the
+point
+where it's snapping to
+oops
+yeah like that
+let's pull this down a bit more
+you can see it's pulling forward because
+it doesn't follow the body but so oops
+that's okay
+actually go back to edit mode
+and
+i'm gonna double hit g
+okay so i think this top row is actually
+okay
+i think back here needs to come down
+some so let's
+do that so we'll hit g and pull it down
+this one let's see here
+should be kind of a line going from here
+down to there so let's
+make this line up
+okay
+so now we just need to figure out
+how to connect this face over to say
+that face
+okay let's figure out how to connect
+these so let's pick that to pick that
+pick that x and faces go to edge mode
+grab that grab that hit f
+then hit ctrl r and let's add
+a couple cuts
+then let's just hit f a few times and
+see what it does
+okay kind of closed it it's a little
+ugly let's see if we can even out these
+faces a bit so
+oops
+move these around
+move that back
+okay that's a little bit better but i
+don't
+i don't like this quad here so it's
+it's um
+i think
+it it makes this top quad here flow
+poorly so let's delete that here
+and then
+delete this here
+leave that there and let's just hit f
+f
+okay
+okay so now it flows
+better across the top so when we have
+our little if we have stitching up here
+or something it'll be
+more even
+okay that's not bad
+we might want to add a
+cut here
+seem a little sparse in geometry
+okay let's see
+okay it's getting a little bit better
+but now we are poking through so we got
+to fix
+some of these surfaces here
+okay let's just go into sculpt mode and
+oh if you see um colored faces it's
+because we added faces so it
+it makes them different so just go to
+face sets initiate face sets and
+choose loose parts or something it it'll
+make it all the same color
+so for here let's
+just pull
+this stuff out
+if you hold shift
+it'll
+use the smooth brush here this one here
+so make sure it's not set too high
+it's a nice way you can use the elastic
+tool and the shift
+the smooth tool to
+shape pretty nicely and effectively
+let's grab this stuff pull it down
+and i think this top is looking pretty
+good here
+okay
+let's make this so it's not so much of a
+crease here so we can
+make the brush bigger and hold shift
+so you can use the smooth tool
+like that
+and let's also try and move
+this out a bit
+so it looks more like a piece of cloth
+like a flat piece of cloth
+and let's hold shift to smooth it and
+okay
+i get this problem a lot so when you
+when you try and smooth between two
+halves
+of um a mirror modifier it doesn't
+affect that very first
+first point
+so what you can do is let's do this a
+bit here
+well first make sure you have no shape
+keys and we do so let's delete these
+and then let's go back to here and go to
+mirror and apply
+and now when you hit
+shift it should smooth
+the middle part also
+which is
+easier okay so let's pull that up
+smooth this a bit
+if your smooth is doing too much you can
+click the smooth here and lower this
+down a bit
+go back to your elastic tool
+another way you can smooth things out is
+go to edit mode and vertex mode
+and you can grab a bunch
+of vertexes like that
+let me grab these here too
+then go to
+vertex and smooth vertices
+so you can see it just kind of smooths
+smooths it out
+i actually didn't want that to go down
+okay so it's
+looking less creased which is nice
+let's go back into sculpt mode
+and let's pull some more out here
+i think i like how this brush is pulling
+so you can change the
+profile for it so if you go to tool and
+scroll down here
+and go to fall off
+i like to use this one here the sharper
+i think that's kind of more sharp i
+think that's kind of nice
+my smooth is smoothing too much here so
+let's lower this down
+and let's
+add
+this is not adding
+oh i know
+so so uh i think we never took off our
+texture
+yep so
+we can pick a default we had our texture
+from when we were making the face
+texture so let's just pick a default one
+not that one
+okay let's just get rid of it
+okay so now
+oh no it's too strong
+so now when we click
+or drag it'll puff out the surface
+okay it's getting better it's still too
+creased down here let's just
+pop it out a bit
+smooth it a bit to pop that a bit
+okay let's go back to edit mode and
+let's go and grab a bunch of faces again
+i'm trying to keep this even so it
+it's even across the front
+it's not a huge deal because we're going
+to delete half of this and mirror it but
+um
+you can i feel like it helps
+okay
+uh vertex and smooth vertices
+looks like there's a bump in the middle
+let's subtract
+sorry this is so tedious it's just uh
+just kind of the process
+um okay that looks better it looks more
+like she's you know wearing clothing
+that
+you know
+rests more like cloth does oops let's
+add this here
+we must have uh
+grab the backside of the dress at some
+point
+okay i think the top looks you know
+pretty decent
+okay let's work on the bottom of the
+dress here
+so let's look at our sketch
+so let's just close the middle area so
+it looks like one piece of fabric going
+across so let's do that first
+so let's go to face mode and let's just
+grab
+some faces
+and uh that one oops
+okay this middle one
+looped all crazy so let's just delete
+these two rows x and
+faces and let's grab that one separately
+x and faces
+and then let's just connect the stuff
+here so
+we will go to edge mode
+click these two and hit
+f to join it
+and let's go and f and f
+and then
+let's see here
+let's just do this
+three
+oops no
+f
+then let's do this
+then fff
+fff
+okay
+that's closed let's do the same thing
+back here grab that hit f
+two more and then we got one two three
+four five
+there
+okay that's closed up now let's just
+smooth this whole thing out
+okay let's bring back the body
+and let's smooth out so we want to see
+how the dress is
+pushing inwards we want that to be
+more flat not totally flat but more flat
+so let's
+smooth things out go to edit mode go to
+point mode and let's go to x-ray mode
+and we'll just shift drag a bunch of
+points
+and alt shift
+let's just get
+those points i think this parts
+just looking for the parts that are
+close to the areas you want to push in
+so i think those are okay
+i think those are okay
+and i think
+these are okay
+oh
+yeah
+these are probably oops
+those are probably okay okay so i think
+that's
+we have the bad areas selected
+i think also the sides are okay so let's
+get rid of those too
+and then let's control
+drag those
+okay so i think those are the parts we
+want to smooth
+so let's go to vertex and smooth
+vertices
+let's just
+click it a few times
+what i'm looking for is to see if this
+middle part of the dress is
+just feeling more natural
+it's okay it's poking through the legs
+okay i think that's pretty good
+back here is not as good so let's
+deselect the front
+keep the back selected
+and
+it's hard to see like that
+let's leave those and
+i think this top part is looking better
+i think it's just this middle area
+that's not nice so let's
+let's move that out
+and let's
+select m m
+whoops and then smooth again vertex
+smooth vertices
+okay i think that's looking pretty good
+and now we're
+totally pushing through let's um
+let's flatten this out go to loop tools
+and flatten
+no that didn't work
+uh let's go
+and let's just pull these down
+g z
+g z
+let's pull these down here
+g z
+and then let's go
+s z zero
+oops
+let's go around bounding box center and
+s z zero
+and let's do alt s to push that out so i
+didn't like that curvature i was
+see the sides were coming in i didn't
+like that so let's alt s and
+make that curve
+follow the leg
+okay so now we got some faces that are
+submerged
+i've got mirroring turned on and i just
+um
+shift control clicked to grab all the
+verts down here and alt s
+let's just pop it out
+let's grab these alt s
+let's turn on smoothing here i mean uh
+proportional editing
+and
+let's alt s
+so instead of instead of moving just one
+point out like that which would be bad
+if you have this turned on it just moves
+a wider area
+forward so it stays smooth looking
+this area here is pretty bad
+you can see these points are very far in
+so let's
+just grab
+like the worst part which is probably
+that
+and alt s and let's reduce the
+size of the proportional editing
+that
+then let's
+grab
+these two faces and that should do it
+okay that's looking that's looking
+better
+okay let's turn on our smooth
+and see how it looks sub d see how it
+looks
+and we're poking through a little bit so
+let's just tweak this a little bit more
+let's go to edit mode
+and edge mode and let's just
+let's grab these two and just alt s
+just to make sure all of the dress is
+outside the skin
+here too let's push that out a bit
+okay so i think that's um let's just
+check one more thing
+let's make sure that the dress is not
+sticking out too far
+past the body so if you do this you can
+kind of see
+it's hard to see you can
+you see the lines on the inside and
+lines on the outside
+that's
+how much offset we have
+and it looks
+looks pretty good it looks like a decent
+amount of space
+is there a bump there
+it's kind of
+not consistent right there
+let's grab that grab that point
+and i
+don't yeah i think i think that's pretty
+good
+okay
+so let's see what to do next here
+okay so
+this is kind of a nice
+basic dress so it might be helpful to um
+save that so let's go
+number bed period to see where it is
+and why do we have two here okay it's a
+body
+that's the dress
+so let's call this like a
+short dress
+blank
+so let's save that while shift d
+and just hide that
+so later on if you want to make a
+different dress or if you mess it up you
+can always go back to that
+okay so we'll call this short dress
+okay let's grab our dress here and we've
+got some wrinkles pulling out the side
+so let's go and add that
+so let's grab this and grab that and
+i'm going to turn off proportional
+editing so just these verts pull out
+so this way the wrinkle is more um acute
+just look like very localized to the
+area
+and let's just hit r oops let's turn on
+transform around 3d cursor and hit r to
+rotate so we're just basically
+moving a row of
+vertices outwards so it creates this uh
+little
+peeling away bell shape
+and then let's
+have these pull back a bit also so it
+has a nice feel to it
+nice flowy feel to it and then that's
+nice
+i like that
+then let's add
+looks like there's a second
+wrinkle pulling outward so let's go and
+add that so we'll grab these here drop a
+3d cursor
+and let's
+hit r to rotate
+rotate
+rotate and rotate
+let's have it rotate back a bit also
+let me have these rotate inwards
+let's pull this in a bit
+okay that's that's nice
+okay let's
+add some wrinkles to the middle here
+so we will
+grab
+some verts
+drop a 3d cursor
+double hit r to pull this towards you
+then i think maybe pull it outwards a
+bit
+this little uh curve in the middle is
+kind of weird so let's turn on
+proportional editing
+and hit g
+just trying to straighten up that
+wrinkle a bit i think that's better
+and then maybe let's add one more
+curve to the middle so let's grab
+those
+let's try and do this let's grab
+let's try and do this
+oops
+yeah turn off partial editing
+and we have this more subtle
+then just pull out at the bottom
+and maybe flare out at the bottom
+it's too obvious
+maybe these need to go further outwards
+so let's
+drop our 3d cursor and let's pull this
+whole thing
+out more
+i think that's a little better
+and i do think these wrinkles are too
+sharp
+so let's go and
+pull all of these
+so it's not quite as
+crispy still pretty crispy but it's
+better
+let's get rid of these
+let's
+double hit g and just slide these now
+let's get rid of those
+double hit g and slide these over
+and then slide those over
+okay that's softer
+but now we've got a lump here
+so you can kind of keep you can noodle
+this is
+as long as you want
+to get to have just the perfect
+curve or you can go to scope mode sculpt
+go here and grab the elastic tool and
+you can
+this is probably even easier
+and just
+you know
+hold shift to smooth things out
+like that's a little tight
+yeah so maybe this was the easy way to
+do it
+i try and mess around between uh
+using uh
+hard modeling techniques and using the
+sculpt brush
+elastic tool
+to get kind of feel you like
+let's do the same thing for the back
+there's no sketch in the back so we'll
+just fake it
+so let's go and grab
+some
+reverts here
+drop a 3d cursor
+double hit r and rotate this out
+something like that it's too close let's
+pull this out
+it seems a little bit sharp here so
+let's uh
+rotate a bit so it's softer yeah that's
+nicer
+maybe throw in one more wrinkle in the
+middle
+so maybe
+here
+looks kind of a weird
+maybe here
+there we go that looks pretty nice
+okay
+we got some wrinkles
+so let's look at our sketch here and
+we've got this little trim detail
+so i think we can do this trim detail as
+a normal map
+without using actual geometry so i don't
+think we're going to add that
+but let's just check and make sure our
+quads here are rather consistent and
+even and yeah this here this loop is
+pretty flush with that one there so i
+think that's
+we can map that nicely
+and let's check the top here
+so there's no detail here but
+it might be nice to put a small trim on
+here
+so let's see
+we've got a star here so this might make
+the texture
+up here
+map
+a little bit funny so let's just
+add a loop
+and then let's
+double hit g and move this up so this
+this row of quads is consistent
+and so our textures will map nicely
+let's
+okay these look smaller over here so
+let's grab these move them down
+grab these and move them down
+that's looking better
+let's
+check with this off
+normally i'd spend a little more time on
+this but let's just uh let's just call
+it fine
+for the sake of the tutorial
+but if you're doing this for real it's
+kind of nice to make sure all your quads
+are
+kind of as square and even as possible
+okay
+so now
+this
+row of loops looks pretty good pretty
+even
+so you can put a little trim there and i
+think we can use a normal map for that
+too
+okay so what else do we want to do here
+we got wrinkles we got those two loops
+okay so right now our dress is like
+paper thin
+it can be nice to add some thickness to
+it so let's go into edit mode
+and go to
+grab our edge with alt click
+hit e to extrude and then right click to
+drop it
+let's go to transform around bounding
+box center
+actually try alt s
+alt s
+and pull it in
+and then let's go s to scale
+too much in the front
+s to scale
+so the front looks like a pretty good
+thickness but the back looks too thin
+and the sides look too thin so let's
+scale it inwards scale
+x
+pull that in
+let's
+un-click
+unselect those and hit g
+y and pull that in
+is a little bit
+it's uh interfering too much so let's
+just pull that out let's turn
+proportional edging on and pull it out
+and let's make the
+influence smaller
+okay
+and i think
+the middle of the stress wants to
+it's more flat in our concept sketch so
+let's go to
+i keep forgetting sculpt mode
+just go to sculpt mode and then just
+pull it up a little bit
+let's go to edit mode
+and
+it's even these out just a touch
+so let's turn off our sub d
+and let's see what's going on here
+let's just even these out just a touch
+okay let's
+take a look here and let's go into
+isolate
+okay i'm seeing some things that we need
+to improve here
+so
+if you look here you can see we have a
+little pole
+and
+they're all quads but there's a pole
+here and so it makes it display the mesh
+with a slight warble in it or a little
+uh
+you know crease in it not quite a crease
+but it's pretty faint but when this body
+is bending forward or backwards
+as this geometry bends you'll you'll see
+a little imperfection right here
+and
+for the body or for this part of the
+close which follows the body pretty
+closely it's okay because
+it'll kind of indicate
+the separation between the rib cage and
+the abdominal muscle
+now if you look down at this area
+this
+this will be a flowing dress and so
+sometimes you might have this entire
+area
+flowing forwards or backwards or to the
+side or something
+and if that happens
+this part here
+won't look like a fabric it'll look like
+it's got little imperfections in it
+and so i think because this is a a
+fabric like a piece of cloth i think we
+need to
+simplify this so it's all just
+simple
+grid style quads
+it'll make this flow better
+yeah i think that will be a problem and
+that will be a problem
+versus on the on the body it wasn't a
+problem
+so let's go and i hope that makes sense
+so let's go and fix that
+okay let's turn off our sub d and
+let's figure out how to simplify this
+area here so let's grab our mesh go to
+edit mode and face mode and
+delete some faces
+x
+oops x faces
+and
+i think we want to have
+this curve
+connecting
+this connecting to there so let's go and
+do that just
+connect it
+so i know i want that now let's figure
+out how to do with all of this stuff
+around here
+i think
+that might be good too so we can have
+that
+flow coming down
+and i don't think we need to connect
+this one to up here
+because we have a pretty pronounced um
+hip bone
+so
+it's okay to have
+that accentuated with this poll so
+that's okay
+and let's do this
+x and faces
+x and faces and grab that with l and x
+and faces
+so we're only doing dealing with half of
+it
+and then let's
+do this
+let's
+get rid of this
+cut that
+and then go
+like that
+let's check with our sub d to make sure
+it's not too
+we add geometry so it
+it'll start to
+accentuate the creases because we added
+more geometry so let's just make sure
+it's okay let's put our mirror back on
+and we can turn on the
+clipping
+yeah i think that's okay
+okay so let's grab this again here
+turn off our sub d and figure out what
+to do with this thing
+so i think
+what we're going to do here is we're
+going to delete this face
+hit control r
+to cut a loop there
+then hit f twice
+and then
+now this should all flow better so now
+we've still got a pole there
+and here
+but these areas i don't think are going
+to be flowing
+i think this part will still stay with
+the body
+this part down here will be flowing and
+that one i have quads
+and so i mean just a regular grid quad
+and so i think that will flow nicer so
+that's good
+we can straighten up these a bit
+double hit g
+so it's a little bit cleaner
+pull that out
+pull this in
+okay
+so let's see what else we got
+okay so this one let's fix this too
+let's go to face mode and we will x and
+delete that face control r
+whoops
+ctrl r
+let's turn off sub d
+okay
+and then we
+will delete this x and faces ctrl r
+get that in there and hit
+f to close that
+f to close that and f to close that
+so that's
+nice and simple
+we might have to puff these surfaces out
+when we have the body below there
+maybe it's okay
+okay let's see what else we got here
+so we've got this one down here to deal
+with so let's see here i think we can
+x
+dissolve edges
+excellent edges
+i wonder if we can just
+get rid of that
+and then ctrl r here
+delete this
+x face oops
+x faces
+and hit ff to close it
+so now we lose our wrinkle on the back
+but we can just add that back in with
+this other geometry so we'll shift to
+drop a 3d cursor
+and grab that
+and then we will
+transform around 3d cursor
+and double hit r
+yeah i think that's pretty good
+i wonder if we want to grab this one too
+yeah that's a little better
+this is a little bit too creasy in the
+middle here let's pull this forward i
+mean backwards
+and let's apply this here
+you can't apply it when you're in edit
+mode so apply that here
+go back here go into vertex mode let's
+grab
+some vertices and go to vertex smooth
+smooth smooth smooth smooth
+select mm
+and vertices and smooth
+i've got this little crease here which
+isn't really bugging me
+so let's just grab that
+and vertices and smooth
+okay so this is
+not as uh
+creased in the middle now so it's a
+little bit more flowing our bodies
+probably poking through here
+so let's go and push that back out let's
+go to face mode here and actually go to
+vertex mode here and grab these
+proportional edging is on and hit alt s
+to just pop it out let's increase our
+area of influence
+okay so that's
+better and let's check our flow
+and so that's gonna flow a lot nicer
+like a dress
+that's gonna flow nicer
+and that will flow nicer
+okay
+i think we're good
+so now let's
+close out the bottom right now it's just
+open and it's
+razor thin let's thicken that up and
+close out the bottom
+so let's grab our mesh here we will grab
+a couple loops
+and then we will go to
+shift d
+right click to drop it
+mesh
+separate selection
+this way now it's a separate object so
+it'll be easier for us just to scale it
+without affecting the main mesh let's go
+to ed mode
+let's grab this inside loop here and
+let's just
+let's grab this
+isolate
+now we can see it without the body
+getting in away and let's just
+alt s and pull this in let's turn off
+portion editing
+alt s and pull that in
+so now the inside surface is much
+further inside than the outside surface
+here so you can see
+oh here we go so you can see that it's
+much much further inside than
+outside here this way when you're
+animating and moving the character
+around
+you won't have the problem of this
+inside poking out
+through the outside
+you don't want that
+and it's not realistic but no one's
+going to really look inside the address
+so i'm not too worried about that
+oops
+so let's go to edit mode and vertex mode
+turn off our sub d here
+and it's
+it's hard to see what's going on so
+let's turn that off
+and turn the sub d off for the main mesh
+so now we can
+compare what's going on
+and we've got some overlapping surfaces
+and i can't say the vertex it should be
+like right around there
+i missed it
+and so let's just grab that and just
+move this
+over there and move that over there so
+it's
+more of a simple loop
+because we're going to close up this
+bottom area
+and so
+if you have all these jagged shapes it
+it's kind of messy when you're closing
+things up
+so let's just
+really roughly move these things in
+and we can do
+grab the whole thing vertex and smooth
+that one time
+scale back in a bit and go to right
+click loop tools which is one of the
+plugins
+that
+i listed in the beginning
+and go to
+flatten
+okay so that's pretty good
+and then
+let's deal with this one here
+so this one
+we're going to offset this inwards but
+we want to be careful because
+this will this will be visible from the
+outside it will make a slight thickness
+so let's see if i can show you here so
+let's grab that and let's hit alt s just
+a bit
+and if we turn on the smoothing and turn
+on the smoothing for here
+you can see this will be the thickness
+of the dress that we see
+so and that's pretty good it's a little
+bit thicker than real life but it's okay
+but one thing we want to be careful with
+is because we have such a
+low geometry here
+you can see that
+something like this
+when you animate it it has a good chance
+of poking through and that'll look bad
+and we don't want that so
+and because the shape is so um
+starred like it's like a big star
+we can't just scale it so we have to
+manually move it so let's just move it
+in so it's kind of in between these two
+edges let's do that for each one here
+you see this one's already poking
+through
+let's move that inside
+oops
+i grab the bottom one
+move that inside
+and this is in the middle so i'm hitting
+gy so it stays in the middle
+and these were all mirrored so they
+should all be okay and they look okay
+okay
+so that's good so the this inside row
+is offset but it's still
+um even so it's not going to poke
+through and let's deal with this middle
+row here
+so
+what you can do is you can just
+hit g double hit g
+and move it up here a bit and double hit
+g again and move it down there a bit
+so double hit double hitting g moves all
+these
+vertices along the edge
+but since the edge was a straight line
+to this point here
+it ended up pushing them all inwards and
+then since this point here is further
+inwards when we hit double hit g and
+moved it down
+it also moved it inwards so now these
+should all
+be just a bit more inside
+maybe we could go even more so let's see
+here
+so i want this to be further in so i'll
+hit double hit g and pull it in
+and double hit g and pull it in and now
+it's a little bit further inwards
+and i'm looking to see if there's any
+chance of collision
+looks like there is here
+yeah
+so i'm just going to
+i'm going to do this
+so let's look at our address here
+you can see where it's poking through
+on one side
+and then we can go over here and just
+pull it in and you can see
+and it's not poking through
+so back here
+somewhere
+yeah here
+no here here we go
+move that in
+let me use that one
+move it in
+okay
+so since we've already had so many
+problems
+with this middle row
+poking through it's it's making me it's
+making me nervous and i i anticipate
+problems
+animating this in the future so what i'm
+going to do is scale everything around
+bounding box center and scale the whole
+thing in
+and i'm going to manually move all these
+points inwards just like i did the
+top row
+because i don't want
+problems down the road
+so if you pull these in
+there's less of a chance of any kind of
+problem
+and this will
+make anybody oops
+posing or moving this
+they'll never notice it because it won't
+be a problem
+but if it is a problem
+you will definitely have a bad day
+okay so i think that
+is going to do it
+let's turn on our sub d here let's
+get rid of that thing here
+and make sure we're not poking through
+and we look good
+and this inside looks pretty good
+and so let's go and connect this here
+so we'll grab
+grab this edge and grab that edge and
+hit
+f and then just close this thing up
+and that's really ugly
+so let's go to edge mode and
+let's pull these guys in
+and that's probably not a big deal but
+it just looks bad
+okay so that's good here
+and let's
+delete this half
+x faces l
+l
+x faces
+let's go over here
+grab
+half
+x faces ll
+x faces
+and then let's just
+now
+join these two so we'll grab the inside
+and grab the outside
+control j
+that's also that's some
+this probably doesn't matter but let's
+just crease this bottom area
+edge and
+mark sharp
+and then let's turn on our sub d and put
+a mirror on here
+mirror
+let's see how it looks
+oh forgot something
+let's close this off so let's grab this
+face
+grab that face hit f
+grabs this edge here
+and just hit
+f a bunch of times
+so it's all closed
+and then
+let's grab this loop here it's hard to
+see because we have a smooth and it's
+these sharp angles
+if you turn it oops if you turn it off
+it's easier to see what's going on
+okay
+so let's grab that let's grab that
+actually something's going on here
+this
+should not be sharp
+um
+so i think something is funny with the
+faces
+so let's grab everything
+and go to face shade smooth
+um face shades
+oh
+face shade smooth
+let's check out normals
+normals
+ah normals okay no so normal so
+normals always screws me up um
+i should have flipped these normals
+before we attached it
+so
+now it's going to be hard to select all
+these well i guess it's not that hard
+so you could grab all these and go to
+alt n
+and
+flip normals like that
+oh but you can see
+it was a little bit hard because then i
+over selected so you can go that flip it
+and then go and select all these guys
+and flip it
+alt n and flip
+yeah see it's kind of it's kind of a
+pain to do that so the other thing you
+can do let's back out here
+so i made this big mess here you can
+just
+alt click that x and faces
+and then hit
+l alt n and flip
+and so the reason why we're doing this
+is we want
+we want all of our
+normals to face outwards of the mesh and
+so when it's red it's facing inwards and
+so now
+all the main faces are facing outwards
+when you get um normals flipped
+from one side from one face to the other
+that's where you get these weird
+smoothing problems
+um so keep an eye out for that and it'll
+uh
+that'll cause you problems so now let's
+go back here and join that
+with f and let's join all these things
+here
+and so now when you look at this let's
+turn off our turn off our face
+orientation so now when you look at this
+it all looks
+consistent there's no weird
+crispy edges there it's all the way it
+should be
+okay so now that we've got that let's go
+and
+smooth let's
+sharpen the bottom of the dress right
+now it's kind of blobby
+so we will grab that
+grab that
+and go to edge
+mark sharp
+go to
+edge crease and plus one
+okay so now we can see we've got
+a thickened dress
+it's closed up on the inside
+and
+got our wrinkles
+let's bring back our body make sure
+we're not poking through anywhere
+okay and let's check the flow and the
+flow
+looks nice and
+even
+yep so i think that's
+i think that's
+that's looking pretty good
+okay i think we're off to a good start
+we've got the basic modeling done in the
+next video we'll create a uv map
+i hope this video was helpful to you if
+it was
+leave a comment to let me know or like
+or subscribe or better support me on
+patreon
+thank you and see you next time

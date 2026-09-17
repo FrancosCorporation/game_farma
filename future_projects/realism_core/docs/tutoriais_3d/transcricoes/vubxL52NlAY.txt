@@ -1,0 +1,255 @@
+Kind: captions
+Language: en
+so lately i've been interested in retro
+so lately i've been interested in retro
+so lately i've been interested in retro
+video game graphics because
+video game graphics because
+video game graphics because
+who isn't these days and so i decided to
+who isn't these days and so i decided to
+who isn't these days and so i decided to
+learn how to make them
+learn how to make them
+learn how to make them
+in less than 24 hours and it turns out
+in less than 24 hours and it turns out
+in less than 24 hours and it turns out
+it's actually pretty easy
+it's actually pretty easy
+it's actually pretty easy
+the first thing i did was create a 3d
+the first thing i did was create a 3d
+the first thing i did was create a 3d
+model because of the limited hardware of
+model because of the limited hardware of
+model because of the limited hardware of
+the ps1
+the ps1
+the ps1
+and n64 developers had to be very
+and n64 developers had to be very
+and n64 developers had to be very
+economical with how many polygons their
+economical with how many polygons their
+economical with how many polygons their
+models had
+models had
+models had
+usually keeping things under 500
+usually keeping things under 500
+usually keeping things under 500
+triangles my model triangle count is a
+triangles my model triangle count is a
+triangles my model triangle count is a
+bit on the high sign but it manages to
+bit on the high sign but it manages to
+bit on the high sign but it manages to
+keep that old school aesthetic and i
+keep that old school aesthetic and i
+keep that old school aesthetic and i
+made sure to keep the arm separate from
+made sure to keep the arm separate from
+made sure to keep the arm separate from
+the body because that was apparently
+the body because that was apparently
+the body because that was apparently
+really common back then
+really common back then
+really common back then
+next i made the textures the ps1
+next i made the textures the ps1
+next i made the textures the ps1
+supported texture sizes up to 256 by 256
+supported texture sizes up to 256 by 256
+supported texture sizes up to 256 by 256
+pixels though most games stuck with a
+pixels though most games stuck with a
+pixels though most games stuck with a
+maximum of 128 and you had to do
+maximum of 128 and you had to do
+maximum of 128 and you had to do
+everything on those 128 pixels leaving
+everything on those 128 pixels leaving
+everything on those 128 pixels leaving
+you with these adorably tiny little
+you with these adorably tiny little
+you with these adorably tiny little
+textures
+textures
+textures
+since this is the 21st century one thing
+since this is the 21st century one thing
+since this is the 21st century one thing
+we can do to optimize things is combine
+we can do to optimize things is combine
+we can do to optimize things is combine
+everything into a single texture called
+everything into a single texture called
+everything into a single texture called
+an
+an
+an
+atlas which is much more convenient to
+atlas which is much more convenient to
+atlas which is much more convenient to
+work with and uses less engine resources
+work with and uses less engine resources
+work with and uses less engine resources
+for better performance
+for better performance
+for better performance
+after that i applied the texture onto
+after that i applied the texture onto
+after that i applied the texture onto
+the model because it's low poly you
+the model because it's low poly you
+the model because it's low poly you
+often don't have a lot of room to tweak
+often don't have a lot of room to tweak
+often don't have a lot of room to tweak
+stuff and make it look perfect and so
+stuff and make it look perfect and so
+stuff and make it look perfect and so
+you have to make compromises with
+you have to make compromises with
+you have to make compromises with
+certain proportions
+certain proportions
+certain proportions
+that's why a lot of old games have some
+that's why a lot of old games have some
+that's why a lot of old games have some
+pretty ugly looking models if i'm being
+pretty ugly looking models if i'm being
+pretty ugly looking models if i'm being
+honest though i'm sure
+honest though i'm sure
+honest though i'm sure
+a more experienced artist than myself
+a more experienced artist than myself
+a more experienced artist than myself
+could do a much better job
+could do a much better job
+could do a much better job
+after that i rigged up the model and
+after that i rigged up the model and
+after that i rigged up the model and
+gave it a janky animation
+gave it a janky animation
+gave it a janky animation
+and then i imported the model into my
+and then i imported the model into my
+and then i imported the model into my
+game engine here you can decide if you
+game engine here you can decide if you
+game engine here you can decide if you
+want to go for the n64 look by
+want to go for the n64 look by
+want to go for the n64 look by
+enabling texture filtering which makes
+enabling texture filtering which makes
+enabling texture filtering which makes
+all the textures look kind of blurry or
+all the textures look kind of blurry or
+all the textures look kind of blurry or
+you can disable the blur if you want to
+you can disable the blur if you want to
+you can disable the blur if you want to
+go for the ps1 look which
+go for the ps1 look which
+go for the ps1 look which
+didn't support filtering personally i
+didn't support filtering personally i
+didn't support filtering personally i
+prefer the ps1 look even though i grew
+prefer the ps1 look even though i grew
+prefer the ps1 look even though i grew
+up with the n64
+up with the n64
+up with the n64
+it's all preference now if you run the
+it's all preference now if you run the
+it's all preference now if you run the
+game as it is now you'll notice that
+game as it is now you'll notice that
+game as it is now you'll notice that
+something just doesn't look right and
+something just doesn't look right and
+something just doesn't look right and
+that's because the resolution is too
+that's because the resolution is too
+that's because the resolution is too
+high
+high
+high
+it's 2 hd you can't see the pixels the
+it's 2 hd you can't see the pixels the
+it's 2 hd you can't see the pixels the
+ps1 was capable of outputting a maximum
+ps1 was capable of outputting a maximum
+ps1 was capable of outputting a maximum
+of 320 by 240 pixels and so simply
+of 320 by 240 pixels and so simply
+of 320 by 240 pixels and so simply
+reducing the size of your game to that
+reducing the size of your game to that
+reducing the size of your game to that
+resolution should give you an authentic
+resolution should give you an authentic
+resolution should give you an authentic
+look
+look
+look
+though in my opinion it's pretty hard to
+though in my opinion it's pretty hard to
+though in my opinion it's pretty hard to
+look at on a modern display
+look at on a modern display
+look at on a modern display
+and so you can get away with increasing
+and so you can get away with increasing
+and so you can get away with increasing
+the resolution to 640x480
+the resolution to 640x480
+the resolution to 640x480
+and it'll still look pretty retro all
+and it'll still look pretty retro all
+and it'll still look pretty retro all
+that's left are some finishing touches
+that's left are some finishing touches
+that's left are some finishing touches
+such as locking the aspect ratio to 4
+such as locking the aspect ratio to 4
+such as locking the aspect ratio to 4
+3 instead of the modern 16x9 and adding
+3 instead of the modern 16x9 and adding
+3 instead of the modern 16x9 and adding
+a 90s era user interface
+a 90s era user interface
+a 90s era user interface
+and all of a sudden you've got something
+and all of a sudden you've got something
+and all of a sudden you've got something
+that looks very convincingly retro
+that looks very convincingly retro
+that looks very convincingly retro
+i had a lot of fun learning how to make
+i had a lot of fun learning how to make
+i had a lot of fun learning how to make
+retro graphics and i would love to do
+retro graphics and i would love to do
+retro graphics and i would love to do
+more with it in future videos so let me
+more with it in future videos so let me
+more with it in future videos so let me
+know what you think
+know what you think
+know what you think
+like subscribe bell links to my social
+like subscribe bell links to my social
+like subscribe bell links to my social
+media down below and as always
+media down below and as always
+media down below and as always
+have a nice day

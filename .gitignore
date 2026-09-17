@@ -18,3 +18,14 @@ npm-debug.log*
 /Obj/
 /Builds/
 /UserSettings/
+
+# Pesos de modelos 3D/generativos (gigabytes, nunca versionar)
+*.safetensors
+*.ckpt
+*.pth
+*.onnx
+
+# Arquivos soltos locais (não versionar)
+/echo
+/exemplo.png
+/sem_chance.jpeg

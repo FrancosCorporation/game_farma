@@ -1,0 +1,653 @@
+so this marks the final chapter of the
+modeling segment Beyond this we'll start
+seeing our character in colors and
+shaders to wrap up this Milestone we
+will be adding a few additional details
+to the character we'll start with the
+backpack and then move on to the extras
+like a muffler glasses badges Pockets
+straps tags buttons bands all those tiny
+tiny details so while each detail on its
+own might not seem like much but when
+combined with the main model it takes
+the character to a different level these
+additions not only enhance the model but
+also will add lot to the secondary
+animations later on the back will sway
+tags will flow along with it making your
+character feel more lively and detailed
+so feel free to think of your own set of
+secondary objects to personalize your
+creation so welcome back everyone this
+is Ram from Cross mine studio and you're
+watching chapter number seven of the
+animated character creation series for
+bonus chapters project files and other
+useful resources check out the premium
+version details hard keys PDF and more
+in the description let's Dive Right
+In
+so let's try and add some more details
+I'll just add one mesh
+Circle and scale it down put it here in
+the edit mode I'm just going to select
+some of these and move these down
+with everything selected just extrude
+it and uh just wrap it around the
+neck like this recalculate normals
+outside flip
+normals if we select everything extrude
+along normals this way we can add some
+depth to this fabric maybe I need to
+scale this entire thing down a little
+and slightly taller with everything
+selected I'm just going to duplicate
+this whole
+thing and create one separate layer of
+this once we have this we can enable
+connected only and start tweaking the
+shape so the bottom part is going to
+rest on the shoulders a
+little just trying to first get the
+overall
+volume it might be too big but let's see
+just trying to add a few layers maybe
+it's resting on the shoulder and then uh
+some of this is stacking up so keep
+adding a few loops and adjust
+it just trying to make this appear
+softer randomize the form a little just
+trying to break the cylindrical form
+ring form and uh maybe if we can achieve
+few
+folds that'll be really
+great
+all right so I think we are pretty much
+done with the with this as
+well only thing I would like to add here
+is just create a duplicate of these
+edges extrude some part of it for just a
+piece of cloth hanging down like this
+I'm using proportionate editing to make
+software modifications select the entire
+thing and make one overall Extrusion
+to add depth to this fabric you can also
+use solidify modifier if you want later
+on just select a few loops and push it
+in and out to create sort of a fabric
+like
+formation keep checking rest of the
+views and try to just shape it according
+to the body it's like resting on the
+chest
+part let's see how it looks in the
+render
+yeah so rest everything looks good so
+let's make one U bag behind this
+character now for the backpack I'm going
+to make one simple
+Cube and divide this with a loop
+tool get rid of half of this and apply a
+mirror modifier I'm going to scale this
+entire thing enable the
+clipping first I'm going to just make
+overall volume proportions and volume
+and then add a few Loop Cuts so just
+keep adding segments to form the
+different sections of the bag first I
+think uh yeah the overall volume is fine
+it apply subdivision surface modifier
+now what I'm thinking is to create one
+insert here and then extrude it
+again like
+this here we can bevel this Edge to
+create a heart surface a separation line
+basically it's a simple object simple
+shape and just extruding and adding
+Loops let's go to the perspective view
+so that we can see how much of area it's
+covering now these faces I'm thinking of
+extruding it this
+way scale it
+down let's create one bevel on these
+edges and we can get rid of this top
+face something like this we can use this
+Edge to create a
+flap like this a pretty simple bag
+nothing complicated going on
+here all right now for the base I'm
+thinking to add one Loop here to have
+sort of a hard Edge
+usually there are stronger and harder
+angles at the bottom of the bags where
+it sits on the
+floor and in between let's add one Loop
+cut so that we can round this off like
+this we can also add one partition here
+just to make it appear like there's a
+different uh section here so create a
+bevel and ALT e to extrude it inside to
+create this
+separation and these faces we can
+extrude like this shade
+smooth let's add one more pocket in the
+front e for
+extrude going to insert this and extrude
+it inwards like this same thing I'll do
+here uh let's extrude this part select
+these two create one insert extrude it
+inside scale this down a bit and then
+these top faces we can extrude again so
+you have these Pockets now we can uh we
+can duplicate this Edge and extrude it
+sideways and in the side view just try
+to create this sort of the main flap
+which covers the bag so simply extrude
+it a few times and that should do the
+job linked Faces by pressing L and uh
+extrude this entire part to add depth to
+this Fabric and make it appear thick
+so for this laap right here I have some
+uh face hiding right here so I just need
+to bring it down for this these Corners
+to smooth out so keep checking it
+without the subdivision surface in
+between now for the bands create one
+simple duplicate of this Edge same thing
+it's pretty much same thing we have been
+doing this entire tutorial just trying
+to make use of whatever geometry we have
+and uh quick quickly extract the best
+starting
+geometry and uh make use of it because
+it takes time to add a new object and
+then Orient it according to your object
+so extracting an existing phas is much
+easier this has to go somewhere so for
+that let's duplicate any of these edges
+and put it right here then in the
+profile view just keep extruding it and
+try to make these ends meet this is
+where both the straps will be buckled up
+shade smooth and we can select this with
+L and extrude along normal to create a
+thick surface and uh then we can select
+the edge this one right here and try to
+connect it with this one there is no
+particular design I'm following for this
+bag it's just the very basic generic
+shape the essential things which uh I
+can remember from my memory about the
+bag now with the proportionate editing
+I'm going to just wrap this around our
+character so that it looks like it's uh
+actually resting on the shoulders and uh
+passing through the
+underarms all right so more or less this
+is done I'm going to add one more Edge
+in between so that we can fold this part
+a
+little all right now we can select this
+entire thing
+extrude along normals to make it round
+surface let's add few more Edge loops on
+the sides and select these loops with
+alt extrude along
+normal and move it inside maybe so just
+a simple separation line so there could
+be stitches or something around these
+later on in the texturing stage we can
+add so small small things adding up and
+the back looks fine overall
+now for this part we might would need a
+flap so for that we can uh extract these
+two edges and uh then extrude it
+out we can select this entire thing with
+L and flip the normals from search menu
+shade smooth if you want you can keep it
+connected to the main
+bag now let's select these outer edges
+of uh of the
+pocket
+control B to Bevel
+this so just going to connect this right
+here and uh add one more Edge
+Loop then extrude this whole thing along
+normals to sort of solidify
+it if you want you can create one flap
+here but uh for now I I think this is
+good enough now I'm just going to create
+one U simple Cube here or just extract
+the existing phase and uh this is for
+the
+button so just going to align this right
+here and maybe we can subdivide this
+select these Corners scale it down
+create one insert uh individual insert
+individual and then scale this down you
+can delete these faces and then extrude
+this whole
+thing to create the button I'm going to
+keep the scale large for this button to
+sort of keep it in line with the rest of
+the style of
+character so this looks fine we can put
+one button here even though yeah let's
+place it right here and later on once we
+apply mirror modifier we can merge it
+down and here just to add a bit more
+I'm going to create duplicate of this
+sort of a side
+hook just simply extract the existing
+edges and uh
+yeah again extract the side edge to make
+a strap for the sides and extend it if
+you need to and then we can solidify it
+by pressing alt e and extrude so now it
+looks complete now here I can uh maybe
+if I create a few few points like
+this then we can use
+this to create sort of a a plastic band
+for a tag recalculate
+outside extrude along normals let's put
+this right
+here this is where we can hang the
+tags here I can add one grid plane or
+maybe I can just extract one of these
+planes we just going to subdivide this a
+few times like this and maybe stretch it
+up we can create one insert disable the
+individual and uh we can also enable
+boundary and then delete this guy let's
+select everything extrude a little and
+align this to this little rubber band
+make a few duplicates so all of these
+when animated together are going to add
+so much in the secondary anim
+then I'm going to add a simple circular
+shape to make badges which are going to
+rest on the shoulders or maybe the strap
+of the bag so just a simple thing if if
+you have any other ideas just feel free
+to do so I'm going to apply the mirror
+modifier uh before we proceed to the
+materials prepare a few things like uh
+we don't have eyebrows for the
+character right here with this character
+selected I'm going to select the these
+faces press shift d and then separate
+this selection now I'm going to apply
+one mirror modifier on
+this and we can also solidify this
+thing just shape this properly later on
+we are going to create some particle
+hair on these
+eyebrows if you want you can use shrink
+wrap so that stays on top of character
+all the time but
+uh let's see we we might won't need it
+it's pretty simple geometry and there
+are very few points we can do without it
+actually so what I'm thinking is
+duplicate these faces what if I make a
+slightly thinner strand here let me just
+reduce the thickness
+one so just a simple additional shape to
+break that chunky little form that we
+have for eyebrow at this
+moment so eyebrows are done for now next
+thing I'm going to do is uh maybe
+eyelashes let's select some of these uh
+Edge loops around the eyes maybe the
+ones which are inside a little so we can
+start from a bit of
+depth yeah separate this selection we
+are going to create one extrude without
+the proportionate editing enabled we
+can just scale it up like
+this so This Could Be eyelashes stylized
+up it flip normal if you see darker
+faces and try to taper it from the sides
+so depending on the kind of character
+you're making if it's a girl then try to
+keep it slightly broader but if it's a
+boy then you can have something finer
+maybe we can use mirror modifier for
+this as well eyelashes are way too big
+so I'm just going to scale it
+down let's first get rid of this center
+edge dissolve Ed here we can rework on
+this a little just make sure it's
+sticking to the eyes and there's no Gap
+in between try avoiding Gap as much as
+possible Shad smooth this and uh let's
+see so we have override material that we
+had made previously for the
+preview yeah so this seems fine and uh
+what I'll do is once I apply material on
+eyelashes and everything I'll see if
+this looks way too big and uh we can
+always reduce uh few things about it for
+the phas I need to do few more things
+inside of the character if you go to the
+perspective
+view just need to create something for
+the
+mouth so that when character opens its
+mouth we'll see something inside instead
+of hollow or blocked surface so just
+extrude the loops from the lips to
+inside a little so something is not
+right here it seems like we should
+delete some of these faces to have
+proper
+Loops delete faces again or delete these
+edges let's go to the side view I'm just
+going to start fresh and extrude these a
+few
+times and keep spreading this out
+because we are going to add some teeth
+and gums as well inside
+this yeah that's about it and for the
+inside of the mouth I'm going to create
+one plane let's shrink it down like this
+in edit mode I'm going to add one Loop
+here and bevel these edges let's apply
+subdivision surface and see what's going
+on I'm going to subdivide this plane
+extrude
+everything and uh this these could be
+teeth create few Loops here and here
+really simplified form of teeth
+I'm going to add one Loop here and
+uh maybe disorient these a little to
+make it look
+organic and then I'll make a duplicate
+of this entire thing if you want you can
+select both of these and
+uh make it round like
+this this can go inside
+this mouth scale it down right here
+let's create one shape key for
+character just going to expand this
+selection and uh just work with the
+proportionate editing and try to open
+this mouth with connected only enabled
+in proportionate
+editing so here I'm going to use 3D
+cursor place it right here select some
+of these
+faces
+maybe these faces and uh try to open
+mouth so this is just a rough job I'm
+doing
+here so just the position of the just
+for the position of the mouth I'm going
+to do a pretty rough job here so give it
+some time and u just carefully place
+these Dentures inside the
+mouth so seems like I might have made a
+mistake a few of these edges are flipped
+upside down so I'm just going to scale
+these in a negative Direction that's
+probably the reason it's not opening up
+properly and just going to do inverse
+scaling to flip it upside down and uh
+this should
+work yeah so this looks much better and
+uh I think uh I might have uh extruded
+on the inside of the mouth in inward
+Direction so that's what I was trying to
+fix so pretty much done and uh let's see
+if uh we need uh anything else now right
+here I can uh create one simple box for
+tongue apply subdivision surface and and
+uh just one more Loop here so that we
+can uh shape it like
+this and this tunk should be
+visible right here so all of this is
+going to look much better with the
+materials so at this moment don't worry
+about it too much just make sure the
+scale is right it doesn't look too broad
+and once you're done just turn off the
+shape key that you had all right so
+seems like modeling is done character is
+complete I'm just looking around to see
+if there are any improvements I can see
+I'm just uh realizing that I haven't
+really made a seam line for uh for the
+jacket so I'm just quickly going to grab
+these uh Loops by Alt clicking on these
+and uh we can actually give it a bit of
+bevel and then alt e to extrude along
+norals and then push these inside a
+little and then I really feel actually
+there should be a pocket somewhere here
+so I'm just going to manually select
+these
+faces extrude along normals and at the
+top this should be the opening I'm just
+going to push these out a little more to
+make more room for it and then uh maybe
+round this up a
+little you can control select to define
+a range of selection and then I can
+insert this a little by pressing I
+insert one more time and then extrude it
+inside for the flap I'm going to select
+probably this line right here and
+extrude it like this and
+uh yeah
+carefully just push this down a
+little like this all
+right just in case if you're planning to
+put a button here and here as well we
+can create a simple EXT a little bit not
+too much and then extrude this part
+inside a little just impression of
+pocket I'll make one on the other side
+as well it's not exactly a symmetrical
+object so I can't really use a mirror
+modifier on this because uh some of the
+parts are asymmetrical now let's look at
+the shoes so yeah I wasn't quite happy
+with the knot that I had made here so
+I'm just going to fix it a little just
+going to press L and select this entire
+segment
+uh everything seems fine it's just that
+uh the knot is not really clear so what
+if we tidy these a little more yeah I'm
+just going to make one more duplicate of
+these laces right here and maybe I can
+add a few more Rings right at the center
+of this knot so where the knot is tied
+or maybe a Taurus knot or something
+let's see so I'm just going to finish
+this shoelace first this is where we are
+going to rest this main knot and just
+twist this in a few different directions
+so that from all the views we can see
+the
+knot yeah this seems fine and then uh
+right here I'm going to create one curve
+Circle and then put it right here alt s
+adjust the radius place it in the middle
+of the
+knot and make a duplicate of this again
+that's it pretty much
+done this right here can be deleted and
+uh we can use this tangent
+instead and for the handbands I'm going
+to select few of these loops and
+separate out these uh
+selections we can solidify this and
+maybe make a few more duplicates and
+randomly arrange
+these just a slight tilt here and there
+and this should look
+random yeah this looks fine seems like
+uh the body had a shape key uh we were
+actually working in the shap key so
+don't worry uh you can always go back to
+the the object mode and apply the shape
+key so whatever you extract from the
+body uh it will have the same modifiers
+and shape keys so just going to create a
+simple grid plane here and uh we can add
+one more Loop in this and then you can
+select both of these and create one
+insert for individual faces add a few
+more loops and then make a quick
+selection and delete few of these to
+make the buckle for the straps
+these might not be the accurate models
+but uh it's just good to have
+something which connects and uh it
+doesn't look incomplete I hope we are
+not overdoing it we haven't added much
+so far it looks uh good on the character
+so in the straps just make a few loops
+and wrap it around the Buckle so almost
+done with it just a little bit more
+tighter
+and uh now for the bands I think we can
+add a few more Loops also tighten up the
+pockets just push these out a
+little and yeah this looks like there's
+some volume in the pockets I'm just
+going to add one Circle here to make the
+glasses and these are curv circles
+shape all four points to make the
+frame the main glass
+shape and then we are going to apply a
+mirror modifier on this so yeah pretty
+standard shape for the
+glass and uh let's put it on the both
+sides and push it back and align it to
+the
+character yeah a slight tilt so that it
+rests on the nose
+and then make a simple plane and this we
+can extrude to the end of the ears to
+make the frame of the
+glasses pretty simple
+object similar to what we had made in
+the beginner introduction series and
+extrude this overall thing to make it
+solid and maybe extend the corner a bit
+and push it inside the glass part so
+that it looks like it's holding
+it it's not accurate but uh it just
+enough enough I
+guess then I'm going to create a few
+points in the Middle with control clicks
+and uh with this we can create the nose
+Bridge uh I'm not quite sure what to
+call
+it simple Extrusion and create the
+center of the
+frame and one extrude here and let's
+connect both of
+these
+yeah so I have mirror modifier and uh
+yeah let's try and connect both of
+these maybe slightly more rounder and
+slightly more arched
+shape I'm going to extrude one of the
+back phas which is going to connect with
+the rest of the
+bridge which is resting on the
+nose this
+one
+yeah I think this should be
+enough and uh then let's uh work on the
+main glasses I'm going to convert it to
+mesh so that we can grid fill it we'll
+have to grid fill both sides manually
+and then select few of these interfaces
+and with proportionate editing push it
+out a little to have that round look
+then shade smooth it and
+uh yeah solidify it a little
+and in the object data properties I'm
+going to enable the auto smooth and set
+it to 30° so that ways not everything is
+smoothed out only the front faces so I'm
+going a bit fast forward in this section
+because uh we have been doing the same
+thing for past two videos so I'm more
+I'm confident that uh you understand
+what what we are doing and I don't want
+to just uh spend too much time on each
+of these small things and that way
+otherwise the video is going to be for
+five or 6 hours or something so for
+these small things I trust you will be
+able to get through these without me
+having to instruct you for each and
+every small
+step so we have been using the basic
+command so now I'm just going to finish
+this up uh wherever it's possible to add
+some improvements add some loop loop
+cards or something so I'll do that and
+just finish it off in the outliner I'm
+just going to rename everything and give
+it a proper name and make a collection
+with the name of character and
+underneath that I'm just going to put a
+few categories maybe one for the props
+one for the hair uh just make a few
+Collections and arrange it nicely simply
+drag and drop it to the other
+collections this wraps up our main 3D
+modeling Milestone congratulations but
+remember practice will only make you
+better so don't let this knowledge fade
+away put it to good use and in the next
+few videos we will be adding 3D shaders
+to all these models and paint a few
+textures for skin and props it might not
+be the most detailed work but it should
+be just enough for our character's style
+I can assure you you're going to enjoy
+the shading process after putting in so
+much hard work in making this model it
+deserves some colors and shaders and it
+deserves to be animated so let's take it
+forward and not stop here the next
+chapter is going to be editing UV of the
+character so we can shade and texture it
+later jump to Discord server if you'd
+like to disc does anything related to
+this on channel dedicated to this series
+check pin command for frequently asked
+questions and problems check description
+for PDF of keyboard shortcuts discount
+coupons and other mentioned resources
+for this tutorial if you enjoyed this
+chapter do check out the full playlist
+and hope you continue all the way till
+the end also consider buying the premium
+version and unlock the additional
+chapters and project files and bonus
+content which will take you through the
+process of rigging with rigify creating
+a nice walk cycle animation creating
+secondary animations using clot physics
+and Bone constraints and rendering your
+entire project using Cycles Render
+engine share your work with me on
+Instagram tag me with instros mind and
+participate in discussion on Discord
+channel for this course links are in the
+description please give it a like And
+subscribe and stay tuned for more share
+your thoughts in the comment section and
+don't forget to share it with your
+colleagues and on social media to help
+us reach the wider audience thank you
+for all your support and love let's jump
+to the next video

@@ -1,0 +1,578 @@
+Kind: captions
+Language: en
+Zakd Films generates over 3 billion
+Zakd Films generates over 3 billion
+Zakd Films generates over 3 billion
+views every single month with his 3D
+views every single month with his 3D
+views every single month with his 3D
+short videos and that's because they
+short videos and that's because they
+short videos and that's because they
+look incredible and the storytelling
+look incredible and the storytelling
+look incredible and the storytelling
+keeps you hooked and makes you keep
+keeps you hooked and makes you keep
+keeps you hooked and makes you keep
+scrolling. So I got curious and did some
+scrolling. So I got curious and did some
+scrolling. So I got curious and did some
+digging. I learned that he has around 60
+digging. I learned that he has around 60
+digging. I learned that he has around 60
+employees and each video costs him
+employees and each video costs him
+employees and each video costs him
+roughly $1 to $3,000 to make which are
+roughly $1 to $3,000 to make which are
+roughly $1 to $3,000 to make which are
+obviously huge numbers and not the type
+obviously huge numbers and not the type
+obviously huge numbers and not the type
+of resources I have at my disposal. But
+of resources I have at my disposal. But
+of resources I have at my disposal. But
+I am a pro at AI. And with how far AI
+I am a pro at AI. And with how far AI
+I am a pro at AI. And with how far AI
+has come, I couldn't help but wonder if
+has come, I couldn't help but wonder if
+has come, I couldn't help but wonder if
+I could create something similar myself
+I could create something similar myself
+I could create something similar myself
+using only AI. And here's what I managed
+using only AI. And here's what I managed
+using only AI. And here's what I managed
+to make in less than a day. They had
+to make in less than a day. They had
+to make in less than a day. They had
+declared him dead after a sudden cardiac
+declared him dead after a sudden cardiac
+declared him dead after a sudden cardiac
+arrest and his body was sent to the
+arrest and his body was sent to the
+arrest and his body was sent to the
+crematorium hours later. But just as
+crematorium hours later. But just as
+crematorium hours later. But just as
+workers were about to start the furnace,
+workers were about to start the furnace,
+workers were about to start the furnace,
+they heard faint knocking coming from
+they heard faint knocking coming from
+they heard faint knocking coming from
+inside the chamber. You see, his heart
+inside the chamber. You see, his heart
+inside the chamber. You see, his heart
+had slowed so much that the hospital
+had slowed so much that the hospital
+had slowed so much that the hospital
+machines couldn't detect it, and he had
+machines couldn't detect it, and he had
+machines couldn't detect it, and he had
+slipped into a deep hypothermic coma. He
+slipped into a deep hypothermic coma. He
+slipped into a deep hypothermic coma. He
+slowly regained consciousness and
+slowly regained consciousness and
+slowly regained consciousness and
+started banging until they yanked the
+started banging until they yanked the
+started banging until they yanked the
+chamber open. He was rushed back to the
+chamber open. He was rushed back to the
+chamber open. He was rushed back to the
+hospital and doctors admitted that if
+hospital and doctors admitted that if
+hospital and doctors admitted that if
+the workers had hesitated even a few
+the workers had hesitated even a few
+the workers had hesitated even a few
+more seconds,  he would have been
+more seconds,  he would have been
+more seconds,  he would have been
+burned alive. This entire video was made
+burned alive. This entire video was made
+burned alive. This entire video was made
+using AI. And I'm going to show you
+using AI. And I'm going to show you
+using AI. And I'm going to show you
+exactly how you can do it yourself step
+exactly how you can do it yourself step
+exactly how you can do it yourself step
+by step from coming up with ideas and
+by step from coming up with ideas and
+by step from coming up with ideas and
+writing the script to generating the
+writing the script to generating the
+writing the script to generating the
+animations, the sound effects, and the
+animations, the sound effects, and the
+animations, the sound effects, and the
+voice over all using AI. You will also
+voice over all using AI. You will also
+voice over all using AI. You will also
+find links to every tools I use in this
+find links to every tools I use in this
+find links to every tools I use in this
+video in the description below. All
+video in the description below. All
+video in the description below. All
+right, so for the idea and script
+right, so for the idea and script
+right, so for the idea and script
+generation, I pull the titles and
+generation, I pull the titles and
+generation, I pull the titles and
+transcripts from 10 random Zack D Films
+transcripts from 10 random Zack D Films
+transcripts from 10 random Zack D Films
+videos and use them to create this
+videos and use them to create this
+videos and use them to create this
+custom GPT. This lets it generate ideas
+custom GPT. This lets it generate ideas
+custom GPT. This lets it generate ideas
+and write scripts in the same style as
+and write scripts in the same style as
+and write scripts in the same style as
+ZackD films. So let's ask it to generate
+ZackD films. So let's ask it to generate
+ZackD films. So let's ask it to generate
+10 ideas and pick one if we like any.
+10 ideas and pick one if we like any.
+10 ideas and pick one if we like any.
+All right. So, you can see that it
+All right. So, you can see that it
+All right. So, you can see that it
+generated 10 ideas in the form of titles
+generated 10 ideas in the form of titles
+generated 10 ideas in the form of titles
+which are also exactly like Zack D
+which are also exactly like Zack D
+which are also exactly like Zack D
+films. And I find the fifth one here
+films. And I find the fifth one here
+films. And I find the fifth one here
+interesting. So, I'm going to tell it to
+interesting. So, I'm going to tell it to
+interesting. So, I'm going to tell it to
+continue with that. It then writes the
+continue with that. It then writes the
+continue with that. It then writes the
+script which is set to 25 to 30 seconds
+script which is set to 25 to 30 seconds
+script which is set to 25 to 30 seconds
+by default though you can make it longer
+by default though you can make it longer
+by default though you can make it longer
+if you want. The example I showed you
+if you want. The example I showed you
+if you want. The example I showed you
+earlier is 30 seconds. Also, at this
+earlier is 30 seconds. Also, at this
+earlier is 30 seconds. Also, at this
+stage, you can ask it to adjust anything
+stage, you can ask it to adjust anything
+stage, you can ask it to adjust anything
+you don't like. Once you're happy with
+you don't like. Once you're happy with
+you don't like. Once you're happy with
+the script, you move on to the next
+the script, you move on to the next
+the script, you move on to the next
+phase. So, let's actually do that. Now,
+phase. So, let's actually do that. Now,
+phase. So, let's actually do that. Now,
+this is where it first generates the
+this is where it first generates the
+this is where it first generates the
+main character's image prompt, then
+main character's image prompt, then
+main character's image prompt, then
+breaks the script into scenes. For each
+breaks the script into scenes. For each
+breaks the script into scenes. For each
+scene, it creates the starting image
+scene, it creates the starting image
+scene, it creates the starting image
+prompt, ending image prompt, final video
+prompt, ending image prompt, final video
+prompt, ending image prompt, final video
+prompt, and also a matching sound effect
+prompt, and also a matching sound effect
+prompt, and also a matching sound effect
+prompt. For maximum accuracy, each scene
+prompt. For maximum accuracy, each scene
+prompt. For maximum accuracy, each scene
+is generated at a time. This way, it
+is generated at a time. This way, it
+is generated at a time. This way, it
+becomes easier to manage the whole
+becomes easier to manage the whole
+becomes easier to manage the whole
+process. All right, let's start by
+process. All right, let's start by
+process. All right, let's start by
+generating our main character image. I'm
+generating our main character image. I'm
+generating our main character image. I'm
+using Nano Banana Pro on Open Art, but
+using Nano Banana Pro on Open Art, but
+using Nano Banana Pro on Open Art, but
+you can use any platform you prefer.
+you can use any platform you prefer.
+you can use any platform you prefer.
+I'll set the aspect ratio to 9 by6 for
+I'll set the aspect ratio to 9 by6 for
+I'll set the aspect ratio to 9 by6 for
+portrait mode. Then I'll paste the
+portrait mode. Then I'll paste the
+portrait mode. Then I'll paste the
+character prompt in. For the image
+character prompt in. For the image
+character prompt in. For the image
+count, I'll set it to two and then click
+count, I'll set it to two and then click
+count, I'll set it to two and then click
+on create. Once the images are ready, I
+on create. Once the images are ready, I
+on create. Once the images are ready, I
+pick the one that fits our style best.
+pick the one that fits our style best.
+pick the one that fits our style best.
+Then I download it because we'll use it
+Then I download it because we'll use it
+Then I download it because we'll use it
+as a reference image to generate the
+as a reference image to generate the
+as a reference image to generate the
+first frame of scene one. Next, I head
+first frame of scene one. Next, I head
+first frame of scene one. Next, I head
+back to chat GPT, copy the prompt for
+back to chat GPT, copy the prompt for
+back to chat GPT, copy the prompt for
+the first image, paste it into the
+the first image, paste it into the
+the first image, paste it into the
+model, attach the downloaded reference
+model, attach the downloaded reference
+model, attach the downloaded reference
+image, and generate. This gives us two
+image, and generate. This gives us two
+image, and generate. This gives us two
+images for the starting frame of scene
+images for the starting frame of scene
+images for the starting frame of scene
+one. All right, now that we have the
+one. All right, now that we have the
+one. All right, now that we have the
+starting frame, I downloaded and
+starting frame, I downloaded and
+starting frame, I downloaded and
+returned to Chat GPT to grab the ending
+returned to Chat GPT to grab the ending
+returned to Chat GPT to grab the ending
+image prompt for scene one. If you're
+image prompt for scene one. If you're
+image prompt for scene one. If you're
+wondering why we do this, it's because
+wondering why we do this, it's because
+wondering why we do this, it's because
+these start and end frames actually help
+these start and end frames actually help
+these start and end frames actually help
+guide the video model later, giving us
+guide the video model later, giving us
+guide the video model later, giving us
+much more control over what we want the
+much more control over what we want the
+much more control over what we want the
+final animation to look like. Now, I'll
+final animation to look like. Now, I'll
+final animation to look like. Now, I'll
+go ahead and copy the image prompt for
+go ahead and copy the image prompt for
+go ahead and copy the image prompt for
+scene one. Next, I'll paste it in the
+scene one. Next, I'll paste it in the
+scene one. Next, I'll paste it in the
+prompt field. Then, I'll attach the
+prompt field. Then, I'll attach the
+prompt field. Then, I'll attach the
+first scene image as part of the
+first scene image as part of the
+first scene image as part of the
+reference image. This is because our
+reference image. This is because our
+reference image. This is because our
+ending frame image prompt is designed to
+ending frame image prompt is designed to
+ending frame image prompt is designed to
+be the continuation of the first scene,
+be the continuation of the first scene,
+be the continuation of the first scene,
+making things consistent instead of
+making things consistent instead of
+making things consistent instead of
+generating an entirely different image
+generating an entirely different image
+generating an entirely different image
+from scratch. All right, this actually
+from scratch. All right, this actually
+from scratch. All right, this actually
+looks perfect. And now that we have both
+looks perfect. And now that we have both
+looks perfect. And now that we have both
+our images for scene one, we can move on
+our images for scene one, we can move on
+our images for scene one, we can move on
+to the next step, which is crafting a
+to the next step, which is crafting a
+to the next step, which is crafting a
+video out of them. So for this, I'll
+video out of them. So for this, I'll
+video out of them. So for this, I'll
+head over to the video page and select
+head over to the video page and select
+head over to the video page and select
+image to video and pass in both our
+image to video and pass in both our
+image to video and pass in both our
+first and scene images.
+Now let's go copy the video prompt and
+Now let's go copy the video prompt and
+Now let's go copy the video prompt and
+paste it in and click generate. All
+paste it in and click generate. All
+paste it in and click generate. All
+right. So the video for our first scene
+right. So the video for our first scene
+right. So the video for our first scene
+actually looks great. Now what we're
+actually looks great. Now what we're
+actually looks great. Now what we're
+going to need is to generate the voice
+going to need is to generate the voice
+going to need is to generate the voice
+over for this video and also the sound
+over for this video and also the sound
+over for this video and also the sound
+effect for this scene. And for that we
+effect for this scene. And for that we
+effect for this scene. And for that we
+are going to use 11 Labs and it's
+are going to use 11 Labs and it's
+are going to use 11 Labs and it's
+extremely simple. So let's get into it.
+extremely simple. So let's get into it.
+extremely simple. So let's get into it.
+In 11 Labs I'm going to head to the text
+In 11 Labs I'm going to head to the text
+In 11 Labs I'm going to head to the text
+to speech page and select the voice. And
+to speech page and select the voice. And
+to speech page and select the voice. And
+in my case, I already have one selected,
+in my case, I already have one selected,
+in my case, I already have one selected,
+which is the same voice I used in the
+which is the same voice I used in the
+which is the same voice I used in the
+example I showed earlier. For the model,
+example I showed earlier. For the model,
+example I showed earlier. For the model,
+make sure to select V3 as it is their
+make sure to select V3 as it is their
+make sure to select V3 as it is their
+cutting edge model. Now, I'll go back to
+cutting edge model. Now, I'll go back to
+cutting edge model. Now, I'll go back to
+Chat GPT to copy the full narration of
+Chat GPT to copy the full narration of
+Chat GPT to copy the full narration of
+the video and paste it in and see what
+the video and paste it in and see what
+the video and paste it in and see what
+we get.
+we get.
+we get.
+&gt;&gt; He thought his toothache was just from
+&gt;&gt; He thought his toothache was just from
+&gt;&gt; He thought his toothache was just from
+biting something too hard, but over the
+biting something too hard, but over the
+biting something too hard, but over the
+next few days, the pain got sharper
+next few days, the pain got sharper
+next few days, the pain got sharper
+until he felt something crawling inside
+until he felt something crawling inside
+until he felt something crawling inside
+his gums.
+his gums.
+his gums.
+&gt;&gt; All right, this one is perfect. Next,
+&gt;&gt; All right, this one is perfect. Next,
+&gt;&gt; All right, this one is perfect. Next,
+for the sound effects, let's head to the
+for the sound effects, let's head to the
+for the sound effects, let's head to the
+sound effects page and paste in our
+sound effects page and paste in our
+sound effects page and paste in our
+11laps prompt and click generate.
+Okay, now that we have everything we
+Okay, now that we have everything we
+Okay, now that we have everything we
+need for scene one, let's stitch them
+need for scene one, let's stitch them
+need for scene one, let's stitch them
+together and see what we get. All right,
+together and see what we get. All right,
+together and see what we get. All right,
+so now we're in Filora. This is my
+so now we're in Filora. This is my
+so now we're in Filora. This is my
+preferred editing tool. Of course, you
+preferred editing tool. Of course, you
+preferred editing tool. Of course, you
+can use whatever you choose. And I also
+can use whatever you choose. And I also
+can use whatever you choose. And I also
+generated the second scene because I
+generated the second scene because I
+generated the second scene because I
+wanted to make it at least a bit longer.
+wanted to make it at least a bit longer.
+wanted to make it at least a bit longer.
+one scene felt too short. And when we go
+one scene felt too short. And when we go
+one scene felt too short. And when we go
+to open art, you can see that I did the
+to open art, you can see that I did the
+to open art, you can see that I did the
+exact same thing, followed the exact
+exact same thing, followed the exact
+exact same thing, followed the exact
+same steps as I did with scene one. And
+same steps as I did with scene one. And
+same steps as I did with scene one. And
+that's basically what you would have to
+that's basically what you would have to
+that's basically what you would have to
+do with the rest of the scenes as well.
+do with the rest of the scenes as well.
+do with the rest of the scenes as well.
+But here is what we have as a result. I
+But here is what we have as a result. I
+But here is what we have as a result. I
+also added music to make it more
+also added music to make it more
+also added music to make it more
+immersive. That's actually even This one
+immersive. That's actually even This one
+immersive. That's actually even This one
+seems to start later in the video. I'll
+seems to start later in the video. I'll
+seems to start later in the video. I'll
+just make it start right away and click
+just make it start right away and click
+just make it start right away and click
+on start so we can see what we have. He
+on start so we can see what we have. He
+on start so we can see what we have. He
+thought his toothache was just from
+thought his toothache was just from
+thought his toothache was just from
+biting something too hard, but over the
+biting something too hard, but over the
+biting something too hard, but over the
+next few days, the pain got sharper.
+next few days, the pain got sharper.
+next few days, the pain got sharper.
+&gt;&gt; Let's actually watch it one more time.
+&gt;&gt; Let's actually watch it one more time.
+&gt;&gt; Let's actually watch it one more time.
+&gt;&gt; He thought his toothache was just from
+&gt;&gt; He thought his toothache was just from
+&gt;&gt; He thought his toothache was just from
+biting something too hard, but over the
+biting something too hard, but over the
+biting something too hard, but over the
+next few days, the pain got sharper.
+next few days, the pain got sharper.
+next few days, the pain got sharper.
+&gt;&gt; All right, so there you have it. This is
+&gt;&gt; All right, so there you have it. This is
+&gt;&gt; All right, so there you have it. This is
+what the animation looks like. The only
+what the animation looks like. The only
+what the animation looks like. The only
+thing I can say is that I'm super
+thing I can say is that I'm super
+thing I can say is that I'm super
+impressed. And the fact that AI is just
+impressed. And the fact that AI is just
+impressed. And the fact that AI is just
+getting better and better every week
+getting better and better every week
+getting better and better every week
+makes it even more, you know, in a way
+makes it even more, you know, in a way
+makes it even more, you know, in a way
+scary, but also exciting. So there is a
+scary, but also exciting. So there is a
+scary, but also exciting. So there is a
+huge opportunity if you know how to
+huge opportunity if you know how to
+huge opportunity if you know how to
+seize it and if you ask me you should
+seize it and if you ask me you should
+seize it and if you ask me you should
+definitely seize this and not miss out.
+definitely seize this and not miss out.
+definitely seize this and not miss out.
+Also I'll share all the resources I
+Also I'll share all the resources I
+Also I'll share all the resources I
+showed in this video in my free school
+showed in this video in my free school
+showed in this video in my free school
+community. There you can get access to
+community. There you can get access to
+community. There you can get access to
+this and many other resources I've
+this and many other resources I've
+this and many other resources I've
+already shared in my previous videos. I
+already shared in my previous videos. I
+already shared in my previous videos. I
+also have a premium school community
+also have a premium school community
+also have a premium school community
+where I share realtime insights as I
+where I share realtime insights as I
+where I share realtime insights as I
+learn them and also where I share more
+learn them and also where I share more
+learn them and also where I share more
+exclusive resources. So if you want to
+exclusive resources. So if you want to
+exclusive resources. So if you want to
+support me in my journey and also be
+support me in my journey and also be
+support me in my journey and also be
+part of it, you can check that one out.
+part of it, you can check that one out.
+part of it, you can check that one out.
+But having all that said, I hope you
+But having all that said, I hope you
+But having all that said, I hope you
+enjoyed this video. Have a great day.
+enjoyed this video. Have a great day.
+enjoyed this video. Have a great day.
+I'll see you in the next one. Take care.

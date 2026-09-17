@@ -1,0 +1,1303 @@
+in this video we'll learn how to make
+lightweight textured eyebrows and
+eyelashes in blender
+this is part 5 of a series that goes
+through all the steps it takes to make a
+character blender
+this video does build on the textures we
+made in the last video so if you haven't
+been following along make sure you check
+out video 4 first
+now that she's got hair i realize i
+don't like the way her jaw looks
+so i'm going to take a minute to sculpt
+this and shape if you don't want to
+watch this
+just look at the bookmarks below and
+jump to the eyelash
+section okay so let's make sure we have
+our head selected let's go to sculpt
+mode
+and let's these are face sets that are
+auto assigned so let's
+reset that here and okay so her
+jaw has more of a steep angle here and
+it's
+the sketch looks a little bit the
+overall face looks a little bit narrower
+so let's go and do that here
+so i just use the elastic tool
+in sculpt mode to just push and pull
+things around
+people might find it easier to turn off
+the sub d
+because you can see the actual points
+you're picking
+i'm just going to leave it on
+but sometimes if you're having a hard
+time picking a point you can turn it off
+that'll help you out i think your jaw is
+a little bit
+wide so let's
+pull that in a bit and
+the sharpness is good but it still feels
+too wide so let's
+pull in
+up here more
+let's grab cheekbone here
+be careful about pulling it in too much
+because you'll blow through the eye
+you can always move the eye ball later
+if you're going too much
+whoops
+i think this crease here
+this little area here is catching too
+much highlight
+so you can see the four points of this
+face here
+if you look these two points are lower
+than these two points turn it off
+here you go if you go to edit mode and
+grab a face
+yeah you see that see the sides of that
+face
+are higher than the middle
+so it's making this whole face potato
+chip
+so let's try and even it out some
+so you get less of a reflection there
+sculpt mode let's go to
+our draw n for tool
+here make sure we're on add
+let's drop that down reduce that
+let's see
+it's working yeah it's working
+that's no good
+still too much
+okay i think that's better
+yeah so the the crease line here
+is a little bit softer
+the jaw is a bit sharper
+and it's a bit sharper and
+her lower head is a bit
+narrower so i think that feels
+that feels better
+okay let's make some eyelashes so i have
+a
+sketch or a little uh diagram here
+so we're going to grab some geometry
+around her eye
+and shape it to follow
+these red lines which is the same shape
+as the eyelashes
+and then we're going to apply some uvs
+to it
+so it's straight along these red lines
+and then we're going to apply this
+material for the hair onto the eyelashes
+and modify the material so it looks like
+eyelashes
+so let's do that so let's grab our head
+here
+and we will grab
+some oops
+let's go to face mode and grab some
+geometry let's hide
+the hair here
+okay so we'll grab some of the geometry
+around the eyes
+so it matches perfectly we'll do shift d
+to duplicate
+escape to drop it mesh
+separate by selection tap
+out of there grab the thing we just
+duplicated
+go back into edit mode go to edge mode
+grab that point here let's turn on
+our lines so we want
+to make eyelashes that come out from the
+the rim around the eyes we don't want to
+be straight like that we want to
+kind of be like this so it's longer on
+the outsides
+smaller on the insides and it kind of
+flares
+up and down a little bit
+so we'll do this with the 3d cursor
+so right click right shift click
+and stick it kind of in the middle
+and then we can see here let's
+um scale it in x
+nope scale it in y
+nope scale it around the 3d cursor
+and x okay
+so i'm trying to make this
+new piece of geometry kind of match the
+outer ends of this
+these red lines so let's go out scale in
+z kind of like that
+and then eyelashes also come forward
+more on the outside than the inside so
+we'll r z
+and pull it forward and that's
+too much maybe
+maybe like that just go look at a bunch
+of pictures of eyelashes
+to figure out how much
+but i just pull it out a bit
+and then let's see here the middle has
+to come out so let's grab
+some faces guy
+um you can use on proportional editing
+if you want
+just don't do it too much or
+you don't want to move the inside edge
+you want to leave that
+exactly where it is to match um the
+eyelashes
+so you can just
+scroll this down really low
+and let's pull these out
+oh see so since this geometry was so
+close down here it um
+it moved the line around the eyelashes
+so i'm going to turn it off
+and yeah okay
+something like that
+i think the bottom lash can come down a
+bit
+so we we also want to you see the red
+lines how
+it kind of like fans out in 180 degrees
+so let's do the same thing for this so
+let's
+move these so this one here goes almost
+vertically so let's
+move that here and these
+go in and here it's not
+so let's make that go in
+and then down here it's almost perfectly
+horizontal
+so let's oops
+let's make this almost horizontal by
+double hitting g so we can move our
+point along the edge
+and let's see here okay that's pretty
+good
+i'm checking these other lines to see if
+they're good and i think it should come
+up
+a bit more
+like wow she's got some
+pretty big eyelashes
+okay and i think the bottom wants to
+come down
+a little bit also
+and i can see i'm poking through my skin
+here i'll go and fix that oh look these
+come down more
+and over here it's coming in
+just a touch okay
+this line looks like it comes down more
+okay that feels pretty good let's fix
+this geometry poking through
+g y g y
+like that right now our
+eyelashes are flat we're gonna curl them
+later
+let's also
+cut the top from the bottom so we'll hit
+ctrl r
+and add a couple loops
+go to face mode and select that
+x faces
+and then we will delete
+some faces in the middle because the
+eyelashes don't
+go they kind of fade out x
+faces okay so i've got a sub d on so
+my um the eyelash is all rounding off so
+let's
+grab shift alt
+click the outer perimeter
+then go to edge
+edge crease plus one
+and edge mark
+sharp
+okay let's get rid of this material here
+so take those out
+and let's make it dark just for a second
+so we can see oops
+let's come to so many
+i guess we need to add a material okay
+let's grab this
+so we're also going to use the hair
+material
+and duplicate it so we'll grab the
+eyelash grab the hair
+ctrl l and materials
+so now it copies it and it's invisible
+because
+we didn't set uvs for the eyelashes so
+it's probably like
+one point some like you know how the
+hair went invisible down here
+so the eyelashes are probably down there
+somewhere so let's go and
+go to uv editing
+go to edit mode l and
+l to select all uv unwrap
+okay so now we have that let's go r
+negative 90.
+so you can see we're getting some kind
+of hair texture going on
+so we need to place this geometry to use
+the hair texture so if we'll grab the
+hair
+and go to edit mode you can see we had
+set the uvs to just go from top
+to bottom up here where the roots were
+faded out a little tiny bit on the
+bottom
+was the bottom of the hair where it
+faded out a lot more
+okay so we're going to use this section
+down here where it fades out a lot more
+so let's grab our eyelashes go to edit
+mode
+and we first also need to straighten out
+our uvs because we're going to have
+we're going to use our geometry to just
+shape the the way the hair goes so you
+can see our
+geometry kind of fans out like our
+picture
+so we're going to have these uvs go
+straight up and down so it
+matches this geometry if that makes
+sense
+hopefully it does so we're straighten
+this out
+right click align y
+i have a hotkey to shift r so i can just
+grab the same thing and click
+shift r it's a hotkey on my my mouse
+actually so
+it makes it super easy to do the same
+command over and over again
+which is great right click align x
+grab this and i just click my mouse
+button and
+everything lines up face mode click that
+l right click follow active quads
+click that here l right click follow
+active quads okay
+and we will pull this over here
+okay that's
+pretty i think the top lashes are a bit
+longer
+no that's pretty good so and this bottom
+one is
+yeah this bob one's shorter the top
+one's longer so this feels like the same
+proportion
+so let's scale this down and bring it
+down to the bottom
+ish area
+because we're using a procedural texture
+that just runs
+a texture a hair texture up and down for
+this whole area
+so you can see we've got the texture
+going across the whole area
+let's increase our sub d so it's not as
+choppy it's getting kind of
+choppy so let's increase that
+here that looks better
+and then it's kind of going backwards
+it's thinner there and thicker there we
+want the reverse
+so let's go to edit mode grab this r180
+okay so that's pretty good so now let's
+it's kind of this back and forth process
+where we
+mess with the uh texture and then mess
+with the geometry and mess with the uvs
+and you kind of go back and forth until
+it looks good so next we need to modify
+our
+texture okay
+let's make sure we have our eyelashes
+selected let's go to the shading
+workspace
+and let's duplicate this material
+call it lashes one
+let's scoot this over here
+scoot that over there and
+hide that and
+pull up a uv editor window
+and zoom in here okay
+so um so this
+this texture is too fine so let's
+lower that down so let's make this
+like one make this zero
+um the way this works is this is
+basically this random noise pattern
+so if you if you made everything one one
+one
+it'd be a random noise if you lower this
+down to a smaller number it starts
+stretching it out
+so we're going to stretch it out like
+that and this will make it higher like
+it's pretty good um z shouldn't matter
+so make that zero then you can adjust
+your noise texture itself by
+playing with this so you can get more
+dots or less dots
+so let's play with that
+later you kind of go back and forth and
+mess with things but
+let's go like that we'll delete the
+shininess the
+anisotropic and just attach this
+directly so you only have
+color you don't have shininess
+then this is controlling the color of
+the eyelashes let's make it
+dark like near black
+and to make it dark
+okay full black this ramp is controlling
+the mixing of color two which is full
+black and color one which is this
+ramp color now if you remember our uv
+down here is only at the bottom section
+so this ramp is
+only going to be this area where we're
+using our texture
+it's only going to be on one part of
+this
+so let's move this so by moving this you
+should see the color change it's
+not changing there and it is changing
+here so we're only using
+this section of our ramp
+and i want to be black at the roots
+and go to color
+just a bit so see here
+kind of backwards
+so just a little bit of color
+got it backwards i had it right the
+first time
+okay yes color
+less color just a bit of color
+okay now let's mess with our
+transparencies
+to make this look more like a um
+more like strands of hair so
+let's see here we will um
+make this lighter uh
+let's make this these are kind of weird
+you can play around with different ways
+um i'm going to try to do subtract so
+you just
+you only have the remaining material i
+guess it's kind of
+abstract um
+then let's see here
+that something like
+we want to do is make these look like
+individual strands
+we want to avoid you see how it's flat
+at the ends we want to avoid that
+we also want to get to be a little bit
+you want to go the full length but not
+have the flat
+things and let's
+get rid of these
+okay
+okay so
+something
+oh let's try that we can adjust it over
+here too
+so for this this i guess you could say
+adjust the crispness of it
+so let's see here we will
+pull this over
+i want it to be thicker on the bottom
+and thinner at the top
+so it's kind of like an eyelash
+see it gets really black in the middle
+and it gets to be strands on the end so
+something like that we'll have a few
+pieces of geometry so this will be
+it'll be more than just what you see
+here
+so yeah
+something
+something like that
+oh i like that it's much thicker
+now we're getting some flat spots right
+there
+i don't like the flat spots
+so maybe more
+maybe like that
+it looks a little bit coarse
+but i like i like how these feel
+so let's go and add some noise to it
+i mean um adjust the scale a bit so
+you know
+something
+something like that
+maybe add some smaller details to it
+okay
+and let's uh oh it's shiny let's take
+out that shine so we'll
+lower the specular and increase the
+roughness
+maybe have a little bit of shine but
+hardly anything
+still too much
+okay
+think there's still too much color
+so let's uh
+let's go like that
+yeah okay
+so that's our basic eyelash
+and it looks okay obviously it's really
+uh
+sparse so we'll add some more to that
+but first let's um
+let's see if you look at our example
+you can see how the eyelashes get short
+on the inside
+that's actually okay there
+well i guess i guess we're okay i was
+gonna mess with the uvs
+a bit i'm gonna show you anyway just so
+you have the option to mess with the uvs
+um to adjust
+the uh the edges of the lashes but we we
+actually
+maybe we can use it right here yeah
+right here it's a little bit long so
+let's do that
+so go to edit mode and go to uvs
+and then grab
+a point or two so you know
+where you are on your uv and if you
+hit g and y
+you can move the points on the uv editor
+up and down
+you can see here
+what that does to the the texture
+on the geometry you can see it makes it
+smaller
+so let's do that
+it's a nice way to adjust things so if
+this was too long
+that's actually pretty good so maybe
+this is too long here
+so you can move it down it'll it'll
+shorten it
+or make it longer if we want shorter
+okay
+so that's pretty good i think
+we need to let's see here
+so we need to name this
+oh we should make a folder for eyelashes
+so new collection
+eyelashes and we will grab our
+eyelashes and put them in there and name
+them
+lashes one
+so this next part is
+is kind of optional um
+well so we're going to do is duplicate
+this mesh a few times and then
+just mess with the mesh a little bit so
+it looks like there's a whole bunch of
+hairs instead of just
+this you know sparse layer of hair
+in some other programs like unity
+blender shows the front and the back
+side
+of the mesh some other programs don't
+deal with that very well
+so one way to to get around that is you
+you take your mesh and you
+duplicate it and then you mirror it
+and i find also offsetting it just a
+tiny bit can sometimes help too
+so this is optional i'm going to do this
+anyway
+you don't need to do it for like we're
+going to duplicate this several times
+and
+make it look like a whole bunch of hair
+you don't really need to do that
+for all of the eyelashes but at least
+one layer so
+if you happen to catch a view from
+the back and you see the eyelashes it
+just doesn't doesn't look invisible
+so hope that makes sense so let's
+duplicate that shift d
+then go call us one
+flipped
+we'll go to edit mode face mode a
+let's zoom in on it
+we'll do alt s to scale it oops
+scale it backwards just a tiny bit
+that's too much
+okay like that and
+we want to flip the normals so
+so this is how you can see which way the
+normals are
+go to the face orientation
+so you can see blue is forward facing or
+the
+normal direction red is the inside
+direction or back direction
+so we want to flip this so go to
+mesh normals and flip
+so now we have the lashes flipped
+facing backwards and then if we hide
+that you can see the lashes
+the wrinkle lashes are facing forward
+so this way if you're in some programs
+that don't play nice with this
+then you can you'll you'll see black
+eyelashes when you come around the back
+side of the head okay
+let's turn off our face
+orientation
+there okay
+okay let's go to our modeling window and
+let's zoom in here
+so i realized i forgot to do something
+we want to um
+lashes are supposed to curl also so
+let's see here
+so let's delete
+the flipped one
+let's go to edit mode here and hit ctrl
+r and add
+a loop same thing for down there
+and just pull it in towards the middle
+just a touch
+and then we will let's see here
+grab this guy and we will
+shift right click right in the little
+corner of the eyelashes and then let's
+just rotate this down
+around the 3d cursor
+so we want to curl it like that
+okay maybe rotate that down a bit
+oh yeah that's nicer
+yeah that's pretty good
+do the same thing for this one except
+i'm going to
+going to
+pull it in a bit r z
+and i'm gonna move this up a bit
+like that
+okay that's better
+and then we'll do the same thing we'll
+shift d to duplicate this go to edit
+mode face mode
+a alt s
+and scooch it back just a bit
+and then mesh flip normals
+we can check it to make sure we're going
+the right direction
+yes blue and blue okay
+so uh where to go
+lashes one flipped
+okay now let's go and
+duplicate our lashes go to edit mode
+point mode and let's go back and
+scooch these around so that way it looks
+like
+you got lots of eyelashes going on
+let's pull these in a bit let's
+pull that over here a bit
+um let's get
+there pull that
+back
+we can also
+pull these down to give it some
+volume from the sides
+so it feels thicker
+okay that's pretty good
+then let's do the same thing for the top
+so we'll
+see here let's just grab that
+again just trying to make this whole
+inside area just pretty black
+filled in then up here we just want to
+vary it so it looks like it's nice and
+random
+because we're basically taking the same
+thing and you know
+duplicating it so it's easy for people
+to notice
+patterns like that so if you can really
+mess with it
+not just left to right you can go up and
+up and down
+this way people won't be able to detect
+that pattern
+and also make sure you pull this stuff
+back to create some volume
+okay it's looking better i think uh her
+bottom
+eyelashes are too thick or the top is
+too
+thin so let's go and add another one
+so this one is two
+and we will duplicate this shift
+shift d wait what happened shift d
+so we're going to go to edit mode and
+i'm going to delete this bottom one
+and just add some more volume to the top
+so let's see here
+so we'll pull this back even further
+and get that uh where is it get that one
+hold that up also
+and pull this
+over
+like that
+if you use f2 which is a great plugin
+um it's right next to the g button and
+if you're not careful you hit
+f and it really messes things up so this
+isn't this is hitting f
+and you can't always notice it
+so if you use f2 like i do
+really be careful for that because it
+can create bad geometry that will
+really confuse you later
+i think the top one needs to be thicker
+still
+and the bottom one is too thick so let's
+go and
+mess with that so let's get
+our o2 lash let's call that
+0 3 top
+let's duplicate that shift d
+let's call it o 4
+top
+you can see each one of these has 42
+faces so it's
+it's pretty low poly it doesn't it's not
+low low poly but
+it's pretty lightweight
+so i'm going to
+i'm getting tired of turning the uh
+edges on and off so i'm just going to
+leave it off there
+and leave it on here so this way
+you know i'm too lazy to turn that off
+and on
+this way i can see it
+without having to hit my little hot key
+on the mouse
+because i am that lazy
+okay
+so i think it's pretty good
+let's also pull some of this backwards
+to add some volume
+let's actually pull it forward a bit
+and then we'll get this row of loops
+edges i mean points
+and we will
+move it forward
+yeah that looks good
+okay so that's feeling pretty good i
+like that
+it feels like it has enough
+volume and randomness
+to look good the bottom's too thick so
+i'm going to mess with that some so
+let's grab one of these
+here make sure we don't have our so i'm
+not going to mess with
+since o1 and o1 flipped are exactly the
+same just mirrored
+don't mess with those so i'm going to
+mess with o2
+you could then you just have to delete
+the flipped and then do the whole thing
+again
+so you can if you want to
+um let's
+look here
+so i'm just going to shorten these
+it's a lot smaller i'm gonna delete some
+faces
+so so you can see here so this is good
+actually
+so i delete these faces and now you can
+see that
+this the edge rounded off
+that's because our sub d rounds off
+things if it's not marked with an
+edge or a crease so
+edge mark sharp
+mark ah mark sharp
+oh sorry it's edge
+edge crease plus one
+there we go so now you can see this is
+crisp again
+and we're this geometry is poking
+through
+we don't want that so g
+z to pull this up i don't know if you
+can see what's happening here
+okay so you can see this geometry is
+going
+too low so we'll just pull that up
+the other one's doing the same thing
+so we'll pull that up too
+okay so bottom lash
+still too thick it's too thick right
+here
+i really don't want to mess with this 01
+but
+i think we need to so delete that
+grab our main lash
+and then let's pull this in
+yeah that helps
+let's now duplicate this again
+shift d go to face mode
+a zoom in let's get rid of this
+here alt s
+and jog it back a bit mesh
+flip normals we can check it to make
+sure
+our normals are going the right
+direction
+uh let's see here okay
+so that is correct it's going this is o1
+flipped okay
+so that is going the correct direction
+and
+one is going the correct direction
+so turn that off and eyelashes
+all right let's put her turn her hair
+back on
+here here
+and we will
+go and hide that and show these so this
+is the basic strategy we're going to do
+so if you look at this
+eyebrow here you can see the hair the
+hair kind of goes all over the place so
+over here it's going up like that then
+it starts to
+go more acutely over here
+and it also comes down from the
+top in this section and then it goes
+more acutely out to the end
+so we'll do that we'll uh we'll fake
+that in by
+creating a piece of geometry that has
+this basic flow
+and we'll have the edges flowing
+like the eyebrow hair does
+and then we'll take our eyelash texture
+and just have it
+follow the natural flow of the mesh we
+create and it should look
+roughly like an eyebrow you can see
+also on the top the hair
+that comes down will create a second
+piece of geometry that
+mimics that part and then we'll fold it
+in on itself
+to kind of create some depth to it and
+fill in some space and we'll probably
+duplicate a couple of these to
+to fill it out and make it look look
+nice okay
+so let's let's go and do that we'll
+probably have to make it we'll probably
+have to duplicate a texture too
+okay so let's grab our eyebrow
+shift click and eyelash
+ctrl l and materials
+and it's invisible which is okay because
+we need to
+change our uvs then we will
+go over here and we will
+duplicate that texture and call this
+browse
+one go to the
+shading workspace and
+make sure we've got that selected uv
+unwrap oops uv unwrap
+and see what we got here so r90
+g let's make sure we've got this
+oriented correctly
+and yes that's on the top
+and that is on the outside okay
+so now let's flatten this out again
+right click
+align y and shift r
+right click align x and shift r
+faces mode click l right click
+follow active quads and we'll move this
+down here
+so the eyebrows
+so it starts off from the skin
+so it's a little bit thinner i guess you
+could say in that part
+and it comes out over here into
+i guess the main part of the eyebrow and
+it tapers out
+as each hair does so we want to have
+our eyebrows you know
+uh start off thin and then get big then
+go thin again
+and let's make this a bit bigger
+okay so we just need to mess with the
+transparency so
+i think as you can recall we're only
+using this one little section here
+so we can take this and move it here
+oh i had it backwards okay so
+we'll go for gray and gray and then
+white in the middle make sure that's
+white and
+i think i want it more strandy
+so let's let's see scale or
+scale big scale
+more like that duplicate this guy
+here make this white
+so that's where the hair starts
+and i guess it tapers out more at the
+top
+so more like that uh and
+yeah this looks really funny but we're
+gonna
+duplicate this a few times and i think
+we're also going to
+change the scale some more
+so it's like that maybe we can
+soften this
+let's turn on cycles so we can see what
+it looks like when we render it
+and ctrl b to do a view region
+let's make this more contrasty by
+making this the line between the white
+and the dark
+closer so if you pull all the way back
+it's all the way dark if you pull it all
+the way up here
+it's really really tapers so let's do
+something oops
+in between let's make it look more
+thin in the middle
+let me make this bottom part thinner
+since this hair pattern is basically a
+stretched
+noise let's add some noise to our noise
+that looks finer
+okay i think we can work with that
+view region here we go clear
+okay i think that'll work okay
+let's go to our modeling window and lay
+out our eyebrows
+let's go to our front view here let's
+get these
+out of the way here
+so grab our eyebrows and let's just
+drag these and shape them the way we
+want them to look more like
+these eyebrows here i think in our
+sketch she looks too sad
+let's rotate this
+so you can see the eyebrows they kind of
+go they start low and they go
+up and back down again also if you see
+the eyebrow is wider than the eye so
+let's do that too
+so let's see here so this should uh
+we're going to stretch these
+try not to stretch things too much pull
+everything over so
+you don't notice that stretching too
+much speaking of stretching you can see
+how the ends of this
+are curving that's because it's kind of
+sub d if you turn it off it's okay
+so let's make this squared
+my hair is maybe that end's okay
+edge edge crease
+plus one okay that's better
+and then let's also remember to
+shape our mesh like the hair is so it
+starts up going pretty vertical then it
+starts to go more acute
+and go towards the outside
+but before we do that let's do this
+let's grab this
+shift d
+and g z just to get that
+because we'll we're going to duplicate
+this a few times
+so let's make sure we've got some to use
+in case we
+skew this one too much
+okay so over here it's pretty much up
+and down
+and over here
+it starts to go out
+and then over here it's going a lot more
+out
+if you hit g and y
+you go forward and back
+g x goes left and right and
+so let's see here
+okay still going out maybe this is too
+much
+t y to go forward
+you can see g y does
+this
+and i'm not trying to be super accurate
+and make the eyebrows
+super close to the head i'm just trying
+to get the
+mesh and the textures to feel right
+so let's
+you can also hit alt s to pull it away
+from the head
+let's pull this one in here get that one
+down there
+it's kind of long
+this is pulling the textures quite a bit
+so it's
+kind of kind of asking a lot of the mesh
+but i think it's okay
+okay let's see now
+i think it goes thicker here
+and there
+yeah okay
+and these inside hairs here
+yeah that looks pretty good
+okay so now let's lay down
+this second piece up here the blue one
+which catches the hair on the top
+then blends with the hair in the bottom
+so let's grab this
+shift d and then tab
+g z and pull it up
+until it looks like this far away from
+the bottom one
+and then let's mess with these points
+again so
+we the bottom ones go out from the
+bottom the top ones
+go out from the top so let's
+pull the bottom points
+this way the top points
+that way
+and you can see i have a generous
+overlap from the top to the bottom
+actually you know what i'm not gonna do
+that i'm gonna do
+let's go oh
+shift d and then
+escape then i'm going to go edit mode
+ctrl r and
+add a loop then let's just grab these
+top ones here
+and pull that
+up and in
+we'll grab the middle row and pull that
+out and then we'll go to edge mode
+and uh alt no
+shift e plus one
+okay so shift e is edge edge crease
+increase that and you can see here
+what do these two so kind of yeah so the
+bottom ones come
+out and the top ones come
+out to match it so let's
+make these kind of roughly
+match that
+and then these were pretty pretty acute
+if i remember
+here yeah
+they actually almost you know that
+they actually kind of disappear up here
+so let's
+make these really low on the ends and
+have it
+kind of pop out up here
+something like that then what happens up
+here
+they're starting so they kind of
+start up here
+so let's pull that
+back here i guess they kind of
+on the inside the top hairs kind of
+match the top
+i mean the bottom eyebrow hairs so
+kind of do that and as it
+goes outwards it'll start
+going more acutely toward these towards
+the outside so
+let's see okay oh kind of crispy on top
+let's see here
+okay that's getting somewhere
+this needs some layering oh that's weird
+this needs a little bit of layering it's
+um this new piece is too in line with
+the old one so
+it's making a super sharp edge
+we want to stagger all of these eyebrow
+geometries
+so it looks like it's kind of fuzzy
+almost
+let's pull this one oops
+the g button's right next to the h
+button so
+if you see things disappearing it's
+because you're hitting the h button
+i do that quite frequently
+i also hit the f button a lot that
+messes things up
+this crest of the top
+lash is not really matching the bottom
+one
+so let's pull that
+out a bit more
+pull it up a bit more
+more like that
+okay
+let's see now so let's what do we need
+here
+i think we need a second hair on the top
+because it's too
+light up there so let's
+grab this shift d
+escape edit mode let's tweak it
+further so let's see here
+so you can see since i duplicate it
+exactly
+and then i'm moving it slightly you can
+see it
+it makes it much darker which is nice
+but you also have to make sure you move
+it so you don't start to see
+patterns you don't want to see
+the same hair pattern twice it's going
+to start looking kind of
+fakie it's already kind of fakey but
+you just want to blend
+so everything is kind of randomized
+let's check this here and
+hmm it's awful dark
+this bottom looks kind of brown
+so let's go to shading mode
+and remember how we had that little fade
+of color so let's just
+take that out so let's go
+here um let's see here
+and darken this
+now i think it's definitely too dark
+but it doesn't have that weird fade
+which helps
+so let's see here
+so i think what we're going to do is
+delete this new one here let's just
+let's just move it up in case we want to
+use it again
+and let's just add a single piece like
+this one but to the top
+so how do we do that let's just
+duplicate it
+okay g z and pull that up a little bit
+here
+go to edit mode and let's just mess with
+these points again
+so we have to pull these
+all in
+here you pull these
+out
+the middle eyelash hairs kind of match
+the center so let's do that
+and then they start
+you start pulling
+outwards as you go towards the
+outside of her head
+so
+maybe something i think we're submerging
+so
+alt s oops guy
+so there's going to be there's a little
+weird bald spot
+right below our new piece of eyebrow
+hair hair
+but we can use this one that we had from
+earlier
+and pull that down and let's just shrink
+it
+so we'll pull that up
+let's make sure we're not going inside
+gy
+and gy you don't want to go you don't
+want your geometry to go inside because
+you'll see you can see here how it cuts
+off
+you don't want to see that so
+make sure you're outside of the head
+and we'll go through and clean this all
+up a little bit later
+now let's see here
+okay i think we're pretty close i think
+we're looking pretty good
+let's put her hair back on
+to get kind of a reality check and see
+if it's feeling right
+i think they're a little bit thick
+and then yeah i think that'll be just
+about it so i'm going to
+record just
+using my artistry to shape them and make
+them a little bit thinner
+but it's going to be nothing new so feel
+free to watch it if you want if not
+i'll see you in the next video where we
+learn how to bake the textures for the
+eyebrows eyelashes and the hair
+oh forgot let's make sure all of our
+hair is outside the head
+let's see here
+oh too big of a gap here so let's fix
+that g y
+g y you can
+grab the piece of hair you're working on
+and
+ahead and hit the slash key yeah
+and then
+this way you just have the two pieces
+and you can
+more easily work with them you could you
+could do your snaps here
+you can turn this on
+i i think it works more like
+uh steps perpendicular to your view so
+if you
+grab a point like that and hit g
+it snaps down so
+you can do that you see here
+you can see here this is a
+more of a side view this is more
+straight on
+so if you hit g you can see it snaps
+down
+so that's that's okay but i find it it
+submerges
+and so you have to go and change it
+again and pull it out
+so you turn it off again and then hit
+like alt
+s and just subtly pop it out
+so that's good because our geometry is
+skewed so much it's going to have a
+slight hard slightly hard time
+matching the head geometry but what
+we'll do is
+since the geometry for these eyebrows
+are so light
+we will um sub the it and just apply it
+so we'll have more geometry to work with
+so when you animate them later you won't
+have
+this skewed geometry won't be
+causing the eyebrows to submerge into
+the head when you're animating it
+and these don't need to be super close
+to the head because um
+you just use don't notice it and since
+i like these i'm going to
+ctrl r
+grab just the middle ones and alt s and
+pop it out just a bit
+so we have some depth okay
+slash to go back out again
+and let's grab another one
+and so we will grab those two
+go to ed mode
+it's pretty good slash back out
+see what else is not lining up is that
+one lining up
+this one is not lining up
+you see it's pretty sloppy it's not it's
+not touching
+it's not an airtight seal but
+it's fine
+okay i think i think they're all okay so
+we will delete this guy
+yeah let's uh let's save that
+let's save that in case we want to use
+it later we'll put in the archive
+m archive so this way
+later on if you want to make some
+eyebrows you can just grab that and
+you know duplicate a few times so let's
+check this out here okay it's fitting
+tighter now so now i will go and
+shape these
+just pull that in and i want these to be
+thinner so let's see
+i think this curving on the inside is
+not looking good so i'm going to go
+ahead and fix
+those i'm going to
+shift d i always forget that one plus
+one
+and a little curve is nice
+so let's do that and this two has got
+too much curve
+let's fix that shift e
+plus one point mode and
+let's curve it just slightly
+well actually that's this is flat
+okay um let's pull this
+all right i like how this kind of comes
+up here but it's
+still a little bit too thick so maybe
+i'll
+leave this point and pull this one down
+and pull this one down
+i like this little sharp corner there
+so i want to keep that and i'm thinking
+let's keep that
+while i tweak everything else to
+accentuate that
+but kind of be careful because once you
+start obsessing over detail
+you you kind of end up over
+exaggerating it so i was gonna keep
+doing more to increase it i'm gonna stop
+now because
+i think i might overdo it okay
+i think uh we're looking good
+so we've got eyebrows and eyelashes
+and let's get her hair back on
+yeah i think uh i think that's pretty
+good
+there you go we've got eyebrows and
+eyelashes
+i hope this video was helpful to you if
+you want to see more content like this
+please leave a message subscribe or
+better yet support me on patreon
+and in the next video we will learn how
+to
+bake the textures for the eyebrows
+eyelashes and the hair

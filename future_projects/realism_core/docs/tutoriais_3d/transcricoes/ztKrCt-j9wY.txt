@@ -1,0 +1,1107 @@
+Kind: captions
+Language: en
+3D modeling is actually kind of easy.
+3D modeling is actually kind of easy.
+3D modeling is actually kind of easy.
+Kind of.
+Kind of.
+Kind of.
+See, I wanted to tackle this skill for a
+See, I wanted to tackle this skill for a
+See, I wanted to tackle this skill for a
+very long time, but truthfully, I've
+very long time, but truthfully, I've
+very long time, but truthfully, I've
+been scared. Like, what do you mean this
+been scared. Like, what do you mean this
+been scared. Like, what do you mean this
+isn't a 2D entity and it's 3D and it's
+isn't a 2D entity and it's 3D and it's
+isn't a 2D entity and it's 3D and it's
+made of a cube or a sphere and people do
+made of a cube or a sphere and people do
+made of a cube or a sphere and people do
+ to it and now becomes this. How did
+ to it and now becomes this. How did
+ to it and now becomes this. How did
+it turn into this? It was a cube before.
+it turn into this? It was a cube before.
+it turn into this? It was a cube before.
+It doesn't make any sense. And like,
+It doesn't make any sense. And like,
+It doesn't make any sense. And like,
+besides the point, I've always wanted to
+besides the point, I've always wanted to
+besides the point, I've always wanted to
+try 3D modeling, but never had the
+try 3D modeling, but never had the
+try 3D modeling, but never had the
+chance to. Well, I did try when I was a
+chance to. Well, I did try when I was a
+chance to. Well, I did try when I was a
+little bit younger, but well, I had a
+little bit younger, but well, I had a
+little bit younger, but well, I had a
+ PC back then, but it's been a while
+ PC back then, but it's been a while
+ PC back then, but it's been a while
+since then. And you know, what if I just
+since then. And you know, what if I just
+since then. And you know, what if I just
+wanted to be 3D? I don't want to be
+wanted to be 3D? I don't want to be
+wanted to be 3D? I don't want to be
+tethered to a 2D plane. That's so
+tethered to a 2D plane. That's so
+tethered to a 2D plane. That's so
+boring. And so it got me thinking,
+boring. And so it got me thinking,
+boring. And so it got me thinking,
+you know, hey, why don't I just make a
+you know, hey, why don't I just make a
+you know, hey, why don't I just make a
+3D model?
+3D model?
+3D model?
+Yeah.
+Yeah.
+Yeah.
+Yeah. If I make a 3D model of myself, I
+Yeah. If I make a 3D model of myself, I
+Yeah. If I make a 3D model of myself, I
+don't have to draw a single frame for
+don't have to draw a single frame for
+don't have to draw a single frame for
+any video ever again. Not only that, it
+any video ever again. Not only that, it
+any video ever again. Not only that, it
+means way less work for me and way more
+means way less work for me and way more
+means way less work for me and way more
+uploads for you guys. It's a win-win for
+uploads for you guys. It's a win-win for
+uploads for you guys. It's a win-win for
+both parties. Well, of course,
+both parties. Well, of course,
+both parties. Well, of course,
+the only problem is I need to learn how
+the only problem is I need to learn how
+the only problem is I need to learn how
+to 3D model.
+to 3D model.
+to 3D model.
+Huh.
+Huh.
+Huh.
+Did I mention I gave myself a week?
+Now, before anything, I'd love to give
+Now, before anything, I'd love to give
+Now, before anything, I'd love to give
+credit to Rezzaria and Alan Lu for this
+credit to Rezzaria and Alan Lu for this
+credit to Rezzaria and Alan Lu for this
+video idea. They're probably the main
+video idea. They're probably the main
+video idea. They're probably the main
+reason why I made this video. So, yeah.
+reason why I made this video. So, yeah.
+reason why I made this video. So, yeah.
+And oh, I forgot to mention the program
+And oh, I forgot to mention the program
+And oh, I forgot to mention the program
+I'm using. I'm using Blender. It's free.
+I'm using. I'm using Blender. It's free.
+I'm using. I'm using Blender. It's free.
+That's why we're using it.
+For this project, I decided to make a
+For this project, I decided to make a
+For this project, I decided to make a
+low-poly model, mainly because my friend
+low-poly model, mainly because my friend
+low-poly model, mainly because my friend
+recommended it. But if you don't know
+recommended it. But if you don't know
+recommended it. But if you don't know
+what low poly's are, well, they're
+what low poly's are, well, they're
+what low poly's are, well, they're
+basically this and this and this and
+basically this and this and this and
+basically this and this and this and
+this. And if you look very closely,
+this. And if you look very closely,
+this. And if you look very closely,
+they're not very intricate or
+they're not very intricate or
+they're not very intricate or
+complicated at all. They're actually
+complicated at all. They're actually
+complicated at all. They're actually
+made of simpler shapes with way fewer
+made of simpler shapes with way fewer
+made of simpler shapes with way fewer
+polygons. And you tend to see a lack of
+polygons. And you tend to see a lack of
+polygons. And you tend to see a lack of
+smooth edges overall when you look at
+smooth edges overall when you look at
+smooth edges overall when you look at
+these models. And in short, they're way
+these models. And in short, they're way
+these models. And in short, they're way
+easier to make than whatever this is. Do
+easier to make than whatever this is. Do
+easier to make than whatever this is. Do
+you expect me to make this in a week?
+you expect me to make this in a week?
+you expect me to make this in a week?
+Hell no. Besides, I think they're really
+Hell no. Besides, I think they're really
+Hell no. Besides, I think they're really
+cute. Since I was going to model this in
+cute. Since I was going to model this in
+cute. Since I was going to model this in
+Blender, I decided it'd be wise to make
+Blender, I decided it'd be wise to make
+Blender, I decided it'd be wise to make
+a character sheet before anything else.
+a character sheet before anything else.
+a character sheet before anything else.
+Cuz, you know,
+Cuz, you know,
+Cuz, you know,
+3D
+3D
+3D
+dimensions. Ooh.
+dimensions. Ooh.
+dimensions. Ooh.
+For the art style, I wanted my girl to
+For the art style, I wanted my girl to
+For the art style, I wanted my girl to
+look 2D and 3D at the same time. Does
+look 2D and 3D at the same time. Does
+look 2D and 3D at the same time. Does
+that make sense? Does it make sense? I I
+that make sense? Does it make sense? I I
+that make sense? Does it make sense? I I
+don't. After looking through old and
+don't. After looking through old and
+don't. After looking through old and
+current PNGs of my persona, I found a
+current PNGs of my persona, I found a
+current PNGs of my persona, I found a
+couple problems with it. One being, I
+couple problems with it. One being, I
+couple problems with it. One being, I
+struggle to make expressive facial
+struggle to make expressive facial
+struggle to make expressive facial
+expressions when I draw her. And two,
+expressions when I draw her. And two,
+expressions when I draw her. And two,
+she doesn't really stand out. I don't
+she doesn't really stand out. I don't
+she doesn't really stand out. I don't
+know if you know this, but she kind of
+know if you know this, but she kind of
+know if you know this, but she kind of
+just wears a basic pink hoodie, which is
+just wears a basic pink hoodie, which is
+just wears a basic pink hoodie, which is
+fine since I'm drawing her all the time,
+fine since I'm drawing her all the time,
+fine since I'm drawing her all the time,
+but but it's honestly pretty generic.
+but but it's honestly pretty generic.
+but but it's honestly pretty generic.
+And so, after digging through a bunch of
+And so, after digging through a bunch of
+And so, after digging through a bunch of
+references, I found this really old
+references, I found this really old
+references, I found this really old
+drawing I made when I was 11. And it was
+drawing I made when I was 11. And it was
+drawing I made when I was 11. And it was
+amazing. It was awesome. It had the
+amazing. It was awesome. It had the
+amazing. It was awesome. It had the
+exact vibe I was going for. It was
+exact vibe I was going for. It was
+exact vibe I was going for. It was
+cartoony and had these eyes that were
+cartoony and had these eyes that were
+cartoony and had these eyes that were
+sassy and smiley. I don't know how else
+sassy and smiley. I don't know how else
+sassy and smiley. I don't know how else
+to explain them, but they were just
+to explain them, but they were just
+to explain them, but they were just
+smiley eyes. And I loved how they
+smiley eyes. And I loved how they
+smiley eyes. And I loved how they
+looked. And I also liked this lineless
+looked. And I also liked this lineless
+looked. And I also liked this lineless
+style I went for, and so I decided to
+style I went for, and so I decided to
+style I went for, and so I decided to
+add it into the design. And then, for
+add it into the design. And then, for
+add it into the design. And then, for
+the outfit, since I was modeling her in
+the outfit, since I was modeling her in
+the outfit, since I was modeling her in
+3D, I didn't have to worry about drawing
+3D, I didn't have to worry about drawing
+3D, I didn't have to worry about drawing
+her all the time since I was going to
+her all the time since I was going to
+her all the time since I was going to
+pose and rig her instead. So, eventually
+pose and rig her instead. So, eventually
+pose and rig her instead. So, eventually
+I decided I wanted the new design to
+I decided I wanted the new design to
+I decided I wanted the new design to
+still resemble her old look without
+still resemble her old look without
+still resemble her old look without
+losing any of the key details. But
+losing any of the key details. But
+losing any of the key details. But
+enough added detail to keep her unique.
+enough added detail to keep her unique.
+enough added detail to keep her unique.
+And so, I kept the faded pink hair, kept
+And so, I kept the faded pink hair, kept
+And so, I kept the faded pink hair, kept
+the hoodie, slightly changed it a bit,
+the hoodie, slightly changed it a bit,
+the hoodie, slightly changed it a bit,
+gave her colorful socks, and added a
+gave her colorful socks, and added a
+gave her colorful socks, and added a
+little diamond shape to her head. For
+little diamond shape to her head. For
+little diamond shape to her head. For
+the people who know, you know. My
+the people who know, you know. My
+the people who know, you know. My
+favorite part of this entire design is
+favorite part of this entire design is
+favorite part of this entire design is
+probably the zip-up jacket because I
+probably the zip-up jacket because I
+probably the zip-up jacket because I
+would personally wear this. I need it. I
+would personally wear this. I need it. I
+would personally wear this. I need it. I
+need this. I need it to be real.
+need this. I need it to be real.
+need this. I need it to be real.
+And if you're somehow still following
+And if you're somehow still following
+And if you're somehow still following
+along, I'd recommend making a back and a
+along, I'd recommend making a back and a
+along, I'd recommend making a back and a
+side view as well. It'll make your life
+side view as well. It'll make your life
+side view as well. It'll make your life
+so much easier. Just trust me on this
+so much easier. Just trust me on this
+so much easier. Just trust me on this
+one. Also, why are side profiles so hard
+one. Also, why are side profiles so hard
+one. Also, why are side profiles so hard
+to draw? LIKE, WHY ARE WE built like
+to draw? LIKE, WHY ARE WE built like
+to draw? LIKE, WHY ARE WE built like
+that from the side? It took me forever
+that from the side? It took me forever
+that from the side? It took me forever
+to get her spine looking right. Why are
+to get her spine looking right. Why are
+to get her spine looking right. Why are
+humans built like this? Why Why are we
+humans built like this? Why Why are we
+humans built like this? Why Why are we
+built like this?
+And now it was time to open up Blender.
+And now it was time to open up Blender.
+And now it was time to open up Blender.
+Okay, maybe this was a bad idea after
+Okay, maybe this was a bad idea after
+Okay, maybe this was a bad idea after
+all. Now, for every skill you try to
+all. Now, for every skill you try to
+all. Now, for every skill you try to
+pick up, you have to learn the basics,
+pick up, you have to learn the basics,
+pick up, you have to learn the basics,
+right? That's the most logical step to
+right? That's the most logical step to
+right? That's the most logical step to
+take, uh obviously. And so, I looked up
+take, uh obviously. And so, I looked up
+take, uh obviously. And so, I looked up
+a bunch of tutorials, and oh, will you
+a bunch of tutorials, and oh, will you
+a bunch of tutorials, and oh, will you
+look at that? It's the donut tutorial.
+look at that? It's the donut tutorial.
+look at that? It's the donut tutorial.
+Huh.
+Huh.
+Huh.
+4 hours?
+4 hours?
+4 hours?
+No way. I don't remember it being 4
+No way. I don't remember it being 4
+No way. I don't remember it being 4
+hours. What the hell? And so, I watched
+hours. What the hell? And so, I watched
+hours. What the hell? And so, I watched
+the tutorial. Guys, I don't understand a
+the tutorial. Guys, I don't understand a
+the tutorial. Guys, I don't understand a
+thing. What is this guy saying? And then
+thing. What is this guy saying? And then
+thing. What is this guy saying? And then
+quickly realized I have the attention
+quickly realized I have the attention
+quickly realized I have the attention
+span of a fly.
+span of a fly.
+span of a fly.
+Yeah. And so, I clicked off and just
+Yeah. And so, I clicked off and just
+Yeah. And so, I clicked off and just
+ended up phoning my friend to help me.
+ended up phoning my friend to help me.
+ended up phoning my friend to help me.
+Thank goodness he agreed cuz I'd be
+Thank goodness he agreed cuz I'd be
+Thank goodness he agreed cuz I'd be
+helpless without him.
+helpless without him.
+helpless without him.
+And from here, he introduced me to edit
+And from here, he introduced me to edit
+And from here, he introduced me to edit
+mode and object mode. In edit mode, you
+mode and object mode. In edit mode, you
+mode and object mode. In edit mode, you
+can basically edit your shape. Like,
+can basically edit your shape. Like,
+can basically edit your shape. Like,
+look at this cube. Select this part and
+look at this cube. Select this part and
+look at this cube. Select this part and
+press E. Now it's a longer cube. Wow.
+press E. Now it's a longer cube. Wow.
+press E. Now it's a longer cube. Wow.
+And object mode is basically where you
+And object mode is basically where you
+And object mode is basically where you
+can view your mesh or object in its
+can view your mesh or object in its
+can view your mesh or object in its
+original state. And if you press tab,
+original state. And if you press tab,
+original state. And if you press tab,
+you can switch between the two. Isn't
+you can switch between the two. Isn't
+you can switch between the two. Isn't
+that crazy? And you can also press the
+that crazy? And you can also press the
+that crazy? And you can also press the
+scroll wheel on your mouse to move
+scroll wheel on your mouse to move
+scroll wheel on your mouse to move
+around, which is kind of funky, but
+around, which is kind of funky, but
+around, which is kind of funky, but
+Blender is always kind of weird. And if
+Blender is always kind of weird. And if
+Blender is always kind of weird. And if
+you look to this side, oh, I'm not going
+you look to this side, oh, I'm not going
+you look to this side, oh, I'm not going
+to lie. I don't know what half of these
+to lie. I don't know what half of these
+to lie. I don't know what half of these
+do, but all you really need to know is
+do, but all you really need to know is
+do, but all you really need to know is
+the modifier and render tab. At least
+the modifier and render tab. At least
+the modifier and render tab. At least
+that's what I got out of it. What What
+that's what I got out of it. What What
+that's what I got out of it. What What
+happened to my cube? Ski- Skin Skin
+happened to my cube? Ski- Skin Skin
+happened to my cube? Ski- Skin Skin
+Okay, whatever. After learning some of
+Okay, whatever. After learning some of
+Okay, whatever. After learning some of
+the basics, I decided to do a little
+the basics, I decided to do a little
+the basics, I decided to do a little
+practice run and try modeling this
+practice run and try modeling this
+practice run and try modeling this
+tattoo design I made from my last video,
+tattoo design I made from my last video,
+tattoo design I made from my last video,
+which was my first official music video.
+which was my first official music video.
+which was my first official music video.
+Yippee! It's out on Spotify. Now, I know
+Yippee! It's out on Spotify. Now, I know
+Yippee! It's out on Spotify. Now, I know
+I said we were going to try make low
+I said we were going to try make low
+I said we were going to try make low
+poly, but I think we're going to start
+poly, but I think we're going to start
+poly, but I think we're going to start
+with a sphere before anything else cuz
+with a sphere before anything else cuz
+with a sphere before anything else cuz
+head shape.
+head shape.
+head shape.
+Okay, we're just going to select this
+Okay, we're just going to select this
+Okay, we're just going to select this
+part and like stretch it out. Okay,
+part and like stretch it out. Okay,
+part and like stretch it out. Okay,
+guys, I think I'm seeing the vision. Do
+guys, I think I'm seeing the vision. Do
+guys, I think I'm seeing the vision. Do
+you guys see the vision?
+you guys see the vision?
+you guys see the vision?
+How are we going to do the hair?
+How are we going to do the hair?
+How are we going to do the hair?
+I'm following this girl, right? And you
+I'm following this girl, right? And you
+I'm following this girl, right? And you
+can see you can clearly see she pulls up
+can see you can clearly see she pulls up
+can see you can clearly see she pulls up
+a cube. And then she does witchcraft
+a cube. And then she does witchcraft
+a cube. And then she does witchcraft
+to it because apparently it becomes this
+to it because apparently it becomes this
+to it because apparently it becomes this
+after like a few minutes. I'm like,
+after like a few minutes. I'm like,
+after like a few minutes. I'm like,
+what?
+what?
+what?
+And I've been trying to follow. I'm
+And I've been trying to follow. I'm
+And I've been trying to follow. I'm
+like, okay, she like she like stretched
+like, okay, she like she like stretched
+like, okay, she like she like stretched
+it out. But what else did she do? How
+it out. But what else did she do? How
+it out. But what else did she do? How
+did it turn into this? I don't
+did it turn into this? I don't
+did it turn into this? I don't
+understand. Long story short, after a
+understand. Long story short, after a
+understand. Long story short, after a
+good 5 hours of pressing the same keys
+good 5 hours of pressing the same keys
+good 5 hours of pressing the same keys
+all over again, I gave up. But hey, this
+all over again, I gave up. But hey, this
+all over again, I gave up. But hey, this
+This is kind of good. She kind of looks
+This is kind of good. She kind of looks
+This is kind of good. She kind of looks
+good. I didn't get her finished her
+good. I didn't get her finished her
+good. I didn't get her finished her
+hair, but you can tell it's Teto, right?
+hair, but you can tell it's Teto, right?
+hair, but you can tell it's Teto, right?
+Right?
+Modeling the thing. Modeling the thing.
+Modeling the thing. Modeling the thing.
+Modeling the thing. Modeling the thing.
+Modeling the thing. Modeling the thing
+Modeling the thing. Modeling the thing
+Modeling the thing. Modeling the thing
+was actually quite pleasant. I know you
+was actually quite pleasant. I know you
+was actually quite pleasant. I know you
+don't expect those words to come out of
+don't expect those words to come out of
+don't expect those words to come out of
+my mouth, but they did anyway. In fact,
+my mouth, but they did anyway. In fact,
+my mouth, but they did anyway. In fact,
+I found a lot of similarities between
+I found a lot of similarities between
+I found a lot of similarities between
+drawing and 3D modeling. Like, for
+drawing and 3D modeling. Like, for
+drawing and 3D modeling. Like, for
+example, when you draw, you usually
+example, when you draw, you usually
+example, when you draw, you usually
+sketch out basic shapes first before
+sketch out basic shapes first before
+sketch out basic shapes first before
+drawing. Like, well, when you're drawing
+drawing. Like, well, when you're drawing
+drawing. Like, well, when you're drawing
+a head, you start off with a basic
+a head, you start off with a basic
+a head, you start off with a basic
+circle. And the same principle kind of
+circle. And the same principle kind of
+circle. And the same principle kind of
+applies to modeling. If I were to break
+applies to modeling. If I were to break
+applies to modeling. If I were to break
+down my reference into shapes, you'll
+down my reference into shapes, you'll
+down my reference into shapes, you'll
+find out they're made of rectangles,
+find out they're made of rectangles,
+find out they're made of rectangles,
+just stretched out in various ways.
+just stretched out in various ways.
+just stretched out in various ways.
+Since this was a low-poly model, I could
+Since this was a low-poly model, I could
+Since this was a low-poly model, I could
+basically get away with using really
+basically get away with using really
+basically get away with using really
+simple shapes. So, yippee! All I had to
+simple shapes. So, yippee! All I had to
+simple shapes. So, yippee! All I had to
+do was add a bunch of low-poly
+do was add a bunch of low-poly
+do was add a bunch of low-poly
+cylinders, stretch them out, merge them
+cylinders, stretch them out, merge them
+cylinders, stretch them out, merge them
+together, and it was that easy. It was
+together, and it was that easy. It was
+together, and it was that easy. It was
+that easy. It was that
+that easy. It was that
+that easy. It was that
+So, for the most part, it was going
+So, for the most part, it was going
+So, for the most part, it was going
+really well.
+really well.
+really well.
+Until I had to model the hair.
+Until I had to model the hair.
+Until I had to model the hair.
+Can you guys quickly take a look at this
+Can you guys quickly take a look at this
+Can you guys quickly take a look at this
+reference and see how I could possibly
+reference and see how I could possibly
+reference and see how I could possibly
+turn this into a 3D object? Like, it's
+turn this into a 3D object? Like, it's
+turn this into a 3D object? Like, it's
+got spikes on the back and the side, and
+got spikes on the back and the side, and
+got spikes on the back and the side, and
+I'm supposed to turn this into a 3D
+I'm supposed to turn this into a 3D
+I'm supposed to turn this into a 3D
+thing? Look, I'm not a genius. In fact,
+thing? Look, I'm not a genius. In fact,
+thing? Look, I'm not a genius. In fact,
+I'm very far from it. The amount of
+I'm very far from it. The amount of
+I'm very far from it. The amount of
+times I had to remodel and redo her hair
+times I had to remodel and redo her hair
+times I had to remodel and redo her hair
+was ungodly.
+was ungodly.
+was ungodly.
+Half the time, she literally looked like
+Half the time, she literally looked like
+Half the time, she literally looked like
+a full-on Christmas tree, and Santa was
+a full-on Christmas tree, and Santa was
+a full-on Christmas tree, and Santa was
+probably looking down on me for the
+probably looking down on me for the
+probably looking down on me for the
+atrocities I committed on this poor
+atrocities I committed on this poor
+atrocities I committed on this poor
+girl. Like, look at her.
+girl. Like, look at her.
+girl. Like, look at her.
+Hasn't she been through enough, guys?
+Hasn't she been through enough, guys?
+Hasn't she been through enough, guys?
+I don't know what to do. She looks so
+I don't know what to do. She looks so
+I don't know what to do. She looks so
+bad. And so, fast forward, I ended up
+bad. And so, fast forward, I ended up
+bad. And so, fast forward, I ended up
+just working on the rest of the body
+just working on the rest of the body
+just working on the rest of the body
+instead, and it wasn't that bad. Mainly
+instead, and it wasn't that bad. Mainly
+instead, and it wasn't that bad. Mainly
+because I had a bunch of references from
+because I had a bunch of references from
+because I had a bunch of references from
+every angle with me. It really made the
+every angle with me. It really made the
+every angle with me. It really made the
+whole process so much easier. And I
+whole process so much easier. And I
+whole process so much easier. And I
+ended up just settling with the hair,
+ended up just settling with the hair,
+ended up just settling with the hair,
+figuring that maybe the coloring would
+figuring that maybe the coloring would
+figuring that maybe the coloring would
+actually fix it. So, yeah.
+Honestly, I was really looking forward
+Honestly, I was really looking forward
+Honestly, I was really looking forward
+to this part, UV mapping and texturing,
+to this part, UV mapping and texturing,
+to this part, UV mapping and texturing,
+because I'd finally get to bring my girl
+because I'd finally get to bring my girl
+because I'd finally get to bring my girl
+to life. She'd finally get all the color
+to life. She'd finally get all the color
+to life. She'd finally get all the color
+she needed. Because right now she kind
+she needed. Because right now she kind
+she needed. Because right now she kind
+of looks like an old decrepit tree. So
+of looks like an old decrepit tree. So
+of looks like an old decrepit tree. So
+so far I'd basically been able to figure
+so far I'd basically been able to figure
+so far I'd basically been able to figure
+out most things along with little to no
+out most things along with little to no
+out most things along with little to no
+tutorials. So I thought maybe I could do
+tutorials. So I thought maybe I could do
+tutorials. So I thought maybe I could do
+this on my own. Don't do this on your
+this on my own. Don't do this on your
+this on my own. Don't do this on your
+own. UV unwrapping is hell. Whoever
+own. UV unwrapping is hell. Whoever
+own. UV unwrapping is hell. Whoever
+invented this, I don't know what went
+invented this, I don't know what went
+invented this, I don't know what went
+through your mind, but what the hell?
+through your mind, but what the hell?
+through your mind, but what the hell?
+And so it turns out to properly texture
+And so it turns out to properly texture
+And so it turns out to properly texture
+this
+this
+this
+I need to turn her into a flat map. 3D
+I need to turn her into a flat map. 3D
+I need to turn her into a flat map. 3D
+to 2D. What are we doing here? I thought
+to 2D. What are we doing here? I thought
+to 2D. What are we doing here? I thought
+we were 3D modeling. Why are we going
+we were 3D modeling. Why are we going
+we were 3D modeling. Why are we going
+back to two dimensions? Okay, but think
+back to two dimensions? Okay, but think
+back to two dimensions? Okay, but think
+of it as like Minecraft skins, you know,
+of it as like Minecraft skins, you know,
+of it as like Minecraft skins, you know,
+this thing, this flat map thing. Yeah,
+this thing, this flat map thing. Yeah,
+this thing, this flat map thing. Yeah,
+that's basically what I had to do, but I
+that's basically what I had to do, but I
+that's basically what I had to do, but I
+don't know if you noticed
+don't know if you noticed
+don't know if you noticed
+but Minecraft characters are made of
+but Minecraft characters are made of
+but Minecraft characters are made of
+cubes.
+cubes.
+cubes.
+And I don't know if you noticed
+And I don't know if you noticed
+And I don't know if you noticed
+but my character ain't made of cubes. I
+but my character ain't made of cubes. I
+but my character ain't made of cubes. I
+ended up watching quite a lot of
+ended up watching quite a lot of
+ended up watching quite a lot of
+tutorials, if not all of them. It helped
+tutorials, if not all of them. It helped
+tutorials, if not all of them. It helped
+a bit, but not really. After trying to
+a bit, but not really. After trying to
+a bit, but not really. After trying to
+figure this out on my own, I gave up and
+figure this out on my own, I gave up and
+figure this out on my own, I gave up and
+just called my friend again. And he
+just called my friend again. And he
+just called my friend again. And he
+decided to explain it to me by making
+decided to explain it to me by making
+decided to explain it to me by making
+low poly Sonic together.
+low poly Sonic together.
+low poly Sonic together.
+And he explained UV unwrapping way
+And he explained UV unwrapping way
+And he explained UV unwrapping way
+better than any tutorial could. I'm not
+better than any tutorial could. I'm not
+better than any tutorial could. I'm not
+going to lie here. He kind of helped a
+going to lie here. He kind of helped a
+going to lie here. He kind of helped a
+lot with this part. Like he did most of
+lot with this part. Like he did most of
+lot with this part. Like he did most of
+the UV unwrapping for my model, if not
+the UV unwrapping for my model, if not
+the UV unwrapping for my model, if not
+all of it. I still did some parts
+all of it. I still did some parts
+all of it. I still did some parts
+myself, but I don't think I did a great
+myself, but I don't think I did a great
+myself, but I don't think I did a great
+job because there are a few artifacts.
+job because there are a few artifacts.
+job because there are a few artifacts.
+Like some parts of the model are green,
+Like some parts of the model are green,
+Like some parts of the model are green,
+but honestly I can't be bothered
+but honestly I can't be bothered
+but honestly I can't be bothered
+anymore. They're not that visible from
+anymore. They're not that visible from
+anymore. They're not that visible from
+afar anyway. And since I didn't have a
+afar anyway. And since I didn't have a
+afar anyway. And since I didn't have a
+drawing tablet, I had to make
+drawing tablet, I had to make
+drawing tablet, I had to make
+placeholder textures with my mouse and
+placeholder textures with my mouse and
+placeholder textures with my mouse and
+import them into ibis paint to draw over
+import them into ibis paint to draw over
+import them into ibis paint to draw over
+them. And after all that work, she's
+them. And after all that work, she's
+them. And after all that work, she's
+finally real. Look at her. Doesn't she
+finally real. Look at her. Doesn't she
+finally real. Look at her. Doesn't she
+look stunning?
+&gt;&gt; Rigging her was supposed to be the
+&gt;&gt; Rigging her was supposed to be the
+&gt;&gt; Rigging her was supposed to be the
+easiest step out of all the others
+easiest step out of all the others
+easiest step out of all the others
+because in theory, all I had to do was
+because in theory, all I had to do was
+because in theory, all I had to do was
+add one of the template rigs from
+add one of the template rigs from
+add one of the template rigs from
+Blender, align it with my model, and
+Blender, align it with my model, and
+Blender, align it with my model, and
+it'll generate an automatic rig for me.
+it'll generate an automatic rig for me.
+it'll generate an automatic rig for me.
+Now, this rig was
+Now, this rig was
+Now, this rig was
+What the is going on?
+What the is going on?
+What the is going on?
+Why is her hair moving like that?
+Why is her hair moving like that?
+Why is her hair moving like that?
+What the fudge?
+What the fudge?
+What the fudge?
+Why is she like this?
+Why is she like this?
+Why is she like this?
+So, yeah. The rig Blender generated
+So, yeah. The rig Blender generated
+So, yeah. The rig Blender generated
+wasn't good. So, it took me a few more
+wasn't good. So, it took me a few more
+wasn't good. So, it took me a few more
+attempts to get her moving right, but
+attempts to get her moving right, but
+attempts to get her moving right, but
+eventually I got it to move properly.
+eventually I got it to move properly.
+eventually I got it to move properly.
+Well, honestly, there were still a few
+Well, honestly, there were still a few
+Well, honestly, there were still a few
+things wrong with her rig, a lot of
+things wrong with her rig, a lot of
+things wrong with her rig, a lot of
+things wrong with her rig, but I can't
+things wrong with her rig, but I can't
+things wrong with her rig, but I can't
+be bothered. Look, she's not perfect,
+be bothered. Look, she's not perfect,
+be bothered. Look, she's not perfect,
+okay? Very much far from it, but it
+okay? Very much far from it, but it
+okay? Very much far from it, but it
+gives her personality, you know? She She
+gives her personality, you know? She She
+gives her personality, you know? She She
+got wobby-sobby What what whatever the
+got wobby-sobby What what whatever the
+got wobby-sobby What what whatever the
+the the saying goes. Her rig may work
+the the saying goes. Her rig may work
+the the saying goes. Her rig may work
+60% of the time, but it doesn't matter.
+60% of the time, but it doesn't matter.
+60% of the time, but it doesn't matter.
+It doesn't matter. So, we're moving on.
+It doesn't matter. So, we're moving on.
+It doesn't matter. So, we're moving on.
+I also wanted the face to be riggable.
+I also wanted the face to be riggable.
+I also wanted the face to be riggable.
+So, for the face, I followed this
+So, for the face, I followed this
+So, for the face, I followed this
+tutorial. The guy explained it really
+tutorial. The guy explained it really
+tutorial. The guy explained it really
+well. I do recommend it. But basically,
+well. I do recommend it. But basically,
+well. I do recommend it. But basically,
+you tie your rig to a texture map and it
+you tie your rig to a texture map and it
+you tie your rig to a texture map and it
+scrolls through different emotes. Does
+scrolls through different emotes. Does
+scrolls through different emotes. Does
+Does that make sense? I I hope I hope
+Does that make sense? I I hope I hope
+Does that make sense? I I hope I hope
+that does I hope that makes sense. Okay,
+that does I hope that makes sense. Okay,
+that does I hope that makes sense. Okay,
+I know what you're thinking. This looks
+I know what you're thinking. This looks
+I know what you're thinking. This looks
+really complicated and scary, but trust
+really complicated and scary, but trust
+really complicated and scary, but trust
+me, it wasn't that complicated. The
+me, it wasn't that complicated. The
+me, it wasn't that complicated. The
+tutorial guy explained it really well. I
+tutorial guy explained it really well. I
+tutorial guy explained it really well. I
+had a ton of fun deciding and drawing
+had a ton of fun deciding and drawing
+had a ton of fun deciding and drawing
+all the different expressions for her. I
+all the different expressions for her. I
+all the different expressions for her. I
+ended up settling on eight different
+ended up settling on eight different
+ended up settling on eight different
+facial rigs for now. I'll definitely add
+facial rigs for now. I'll definitely add
+facial rigs for now. I'll definitely add
+more after this video along with some
+more after this video along with some
+more after this video along with some
+final retouches. But look at this. Isn't
+final retouches. But look at this. Isn't
+final retouches. But look at this. Isn't
+that so cool? Her face switches texture
+that so cool? Her face switches texture
+that so cool? Her face switches texture
+as we move this rig. Isn't that so cool?
+as we move this rig. Isn't that so cool?
+as we move this rig. Isn't that so cool?
+So, hi. Ta-da! I'm 3D now. This was
+So, hi. Ta-da! I'm 3D now. This was
+So, hi. Ta-da! I'm 3D now. This was
+honestly the most frustrating but
+honestly the most frustrating but
+honestly the most frustrating but
+rewarding experience ever. Now, would I
+rewarding experience ever. Now, would I
+rewarding experience ever. Now, would I
+consider myself a Blender pro? No, no
+consider myself a Blender pro? No, no
+consider myself a Blender pro? No, no
+way. I've got a long way to go before I
+way. I've got a long way to go before I
+way. I've got a long way to go before I
+can call myself a half-decent 3D modeler
+can call myself a half-decent 3D modeler
+can call myself a half-decent 3D modeler
+or whatever you call it. But, I'm really
+or whatever you call it. But, I'm really
+or whatever you call it. But, I'm really
+happy with the final result. To anyone
+happy with the final result. To anyone
+happy with the final result. To anyone
+who wants to try 3D modeling or a new
+who wants to try 3D modeling or a new
+who wants to try 3D modeling or a new
+skill, I'd say just go for it. I mean,
+skill, I'd say just go for it. I mean,
+skill, I'd say just go for it. I mean,
+you don't have much to lose, only much
+you don't have much to lose, only much
+you don't have much to lose, only much
+to gain, really. Bump.
+to gain, really. Bump.
+to gain, really. Bump.
+Welcome to the end of the video. Yippee!
+Welcome to the end of the video. Yippee!
+Welcome to the end of the video. Yippee!
+I've been trying to get more comfortable
+I've been trying to get more comfortable
+I've been trying to get more comfortable
+with the mic. Oh, dog dog's barking.
+with the mic. Oh, dog dog's barking.
+with the mic. Oh, dog dog's barking.
+Anyways, I don't know if you guys
+Anyways, I don't know if you guys
+Anyways, I don't know if you guys
+noticed, but I bought a new mic and I
+noticed, but I bought a new mic and I
+noticed, but I bought a new mic and I
+might sound different this video. I
+might sound different this video. I
+might sound different this video. I
+don't know. Maybe I sound worse or
+don't know. Maybe I sound worse or
+don't know. Maybe I sound worse or
+better. Tell me in the comments. Maybe
+better. Tell me in the comments. Maybe
+better. Tell me in the comments. Maybe
+I'll just switch back if this mic is
+I'll just switch back if this mic is
+I'll just switch back if this mic is
+terrible, but um I've been enjoying
+terrible, but um I've been enjoying
+terrible, but um I've been enjoying
+these types of videos, like where I kind
+these types of videos, like where I kind
+these types of videos, like where I kind
+of challenge myself to learn a new
+of challenge myself to learn a new
+of challenge myself to learn a new
+skill. I think it's really fun for me
+skill. I think it's really fun for me
+skill. I think it's really fun for me
+and I think it's very entertaining for
+and I think it's very entertaining for
+and I think it's very entertaining for
+you guys. I don't know about that. I
+you guys. I don't know about that. I
+you guys. I don't know about that. I
+know I'm a storytime YouTuber, that's
+know I'm a storytime YouTuber, that's
+know I'm a storytime YouTuber, that's
+what I said. I don't know. Maybe if you
+what I said. I don't know. Maybe if you
+what I said. I don't know. Maybe if you
+guys are interested, maybe comment some
+guys are interested, maybe comment some
+guys are interested, maybe comment some
+things I could try next. Like, maybe we
+things I could try next. Like, maybe we
+things I could try next. Like, maybe we
+could like make a YouTuber. That might
+could like make a YouTuber. That might
+could like make a YouTuber. That might
+be out of my scope, but I'll try. I'll
+be out of my scope, but I'll try. I'll
+be out of my scope, but I'll try. I'll
+try. If If a lot of you suggest it, I'll
+try. If If a lot of you suggest it, I'll
+try. If If a lot of you suggest it, I'll
+try to make it happen. And also, thank
+try to make it happen. And also, thank
+try to make it happen. And also, thank
+you for the amount of support on my
+you for the amount of support on my
+you for the amount of support on my
+music video and my song. I'm just so
+music video and my song. I'm just so
+music video and my song. I'm just so
+happy you guys enjoyed it. I'm actually
+happy you guys enjoyed it. I'm actually
+happy you guys enjoyed it. I'm actually
+working on a new song right now. Thank
+working on a new song right now. Thank
+working on a new song right now. Thank
+you for all the fan art. I tried to fit
+you for all the fan art. I tried to fit
+you for all the fan art. I tried to fit
+as many of you guys in here. Anyways,
+as many of you guys in here. Anyways,
+as many of you guys in here. Anyways,
+I'm going to go now. Bye.

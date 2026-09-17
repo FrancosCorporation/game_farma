@@ -1,0 +1,426 @@
+Kind: captions
+Language: en
+all right game devs I've been playing
+all right game devs I've been playing
+all right game devs I've been playing
+around with blender for a moment now and
+around with blender for a moment now and
+around with blender for a moment now and
+I want to share with you how I would
+I want to share with you how I would
+I want to share with you how I would
+learn it as a Game Dev if I was to do it
+learn it as a Game Dev if I was to do it
+learn it as a Game Dev if I was to do it
+all over again blender is a 3D model
+all over again blender is a 3D model
+all over again blender is a 3D model
+software packed with so many features
+software packed with so many features
+software packed with so many features
+but only a few are really necessary for
+but only a few are really necessary for
+but only a few are really necessary for
+game development I did a lot of
+game development I did a lot of
+game development I did a lot of
+tutorials like the donut tutorial which
+tutorials like the donut tutorial which
+tutorials like the donut tutorial which
+we'll talk about in a minute I also did
+we'll talk about in a minute I also did
+we'll talk about in a minute I also did
+paid courses and some exploring by
+paid courses and some exploring by
+paid courses and some exploring by
+myself with blender okay so let's assume
+myself with blender okay so let's assume
+myself with blender okay so let's assume
+we never opened the blender before and
+we never opened the blender before and
+we never opened the blender before and
+we want to learn it what is the first
+we want to learn it what is the first
+we want to learn it what is the first
+thing you see when you search for
+thing you see when you search for
+thing you see when you search for
+learning blender as a beginner a donut
+learning blender as a beginner a donut
+learning blender as a beginner a donut
+everybody talks about the donut tutorial
+everybody talks about the donut tutorial
+everybody talks about the donut tutorial
+but why it's a very well-made tutorial
+but why it's a very well-made tutorial
+but why it's a very well-made tutorial
+by a guy who knows the software like the
+by a guy who knows the software like the
+by a guy who knows the software like the
+back of his hand I remember doing the
+back of his hand I remember doing the
+back of his hand I remember doing the
+tutorial just like every blender newbie
+tutorial just like every blender newbie
+tutorial just like every blender newbie
+does and barely understanding what I was
+does and barely understanding what I was
+does and barely understanding what I was
+doing it's such a dense software with so
+doing it's such a dense software with so
+doing it's such a dense software with so
+many features there's no chance that you
+many features there's no chance that you
+many features there's no chance that you
+will be comfortable with it even on your
+will be comfortable with it even on your
+will be comfortable with it even on your
+second playthrough of the donut tutorial
+second playthrough of the donut tutorial
+second playthrough of the donut tutorial
+the only thing I got familiar with after
+the only thing I got familiar with after
+the only thing I got familiar with after
+finishing the tutorial is following
+finishing the tutorial is following
+finishing the tutorial is following
+blender guru's Direction
+blender guru's Direction
+blender guru's Direction
+and the Very non-intuitive controls you
+and the Very non-intuitive controls you
+and the Very non-intuitive controls you
+know that button that you probably only
+know that button that you probably only
+know that button that you probably only
+use when scrolling on your browser well
+use when scrolling on your browser well
+use when scrolling on your browser well
+now it's the button that you will use
+now it's the button that you will use
+now it's the button that you will use
+for everything but I digress here this
+for everything but I digress here this
+for everything but I digress here this
+is not a tutorial about blender this is
+is not a tutorial about blender this is
+is not a tutorial about blender this is
+a tutorial about tutorials so if you
+a tutorial about tutorials so if you
+a tutorial about tutorials so if you
+really want to attempt a donut tutorial
+really want to attempt a donut tutorial
+really want to attempt a donut tutorial
+go for it the teacher is good the
+go for it the teacher is good the
+go for it the teacher is good the
+instructions are clear and you'll get
+instructions are clear and you'll get
+instructions are clear and you'll get
+familiar with the controls and the
+familiar with the controls and the
+familiar with the controls and the
+interface but if you learn blender for
+interface but if you learn blender for
+interface but if you learn blender for
+game development as we mentioned I
+game development as we mentioned I
+game development as we mentioned I
+wouldn't bother going past part five
+wouldn't bother going past part five
+wouldn't bother going past part five
+it's about making a scene and going into
+it's about making a scene and going into
+it's about making a scene and going into
+more compx licated stuff that isn't
+more compx licated stuff that isn't
+more compx licated stuff that isn't
+really game related here's what I did
+really game related here's what I did
+really game related here's what I did
+once I finished a donut tutorial I tried
+once I finished a donut tutorial I tried
+once I finished a donut tutorial I tried
+doing models by myself I didn't fully
+doing models by myself I didn't fully
+doing models by myself I didn't fully
+understand the concept of faces so I
+understand the concept of faces so I
+understand the concept of faces so I
+wasn't bothered by how many triangles I
+wasn't bothered by how many triangles I
+wasn't bothered by how many triangles I
+had when I made my barbecue model this
+had when I made my barbecue model this
+had when I made my barbecue model this
+was not made as a game asset it was only
+was not made as a game asset it was only
+was not made as a game asset it was only
+to practice what I learned and play
+to practice what I learned and play
+to practice what I learned and play
+around with some of the blender features
+around with some of the blender features
+around with some of the blender features
+I went into as much detail as I could it
+I went into as much detail as I could it
+I went into as much detail as I could it
+took me about 50 hours until I was
+took me about 50 hours until I was
+took me about 50 hours until I was
+somewhat satisfied with it but now I'm
+somewhat satisfied with it but now I'm
+somewhat satisfied with it but now I'm
+looking at it and thinking of how much
+looking at it and thinking of how much
+looking at it and thinking of how much
+time and energy I wasted on it look at
+time and energy I wasted on it look at
+time and energy I wasted on it look at
+how many faces it has it's almost as
+how many faces it has it's almost as
+how many faces it has it's almost as
+many polygons as the mustache of snake
+many polygons as the mustache of snake
+many polygons as the mustache of snake
+and midal Gear Solid 4 what I'm saying
+and midal Gear Solid 4 what I'm saying
+and midal Gear Solid 4 what I'm saying
+is that you might want to skip the donut
+is that you might want to skip the donut
+is that you might want to skip the donut
+tutorial go straight to learning the
+tutorial go straight to learning the
+tutorial go straight to learning the
+fundamentals of game assets where every
+fundamentals of game assets where every
+fundamentals of game assets where every
+polygon matters and don't waste your
+polygon matters and don't waste your
+polygon matters and don't waste your
+time with features that you don't need
+time with features that you don't need
+time with features that you don't need
+in blender the best advice I got about
+in blender the best advice I got about
+in blender the best advice I got about
+blender for Game Dev is to get your mesh
+blender for Game Dev is to get your mesh
+blender for Game Dev is to get your mesh
+to the game engine as early as possible
+to the game engine as early as possible
+to the game engine as early as possible
+blender is great at making assets but
+blender is great at making assets but
+blender is great at making assets but
+sometimes exporting them to the game
+sometimes exporting them to the game
+sometimes exporting them to the game
+engine can be tricky and doesn't go as
+engine can be tricky and doesn't go as
+engine can be tricky and doesn't go as
+planned that's why you want to start
+planned that's why you want to start
+planned that's why you want to start
+with low poly tutorials keep it simple
+with low poly tutorials keep it simple
+with low poly tutorials keep it simple
+learn the basics and go up from there
+learn the basics and go up from there
+learn the basics and go up from there
+one of my favorite blender professionals
+one of my favorite blender professionals
+one of my favorite blender professionals
+is Grant Abbot with his unmatched calm
+is Grant Abbot with his unmatched calm
+is Grant Abbot with his unmatched calm
+teaching skills and his UK accent I did
+teaching skills and his UK accent I did
+teaching skills and his UK accent I did
+most of his paid courses on gamedev.tv
+most of his paid courses on gamedev.tv
+most of his paid courses on gamedev.tv
+which sometimes goes on Ultra cell on
+which sometimes goes on Ultra cell on
+which sometimes goes on Ultra cell on
+Humble Bundle by the way and they are
+Humble Bundle by the way and they are
+Humble Bundle by the way and they are
+very good but you don't have to pay to
+very good but you don't have to pay to
+very good but you don't have to pay to
+get good courses from him because he has
+get good courses from him because he has
+get good courses from him because he has
+an incredible library of videos on his
+an incredible library of videos on his
+an incredible library of videos on his
+YouTube channel obviously some of his
+YouTube channel obviously some of his
+YouTube channel obviously some of his
+videos are pointing at paid courses and
+videos are pointing at paid courses and
+videos are pointing at paid courses and
+I don't mind pain for for a course
+I don't mind pain for for a course
+I don't mind pain for for a course
+because I like how structured they are
+because I like how structured they are
+because I like how structured they are
+and there's more chance I finish it if I
+and there's more chance I finish it if I
+and there's more chance I finish it if I
+paid for it I would suggest you to try a
+paid for it I would suggest you to try a
+paid for it I would suggest you to try a
+few of his low poly model tutorials then
+few of his low poly model tutorials then
+few of his low poly model tutorials then
+try the rigging model tutorials and when
+try the rigging model tutorials and when
+try the rigging model tutorials and when
+you feel more confident with your
+you feel more confident with your
+you feel more confident with your
+blender skills take a look at his
+blender skills take a look at his
+blender skills take a look at his
+sculpting tutorials this is a must if
+sculpting tutorials this is a must if
+sculpting tutorials this is a must if
+you want to make high detail models that
+you want to make high detail models that
+you want to make high detail models that
+you can then bake on low poly models if
+you can then bake on low poly models if
+you can then bake on low poly models if
+you don't mind shelling out a few
+you don't mind shelling out a few
+you don't mind shelling out a few
+dollars there's also Steven ulie Barry
+dollars there's also Steven ulie Barry
+dollars there's also Steven ulie Barry
+AKA Druid mechanics who makes mostly
+AKA Druid mechanics who makes mostly
+AKA Druid mechanics who makes mostly
+Unreal Engine content but he also has
+Unreal Engine content but he also has
+Unreal Engine content but he also has
+two good blender courses that I
+two good blender courses that I
+two good blender courses that I
+recommend I like his teaching style he's
+recommend I like his teaching style he's
+recommend I like his teaching style he's
+well articulated calm and explains in
+well articulated calm and explains in
+well articulated calm and explains in
+detail and if you go to his Discord he
+detail and if you go to his Discord he
+detail and if you go to his Discord he
+has coupons for his courses the last way
+has coupons for his courses the last way
+has coupons for his courses the last way
+to learn blender I want to share with
+to learn blender I want to share with
+to learn blender I want to share with
+you is by starting a personal project
+you is by starting a personal project
+you is by starting a personal project
+and making sure to finish it one thing I
+and making sure to finish it one thing I
+and making sure to finish it one thing I
+learn from the book keep going is that a
+learn from the book keep going is that a
+learn from the book keep going is that a
+good way to get good at making art is by
+good way to get good at making art is by
+good way to get good at making art is by
+gifting it it will force you to finish
+gifting it it will force you to finish
+gifting it it will force you to finish
+your project and you will try to do your
+your project and you will try to do your
+your project and you will try to do your
+best for the people you love this is
+best for the people you love this is
+best for the people you love this is
+when I made an animation and blender for
+when I made an animation and blender for
+when I made an animation and blender for
+my son's thirdd birthday it's nothing to
+my son's thirdd birthday it's nothing to
+my son's thirdd birthday it's nothing to
+brag about and I didn't have much time
+brag about and I didn't have much time
+brag about and I didn't have much time
+to do it but I had a lot of fun with it
+to do it but I had a lot of fun with it
+to do it but I had a lot of fun with it
+especially making the camera move and
+especially making the camera move and
+especially making the camera move and
+adding the sound effects to the
+adding the sound effects to the
+adding the sound effects to the
+animation now I look at it and see every
+animation now I look at it and see every
+animation now I look at it and see every
+single flaw and how bad the details are
+single flaw and how bad the details are
+single flaw and how bad the details are
+but my son was happy and I was too I
+but my son was happy and I was too I
+but my son was happy and I was too I
+felt proud of my progress and it was an
+felt proud of my progress and it was an
+felt proud of my progress and it was an
+effective way to try a lot of blender
+effective way to try a lot of blender
+effective way to try a lot of blender
+features by myself you learn way more by
+features by myself you learn way more by
+features by myself you learn way more by
+trial and error than by following a
+trial and error than by following a
+trial and error than by following a
+tutorial my animation might not be a
+tutorial my animation might not be a
+tutorial my animation might not be a
+good example for game development so a
+good example for game development so a
+good example for game development so a
+good way will be to join a game Jam to
+good way will be to join a game Jam to
+good way will be to join a game Jam to
+create some or all the assets by
+create some or all the assets by
+create some or all the assets by
+yourself so go start with a a simple
+yourself so go start with a a simple
+yourself so go start with a a simple
+tutorial to get familiar with the
+tutorial to get familiar with the
+tutorial to get familiar with the
+controls and interface then try to do an
+controls and interface then try to do an
+controls and interface then try to do an
+easy model by yourself after that you
+easy model by yourself after that you
+easy model by yourself after that you
+can see where you need more practice and
+can see where you need more practice and
+can see where you need more practice and
+look into more specific tutorials or
+look into more specific tutorials or
+look into more specific tutorials or
+courses to finally push yourself to a
+courses to finally push yourself to a
+courses to finally push yourself to a
+full project to get that feeling of
+full project to get that feeling of
+full project to get that feeling of
+accomplishment I'll see you at the next
+accomplishment I'll see you at the next
+accomplishment I'll see you at the next
+game Jam see you

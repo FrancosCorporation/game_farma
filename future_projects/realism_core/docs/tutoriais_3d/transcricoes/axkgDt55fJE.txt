@@ -1,0 +1,534 @@
+today I'm going to be taking you through
+a very simple Pipeline on how to create
+Frey characters that you can use in
+unreal and blender with rigs morph
+targets for animating the facial and
+body animation and beginner friendly and
+on top of that being blender compatible
+I've also decided to challenge myself
+because life isn't challenging enough
+and do this within under an hour do I
+achieve that well keep watching to see I
+just want to say a massive thank you to
+our sponsor today which is Patron which
+is me it's here I can centralize all my
+live streams question and answers and
+all my learning resources that I can
+share with you I'm also going to be
+doing a live stream of this entire
+process so you can watch me mess up in
+real time with all that
+said let's get on with the
+show my muse for today is Chan Lee from
+the Fantastic Street Fighters series I
+want to take Chan Lee and mix her in
+with a pixstar Disney twist first stop
+darly free at this point I'm having an
+exponential crisis because Dary free has
+created some fantastic imagery that
+conveys her power and strength really
+well next step is to whiz over to
+Pinterest and put in the same prompt as
+you can see from The Prompt it will give
+you more of a diverse reference images
+from fan art 3d characters to AI images
+with my reference images downloaded from
+human and AI I'm ready to plunk them
+into pure ref which is a great free tool
+for collecting reference images the
+reason why I love pure ref so much is
+because it floats on top of all your
+applications which means you don't have
+to switch screen you can change the
+opacity you can move it around while you
+work and it's free but in a real life
+scenario you actually want to spend your
+most time on concept and freshing out
+the overall idea of your character
+because that's where a lot of people go
+wrong so don't do as I do here take some
+time step two creating the basic forms
+with the clock ticking I head into
+character creator I'm going to have to
+use some kit bashing techniques to get
+this done so I'm going to be taking
+advantage of the fact that character
+creator has three base models in their
+program and my Victim today will be
+Camila I'm going to be taking full
+advantage or probably abusing the fact
+that I don't have to do a complete face
+rig as well as all the morph targets for
+the character it's actually in the base
+model itself already not only that she
+has bones and weights and clean topology
+as well ultimately this gives me way
+more time to be creative with a
+character rather than get caught in the
+technical stuff remember I've got 1 hour
+to do this character and time is a
+ticking we need to move in and sculpt
+this character so first I need to Fresh
+Out the overall proportion of the
+character's autonomy I'm going to be
+using characters creators more sliders
+just to get a quick basic shape that I
+can then take into Z brush and sculpt
+this is really quick and easy to do that
+took less than 5 minutes to get to this
+point she's now all set to go into
+zbrush for further sculpting I'm going
+to use the the integrated gozy button
+that will transfer all my layers nicely
+into Ze brush ready for sculpting at the
+beginning of the sculpt I primarily rely
+on three brushes the move brush the
+standard brush and the smooth brush I'm
+trying to steer clear from the realism
+and embrace a more stylized aesthetic
+it's all about exaggerating the
+personality and bringing our character
+to life with each stroke as I scul this
+character I'm constantly moving it
+around into different perspectives and
+position this is just to ensure that the
+character doesn't have a flat face and
+that I'm sculpting from all angles
+remember perspective is everything and
+don't forget the body as well you can
+come in and use the same techniques on
+the body to refine the shape we are now
+ready to go Z back into Character
+Creator and check our progress because
+we now changed the base shape of our
+character we just need to go into the
+morph sliders and really quickly adjust
+those so our eyes fit our face we're now
+going to stylize the eyelashes I'm just
+going to drag and drop a pre-created
+stylized eyelash flash onto my character
+you can see how quick it is to change
+different styles next is the eyeballs
+and as you can see I'm just dragging and
+dropping pre-created assets onto our
+character and it fits perfectly at this
+point I'm getting serious uncanny valley
+Vibes that is mainly because this is
+using a realistic characters texture
+we're going to reuse those uvw maps and
+quickly paint them in Photoshop to be
+more bold and bright and cartoony with
+less intricate detail I repeat this
+process for the other uvw Maps so far
+I've got head body legs and arm and that
+completes my character's uvw Maps it's
+now time to give her some more cartoony
+teeth so I just click this mouth open
+button on the modifier panel and go to
+my content catalog and grab some
+stylized teeth if you want to customize
+these teeth you just go Z them straight
+back into SE brush and do whatever you
+want with them I'm just making use of
+the morph sliders again just to
+reposition the teeth for a better
+sitting at this point I turn off the
+auxiliary lights and turn turn on the
+scene lighting but this gives me a
+preview to see if I'm going in the right
+direction I'm going to head over to the
+Motions panel at the bottom of the
+screen and switch between different
+facial animation profiles this is super
+helpful to spot any potential issues in
+animating the character's face early on
+now you might notice that these
+animations are based on realistic human
+Expressions but the thing is I'm not
+aiming for realism I want our character
+to have a Charming cartoony Pixar Vibe I
+also notied at this point because I've
+made the eyes loads more bigger than the
+original model the expression shapes
+aren't fitting the eye blink correctly
+so I can go in and fix that now so we
+just hit f8 to open up the facial
+profile editor from here I select I
+blink parameter when I push the
+parameter up to 100% on the left side
+you can see the problem here all I need
+to do is reduce the parameter down until
+the eyelash is not going through the
+mesh and then I'm going to click save
+which is this little Thunderbolt icon
+and it's going to save those parameters
+for both of the eyes swiftly moving on
+to the hair for our character now you
+can make your own hair and i' would like
+to do some tutorials on how to do that
+but we are going for speed you can jump
+into the real illusion content store and
+pick up high quality hair card assets a
+lot of these assets actually have morph
+sliders so you can change the look and
+feel of them you can also take them
+apart and use bits and pieces to make a
+different asset of your own and that's
+exactly what I've done with this
+character I can also take it into zbrush
+for further sculpting with that now
+completed we move move on to making a
+custom outfit you can make clothes
+really quickly by masking your character
+and then extracting that mask I just
+quickly recorded the process of doing
+this so you can see what it looks like
+this method is free quite quick and you
+can create any outfit you want however I
+know a lot of people get stuck at this
+point and don't like extracting from
+masks so I have a different option for
+you here behold the ultimate kit bashing
+in clothing this is the esset preset
+clothing pack from Slava and I've been a
+massive fan of his work on on the
+blender market for a while so he's an
+independent developer he has created
+this huge asset pack here these are all
+pre-made assets you can just drag and
+drop them into blender I'm going to take
+one of these clothing of item and show
+you how quickly and easily you can kit
+bash it onto your 3D model simply just
+export the file as an fbx back in
+character creator we just go to create
+and go to accessories and we just import
+that dress fbx we just saved click on
+open and there she is we just need to
+position it roughly on the character now
+the positioning of the dress doesn't
+have to be perfect I'm just roughly
+positioning it here doesn't matter if
+the mesh penetrates the character
+whatsoever we're going to be fixing that
+in Z brush in a second so let's click on
+go Z from here I just make sure that the
+dress is selected in the sub tool and
+that I've got the move tool essentially
+I then just push and pull the dress so
+it's not going through any of the mesh
+so what we going to spend hours
+sculpting this dress to this body no
+we're going to use Dynamics you will
+find the Dynamics up here if you go to
+this little dock symbol over here just
+left click and drag it over to the left
+side so ensure gravity is turned off and
+then come over to contract and just turn
+that on turn on collision volume and
+then run simulation and then use the
+smooth rof to smooth all your sins out I
+then use the move tool to shape the
+dress to how I want it to be I then
+figure out how I'm going to lower the
+topology and I do this by going to the
+Zed re measure so I make sure adap is
+switched on and I click on half this
+essentially means every time I Z remesh
+it it's going to half the amount of
+polygons that I have high poly bad low
+poly kind of good I just keep Zed re
+meshing until I got down to a level that
+I'm happy with the topology and it's
+retaining the shape of the dress as well
+the Z Rim mesh has gone a little bit mad
+and gone through my mesh so I just used
+the move tool without X symmetry on and
+just push those bits out we're now going
+to go in and add some trim detail to
+this dress if you go to the the brush
+and select curv tube snap and just
+simply drag and draw it around your Edge
+okay so let's quickly create a belt for
+our character so go to sub tools and
+underneath sub tools there's an option
+saying append so click on that and we're
+going to select cylinder 3D from the
+list and that will pop the cylinder 3D
+into our scene use the move transform
+tool to scale up and position your
+cylinder 3D around your character kind
+of where you want the belt to be I'm
+just going to switch the polyframe mode
+on so I can see how many poy there are
+to this mesh and holding down shift and
+control I'm just going to mask out an
+area of the belt that I want to keep if
+you then come down to the display
+properties and click on the double
+button this will make the object
+double-sided if you go to your geometry
+Tab and then to modified topology and
+delete Hidden and this will delete any
+of the Hidden mesh that we masked off
+earlier we're going to open up the
+Dynamics panel once again and just drag
+it over wherever you want to see it and
+make sure gravity is is off and contact
+is on and then Collision volume is on
+and then run simulation and it should
+shink back to your character like this
+if it doesn't just to change the inflate
+and the contact amount I now want to add
+some thickness to the geometry so if we
+come to the geometry Tab and come to
+Dynamic subdiv and then increase the
+thickness you then click apply and then
+it just makes it thicker then if you
+want to make it smooth just increase the
+smooth subdivision I do it by one and
+once again click apply so now I'm going
+to quickly create some accessories for
+my character I'm going to create those
+sort of spiky cuffs that are inspired by
+CH Lee I simply take a cylinder and then
+give it some thickness and then bevel it
+around the crease edges with the move
+tool selected I then just press the
+unlock icon to reposition the Gizmo so
+it's in the center of the cuff and then
+I append a cone and just really rudiment
+just position it around the cuff itself
+in the sub tools I just ensure that all
+the cones are sitting underneath the
+cylinder layer I then select the merge
+tool and then merge everything down into
+one object with the cuff accessory
+completed I just duplicate it and
+position it on the other side of the
+character okay so let's transfer all
+these new items of clothing and
+accessories back to character creator so
+just click the all button I'm going to
+uncheck the base mesh and only update
+the clothing items on the accessory as
+well or change it to accessory rather
+than update to cloth important I now
+need to add some skin weight to the
+clothing this ensures that the clothing
+sits on the character correctly
+especially when animating this used to
+be a laborious task but now it's a click
+of a button and it's pretty much done so
+I'm just going to go over to the
+modifier panel and click on transfer
+skin weights I'm going to just select
+the default weight setting and click
+apply and baby it works like a charm I
+just repeat this process for every
+accessory and piece of clothing on my
+character to check the skin weights I
+just put a default spin motion on her
+I'm not worried about the the flap on
+her skirt here because we're going to
+add physics to that to make it move more
+naturally next we need to uvw unwrap the
+clothing and the accessories the
+quickest and best way to explain what
+uvw unwrap is it's a bit like unfolding
+a cardboard box onto a flat sheet to be
+able to paint it the quickest way I can
+think about unwrapping these clothes is
+using the UV Master plugin in zbrush so
+back to zbrush we go here so make sure
+the dress is selected to go to zed
+plugins here and just going to drag this
+entire panel over here to the right so I
+can see what I'm doing come down to UV
+master and then click on unwrap and then
+if you want to check what it's actually
+done click on flatten and you can see
+what it's done here if you don't like
+those uvw maps you can use control
+painting if you click on unflatten and
+go to enable control painting got
+protect attract an array so if you click
+on protect you literally just draw on
+where you want the seam to be attracted
+to on the dress which will help zbrush
+determine where you want it to be
+unwrapped switching over to protect will
+indicate to zbrush where you've painted
+you do not want any seams and lastly you
+have a raise which will remove the paint
+for attract and protect if you've gone
+wrong once you're happy with the areas
+you've attracted and protected you can
+click on unwrap and then go to flatten
+and it's that easy click on unflatten
+and we then go down to texture map and
+click on that and we're going to create
+a texture map from the uvw map go to
+create and new from uvw map and as you
+can see we've got our uvw map onto our
+character now the next step is to paint
+this uvw map you can either shoot it off
+into Photoshop and paint it by hand I
+actually prefer that method or you can
+use poly paint looking at her body shape
+it's still too realistic so I'm going to
+go in and change the morph sliders to
+give her a bit more of a cartoonish body
+shape our character still has some super
+realistic feet but nevertheless we are
+going to put some boots on that so to
+complete this character I'm just going
+to grab some boots I purchased from real
+Illusions content store however I'll
+probably go and make these boots myself
+later on down the line it just kind of
+speeds things up and allows me to get
+into the animation process a lot quicker
+I also just came into the base color and
+just changed the boots to White to suit
+the theme I was just about to pose a
+character and realized she doesn't have
+any pants on so we're going to save her
+dignity and grab some pants and pop them
+on I didn't complete the challenge it's
+gone over an hour now I'm going to
+continue with the tutorial and get us
+into blender and ready to animate I will
+however do this tutorial again with
+another character and do it in an under
+an hour on my live stream on my Patron
+and I'm going to complete this tutorial
+for you even if it takes be 20 minutes
+more because we're not far off so we
+move next I went to the edit pose
+dialogue to get the character into a
+pose before I bring her into blender
+simply click on the circles that
+correspond to the bones and the body and
+then it's all about rotating and moving
+each part to where I need it I'm going
+to put her in some sort of kind of
+playful pose maybe she's about to kick
+but with her fist together it's not the
+most dynamic pose but it's a quick and
+effective alternative to just the T pose
+for importing into blender now I'm going
+to put an expression on my character's
+face via the edit facial dialogue this
+is where the magic happens for the
+character's Expressions I can tweak the
+Expressions part by part or start with a
+default expression and then modify it
+the control is all in the sliders this
+feature is especially valuable for
+animations and fine tuming vims and
+expressions but for now I'm going to
+keep it simple and just give her a smile
+on her face and that's it we're all set
+to go into
+blender we're going to quickly install a
+plugin which will allow us to import our
+character creator characters into
+blender with complete control and ease
+and it also will convert our rig to a
+rigify rig this is an absolutely free
+plugin and the developer I believe his
+name is Victor soup day and the link to
+his GitHub is in the description below
+all you need to do is go and find the
+source file over here and click the zip
+file and download the zip file do not
+under any circumstance unzip the zip
+file you just want to keep it as it is
+go back to blender go to edit
+preferences add-ons from the left
+toolbar and then install on the top
+toolbar and simply navigate to that CC
+blender tools. zip that we just
+downloaded and click on install add-on
+just type c in the search box and just
+and just check the box if it's not
+checked already with the Character
+Creator blender pipeline plugin ready to
+go we'll hit the end key or just click
+the little arrow up here this opens up
+the CC pipeline panel it's basically the
+control center for everything we're
+about to do Under the import section
+click on lighting physics and rify and
+then click on import character a couple
+of cool things that have happened is
+that your rig has been converted into a
+rigify rig as you know that is is
+compatible with blender and all the skin
+weights have been transferred across
+perfectly as you can see here with all
+the morph Blends as well which is very
+nice but this gift has not finished
+giving I'm just going to put in a quick
+backdrop here and plop in the camera I'm
+now ready to show you the amazing scene
+tools so if you go down to scene tools
+you can switch between the scene
+lighting and each one of these will give
+you a different set of lighting
+parameters this is really cool because
+you can use as a template and go in and
+edit these lights individually it just
+gives you a head start with everything
+having the lighting rigs pre-made let's
+quickly visit the material parameters
+here so this is a front end UI for the
+shaders tab up at the top you can change
+the mouth ambient occlusion the nostril
+ambient occlusion the lips the roughness
+the specular the micro roughness all the
+individual Parts as well essentially
+character creator has built you a node
+Shader so if you want to check that out
+you just go to the shading t Tab and
+have a look in there yes I know it's a
+little bit messy and I uh would probably
+go in and adjust this down to 4 nodes
+only but again it's a fantastic start
+for somebody who's coming in to try this
+for the first time and not be
+overwhelmed okay I must admit that was
+quite a fastpaced tutorial if you want
+to go into any more depth and detail and
+I'm going to do more lives and question
+and answers on the patrons but also if
+you've got any outstanding questions
+please use my comment section below and
+I'll be more than happy to help you out
+I really hope that I've inspired or
+perhaps given you the confidence to go
+and try this out now I know I'll get the
+comments well you can do this all for
+free in blender that's not the point
+actually a lot of people watching this
+video would have attempted to do this
+all in blender and got completely stuck
+in the Quagmire and this is just an
+easier process of doing it it might not
+be free but sometimes you do have to pay
+for software and I am pretty tired now
+so I'm going to go and lie down on the
+floor but if you haven't subscribed
+please please please subscribe to this
+channel it would mean the world to me
+and if you want to become a patron as
+well and support this channel that would
+be massive thank you so much from me to
+you goodbye and that will do it
+bye-bye oh yeah I nearly forgot could
+you tag me in your Creations because I
+love seeing what you generate from these
+tutorials it's always at plumped Muse on
+every platform and again that will do it
+bye-bye

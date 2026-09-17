@@ -1,0 +1,895 @@
+Kind: captions
+Language: en
+We are back.
+We are back.
+We are back.
+&gt;&gt; And today uh we're talking about
+&gt;&gt; And today uh we're talking about
+&gt;&gt; And today uh we're talking about
+um
+um
+um
+um what
+um what
+um what
+if you're here, it is probably because
+if you're here, it is probably because
+if you're here, it is probably because
+uh you like this kind of 3D modeling or
+uh you like this kind of 3D modeling or
+uh you like this kind of 3D modeling or
+because your algorithm has taste, I
+because your algorithm has taste, I
+because your algorithm has taste, I
+don't know. And today I will be taking
+don't know. And today I will be taking
+don't know. And today I will be taking
+you through my workflow for making
+you through my workflow for making
+you through my workflow for making
+characters like these. And note this
+characters like these. And note this
+characters like these. And note this
+video is about my preferred way of
+video is about my preferred way of
+video is about my preferred way of
+modeling and not about
+modeling and not about
+modeling and not about
+&gt;&gt; oh this is how you should model trust
+&gt;&gt; oh this is how you should model trust
+&gt;&gt; oh this is how you should model trust
+me.
+me.
+me.
+&gt;&gt; And for that reason if you want to
+&gt;&gt; And for that reason if you want to
+&gt;&gt; And for that reason if you want to
+observe the process better I've also
+observe the process better I've also
+observe the process better I've also
+posted a speed modeling version of this
+posted a speed modeling version of this
+posted a speed modeling version of this
+video. This model is also available on
+video. This model is also available on
+video. This model is also available on
+Gumroad. So if you wish to support me or
+Gumroad. So if you wish to support me or
+Gumroad. So if you wish to support me or
+um use this model as a basis for your
+um use this model as a basis for your
+um use this model as a basis for your
+own character I don't know whatever you
+own character I don't know whatever you
+own character I don't know whatever you
+may do with her. Uh the link is in the
+may do with her. Uh the link is in the
+may do with her. Uh the link is in the
+description. This is when I lock in and
+description. This is when I lock in and
+description. This is when I lock in and
+decide what to model.
+I chose the popular retra now mika
+I chose the popular retra now mika
+I chose the popular retra now mika
+design uh because uh I like the song
+design uh because uh I like the song
+design uh because uh I like the song
+here. Take a listen.
+here. Take a listen.
+here. Take a listen.
+Never mind. We're going to need an a
+Never mind. We're going to need an a
+Never mind. We're going to need an a
+posing reference image for modeling and
+posing reference image for modeling and
+posing reference image for modeling and
+the original design for inspiration.
+Okay. I almost never use primitives for
+Okay. I almost never use primitives for
+Okay. I almost never use primitives for
+low poly modeling because I prefer
+low poly modeling because I prefer
+low poly modeling because I prefer
+placing vertices manually to have more
+placing vertices manually to have more
+placing vertices manually to have more
+control on the overall typology and
+control on the overall typology and
+control on the overall typology and
+silhouette of the model. This fine
+silhouette of the model. This fine
+silhouette of the model. This fine
+control on the topology is very
+control on the topology is very
+control on the topology is very
+important for later when we will move on
+important for later when we will move on
+important for later when we will move on
+to texturing and rigging. So overall to
+to texturing and rigging. So overall to
+to texturing and rigging. So overall to
+give you a definition, a broad
+give you a definition, a broad
+give you a definition, a broad
+definition of good typology. Uh good
+definition of good typology. Uh good
+definition of good typology. Uh good
+typology is whether your model deforms
+typology is whether your model deforms
+typology is whether your model deforms
+well when rigged and how good do
+well when rigged and how good do
+well when rigged and how good do
+textures map on it. if there is not a
+textures map on it. if there is not a
+textures map on it. if there is not a
+lot of texture stretching and that sort
+lot of texture stretching and that sort
+lot of texture stretching and that sort
+of stuff, but we'll get to that later.
+of stuff, but we'll get to that later.
+of stuff, but we'll get to that later.
+The torso is a key part of the model.
+The torso is a key part of the model.
+The torso is a key part of the model.
+The way the torso looks literally shapes
+The way the torso looks literally shapes
+The way the torso looks literally shapes
+the rest of the model. I'm not kidding.
+the rest of the model. I'm not kidding.
+the rest of the model. I'm not kidding.
+It's that important. With all of the
+It's that important. With all of the
+It's that important. With all of the
+references imported into Blender, I
+references imported into Blender, I
+references imported into Blender, I
+start with a simple vertex that insert
+start with a simple vertex that insert
+start with a simple vertex that insert
+right below the belly. I extrude and
+right below the belly. I extrude and
+right below the belly. I extrude and
+create a ring that creates the top part
+create a ring that creates the top part
+create a ring that creates the top part
+of the hips and back. This ring usually
+of the hips and back. This ring usually
+of the hips and back. This ring usually
+has like three or four sides and with
+has like three or four sides and with
+has like three or four sides and with
+the mirror modifier sums up to eight
+the mirror modifier sums up to eight
+the mirror modifier sums up to eight
+sides. I almost never stay in
+sides. I almost never stay in
+sides. I almost never stay in
+orthographic view but rather prefer to
+orthographic view but rather prefer to
+orthographic view but rather prefer to
+orbit all the way around my model. This
+orbit all the way around my model. This
+orbit all the way around my model. This
+helps me a lot in making sure the
+helps me a lot in making sure the
+helps me a lot in making sure the
+silhouette of the model looks right. And
+silhouette of the model looks right. And
+silhouette of the model looks right. And
+I've been throwing this buzzword around
+I've been throwing this buzzword around
+I've been throwing this buzzword around
+for quite some time now. The the
+for quite some time now. The the
+for quite some time now. The the
+silhouette is very important. And if I
+silhouette is very important. And if I
+silhouette is very important. And if I
+had to give one singular piece of
+had to give one singular piece of
+had to give one singular piece of
+advice, it would be uh this Leodopus
+advice, it would be uh this Leodopus
+advice, it would be uh this Leodopus
+tweet. This image literally contains so
+tweet. This image literally contains so
+tweet. This image literally contains so
+much knowledge that I can't even explain
+much knowledge that I can't even explain
+much knowledge that I can't even explain
+it. So always look your models from all
+it. So always look your models from all
+it. So always look your models from all
+angles with flat shading to make sure
+angles with flat shading to make sure
+angles with flat shading to make sure
+they look right and not flat.
+they look right and not flat.
+they look right and not flat.
+And while I try to keep my poly count as
+And while I try to keep my poly count as
+And while I try to keep my poly count as
+low as possible and stylized, I like to
+low as possible and stylized, I like to
+low as possible and stylized, I like to
+insert details that are seemingly
+insert details that are seemingly
+insert details that are seemingly
+anatomically correct, like corvvis to
+anatomically correct, like corvvis to
+anatomically correct, like corvvis to
+the forearms and cows that I can add
+the forearms and cows that I can add
+the forearms and cows that I can add
+with the knife tool. And regarding the
+with the knife tool. And regarding the
+with the knife tool. And regarding the
+torso, I like to include both these
+torso, I like to include both these
+torso, I like to include both these
+little triangles right below the chest
+little triangles right below the chest
+little triangles right below the chest
+that act as the rib cage tips and also
+that act as the rib cage tips and also
+that act as the rib cage tips and also
+have the stomach follow this V shape for
+have the stomach follow this V shape for
+have the stomach follow this V shape for
+the abs. uh little parenthesis. The way
+the abs. uh little parenthesis. The way
+the abs. uh little parenthesis. The way
+you position your edges obviously
+you position your edges obviously
+you position your edges obviously
+determines how your model is shaded. So
+determines how your model is shaded. So
+determines how your model is shaded. So
+if you put the abs in a Vshape
+if you put the abs in a Vshape
+if you put the abs in a Vshape
+arrangement, the shading will make them
+arrangement, the shading will make them
+arrangement, the shading will make them
+look much better and more realistic. And
+look much better and more realistic. And
+look much better and more realistic. And
+climbing up towards the chest, I try to
+climbing up towards the chest, I try to
+climbing up towards the chest, I try to
+keep it nice and round while also
+keep it nice and round while also
+keep it nice and round while also
+keeping an eye on the vertices. Of
+keeping an eye on the vertices. Of
+keeping an eye on the vertices. Of
+course, I use a lot of merge and knife
+course, I use a lot of merge and knife
+course, I use a lot of merge and knife
+tool for this part or any typology
+tool for this part or any typology
+tool for this part or any typology
+intensive parts.
+Once we uh fight with the chest for some
+Once we uh fight with the chest for some
+Once we uh fight with the chest for some
+time, it's time to move on to the collar
+time, it's time to move on to the collar
+time, it's time to move on to the collar
+bone area, which is also very difficult
+bone area, which is also very difficult
+bone area, which is also very difficult
+since it will have to deform well later
+since it will have to deform well later
+since it will have to deform well later
+on with the shoulder when we're going to
+on with the shoulder when we're going to
+on with the shoulder when we're going to
+rig it. And this area, I like to keep it
+rig it. And this area, I like to keep it
+rig it. And this area, I like to keep it
+very dense for that reason, so that it
+very dense for that reason, so that it
+very dense for that reason, so that it
+can deform well with the shoulder and
+can deform well with the shoulder and
+can deform well with the shoulder and
+not break horribly. And uh I like to
+not break horribly. And uh I like to
+not break horribly. And uh I like to
+start with the base of the neck first,
+start with the base of the neck first,
+start with the base of the neck first,
+which usually means like making the
+which usually means like making the
+which usually means like making the
+color of the t-shirt if the character is
+color of the t-shirt if the character is
+color of the t-shirt if the character is
+wearing baggy clothing or something like
+wearing baggy clothing or something like
+wearing baggy clothing or something like
+that or uh the neck of the character if
+that or uh the neck of the character if
+that or uh the neck of the character if
+it's wearing a skin tight clothing.
+it's wearing a skin tight clothing.
+it's wearing a skin tight clothing.
+Triangles are very very helpful here
+Triangles are very very helpful here
+Triangles are very very helpful here
+since they can influence how the mesh
+since they can influence how the mesh
+since they can influence how the mesh
+will deform later. So studying the
+will deform later. So studying the
+will deform later. So studying the
+arrangement of your triangles
+arrangement of your triangles
+arrangement of your triangles
+and even creating small rigs to uh try
+and even creating small rigs to uh try
+and even creating small rigs to uh try
+out quickly how the shoulder deforms is
+out quickly how the shoulder deforms is
+out quickly how the shoulder deforms is
+very very helpful and very important.
+very very helpful and very important.
+very very helpful and very important.
+They're also u very helpful since they
+They're also u very helpful since they
+They're also u very helpful since they
+can help you connect fewer faces to more
+can help you connect fewer faces to more
+can help you connect fewer faces to more
+faces. So you can scale up and scale
+faces. So you can scale up and scale
+faces. So you can scale up and scale
+down the density of the faces around the
+down the density of the faces around the
+down the density of the faces around the
+collarbone area as you wish.
+At this point, I also started modeling
+At this point, I also started modeling
+At this point, I also started modeling
+the first details of the torso and the
+the first details of the torso and the
+the first details of the torso and the
+skirt And I won't go into the details
+skirt And I won't go into the details
+skirt And I won't go into the details
+here since these are very specific parts
+here since these are very specific parts
+here since these are very specific parts
+of this model and not that generic at
+of this model and not that generic at
+of this model and not that generic at
+all, but you can always check out the
+all, but you can always check out the
+all, but you can always check out the
+speed modeling video if you wish. I
+speed modeling video if you wish. I
+speed modeling video if you wish. I
+tried to stay as truthful as possible to
+tried to stay as truthful as possible to
+tried to stay as truthful as possible to
+the original concept and try to
+the original concept and try to
+the original concept and try to
+replicate the shapes with as few polies
+replicate the shapes with as few polies
+replicate the shapes with as few polies
+as I could. For this reason, I plan to
+as I could. For this reason, I plan to
+as I could. For this reason, I plan to
+paint the patterns of the shirt into the
+paint the patterns of the shirt into the
+paint the patterns of the shirt into the
+texture and not actually model them. And
+texture and not actually model them. And
+texture and not actually model them. And
+I subdivided the skirt into three
+I subdivided the skirt into three
+I subdivided the skirt into three
+layers. And the top layer was actually
+layers. And the top layer was actually
+layers. And the top layer was actually
+the hardest one to model. And getting
+the hardest one to model. And getting
+the hardest one to model. And getting
+this shape to work with so few polies
+this shape to work with so few polies
+this shape to work with so few polies
+was actually kind of hard, but I think I
+was actually kind of hard, but I think I
+was actually kind of hard, but I think I
+got it.
+Get here. Come on.
+I modeled the legs and arms with a
+I modeled the legs and arms with a
+I modeled the legs and arms with a
+simple rotated cube that I extruded
+simple rotated cube that I extruded
+simple rotated cube that I extruded
+along the reference image. And this
+along the reference image. And this
+along the reference image. And this
+simple shape lets us save a few
+simple shape lets us save a few
+simple shape lets us save a few
+triangles instead of going with the
+triangles instead of going with the
+triangles instead of going with the
+classic cylinder. And I could get away
+classic cylinder. And I could get away
+classic cylinder. And I could get away
+with it since Miku's legs and arms are
+with it since Miku's legs and arms are
+with it since Miku's legs and arms are
+pretty slim, so it doesn't really matter
+pretty slim, so it doesn't really matter
+pretty slim, so it doesn't really matter
+with the pure poly count. If you do need
+with the pure poly count. If you do need
+with the pure poly count. If you do need
+bulkier legs or arms, uh cylinders do
+bulkier legs or arms, uh cylinders do
+bulkier legs or arms, uh cylinders do
+preserve volume better when you orbit
+preserve volume better when you orbit
+preserve volume better when you orbit
+around them. So they are the better
+around them. So they are the better
+around them. So they are the better
+choice here. Uh you may also have
+choice here. Uh you may also have
+choice here. Uh you may also have
+noticed the joints typology that I've
+noticed the joints typology that I've
+noticed the joints typology that I've
+used. And this is basically um special
+used. And this is basically um special
+used. And this is basically um special
+vertices arrangement that makes the
+vertices arrangement that makes the
+vertices arrangement that makes the
+joint bend better when rigged. And I
+joint bend better when rigged. And I
+joint bend better when rigged. And I
+experiment a lot with a quick armature
+experiment a lot with a quick armature
+experiment a lot with a quick armature
+to test out how the joint bends and if I
+to test out how the joint bends and if I
+to test out how the joint bends and if I
+like it or not.
+Moving on to the face. Uh, the face is
+Moving on to the face. Uh, the face is
+Moving on to the face. Uh, the face is
+actually a pretty hard part of the model
+actually a pretty hard part of the model
+actually a pretty hard part of the model
+since there's a lot of room for error.
+since there's a lot of room for error.
+since there's a lot of room for error.
+And a lot of parts were to mess up and
+And a lot of parts were to mess up and
+And a lot of parts were to mess up and
+make the face look like a bulldog.
+make the face look like a bulldog.
+make the face look like a bulldog.
+Anyway, um, the reason I brought back
+Anyway, um, the reason I brought back
+Anyway, um, the reason I brought back
+the camera is to, uh, show you an
+the camera is to, uh, show you an
+the camera is to, uh, show you an
+exercise that I actually do while
+exercise that I actually do while
+exercise that I actually do while
+modeling the face. So, I tend to
+modeling the face. So, I tend to
+modeling the face. So, I tend to
+actually get the silhouette and the
+actually get the silhouette and the
+actually get the silhouette and the
+contour of the face wrong most of the
+contour of the face wrong most of the
+contour of the face wrong most of the
+time. And what helps me get back on
+time. And what helps me get back on
+time. And what helps me get back on
+track is actually tracing with my own
+track is actually tracing with my own
+track is actually tracing with my own
+fingers my own face. So I would start
+fingers my own face. So I would start
+fingers my own face. So I would start
+from the nose and trace around my eyes
+from the nose and trace around my eyes
+from the nose and trace around my eyes
+and the cheeks. This helps my brain uh
+and the cheeks. This helps my brain uh
+and the cheeks. This helps my brain uh
+sort of connect how my own face is
+sort of connect how my own face is
+sort of connect how my own face is
+modeled and I can recreate that with my
+modeled and I can recreate that with my
+modeled and I can recreate that with my
+own model. So uh basically trace around
+own model. So uh basically trace around
+own model. So uh basically trace around
+your nose, your cheeks and how your jaw
+your nose, your cheeks and how your jaw
+your nose, your cheeks and how your jaw
+connects to your ears and everything
+connects to your ears and everything
+connects to your ears and everything
+else. This can help you a lot in
+else. This can help you a lot in
+else. This can help you a lot in
+understanding how a face is structured
+understanding how a face is structured
+understanding how a face is structured
+and how you can make your model look
+and how you can make your model look
+and how you can make your model look
+better. So like how the forehead drops
+better. So like how the forehead drops
+better. So like how the forehead drops
+onto the jaw and everything else. And
+onto the jaw and everything else. And
+onto the jaw and everything else. And
+you can position your vertices along
+you can position your vertices along
+you can position your vertices along
+these line guides and everything else.
+these line guides and everything else.
+these line guides and everything else.
+And it will make the model look a whole
+And it will make the model look a whole
+And it will make the model look a whole
+lot better.
+Modeling the hair is also [&nbsp;__&nbsp;]
+Modeling the hair is also [&nbsp;__&nbsp;]
+Modeling the hair is also [&nbsp;__&nbsp;]
+annoying since it's mostly a tangled
+annoying since it's mostly a tangled
+annoying since it's mostly a tangled
+mess of quads that I have to shape in
+mess of quads that I have to shape in
+mess of quads that I have to shape in
+one way or another. I subdivide the hair
+one way or another. I subdivide the hair
+one way or another. I subdivide the hair
+in a front section, side section, and a
+in a front section, side section, and a
+in a front section, side section, and a
+back section. And basically, the front
+back section. And basically, the front
+back section. And basically, the front
+section is the hair that falls directly
+section is the hair that falls directly
+section is the hair that falls directly
+upon the eyes. The side section uh
+upon the eyes. The side section uh
+upon the eyes. The side section uh
+basically create creates the curtains
+basically create creates the curtains
+basically create creates the curtains
+around the face and on top of the ears.
+around the face and on top of the ears.
+around the face and on top of the ears.
+And the back section connects into the
+And the back section connects into the
+And the back section connects into the
+uh
+uh
+uh
+how do you call them? The back strands
+how do you call them? The back strands
+how do you call them? The back strands
+the the the hairs that that's long that
+the the the hairs that that's long that
+the the the hairs that that's long that
+falls down onto the the back. I don't
+falls down onto the the back. I don't
+falls down onto the the back. I don't
+know how it's called in English. A lot
+know how it's called in English. A lot
+know how it's called in English. A lot
+of the hair is made up of quads. And I
+of the hair is made up of quads. And I
+of the hair is made up of quads. And I
+use the merge tool to create the
+use the merge tool to create the
+use the merge tool to create the
+triangles at the tips.
+triangles at the tips.
+triangles at the tips.
+Uh modeling the hair usually revolves
+Uh modeling the hair usually revolves
+Uh modeling the hair usually revolves
+around following the reference. Uh but
+around following the reference. Uh but
+around following the reference. Uh but
+about the back hair, I tend to create
+about the back hair, I tend to create
+about the back hair, I tend to create
+these singular strands that I rotate and
+these singular strands that I rotate and
+these singular strands that I rotate and
+duplicate to create this sort of volume
+duplicate to create this sort of volume
+duplicate to create this sort of volume
+around the hair.
+And when modeling them at first, I
+And when modeling them at first, I
+And when modeling them at first, I
+realized way too late that they looked
+realized way too late that they looked
+realized way too late that they looked
+like someone hair dried them at max
+like someone hair dried them at max
+like someone hair dried them at max
+velocity from below. But fortunately,
+velocity from below. But fortunately,
+velocity from below. But fortunately,
+nothing a little sculpt mode couldn't
+nothing a little sculpt mode couldn't
+nothing a little sculpt mode couldn't
+fix.
+You might find my texturing process a
+You might find my texturing process a
+You might find my texturing process a
+bit esoteric. Let's put it that way. The
+bit esoteric. Let's put it that way. The
+bit esoteric. Let's put it that way. The
+process is very simple and almost always
+process is very simple and almost always
+process is very simple and almost always
+the same. I decide on a portion of space
+the same. I decide on a portion of space
+the same. I decide on a portion of space
+to dedicate to one or several parts of
+to dedicate to one or several parts of
+to dedicate to one or several parts of
+the model and I fill it with a solid
+the model and I fill it with a solid
+the model and I fill it with a solid
+color in Blender. Then I export the
+color in Blender. Then I export the
+color in Blender. Then I export the
+texture to Creda and I do my texturing
+texture to Creda and I do my texturing
+texture to Creda and I do my texturing
+work into Creda. Hopping back into
+work into Creda. Hopping back into
+work into Creda. Hopping back into
+Blender, I make any necessary
+Blender, I make any necessary
+Blender, I make any necessary
+adjustments to the UVs and reexport the
+adjustments to the UVs and reexport the
+adjustments to the UVs and reexport the
+texture and rinse and repeat until
+texture and rinse and repeat until
+texture and rinse and repeat until
+texturing is done. I settled on a 256
+texturing is done. I settled on a 256
+texturing is done. I settled on a 256
+square texture for the whole model and
+square texture for the whole model and
+square texture for the whole model and
+two small 64 uh squares textures for the
+two small 64 uh squares textures for the
+two small 64 uh squares textures for the
+mouth and the eyes. I'd say the hardest
+mouth and the eyes. I'd say the hardest
+mouth and the eyes. I'd say the hardest
+part about texturing is settling on
+part about texturing is settling on
+part about texturing is settling on
+where to position the seams of the
+where to position the seams of the
+where to position the seams of the
+model, which is something I also planned
+model, which is something I also planned
+model, which is something I also planned
+unconsciously while modeling. Like I
+unconsciously while modeling. Like I
+unconsciously while modeling. Like I
+knew already I wanted to place a seam
+knew already I wanted to place a seam
+knew already I wanted to place a seam
+right here, while other seams may come
+right here, while other seams may come
+right here, while other seams may come
+up spontaneously, like the seams in the
+up spontaneously, like the seams in the
+up spontaneously, like the seams in the
+air once you get to texturing. But at
+air once you get to texturing. But at
+air once you get to texturing. But at
+the end of the day, the ideal is having
+the end of the day, the ideal is having
+the end of the day, the ideal is having
+your UVs follow the pixel grid of your
+your UVs follow the pixel grid of your
+your UVs follow the pixel grid of your
+texture. And when it comes to actually
+texture. And when it comes to actually
+texture. And when it comes to actually
+painting your textures and so the
+painting your textures and so the
+painting your textures and so the
+process of texturing itself, I follow as
+process of texturing itself, I follow as
+process of texturing itself, I follow as
+my Bible that very same lead opposite.
+my Bible that very same lead opposite.
+my Bible that very same lead opposite.
+I start with a solid color. Then I add
+I start with a solid color. Then I add
+I start with a solid color. Then I add
+details. Then I add shadowing and
+details. Then I add shadowing and
+details. Then I add shadowing and
+highlights and ambient occlusion. Maybe
+highlights and ambient occlusion. Maybe
+highlights and ambient occlusion. Maybe
+not in that order, but those are
+not in that order, but those are
+not in that order, but those are
+basically the steps. And I tend to stick
+basically the steps. And I tend to stick
+basically the steps. And I tend to stick
+to very basic brushes since I am not a
+to very basic brushes since I am not a
+to very basic brushes since I am not a
+digital artist. So I don't know what
+digital artist. So I don't know what
+digital artist. So I don't know what
+what I'm doing actually. I also play a
+what I'm doing actually. I also play a
+what I'm doing actually. I also play a
+lot with the blending modes since I
+lot with the blending modes since I
+lot with the blending modes since I
+really don't know what they're doing. So
+really don't know what they're doing. So
+really don't know what they're doing. So
+I experiment a lot. But uh some general
+I experiment a lot. But uh some general
+I experiment a lot. But uh some general
+guidelines are using multiply for
+guidelines are using multiply for
+guidelines are using multiply for
+shadowing and screen for highlights.
+shadowing and screen for highlights.
+shadowing and screen for highlights.
+Though that that I can certainly say.
+Though that that I can certainly say.
+Though that that I can certainly say.
+Okay.
+Cool.
+Cool.
+Cool.
+Our
+journey finally ends with rigging. And
+journey finally ends with rigging. And
+journey finally ends with rigging. And
+if you've done everything correctly at
+if you've done everything correctly at
+if you've done everything correctly at
+this point, rigging should be like
+this point, rigging should be like
+this point, rigging should be like
+the piece at the end of the storm. This
+the piece at the end of the storm. This
+the piece at the end of the storm. This
+is because I don't actually trade my
+is because I don't actually trade my
+is because I don't actually trade my
+rigs because I'm not insane and I
+rigs because I'm not insane and I
+rigs because I'm not insane and I
+actually use rigify. After modifying the
+actually use rigify. After modifying the
+actually use rigify. After modifying the
+meta rig for a while and I would love to
+meta rig for a while and I would love to
+meta rig for a while and I would love to
+show you how I made the meta rig, but
+show you how I made the meta rig, but
+show you how I made the meta rig, but
+turns out I don't actually know myself
+turns out I don't actually know myself
+turns out I don't actually know myself
+because I had to read through tons and
+because I had to read through tons and
+because I had to read through tons and
+tons of documentation just to get it
+tons of documentation just to get it
+tons of documentation just to get it
+right and working.
+right and working.
+right and working.
+I generate the rigify rig and use
+I generate the rigify rig and use
+I generate the rigify rig and use
+automatic weights to rig the model.
+automatic weights to rig the model.
+automatic weights to rig the model.
+Obviously, uh there's going to be some
+Obviously, uh there's going to be some
+Obviously, uh there's going to be some
+weight painting to do since automatic
+weight painting to do since automatic
+weight painting to do since automatic
+weights only get so far.
+Okay, so I actually didn't have time to
+Okay, so I actually didn't have time to
+Okay, so I actually didn't have time to
+record an outro for this video while at
+record an outro for this video while at
+record an outro for this video while at
+home. So, here we are at my grandma's
+home. So, here we are at my grandma's
+home. So, here we are at my grandma's
+house. I really wanted to push this
+house. I really wanted to push this
+house. I really wanted to push this
+video out as soon as possible because
+video out as soon as possible because
+video out as soon as possible because
+school has been getting in the way like
+school has been getting in the way like
+school has been getting in the way like
+a lot. I didn't want to delay it any
+a lot. I didn't want to delay it any
+a lot. I didn't want to delay it any
+further. So, I wanted to get it done
+further. So, I wanted to get it done
+further. So, I wanted to get it done
+ASAP. Um, either way, I actually loved
+ASAP. Um, either way, I actually loved
+ASAP. Um, either way, I actually loved
+modeling this model, even if it was
+modeling this model, even if it was
+modeling this model, even if it was
+almost a month ago. I learned a lot of
+almost a month ago. I learned a lot of
+almost a month ago. I learned a lot of
+things and I knew it was going to be
+things and I knew it was going to be
+things and I knew it was going to be
+quite a challenge due to the skirt and a
+quite a challenge due to the skirt and a
+quite a challenge due to the skirt and a
+lot of other details that may go
+lot of other details that may go
+lot of other details that may go
+unnoticed, but that are actually kind of
+unnoticed, but that are actually kind of
+unnoticed, but that are actually kind of
+hard to figure out. So, this has been it
+hard to figure out. So, this has been it
+hard to figure out. So, this has been it
+for this video. I hope to be able to
+for this video. I hope to be able to
+for this video. I hope to be able to
+publish again soon if I can figure out
+publish again soon if I can figure out
+publish again soon if I can figure out
+how to combine all of my schedule and
+how to combine all of my schedule and
+how to combine all of my schedule and
+[&nbsp;__&nbsp;] Also, this is an Nokia, which is
+[&nbsp;__&nbsp;] Also, this is an Nokia, which is
+[&nbsp;__&nbsp;] Also, this is an Nokia, which is
+my microphone of choice.

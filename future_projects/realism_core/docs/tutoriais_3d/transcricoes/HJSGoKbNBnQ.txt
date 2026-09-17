@@ -1,0 +1,2052 @@
+Kind: captions
+Language: en
+so 3D avatars are incredibly trendy and
+so 3D avatars are incredibly trendy and
+so 3D avatars are incredibly trendy and
+if you know me I'm all about creating
+if you know me I'm all about creating
+if you know me I'm all about creating
+sty character illustrations but I've
+sty character illustrations but I've
+sty character illustrations but I've
+never really brought too much sculpting
+never really brought too much sculpting
+never really brought too much sculpting
+to the channel but today is going to be
+to the channel but today is going to be
+to the channel but today is going to be
+my first episode in a series of videos
+my first episode in a series of videos
+my first episode in a series of videos
+where together we're going to transform
+where together we're going to transform
+where together we're going to transform
+the starting Cube into a cute sculpted
+the starting Cube into a cute sculpted
+the starting Cube into a cute sculpted
+character illustration but as always my
+character illustration but as always my
+character illustration but as always my
+name is Ken and if you're ready to jump
+name is Ken and if you're ready to jump
+name is Ken and if you're ready to jump
+in with me today grab yourself a nice
+in with me today grab yourself a nice
+in with me today grab yourself a nice
+cup of tea coffee hot chocolate whatever
+cup of tea coffee hot chocolate whatever
+cup of tea coffee hot chocolate whatever
+you're into and let's get into it
+all right welcome back everybody hope
+all right welcome back everybody hope
+all right welcome back everybody hope
+everybody's keeping well and hope you're
+everybody's keeping well and hope you're
+everybody's keeping well and hope you're
+feeling good nice and hyped and ready to
+feeling good nice and hyped and ready to
+feeling good nice and hyped and ready to
+jump in with me today the focus of this
+jump in with me today the focus of this
+jump in with me today the focus of this
+tutorial is going to be turning our
+tutorial is going to be turning our
+tutorial is going to be turning our
+default Cube into a nice sculpted
+default Cube into a nice sculpted
+default Cube into a nice sculpted
+character stylized head and then some
+character stylized head and then some
+character stylized head and then some
+other videos down the line we're going
+other videos down the line we're going
+other videos down the line we're going
+to be taking a look at how to perhaps
+to be taking a look at how to perhaps
+to be taking a look at how to perhaps
+create some nice stylized character hair
+create some nice stylized character hair
+create some nice stylized character hair
+bit of texture painting and also we'll
+bit of texture painting and also we'll
+bit of texture painting and also we'll
+finish up with some compositing and
+finish up with some compositing and
+finish up with some compositing and
+lighting and rendering but as's a couple
+lighting and rendering but as's a couple
+lighting and rendering but as's a couple
+of notes before we jump in make sure you
+of notes before we jump in make sure you
+of notes before we jump in make sure you
+keep an eye down here that's going to
+keep an eye down here that's going to
+keep an eye down here that's going to
+show you my mouse clicks and my keyboard
+show you my mouse clicks and my keyboard
+show you my mouse clicks and my keyboard
+inputs and it's probably worth having at
+inputs and it's probably worth having at
+inputs and it's probably worth having at
+least blender 3.3 installed just to be
+least blender 3.3 installed just to be
+least blender 3.3 installed just to be
+nice and up to date to make sure you
+nice and up to date to make sure you
+nice and up to date to make sure you
+have all the tools and even though this
+have all the tools and even though this
+have all the tools and even though this
+is cated to beginners it's probably
+is cated to beginners it's probably
+is cated to beginners it's probably
+worth just having a general basic
+worth just having a general basic
+worth just having a general basic
+understanding of blenders blender
+understanding of blenders blender
+understanding of blenders blender
+interface in addition to just knowing
+interface in addition to just knowing
+interface in addition to just knowing
+how to orbit in the viewport just so you
+how to orbit in the viewport just so you
+how to orbit in the viewport just so you
+don't get lost along the way but
+don't get lost along the way but
+don't get lost along the way but
+nonetheless I will try my best to keep
+nonetheless I will try my best to keep
+nonetheless I will try my best to keep
+you in the loop so do not worry I'm sure
+you in the loop so do not worry I'm sure
+you in the loop so do not worry I'm sure
+you will have a good time all the same
+you will have a good time all the same
+you will have a good time all the same
+so let's start by getting rid of some of
+so let's start by getting rid of some of
+so let's start by getting rid of some of
+these things we're not going to use the
+these things we're not going to use the
+these things we're not going to use the
+light not going to use the camera we're
+light not going to use the camera we're
+light not going to use the camera we're
+going to get rid of the default timeline
+going to get rid of the default timeline
+going to get rid of the default timeline
+and we're going to hide the gizmos so
+and we're going to hide the gizmos so
+and we're going to hide the gizmos so
+now we've got this nice big and
+now we've got this nice big and
+now we've got this nice big and
+beautiful minimal viewport to work
+with so in order to start sculpting with
+with so in order to start sculpting with
+with so in order to start sculpting with
+our default Cube here then we are going
+our default Cube here then we are going
+our default Cube here then we are going
+to need more geometry and we can create
+to need more geometry and we can create
+to need more geometry and we can create
+that nice and simply by going into our
+that nice and simply by going into our
+that nice and simply by going into our
+modifiers and added in a subdivision
+modifiers and added in a subdivision
+modifiers and added in a subdivision
+surface modifier to start this off I am
+surface modifier to start this off I am
+surface modifier to start this off I am
+just going to use a subdivision level of
+just going to use a subdivision level of
+just going to use a subdivision level of
+two so that we can go ahead and apply
+two so that we can go ahead and apply
+two so that we can go ahead and apply
+that and as we go along we will
+that and as we go along we will
+that and as we go along we will
+increment this and add more subdivisions
+increment this and add more subdivisions
+increment this and add more subdivisions
+to have a nice smooth finish as we go
+to have a nice smooth finish as we go
+to have a nice smooth finish as we go
+along but I think this will do just to
+along but I think this will do just to
+along but I think this will do just to
+block out the general shape of the head
+block out the general shape of the head
+block out the general shape of the head
+so with that done let's go ahead and
+so with that done let's go ahead and
+so with that done let's go ahead and
+jump now into our sculpt mode now you
+jump now into our sculpt mode now you
+jump now into our sculpt mode now you
+may or may not be familiar with the
+may or may not be familiar with the
+may or may not be familiar with the
+sculpt tools already but what I gen to
+sculpt tools already but what I gen to
+sculpt tools already but what I gen to
+what I generally recommend just in case
+what I generally recommend just in case
+what I generally recommend just in case
+is by dragging out this section once and
+is by dragging out this section once and
+is by dragging out this section once and
+twice you're going to have a nice little
+twice you're going to have a nice little
+twice you're going to have a nice little
+layout here with all the labels next to
+layout here with all the labels next to
+layout here with all the labels next to
+the individual tools so that way you can
+the individual tools so that way you can
+the individual tools so that way you can
+learn the general names and their
+learn the general names and their
+learn the general names and their
+function and to start this off we are
+function and to start this off we are
+function and to start this off we are
+just going to begin by stretching out
+just going to begin by stretching out
+just going to begin by stretching out
+the general shape bar head here to begin
+the general shape bar head here to begin
+the general shape bar head here to begin
+the general Shape Up and for that I'm
+the general Shape Up and for that I'm
+the general Shape Up and for that I'm
+going to be using the grab tool here and
+going to be using the grab tool here and
+going to be using the grab tool here and
+as we go along you want to make sure
+as we go along you want to make sure
+as we go along you want to make sure
+that you come to here to enable xais
+that you come to here to enable xais
+that you come to here to enable xais
+mirroring that's just going to make sure
+mirroring that's just going to make sure
+mirroring that's just going to make sure
+that anything we do on one side it's
+that anything we do on one side it's
+that anything we do on one side it's
+automatically going to occur in the
+automatically going to occur in the
+automatically going to occur in the
+other and you can see right now we've
+other and you can see right now we've
+other and you can see right now we've
+got a 3D cursor here and when we click
+got a 3D cursor here and when we click
+got a 3D cursor here and when we click
+and drag we are making changes to our
+and drag we are making changes to our
+and drag we are making changes to our
+mesh here right now the 3D cursor is far
+mesh here right now the 3D cursor is far
+mesh here right now the 3D cursor is far
+too small and we're making these little
+too small and we're making these little
+too small and we're making these little
+spikes on our mesh so if you're trying
+spikes on our mesh so if you're trying
+spikes on our mesh so if you're trying
+to create something like Darth Maul
+to create something like Darth Maul
+to create something like Darth Maul
+probably pretty good but in our case not
+probably pretty good but in our case not
+probably pretty good but in our case not
+so good so I'm going to undo that and
+so good so I'm going to undo that and
+so good so I'm going to undo that and
+what we're going to do we can either
+what we're going to do we can either
+what we're going to do we can either
+come into our radius here and increase
+come into our radius here and increase
+come into our radius here and increase
+the size of our cursor or what you're
+the size of our cursor or what you're
+the size of our cursor or what you're
+probably going to want to get used to
+probably going to want to get used to
+probably going to want to get used to
+doing is pressing f as you go along and
+doing is pressing f as you go along and
+doing is pressing f as you go along and
+if we move our cursor left and right
+if we move our cursor left and right
+if we move our cursor left and right
+like this we can change the general
+like this we can change the general
+like this we can change the general
+radius and right now I want it to be
+radius and right now I want it to be
+radius and right now I want it to be
+quite large to start blocking this out
+quite large to start blocking this out
+quite large to start blocking this out
+so something like that maybe and from
+so something like that maybe and from
+so something like that maybe and from
+there let's go ahead and in front view
+there let's go ahead and in front view
+there let's go ahead and in front view
+I'm going to start dragging down the
+I'm going to start dragging down the
+I'm going to start dragging down the
+front of the head and this is just going
+front of the head and this is just going
+front of the head and this is just going
+to be where the chin will be and I want
+to be where the chin will be and I want
+to be where the chin will be and I want
+the head top of the head to come up a
+the head top of the head to come up a
+the head top of the head to come up a
+little larger because I am going for a
+little larger because I am going for a
+little larger because I am going for a
+stylized character approach which is
+stylized character approach which is
+stylized character approach which is
+always nice because you're not really
+always nice because you're not really
+always nice because you're not really
+working with realistic proportions so
+working with realistic proportions so
+working with realistic proportions so
+nothing needs to be too exact with this
+nothing needs to be too exact with this
+nothing needs to be too exact with this
+and just remember we are working in 3D
+and just remember we are working in 3D
+and just remember we are working in 3D
+so you are going to need to jump into
+so you are going to need to jump into
+so you are going to need to jump into
+different
+different
+different
+views to start stretching out your
+views to start stretching out your
+views to start stretching out your
+character and making sure he looks good
+character and making sure he looks good
+character and making sure he looks good
+from all angles and what I'm generally
+from all angles and what I'm generally
+from all angles and what I'm generally
+looking for here is a nice jawline that
+looking for here is a nice jawline that
+looking for here is a nice jawline that
+comes down and then it's going to come
+comes down and then it's going to come
+comes down and then it's going to come
+up to meet the back of the
+up to meet the back of the
+up to meet the back of the
+skull so I want to bring up the back of
+skull so I want to bring up the back of
+skull so I want to bring up the back of
+the head here to get this sort of shape
+the head here to get this sort of shape
+the head here to get this sort of shape
+going on just adjusting my cursor with f
+going on just adjusting my cursor with f
+going on just adjusting my cursor with f
+as I go
+as I go
+as I go
+along until I get this sort of shape I
+along until I get this sort of shape I
+along until I get this sort of shape I
+like and just like I said earlier make
+like and just like I said earlier make
+like and just like I said earlier make
+sure you are rotating and checking this
+sure you are rotating and checking this
+sure you are rotating and checking this
+from all different angles now in top
+from all different angles now in top
+from all different angles now in top
+view maybe something like that I do want
+view maybe something like that I do want
+view maybe something like that I do want
+to bring the jaw out and make it a
+to bring the jaw out and make it a
+to bring the jaw out and make it a
+little bit more defined but before we do
+little bit more defined but before we do
+little bit more defined but before we do
+that it's probably worth now adding in
+that it's probably worth now adding in
+that it's probably worth now adding in
+some extra geometry and like I said
+some extra geometry and like I said
+some extra geometry and like I said
+earlier we can go ahead and do that with
+earlier we can go ahead and do that with
+earlier we can go ahead and do that with
+another subdivision modifier in this
+another subdivision modifier in this
+another subdivision modifier in this
+case I think I'm going to go for three
+case I think I'm going to go for three
+case I think I'm going to go for three
+this part is generally just preference
+this part is generally just preference
+this part is generally just preference
+dep depending on how much geometry you
+dep depending on how much geometry you
+dep depending on how much geometry you
+want but another three should be fine so
+want but another three should be fine so
+want but another three should be fine so
+we now have five in total and we're
+we now have five in total and we're
+we now have five in total and we're
+going to continue sculpting until we get
+going to continue sculpting until we get
+going to continue sculpting until we get
+a general shape that we like perhaps
+a general shape that we like perhaps
+a general shape that we like perhaps
+I'll bring the jaw out a bit more here
+I'll bring the jaw out a bit more here
+I'll bring the jaw out a bit more here
+make it a little bit more
+defined but I may or may not speed
+defined but I may or may not speed
+defined but I may or may not speed
+through this section A little bit but
+through this section A little bit but
+through this section A little bit but
+feel free to take your time with
+feel free to take your time with
+feel free to take your time with
+this till you achieve a general look
+this till you achieve a general look
+this till you achieve a general look
+that you like and don't be too fusty
+that you like and don't be too fusty
+that you like and don't be too fusty
+with this end of the day we're still
+with this end of the day we're still
+with this end of the day we're still
+learning and nothing is going to be
+learning and nothing is going to be
+learning and nothing is going to be
+perfect maybe something like that is
+perfect maybe something like that is
+perfect maybe something like that is
+looking pretty cute me make the chin a
+looking pretty cute me make the chin a
+looking pretty cute me make the chin a
+little bit
+little bit
+little bit
+pointier and maybe I'll smooth this out
+pointier and maybe I'll smooth this out
+pointier and maybe I'll smooth this out
+slightly oh and that's probably
+slightly oh and that's probably
+slightly oh and that's probably
+something I should explain so during
+something I should explain so during
+something I should explain so during
+your time sculpting in Blender at any
+your time sculpting in Blender at any
+your time sculpting in Blender at any
+point in time you can hold shift and
+point in time you can hold shift and
+point in time you can hold shift and
+click
+click
+click
+to begin smoothing over different
+to begin smoothing over different
+to begin smoothing over different
+sections using the smooth tool and
+sections using the smooth tool and
+sections using the smooth tool and
+that's just going to nicely smooth over
+that's just going to nicely smooth over
+that's just going to nicely smooth over
+different
+different
+different
+sections I'm just clicking around a
+sections I'm just clicking around a
+sections I'm just clicking around a
+little bit here just to smooth the chin
+little bit here just to smooth the chin
+little bit here just to smooth the chin
+line out a bit more or the jawline
+line out a bit more or the jawline
+line out a bit more or the jawline
+rather but I think for the purposes of
+rather but I think for the purposes of
+rather but I think for the purposes of
+this tutorial something like that should
+this tutorial something like that should
+this tutorial something like that should
+look pretty
+look pretty
+look pretty
+good and I'm also while I'm here
+good and I'm also while I'm here
+good and I'm also while I'm here
+actually I'm going to come into my drop
+actually I'm going to come into my drop
+actually I'm going to come into my drop
+down up here and I'm going to switch to
+down up here and I'm going to switch to
+down up here and I'm going to switch to
+a matte cap this is just preference once
+a matte cap this is just preference once
+a matte cap this is just preference once
+again but in here I like to use this red
+again but in here I like to use this red
+again but in here I like to use this red
+one cuz I think it looks pretty nice
+one cuz I think it looks pretty nice
+one cuz I think it looks pretty nice
+when you sculp
+when you sculp
+when you sculp
+in now let's look at blocking up some of
+in now let's look at blocking up some of
+in now let's look at blocking up some of
+the other features such as the neck and
+the other features such as the neck and
+the other features such as the neck and
+the ears and to do that let's firstly go
+the ears and to do that let's firstly go
+the ears and to do that let's firstly go
+ahead and jump back into object mode
+ahead and jump back into object mode
+ahead and jump back into object mode
+here and I'm just going to go ahead and
+here and I'm just going to go ahead and
+here and I'm just going to go ahead and
+I want to bring my head
+I want to bring my head
+I want to bring my head
+up maybe to around there and we're just
+up maybe to around there and we're just
+up maybe to around there and we're just
+going to go ahead and do a little bit of
+going to go ahead and do a little bit of
+going to go ahead and do a little bit of
+box modeling to get the basic shapes
+box modeling to get the basic shapes
+box modeling to get the basic shapes
+that we're looking for here and I'm
+that we're looking for here and I'm
+that we're looking for here and I'm
+going to start with the neck so let's go
+going to start with the neck so let's go
+going to start with the neck so let's go
+ahead do shift a and we can add in a
+ahead do shift a and we can add in a
+ahead do shift a and we can add in a
+nice New Cube and I'm going to use a
+nice New Cube and I'm going to use a
+nice New Cube and I'm going to use a
+subdivision surface modifier to start
+subdivision surface modifier to start
+subdivision surface modifier to start
+smoothing this over perhaps give it
+smoothing this over perhaps give it
+smoothing this over perhaps give it
+three subdivisions and I'm going to
+three subdivisions and I'm going to
+three subdivisions and I'm going to
+leave the subdivision modifier active at
+leave the subdivision modifier active at
+leave the subdivision modifier active at
+the moment then we can shrink this down
+the moment then we can shrink this down
+the moment then we can shrink this down
+with
+with
+with
+s and then I'm going to jump in side
+s and then I'm going to jump in side
+s and then I'm going to jump in side
+view and let's bring our head forward a
+view and let's bring our head forward a
+view and let's bring our head forward a
+little bit with g y to lock that to the
+little bit with g y to lock that to the
+little bit with g y to lock that to the
+y- AIS and all I'm looking to do is to
+y- AIS and all I'm looking to do is to
+y- AIS and all I'm looking to do is to
+have a nice neck that comes up like this
+have a nice neck that comes up like this
+have a nice neck that comes up like this
+so so tab into edit mode on our Cube
+so so tab into edit mode on our Cube
+so so tab into edit mode on our Cube
+here three to select faces and then
+here three to select faces and then
+here three to select faces and then
+clicking on this top face inside view
+clicking on this top face inside view
+clicking on this top face inside view
+we're going to exw this up so it's a
+we're going to exw this up so it's a
+we're going to exw this up so it's a
+nicely curved shape and what I like to
+nicely curved shape and what I like to
+nicely curved shape and what I like to
+do in these sort of circumstances is
+do in these sort of circumstances is
+do in these sort of circumstances is
+rather than just extruding with E and
+rather than just extruding with E and
+rather than just extruding with E and
+moveing and adjus in you can actually
+moveing and adjus in you can actually
+moveing and adjus in you can actually
+hold control and right click to keep
+hold control and right click to keep
+hold control and right click to keep
+extruding in different directions like
+extruding in different directions like
+extruding in different directions like
+this obviously that neck's a bit large
+this obviously that neck's a bit large
+this obviously that neck's a bit large
+and I think I'm going to scale this down
+and I think I'm going to scale this down
+and I think I'm going to scale this down
+slightly too actually and then back in
+slightly too actually and then back in
+slightly too actually and then back in
+edit mode let's hold control right click
+edit mode let's hold control right click
+edit mode let's hold control right click
+right click and then we can just adjust
+right click and then we can just adjust
+right click and then we can just adjust
+as we need something like that I think
+as we need something like that I think
+as we need something like that I think
+we'll do for now and we can make some
+we'll do for now and we can make some
+we'll do for now and we can make some
+fine adjustments and I'm going to toggle
+fine adjustments and I'm going to toggle
+fine adjustments and I'm going to toggle
+x-ray view here make sure I press one to
+x-ray view here make sure I press one to
+x-ray view here make sure I press one to
+select vertices and I'm just going to
+select vertices and I'm just going to
+select vertices and I'm just going to
+highlight these and I'm want to adjust
+highlight these and I'm want to adjust
+highlight these and I'm want to adjust
+this to get a bit more of a curved neck
+this to get a bit more of a curved neck
+this to get a bit more of a curved neck
+shape and we flatten out these sections
+shape and we flatten out these sections
+shape and we flatten out these sections
+with controlr to add in some Loop Cuts
+with controlr to add in some Loop Cuts
+with controlr to add in some Loop Cuts
+drag them down some whoops undo that and
+drag them down some whoops undo that and
+drag them down some whoops undo that and
+bring that here something like that and
+bring that here something like that and
+bring that here something like that and
+I'm just looking for a general curve
+I'm just looking for a general curve
+I'm just looking for a general curve
+shape to block this out back into object
+shape to block this out back into object
+shape to block this out back into object
+mode disable x-ray
+mode disable x-ray
+mode disable x-ray
+view okay that looks pretty good still a
+view okay that looks pretty good still a
+view okay that looks pretty good still a
+little bit too thick so I'm going to go
+little bit too thick so I'm going to go
+little bit too thick so I'm going to go
+into front view T back into the edit
+into front view T back into the edit
+into front view T back into the edit
+mode then select faces we can select
+mode then select faces we can select
+mode then select faces we can select
+this entire Loop here by holding Al and
+this entire Loop here by holding Al and
+this entire Loop here by holding Al and
+selecting an edge and with that I'm just
+selecting an edge and with that I'm just
+selecting an edge and with that I'm just
+going to scale this down a little bit to
+going to scale this down a little bit to
+going to scale this down a little bit to
+give a little bit more of a skinny neck
+give a little bit more of a skinny neck
+give a little bit more of a skinny neck
+look to suit this stylized character
+look to suit this stylized character
+look to suit this stylized character
+maybe something like that and you can
+maybe something like that and you can
+maybe something like that and you can
+keep readjusting this as much as you
+keep readjusting this as much as you
+keep readjusting this as much as you
+like you know I'm like I'm pretty fussy
+like you know I'm like I'm pretty fussy
+like you know I'm like I'm pretty fussy
+with these things so you know I can
+with these things so you know I can
+with these things so you know I can
+spend far too much time here but I think
+spend far too much time here but I think
+spend far too much time here but I think
+something like that should do the job
+something like that should do the job
+something like that should do the job
+perfect okay so now let's block out some
+perfect okay so now let's block out some
+perfect okay so now let's block out some
+ears too and we're going to use pretty
+ears too and we're going to use pretty
+ears too and we're going to use pretty
+much the same method but let's go ahead
+much the same method but let's go ahead
+much the same method but let's go ahead
+and move our 3D curs up to here first
+and move our 3D curs up to here first
+and move our 3D curs up to here first
+with shift s cursor to the selected
+with shift s cursor to the selected
+with shift s cursor to the selected
+object shift a add the cube scale this
+object shift a add the cube scale this
+object shift a add the cube scale this
+down bring this
+down bring this
+down bring this
+out and then s and Y I think to make
+out and then s and Y I think to make
+out and then s and Y I think to make
+this a little thinner and I'm not going
+this a little thinner and I'm not going
+this a little thinner and I'm not going
+for realistic ears here I am keeping
+for realistic ears here I am keeping
+for realistic ears here I am keeping
+this nice and stylized so we're going to
+this nice and stylized so we're going to
+this nice and stylized so we're going to
+subdivide this again three subdivisions
+subdivide this again three subdivisions
+subdivide this again three subdivisions
+and then actually let's shade smooth
+and then actually let's shade smooth
+and then actually let's shade smooth
+everything too so I'm going to highlight
+everything too so I'm going to highlight
+everything too so I'm going to highlight
+everything right click shade smooth and
+everything right click shade smooth and
+everything right click shade smooth and
+then let's go ahead and just scale up
+then let's go ahead and just scale up
+then let's go ahead and just scale up
+our here to start and in my right side
+our here to start and in my right side
+our here to start and in my right side
+view i' like to line mine generally up
+view i' like to line mine generally up
+view i' like to line mine generally up
+with the jaw section here and from above
+with the jaw section here and from above
+with the jaw section here and from above
+I like to tilt them out to have it
+I like to tilt them out to have it
+I like to tilt them out to have it
+something like that for
+something like that for
+something like that for
+now and then let's go ahead and mirror
+now and then let's go ahead and mirror
+now and then let's go ahead and mirror
+this across to the other side by adding
+this across to the other side by adding
+this across to the other side by adding
+another modifier for our mirror and the
+another modifier for our mirror and the
+another modifier for our mirror and the
+object is going to be the head itself
+object is going to be the head itself
+object is going to be the head itself
+and so if I jump to front view to have a
+and so if I jump to front view to have a
+and so if I jump to front view to have a
+little look here perhaps bring these
+little look here perhaps bring these
+little look here perhaps bring these
+down
+down
+down
+slightly okay how is this looking I
+slightly okay how is this looking I
+slightly okay how is this looking I
+think that's looking pretty good as far
+think that's looking pretty good as far
+think that's looking pretty good as far
+as a general blockout goes he is going
+as a general blockout goes he is going
+as a general blockout goes he is going
+to have nice big ears because I like
+to have nice big ears because I like
+to have nice big ears because I like
+that look that's just me but as I said
+that look that's just me but as I said
+that look that's just me but as I said
+feel free to adjust this and make this
+feel free to adjust this and make this
+feel free to adjust this and make this
+your
+own at this point in time we're good now
+own at this point in time we're good now
+own at this point in time we're good now
+to start remeshing these to make them
+to start remeshing these to make them
+to start remeshing these to make them
+one uniform object so we can start doing
+one uniform object so we can start doing
+one uniform object so we can start doing
+some sculpted so in order to do that we
+some sculpted so in order to do that we
+some sculpted so in order to do that we
+need these to be uh me we need this to
+need these to be uh me we need this to
+need these to be uh me we need this to
+be an actual mesh right now it's
+be an actual mesh right now it's
+be an actual mesh right now it's
+technically just a preview because under
+technically just a preview because under
+technically just a preview because under
+the hood you can see that we still got
+the hood you can see that we still got
+the hood you can see that we still got
+the square look and in order to do that
+the square look and in order to do that
+the square look and in order to do that
+all we need to do is to apply this here
+all we need to do is to apply this here
+all we need to do is to apply this here
+and what I normally recommend as well at
+and what I normally recommend as well at
+and what I normally recommend as well at
+this point in time because we are about
+this point in time because we are about
+this point in time because we are about
+to remesh and do some heavier sculpting
+to remesh and do some heavier sculpting
+to remesh and do some heavier sculpting
+it's a good option to save up and I
+it's a good option to save up and I
+it's a good option to save up and I
+generally like to keep backups of my my
+generally like to keep backups of my my
+generally like to keep backups of my my
+different stages too so perhaps we'll
+different stages too so perhaps we'll
+different stages too so perhaps we'll
+make a duplicate with this with shift d
+make a duplicate with this with shift d
+make a duplicate with this with shift d
+and then you can press M make a new
+and then you can press M make a new
+and then you can press M make a new
+collection I'm just going to call this
+collection I'm just going to call this
+collection I'm just going to call this
+back
+back
+back
+up and then you can also disable this in
+up and then you can also disable this in
+up and then you can also disable this in
+here to go ahead and make sure it's
+here to go ahead and make sure it's
+here to go ahead and make sure it's
+disabled to the extent that it's not
+disabled to the extent that it's not
+disabled to the extent that it's not
+affecting your performance in in any way
+affecting your performance in in any way
+affecting your performance in in any way
+and now let's go ahead and join up these
+and now let's go ahead and join up these
+and now let's go ahead and join up these
+objects to do some remeshing so
+objects to do some remeshing so
+objects to do some remeshing so
+initially to do make these one single
+initially to do make these one single
+initially to do make these one single
+object click on the neck then shift
+object click on the neck then shift
+object click on the neck then shift
+click on the head and we can either
+click on the head and we can either
+click on the head and we can either
+press contrl J or right click and just
+press contrl J or right click and just
+press contrl J or right click and just
+click join right here and now they are
+click join right here and now they are
+click join right here and now they are
+one object but technically they are
+one object but technically they are
+one object but technically they are
+still separate because if I use l to
+still separate because if I use l to
+still separate because if I use l to
+select them you can see that they are
+select them you can see that they are
+select them you can see that they are
+still selectable as independent objects
+still selectable as independent objects
+still selectable as independent objects
+so what we need to do at this point is
+so what we need to do at this point is
+so what we need to do at this point is
+to jump back into sculp mode and what
+to jump back into sculp mode and what
+to jump back into sculp mode and what
+we're going to do is utilize this remesh
+we're going to do is utilize this remesh
+we're going to do is utilize this remesh
+option up here now this is something you
+option up here now this is something you
+option up here now this is something you
+do need to be careful with because if
+do need to be careful with because if
+do need to be careful with because if
+you go too low with your number your
+you go too low with your number your
+you go too low with your number your
+you're essentially going to crash your
+you're essentially going to crash your
+you're essentially going to crash your
+computer or crash blender and uh so take
+computer or crash blender and uh so take
+computer or crash blender and uh so take
+your time I tend to start with
+your time I tend to start with
+your time I tend to start with
+0.05 and the smaller this number goes
+0.05 and the smaller this number goes
+0.05 and the smaller this number goes
+the more vertices it's going to add to
+the more vertices it's going to add to
+the more vertices it's going to add to
+your mesh to give you a higher dense
+your mesh to give you a higher dense
+your mesh to give you a higher dense
+mesh is is generally the term and we can
+mesh is is generally the term and we can
+mesh is is generally the term and we can
+Al also disable the face set and that's
+Al also disable the face set and that's
+Al also disable the face set and that's
+going to remove this color here to
+going to remove this color here to
+going to remove this color here to
+signify Which object is which so let's
+signify Which object is which so let's
+signify Which object is which so let's
+go ahead remesh I'm going to start with
+go ahead remesh I'm going to start with
+go ahead remesh I'm going to start with
+0.05 take away my faet and click remesh
+0.05 take away my faet and click remesh
+0.05 take away my faet and click remesh
+so just like that you can now see this
+so just like that you can now see this
+so just like that you can now see this
+is one uniform mesh although generally
+is one uniform mesh although generally
+is one uniform mesh although generally
+for me this isn't enough detail so I'm
+for me this isn't enough detail so I'm
+for me this isn't enough detail so I'm
+going to undo and then just slowly
+going to undo and then just slowly
+going to undo and then just slowly
+increment so perhaps we'll do
+increment so perhaps we'll do
+increment so perhaps we'll do
+0.0 uh 2 now and see what sort of
+0.0 uh 2 now and see what sort of
+0.0 uh 2 now and see what sort of
+density we have there we go that looks
+density we have there we go that looks
+density we have there we go that looks
+pretty good to me I'm pretty happy with
+pretty good to me I'm pretty happy with
+pretty good to me I'm pretty happy with
+that and if you do care about exact
+that and if you do care about exact
+that and if you do care about exact
+numbers you can come into here and turn
+numbers you can come into here and turn
+numbers you can come into here and turn
+on statistics I'm actually going to turn
+on statistics I'm actually going to turn
+on statistics I'm actually going to turn
+off text info and you can see we're now
+off text info and you can see we're now
+off text info and you can see we're now
+working with 50,000 faces on our shape
+working with 50,000 faces on our shape
+working with 50,000 faces on our shape
+here but that's great now that's plenty
+here but that's great now that's plenty
+here but that's great now that's plenty
+to start sculpting with and we can start
+to start sculpting with and we can start
+to start sculpting with and we can start
+smoothing this over to make this look
+smoothing this over to make this look
+smoothing this over to make this look
+nice and connected so let's go ahead and
+nice and connected so let's go ahead and
+nice and connected so let's go ahead and
+do that now I'm going to hold shift and
+do that now I'm going to hold shift and
+do that now I'm going to hold shift and
+just start smoothing this over little by
+just start smoothing this over little by
+just start smoothing this over little by
+little to take your time with this and
+little to take your time with this and
+little to take your time with this and
+adjust your cursor where you need it to
+adjust your cursor where you need it to
+adjust your cursor where you need it to
+and I'm just going to make the
+and I'm just going to make the
+and I'm just going to make the
+transition between the neck and the head
+transition between the neck and the head
+transition between the neck and the head
+a little smoother just so we have this
+a little smoother just so we have this
+a little smoother just so we have this
+nice nice finish to the back of the head
+nice nice finish to the back of the head
+nice nice finish to the back of the head
+something like that and you can see
+something like that and you can see
+something like that and you can see
+you've also got these lines here you can
+you've also got these lines here you can
+you've also got these lines here you can
+also smooth smooth those over something
+also smooth smooth those over something
+also smooth smooth those over something
+like that and I think that's looking
+like that and I think that's looking
+like that and I think that's looking
+pretty good guys this is this is turning
+pretty good guys this is this is turning
+pretty good guys this is this is turning
+out quite well I've recorded this about
+out quite well I've recorded this about
+out quite well I've recorded this about
+three
+three
+three
+times Well I like this one it's looking
+times Well I like this one it's looking
+times Well I like this one it's looking
+good and if you're still with me right
+good and if you're still with me right
+good and if you're still with me right
+now congratulations you doing really
+now congratulations you doing really
+now congratulations you doing really
+well I'm just going to jump the side
+well I'm just going to jump the side
+well I'm just going to jump the side
+view woo so that's looking nice and
+view woo so that's looking nice and
+view woo so that's looking nice and
+smooth look at that head
+smooth look at that head
+smooth look at that head
+beautiful right so now we need to do a
+beautiful right so now we need to do a
+beautiful right so now we need to do a
+bit of sculpting on the ears I think so
+bit of sculpting on the ears I think so
+bit of sculpting on the ears I think so
+let's go ahead and jump back into object
+let's go ahead and jump back into object
+let's go ahead and jump back into object
+mode and of course we do have two ears
+mode and of course we do have two ears
+mode and of course we do have two ears
+right now because of the mirror modifier
+right now because of the mirror modifier
+right now because of the mirror modifier
+but when you sculpt in uh with like
+but when you sculpt in uh with like
+but when you sculpt in uh with like
+modifier is active it can uh affect the
+modifier is active it can uh affect the
+modifier is active it can uh affect the
+performance so generally let's come down
+performance so generally let's come down
+performance so generally let's come down
+to here and disable the mirror modifier
+to here and disable the mirror modifier
+to here and disable the mirror modifier
+just for the time being and I'm going to
+just for the time being and I'm going to
+just for the time being and I'm going to
+apply the subdivision so the miror of
+apply the subdivision so the miror of
+apply the subdivision so the miror of
+modify is still here we've just disabled
+modify is still here we've just disabled
+modify is still here we've just disabled
+it in in the viewboard for the time
+it in in the viewboard for the time
+it in in the viewboard for the time
+being and what I want to do now is go
+being and what I want to do now is go
+being and what I want to do now is go
+ahead and start sculpting a little bit
+ahead and start sculpting a little bit
+ahead and start sculpting a little bit
+more shape oh and if you ever see this
+more shape oh and if you ever see this
+more shape oh and if you ever see this
+popup here un uniform scale or
+popup here un uniform scale or
+popup here un uniform scale or
+non-uniform scale come back in object
+non-uniform scale come back in object
+non-uniform scale come back in object
+mode if I press n on my object here to
+mode if I press n on my object here to
+mode if I press n on my object here to
+open up my end menu and in item you can
+open up my end menu and in item you can
+open up my end menu and in item you can
+see these are all the different uh data
+see these are all the different uh data
+see these are all the different uh data
+properties for this object and you
+properties for this object and you
+properties for this object and you
+generally want all of these scale
+generally want all of these scale
+generally want all of these scale
+variables when you sculpt in to be one
+variables when you sculpt in to be one
+variables when you sculpt in to be one
+so you can just do that by by apply a
+so you can just do that by by apply a
+so you can just do that by by apply a
+scale with CR a and then apply a scale
+scale with CR a and then apply a scale
+scale with CR a and then apply a scale
+and that's going to nicely reset those
+and that's going to nicely reset those
+and that's going to nicely reset those
+variables so that when when we so that
+variables so that when when we so that
+variables so that when when we so that
+when we move and adjust and transform
+when we move and adjust and transform
+when we move and adjust and transform
+this shape it's all nice and uniform
+this shape it's all nice and uniform
+this shape it's all nice and uniform
+okay so let's press n to close that up
+okay so let's press n to close that up
+okay so let's press n to close that up
+and now I'm going to jump back into
+and now I'm going to jump back into
+and now I'm going to jump back into
+sculpt mode and I think all I'm going to
+sculpt mode and I think all I'm going to
+sculpt mode and I think all I'm going to
+do for this initially is I want a bit
+do for this initially is I want a bit
+do for this initially is I want a bit
+more of an indentation here and then
+more of an indentation here and then
+more of an indentation here and then
+perhaps I'll adjust the overall shape of
+perhaps I'll adjust the overall shape of
+perhaps I'll adjust the overall shape of
+the slightly but for most of this I'm
+the slightly but for most of this I'm
+the slightly but for most of this I'm
+just going to be using the grab tool
+just going to be using the grab tool
+just going to be using the grab tool
+again so we can press G or select it
+again so we can press G or select it
+again so we can press G or select it
+over here then I'm going to press F to
+over here then I'm going to press F to
+over here then I'm going to press F to
+increase the scale on this and let's
+increase the scale on this and let's
+increase the scale on this and let's
+focus in on this oh a quick tip guys a
+focus in on this oh a quick tip guys a
+focus in on this oh a quick tip guys a
+lot of people don't know about this but
+lot of people don't know about this but
+lot of people don't know about this but
+you can actually hold alt and middle
+you can actually hold alt and middle
+you can actually hold alt and middle
+Mouse click on any section to jump to it
+Mouse click on any section to jump to it
+Mouse click on any section to jump to it
+I thought that's uh that's a very handy
+I thought that's uh that's a very handy
+I thought that's uh that's a very handy
+tip that I don't see a lot of people
+tip that I don't see a lot of people
+tip that I don't see a lot of people
+utilizing but at this point if I stop
+utilizing but at this point if I stop
+utilizing but at this point if I stop
+rambling we're just going to start
+rambling we're just going to start
+rambling we're just going to start
+pulling the ear in like this to give him
+pulling the ear in like this to give him
+pulling the ear in like this to give him
+a little bit of an
+a little bit of an
+a little bit of an
+indentation I'm using a mouse and
+indentation I'm using a mouse and
+indentation I'm using a mouse and
+keyboard here by the way normally I'd
+keyboard here by the way normally I'd
+keyboard here by the way normally I'd
+use a display tablet or a t in general
+use a display tablet or a t in general
+use a display tablet or a t in general
+but I just wanted this tutorial to be a
+but I just wanted this tutorial to be a
+but I just wanted this tutorial to be a
+little bit more accessible for everybody
+little bit more accessible for everybody
+little bit more accessible for everybody
+and I just wanted everybody to see that
+and I just wanted everybody to see that
+and I just wanted everybody to see that
+you can achieve pretty good results even
+you can achieve pretty good results even
+you can achieve pretty good results even
+if you don't have all the tools right
+if you don't have all the tools right
+if you don't have all the tools right
+let me jump into front view
+let me jump into front view
+let me jump into front view
+here and I'm just going to make the
+here and I'm just going to make the
+here and I'm just going to make the
+shape a little less perfectly round a
+shape a little less perfectly round a
+shape a little less perfectly round a
+little bit more abnormal so it's not too
+little bit more abnormal so it's not too
+little bit more abnormal so it's not too
+perfect something like that and now I
+perfect something like that and now I
+perfect something like that and now I
+want to sub divide this a little bit
+want to sub divide this a little bit
+want to sub divide this a little bit
+more maybe maybe give another two whoops
+more maybe maybe give another two whoops
+more maybe maybe give another two whoops
+two and apply this and then I think
+two and apply this and then I think
+two and apply this and then I think
+using the draw tool up here now the draw
+using the draw tool up here now the draw
+using the draw tool up here now the draw
+tool if I shrink this down using F again
+tool if I shrink this down using F again
+tool if I shrink this down using F again
+it's just going to let us extrude
+it's just going to let us extrude
+it's just going to let us extrude
+different sections but with any sculp in
+different sections but with any sculp in
+different sections but with any sculp in
+tool in blender you can actually hold
+tool in blender you can actually hold
+tool in blender you can actually hold
+control and then that's going to invert
+control and then that's going to invert
+control and then that's going to invert
+that Extrusion so instead of drawing
+that Extrusion so instead of drawing
+that Extrusion so instead of drawing
+right now it's going to draw inwards so
+right now it's going to draw inwards so
+right now it's going to draw inwards so
+you can see we're making little
+you can see we're making little
+you can see we're making little
+indentations here and I'm going to draw
+indentations here and I'm going to draw
+indentations here and I'm going to draw
+little bit of I don't know what it's
+little bit of I don't know what it's
+little bit of I don't know what it's
+called you know that section of the ear
+called you know that section of the ear
+called you know that section of the ear
+here and then I'm just going to smooth
+here and then I'm just going to smooth
+here and then I'm just going to smooth
+it over don't know where it's called but
+it over don't know where it's called but
+it over don't know where it's called but
+I just want to give a little bit of an
+I just want to give a little bit of an
+I just want to give a little bit of an
+impression like there's something there
+impression like there's something there
+impression like there's something there
+for that but I think for the purposes of
+for that but I think for the purposes of
+for that but I think for the purposes of
+this tutorial that's a pretty cute
+this tutorial that's a pretty cute
+this tutorial that's a pretty cute
+looking ear what do you
+looking ear what do you
+looking ear what do you
+think right I'm pretty happy with that
+think right I'm pretty happy with that
+think right I'm pretty happy with that
+so now we're going to go ahead and do
+so now we're going to go ahead and do
+so now we're going to go ahead and do
+the same thing as we did before we're
+the same thing as we did before we're
+the same thing as we did before we're
+looking to convert this to a mesh and
+looking to convert this to a mesh and
+looking to convert this to a mesh and
+then remesh it along with the head so we
+then remesh it along with the head so we
+then remesh it along with the head so we
+can nicely join everything up so back
+can nicely join everything up so back
+can nicely join everything up so back
+into object mode Let's reenable the
+into object mode Let's reenable the
+into object mode Let's reenable the
+mirror modifier so now we nicely have
+mirror modifier so now we nicely have
+mirror modifier so now we nicely have
+two ears looking very cool and then we
+two ears looking very cool and then we
+two ears looking very cool and then we
+can apply and then with the ears
+can apply and then with the ears
+can apply and then with the ears
+selected shift click on the head control
+selected shift click on the head control
+selected shift click on the head control
+J and then we're going to go back into
+J and then we're going to go back into
+J and then we're going to go back into
+sculpt mode and then using the remesh
+sculpt mode and then using the remesh
+sculpt mode and then using the remesh
+tool perhaps I'll increase this to
+tool perhaps I'll increase this to
+tool perhaps I'll increase this to
+actually know what let's try 0.02 again
+actually know what let's try 0.02 again
+actually know what let's try 0.02 again
+and see how it
+and see how it
+and see how it
+looks okay that's not too bad it's
+looks okay that's not too bad it's
+looks okay that's not too bad it's
+starting to get a little bit more
+starting to get a little bit more
+starting to get a little bit more
+jaggedy around the edges here so I think
+jaggedy around the edges here so I think
+jaggedy around the edges here so I think
+I'm going to undo and try 01 for
+I'm going to undo and try 01 for
+I'm going to undo and try 01 for
+this yeah that looks pretty nice and
+this yeah that looks pretty nice and
+this yeah that looks pretty nice and
+smooth and then just like we did before
+smooth and then just like we did before
+smooth and then just like we did before
+make sure you have your x-axis mirroring
+make sure you have your x-axis mirroring
+make sure you have your x-axis mirroring
+on so it affects both sides and I'm just
+on so it affects both sides and I'm just
+on so it affects both sides and I'm just
+going to come in and start smoothing
+going to come in and start smoothing
+going to come in and start smoothing
+this
+this
+this
+over look at that beautiful transition
+over look at that beautiful transition
+over look at that beautiful transition
+there I love it smooth it over smooth it
+there I love it smooth it over smooth it
+there I love it smooth it over smooth it
+over cast and
+over cast and
+over cast and
+over yeah you're going to have to put up
+over yeah you're going to have to put up
+over yeah you're going to have to put up
+me singing for a little bit now while we
+me singing for a little bit now while we
+me singing for a little bit now while we
+do
+this right I think that's looking good
+this right I think that's looking good
+this right I think that's looking good
+and don't forget you can adjust the size
+and don't forget you can adjust the size
+and don't forget you can adjust the size
+of your curse as you go along to get
+of your curse as you go along to get
+of your curse as you go along to get
+nicely into those little
+nicely into those little
+nicely into those little
+crevices something like that and you can
+crevices something like that and you can
+crevices something like that and you can
+see he does have this
+see he does have this
+see he does have this
+overall um they you know when you're
+overall um they you know when you're
+overall um they you know when you're
+remeshing sometimes you can't get this
+remeshing sometimes you can't get this
+remeshing sometimes you can't get this
+these lines appearing but you know go
+these lines appearing but you know go
+these lines appearing but you know go
+ahead and start smoothing them all over
+ahead and start smoothing them all over
+ahead and start smoothing them all over
+again but I think this is looking pretty
+again but I think this is looking pretty
+again but I think this is looking pretty
+nice turning up pretty good how are we
+nice turning up pretty good how are we
+nice turning up pretty good how are we
+feeling I hope you all having a good
+feeling I hope you all having a good
+feeling I hope you all having a good
+time oh do you know these ears are
+time oh do you know these ears are
+time oh do you know these ears are
+cute so once again a lot of this is
+cute so once again a lot of this is
+cute so once again a lot of this is
+going to be subjective and down to the
+going to be subjective and down to the
+going to be subjective and down to the
+style that you're looking to achieve but
+style that you're looking to achieve but
+style that you're looking to achieve but
+in my case I'm just going to go ahead
+in my case I'm just going to go ahead
+in my case I'm just going to go ahead
+and using the draw tool again I'm going
+and using the draw tool again I'm going
+and using the draw tool again I'm going
+to shrink down my crysal a little bit
+to shrink down my crysal a little bit
+to shrink down my crysal a little bit
+making sure that my x-axis mirin is on
+making sure that my x-axis mirin is on
+making sure that my x-axis mirin is on
+and in front of you let's go ahead and
+and in front of you let's go ahead and
+and in front of you let's go ahead and
+just start drawing in some my sockets so
+just start drawing in some my sockets so
+just start drawing in some my sockets so
+you can hold control and then if I just
+you can hold control and then if I just
+you can hold control and then if I just
+start clicking and just making a little
+start clicking and just making a little
+start clicking and just making a little
+rotation with my cursor here and then
+rotation with my cursor here and then
+rotation with my cursor here and then
+release in and go again to go even
+release in and go again to go even
+release in and go again to go even
+deeper and you can make this as deep as
+deeper and you can make this as deep as
+deeper and you can make this as deep as
+you need to fit your eyeballs you might
+you need to fit your eyeballs you might
+you need to fit your eyeballs you might
+have big eyes you might have little eyes
+have big eyes you might have little eyes
+have big eyes you might have little eyes
+but something like that I think no a
+but something like that I think no a
+but something like that I think no a
+little bit more a little bit deeper
+little bit more a little bit deeper
+little bit more a little bit deeper
+something like that I think we'll do for
+something like that I think we'll do for
+something like that I think we'll do for
+the moment and then using our grab tool
+the moment and then using our grab tool
+the moment and then using our grab tool
+again with G we can shape up the eyes a
+again with G we can shape up the eyes a
+again with G we can shape up the eyes a
+little bit and I don't know why but I
+little bit and I don't know why but I
+little bit and I don't know why but I
+like my guys with a little bit of
+like my guys with a little bit of
+like my guys with a little bit of
+attitude so I tend to drop the eyes down
+attitude so I tend to drop the eyes down
+attitude so I tend to drop the eyes down
+a little bit cuz I think there is
+a little bit cuz I think there is
+a little bit cuz I think there is
+something cool and interesting about a
+something cool and interesting about a
+something cool and interesting about a
+character that's got a bit of attitude
+character that's got a bit of attitude
+character that's got a bit of attitude
+in his
+in his
+in his
+eyes it's just a general style I've been
+eyes it's just a general style I've been
+eyes it's just a general style I've been
+going with for a while now okay cool I
+going with for a while now okay cool I
+going with for a while now okay cool I
+think something like that will do and as
+think something like that will do and as
+think something like that will do and as
+we go along it's probably worth adding
+we go along it's probably worth adding
+we go along it's probably worth adding
+in some eyeballs now because it just
+in some eyeballs now because it just
+in some eyeballs now because it just
+makes it a little easier to visualize
+makes it a little easier to visualize
+makes it a little easier to visualize
+what's going on so back into object mode
+what's going on so back into object mode
+what's going on so back into object mode
+and we're going to move our 3D cursor
+and we're going to move our 3D cursor
+and we're going to move our 3D cursor
+here to the I soet so we can hold shift
+here to the I soet so we can hold shift
+here to the I soet so we can hold shift
+and right click right here and then
+and right click right here and then
+and right click right here and then
+shift a and we're going to use a UV
+shift a and we're going to use a UV
+shift a and we're going to use a UV
+sphere in this case I'm going to use S
+sphere in this case I'm going to use S
+sphere in this case I'm going to use S
+to scale this down and I want to rotate
+to scale this down and I want to rotate
+to scale this down and I want to rotate
+this 90° on the x axis so R to rotate X
+this 90° on the x axis so R to rotate X
+this 90° on the x axis so R to rotate X
+to lock that to the x- axis then just
+to lock that to the x- axis then just
+to lock that to the x- axis then just
+type 9 0 and now you can see the
+type 9 0 and now you can see the
+type 9 0 and now you can see the
+circular part of of the UV sphere is
+circular part of of the UV sphere is
+circular part of of the UV sphere is
+facing forward and that way it just
+facing forward and that way it just
+facing forward and that way it just
+looks a bit more like an eyeball and
+looks a bit more like an eyeball and
+looks a bit more like an eyeball and
+when you come to our shaders later you
+when you come to our shaders later you
+when you come to our shaders later you
+can sort of use this as an indication of
+can sort of use this as an indication of
+can sort of use this as an indication of
+where the poop is and such but that
+where the poop is and such but that
+where the poop is and such but that
+looks pretty good to me and we're going
+looks pretty good to me and we're going
+looks pretty good to me and we're going
+to want to bring this
+to want to bring this
+to want to bring this
+forward and then just make sure
+forward and then just make sure
+forward and then just make sure
+everything lines up nicely something
+everything lines up nicely something
+everything lines up nicely something
+like that and just like with the ears
+like that and just like with the ears
+like that and just like with the ears
+earlier in our modifiers we can add in a
+earlier in our modifiers we can add in a
+earlier in our modifiers we can add in a
+mirror modifier boom and then we have
+mirror modifier boom and then we have
+mirror modifier boom and then we have
+two eyeballs looking pretty cool with
+two eyeballs looking pretty cool with
+two eyeballs looking pretty cool with
+some attitude so now I want to add a
+some attitude so now I want to add a
+some attitude so now I want to add a
+nose so what I'm going to do is I want
+nose so what I'm going to do is I want
+nose so what I'm going to do is I want
+to make sure the nose is perfectly
+to make sure the nose is perfectly
+to make sure the nose is perfectly
+centered and we can do that by using
+centered and we can do that by using
+centered and we can do that by using
+this center point on the head again so
+this center point on the head again so
+this center point on the head again so
+shift s cursor 2 selected so let's do
+shift s cursor 2 selected so let's do
+shift s cursor 2 selected so let's do
+shift a then and I'm just going to do
+shift a then and I'm just going to do
+shift a then and I'm just going to do
+our nose with a nice Cube scaling this
+our nose with a nice Cube scaling this
+our nose with a nice Cube scaling this
+down then gy to bring this out and what
+down then gy to bring this out and what
+down then gy to bring this out and what
+I'm going to do here is just move this
+I'm going to do here is just move this
+I'm going to do here is just move this
+into place so let's start subdividing
+into place so let's start subdividing
+into place so let's start subdividing
+out the nose here and then I'm going to
+out the nose here and then I'm going to
+out the nose here and then I'm going to
+tab into edit mode edit mode and using
+tab into edit mode edit mode and using
+tab into edit mode edit mode and using
+control R let's add in a little bit of
+control R let's add in a little bit of
+control R let's add in a little bit of
+shape to this whoops contr R
+shape to this whoops contr R
+shape to this whoops contr R
+again and I'm just going to line my nose
+again and I'm just going to line my nose
+again and I'm just going to line my nose
+up slightly like
+up slightly like
+up slightly like
+this maybe make it a little bit
+this maybe make it a little bit
+this maybe make it a little bit
+wider and as I said guys this is just
+wider and as I said guys this is just
+wider and as I said guys this is just
+generally my style of character feel
+generally my style of character feel
+generally my style of character feel
+free to do whatever you like but then we
+free to do whatever you like but then we
+free to do whatever you like but then we
+can right click a shade smooth on this
+can right click a shade smooth on this
+can right click a shade smooth on this
+and at this point in time I think that
+and at this point in time I think that
+and at this point in time I think that
+looks pretty cool let's go ahead and
+looks pretty cool let's go ahead and
+looks pretty cool let's go ahead and
+right click and convert this to a mesh
+right click and convert this to a mesh
+right click and convert this to a mesh
+and I'm going to go ahead and combine
+and I'm going to go ahead and combine
+and I'm going to go ahead and combine
+this with the head and then we're going
+this with the head and then we're going
+this with the head and then we're going
+to do the same old as we did before
+to do the same old as we did before
+to do the same old as we did before
+we're going to remesh this to make it
+we're going to remesh this to make it
+we're going to remesh this to make it
+one uniform object so with this selected
+one uniform object so with this selected
+one uniform object so with this selected
+shift click on the head contrl J into
+shift click on the head contrl J into
+shift click on the head contrl J into
+sculp mode we're going to remesh using
+sculp mode we're going to remesh using
+sculp mode we're going to remesh using
+the 0.01
+the 0.01
+the 0.01
+again boom nicely one uniform shape and
+again boom nicely one uniform shape and
+again boom nicely one uniform shape and
+we can go ahead and smooth this
+we can go ahead and smooth this
+we can go ahead and smooth this
+over and take your time around the edges
+over and take your time around the edges
+over and take your time around the edges
+here cuz I do want to keep a bit of a
+here cuz I do want to keep a bit of a
+here cuz I do want to keep a bit of a
+nicely defined edge with it when it
+nicely defined edge with it when it
+nicely defined edge with it when it
+comes to the
+comes to the
+comes to the
+nose I think something like that looks
+nose I think something like that looks
+nose I think something like that looks
+pretty cool and then let's use the grab
+pretty cool and then let's use the grab
+pretty cool and then let's use the grab
+tool to shape this up just a little bit
+tool to shape this up just a little bit
+tool to shape this up just a little bit
+more something like that I think that's
+more something like that I think that's
+more something like that I think that's
+looking pretty cool and I think I'm
+looking pretty cool and I think I'm
+looking pretty cool and I think I'm
+going
+going
+going
+to give him a little bit more of a py
+to give him a little bit more of a py
+to give him a little bit more of a py
+cheek
+cheek
+cheek
+here looking pretty snazzy if I do say
+here looking pretty snazzy if I do say
+here looking pretty snazzy if I do say
+so my s but right now he can't breathe
+so my s but right now he can't breathe
+so my s but right now he can't breathe
+he needs some nostrils or at least if
+he needs some nostrils or at least if
+he needs some nostrils or at least if
+that's the style you want to go for I'm
+that's the style you want to go for I'm
+that's the style you want to go for I'm
+going to do this with the draw tool
+going to do this with the draw tool
+going to do this with the draw tool
+again and then jump in into my bottom
+again and then jump in into my bottom
+again and then jump in into my bottom
+view here let's go ahead and hold
+view here let's go ahead and hold
+view here let's go ahead and hold
+control and do some nice circles for
+control and do some nice circles for
+control and do some nice circles for
+nostrils I can
+nostrils I can
+nostrils I can
+breathe something like that that's
+breathe something like that that's
+breathe something like that that's
+looking pretty nice and then you can go
+looking pretty nice and then you can go
+looking pretty nice and then you can go
+ahead and smooth this over here one I
+ahead and smooth this over here one I
+ahead and smooth this over here one I
+think the smooth tool might be a little
+think the smooth tool might be a little
+think the smooth tool might be a little
+bit strong here no that that should be
+bit strong here no that that should be
+bit strong here no that that should be
+okay but at any point if you want to
+okay but at any point if you want to
+okay but at any point if you want to
+reduce the strength or increase the
+reduce the strength or increase the
+reduce the strength or increase the
+strength even of your tools you can
+strength even of your tools you can
+strength even of your tools you can
+adjust it up here so it's uh right here
+adjust it up here so it's uh right here
+adjust it up here so it's uh right here
+the smooth brush so I can turn the
+the smooth brush so I can turn the
+the smooth brush so I can turn the
+strength of this down just to smooth it
+strength of this down just to smooth it
+strength of this down just to smooth it
+a little more gently and not forgetting
+a little more gently and not forgetting
+a little more gently and not forgetting
+to check this from different angles too
+to check this from different angles too
+to check this from different angles too
+so I'm just going to jump into my side
+so I'm just going to jump into my side
+so I'm just going to jump into my side
+view and I want to make sure this nose
+view and I want to make sure this nose
+view and I want to make sure this nose
+looks nice and smooth depending on how
+looks nice and smooth depending on how
+looks nice and smooth depending on how
+you want yours to
+look now all it's left to do I think
+look now all it's left to do I think
+look now all it's left to do I think
+with this is to go ahead and sculpt a
+with this is to go ahead and sculpt a
+with this is to go ahead and sculpt a
+little mouth and in this case I don't do
+little mouth and in this case I don't do
+little mouth and in this case I don't do
+a lot of detail on my stylized mouths I
+a lot of detail on my stylized mouths I
+a lot of detail on my stylized mouths I
+just do generally just do like a little
+just do generally just do like a little
+just do generally just do like a little
+line so for that I am actually going to
+line so for that I am actually going to
+line so for that I am actually going to
+turn off my x-axis mirror in and we'll
+turn off my x-axis mirror in and we'll
+turn off my x-axis mirror in and we'll
+see how well I do this cuz you know they
+see how well I do this cuz you know they
+see how well I do this cuz you know they
+don't always turn out the same but I'm
+don't always turn out the same but I'm
+don't always turn out the same but I'm
+going to start by using the draw sharp
+going to start by using the draw sharp
+going to start by using the draw sharp
+tool which is pretty much the same as
+tool which is pretty much the same as
+tool which is pretty much the same as
+the draw tool except it's going to draw
+the draw tool except it's going to draw
+the draw tool except it's going to draw
+inwards by default and it's going to be
+inwards by default and it's going to be
+inwards by default and it's going to be
+a little sharper too so what I tend to
+a little sharper too so what I tend to
+a little sharper too so what I tend to
+do with this is to do a line and you can
+do with this is to do a line and you can
+do with this is to do a line and you can
+also if you want to make sure this line
+also if you want to make sure this line
+also if you want to make sure this line
+is nice and smooth you can actually go
+is nice and smooth you can actually go
+is nice and smooth you can actually go
+into your stroke options up here and
+into your stroke options up here and
+into your stroke options up here and
+enable stabilize stroke and that's going
+enable stabilize stroke and that's going
+enable stabilize stroke and that's going
+to give you this nice smooth stroll
+to give you this nice smooth stroll
+to give you this nice smooth stroll
+effect so let's go ahead and shrink down
+effect so let's go ahead and shrink down
+effect so let's go ahead and shrink down
+the size of a cursa and it might
+the size of a cursa and it might
+the size of a cursa and it might
+actually be worth increasing the size
+actually be worth increasing the size
+actually be worth increasing the size
+not the size the strength of our brush
+not the size the strength of our brush
+not the size the strength of our brush
+just just a little bit to 75 there I'm
+just just a little bit to 75 there I'm
+just just a little bit to 75 there I'm
+just going to give him a little smile
+just going to give him a little smile
+just going to give him a little smile
+ooh nice and cheeky that looks pretty
+ooh nice and cheeky that looks pretty
+ooh nice and cheeky that looks pretty
+good and now I just want to make this a
+good and now I just want to make this a
+good and now I just want to make this a
+little bit thinner and for that perhaps
+little bit thinner and for that perhaps
+little bit thinner and for that perhaps
+we'll use the pinge tool increasing this
+we'll use the pinge tool increasing this
+we'll use the pinge tool increasing this
+a little bit and you can go along your
+a little bit and you can go along your
+a little bit and you can go along your
+mouth crease here to really get a nice
+mouth crease here to really get a nice
+mouth crease here to really get a nice
+defined lip sort of thing I don't know
+defined lip sort of thing I don't know
+defined lip sort of thing I don't know
+what you'd call call on a stylist
+what you'd call call on a stylist
+what you'd call call on a stylist
+character cuz they don't really have
+character cuz they don't really have
+character cuz they don't really have
+lips today I'm just smoothing this over
+lips today I'm just smoothing this over
+lips today I'm just smoothing this over
+a little bit here how's that that looks
+a little bit here how's that that looks
+a little bit here how's that that looks
+pretty cool right pretty
+pretty cool right pretty
+pretty cool right pretty
+nifty okay I like it and I think that's
+nifty okay I like it and I think that's
+nifty okay I like it and I think that's
+going to just about do it for today's
+going to just about do it for today's
+going to just about do it for today's
+video I hope you enjoyed and in the next
+video I hope you enjoyed and in the next
+video I hope you enjoyed and in the next
+episode of this we're going to be
+episode of this we're going to be
+episode of this we're going to be
+looking at doing sty his hair and giving
+looking at doing sty his hair and giving
+looking at doing sty his hair and giving
+our guy a little bit more expression
+our guy a little bit more expression
+our guy a little bit more expression
+with some eyebrows and such so if you're
+with some eyebrows and such so if you're
+with some eyebrows and such so if you're
+interested in that don't forget to hit
+interested in that don't forget to hit
+interested in that don't forget to hit
+that subscribe button and hit the
+that subscribe button and hit the
+that subscribe button and hit the
+notification Bell to be notified when
+notification Bell to be notified when
+notification Bell to be notified when
+that comes out other than that the
+that comes out other than that the
+that comes out other than that the
+soures for this as always will be over
+soures for this as always will be over
+soures for this as always will be over
+on my patreon but I hope you very much
+on my patreon but I hope you very much
+on my patreon but I hope you very much
+enjoyed my name has been Keelan I hope
+enjoyed my name has been Keelan I hope
+enjoyed my name has been Keelan I hope
+you enjoy the rest of your day and I'll
+you enjoy the rest of your day and I'll
+you enjoy the rest of your day and I'll
+catch you in the next one

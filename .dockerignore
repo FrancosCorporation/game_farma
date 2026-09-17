@@ -1,0 +1,14 @@
+node_modules
+dist
+.git
+.gitignore
+.opencode
+future_projects
+*.safetensors
+*.log
+qa-*.tmp.mjs
+test-avatar.html
+test-avatar3d.html
+exemplo.png
+inicio_game.jpeg
+sem_chance.jpeg

@@ -1,0 +1,1585 @@
+Kind: captions
+Language: en
+Let's see who lives in this beautiful
+Let's see who lives in this beautiful
+Let's see who lives in this beautiful
+place. Hey there, little buddy.
+place. Hey there, little buddy.
+place. Hey there, little buddy.
+Well, pretty cool, right? If you've ever
+Well, pretty cool, right? If you've ever
+Well, pretty cool, right? If you've ever
+dreamed of creating your own 3D cartoon
+dreamed of creating your own 3D cartoon
+dreamed of creating your own 3D cartoon
+movie, but thought it was too
+movie, but thought it was too
+movie, but thought it was too
+complicated or expensive, this video is
+complicated or expensive, this video is
+complicated or expensive, this video is
+exactly what you've been looking for. In
+exactly what you've been looking for. In
+exactly what you've been looking for. In
+this step-by-step tutorial, I'm going to
+this step-by-step tutorial, I'm going to
+this step-by-step tutorial, I'm going to
+show you how to create your very own 3D
+show you how to create your very own 3D
+show you how to create your very own 3D
+cartoon movie using powerful AI tools.
+cartoon movie using powerful AI tools.
+cartoon movie using powerful AI tools.
+And the best part, it is completely
+And the best part, it is completely
+And the best part, it is completely
+free. So whether you're a beginner, a
+free. So whether you're a beginner, a
+free. So whether you're a beginner, a
+storyteller, or just curious about AI
+storyteller, or just curious about AI
+storyteller, or just curious about AI
+animation, stick around because by the
+animation, stick around because by the
+animation, stick around because by the
+end of this video, you will have your
+end of this video, you will have your
+end of this video, you will have your
+very first 3D cartoon movie made from
+very first 3D cartoon movie made from
+very first 3D cartoon movie made from
+scratch. If you're new here, my name is
+scratch. If you're new here, my name is
+scratch. If you're new here, my name is
+George and together with my friend
+George and together with my friend
+George and together with my friend
+Lasha, we run this YouTube channel
+Lasha, we run this YouTube channel
+Lasha, we run this YouTube channel
+called Code and Create. We've been
+called Code and Create. We've been
+called Code and Create. We've been
+teaching web development for years and
+teaching web development for years and
+teaching web development for years and
+we absolutely love helping people build
+we absolutely love helping people build
+we absolutely love helping people build
+cool things with code. But here is the
+cool things with code. But here is the
+cool things with code. But here is the
+thing, AI is moving fast day by day and
+thing, AI is moving fast day by day and
+thing, AI is moving fast day by day and
+it's already changing the way we create.
+it's already changing the way we create.
+it's already changing the way we create.
+From design to development, animation to
+From design to development, animation to
+From design to development, animation to
+storytelling, it's opening up new
+storytelling, it's opening up new
+storytelling, it's opening up new
+possibilities. That's why along with our
+possibilities. That's why along with our
+possibilities. That's why along with our
+usual dev content, you will also find AI
+usual dev content, you will also find AI
+usual dev content, you will also find AI
+powered tutorials on this channel just
+powered tutorials on this channel just
+powered tutorials on this channel just
+like this one. We believe that learning
+like this one. We believe that learning
+like this one. We believe that learning
+to use AI tools isn't just interesting,
+to use AI tools isn't just interesting,
+to use AI tools isn't just interesting,
+it is important, and we are here to help
+it is important, and we are here to help
+it is important, and we are here to help
+you do it step by step. Before we dive
+you do it step by step. Before we dive
+you do it step by step. Before we dive
+in, don't forget to like the video,
+in, don't forget to like the video,
+in, don't forget to like the video,
+subscribe to the channel, and hit that
+subscribe to the channel, and hit that
+subscribe to the channel, and hit that
+notification bell so you never miss a
+notification bell so you never miss a
+notification bell so you never miss a
+new tutorial, whether it is about AI or
+new tutorial, whether it is about AI or
+new tutorial, whether it is about AI or
+programming. And in the comments, let us
+programming. And in the comments, let us
+programming. And in the comments, let us
+know what kind of AI tools you'd love to
+know what kind of AI tools you'd love to
+know what kind of AI tools you'd love to
+see us explore next or what kind of
+see us explore next or what kind of
+see us explore next or what kind of
+coding content you want us to cover. All
+coding content you want us to cover. All
+coding content you want us to cover. All
+right, now let's jump into the first and
+right, now let's jump into the first and
+right, now let's jump into the first and
+most important step of creating a 3D
+most important step of creating a 3D
+most important step of creating a 3D
+cartoon movie and that is writing a
+cartoon movie and that is writing a
+cartoon movie and that is writing a
+great story. Before you even think about
+great story. Before you even think about
+great story. Before you even think about
+visuals, animations or voiceovers, you
+visuals, animations or voiceovers, you
+visuals, animations or voiceovers, you
+need a solid foundation. And that
+need a solid foundation. And that
+need a solid foundation. And that
+foundation is your story. It's the heart
+foundation is your story. It's the heart
+foundation is your story. It's the heart
+of your cartoon. It gives you characters
+of your cartoon. It gives you characters
+of your cartoon. It gives you characters
+purpose, adds emotion, and keeps your
+purpose, adds emotion, and keeps your
+purpose, adds emotion, and keeps your
+audience engaged from start to finish.
+audience engaged from start to finish.
+audience engaged from start to finish.
+To create the story for this video, I'm
+To create the story for this video, I'm
+To create the story for this video, I'm
+using Chachet, but you can absolutely
+using Chachet, but you can absolutely
+using Chachet, but you can absolutely
+use any generative AI you are
+use any generative AI you are
+use any generative AI you are
+comfortable with. Tools like Gemini,
+comfortable with. Tools like Gemini,
+comfortable with. Tools like Gemini,
+Deepseek, or even Grock can do a great
+Deepseek, or even Grock can do a great
+Deepseek, or even Grock can do a great
+job, too. That said, I personally prefer
+job, too. That said, I personally prefer
+job, too. That said, I personally prefer
+Chacheti for story writing because I
+Chacheti for story writing because I
+Chacheti for story writing because I
+find it gives me creative, structured,
+find it gives me creative, structured,
+find it gives me creative, structured,
+and often charming results with very
+and often charming results with very
+and often charming results with very
+little tweaking. Now that we understand
+little tweaking. Now that we understand
+little tweaking. Now that we understand
+the importance of story, let's actually
+the importance of story, let's actually
+the importance of story, let's actually
+create the one we will use in our 3D
+create the one we will use in our 3D
+create the one we will use in our 3D
+cartoon movie. The story is about a
+cartoon movie. The story is about a
+cartoon movie. The story is about a
+7-year-old boy named Milo who takes a
+7-year-old boy named Milo who takes a
+7-year-old boy named Milo who takes a
+walk through a beautiful forest and
+walk through a beautiful forest and
+walk through a beautiful forest and
+meets different animals along the way.
+meets different animals along the way.
+meets different animals along the way.
+Each animal is friendly and Milo
+Each animal is friendly and Milo
+Each animal is friendly and Milo
+interacts with them in a unique and
+interacts with them in a unique and
+interacts with them in a unique and
+playful way. To generate this, I'll use
+playful way. To generate this, I'll use
+playful way. To generate this, I'll use
+Chachipity and give it a very clear and
+Chachipity and give it a very clear and
+Chachipity and give it a very clear and
+specific prompt. Here is the prompt I'm
+specific prompt. Here is the prompt I'm
+specific prompt. Here is the prompt I'm
+going to use. Create a 3D Pixar style
+going to use. Create a 3D Pixar style
+going to use. Create a 3D Pixar style
+animated story about a cute 7-year-old
+animated story about a cute 7-year-old
+animated story about a cute 7-year-old
+kid, Milo, walking in the beautiful
+kid, Milo, walking in the beautiful
+kid, Milo, walking in the beautiful
+forest and exploring different friendly
+forest and exploring different friendly
+forest and exploring different friendly
+animals. The story should include 12
+animals. The story should include 12
+animals. The story should include 12
+short scenes, each lasting five six
+short scenes, each lasting five six
+short scenes, each lasting five six
+seconds. Provide a script for each scene
+seconds. Provide a script for each scene
+seconds. Provide a script for each scene
+where Milo interacts with animals. Once
+where Milo interacts with animals. Once
+where Milo interacts with animals. Once
+I run this prompt, the AI gives me a
+I run this prompt, the AI gives me a
+I run this prompt, the AI gives me a
+beautifully structured story with
+beautifully structured story with
+beautifully structured story with
+exactly 12 short scenes. Each one like a
+exactly 12 short scenes. Each one like a
+exactly 12 short scenes. Each one like a
+tiny moment from a bigger adventure. The
+tiny moment from a bigger adventure. The
+tiny moment from a bigger adventure. The
+scenes are simple, heartwarming, and
+scenes are simple, heartwarming, and
+scenes are simple, heartwarming, and
+full of personality. Just the kind of
+full of personality. Just the kind of
+full of personality. Just the kind of
+vibe we are aiming for. They're short
+vibe we are aiming for. They're short
+vibe we are aiming for. They're short
+and visual, which makes them perfect for
+and visual, which makes them perfect for
+and visual, which makes them perfect for
+animation, especially when you're just
+animation, especially when you're just
+animation, especially when you're just
+starting out. Now that we have our
+starting out. Now that we have our
+starting out. Now that we have our
+story, the next step is to copy and
+story, the next step is to copy and
+story, the next step is to copy and
+paste it into a simple text file. This
+paste it into a simple text file. This
+paste it into a simple text file. This
+is where you want to take a moment and
+is where you want to take a moment and
+is where you want to take a moment and
+read through the story carefully line by
+read through the story carefully line by
+read through the story carefully line by
+line. Even though the AI gives us a
+line. Even though the AI gives us a
+line. Even though the AI gives us a
+great starting point, this is your
+great starting point, this is your
+great starting point, this is your
+chance to make it truly your own. If
+chance to make it truly your own. If
+chance to make it truly your own. If
+there is anything you don't like, feel
+there is anything you don't like, feel
+there is anything you don't like, feel
+free to change it, rewrite parts, or add
+free to change it, rewrite parts, or add
+free to change it, rewrite parts, or add
+your own personal touch. Also, I
+your own personal touch. Also, I
+your own personal touch. Also, I
+recommend removing the extra labels like
+recommend removing the extra labels like
+recommend removing the extra labels like
+visual, audio, or dialogue unless you
+visual, audio, or dialogue unless you
+visual, audio, or dialogue unless you
+want to keep them for reference. Now
+want to keep them for reference. Now
+want to keep them for reference. Now
+that our story is ready, it's time to
+that our story is ready, it's time to
+that our story is ready, it's time to
+bring it to life visually. And the first
+bring it to life visually. And the first
+bring it to life visually. And the first
+step is to create our main character,
+step is to create our main character,
+step is to create our main character,
+Milo. Until recently, one of the biggest
+Milo. Until recently, one of the biggest
+Milo. Until recently, one of the biggest
+challenges in AI generated animation was
+challenges in AI generated animation was
+challenges in AI generated animation was
+character consistency. You could
+character consistency. You could
+character consistency. You could
+generate a greatl looking character, but
+generate a greatl looking character, but
+generate a greatl looking character, but
+recreating that same exact character
+recreating that same exact character
+recreating that same exact character
+across different scenes was almost
+across different scenes was almost
+across different scenes was almost
+impossible. But thanks to new tools like
+impossible. But thanks to new tools like
+impossible. But thanks to new tools like
+Google Labs, specifically image effects,
+Google Labs, specifically image effects,
+Google Labs, specifically image effects,
+a visual generation service by Google,
+a visual generation service by Google,
+a visual generation service by Google,
+that problem is finally being solved.
+that problem is finally being solved.
+that problem is finally being solved.
+This service allows us to create a
+This service allows us to create a
+This service allows us to create a
+consistent character and reuse the
+consistent character and reuse the
+consistent character and reuse the
+design throughout multiple scenes,
+design throughout multiple scenes,
+design throughout multiple scenes,
+making it perfect for our animated
+making it perfect for our animated
+making it perfect for our animated
+movie. Before we dive into using Google
+movie. Before we dive into using Google
+movie. Before we dive into using Google
+Apps, we first need a detailed character
+Apps, we first need a detailed character
+Apps, we first need a detailed character
+description prompt. Something will fit
+description prompt. Something will fit
+description prompt. Something will fit
+into the AI to generate Milo's visual
+into the AI to generate Milo's visual
+into the AI to generate Milo's visual
+design. For that, I'm using CH GPT
+design. For that, I'm using CH GPT
+design. For that, I'm using CH GPT
+again. And here is the exact prompt.
+again. And here is the exact prompt.
+again. And here is the exact prompt.
+Create a 3D Pixar style character
+Create a 3D Pixar style character
+Create a 3D Pixar style character
+description of Milo, a 7-year-old boy
+description of Milo, a 7-year-old boy
+description of Milo, a 7-year-old boy
+walking in a beautiful forest. Describe
+walking in a beautiful forest. Describe
+walking in a beautiful forest. Describe
+his key features, his hairstyle, color,
+his key features, his hairstyle, color,
+his key features, his hairstyle, color,
+texture, and style. the clothes he's
+texture, and style. the clothes he's
+texture, and style. the clothes he's
+wearing, colors, style, any notable
+wearing, colors, style, any notable
+wearing, colors, style, any notable
+details like patches or accessories, his
+details like patches or accessories, his
+details like patches or accessories, his
+eye color and expression, friendly,
+eye color and expression, friendly,
+eye color and expression, friendly,
+curious, and any other distinctive
+curious, and any other distinctive
+curious, and any other distinctive
+features that would make him
+features that would make him
+features that would make him
+recognizable and charming in a pixel
+recognizable and charming in a pixel
+recognizable and charming in a pixel
+animation style. Focus on details that
+animation style. Focus on details that
+animation style. Focus on details that
+would translate well into a 3D model,
+would translate well into a 3D model,
+would translate well into a 3D model,
+emphasizing soft edges, vibrant colors,
+emphasizing soft edges, vibrant colors,
+emphasizing soft edges, vibrant colors,
+and expressive features. Let's make it
+and expressive features. Let's make it
+and expressive features. Let's make it
+100 words. Once I send this prompt, chat
+100 words. Once I send this prompt, chat
+100 words. Once I send this prompt, chat
+generates a clear, creative, and highly
+generates a clear, creative, and highly
+generates a clear, creative, and highly
+detailed description of Milo, perfectly
+detailed description of Milo, perfectly
+detailed description of Milo, perfectly
+suited for 3D visual generation. This
+suited for 3D visual generation. This
+suited for 3D visual generation. This
+description will now become the
+description will now become the
+description will now become the
+foundation for our visual version of
+foundation for our visual version of
+foundation for our visual version of
+Milo. And we'll use it inside image
+Milo. And we'll use it inside image
+Milo. And we'll use it inside image
+effects to bring him to life in a
+effects to bring him to life in a
+effects to bring him to life in a
+pixel-like style. Let's go ahead and
+pixel-like style. Let's go ahead and
+pixel-like style. Let's go ahead and
+copy this prompt and store it in our
+copy this prompt and store it in our
+copy this prompt and store it in our
+text file. Now, it's time to actually
+text file. Now, it's time to actually
+text file. Now, it's time to actually
+create our character Milo visually. And
+create our character Milo visually. And
+create our character Milo visually. And
+for that, we'll head over to a really
+for that, we'll head over to a really
+for that, we'll head over to a really
+cool website called
+labs.google/fx. This platform gives you
+labs.google/fx. This platform gives you
+labs.google/fx. This platform gives you
+access to several creative AI tools
+access to several creative AI tools
+access to several creative AI tools
+developed by Google. You'll find four
+developed by Google. You'll find four
+developed by Google. You'll find four
+main tools here. Whisk for writing,
+main tools here. Whisk for writing,
+main tools here. Whisk for writing,
+video effects for generating videos,
+video effects for generating videos,
+video effects for generating videos,
+image effects for turning text into
+image effects for turning text into
+image effects for turning text into
+images, music effects for creating
+images, music effects for creating
+images, music effects for creating
+musical ideas. Since we're focused on
+musical ideas. Since we're focused on
+musical ideas. Since we're focused on
+creating visuals for our 3D cartoon,
+creating visuals for our 3D cartoon,
+creating visuals for our 3D cartoon,
+we'll go ahead and click on image
+we'll go ahead and click on image
+we'll go ahead and click on image
+effects. Before you begin, make sure
+effects. Before you begin, make sure
+effects. Before you begin, make sure
+you're signed in. The sign up and login
+you're signed in. The sign up and login
+you're signed in. The sign up and login
+process is super simple and
+process is super simple and
+process is super simple and
+straightforward. Just a couple of clicks
+straightforward. Just a couple of clicks
+straightforward. Just a couple of clicks
+and you are in. Once we launch Image
+and you are in. Once we launch Image
+and you are in. Once we launch Image
+Effects, we'll land on this screen. This
+Effects, we'll land on this screen. This
+Effects, we'll land on this screen. This
+is the main interface where we will
+is the main interface where we will
+is the main interface where we will
+generate the images of this specific
+generate the images of this specific
+generate the images of this specific
+scene. This is the main interface where
+scene. This is the main interface where
+scene. This is the main interface where
+we will generate the images of these
+we will generate the images of these
+we will generate the images of these
+specific scenes. Here on the left side,
+specific scenes. Here on the left side,
+specific scenes. Here on the left side,
+you can enter your prompt, which is the
+you can enter your prompt, which is the
+you can enter your prompt, which is the
+detailed character description we
+detailed character description we
+detailed character description we
+generated using chat GPT. Once you type
+generated using chat GPT. Once you type
+generated using chat GPT. Once you type
+it in, you simply click the I'm feeling
+it in, you simply click the I'm feeling
+it in, you simply click the I'm feeling
+lucky button, and image effects will
+lucky button, and image effects will
+lucky button, and image effects will
+generate up to four different images
+generate up to four different images
+generate up to four different images
+based on your input. Sometimes it might
+based on your input. Sometimes it might
+based on your input. Sometimes it might
+give you fewer than four images, and
+give you fewer than four images, and
+give you fewer than four images, and
+that's okay. What really matters is the
+that's okay. What really matters is the
+that's okay. What really matters is the
+quality and style of the output. Now,
+quality and style of the output. Now,
+quality and style of the output. Now,
+here is something extremely important.
+here is something extremely important.
+here is something extremely important.
+If you want to make sure your character
+If you want to make sure your character
+If you want to make sure your character
+looks the same across multiple scenes,
+looks the same across multiple scenes,
+looks the same across multiple scenes,
+you need to lock the seat setting at the
+you need to lock the seat setting at the
+you need to lock the seat setting at the
+bottom of the left panel. This is what
+bottom of the left panel. This is what
+bottom of the left panel. This is what
+controls the randomness of the output.
+controls the randomness of the output.
+controls the randomness of the output.
+All right, now it's time to generate
+All right, now it's time to generate
+All right, now it's time to generate
+Milo's actual visuals. Let's go ahead
+Milo's actual visuals. Let's go ahead
+Milo's actual visuals. Let's go ahead
+and copy the character prompt we
+and copy the character prompt we
+and copy the character prompt we
+generated earlier with chat GPT. Paste
+generated earlier with chat GPT. Paste
+generated earlier with chat GPT. Paste
+it into the image effects prompt box and
+it into the image effects prompt box and
+it into the image effects prompt box and
+then click create. After just a few
+then click create. After just a few
+then click create. After just a few
+moments, you'll see four image
+moments, you'll see four image
+moments, you'll see four image
+variations of Milo, all created in the
+variations of Milo, all created in the
+variations of Milo, all created in the
+charming 3D pixel style. As you can see,
+charming 3D pixel style. As you can see,
+charming 3D pixel style. As you can see,
+all of the versions are quite similar.
+all of the versions are quite similar.
+all of the versions are quite similar.
+They have the same character structure,
+They have the same character structure,
+They have the same character structure,
+clothing, and vibe, but with small
+clothing, and vibe, but with small
+clothing, and vibe, but with small
+stylistic differences. Go ahead and
+stylistic differences. Go ahead and
+stylistic differences. Go ahead and
+choose your favorite one, then download
+choose your favorite one, then download
+choose your favorite one, then download
+and store it somewhere safe because
+and store it somewhere safe because
+and store it somewhere safe because
+we'll be using it soon. Now, it's time
+we'll be using it soon. Now, it's time
+we'll be using it soon. Now, it's time
+to move on and create our very first
+to move on and create our very first
+to move on and create our very first
+scene. Before we do that, don't forget
+scene. Before we do that, don't forget
+scene. Before we do that, don't forget
+one crucial step. Lock the seat value.
+one crucial step. Lock the seat value.
+one crucial step. Lock the seat value.
+This is super important if you want Milo
+This is super important if you want Milo
+This is super important if you want Milo
+to look the same in every scene. Next,
+to look the same in every scene. Next,
+to look the same in every scene. Next,
+let's open up the text file where we
+let's open up the text file where we
+let's open up the text file where we
+saved our story and copy the script for
+saved our story and copy the script for
+saved our story and copy the script for
+the first scene. Now, here is something
+the first scene. Now, here is something
+the first scene. Now, here is something
+important to understand. In order for
+important to understand. In order for
+important to understand. In order for
+image effects to generate Milo correctly
+image effects to generate Milo correctly
+image effects to generate Milo correctly
+in every scene, you will need to include
+in every scene, you will need to include
+in every scene, you will need to include
+the character description in every
+the character description in every
+the character description in every
+single prompt. That means every time
+single prompt. That means every time
+single prompt. That means every time
+you're generating a new scene, you start
+you're generating a new scene, you start
+you're generating a new scene, you start
+with Milo's description and then below
+with Milo's description and then below
+with Milo's description and then below
+that you add the scene specific part of
+that you add the scene specific part of
+that you add the scene specific part of
+the story. Once we run that image
+the story. Once we run that image
+the story. Once we run that image
+effects gives us the first scene and the
+effects gives us the first scene and the
+effects gives us the first scene and the
+best part, Milo still looks exactly the
+best part, Milo still looks exactly the
+best part, Milo still looks exactly the
+same. Same hoodie, same here, same wipe.
+same. Same hoodie, same here, same wipe.
+same. Same hoodie, same here, same wipe.
+That's the power of keeping your
+That's the power of keeping your
+That's the power of keeping your
+character description in the prompt and
+character description in the prompt and
+character description in the prompt and
+locking the seat. Now go ahead, pick
+locking the seat. Now go ahead, pick
+locking the seat. Now go ahead, pick
+your favorite image from the generated
+your favorite image from the generated
+your favorite image from the generated
+options and store it. We will use these
+options and store it. We will use these
+options and store it. We will use these
+images in the final video to build each
+images in the final video to build each
+images in the final video to build each
+scene of our 3D cartoon. All right, now
+scene of our 3D cartoon. All right, now
+scene of our 3D cartoon. All right, now
+that we've created Milo's visual in our
+that we've created Milo's visual in our
+that we've created Milo's visual in our
+first scene using image effects, it's
+first scene using image effects, it's
+first scene using image effects, it's
+finally time to bring that image to life
+finally time to bring that image to life
+finally time to bring that image to life
+and turn it into an animated video. To
+and turn it into an animated video. To
+and turn it into an animated video. To
+do that, we'll be using an amazing tool
+do that, we'll be using an amazing tool
+do that, we'll be using an amazing tool
+called Hyo AAI, which you can find by
+called Hyo AAI, which you can find by
+called Hyo AAI, which you can find by
+heading over to
+heading over to
+heading over to
+HyoAI.video. This is the official
+HyoAI.video. This is the official
+HyoAI.video. This is the official
+website. First things first, sign up for
+website. First things first, sign up for
+website. First things first, sign up for
+an account. The process is quick and
+an account. The process is quick and
+an account. The process is quick and
+simple. Once you sign up, you will
+simple. Once you sign up, you will
+simple. Once you sign up, you will
+instantly receive,00 free credits, and
+instantly receive,00 free credits, and
+instantly receive,00 free credits, and
+you will also get an extra 100 credits
+you will also get an extra 100 credits
+you will also get an extra 100 credits
+every day just for logging in. That's
+every day just for logging in. That's
+every day just for logging in. That's
+more than enough to get started with
+more than enough to get started with
+more than enough to get started with
+your first few scenes. And now let's
+your first few scenes. And now let's
+your first few scenes. And now let's
+create our animation. Click on create
+create our animation. Click on create
+create our animation. Click on create
+video and you'll be taken to this page.
+video and you'll be taken to this page.
+video and you'll be taken to this page.
+This is the main animation dashboard.
+This is the main animation dashboard.
+This is the main animation dashboard.
+Here is what you'll see. A space to
+Here is what you'll see. A space to
+Here is what you'll see. A space to
+upload your image. A prompt box where
+upload your image. A prompt box where
+upload your image. A prompt box where
+you will describe what's happening in
+you will describe what's happening in
+you will describe what's happening in
+the video. And just below that there is
+the video. And just below that there is
+the video. And just below that there is
+a model selection dropdown with three
+a model selection dropdown with three
+a model selection dropdown with three
+options. video with camera controls,
+options. video with camera controls,
+options. video with camera controls,
+live characters, and base imagetovideo
+live characters, and base imagetovideo
+live characters, and base imagetovideo
+model. For this project, we're going to
+model. For this project, we're going to
+model. For this project, we're going to
+select the third option, base image to
+select the third option, base image to
+select the third option, base image to
+video model. This one is ideal for
+video model. This one is ideal for
+video model. This one is ideal for
+animating scenes like ours without any
+animating scenes like ours without any
+animating scenes like ours without any
+complex motion planning. Next, let's go
+complex motion planning. Next, let's go
+complex motion planning. Next, let's go
+ahead and upload the image from scene
+ahead and upload the image from scene
+ahead and upload the image from scene
+one that we previously
+one that we previously
+one that we previously
+saved. Then, in the prompt box, we need
+saved. Then, in the prompt box, we need
+saved. Then, in the prompt box, we need
+to paste the full character description
+to paste the full character description
+to paste the full character description
+of Milo.
+of Milo.
+of Milo.
+Next, we need to add here the specific
+Next, we need to add here the specific
+Next, we need to add here the specific
+script for the first scene. Let's copy
+script for the first scene. Let's copy
+script for the first scene. Let's copy
+and paste it as well. Once everything's
+and paste it as well. Once everything's
+and paste it as well. Once everything's
+ready, click the generate button and
+ready, click the generate button and
+ready, click the generate button and
+just give it a little
+just give it a little
+just give it a little
+time. Now, here is the cool part. In a
+time. Now, here is the cool part. In a
+time. Now, here is the cool part. In a
+few moments, you will see a short
+few moments, you will see a short
+few moments, you will see a short
+animated video of your scene come to
+animated video of your scene come to
+animated video of your scene come to
+life. It is usually around 5 to 6
+life. It is usually around 5 to 6
+life. It is usually around 5 to 6
+seconds long, and each generation costs
+seconds long, and each generation costs
+seconds long, and each generation costs
+30 credits. If you want to create longer
+30 credits. If you want to create longer
+30 credits. If you want to create longer
+animations, you'll need to upgrade to a
+animations, you'll need to upgrade to a
+animations, you'll need to upgrade to a
+premium plan. But for now, this is more
+premium plan. But for now, this is more
+premium plan. But for now, this is more
+than enough. If you're happy with the
+than enough. If you're happy with the
+than enough. If you're happy with the
+animation, awesome. Go ahead and
+animation, awesome. Go ahead and
+animation, awesome. Go ahead and
+download the video. But if it's not
+download the video. But if it's not
+download the video. But if it's not
+exactly how you imagined it, you can
+exactly how you imagined it, you can
+exactly how you imagined it, you can
+tweak the prompt, adjust the image, or
+tweak the prompt, adjust the image, or
+tweak the prompt, adjust the image, or
+try again until it feels just right.
+try again until it feels just right.
+try again until it feels just right.
+Now, here is one thing to keep in mind.
+Now, here is one thing to keep in mind.
+Now, here is one thing to keep in mind.
+With a free account, the downloaded
+With a free account, the downloaded
+With a free account, the downloaded
+video will include a watermark. If you
+video will include a watermark. If you
+video will include a watermark. If you
+want to remove it without paying for a
+want to remove it without paying for a
+want to remove it without paying for a
+premium plan, no worries. We have a
+premium plan, no worries. We have a
+premium plan, no worries. We have a
+workar around for that. Let's head over
+workar around for that. Let's head over
+workar around for that. Let's head over
+to another awesome tool called Vmake AI.
+to another awesome tool called Vmake AI.
+to another awesome tool called Vmake AI.
+Just visit
+Just visit
+Just visit
+vmake.ai, sign up and then upload your
+vmake.ai, sign up and then upload your
+vmake.ai, sign up and then upload your
+animated
+animated
+animated
+video. VMake will process it and once it
+video. VMake will process it and once it
+video. VMake will process it and once it
+is done, you can click download 5-second
+is done, you can click download 5-second
+is done, you can click download 5-second
+preview video. Since our cartoon scenes
+preview video. Since our cartoon scenes
+preview video. Since our cartoon scenes
+are short, usually five to six seconds,
+are short, usually five to six seconds,
+are short, usually five to six seconds,
+this free download option works
+this free download option works
+this free download option works
+perfectly. But if your video is longer,
+perfectly. But if your video is longer,
+perfectly. But if your video is longer,
+you'll need to upgrade to premium to
+you'll need to upgrade to premium to
+you'll need to upgrade to premium to
+download the full version. And that's
+download the full version. And that's
+download the full version. And that's
+it. Now you've got a clean watermark
+it. Now you've got a clean watermark
+it. Now you've got a clean watermark
+free animated video of your first scene
+free animated video of your first scene
+free animated video of your first scene
+ready to be used in your 3D cartoon
+ready to be used in your 3D cartoon
+ready to be used in your 3D cartoon
+movie. So by now you've seen the entire
+movie. So by now you've seen the entire
+movie. So by now you've seen the entire
+process from start to finish. We started
+process from start to finish. We started
+process from start to finish. We started
+by creating the story with AI, then
+by creating the story with AI, then
+by creating the story with AI, then
+built our main character visually with
+built our main character visually with
+built our main character visually with
+image effects, and finally brought our
+image effects, and finally brought our
+image effects, and finally brought our
+first scene to life using animation
+first scene to life using animation
+first scene to life using animation
+tools like Hyo, AI, and VMake. Now, here
+tools like Hyo, AI, and VMake. Now, here
+tools like Hyo, AI, and VMake. Now, here
+is the thing. While every scene in the
+is the thing. While every scene in the
+is the thing. While every scene in the
+animation follows the same steps,
+animation follows the same steps,
+animation follows the same steps,
+repeating the entire process for all 12
+repeating the entire process for all 12
+repeating the entire process for all 12
+scenes would take a lot of time, and
+scenes would take a lot of time, and
+scenes would take a lot of time, and
+honestly, it would just be more of the
+honestly, it would just be more of the
+honestly, it would just be more of the
+same. So, instead of walking you through
+same. So, instead of walking you through
+same. So, instead of walking you through
+each one step by step again, I'm going
+each one step by step again, I'm going
+each one step by step again, I'm going
+to prepare the rest of the scenes using
+to prepare the rest of the scenes using
+to prepare the rest of the scenes using
+the exact same workflow we just used
+the exact same workflow we just used
+the exact same workflow we just used
+together. Once I've got all the scenes
+together. Once I've got all the scenes
+together. Once I've got all the scenes
+ready, I'll come back and show you how
+ready, I'll come back and show you how
+ready, I'll come back and show you how
+we will put everything together into a
+we will put everything together into a
+we will put everything together into a
+complete 3D cartoon movie. Okay, so I've
+complete 3D cartoon movie. Okay, so I've
+complete 3D cartoon movie. Okay, so I've
+now completed and prepared all the
+now completed and prepared all the
+now completed and prepared all the
+scenes, both images and animated clips,
+scenes, both images and animated clips,
+scenes, both images and animated clips,
+using the exact same steps we walked
+using the exact same steps we walked
+using the exact same steps we walked
+through earlier. Here's the folder where
+through earlier. Here's the folder where
+through earlier. Here's the folder where
+I've organized everything. Each scene
+I've organized everything. Each scene
+I've organized everything. Each scene
+has its generated image, its animated
+has its generated image, its animated
+has its generated image, its animated
+video, and everything is labeled clearly
+video, and everything is labeled clearly
+video, and everything is labeled clearly
+so it's easy to follow. Now that
+so it's easy to follow. Now that
+so it's easy to follow. Now that
+everything is ready, it's time for one
+everything is ready, it's time for one
+everything is ready, it's time for one
+of the most exciting parts of the
+of the most exciting parts of the
+of the most exciting parts of the
+process, putting it all together. To do
+process, putting it all together. To do
+process, putting it all together. To do
+that, we'll be using one of the video
+that, we'll be using one of the video
+that, we'll be using one of the video
+editors called Cap Cut. It's available
+editors called Cap Cut. It's available
+editors called Cap Cut. It's available
+for both desktop and mobile, and it
+for both desktop and mobile, and it
+for both desktop and mobile, and it
+makes the process of cutting, arranging,
+makes the process of cutting, arranging,
+makes the process of cutting, arranging,
+and polishing your video super smooth.
+and polishing your video super smooth.
+and polishing your video super smooth.
+We'll import all of our animated scenes
+We'll import all of our animated scenes
+We'll import all of our animated scenes
+into Cap Cut.
+And before we jump into editing, there
+And before we jump into editing, there
+And before we jump into editing, there
+is one more crucial piece we need to
+is one more crucial piece we need to
+is one more crucial piece we need to
+take care of, and that is the voice
+take care of, and that is the voice
+take care of, and that is the voice
+over. As you already know, in our
+over. As you already know, in our
+over. As you already know, in our
+cartoon, Milo is interacting with the
+cartoon, Milo is interacting with the
+cartoon, Milo is interacting with the
+animals, and in almost every scene, he
+animals, and in almost every scene, he
+animals, and in almost every scene, he
+says a little something. These are not
+says a little something. These are not
+says a little something. These are not
+full conversations, but his short lines
+full conversations, but his short lines
+full conversations, but his short lines
+add a lot of personality and emotion to
+add a lot of personality and emotion to
+add a lot of personality and emotion to
+the story. To bring those lines to life,
+the story. To bring those lines to life,
+the story. To bring those lines to life,
+we'll need a voice for Milo. And for
+we'll need a voice for Milo. And for
+we'll need a voice for Milo. And for
+that, I'll be using a completely free
+that, I'll be using a completely free
+that, I'll be using a completely free
+tool called TTS free, which stands for
+tool called TTS free, which stands for
+tool called TTS free, which stands for
+text to speech. It is an online voice
+text to speech. It is an online voice
+text to speech. It is an online voice
+generator that lets you enter text and
+generator that lets you enter text and
+generator that lets you enter text and
+convert it into speech. And it comes
+convert it into speech. And it comes
+convert it into speech. And it comes
+with a variety of voices, male, female,
+with a variety of voices, male, female,
+with a variety of voices, male, female,
+and even kid voices. Now, here's the
+and even kid voices. Now, here's the
+and even kid voices. Now, here's the
+thing. TTS free currently offers only
+thing. TTS free currently offers only
+thing. TTS free currently offers only
+one child voice, and it's a female kid
+one child voice, and it's a female kid
+one child voice, and it's a female kid
+voice named Anna. Unfortunately, they
+voice named Anna. Unfortunately, they
+voice named Anna. Unfortunately, they
+don't have a male child voice available
+don't have a male child voice available
+don't have a male child voice available
+at the moment, but to be honest, at this
+at the moment, but to be honest, at this
+at the moment, but to be honest, at this
+age, kids voices, male or female, tend
+age, kids voices, male or female, tend
+age, kids voices, male or female, tend
+to sound quite similar. So, I think
+to sound quite similar. So, I think
+to sound quite similar. So, I think
+Anna's voice works perfectly for our
+Anna's voice works perfectly for our
+Anna's voice works perfectly for our
+video. However, if you happen to know or
+video. However, if you happen to know or
+video. However, if you happen to know or
+find a platform that offers a free male
+find a platform that offers a free male
+find a platform that offers a free male
+child voice, feel free to use that
+child voice, feel free to use that
+child voice, feel free to use that
+instead. And please drop it in the
+instead. And please drop it in the
+instead. And please drop it in the
+comments to help others out, too. Now,
+comments to help others out, too. Now,
+comments to help others out, too. Now,
+let me show you how it works. I'll open
+let me show you how it works. I'll open
+let me show you how it works. I'll open
+up our text file.
+up our text file.
+up our text file.
+and copy Milo's line from the first
+and copy Milo's line from the first
+and copy Milo's line from the first
+scene. Then I'll head over to TTS3,
+scene. Then I'll head over to TTS3,
+scene. Then I'll head over to TTS3,
+paste the line into the box. Select the
+paste the line into the box. Select the
+paste the line into the box. Select the
+Anna's voice and click convert. Let's
+Anna's voice and click convert. Let's
+Anna's voice and click convert. Let's
+see who lives in this beautiful place. A
+see who lives in this beautiful place. A
+see who lives in this beautiful place. A
+few seconds later, we'll get a
+few seconds later, we'll get a
+few seconds later, we'll get a
+downloadable MP3 file with Milo's voice.
+downloadable MP3 file with Milo's voice.
+downloadable MP3 file with Milo's voice.
+Just like before, I will not show this
+Just like before, I will not show this
+Just like before, I will not show this
+entire process for all 12 scenes. I'm
+entire process for all 12 scenes. I'm
+entire process for all 12 scenes. I'm
+going to prepare all the voice clips
+going to prepare all the voice clips
+going to prepare all the voice clips
+offcreen and then come back once
+offcreen and then come back once
+offcreen and then come back once
+everything is ready. All right, we are
+everything is ready. All right, we are
+everything is ready. All right, we are
+back in Capcot and I have finished
+back in Capcot and I have finished
+back in Capcot and I have finished
+putting everything together. So now let
+putting everything together. So now let
+putting everything together. So now let
+me walk you through exactly what I did
+me walk you through exactly what I did
+me walk you through exactly what I did
+to turn our AI generated assets into a
+to turn our AI generated assets into a
+to turn our AI generated assets into a
+complete animated cartoon. First I added
+complete animated cartoon. First I added
+complete animated cartoon. First I added
+all of the voice overs that we created
+all of the voice overs that we created
+all of the voice overs that we created
+earlier using TTS free and carefully
+earlier using TTS free and carefully
+earlier using TTS free and carefully
+place them in the timeline so they sync
+place them in the timeline so they sync
+place them in the timeline so they sync
+perfectly with Milo's dialogue in each
+perfectly with Milo's dialogue in each
+perfectly with Milo's dialogue in each
+scene. It is super important to mesh the
+scene. It is super important to mesh the
+scene. It is super important to mesh the
+audio timing with the animation to make
+audio timing with the animation to make
+audio timing with the animation to make
+it feel natural and engaging. Then I
+it feel natural and engaging. Then I
+it feel natural and engaging. Then I
+added transitions between scenes to help
+added transitions between scenes to help
+added transitions between scenes to help
+the video flow smoothly from one moment
+the video flow smoothly from one moment
+the video flow smoothly from one moment
+to the next. You can find tons of
+to the next. You can find tons of
+to the next. You can find tons of
+transition options in Capcat. Just click
+transition options in Capcat. Just click
+transition options in Capcat. Just click
+on the
+on the
+on the
+transitions in the nav bar and there is
+transitions in the nav bar and there is
+transitions in the nav bar and there is
+a variety of styles to choose from. Some
+a variety of styles to choose from. Some
+a variety of styles to choose from. Some
+subtle, some more playful. So you can
+subtle, some more playful. So you can
+subtle, some more playful. So you can
+pick whatever fits your story best. To
+pick whatever fits your story best. To
+pick whatever fits your story best. To
+add even more polish, I also included
+add even more polish, I also included
+add even more polish, I also included
+sound effects to enhance those
+sound effects to enhance those
+sound effects to enhance those
+transitions. These little audio touches
+transitions. These little audio touches
+transitions. These little audio touches
+make a big difference in the overall
+make a big difference in the overall
+make a big difference in the overall
+experience. You can find them by
+experience. You can find them by
+experience. You can find them by
+clicking
+clicking
+clicking
+audio and then sound effects in Cap Cut.
+audio and then sound effects in Cap Cut.
+audio and then sound effects in Cap Cut.
+From there, I just selected a few that
+From there, I just selected a few that
+From there, I just selected a few that
+match the vibe and placed them right
+match the vibe and placed them right
+match the vibe and placed them right
+under the transitions on the timeline.
+under the transitions on the timeline.
+under the transitions on the timeline.
+In scene 10, where Milo is observing the
+In scene 10, where Milo is observing the
+In scene 10, where Milo is observing the
+beavers by the stream, I added a gentle
+beavers by the stream, I added a gentle
+beavers by the stream, I added a gentle
+water sound to match the environment. It
+water sound to match the environment. It
+water sound to match the environment. It
+is a small detail, but it really brings
+is a small detail, but it really brings
+is a small detail, but it really brings
+the scene to life and makes it feel more
+the scene to life and makes it feel more
+the scene to life and makes it feel more
+immersive. Again, I made sure to keep
+immersive. Again, I made sure to keep
+immersive. Again, I made sure to keep
+the volume low so it stays in the
+the volume low so it stays in the
+the volume low so it stays in the
+background and doesn't clash with Milo's
+background and doesn't clash with Milo's
+background and doesn't clash with Milo's
+voice. I also added a couple of visual
+voice. I also added a couple of visual
+voice. I also added a couple of visual
+effects like a soft sparkle animation in
+effects like a soft sparkle animation in
+effects like a soft sparkle animation in
+some moments to give them a dreamy pixel
+some moments to give them a dreamy pixel
+some moments to give them a dreamy pixel
+style touch. Then I went into the CapCut
+style touch. Then I went into the CapCut
+style touch. Then I went into the CapCut
+audio library and found ambient nature
+audio library and found ambient nature
+audio library and found ambient nature
+sounds like birds chirping to add a
+sounds like birds chirping to add a
+sounds like birds chirping to add a
+realistic forest wipe. These background
+realistic forest wipe. These background
+realistic forest wipe. These background
+sounds help set the mood and make each
+sounds help set the mood and make each
+sounds help set the mood and make each
+scene feel more alive. I kept the volume
+scene feel more alive. I kept the volume
+scene feel more alive. I kept the volume
+subtle so that Milo's lines always stay
+subtle so that Milo's lines always stay
+subtle so that Milo's lines always stay
+front and center. Next, I chose a
+front and center. Next, I chose a
+front and center. Next, I chose a
+background music track that fits the
+background music track that fits the
+background music track that fits the
+tone of the cartoon. It is soft, light,
+tone of the cartoon. It is soft, light,
+tone of the cartoon. It is soft, light,
+and blends beautifully with the rest of
+and blends beautifully with the rest of
+and blends beautifully with the rest of
+the audio. I also adjusted the volume so
+the audio. I also adjusted the volume so
+the audio. I also adjusted the volume so
+that it supports the mood without
+that it supports the mood without
+that it supports the mood without
+overpowering the voice over or sound
+overpowering the voice over or sound
+overpowering the voice over or sound
+effects. I found this music in Caput's
+effects. I found this music in Caput's
+effects. I found this music in Caput's
+built-in library, but you can also use
+built-in library, but you can also use
+built-in library, but you can also use
+royalty-free music from other sources
+royalty-free music from other sources
+royalty-free music from other sources
+like the YouTube audio library if you
+like the YouTube audio library if you
+like the YouTube audio library if you
+have something specific in mind. And
+have something specific in mind. And
+have something specific in mind. And
+here is another feature I use that makes
+here is another feature I use that makes
+here is another feature I use that makes
+a huge difference. Autogenerated
+a huge difference. Autogenerated
+a huge difference. Autogenerated
+captions. Cap cut lets you generate
+captions. Cap cut lets you generate
+captions. Cap cut lets you generate
+subtitles automatically based on your
+subtitles automatically based on your
+subtitles automatically based on your
+voice over. After generating them, I
+voice over. After generating them, I
+voice over. After generating them, I
+went into the settings and customized
+went into the settings and customized
+went into the settings and customized
+the captions by changing the font, text
+the captions by changing the font, text
+the captions by changing the font, text
+color, background style, and even added
+color, background style, and even added
+color, background style, and even added
+caption animations to make them pop just
+caption animations to make them pop just
+caption animations to make them pop just
+a bit more. So, now we've got the voice
+a bit more. So, now we've got the voice
+a bit more. So, now we've got the voice
+over synced, transitions, and sound
+over synced, transitions, and sound
+over synced, transitions, and sound
+effects in place. Ambient and background
+effects in place. Ambient and background
+effects in place. Ambient and background
+audio set perfectly. Subtle visual
+audio set perfectly. Subtle visual
+audio set perfectly. Subtle visual
+effects, captions for clarity, and a
+effects, captions for clarity, and a
+effects, captions for clarity, and a
+background soundtrack to bring it all
+background soundtrack to bring it all
+background soundtrack to bring it all
+together. Everything is ready and our 3D
+together. Everything is ready and our 3D
+together. Everything is ready and our 3D
+cartoon animation is complete. Well,
+cartoon animation is complete. Well,
+cartoon animation is complete. Well,
+it's a short film just around 1 minute
+it's a short film just around 1 minute
+it's a short film just around 1 minute
+long. But in that time, I have shown you
+long. But in that time, I have shown you
+long. But in that time, I have shown you
+every essential step to create your own
+every essential step to create your own
+every essential step to create your own
+AI powered animated movie from story
+AI powered animated movie from story
+AI powered animated movie from story
+creation to final edit using 100% free
+creation to final edit using 100% free
+creation to final edit using 100% free
+tools. Now it's time to render the final
+tools. Now it's time to render the final
+tools. Now it's time to render the final
+video and then we'll watch the complete
+video and then we'll watch the complete
+video and then we'll watch the complete
+animation together. Let's see what we've
+animation together. Let's see what we've
+animation together. Let's see what we've
+created.
+created.
+created.
+Let's see who lives in this beautiful
+Let's see who lives in this beautiful
+Let's see who lives in this beautiful
+place. Hey there, little
+place. Hey there, little
+place. Hey there, little
+buddy. Is that your snack or
+buddy. Is that your snack or
+buddy. Is that your snack or
+treasure? Hey, you're way cooler than
+treasure? Hey, you're way cooler than
+treasure? Hey, you're way cooler than
+any story
+any story
+any story
+book. Wow, you've got the best seat in
+book. Wow, you've got the best seat in
+book. Wow, you've got the best seat in
+the forest.
+I'm just saying hi. Hey there, slow
+I'm just saying hi. Hey there, slow
+I'm just saying hi. Hey there, slow
+explorer. Don't
+explorer. Don't
+explorer. Don't
+worry. Wow. You're like tiny flying
+worry. Wow. You're like tiny flying
+worry. Wow. You're like tiny flying
+rainbows. Hi there. Teddy with
+rainbows. Hi there. Teddy with
+rainbows. Hi there. Teddy with
+paws spying on me, huh? You've got
+paws spying on me, huh? You've got
+paws spying on me, huh? You've got
+sneaky
+sneaky
+sneaky
+eyes. You guys build better than my
+eyes. You guys build better than my
+eyes. You guys build better than my
+blocks at home.
+Don't worry, it's just me and a
+Don't worry, it's just me and a
+Don't worry, it's just me and a
+snack. Bye, Forest friends. I'll be
+snack. Bye, Forest friends. I'll be
+snack. Bye, Forest friends. I'll be
+back.
+back.
+back.
+And that's it. Our AI powered 3D cartoon
+And that's it. Our AI powered 3D cartoon
+And that's it. Our AI powered 3D cartoon
+movie is officially complete. I really
+movie is officially complete. I really
+movie is officially complete. I really
+hope you enjoyed this video and found it
+hope you enjoyed this video and found it
+hope you enjoyed this video and found it
+helpful. I know it's not a full-scale
+helpful. I know it's not a full-scale
+helpful. I know it's not a full-scale
+pixel production and the final result
+pixel production and the final result
+pixel production and the final result
+might not be super professional, but
+might not be super professional, but
+might not be super professional, but
+that wasn't the goal here. The goal was
+that wasn't the goal here. The goal was
+that wasn't the goal here. The goal was
+to show you what's possible with free AI
+to show you what's possible with free AI
+to show you what's possible with free AI
+tools step by step. We went from writing
+tools step by step. We went from writing
+tools step by step. We went from writing
+a story to generating character visuals
+a story to generating character visuals
+a story to generating character visuals
+to animating scenes, adding voice overs,
+to animating scenes, adding voice overs,
+to animating scenes, adding voice overs,
+sound effects, background music, and
+sound effects, background music, and
+sound effects, background music, and
+finally editing everything together in
+finally editing everything together in
+finally editing everything together in
+Caput. All without spending a single
+Caput. All without spending a single
+Caput. All without spending a single
+scent. If this inspired you to try
+scent. If this inspired you to try
+scent. If this inspired you to try
+creating your own cartoon or explore
+creating your own cartoon or explore
+creating your own cartoon or explore
+more AI tools, then mission
+more AI tools, then mission
+more AI tools, then mission
+accomplished. If you enjoy the video,
+accomplished. If you enjoy the video,
+accomplished. If you enjoy the video,
+please consider giving it a like,
+please consider giving it a like,
+please consider giving it a like,
+hitting subscribe, and turning on the
+hitting subscribe, and turning on the
+hitting subscribe, and turning on the
+notification bell so you don't miss
+notification bell so you don't miss
+notification bell so you don't miss
+future tutorials, whether it is about
+future tutorials, whether it is about
+future tutorials, whether it is about
+AI, web development, or creative tech
+AI, web development, or creative tech
+AI, web development, or creative tech
+projects like this one. And of course,
+projects like this one. And of course,
+projects like this one. And of course,
+let me know in the comments what you
+let me know in the comments what you
+let me know in the comments what you
+thought of the video, what tools you'd
+thought of the video, what tools you'd
+thought of the video, what tools you'd
+like us to explore next, or what kind of
+like us to explore next, or what kind of
+like us to explore next, or what kind of
+content you want to see more of. Thanks
+content you want to see more of. Thanks
+content you want to see more of. Thanks
+for watching, and I'll see you in the
+for watching, and I'll see you in the
+for watching, and I'll see you in the
+next one.
+next one.
+next one.
+Hey, hey, hey.

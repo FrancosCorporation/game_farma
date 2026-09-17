@@ -1,0 +1,859 @@
+if you want to do things like lip
+syncing or facial motion capture for
+Apple's AR kit or v-tubing you'll need
+to create shape keys
+these are called morph Targets in a real
+and blend shapes in unity
+in this video we'll go through how to
+make shape keys for Apple's AR kit and
+using this method you can always go back
+and make revisions to perfect your
+expressions
+to complete this tutorial you'll need a
+fully raked character something like
+this one this was rigged using Auto rig
+Pro but you can also use brigify just
+make sure it has a full facial rig
+to make things easier for yourself I
+highly recommend getting a good example
+so I created this one here for my
+patrons
+but there's also a free one you can get
+from polywink.com the link is below so
+this one here it has all 52 shape Keys
+you'll need to make for Apple's AR kit
+the one I create has the same thing
+there's all the shape Keys you need plus
+the one I created has animations on it
+so that way you're just stepping through
+the keyframes
+you can see all the different shape keys
+so you can just use this as you're
+making the shape keys for your character
+so either one works fine
+at the time of this recording the
+polywink website was down so I found
+this website which has examples of all
+52 blend shapes
+see them here it also has a little 3D
+viewer so this is not as good as having
+a cad model in your file while you're
+making the blend shapes but for people
+who are not my patrons and if the
+following website is still down you can
+use this it's a little bit harder but
+it'll be fine
+so this whole process will have two
+major sections the first section is
+creating the poses with the bones of
+your rig and the second will be
+translating those bone poses into blend
+shapes or shape keys
+so here is an example of the first
+section
+so let's grab our character's rig go to
+pose mode
+and if we select the bones for the face
+you can see I've already created 52
+poses for the face so if we just
+click on the right arrow you can see it
+steps through all of those poses
+and these poses here are for the bones
+for the face here they're matching the
+poses over here
+our example
+okay so that's what we're going to make
+and I won't show you how to make all
+them but I will show you a few of them
+and I'll show you some of the weird
+things about making these
+um AR kit blend shapes
+so before we make the shape Keys let's
+do a really quick animation tutorial if
+you already know how to animate go ahead
+and skip this and go to the next section
+so for those who don't know how to
+animate let's let's quickly go through
+this
+so when you want to animate a
+character's rig
+this is the basic render you grab the
+Armature for the character
+and you go to object n pose mode
+and then
+this here this down here this is your
+timeline if you don't have it
+you can drag up from here and go to
+timeline
+so this is great for just simple
+animations
+and
+let's go to frame zero
+so you can navigate through the timeline
+if you middle Mouse click and go left
+and right it goes left and right if you
+scroll with the mouse wheel it zooms in
+and out
+just like it does in the viewport
+okay let's Zoom back in again here
+okay and then
+here is a record button
+so if this is on any kind of movement
+you make
+will create a keyframe for whatever you
+move
+for whatever bone you move
+at whatever frame you're at
+so this is kind of a handy way to
+animate things let's leave it off for
+now
+okay let's show you the the
+old-fashioned the manual way okay so we
+are at frame zero
+and
+let's set a keyframe for this hand so
+let's go to hit we'll grab this bone
+here hit I location rotation scale
+so what this does is it tells blender to
+have this yellow bone I highlighted for
+the hand to be in this location and this
+rotation and that scale
+at frame 0.
+now let's go to frames 30. as you can
+see as you move through
+the fractions of seconds up until 30
+which is around one second
+you can see nothing happens because it
+has no animations yet it only has this
+first one which says start there but
+nothing is telling it to change
+so let's change the hand location at
+frame 30. which is about a second
+so we have this bone let's re-select it
+G and let's just move this up
+so G or r or double hit R those all work
+the same way that you move anything else
+in blender
+okay
+so now we move this hand up here
+and we want a keyframe see this little
+Diamond that's a keyframe so we want
+that here too
+so let's hit I location rotation scale
+these are different animation types I
+usually use location rotation scale
+okay so now it's got a little Diamond
+there so now we've told blender to move
+this bone
+to dislocation rotation scale at frame
+30. so now when you move through
+the fractions of seconds here you can
+see our hand is animated
+okay so now
+let's turn on our Auto record thing here
+so let's turn this on
+now let's go to frame 60 which is
+two seconds
+and let's just move this again we'll hit
+G here
+and hit r twice here
+and so you can see it automatically
+creates a keyframe because the record is
+already on
+so we were at frame 60 we just moved
+this and it auto keyframed it
+so that's
+the basics of what we're going to be
+doing
+okay
+let's hit a to grab everything let's
+grab these X delete keyframes
+now let's go and make some poses
+so if we look back at our example here
+you can see that all these shape keys
+are already made
+and it's animated so that way if we step
+forward you can see this is the first
+shape you are going to make
+if you look over here let's see so if
+you grab the mesh go to object data
+properties
+and you can see the shape Keys you can
+see whatever has the number one next to
+it that's the shape key we're currently
+on so this is I blink left so let's go
+and make I blink left
+I forgot to mention that if you are
+using the polywink example you have to
+pose things yourself so just go to
+frame one
+where we're going to do I blink left and
+go and grab your mesh go to object data
+properties go to shape Keys here and
+then turn on I blink left
+if you go back to frame 0 you have to go
+and turn iblink left off
+okay so you have I blink left
+and then you have to go to frame two
+and turn I look down left on
+and turn off iblink left
+then you have to back up again
+and turn I look down left off
+as you can see it'll go through all the
+poses
+it's tedious but it's not too big of a
+deal and you can just
+set that all up for yourself
+and if you're not using the poly wink
+example you have to just use this one
+here so just go and look for
+I blink left
+I look left
+uh here so then you can just pull that
+up and you can reference that while
+you're making I blink left
+okay let's make our first pose let's
+grab our rig go to pose mode make sure
+we have all our control layers turned on
+which I do your layers might be
+different than mine
+and let's actually zero out all of our
+positions and save them so let's hit a
+set a and hit alt GRS
+still for frame one frame zero two alt
+GRS
+and then let's do for a few more frames
+alt GRS this is kind of tedious
+so what you can do is just grab the
+Marquee grab over a few of them
+and then hit shift d to duplicate
+and just drag them out
+so the reason why we're doing this is
+because this way when we change our
+positions for our high or whatever
+nothing else will move as we go from
+frame to frame we know everything else
+is Frozen in place that's very important
+okay now let's make our first pose
+okay let's grab a rig again go to pose
+mode
+I'm going to move the I
+so I don't need these here these are
+just getting away
+okay let's move that down to Z
+let's move this up a bit
+let's move that down a bit
+and just close the eye so it looks
+kind of like that
+looks pretty good
+that's alt H to bring everything back
+okay we've got our first pose which is I
+blink left
+okay next pose here
+is if you're wondering what it's called
+you can always
+grab the example here
+and
+look at this here it's I look down left
+um
+if you don't have this list here and if
+you don't have
+my example or the polymink example
+I'll copy this whole list and put it in
+the text below so this way you can see
+it there also
+because the web page example doesn't
+follow the same order
+I don't think it actually matters but
+it's it's nice to have all this here
+okay
+so the next one is I look down left so
+let's go and make that
+so let's grab our rig here go back to
+pose mode
+and
+I think this controls the ID c g y okay
+there we go
+and
+let's pull this down so it kind of
+matches like that
+and that's I look down left let's see
+here close
+down okay good
+so next is I look in
+so you can tell these you know it's
+gonna get kind of repetitive
+these are pretty easy so you just kind
+of go through all these and just
+make all these poses
+and let's just burn through these couple
+here
+Okay so we've completed
+all of the eye poses for the left eye
+and now we're flipping to the right eye
+all the same poses both for the right
+eye
+so there's a trick you can do to make it
+easier for yourself you can duplicate
+all these poses and then flip it
+so let's go to frame eight
+which is the first frame for the
+opposite eye moving let's go to the
+timeline here hit M to mark it
+just a way to like put a little marker
+to remind yourself of things then let's
+go here hit a to select everything
+and then let's
+if you I want to drag and select but
+there's not enough space here so you can
+move that up
+so
+um a to select everything here
+left click and drag to grab these
+keyframes let's make sure we're starting
+with the I blink
+okay
+and then shift d to move these over
+so what you want to do is get the left
+yellow diamond to be on number eight
+frame eight so let's carefully move our
+Mouse and then left click to put in
+place
+so now if we go to frame 8 it should
+look just like this
+right let's go over here
+and frame rate is just like that
+then frame nine should be looking down
+but it's all on the wrong side so you
+can flip it
+go into the 3D window hit a just to make
+sure we have all the bones
+and then right click copy pose
+right click paste X flipped
+and it should flip the pose over so now
+the eye close is on the correct side
+so we can go to next frame which is this
+eye looking down
+right click I already know we already
+have everything selected because we just
+hit a
+so you don't have to do it again
+right click copy close right click base
+X flipped so you can go through and just
+do the same thing for all of these
+okay
+so go and check your work to make sure
+it all looks okay
+which it does
+next we're going to go through
+the Second Step which is changing these
+poses into shape Keys let's get our
+whole scene set up to make it easy for
+us here
+let's do this let's grab this
+pull that there
+if you pull out from a if you put your
+mouse into the corner of a window here
+you'll see little plus if you left click
+and drag you'll make another window
+then if you click this little icon here
+you can change the mode of this window
+and let's go to properties
+okay so for this one we're going to
+click this little wrench
+so this will show the properties of
+whatever we have selected so here we
+have these and here we have nothing
+and then over here we're going to have
+this little green triangle the object
+data properties
+and this we want to Let's hide vertex
+groups
+so you have more space here we want to
+see the shape Keys drop down
+then we have our
+our face here
+we have our example so you can see what
+names we need to use let's also make
+sure our mesh is prepared so everything
+on the face should be merged into one
+chunk
+for our example working model
+you can see that the body is separate
+from the eyes and so that's not good
+because if the face moves but the
+eyelashes don't it's going to be weird
+so let's make sure it's all merged we
+should also make sure there's no mirror
+modifiers on any of this
+the sub D shouldn't mess things up you
+should have a rig modifier for all of
+your parts
+so let's make sure these all look good
+which they do
+I'm not sure what a collision that
+shouldn't do anything but let's just
+delete it
+let's go and merge all these together so
+let's grab our
+eyelashes eyebrows
+I'm just shift clicking all these things
+to go to the 3D viewport control J to
+join
+and let's see here if it's all in one
+chunk
+which it is
+okay so that's good this I is is um is
+bigger because
+our bones are making it bigger let's go
+to frame zero
+okay so you can see this this rig is
+nice and neutral
+okay let's make these shape keys so to
+start off with grab your character
+click plus here to get this basis basis
+basically this is your character without
+any changes
+um word of caution before you start
+adding shape Keys make sure your
+character is exactly how you want to be
+because if you want to change your
+character how it looks you have to redo
+all the shape keys so just word of
+warning here let's go make sure our
+modifiers is selected here
+and let's go to the first pose which is
+the left eye closed let's grab our
+example here
+let's see this is one here so let's
+double click the name next to it
+and hit Ctrl C so I blink left you need
+to name the shape keys for AR kit
+exactly like these
+so we've copied it so we have we know we
+have the exact name then click your
+character
+under the Armature modifier click this
+drop down
+uh it's probably a good idea to save
+this before you start doing these shape
+keys because
+if you apply a shape key it screws
+everything up and then it's it's just
+and if you save over it it's you're kind
+of host so don't apply a shape key
+always save as shape key
+okay save the shape key it should appear
+here
+this rig
+double-click that to rename it Ctrl V
+that's I blink left and that is our
+first shape key
+um it looks the same because this is
+actually our default mesh with the bones
+making the eye close
+but if we go to frame one
+which is the mesh with no bones moving
+anything
+and we drag this number zero to the
+right
+you can see the eye closes so this eye
+is now moving
+simply based on this mesh data in this
+shape key and not using the bones
+let's leave that off let's do the second
+pose
+so frame one
+frame two
+grab the mesh
+double click name Ctrl C click R mesh
+drop down
+save as shape key
+should appear there double click double
+click that control V that I looked down
+left then next frame
+grab our example
+double click here Ctrl C
+grab our character
+drop down save as shape key
+so this is pretty tedious but it's it's
+you know
+this is the easy part
+let's just go through and just add all
+those shape keys
+so I'll just burn through that really
+quick
+okay so I think that is the first set of
+shape Keys all made
+it's good to test these things out too
+so let's go back to our zero pose
+let's hide everything
+and just go through and check to make
+sure
+these are doing what they're supposed to
+do
+okay so it's all pretty good
+so you're gonna have to go back and and
+change these a few times so it's
+important to save these bone poses
+because later on if you realize oh I
+need the eye to move more you can go and
+change this to have the eye move more
+and then update the shape keys
+let's work on some poses that are more
+challenging
+so this next pose
+let's make sure what the right frame
+here yep so the next pose is jaw forward
+and you can see here if you go through
+the frames the jaw pops forward
+so we'll grab my mesh here my rig here
+this is the bone for the jaw if I hit G
+it moves it up and down
+but does not move the jaw forward
+so we're gonna have to figure out how to
+make this trial coming forward we can
+make this shape key using the sculpt
+mode so if you have a pose that you're
+trying to create that your rig does not
+allow you to create you can make it just
+using the sculpting so let's let's go
+through how to do that
+let's grab our example here
+this is jaw forward let's copy that name
+let's go to our character
+and in the shape Keys let's hit a plus
+here
+so this will be
+our jaw forward so if you just click
+Plus
+the shape key you make is just the mesh
+in its default pose
+to work on this mesh and edit it you
+have to set this to one
+like that
+okay so sculpt mode
+is over here and sculpt mode so sculpt
+mode is just a nice way to kind of
+sculpt your mesh into different shapes
+um
+this can do things like zbrush but in
+this case we're not going to do that
+we're just going to be kind of tweaking
+the mesh a bit like that
+but you can see already
+if I want to pull a jaw forward it's
+hard to pull the bottom part without
+pulling the top lips but you can mask it
+by hitting Ctrl shift
+and going like that and you can you can
+turn the wireframe by um
+going here and turning on wireframe so
+you can make it a little bit easier when
+you select you're just basically
+circling
+one of the intersections
+and then it that's what you're selecting
+so it's kind of a weird selection but
+that's what it is
+um
+it's a hard to select the top lip
+because it's being overlapped by the
+bottom lip so that's not going to work
+for us
+but you can go to frame 0 here
+let's go to object mode so you can just
+move you can just pose your mesh so it's
+easier to grab things
+so let's grab our jaw hit G to pull it
+down a bit
+um to Z to pull it down straight down so
+now it'll be easier to grab the top lips
+let's leave pose mode
+go to object mode grab our mesh go to
+sculpt mode
+okay so now it'll be very easy to grab
+the top mesh the part that we don't want
+to edit
+okay great
+like that
+and kind of like that should be pretty
+good so whatever you have grayed out
+that um
+that won't move
+so then let's leave a sculpt mode go to
+object mode grab our rig go to pose mode
+then go to frame 15 which was the jaw
+forward
+leave
+pose mode and go to object mode grab our
+mesh it's a lot of flipping modes
+go to sculpt mode The Mask stays which
+is nice
+okay here we are now we can pull the
+draw forward
+so um sculpting this is the elastic tool
+so as you saw you can move things around
+if you hit F you can make the area of
+influence bigger or smaller so you can
+control just a small part or if you hit
+F to make it big
+you can control a big section
+and then if you hold the shift F you'll
+increase or reduce the strength of the
+brush
+okay
+so let's just
+make that smaller a bit and shift F to
+make it a bit smaller
+and just
+carefully kind of just pull it out
+just a bit
+okay
+make sure you
+toggle it to see how it looks I think
+it's pinching right there
+you can go to shaded mode
+or you can
+toggle off overlays
+see how it looks just to to kind of get
+a feel for it I think it's
+pocketing too much there so what I'm
+going to do is Ctrl I to invert the mask
+and just pulled this a bit forward also
+to match
+okay I think that looks better
+I'm going to go to mask and clear mask
+and then you can hold shift all the uh
+any of these tools are active and it'll
+act as a smooth which is right here
+so setting this to
+anywhere from like point one to point
+two is pretty good
+and if you're on any other tool if you
+hold shift it automatically goes to this
+tool even though you can't see it
+and then you can brush
+um be careful doing too much of this
+because you can see it's
+spacing everything out
+while it's smoothing things and so it's
+good because it makes it smoother it's
+bad because now it is stretching out
+your textures so just kind of be careful
+with that you can use a smooth tool this
+is a flattened tool
+so that one it kind of Smooths but it
+just makes things flatter instead of
+spacing them out
+so
+it's hard to see what it's doing it's a
+different kind of smooth
+so it distorts less but it makes things
+kind of into a plane
+but those are kind of good to mess with
+and then let's check it out then
+okay
+her jaw looks like it's going forward so
+I think that's pretty good you might
+want to spend a little more time
+yourself
+I'm not going to because this is just a
+tutorial
+but that's how you can just sculpt to
+make one of these poses
+the reason why we don't make all the
+poses this way is because I guess speed
+using the bones versus using sculpting
+so okay
+so let's see what poses we have next
+let's also set a pose for these bones
+here and just hit a to grab everything
+and ALT GRS
+let's do that for the next few
+okay so let's make the next one let's
+um turn off jaw forward okay
+tell us back and let's move
+okay so this one was jaw forward okay so
+it's jaw left and jaw right I'm going to
+burn to these really quickly they're
+pretty simple so you should be able to
+make these
+with what we've covered so far and then
+the next one is jaw open
+let's make this one really quick
+um for the jaw open don't make the mouth
+wider
+just seems to not work too well with um
+AR kit and I don't like the shape
+I want it more round and do that just a
+bit
+turn off the wireframe
+here
+I have a hotkey so I usually do that
+let's just make this a bit
+rounder something like that okay
+looks pretty good
+that's a i location rotation scale just
+to make sure
+everything else is Frozen
+okay and I'm just going to really
+quickly
+make these shape keys
+okay let's just make sure these look
+okay
+uh we had this jaw open where we were um
+grabbing our
+doing sculpting so let's grab everything
+we're in frame zero a alt GRS to bring
+this back to neutral
+and let's just check those
+last few shape Keys draw open okay
+and
+okay
+so now let's go back to
+the next pose
+which is this weird mess so so this is
+actually the the shape key
+to close the lips while the jaw is open
+so I can show you here
+so
+let's see here
+so the way this is used is when the jaw
+is open you can actually close the lips
+like that so it's it's kind of a weird
+one
+so let's put this back so we're
+okay so we need to
+put the jaw in the open position and
+then sculpt it so the lips close
+pretty weird Okay so let's grab our mesh
+our example mesh here
+it's
+grab mouth close and copy that name go
+to our working mesh click plus so we
+have a new keyframe
+name that and set this to one okay so
+now we're ready to sculpt this this
+these bones are posing the mouth in the
+open position
+which is good
+and let's sculpt object and sculpt mode
+one problem
+with trying to move the lips
+is you're going to move the teeth and
+everything along with it which we do not
+want
+so what you can do is
+so see how the meshes in all these
+different colors it's separated by
+things called face sets
+so if you go to face it you can go to
+initialize face set and go
+you can try the different ways of doing
+face sets but you can try by loose parts
+and because my teeth and tongue were
+separate pieces from the body mesh you
+can see they're different colors
+if you Mouse over the body mesh
+and hit H all the other meshes disappear
+so then you can go and sculpt
+the mouth closed and so this is just
+it's just sculpting so you have to just
+kind of be finesse full
+um
+it's kind of this funny look
+try and sculpt
+it to look like that you can also go
+into edit mode so if you hit tab you can
+go into edit mode and still edit this
+shape key
+like Alt
+click
+set the transform mode to bounding box
+center and hit and set this to Global
+and s z and you can kind of close you
+can just edit by meshes
+and you can scroll if you turn on
+proportional editing
+SZ you can
+scroll the wheel to increase or decrease
+the influence I'm going to go pretty low
+then back to sculpt mode and I'll keep
+sculpting if you're clipping
+you can go to view and make this a small
+number
+and then if your um
+sculpting the top and the bottom lip
+move too much so you can just hit F to
+make it smaller or you can hit this here
+which is um the draw brush so it
+inflates or deflates if you hit n here
+and go to Tool
+if you make sure it's on ADD
+when you and make this bigger
+make that bigger when you stroke over it
+you can see it thickens things
+sculpting is a very um kind of a touchy
+feely tool I guess polygon modeling is
+more kind of more mechanical
+I guess
+okay I guess that's good for the
+tutorial
+um you might want to do more on your own
+and then alt H to bring everything back
+and oh shoot Okay so
+since we didn't have the teeth there we
+we can't see if we're like
+actually you know kind of self-clipping
+so we can leave sculpt mode
+and go to edit mode
+and then
+it's hard to see what's going on so we
+can go to solid mode and then go to
+x-ray mode right here
+and you can see okay the teeth are
+clipping through it looks like I pulled
+a job back too far
+so let's leave x-ray mode here
+oops not that
+yeah and then grab
+faces here
+make sure we have personal editing
+turned on to connect it only
+so it only modifies connected meshes and
+then pull it
+go to the side view here
+and hit G
+and scroll the mouse wheel so we pulled
+this out a bit
+so we're no longer clipping
+okay
+so I think that is
+done here
+and if we turn it off
+and see the mouth is open and then when
+this is on it closes the mouth with the
+jaw open
+okay so that is that's probably the
+weirdest shape key
+besides that the rest of the poses
+should be pretty straightforward so you
+can go ahead and make all those poses
+with the examples I've given
+um and then after you're finished with
+that go ahead and convert those to shape
+keys and you should be
+all good to go for AR kit
+for the rest of this video I'll just
+walk through the examples I have here of
+all of these shape keys so you have one
+more
+um more reference to look at while
+you're making your own shape keys
+and as usual I hope this video was
+helpful to you
+if it was like leave a comment to let me
+know subscribe or better yet support me
+on patreon
+and I will see you in the next video

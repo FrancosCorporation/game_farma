@@ -1,0 +1,3113 @@
+Kind: captions
+Language: en
+g'day Michael from ironbark game studio
+g'day Michael from ironbark game studio
+g'day Michael from ironbark game studio
+and in this tutorial series I will be
+and in this tutorial series I will be
+and in this tutorial series I will be
+taking you through the full development
+taking you through the full development
+taking you through the full development
+process to create a game-ready character
+process to create a game-ready character
+process to create a game-ready character
+from scratch this will cover creating a
+from scratch this will cover creating a
+from scratch this will cover creating a
+base mesh modeling armor and props
+base mesh modeling armor and props
+base mesh modeling armor and props
+sculpting a detailed head and then
+sculpting a detailed head and then
+sculpting a detailed head and then
+re-topologizing it into a simpler mesh
+re-topologizing it into a simpler mesh
+re-topologizing it into a simpler mesh
+UB mapping and then texturing in
+UB mapping and then texturing in
+UB mapping and then texturing in
+substance painter creating a rig for the
+substance painter creating a rig for the
+substance painter creating a rig for the
+character and then binding that rig to
+character and then binding that rig to
+character and then binding that rig to
+the mesh creating an animated walk cycle
+the mesh creating an animated walk cycle
+the mesh creating an animated walk cycle
+and finally exporting our characters to
+and finally exporting our characters to
+and finally exporting our characters to
+either the unreal or unity game engine
+either the unreal or unity game engine
+either the unreal or unity game engine
+these tutorials are targeted at a
+these tutorials are targeted at a
+these tutorials are targeted at a
+beginner to intermediate level so you
+beginner to intermediate level so you
+beginner to intermediate level so you
+should have some knowledge of the
+should have some knowledge of the
+should have some knowledge of the
+blender interface you can check out our
+blender interface you can check out our
+blender interface you can check out our
+blender workflow series if you're
+blender workflow series if you're
+blender workflow series if you're
+completely new to blender
+completely new to blender
+completely new to blender
+this series will be released in weekly
+this series will be released in weekly
+this series will be released in weekly
+Parts on the channel however you can
+Parts on the channel however you can
+Parts on the channel however you can
+have access to the full series now
+have access to the full series now
+have access to the full series now
+including starting files and tutorial
+including starting files and tutorial
+including starting files and tutorial
+notes from the patreon link in the
+notes from the patreon link in the
+notes from the patreon link in the
+description
+description
+description
+so let's take a look at the character
+so let's take a look at the character
+so let's take a look at the character
+concept this series will be following
+concept this series will be following
+concept this series will be following
+all the way through
+all the way through
+all the way through
+so I've made this sketch of Fleur who is
+so I've made this sketch of Fleur who is
+so I've made this sketch of Fleur who is
+a female alien humanoid and she's going
+a female alien humanoid and she's going
+a female alien humanoid and she's going
+to be the medic in a team of playable
+to be the medic in a team of playable
+to be the medic in a team of playable
+characters in a top-down shooter in a
+characters in a top-down shooter in a
+characters in a top-down shooter in a
+Sci-Fi setting she's going to have Sleek
+Sci-Fi setting she's going to have Sleek
+Sci-Fi setting she's going to have Sleek
+aquatic features with pale most skin and
+aquatic features with pale most skin and
+aquatic features with pale most skin and
+large dark eyes and because she's
+large dark eyes and because she's
+large dark eyes and because she's
+thematic she's going to have medical
+thematic she's going to have medical
+thematic she's going to have medical
+Insignia on her and her color scheme is
+Insignia on her and her color scheme is
+Insignia on her and her color scheme is
+going to be this light bluish gray with
+going to be this light bluish gray with
+going to be this light bluish gray with
+white and silver metallic accents so
+white and silver metallic accents so
+white and silver metallic accents so
+thinking a bit about the intended use
+thinking a bit about the intended use
+thinking a bit about the intended use
+because the game is a top-down shooter
+because the game is a top-down shooter
+because the game is a top-down shooter
+the character doesn't need to be highly
+the character doesn't need to be highly
+the character doesn't need to be highly
+detailed and can have a reduced poly
+detailed and can have a reduced poly
+detailed and can have a reduced poly
+count however we want to do some
+count however we want to do some
+count however we want to do some
+close-up renders so the character has to
+close-up renders so the character has to
+close-up renders so the character has to
+have a moderate amount of detail to it
+have a moderate amount of detail to it
+have a moderate amount of detail to it
+it's much easier to reduce the quality
+it's much easier to reduce the quality
+it's much easier to reduce the quality
+later than trying to add details so I'm
+later than trying to add details so I'm
+later than trying to add details so I'm
+going to aim for a Target pulley count
+going to aim for a Target pulley count
+going to aim for a Target pulley count
+of around 20 000 tries the helmet should
+of around 20 000 tries the helmet should
+of around 20 000 tries the helmet should
+be removable for renders and hero shots
+be removable for renders and hero shots
+be removable for renders and hero shots
+wherever when a helmet is on the head
+wherever when a helmet is on the head
+wherever when a helmet is on the head
+should be disabled to improve
+should be disabled to improve
+should be disabled to improve
+performance in the game the rig
+performance in the game the rig
+performance in the game the rig
+structure is going to be humanoid which
+structure is going to be humanoid which
+structure is going to be humanoid which
+will allow the rig to have humanoid
+will allow the rig to have humanoid
+will allow the rig to have humanoid
+animations targeted to it if custom
+animations targeted to it if custom
+animations targeted to it if custom
+animations are not made or if we've made
+animations are not made or if we've made
+animations are not made or if we've made
+animation for another character that we
+animation for another character that we
+animation for another character that we
+want to bring across so now we can break
+want to bring across so now we can break
+want to bring across so now we can break
+down the concept into the different
+down the concept into the different
+down the concept into the different
+parts which we can model separately so
+parts which we can model separately so
+parts which we can model separately so
+the helmet as this is removable we need
+the helmet as this is removable we need
+the helmet as this is removable we need
+to have this as a separate mesh the head
+to have this as a separate mesh the head
+to have this as a separate mesh the head
+although this could be modeled with the
+although this could be modeled with the
+although this could be modeled with the
+rest of the body being able to disable
+rest of the body being able to disable
+rest of the body being able to disable
+it when the helmet is on is a useful
+it when the helmet is on is a useful
+it when the helmet is on is a useful
+option the body is mostly going to be
+option the body is mostly going to be
+option the body is mostly going to be
+separate from the armor pieces and is
+separate from the armor pieces and is
+separate from the armor pieces and is
+going to form the base mesh part of the
+going to form the base mesh part of the
+going to form the base mesh part of the
+base mesh however is also going to have
+base mesh however is also going to have
+base mesh however is also going to have
+the chest plate and also the legs this
+the chest plate and also the legs this
+the chest plate and also the legs this
+is going to make our lives a fair bit
+is going to make our lives a fair bit
+is going to make our lives a fair bit
+easier when we get into binding armor
+easier when we get into binding armor
+easier when we get into binding armor
+pieces on the arms and knees shoulders
+pieces on the arms and knees shoulders
+pieces on the arms and knees shoulders
+and upper legs these can all be modeled
+and upper legs these can all be modeled
+and upper legs these can all be modeled
+separately and will be easy to bind to
+separately and will be easy to bind to
+separately and will be easy to bind to
+the rig as they don't extend across
+the rig as they don't extend across
+the rig as they don't extend across
+Bones the belts and also the cloth are
+Bones the belts and also the cloth are
+Bones the belts and also the cloth are
+going to be modeled separately as well
+going to be modeled separately as well
+going to be modeled separately as well
+so jumping in we are going to be
+so jumping in we are going to be
+so jumping in we are going to be
+creating a base mesh
+creating a base mesh
+creating a base mesh
+now we could model the base mesh from
+now we could model the base mesh from
+now we could model the base mesh from
+scratch but I do have these template
+scratch but I do have these template
+scratch but I do have these template
+images which I'm going to be using as a
+images which I'm going to be using as a
+images which I'm going to be using as a
+bit of a guide and a reference so I have
+bit of a guide and a reference so I have
+bit of a guide and a reference so I have
+this female front side and top down
+this female front side and top down
+this female front side and top down
+views so I'm just going to left click
+views so I'm just going to left click
+views so I'm just going to left click
+and drag each one of these images from
+and drag each one of these images from
+and drag each one of these images from
+my folder into blender
+my folder into blender
+my folder into blender
+making sure not to drag them directly on
+making sure not to drag them directly on
+making sure not to drag them directly on
+top of each other otherwise that will
+top of each other otherwise that will
+top of each other otherwise that will
+replace the image
+replace the image
+replace the image
+so just drag them anywhere in the scene
+so just drag them anywhere in the scene
+so just drag them anywhere in the scene
+and then we can jump into render I'm
+and then we can jump into render I'm
+and then we can jump into render I'm
+going to delete the default camera and
+going to delete the default camera and
+going to delete the default camera and
+the light because they're just going to
+the light because they're just going to
+the light because they're just going to
+get in the way so select both the shift
+get in the way so select both the shift
+get in the way so select both the shift
+X and delete
+X and delete
+X and delete
+I'll then select my three reference
+I'll then select my three reference
+I'll then select my three reference
+images I'm going to reset the rotation
+images I'm going to reset the rotation
+images I'm going to reset the rotation
+and the location with alt R and ALT G so
+and the location with alt R and ALT G so
+and the location with alt R and ALT G so
+they're going to appear in the center
+they're going to appear in the center
+they're going to appear in the center
+there
+and now I want to scale them down into
+and now I want to scale them down into
+and now I want to scale them down into
+an appropriate size so I'm going to
+an appropriate size so I'm going to
+an appropriate size so I'm going to
+press numpad 7 to look for my top view
+press numpad 7 to look for my top view
+press numpad 7 to look for my top view
+and this cube in the middle here this is
+and this cube in the middle here this is
+and this cube in the middle here this is
+a 2 meter by 2 meter cube so we want to
+a 2 meter by 2 meter cube so we want to
+a 2 meter by 2 meter cube so we want to
+size down our reference images to be a
+size down our reference images to be a
+size down our reference images to be a
+little bit smaller than that so I'm
+little bit smaller than that so I'm
+little bit smaller than that so I'm
+going to hit alt Z to go into x-ray
+going to hit alt Z to go into x-ray
+going to hit alt Z to go into x-ray
+Esther scale
+Esther scale
+Esther scale
+and I'm going to scale these so it's
+and I'm going to scale these so it's
+and I'm going to scale these so it's
+about 1.8 meters high so 10 centimeters
+about 1.8 meters high so 10 centimeters
+about 1.8 meters high so 10 centimeters
+on top and bottom difference
+on top and bottom difference
+on top and bottom difference
+it's going to rotate out of that and we
+it's going to rotate out of that and we
+it's going to rotate out of that and we
+want to move the reference images to the
+want to move the reference images to the
+want to move the reference images to the
+different sides
+different sides
+different sides
+so I'm going to grab the
+so I'm going to grab the
+so I'm going to grab the
+um the top down view here
+um the top down view here
+um the top down view here
+it's going to grab Z so it's just
+it's going to grab Z so it's just
+it's going to grab Z so it's just
+beneath there
+gonna grab the side on view just gonna
+gonna grab the side on view just gonna
+gonna grab the side on view just gonna
+go RX 90 then RZ 90.
+go RX 90 then RZ 90.
+go RX 90 then RZ 90.
+grab along the x-axis there
+and the frontal one is going to hit RX
+and the frontal one is going to hit RX
+and the frontal one is going to hit RX
+90 grab it out on the Y
+now I'm going to select the side and the
+now I'm going to select the side and the
+now I'm going to select the side and the
+front ones we're going to hit one
+front ones we're going to hit one
+front ones we're going to hit one
+to go into the front view and I'm just
+to go into the front view and I'm just
+to go into the front view and I'm just
+going to move these both up so that the
+going to move these both up so that the
+going to move these both up so that the
+feet are roughly on the zero point there
+okay
+so we're going to reference the setup
+so we're going to reference the setup
+so we're going to reference the setup
+I'm going to select the cube now we're
+I'm going to select the cube now we're
+I'm going to select the cube now we're
+going to be working with this Cube
+going to be working with this Cube
+going to be working with this Cube
+I'm going to press tab to go into edit
+I'm going to press tab to go into edit
+I'm going to press tab to go into edit
+mode then I'm going to hit 1 to go into
+mode then I'm going to hit 1 to go into
+mode then I'm going to hit 1 to go into
+the front view
+the front view
+the front view
+and I'm going to scale down this Cube
+and I'm going to scale down this Cube
+and I'm going to scale down this Cube
+and move it up
+and move it up
+and move it up
+so it's roughly the same width as the
+so it's roughly the same width as the
+so it's roughly the same width as the
+body
+all right something like that
+all right something like that
+all right something like that
+and I'm going to mirror our mesh here so
+and I'm going to mirror our mesh here so
+and I'm going to mirror our mesh here so
+I only want to work on one side it's
+I only want to work on one side it's
+I only want to work on one side it's
+going to save us a lot of time if we
+going to save us a lot of time if we
+going to save us a lot of time if we
+only have to extrude model one of the
+only have to extrude model one of the
+only have to extrude model one of the
+arms and one of the legs
+arms and one of the legs
+arms and one of the legs
+so I'm going to hit Ctrl r
+so I'm going to hit Ctrl r
+so I'm going to hit Ctrl r
+and I'm going to create a loop cut down
+and I'm going to create a loop cut down
+and I'm going to create a loop cut down
+the center so left click then right
+the center so left click then right
+the center so left click then right
+click
+I've got a marquee select the side edges
+I've got a marquee select the side edges
+I've got a marquee select the side edges
+here
+here
+here
+X and vertices
+X and vertices
+X and vertices
+and then I'm going to go to my modifier
+and then I'm going to go to my modifier
+and then I'm going to go to my modifier
+properties here
+properties here
+properties here
+I'm going to add a mirror modifier
+I'm going to add a mirror modifier
+I'm going to add a mirror modifier
+so the default axis on the X should be
+so the default axis on the X should be
+so the default axis on the X should be
+the one that you want
+the one that you want
+the one that you want
+there's one more thing that we can tick
+there's one more thing that we can tick
+there's one more thing that we can tick
+in here and that's clipping so without
+in here and that's clipping so without
+in here and that's clipping so without
+clipping turned on if I grab one of
+clipping turned on if I grab one of
+clipping turned on if I grab one of
+these Center vertices here
+these Center vertices here
+these Center vertices here
+and I move it that's going to create
+and I move it that's going to create
+and I move it that's going to create
+this hole and split it away from the
+this hole and split it away from the
+this hole and split it away from the
+center there
+center there
+center there
+if we have clipping turn on and we try
+if we have clipping turn on and we try
+if we have clipping turn on and we try
+to grab it it's going to keep it on that
+to grab it it's going to keep it on that
+to grab it it's going to keep it on that
+center edge so we're not going to
+center edge so we're not going to
+center edge so we're not going to
+overlap on the mirror next step is to
+overlap on the mirror next step is to
+overlap on the mirror next step is to
+start adding in Edge loops and shaping
+start adding in Edge loops and shaping
+start adding in Edge loops and shaping
+so I'm going to go Ctrl r
+so I'm going to go Ctrl r
+so I'm going to go Ctrl r
+and I'm going to use the mouse wheel
+and I'm going to use the mouse wheel
+and I'm going to use the mouse wheel
+to create about six Edge Loops here
+and I'm just going to grab these
+and I'm just going to grab these
+and I'm just going to grab these
+and move along the x-axis inwards and
+and move along the x-axis inwards and
+and move along the x-axis inwards and
+I'm just going to follow the Contour of
+I'm just going to follow the Contour of
+I'm just going to follow the Contour of
+my reference image there
+like so
+looking down to the legs I'm going to
+looking down to the legs I'm going to
+looking down to the legs I'm going to
+grab these bottom vertices here
+grab these bottom vertices here
+grab these bottom vertices here
+and extrude those down
+and I'm going to create one more
+and I'm going to create one more
+and I'm going to create one more
+Extrusion down here
+and this vertex on the side I'm going to
+and this vertex on the side I'm going to
+and this vertex on the side I'm going to
+move this one across here like that
+move this one across here like that
+move this one across here like that
+what this is going to do is it's going
+what this is going to do is it's going
+what this is going to do is it's going
+to redirect The Edge flow around the
+to redirect The Edge flow around the
+to redirect The Edge flow around the
+legs
+legs
+legs
+so I'll show you that in a bit
+so I'll show you that in a bit
+so I'll show you that in a bit
+now I'm just going to grab these
+now I'm just going to grab these
+now I'm just going to grab these
+vertices here I'm just going to start
+vertices here I'm just going to start
+vertices here I'm just going to start
+extruding down the leg
+we might get to a point where we want it
+we might get to a point where we want it
+we might get to a point where we want it
+to be completely straight
+to be completely straight
+to be completely straight
+so a couple of methods to get these
+so a couple of methods to get these
+so a couple of methods to get these
+vertices completely straight and in line
+vertices completely straight and in line
+vertices completely straight and in line
+with each other we could come up here to
+with each other we could come up here to
+with each other we could come up here to
+our snapping tool and turn on Snap to
+our snapping tool and turn on Snap to
+our snapping tool and turn on Snap to
+vertex
+vertex
+vertex
+and then if we grab these vertices on
+and then if we grab these vertices on
+and then if we grab these vertices on
+the side press a g z to move it on the
+the side press a g z to move it on the
+the side press a g z to move it on the
+z-axis
+z-axis
+z-axis
+and then hold down control to activate
+and then hold down control to activate
+and then hold down control to activate
+snapping we can hover over that vertex
+snapping we can hover over that vertex
+snapping we can hover over that vertex
+there and it's going to snap to that
+there and it's going to snap to that
+there and it's going to snap to that
+vertex on the z-axis only
+vertex on the z-axis only
+vertex on the z-axis only
+another way to completely flatten out
+another way to completely flatten out
+another way to completely flatten out
+the vertices here is if we go s z and
+the vertices here is if we go s z and
+the vertices here is if we go s z and
+zero
+zero
+zero
+and that will size it on the z-axis and
+and that will size it on the z-axis and
+and that will size it on the z-axis and
+make sure that that plane is completely
+make sure that that plane is completely
+make sure that that plane is completely
+flat
+we'll then just keep extruding down the
+we'll then just keep extruding down the
+we'll then just keep extruding down the
+leg you can either do this in little
+leg you can either do this in little
+leg you can either do this in little
+increments or larger ones
+increments or larger ones
+increments or larger ones
+and then add additional Edge loops
+and then add additional Edge loops
+and then add additional Edge loops
+like so
+keep extruding down
+keep extruding down
+keep extruding down
+go around the shape of the calf
+go around the shape of the calf
+go around the shape of the calf
+we don't have to add too many vertices
+we don't have to add too many vertices
+we don't have to add too many vertices
+to start off with we want to keep it
+to start off with we want to keep it
+to start off with we want to keep it
+fairly low detailed whilst we're doing
+fairly low detailed whilst we're doing
+fairly low detailed whilst we're doing
+this sort of outline stage but we want
+this sort of outline stage but we want
+this sort of outline stage but we want
+to get enough of the shaping in there
+to get enough of the shaping in there
+to get enough of the shaping in there
+that will be good enough for the fit for
+that will be good enough for the fit for
+that will be good enough for the fit for
+now we'll come back to that bit later
+now we'll come back to that bit later
+now we'll come back to that bit later
+so coming up back to where we had that
+so coming up back to where we had that
+so coming up back to where we had that
+leg Extrusion if I hold down Ctrl R I'll
+leg Extrusion if I hold down Ctrl R I'll
+leg Extrusion if I hold down Ctrl R I'll
+show you what I mean by The Edge flow if
+show you what I mean by The Edge flow if
+show you what I mean by The Edge flow if
+I hover over the leg we can see that the
+I hover over the leg we can see that the
+I hover over the leg we can see that the
+edge flow goes from around here down the
+edge flow goes from around here down the
+edge flow goes from around here down the
+leg if we hover it over the body we can
+leg if we hover it over the body we can
+leg if we hover it over the body we can
+see it cuts down the body so that means
+see it cuts down the body so that means
+see it cuts down the body so that means
+we can add additional detail to the body
+we can add additional detail to the body
+we can add additional detail to the body
+or the leg and it's not going to affect
+or the leg and it's not going to affect
+or the leg and it's not going to affect
+the other
+the other
+the other
+coming up to the arm we're going to do a
+coming up to the arm we're going to do a
+coming up to the arm we're going to do a
+similar thing here so I'll give another
+similar thing here so I'll give another
+similar thing here so I'll give another
+Extrusion up
+and then one more we're going to skip
+and then one more we're going to skip
+and then one more we're going to skip
+the the shoulder area
+and I'll just add a few for the neck
+and we're going to ignore the head
+and we're going to ignore the head
+and we're going to ignore the head
+because that's going to be a separate
+because that's going to be a separate
+because that's going to be a separate
+mesh
+and then for the shorter I'm going to do
+and then for the shorter I'm going to do
+and then for the shorter I'm going to do
+one Extrusion out there
+and then one more
+and then one more
+and then one more
+and like the leg we're going to redirect
+and like the leg we're going to redirect
+and like the leg we're going to redirect
+The Edge Plus I'm going to grab these
+The Edge Plus I'm going to grab these
+The Edge Plus I'm going to grab these
+vertices down here and pull that all the
+vertices down here and pull that all the
+vertices down here and pull that all the
+way up to the top of the shoulder
+and then I can start extruding out from
+and then I can start extruding out from
+and then I can start extruding out from
+this side here
+so again if we hold down Ctrl R we can
+so again if we hold down Ctrl R we can
+so again if we hold down Ctrl R we can
+see that the edge flow around the body
+see that the edge flow around the body
+see that the edge flow around the body
+stops at the shoulder there
+stops at the shoulder there
+stops at the shoulder there
+and the edge flow around the arm is
+and the edge flow around the arm is
+and the edge flow around the arm is
+going to stop at the other side of the
+going to stop at the other side of the
+going to stop at the other side of the
+shoulder so if we add more detail to the
+shoulder so if we add more detail to the
+shoulder so if we add more detail to the
+arm it's not going to affect the body if
+arm it's not going to affect the body if
+arm it's not going to affect the body if
+we add more detail to the body it won't
+we add more detail to the body it won't
+we add more detail to the body it won't
+affect the arm
+so I'm going to keep extruding along the
+so I'm going to keep extruding along the
+so I'm going to keep extruding along the
+arm now
+arm now
+arm now
+we can use the same trick to make this
+we can use the same trick to make this
+we can use the same trick to make this
+side white so if I go s and then x 0
+side white so if I go s and then x 0
+side white so if I go s and then x 0
+that's going to make that completely
+that's going to make that completely
+that's going to make that completely
+flat there you don't necessarily have to
+flat there you don't necessarily have to
+flat there you don't necessarily have to
+do that you can just make it a little
+do that you can just make it a little
+do that you can just make it a little
+bit easier to line things up
+bit easier to line things up
+bit easier to line things up
+and we're going to stop around where the
+and we're going to stop around where the
+and we're going to stop around where the
+wrist is so we're going to make the
+wrist is so we're going to make the
+wrist is so we're going to make the
+hands as separate meshes because they've
+hands as separate meshes because they've
+hands as separate meshes because they've
+got fingers it's going to involve more
+got fingers it's going to involve more
+got fingers it's going to involve more
+geometry and it's probably easier to do
+geometry and it's probably easier to do
+geometry and it's probably easier to do
+this as a separate mesh so this is the
+this as a separate mesh so this is the
+this as a separate mesh so this is the
+body so far looking from the front it's
+body so far looking from the front it's
+body so far looking from the front it's
+not looking too bad if we rotate to the
+not looking too bad if we rotate to the
+not looking too bad if we rotate to the
+side though it's obviously very blocky
+side though it's obviously very blocky
+side though it's obviously very blocky
+so I'm going to press 3 to go into the
+so I'm going to press 3 to go into the
+so I'm going to press 3 to go into the
+side view now
+side view now
+side view now
+I'm just going to line this up with the
+I'm just going to line this up with the
+I'm just going to line this up with the
+side view template
+side view template
+side view template
+so for the feet
+so for the feet
+so for the feet
+we're just going to sort of bring them
+we're just going to sort of bring them
+we're just going to sort of bring them
+down to stumps for now again I'm also
+down to stumps for now again I'm also
+down to stumps for now again I'm also
+going to add a separate mesh later on
+going to add a separate mesh later on
+going to add a separate mesh later on
+for the foot so we'll worry about that
+for the foot so we'll worry about that
+for the foot so we'll worry about that
+later
+let's just move all of these along the
+let's just move all of these along the
+let's just move all of these along the
+y-axis to line up with the leg
+it's going to look a little bit strange
+it's going to look a little bit strange
+it's going to look a little bit strange
+when we get to the top of the leg where
+when we get to the top of the leg where
+when we get to the top of the leg where
+it's connected to the body so we're just
+it's connected to the body so we're just
+it's connected to the body so we're just
+going to do our best to line things up
+going to do our best to line things up
+going to do our best to line things up
+it doesn't have to be perfect
+it doesn't have to be perfect
+it doesn't have to be perfect
+just needs to be close enough for now
+just needs to be close enough for now
+just needs to be close enough for now
+we can also add additional geometry
+we can also add additional geometry
+we can also add additional geometry
+later if we need to Define particular
+later if we need to Define particular
+later if we need to Define particular
+areas
+so we're going around to the arm area
+so we're going around to the arm area
+so we're going around to the arm area
+now this is going to be a little bit
+now this is going to be a little bit
+now this is going to be a little bit
+trickier we're going to have to use the
+trickier we're going to have to use the
+trickier we're going to have to use the
+top down view for this but I do want to
+top down view for this but I do want to
+top down view for this but I do want to
+grab these neck vertices and also move
+grab these neck vertices and also move
+grab these neck vertices and also move
+them in
+and I'll just Define the shoulder area
+and I'll just Define the shoulder area
+and I'll just Define the shoulder area
+as well just so I know where I'm working
+as well just so I know where I'm working
+as well just so I know where I'm working
+from
+and then I'm going to hit seven to look
+and then I'm going to hit seven to look
+and then I'm going to hit seven to look
+from the top view
+from the top view
+from the top view
+and let's shape this arm again we might
+and let's shape this arm again we might
+and let's shape this arm again we might
+need some extra geometry to define the
+need some extra geometry to define the
+need some extra geometry to define the
+elbow and other areas of the arm but now
+elbow and other areas of the arm but now
+elbow and other areas of the arm but now
+we're going to keep it simple and add in
+we're going to keep it simple and add in
+we're going to keep it simple and add in
+the detail later
+let's go hit alt Z to get out of X range
+let's go hit alt Z to get out of X range
+let's go hit alt Z to get out of X range
+take a bit of a better look around
+take a bit of a better look around
+take a bit of a better look around
+check the different views make sure it's
+check the different views make sure it's
+check the different views make sure it's
+looking okay looks like we might need
+looking okay looks like we might need
+looking okay looks like we might need
+some more geometry around here later
+bring these ones in a little bit but so
+bring these ones in a little bit but so
+bring these ones in a little bit but so
+far so good
+and we might just want to shape the neck
+and we might just want to shape the neck
+and we might just want to shape the neck
+a little bit as well
+I think that's the shoulder there so
+I think that's the shoulder there so
+I think that's the shoulder there so
+that needs to be brought in
+that needs to be brought in
+that needs to be brought in
+it as well
+okay
+all right so I've now shaped it from the
+all right so I've now shaped it from the
+all right so I've now shaped it from the
+front and side views uh obviously still
+front and side views uh obviously still
+front and side views uh obviously still
+looking very blocky but we do have a
+looking very blocky but we do have a
+looking very blocky but we do have a
+much nicer shape now so this is the
+much nicer shape now so this is the
+much nicer shape now so this is the
+point where we can add a few extra Edge
+point where we can add a few extra Edge
+point where we can add a few extra Edge
+Loops in here
+Loops in here
+Loops in here
+so I'm going to hit Ctrl r
+so I'm going to hit Ctrl r
+so I'm going to hit Ctrl r
+I'm going to add two Edge loops around
+I'm going to add two Edge loops around
+I'm going to add two Edge loops around
+the side here
+the side here
+the side here
+I'm going to hit Ctrl r
+I'm going to hit Ctrl r
+I'm going to hit Ctrl r
+I'm going to add two Edge loops around
+I'm going to add two Edge loops around
+I'm going to add two Edge loops around
+the leg
+the leg
+the leg
+Ctrl r
+Ctrl r
+Ctrl r
+two Edge loops around the center of the
+two Edge loops around the center of the
+two Edge loops around the center of the
+body
+body
+body
+and finally two Edge loops around the
+and finally two Edge loops around the
+and finally two Edge loops around the
+arm
+not finally because we do want to add
+not finally because we do want to add
+not finally because we do want to add
+extra Edge loops around the body chest
+extra Edge loops around the body chest
+extra Edge loops around the body chest
+area there
+so I've got a whole bunch of more
+so I've got a whole bunch of more
+so I've got a whole bunch of more
+geometry that we have to work with
+geometry that we have to work with
+geometry that we have to work with
+easiest way to shape the edges get some
+easiest way to shape the edges get some
+easiest way to shape the edges get some
+more rounded more natural organic
+more rounded more natural organic
+more rounded more natural organic
+shaping I'm going to hold down Alt and
+shaping I'm going to hold down Alt and
+shaping I'm going to hold down Alt and
+then left click on one of the outside
+then left click on one of the outside
+then left click on one of the outside
+edges
+edges
+edges
+I'm then going to press G twice so
+I'm then going to press G twice so
+I'm then going to press G twice so
+double tap G and then I can slide it
+double tap G and then I can slide it
+double tap G and then I can slide it
+along the edge it's double tap G and
+along the edge it's double tap G and
+along the edge it's double tap G and
+then slide it
+then slide it
+then slide it
+that's going to allow me to get some
+that's going to allow me to get some
+that's going to allow me to get some
+nice rounded shaping
+nice rounded shaping
+nice rounded shaping
+so I'm going to go around to each one of
+so I'm going to go around to each one of
+so I'm going to go around to each one of
+the sides here hold down alt left click
+the sides here hold down alt left click
+the sides here hold down alt left click
+and then double tap G
+and then double tap G
+and then double tap G
+let's start rounding off those sides
+let's start rounding off those sides
+let's start rounding off those sides
+again this doesn't have to be perfect
+again this doesn't have to be perfect
+again this doesn't have to be perfect
+we're just working on the shaping a bit
+we're just working on the shaping a bit
+we're just working on the shaping a bit
+at a time
+okay looking pretty good so far we might
+okay looking pretty good so far we might
+okay looking pretty good so far we might
+want to do some additional shaping
+a little tip if you want to select a
+a little tip if you want to select a
+a little tip if you want to select a
+line of vertices
+line of vertices
+line of vertices
+select one vertex hold down control and
+select one vertex hold down control and
+select one vertex hold down control and
+left click another one it's going to
+left click another one it's going to
+left click another one it's going to
+pick the shortest path between them
+pick the shortest path between them
+pick the shortest path between them
+it's going to allow me to Target
+it's going to allow me to Target
+it's going to allow me to Target
+particular areas for additional shaping
+particular areas for additional shaping
+particular areas for additional shaping
+again just double tapping G to slide
+again just double tapping G to slide
+again just double tapping G to slide
+or just manually moving them out
+or just manually moving them out
+or just manually moving them out
+still looking a bit blocky around the
+still looking a bit blocky around the
+still looking a bit blocky around the
+neck so I'll tackle this next
+because we've got a bit more geometry on
+because we've got a bit more geometry on
+because we've got a bit more geometry on
+this side I might just go to the uh the
+this side I might just go to the uh the
+this side I might just go to the uh the
+back view
+back view
+back view
+and grab some of those vertices out it's
+and grab some of those vertices out it's
+and grab some of those vertices out it's
+going to be a little bit careful not to
+going to be a little bit careful not to
+going to be a little bit careful not to
+select any of the uh the shoulder
+let's move these all out and then just
+let's move these all out and then just
+let's move these all out and then just
+do a bit more shaping using the template
+do a bit more shaping using the template
+do a bit more shaping using the template
+as a guide
+okay that's looking pretty good for the
+okay that's looking pretty good for the
+okay that's looking pretty good for the
+body
+body
+body
+so of course we can always come back to
+so of course we can always come back to
+so of course we can always come back to
+this but before we add too much detail
+this but before we add too much detail
+this but before we add too much detail
+let's get the hands and feet done and
+let's get the hands and feet done and
+let's get the hands and feet done and
+then connect it all up so for the hands
+then connect it all up so for the hands
+then connect it all up so for the hands
+I'm going to get out of edit mode so
+I'm going to get out of edit mode so
+I'm going to get out of edit mode so
+just press tab
+just press tab
+just press tab
+and I'm going to add a new Cube
+and I'm going to add a new Cube
+and I'm going to add a new Cube
+I'm gonna hit tab
+I'm gonna hit tab
+I'm gonna hit tab
+scale it down
+scale it down
+scale it down
+then move it out to roughly where we
+then move it out to roughly where we
+then move it out to roughly where we
+want the hand to be now the reason why
+want the hand to be now the reason why
+want the hand to be now the reason why
+I'm moving it in edit mode is that the
+I'm moving it in edit mode is that the
+I'm moving it in edit mode is that the
+pivot point is going to stay in the
+pivot point is going to stay in the
+pivot point is going to stay in the
+center of the scene there so when we
+center of the scene there so when we
+center of the scene there so when we
+mirror it to the other side it's going
+mirror it to the other side it's going
+mirror it to the other side it's going
+to perfectly mirror to the other side
+to perfectly mirror to the other side
+to perfectly mirror to the other side
+where we want it
+just scale this down
+just scale this down
+just scale this down
+go into top view and this is going to be
+go into top view and this is going to be
+go into top view and this is going to be
+for the finger
+so same Principle as the body I'm just
+so same Principle as the body I'm just
+so same Principle as the body I'm just
+going to extrude it out
+going to extrude it out
+going to extrude it out
+along the finger along the template
+all right and we'll check it from the
+all right and we'll check it from the
+all right and we'll check it from the
+front view now
+all right and now we need some and now
+all right and now we need some and now
+all right and now we need some and now
+we need to add some additional geometry
+we need to add some additional geometry
+we need to add some additional geometry
+so I'm going to go Ctrl r
+so I'm going to go Ctrl r
+so I'm going to go Ctrl r
+and I'm going to put a loop cut around
+and I'm going to put a loop cut around
+and I'm going to put a loop cut around
+the side there Ctrl r
+the side there Ctrl r
+the side there Ctrl r
+and I'm going to put two Loop Cuts
+and I'm going to put two Loop Cuts
+and I'm going to put two Loop Cuts
+around the top and the outside
+around the top and the outside
+around the top and the outside
+and same technique I'm going to use the
+and same technique I'm going to use the
+and same technique I'm going to use the
+edge slide up type G
+edge slide up type G
+edge slide up type G
+the round off finger
+we also want a bit nicer of a point at
+we also want a bit nicer of a point at
+we also want a bit nicer of a point at
+the end as well
+and now let's go to the back of the
+and now let's go to the back of the
+and now let's go to the back of the
+finger
+finger
+finger
+where I'm going to go into face
+where I'm going to go into face
+where I'm going to go into face
+selection
+selection
+selection
+I'm just going to select these end faces
+I'm just going to select these end faces
+I'm just going to select these end faces
+there and I'm going to delete them
+then going to grab the top three edges
+then going to grab the top three edges
+then going to grab the top three edges
+and the bottom three edges
+and I'm going to hit e to extrude along
+and I'm going to hit e to extrude along
+and I'm going to hit e to extrude along
+the x-axis
+and I'm going to do that twice
+now with this top and Autumn center edge
+now with this top and Autumn center edge
+now with this top and Autumn center edge
+I'm just going to grab that along the
+I'm just going to grab that along the
+I'm just going to grab that along the
+x-axis there
+x-axis there
+x-axis there
+I'm then going to create a face between
+I'm then going to create a face between
+I'm then going to create a face between
+these two outside edges
+and this is also going to redirect The
+and this is also going to redirect The
+and this is also going to redirect The
+Edge flow this has quite a lot of detail
+Edge flow this has quite a lot of detail
+Edge flow this has quite a lot of detail
+in the finger but we can see that we're
+in the finger but we can see that we're
+in the finger but we can see that we're
+going from three faces here to one face
+going from three faces here to one face
+going from three faces here to one face
+so it's not going to carry along all
+so it's not going to carry along all
+so it's not going to carry along all
+that detail through the rest of the hand
+that detail through the rest of the hand
+that detail through the rest of the hand
+and arm
+and arm
+and arm
+we can also test this with Ctrl R to get
+we can also test this with Ctrl R to get
+we can also test this with Ctrl R to get
+our Loop cut and we can see that the
+our Loop cut and we can see that the
+our Loop cut and we can see that the
+loop is running around the whole finger
+loop is running around the whole finger
+loop is running around the whole finger
+but it's not going to run up the rest of
+but it's not going to run up the rest of
+but it's not going to run up the rest of
+the arm so I'm just going to check on
+the arm so I'm just going to check on
+the arm so I'm just going to check on
+the top view
+the top view
+the top view
+I might do a little bit of uh shaping
+I might do a little bit of uh shaping
+I might do a little bit of uh shaping
+here
+and with that we're going to copy and
+and with that we're going to copy and
+and with that we're going to copy and
+paste this mesh to the other fingers so
+paste this mesh to the other fingers so
+paste this mesh to the other fingers so
+I'm going to hit a to select this whole
+I'm going to hit a to select this whole
+I'm going to hit a to select this whole
+finger
+finger
+finger
+go to top view
+go to top view
+go to top view
+it's going to hit shift d
+it's going to hit shift d
+it's going to hit shift d
+move it along there
+move it along there
+move it along there
+obviously we're going to have to resize
+obviously we're going to have to resize
+obviously we're going to have to resize
+and reshape these
+and reshape these
+and reshape these
+if you want to select all of the
+if you want to select all of the
+if you want to select all of the
+vertices of a single finger
+vertices of a single finger
+vertices of a single finger
+or a non-connected mesh press l
+or a non-connected mesh press l
+or a non-connected mesh press l
+I might dissolve this Edge Loop here so
+I might dissolve this Edge Loop here so
+I might dissolve this Edge Loop here so
+I'll select the edge Loop hit X and
+I'll select the edge Loop hit X and
+I'll select the edge Loop hit X and
+dissolve edges
+then hold index finger I'll delete this
+then hold index finger I'll delete this
+then hold index finger I'll delete this
+Edge loop as well X is all edges
+Edge loop as well X is all edges
+Edge loop as well X is all edges
+pull that finger back
+and I think that's looking pretty good
+so for the thumb
+so for the thumb
+so for the thumb
+I'm just going to grab the the top of
+I'm just going to grab the the top of
+I'm just going to grab the the top of
+one of the fingers so I'll grab the top
+one of the fingers so I'll grab the top
+one of the fingers so I'll grab the top
+of the uh the main finger we've been
+of the uh the main finger we've been
+of the uh the main finger we've been
+working with
+working with
+working with
+just going to hit shift d to duplicate
+just going to hit shift d to duplicate
+just going to hit shift d to duplicate
+it and pull it out
+it and pull it out
+it and pull it out
+and I'm going to rotate it on the x-axis
+and I'm going to rotate it on the x-axis
+and I'm going to rotate it on the x-axis
+by 90 degrees
+get onto side view and we'll pull this
+get onto side view and we'll pull this
+get onto side view and we'll pull this
+down here
+and we might just rotate it
+and we might just rotate it
+and we might just rotate it
+a little bit like that oops press h side
+a little bit like that oops press h side
+a little bit like that oops press h side
+I'm just gonna undo that
+up there
+up there
+up there
+gonna grab the tip and just sort of
+gonna grab the tip and just sort of
+gonna grab the tip and just sort of
+scale it up
+and then we can just extrude this back
+and then we can just extrude this back
+and then we can just extrude this back
+along the thumb
+and I'm just going to shape the end part
+and I'm just going to shape the end part
+and I'm just going to shape the end part
+here
+here
+here
+where it's going to eventually connect
+where it's going to eventually connect
+where it's going to eventually connect
+up to the other hand
+check from the top view just going to
+check from the top view just going to
+check from the top view just going to
+move it in a bit
+move it in a bit
+move it in a bit
+might even scale it in just a little bit
+might even scale it in just a little bit
+might even scale it in just a little bit
+on the Y
+all right and we might do some edits a
+all right and we might do some edits a
+all right and we might do some edits a
+little bit later on that
+okay so we have our five fingers roughly
+okay so we have our five fingers roughly
+okay so we have our five fingers roughly
+in place now we've got to combine them
+in place now we've got to combine them
+in place now we've got to combine them
+all together and then form the hand
+so on the side here I'm just going to
+so on the side here I'm just going to
+so on the side here I'm just going to
+select
+select
+select
+these two faces there
+these two faces there
+these two faces there
+I'm going to press F to create a new
+I'm going to press F to create a new
+I'm going to press F to create a new
+face I do need another Edge in there to
+face I do need another Edge in there to
+face I do need another Edge in there to
+line up with this one so I'm going to
+line up with this one so I'm going to
+line up with this one so I'm going to
+hit Ctrl r
+hit Ctrl r
+hit Ctrl r
+add a loop cut
+add a loop cut
+add a loop cut
+and then create bases in between those
+and then create bases in between those
+and then create bases in between those
+do the same on the other side select
+do the same on the other side select
+do the same on the other side select
+these two faces sorry select these two
+these two faces sorry select these two
+these two faces sorry select these two
+edges get up
+edges get up
+edges get up
+create a loop cut
+create a loop cut
+create a loop cut
+and then fill in those holes with f
+and now in between them
+I'm just going to select the edges on
+I'm just going to select the edges on
+I'm just going to select the edges on
+each finger press f
+each finger press f
+each finger press f
+create a face in between
+and we might want to do a little bit
+and we might want to do a little bit
+and we might want to do a little bit
+more shaping
+more shaping
+more shaping
+so if we just go from the top
+so if we just go from the top
+so if we just go from the top
+and I'm just going to scale these side
+and I'm just going to scale these side
+and I'm just going to scale these side
+ones
+and just get a little bit more shape to
+and just get a little bit more shape to
+and just get a little bit more shape to
+the knuckles
+the knuckles
+the knuckles
+if we wanted to straighten up this Edge
+if we wanted to straighten up this Edge
+if we wanted to straighten up this Edge
+right here we could hold down alt left
+right here we could hold down alt left
+right here we could hold down alt left
+click to select the full loop and then
+click to select the full loop and then
+click to select the full loop and then
+we just go s x and zero and that's just
+we just go s x and zero and that's just
+we just go s x and zero and that's just
+going to flatten it out make it a little
+going to flatten it out make it a little
+going to flatten it out make it a little
+bit easier for us to do the rest of the
+bit easier for us to do the rest of the
+bit easier for us to do the rest of the
+hand there I just want to straighten out
+hand there I just want to straighten out
+hand there I just want to straighten out
+and shape the bits in between the
+and shape the bits in between the
+and shape the bits in between the
+fingers as well
+fingers as well
+fingers as well
+so we'll just select both and just
+so we'll just select both and just
+so we'll just select both and just
+double D just slide them
+and that's just going to get rid of the
+and that's just going to get rid of the
+and that's just going to get rid of the
+blockiness between the fingers
+in theory we could add additional Loop
+in theory we could add additional Loop
+in theory we could add additional Loop
+Cuts in here but that's probably going
+Cuts in here but that's probably going
+Cuts in here but that's probably going
+to add a little bit too much geometry
+to add a little bit too much geometry
+to add a little bit too much geometry
+for our poly count
+for our poly count
+for our poly count
+okay let's do the thumbnail
+so I'm just gonna move these edges in
+so I'm just gonna move these edges in
+so I'm just gonna move these edges in
+just a little bit
+like that
+like that
+like that
+and then on the other side
+and then on the other side
+and then on the other side
+I'm going to extrude these five outside
+I'm going to extrude these five outside
+I'm going to extrude these five outside
+edges so not the ones on the inside
+I'll just get a side view into extrude
+and I'm kind of going to shape them a
+and I'm kind of going to shape them a
+and I'm kind of going to shape them a
+bit
+bit
+bit
+okay something like that and then with
+okay something like that and then with
+okay something like that and then with
+this center edge there
+this center edge there
+this center edge there
+I'm going to extrude that out
+I'm going to extrude that out
+I'm going to extrude that out
+and then I'm Gonna Fill in the faces
+and then I'm Gonna Fill in the faces
+and then I'm Gonna Fill in the faces
+oops fill in the faces there
+oops fill in the faces there
+oops fill in the faces there
+and there
+and there
+and there
+so this is going to redirect The Edge
+so this is going to redirect The Edge
+so this is going to redirect The Edge
+flow around the thumb
+I'm gonna move these in a bit
+I'm gonna move these in a bit
+I'm gonna move these in a bit
+shape it all inwards
+so
+and now I'm going to extrude back the
+and now I'm going to extrude back the
+and now I'm going to extrude back the
+hand so that we have something to
+hand so that we have something to
+hand so that we have something to
+connect the thumb up to
+connect the thumb up to
+connect the thumb up to
+so hold down alt select that full Edge
+so hold down alt select that full Edge
+so hold down alt select that full Edge
+Loop
+Loop
+Loop
+I'm going to go into top view for this
+I'm going to go into top view for this
+I'm going to go into top view for this
+one
+I'm just going to hit e to extrude
+I'm just going to hit e to extrude
+I'm just going to hit e to extrude
+from the X
+and I'll do another one
+and I'll do another one
+and I'll do another one
+the extrude
+the extrude
+the extrude
+x-axis
+x-axis
+x-axis
+and let's add a little bit of shaping to
+and let's add a little bit of shaping to
+and let's add a little bit of shaping to
+this
+this
+this
+making sure not to grab any parts of the
+making sure not to grab any parts of the
+making sure not to grab any parts of the
+thumb and from the side
+I'll shape this side as well
+and now we need to attach the thumb to
+and now we need to attach the thumb to
+and now we need to attach the thumb to
+the hand now
+I'm going to come around here
+I'm going to come around here
+I'm going to come around here
+and I'm gonna have to redirect The Edge
+and I'm gonna have to redirect The Edge
+and I'm gonna have to redirect The Edge
+flow again just so that we don't have
+flow again just so that we don't have
+flow again just so that we don't have
+too much geometry we need to connect
+I'm going to select this edge here
+I'm going to select this edge here
+I'm going to select this edge here
+extrude it
+gonna extrude it again
+and then I'm going to create a face
+and then I'm going to create a face
+and then I'm going to create a face
+between this Edge and this Edge
+it's going to leave a hole which I can
+it's going to leave a hole which I can
+it's going to leave a hole which I can
+fill in so face here
+fill in so face here
+fill in so face here
+and a face here
+and a face here
+and a face here
+making sure they're all kept as quads so
+making sure they're all kept as quads so
+making sure they're all kept as quads so
+four-sided faces
+now we only need to deal with this
+now we only need to deal with this
+now we only need to deal with this
+little bit here
+little bit here
+little bit here
+connecting up with the hand
+so just do a little bit of straightening
+and then I'm going to select this full
+and then I'm going to select this full
+and then I'm going to select this full
+Edge Loop here
+and I'll hit e to extrude it sort of go
+and I'll hit e to extrude it sort of go
+and I'll hit e to extrude it sort of go
+along the Y and grab it up a little bit
+along the Y and grab it up a little bit
+along the Y and grab it up a little bit
+on the Z
+on the Z
+on the Z
+it's gonna look a little messy to start
+it's gonna look a little messy to start
+it's gonna look a little messy to start
+off with
+off with
+off with
+and then we want to combine
+and then we want to combine
+and then we want to combine
+this vertex with this one here so I'm
+this vertex with this one here so I'm
+this vertex with this one here so I'm
+going to select both and
+going to select both and
+going to select both and
+and I'll go merge at last so the thumb
+and I'll go merge at last so the thumb
+and I'll go merge at last so the thumb
+vertex connects to the and vertex there
+vertex connects to the and vertex there
+vertex connects to the and vertex there
+this one and that one
+this one and that one
+this one and that one
+and at last
+and at last so just merging those
+and at last so just merging those
+and at last so just merging those
+vertices together
+vertices together
+vertices together
+looking a little bit messy
+looking a little bit messy
+looking a little bit messy
+do a little bit of um
+do a little bit of um
+do a little bit of um
+clean up now if you really wanted to
+okay it's going to be good enough now
+okay it's going to be good enough now
+okay it's going to be good enough now
+we'll come back in a little bit
+we might just want to move these along
+like so
+and make this connection point a little
+and make this connection point a little
+and make this connection point a little
+bit more natural
+sliding vertices is so useful
+okay
+okay
+okay
+let's create the rest of the hand now
+so I'm going to be selecting all the
+so I'm going to be selecting all the
+so I'm going to be selecting all the
+edges
+edges
+edges
+around here with the exception of that
+around here with the exception of that
+around here with the exception of that
+edge
+edge
+edge
+and that edge
+and I'm just going to hit e x to extrude
+and I'm just going to hit e x to extrude
+and I'm just going to hit e x to extrude
+back once
+back once
+back once
+and e x again
+and we just want to fill in the faces
+and we just want to fill in the faces
+and we just want to fill in the faces
+between these holes now
+between these holes now
+between these holes now
+so around here
+so around here
+so around here
+and this one here
+and this one here
+and this one here
+and on the other side
+and on the other side
+and on the other side
+let's slide this one a little bit closer
+oops face
+and a face there
+and a face there
+and a face there
+again let's just slide these along to
+again let's just slide these along to
+again let's just slide these along to
+make that
+make that
+make that
+point a little bit more natural where
+point a little bit more natural where
+point a little bit more natural where
+they converge I might even come in here
+they converge I might even come in here
+they converge I might even come in here
+and um shape the bottom of the handle a
+and um shape the bottom of the handle a
+and um shape the bottom of the handle a
+bit too
+and round off the square sides
+okay so the hands getting pretty close
+okay so the hands getting pretty close
+okay so the hands getting pretty close
+to done
+to done
+to done
+we do have a problem though is that we
+we do have a problem though is that we
+we do have a problem though is that we
+have far too many vertices or just
+have far too many vertices or just
+have far too many vertices or just
+around the hand here compared to where
+around the hand here compared to where
+around the hand here compared to where
+we want to join it up
+we want to join it up
+we want to join it up
+so if I turn on the statistics there
+so if I turn on the statistics there
+so if I turn on the statistics there
+it's going to bring up our poly count
+it's going to bring up our poly count
+it's going to bring up our poly count
+and the number that we've got selected
+and the number that we've got selected
+and the number that we've got selected
+is 18 edges
+is 18 edges
+is 18 edges
+whereas for the arm
+we have 12 edges
+we have 12 edges
+we have 12 edges
+so I need to somehow convert these 18
+so I need to somehow convert these 18
+so I need to somehow convert these 18
+edges into 12. so I'm going to grab this
+edges into 12. so I'm going to grab this
+edges into 12. so I'm going to grab this
+Edge Loop I'm going to extrude it back
+Edge Loop I'm going to extrude it back
+Edge Loop I'm going to extrude it back
+once more so e and then X
+once more so e and then X
+once more so e and then X
+just going to go to the top view
+just going to go to the top view
+just going to go to the top view
+what does size x 0
+and just try to shape the top of the
+and just try to shape the top of the
+and just try to shape the top of the
+hand make sure it's still following the
+hand make sure it's still following the
+hand make sure it's still following the
+Contours
+Contours
+Contours
+of the template
+now we're going to do a bit of shaping
+now we're going to do a bit of shaping
+now we're going to do a bit of shaping
+of these edges go to the top view
+of these edges go to the top view
+of these edges go to the top view
+go to grab
+go to grab
+go to grab
+these six edges and three edges on the
+these six edges and three edges on the
+these six edges and three edges on the
+top and bottom
+top and bottom
+top and bottom
+it's going to move them
+it's going to move them
+it's going to move them
+this way a little bit
+then going to grab these
+then going to grab these
+then going to grab these
+screw them out
+and then create faces
+and if we take a look at our Edge count
+and if we take a look at our Edge count
+and if we take a look at our Edge count
+now
+now
+now
+we're now down to 14 edges so we've gone
+we're now down to 14 edges so we've gone
+we're now down to 14 edges so we've gone
+from 18 edges to 14.
+from 18 edges to 14.
+from 18 edges to 14.
+so we need to get rid of another two
+so we need to get rid of another two
+so we need to get rid of another two
+so I'm just going to do this on the side
+so I'm just going to do this on the side
+so I'm just going to do this on the side
+sort of where the thumb is I'm just
+sort of where the thumb is I'm just
+sort of where the thumb is I'm just
+going to pull these back
+and I'm going to create a face in here
+and now this Edge count should now be 12
+and now this Edge count should now be 12
+and now this Edge count should now be 12
+so that matches the edge count of our of
+so that matches the edge count of our of
+so that matches the edge count of our of
+the end of the arm
+the end of the arm
+the end of the arm
+we do need to do a fair bit more shaping
+we do need to do a fair bit more shaping
+we do need to do a fair bit more shaping
+now
+now
+now
+so again I'm just going to use a lot of
+so again I'm just going to use a lot of
+so again I'm just going to use a lot of
+edge sliding to get this all looking a
+edge sliding to get this all looking a
+edge sliding to get this all looking a
+bit neater and more organic
+okay let's do a final check of our Edge
+okay let's do a final check of our Edge
+okay let's do a final check of our Edge
+flow so if we hold down control R let's
+flow so if we hold down control R let's
+flow so if we hold down control R let's
+get our Loop cut tool you can see the
+get our Loop cut tool you can see the
+get our Loop cut tool you can see the
+edge flow running around the fingers
+edge flow running around the fingers
+edge flow running around the fingers
+see the edge flow running around the
+see the edge flow running around the
+see the edge flow running around the
+side of the hand here
+side of the hand here
+side of the hand here
+we'll cut it off around the thumb there
+we'll cut it off around the thumb there
+we'll cut it off around the thumb there
+we've got some Edge Loops running around
+we've got some Edge Loops running around
+we've got some Edge Loops running around
+the hand
+the hand
+the hand
+it's all looking pretty neat
+it's all looking pretty neat
+it's all looking pretty neat
+so now I've got to combine the hand to
+so now I've got to combine the hand to
+so now I've got to combine the hand to
+the wrist of our character
+the wrist of our character
+the wrist of our character
+so I'm going to tap out of edit mode
+so I'm going to tap out of edit mode
+so I'm going to tap out of edit mode
+tap into edit mode of the body and I'm
+tap into edit mode of the body and I'm
+tap into edit mode of the body and I'm
+going to delete all these faces here
+flip them
+flip them
+flip them
+and then I'm going to select the hand
+and then I'm going to select the hand
+and then I'm going to select the hand
+first and the body second
+first and the body second
+first and the body second
+and I'm going to join them together so
+and I'm going to join them together so
+and I'm going to join them together so
+I'm going to hit Ctrl J
+I'm going to hit Ctrl J
+I'm going to hit Ctrl J
+and because I selected
+and because I selected
+and because I selected
+the body as the main primary mesh it's
+the body as the main primary mesh it's
+the body as the main primary mesh it's
+going to retain the mirror modifier and
+going to retain the mirror modifier and
+going to retain the mirror modifier and
+it's going to mirror the hand to the
+it's going to mirror the hand to the
+it's going to mirror the hand to the
+other side
+other side
+other side
+now I'm going to come in here and I need
+now I'm going to come in here and I need
+now I'm going to come in here and I need
+to sew the wrist to the hand
+so let's just create some new faces
+so let's just create some new faces
+so let's just create some new faces
+between them we could Bridge them
+between them we could Bridge them
+between them we could Bridge them
+so I'm going to select
+so I'm going to select
+so I'm going to select
+this Edge Loop here
+this Edge Loop here
+this Edge Loop here
+this one here
+this one here
+this one here
+I'm going to right click and we're going
+I'm going to right click and we're going
+I'm going to right click and we're going
+to go Bridge Edge loops
+to go Bridge Edge loops
+to go Bridge Edge loops
+and let's take a look from the front
+and let's take a look from the top
+I just want to slide these across
+just they're a bit better in line with
+just they're a bit better in line with
+just they're a bit better in line with
+each other
+and I think that's going to just about
+and I think that's going to just about
+and I think that's going to just about
+do it for the hand
+okay
+so let's move on to the feet now we
+so let's move on to the feet now we
+so let's move on to the feet now we
+could extrude feet out of the sort of
+could extrude feet out of the sort of
+could extrude feet out of the sort of
+stumps here that we've got at the ends
+stumps here that we've got at the ends
+stumps here that we've got at the ends
+um this is going to work fine for things
+um this is going to work fine for things
+um this is going to work fine for things
+like boots if you want things like toes
+like boots if you want things like toes
+like boots if you want things like toes
+then you're going to go through another
+then you're going to go through another
+then you're going to go through another
+process like doing the hands but for my
+process like doing the hands but for my
+process like doing the hands but for my
+character I'm going to do it with a
+character I'm going to do it with a
+character I'm going to do it with a
+separate goop because I've got these
+separate goop because I've got these
+separate goop because I've got these
+two-toed boots with a bit of webbing in
+two-toed boots with a bit of webbing in
+two-toed boots with a bit of webbing in
+between them so it's just going to be
+between them so it's just going to be
+between them so it's just going to be
+easier to model them separately and then
+easier to model them separately and then
+easier to model them separately and then
+combine them later
+combine them later
+combine them later
+so I'm going to tap out of edit mode
+and I'm going to add another Cube
+go into edit mode scale it down
+go into edit mode scale it down
+go into edit mode scale it down
+and move it across again making sure
+and move it across again making sure
+and move it across again making sure
+that the origin point is still in the
+that the origin point is still in the
+that the origin point is still in the
+center of the scene so it's going to
+center of the scene so it's going to
+center of the scene so it's going to
+work when we mirror it
+and let's just go into side view
+sort of roughly line it up
+okay
+okay
+okay
+foreign
+and I'm going to add two around the side
+and I'm going to add two around the side
+and I'm going to add two around the side
+there
+and I want to grab these front
+and I want to grab these front
+and I want to grab these front
+Aces there
+Aces there
+Aces there
+from the side view I'm gonna move these
+from the side view I'm gonna move these
+from the side view I'm gonna move these
+back
+I might scale the whole thing up just a
+I might scale the whole thing up just a
+I might scale the whole thing up just a
+little bit move it up
+little bit move it up
+little bit move it up
+sort of in line with the foot there
+sort of in line with the foot there
+sort of in line with the foot there
+I'm gonna grab these back faces there
+I'm gonna grab these back faces there
+I'm gonna grab these back faces there
+actually I'll just grab the top Edge
+actually I'll just grab the top Edge
+actually I'll just grab the top Edge
+there and move that up
+there and move that up
+there and move that up
+so it's in line with the foot outline
+so it's in line with the foot outline
+so it's in line with the foot outline
+okay now we want to extrude the faces on
+okay now we want to extrude the faces on
+okay now we want to extrude the faces on
+this side and this side because we want
+this side and this side because we want
+this side and this side because we want
+two does so we're going to leave this
+two does so we're going to leave this
+two does so we're going to leave this
+Center as a gap
+Center as a gap
+Center as a gap
+I'm going to go into side view extrude
+I'm going to go into side view extrude
+I'm going to go into side view extrude
+those
+want to scale them on the z-axis
+want to scale them on the z-axis
+want to scale them on the z-axis
+and let's bring them down if I don't
+and let's bring them down if I don't
+and let's bring them down if I don't
+control I can snap it to the bottom of
+control I can snap it to the bottom of
+control I can snap it to the bottom of
+the foot there
+the foot there
+the foot there
+that might actually grab all of these
+that might actually grab all of these
+that might actually grab all of these
+bottom vertices
+bottom vertices
+bottom vertices
+and snap them to the bottom of the other
+and snap them to the bottom of the other
+and snap them to the bottom of the other
+body mesh there
+okay
+now we can add some edges along here and
+now we can add some edges along here and
+now we can add some edges along here and
+then do some shaping so I'll add three
+then do some shaping so I'll add three
+then do some shaping so I'll add three
+Edge Loops to each side
+go back and do side view
+go back and do side view
+go back and do side view
+and just start shaping them
+I kind of want to make sure these bottom
+I kind of want to make sure these bottom
+I kind of want to make sure these bottom
+edges sort of blow along the same lines
+edges sort of blow along the same lines
+edges sort of blow along the same lines
+the top ones
+okay so far so good
+okay so far so good
+okay so far so good
+Now to create that webbing in between
+Now to create that webbing in between
+Now to create that webbing in between
+the toes
+the toes
+the toes
+I'm going to select these faces here
+uh but I'm not going to select these
+uh but I'm not going to select these
+uh but I'm not going to select these
+back ones we're going to sort those out
+back ones we're going to sort those out
+back ones we're going to sort those out
+later
+later
+later
+and I'm going to right click and then
+and I'm going to right click and then
+and I'm going to right click and then
+Bridge those faces together
+I then want some additional geometry in
+I then want some additional geometry in
+I then want some additional geometry in
+here so I can do a little bit more
+here so I can do a little bit more
+here so I can do a little bit more
+shaping so I'm going to hit Ctrl r
+shaping so I'm going to hit Ctrl r
+shaping so I'm going to hit Ctrl r
+and add two Loop Cuts in there
+and I'm going to re I'm going to have to
+and I'm going to re I'm going to have to
+and I'm going to re I'm going to have to
+redirect The Edge flow
+redirect The Edge flow
+redirect The Edge flow
+to line this all up so I'm going to
+to line this all up so I'm going to
+to line this all up so I'm going to
+select this back face here I'm going to
+select this back face here I'm going to
+select this back face here I'm going to
+hit e to extrude it
+I'm then going to select this back face
+I'm then going to select this back face
+I'm then going to select this back face
+there
+there
+there
+right click and then Bridge those faces
+right click and then Bridge those faces
+right click and then Bridge those faces
+together
+if I move this just a little bit further
+if I move this just a little bit further
+if I move this just a little bit further
+back
+right just scale it up a little bit as
+right just scale it up a little bit as
+right just scale it up a little bit as
+well on the Zed
+yep
+yep
+yep
+and then we're gonna have to delete
+and then we're gonna have to delete
+and then we're gonna have to delete
+all of these faces
+all of these faces
+all of these faces
+in here
+in here
+in here
+there there
+there there
+there there
+X Elite faces
+and then we're gonna have to bridge the
+and then we're gonna have to bridge the
+and then we're gonna have to bridge the
+gaps so let's select the edges there
+gaps so let's select the edges there
+gaps so let's select the edges there
+have to go face same there
+have to go face same there
+have to go face same there
+I can pull this down a little bit too
+I can pull this down a little bit too
+I can pull this down a little bit too
+much
+let's just snip that up and then on the
+let's just snip that up and then on the
+let's just snip that up and then on the
+top we'll create some faces along the
+top we'll create some faces along the
+top we'll create some faces along the
+sides there a little face
+sides there a little face
+sides there a little face
+and place
+and place
+and place
+so just redirect that edge that edge
+so just redirect that edge that edge
+so just redirect that edge that edge
+voice we've got three faces in here to
+voice we've got three faces in here to
+voice we've got three faces in here to
+shape as opposed to just one
+shape as opposed to just one
+shape as opposed to just one
+we're gonna do a pretty similar thing
+we're gonna do a pretty similar thing
+we're gonna do a pretty similar thing
+for the toes so I'm going to come up
+for the toes so I'm going to come up
+for the toes so I'm going to come up
+here and add an edge Loop
+here and add an edge Loop
+here and add an edge Loop
+around there
+around there
+around there
+um and then I'm going to delete
+um and then I'm going to delete
+um and then I'm going to delete
+these two faces
+these two faces
+these two faces
+and also these two faces here
+and also these two faces here
+and also these two faces here
+the reason I'm doing that is that when I
+the reason I'm doing that is that when I
+the reason I'm doing that is that when I
+add an edge Loop here it's not going to
+add an edge Loop here it's not going to
+add an edge Loop here it's not going to
+conform all the way around it's going to
+conform all the way around it's going to
+conform all the way around it's going to
+stop where I've deleted that base so we
+stop where I've deleted that base so we
+stop where I've deleted that base so we
+don't have the edge Loop up here
+don't have the edge Loop up here
+don't have the edge Loop up here
+do the same for the other side control y
+do the same for the other side control y
+do the same for the other side control y
+add the edge Loop
+add the edge Loop
+add the edge Loop
+and once again we're going to have to
+and once again we're going to have to
+and once again we're going to have to
+redirect The Edge flow around these gaps
+redirect The Edge flow around these gaps
+redirect The Edge flow around these gaps
+so if I add
+so if I add
+so if I add
+here
+here
+here
+and I might just scale this in on the
+and I might just scale this in on the
+and I might just scale this in on the
+x-axis
+and I'll just select this one and this
+and I'll just select this one and this
+and I'll just select this one and this
+one hit f a face this Edge and this edge
+one hit f a face this Edge and this edge
+one hit f a face this Edge and this edge
+face
+face
+face
+and then these ones here as well
+and then these ones here as well
+and then these ones here as well
+so again we're keeping them all quads
+so again we're keeping them all quads
+so again we're keeping them all quads
+each one of these faces has four sides
+each one of these faces has four sides
+each one of these faces has four sides
+and we've just redirected the edge The
+and we've just redirected the edge The
+and we've just redirected the edge The
+Edge loop around here but we haven't
+Edge loop around here but we haven't
+Edge loop around here but we haven't
+added but we haven't added any more
+added but we haven't added any more
+added but we haven't added any more
+bases or edges uh along the top here so
+bases or edges uh along the top here so
+bases or edges uh along the top here so
+we're going from
+we're going from
+we're going from
+um what would be five edges to three do
+um what would be five edges to three do
+um what would be five edges to three do
+the same for the bottom as well Ctrl r
+the same for the bottom as well Ctrl r
+the same for the bottom as well Ctrl r
+scale it in on the X
+scale it in on the X
+scale it in on the X
+print face between those two and those
+print face between those two and those
+print face between those two and those
+two but these ones
+and if we hold down Ctrl R we can see
+and if we hold down Ctrl R we can see
+and if we hold down Ctrl R we can see
+that edge Loop goes all the way around
+that edge Loop goes all the way around
+that edge Loop goes all the way around
+okay so now we've got a fair bit of
+okay so now we've got a fair bit of
+okay so now we've got a fair bit of
+geometry to work with with our shaping
+geometry to work with with our shaping
+geometry to work with with our shaping
+of the foot so let's grab these edges
+of the foot so let's grab these edges
+of the foot so let's grab these edges
+and just slide them to add some shaping
+and just slide them to add some shaping
+and just slide them to add some shaping
+and might just keep the bottom of the
+and might just keep the bottom of the
+and might just keep the bottom of the
+feet relatively flat though
+and I kind of want the toes to be
+and I kind of want the toes to be
+and I kind of want the toes to be
+splayed out a little bit I don't want
+splayed out a little bit I don't want
+splayed out a little bit I don't want
+them to be completely uh straight
+them to be completely uh straight
+them to be completely uh straight
+so I might just grab let's go to the top
+so I might just grab let's go to the top
+so I might just grab let's go to the top
+view
+view
+view
+grab this two here and I might just go r
+grab this two here and I might just go r
+grab this two here and I might just go r
+z rotate on the Z axis
+z rotate on the Z axis
+z rotate on the Z axis
+and then just grab it out on the X
+and then just grab it out on the X
+and then just grab it out on the X
+do the same with the other toe
+grab those vertices there
+grab those vertices there
+grab those vertices there
+are Zed
+are Zed
+are Zed
+and grab that out on the X
+and let's just scale these out as well
+should be tips of the toes in here
+okay
+okay
+okay
+looking pretty good so let's just
+looking pretty good so let's just
+looking pretty good so let's just
+combine this with the foot before we do
+combine this with the foot before we do
+combine this with the foot before we do
+any more shaping so I can sort of hide
+any more shaping so I can sort of hide
+any more shaping so I can sort of hide
+the scenes between the two
+the scenes between the two
+the scenes between the two
+let's go out of edit mode
+let's select this mesh here
+let's select this mesh here
+let's select this mesh here
+and we have one two three edges that
+and we have one two three edges that
+and we have one two three edges that
+we're going to need to delete
+we're going to need to delete
+we're going to need to delete
+so I'm gonna grab
+so I'm gonna grab
+so I'm gonna grab
+these faces here
+delete those uh we're gonna have to sort
+delete those uh we're gonna have to sort
+delete those uh we're gonna have to sort
+of rearrange this a little bit so it's
+of rearrange this a little bit so it's
+of rearrange this a little bit so it's
+sort of in the shape of the other foot
+sort of in the shape of the other foot
+sort of in the shape of the other foot
+so let's just grab these faces
+so let's just grab these faces
+so let's just grab these faces
+kind of move them up for now or not it's
+kind of move them up for now or not it's
+kind of move them up for now or not it's
+going to look a little bit messy
+going to look a little bit messy
+going to look a little bit messy
+but this will all be fixed
+Okay so we've got our three by three
+Okay so we've got our three by three
+Okay so we've got our three by three
+hole
+hole
+hole
+let's select the foot first
+let's select the foot first
+let's select the foot first
+shift select the body second and control
+shift select the body second and control
+shift select the body second and control
+J
+J
+J
+copies it on the other side as well go
+copies it on the other side as well go
+copies it on the other side as well go
+into edit mode
+into edit mode
+into edit mode
+and I don't really care about the shape
+and I don't really care about the shape
+and I don't really care about the shape
+of the foot down here I really care
+of the foot down here I really care
+of the foot down here I really care
+about the shape of what we just made so
+about the shape of what we just made so
+about the shape of what we just made so
+I'm going to select this first one and
+I'm going to select this first one and
+I'm going to select this first one and
+the second one
+the second one
+the second one
+and hit M merge at last submerges over
+and hit M merge at last submerges over
+and hit M merge at last submerges over
+here
+here
+here
+um a quicker way to to do this as
+um a quicker way to to do this as
+um a quicker way to to do this as
+opposed to going through each of them
+opposed to going through each of them
+opposed to going through each of them
+hitting m one by one if we go up here
+hitting m one by one if we go up here
+hitting m one by one if we go up here
+and we Select Auto merge vertices
+and we Select Auto merge vertices
+and we Select Auto merge vertices
+if we Cycle One vertices and move it
+if we Cycle One vertices and move it
+if we Cycle One vertices and move it
+close to another it's going to
+close to another it's going to
+close to another it's going to
+um essentially merge them together so if
+um essentially merge them together so if
+um essentially merge them together so if
+I hold down control for my vertex
+I hold down control for my vertex
+I hold down control for my vertex
+snapping
+snapping
+snapping
+then left click to select it merges that
+then left click to select it merges that
+then left click to select it merges that
+vertex into one there
+vertex into one there
+vertex into one there
+so select one vertex
+so select one vertex
+so select one vertex
+Jeep Ram hold down control snapping over
+Jeep Ram hold down control snapping over
+Jeep Ram hold down control snapping over
+the top so that's just going to save us
+the top so that's just going to save us
+the top so that's just going to save us
+a little bit of time
+a little bit of time
+a little bit of time
+instead of clicking m
+it's always a good idea to turn off the
+it's always a good idea to turn off the
+it's always a good idea to turn off the
+auto merge vertices when you're not
+auto merge vertices when you're not
+auto merge vertices when you're not
+using it now you can accidentally get
+using it now you can accidentally get
+using it now you can accidentally get
+rid of stuff that you're working on if
+rid of stuff that you're working on if
+rid of stuff that you're working on if
+things get too close to each other so
+things get too close to each other so
+things get too close to each other so
+turn that off there
+turn that off there
+turn that off there
+okay looking pretty good now let's just
+okay looking pretty good now let's just
+okay looking pretty good now let's just
+do a little bit more shaping I kind of
+do a little bit more shaping I kind of
+do a little bit more shaping I kind of
+want to get that heel shape in there
+want to get that heel shape in there
+want to get that heel shape in there
+um make it a little bit less flat on the
+um make it a little bit less flat on the
+um make it a little bit less flat on the
+bottom
+so that's looking pretty good so far so
+so that's looking pretty good so far so
+so that's looking pretty good so far so
+we've got our feet hands we've got the
+we've got our feet hands we've got the
+we've got our feet hands we've got the
+body in
+there's just a couple more steps that we
+there's just a couple more steps that we
+there's just a couple more steps that we
+want to do so one of the things we need
+want to do so one of the things we need
+want to do so one of the things we need
+to consider now for the future is
+to consider now for the future is
+to consider now for the future is
+topology for our rig
+so what I mean by that is around the
+so what I mean by that is around the
+so what I mean by that is around the
+joints such as the knuckles uh such as
+joints such as the knuckles uh such as
+joints such as the knuckles uh such as
+the the knees and the elbows we want to
+the the knees and the elbows we want to
+the the knees and the elbows we want to
+make sure our geometry is going to bend
+make sure our geometry is going to bend
+make sure our geometry is going to bend
+nicely with our rig so it's going to
+nicely with our rig so it's going to
+nicely with our rig so it's going to
+involve adding a few more vertices
+involve adding a few more vertices
+involve adding a few more vertices
+in those sections that are going to bend
+in those sections that are going to bend
+in those sections that are going to bend
+so let's just tackle the fingers first
+so let's just tackle the fingers first
+so let's just tackle the fingers first
+because there's a whole bunch of
+because there's a whole bunch of
+because there's a whole bunch of
+Knuckles that we can do
+so I'm going to go into Edge selection
+so I'm going to go into Edge selection
+so I'm going to go into Edge selection
+and I'm going to select the knuckle of
+and I'm going to select the knuckle of
+and I'm going to select the knuckle of
+the finger
+the finger
+the finger
+so this one here is where the knuckle of
+so this one here is where the knuckle of
+so this one here is where the knuckle of
+the index finger is going to be
+the index finger is going to be
+the index finger is going to be
+might even just hit period to uh zoom in
+might even just hit period to uh zoom in
+might even just hit period to uh zoom in
+on that numpad period that is
+and I'm going to hit v b is going to rip
+and I'm going to hit v b is going to rip
+and I'm going to hit v b is going to rip
+this Edge in fact I want to select these
+this Edge in fact I want to select these
+this Edge in fact I want to select these
+top three
+top three
+top three
+so these top three edges and then hit B
+so these top three edges and then hit B
+so these top three edges and then hit B
+to rip them
+to rip them
+to rip them
+and I'm just going to move them apart
+and I'm just going to move them apart
+and I'm just going to move them apart
+from each other just a little bit like
+from each other just a little bit like
+from each other just a little bit like
+that
+I'm going to select these edges here
+I'm going to select these edges here
+I'm going to select these edges here
+right click and then Bridge Edge loops
+right click and then Bridge Edge loops
+right click and then Bridge Edge loops
+Ctrl r
+Ctrl r
+Ctrl r
+add an additional Edge
+add an additional Edge
+add an additional Edge
+and then fill in these faces here
+and then fill in these faces here
+and then fill in these faces here
+we'll want to shape this just a little
+we'll want to shape this just a little
+we'll want to shape this just a little
+bit
+bit
+bit
+so I'm going to
+so I'm going to
+so I'm going to
+grab these ones
+grab these ones
+grab these ones
+and slide them out a little bit I might
+and slide them out a little bit I might
+and slide them out a little bit I might
+just grab these up and pull them up just
+just grab these up and pull them up just
+just grab these up and pull them up just
+a bit too
+so the main thing this is going to
+so the main thing this is going to
+so the main thing this is going to
+achieve is this knuckle is going to bend
+achieve is this knuckle is going to bend
+achieve is this knuckle is going to bend
+a lot nicer than this one here because
+a lot nicer than this one here because
+a lot nicer than this one here because
+this has more geometry to stretch
+this has more geometry to stretch
+this has more geometry to stretch
+it also further defines the knuckle
+it also further defines the knuckle
+it also further defines the knuckle
+itself in the mesh which is quite nice
+itself in the mesh which is quite nice
+itself in the mesh which is quite nice
+so I'm going to have to do this for each
+so I'm going to have to do this for each
+so I'm going to have to do this for each
+one of these knuckles
+okay and finally let's add one last
+okay and finally let's add one last
+okay and finally let's add one last
+joint for the thumb
+okay and that is the joint stand for the
+okay and that is the joint stand for the
+okay and that is the joint stand for the
+knuckles
+knuckles
+knuckles
+we're going to do a similar process for
+we're going to do a similar process for
+we're going to do a similar process for
+the knee here
+the knee here
+the knee here
+let's just press numpad period zoom in
+let's just press numpad period zoom in
+let's just press numpad period zoom in
+underneath
+and we're going to grab these front
+and we're going to grab these front
+and we're going to grab these front
+three edges here
+three edges here
+three edges here
+and press B to rip
+them up
+them up
+them up
+Bridge them
+Bridge them
+Bridge them
+add in our Loop cut in the middle
+add in our Loop cut in the middle
+add in our Loop cut in the middle
+really nice spices
+really nice spices
+really nice spices
+and then just do some extra shaping
+and I'll show you the edge flow around
+and I'll show you the edge flow around
+and I'll show you the edge flow around
+the knee here so if I go Ctrl r
+the knee here so if I go Ctrl r
+the knee here so if I go Ctrl r
+and if I hover over here we can see that
+and if I hover over here we can see that
+and if I hover over here we can see that
+the knee actually stops The Edge flow
+the knee actually stops The Edge flow
+the knee actually stops The Edge flow
+running all the way up the leg
+running all the way up the leg
+running all the way up the leg
+same with the bottom of the knee here it
+same with the bottom of the knee here it
+same with the bottom of the knee here it
+sort of stops The Edge Loop going all
+sort of stops The Edge Loop going all
+sort of stops The Edge Loop going all
+the way down the leg
+the way down the leg
+the way down the leg
+finally let's do the elbow this one I'm
+finally let's do the elbow this one I'm
+finally let's do the elbow this one I'm
+going to do a little bit differently
+going to do a little bit differently
+going to do a little bit differently
+from the other ones
+from the other ones
+from the other ones
+so I'll start off with the same process
+so I'll start off with the same process
+so I'll start off with the same process
+by ripping just a single edge here
+I'm going to bridge these edges and I'm
+I'm going to bridge these edges and I'm
+I'm going to bridge these edges and I'm
+going to add three Cuts in the middle
+going to add three Cuts in the middle
+going to add three Cuts in the middle
+now
+and I'm going to create a face
+and I'm going to create a face
+and I'm going to create a face
+here here and here
+and I'll do a little bit more shaping
+that should be going up like that
+that should be going up like that
+that should be going up like that
+and go down
+and although this doesn't redirect Edge
+and although this doesn't redirect Edge
+and although this doesn't redirect Edge
+flow from one part of the arm to the
+flow from one part of the arm to the
+flow from one part of the arm to the
+other it's quite messy now that it goes
+other it's quite messy now that it goes
+other it's quite messy now that it goes
+across
+across
+across
+um but it does create sort of like this
+um but it does create sort of like this
+um but it does create sort of like this
+Inner Circle which again creates more
+Inner Circle which again creates more
+Inner Circle which again creates more
+geometry so when that you're bending it
+geometry so when that you're bending it
+geometry so when that you're bending it
+with the rig it's going to look a lot
+with the rig it's going to look a lot
+with the rig it's going to look a lot
+nicer we're pretty much at a point where
+nicer we're pretty much at a point where
+nicer we're pretty much at a point where
+you could save this as a base mesh and
+you could save this as a base mesh and
+you could save this as a base mesh and
+then use it for a whole bunch of other
+then use it for a whole bunch of other
+then use it for a whole bunch of other
+characters I suppose with the exception
+characters I suppose with the exception
+characters I suppose with the exception
+of the uh the two toe boots which is
+of the uh the two toe boots which is
+of the uh the two toe boots which is
+very specific to this character
+very specific to this character
+very specific to this character
+um but this would be a nice point to
+um but this would be a nice point to
+um but this would be a nice point to
+save it as a base mesh
+save it as a base mesh
+save it as a base mesh
+I'm going to add one more detail to my
+I'm going to add one more detail to my
+I'm going to add one more detail to my
+character my character has these sorts
+character my character has these sorts
+character my character has these sorts
+of uh bins
+of uh bins
+of uh bins
+um on them so on the the arms and the
+um on them so on the the arms and the
+um on them so on the the arms and the
+legs got these fins coming off them so
+legs got these fins coming off them so
+legs got these fins coming off them so
+I'm going to come down to the the back
+I'm going to come down to the the back
+I'm going to come down to the the back
+of the leg here
+of the leg here
+of the leg here
+and I'm going to select
+and I'm going to select
+and I'm going to select
+these three uh these six faces
+these three uh these six faces
+these three uh these six faces
+yeah
+yeah
+yeah
+I'm gonna hit I to inset so it's kind of
+I'm gonna hit I to inset so it's kind of
+I'm gonna hit I to inset so it's kind of
+like extruding but it's not pulling it
+like extruding but it's not pulling it
+like extruding but it's not pulling it
+out or in it's just insetting the faces
+out or in it's just insetting the faces
+out or in it's just insetting the faces
+and then I'm just going to do a bit of
+and then I'm just going to do a bit of
+and then I'm just going to do a bit of
+shaping to make it more rounded
+shaping to make it more rounded
+shaping to make it more rounded
+and just using VR The Edge slide
+with that get a nice sort of rounded
+with that get a nice sort of rounded
+with that get a nice sort of rounded
+shape from what was a square
+shape from what was a square
+shape from what was a square
+select these faces again and I'm just
+select these faces again and I'm just
+select these faces again and I'm just
+going to extrude them out
+going to extrude them out
+going to extrude them out
+so maybe we'll go into the side view for
+so maybe we'll go into the side view for
+so maybe we'll go into the side view for
+this sort of extrude
+this sort of extrude
+this sort of extrude
+foreign
+foreign
+foreign
+let's just sort of rotate like this and
+let's just sort of rotate like this and
+let's just sort of rotate like this and
+go s uh y zero so that they're nice and
+go s uh y zero so that they're nice and
+go s uh y zero so that they're nice and
+flat then let's scale
+flat then let's scale
+flat then let's scale
+grab rotate them
+and extrude up
+and extrude up
+and extrude up
+into these uh sort of fins
+into these uh sort of fins
+into these uh sort of fins
+might have tapered it a little bit too
+might have tapered it a little bit too
+might have tapered it a little bit too
+thin there so I'll just come in here and
+thin there so I'll just come in here and
+thin there so I'll just come in here and
+start let's rescale them up if I really
+start let's rescale them up if I really
+start let's rescale them up if I really
+wanted to get in here I could grab
+wanted to get in here I could grab
+wanted to get in here I could grab
+these edges and sort of just uh taper
+these edges and sort of just uh taper
+these edges and sort of just uh taper
+the very top as well
+the very top as well
+the very top as well
+and I also want one for the arm so this
+and I also want one for the arm so this
+and I also want one for the arm so this
+is a case where I might want to add in a
+is a case where I might want to add in a
+is a case where I might want to add in a
+new uh Edge Loop in here
+new uh Edge Loop in here
+new uh Edge Loop in here
+so let's go Ctrl R there
+so let's go Ctrl R there
+so let's go Ctrl R there
+and I think that'll that'll do I will
+and I think that'll that'll do I will
+and I think that'll that'll do I will
+need to shape this Edge Loop because I
+need to shape this Edge Loop because I
+need to shape this Edge Loop because I
+don't want it to be completely straight
+don't want it to be completely straight
+don't want it to be completely straight
+I'll just scale Zed up a little bit
+go back to the back view and we'll do
+go back to the back view and we'll do
+go back to the back view and we'll do
+the same as we did for the uh the legs
+the same as we did for the uh the legs
+the same as we did for the uh the legs
+so we'll select six faces there eye to
+so we'll select six faces there eye to
+so we'll select six faces there eye to
+inset and we'll shape this into more of
+inset and we'll shape this into more of
+inset and we'll shape this into more of
+a circle select these faces here
+a circle select these faces here
+a circle select these faces here
+and let's extrude them let's go from the
+and let's extrude them let's go from the
+and let's extrude them let's go from the
+top this time
+taper these ones in
+and with that the base mesh is done so
+and with that the base mesh is done so
+and with that the base mesh is done so
+we have a fairly convincing character
+we have a fairly convincing character
+we have a fairly convincing character
+mesh so far with a good Edge flow
+mesh so far with a good Edge flow
+mesh so far with a good Edge flow
+it is just a base mesh so in the next
+it is just a base mesh so in the next
+it is just a base mesh so in the next
+part of the series we're going to be
+part of the series we're going to be
+part of the series we're going to be
+adding armor and accessories to the
+adding armor and accessories to the
+adding armor and accessories to the
+character this will cover the technique
+character this will cover the technique
+character this will cover the technique
+of adding armor directly to the base
+of adding armor directly to the base
+of adding armor directly to the base
+mesh and also creating pieces as
+mesh and also creating pieces as
+mesh and also creating pieces as
+separate meshes we'll also be looking at
+separate meshes we'll also be looking at
+separate meshes we'll also be looking at
+shading with how to create smooth
+shading with how to create smooth
+shading with how to create smooth
+surfaces and hard edges to Define soft
+surfaces and hard edges to Define soft
+surfaces and hard edges to Define soft
+surface and hard surface objects thanks
+surface and hard surface objects thanks
+surface and hard surface objects thanks
+for watching this video please like And
+for watching this video please like And
+for watching this video please like And
+subscribe if you found it useful you can
+subscribe if you found it useful you can
+subscribe if you found it useful you can
+check out our patreon Link in the
+check out our patreon Link in the
+check out our patreon Link in the
+description with a variety of rewards
+description with a variety of rewards
+description with a variety of rewards
+such as starting files tutorial notes
+such as starting files tutorial notes
+such as starting files tutorial notes
+and early access to the rest of the
+and early access to the rest of the
+and early access to the rest of the
+series and I'll see you in the next one

@@ -1,0 +1,1791 @@
+Kind: captions
+Language: en
+Today's video is sponsored by
+Today's video is sponsored by
+Today's video is sponsored by
+Storyblocks. Oh, hey guys. Um, you must
+Storyblocks. Oh, hey guys. Um, you must
+Storyblocks. Oh, hey guys. Um, you must
+be wondering where I've been these past
+be wondering where I've been these past
+be wondering where I've been these past
+few weeks. I have been in here, Vault
+few weeks. I have been in here, Vault
+few weeks. I have been in here, Vault
+69, trying to learn
+Blender. Start. There you go. Now, the
+Blender. Start. There you go. Now, the
+Blender. Start. There you go. Now, the
+reason for that is I've been wanting to
+reason for that is I've been wanting to
+reason for that is I've been wanting to
+design my very own action figure rather
+design my very own action figure rather
+design my very own action figure rather
+than just grabbing one from the internet
+than just grabbing one from the internet
+than just grabbing one from the internet
+like a model. How cool would it be to
+like a model. How cool would it be to
+like a model. How cool would it be to
+design your very own 3D model? Last time
+design your very own 3D model? Last time
+design your very own 3D model? Last time
+I did, of course, just grab something
+I did, of course, just grab something
+I did, of course, just grab something
+from the internet, which is pretty lame.
+from the internet, which is pretty lame.
+from the internet, which is pretty lame.
+Quick recap for if you do not
+remember. Now comes the part I am most
+remember. Now comes the part I am most
+remember. Now comes the part I am most
+scared of, the painting.
+This time around we will start with the
+This time around we will start with the
+This time around we will start with the
+modeling and then the
+modeling and then the
+modeling and then the
+printing and the painting. Maybe we can
+printing and the painting. Maybe we can
+printing and the painting. Maybe we can
+even try and design like a box for it as
+even try and design like a box for it as
+even try and design like a box for it as
+if it's an actual collectible figure.
+if it's an actual collectible figure.
+if it's an actual collectible figure.
+Dude, this is going to be just like a
+Dude, this is going to be just like a
+Dude, this is going to be just like a
+massive design project at this point.
+massive design project at this point.
+massive design project at this point.
+Over here, I've got some sketches that
+Over here, I've got some sketches that
+Over here, I've got some sketches that
+Voltec sent me. Um, they basically want
+Voltec sent me. Um, they basically want
+Voltec sent me. Um, they basically want
+me to make an accurate recreation of
+me to make an accurate recreation of
+me to make an accurate recreation of
+this so-called deathclaw creature they
+this so-called deathclaw creature they
+this so-called deathclaw creature they
+discovered. According to them, these
+discovered. According to them, these
+discovered. According to them, these
+death claws are a race of genetically
+death claws are a race of genetically
+death claws are a race of genetically
+engineered reptilian creatures
+engineered reptilian creatures
+engineered reptilian creatures
+originating from experiments by the
+originating from experiments by the
+originating from experiments by the
+United States government to create
+United States government to create
+United States government to create
+superior battlefield soldiers capable of
+superior battlefield soldiers capable of
+superior battlefield soldiers capable of
+carrying out high-risk missions in place
+carrying out high-risk missions in place
+carrying out high-risk missions in place
+of humans. And they escaped and
+of humans. And they escaped and
+of humans. And they escaped and
+repopulated into the wild.
+repopulated into the wild.
+repopulated into the wild.
+That sounds lovely. So, well, I have to
+That sounds lovely. So, well, I have to
+That sounds lovely. So, well, I have to
+try and recreate this model in Blender
+try and recreate this model in Blender
+try and recreate this model in Blender
+with our brand new
+skills. Bloody hell. Um, so let's go to
+skills. Bloody hell. Um, so let's go to
+skills. Bloody hell. Um, so let's go to
+the office, the overseer's office,
+the office, the overseer's office,
+the office, the overseer's office,
+because this clearly is not going to cut
+because this clearly is not going to cut
+because this clearly is not going to cut
+it. So, um, I'll be right back with you.
+it. So, um, I'll be right back with you.
+it. So, um, I'll be right back with you.
+Um, let me just go and change, actually.
+Ah, okay. It is very weird to now have
+Ah, okay. It is very weird to now have
+Ah, okay. It is very weird to now have
+to say I'm going to open Blender instead
+to say I'm going to open Blender instead
+to say I'm going to open Blender instead
+of Photoshop, but um let's open up
+of Photoshop, but um let's open up
+of Photoshop, but um let's open up
+Blender. Now, today I'm still not going
+Blender. Now, today I'm still not going
+Blender. Now, today I'm still not going
+to go too far into detail because first
+to go too far into detail because first
+to go too far into detail because first
+of all, I myself am still learning as
+of all, I myself am still learning as
+of all, I myself am still learning as
+well, but also it's just not that kind
+well, but also it's just not that kind
+well, but also it's just not that kind
+of video. If you want to know, I
+of video. If you want to know, I
+of video. If you want to know, I
+followed the iconic donut tutorial from
+followed the iconic donut tutorial from
+followed the iconic donut tutorial from
+Blender Guru, but only up until the
+Blender Guru, but only up until the
+Blender Guru, but only up until the
+sculpting part. I didn't want to
+sculpting part. I didn't want to
+sculpting part. I didn't want to
+overwhelm myself by learning every
+overwhelm myself by learning every
+overwhelm myself by learning every
+aspect about Blender when really all I
+aspect about Blender when really all I
+aspect about Blender when really all I
+need for now is just the modeling part.
+need for now is just the modeling part.
+need for now is just the modeling part.
+This is for printing only, after all.
+This is for printing only, after all.
+This is for printing only, after all.
+Anyway, I began with just a single
+Anyway, I began with just a single
+Anyway, I began with just a single
+shape, which I added a subdivision
+shape, which I added a subdivision
+shape, which I added a subdivision
+surface to. And for those completely
+surface to. And for those completely
+surface to. And for those completely
+unfamiliar with 3D software, a
+unfamiliar with 3D software, a
+unfamiliar with 3D software, a
+subdivision is basically just a way to
+subdivision is basically just a way to
+subdivision is basically just a way to
+add definition to the mesh of your
+add definition to the mesh of your
+add definition to the mesh of your
+model, allowing you to add finer detail.
+model, allowing you to add finer detail.
+model, allowing you to add finer detail.
+And this specific modifier in Blender
+And this specific modifier in Blender
+And this specific modifier in Blender
+does that without baking it into your
+does that without baking it into your
+does that without baking it into your
+model just yet. It only looks like
+model just yet. It only looks like
+model just yet. It only looks like
+there's more detail now, making it look
+there's more detail now, making it look
+there's more detail now, making it look
+nicer while working on it and also
+nicer while working on it and also
+nicer while working on it and also
+making sure you don't have to deal with
+making sure you don't have to deal with
+making sure you don't have to deal with
+performance issues. With this base, I
+performance issues. With this base, I
+performance issues. With this base, I
+began extruding parts to create a very
+began extruding parts to create a very
+began extruding parts to create a very
+rough outline of my deathclaw creature.
+rough outline of my deathclaw creature.
+rough outline of my deathclaw creature.
+I was using various images as reference
+I was using various images as reference
+I was using various images as reference
+and this will mainly be based off the
+and this will mainly be based off the
+and this will mainly be based off the
+version from Fallout 4 and 76. Still,
+version from Fallout 4 and 76. Still,
+version from Fallout 4 and 76. Still,
+it's not going to be 100% accurate, so
+it's not going to be 100% accurate, so
+it's not going to be 100% accurate, so
+consider this my own version of it, my
+consider this my own version of it, my
+consider this my own version of it, my
+interpretation. Getting a hang of how
+interpretation. Getting a hang of how
+interpretation. Getting a hang of how
+all these tools work is really quite the
+all these tools work is really quite the
+all these tools work is really quite the
+hassle. Unlike Photoshop, there's a
+hassle. Unlike Photoshop, there's a
+hassle. Unlike Photoshop, there's a
+million trillion tools here, shortcuts,
+million trillion tools here, shortcuts,
+million trillion tools here, shortcuts,
+and just other And most of it
+and just other And most of it
+and just other And most of it
+isn't as straightforward as photo or
+isn't as straightforward as photo or
+isn't as straightforward as photo or
+video editing, for example. Luckily, I
+video editing, for example. Luckily, I
+video editing, for example. Luckily, I
+tend to have a good vision, though. So,
+tend to have a good vision, though. So,
+tend to have a good vision, though. So,
+for now, the main thing holding me back
+for now, the main thing holding me back
+for now, the main thing holding me back
+is the technical side of things. My
+is the technical side of things. My
+is the technical side of things. My
+initial idea was to try and create Power
+initial idea was to try and create Power
+initial idea was to try and create Power
+Armor, the T60 model. Um, but I thought
+Armor, the T60 model. Um, but I thought
+Armor, the T60 model. Um, but I thought
+something organic may be a bit easier
+something organic may be a bit easier
+something organic may be a bit easier
+because it's not all that perfect. like
+because it's not all that perfect. like
+because it's not all that perfect. like
+you can have some imperfections and it's
+you can have some imperfections and it's
+you can have some imperfections and it's
+fine because it's it's nature. So far,
+fine because it's it's nature. So far,
+fine because it's it's nature. So far,
+all I've done happened in edit mode, but
+all I've done happened in edit mode, but
+all I've done happened in edit mode, but
+since I kind of had the rough shape
+since I kind of had the rough shape
+since I kind of had the rough shape
+down, I was ready to start sculpting the
+down, I was ready to start sculpting the
+down, I was ready to start sculpting the
+finer detail. My main struggle
+finer detail. My main struggle
+finer detail. My main struggle
+throughout this entire process was
+throughout this entire process was
+throughout this entire process was
+dealing with the amount of vertices and
+dealing with the amount of vertices and
+dealing with the amount of vertices and
+just kind of figure out the best way to
+just kind of figure out the best way to
+just kind of figure out the best way to
+set all of it up. I made the colossal
+set all of it up. I made the colossal
+set all of it up. I made the colossal
+mistake to apply a pretty detailed
+mistake to apply a pretty detailed
+mistake to apply a pretty detailed
+subdivision surface early on, creating a
+subdivision surface early on, creating a
+subdivision surface early on, creating a
+mesh that was way too complex, and that
+mesh that was way too complex, and that
+mesh that was way too complex, and that
+results in quite some lag towards the
+results in quite some lag towards the
+results in quite some lag towards the
+end. What I did find funny to see,
+end. What I did find funny to see,
+end. What I did find funny to see,
+however, is now that I've been going to
+however, is now that I've been going to
+however, is now that I've been going to
+the gym a lot, it's much easier for me
+the gym a lot, it's much easier for me
+the gym a lot, it's much easier for me
+to get the muscle placement accurately
+to get the muscle placement accurately
+to get the muscle placement accurately
+in there. Obviously, this isn't a human,
+in there. Obviously, this isn't a human,
+in there. Obviously, this isn't a human,
+but the essence is kind of the same, and
+but the essence is kind of the same, and
+but the essence is kind of the same, and
+many muscles ended up looking pretty
+many muscles ended up looking pretty
+many muscles ended up looking pretty
+damn good for my first attempt, I would
+damn good for my first attempt, I would
+damn good for my first attempt, I would
+say. The entire thing was still looking
+say. The entire thing was still looking
+say. The entire thing was still looking
+insanely smooth, though, so I decided to
+insanely smooth, though, so I decided to
+insanely smooth, though, so I decided to
+add some finer detail with smaller
+add some finer detail with smaller
+add some finer detail with smaller
+brushes. The horns were also missing,
+brushes. The horns were also missing,
+brushes. The horns were also missing,
+though, so I got to work on those first.
+though, so I got to work on those first.
+though, so I got to work on those first.
+And this is where I really, really
+And this is where I really, really
+And this is where I really, really
+started getting the hang of the editing
+started getting the hang of the editing
+started getting the hang of the editing
+mode a little more. I was very surprised
+mode a little more. I was very surprised
+mode a little more. I was very surprised
+by how nice these horns turned out. And
+by how nice these horns turned out. And
+by how nice these horns turned out. And
+they look pretty similar to the real
+they look pretty similar to the real
+they look pretty similar to the real
+thing as well. With a few subdivisions
+thing as well. With a few subdivisions
+thing as well. With a few subdivisions
+and sculpting, I harmonized them with
+and sculpting, I harmonized them with
+and sculpting, I harmonized them with
+the rest of the creature. And then I did
+the rest of the creature. And then I did
+the rest of the creature. And then I did
+a similar thing again, but with the
+a similar thing again, but with the
+a similar thing again, but with the
+teeth. I hate that I didn't record more
+teeth. I hate that I didn't record more
+teeth. I hate that I didn't record more
+of the sculpting process, but it kept
+of the sculpting process, but it kept
+of the sculpting process, but it kept
+going wrong, so I paused the recording,
+going wrong, so I paused the recording,
+going wrong, so I paused the recording,
+but then later I forgot to turn it back
+but then later I forgot to turn it back
+but then later I forgot to turn it back
+on. So, um, well, there you have it. I
+on. So, um, well, there you have it. I
+on. So, um, well, there you have it. I
+began adding texture to the creature as
+began adding texture to the creature as
+began adding texture to the creature as
+well, cuz I wasn't a fan of this butter
+well, cuz I wasn't a fan of this butter
+well, cuz I wasn't a fan of this butter
+smooth finish. And yes, for that I
+smooth finish. And yes, for that I
+smooth finish. And yes, for that I
+definitely needed to do some googling
+definitely needed to do some googling
+definitely needed to do some googling
+because I had no idea how that worked. I
+because I had no idea how that worked. I
+because I had no idea how that worked. I
+really tried giving it that scaly kind
+really tried giving it that scaly kind
+really tried giving it that scaly kind
+of finish. And with a ton of trial and
+of finish. And with a ton of trial and
+of finish. And with a ton of trial and
+error, we got a reasonably nice result.
+error, we got a reasonably nice result.
+error, we got a reasonably nice result.
+It was at this point I also realized he
+It was at this point I also realized he
+It was at this point I also realized he
+doesn't have the spikes on his back yet.
+doesn't have the spikes on his back yet.
+doesn't have the spikes on his back yet.
+So similarly to the horns and the teeth,
+So similarly to the horns and the teeth,
+So similarly to the horns and the teeth,
+I used separate objects to put those in
+I used separate objects to put those in
+I used separate objects to put those in
+place. And guess what? From there, it's
+place. And guess what? From there, it's
+place. And guess what? From there, it's
+really just more of the same, more
+really just more of the same, more
+really just more of the same, more
+sculpting. Um, so much so that I almost
+sculpting. Um, so much so that I almost
+sculpting. Um, so much so that I almost
+lost the will to live. What is also fun
+lost the will to live. What is also fun
+lost the will to live. What is also fun
+to consider is most of this detail is
+to consider is most of this detail is
+to consider is most of this detail is
+going to be lost because the 3D print
+going to be lost because the 3D print
+going to be lost because the 3D print
+isn't going to be big enough for you to
+isn't going to be big enough for you to
+isn't going to be big enough for you to
+actually see all of that detail. So, um
+actually see all of that detail. So, um
+actually see all of that detail. So, um
+I was just too excited. It was working
+I was just too excited. It was working
+I was just too excited. It was working
+so well and I didn't really think of
+so well and I didn't really think of
+so well and I didn't really think of
+that anymore. Um so, and then I arrived
+that anymore. Um so, and then I arrived
+that anymore. Um so, and then I arrived
+at the single most infuriating thing
+at the single most infuriating thing
+at the single most infuriating thing
+I've experienced in months. Adding a rig
+I've experienced in months. Adding a rig
+I've experienced in months. Adding a rig
+to the model. Basically adding sort of a
+to the model. Basically adding sort of a
+to the model. Basically adding sort of a
+skeleton to your model to move it around
+skeleton to your model to move it around
+skeleton to your model to move it around
+and put it in cool poses. I honestly
+and put it in cool poses. I honestly
+and put it in cool poses. I honestly
+don't even know how or why, but this
+don't even know how or why, but this
+don't even know how or why, but this
+kept going wrong. The bones just
+kept going wrong. The bones just
+kept going wrong. The bones just
+wouldn't connect. It wouldn't actually
+wouldn't connect. It wouldn't actually
+wouldn't connect. It wouldn't actually
+work. Eventually though, I got it to
+work. Eventually though, I got it to
+work. Eventually though, I got it to
+work. And that's when my far too complex
+work. And that's when my far too complex
+work. And that's when my far too complex
+mesh would backfire hard. This is
+mesh would backfire hard. This is
+mesh would backfire hard. This is
+footage of me trying to rotate a bone in
+footage of me trying to rotate a bone in
+footage of me trying to rotate a bone in
+real
+real
+real
+time. That is how laggy it was. Putting
+time. That is how laggy it was. Putting
+time. That is how laggy it was. Putting
+this guy in his final pose took like
+this guy in his final pose took like
+this guy in his final pose took like
+over 2 hours and I genuinely started
+over 2 hours and I genuinely started
+over 2 hours and I genuinely started
+tweaking. But we got there and I have to
+tweaking. But we got there and I have to
+tweaking. But we got there and I have to
+say I am baffled by how fast I was able
+say I am baffled by how fast I was able
+say I am baffled by how fast I was able
+to put this together. So far, I spent
+to put this together. So far, I spent
+to put this together. So far, I spent
+three days making a donut by following a
+three days making a donut by following a
+three days making a donut by following a
+tutorial and then modeling this. I
+tutorial and then modeling this. I
+tutorial and then modeling this. I
+really like how this turned out, and
+really like how this turned out, and
+really like how this turned out, and
+I've learned surprisingly much by just
+I've learned surprisingly much by just
+I've learned surprisingly much by just
+doing this single model. Still, it
+doing this single model. Still, it
+doing this single model. Still, it
+wasn't fully done, though, cuz we ended
+wasn't fully done, though, cuz we ended
+wasn't fully done, though, cuz we ended
+up needing to print this. That means
+up needing to print this. That means
+up needing to print this. That means
+cutting this up into separate pieces is
+cutting this up into separate pieces is
+cutting this up into separate pieces is
+a must. Both for its size, but also
+a must. Both for its size, but also
+a must. Both for its size, but also
+optimizing the orientation of the pieces
+optimizing the orientation of the pieces
+optimizing the orientation of the pieces
+for the best printing result. I also
+for the best printing result. I also
+for the best printing result. I also
+made this little base platform with a
+made this little base platform with a
+made this little base platform with a
+tiny fallout sign on it. Seemed like a
+tiny fallout sign on it. Seemed like a
+tiny fallout sign on it. Seemed like a
+fun detail to finish it off. also
+fun detail to finish it off. also
+fun detail to finish it off. also
+convenient. Saving these files as
+convenient. Saving these files as
+convenient. Saving these files as
+printable files is actually really easy.
+printable files is actually really easy.
+printable files is actually really easy.
+Just save as STL. Uh, and I was kind of
+Just save as STL. Uh, and I was kind of
+Just save as STL. Uh, and I was kind of
+dreading that because I thought that was
+dreading that because I thought that was
+dreading that because I thought that was
+going to be very hard. I need to figure
+going to be very hard. I need to figure
+going to be very hard. I need to figure
+that out. But I didn't. It was that
+that out. But I didn't. It was that
+that out. But I didn't. It was that
+easy. So, um, I guess now comes the
+easy. So, um, I guess now comes the
+easy. So, um, I guess now comes the
+point where we actually print this
+point where we actually print this
+point where we actually print this
+out. We just have one little problem.
+out. We just have one little problem.
+out. We just have one little problem.
+The last known working 3D printer is
+The last known working 3D printer is
+The last known working 3D printer is
+located at the Voltec security compound,
+located at the Voltec security compound,
+located at the Voltec security compound,
+which is all the way somewhere else. And
+which is all the way somewhere else. And
+which is all the way somewhere else. And
+last I checked, it was also abandoned.
+last I checked, it was also abandoned.
+last I checked, it was also abandoned.
+Said to be contaminated after some
+Said to be contaminated after some
+Said to be contaminated after some
+experiments went wrong. I'm not sure
+experiments went wrong. I'm not sure
+experiments went wrong. I'm not sure
+what that means, but I won't stick
+what that means, but I won't stick
+what that means, but I won't stick
+around long enough to find out. So,
+around long enough to find out. So,
+around long enough to find out. So,
+let's get a move on things. Also, great,
+let's get a move on things. Also, great,
+let's get a move on things. Also, great,
+this vault has never been breached,
+this vault has never been breached,
+this vault has never been breached,
+meaning that I have never actually been
+meaning that I have never actually been
+meaning that I have never actually been
+to the surface.
+So, it should be just a few miles west
+So, it should be just a few miles west
+So, it should be just a few miles west
+of the city. And they really weren't
+of the city. And they really weren't
+of the city. And they really weren't
+kidding. Um, this looks like a
+kidding. Um, this looks like a
+kidding. Um, this looks like a
+hole.
+hole.
+hole.
+Anyway, um I'm going to be printing this
+Anyway, um I'm going to be printing this
+Anyway, um I'm going to be printing this
+using PLA, specifically the Bamboo Lab
+using PLA, specifically the Bamboo Lab
+using PLA, specifically the Bamboo Lab
+P1P printer located at the security
+P1P printer located at the security
+P1P printer located at the security
+compound. That does of course mean it's
+compound. That does of course mean it's
+compound. That does of course mean it's
+going to need quite some sanding and
+going to need quite some sanding and
+going to need quite some sanding and
+priming before we can actually paint it.
+priming before we can actually paint it.
+priming before we can actually paint it.
+Um but I think we'll manage for now. Um
+Um but I think we'll manage for now. Um
+Um but I think we'll manage for now. Um
+I'll be sure to report back once I've
+arrived. Okay. Well, let's uh let's get
+arrived. Okay. Well, let's uh let's get
+arrived. Okay. Well, let's uh let's get
+to
+to
+to
+it. Radiation levels seem decent enough,
+it. Radiation levels seem decent enough,
+it. Radiation levels seem decent enough,
+but I'm not risking it. This isn't some
+but I'm not risking it. This isn't some
+but I'm not risking it. This isn't some
+terrible horror movie where people make
+terrible horror movie where people make
+terrible horror movie where people make
+bad decisions.
+Let's hope all this
+works. Importing files now.
+Okay, there it goes. In the meantime,
+Okay, there it goes. In the meantime,
+Okay, there it goes. In the meantime,
+um, let me
+just Wait, what is what is
+this? Attention Volt propaganda and
+this? Attention Volt propaganda and
+this? Attention Volt propaganda and
+marketing division. This message is
+marketing division. This message is
+marketing division. This message is
+strictly classified for authorized
+strictly classified for authorized
+strictly classified for authorized
+personnel only. If you're not an
+personnel only. If you're not an
+personnel only. If you're not an
+official member of Voltex Outreach team,
+official member of Voltex Outreach team,
+official member of Voltex Outreach team,
+please cease playback immediately and
+please cease playback immediately and
+please cease playback immediately and
+report to your nearest supervisor for
+report to your nearest supervisor for
+report to your nearest supervisor for
+memory
+memory
+memory
+realignment. Our analysts have noted a
+realignment. Our analysts have noted a
+realignment. Our analysts have noted a
+concerning lack of quality footage in
+concerning lack of quality footage in
+concerning lack of quality footage in
+recent VaultTech broadcasts. Reports
+recent VaultTech broadcasts. Reports
+recent VaultTech broadcasts. Reports
+indicate recycled material, lowquality
+indicate recycled material, lowquality
+indicate recycled material, lowquality
+messaging, and worst of all, a severe
+messaging, and worst of all, a severe
+messaging, and worst of all, a severe
+lack of pizzazz. This is unacceptable.
+lack of pizzazz. This is unacceptable.
+lack of pizzazz. This is unacceptable.
+But fortunately, Voltek has secured a
+But fortunately, Voltek has secured a
+But fortunately, Voltek has secured a
+classified partnership with an external
+classified partnership with an external
+classified partnership with an external
+supplier, Story Blocks. This advanced
+supplier, Story Blocks. This advanced
+supplier, Story Blocks. This advanced
+archive provides unlimited access to
+archive provides unlimited access to
+archive provides unlimited access to
+highquality stock footage, sound
+highquality stock footage, sound
+highquality stock footage, sound
+effects, images, and templates, 4K and
+effects, images, and templates, 4K and
+effects, images, and templates, 4K and
+HD. Mind you, all for a single
+HD. Mind you, all for a single
+HD. Mind you, all for a single
+predictable subscription cost. No
+predictable subscription cost. No
+predictable subscription cost. No
+rationing, no extra fees, no hidden
+rationing, no extra fees, no hidden
+rationing, no extra fees, no hidden
+charges, just pure unfiltered content
+charges, just pure unfiltered content
+charges, just pure unfiltered content
+creation power. Our overseers have
+creation power. Our overseers have
+creation power. Our overseers have
+reviewed the asset library and confirmed
+reviewed the asset library and confirmed
+reviewed the asset library and confirmed
+that Story Blocks streamlines workflow,
+that Story Blocks streamlines workflow,
+that Story Blocks streamlines workflow,
+saving precious manh hours that would
+saving precious manh hours that would
+saving precious manh hours that would
+otherwise be wasted in inefficient
+otherwise be wasted in inefficient
+otherwise be wasted in inefficient
+footage acquisition. Need motion
+footage acquisition. Need motion
+footage acquisition. Need motion
+graphics? Done. Need title animations?
+graphics? Done. Need title animations?
+graphics? Done. Need title animations?
+Done. Ensuring even the most creatively
+Done. Ensuring even the most creatively
+Done. Ensuring even the most creatively
+bankrupt among us can produce Voltec
+bankrupt among us can produce Voltec
+bankrupt among us can produce Voltec
+approved media at record speeds. And the
+approved media at record speeds. And the
+approved media at record speeds. And the
+best of all, everything you download is
+best of all, everything you download is
+best of all, everything you download is
+100% royalty-free and clear-cut for
+100% royalty-free and clear-cut for
+100% royalty-free and clear-cut for
+usage. To get started with unlimited
+usage. To get started with unlimited
+usage. To get started with unlimited
+stock downloads at one set price, visit
+stock downloads at one set price, visit
+stock downloads at one set price, visit
+storyblocks.com/benny productions in the
+storyblocks.com/benny productions in the
+storyblocks.com/benny productions in the
+link in the description. And remember,
+link in the description. And remember,
+link in the description. And remember,
+this partnership is strictly
+this partnership is strictly
+this partnership is strictly
+confidential. Non-authorized personnel
+confidential. Non-authorized personnel
+confidential. Non-authorized personnel
+must not redistribute any of this
+must not redistribute any of this
+must not redistribute any of this
+content. Vault Tech reputation depends
+content. Vault Tech reputation depends
+content. Vault Tech reputation depends
+on it.
+on it.
+on it.
+Yep, I was definitely not supposed to
+Yep, I was definitely not supposed to
+Yep, I was definitely not supposed to
+see that, but let me just transfer that
+see that, but let me just transfer that
+see that, but let me just transfer that
+to my big boy because that seems useful
+to my big boy because that seems useful
+to my big boy because that seems useful
+as hell.
+Yeah, that's not great. We better hurry
+Yeah, that's not great. We better hurry
+Yeah, that's not great. We better hurry
+the hell
+up. Thank god printers in this universe
+up. Thank god printers in this universe
+up. Thank god printers in this universe
+work so fast.
+Hey
+Ladies and gentlemen, welcome to my
+Ladies and gentlemen, welcome to my
+Ladies and gentlemen, welcome to my
+garage. Um, first we need to get rid of
+garage. Um, first we need to get rid of
+garage. Um, first we need to get rid of
+all these supports. As you can see, this
+all these supports. As you can see, this
+all these supports. As you can see, this
+is just for holding it up while
+is just for holding it up while
+is just for holding it up while
+printing. We do not need any of that.
+printing. We do not need any of that.
+printing. We do not need any of that.
+So, let's go ahead and just remove that
+So, let's go ahead and just remove that
+So, let's go ahead and just remove that
+from the print. And some of these parts
+from the print. And some of these parts
+from the print. And some of these parts
+are pretty delicate, especially around
+are pretty delicate, especially around
+are pretty delicate, especially around
+the nails. Oh. Oh, looking over there.
+the nails. Oh. Oh, looking over there.
+the nails. Oh. Oh, looking over there.
+There's like a pin which should fit
+There's like a pin which should fit
+There's like a pin which should fit
+exactly into the hole of the base. I
+exactly into the hole of the base. I
+exactly into the hole of the base. I
+just make sure all of them are clear of
+just make sure all of them are clear of
+just make sure all of them are clear of
+these weird supports. And then you'll
+these weird supports. And then you'll
+these weird supports. And then you'll
+see me in just a sec. Once all the
+see me in just a sec. Once all the
+see me in just a sec. Once all the
+pieces were clear of the excess plastic,
+pieces were clear of the excess plastic,
+pieces were clear of the excess plastic,
+the next step would be sanding these
+the next step would be sanding these
+the next step would be sanding these
+down. On some parts, the printing layers
+down. On some parts, the printing layers
+down. On some parts, the printing layers
+really stick out like a sore thumb. So,
+really stick out like a sore thumb. So,
+really stick out like a sore thumb. So,
+using various different sorts of
+using various different sorts of
+using various different sorts of
+sandpaper and files, I tried smooning up
+sandpaper and files, I tried smooning up
+sandpaper and files, I tried smooning up
+the majority of the visible layers. And
+the majority of the visible layers. And
+the majority of the visible layers. And
+since we'll be using filler primer
+since we'll be using filler primer
+since we'll be using filler primer
+later, not every single bit needs to be
+later, not every single bit needs to be
+later, not every single bit needs to be
+perfect. It's mostly just the unique
+perfect. It's mostly just the unique
+perfect. It's mostly just the unique
+parts such as the spikes on his back,
+parts such as the spikes on his back,
+parts such as the spikes on his back,
+his claws, and his teeth. His head, I
+his claws, and his teeth. His head, I
+his claws, and his teeth. His head, I
+also wanted to be particularly smooth.
+also wanted to be particularly smooth.
+also wanted to be particularly smooth.
+Just, well, it's the most important and
+Just, well, it's the most important and
+Just, well, it's the most important and
+iconic part of the Deathclaw. And I got
+iconic part of the Deathclaw. And I got
+iconic part of the Deathclaw. And I got
+to say, it's quite a mindful task, to be
+to say, it's quite a mindful task, to be
+to say, it's quite a mindful task, to be
+fair. Just sitting there filing down
+fair. Just sitting there filing down
+fair. Just sitting there filing down
+these parts, you can completely turn
+these parts, you can completely turn
+these parts, you can completely turn
+your brain off and just have at it.
+Once I was satisfied with my parts, it
+Once I was satisfied with my parts, it
+Once I was satisfied with my parts, it
+was time to glue them together and
+was time to glue them together and
+was time to glue them together and
+prepare for priming. I'm using Loctite
+prepare for priming. I'm using Loctite
+prepare for priming. I'm using Loctite
+all plastic two-part glue. And this is
+all plastic two-part glue. And this is
+all plastic two-part glue. And this is
+also the reason I didn't add pins and
+also the reason I didn't add pins and
+also the reason I didn't add pins and
+holes to the different parts to connect
+holes to the different parts to connect
+holes to the different parts to connect
+them. Because this particular glue
+them. Because this particular glue
+them. Because this particular glue
+really bonds the plastic together with a
+really bonds the plastic together with a
+really bonds the plastic together with a
+chemical reaction. And I was very
+chemical reaction. And I was very
+chemical reaction. And I was very
+confident that this would hold just
+confident that this would hold just
+confident that this would hold just
+fine. And well, it did. Actually
+fine. And well, it did. Actually
+fine. And well, it did. Actually
+baffling how strong this glue is. and
+baffling how strong this glue is. and
+baffling how strong this glue is. and
+you'll be
+swinging around.
+swinging around.
+swinging around.
+Once the whole thing was assembled, I
+Once the whole thing was assembled, I
+Once the whole thing was assembled, I
+just had to take a moment and appreciate
+just had to take a moment and appreciate
+just had to take a moment and appreciate
+it cuz damn, it's big but also bulky.
+it cuz damn, it's big but also bulky.
+it cuz damn, it's big but also bulky.
+Really the exact kind of vibe I was
+Really the exact kind of vibe I was
+Really the exact kind of vibe I was
+looking
+looking
+looking
+for. Finally, for this step, this
+for. Finally, for this step, this
+for. Finally, for this step, this
+plastic putty would ensure the
+plastic putty would ensure the
+plastic putty would ensure the
+noticeable gaps are filled up. It looks
+noticeable gaps are filled up. It looks
+noticeable gaps are filled up. It looks
+terrible now, of course, but outside
+terrible now, of course, but outside
+terrible now, of course, but outside
+this would be resolved. I began adding
+this would be resolved. I began adding
+this would be resolved. I began adding
+various thick coats of filler primer to
+various thick coats of filler primer to
+various thick coats of filler primer to
+prepare it for painting, but also making
+prepare it for painting, but also making
+prepare it for painting, but also making
+it just a bit more smooth. This is a
+it just a bit more smooth. This is a
+it just a bit more smooth. This is a
+nice and thick primer. So, if you do
+nice and thick primer. So, if you do
+nice and thick primer. So, if you do
+spray it on thick, it has the ability to
+spray it on thick, it has the ability to
+spray it on thick, it has the ability to
+fill up small gaps and imperfections.
+fill up small gaps and imperfections.
+fill up small gaps and imperfections.
+Pretty much perfect for what I'm trying
+Pretty much perfect for what I'm trying
+Pretty much perfect for what I'm trying
+to achieve
+to achieve
+to achieve
+here. After four or five coats and some
+here. After four or five coats and some
+here. After four or five coats and some
+additional plastic putty and filling, I
+additional plastic putty and filling, I
+additional plastic putty and filling, I
+called it good. Meaning it is now time
+called it good. Meaning it is now time
+called it good. Meaning it is now time
+for the hardest part, the painting.
+Now, maybe it's the heat or I'm starting
+Now, maybe it's the heat or I'm starting
+Now, maybe it's the heat or I'm starting
+to feel the effects of radiation
+to feel the effects of radiation
+to feel the effects of radiation
+sickness already, but I just couldn't
+sickness already, but I just couldn't
+sickness already, but I just couldn't
+get myself to film this entire process
+get myself to film this entire process
+get myself to film this entire process
+in detail. It is still such an
+in detail. It is still such an
+in detail. It is still such an
+experimental thing for me. I don't do
+experimental thing for me. I don't do
+experimental thing for me. I don't do
+things very structured. It's a lot of
+things very structured. It's a lot of
+things very structured. It's a lot of
+trial and error, and constantly moving
+trial and error, and constantly moving
+trial and error, and constantly moving
+the camera and hitting pause and play
+the camera and hitting pause and play
+the camera and hitting pause and play
+without even knowing if the footage is
+without even knowing if the footage is
+without even knowing if the footage is
+relevant. That just slows down the
+relevant. That just slows down the
+relevant. That just slows down the
+process an insane amount. I really just
+process an insane amount. I really just
+process an insane amount. I really just
+wanted to focus on the result instead.
+wanted to focus on the result instead.
+wanted to focus on the result instead.
+So, that's what I did. That said,
+So, that's what I did. That said,
+So, that's what I did. That said,
+however, last time I did this, it wasn't
+however, last time I did this, it wasn't
+however, last time I did this, it wasn't
+all that exciting. A xenomorph is very
+all that exciting. A xenomorph is very
+all that exciting. A xenomorph is very
+much just a black and gray creature, and
+much just a black and gray creature, and
+much just a black and gray creature, and
+the same goes for most of the rock it
+the same goes for most of the rock it
+the same goes for most of the rock it
+was standing on. Now, however, it is a
+was standing on. Now, however, it is a
+was standing on. Now, however, it is a
+tad more nuanced. Death claws come in
+tad more nuanced. Death claws come in
+tad more nuanced. Death claws come in
+various colors, but generally they're
+various colors, but generally they're
+various colors, but generally they're
+gray or brown. Sometimes with a lighter
+gray or brown. Sometimes with a lighter
+gray or brown. Sometimes with a lighter
+shade of beige on their chest and bottom
+shade of beige on their chest and bottom
+shade of beige on their chest and bottom
+half of the body. I'm also going with a
+half of the body. I'm also going with a
+half of the body. I'm also going with a
+bit of a different approach this time.
+bit of a different approach this time.
+bit of a different approach this time.
+First painting the base colors on and
+First painting the base colors on and
+First painting the base colors on and
+afterwards using washing techniques to
+afterwards using washing techniques to
+afterwards using washing techniques to
+make it look a bit more weathered and
+make it look a bit more weathered and
+make it look a bit more weathered and
+realistic. This particular step, this
+realistic. This particular step, this
+realistic. This particular step, this
+whole thing painting is just not really
+whole thing painting is just not really
+whole thing painting is just not really
+for me. I'm noticing I just don't like
+for me. I'm noticing I just don't like
+for me. I'm noticing I just don't like
+it. And somehow I don't have the
+it. And somehow I don't have the
+it. And somehow I don't have the
+patience for it either, which is kind of
+patience for it either, which is kind of
+patience for it either, which is kind of
+strange cuz somehow I do have the
+strange cuz somehow I do have the
+strange cuz somehow I do have the
+patience to make this entire video like
+patience to make this entire video like
+patience to make this entire video like
+a movie for no reason at all. But well,
+a movie for no reason at all. But well,
+a movie for no reason at all. But well,
+I'm I'm a strange guy, I suppose. Either
+I'm I'm a strange guy, I suppose. Either
+I'm I'm a strange guy, I suppose. Either
+way, after a shiny layer of clear
+way, after a shiny layer of clear
+way, after a shiny layer of clear
+varnish and placing it back on the base
+varnish and placing it back on the base
+varnish and placing it back on the base
+plate, the process for creating the
+plate, the process for creating the
+plate, the process for creating the
+death claw seems to be pretty much done.
+death claw seems to be pretty much done.
+death claw seems to be pretty much done.
+Is it perfect? No. It also doesn't
+Is it perfect? No. It also doesn't
+Is it perfect? No. It also doesn't
+really look like a death claw. Like I
+really look like a death claw. Like I
+really look like a death claw. Like I
+said earlier, the face is pretty
+said earlier, the face is pretty
+said earlier, the face is pretty
+different, but I still do like it a lot.
+different, but I still do like it a lot.
+different, but I still do like it a lot.
+And besides, the death claws from New
+And besides, the death claws from New
+And besides, the death claws from New
+Vegas look completely different from the
+Vegas look completely different from the
+Vegas look completely different from the
+later versions. Anyway, so just consider
+later versions. Anyway, so just consider
+later versions. Anyway, so just consider
+this another another version, another
+this another another version, another
+this another another version, another
+interpretation. I just really love
+interpretation. I just really love
+interpretation. I just really love
+knowing that I actually fully made this
+knowing that I actually fully made this
+knowing that I actually fully made this
+myself rather than just copying someone
+myself rather than just copying someone
+myself rather than just copying someone
+else. That feels like more of an
+else. That feels like more of an
+else. That feels like more of an
+accomplishment to
+accomplishment to
+accomplishment to
+me. I'm not going to lie, though. I am
+me. I'm not going to lie, though. I am
+me. I'm not going to lie, though. I am
+kind of tired at this point. So, I think
+kind of tired at this point. So, I think
+kind of tired at this point. So, I think
+I'm going to leave the packaging up to
+I'm going to leave the packaging up to
+I'm going to leave the packaging up to
+our good friend Gary. I have no idea
+our good friend Gary. I have no idea
+our good friend Gary. I have no idea
+where he is right now, but I guess we're
+where he is right now, but I guess we're
+where he is right now, but I guess we're
+just going to have to send him some
+just going to have to send him some
+just going to have to send him some
+pictures so we can get to work. We
+pictures so we can get to work. We
+pictures so we can get to work. We
+just right. Sending them
+just right. Sending them
+just right. Sending them
+over now. In the meantime, allow me to
+over now. In the meantime, allow me to
+over now. In the meantime, allow me to
+just go and enjoy the sun for a bit. I
+just go and enjoy the sun for a bit. I
+just go and enjoy the sun for a bit. I
+think I deserve this. In peace, please.
+Oh, bloody hell. It's Benny with a
+Oh, bloody hell. It's Benny with a
+Oh, bloody hell. It's Benny with a
+finally took him long enough. Ladies and
+finally took him long enough. Ladies and
+finally took him long enough. Ladies and
+gentlemen, let's get straight to it.
+gentlemen, let's get straight to it.
+gentlemen, let's get straight to it.
+Now, let's see. First, I'll make a nice
+Now, let's see. First, I'll make a nice
+Now, let's see. First, I'll make a nice
+shape and begin right over there. Then
+shape and begin right over there. Then
+shape and begin right over there. Then
+probably till about here. And there you
+probably till about here. And there you
+probably till about here. And there you
+go. Just flip that around to the other
+go. Just flip that around to the other
+go. Just flip that around to the other
+side. And then make that a bit a bit
+side. And then make that a bit a bit
+side. And then make that a bit a bit
+taller. There you go. Then we'll make
+taller. There you go. Then we'll make
+taller. There you go. Then we'll make
+this just a little bit bigger. Like so.
+this just a little bit bigger. Like so.
+this just a little bit bigger. Like so.
+And what I'm already going to do is kind
+And what I'm already going to do is kind
+And what I'm already going to do is kind
+of subtract the arm from that. See? Just
+of subtract the arm from that. See? Just
+of subtract the arm from that. See? Just
+something like that. Pretty lovely. And
+something like that. Pretty lovely. And
+something like that. Pretty lovely. And
+then this right here is where the magic
+then this right here is where the magic
+then this right here is where the magic
+starts. Let me just put in a metal
+starts. Let me just put in a metal
+starts. Let me just put in a metal
+texture. There you go. Just got to make
+texture. There you go. Just got to make
+texture. There you go. Just got to make
+that a little bit brighter. And then
+that a little bit brighter. And then
+that a little bit brighter. And then
+immediately after, I'll put a hue and
+immediately after, I'll put a hue and
+immediately after, I'll put a hue and
+saturation adjustment layer. Just like
+saturation adjustment layer. Just like
+saturation adjustment layer. Just like
+that, which is going to serve as a kind
+that, which is going to serve as a kind
+that, which is going to serve as a kind
+of paint. And the way I'm going to go
+of paint. And the way I'm going to go
+of paint. And the way I'm going to go
+about this is just kind of paint some of
+about this is just kind of paint some of
+about this is just kind of paint some of
+that stuff on the edge or really just
+that stuff on the edge or really just
+that stuff on the edge or really just
+removing it from the edge to make it
+removing it from the edge to make it
+removing it from the edge to make it
+look as though this is like a corroded
+look as though this is like a corroded
+look as though this is like a corroded
+metal edge where the paint has just kind
+metal edge where the paint has just kind
+metal edge where the paint has just kind
+of come off. That is bloody lovely. Look
+of come off. That is bloody lovely. Look
+of come off. That is bloody lovely. Look
+at that. Amazing stuff. Does that
+at that. Amazing stuff. Does that
+at that. Amazing stuff. Does that
+actually look good? Yes, he does. Just
+actually look good? Yes, he does. Just
+actually look good? Yes, he does. Just
+going to do that all over the edges just
+going to do that all over the edges just
+going to do that all over the edges just
+like so. There you go. That's bloody
+like so. There you go. That's bloody
+like so. There you go. That's bloody
+good. And I'm already going to put some
+good. And I'm already going to put some
+good. And I'm already going to put some
+more elements in place such as this
+more elements in place such as this
+more elements in place such as this
+little banner down here. And that is
+little banner down here. And that is
+little banner down here. And that is
+going to be some sort of yellow, I
+going to be some sort of yellow, I
+going to be some sort of yellow, I
+suppose. Inside of which we'll put some
+suppose. Inside of which we'll put some
+suppose. Inside of which we'll put some
+text, something like premium. We need a
+text, something like premium. We need a
+text, something like premium. We need a
+bit of a wide font for that. How about
+bit of a wide font for that. How about
+bit of a wide font for that. How about
+that? Pretty good. Going to make that uh
+that? Pretty good. Going to make that uh
+that? Pretty good. Going to make that uh
+blue for now. And some proper SP. There
+blue for now. And some proper SP. There
+blue for now. And some proper SP. There
+you bloody go. Maybe even a little bevel
+you bloody go. Maybe even a little bevel
+you bloody go. Maybe even a little bevel
+on that. Oh, and let's also do death
+on that. Oh, and let's also do death
+on that. Oh, and let's also do death
+claw already. Seems nice to have that on
+claw already. Seems nice to have that on
+claw already. Seems nice to have that on
+there. However, that font is not it. How
+there. However, that font is not it. How
+there. However, that font is not it. How
+about something like that? It's very
+about something like that? It's very
+about something like that? It's very
+similar to the Fallout logo text, but we
+similar to the Fallout logo text, but we
+similar to the Fallout logo text, but we
+can always change that later, of course.
+can always change that later, of course.
+can always change that later, of course.
+About the Fallout logo, we also need
+About the Fallout logo, we also need
+About the Fallout logo, we also need
+that. Here you go. Put that right on
+that. Here you go. Put that right on
+that. Here you go. Put that right on
+top. Although, we probably also need
+top. Although, we probably also need
+top. Although, we probably also need
+Benny Productions in there somewhere.
+Benny Productions in there somewhere.
+Benny Productions in there somewhere.
+Many productions. Here you go. Make
+Many productions. Here you go. Make
+Many productions. Here you go. Make
+those two a little bit smaller as well.
+those two a little bit smaller as well.
+those two a little bit smaller as well.
+And then just and in between, I guess.
+And then just and in between, I guess.
+And then just and in between, I guess.
+Trademark symbol, registered symbol, and
+Trademark symbol, registered symbol, and
+Trademark symbol, registered symbol, and
+just a little bit bigger. Right. Then
+just a little bit bigger. Right. Then
+just a little bit bigger. Right. Then
+just going to enhance this a little bit
+just going to enhance this a little bit
+just going to enhance this a little bit
+by making some of these edges a bit
+by making some of these edges a bit
+by making some of these edges a bit
+corroded. Actually, obviously this is a
+corroded. Actually, obviously this is a
+corroded. Actually, obviously this is a
+little bit too perfect. Here you go.
+little bit too perfect. Here you go.
+little bit too perfect. Here you go.
+Nice and uneven. Just some of that
+Nice and uneven. Just some of that
+Nice and uneven. Just some of that
+completely chipped away. Then a little
+completely chipped away. Then a little
+completely chipped away. Then a little
+bit of an experiment here. What happens
+bit of an experiment here. What happens
+bit of an experiment here. What happens
+if we put some of this on it? See what
+if we put some of this on it? See what
+if we put some of this on it? See what
+happens if I put that on. Uh probably
+happens if I put that on. Uh probably
+happens if I put that on. Uh probably
+something like that. And we were to just
+something like that. And we were to just
+something like that. And we were to just
+paint a little bit on some of these
+paint a little bit on some of these
+paint a little bit on some of these
+edges over there. Almost said a bit too
+edges over there. Almost said a bit too
+edges over there. Almost said a bit too
+much. No, I think that is actually
+much. No, I think that is actually
+much. No, I think that is actually
+pretty damn cool. It can't be too much
+pretty damn cool. It can't be too much
+pretty damn cool. It can't be too much
+though. It has to be nice and subtle. So
+though. It has to be nice and subtle. So
+though. It has to be nice and subtle. So
+I think something like that should be
+I think something like that should be
+I think something like that should be
+more than plenty. There you go. Nice and
+more than plenty. There you go. Nice and
+more than plenty. There you go. Nice and
+old and rusty. I love it. As for the
+old and rusty. I love it. As for the
+old and rusty. I love it. As for the
+death claw itself, let's add some subtle
+death claw itself, let's add some subtle
+death claw itself, let's add some subtle
+highlights. I mean, you know, Benny, he
+highlights. I mean, you know, Benny, he
+highlights. I mean, you know, Benny, he
+loves his highlights. So, let's put
+loves his highlights. So, let's put
+loves his highlights. So, let's put
+those in. Got to be sure of it. And
+those in. Got to be sure of it. And
+those in. Got to be sure of it. And
+clearly, Benny didn't really take his
+clearly, Benny didn't really take his
+clearly, Benny didn't really take his
+time while making these because uh I I
+time while making these because uh I I
+time while making these because uh I I
+would just say put some lights, some
+would just say put some lights, some
+would just say put some lights, some
+extra lights, and you have these
+extra lights, and you have these
+extra lights, and you have these
+already. But not my problem. We'll just
+already. But not my problem. We'll just
+already. But not my problem. We'll just
+fix it in post is what we say. E just
+fix it in post is what we say. E just
+fix it in post is what we say. E just
+have Gary fix it in post. Thankfully, it
+have Gary fix it in post. Thankfully, it
+have Gary fix it in post. Thankfully, it
+does look pretty good. I won't lie. That
+does look pretty good. I won't lie. That
+does look pretty good. I won't lie. That
+really adds some dimension. of course
+really adds some dimension. of course
+really adds some dimension. of course
+need to fix the color and everything,
+need to fix the color and everything,
+need to fix the color and everything,
+but that's that's for later. First, let
+but that's that's for later. First, let
+but that's that's for later. First, let
+me just get this done and be right back
+me just get this done and be right back
+me just get this done and be right back
+with you. Then, before anything else,
+with you. Then, before anything else,
+with you. Then, before anything else,
+let's also go and add some shadows just
+let's also go and add some shadows just
+let's also go and add some shadows just
+on these uh these spots over here where
+on these uh these spots over here where
+on these uh these spots over here where
+it kind of goes behind that packaging
+it kind of goes behind that packaging
+it kind of goes behind that packaging
+design, if you will. Also down here a
+design, if you will. Also down here a
+design, if you will. Also down here a
+little very subtle, but just adds a
+little very subtle, but just adds a
+little very subtle, but just adds a
+little bit of depth to it, doesn't it?
+little bit of depth to it, doesn't it?
+little bit of depth to it, doesn't it?
+There you bloody go. Then, I reckon
+There you bloody go. Then, I reckon
+There you bloody go. Then, I reckon
+behind the beast, we put a little bit of
+behind the beast, we put a little bit of
+behind the beast, we put a little bit of
+a different color as well. Possibly just
+a different color as well. Possibly just
+a different color as well. Possibly just
+that yellow again. There you go. Then
+that yellow again. There you go. Then
+that yellow again. There you go. Then
+remove it. And we simply paint some very
+remove it. And we simply paint some very
+remove it. And we simply paint some very
+subtle light behind it. There you go. Is
+subtle light behind it. There you go. Is
+subtle light behind it. There you go. Is
+that a nice? I'm not sure. Maybe instead
+that a nice? I'm not sure. Maybe instead
+that a nice? I'm not sure. Maybe instead
+just a bit of a hazy brush. There you
+just a bit of a hazy brush. There you
+just a bit of a hazy brush. There you
+go. Now that definitely looks
+go. Now that definitely looks
+go. Now that definitely looks
+interesting. Eh, make that a bit more
+interesting. Eh, make that a bit more
+interesting. Eh, make that a bit more
+reddish. A bit darker possibly as well.
+reddish. A bit darker possibly as well.
+reddish. A bit darker possibly as well.
+Very softly fade that out towards the
+Very softly fade that out towards the
+Very softly fade that out towards the
+edges. Now, isn't that bloody good? I
+edges. Now, isn't that bloody good? I
+edges. Now, isn't that bloody good? I
+reckon it is. You should even add some
+reckon it is. You should even add some
+reckon it is. You should even add some
+very bright areas like this right behind
+very bright areas like this right behind
+very bright areas like this right behind
+him. Not sure. Maybe that has a nice
+him. Not sure. Maybe that has a nice
+him. Not sure. Maybe that has a nice
+effect. Let's see. Yeah, that is quite
+effect. Let's see. Yeah, that is quite
+effect. Let's see. Yeah, that is quite
+nice. Hi, let's just do this. Now,
+nice. Hi, let's just do this. Now,
+nice. Hi, let's just do this. Now,
+there's one more thing I wanted to try.
+there's one more thing I wanted to try.
+there's one more thing I wanted to try.
+That is using some of these bad boys.
+That is using some of these bad boys.
+That is using some of these bad boys.
+So, maybe just add a little bit of
+So, maybe just add a little bit of
+So, maybe just add a little bit of
+detail on the edges. Not sure if that
+detail on the edges. Not sure if that
+detail on the edges. Not sure if that
+will work, but only one way to find out.
+will work, but only one way to find out.
+will work, but only one way to find out.
+We could of course add some depth like
+We could of course add some depth like
+We could of course add some depth like
+this and maybe a little bit of a drop
+this and maybe a little bit of a drop
+this and maybe a little bit of a drop
+shadow, too, so it looks like they're
+shadow, too, so it looks like they're
+shadow, too, so it looks like they're
+actually on there. Beautiful. And now we
+actually on there. Beautiful. And now we
+actually on there. Beautiful. And now we
+simply go ahead and copy them over like
+simply go ahead and copy them over like
+simply go ahead and copy them over like
+that. There. And we could even remove a
+that. There. And we could even remove a
+that. There. And we could even remove a
+few of them. There you go. And then just
+few of them. There you go. And then just
+few of them. There you go. And then just
+put like an outer bevel as if there's
+put like an outer bevel as if there's
+put like an outer bevel as if there's
+just one missing. Amazing. It's that
+just one missing. Amazing. It's that
+just one missing. Amazing. It's that
+attention to details that makes it look
+attention to details that makes it look
+attention to details that makes it look
+good, guys. Some extra little finishing
+good, guys. Some extra little finishing
+good, guys. Some extra little finishing
+touches on that background possibly. And
+touches on that background possibly. And
+touches on that background possibly. And
+then I think it's pretty much just good.
+then I think it's pretty much just good.
+then I think it's pretty much just good.
+There you bloody go. I like it. I like
+There you bloody go. I like it. I like
+There you bloody go. I like it. I like
+it a lot. I might make a few more
+it a lot. I might make a few more
+it a lot. I might make a few more
+changes, but then after that I'm going
+changes, but then after that I'm going
+changes, but then after that I'm going
+to move on to the sides and top and
+to move on to the sides and top and
+to move on to the sides and top and
+bottom and then um should be done. Now,
+bottom and then um should be done. Now,
+bottom and then um should be done. Now,
+let's already contact Benny, so by the
+let's already contact Benny, so by the
+let's already contact Benny, so by the
+time I'm finished with this, he'll be
+time I'm finished with this, he'll be
+time I'm finished with this, he'll be
+here to come pick them
+up. What the hell was that?
+Oh, Gary's finished. Let's go pick it
+Oh, Gary's finished. Let's go pick it
+Oh, Gary's finished. Let's go pick it
+up. By now, I have unlocked fast travel,
+up. By now, I have unlocked fast travel,
+up. By now, I have unlocked fast travel,
+so I think we should be able to
+just Bloody hell.
+go. Hello.
+What? Come on.
+Gary, we've been expecting you.
+Gary, we've been expecting you.
+Gary, we've been expecting you.
+Wait, this is how you kept coming
+Wait, this is how you kept coming
+Wait, this is how you kept coming
+back? You cloned yourself?
+back? You cloned yourself?
+back? You cloned yourself?
+I died for
+I died for
+I died for
+you over and over and over again. But I
+you over and over and over again. But I
+you over and over and over again. But I
+I thought you
+I thought you
+I thought you
+just I I I didn't know it ends
+just I I I didn't know it ends
+just I I I didn't know it ends
+now. Gary, come. We can work this out,
+now. Gary, come. We can work this out,
+now. Gary, come. We can work this out,
+right? No.
+right? No.
+right? No.
+Why? You couldn't possibly understand.
+No.
+No.
+No.
+Is it done? Affirmative.
+Is it done? Affirmative.
+Is it done? Affirmative.
+Good. Just a few more to go then.
+Ladies and gentlemen, if you're
+Ladies and gentlemen, if you're
+Ladies and gentlemen, if you're
+wondering what in the bloody hell you
+wondering what in the bloody hell you
+wondering what in the bloody hell you
+just watched, I am right there with you.
+just watched, I am right there with you.
+just watched, I am right there with you.
+I have no idea why I made this video the
+I have no idea why I made this video the
+I have no idea why I made this video the
+way I did, but I thought halfway into
+way I did, but I thought halfway into
+way I did, but I thought halfway into
+producing this, let's make this just the
+producing this, let's make this just the
+producing this, let's make this just the
+most insane piece of content I've ever
+most insane piece of content I've ever
+most insane piece of content I've ever
+made. And I did. I made props for it. I
+made. And I did. I made props for it. I
+made. And I did. I made props for it. I
+got some clothing. I made a whole
+got some clothing. I made a whole
+got some clothing. I made a whole
+costume. I printed this just for this
+costume. I printed this just for this
+costume. I printed this just for this
+video and this kind of like a
+video and this kind of like a
+video and this kind of like a
+nucaca bottle. I spent too much money,
+nucaca bottle. I spent too much money,
+nucaca bottle. I spent too much money,
+too much time, and way too much effort
+too much time, and way too much effort
+too much time, and way too much effort
+making this video. However, I do love
+making this video. However, I do love
+making this video. However, I do love
+the way it turned out. I just really
+the way it turned out. I just really
+the way it turned out. I just really
+like experimenting with new techniques,
+like experimenting with new techniques,
+like experimenting with new techniques,
+new things. Even though I'm not at all a
+new things. Even though I'm not at all a
+new things. Even though I'm not at all a
+VFX artist, I did try to be one. Also,
+VFX artist, I did try to be one. Also,
+VFX artist, I did try to be one. Also,
+uh this is the result for the box I made
+uh this is the result for the box I made
+uh this is the result for the box I made
+for the death claw. I kind of skipped
+for the death claw. I kind of skipped
+for the death claw. I kind of skipped
+over it in the video itself because Gary
+over it in the video itself because Gary
+over it in the video itself because Gary
+got shot again. But uh I also thought
+got shot again. But uh I also thought
+got shot again. But uh I also thought
+it'd be fun to kind of include a
+it'd be fun to kind of include a
+it'd be fun to kind of include a
+backstory on how Gary keeps dying but
+backstory on how Gary keeps dying but
+backstory on how Gary keeps dying but
+then coming back. Uh so it is kind of an
+then coming back. Uh so it is kind of an
+then coming back. Uh so it is kind of an
+open ending. If this video gets many
+open ending. If this video gets many
+open ending. If this video gets many
+views, I could continue the story
+views, I could continue the story
+views, I could continue the story
+somehow. But until then, I suppose like
+somehow. But until then, I suppose like
+somehow. But until then, I suppose like
+this video, subscribe, send it to your
+this video, subscribe, send it to your
+this video, subscribe, send it to your
+friends maybe. Um and then I hope I'll
+friends maybe. Um and then I hope I'll
+friends maybe. Um and then I hope I'll
+see you in the next video.
+see you in the next video.
+see you in the next video.

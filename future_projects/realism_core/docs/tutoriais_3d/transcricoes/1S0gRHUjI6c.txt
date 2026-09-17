@@ -1,0 +1,715 @@
+Kind: captions
+Language: en
+Creating studio quality animation like
+Creating studio quality animation like
+Creating studio quality animation like
+this used to take weeks and cost a
+this used to take weeks and cost a
+this used to take weeks and cost a
+fortune. Now you can start using the
+fortune. Now you can start using the
+fortune. Now you can start using the
+tools to do it for free. You don't need
+tools to do it for free. You don't need
+tools to do it for free. You don't need
+experience and you don't need a budget.
+experience and you don't need a budget.
+experience and you don't need a budget.
+But 
+But 
+But 
+there is one massive problem that ruins
+there is one massive problem that ruins
+there is one massive problem that ruins
+99% of AI videos. Character consistency.
+99% of AI videos. Character consistency.
+99% of AI videos. Character consistency.
+Most AI tools can't remember what your
+Most AI tools can't remember what your
+Most AI tools can't remember what your
+hero looks like from one shot to the
+hero looks like from one shot to the
+hero looks like from one shot to the
+next. In this video, we are going to
+next. In this video, we are going to
+next. In this video, we are going to
+solve that. We are building a complete
+solve that. We are building a complete
+solve that. We are building a complete
+animation system today. We aren't just
+animation system today. We aren't just
+animation system today. We aren't just
+generating random clips. We are creating
+generating random clips. We are creating
+generating random clips. We are creating
+a film. We will use a four-step workflow
+a film. We will use a four-step workflow
+a film. We will use a four-step workflow
+using the best free tools available
+using the best free tools available
+using the best free tools available
+right now. I'm going to show you a
+right now. I'm going to show you a
+right now. I'm going to show you a
+specific combination of apps that work
+specific combination of apps that work
+specific combination of apps that work
+together perfectly to build this system
+together perfectly to build this system
+together perfectly to build this system
+from scratch. And yes, we are focusing
+from scratch. And yes, we are focusing
+from scratch. And yes, we are focusing
+on a workflow that keeps your wallet
+on a workflow that keeps your wallet
+on a workflow that keeps your wallet
+closed while keeping your characters
+closed while keeping your characters
+closed while keeping your characters
+consistent. The secret sauce is a
+consistent. The secret sauce is a
+consistent. The secret sauce is a
+specific prompt template I've developed
+specific prompt template I've developed
+specific prompt template I've developed
+called the universal animation
+called the universal animation
+called the universal animation
+generator. I'll give this to you in a
+generator. I'll give this to you in a
+generator. I'll give this to you in a
+moment. Before we start, look at the
+moment. Before we start, look at the
+moment. Before we start, look at the
+result. This is the exact animation we
+result. This is the exact animation we
+result. This is the exact animation we
+are going to build together in this
+are going to build together in this
+are going to build together in this
+video. Notice the texture, that Pixar
+video. Notice the texture, that Pixar
+video. Notice the texture, that Pixar
+style look. But more importantly,
+style look. But more importantly,
+style look. But more importantly,
+look at the boy. He looks identical in
+look at the boy. He looks identical in
+look at the boy. He looks identical in
+every shot, even if his outlook and
+every shot, even if his outlook and
+every shot, even if his outlook and
+expressions change. Let's build this.
+expressions change. Let's build this.
+expressions change. Let's build this.
+Consistency doesn't happen when you
+Consistency doesn't happen when you
+Consistency doesn't happen when you
+generate the image. It happens when you
+generate the image. It happens when you
+generate the image. It happens when you
+write the script. Open the universal
+write the script. Open the universal
+write the script. Open the universal
+animation generator template in a
+animation generator template in a
+animation generator template in a
+separate document or text file first. Do
+separate document or text file first. Do
+separate document or text file first. Do
+not paste it into chat GPT yet. 
+not paste it into chat GPT yet. 
+not paste it into chat GPT yet. 
+We need to prepare it. Look at this
+We need to prepare it. Look at this
+We need to prepare it. Look at this
+section. Critical production rules. I've
+section. Critical production rules. I've
+section. Critical production rules. I've
+hard-coded instructions to prioritize
+hard-coded instructions to prioritize
+hard-coded instructions to prioritize
+medium shots and close-ups. 
+medium shots and close-ups. 
+medium shots and close-ups. 
+Why? Because wide shots in AI often
+Why? Because wide shots in AI often
+Why? Because wide shots in AI often
+distort faces. This guarantees details.
+distort faces. This guarantees details.
+distort faces. This guarantees details.
+Let me explain why this is critical. The
+Let me explain why this is critical. The
+Let me explain why this is critical. The
+number one reason AI characters look
+number one reason AI characters look
+number one reason AI characters look
+different in every shot is pixel
+different in every shot is pixel
+different in every shot is pixel
+allocation. If you ask for a wide
+allocation. If you ask for a wide
+allocation. If you ask for a wide
+landscape shot, the character's face
+landscape shot, the character's face
+landscape shot, the character's face
+might only take up 50 pixels of the
+might only take up 50 pixels of the
+might only take up 50 pixels of the
+image. The AI has to guess what they
+image. The AI has to guess what they
+image. The AI has to guess what they
+look like. By forcing a medium shot or
+look like. By forcing a medium shot or
+look like. By forcing a medium shot or
+ closeup, we force the AI to
+ closeup, we force the AI to
+ closeup, we force the AI to
+allocate 50% of the pixels to the face.
+allocate 50% of the pixels to the face.
+allocate 50% of the pixels to the face.
+This makes it mathematically impossible
+This makes it mathematically impossible
+This makes it mathematically impossible
+for the AI to ignore your character's
+for the AI to ignore your character's
+for the AI to ignore your character's
+details. Now fill in the brackets right
+details. Now fill in the brackets right
+details. Now fill in the brackets right
+here in your document.  In visual
+here in your document.  In visual
+here in your document.  In visual
+style, I'm typing Pixar. This adds a
+style, I'm typing Pixar. This adds a
+style, I'm typing Pixar. This adds a
+unified aesthetic. For the story, I'm
+unified aesthetic. For the story, I'm
+unified aesthetic. For the story, I'm
+typing in a concept about systematic
+typing in a concept about systematic
+typing in a concept about systematic
+working versus chaotic hustle. 
+working versus chaotic hustle. 
+working versus chaotic hustle. 
+You fill this with whatever story you
+You fill this with whatever story you
+You fill this with whatever story you
+want. Once your template is filled out,
+want. Once your template is filled out,
+want. Once your template is filled out,
+then copy the whole thing. Go to chat
+then copy the whole thing. Go to chat
+then copy the whole thing. Go to chat
+GPT, paste it, and hit enter. Watch the
+GPT, paste it, and hit enter. Watch the
+GPT, paste it, and hit enter. Watch the
+output. First, it generates master
+output. First, it generates master
+output. First, it generates master
+character profiles. It defines their
+character profiles. It defines their
+character profiles. It defines their
+DNA. 7-year-old messy blonde hair, round
+DNA. 7-year-old messy blonde hair, round
+DNA. 7-year-old messy blonde hair, round
+green, googly eyes. This is crucial. AI
+green, googly eyes. This is crucial. AI
+green, googly eyes. This is crucial. AI
+engine will use this exact description
+engine will use this exact description
+engine will use this exact description
+in every single image prompt. That is
+in every single image prompt. That is
+in every single image prompt. That is
+how we lock in the look. And here is the
+how we lock in the look. And here is the
+how we lock in the look. And here is the
+magic. For every scene, the template
+magic. For every scene, the template
+magic. For every scene, the template
+gives us two things.  One, a text
+gives us two things.  One, a text
+gives us two things.  One, a text
+to image prompt for the visuals. Two, an
+to image prompt for the visuals. Two, an
+to image prompt for the visuals. Two, an
+image to video prompt for the movement.
+image to video prompt for the movement.
+image to video prompt for the movement.
+Before we move on, don't lose this.
+Before we move on, don't lose this.
+Before we move on, don't lose this.
+Create a project folder on your desktop.
+Create a project folder on your desktop.
+Create a project folder on your desktop.
+Copy the entire chat output and save it
+Copy the entire chat output and save it
+Copy the entire chat output and save it
+as a text file here. We will need to
+as a text file here. We will need to
+as a text file here. We will need to
+refer back to this constantly.
+Now we move to the visuals. I'm using
+Now we move to the visuals. I'm using
+Now we move to the visuals. I'm using
+Google's Gemini for this. Gemini
+Google's Gemini for this. Gemini
+Google's Gemini for this. Gemini
+provides daily free credits for image
+provides daily free credits for image
+provides daily free credits for image
+production. Before we generate any
+production. Before we generate any
+production. Before we generate any
+scenes, we must establish our
+scenes, we must establish our
+scenes, we must establish our
+characters. Copy the master character
+characters. Copy the master character
+characters. Copy the master character
+profile for the kid. Paste it into
+profile for the kid. Paste it into
+profile for the kid. Paste it into
+Gemini and generate. This is our
+Gemini and generate. This is our
+Gemini and generate. This is our
+reference. Look at the hair, the shirt
+reference. Look at the hair, the shirt
+reference. Look at the hair, the shirt
+stripes. This is exactly how he should
+stripes. This is exactly how he should
+stripes. This is exactly how he should
+look in every scene. Now do the same for
+look in every scene. Now do the same for
+look in every scene. Now do the same for
+the creature. Copy the master profile
+the creature. Copy the master profile
+the creature. Copy the master profile
+and generate. This confirms our monster
+and generate. This confirms our monster
+and generate. This confirms our monster
+looks round and friendly, not scary. Now
+looks round and friendly, not scary. Now
+looks round and friendly, not scary. Now
+we are ready for the scenes. Go to scene
+we are ready for the scenes. Go to scene
+we are ready for the scenes. Go to scene
+one. Copy the text to image prompt.
+one. Copy the text to image prompt.
+one. Copy the text to image prompt.
+Paste it into Gemini. Hit enter.
+Paste it into Gemini. Hit enter.
+Paste it into Gemini. Hit enter.
+Look at the quality. It followed the
+Look at the quality. It followed the
+Look at the quality. It followed the
+mediumshot rule, so the face is clear.
+mediumshot rule, so the face is clear.
+mediumshot rule, so the face is clear.
+It followed the Pixar rule, so the style
+It followed the Pixar rule, so the style
+It followed the Pixar rule, so the style
+is right.  Let's try scene two.
+is right.  Let's try scene two.
+is right.  Let's try scene two.
+This is the hustle scene where he tries
+This is the hustle scene where he tries
+This is the hustle scene where he tries
+to build too fast. Paste and generate.
+to build too fast. Paste and generate.
+to build too fast. Paste and generate.
+Look at the result. The shirt stripes,
+Look at the result. The shirt stripes,
+Look at the result. The shirt stripes,
+the hair, the Pixar style. It's the
+the hair, the Pixar style. It's the
+the hair, the Pixar style. It's the
+exact same boy. perfect consistency.
+exact same boy. perfect consistency.
+exact same boy. perfect consistency.
+ Now, a quick pro tip. If you hit
+ Now, a quick pro tip. If you hit
+ Now, a quick pro tip. If you hit
+generate and the shirt color changes or
+generate and the shirt color changes or
+generate and the shirt color changes or
+the hair looks wrong, do not just keep
+the hair looks wrong, do not just keep
+the hair looks wrong, do not just keep
+hitting generate. That is a waste of
+hitting generate. That is a waste of
+hitting generate. That is a waste of
+time. Go back to your prompt. Usually,
+time. Go back to your prompt. Usually,
+time. Go back to your prompt. Usually,
+consistency breaks because of lighting.
+consistency breaks because of lighting.
+consistency breaks because of lighting.
+If scene one is sunny and scene two is
+If scene one is sunny and scene two is
+If scene one is sunny and scene two is
+dark room, the AI changes the colors. I
+dark room, the AI changes the colors. I
+dark room, the AI changes the colors. I
+always recommend adding studio lighting
+always recommend adding studio lighting
+always recommend adding studio lighting
+to every prompt to keep the colors flat
+to every prompt to keep the colors flat
+to every prompt to keep the colors flat
+and consistent. Now, scene three, paste
+and consistent. Now, scene three, paste
+and consistent. Now, scene three, paste
+and generate.
+Look at the details of the creature and
+Look at the details of the creature and
+Look at the details of the creature and
+the kid. Even if their expressions are
+the kid. Even if their expressions are
+the kid. Even if their expressions are
+totally different than the first two
+totally different than the first two
+totally different than the first two
+scenes, their characters remained
+scenes, their characters remained
+scenes, their characters remained
+exactly the same. After finishing your
+exactly the same. After finishing your
+exactly the same. After finishing your
+productions, don't just leave them in
+productions, don't just leave them in
+productions, don't just leave them in
+the browser. Create a folder inside your
+the browser. Create a folder inside your
+the browser. Create a folder inside your
+project folder. Save every image
+project folder. Save every image
+project folder. Save every image
+immediately and number them. Scene one,
+immediately and number them. Scene one,
+immediately and number them. Scene one,
+scene two, scene three. This will save
+scene two, scene three. This will save
+scene two, scene three. This will save
+you a headache later. Static images are
+you a headache later. Static images are
+you a headache later. Static images are
+nice, but we will make animation. For
+nice, but we will make animation. For
+nice, but we will make animation. For
+this, we are using Grock. After you log
+this, we are using Grock. After you log
+this, we are using Grock. After you log
+into Grock, go to the imagine section.
+into Grock, go to the imagine section.
+into Grock, go to the imagine section.
+First, upload your image for scene one.
+First, upload your image for scene one.
+First, upload your image for scene one.
+Now, usually people leave the prompt
+Now, usually people leave the prompt
+Now, usually people leave the prompt
+blank here. Don't do that.
+blank here. Don't do that.
+blank here. Don't do that.
+Go back to our script. Copy the image to
+Go back to our script. Copy the image to
+Go back to our script. Copy the image to
+video prompt for the first scene. The
+video prompt for the first scene. The
+video prompt for the first scene. The
+template has already written specific
+template has already written specific
+template has already written specific
+instructions, including the dialogue. If
+instructions, including the dialogue. If
+instructions, including the dialogue. If
+you just say simple things like move,
+you just say simple things like move,
+you just say simple things like move,
+the AI doesn't perform at its best. But
+the AI doesn't perform at its best. But
+the AI doesn't perform at its best. But
+because the template specified details
+because the template specified details
+because the template specified details
+like expressions,  the AI locks
+like expressions,  the AI locks
+like expressions,  the AI locks
+the geometry of the face. Paste and
+the geometry of the face. Paste and
+the geometry of the face. Paste and
+generate.
+Look at scene one. The movement matches
+Look at scene one. The movement matches
+Look at scene one. The movement matches
+the Pixar style we want.
+Now scene  two. This is tricky
+Now scene  two. This is tricky
+Now scene  two. This is tricky
+because there is more action.
+Look at that. He moves his arms, stacks
+Look at that. He moves his arms, stacks
+Look at that. He moves his arms, stacks
+the blocks, but his face stays
+the blocks, but his face stays
+the blocks, but his face stays
+consistent. He is still the kid.
+Now, there is one limitation you will
+Now, there is one limitation you will
+Now, there is one limitation you will
+hit.  Most AI tools, including
+hit.  Most AI tools, including
+hit.  Most AI tools, including
+Grock, only generate about 5 seconds of
+Grock, only generate about 5 seconds of
+Grock, only generate about 5 seconds of
+video at a time. This can make your edit
+video at a time. This can make your edit
+video at a time. This can make your edit
+feel rushed and jumpy. If you need a
+feel rushed and jumpy. If you need a
+feel rushed and jumpy. If you need a
+longer shot, maybe a long emotional
+longer shot, maybe a long emotional
+longer shot, maybe a long emotional
+close-up or a complex building sequence,
+close-up or a complex building sequence,
+close-up or a complex building sequence,
+here is the hack. Go to the very last
+here is the hack. Go to the very last
+here is the hack. Go to the very last
+frame of your video, rightclick, 
+frame of your video, rightclick, 
+frame of your video, rightclick, 
+and choose save video frame as to get a
+and choose save video frame as to get a
+and choose save video frame as to get a
+perfect match. Now, feed that screenshot
+perfect match. Now, feed that screenshot
+perfect match. Now, feed that screenshot
+back into Grock as your start image. I'm
+back into Grock as your start image. I'm
+back into Grock as your start image. I'm
+pasting a continuation prompt here where
+pasting a continuation prompt here where
+pasting a continuation prompt here where
+the creature actually answers the kid
+the creature actually answers the kid
+the creature actually answers the kid
+saying, "Wait, we need a plan first."
+saying, "Wait, we need a plan first."
+saying, "Wait, we need a plan first."
+Here is the continuation clip.
+I am taking these two clips, the start
+I am taking these two clips, the start
+I am taking these two clips, the start
+and the continuation over to Cap Cut.
+and the continuation over to Cap Cut.
+and the continuation over to Cap Cut.
+When you stitch them together, because
+When you stitch them together, because
+When you stitch them together, because
+the start frame of the second clip is
+the start frame of the second clip is
+the start frame of the second clip is
+the end frame of the first, the cut is
+the end frame of the first, the cut is
+the end frame of the first, the cut is
+invisible. Let's see how it came out.
+invisible. Let's see how it came out.
+invisible. Let's see how it came out.
+Let's build the tallest tower ever.
+&gt;&gt; Wait, we need a plan first.
+&gt;&gt; Wait, we need a plan first.
+&gt;&gt; Wait, we need a plan first.
+You just turned a 5-second AI clip into
+You just turned a 5-second AI clip into
+You just turned a 5-second AI clip into
+a 10-second continuous cinematic shot.
+a 10-second continuous cinematic shot.
+a 10-second continuous cinematic shot.
+You can repeat this loop as many times
+You can repeat this loop as many times
+You can repeat this loop as many times
+as you need, turning short clips into
+as you need, turning short clips into
+as you need, turning short clips into
+full scenes. Now, let's continue with
+full scenes. Now, let's continue with
+full scenes. Now, let's continue with
+scene three with the creature. We want
+scene three with the creature. We want
+scene three with the creature. We want
+slow and calm movements from the
+slow and calm movements from the
+slow and calm movements from the
+creature.
+Perfect. He doesn't melt into a blob.
+Perfect. He doesn't melt into a blob.
+Perfect. He doesn't melt into a blob.
+That is the power of a specific motion
+That is the power of a specific motion
+That is the power of a specific motion
+prompt.
+Repeat this for every scene. Once you
+Repeat this for every scene. Once you
+Repeat this for every scene. Once you
+are happy, download them. Save them to a
+are happy, download them. Save them to a
+are happy, download them. Save them to a
+folder again. keep everything organized.
+&gt;&gt; One quick note on audio. The characters
+&gt;&gt; One quick note on audio. The characters
+&gt;&gt; One quick note on audio. The characters
+are already talking after we make the
+are already talking after we make the
+are already talking after we make the
+production with Grock.
+production with Grock.
+production with Grock.
+&gt;&gt; Let's build the tallest tower ever.
+&gt;&gt; Because our template included a line in
+&gt;&gt; Because our template included a line in
+&gt;&gt; Because our template included a line in
+the motion prompt, Grock actually
+the motion prompt, Grock actually
+the motion prompt, Grock actually
+attempts to lip sync and generate audio.
+attempts to lip sync and generate audio.
+attempts to lip sync and generate audio.
+Sometimes this is perfect, but if you
+Sometimes this is perfect, but if you
+Sometimes this is perfect, but if you
+want total control or if you need a
+want total control or if you need a
+want total control or if you need a
+specific accent, you can mute the video
+specific accent, you can mute the video
+specific accent, you can mute the video
+in the editing phase and record your own
+in the editing phase and record your own
+in the editing phase and record your own
+voice over. If you do this, just make
+voice over. If you do this, just make
+voice over. If you do this, just make
+sure to time your recording to match the
+sure to time your recording to match the
+sure to time your recording to match the
+hand gestures in the video. For this
+hand gestures in the video. For this
+hand gestures in the video. For this
+tutorial, I will stick with the voice
+tutorial, I will stick with the voice
+tutorial, I will stick with the voice
+over generated by Grock. We have our
+over generated by Grock. We have our
+over generated by Grock. We have our
+clips organized. Now, we need to tell
+clips organized. Now, we need to tell
+clips organized. Now, we need to tell
+the story. Open up Cap Cut. Open your
+the story. Open up Cap Cut. Open your
+the story. Open up Cap Cut. Open your
+project folder. Select all your clips
+project folder. Select all your clips
+project folder. Select all your clips
+and drag them straight onto the
+and drag them straight onto the
+and drag them straight onto the
+timeline. Since we numbered them, they
+timeline. Since we numbered them, they
+timeline. Since we numbered them, they
+land in perfect order.
+land in perfect order.
+land in perfect order.
+I'm adding simple transitions between
+I'm adding simple transitions between
+I'm adding simple transitions between
+scenes for flow.
+You'll notice I am not adding a
+You'll notice I am not adding a
+You'll notice I am not adding a
+voiceover track. Why? Because our Grock
+voiceover track. Why? Because our Grock
+voiceover track. Why? Because our Grock
+prompts included dialogue. So, the
+prompts included dialogue. So, the
+prompts included dialogue. So, the
+characters are already talking.
+Grock generates its own audio. But I
+Grock generates its own audio. But I
+Grock generates its own audio. But I
+always add an external background music
+always add an external background music
+always add an external background music
+track. It bridges the cuts and makes the
+track. It bridges the cuts and makes the
+track. It bridges the cuts and makes the
+video feel like a single cohesive film
+video feel like a single cohesive film
+video feel like a single cohesive film
+rather than just separate clips.
+Finally, hit export. Make sure you
+Finally, hit export. Make sure you
+Finally, hit export. Make sure you
+select 4K resolution. This is crucial
+select 4K resolution. This is crucial
+select 4K resolution. This is crucial
+for that crisp 3D cartoon look. Kids
+for that crisp 3D cartoon look. Kids
+for that crisp 3D cartoon look. Kids
+these days are a very selective
+these days are a very selective
+these days are a very selective
+audience. They notice the pixels. Let's
+audience. They notice the pixels. Let's
+audience. They notice the pixels. Let's
+see the final result.
+see the final result.
+see the final result.
+Let's build the tallest tower 
+Let's build the tallest tower 
+Let's build the tallest tower 
+ever.
+Faster. More blocks. No time to think.
+First,  we make a plan.
+&gt;&gt; What? No.
+&gt;&gt; Same steps 
+&gt;&gt; Same steps 
+&gt;&gt; Same steps 
+every time.
+Oh,
+step by  step.
+step by  step.
+step by  step.
+&gt;&gt; Exactly.
+&gt;&gt; Fast feels good, but systems win.
+&gt;&gt; Fast feels good, but systems win.
+&gt;&gt; Fast feels good, but systems win.
+&gt;&gt; I've put the universal animation
+&gt;&gt; I've put the universal animation
+&gt;&gt; I've put the universal animation
+generator template in the description.
+generator template in the description.
+generator template in the description.
+It works for Pixar, anime, clay motion,
+It works for Pixar, anime, clay motion,
+It works for Pixar, anime, clay motion,
+whatever style you want. I decide my
+whatever style you want. I decide my
+whatever style you want. I decide my
+next videos according to likes. So if
+next videos according to likes. So if
+next videos according to likes. So if
+you want me to continue to create videos
+you want me to continue to create videos
+you want me to continue to create videos
+in this series, like the video. If this
+in this series, like the video. If this
+in this series, like the video. If this
+gets good likes, I'll keep the series
+gets good likes, I'll keep the series
+gets good likes, I'll keep the series
+going.

@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="pt"><head><meta charset="UTF-8"><title>Face Preview</title>
+<style>html,body{margin:0;height:100%;background:#141a22;overflow:hidden}#c{width:100vw;height:100vh;display:block}</style></head>
+<body><canvas id="c"></canvas>
+<script type="importmap">{ "imports": { "three": "./vendor/three/three.module.js", "three/addons/": "./vendor/three/jsm/" } }</script>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+const qs=new URLSearchParams(location.search);
+const name=qs.get('m')||'carla_dengue';
+const canvas=document.getElementById('c');
+const renderer=new THREE.WebGLRenderer({canvas,antialias:true,preserveDrawingBuffer:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio,2)); renderer.setSize(innerWidth,innerHeight);
+renderer.shadowMap.enabled=true; renderer.outputColorSpace=THREE.SRGBColorSpace;
+renderer.toneMapping=THREE.AgXToneMapping; renderer.toneMappingExposure=1.0;
+const scene=new THREE.Scene(); scene.background=new THREE.Color(0x1b2330);
+scene.add(new THREE.HemisphereLight(0xdfe9f5,0x2a2622,0.8));
+const key=new THREE.DirectionalLight(0xfff2e0,2.6); key.position.set(2,4,4); key.castShadow=true; scene.add(key);
+const rim=new THREE.DirectionalLight(0x9fc8ff,1.2); rim.position.set(-2,2,-3); scene.add(rim);
+const fill=new THREE.PointLight(0x9fd8ff,4,10); fill.position.set(-2,2.5,3); scene.add(fill);
+const camera=new THREE.PerspectiveCamera(32,innerWidth/innerHeight,0.05,20);
+const loader=new GLTFLoader();
+loader.load(`models/${name}.glb`,(gltf)=>{
+  const model=gltf.scene;
+  const box=new THREE.Box3().setFromObject(model);
+  const size=box.getSize(new THREE.Vector3());
+  model.scale.setScalar(1.72/Math.max(size.y,1e-4));
+  box.setFromObject(model);
+  model.position.y-=box.min.y;
+  model.position.x-=(box.max.x+box.min.x)/2;
+  scene.add(model);
+  // câmera no nível dos olhos, perto
+  camera.position.set(0,1.52,0.75);
+  camera.lookAt(0,1.52,0);
+  const mix=new THREE.AnimationMixer(model);
+  const clips={}; for(const c of gltf.animations) clips[c.name]=c;
+  mix.clipAction(clips.Idle).play();
+  window.__setPose=(p)=>{ const k={mao_no_peito:'Pain',curvado:'Weakness',cabeca_baixa:'Discomfort'}[p]||p; if(clips[k]) mix.clipAction(clips[k]).reset().play(); };
+  window.__ready=true;
+  const loop=()=>{ mix.update(0.016); renderer.render(scene,camera); requestAnimationFrame(loop); };
+  requestAnimationFrame(loop);
+});
+</script></body></html>

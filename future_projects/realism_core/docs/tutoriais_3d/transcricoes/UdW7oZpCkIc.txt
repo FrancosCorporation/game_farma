@@ -1,0 +1,1989 @@
+Kind: captions
+Language: en
+in this video i'll be showing you how
+in this video i'll be showing you how
+in this video i'll be showing you how
+you can create stylized sculpted heads
+you can create stylized sculpted heads
+you can create stylized sculpted heads
+like this this is a two-part series the
+like this this is a two-part series the
+like this this is a two-part series the
+first part is setting up the base mesh
+first part is setting up the base mesh
+first part is setting up the base mesh
+and the second shorter video is more the
+and the second shorter video is more the
+and the second shorter video is more the
+detailed sculpt this is meant to be a
+detailed sculpt this is meant to be a
+detailed sculpt this is meant to be a
+follow-along style tutorial so open up
+follow-along style tutorial so open up
+follow-along style tutorial so open up
+blender and join in for the best
+blender and join in for the best
+blender and join in for the best
+learning experience i try as much as i
+learning experience i try as much as i
+learning experience i try as much as i
+can to make this as beginner focused as
+can to make this as beginner focused as
+can to make this as beginner focused as
+possible but you will need a basic
+possible but you will need a basic
+possible but you will need a basic
+understanding of the interface to follow
+understanding of the interface to follow
+understanding of the interface to follow
+along if you like what i do then do
+along if you like what i do then do
+along if you like what i do then do
+check out my website and playlists on
+check out my website and playlists on
+check out my website and playlists on
+this channel for more great content so
+this channel for more great content so
+this channel for more great content so
+let's get started so i'm in blender 3.0
+let's get started so i'm in blender 3.0
+let's get started so i'm in blender 3.0
+as you can see down the bottom here i've
+as you can see down the bottom here i've
+as you can see down the bottom here i've
+got my screencast keys down the bottom
+got my screencast keys down the bottom
+got my screencast keys down the bottom
+corner here and i'm in the general
+corner here and i'm in the general
+corner here and i'm in the general
+startup file now to start off with we
+startup file now to start off with we
+startup file now to start off with we
+don't need any of these objects so i can
+don't need any of these objects so i can
+don't need any of these objects so i can
+box select those
+box select those
+box select those
+and press delete now sculpting is much
+and press delete now sculpting is much
+and press delete now sculpting is much
+easier with a background image that you
+easier with a background image that you
+easier with a background image that you
+can kind of trace around and i've got
+can kind of trace around and i've got
+can kind of trace around and i've got
+two background images that you can use
+two background images that you can use
+two background images that you can use
+the first one is obviously a front and
+the first one is obviously a front and
+the first one is obviously a front and
+side view of a female stylized face with
+side view of a female stylized face with
+side view of a female stylized face with
+a light bit of shading the second one
+a light bit of shading the second one
+a light bit of shading the second one
+may help you with your sculpting because
+may help you with your sculpting because
+may help you with your sculpting because
+it's got a bit of detail about the
+it's got a bit of detail about the
+it's got a bit of detail about the
+planes of the face and some curvature
+planes of the face and some curvature
+planes of the face and some curvature
+lines here to kind of help you when
+lines here to kind of help you when
+lines here to kind of help you when
+fleshing out your model this bit is
+fleshing out your model this bit is
+fleshing out your model this bit is
+quite tricky to trace within blender so
+quite tricky to trace within blender so
+quite tricky to trace within blender so
+you might want this on a second screen
+you might want this on a second screen
+you might want this on a second screen
+as a reference so i'll close that down
+as a reference so i'll close that down
+as a reference so i'll close that down
+and i'll drag this image into blender so
+and i'll drag this image into blender so
+and i'll drag this image into blender so
+click and drag into our blender scene
+click and drag into our blender scene
+click and drag into our blender scene
+now you'll notice it comes in
+now you'll notice it comes in
+now you'll notice it comes in
+perpendicular to the camera and we can
+perpendicular to the camera and we can
+perpendicular to the camera and we can
+reposition this easily alt r to remove
+reposition this easily alt r to remove
+reposition this easily alt r to remove
+any rotation and alt g to remove any
+any rotation and alt g to remove any
+any rotation and alt g to remove any
+grabbing or movement now i can press
+grabbing or movement now i can press
+grabbing or movement now i can press
+rx90 to rotate in the x-axis the red one
+rx90 to rotate in the x-axis the red one
+rx90 to rotate in the x-axis the red one
+going along the middle 90 degrees and
+going along the middle 90 degrees and
+going along the middle 90 degrees and
+then press enter remember you've got
+then press enter remember you've got
+then press enter remember you've got
+your axes labeled at the top here as
+your axes labeled at the top here as
+your axes labeled at the top here as
+well to help now i want to reposition
+well to help now i want to reposition
+well to help now i want to reposition
+this so i can go into front view and we
+this so i can go into front view and we
+this so i can go into front view and we
+can press the minus y here or i can
+can press the minus y here or i can
+can press the minus y here or i can
+press one on my numpad and that will do
+press one on my numpad and that will do
+press one on my numpad and that will do
+the same thing let's zoom in and grab
+the same thing let's zoom in and grab
+the same thing let's zoom in and grab
+this and move it into the middle now
+this and move it into the middle now
+this and move it into the middle now
+this is a bit tricky i wanted to line up
+this is a bit tricky i wanted to line up
+this is a bit tricky i wanted to line up
+with the z or z axis going down the
+with the z or z axis going down the
+with the z or z axis going down the
+middle here we can't see it very well
+middle here we can't see it very well
+middle here we can't see it very well
+well with my empty selected that's my
+well with my empty selected that's my
+well with my empty selected that's my
+background image and you can see it's
+background image and you can see it's
+background image and you can see it's
+empty there i'll change the name of it
+empty there i'll change the name of it
+empty there i'll change the name of it
+to front by double left clicking on the
+to front by double left clicking on the
+to front by double left clicking on the
+name i can then come down to the bottom
+name i can then come down to the bottom
+name i can then come down to the bottom
+here to the object data properties and
+here to the object data properties and
+here to the object data properties and
+tick the opacity option and make it less
+tick the opacity option and make it less
+tick the opacity option and make it less
+opaque somewhere around 0.3 that way you
+opaque somewhere around 0.3 that way you
+opaque somewhere around 0.3 that way you
+can see the z-axis and i can zoom in and
+can see the z-axis and i can zoom in and
+can see the z-axis and i can zoom in and
+make sure it's right in the center
+make sure it's right in the center
+make sure it's right in the center
+somewhere around there okay let's zoom
+somewhere around there okay let's zoom
+somewhere around there okay let's zoom
+out a bit again and sort out our side
+out a bit again and sort out our side
+out a bit again and sort out our side
+image so with my object selected i'll
+image so with my object selected i'll
+image so with my object selected i'll
+press shift d to duplicate and then left
+press shift d to duplicate and then left
+press shift d to duplicate and then left
+click that's created a duplicate right
+click that's created a duplicate right
+click that's created a duplicate right
+on top of the other one and i'll rename
+on top of the other one and i'll rename
+on top of the other one and i'll rename
+this side i'll come around to the top so
+this side i'll come around to the top so
+this side i'll come around to the top so
+you can see what's going on if i press r
+you can see what's going on if i press r
+you can see what's going on if i press r
+z 90 now that will rotate around the z
+z 90 now that will rotate around the z
+z 90 now that will rotate around the z
+axis the blue one going up and down 90
+axis the blue one going up and down 90
+axis the blue one going up and down 90
+degrees and then press enter now let's
+degrees and then press enter now let's
+degrees and then press enter now let's
+go to side view i can either press x up
+go to side view i can either press x up
+go to side view i can either press x up
+here or i can press 3 on my numpad and
+here or i can press 3 on my numpad and
+here or i can press 3 on my numpad and
+now i can move this side view into
+now i can move this side view into
+now i can move this side view into
+position but don't move it up and down
+position but don't move it up and down
+position but don't move it up and down
+in the z so if i press g then y it will
+in the z so if i press g then y it will
+in the z so if i press g then y it will
+constrain that to the y axis so
+constrain that to the y axis so
+constrain that to the y axis so
+somewhere around there and left click so
+somewhere around there and left click so
+somewhere around there and left click so
+we're left with these two images like
+we're left with these two images like
+we're left with these two images like
+this now i want to model around the
+this now i want to model around the
+this now i want to model around the
+center point here the world origin so
+center point here the world origin so
+center point here the world origin so
+i'm going to press g then x to move that
+i'm going to press g then x to move that
+i'm going to press g then x to move that
+backwards and this one g then y to move
+backwards and this one g then y to move
+backwards and this one g then y to move
+that backwards and now i can model in
+that backwards and now i can model in
+that backwards and now i can model in
+the front of the two of them nice and
+the front of the two of them nice and
+the front of the two of them nice and
+easily and jump from front view and side
+easily and jump from front view and side
+easily and jump from front view and side
+view and trace around so the next thing
+view and trace around so the next thing
+view and trace around so the next thing
+to do is to add something i can sculpt
+to do is to add something i can sculpt
+to do is to add something i can sculpt
+we can go up to the add menu here or we
+we can go up to the add menu here or we
+we can go up to the add menu here or we
+can press shift a for short but do make
+can press shift a for short but do make
+can press shift a for short but do make
+sure your 3d cursor is right in the
+sure your 3d cursor is right in the
+sure your 3d cursor is right in the
+center for this and you can move this
+center for this and you can move this
+center for this and you can move this
+with shift right click and if it's not
+with shift right click and if it's not
+with shift right click and if it's not
+right in the center press shift s which
+right in the center press shift s which
+right in the center press shift s which
+brings up this pi menu and you need to
+brings up this pi menu and you need to
+brings up this pi menu and you need to
+hover over cursor to world origin that
+hover over cursor to world origin that
+hover over cursor to world origin that
+will move it back into the middle so
+will move it back into the middle so
+will move it back into the middle so
+shift a to add mesh and then uv sphere
+shift a to add mesh and then uv sphere
+shift a to add mesh and then uv sphere
+now we can scale and position this so
+now we can scale and position this so
+now we can scale and position this so
+one on my numpad go to front view scale
+one on my numpad go to front view scale
+one on my numpad go to front view scale
+it down and g to grab make sure you
+it down and g to grab make sure you
+it down and g to grab make sure you
+don't grab it along the x-axis because
+don't grab it along the x-axis because
+don't grab it along the x-axis because
+we need that for the symmetry so it's a
+we need that for the symmetry so it's a
+we need that for the symmetry so it's a
+good idea to constrain it to an axis
+good idea to constrain it to an axis
+good idea to constrain it to an axis
+when you press g to grab so g then z in
+when you press g to grab so g then z in
+when you press g to grab so g then z in
+this case so somewhere around there zoom
+this case so somewhere around there zoom
+this case so somewhere around there zoom
+in a bit scale it down a touch let's go
+in a bit scale it down a touch let's go
+in a bit scale it down a touch let's go
+to side view and we want to scale this
+to side view and we want to scale this
+to side view and we want to scale this
+in the y and g then y and we're roughly
+in the y and g then y and we're roughly
+in the y and g then y and we're roughly
+there now if i press n on my keyboard
+there now if i press n on my keyboard
+there now if i press n on my keyboard
+and go to item the important thing with
+and go to item the important thing with
+and go to item the important thing with
+this is that we don't move it in the
+this is that we don't move it in the
+this is that we don't move it in the
+x-axis if you accidentally move it in
+x-axis if you accidentally move it in
+x-axis if you accidentally move it in
+the x-axis then make sure that is reset
+the x-axis then make sure that is reset
+the x-axis then make sure that is reset
+to zero i'll undo that movement so it's
+to zero i'll undo that movement so it's
+to zero i'll undo that movement so it's
+back where it was okay so now we want to
+back where it was okay so now we want to
+back where it was okay so now we want to
+actually start sculpting this object so
+actually start sculpting this object so
+actually start sculpting this object so
+it mimics the head shape but before
+it mimics the head shape but before
+it mimics the head shape but before
+going to sculpt mode we want to have a
+going to sculpt mode we want to have a
+going to sculpt mode we want to have a
+look at the scale now because i scaled
+look at the scale now because i scaled
+look at the scale now because i scaled
+this in object mode it's got non-uniform
+this in object mode it's got non-uniform
+this in object mode it's got non-uniform
+scale so if i do go across to the
+scale so if i do go across to the
+scale so if i do go across to the
+sculpting workspace you get this error
+sculpting workspace you get this error
+sculpting workspace you get this error
+message non-uniform scale it may be
+message non-uniform scale it may be
+message non-uniform scale it may be
+unpredictable so back to layout mode we
+unpredictable so back to layout mode we
+unpredictable so back to layout mode we
+want to change this so it's set to one
+want to change this so it's set to one
+want to change this so it's set to one
+it won't change the dimensions but it
+it won't change the dimensions but it
+it won't change the dimensions but it
+will help blender to understand the
+will help blender to understand the
+will help blender to understand the
+object better to do this we press ctrl a
+object better to do this we press ctrl a
+object better to do this we press ctrl a
+to apply and you've got the object menu
+to apply and you've got the object menu
+to apply and you've got the object menu
+here as well apply so ctrl a for short
+here as well apply so ctrl a for short
+here as well apply so ctrl a for short
+and go to the scale that resets all
+and go to the scale that resets all
+and go to the scale that resets all
+these to one now when we go to sculpt
+these to one now when we go to sculpt
+these to one now when we go to sculpt
+mode there's no error message okay so in
+mode there's no error message okay so in
+mode there's no error message okay so in
+the sculpting workspace because we
+the sculpting workspace because we
+the sculpting workspace because we
+selected our sphere it's put it into
+selected our sphere it's put it into
+selected our sphere it's put it into
+sculpt mode and i'll drag out my brushes
+sculpt mode and i'll drag out my brushes
+sculpt mode and i'll drag out my brushes
+so you can read what i'm using don't
+so you can read what i'm using don't
+so you can read what i'm using don't
+worry about these numbers here that's
+worry about these numbers here that's
+worry about these numbers here that's
+because i've got a time-lapse running in
+because i've got a time-lapse running in
+because i've got a time-lapse running in
+the background so that might look
+the background so that might look
+the background so that might look
+slightly different for you the first
+slightly different for you the first
+slightly different for you the first
+brush i want to show you is the grab
+brush i want to show you is the grab
+brush i want to show you is the grab
+brush and we can grab and pull our mesh
+brush and we can grab and pull our mesh
+brush and we can grab and pull our mesh
+around into position now it's worth
+around into position now it's worth
+around into position now it's worth
+saying that i'm using a display tablet
+saying that i'm using a display tablet
+saying that i'm using a display tablet
+and working with a display tablet or
+and working with a display tablet or
+and working with a display tablet or
+graphics tablet will greatly speed up
+graphics tablet will greatly speed up
+graphics tablet will greatly speed up
+your workflow it's not impossible to do
+your workflow it's not impossible to do
+your workflow it's not impossible to do
+this sculpting with a mouse but it is
+this sculpting with a mouse but it is
+this sculpting with a mouse but it is
+that bit more tricky if you want to
+that bit more tricky if you want to
+that bit more tricky if you want to
+learn more about display tablets and
+learn more about display tablets and
+learn more about display tablets and
+graphics tablets then follow the link in
+graphics tablets then follow the link in
+graphics tablets then follow the link in
+the description to my buyer's guide so
+the description to my buyer's guide so
+the description to my buyer's guide so
+before we start if i start pulling this
+before we start if i start pulling this
+before we start if i start pulling this
+around now you can see that it doesn't
+around now you can see that it doesn't
+around now you can see that it doesn't
+mirror on the other side so i'll undo
+mirror on the other side so i'll undo
+mirror on the other side so i'll undo
+that and make sure you've got the mirror
+that and make sure you've got the mirror
+that and make sure you've got the mirror
+option ticked just up there and we want
+option ticked just up there and we want
+option ticked just up there and we want
+to mirror along the x-axis so the red
+to mirror along the x-axis so the red
+to mirror along the x-axis so the red
+line going across now when i do one
+line going across now when i do one
+line going across now when i do one
+thing on one side it will mirror on the
+thing on one side it will mirror on the
+thing on one side it will mirror on the
+other so i'll undo that
+other so i'll undo that
+other so i'll undo that
+make my brush nice and big with f to
+make my brush nice and big with f to
+make my brush nice and big with f to
+resize your brush and move your pen side
+resize your brush and move your pen side
+resize your brush and move your pen side
+to side and then i can drag this down
+to side and then i can drag this down
+to side and then i can drag this down
+into position i'll go to the front view
+into position i'll go to the front view
+into position i'll go to the front view
+so we can line it up properly and just
+so we can line it up properly and just
+so we can line it up properly and just
+move this around a little bit
+move this around a little bit
+move this around a little bit
+then across the side view and do the
+then across the side view and do the
+then across the side view and do the
+same now with this you don't need to do
+same now with this you don't need to do
+same now with this you don't need to do
+the nose or the lips we'll draw those in
+the nose or the lips we'll draw those in
+the nose or the lips we'll draw those in
+a little bit more later on remember to
+a little bit more later on remember to
+a little bit more later on remember to
+resize your brush with f and somewhere
+resize your brush with f and somewhere
+resize your brush with f and somewhere
+around there should work well also you
+around there should work well also you
+around there should work well also you
+want to go to perspective view and
+want to go to perspective view and
+want to go to perspective view and
+notice the front of my face is quite
+notice the front of my face is quite
+notice the front of my face is quite
+sort of flat
+sort of flat
+sort of flat
+it's a good idea to add some curvature
+it's a good idea to add some curvature
+it's a good idea to add some curvature
+there
+there
+there
+so bring these in a bit and the back of
+so bring these in a bit and the back of
+so bring these in a bit and the back of
+the head is actually bigger than the
+the head is actually bigger than the
+the head is actually bigger than the
+front so you can bring that in a fair
+front so you can bring that in a fair
+front so you can bring that in a fair
+bit more than it is at the moment just
+bit more than it is at the moment just
+bit more than it is at the moment just
+to make sure it's rounded like this
+to make sure it's rounded like this
+to make sure it's rounded like this
+double check front view and side view so
+double check front view and side view so
+double check front view and side view so
+you might need to come back round and
+you might need to come back round and
+you might need to come back round and
+pull
+pull
+pull
+the back out a little bit more so it
+the back out a little bit more so it
+the back out a little bit more so it
+meets up
+meets up
+meets up
+if you pull it out too far by accident
+if you pull it out too far by accident
+if you pull it out too far by accident
+like this you can access the smooth
+like this you can access the smooth
+like this you can access the smooth
+brush which is this brush here and it's
+brush which is this brush here and it's
+brush which is this brush here and it's
+got these settings here but just keep
+got these settings here but just keep
+got these settings here but just keep
+them all at default for now but you can
+them all at default for now but you can
+them all at default for now but you can
+access that quickly if i go back to the
+access that quickly if i go back to the
+access that quickly if i go back to the
+grab brush by holding down shift so hold
+grab brush by holding down shift so hold
+grab brush by holding down shift so hold
+down shift and you can smooth things out
+down shift and you can smooth things out
+down shift and you can smooth things out
+and we've roughly got a head shape there
+and we've roughly got a head shape there
+and we've roughly got a head shape there
+the next phase is to add some different
+the next phase is to add some different
+the next phase is to add some different
+objects for the neck ears eyes and nose
+objects for the neck ears eyes and nose
+objects for the neck ears eyes and nose
+for this it's easiest to go back into
+for this it's easiest to go back into
+for this it's easiest to go back into
+layout mode and the nose and the neck
+layout mode and the nose and the neck
+layout mode and the nose and the neck
+they want to be in line with the head so
+they want to be in line with the head so
+they want to be in line with the head so
+in the center so we'll start with those
+in the center so we'll start with those
+in the center so we'll start with those
+because our 3d cursor is in the center
+because our 3d cursor is in the center
+because our 3d cursor is in the center
+so shift a to add
+so shift a to add
+so shift a to add
+mesh and then a uv sphere for the nose
+mesh and then a uv sphere for the nose
+mesh and then a uv sphere for the nose
+scale that right down
+scale that right down
+scale that right down
+into side view g to grab and move that
+into side view g to grab and move that
+into side view g to grab and move that
+where the nose is and scale into
+where the nose is and scale into
+where the nose is and scale into
+position so we're ready to sculpt the
+position so we're ready to sculpt the
+position so we're ready to sculpt the
+nose but do remember you need to reset
+nose but do remember you need to reset
+nose but do remember you need to reset
+the scale it is actually uniform scale
+the scale it is actually uniform scale
+the scale it is actually uniform scale
+but it's helpful to reset it to one then
+but it's helpful to reset it to one then
+but it's helpful to reset it to one then
+blender will understand its size better
+blender will understand its size better
+blender will understand its size better
+so ctrl a apply scale then we can go
+so ctrl a apply scale then we can go
+so ctrl a apply scale then we can go
+back to sculpting mode and i can start
+back to sculpting mode and i can start
+back to sculpting mode and i can start
+sculpting this into position so let's go
+sculpting this into position so let's go
+sculpting this into position so let's go
+to side view to start with with the grab
+to side view to start with with the grab
+to side view to start with with the grab
+brush
+brush
+brush
+and with the x-axis turned on i can
+and with the x-axis turned on i can
+and with the x-axis turned on i can
+start pulling it into position
+start pulling it into position
+start pulling it into position
+so somewhere around there inside view
+so somewhere around there inside view
+so somewhere around there inside view
+front view gets much harder because we
+front view gets much harder because we
+front view gets much harder because we
+can't see our background image anymore
+can't see our background image anymore
+can't see our background image anymore
+we can turn on x-ray mode which is just
+we can turn on x-ray mode which is just
+we can turn on x-ray mode which is just
+here and we've also got wireframe mode
+here and we've also got wireframe mode
+here and we've also got wireframe mode
+and you can toggle these different
+and you can toggle these different
+and you can toggle these different
+things by pressing alt zed for wireframe
+things by pressing alt zed for wireframe
+things by pressing alt zed for wireframe
+so alt said if you quickly need to see
+so alt said if you quickly need to see
+so alt said if you quickly need to see
+the background image or shift set
+the background image or shift set
+the background image or shift set
+to toggle between wireframe mode
+to toggle between wireframe mode
+to toggle between wireframe mode
+and solid mode so i can now start moving
+and solid mode so i can now start moving
+and solid mode so i can now start moving
+this into position
+this into position
+this into position
+with the help of that background image
+with the help of that background image
+with the help of that background image
+so somewhere around there looks good so
+so somewhere around there looks good so
+so somewhere around there looks good so
+shift said to go back to solid mode and
+shift said to go back to solid mode and
+shift said to go back to solid mode and
+old zed to turn off x-ray
+old zed to turn off x-ray
+old zed to turn off x-ray
+let's go back to layout mode for the
+let's go back to layout mode for the
+let's go back to layout mode for the
+ears and the neck so once again we've
+ears and the neck so once again we've
+ears and the neck so once again we've
+got our 3d cursor in the middle so shift
+got our 3d cursor in the middle so shift
+got our 3d cursor in the middle so shift
+date add and this time we'll add mesh
+date add and this time we'll add mesh
+date add and this time we'll add mesh
+and cylinder let's go to side view to
+and cylinder let's go to side view to
+and cylinder let's go to side view to
+scale that into position and scale in
+scale that into position and scale in
+scale that into position and scale in
+the z and rotate it now it's important
+the z and rotate it now it's important
+the z and rotate it now it's important
+to have these objects overlap and
+to have these objects overlap and
+to have these objects overlap and
+intersecting because that helps when we
+intersecting because that helps when we
+intersecting because that helps when we
+come to join it later on so some around
+come to join it later on so some around
+come to join it later on so some around
+there should work well let's just go to
+there should work well let's just go to
+there should work well let's just go to
+front view and check that and that's
+front view and check that and that's
+front view and check that and that's
+fine now for the ears we can move the 3d
+fine now for the ears we can move the 3d
+fine now for the ears we can move the 3d
+cursor to add the ears so shift right
+cursor to add the ears so shift right
+cursor to add the ears so shift right
+click to move that 3d cursor let's go to
+click to move that 3d cursor let's go to
+click to move that 3d cursor let's go to
+side view and make sure it's in the
+side view and make sure it's in the
+side view and make sure it's in the
+right position so shift said to go to
+right position so shift said to go to
+right position so shift said to go to
+wireframe shift right click to move that
+wireframe shift right click to move that
+wireframe shift right click to move that
+cursor into the middle somewhere around
+cursor into the middle somewhere around
+cursor into the middle somewhere around
+there and shift set to turn off
+there and shift set to turn off
+there and shift set to turn off
+wireframe shift a to add mesh and once
+wireframe shift a to add mesh and once
+wireframe shift a to add mesh and once
+again the cylinder scale it right down
+again the cylinder scale it right down
+again the cylinder scale it right down
+scaling the z
+scaling the z
+scaling the z
+and then let's start rotating this into
+and then let's start rotating this into
+and then let's start rotating this into
+position
+position
+position
+you don't have to make it too accurate
+you don't have to make it too accurate
+you don't have to make it too accurate
+as you can kind of sculpt it into
+as you can kind of sculpt it into
+as you can kind of sculpt it into
+position do make sure though that it is
+position do make sure though that it is
+position do make sure though that it is
+overlapping so i might want to scale it
+overlapping so i might want to scale it
+overlapping so i might want to scale it
+in the x a little bit more
+in the x a little bit more
+in the x a little bit more
+just to make sure it's got that clear
+just to make sure it's got that clear
+just to make sure it's got that clear
+overlap there to help us now we need to
+overlap there to help us now we need to
+overlap there to help us now we need to
+mirror this across the other side so
+mirror this across the other side so
+mirror this across the other side so
+across the modifiers here where this
+across the modifiers here where this
+across the modifiers here where this
+spanner or wrenches add modifier mirror
+spanner or wrenches add modifier mirror
+spanner or wrenches add modifier mirror
+modifier now we can't see anything at
+modifier now we can't see anything at
+modifier now we can't see anything at
+the moment because it's kind of
+the moment because it's kind of
+the moment because it's kind of
+mirroring on itself but what we can do
+mirroring on itself but what we can do
+mirroring on itself but what we can do
+is choose with our pipette here a mirror
+is choose with our pipette here a mirror
+is choose with our pipette here a mirror
+object so i'll click on the pipette
+object so i'll click on the pipette
+object so i'll click on the pipette
+click the sphere as our mirror object
+click the sphere as our mirror object
+click the sphere as our mirror object
+which is our head at the moment and it's
+which is our head at the moment and it's
+which is our head at the moment and it's
+mirrored it to the other side now we
+mirrored it to the other side now we
+mirrored it to the other side now we
+will need to apply this mirror because
+will need to apply this mirror because
+will need to apply this mirror because
+you can't sculpt with a mirror on and to
+you can't sculpt with a mirror on and to
+you can't sculpt with a mirror on and to
+apply it you can come to this drop down
+apply it you can come to this drop down
+apply it you can come to this drop down
+and there's the apply option there and
+and there's the apply option there and
+and there's the apply option there and
+you can see it's ctrl a for short so if
+you can see it's ctrl a for short so if
+you can see it's ctrl a for short so if
+i hover over this and press ctrl a it
+i hover over this and press ctrl a it
+i hover over this and press ctrl a it
+applies that mirror that's great we're
+applies that mirror that's great we're
+applies that mirror that's great we're
+almost ready to sculpt these objects but
+almost ready to sculpt these objects but
+almost ready to sculpt these objects but
+first i need to set their scales so i
+first i need to set their scales so i
+first i need to set their scales so i
+can select both of them at the same time
+can select both of them at the same time
+can select both of them at the same time
+and press control a and apply the scale
+and press control a and apply the scale
+and press control a and apply the scale
+and that will set them both to one so if
+and that will set them both to one so if
+and that will set them both to one so if
+i select the ears as well they're at one
+i select the ears as well they're at one
+i select the ears as well they're at one
+and the neck the slight problem we have
+and the neck the slight problem we have
+and the neck the slight problem we have
+with the ears if i select on those is
+with the ears if i select on those is
+with the ears if i select on those is
+that the rotation isn't set to zero that
+that the rotation isn't set to zero that
+that the rotation isn't set to zero that
+means when we try and do some
+means when we try and do some
+means when we try and do some
+symmetrizing later on we may come up
+symmetrizing later on we may come up
+symmetrizing later on we may come up
+against problems so it's a good idea to
+against problems so it's a good idea to
+against problems so it's a good idea to
+reset the rotation as well so ctrl a and
+reset the rotation as well so ctrl a and
+reset the rotation as well so ctrl a and
+we've got a rotation option there as
+we've got a rotation option there as
+we've got a rotation option there as
+well that's why you have a rotation and
+well that's why you have a rotation and
+well that's why you have a rotation and
+scale because lots of people like to
+scale because lots of people like to
+scale because lots of people like to
+reset them at the same time but we can
+reset them at the same time but we can
+reset them at the same time but we can
+set the rotation and it's back to zero
+set the rotation and it's back to zero
+set the rotation and it's back to zero
+and the same for the neck just to be
+and the same for the neck just to be
+and the same for the neck just to be
+safe so control a rotation the other
+safe so control a rotation the other
+safe so control a rotation the other
+problem if i click on my ears is that
+problem if i click on my ears is that
+problem if i click on my ears is that
+the object origin this orange point here
+the object origin this orange point here
+the object origin this orange point here
+is in the center of this side rather
+is in the center of this side rather
+is in the center of this side rather
+than in the center of both of them and
+than in the center of both of them and
+than in the center of both of them and
+that may cause us problems as well so
+that may cause us problems as well so
+that may cause us problems as well so
+it's a good idea to reset that to make
+it's a good idea to reset that to make
+it's a good idea to reset that to make
+sure that it's in the center of our
+sure that it's in the center of our
+sure that it's in the center of our
+object for that i can right click and
+object for that i can right click and
+object for that i can right click and
+there's a set origin option here and in
+there's a set origin option here and in
+there's a set origin option here and in
+this case i can do origin to geometry
+this case i can do origin to geometry
+this case i can do origin to geometry
+and it will take the middle point
+and it will take the middle point
+and it will take the middle point
+between the whole of the geometry and
+between the whole of the geometry and
+between the whole of the geometry and
+that is in the center and you can test
+that is in the center and you can test
+that is in the center and you can test
+that by seeing this x location is at
+that by seeing this x location is at
+that by seeing this x location is at
+zero here if for any reason it doesn't
+zero here if for any reason it doesn't
+zero here if for any reason it doesn't
+you can always move your 3d cursor back
+you can always move your 3d cursor back
+you can always move your 3d cursor back
+to the world origin so shift s cursor
+to the world origin so shift s cursor
+to the world origin so shift s cursor
+world origin and then right click set
+world origin and then right click set
+world origin and then right click set
+origin to 3d cursor instead that does
+origin to 3d cursor instead that does
+origin to 3d cursor instead that does
+move it down to the bottom here but that
+move it down to the bottom here but that
+move it down to the bottom here but that
+again doesn't make too much difference
+again doesn't make too much difference
+again doesn't make too much difference
+because the all-important location is
+because the all-important location is
+because the all-important location is
+the x-axis here so all our objects have
+the x-axis here so all our objects have
+the x-axis here so all our objects have
+that location of zero okay so i can now
+that location of zero okay so i can now
+that location of zero okay so i can now
+go into sculpt mode and start sculpting
+go into sculpt mode and start sculpting
+go into sculpt mode and start sculpting
+these different objects i'll start with
+these different objects i'll start with
+these different objects i'll start with
+the neck so i'll select that go across
+the neck so i'll select that go across
+the neck so i'll select that go across
+the sculpting and let's go to side view
+the sculpting and let's go to side view
+the sculpting and let's go to side view
+and choose the grab brush once again and
+and choose the grab brush once again and
+and choose the grab brush once again and
+you'll notice that you won't be able to
+you'll notice that you won't be able to
+you'll notice that you won't be able to
+move your cylinder however you can move
+move your cylinder however you can move
+move your cylinder however you can move
+it down here but not in the middle
+it down here but not in the middle
+it down here but not in the middle
+that's because there's vertices down
+that's because there's vertices down
+that's because there's vertices down
+here if i go to wireframe again with
+here if i go to wireframe again with
+here if i go to wireframe again with
+shift said you can see there's the
+shift said you can see there's the
+shift said you can see there's the
+vertices and i can move those but
+vertices and i can move those but
+vertices and i can move those but
+there's none in the middle for me to
+there's none in the middle for me to
+there's none in the middle for me to
+move so press the shift side to go back
+move so press the shift side to go back
+move so press the shift side to go back
+to solid mode what we need to do is to
+to solid mode what we need to do is to
+to solid mode what we need to do is to
+add some faces add some vertices to this
+add some faces add some vertices to this
+add some faces add some vertices to this
+for that we come up to the remesh option
+for that we come up to the remesh option
+for that we come up to the remesh option
+up here and the most important option
+up here and the most important option
+up here and the most important option
+here is voxel size that's the size of
+here is voxel size that's the size of
+here is voxel size that's the size of
+your faces now it's tricky to see really
+your faces now it's tricky to see really
+your faces now it's tricky to see really
+what this size means and it's much
+what this size means and it's much
+what this size means and it's much
+easier if we press shift r and then we
+easier if we press shift r and then we
+easier if we press shift r and then we
+can actually see the voxel size which is
+can actually see the voxel size which is
+can actually see the voxel size which is
+the face size we're going to end up with
+the face size we're going to end up with
+the face size we're going to end up with
+and we can move our mouse side to side
+and we can move our mouse side to side
+and we can move our mouse side to side
+or our pen side to side to get some more
+or our pen side to side to get some more
+or our pen side to side to get some more
+detail into our shape so i think about
+detail into our shape so i think about
+detail into our shape so i think about
+point zero three is working for me and
+point zero three is working for me and
+point zero three is working for me and
+you can left click and you can come up
+you can left click and you can come up
+you can left click and you can come up
+to remesh and press the remesh button or
+to remesh and press the remesh button or
+to remesh and press the remesh button or
+you can press ctrl r so that's shift r
+you can press ctrl r so that's shift r
+you can press ctrl r so that's shift r
+to set the voxel size control r to
+to set the voxel size control r to
+to set the voxel size control r to
+remesh now i can start moving this shape
+remesh now i can start moving this shape
+remesh now i can start moving this shape
+into position because i've got these
+into position because i've got these
+into position because i've got these
+extra vertices to play with make my
+extra vertices to play with make my
+extra vertices to play with make my
+brush nice and big and start grabbing
+brush nice and big and start grabbing
+brush nice and big and start grabbing
+these and pulling them around
+these and pulling them around
+these and pulling them around
+let's go to front view ah now i've made
+let's go to front view ah now i've made
+let's go to front view ah now i've made
+a mistake i forgot to turn x symmetry on
+a mistake i forgot to turn x symmetry on
+a mistake i forgot to turn x symmetry on
+and that's really common i do that all
+and that's really common i do that all
+and that's really common i do that all
+the time what you can do is obviously
+the time what you can do is obviously
+the time what you can do is obviously
+undo and turn it back on but instead you
+undo and turn it back on but instead you
+undo and turn it back on but instead you
+can use the drop down menu here and
+can use the drop down menu here and
+can use the drop down menu here and
+symmetrize at the moment it's minus x to
+symmetrize at the moment it's minus x to
+symmetrize at the moment it's minus x to
+positive x and that's the wrong way
+positive x and that's the wrong way
+positive x and that's the wrong way
+round that would be from this side to
+round that would be from this side to
+round that would be from this side to
+this side
+this side
+this side
+so i want to change that from the
+so i want to change that from the
+so i want to change that from the
+positive x to minus x and then
+positive x to minus x and then
+positive x to minus x and then
+symmetrize and that will copy it across
+symmetrize and that will copy it across
+symmetrize and that will copy it across
+and now you can see they're both the
+and now you can see they're both the
+and now you can see they're both the
+same let's go back to front view turn
+same let's go back to front view turn
+same let's go back to front view turn
+that x symmetry on and now start moving
+that x symmetry on and now start moving
+that x symmetry on and now start moving
+our mesh around again
+our mesh around again
+our mesh around again
+remember to hold down shift if you need
+remember to hold down shift if you need
+remember to hold down shift if you need
+to kind of tidy up
+to kind of tidy up
+to kind of tidy up
+where the mesh is stretched like this
+where the mesh is stretched like this
+where the mesh is stretched like this
+holding down shift will have more
+holding down shift will have more
+holding down shift will have more
+influence because it's taking the
+influence because it's taking the
+influence because it's taking the
+average between the vertices and sort of
+average between the vertices and sort of
+average between the vertices and sort of
+bringing them together
+bringing them together
+bringing them together
+so if you need to even it out you can
+so if you need to even it out you can
+so if you need to even it out you can
+press ctrl r for another remesh and that
+press ctrl r for another remesh and that
+press ctrl r for another remesh and that
+will again reshape our model i use the
+will again reshape our model i use the
+will again reshape our model i use the
+smooth brush to make sure it's nicely
+smooth brush to make sure it's nicely
+smooth brush to make sure it's nicely
+rounded out
+now to switch between objects i can
+now to switch between objects i can
+now to switch between objects i can
+press alt q and you can see it jumps
+press alt q and you can see it jumps
+press alt q and you can see it jumps
+between the objects in sculpt mode so i
+between the objects in sculpt mode so i
+between the objects in sculpt mode so i
+can go across the ears and firstly
+can go across the ears and firstly
+can go across the ears and firstly
+remesh them and then start sculpting
+remesh them and then start sculpting
+remesh them and then start sculpting
+them so shift r to set the voxel size
+them so shift r to set the voxel size
+them so shift r to set the voxel size
+think about that 0.3 should do well
+think about that 0.3 should do well
+think about that 0.3 should do well
+again
+again
+again
+ctrl r to remesh that's done both sides
+ctrl r to remesh that's done both sides
+ctrl r to remesh that's done both sides
+make sure i turn symmetry on this time
+make sure i turn symmetry on this time
+make sure i turn symmetry on this time
+and let's start sculpting these into
+and let's start sculpting these into
+and let's start sculpting these into
+position you can use the smooth brush
+position you can use the smooth brush
+position you can use the smooth brush
+and you can easily jump back to other
+and you can easily jump back to other
+and you can easily jump back to other
+objects
+objects
+objects
+if you want to edit them in any way i
+if you want to edit them in any way i
+if you want to edit them in any way i
+think the main face needs a bit more
+think the main face needs a bit more
+think the main face needs a bit more
+resolution now so alt q
+resolution now so alt q
+resolution now so alt q
+and let's
+and let's
+and let's
+shift r to choose the voxel size about
+shift r to choose the voxel size about
+shift r to choose the voxel size about
+0.3 again and ctrl r to remesh now we
+0.3 again and ctrl r to remesh now we
+0.3 again and ctrl r to remesh now we
+can start thinking about the eye sockets
+can start thinking about the eye sockets
+can start thinking about the eye sockets
+let's just reposition the head make sure
+let's just reposition the head make sure
+let's just reposition the head make sure
+we've got the right
+we've got the right
+we've got the right
+places
+places
+places
+and shift said we'll put you into
+and shift said we'll put you into
+and shift said we'll put you into
+wireframe so you can kind of see where
+wireframe so you can kind of see where
+wireframe so you can kind of see where
+you're going a little bit more
+you're going a little bit more
+you're going a little bit more
+it's still pretty tough at this point
+it's still pretty tough at this point
+it's still pretty tough at this point
+so now we really need the iron to help
+so now we really need the iron to help
+so now we really need the iron to help
+us to shape the head properly so let's
+us to shape the head properly so let's
+us to shape the head properly so let's
+go back to layout mode we can shift
+go back to layout mode we can shift
+go back to layout mode we can shift
+right click to move the 3d cursor shift
+right click to move the 3d cursor shift
+right click to move the 3d cursor shift
+8 add and a uv sphere is good for this
+8 add and a uv sphere is good for this
+8 add and a uv sphere is good for this
+scale it down
+scale it down
+scale it down
+somewhere around there lots of people
+somewhere around there lots of people
+somewhere around there lots of people
+like to have it kind of facing forward
+like to have it kind of facing forward
+like to have it kind of facing forward
+so r x 90 and then it looks like it's
+so r x 90 and then it looks like it's
+so r x 90 and then it looks like it's
+got a kind of iris there let's go to
+got a kind of iris there let's go to
+got a kind of iris there let's go to
+front view shift said wireframe and try
+front view shift said wireframe and try
+front view shift said wireframe and try
+and move this into a sensible position
+and move this into a sensible position
+and move this into a sensible position
+probably around here i always find it
+probably around here i always find it
+probably around here i always find it
+very tough with stylized characters to
+very tough with stylized characters to
+very tough with stylized characters to
+get the eyes correct and the right size
+get the eyes correct and the right size
+get the eyes correct and the right size
+i always end up making them too big so
+i always end up making them too big so
+i always end up making them too big so
+i'm keeping this one fairly small into
+i'm keeping this one fairly small into
+i'm keeping this one fairly small into
+side view and it's roughly in the right
+side view and it's roughly in the right
+side view and it's roughly in the right
+position there it looks like so let's
+position there it looks like so let's
+position there it looks like so let's
+mirror it across the other side shift
+mirror it across the other side shift
+mirror it across the other side shift
+zed back to solid mode with the spanner
+zed back to solid mode with the spanner
+zed back to solid mode with the spanner
+add modifier mirror and choose that
+add modifier mirror and choose that
+add modifier mirror and choose that
+sphere object in the center our central
+sphere object in the center our central
+sphere object in the center our central
+head okay looking a bit weird at the
+head okay looking a bit weird at the
+head okay looking a bit weird at the
+moment but we're getting there now for
+moment but we're getting there now for
+moment but we're getting there now for
+the eyelids there's a couple of ways of
+the eyelids there's a couple of ways of
+the eyelids there's a couple of ways of
+doing this you can kind of draw the
+doing this you can kind of draw the
+doing this you can kind of draw the
+eyelids out over the eyeball which works
+eyelids out over the eyeball which works
+eyelids out over the eyeball which works
+reasonably well if you're fairly
+reasonably well if you're fairly
+reasonably well if you're fairly
+advanced with sculpting but it's a
+advanced with sculpting but it's a
+advanced with sculpting but it's a
+little bit easier to use an eyeball
+little bit easier to use an eyeball
+little bit easier to use an eyeball
+shape and sort of cut out some eyelids
+shape and sort of cut out some eyelids
+shape and sort of cut out some eyelids
+from it and i'll show you how to do that
+from it and i'll show you how to do that
+from it and i'll show you how to do that
+now so with this sphere selected i'll
+now so with this sphere selected i'll
+now so with this sphere selected i'll
+rename it i so we can see what's going
+rename it i so we can see what's going
+rename it i so we can see what's going
+on
+on
+on
+and i'll duplicate it so shift d to
+and i'll duplicate it so shift d to
+and i'll duplicate it so shift d to
+duplicate left click and we've got that
+duplicate left click and we've got that
+duplicate left click and we've got that
+eye copy there i'll call this eyelids
+eye copy there i'll call this eyelids
+eye copy there i'll call this eyelids
+now we want to rotate it around the z
+now we want to rotate it around the z
+now we want to rotate it around the z
+axis 90 degrees difficult to see what's
+axis 90 degrees difficult to see what's
+axis 90 degrees difficult to see what's
+going on so i'll hide the original eyes
+going on so i'll hide the original eyes
+going on so i'll hide the original eyes
+and you can see now we can cut out an
+and you can see now we can cut out an
+and you can see now we can cut out an
+area for the eyelids this is a bit
+area for the eyelids this is a bit
+area for the eyelids this is a bit
+easier in local view you can go up to
+easier in local view you can go up to
+easier in local view you can go up to
+view and local view just here and it's
+view and local view just here and it's
+view and local view just here and it's
+numpad forward slash and then we can
+numpad forward slash and then we can
+numpad forward slash and then we can
+only see the eyelids which does help
+only see the eyelids which does help
+only see the eyelids which does help
+however i can't see my reference at the
+however i can't see my reference at the
+however i can't see my reference at the
+front so i'll just come back out of that
+front so i'll just come back out of that
+front so i'll just come back out of that
+with forward slash on my numpad front
+with forward slash on my numpad front
+with forward slash on my numpad front
+view first alt set to go to x-ray mode
+view first alt set to go to x-ray mode
+view first alt set to go to x-ray mode
+just to see where the eyelids are and
+just to see where the eyelids are and
+just to see where the eyelids are and
+let's go to edit mode here so tab into
+let's go to edit mode here so tab into
+let's go to edit mode here so tab into
+edit mode or edit mode up here we need
+edit mode or edit mode up here we need
+edit mode or edit mode up here we need
+to select these three face loops so
+to select these three face loops so
+to select these three face loops so
+let's go to face mode up here or three
+let's go to face mode up here or three
+let's go to face mode up here or three
+on your keyboard alt left click
+on your keyboard alt left click
+on your keyboard alt left click
+and then shift alt left click to select
+and then shift alt left click to select
+and then shift alt left click to select
+multiple ones the problem is you often
+multiple ones the problem is you often
+multiple ones the problem is you often
+select the back ones
+select the back ones
+select the back ones
+so i'll alt a to deselect all let's come
+so i'll alt a to deselect all let's come
+so i'll alt a to deselect all let's come
+out of x-ray mode and alt left click to
+out of x-ray mode and alt left click to
+out of x-ray mode and alt left click to
+select the ones we want there now let's
+select the ones we want there now let's
+select the ones we want there now let's
+go to local view so we can select these
+go to local view so we can select these
+go to local view so we can select these
+very end ones just here so that's
+very end ones just here so that's
+very end ones just here so that's
+forward slash on my numpad for local
+forward slash on my numpad for local
+forward slash on my numpad for local
+view and then we can press delete and
+view and then we can press delete and
+view and then we can press delete and
+then faces then we got some eyelids back
+then faces then we got some eyelids back
+then faces then we got some eyelids back
+out of local view with forward slash
+out of local view with forward slash
+out of local view with forward slash
+back out of edit mode and let's bring
+back out of edit mode and let's bring
+back out of edit mode and let's bring
+back the original eyes still with our
+back the original eyes still with our
+back the original eyes still with our
+eyelid selected we need to add another
+eyelid selected we need to add another
+eyelid selected we need to add another
+modifier so add modifier and solidify
+modifier so add modifier and solidify
+modifier so add modifier and solidify
+that adds some thickness and we can use
+that adds some thickness and we can use
+that adds some thickness and we can use
+the thickness slider here you'll need to
+the thickness slider here you'll need to
+the thickness slider here you'll need to
+go to negative to bring it out like this
+go to negative to bring it out like this
+go to negative to bring it out like this
+and you can go reasonably thick for
+and you can go reasonably thick for
+and you can go reasonably thick for
+stylized characters and it will help you
+stylized characters and it will help you
+stylized characters and it will help you
+a little bit with your sculpting as well
+a little bit with your sculpting as well
+a little bit with your sculpting as well
+so somewhere around there you might want
+so somewhere around there you might want
+so somewhere around there you might want
+this point here to be back a touch
+this point here to be back a touch
+this point here to be back a touch
+further so r z just to move it around
+further so r z just to move it around
+further so r z just to move it around
+slightly and if we go to front view you
+slightly and if we go to front view you
+slightly and if we go to front view you
+might want to press r to rotate it so it
+might want to press r to rotate it so it
+might want to press r to rotate it so it
+angles upwards and again we can go to
+angles upwards and again we can go to
+angles upwards and again we can go to
+wireframe so shift said to try and get
+wireframe so shift said to try and get
+wireframe so shift said to try and get
+it in line with our character's eyes and
+it in line with our character's eyes and
+it in line with our character's eyes and
+that seems to be working well back to
+that seems to be working well back to
+that seems to be working well back to
+solid mode and before joining the
+solid mode and before joining the
+solid mode and before joining the
+eyelids to the head let's shape the head
+eyelids to the head let's shape the head
+eyelids to the head let's shape the head
+a little bit better around the eyeballs
+a little bit better around the eyeballs
+a little bit better around the eyeballs
+so select the head back to sculpt mode
+so select the head back to sculpt mode
+so select the head back to sculpt mode
+and for this it's probably best on the
+and for this it's probably best on the
+and for this it's probably best on the
+draw brush and you can hold down control
+draw brush and you can hold down control
+draw brush and you can hold down control
+if you want to dig in with the draw
+if you want to dig in with the draw
+if you want to dig in with the draw
+brush which you might have to in the
+brush which you might have to in the
+brush which you might have to in the
+center here a little bit more and just
+center here a little bit more and just
+center here a little bit more and just
+draw normally to add to the mesh
+draw normally to add to the mesh
+draw normally to add to the mesh
+at this point you may want to flesh out
+at this point you may want to flesh out
+at this point you may want to flesh out
+some of the face as well to get the
+some of the face as well to get the
+some of the face as well to get the
+general shape so perhaps around the
+general shape so perhaps around the
+general shape so perhaps around the
+mouth digging in with control and slowly
+mouth digging in with control and slowly
+mouth digging in with control and slowly
+building up
+building up
+building up
+now you may find you still haven't got
+now you may find you still haven't got
+now you may find you still haven't got
+enough faces so remember you can press
+enough faces so remember you can press
+enough faces so remember you can press
+shift r and we can go a little bit finer
+shift r and we can go a little bit finer
+shift r and we can go a little bit finer
+now to something like .015 or similar
+now to something like .015 or similar
+now to something like .015 or similar
+and control r to do the remesh and we've
+and control r to do the remesh and we've
+and control r to do the remesh and we've
+got a lot more faces to play with
+you may find also if i press one to go
+you may find also if i press one to go
+you may find also if i press one to go
+to front view that's orthographic view
+to front view that's orthographic view
+to front view that's orthographic view
+but when i go to perspective by middle
+but when i go to perspective by middle
+but when i go to perspective by middle
+mouse button we get quite a distorted
+mouse button we get quite a distorted
+mouse button we get quite a distorted
+look here if i press n to bring up my
+look here if i press n to bring up my
+look here if i press n to bring up my
+tools on the side here and go to view
+tools on the side here and go to view
+tools on the side here and go to view
+you can change that focal length some
+you can change that focal length some
+you can change that focal length some
+people like around 80 to 100 and that
+people like around 80 to 100 and that
+people like around 80 to 100 and that
+sometimes helps with that kind of
+sometimes helps with that kind of
+sometimes helps with that kind of
+distortion that you can see and it makes
+distortion that you can see and it makes
+distortion that you can see and it makes
+it a little bit easier to sculpt let's
+it a little bit easier to sculpt let's
+it a little bit easier to sculpt let's
+also think about the lips at the front
+also think about the lips at the front
+also think about the lips at the front
+so if i go to
+so if i go to
+so if i go to
+side view with one
+side view with one
+side view with one
+and we can start drawing some lips here
+and we can start drawing some lips here
+and we can start drawing some lips here
+as well
+as well
+as well
+do make sure you come back around to
+do make sure you come back around to
+do make sure you come back around to
+front view as well to see the effects
+front view as well to see the effects
+front view as well to see the effects
+that you're having and use the smooth
+that you're having and use the smooth
+that you're having and use the smooth
+brush to kind of bring it back into form
+brush to kind of bring it back into form
+brush to kind of bring it back into form
+looks a little bit strange at the moment
+looks a little bit strange at the moment
+looks a little bit strange at the moment
+but we'll get there eventually
+but we'll get there eventually
+but we'll get there eventually
+but it starts to take shape over time
+i've got a little bit further back than
+i've got a little bit further back than
+i've got a little bit further back than
+the drawing i think that's a little bit
+the drawing i think that's a little bit
+the drawing i think that's a little bit
+more accurate to be fair somewhere
+more accurate to be fair somewhere
+more accurate to be fair somewhere
+around there seems to make sense more at
+around there seems to make sense more at
+around there seems to make sense more at
+this point i put in a little bit more
+this point i put in a little bit more
+this point i put in a little bit more
+time-lapse because it's just generally
+time-lapse because it's just generally
+time-lapse because it's just generally
+sculpting and that comes with skill and
+sculpting and that comes with skill and
+sculpting and that comes with skill and
+practice but hopefully you can get some
+practice but hopefully you can get some
+practice but hopefully you can get some
+ideas for your work from what i'm doing
+ideas for your work from what i'm doing
+ideas for your work from what i'm doing
+you might just want to smooth out the
+you might just want to smooth out the
+you might just want to smooth out the
+back by making your brush really big and
+back by making your brush really big and
+back by making your brush really big and
+holding down shift
+holding down shift
+holding down shift
+and just a rough shape like this is what
+and just a rough shape like this is what
+and just a rough shape like this is what
+we need for now and then we can join the
+we need for now and then we can join the
+we need for now and then we can join the
+eyelids to our main shape we can do the
+eyelids to our main shape we can do the
+eyelids to our main shape we can do the
+same for the ears the neck and the nose
+same for the ears the neck and the nose
+same for the ears the neck and the nose
+as well so we'll do that now let's go to
+as well so we'll do that now let's go to
+as well so we'll do that now let's go to
+layout mode now in order to join the
+layout mode now in order to join the
+layout mode now in order to join the
+eyelids we need to make sure that they
+eyelids we need to make sure that they
+eyelids we need to make sure that they
+haven't got any modifiers on them so we
+haven't got any modifiers on them so we
+haven't got any modifiers on them so we
+need to apply these we won't be joining
+need to apply these we won't be joining
+need to apply these we won't be joining
+the eyes so we can leave those as they
+the eyes so we can leave those as they
+the eyes so we can leave those as they
+are but with the eyelids hover over the
+are but with the eyelids hover over the
+are but with the eyelids hover over the
+modifiers and control a to apply those
+modifiers and control a to apply those
+modifiers and control a to apply those
+and you can see them there we also need
+and you can see them there we also need
+and you can see them there we also need
+to apply the scale and the rotation for
+to apply the scale and the rotation for
+to apply the scale and the rotation for
+these so ctrl a
+these so ctrl a
+these so ctrl a
+rotation and scale so now i can select
+rotation and scale so now i can select
+rotation and scale so now i can select
+the other objects it's a good idea to
+the other objects it's a good idea to
+the other objects it's a good idea to
+select the head last is that way the
+select the head last is that way the
+select the head last is that way the
+origin point for the head which is in
+origin point for the head which is in
+origin point for the head which is in
+the middle there will be the origin
+the middle there will be the origin
+the middle there will be the origin
+point for everything so basically the
+point for everything so basically the
+point for everything so basically the
+other objects are attaching to that one
+other objects are attaching to that one
+other objects are attaching to that one
+and the one we select last we call the
+and the one we select last we call the
+and the one we select last we call the
+active object it's highlighted a bit
+active object it's highlighted a bit
+active object it's highlighted a bit
+more yellowy than the other ones and
+more yellowy than the other ones and
+more yellowy than the other ones and
+when we press ctrl j to join them all
+when we press ctrl j to join them all
+when we press ctrl j to join them all
+together you can see we've got that one
+together you can see we've got that one
+together you can see we've got that one
+sphere they've all joined to this one
+sphere they've all joined to this one
+sphere they've all joined to this one
+sphere which actually had its object
+sphere which actually had its object
+sphere which actually had its object
+center up here which i didn't realize
+center up here which i didn't realize
+center up here which i didn't realize
+but that doesn't matter too much as long
+but that doesn't matter too much as long
+but that doesn't matter too much as long
+as it's the x-axis so at this point
+as it's the x-axis so at this point
+as it's the x-axis so at this point
+we're not quite ready for detailed
+we're not quite ready for detailed
+we're not quite ready for detailed
+sculpting yet because if i go into my
+sculpting yet because if i go into my
+sculpting yet because if i go into my
+object here
+object here
+object here
+you can see that things like the nose
+you can see that things like the nose
+you can see that things like the nose
+here are still inside the object the
+here are still inside the object the
+here are still inside the object the
+neck is still inside and the ears
+neck is still inside and the ears
+neck is still inside and the ears
+there's still patches of that inside so
+there's still patches of that inside so
+there's still patches of that inside so
+they're not properly attached in order
+they're not properly attached in order
+they're not properly attached in order
+to make the manifold so one kind of
+to make the manifold so one kind of
+to make the manifold so one kind of
+whole object we go across to the
+whole object we go across to the
+whole object we go across to the
+sculpting tab and we do a remesh now
+sculpting tab and we do a remesh now
+sculpting tab and we do a remesh now
+you'll notice in the sculpting tab as
+you'll notice in the sculpting tab as
+you'll notice in the sculpting tab as
+well that we've got these face sets
+well that we've got these face sets
+well that we've got these face sets
+they're not important because they'll
+they're not important because they'll
+they're not important because they'll
+clear when we do the remesh so same as
+clear when we do the remesh so same as
+clear when we do the remesh so same as
+normal shift r to find your remesh value
+normal shift r to find your remesh value
+normal shift r to find your remesh value
+so fairly fine now so 0.016 in this case
+so fairly fine now so 0.016 in this case
+so fairly fine now so 0.016 in this case
+is fine and ctrl r to do the remesh now
+is fine and ctrl r to do the remesh now
+is fine and ctrl r to do the remesh now
+actually that's left the eyelids fairly
+actually that's left the eyelids fairly
+actually that's left the eyelids fairly
+blocky so i'll undo that and i'll go a
+blocky so i'll undo that and i'll go a
+blocky so i'll undo that and i'll go a
+bit finer but what you do have to be
+bit finer but what you do have to be
+bit finer but what you do have to be
+aware of is the finer you go the harder
+aware of is the finer you go the harder
+aware of is the finer you go the harder
+it is for your computer to process so
+it is for your computer to process so
+it is for your computer to process so
+some weaker computers you may struggle a
+some weaker computers you may struggle a
+some weaker computers you may struggle a
+bit so just be aware of that when you
+bit so just be aware of that when you
+bit so just be aware of that when you
+are setting your voxel size so shift r
+are setting your voxel size so shift r
+are setting your voxel size so shift r
+and i'll come right down to .006
+and i'll come right down to .006
+and i'll come right down to .006
+somewhere around there and control r to
+somewhere around there and control r to
+somewhere around there and control r to
+remesh this may take a couple of seconds
+remesh this may take a couple of seconds
+remesh this may take a couple of seconds
+for you depending on the speed of your
+for you depending on the speed of your
+for you depending on the speed of your
+computer and that's a bit better we
+computer and that's a bit better we
+computer and that's a bit better we
+possibly could go finer than that if you
+possibly could go finer than that if you
+possibly could go finer than that if you
+want to see the face count you can come
+want to see the face count you can come
+want to see the face count you can come
+up to the top here and go to statistics
+up to the top here and go to statistics
+up to the top here and go to statistics
+and you can see i've got a face count of
+and you can see i've got a face count of
+and you can see i've got a face count of
+three hundred thousand that's actually
+three hundred thousand that's actually
+three hundred thousand that's actually
+quite low and most computers can handle
+quite low and most computers can handle
+quite low and most computers can handle
+that so i'll undo my remesh and go that
+that so i'll undo my remesh and go that
+that so i'll undo my remesh and go that
+little bit further in this case to point
+little bit further in this case to point
+little bit further in this case to point
+zero
+zero
+zero
+zero four roughly and control r to
+zero four roughly and control r to
+zero four roughly and control r to
+remesh again it takes a few seconds but
+remesh again it takes a few seconds but
+remesh again it takes a few seconds but
+we've got much finer detail and we're on
+we've got much finer detail and we're on
+we've got much finer detail and we're on
+about eight to nine hundred thousand now
+about eight to nine hundred thousand now
+about eight to nine hundred thousand now
+again most computers should be fairly
+again most computers should be fairly
+again most computers should be fairly
+comfortable with that but just be aware
+comfortable with that but just be aware
+comfortable with that but just be aware
+of those things if you find it's lagging
+of those things if you find it's lagging
+of those things if you find it's lagging
+then you'll need to remesh to a lower
+then you'll need to remesh to a lower
+then you'll need to remesh to a lower
+value now we're ready for a more
+value now we're ready for a more
+value now we're ready for a more
+detailed sculpt so i'll put the more
+detailed sculpt so i'll put the more
+detailed sculpt so i'll put the more
+detailed sculpt into part two hopefully
+detailed sculpt into part two hopefully
+detailed sculpt into part two hopefully
+you're managing to follow along with me
+you're managing to follow along with me
+you're managing to follow along with me
+and still enjoying yourself thanks for
+and still enjoying yourself thanks for
+and still enjoying yourself thanks for
+watching and i'll see you next time

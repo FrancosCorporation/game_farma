@@ -1,0 +1,195 @@
+Kind: captions
+Language: en
+How do you make low-poly models? Well,
+How do you make low-poly models? Well,
+How do you make low-poly models? Well,
+first you need a design. For best
+first you need a design. For best
+first you need a design. For best
+results, you want a reference sheet that
+results, you want a reference sheet that
+results, you want a reference sheet that
+has a straight-on view of the model's
+has a straight-on view of the model's
+has a straight-on view of the model's
+front, back, and sides. That way, you
+front, back, and sides. That way, you
+front, back, and sides. That way, you
+can just follow the contours of the
+can just follow the contours of the
+can just follow the contours of the
+design on each side, and it will look
+design on each side, and it will look
+design on each side, and it will look
+correct when it's all combined together.
+correct when it's all combined together.
+correct when it's all combined together.
+By the way, this model belongs to Fia, a
+By the way, this model belongs to Fia, a
+By the way, this model belongs to Fia, a
+fellow YouTuber and streamer who asked
+fellow YouTuber and streamer who asked
+fellow YouTuber and streamer who asked
+me to make a retro version of her
+me to make a retro version of her
+me to make a retro version of her
+avatar, which I agreed to do. As long as
+avatar, which I agreed to do. As long as
+avatar, which I agreed to do. As long as
+the shape of the model looks
+the shape of the model looks
+the shape of the model looks
+recognizable from a distance, you're
+recognizable from a distance, you're
+recognizable from a distance, you're
+pretty much good to go. Small details
+pretty much good to go. Small details
+pretty much good to go. Small details
+don't really matter. If the model's
+don't really matter. If the model's
+don't really matter. If the model's
+looking too blocky, just use Phong
+looking too blocky, just use Phong
+looking too blocky, just use Phong
+shading, aka smooth shading, to make it
+shading, aka smooth shading, to make it
+shading, aka smooth shading, to make it
+look more organic. For texturing, first
+look more organic. For texturing, first
+look more organic. For texturing, first
+start by establishing the base color of
+start by establishing the base color of
+start by establishing the base color of
+the model. I'm using a technique called
+the model. I'm using a technique called
+the model. I'm using a technique called
+texture painting. I have a tutorial if
+texture painting. I have a tutorial if
+texture painting. I have a tutorial if
+you want to learn more, link below. Use
+you want to learn more, link below. Use
+you want to learn more, link below. Use
+flat colors as a base for the hair,
+flat colors as a base for the hair,
+flat colors as a base for the hair,
+skin, and clothing, and once you're
+skin, and clothing, and once you're
+skin, and clothing, and once you're
+happy with the way it looks, you can
+happy with the way it looks, you can
+happy with the way it looks, you can
+start adding in the details. For
+start adding in the details. For
+start adding in the details. For
+low-poly models, you can use anything
+low-poly models, you can use anything
+low-poly models, you can use anything
+from super high-quality HD textures to
+from super high-quality HD textures to
+from super high-quality HD textures to
+small blocky textures, and it can still
+small blocky textures, and it can still
+small blocky textures, and it can still
+look great. In this case, Fia was
+look great. In this case, Fia was
+look great. In this case, Fia was
+interested in the retro look, and so I
+interested in the retro look, and so I
+interested in the retro look, and so I
+used a fairly small 256 by 256 texture
+used a fairly small 256 by 256 texture
+used a fairly small 256 by 256 texture
+to give it that pixelated PS1 and 64
+to give it that pixelated PS1 and 64
+to give it that pixelated PS1 and 64
+look. One trick I've learned when it
+look. One trick I've learned when it
+look. One trick I've learned when it
+comes to details is to first roughly
+comes to details is to first roughly
+comes to details is to first roughly
+apply colors where you want them to be,
+apply colors where you want them to be,
+apply colors where you want them to be,
+and then use a smudging or blurring tool
+and then use a smudging or blurring tool
+and then use a smudging or blurring tool
+to smooth out the transition from one
+to smooth out the transition from one
+to smooth out the transition from one
+color to the next. This makes for much
+color to the next. This makes for much
+color to the next. This makes for much
+nicer-looking textures. In low-poly
+nicer-looking textures. In low-poly
+nicer-looking textures. In low-poly
+modeling, textures are how you create
+modeling, textures are how you create
+modeling, textures are how you create
+the illusion of extra detail. Notice how
+the illusion of extra detail. Notice how
+the illusion of extra detail. Notice how
+I used dark lines in the hair to suggest
+I used dark lines in the hair to suggest
+I used dark lines in the hair to suggest
+layers, or how I've added tiny specs of
+layers, or how I've added tiny specs of
+layers, or how I've added tiny specs of
+purple and blue in the irises to give
+purple and blue in the irises to give
+purple and blue in the irises to give
+them that extra bit of life. Here,
+them that extra bit of life. Here,
+them that extra bit of life. Here,
+little details do matter, so take your
+little details do matter, so take your
+little details do matter, so take your
+time. After texturing, all that's left
+time. After texturing, all that's left
+time. After texturing, all that's left
+is rigging for animation. Using standard
+is rigging for animation. Using standard
+is rigging for animation. Using standard
+weight painting techniques can cause
+weight painting techniques can cause
+weight painting techniques can cause
+weird-looking deformations in low-poly
+weird-looking deformations in low-poly
+weird-looking deformations in low-poly
+models, and so one thing I like to do is
+models, and so one thing I like to do is
+models, and so one thing I like to do is
+make each body part a separate piece and
+make each body part a separate piece and
+make each body part a separate piece and
+treat them like limbs on a doll. This
+treat them like limbs on a doll. This
+treat them like limbs on a doll. This
+was a very common technique in older
+was a very common technique in older
+was a very common technique in older
+video games, and I felt it was
+video games, and I felt it was
+video games, and I felt it was
+appropriate for a retro-style model. And
+appropriate for a retro-style model. And
+appropriate for a retro-style model. And
+that's pretty much all I know about low
+that's pretty much all I know about low
+that's pretty much all I know about low
+poly modeling. Go check out Fia's
+poly modeling. Go check out Fia's
+poly modeling. Go check out Fia's
+channel. She's got a great personality
+channel. She's got a great personality
+channel. She's got a great personality
+and a lot of fun content. Link below.
+and a lot of fun content. Link below.
+and a lot of fun content. Link below.
+Thanks for watching. Like, subscribe,
+Thanks for watching. Like, subscribe,
+Thanks for watching. Like, subscribe,
+bell, follow me on Twitter, and have a
+bell, follow me on Twitter, and have a
+bell, follow me on Twitter, and have a
+nice day.

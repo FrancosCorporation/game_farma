@@ -1,0 +1,3953 @@
+Kind: captions
+Language: en
+hello friend in this video we will
+hello friend in this video we will
+hello friend in this video we will
+create a game for this we will use the
+create a game for this we will use the
+create a game for this we will use the
+principles and techniques on which the
+principles and techniques on which the
+principles and techniques on which the
+wolfenstein 3d game is built and also
+wolfenstein 3d game is built and also
+wolfenstein 3d game is built and also
+stylize it as a doom game in other words
+stylize it as a doom game in other words
+stylize it as a doom game in other words
+we will create a symbiosis of these
+we will create a symbiosis of these
+we will create a symbiosis of these
+games so in order to create such a game
+games so in order to create such a game
+games so in order to create such a game
+we need to know that wolfenstein 3d is
+we need to know that wolfenstein 3d is
+we need to know that wolfenstein 3d is
+based on the raycasting algorithm in
+based on the raycasting algorithm in
+based on the raycasting algorithm in
+reality it is performed on a
+reality it is performed on a
+reality it is performed on a
+two-dimensional plane but at the same
+two-dimensional plane but at the same
+two-dimensional plane but at the same
+time it allows you to get a
+time it allows you to get a
+time it allows you to get a
+three-dimensional illusion of space so
+three-dimensional illusion of space so
+three-dimensional illusion of space so
+to speak sudo 3d
+to speak sudo 3d
+to speak sudo 3d
+we will take a detailed look at each
+we will take a detailed look at each
+we will take a detailed look at each
+stage of the game creation we will make
+stage of the game creation we will make
+stage of the game creation we will make
+an efficient and fast 2d raycaster with
+an efficient and fast 2d raycaster with
+an efficient and fast 2d raycaster with
+the help of a raycaster we will get a 3d
+the help of a raycaster we will get a 3d
+the help of a raycaster we will get a 3d
+projection of our game level we will
+projection of our game level we will
+projection of our game level we will
+learn how to properly apply various
+learn how to properly apply various
+learn how to properly apply various
+textures and embed sprites and we will
+textures and embed sprites and we will
+textures and embed sprites and we will
+also make smart and full-fledged enemies
+also make smart and full-fledged enemies
+also make smart and full-fledged enemies
+in our game from which you can't hide
+in our game from which you can't hide
+in our game from which you can't hide
+anywhere due to the pathfinding
+anywhere due to the pathfinding
+anywhere due to the pathfinding
+algorithm
+so let's begin we will create our game
+so let's begin we will create our game
+so let's begin we will create our game
+using the pygame library so we install
+using the pygame library so we install
+using the pygame library so we install
+it using the command presented on the
+it using the command presented on the
+it using the command presented on the
+screen
+screen
+screen
+the initial structure of the project
+the initial structure of the project
+the initial structure of the project
+will consist of five files this is the
+will consist of five files this is the
+will consist of five files this is the
+main file and then the files player
+main file and then the files player
+main file and then the files player
+object renderer raycasting map and
+object renderer raycasting map and
+object renderer raycasting map and
+settings
+settings
+settings
+the settings file will store the main
+the settings file will store the main
+the settings file will store the main
+game settings so let's first define the
+game settings so let's first define the
+game settings so let's first define the
+screen resolution and set the frame rate
+screen resolution and set the frame rate
+screen resolution and set the frame rate
+for the game
+for the game
+for the game
+and now you can go to the main file and
+and now you can go to the main file and
+and now you can go to the main file and
+write the main application template
+write the main application template
+write the main application template
+here we import the pi game library the
+here we import the pi game library the
+here we import the pi game library the
+system module in the settings
+system module in the settings
+system module in the settings
+let's create a game class in the
+let's create a game class in the
+let's create a game class in the
+constructor of which we initialize the
+constructor of which we initialize the
+constructor of which we initialize the
+pygame modules create a screen for
+pygame modules create a screen for
+pygame modules create a screen for
+rendering the set resolution in an
+rendering the set resolution in an
+rendering the set resolution in an
+instance of the clock class for framer
+instance of the clock class for framer
+instance of the clock class for framer
+8.
+8.
+8.
+we need a new game method leave it empty
+we need a new game method leave it empty
+we need a new game method leave it empty
+in the update method we will update our
+in the update method we will update our
+in the update method we will update our
+screen and display information about the
+screen and display information about the
+screen and display information about the
+current number of frames per second in
+current number of frames per second in
+current number of frames per second in
+the window caption
+in the draw method at each iteration we
+in the draw method at each iteration we
+in the draw method at each iteration we
+will paint our screen black
+will paint our screen black
+will paint our screen black
+then we need a run method in which the
+then we need a run method in which the
+then we need a run method in which the
+main loop of the game will be from this
+main loop of the game will be from this
+main loop of the game will be from this
+loop we will call the update and draw
+loop we will call the update and draw
+loop we will call the update and draw
+methods
+methods
+methods
+we will also create a method for
+we will also create a method for
+we will also create a method for
+checking events here we will check the
+checking events here we will check the
+checking events here we will check the
+events for closing the working window
+events for closing the working window
+events for closing the working window
+and for pressing the escape key and if
+and for pressing the escape key and if
+and for pressing the escape key and if
+such events occur we will correctly exit
+such events occur we will correctly exit
+such events occur we will correctly exit
+the application
+and this method will also be called from
+and this method will also be called from
+and this method will also be called from
+the main loop
+the main loop
+the main loop
+now it remains to create an instance of
+now it remains to create an instance of
+now it remains to create an instance of
+our game and call the run method
+our game and call the run method
+our game and call the run method
+let's run the program and make sure that
+let's run the program and make sure that
+let's run the program and make sure that
+everything is working properly a black
+everything is working properly a black
+everything is working properly a black
+window of the set resolution is created
+window of the set resolution is created
+window of the set resolution is created
+so now let's create our game world for
+so now let's create our game world for
+so now let's create our game world for
+this we go to the map file and make our
+this we go to the map file and make our
+this we go to the map file and make our
+map
+map
+map
+this will be a two-dimensional array in
+this will be a two-dimensional array in
+this will be a two-dimensional array in
+which digital values will mean walls and
+which digital values will mean walls and
+which digital values will mean walls and
+false values will be empty space for a
+false values will be empty space for a
+false values will be empty space for a
+better perception of the map i marked
+better perception of the map i marked
+better perception of the map i marked
+them as underscores
+them as underscores
+them as underscores
+now let's write a map class where we get
+now let's write a map class where we get
+now let's write a map class where we get
+an instance of the game class as input
+an instance of the game class as input
+an instance of the game class as input
+to the constructor and the minimap and
+to the constructor and the minimap and
+to the constructor and the minimap and
+world map become attributes
+world map become attributes
+world map become attributes
+this world map will be obtained through
+this world map will be obtained through
+this world map will be obtained through
+a separate method in which we iterate
+a separate method in which we iterate
+a separate method in which we iterate
+over our array and write the coordinates
+over our array and write the coordinates
+over our array and write the coordinates
+of elements with only numeric values to
+of elements with only numeric values to
+of elements with only numeric values to
+the dictionary
+let's display our map on the screen for
+let's display our map on the screen for
+let's display our map on the screen for
+this we will write a test method draw
+this we will write a test method draw
+this we will write a test method draw
+iterating over the world map we will
+iterating over the world map we will
+iterating over the world map we will
+draw each element of the map as an
+draw each element of the map as an
+draw each element of the map as an
+unfilled square
+unfilled square
+unfilled square
+so now you can go to the main file
+so now you can go to the main file
+so now you can go to the main file
+here we import the map file
+here we import the map file
+here we import the map file
+create an instance of the map class in
+create an instance of the map class in
+create an instance of the map class in
+the new game method and make a call to
+the new game method and make a call to
+the new game method and make a call to
+the new game method from the main
+the new game method from the main
+the new game method from the main
+applications constructor
+applications constructor
+applications constructor
+let's make a call to draw the map from
+let's make a call to draw the map from
+let's make a call to draw the map from
+the draw method and let's run the
+the draw method and let's run the
+the draw method and let's run the
+program
+and as you can see now we got the
+and as you can see now we got the
+and as you can see now we got the
+correct display of the given map in grey
+before moving on to the player file
+before moving on to the player file
+before moving on to the player file
+let's set the initial settings for the
+let's set the initial settings for the
+let's set the initial settings for the
+player
+player
+player
+we will define the position of the
+we will define the position of the
+we will define the position of the
+player on the map the angle of his
+player on the map the angle of his
+player on the map the angle of his
+direction the speed of movement and the
+direction the speed of movement and the
+direction the speed of movement and the
+speed of rotation
+speed of rotation
+speed of rotation
+then in the player file we import the
+then in the player file we import the
+then in the player file we import the
+settings file and we also need the pi
+settings file and we also need the pi
+settings file and we also need the pi
+game and math modules
+game and math modules
+game and math modules
+let's create a player class in the
+let's create a player class in the
+let's create a player class in the
+attributes of which we will take an
+attributes of which we will take an
+attributes of which we will take an
+instance of the game x and y coordinates
+instance of the game x and y coordinates
+instance of the game x and y coordinates
+of the player in the angle of his
+of the player in the angle of his
+of the player in the angle of his
+direction
+direction
+direction
+let's write the movement method and for
+let's write the movement method and for
+let's write the movement method and for
+now leave it empty we will call the
+now leave it empty we will call the
+now leave it empty we will call the
+movement method through the update
+movement method through the update
+movement method through the update
+method
+method
+method
+and for convenience we will make two
+and for convenience we will make two
+and for convenience we will make two
+properties the first returns the
+properties the first returns the
+properties the first returns the
+player's coordinates and the second
+player's coordinates and the second
+player's coordinates and the second
+integer coordinates to know which tile
+integer coordinates to know which tile
+integer coordinates to know which tile
+of the map we are on
+of the map we are on
+of the map we are on
+so what about the movement of the player
+so what about the movement of the player
+so what about the movement of the player
+it should be made standard for first
+it should be made standard for first
+it should be made standard for first
+person shooter controls in simple terms
+person shooter controls in simple terms
+person shooter controls in simple terms
+we need to make the wasd keys control
+we need to make the wasd keys control
+we need to make the wasd keys control
+the movement and also make the player's
+the movement and also make the player's
+the movement and also make the player's
+direction control
+direction control
+direction control
+and since we are on a two-dimensional
+and since we are on a two-dimensional
+and since we are on a two-dimensional
+plane let's take a closer look at what
+plane let's take a closer look at what
+plane let's take a closer look at what
+we should do
+we should do
+we should do
+let's imagine that we press the w key
+let's imagine that we press the w key
+let's imagine that we press the w key
+then knowing the angle of the direction
+then knowing the angle of the direction
+then knowing the angle of the direction
+of the player and the speed of his
+of the player and the speed of his
+of the player and the speed of his
+movement we can calculate the increments
+movement we can calculate the increments
+movement we can calculate the increments
+dx and dy by which the player's
+dx and dy by which the player's
+dx and dy by which the player's
+coordinates need to be changed and for
+coordinates need to be changed and for
+coordinates need to be changed and for
+this as you can see from the slide we
+this as you can see from the slide we
+this as you can see from the slide we
+use the trigonometric functions of sine
+use the trigonometric functions of sine
+use the trigonometric functions of sine
+and cosine
+and cosine
+and cosine
+and of course we can similarly calculate
+and of course we can similarly calculate
+and of course we can similarly calculate
+such increments for all other keys
+such increments for all other keys
+such increments for all other keys
+so let's use this information and go to
+so let's use this information and go to
+so let's use this information and go to
+the movement method we calculate the
+the movement method we calculate the
+the movement method we calculate the
+sine and cosine values from the player's
+sine and cosine values from the player's
+sine and cosine values from the player's
+direction angle then set dx and dy to be
+direction angle then set dx and dy to be
+direction angle then set dx and dy to be
+zero
+zero
+zero
+and here comes another important point
+and here comes another important point
+and here comes another important point
+if we want the player's movement speed
+if we want the player's movement speed
+if we want the player's movement speed
+to be independent of the frame rate then
+to be independent of the frame rate then
+to be independent of the frame rate then
+we need to get the delta time value for
+we need to get the delta time value for
+we need to get the delta time value for
+each frame
+each frame
+each frame
+then in the main file the delta time
+then in the main file the delta time
+then in the main file the delta time
+value can be easily obtained in the
+value can be easily obtained in the
+value can be easily obtained in the
+update method through an instance of the
+update method through an instance of the
+update method through an instance of the
+clock class which was created to set the
+clock class which was created to set the
+clock class which was created to set the
+frame rate
+frame rate
+frame rate
+now we return to the player's file and
+now we return to the player's file and
+now we return to the player's file and
+correct for the speed taking into
+correct for the speed taking into
+correct for the speed taking into
+account the delta time
+account the delta time
+account the delta time
+we also pre-calculate the product of the
+we also pre-calculate the product of the
+we also pre-calculate the product of the
+obtained speed by the calculated values
+obtained speed by the calculated values
+obtained speed by the calculated values
+of the sine and cosine
+next we obtain information about the
+next we obtain information about the
+next we obtain information about the
+keys pressed in according to the above
+keys pressed in according to the above
+keys pressed in according to the above
+theory calculate the increments dx and
+theory calculate the increments dx and
+theory calculate the increments dx and
+dy
+now we need to apply the received
+now we need to apply the received
+now we need to apply the received
+increments to the corresponding
+increments to the corresponding
+increments to the corresponding
+coordinates of the player and it remains
+coordinates of the player and it remains
+coordinates of the player and it remains
+to implement the control of the player's
+to implement the control of the player's
+to implement the control of the player's
+direction for now we will do this for
+direction for now we will do this for
+direction for now we will do this for
+pressing the left and right keys while
+pressing the left and right keys while
+pressing the left and right keys while
+the angle value should remain within 2p
+as in the case of the map we will
+as in the case of the map we will
+as in the case of the map we will
+similarly write a test method for
+similarly write a test method for
+similarly write a test method for
+drawing a player on a plane we will draw
+drawing a player on a plane we will draw
+drawing a player on a plane we will draw
+his direction of movement as a line and
+his direction of movement as a line and
+his direction of movement as a line and
+the player himself will be in the form
+the player himself will be in the form
+the player himself will be in the form
+of a circle
+so let's go back to the main file and
+so let's go back to the main file and
+so let's go back to the main file and
+import the player file then we create an
+import the player file then we create an
+import the player file then we create an
+instance of the player class and need to
+instance of the player class and need to
+instance of the player class and need to
+call two methods the first method is
+call two methods the first method is
+call two methods the first method is
+update and the second method is draw
+now we can run the program and see how
+now we can run the program and see how
+now we can run the program and see how
+our game works
+our game works
+our game works
+and as you can see the player's movement
+and as you can see the player's movement
+and as you can see the player's movement
+occurs as suggested
+occurs as suggested
+occurs as suggested
+so the player movement occurs at a fixed
+so the player movement occurs at a fixed
+so the player movement occurs at a fixed
+number of frames per second of 60. let's
+number of frames per second of 60. let's
+number of frames per second of 60. let's
+check the player movement if we turn off
+check the player movement if we turn off
+check the player movement if we turn off
+the fixed frame or 8.
+the fixed frame or 8.
+the fixed frame or 8.
+so let's start again and notice now the
+so let's start again and notice now the
+so let's start again and notice now the
+frame rate is 10 times higher but the
+frame rate is 10 times higher but the
+frame rate is 10 times higher but the
+player's movement speed has not changed
+player's movement speed has not changed
+player's movement speed has not changed
+this is where the biggest advantage of
+this is where the biggest advantage of
+this is where the biggest advantage of
+using delta time lies and now it doesn't
+using delta time lies and now it doesn't
+using delta time lies and now it doesn't
+look good when we pass through walls
+look good when we pass through walls
+look good when we pass through walls
+let's implement a check for player
+let's implement a check for player
+let's implement a check for player
+collisions with walls
+collisions with walls
+collisions with walls
+to do this go to the player's file and
+to do this go to the player's file and
+to do this go to the player's file and
+first write a method that checks if the
+first write a method that checks if the
+first write a method that checks if the
+checked coordinates hit the wall
+checked coordinates hit the wall
+checked coordinates hit the wall
+we then use this method in the collision
+we then use this method in the collision
+we then use this method in the collision
+check method using the computed dx and
+check method using the computed dx and
+check method using the computed dx and
+dy increments in turn we check the new
+dy increments in turn we check the new
+dy increments in turn we check the new
+coordinates and only allow movement if
+coordinates and only allow movement if
+coordinates and only allow movement if
+there is no wall
+there is no wall
+there is no wall
+let's use this method instead of
+let's use this method instead of
+let's use this method instead of
+changing the player's coordinates and
+changing the player's coordinates and
+changing the player's coordinates and
+see the result
+as expected now the walls have become
+as expected now the walls have become
+as expected now the walls have become
+impassable and we can say that we have
+impassable and we can say that we have
+impassable and we can say that we have
+completed the preparatory stage of our
+completed the preparatory stage of our
+completed the preparatory stage of our
+game
+game
+game
+and now we can move on to more
+and now we can move on to more
+and now we can move on to more
+interesting things
+and now we are starting to write the
+and now we are starting to write the
+and now we are starting to write the
+engine of our game so let's go to the
+engine of our game so let's go to the
+engine of our game so let's go to the
+raycasting file and import the pi game
+raycasting file and import the pi game
+raycasting file and import the pi game
+math modules in the settings file
+math modules in the settings file
+math modules in the settings file
+next we will write the raycasting class
+next we will write the raycasting class
+next we will write the raycasting class
+in the attributes of which we take an
+in the attributes of which we take an
+in the attributes of which we take an
+instance of our game and define the
+instance of our game and define the
+instance of our game and define the
+raycast method which will be called from
+raycast method which will be called from
+raycast method which will be called from
+the update method
+the update method
+the update method
+and now let's talk about what ray
+and now let's talk about what ray
+and now let's talk about what ray
+casting is in our case
+casting is in our case
+casting is in our case
+so the whole point of ray casting comes
+so the whole point of ray casting comes
+so the whole point of ray casting comes
+down to the fact that we need to cast a
+down to the fact that we need to cast a
+down to the fact that we need to cast a
+given number of rays in a certain field
+given number of rays in a certain field
+given number of rays in a certain field
+of view of the player and for each ray
+of view of the player and for each ray
+of view of the player and for each ray
+we need to determine the intersection
+we need to determine the intersection
+we need to determine the intersection
+point with the wall
+point with the wall
+point with the wall
+but with what step should we move the
+but with what step should we move the
+but with what step should we move the
+ray into the depth of the map
+ray into the depth of the map
+ray into the depth of the map
+and here we can take advantage of the
+and here we can take advantage of the
+and here we can take advantage of the
+fact that our map is a grid
+fact that our map is a grid
+fact that our map is a grid
+to do this we need to find intersections
+to do this we need to find intersections
+to do this we need to find intersections
+with vertical and horizontal lines thus
+with vertical and horizontal lines thus
+with vertical and horizontal lines thus
+the ray will have the most optimal
+the ray will have the most optimal
+the ray will have the most optimal
+number of steps
+number of steps
+number of steps
+and here we should consider
+and here we should consider
+and here we should consider
+intersections with vertical and
+intersections with vertical and
+intersections with vertical and
+horizontal lines as two separate cases
+horizontal lines as two separate cases
+horizontal lines as two separate cases
+if we consider the intersection of the
+if we consider the intersection of the
+if we consider the intersection of the
+ray with the verticals then we can see
+ray with the verticals then we can see
+ray with the verticals then we can see
+that the ray along the x-axis moves to a
+that the ray along the x-axis moves to a
+that the ray along the x-axis moves to a
+distance dx equal to the size of the
+distance dx equal to the size of the
+distance dx equal to the size of the
+tile we have it equal to 1.
+tile we have it equal to 1.
+tile we have it equal to 1.
+in this case the movement along the
+in this case the movement along the
+in this case the movement along the
+y-axis also goes in equal segments d y
+y-axis also goes in equal segments d y
+y-axis also goes in equal segments d y
+but their value must be calculated
+but their value must be calculated
+but their value must be calculated
+in the case of horizontal lines the
+in the case of horizontal lines the
+in the case of horizontal lines the
+opposite is true d y is equal to the
+opposite is true d y is equal to the
+opposite is true d y is equal to the
+size of the tile and dx needs to be
+size of the tile and dx needs to be
+size of the tile and dx needs to be
+calculated
+calculated
+calculated
+it is also important for us to determine
+it is also important for us to determine
+it is also important for us to determine
+the depth delta so that we can calculate
+the depth delta so that we can calculate
+the depth delta so that we can calculate
+the distance to the wall for each ray
+the distance to the wall for each ray
+the distance to the wall for each ray
+so to go further let's set the settings
+so to go further let's set the settings
+so to go further let's set the settings
+for raycasting
+for raycasting
+for raycasting
+we will define the field of view of the
+we will define the field of view of the
+we will define the field of view of the
+player the number of rays for the whole
+player the number of rays for the whole
+player the number of rays for the whole
+game it is enough to take half of the
+game it is enough to take half of the
+game it is enough to take half of the
+resolution width value also based on the
+resolution width value also based on the
+resolution width value also based on the
+number of rays we will define the angle
+number of rays we will define the angle
+number of rays we will define the angle
+between the rays delta angle and define
+between the rays delta angle and define
+between the rays delta angle and define
+the maximum depth this is let's say draw
+the maximum depth this is let's say draw
+the maximum depth this is let's say draw
+distance
+distance
+distance
+in the raycast method we calculate the
+in the raycast method we calculate the
+in the raycast method we calculate the
+angle for the first ray we need to
+angle for the first ray we need to
+angle for the first ray we need to
+subtract half the value of the field of
+subtract half the value of the field of
+subtract half the value of the field of
+view from the player's angle and add a
+view from the player's angle and add a
+view from the player's angle and add a
+small value in order to avoid the
+small value in order to avoid the
+small value in order to avoid the
+division by zero error in further
+division by zero error in further
+division by zero error in further
+calculations
+calculations
+calculations
+now let's write a loop on the number of
+now let's write a loop on the number of
+now let's write a loop on the number of
+rays with the help of which we calculate
+rays with the help of which we calculate
+rays with the help of which we calculate
+the angles for each ray
+and we also need the coordinates of the
+and we also need the coordinates of the
+and we also need the coordinates of the
+player on the map o x o y and the
+player on the map o x o y and the
+player on the map o x o y and the
+coordinates of his tile x-map y-map
+in the loop we calculate the values of
+in the loop we calculate the values of
+in the loop we calculate the values of
+the sine and cosine of the current ray
+the sine and cosine of the current ray
+the sine and cosine of the current ray
+and proceed to the case of the
+and proceed to the case of the
+and proceed to the case of the
+intersection of the ray with verticals
+intersection of the ray with verticals
+intersection of the ray with verticals
+first of all by the value of the cosine
+first of all by the value of the cosine
+first of all by the value of the cosine
+of the ray angle it is necessary to
+of the ray angle it is necessary to
+of the ray angle it is necessary to
+determine the x-coordinate of the
+determine the x-coordinate of the
+determine the x-coordinate of the
+intersection with the verticals expert
+intersection with the verticals expert
+intersection with the verticals expert
+if the cosine is positive then exvert
+if the cosine is positive then exvert
+if the cosine is positive then exvert
+will be one more than the x-map value
+will be one more than the x-map value
+will be one more than the x-map value
+but with a negative cosine value expert
+but with a negative cosine value expert
+but with a negative cosine value expert
+will not be equal to xmap since we need
+will not be equal to xmap since we need
+will not be equal to xmap since we need
+to check the left tile so we subtract a
+to check the left tile so we subtract a
+to check the left tile so we subtract a
+small number from xmap
+small number from xmap
+small number from xmap
+and here by the value of the cosine sign
+and here by the value of the cosine sign
+and here by the value of the cosine sign
+we will determine the value of the
+we will determine the value of the
+we will determine the value of the
+variable dx
+variable dx
+variable dx
+after that if we examine the resulting
+after that if we examine the resulting
+after that if we examine the resulting
+picture in detail it will become obvious
+picture in detail it will become obvious
+picture in detail it will become obvious
+that using trigonometric functions we
+that using trigonometric functions we
+that using trigonometric functions we
+will calculate the value of the distance
+will calculate the value of the distance
+will calculate the value of the distance
+of the first intersection with the
+of the first intersection with the
+of the first intersection with the
+vertical depth vert and the value of the
+vertical depth vert and the value of the
+vertical depth vert and the value of the
+y coordinate y vert
+so we are at the orange point and we
+so we are at the orange point and we
+so we are at the orange point and we
+need to get to the blue one
+need to get to the blue one
+need to get to the blue one
+again if you draw all the details it
+again if you draw all the details it
+again if you draw all the details it
+will become clear how to determine the
+will become clear how to determine the
+will become clear how to determine the
+depth delta value in the dy value using
+depth delta value in the dy value using
+depth delta value in the dy value using
+trigonometry
+trigonometry
+trigonometry
+thus we have everything we need to cast
+thus we have everything we need to cast
+thus we have everything we need to cast
+array and find intersections with
+array and find intersections with
+array and find intersections with
+verticals
+verticals
+verticals
+we will cast the ray in a cycle by the
+we will cast the ray in a cycle by the
+we will cast the ray in a cycle by the
+number of steps equal to the value of
+number of steps equal to the value of
+number of steps equal to the value of
+the maximum depth here we first
+the maximum depth here we first
+the maximum depth here we first
+determine the tile based on the exvert
+determine the tile based on the exvert
+determine the tile based on the exvert
+and y vert values and then we check that
+and y vert values and then we check that
+and y vert values and then we check that
+we did not stumble upon a wall if this
+we did not stumble upon a wall if this
+we did not stumble upon a wall if this
+happened then we break the cycle if not
+happened then we break the cycle if not
+happened then we break the cycle if not
+then we cast the ray further using the
+then we cast the ray further using the
+then we cast the ray further using the
+dxdy values and calculate the total
+dxdy values and calculate the total
+dxdy values and calculate the total
+value of the ray depth
+value of the ray depth
+value of the ray depth
+as for intersections with horizontal
+as for intersections with horizontal
+as for intersections with horizontal
+lines we do similar detail work here
+lines we do similar detail work here
+lines we do similar detail work here
+first calculating the depth and
+first calculating the depth and
+first calculating the depth and
+coordinates for the first intersection
+coordinates for the first intersection
+coordinates for the first intersection
+and then also calculating the delta
+and then also calculating the delta
+and then also calculating the delta
+depth and dx values to cast the ray for
+depth and dx values to cast the ray for
+depth and dx values to cast the ray for
+this case
+so as a result of all these calculations
+so as a result of all these calculations
+so as a result of all these calculations
+we have two points of intersection of
+we have two points of intersection of
+we have two points of intersection of
+the ray with the wall and it is obvious
+the ray with the wall and it is obvious
+the ray with the wall and it is obvious
+that the depth that will be less and
+that the depth that will be less and
+that the depth that will be less and
+will be what we are looking for
+will be what we are looking for
+will be what we are looking for
+so let's determine the depth we need
+so let's determine the depth we need
+so let's determine the depth we need
+and also here for debugging let's try to
+and also here for debugging let's try to
+and also here for debugging let's try to
+draw the entire result of raycasting
+okay let's go to the main file import
+okay let's go to the main file import
+okay let's go to the main file import
+the raycasting file create an instance
+the raycasting file create an instance
+the raycasting file create an instance
+of the raycasting class and call the
+of the raycasting class and call the
+of the raycasting class and call the
+update method
+let's turn off the drawing of the
+let's turn off the drawing of the
+let's turn off the drawing of the
+direction of the player's movement and
+direction of the player's movement and
+direction of the player's movement and
+look at the result
+so now we can observe the work of our
+so now we can observe the work of our
+so now we can observe the work of our
+ray casting in action as we see no
+ray casting in action as we see no
+ray casting in action as we see no
+problems arise and it works correctly
+problems arise and it works correctly
+problems arise and it works correctly
+well now we are all set for the next
+well now we are all set for the next
+well now we are all set for the next
+step to get a 3d projection in our game
+so at the moment we have a calculated
+so at the moment we have a calculated
+so at the moment we have a calculated
+value for the depth at which the walls
+value for the depth at which the walls
+value for the depth at which the walls
+are located
+are located
+are located
+to get the projection of objects on the
+to get the projection of objects on the
+to get the projection of objects on the
+screen you need to place the screen at
+screen you need to place the screen at
+screen you need to place the screen at
+the correct distance from the player
+the correct distance from the player
+the correct distance from the player
+if we draw in detail the placement of
+if we draw in detail the placement of
+if we draw in detail the placement of
+this screen then as you can see from the
+this screen then as you can see from the
+this screen then as you can see from the
+slide we can get the distance we need
+slide we can get the distance we need
+slide we can get the distance we need
+using the tangent function this will be
+using the tangent function this will be
+using the tangent function this will be
+the ratio of half the resolution width
+the ratio of half the resolution width
+the ratio of half the resolution width
+to the tangent of half the value of the
+to the tangent of half the value of the
+to the tangent of half the value of the
+player's field of view
+player's field of view
+player's field of view
+let's go to the settings file and
+let's go to the settings file and
+let's go to the settings file and
+calculate half the resolution value for
+calculate half the resolution value for
+calculate half the resolution value for
+the width and at the same time for the
+the width and at the same time for the
+the width and at the same time for the
+height
+height
+height
+and then we can calculate the correct
+and then we can calculate the correct
+and then we can calculate the correct
+distance for the screen location
+distance for the screen location
+distance for the screen location
+and now we need to determine how we
+and now we need to determine how we
+and now we need to determine how we
+calculate the projection height of the
+calculate the projection height of the
+calculate the projection height of the
+walls
+walls
+walls
+to do this let's look at the whole
+to do this let's look at the whole
+to do this let's look at the whole
+picture from the side
+picture from the side
+picture from the side
+again if we draw everything in detail
+again if we draw everything in detail
+again if we draw everything in detail
+then we can see two similar triangles
+then we can see two similar triangles
+then we can see two similar triangles
+that are formed from the player the wall
+that are formed from the player the wall
+that are formed from the player the wall
+and its projection height
+and its projection height
+and its projection height
+from the similarity property of these
+from the similarity property of these
+from the similarity property of these
+triangles we can say that the ratio of
+triangles we can say that the ratio of
+triangles we can say that the ratio of
+the size of the walls to their distance
+the size of the walls to their distance
+the size of the walls to their distance
+from the player is equal for both
+from the player is equal for both
+from the player is equal for both
+triangles
+triangles
+triangles
+and since our wall size is equal to 1
+and since our wall size is equal to 1
+and since our wall size is equal to 1
+the projection height will be equal to
+the projection height will be equal to
+the projection height will be equal to
+the ratio of the distance at which the
+the ratio of the distance at which the
+the ratio of the distance at which the
+screen is located to the depth at which
+screen is located to the depth at which
+screen is located to the depth at which
+we see the wall
+we see the wall
+we see the wall
+okay let's go to the raycasting file and
+okay let's go to the raycasting file and
+okay let's go to the raycasting file and
+calculate the projection height
+calculate the projection height
+calculate the projection height
+according to the above theory but we
+according to the above theory but we
+according to the above theory but we
+take into account the addition of a tiny
+take into account the addition of a tiny
+take into account the addition of a tiny
+number to the depth in order to avoid
+number to the depth in order to avoid
+number to the depth in order to avoid
+the division by zero error
+the division by zero error
+the division by zero error
+let's try to draw our walls and for this
+let's try to draw our walls and for this
+let's try to draw our walls and for this
+we will use the pi game function to draw
+we will use the pi game function to draw
+we will use the pi game function to draw
+rectangles
+rectangles
+rectangles
+but then we need to determine the
+but then we need to determine the
+but then we need to determine the
+scaling factor since the number of rays
+scaling factor since the number of rays
+scaling factor since the number of rays
+we have is less than the screen
+we have is less than the screen
+we have is less than the screen
+resolution in width this is done
+resolution in width this is done
+resolution in width this is done
+specifically to maintain better
+specifically to maintain better
+specifically to maintain better
+performance
+performance
+performance
+then taking into account the scale we
+then taking into account the scale we
+then taking into account the scale we
+will draw a white rectangle place it
+will draw a white rectangle place it
+will draw a white rectangle place it
+according to the number of the ray along
+according to the number of the ray along
+according to the number of the ray along
+the x-axis and in the center of the
+the x-axis and in the center of the
+the x-axis and in the center of the
+screen taking into account the
+screen taking into account the
+screen taking into account the
+projection height
+projection height
+projection height
+now let's turn off the drawing of the
+now let's turn off the drawing of the
+now let's turn off the drawing of the
+map in the player and look at the result
+well here we got our first pseudo 3d
+well here we got our first pseudo 3d
+well here we got our first pseudo 3d
+projection
+projection
+projection
+we can walk around the map and see
+we can walk around the map and see
+we can walk around the map and see
+everything but let's add depth to the
+everything but let's add depth to the
+everything but let's add depth to the
+lighting in our game
+i suggest to do this calculate the color
+i suggest to do this calculate the color
+i suggest to do this calculate the color
+in some power dependence on the value of
+in some power dependence on the value of
+in some power dependence on the value of
+the depth of the ray
+thus our game began to look more
+thus our game began to look more
+thus our game began to look more
+interesting but pay attention that at a
+interesting but pay attention that at a
+interesting but pay attention that at a
+close distance to the walls they become
+close distance to the walls they become
+close distance to the walls they become
+convex
+convex
+convex
+this is the so-called fishbowl effect it
+this is the so-called fishbowl effect it
+this is the so-called fishbowl effect it
+occurs due to the use of the cartesian
+occurs due to the use of the cartesian
+occurs due to the use of the cartesian
+coordinate system along with the polar
+coordinate system along with the polar
+coordinate system along with the polar
+one
+one
+one
+to eliminate this drawback is quite easy
+to eliminate this drawback is quite easy
+to eliminate this drawback is quite easy
+for this we multiply the depth value by
+for this we multiply the depth value by
+for this we multiply the depth value by
+the cosine of the angle which we get by
+the cosine of the angle which we get by
+the cosine of the angle which we get by
+subtracting the value of the ray angle
+subtracting the value of the ray angle
+subtracting the value of the ray angle
+from the angle of the player's direction
+so we check that the flaw is eliminated
+so we check that the flaw is eliminated
+so we check that the flaw is eliminated
+and the walls look correct
+and the walls look correct
+and the walls look correct
+and in this way we got the classic
+and in this way we got the classic
+and in this way we got the classic
+raycaster this can be said to be our
+raycaster this can be said to be our
+raycaster this can be said to be our
+engine for all further innovations of
+engine for all further innovations of
+engine for all further innovations of
+which we will have quite a lot
+in the current step we will look at
+in the current step we will look at
+in the current step we will look at
+applying textures to our walls but first
+applying textures to our walls but first
+applying textures to our walls but first
+of all we need to load these textures
+of all we need to load these textures
+of all we need to load these textures
+i created a resources folder and the
+i created a resources folder and the
+i created a resources folder and the
+texture folder is located in it it now
+texture folder is located in it it now
+texture folder is located in it it now
+contains five texture files
+contains five texture files
+contains five texture files
+and first of all in the settings file we
+and first of all in the settings file we
+and first of all in the settings file we
+will define the size for the textures in
+will define the size for the textures in
+will define the size for the textures in
+the game and calculate half of its value
+the game and calculate half of its value
+the game and calculate half of its value
+now let's go to the object renderer file
+now let's go to the object renderer file
+now let's go to the object renderer file
+and import pygame in the settings file
+and import pygame in the settings file
+and import pygame in the settings file
+we will create an object renderer class
+we will create an object renderer class
+we will create an object renderer class
+that will render all objects in the game
+that will render all objects in the game
+that will render all objects in the game
+we will take the game instance in the
+we will take the game instance in the
+we will take the game instance in the
+rendering screen as attributes of this
+rendering screen as attributes of this
+rendering screen as attributes of this
+class
+for convenience we will create a static
+for convenience we will create a static
+for convenience we will create a static
+method for which the path to the texture
+method for which the path to the texture
+method for which the path to the texture
+and its resolution are specified this
+and its resolution are specified this
+and its resolution are specified this
+method loads the texture from the
+method loads the texture from the
+method loads the texture from the
+specified path and returns a scaled
+specified path and returns a scaled
+specified path and returns a scaled
+image
+image
+image
+and now we can write a method for
+and now we can write a method for
+and now we can write a method for
+loading textures it will return a
+loading textures it will return a
+loading textures it will return a
+dictionary in which the texture number
+dictionary in which the texture number
+dictionary in which the texture number
+is the key and the texture itself is the
+is the key and the texture itself is the
+is the key and the texture itself is the
+value
+value
+value
+on our map the walls are marked with
+on our map the walls are marked with
+on our map the walls are marked with
+numbers they indicate exactly which
+numbers they indicate exactly which
+numbers they indicate exactly which
+texture to apply to the wall
+we will access textures for walls
+we will access textures for walls
+we will access textures for walls
+through the wall textures attribute here
+through the wall textures attribute here
+through the wall textures attribute here
+we will call the texture loading method
+we will call the texture loading method
+we will call the texture loading method
+so in order to have access to textures
+so in order to have access to textures
+so in order to have access to textures
+now we import the object renderer file
+now we import the object renderer file
+now we import the object renderer file
+and before raycasting create an instance
+and before raycasting create an instance
+and before raycasting create an instance
+of the class of the same name
+so as for texture mapping now our image
+so as for texture mapping now our image
+so as for texture mapping now our image
+is built from rectangles the height of
+is built from rectangles the height of
+is built from rectangles the height of
+which is equal to the calculated
+which is equal to the calculated
+which is equal to the calculated
+projection height for a given ray and
+projection height for a given ray and
+projection height for a given ray and
+the width is equal to the scale size
+the width is equal to the scale size
+the width is equal to the scale size
+so we will cut out exactly the same
+so we will cut out exactly the same
+so we will cut out exactly the same
+rectangles from the texture and draw
+rectangles from the texture and draw
+rectangles from the texture and draw
+instead of the current ones this is the
+instead of the current ones this is the
+instead of the current ones this is the
+main idea of texturing in ray casting
+main idea of texturing in ray casting
+main idea of texturing in ray casting
+but we still need to understand how to
+but we still need to understand how to
+but we still need to understand how to
+calculate the texture offset value for
+calculate the texture offset value for
+calculate the texture offset value for
+this we will consider all four cases for
+this we will consider all four cases for
+this we will consider all four cases for
+the ray when it reaches the wall
+the ray when it reaches the wall
+the ray when it reaches the wall
+we consider two cases for verticals when
+we consider two cases for verticals when
+we consider two cases for verticals when
+the value of the cosine of the ray angle
+the value of the cosine of the ray angle
+the value of the cosine of the ray angle
+is positive and negative
+is positive and negative
+is positive and negative
+and we do the same for the horizontals
+and we do the same for the horizontals
+and we do the same for the horizontals
+for the sine value
+for the sine value
+for the sine value
+and as you can see the calculation of
+and as you can see the calculation of
+and as you can see the calculation of
+the texture offset value will always
+the texture offset value will always
+the texture offset value will always
+depend on the angle of the ray and the
+depend on the angle of the ray and the
+depend on the angle of the ray and the
+collision with the vertical or
+collision with the vertical or
+collision with the vertical or
+horizontal side of the wall
+okay then let's go to the raycasting
+okay then let's go to the raycasting
+okay then let's go to the raycasting
+file in the constructor of this class we
+file in the constructor of this class we
+file in the constructor of this class we
+define the attributes for the result of
+define the attributes for the result of
+define the attributes for the result of
+raycasting the objects to be drawn and
+raycasting the objects to be drawn and
+raycasting the objects to be drawn and
+we define a short name for the wall
+we define a short name for the wall
+we define a short name for the wall
+textures
+textures
+textures
+next in the process of raycasting we
+next in the process of raycasting we
+next in the process of raycasting we
+determine the numbers of the textures of
+determine the numbers of the textures of
+determine the numbers of the textures of
+the walls into which the rays collided
+the walls into which the rays collided
+the walls into which the rays collided
+we do this for both cases with
+we do this for both cases with
+we do this for both cases with
+horizontals and verticals
+now based on the calculated depths of
+now based on the calculated depths of
+now based on the calculated depths of
+the rays we find the actual texture
+the rays we find the actual texture
+the rays we find the actual texture
+number and here we calculate the correct
+number and here we calculate the correct
+number and here we calculate the correct
+texture offset in the way that was
+texture offset in the way that was
+texture offset in the way that was
+announced above
+at this point we can delete the previous
+at this point we can delete the previous
+at this point we can delete the previous
+rendering of the walls this is no longer
+rendering of the walls this is no longer
+rendering of the walls this is no longer
+necessary
+necessary
+necessary
+and in the list of raycasting results
+and in the list of raycasting results
+and in the list of raycasting results
+for each ray add a tuple of the depth
+for each ray add a tuple of the depth
+for each ray add a tuple of the depth
+value the projection height of the wall
+value the projection height of the wall
+value the projection height of the wall
+the texture number and its offset
+the texture number and its offset
+the texture number and its offset
+and the most important thing is not to
+and the most important thing is not to
+and the most important thing is not to
+forget to clear this list before
+forget to clear this list before
+forget to clear this list before
+starting the raycasting itself
+so now we need a method to get objects
+so now we need a method to get objects
+so now we need a method to get objects
+to draw here our task is to get the
+to draw here our task is to get the
+to draw here our task is to get the
+parameters calculated as a result of ray
+parameters calculated as a result of ray
+parameters calculated as a result of ray
+casting and based on them for each ray
+casting and based on them for each ray
+casting and based on them for each ray
+select a subsurface in the form of a
+select a subsurface in the form of a
+select a subsurface in the form of a
+rectangle from the initial texture
+rectangle from the initial texture
+rectangle from the initial texture
+to make it clear you can see the size
+to make it clear you can see the size
+to make it clear you can see the size
+options of this rectangle on the slide
+options of this rectangle on the slide
+options of this rectangle on the slide
+after that we scale the subsurface to
+after that we scale the subsurface to
+after that we scale the subsurface to
+the projection height calculate the
+the projection height calculate the
+the projection height calculate the
+position of this column texture based on
+position of this column texture based on
+position of this column texture based on
+the ray number and add it to the list of
+the ray number and add it to the list of
+the ray number and add it to the list of
+objects for rendering
+objects for rendering
+objects for rendering
+we need the depth value the wall column
+we need the depth value the wall column
+we need the depth value the wall column
+texture and its position
+we call this method in the update method
+we call this method in the update method
+we call this method in the update method
+and go to the object renderer file
+here using a separate method through an
+here using a separate method through an
+here using a separate method through an
+instance of the game class we will get
+instance of the game class we will get
+instance of the game class we will get
+access to the list of objects for
+access to the list of objects for
+access to the list of objects for
+rendering iterate over this list and
+rendering iterate over this list and
+rendering iterate over this list and
+draw the resulting texture columns on
+draw the resulting texture columns on
+draw the resulting texture columns on
+the rendering screen
+the rendering screen
+the rendering screen
+we call the work of this method through
+we call the work of this method through
+we call the work of this method through
+the main draw method
+the main draw method
+the main draw method
+and it remains in the main file to also
+and it remains in the main file to also
+and it remains in the main file to also
+call the draw method on the object
+call the draw method on the object
+call the draw method on the object
+renderer instance
+let's run it and as you can see we got
+let's run it and as you can see we got
+let's run it and as you can see we got
+nice textured walls it looks very decent
+nice textured walls it looks very decent
+nice textured walls it looks very decent
+but we can notice that when we get very
+but we can notice that when we get very
+but we can notice that when we get very
+close to the walls our performance drops
+close to the walls our performance drops
+close to the walls our performance drops
+catastrophically to almost zero
+catastrophically to almost zero
+catastrophically to almost zero
+this is due to the fact that with such
+this is due to the fact that with such
+this is due to the fact that with such
+an approach to the wall the depth of the
+an approach to the wall the depth of the
+an approach to the wall the depth of the
+ray tends to zero and the texture begins
+ray tends to zero and the texture begins
+ray tends to zero and the texture begins
+to scale in height to very large values
+to eliminate this performance hit we
+to eliminate this performance hit we
+to eliminate this performance hit we
+need to consider a special case where
+need to consider a special case where
+need to consider a special case where
+the projection height of the wall
+the projection height of the wall
+the projection height of the wall
+exceeds the height resolution of the
+exceeds the height resolution of the
+exceeds the height resolution of the
+screen
+screen
+screen
+in short we need to calculate the height
+in short we need to calculate the height
+in short we need to calculate the height
+value for the texture column this value
+value for the texture column this value
+value for the texture column this value
+will be such that when scaling the
+will be such that when scaling the
+will be such that when scaling the
+texture its size will not exceed the
+texture its size will not exceed the
+texture its size will not exceed the
+screen height value and thus we will get
+screen height value and thus we will get
+screen height value and thus we will get
+rid of resource intensive actions unlike
+rid of resource intensive actions unlike
+rid of resource intensive actions unlike
+the standard scaling for the first case
+the standard scaling for the first case
+the standard scaling for the first case
+let's run and compare the performance as
+let's run and compare the performance as
+let's run and compare the performance as
+we can see now getting close to the wall
+we can see now getting close to the wall
+we can see now getting close to the wall
+we no longer see such a drop in
+we no longer see such a drop in
+we no longer see such a drop in
+performance but at the same time the
+performance but at the same time the
+performance but at the same time the
+image becomes very pixelated due to the
+image becomes very pixelated due to the
+image becomes very pixelated due to the
+fact that our player has no size as it
+fact that our player has no size as it
+fact that our player has no size as it
+is made in the form of a dot
+is made in the form of a dot
+is made in the form of a dot
+let's define some scaling factor for the
+let's define some scaling factor for the
+let's define some scaling factor for the
+size of the player in the settings file
+size of the player in the settings file
+size of the player in the settings file
+then we go to the player file and we
+then we go to the player file and we
+then we go to the player file and we
+need a method to check for wall
+need a method to check for wall
+need a method to check for wall
+collisions
+collisions
+collisions
+here we will divide the value of this
+here we will divide the value of this
+here we will divide the value of this
+coefficient by the delta time we do this
+coefficient by the delta time we do this
+coefficient by the delta time we do this
+because the increments dx and dy depend
+because the increments dx and dy depend
+because the increments dx and dy depend
+on the delta time but the size of the
+on the delta time but the size of the
+on the delta time but the size of the
+player should not depend on this delta
+player should not depend on this delta
+player should not depend on this delta
+time value because we will find the
+time value because we will find the
+time value because we will find the
+product of these values
+product of these values
+product of these values
+if you look at how it works now in the
+if you look at how it works now in the
+if you look at how it works now in the
+game you can already feel that the
+game you can already feel that the
+game you can already feel that the
+player has a size
+player has a size
+player has a size
+and at the same time there is no strong
+and at the same time there is no strong
+and at the same time there is no strong
+stretching of the texture when
+stretching of the texture when
+stretching of the texture when
+approaching the walls
+approaching the walls
+approaching the walls
+you can even more clearly see the
+you can even more clearly see the
+you can even more clearly see the
+operation of this method through the 2d
+operation of this method through the 2d
+operation of this method through the 2d
+view of our game
+view of our game
+view of our game
+here you can already see for sure that
+here you can already see for sure that
+here you can already see for sure that
+the player has a certain size
+and by the way since we have different
+and by the way since we have different
+and by the way since we have different
+types of textures loaded let's change
+types of textures loaded let's change
+types of textures loaded let's change
+the designations for the walls on the
+the designations for the walls on the
+the designations for the walls on the
+map and see how it looks
+map and see how it looks
+map and see how it looks
+well now we see that our game world has
+well now we see that our game world has
+well now we see that our game world has
+changed for the better again and we have
+changed for the better again and we have
+changed for the better again and we have
+the opportunity to set the desired
+the opportunity to set the desired
+the opportunity to set the desired
+textures
+textures
+textures
+but as a first person shooter there is
+but as a first person shooter there is
+but as a first person shooter there is
+no mouse control right now so let's
+no mouse control right now so let's
+no mouse control right now so let's
+implement it
+in order to make smooth mouse control in
+in order to make smooth mouse control in
+in order to make smooth mouse control in
+the settings file we define the
+the settings file we define the
+the settings file we define the
+sensitivity for the mouse its maximum
+sensitivity for the mouse its maximum
+sensitivity for the mouse its maximum
+relative movement in the left right
+relative movement in the left right
+relative movement in the left right
+border on the screen
+border on the screen
+border on the screen
+let's write the mouse control method in
+let's write the mouse control method in
+let's write the mouse control method in
+the player file here we get the mouse
+the player file here we get the mouse
+the player file here we get the mouse
+coordinates check if the x-coordinate is
+coordinates check if the x-coordinate is
+coordinates check if the x-coordinate is
+within the bounds if not then set the
+within the bounds if not then set the
+within the bounds if not then set the
+cursor to the middle of the screen
+cursor to the middle of the screen
+cursor to the middle of the screen
+then we get the value of the relative
+then we get the value of the relative
+then we get the value of the relative
+mouse movement since the previous frame
+mouse movement since the previous frame
+mouse movement since the previous frame
+and clamped this value
+and clamped this value
+and clamped this value
+and as a result we will change the angle
+and as a result we will change the angle
+and as a result we will change the angle
+of the player's direction to the value
+of the player's direction to the value
+of the player's direction to the value
+rel taking into account the values of
+rel taking into account the values of
+rel taking into account the values of
+sensitivity and delta time
+sensitivity and delta time
+sensitivity and delta time
+let's make a call to this method from
+let's make a call to this method from
+let's make a call to this method from
+the update method and disable the
+the update method and disable the
+the update method and disable the
+control of the player's angle using the
+control of the player's angle using the
+control of the player's angle using the
+keys
+and as you can see we now have full
+and as you can see we now have full
+and as you can see we now have full
+control for our game using the keys and
+control for our game using the keys and
+control for our game using the keys and
+mouse
+mouse
+mouse
+and to hide the mouse cursor in the game
+and to hide the mouse cursor in the game
+and to hide the mouse cursor in the game
+class constructor disable it with the
+class constructor disable it with the
+class constructor disable it with the
+appropriate command and you can check
+appropriate command and you can check
+appropriate command and you can check
+the game again
+the game again
+the game again
+also at this stage you can diversify our
+also at this stage you can diversify our
+also at this stage you can diversify our
+world by adding the texture of the sky
+world by adding the texture of the sky
+world by adding the texture of the sky
+and color the floor
+let's add a seamless sky texture to the
+let's add a seamless sky texture to the
+let's add a seamless sky texture to the
+textures folder and define the color for
+textures folder and define the color for
+textures folder and define the color for
+the floor in the settings file
+the floor in the settings file
+the floor in the settings file
+then we can load the added sky texture
+then we can load the added sky texture
+then we can load the added sky texture
+the appearance of our sky will depend on
+the appearance of our sky will depend on
+the appearance of our sky will depend on
+the movement of the mouse so we define
+the movement of the mouse so we define
+the movement of the mouse so we define
+the initial offset for it equal to zero
+next we will write the draw background
+next we will write the draw background
+next we will write the draw background
+method here we will calculate the offset
+method here we will calculate the offset
+method here we will calculate the offset
+depending on the relative mouse movement
+depending on the relative mouse movement
+depending on the relative mouse movement
+value for the player instance using the
+value for the player instance using the
+value for the player instance using the
+blit method we will place two sky
+blit method we will place two sky
+blit method we will place two sky
+textures taking into account the
+textures taking into account the
+textures taking into account the
+calculated offset value
+calculated offset value
+calculated offset value
+and it remains to draw the floor in the
+and it remains to draw the floor in the
+and it remains to draw the floor in the
+form of a rectangle of the assigned
+form of a rectangle of the assigned
+form of a rectangle of the assigned
+color
+color
+color
+we call this method through the main
+we call this method through the main
+we call this method through the main
+draw method and by the way it is no
+draw method and by the way it is no
+draw method and by the way it is no
+longer necessary to fill the screen with
+longer necessary to fill the screen with
+longer necessary to fill the screen with
+black
+black
+black
+let's run the game and well we got a
+let's run the game and well we got a
+let's run the game and well we got a
+pretty nice background with which the
+pretty nice background with which the
+pretty nice background with which the
+game becomes more and more complete
+game becomes more and more complete
+game becomes more and more complete
+but as you can see in our game apart
+but as you can see in our game apart
+but as you can see in our game apart
+from the background and textured walls
+from the background and textured walls
+from the background and textured walls
+there is nothing else so now it's time
+there is nothing else so now it's time
+there is nothing else so now it's time
+to fill our game world with interactive
+to fill our game world with interactive
+to fill our game world with interactive
+objects
+so it's time to add sprites to our game
+so it's time to add sprites to our game
+so it's time to add sprites to our game
+to do this let's create a new file
+to do this let's create a new file
+to do this let's create a new file
+called sprite object
+called sprite object
+called sprite object
+and we also need to place the sprite we
+and we also need to place the sprite we
+and we also need to place the sprite we
+need let's say in a new folder called
+need let's say in a new folder called
+need let's say in a new folder called
+static sprites
+static sprites
+static sprites
+so let's import pygame in the settings
+so let's import pygame in the settings
+so let's import pygame in the settings
+file let's create a sprite object class
+file let's create a sprite object class
+file let's create a sprite object class
+the input of the constructor is the path
+the input of the constructor is the path
+the input of the constructor is the path
+where the sprite is located in its
+where the sprite is located in its
+where the sprite is located in its
+location on the map
+location on the map
+location on the map
+in the attributes we take the instance
+in the attributes we take the instance
+in the attributes we take the instance
+of the game in the player the
+of the game in the player the
+of the game in the player the
+coordinates of the sprite we also load
+coordinates of the sprite we also load
+coordinates of the sprite we also load
+the image of the sprite and create
+the image of the sprite and create
+the image of the sprite and create
+attributes for its width and half of
+attributes for its width and half of
+attributes for its width and half of
+this value
+this value
+this value
+and let's write the get sprite method
+and let's write the get sprite method
+and let's write the get sprite method
+which we will call from the update
+which we will call from the update
+which we will call from the update
+method
+method
+method
+the first thing to do is determine the
+the first thing to do is determine the
+the first thing to do is determine the
+theta angle which is the angle the
+theta angle which is the angle the
+theta angle which is the angle the
+player is looking at the sprite
+player is looking at the sprite
+player is looking at the sprite
+this is found using the arc tangent of
+this is found using the arc tangent of
+this is found using the arc tangent of
+the ratio of the difference between the
+the ratio of the difference between the
+the ratio of the difference between the
+player and sprite coordinates
+then let's find the difference between
+then let's find the difference between
+then let's find the difference between
+these coordinates and calculate the
+these coordinates and calculate the
+these coordinates and calculate the
+theta angle using the add and two
+theta angle using the add and two
+theta angle using the add and two
+function
+and now we need to find the delta angle
+and now we need to find the delta angle
+and now we need to find the delta angle
+this is the difference between the theta
+this is the difference between the theta
+this is the difference between the theta
+angle and the player's direction angle
+angle and the player's direction angle
+angle and the player's direction angle
+and with the help of the delta we can
+and with the help of the delta we can
+and with the help of the delta we can
+find how many rays our sprite has
+find how many rays our sprite has
+find how many rays our sprite has
+shifted relative to the central ray
+so we find the delta angle but if you do
+so we find the delta angle but if you do
+so we find the delta angle but if you do
+more complex work you will understand
+more complex work you will understand
+more complex work you will understand
+that if the condition shown on the
+that if the condition shown on the
+that if the condition shown on the
+screen is met the delta angle must be
+screen is met the delta angle must be
+screen is met the delta angle must be
+increased by 2p
+now we calculate how many rays in the
+now we calculate how many rays in the
+now we calculate how many rays in the
+delta angle and as a result we find the
+delta angle and as a result we find the
+delta angle and as a result we find the
+x position of the sprite on the screen
+x position of the sprite on the screen
+x position of the sprite on the screen
+by adding these rays to the central one
+by adding these rays to the central one
+by adding these rays to the central one
+and multiplying by the scale value
+to calculate the size of the sprites
+to calculate the size of the sprites
+to calculate the size of the sprites
+projection we need to calculate the
+projection we need to calculate the
+projection we need to calculate the
+distance to the sprite and remove the
+distance to the sprite and remove the
+distance to the sprite and remove the
+fishbowl effect for it as we did in the
+fishbowl effect for it as we did in the
+fishbowl effect for it as we did in the
+raycasting file
+raycasting file
+raycasting file
+and to maintain the performance of the
+and to maintain the performance of the
+and to maintain the performance of the
+game we will do further calculations if
+game we will do further calculations if
+game we will do further calculations if
+the position of the sprite is inside the
+the position of the sprite is inside the
+the position of the sprite is inside the
+visible part of the screen and not too
+visible part of the screen and not too
+visible part of the screen and not too
+close to the player
+so we will find the projection of the
+so we will find the projection of the
+so we will find the projection of the
+sprite in a separate method as in
+sprite in a separate method as in
+sprite in a separate method as in
+raycasting we will calculate the height
+raycasting we will calculate the height
+raycasting we will calculate the height
+of its projection but here we must take
+of its projection but here we must take
+of its projection but here we must take
+into account that the sprite initially
+into account that the sprite initially
+into account that the sprite initially
+has a different aspect ratio so we will
+has a different aspect ratio so we will
+has a different aspect ratio so we will
+determine the image ratio and taking
+determine the image ratio and taking
+determine the image ratio and taking
+into account this coefficient we will
+into account this coefficient we will
+into account this coefficient we will
+adjust the correct projection size
+adjust the correct projection size
+adjust the correct projection size
+then we scale the sprite to the
+then we scale the sprite to the
+then we scale the sprite to the
+calculated projection size find its
+calculated projection size find its
+calculated projection size find its
+position on the screen taking into
+position on the screen taking into
+position on the screen taking into
+account that it does not disappear when
+account that it does not disappear when
+account that it does not disappear when
+its center is outside the edges of the
+its center is outside the edges of the
+its center is outside the edges of the
+screen
+screen
+screen
+and the most interesting thing is that
+and the most interesting thing is that
+and the most interesting thing is that
+we will add this sprite to the array of
+we will add this sprite to the array of
+we will add this sprite to the array of
+walls that is obtained from the results
+walls that is obtained from the results
+walls that is obtained from the results
+of raycasting
+since we have introduced many new
+since we have introduced many new
+since we have introduced many new
+attributes in order to avoid errors we
+attributes in order to avoid errors we
+attributes in order to avoid errors we
+will define these attributes in the
+will define these attributes in the
+will define these attributes in the
+constructor of our class
+let's test how the sprite is rendered
+let's test how the sprite is rendered
+let's test how the sprite is rendered
+import the sprite object file create an
+import the sprite object file create an
+import the sprite object file create an
+instance of the class and call the
+instance of the class and call the
+instance of the class and call the
+update method
+and we observe a rather strange picture
+and we observe a rather strange picture
+and we observe a rather strange picture
+our sprite is visible through the walls
+our sprite is visible through the walls
+our sprite is visible through the walls
+although it is correctly in its place
+although it is correctly in its place
+although it is correctly in its place
+to fix this problem before rendering all
+to fix this problem before rendering all
+to fix this problem before rendering all
+objects it is enough to sort our list by
+objects it is enough to sort our list by
+objects it is enough to sort our list by
+the first element in tuples in these
+the first element in tuples in these
+the first element in tuples in these
+elements we just have the values of the
+elements we just have the values of the
+elements we just have the values of the
+distances from the player to the walls
+distances from the player to the walls
+distances from the player to the walls
+and sprites
+let's check and now we see the correct
+let's check and now we see the correct
+let's check and now we see the correct
+rendering of the sprite but at the same
+rendering of the sprite but at the same
+rendering of the sprite but at the same
+time the sprite seems to be hanging in
+time the sprite seems to be hanging in
+time the sprite seems to be hanging in
+the air and the question also arises
+the air and the question also arises
+the air and the question also arises
+how to set the size of the sprite if it
+how to set the size of the sprite if it
+how to set the size of the sprite if it
+does not fit initially
+does not fit initially
+does not fit initially
+to do this we will introduce two more
+to do this we will introduce two more
+to do this we will introduce two more
+parameters scale and shift to the input
+parameters scale and shift to the input
+parameters scale and shift to the input
+of the sprite object class constructor
+of the sprite object class constructor
+of the sprite object class constructor
+let's assign them to attributes
+let's assign them to attributes
+let's assign them to attributes
+obviously if we multiply the resulting
+obviously if we multiply the resulting
+obviously if we multiply the resulting
+projection size by the scale value then
+projection size by the scale value then
+projection size by the scale value then
+the size of the sprite will also change
+the size of the sprite will also change
+the size of the sprite will also change
+accordingly when drawing
+accordingly when drawing
+accordingly when drawing
+let's reduce the size of the sprite by
+let's reduce the size of the sprite by
+let's reduce the size of the sprite by
+half and check
+and as you can see this method works
+and as you can see this method works
+and as you can see this method works
+great it remains to figure out the
+great it remains to figure out the
+great it remains to figure out the
+height shift
+height shift
+height shift
+then you can multiply the projection
+then you can multiply the projection
+then you can multiply the projection
+height by the shift value and add this
+height by the shift value and add this
+height by the shift value and add this
+result to the sprite's y position
+result to the sprite's y position
+result to the sprite's y position
+and as you understand for each sprite
+and as you understand for each sprite
+and as you understand for each sprite
+such settings are selected individually
+such settings are selected individually
+such settings are selected individually
+but they need to be done only once
+but they need to be done only once
+but they need to be done only once
+thus we got a working way to display
+thus we got a working way to display
+thus we got a working way to display
+sprites in our game
+sprites in our game
+sprites in our game
+but what if we want to draw more
+but what if we want to draw more
+but what if we want to draw more
+interesting things let's say animated
+interesting things let's say animated
+interesting things let's say animated
+sprites
+sprites
+sprites
+so to get started with animated sprites
+so to get started with animated sprites
+so to get started with animated sprites
+you must first prepare
+you must first prepare
+you must first prepare
+in this case you need a set of sprites
+in this case you need a set of sprites
+in this case you need a set of sprites
+if you change them one by one you get a
+if you change them one by one you get a
+if you change them one by one you get a
+fire animation i place them at the
+fire animation i place them at the
+fire animation i place them at the
+address indicated on the screen
+address indicated on the screen
+address indicated on the screen
+we will create an animated sprite class
+we will create an animated sprite class
+we will create an animated sprite class
+that will inherit from the sprite object
+that will inherit from the sprite object
+that will inherit from the sprite object
+class
+class
+class
+here the constructor will receive all
+here the constructor will receive all
+here the constructor will receive all
+the same parameters except for the new
+the same parameters except for the new
+the same parameters except for the new
+one the animation time
+and first we call the super function to
+and first we call the super function to
+and first we call the super function to
+run the constructor of the parent class
+run the constructor of the parent class
+run the constructor of the parent class
+we will also take the value of the
+we will also take the value of the
+we will also take the value of the
+animation time into the attributes
+animation time into the attributes
+animation time into the attributes
+but for further work with this clasp we
+but for further work with this clasp we
+but for further work with this clasp we
+need to import the os into queue modules
+so we need the path to the folder with
+so we need the path to the folder with
+so we need the path to the folder with
+our sprites and we will load them using
+our sprites and we will load them using
+our sprites and we will load them using
+the get images method
+we will store all images in an instance
+we will store all images in an instance
+we will store all images in an instance
+of the dequeue class then using the os
+of the dequeue class then using the os
+of the dequeue class then using the os
+module we will get access to the names
+module we will get access to the names
+module we will get access to the names
+of all files in the folder indicated by
+of all files in the folder indicated by
+of all files in the folder indicated by
+the path download the images and place
+the path download the images and place
+the path download the images and place
+them in the queue
+them in the queue
+them in the queue
+we need to define in the attributes
+we need to define in the attributes
+we need to define in the attributes
+let's say the value of the previous
+let's say the value of the previous
+let's say the value of the previous
+animation time in the trigger to perform
+animation time in the trigger to perform
+animation time in the trigger to perform
+the animation itself
+then we will write a method for checking
+then we will write a method for checking
+then we will write a method for checking
+the animation time here we will compare
+the animation time here we will compare
+the animation time here we will compare
+two time values the current and the
+two time values the current and the
+two time values the current and the
+previous one if the difference between
+previous one if the difference between
+previous one if the difference between
+these values is greater than the
+these values is greater than the
+these values is greater than the
+animation time then we assign the true
+animation time then we assign the true
+animation time then we assign the true
+value to the animation trigger
+value to the animation trigger
+value to the animation trigger
+so to perform the animation of the
+so to perform the animation of the
+so to perform the animation of the
+object itself is quite simple if the
+object itself is quite simple if the
+object itself is quite simple if the
+trigger has a true value then we rotate
+trigger has a true value then we rotate
+trigger has a true value then we rotate
+the queue of images by one element and
+the queue of images by one element and
+the queue of images by one element and
+assign the self image attribute to the
+assign the self image attribute to the
+assign the self image attribute to the
+first value from the queue
+first value from the queue
+first value from the queue
+and from the update method we will first
+and from the update method we will first
+and from the update method we will first
+call the update method of the parent
+call the update method of the parent
+call the update method of the parent
+class and then we will call our two
+class and then we will call our two
+class and then we will call our two
+methods
+methods
+methods
+let's check then create an instance of
+let's check then create an instance of
+let's check then create an instance of
+this class and call its update method
+thus now we have the ability to add
+thus now we have the ability to add
+thus now we have the ability to add
+animated sprites which in turn decorates
+animated sprites which in turn decorates
+animated sprites which in turn decorates
+our game world even more
+but it's quite inconvenient to add
+but it's quite inconvenient to add
+but it's quite inconvenient to add
+sprites to the game in this way so i
+sprites to the game in this way so i
+sprites to the game in this way so i
+propose to create a class from which all
+propose to create a class from which all
+propose to create a class from which all
+objects in the game will be processed
+objects in the game will be processed
+objects in the game will be processed
+let's call it object handler
+let's call it object handler
+let's call it object handler
+import the sprite object file and write
+import the sprite object file and write
+import the sprite object file and write
+this class the attributes of which will
+this class the attributes of which will
+this class the attributes of which will
+be the game instance the list of sprites
+be the game instance the list of sprites
+be the game instance the list of sprites
+and specify the paths to the
+and specify the paths to the
+and specify the paths to the
+corresponding folders with sprites
+let's create a method for adding a
+let's create a method for adding a
+let's create a method for adding a
+sprite to this list and in the class
+sprite to this list and in the class
+sprite to this list and in the class
+constructor we will have so to speak a
+constructor we will have so to speak a
+constructor we will have so to speak a
+sprite map where we will add our sprites
+sprite map where we will add our sprites
+sprite map where we will add our sprites
+to the game
+and we will make an update method where
+and we will make an update method where
+and we will make an update method where
+we will call the method of the same name
+we will call the method of the same name
+we will call the method of the same name
+for all sprites in this list
+for all sprites in this list
+for all sprites in this list
+then we do the same import this file
+then we do the same import this file
+then we do the same import this file
+create an instance of the object handler
+create an instance of the object handler
+create an instance of the object handler
+class and call the update method
+class and call the update method
+class and call the update method
+let's start the game and make sure
+let's start the game and make sure
+let's start the game and make sure
+everything is working properly
+and then we get a way to conveniently
+and then we get a way to conveniently
+and then we get a way to conveniently
+arrange the sprites in the game
+arrange the sprites in the game
+arrange the sprites in the game
+for example to make it clearer how to
+for example to make it clearer how to
+for example to make it clearer how to
+use this method i added another animated
+use this method i added another animated
+use this method i added another animated
+sprite
+sprite
+sprite
+so at this stage we have already managed
+so at this stage we have already managed
+so at this stage we have already managed
+to diversify our game enough with the
+to diversify our game enough with the
+to diversify our game enough with the
+help of static and animated sprites but
+help of static and animated sprites but
+help of static and animated sprites but
+as you understand our game now lacks
+as you understand our game now lacks
+as you understand our game now lacks
+interactive so let's move on to even
+interactive so let's move on to even
+interactive so let's move on to even
+more interesting things
+let's implement a weapon in our game for
+let's implement a weapon in our game for
+let's implement a weapon in our game for
+this we will create a file of the same
+this we will create a file of the same
+this we will create a file of the same
+name and by the way i place the files
+name and by the way i place the files
+name and by the way i place the files
+with the animation of the shot and
+with the animation of the shot and
+with the animation of the shot and
+reload in the path indicated on the
+reload in the path indicated on the
+reload in the path indicated on the
+screen
+so let's create a weapon class that
+so let's create a weapon class that
+so let's create a weapon class that
+inherits from the animated sprite class
+inherits from the animated sprite class
+inherits from the animated sprite class
+while specifying in the parameters only
+while specifying in the parameters only
+while specifying in the parameters only
+the path scale and time of the animation
+the path scale and time of the animation
+the path scale and time of the animation
+for weapons we don't need to calculate
+for weapons we don't need to calculate
+for weapons we don't need to calculate
+the projection size so we just scale all
+the projection size so we just scale all
+the projection size so we just scale all
+the sprites to the specified scale value
+we also need to calculate the position
+we also need to calculate the position
+we also need to calculate the position
+of the weapon given the scaled sprite
+of the weapon given the scaled sprite
+of the weapon given the scaled sprite
+size so that the weapon is centered on
+size so that the weapon is centered on
+size so that the weapon is centered on
+the screen
+the screen
+the screen
+then add the draw method where we draw
+then add the draw method where we draw
+then add the draw method where we draw
+the weapon and write the update method
+the weapon and write the update method
+the weapon and write the update method
+while leaving it empty
+import the weapon file create an
+import the weapon file create an
+import the weapon file create an
+instance of it and call the update and
+instance of it and call the update and
+instance of it and call the update and
+draw methods
+and now you can already see our weapon
+and now you can already see our weapon
+and now you can already see our weapon
+but for now it looks like a static
+but for now it looks like a static
+but for now it looks like a static
+sprite
+in order for our weapon to fire we first
+in order for our weapon to fire we first
+in order for our weapon to fire we first
+need to trace the event of the actual
+need to trace the event of the actual
+need to trace the event of the actual
+shot that the player fired
+shot that the player fired
+shot that the player fired
+and besides we need a boolean variable
+and besides we need a boolean variable
+and besides we need a boolean variable
+of the shot itself initially with a
+of the shot itself initially with a
+of the shot itself initially with a
+false value
+false value
+false value
+so in the single fire event method we
+so in the single fire event method we
+so in the single fire event method we
+listen for the event when the player
+listen for the event when the player
+listen for the event when the player
+presses the left mouse button
+presses the left mouse button
+presses the left mouse button
+and in the event that the value of shot
+and in the event that the value of shot
+and in the event that the value of shot
+is false we assign it a true value
+now in the weapon class we need
+now in the weapon class we need
+now in the weapon class we need
+attributes for reloading the number of
+attributes for reloading the number of
+attributes for reloading the number of
+sprite images in the frame counter and
+sprite images in the frame counter and
+sprite images in the frame counter and
+in addition we will define the damage
+in addition we will define the damage
+in addition we will define the damage
+for the weapon
+for the weapon
+for the weapon
+next we need an animate shot method here
+next we need an animate shot method here
+next we need an animate shot method here
+if the reloading value is true then we
+if the reloading value is true then we
+if the reloading value is true then we
+will assign a false value to the shot
+will assign a false value to the shot
+will assign a false value to the shot
+variable for the player instance
+variable for the player instance
+variable for the player instance
+then we perform the standard frame by
+then we perform the standard frame by
+then we perform the standard frame by
+frame animation but at the same time we
+frame animation but at the same time we
+frame animation but at the same time we
+count the number of frames
+count the number of frames
+count the number of frames
+and if this number of frames is equal to
+and if this number of frames is equal to
+and if this number of frames is equal to
+the number of sprites then we return a
+the number of sprites then we return a
+the number of sprites then we return a
+false value to the reloading variable
+false value to the reloading variable
+false value to the reloading variable
+and reset the counter
+and reset the counter
+and reset the counter
+but before calling this method you need
+but before calling this method you need
+but before calling this method you need
+to make a call to the method for
+to make a call to the method for
+to make a call to the method for
+checking the animation runtime
+then in the single fire event method add
+then in the single fire event method add
+then in the single fire event method add
+a check that there is no reloading now
+a check that there is no reloading now
+a check that there is no reloading now
+and to start the shot animation assign
+and to start the shot animation assign
+and to start the shot animation assign
+this variable a true value
+this variable a true value
+this variable a true value
+let's start the game and as you can see
+let's start the game and as you can see
+let's start the game and as you can see
+when you press the left mouse button a
+when you press the left mouse button a
+when you press the left mouse button a
+single shot occurs and then a reload
+single shot occurs and then a reload
+single shot occurs and then a reload
+animation while we cannot make the next
+animation while we cannot make the next
+animation while we cannot make the next
+shot until the animation ends
+shot until the animation ends
+shot until the animation ends
+and everything seems fine but right now
+and everything seems fine but right now
+and everything seems fine but right now
+i would like to hear the sounds of our
+i would like to hear the sounds of our
+i would like to hear the sounds of our
+weapon
+weapon
+weapon
+and to do this is quite simple let's
+and to do this is quite simple let's
+and to do this is quite simple let's
+create a file called sound
+create a file called sound
+create a file called sound
+according to the path indicated on the
+according to the path indicated on the
+according to the path indicated on the
+screen i placed the sounds necessary for
+screen i placed the sounds necessary for
+screen i placed the sounds necessary for
+the game
+the game
+the game
+in the class itself you need to
+in the class itself you need to
+in the class itself you need to
+initialize the sound mixer and load the
+initialize the sound mixer and load the
+initialize the sound mixer and load the
+file we need
+file we need
+file we need
+let's import this file and create an
+let's import this file and create an
+let's import this file and create an
+instance of the sound class
+then every time we fire we can access
+then every time we fire we can access
+then every time we fire we can access
+this instance and play this sound using
+this instance and play this sound using
+this instance and play this sound using
+the play method
+the play method
+the play method
+and now you can not only see the shot
+and now you can not only see the shot
+and now you can not only see the shot
+animation but also hear it
+animation but also hear it
+animation but also hear it
+well as obviously shooting at empty
+well as obviously shooting at empty
+well as obviously shooting at empty
+space is not very fun so let's populate
+space is not very fun so let's populate
+space is not very fun so let's populate
+our game world with different enemies
+our game world with different enemies
+our game world with different enemies
+and monsters
+at this point we will implement enemies
+at this point we will implement enemies
+at this point we will implement enemies
+in the game then we create an npc file
+in the game then we create an npc file
+in the game then we create an npc file
+and look at the folder structure where
+and look at the folder structure where
+and look at the folder structure where
+the sprites are located i've put
+the sprites are located i've put
+the sprites are located i've put
+together four folders containing sprites
+together four folders containing sprites
+together four folders containing sprites
+for attack death idle pane and walking
+for attack death idle pane and walking
+for attack death idle pane and walking
+animations
+animations
+animations
+and also placed a separate file with the
+and also placed a separate file with the
+and also placed a separate file with the
+initial sprite
+initial sprite
+initial sprite
+so we import the sprite object file and
+so we import the sprite object file and
+so we import the sprite object file and
+several functions from the random module
+several functions from the random module
+several functions from the random module
+the npc class itself will be inherited
+the npc class itself will be inherited
+the npc class itself will be inherited
+from the animated sprite class and at
+from the animated sprite class and at
+from the animated sprite class and at
+the input of the constructor we will
+the input of the constructor we will
+the input of the constructor we will
+specify the parameters already known to
+specify the parameters already known to
+specify the parameters already known to
+us and then do not forget to call the
+us and then do not forget to call the
+us and then do not forget to call the
+super function
+super function
+super function
+first of all using the get images method
+first of all using the get images method
+first of all using the get images method
+we will load all the sprites for
+we will load all the sprites for
+we will load all the sprites for
+animation from the folders voiced at the
+animation from the folders voiced at the
+animation from the folders voiced at the
+beginning
+beginning
+beginning
+and then we will define a number of
+and then we will define a number of
+and then we will define a number of
+parameters for the npc we will include
+parameters for the npc we will include
+parameters for the npc we will include
+in them the attack distance its movement
+in them the attack distance its movement
+in them the attack distance its movement
+speed size amount of health damage dealt
+speed size amount of health damage dealt
+speed size amount of health damage dealt
+hit accuracy and boolean parameters
+hit accuracy and boolean parameters
+hit accuracy and boolean parameters
+whether the npc is alive and in pain
+whether the npc is alive and in pain
+whether the npc is alive and in pain
+let's write the update method and for
+let's write the update method and for
+let's write the update method and for
+now call the methods to start the
+now call the methods to start the
+now call the methods to start the
+animation and get the projection of the
+animation and get the projection of the
+animation and get the projection of the
+current sprite
+so to display our npc we will use the
+so to display our npc we will use the
+so to display our npc we will use the
+object handler class
+object handler class
+object handler class
+here we will create a separate list for
+here we will create a separate list for
+here we will create a separate list for
+npc and write the path to the
+npc and write the path to the
+npc and write the path to the
+corresponding folder
+corresponding folder
+corresponding folder
+for convenience we will make a method
+for convenience we will make a method
+for convenience we will make a method
+for adding npc to this list
+for adding npc to this list
+for adding npc to this list
+and then we will create an instance of
+and then we will create an instance of
+and then we will create an instance of
+the npc class in added
+the npc class in added
+the npc class in added
+and similarly we will call the update
+and similarly we will call the update
+and similarly we will call the update
+method for all enemies in this list
+let's start the game and make sure the
+let's start the game and make sure the
+let's start the game and make sure the
+npc is displayed correctly
+npc is displayed correctly
+npc is displayed correctly
+for now the enemy is just looking at us
+for now the enemy is just looking at us
+for now the enemy is just looking at us
+and then the first thing that can be
+and then the first thing that can be
+and then the first thing that can be
+implemented as the behavior of his
+implemented as the behavior of his
+implemented as the behavior of his
+inaction
+okay then the whole logic of the npc
+okay then the whole logic of the npc
+okay then the whole logic of the npc
+will be based on whether he is alive or
+will be based on whether he is alive or
+will be based on whether he is alive or
+not so just turn on the animation of
+not so just turn on the animation of
+not so just turn on the animation of
+idle images
+now the enemy behaves as if he is
+now the enemy behaves as if he is
+now the enemy behaves as if he is
+inspecting everything around and the
+inspecting everything around and the
+inspecting everything around and the
+next step is to make him react to our
+next step is to make him react to our
+next step is to make him react to our
+shots
+shots
+shots
+well then let's write a method in which
+well then let's write a method in which
+well then let's write a method in which
+we check if the player fired a shot then
+we check if the player fired a shot then
+we check if the player fired a shot then
+we need the npc position on our screen
+we need the npc position on our screen
+we need the npc position on our screen
+to be in the center taking into account
+to be in the center taking into account
+to be in the center taking into account
+its projection value in width and in
+its projection value in width and in
+its projection value in width and in
+this case we stop the bullet and set the
+this case we stop the bullet and set the
+this case we stop the bullet and set the
+pane variable to a true value
+we will create a method to animate the
+we will create a method to animate the
+we will create a method to animate the
+pane let it happen within one animation
+pane let it happen within one animation
+pane let it happen within one animation
+interval
+interval
+interval
+and based on the call to the hit test
+and based on the call to the hit test
+and based on the call to the hit test
+method in the npc we will call the pane
+method in the npc we will call the pane
+method in the npc we will call the pane
+animation or further use the idle
+animation or further use the idle
+animation or further use the idle
+behavior
+so let's start our fun as you can see
+so let's start our fun as you can see
+so let's start our fun as you can see
+when hitting an enemy an animation of
+when hitting an enemy an animation of
+when hitting an enemy an animation of
+pain is shown that is everything is
+pain is shown that is everything is
+pain is shown that is everything is
+functioning properly
+and by the way at this stage in the
+and by the way at this stage in the
+and by the way at this stage in the
+sound class let's load the rest of the
+sound class let's load the rest of the
+sound class let's load the rest of the
+sounds that will be used in the game
+sounds that will be used in the game
+sounds that will be used in the game
+then let's add the sound of pain when
+then let's add the sound of pain when
+then let's add the sound of pain when
+hitting the npc and check the result
+as you can see we now have sound effects
+as you can see we now have sound effects
+as you can see we now have sound effects
+and the game becomes more fun
+and the game becomes more fun
+and the game becomes more fun
+but there is a very significant drawback
+but there is a very significant drawback
+but there is a very significant drawback
+let's try to shoot through the wall
+let's try to shoot through the wall
+let's try to shoot through the wall
+and as we understand our walls in the
+and as we understand our walls in the
+and as we understand our walls in the
+game do not stop the shots
+game do not stop the shots
+game do not stop the shots
+now we need to do raycasting again but
+now we need to do raycasting again but
+now we need to do raycasting again but
+only for one raid between the player and
+only for one raid between the player and
+only for one raid between the player and
+the npc that is we need to find out if
+the npc that is we need to find out if
+the npc that is we need to find out if
+there is a line of sight between them or
+there is a line of sight between them or
+there is a line of sight between them or
+not
+not
+not
+to do this we will need almost the
+to do this we will need almost the
+to do this we will need almost the
+entire code of the raycast function
+entire code of the raycast function
+entire code of the raycast function
+until the projection is calculated we
+until the projection is calculated we
+until the projection is calculated we
+will copy it from the raycasting class
+so we need to first check if the player
+so we need to first check if the player
+so we need to first check if the player
+is in the same tile with the enemy
+is in the same tile with the enemy
+is in the same tile with the enemy
+you also need to enter variables for the
+you also need to enter variables for the
+you also need to enter variables for the
+distances to the player and to the walls
+distances to the player and to the walls
+distances to the player and to the walls
+for verticals and horizontals
+for verticals and horizontals
+for verticals and horizontals
+the angle between the npc and the player
+the angle between the npc and the player
+the angle between the npc and the player
+is known to us this is theta angle
+is known to us this is theta angle
+is known to us this is theta angle
+we raycast for one ray and if this ray
+we raycast for one ray and if this ray
+we raycast for one ray and if this ray
+hits a wall or an npc then we will
+hits a wall or an npc then we will
+hits a wall or an npc then we will
+record these distances
+we do the same for the case with
+we do the same for the case with
+we do the same for the case with
+verticals
+and in the end we will find the maximum
+and in the end we will find the maximum
+and in the end we will find the maximum
+values of these distances and based on
+values of these distances and based on
+values of these distances and based on
+this we can determine whether there is a
+this we can determine whether there is a
+this we can determine whether there is a
+direct line of sight between the player
+direct line of sight between the player
+direct line of sight between the player
+and the npc or not
+and the npc or not
+and the npc or not
+and to make it clear how this method
+and to make it clear how this method
+and to make it clear how this method
+works let's draw such a result of
+works let's draw such a result of
+works let's draw such a result of
+raycasting as an orange line
+then we will run this drawing from the
+then we will run this drawing from the
+then we will run this drawing from the
+update method and again look at our game
+update method and again look at our game
+update method and again look at our game
+in 2d mode
+in 2d mode
+in 2d mode
+let's test it and now we can tell
+let's test it and now we can tell
+let's test it and now we can tell
+exactly when the npc sees the player
+exactly when the npc sees the player
+exactly when the npc sees the player
+and it will have a fundamental
+and it will have a fundamental
+and it will have a fundamental
+application in the further
+application in the further
+application in the further
+implementation of the npc logic
+then we will return everything back and
+then we will return everything back and
+then we will return everything back and
+turn off this drawing
+turn off this drawing
+turn off this drawing
+in the case when the npc is alive we can
+in the case when the npc is alive we can
+in the case when the npc is alive we can
+get the raycasting value and write it to
+get the raycasting value and write it to
+get the raycasting value and write it to
+a separate variable
+a separate variable
+a separate variable
+and now add a line of sight check in the
+and now add a line of sight check in the
+and now add a line of sight check in the
+npc hit method
+if we check the shooting at the npc from
+if we check the shooting at the npc from
+if we check the shooting at the npc from
+behind the walls we see that they have
+behind the walls we see that they have
+behind the walls we see that they have
+become impenetrable
+so it is obvious that when hitting an
+so it is obvious that when hitting an
+so it is obvious that when hitting an
+npc he should be deprived of health by
+npc he should be deprived of health by
+npc he should be deprived of health by
+the value of the damage of the weapon
+the value of the damage of the weapon
+the value of the damage of the weapon
+and at the same time you need to make a
+and at the same time you need to make a
+and at the same time you need to make a
+method for checking his health in the
+method for checking his health in the
+method for checking his health in the
+case when the health ends the npc is no
+case when the health ends the npc is no
+case when the health ends the npc is no
+longer alive and you can play the sound
+longer alive and you can play the sound
+longer alive and you can play the sound
+of his death
+we also need an npc death animation that
+we also need an npc death animation that
+we also need an npc death animation that
+only plays once
+only plays once
+only plays once
+for this we will use the frame counter
+for this we will use the frame counter
+for this we will use the frame counter
+and compare its value with the number of
+and compare its value with the number of
+and compare its value with the number of
+sprites for this type of animation
+sprites for this type of animation
+sprites for this type of animation
+and of course we will include this
+and of course we will include this
+and of course we will include this
+method in the npc logic when it is no
+method in the npc logic when it is no
+method in the npc logic when it is no
+longer alive
+well let's now finish off our npc and
+well let's now finish off our npc and
+well let's now finish off our npc and
+look at the animation
+look at the animation
+look at the animation
+and as you can see everything seems to
+and as you can see everything seems to
+and as you can see everything seems to
+be working correctly but the animation
+be working correctly but the animation
+be working correctly but the animation
+itself is rather slow since the entire
+itself is rather slow since the entire
+itself is rather slow since the entire
+animation depends on the value of one
+animation depends on the value of one
+animation depends on the value of one
+animation time variable
+animation time variable
+animation time variable
+and in order not to create new methods
+and in order not to create new methods
+and in order not to create new methods
+for timers you can do it differently
+for timers you can do it differently
+for timers you can do it differently
+we will make one global trigger here we
+we will make one global trigger here we
+we will make one global trigger here we
+will define a user event and set a timer
+will define a user event and set a timer
+will define a user event and set a timer
+for this event of 40 milliseconds
+for this event of 40 milliseconds
+for this event of 40 milliseconds
+and then this global trigger will take
+and then this global trigger will take
+and then this global trigger will take
+true value only when the number of the
+true value only when the number of the
+true value only when the number of the
+assigned event appears in the list of
+assigned event appears in the list of
+assigned event appears in the list of
+all events
+all events
+all events
+and now we can return to the npc death
+and now we can return to the npc death
+and now we can return to the npc death
+animation method and here we change the
+animation method and here we change the
+animation method and here we change the
+value of the animation trigger to the
+value of the animation trigger to the
+value of the animation trigger to the
+value of the global trigger
+value of the global trigger
+value of the global trigger
+so let's see how the animation changes
+so let's see how the animation changes
+so let's see how the animation changes
+with this approach
+with this approach
+with this approach
+and it's not hard to see that the
+and it's not hard to see that the
+and it's not hard to see that the
+animation is much faster so this is also
+animation is much faster so this is also
+animation is much faster so this is also
+one of the good ways to create timers
+one of the good ways to create timers
+one of the good ways to create timers
+let's implement movement for the npc
+let's implement movement for the npc
+let's implement movement for the npc
+let's say let it move to the position of
+let's say let it move to the position of
+let's say let it move to the position of
+the tile where the player is
+the tile where the player is
+the tile where the player is
+then we calculate the angle for the npc
+then we calculate the angle for the npc
+then we calculate the angle for the npc
+if you looked at the center of this tile
+if you looked at the center of this tile
+if you looked at the center of this tile
+and knowing this angle you can calculate
+and knowing this angle you can calculate
+and knowing this angle you can calculate
+the increments for the x and y axes and
+the increments for the x and y axes and
+the increments for the x and y axes and
+to start the movement of the npc we
+to start the movement of the npc we
+to start the movement of the npc we
+apply to these increments the same
+apply to these increments the same
+apply to these increments the same
+methods for determining the collision
+methods for determining the collision
+methods for determining the collision
+with the walls that we used for the
+with the walls that we used for the
+with the walls that we used for the
+player
+player
+player
+in order for the collision checking
+in order for the collision checking
+in order for the collision checking
+method to work correctly only the size
+method to work correctly only the size
+method to work correctly only the size
+of the enemy itself must be taken into
+of the enemy itself must be taken into
+of the enemy itself must be taken into
+account since here the increments do not
+account since here the increments do not
+account since here the increments do not
+depend on the delta time
+depend on the delta time
+depend on the delta time
+we will turn on the movement animation
+we will turn on the movement animation
+we will turn on the movement animation
+in the case when there is a direct line
+in the case when there is a direct line
+in the case when there is a direct line
+of sight to the player and here we will
+of sight to the player and here we will
+of sight to the player and here we will
+use the movement method for the npc
+so let's check how the movement of the
+so let's check how the movement of the
+so let's check how the movement of the
+enemy works as expected if he sees the
+enemy works as expected if he sees the
+enemy works as expected if he sees the
+player he starts moving towards him
+player he starts moving towards him
+player he starts moving towards him
+but as soon as we go behind the wall the
+but as soon as we go behind the wall the
+but as soon as we go behind the wall the
+enemy stops moving and behaves as if he
+enemy stops moving and behaves as if he
+enemy stops moving and behaves as if he
+did not see anything
+did not see anything
+did not see anything
+here i propose to create some kind of
+here i propose to create some kind of
+here i propose to create some kind of
+player search trigger which will take on
+player search trigger which will take on
+player search trigger which will take on
+a true value as soon as the enemy sees
+a true value as soon as the enemy sees
+a true value as soon as the enemy sees
+us
+us
+us
+and then even if the enemy has lost
+and then even if the enemy has lost
+and then even if the enemy has lost
+sight of us he will continue to move
+sight of us he will continue to move
+sight of us he will continue to move
+towards the player
+towards the player
+towards the player
+do not forget to define the player
+do not forget to define the player
+do not forget to define the player
+search trigger in the constructor of our
+search trigger in the constructor of our
+search trigger in the constructor of our
+class
+class
+class
+and let's look at the behavior of the
+and let's look at the behavior of the
+and let's look at the behavior of the
+enemy again but only in the 2d game mode
+so when the enemy saw us he starts
+so when the enemy saw us he starts
+so when the enemy saw us he starts
+moving towards the player and as we can
+moving towards the player and as we can
+moving towards the player and as we can
+see he continues to look for us even if
+see he continues to look for us even if
+see he continues to look for us even if
+we hid from him
+we hid from him
+we hid from him
+but the behavior of the npc looks very
+but the behavior of the npc looks very
+but the behavior of the npc looks very
+stupid he just rests against the wall
+stupid he just rests against the wall
+stupid he just rests against the wall
+and in principle cannot get around it
+and in principle cannot get around it
+and in principle cannot get around it
+and here pathfinding algorithms will
+and here pathfinding algorithms will
+and here pathfinding algorithms will
+come to our aid let's create a
+come to our aid let's create a
+come to our aid let's create a
+pathfinding file
+pathfinding file
+pathfinding file
+here we will create a class of the same
+here we will create a class of the same
+here we will create a class of the same
+name in which we need to define the ways
+name in which we need to define the ways
+name in which we need to define the ways
+of moving to neighboring tiles for the
+of moving to neighboring tiles for the
+of moving to neighboring tiles for the
+enemy we will allow diagonal movement
+and the first thing we need is to build
+and the first thing we need is to build
+and the first thing we need is to build
+a graph of adjacent tiles it will be a
+a graph of adjacent tiles it will be a
+a graph of adjacent tiles it will be a
+dictionary in which the coordinates of
+dictionary in which the coordinates of
+dictionary in which the coordinates of
+each tile will correspond to a list of
+each tile will correspond to a list of
+each tile will correspond to a list of
+adjacent tiles that is from which tiles
+adjacent tiles that is from which tiles
+adjacent tiles that is from which tiles
+we can get to the original one and for
+we can get to the original one and for
+we can get to the original one and for
+this we will find this list with a
+this we will find this list with a
+this we will find this list with a
+separate method for which we use the
+separate method for which we use the
+separate method for which we use the
+list of our ways
+list of our ways
+list of our ways
+next we will write a method for the
+next we will write a method for the
+next we will write a method for the
+classical breadth first search algorithm
+classical breadth first search algorithm
+classical breadth first search algorithm
+and the essence of the algorithm under
+and the essence of the algorithm under
+and the essence of the algorithm under
+consideration is that we put the initial
+consideration is that we put the initial
+consideration is that we put the initial
+tile in the queue and form a dictionary
+tile in the queue and form a dictionary
+tile in the queue and form a dictionary
+of visited tiles then in a loop until
+of visited tiles then in a loop until
+of visited tiles then in a loop until
+the queue is empty we get the first
+the queue is empty we get the first
+the queue is empty we get the first
+element from it and get all adjacent
+element from it and get all adjacent
+element from it and get all adjacent
+tiles and if they are not in the visited
+tiles and if they are not in the visited
+tiles and if they are not in the visited
+dictionary then we put them in the queue
+dictionary then we put them in the queue
+dictionary then we put them in the queue
+and at the same time we write
+and at the same time we write
+and at the same time we write
+information about which tiles we came
+information about which tiles we came
+information about which tiles we came
+from to the current
+from to the current
+from to the current
+so it remains for us to restore the path
+so it remains for us to restore the path
+so it remains for us to restore the path
+from the initial to the desired tile
+from the initial to the desired tile
+from the initial to the desired tile
+that is from the npc to the player
+that is from the npc to the player
+that is from the npc to the player
+at the same time we do not need the
+at the same time we do not need the
+at the same time we do not need the
+whole path but only one tile for the
+whole path but only one tile for the
+whole path but only one tile for the
+next npc step
+then let's go to the main file import
+then let's go to the main file import
+then let's go to the main file import
+pathfinding and create an instance of
+pathfinding and create an instance of
+pathfinding and create an instance of
+this class
+and now we can go to the enemy's
+and now we can go to the enemy's
+and now we can go to the enemy's
+movement method and using the
+movement method and using the
+movement method and using the
+pathfinding instance we will call the
+pathfinding instance we will call the
+pathfinding instance we will call the
+method to determine the tile for the
+method to determine the tile for the
+method to determine the tile for the
+next npc step
+next npc step
+next npc step
+and for clarity draw this tile in blue
+so after our npc saw the player he
+so after our npc saw the player he
+so after our npc saw the player he
+turned on the search mode and as you can
+turned on the search mode and as you can
+turned on the search mode and as you can
+see the enemy can now chase us bypassing
+see the enemy can now chase us bypassing
+see the enemy can now chase us bypassing
+any walls thus the use of pathfinding
+any walls thus the use of pathfinding
+any walls thus the use of pathfinding
+algorithms takes the behavior of the npc
+algorithms takes the behavior of the npc
+algorithms takes the behavior of the npc
+to a more advanced level
+but i wonder what will happen if we add
+but i wonder what will happen if we add
+but i wonder what will happen if we add
+a second npc and look at their joint
+a second npc and look at their joint
+a second npc and look at their joint
+movements
+and as a result although both enemies
+and as a result although both enemies
+and as a result although both enemies
+move along the shortest path they
+move along the shortest path they
+move along the shortest path they
+eventually merge into one point which
+eventually merge into one point which
+eventually merge into one point which
+again looks somehow stupid for our game
+again looks somehow stupid for our game
+again looks somehow stupid for our game
+and the fastest solution to this
+and the fastest solution to this
+and the fastest solution to this
+incident will be to create a set to
+incident will be to create a set to
+incident will be to create a set to
+store the positions of the tiles where
+store the positions of the tiles where
+store the positions of the tiles where
+all the npc are located if they are
+all the npc are located if they are
+all the npc are located if they are
+alive of course
+then in the pathfinding algorithm we
+then in the pathfinding algorithm we
+then in the pathfinding algorithm we
+will not take into account such
+will not take into account such
+will not take into account such
+positions as a possible direction of
+positions as a possible direction of
+positions as a possible direction of
+movement and in addition we will add the
+movement and in addition we will add the
+movement and in addition we will add the
+same check to the position of the tile
+same check to the position of the tile
+same check to the position of the tile
+for the next step
+for the next step
+for the next step
+if we now compare the movement of the
+if we now compare the movement of the
+if we now compare the movement of the
+enemies we can say that it differs
+enemies we can say that it differs
+enemies we can say that it differs
+significantly from the previous one at
+significantly from the previous one at
+significantly from the previous one at
+least they begin to move more
+least they begin to move more
+least they begin to move more
+intelligently
+intelligently
+intelligently
+although this is not an ideal solution
+although this is not an ideal solution
+although this is not an ideal solution
+you can think of other ways but let's
+you can think of other ways but let's
+you can think of other ways but let's
+stop there and move on
+stop there and move on
+stop there and move on
+let's get out of 2d mode and bring our
+let's get out of 2d mode and bring our
+let's get out of 2d mode and bring our
+3d projection back
+and now we will write a method for
+and now we will write a method for
+and now we will write a method for
+attacking the player for now let's just
+attacking the player for now let's just
+attacking the player for now let's just
+make a shooting sound with an animation
+make a shooting sound with an animation
+make a shooting sound with an animation
+time interval
+but we will use this method only when
+but we will use this method only when
+but we will use this method only when
+the distance to the player is less than
+the distance to the player is less than
+the distance to the player is less than
+the attack distance and here we will
+the attack distance and here we will
+the attack distance and here we will
+turn on the attack animation
+also do not forget to turn off the 2d
+also do not forget to turn off the 2d
+also do not forget to turn off the 2d
+display of enemies and you can look at
+display of enemies and you can look at
+display of enemies and you can look at
+the result
+and as we see when approaching the npc
+and as we see when approaching the npc
+and as we see when approaching the npc
+they activate the animation in the sound
+they activate the animation in the sound
+they activate the animation in the sound
+of the attack and at this stage we have
+of the attack and at this stage we have
+of the attack and at this stage we have
+all the loaded animations for the
+all the loaded animations for the
+all the loaded animations for the
+enemies embedded in the logic but still
+enemies embedded in the logic but still
+enemies embedded in the logic but still
+we still do not have full interaction
+we still do not have full interaction
+we still do not have full interaction
+with the player
+with the player
+with the player
+we are now in the last phase of game
+we are now in the last phase of game
+we are now in the last phase of game
+development where we will implement full
+development where we will implement full
+development where we will implement full
+player interaction with npc and also
+player interaction with npc and also
+player interaction with npc and also
+make complete and interactive gameplay
+make complete and interactive gameplay
+make complete and interactive gameplay
+enemies can't hurt us at the moment but
+enemies can't hurt us at the moment but
+enemies can't hurt us at the moment but
+initially we gave npc a hit accuracy
+initially we gave npc a hit accuracy
+initially we gave npc a hit accuracy
+value
+value
+value
+therefore we can supplement the attack
+therefore we can supplement the attack
+therefore we can supplement the attack
+method when the random value meets the
+method when the random value meets the
+method when the random value meets the
+accuracy requirements then we will call
+accuracy requirements then we will call
+accuracy requirements then we will call
+a certain method for taking damage by
+a certain method for taking damage by
+a certain method for taking damage by
+the player
+the player
+the player
+then in the settings you can define a
+then in the settings you can define a
+then in the settings you can define a
+value for the player's maximum health
+value for the player's maximum health
+value for the player's maximum health
+and take this value into the attribute
+and take this value into the attribute
+and take this value into the attribute
+of the player's class constructor
+of the player's class constructor
+of the player's class constructor
+then we will write the get damage method
+then we will write the get damage method
+then we will write the get damage method
+in which we will reduce the player's
+in which we will reduce the player's
+in which we will reduce the player's
+health by the damage value
+health by the damage value
+health by the damage value
+and at the same time you can designate
+and at the same time you can designate
+and at the same time you can designate
+damage as a kind of blood screen in this
+damage as a kind of blood screen in this
+damage as a kind of blood screen in this
+case we need a suitable image i will use
+case we need a suitable image i will use
+case we need a suitable image i will use
+a semi-transparent red image and it
+a semi-transparent red image and it
+a semi-transparent red image and it
+remains to overlay this image on the
+remains to overlay this image on the
+remains to overlay this image on the
+rendering screen of our game
+rendering screen of our game
+rendering screen of our game
+and by the way in the method of getting
+and by the way in the method of getting
+and by the way in the method of getting
+damaged we activate the playback of the
+damaged we activate the playback of the
+damaged we activate the playback of the
+sound of pain for the player
+so if you look at the result you can see
+so if you look at the result you can see
+so if you look at the result you can see
+that if the enemy hits us a red picture
+that if the enemy hits us a red picture
+that if the enemy hits us a red picture
+appears and the sound of pain is played
+appears and the sound of pain is played
+appears and the sound of pain is played
+which has a good enough effect on the
+which has a good enough effect on the
+which has a good enough effect on the
+perception of receiving damage
+perception of receiving damage
+perception of receiving damage
+but in order to draw the amount of
+but in order to draw the amount of
+but in order to draw the amount of
+health the player has i picked up images
+health the player has i picked up images
+health the player has i picked up images
+with numbers in a percent symbol in the
+with numbers in a percent symbol in the
+with numbers in a percent symbol in the
+style of the game
+style of the game
+style of the game
+let's load these images and scale them
+let's load these images and scale them
+let's load these images and scale them
+to a suitable size for the game
+to a suitable size for the game
+to a suitable size for the game
+and also we will make a dictionary where
+and also we will make a dictionary where
+and also we will make a dictionary where
+each number will correspond to the
+each number will correspond to the
+each number will correspond to the
+desired picture
+desired picture
+desired picture
+then we can write a method in which we
+then we can write a method in which we
+then we can write a method in which we
+convert the health value into a string
+convert the health value into a string
+convert the health value into a string
+and iterating over it we can use this
+and iterating over it we can use this
+and iterating over it we can use this
+dictionary to display the amount of
+dictionary to display the amount of
+dictionary to display the amount of
+health in the upper left corner of the
+health in the upper left corner of the
+health in the upper left corner of the
+screen
+screen
+screen
+now you can use this method and look at
+now you can use this method and look at
+now you can use this method and look at
+the gameplay
+and now it becomes possible to monitor
+and now it becomes possible to monitor
+and now it becomes possible to monitor
+the health status for the player but now
+the health status for the player but now
+the health status for the player but now
+we need to make the end of the game in
+we need to make the end of the game in
+we need to make the end of the game in
+the case when the player dies
+so we need a method where we check if
+so we need a method where we check if
+so we need a method where we check if
+the health is over create some end of
+the health is over create some end of
+the health is over create some end of
+game screen and here we will need to
+game screen and here we will need to
+game screen and here we will need to
+update the rendering screen make a small
+update the rendering screen make a small
+update the rendering screen make a small
+delay and call the new game method
+let's call this method from the
+let's call this method from the
+let's call this method from the
+getdamage method and now we need some
+getdamage method and now we need some
+getdamage method and now we need some
+picture to indicate the end of the game
+picture to indicate the end of the game
+picture to indicate the end of the game
+load this picture and create a method
+load this picture and create a method
+load this picture and create a method
+for overlaying this picture on the game
+for overlaying this picture on the game
+for overlaying this picture on the game
+screen
+now we just have to wait for the enemies
+now we just have to wait for the enemies
+now we just have to wait for the enemies
+to finish us off
+and as you can see after such an event
+and as you can see after such an event
+and as you can see after such an event
+the game restarts again which is what we
+the game restarts again which is what we
+the game restarts again which is what we
+need
+need
+need
+and in principle we have everything
+and in principle we have everything
+and in principle we have everything
+ready but i would like to talk about a
+ready but i would like to talk about a
+ready but i would like to talk about a
+few more interesting things
+suppose now you can implement some timer
+suppose now you can implement some timer
+suppose now you can implement some timer
+by analogy as we did for animated
+by analogy as we did for animated
+by analogy as we did for animated
+sprites
+in the new method based on the results
+in the new method based on the results
+in the new method based on the results
+of this timer the character's health
+of this timer the character's health
+of this timer the character's health
+will be checked and if it is less than
+will be checked and if it is less than
+will be checked and if it is less than
+the initial value then it will be
+the initial value then it will be
+the initial value then it will be
+restored by one unit
+thus if the player takes damage and
+thus if the player takes damage and
+thus if the player takes damage and
+manages to hide from enemies his health
+manages to hide from enemies his health
+manages to hide from enemies his health
+will gradually regenerate
+will gradually regenerate
+will gradually regenerate
+and to make it clear to you how to
+and to make it clear to you how to
+and to make it clear to you how to
+create other npc then let's go to this
+create other npc then let's go to this
+create other npc then let's go to this
+file
+file
+file
+and if you have sprite sets for enemies
+and if you have sprite sets for enemies
+and if you have sprite sets for enemies
+then creating new ones is very simple
+then creating new ones is very simple
+then creating new ones is very simple
+just inherit from the npc class we
+just inherit from the npc class we
+just inherit from the npc class we
+created and specify the parameters and
+created and specify the parameters and
+created and specify the parameters and
+attributes that you would like to endow
+attributes that you would like to endow
+attributes that you would like to endow
+a specific npc type
+a specific npc type
+a specific npc type
+thus we can make the game even more rich
+thus we can make the game even more rich
+thus we can make the game even more rich
+and diverse in terms of gameplay
+and diverse in terms of gameplay
+and diverse in terms of gameplay
+so
+you

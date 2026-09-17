@@ -8,7 +8,7 @@
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230d9488'/%3E%3Crect x='13' y='6' width='6' height='20' rx='2' fill='white'/%3E%3Crect x='6' y='13' width='20' height='6' rx='2' fill='white'/%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&family=Baloo+2:wght@700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
 </head>
 <body class="h-screen w-screen overflow-hidden bg-slate-950 text-slate-100 font-body">
   <noscript><p class="p-8">Este jogo requer JavaScript habilitado.</p></noscript>
@@ -56,7 +56,7 @@
     <div id="dica-controles" class="absolute bottom-0 left-0 right-0 z-[5] pointer-events-none
          flex justify-center pb-1 opacity-60 hover:opacity-95 transition-opacity">
       <div class="text-[10px] text-slate-500 bg-slate-950/50 backdrop-blur-sm rounded-t-lg px-3 py-1 border-t border-x border-white/5">
-        🖱️ arrastar=olhar · <kbd>E</kbd>=interagir · <kbd>1</kbd>=paciente <kbd>2</kbd>=PC <kbd>3</kbd>=mesa · <kbd>R</kbd>=repetir fala · <kbd>Esc</kbd>=fechar
+        🖱️ arrastar=olhar · <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd>=andar · <kbd>E</kbd>=interagir · <kbd>1</kbd>=paciente <kbd>2</kbd>=PC <kbd>3</kbd>=mesa · <kbd>R</kbd>=repetir fala · <kbd>Esc</kbd>=fechar
       </div>
     </div>
 
@@ -201,21 +201,36 @@
       </article>
     </div>
 
-    <!-- F0 — Tela de capa (arte com botões pintados + hotspots acessíveis) -->
+    <!-- F0 — Tela de capa (arte estilizada fatiada + botões DOM com press físico) -->
     <div id="capa" class="capa-backdrop pointer-events-auto">
       <div class="capa-stage">
-        <button id="capa-iniciar" class="capa-hotspot"
-                style="left:33.15%; top:42.29%; width:33.00%; height:13.38%;"
-                data-i18n-aria="capa.iniciar" aria-label="Iniciar jogo"></button>
-        <button id="capa-refs" class="capa-hotspot"
-                style="left:35.85%; top:58.98%; width:27.88%; height:11.98%;"
-                data-i18n-aria="capa.referencias" aria-label="Referências"></button>
-        <button id="capa-lang-pt" class="capa-hotspot capa-hotspot-chip"
-                style="left:55.55%; top:76.05%; width:4.27%; height:7.65%;"
-                aria-pressed="true" data-i18n-aria="capa.lang.pt" aria-label="Português (BR)"></button>
-        <button id="capa-lang-en" class="capa-hotspot capa-hotspot-chip"
-                style="left:60.17%; top:76.05%; width:4.27%; height:7.65%;"
-                aria-pressed="false" data-i18n-aria="capa.lang.en" aria-label="English"></button>
+        <button id="capa-iniciar" class="capa-btn capa-btn--iniciar"
+                data-i18n-aria="capa.iniciar" aria-label="Iniciar jogo">
+          <img class="capa-btn-ico" src="/capa/spr_avatar.webp" alt="" aria-hidden="true" draggable="false" />
+          <span class="capa-btn-txt" data-i18n="capa.iniciar">Iniciar jogo</span>
+          <img class="capa-btn-play" src="/capa/spr_play.webp" alt="" aria-hidden="true" draggable="false" />
+        </button>
+        <button id="capa-refs" class="capa-btn capa-btn--refs"
+                data-i18n-aria="capa.referencias" aria-label="Referências">
+          <img class="capa-btn-ico" src="/capa/spr_book.webp" alt="" aria-hidden="true" draggable="false" />
+          <span class="capa-btn-txt" data-i18n="capa.referencias">Referências</span>
+        </button>
+        <div class="capa-lang" role="group">
+          <img class="capa-lang-globe" src="/capa/spr_globe.webp" alt="" aria-hidden="true" draggable="false" />
+          <span class="capa-lang-txt" data-i18n="capa.idioma">Linguagem</span>
+          <div class="capa-lang-panel">
+            <button id="capa-lang-pt" class="capa-langcell" aria-pressed="true"
+                    data-i18n-aria="capa.lang.pt" aria-label="Português (BR)">
+              <span class="capa-langcell-txt">PT</span>
+              <img class="capa-langcell-flag" src="/capa/spr_flag_br.webp" alt="" aria-hidden="true" draggable="false" />
+            </button>
+            <button id="capa-lang-en" class="capa-langcell" aria-pressed="false"
+                    data-i18n-aria="capa.lang.en" aria-label="English">
+              <span class="capa-langcell-txt">EN</span>
+              <img class="capa-langcell-flag" src="/capa/spr_flag_uk.webp" alt="" aria-hidden="true" draggable="false" />
+            </button>
+          </div>
+        </div>
       </div>
     </div>
 

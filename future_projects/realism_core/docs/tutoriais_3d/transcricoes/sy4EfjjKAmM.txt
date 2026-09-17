@@ -1,0 +1,330 @@
+blender has proved itself to be the best
+software for any 3D artist over and over
+yes there are better applications out
+there like Houdini Maya and Cinema 4D
+that are industry standard but the
+problem with those applications is that
+they are not meant to be a one-size
+fits-all like blender for example when
+using Cinema 4D you are expected to use
+zbrush for sculpting and not Cinema 4D
+though Cinema 4D has some sculpting
+functionality it's not to the same level
+as blender Houdini is also great at
+simulations but it's tough to create a
+full movie with it you can still do it
+but blender offers better tools for
+animations blender may not be the best
+for simulation animation or texturing
+but at least you can start a project and
+finish it without ever leaving so how
+can blender be used to make your first
+movie to keep this video at a reasonable
+length I will not be explaining the
+different stages of production but I
+will be showing you what blender tool
+you can use at specific stages of
+production for example script
+writing while blender comes with a
+script editor this is not meant for
+writing scripts actually it is meant for
+writing scripts but not movie scripts
+it's meant for writing Python scripts
+used for creating new functionality in
+blender like new operators or add-ons
+though if you are brave enough you can
+still use it as a script editor as well
+for writing movie scripts when you have
+a script the next stage of production is
+is usually storyboarding and blender has
+the best storyboarding workspace among
+all other 3D applications and I'm sure
+soon it may become the industry
+standard here I'm talking about grease
+pencil in this workspace you can turn
+blender into a complete 2D animation
+Suite with brushes layers and everything
+you can ever want you can make the
+entire movie right here like many others
+have done using grease pencil which has
+become a popular tool for 3D
+artists from this stage you can start
+creating some con cep art these can be
+detailed sketches of key stages in your
+story it's the look development stage
+capturing the nature and atmosphere of
+your story and setting the visual mood
+of your story most artists use
+applications like Photoshop at this
+stage to create 2D drawings but lately a
+lot of artists have started using 3D
+applications as a starting point for
+their concept art here are some YouTube
+channels that specialize in this type of
+art at the concept art stage you can
+start Gathering reference images
+a good application for this is pure ref
+uh it makes collecting images really
+easy and fast if you want to stay inside
+blender there is an add-on called blend
+ref that basically functions like pure
+ref but inside blender if you don't want
+to use add-ons you can also just drag
+your references directly into a
+different 3D viewer with overlays and
+Extras turned off to make it less
+cluttered I usually have this set off
+far away from my scene to make it easy
+to navigate to
+blender is in my opinion the best
+modeling tool for making characters and
+other models where it struggles a bit is
+in making hard surface models most 3D
+applications are not off-the-shelf good
+at hard surface modeling they all rely
+on third-party tools like add-ons and
+plugins if you plan on making a lot of
+hard surface models you can get
+something like hardops box cutters is
+that a non-destructive tool for hard
+surface modeling that adds new tools
+modifiers and preset for hard surface
+modeling as a blender artist you are
+likely a one-man army with a small
+budget or no budget at all so you have
+to be careful how you approach your
+movie your movie pipeline can't be
+similar to how large movies work since
+they have access to resources that you
+may not have so that's why this is not a
+guide on how to make Hollywood movies
+but a guide on how to make your movie
+look like a Hollywood or large studio
+movie by taking all the shortcuts that
+are possible to take like making
+characters the traditional way would
+take days if not weeks that we don't
+have but using something like block
+surfaces to easily block out the
+silhouette of your character will make
+it super fast for you with something
+like block surfaces you can even start
+posing and animating your characters
+before adding detail that way you can
+test if the character design works or
+not before spending too much
+time a comparable tool to block surfaces
+but for non-organic objects like Metals
+is projection modeling you can use it to
+model objects that are too complicated
+to model by hand or by sculpting you
+just Trace out the object's shape using
+curves from different directions and the
+add-on does its magic to piece them
+together while these are great tools for
+modeling I can't guarantee the topology
+of the mesh you will get or whether this
+is acceptable for modeling standards but
+what I can say is they will get the job
+done as a solo artist or small team
+creating a movie it's going to be a lot
+harder to create every model every asset
+or prop needed in your movie you can
+either hire an extra hand to help or try
+out AI model generators like the blender
+AI Library Pro this is an add-on for
+blender that you can use to generate
+models you want they come out already
+textured and you can also use the add-on
+to generate PBR textures or use its
+image to 3D generator if you are not
+comfortable with AI there are a lot of
+other tools that can help you create
+assets you need really fast like the
+procedural building generator 2 which
+can convert any mesh into a building in
+different styles this is one of the
+reasons why blender is becoming the most
+favored 3D application in the industry
+not because it has the best tools but
+because everything you want to do
+someone in the community has thought of
+a way to do it faster and easier say you
+want to have an explosion in your scene
+setting it up can take you quite some
+time but an add-on like chaos can set
+everything up for you in a matter of
+seconds and all you have to do is
+simulate and if you have a potato PC
+basically a computer that is not
+powerful enough to simulate or takes too
+long the VDB collections of explosions
+clouds from True VDB explosions pack can
+be the difference between your project
+being finished on time or not these
+simulations take hours if not days to
+set up and bake so you can cut some of
+that time by just getting a pack like
+this it's at this stage where most
+people start giving up after realizing
+how many assets they need and what time
+it takes to make them take an example of
+the number of trees in this small Forest
+generated by the forest generator in a
+space of a few square meters you have
+several tree species grass rocks all
+textured with high resolution Maps
+making a scene like this would take you
+at least a month if you tried to make it
+all from scratch there are several plant
+libraries and add-ons that work a bit
+differently like botanic which is one of
+the most updated and most popular
+add-ons for blender with several
+features used to scatter plants and
+vegetation
+these trees are usually quite High poly
+and really detailed which is great but
+that usually comes at the cost of
+additional render time the makers of
+botanique also have an add-on called mem
+saer for optimizing meshes reducing
+texture sizes to reduce render
+times while it would have been easier to
+just list the steps you need to make a
+movie it's also important for you to
+know what issues you may run into and
+how to solve them yes creating a
+realistic forest with highly detailed
+trees will look look cinematic but what
+would be the point if your computer
+can't render it so if you want a dense
+large forest or something equivalent you
+have to know the right tools to use in
+this case botanic trees or the forest
+generator may not be the solution as
+these are meant for close-up shots
+mostly if you want to create large dense
+forests you will need something like
+Alpha trees this add-on does not use
+actual tree geometry but it fakes The
+Look by using a tree texture on a plane
+while some something simple like this
+may not look that great up close if you
+are rendering a large scene with
+hundreds or millions of trees it looks
+perfect and might be your only
+option after modeling you likely need to
+create materials and textures for your
+scene this is the look development stage
+where you decide how weathered your
+walls will be how dirty or clean
+everything will be
+setting this up is not hard but what is
+hard is creating all the materials and
+collecting all the necessary textures
+needed for creating those materials for
+example a single object can have over
+five textures layered on top of the PBR
+material a texture for dirt another for
+scratches another to break up texture
+tiling another to add decals and more a
+realistic material can be complicated to
+make which is why a lot of artists opt
+for material libraries like the Sanctus
+material library that has procedural
+materials decals dirt layers scratches
+and more so that they don't have to
+think of that
+stuff if you just want decals to make
+your scene look more detailed and
+interesting you can try using decal
+Master to add
+decals materials are not the only thing
+you need for look development lighting
+is also a key part of it lighting can be
+broken into three categories subject
+lighting which is the object in Focus or
+taking up most of the screen background
+lighting and environment lighting most
+times when lighting you always want to
+have separation between the subject and
+background this means the use of rim
+lights on the characters if you struggle
+with this light setup an add-on like
+light Wrangler can help the background
+should not be brighter than the subject
+and to make it look more interesting you
+can use light Goos to add interesting
+Shadow details in the background so that
+everything does not look flat you also
+have the environment in general this
+generally also works as fill light for
+your scene and this is lighting for the
+sky bouncing around your scene to light
+up unlit areas so it's important to have
+an environment lighting setup that looks
+interesting blender comes with the sky
+texture but since we are looking for
+something interesting I propose
+something like pure Sky Pro this comes
+with everything you need from moving
+clouds atmosphere a day and night cycle
+and more so you have modeled everything
+you need set up the materials and
+lighting at this stage you should be
+ready for animation some make animations
+before creating materials and lighting
+but most prefer after so that you can
+can see the key poses in the final
+materials and lighting before you
+animate you need to rig your models
+blender comes with rigify for rigging
+characters but the add-on Auto rig Pro
+seems to be favored among professional
+animators there is also the auto rig Pro
+library that comes with 25 different
+rigs from dinosaurs bears Birds dogs and
+more if you want to rig vehicle
+car rig Pro is the most used among the
+blender
+Community after animation you want to
+add extra effects to make the animation
+look more grounded like particle effects
+these effects could be dust like when a
+character is running or Falls birds and
+insects leaves and more again like most
+things we have looked at blender has the
+tools and systems to set these up
+yourself without any add-ons but if you
+are in a rush for something like this
+the particle library is a great great
+option another effect that adds realism
+to your animations is cloth animation
+what sets realistic animations apart
+from cartoonish renders is how detailed
+the cloth simulations are and you can
+always see this in cartoons games and
+movies when they want true realism they
+go all in on the cloth simulation While
+most Studios use Marvelous Designer
+blender artists have Divine cut which
+produces comparable results at this
+stage you have a few more steps before
+you render like creating the environment
+this is going to be the place where most
+of your story is going to take place you
+can sculpt it or generate it using tools
+like true terrain to do most of the work
+for you after that you can do some
+compositing to make sure the colors are
+correct and balanced and then
+render obviously this is an
+oversimplification of a very complicated
+process but it can also be one of the
+most fun experiences you'll ever have
+seeing your vision take shape pixel by
+pixel frame by frame so go at it make
+your first movie blender has all the
+necessary tools and what we've looked at
+is just half of it

@@ -1,0 +1,889 @@
+Kind: captions
+Language: en
+hey guys Alex here welcome to office
+hey guys Alex here welcome to office
+hey guys Alex here welcome to office
+hours have you heard the buzz about
+hours have you heard the buzz about
+hours have you heard the buzz about
+people using AI to create 3D models
+people using AI to create 3D models
+people using AI to create 3D models
+we've been seeing a ton of questions
+we've been seeing a ton of questions
+we've been seeing a ton of questions
+lately about how people can and are
+lately about how people can and are
+lately about how people can and are
+using artificial intelligence and 3D
+using artificial intelligence and 3D
+using artificial intelligence and 3D
+modeling together so if you want to know
+modeling together so if you want to know
+modeling together so if you want to know
+more or you're looking to try it out for
+more or you're looking to try it out for
+more or you're looking to try it out for
+yourself today we're going to dive into
+yourself today we're going to dive into
+yourself today we're going to dive into
+two of the most popular free options out
+two of the most popular free options out
+two of the most popular free options out
+there and show you what's possible
+there and show you what's possible
+there and show you what's possible
+what's practical and what the future may
+what's practical and what the future may
+what's practical and what the future may
+hold keep
+hold keep
+hold keep
+watching you've probably seen some of
+watching you've probably seen some of
+watching you've probably seen some of
+the stunning mind-boggling images that
+the stunning mind-boggling images that
+the stunning mind-boggling images that
+people are creating with AI these days
+people are creating with AI these days
+people are creating with AI these days
+and then there's the amazing renderings
+and then there's the amazing renderings
+and then there's the amazing renderings
+people can produce from traditional 3D
+people can produce from traditional 3D
+people can produce from traditional 3D
+modeling software but did you know that
+modeling software but did you know that
+modeling software but did you know that
+people are actually combining the two
+people are actually combining the two
+people are actually combining the two
+together using AI to help create edit
+together using AI to help create edit
+together using AI to help create edit
+and animate 3D
+and animate 3D
+and animate 3D
+models let's talk about how you can try
+models let's talk about how you can try
+models let's talk about how you can try
+this out for yourself for free even if
+this out for yourself for free even if
+this out for yourself for free even if
+you have little or no experience using
+you have little or no experience using
+you have little or no experience using
+AI or 3D modeling software starting with
+AI or 3D modeling software starting with
+AI or 3D modeling software starting with
+getting set up with the right tools for
+getting set up with the right tools for
+getting set up with the right tools for
+the purposes of this video we'll be
+the purposes of this video we'll be
+the purposes of this video we'll be
+talking about two of the most popular
+talking about two of the most popular
+talking about two of the most popular
+free options out there for both Ai and
+free options out there for both Ai and
+free options out there for both Ai and
+3D modeling chat GPT and blender but
+3D modeling chat GPT and blender but
+3D modeling chat GPT and blender but
+don't let the price tag fool you both of
+don't let the price tag fool you both of
+don't let the price tag fool you both of
+these are insanely robust and Powerful
+these are insanely robust and Powerful
+these are insanely robust and Powerful
+tools let's talk about how to get up in
+tools let's talk about how to get up in
+tools let's talk about how to get up in
+running in blender first blender is an
+running in blender first blender is an
+running in blender first blender is an
+open source software for everyone from
+open source software for everyone from
+open source software for everyone from
+creative professionals to hobbyists with
+creative professionals to hobbyists with
+creative professionals to hobbyists with
+amazing tools for 3D modeling sculpting
+amazing tools for 3D modeling sculpting
+amazing tools for 3D modeling sculpting
+creating photorealistic and highly
+creating photorealistic and highly
+creating photorealistic and highly
+stylized images and animations plus a
+stylized images and animations plus a
+stylized images and animations plus a
+whole lot more to get it just open up
+whole lot more to get it just open up
+whole lot more to get it just open up
+your web browser and visit
+your web browser and visit
+your web browser and visit
+www.blender.org click download blender
+www.blender.org click download blender
+www.blender.org click download blender
+and follow the steps to download the
+and follow the steps to download the
+and follow the steps to download the
+correct version depending on your
+correct version depending on your
+correct version depending on your
+operating system in your downloads
+operating system in your downloads
+operating system in your downloads
+folder if you're on a Mac double click
+folder if you're on a Mac double click
+folder if you're on a Mac double click
+the DMG file to mount the dis image and
+the DMG file to mount the dis image and
+the DMG file to mount the dis image and
+then drag the blender app icon into the
+then drag the blender app icon into the
+then drag the blender app icon into the
+applications folder to install if you're
+applications folder to install if you're
+applications folder to install if you're
+on a Windows machine double click on the
+on a Windows machine double click on the
+on a Windows machine double click on the
+installer file then follow the steps to
+installer file then follow the steps to
+installer file then follow the steps to
+install it if you're on Linux I've added
+install it if you're on Linux I've added
+install it if you're on Linux I've added
+a link to blender's reference docs in
+a link to blender's reference docs in
+a link to blender's reference docs in
+the video description in case you run
+the video description in case you run
+the video description in case you run
+into any unexpected issues all right
+into any unexpected issues all right
+into any unexpected issues all right
+navigate to the folder where you
+navigate to the folder where you
+navigate to the folder where you
+installed the application and launch
+installed the application and launch
+installed the application and launch
+blender you'll see a welcome screen it
+blender you'll see a welcome screen it
+blender you'll see a welcome screen it
+may be a little different than what you
+may be a little different than what you
+may be a little different than what you
+see here depending on the version of
+see here depending on the version of
+see here depending on the version of
+blender you download as blender releases
+blender you download as blender releases
+blender you download as blender releases
+frequent updates but the core functions
+frequent updates but the core functions
+frequent updates but the core functions
+we're covering will work just the same
+we're covering will work just the same
+we're covering will work just the same
+you can click once away from the Welcome
+you can click once away from the Welcome
+you can click once away from the Welcome
+banner and you're ready to go all right
+banner and you're ready to go all right
+banner and you're ready to go all right
+next let's talk about chat GPT what is
+next let's talk about chat GPT what is
+next let's talk about chat GPT what is
+chat GPT chat GPT is an advanced AI
+chat GPT chat GPT is an advanced AI
+chat GPT chat GPT is an advanced AI
+power chat bot developed by a company
+power chat bot developed by a company
+power chat bot developed by a company
+called open AI chat gbt is trained on
+called open AI chat gbt is trained on
+called open AI chat gbt is trained on
+vast data sets to mimic human
+vast data sets to mimic human
+vast data sets to mimic human
+conversation but where it gets really
+conversation but where it gets really
+conversation but where it gets really
+cool is that you can actually ask chat
+cool is that you can actually ask chat
+cool is that you can actually ask chat
+gbt to write and compose unique things
+gbt to write and compose unique things
+gbt to write and compose unique things
+based on its machine learning from
+based on its machine learning from
+based on its machine learning from
+stories to poetry to essays even
+stories to poetry to essays even
+stories to poetry to essays even
+computer code and that's how we're able
+computer code and that's how we're able
+computer code and that's how we're able
+to interface with blender to use AI to
+to interface with blender to use AI to
+to interface with blender to use AI to
+do our 3D modeling for us to get started
+do our 3D modeling for us to get started
+do our 3D modeling for us to get started
+head to chat.
+head to chat.
+head to chat.
+open.com sign up if you don't already
+open.com sign up if you don't already
+open.com sign up if you don't already
+have an account and once you're logged
+have an account and once you're logged
+have an account and once you're logged
+in you'll see a welcome screen with a
+in you'll see a welcome screen with a
+in you'll see a welcome screen with a
+text field to type a message now real
+text field to type a message now real
+text field to type a message now real
+quick I should mention that while it's
+quick I should mention that while it's
+quick I should mention that while it's
+free to sign up and use chat GPT there's
+free to sign up and use chat GPT there's
+free to sign up and use chat GPT there's
+also a paid option called chat GPT plus
+also a paid option called chat GPT plus
+also a paid option called chat GPT plus
+which gets you Priority Access to the
+which gets you Priority Access to the
+which gets you Priority Access to the
+new features and latest version of the
+new features and latest version of the
+new features and latest version of the
+machine learning model which at the time
+machine learning model which at the time
+machine learning model which at the time
+of publishing this video is GPT 4 a more
+of publishing this video is GPT 4 a more
+of publishing this video is GPT 4 a more
+advanced version of chat GPT than you
+advanced version of chat GPT than you
+advanced version of chat GPT than you
+currently get with a free account which
+currently get with a free account which
+currently get with a free account which
+is GPT version 3.5 I'll talk more about
+is GPT version 3.5 I'll talk more about
+is GPT version 3.5 I'll talk more about
+the differences and improvements between
+the differences and improvements between
+the differences and improvements between
+the two later in this video but for now
+the two later in this video but for now
+the two later in this video but for now
+let's go over the basics using the free
+let's go over the basics using the free
+let's go over the basics using the free
+version since the process you'll follow
+version since the process you'll follow
+version since the process you'll follow
+is the same regardless of the version of
+is the same regardless of the version of
+is the same regardless of the version of
+GPT you're using all right how to use
+GPT you're using all right how to use
+GPT you're using all right how to use
+chat GPT and blender together now you're
+chat GPT and blender together now you're
+chat GPT and blender together now you're
+probably already imagining all the
+probably already imagining all the
+probably already imagining all the
+exciting possibilities like render me a
+exciting possibilities like render me a
+exciting possibilities like render me a
+three-bedroom house on the beach or
+three-bedroom house on the beach or
+three-bedroom house on the beach or
+animate a robot walk
+animate a robot walk
+animate a robot walk
+but hold on before we get too far ahead
+but hold on before we get too far ahead
+but hold on before we get too far ahead
+of ourselves let's dial it back and
+of ourselves let's dial it back and
+of ourselves let's dial it back and
+quickly cover the Practical fundamentals
+quickly cover the Practical fundamentals
+quickly cover the Practical fundamentals
+of how to actually use these two
+of how to actually use these two
+of how to actually use these two
+programs together to do that let's ask
+programs together to do that let's ask
+programs together to do that let's ask
+chat GPT to build us something super
+chat GPT to build us something super
+chat GPT to build us something super
+basic in blender and then we'll go from
+basic in blender and then we'll go from
+basic in blender and then we'll go from
+there now as I mentioned earlier chat
+there now as I mentioned earlier chat
+there now as I mentioned earlier chat
+GPT is able to write computer code or
+GPT is able to write computer code or
+GPT is able to write computer code or
+what's called a script which blender can
+what's called a script which blender can
+what's called a script which blender can
+interpret so in our browser window let's
+interpret so in our browser window let's
+interpret so in our browser window let's
+ask chat GPT to write a blender script
+ask chat GPT to write a blender script
+ask chat GPT to write a blender script
+that creates a gold ball you'll see chat
+that creates a gold ball you'll see chat
+that creates a gold ball you'll see chat
+GPT print out a block of code along with
+GPT print out a block of code along with
+GPT print out a block of code along with
+a short explanation of what it created
+a short explanation of what it created
+a short explanation of what it created
+the interesting thing to note here is
+the interesting thing to note here is
+the interesting thing to note here is
+that chat gpt's responses will vary even
+that chat gpt's responses will vary even
+that chat gpt's responses will vary even
+when asking the exact same question so
+when asking the exact same question so
+when asking the exact same question so
+if you're following along at home your
+if you're following along at home your
+if you're following along at home your
+responses will look different than mine
+responses will look different than mine
+responses will look different than mine
+also note that I included the word
+also note that I included the word
+also note that I included the word
+script in my question that's because if
+script in my question that's because if
+script in my question that's because if
+you just asked chat GPT to create or
+you just asked chat GPT to create or
+you just asked chat GPT to create or
+model something in blender without
+model something in blender without
+model something in blender without
+asking it to write a script specifically
+asking it to write a script specifically
+asking it to write a script specifically
+it will sometimes respond with
+it will sometimes respond with
+it will sometimes respond with
+step-by-step instructions of how to
+step-by-step instructions of how to
+step-by-step instructions of how to
+build it yourself which is also pretty
+build it yourself which is also pretty
+build it yourself which is also pretty
+cool but not what we want for the
+cool but not what we want for the
+cool but not what we want for the
+purposes of this video okay let's copy
+purposes of this video okay let's copy
+purposes of this video okay let's copy
+the code block by going to the upper
+the code block by going to the upper
+the code block by going to the upper
+right hand corner cor and clicking copy
+right hand corner cor and clicking copy
+right hand corner cor and clicking copy
+then in blender let's delete the default
+then in blender let's delete the default
+then in blender let's delete the default
+Cube so we start with a blank slate to
+Cube so we start with a blank slate to
+Cube so we start with a blank slate to
+do that select the cube and hit X on
+do that select the cube and hit X on
+do that select the cube and hit X on
+your keyboard and click to confirm now
+your keyboard and click to confirm now
+your keyboard and click to confirm now
+in the upper right select the scripting
+in the upper right select the scripting
+in the upper right select the scripting
+tab click where it says new then in the
+tab click where it says new then in the
+tab click where it says new then in the
+text area press control V on a PC or
+text area press control V on a PC or
+text area press control V on a PC or
+command V on a Mac to paste the script
+command V on a Mac to paste the script
+command V on a Mac to paste the script
+you just copied from chat GPT click the
+you just copied from chat GPT click the
+you just copied from chat GPT click the
+Run button and in the upper left corner
+Run button and in the upper left corner
+Run button and in the upper left corner
+you'll see what the script is created if
+you'll see what the script is created if
+you'll see what the script is created if
+you click on the layout tab it'll get
+you click on the layout tab it'll get
+you click on the layout tab it'll get
+you back to a full view now our ball
+you back to a full view now our ball
+you back to a full view now our ball
+doesn't look gold but that's just
+doesn't look gold but that's just
+doesn't look gold but that's just
+because of blender's default view if we
+because of blender's default view if we
+because of blender's default view if we
+click this icon for material preview
+click this icon for material preview
+click this icon for material preview
+across the top now we see the color all
+across the top now we see the color all
+across the top now we see the color all
+right we just created a 3D modeling
+right we just created a 3D modeling
+right we just created a 3D modeling
+blender using AI of course this is a
+blender using AI of course this is a
+blender using AI of course this is a
+super simple example and I'll admit
+super simple example and I'll admit
+super simple example and I'll admit
+probably a little underwhelming but
+probably a little underwhelming but
+probably a little underwhelming but
+there's actually a lot to unpack here
+there's actually a lot to unpack here
+there's actually a lot to unpack here
+first now that you know the basic method
+first now that you know the basic method
+first now that you know the basic method
+you can go back and forth between chat
+you can go back and forth between chat
+you can go back and forth between chat
+GPT and blender to experiment with
+GPT and blender to experiment with
+GPT and blender to experiment with
+creating more and more complex and
+creating more and more complex and
+creating more and more complex and
+interesting things but a word of warning
+interesting things but a word of warning
+interesting things but a word of warning
+often times the things you ask chat GPT
+often times the things you ask chat GPT
+often times the things you ask chat GPT
+to build in blender simply won't work
+to build in blender simply won't work
+to build in blender simply won't work
+work and you can waste countless hours
+work and you can waste countless hours
+work and you can waste countless hours
+struggling to get the results you're
+struggling to get the results you're
+struggling to get the results you're
+after why well one of the main reasons
+after why well one of the main reasons
+after why well one of the main reasons
+is that chat gpt's learning model is
+is that chat gpt's learning model is
+is that chat gpt's learning model is
+only trained through 2021 so changes to
+only trained through 2021 so changes to
+only trained through 2021 so changes to
+blender since then may cause chat GPT
+blender since then may cause chat GPT
+blender since then may cause chat GPT
+script to reference something outdated
+script to reference something outdated
+script to reference something outdated
+another key factor is just like a human
+another key factor is just like a human
+another key factor is just like a human
+writing code the more complex the
+writing code the more complex the
+writing code the more complex the
+problem the more code chat GPT has to
+problem the more code chat GPT has to
+problem the more code chat GPT has to
+write which means there are more chances
+write which means there are more chances
+write which means there are more chances
+for it to make mistake that causes the
+for it to make mistake that causes the
+for it to make mistake that causes the
+script to fail now one thing to know is
+script to fail now one thing to know is
+script to fail now one thing to know is
+that you can sometimes work with chat
+that you can sometimes work with chat
+that you can sometimes work with chat
+GPT to overcome these issues for
+GPT to overcome these issues for
+GPT to overcome these issues for
+instance if a script fails try copying
+instance if a script fails try copying
+instance if a script fails try copying
+the error message and pasting it into
+the error message and pasting it into
+the error message and pasting it into
+your reply to chat GPT it will try and
+your reply to chat GPT it will try and
+your reply to chat GPT it will try and
+fix the code again just know that for
+fix the code again just know that for
+fix the code again just know that for
+more complicated requests even the fixes
+more complicated requests even the fixes
+more complicated requests even the fixes
+often fail but actually the best way you
+often fail but actually the best way you
+often fail but actually the best way you
+can help chat GPT is to learn some of
+can help chat GPT is to learn some of
+can help chat GPT is to learn some of
+the fundamentals of blender before you
+the fundamentals of blender before you
+the fundamentals of blender before you
+try to use chat GPT and blender together
+try to use chat GPT and blender together
+try to use chat GPT and blender together
+being familiar with the names of the
+being familiar with the names of the
+being familiar with the names of the
+tools and features as well as the
+tools and features as well as the
+tools and features as well as the
+fundamentals of how modeling and the
+fundamentals of how modeling and the
+fundamentals of how modeling and the
+basic tools work in blender makes
+basic tools work in blender makes
+basic tools work in blender makes
+creating effective prompts for chat GPT
+creating effective prompts for chat GPT
+creating effective prompts for chat GPT
+much easier take our gold ball for
+much easier take our gold ball for
+much easier take our gold ball for
+example it looks pretty fasted and plain
+example it looks pretty fasted and plain
+example it looks pretty fasted and plain
+but knowing your tool settings and
+but knowing your tool settings and
+but knowing your tool settings and
+terminology and blender allows you to
+terminology and blender allows you to
+terminology and blender allows you to
+prompt chat GPT in a way that can get
+prompt chat GPT in a way that can get
+prompt chat GPT in a way that can get
+you closer to the end result you're
+you closer to the end result you're
+you closer to the end result you're
+after if you're completely new to
+after if you're completely new to
+after if you're completely new to
+blender I definitely recommend checking
+blender I definitely recommend checking
+blender I definitely recommend checking
+out our getting started with blender
+out our getting started with blender
+out our getting started with blender
+video before experimenting with your own
+video before experimenting with your own
+video before experimenting with your own
+prompts as it covers many of the basic
+prompts as it covers many of the basic
+prompts as it covers many of the basic
+features and tools you'll want to be
+features and tools you'll want to be
+features and tools you'll want to be
+familiar with I've added a link in the
+familiar with I've added a link in the
+familiar with I've added a link in the
+description okay but what about having
+description okay but what about having
+description okay but what about having
+chat GPT create me that three-bedroom
+chat GPT create me that three-bedroom
+chat GPT create me that three-bedroom
+house on the beach or that walking robot
+house on the beach or that walking robot
+house on the beach or that walking robot
+unfortunately in Practical terms it's
+unfortunately in Practical terms it's
+unfortunately in Practical terms it's
+not quite there yet but let's talk about
+not quite there yet but let's talk about
+not quite there yet but let's talk about
+these more complex tasks chat GPT plus
+these more complex tasks chat GPT plus
+these more complex tasks chat GPT plus
+and where this is all going because it's
+and where this is all going because it's
+and where this is all going because it's
+pretty interesting remember when I
+pretty interesting remember when I
+pretty interesting remember when I
+mentioned that paid version of chat GPT
+mentioned that paid version of chat GPT
+mentioned that paid version of chat GPT
+with a more advanced version of their AI
+with a more advanced version of their AI
+with a more advanced version of their AI
+GPT 4 well it turns out that this new
+GPT 4 well it turns out that this new
+GPT 4 well it turns out that this new
+version does a remarkably better job at
+version does a remarkably better job at
+version does a remarkably better job at
+creating working scripts for blender
+creating working scripts for blender
+creating working scripts for blender
+when it comes to more complex promps and
+when it comes to more complex promps and
+when it comes to more complex promps and
+while it's still not a magic wand that
+while it's still not a magic wand that
+while it's still not a magic wand that
+voila creates super polished outputs
+voila creates super polished outputs
+voila creates super polished outputs
+let's talk about what it does do
+let's talk about what it does do
+let's talk about what it does do
+effectively and what that means for you
+effectively and what that means for you
+effectively and what that means for you
+first while I was unable to get a
+first while I was unable to get a
+first while I was unable to get a
+working script out of the free version
+working script out of the free version
+working script out of the free version
+of chat GPT on GPT 3.5 for either a
+of chat GPT on GPT 3.5 for either a
+of chat GPT on GPT 3.5 for either a
+house on the beach or a walking robot
+house on the beach or a walking robot
+house on the beach or a walking robot
+using chat gbt plus with version 4
+using chat gbt plus with version 4
+using chat gbt plus with version 4
+produced a script that did work in
+produced a script that did work in
+produced a script that did work in
+blender for both unfortunately this is
+blender for both unfortunately this is
+blender for both unfortunately this is
+what it created for my house on the
+what it created for my house on the
+what it created for my house on the
+beach and this is what it created for a
+beach and this is what it created for a
+beach and this is what it created for a
+simple robot walking not exactly what I
+simple robot walking not exactly what I
+simple robot walking not exactly what I
+was after but that being said there's
+was after but that being said there's
+was after but that being said there's
+some pretty interesting stuff going on
+some pretty interesting stuff going on
+some pretty interesting stuff going on
+here first you can see in the GPT
+here first you can see in the GPT
+here first you can see in the GPT
+response that the logic is there in
+response that the logic is there in
+response that the logic is there in
+terms of how it sets out to accomplish
+terms of how it sets out to accomplish
+terms of how it sets out to accomplish
+this task where it fails is in scripting
+this task where it fails is in scripting
+this task where it fails is in scripting
+the execution then again I'm asking it
+the execution then again I'm asking it
+the execution then again I'm asking it
+to do something really complex here
+to do something really complex here
+to do something really complex here
+similarly but slightly less complex I
+similarly but slightly less complex I
+similarly but slightly less complex I
+also asked GPT 4 to write a blender 3.4
+also asked GPT 4 to write a blender 3.4
+also asked GPT 4 to write a blender 3.4
+script that animates nine planets
+script that animates nine planets
+script that animates nine planets
+orbiting around a sun write a blender
+orbiting around a sun write a blender
+orbiting around a sun write a blender
+script that animates the game pong and
+script that animates the game pong and
+script that animates the game pong and
+write a script to create a 3D model of a
+write a script to create a 3D model of a
+write a script to create a 3D model of a
+car and blender while the results are
+car and blender while the results are
+car and blender while the results are
+pretty rudimentary they're also pretty
+pretty rudimentary they're also pretty
+pretty rudimentary they're also pretty
+amazing when you think about the fact
+amazing when you think about the fact
+amazing when you think about the fact
+that all I did was ask an AI to create
+that all I did was ask an AI to create
+that all I did was ask an AI to create
+these things for me in one sentence and
+these things for me in one sentence and
+these things for me in one sentence and
+potentially really helpful when I think
+potentially really helpful when I think
+potentially really helpful when I think
+about how much longer it would have
+about how much longer it would have
+about how much longer it would have
+taken a season blender user to manually
+taken a season blender user to manually
+taken a season blender user to manually
+create similar examples using blender
+create similar examples using blender
+create similar examples using blender
+alone and again these are tasks that
+alone and again these are tasks that
+alone and again these are tasks that
+simply failed when asking chat GPT 3.5
+simply failed when asking chat GPT 3.5
+simply failed when asking chat GPT 3.5
+the same things that's why I think some
+the same things that's why I think some
+the same things that's why I think some
+of the crazy hype around Ai and 3D
+of the crazy hype around Ai and 3D
+of the crazy hype around Ai and 3D
+modeling is actually kind of valid while
+modeling is actually kind of valid while
+modeling is actually kind of valid while
+in its current form some of these
+in its current form some of these
+in its current form some of these
+results May feel a little underwhelming
+results May feel a little underwhelming
+results May feel a little underwhelming
+keep in mind that this type of AI is
+keep in mind that this type of AI is
+keep in mind that this type of AI is
+still super new and the idea of using it
+still super new and the idea of using it
+still super new and the idea of using it
+together with 3D modeling is even newer
+together with 3D modeling is even newer
+together with 3D modeling is even newer
+and not only is the AI itself constantly
+and not only is the AI itself constantly
+and not only is the AI itself constantly
+improving but as more people start to
+improving but as more people start to
+improving but as more people start to
+use this type of scripting approach to
+use this type of scripting approach to
+use this type of scripting approach to
+combine Ai and blender the more blender
+combine Ai and blender the more blender
+combine Ai and blender the more blender
+developers will continue to streamline
+developers will continue to streamline
+developers will continue to streamline
+and improve the way in which the two
+and improve the way in which the two
+and improve the way in which the two
+interface together and who knows maybe
+interface together and who knows maybe
+interface together and who knows maybe
+it's not so far off that chat GPT will
+it's not so far off that chat GPT will
+it's not so far off that chat GPT will
+be designing you that three-bedroom
+be designing you that three-bedroom
+be designing you that three-bedroom
+house on the
+beach all right so now that you know the
+beach all right so now that you know the
+beach all right so now that you know the
+basics of how to use chat GPT and
+basics of how to use chat GPT and
+basics of how to use chat GPT and
+blender together what's next try out
+blender together what's next try out
+blender together what's next try out
+your own prompts and ideas and leave a
+your own prompts and ideas and leave a
+your own prompts and ideas and leave a
+comment below about the things you
+comment below about the things you
+comment below about the things you
+create and discover then check out one
+create and discover then check out one
+create and discover then check out one
+of the videos in this playlist where we
+of the videos in this playlist where we
+of the videos in this playlist where we
+cover everything from the fundamentals
+cover everything from the fundamentals
+cover everything from the fundamentals
+you need to know to use blender the
+you need to know to use blender the
+you need to know to use blender the
+right way to tips on how to avoid the
+right way to tips on how to avoid the
+right way to tips on how to avoid the
+frustrating mistakes that often trip
+frustrating mistakes that often trip
+frustrating mistakes that often trip
+people up or cause them to waste a ton
+people up or cause them to waste a ton
+people up or cause them to waste a ton
+of time when setting out to learn
+of time when setting out to learn
+of time when setting out to learn
+blender got blender questions you want
+blender got blender questions you want
+blender got blender questions you want
+us to answer in a future office hours
+us to answer in a future office hours
+us to answer in a future office hours
+let us know in the comments below don't
+let us know in the comments below don't
+let us know in the comments below don't
+forget to like And subscribe and until
+forget to like And subscribe and until
+forget to like And subscribe and until
+next time happy blending

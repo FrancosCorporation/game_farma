@@ -1,0 +1,683 @@
+this video is sponsored by polygon
+highquality assets to make better
+renders
+faster first things first we need house
+reference so Google some photos of
+houses and paste it into the free
+software pure ref rather than start
+blending with an empty void I like to
+add something to act as scale reference
+so I appended in this correctly scaled
+human which is cc0 and I've linked to in
+the description then you just start
+modeling the basic shape of the house
+which in my case is two stories and
+L-shaped to create the angled roof first
+enable auto merge then select two edges
+and merge them by pressing s to scale
+then the x or y axis and then zero to
+smash match them together then you
+select those faces separate it to a new
+object and add a solidify modifier then
+to create the eaves you select the
+outside edges then double tap G to Loop
+slide and then press C to disable
+clamping which will let you drag it past
+the point it started while retaining The
+Edge now for the clapboard siding while
+you could use a texture with
+displacement for that it'll look way
+sharper and way more optimized if it's
+modeled so we're going to select the
+bottom edge of the house duplicate it
+move it to its own object extrude it
+upwards and then recalculate the normals
+to clear any mesh problems then to
+create that angled slope we're going to
+select the bottom row and press alt s to
+scale it along its normal and that is
+one clapboard that goes all the way
+around the house so we just add an array
+modifier and a solidify modifier to
+finish the rest but now the obvious
+problem how do we fix it clipping
+through the roof one way would be to
+apply everything and then manually cut
+it away with a knife but that's tedious
+and I want to keep things
+non-destructive so instead I'm going to
+use the Bas housee object as a Boolean
+to do this you select the sighting then
+add a Boolean modifier with intersect
+mode and fast approximation then you
+select the base housee model as the
+Boolean object which will make it act as
+an envelope cropping anything that goes
+outside of it all we need to do now is
+make the base house model slightly
+bigger than the sighting which you can
+do by going into edit mode and pressing
+alt s then make sure the Boolean
+object's viewport display is set to
+y-frame and that it's disabled from
+rendering the outliner and that is how
+you do non-destructive clapboard
+sighting now for the windows and doors
+which you'd be a fool to model yourself
+because it's far too time consuming and
+finicky instead use the arames add on
+which blender comes with which gives you
+easy parametric objects which you can
+add and then properties that that can be
+altered after the fact and what I like
+most about the aramesh add-on is that
+each Window and Door comes with its own
+Boolean cutout so to make that work with
+our sighting you select all the Boolean
+cutouts move them to a new collection
+then select the sighting and add a new
+Boolean modifier set that to difference
+fast approximation and then the new
+collection now all the windows and doors
+will perfectly cut through the siding
+and that's the hard bit the rest of the
+house is really easy by compar Aron so
+you put on some good music and start
+modeling any extra details you see in
+your reference I added a concrete slab
+with a staircase that I also got from
+aramesh then I added in some extruded
+cubes as banisters and railings some
+angle brackets on the eaves and a
+scrappy little plane that I extruded and
+then sheared around the corners of the
+roof to create the gutter I also
+duplicated a board and then resized and
+rotated it to create trimmings around
+the windows and doors and of course add
+a bevel to everything since that that
+helps catch the light and makes it look
+more realistic in your renders once you
+finished modeling high-five yourself
+grab a water and then get ready to mess
+this thing up for this next part you'll
+need some good reference of abandoned
+buildings now you can Source it for free
+from places like the abandoned porn
+subreddit but I recommend going paid if
+you can afford it like this pack that I
+found from photob bash not only will you
+get multiple angles of the same subject
+but most importantly it'll be high
+resolution so you can zoom right in to
+see the details
+then copy and paste everything of
+relevance to your ever expanding pure
+ref
+board here's a few tricks I've learned
+to make houses look old number one old
+houses are lumpy you can create this
+effect by first adding multiple Cuts
+along each plank to create squares then
+apply the array modifier and add a
+displacement modifier first in the stack
+then for the displacement texture use a
+cloud texture at low strength adjusting
+the size of the cloud till it matches
+the board warping from the reference and
+you can do the same to the roof and the
+concrete just keep the strength low
+unless you want a house that looks like
+it's from Dr Seuss number two sighting
+usually has discrete cuts which become
+more pronounced and more sloppy with h
+so in Edge select mode select Some Loops
+and rip them by pressing V and moving
+them ever so slightly then on a few of
+them press control number pad plus to
+select the rest of the plank then press
+R to rotate it ever so slightly number
+three it wouldn't be abandoned without a
+broken window or two which you can do by
+first adding in a reference photo of one
+into the scene and then adding a plane
+then edit that plane and use the knife
+tool to trace the broken glass all the
+way around until you're back at the
+start then delete the center face until
+you're left with the edges and then add
+a solidifier modifier for some thickness
+and since nobody wants to let in the
+zombies duplicate some of the trim
+boards to make a quick barricade behind
+the
+glass number four make it wonky railings
+aren't straight poles aren't straight
+nothing is straight and some things are
+straight up missing this is one of those
+rare moments where you can be creative
+with some storytelling so have fun and
+there it is a house that looks like a
+rental now for the all important
+texturing which on an abandoned house
+like this will do 90% of the heavy
+lifting there are two ways you could
+texture a building one would be to paint
+directly onto one texture much like
+substance painter but this isn't ideal
+because you're then limited by the
+resolution of your texture and if your
+object needs to change distance to the
+camera or say a character needs to walk
+right up to it in a game then suddenly
+you can see the pixels and even with an
+insanely large 8K texture map a building
+like this will still look blurry so the
+best method for texturing buildings is
+one that games have been using for years
+painted masks with tiled textures tile
+textures are great because they create
+free resolution you can use a small
+texture TI it a bunch and it looks sharp
+even if you walk right up to it and here
+you can see a sidebyside comparison of
+an 8K painted texture versus a 2K tile
+texture the tile texture is not only
+sharper but because it's smaller in
+resolution it uses 14 times less memory
+but tile textures also look really
+really boring so if you load in a second
+tile texture and then paint a m to
+reveal different parts of each texture
+you create something far more
+interesting and if you do fancy stuff
+with the shaders you can even make the
+blending look good but you know what's
+better than blending two texture sets
+blending five rather than paint onto one
+black and white image what games do
+instead is use the red green and blue
+channels as three independent masks so
+your red paint becomes the blend between
+textures one and two green green Blends
+in a third texture blue Blends a fourth
+and if you paint it into the alpha
+Channel you can even blend in a fifth
+texture the resulting Ms looks like hell
+but when you separate the channels and
+put it through a Shader magic occurs and
+this is how video games create cities
+that look realistic from afar but still
+sharp up close a key ingredient to this
+workflow is finding a set of textures
+that work well together and it's why
+game studios will typically make their
+own as they can ensure that they
+cohesively together so I've got the next
+best thing it's polygon we spoke with
+some texture artists in the game
+industry to create a set of painted wood
+for this exact workflow it's five
+texture sets in five stages of wear
+paint only slight chipping heavy
+chipping almost raw and raw extra
+attention was given to the chipping to
+ensure that it peels in relation to the
+wood grain as this happens in real life
+and because the set is seamless and
+doesn't contain any panels or wood break
+brakes it can be used for everything
+from house sighting to Cabinetry and
+while it comes as white it comes with an
+ID mask so you could change the color to
+anything you wanted for our house we're
+going to pick these three the fully
+painted stage zero texture the half
+painted stage 2 texture and the raw wood
+stage 4 texture and unless you're
+planning to put the camera closer than 1
+m to the wall 2K is really all you need
+remember that every time you double the
+texture size you are going to quadruple
+the memory at render so while it's
+tempting to go big keep it light and not
+only will it render faster but you'll be
+able to paint with less lag each of the
+texture sets come with a full set of PBR
+Maps which is good but it's going to be
+really tedious if you had to load in all
+of the texture maps for three materials
+so to make it easier there's the polygon
+material converter add-on which you're
+going to download in the link below this
+will import and set up the materials for
+you with one click you just install the
+zip then go to your material panel and
+you'll see the out on appearing there
+and then this empty field at the top
+here is where you're going to point to
+the folder location of your unzipped
+polygon files then you'll see all the
+materials appear beneath it and with one
+click it will load in all the maps for
+you with the correct normals inverted
+gloss and apply it to the selected
+material so we're going to do it for all
+three materials but we're actually going
+to create a separate new material for
+our siding and add those materials to it
+so to do this go to the node editor and
+press shift a to add and then under
+group you'll see that the add-on has
+created a a new node group for each
+material which is basically just all the
+maps neatly loaded into one box which
+makes it really easy to combine now
+something you might not have ever
+wondered before is how do you actually
+combine multiple sets of PBR Maps
+together it's easy if you've got two
+textures but what about eight what about
+12 well that would be a tedious process
+too if the add-on didn't also give you
+this other node group the PBR mixer
+which does exactly this it's simply
+combined two sets of PBR Maps into one
+with a simple Factor input at the top
+you'll see this group appear in your
+back end anytime you add a material
+using the add-on so we just need to
+connect them now you're going to put the
+cleanest material into the top input
+which in this case is the stage zero
+solid paint version then we're going to
+put the heavily worn version in this
+case stage four raw wood into the bottom
+the chip paint version leave that aside
+we'll use that later then you take the
+outputs from that and plug it into the
+principled Shader and we won't see this
+on the mesh until we UV unwrap it which
+is really easy to do it's just you smart
+UV project and then in the UV image
+editor just make sure you rotate all the
+planks so that they're horizontal and it
+should be fine then just add texture
+coordinate and mapping nodes to change
+the scale to whatever looks correct on
+the house you should now see that if you
+change the factor value from 0 to one
+you're correctly blending between each
+texture set which means that just like
+the mix RGB node if we plugged a hand
+painted texture map into that Factor
+input we would control where each
+texture set is displayed so let's do
+that add an image texture node and press
+new and since this is just a mask 2K
+should be more than enough resolution
+and since we aren't rendering color we
+want to set the color space to non color
+data and then connect this node to the
+factor input now if we were to paint
+white you'd see that it's working what
+it's black is one texture and what is
+white is another but if you remember
+from before we want to paint into the
+red green and blue channels separately
+and then use those channels to blend
+between different texture sets so to do
+that we want to add a separate RGB node
+then take only the red Channel and plug
+that into the factor input then if you
+paint with not white but a completely
+red color it will then paint only into
+the red Channel and leaving the other
+two alone which means this now functions
+exactly like that black and white mask
+yet you still have these two other
+channels here to blend between two other
+texture sets or use a any other hand
+painted effects that you want in your
+material setup so if you started
+painting with this you'd probably notice
+that while it works it's pretty hard to
+create anything that looks realistic
+because the soft gradual fading paint
+into wood is not how real paint peels
+real paint peeling is binary it's either
+paint or it's either wood it's not
+really anything in between so normally
+the solution to this would be to just
+get fancy with the brushes but remember
+that we're now painting into this low
+reses texture mask and just like before
+if you wanted this to look sharp you
+would have to increase the resolution to
+something crazy like 8K so what to do
+well the answer is one that might
+surprise you and a trick that I'm
+honestly surprised worked as well as it
+does which I'm going to share right
+after talking about polygon whether
+you're making an interior a building
+exterior or a nature scene polygon has a
+range of textures models and hdrs for
+Rapid scene building your render will
+only look as good as the quality of your
+assets which is why customers like Oscar
+wsky trust polygon to help them create
+jawdropping environments click the link
+in the description to get access to a
+range of free textures that you can
+start using in your work today so the
+solution to our resolution problem color
+bur color bur is that blending mode that
+you probably cycle through on your way
+to the more useful blend modes and while
+it definitely doesn't get as much play
+time it's our Saving Grace for this
+exact problem cuz if we add a mix RGB
+node to our mask set it to color burn
+then any texture we put into the bottom
+here will affect our falloff areas of
+the brush stroke so for this we're going
+to use that stage two texture peel if
+you wanted to go the extra mile you
+could actually use the red channel of
+the included ID mask and that way it'll
+look really sharp but the roughness
+output is easier and it's good enough
+now it's working but it's a little too
+subtle so if you add a color ramp node
+after it with constant fall off and put
+the white somewhere in the middle there
+you'll get that Punchy binary look to
+our paint and wood now if you were to
+paint with a low brush strength you can
+see that with the color burn it eats
+away into those gray areas creating a
+really satisfying peel paint look not
+only does this method use the
+highresolution tile texture in our mask
+but it's also much easier to paint with
+because you aren't constantly changing
+brush settings and best of all you can
+repeat the color bur step for any number
+of other textures you want to influence
+the mask for example in this case you
+can see that while the paint peel looks
+cool something feels off it's almost
+like we're painting onto a flat wall
+rather than onto siding and this is
+because paint peels primarily from
+prolonged exposure to the Sun and due to
+the angle of our planks some parts of
+the planks are going to be hidden in
+Shadow and therefore receive less
+peeling now you could use a small brush
+to meticulously paint this in but I
+found this process so tedious that I
+spent days trying to find a better
+solution and I'm proud to say I did did
+and this is it if you select the bottom
+Edge Loop of each plank then go into
+vertex paint mode then firstly invert it
+so it's black then press vertex select
+mode so that you're only painting onto
+what we just selected then press fill
+it'll put this white fill only on those
+vertices we selected and create this
+gradient effect from the top of the
+plank down to the bottom so if you now
+go back to the Shader duplicate that mix
+RGB color bone effect then adding in a
+Vertex color node set to the vertex
+paint that we just created now the
+lighter parts of that gradient will have
+more weight than the darker parts and
+now our painting process is not only
+easier but much more realistic you get
+to use these big simple brush Strokes
+that automatically create detail in the
+right areas as you go to complete our
+paint peeling effect just add a bump
+note in between the final normal map
+then connect our mask output to it
+through an invert node then you'll have
+bump on the paint so it actually looks
+layer on top our peel paint Shader is
+now complete and we could start painting
+now but actually it be easier if we just
+finish the Shader to include the green
+and blue Channel painting and then start
+so essentially these channels give you
+options they can be whatever you want
+them to be like maybe the story of your
+house is that it went through a fire so
+you might want one of those channels to
+control a burn blackening of the color
+map or maybe you want to create a
+mismatch paint color touch-up job which
+is so common for old houses or maybe the
+roof is so damaged that it's leaking
+blackened water down the side of the
+building so really just look at your
+reference and decide what extra details
+you need for this scene the house is in
+a wet Seattle environment so I want one
+of the channels to paint Moss so I
+downloaded this Moss texture from
+polygon used the add-on to bring it in
+like before and then set the correct
+scale I added it to the rest of the
+material by adding another PBR mixer
+after the wood and then connecting the
+factor input of that to the green
+Channel
+then I duplicated one of those colorb
+bur mix nodes and then used the Moss
+texture itself to drive it then finally
+I fed it through a color ramp for extra
+contrast and unlike the peel paint Moss
+is actually more likely to grow in the
+shadows so I used another color bone
+driven by an invert of the vertex colors
+but if you ever find that color bur is a
+little too strong of a blend mode like
+in this case overlay is a nice
+substitute that's a little smoother then
+for the blue Channel I wanted to create
+a wet mask to paint water leaking down
+the building so I started by taking the
+blue Channel and then putting it through
+a color ramp to boost its contrast then
+I put that into the factor value of a
+mix RGB node set to multiply then I put
+the final color map into the top and
+then that value at the bottom there
+drives how dark the wetness is that's
+only influencing the color map though so
+I then duplicated that mix RGB node and
+made it impact the roughness as well and
+now the darker this value is the sharper
+the reflection will be and it creates
+quite a nice effect and this is the
+final Shader that we will now use for
+the painting it is a lot of nodes which
+I'm sure is overwhelming if you are new
+at texturing but there's no Vector math
+in here or complex equations to figure
+out it's basically just taking channels
+and then using it to change different
+parts of the material so with the hard
+part done we can now be creative you'll
+paint by swapping the fully red green or
+blue paint but if it's set to the
+default blend mode of mix then painting
+any new color will override the previous
+so what you you actually want is ADD
+which allows the color to be added on
+top of other colors and to remove the
+paint of that color surprise surprise
+it's subtract you want to paint in
+material preview mode but by default
+there will probably be some lag so
+there's two things you can do to improve
+it one is to set the EV viewport to only
+show the diffused color so it's not
+trying to render bump and gloss and
+everything else while you're painting
+and the second big thing is to disable
+the solidify modifier in the viewport
+which will remove half the vertices and
+only paint on the front face of the mesh
+and then your painting should basically
+be in real time and while not necessary
+if you have a graphics tablet you will
+get faster results in less time no
+question about it because of a little
+thing called pen pressure clicking your
+mouse is a binary on and off action but
+using a stylus means that you're able to
+alter the intensity of each stroke now I
+have a stique which is nice if you can
+afford it but honestly any tablet will
+be better than a mouse for years I used
+used a whack bamboo which was like $100
+even back then new and it was a h 100
+times better than a mouse so if you
+browse eBay or Facebook Marketplace
+today you'll be able to find secondhand
+tablets that are cheaper than a mouse to
+prepare for this tutorial I probably
+texted the house 10 different times and
+each time was better than the last so I
+definitely recommend playing around
+first just to familiarize yourself with
+how it works and then start again by
+filling the texture with black so let's
+talk results poor texturing is almost
+almost always the result of playing it
+by ear you don't want to just paint what
+looks cool look at your reference and
+try to understand it for example paint
+on a house doesn't just peel randomly it
+peels according to sun exposure and
+moisture so one side of the house should
+have more peeling than the rest and
+there should be little to no peel paint
+under the eaves also moisture will
+typically occur around windows doors and
+the corners of buildings because that's
+where watertight sealant is most likely
+to fail these are two little things but
+they'll make a big difference to the
+believability of your texturing Moss
+will appear where it's dark and wet so
+wherever water might Splash or pull on
+the floor is a good place to put it and
+I also like putting some under the
+windows so it looks like the water
+leaked from the cell above it and leaks
+are more likely to appear beneath
+structural damage but honestly it can
+appear everywhere I replayed the Seattle
+scenes from The Last of Us while working
+on this and I realized that almost every
+building had a leak texture but it still
+looked plausible because of course rain
+can go sideways and hit the side of the
+house
+and while reference is important you
+also need to know when to simplify and
+exaggerate if you compare game texturing
+to real life reference you're
+immediately struck by how much more
+detail is in real photos but this is
+deliberate to make it more readable my
+first texturing attempt looks straight
+up noisy because I tried to add all the
+detail from a photo and it was just too
+much for the eye to understand so
+simplify and exaggerate create some big
+sections of peel paint then some
+medium-sized sections and a few smaller
+details here and there this will let
+your eye explore the building without
+feeling exhausted from all the chaos and
+by the way if you find that your brush
+feels too hard remember that the color
+burn technique works in the mid values
+so you need to use a lower brush
+strength and then you'll get all that
+texture detail start to come in for the
+balcony and window frames first merge
+them unwrap them then use the same
+siding material but make it its own
+material copy so that you can then use a
+new 1K mous texture to paint it
+separately for the house foundation I
+used this brick texture for all the
+sides desaturated it and darkened it and
+then this concrete texture for the top
+we want the same Moss leaks from the
+siding but copying all those nodes
+across would be tedious so instead just
+group the Moss and the leaks into a node
+group then add that node group to the
+new material and it'll be much easier to
+add in then create a brand new 1K Moss
+texture and do the painting just like
+before Moss at the bottom leaks from the
+top then for the roof I used this new
+texture set from polygon which just like
+the siding was designed to go together I
+used only the clean and fully Mossy
+versions which I blended between with
+the red Channel and for the green
+Channel I used that to blend in this
+photos scand Leaf flooring if you use a
+tiny brush with some jittering you can
+then paint in the appearance of smaller
+leaves scattered around the roof and I
+actually found this pretty fun to paint
+with you make the leaves gather where
+they logic L wood like Down The Ridges
+around the gutters and then you paint
+the Moss texture underneath that then to
+make the roof appear less flat you want
+to use displacement so take the
+displacement output put it through a
+displacement node then turn on true
+displacement for the material then last
+in your modifier stack add a Subs surf
+modifier with adaptive and the leaves
+will then pop off the roof and a final
+optional step is adding Ivy it's a bit
+beyond the scope of this tutorial but
+just quick I used the IV generator
+add-on but instead of the terrible
+leaves that it comes with I used this
+new Leaf outlas from polygon which was
+modeled onto new objects then scattered
+across the ivy stem with geometry nodes
+it's a bit of extra work but it does
+look good so if you want to copy the
+nodes here they are and we did it the
+rest of the scene is up to you but in
+this case this Seattle Last of Us
+inspired Scene It was trees plants a
+hydrant rubbish they were all collected
+from from various asset libraries and
+then used a set dressing across the
+scene to create the final
+animation big thanks to two of my staff
+Pavo pusi for creating the artwork and
+Bill Barber for breaking down the
+workflow guys if you enjoyed the video
+click like And subscribe then check out
+some of my other scene workflow videos
+which are on the screen right now thank
+you for watching and I hope to see you
+in a future video

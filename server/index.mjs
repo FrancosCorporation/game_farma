@@ -9,6 +9,7 @@ import { CASES } from '../src/data/cases.js';
 
 const ROOT = fileURLToPath(new URL('../dist/', import.meta.url));
 const PORT = process.env.PORT || 4174;
+const HOST = process.env.HOST || '127.0.0.1'; // em container, HOST=0.0.0.0 (ver Dockerfile)
 
 const MIME = {
   '.html': 'text/html; charset=utf-8',
@@ -69,6 +70,6 @@ const server = createServer(async (req, res) => {
   }
 });
 
-server.listen(PORT, '127.0.0.1', () => {
-  console.log(`FarmaCheck server → http://127.0.0.1:${PORT}  (POST /api/case/next)`);
+server.listen(PORT, HOST, () => {
+  console.log(`FarmaCheck server → http://${HOST}:${PORT}  (POST /api/case/next)`);
 });

@@ -1,0 +1,6184 @@
+Kind: captions
+Language: en
+foreign
+foreign
+foreign
+first person retro style character
+first person retro style character
+first person retro style character
+inside blender based on your references
+inside blender based on your references
+inside blender based on your references
+reference images of yourself a friend
+reference images of yourself a friend
+reference images of yourself a friend
+your cat
+your cat
+your cat
+so on in this video I'm going to explain
+so on in this video I'm going to explain
+so on in this video I'm going to explain
+step per step how to do that and
+step per step how to do that and
+step per step how to do that and
+um maybe there's a lot of stuff you
+um maybe there's a lot of stuff you
+um maybe there's a lot of stuff you
+already know maybe there's stuff you
+already know maybe there's stuff you
+already know maybe there's stuff you
+have never heard of and
+have never heard of and
+have never heard of and
+um the thing is
+um the thing is
+um the thing is
+approaching a third person character so
+approaching a third person character so
+approaching a third person character so
+full body person
+full body person
+full body person
+um model is a bit different to a retro
+um model is a bit different to a retro
+um model is a bit different to a retro
+FPS setup
+FPS setup
+FPS setup
+there are a lot of games out there
+there are a lot of games out there
+there are a lot of games out there
+um especially retro uh FPS shooter from
+um especially retro uh FPS shooter from
+um especially retro uh FPS shooter from
+the 90s
+the 90s
+the 90s
+that only used Sprites so flat
+that only used Sprites so flat
+that only used Sprites so flat
+um
+um
+um
+pixelated images of the of the hands and
+pixelated images of the of the hands and
+pixelated images of the of the hands and
+arms and the weapons and a lot of games
+arms and the weapons and a lot of games
+arms and the weapons and a lot of games
+that only show the the weapon
+that only show the the weapon
+that only show the the weapon
+and GoldenEye quake and Medal of Honor
+and GoldenEye quake and Medal of Honor
+and GoldenEye quake and Medal of Honor
+for example they used
+for example they used
+for example they used
+um yeah full on meshes for the arms and
+um yeah full on meshes for the arms and
+um yeah full on meshes for the arms and
+hands so and we will go in a direction
+hands so and we will go in a direction
+hands so and we will go in a direction
+like that we will go in a golden eye
+like that we will go in a golden eye
+like that we will go in a golden eye
+Medal of Honor Direction with this
+Medal of Honor Direction with this
+Medal of Honor Direction with this
+tutorial
+tutorial
+tutorial
+so in first stop first step we will talk
+so in first stop first step we will talk
+so in first stop first step we will talk
+about the right reference images for
+about the right reference images for
+about the right reference images for
+this project
+this project
+this project
+so the easiest way to get reference
+so the easiest way to get reference
+so the easiest way to get reference
+images for your for your character is
+images for your for your character is
+images for your for your character is
+just to straight up take pictures of a
+just to straight up take pictures of a
+just to straight up take pictures of a
+friend or yourself with a timer in your
+friend or yourself with a timer in your
+friend or yourself with a timer in your
+phone or the webcam I really did
+phone or the webcam I really did
+phone or the webcam I really did
+um just straight up made pictures I
+um just straight up made pictures I
+um just straight up made pictures I
+didn't try to make them look pretty or
+didn't try to make them look pretty or
+didn't try to make them look pretty or
+something I just
+something I just
+something I just
+um Drew over my face because nobody
+um Drew over my face because nobody
+um Drew over my face because nobody
+needs to see that and well so I made
+needs to see that and well so I made
+needs to see that and well so I made
+pictures of just the hand
+pictures of just the hand
+pictures of just the hand
+and the full on arm from every angle
+and the full on arm from every angle
+and the full on arm from every angle
+so
+so
+so
+um let's talk about the hand first
+um let's talk about the hand first
+um let's talk about the hand first
+so from the side view the bottom View
+so from the side view the bottom View
+so from the side view the bottom View
+and the top view and always with the
+and the top view and always with the
+and the top view and always with the
+spread out pointer because like I said
+spread out pointer because like I said
+spread out pointer because like I said
+we will Model A trigger finger
+we will Model A trigger finger
+we will Model A trigger finger
+um for you know holding and firing a gun
+um for you know holding and firing a gun
+um for you know holding and firing a gun
+and stuff and to this hand we have also
+and stuff and to this hand we have also
+and stuff and to this hand we have also
+reference images of the full arm for you
+reference images of the full arm for you
+reference images of the full arm for you
+know propulsion and shape reference
+know propulsion and shape reference
+know propulsion and shape reference
+also exactly the same top view bottom
+also exactly the same top view bottom
+also exactly the same top view bottom
+view side view
+view side view
+view side view
+and because I wasn't quite sure about
+and because I wasn't quite sure about
+and because I wasn't quite sure about
+the the look of the sleeved arm I also
+the the look of the sleeved arm I also
+the the look of the sleeved arm I also
+took pictures of a more you know you you
+took pictures of a more you know you you
+took pictures of a more you know you you
+will see the hand very close up in a
+will see the hand very close up in a
+will see the hand very close up in a
+first person game the visual dimension
+first person game the visual dimension
+first person game the visual dimension
+of your hand just a plank fleshy white
+of your hand just a plank fleshy white
+of your hand just a plank fleshy white
+skin hand will look kind of boring and
+skin hand will look kind of boring and
+skin hand will look kind of boring and
+an interesting glove for example will
+an interesting glove for example will
+an interesting glove for example will
+differentiate your gameplay and your
+differentiate your gameplay and your
+differentiate your gameplay and your
+character set up from other games and
+character set up from other games and
+character set up from other games and
+game projects
+game projects
+game projects
+so that's why I made
+so that's why I made
+so that's why I made
+um another bunch of reference images
+um another bunch of reference images
+um another bunch of reference images
+here from
+here from
+here from
+my hand with a glove with a
+my hand with a glove with a
+my hand with a glove with a
+leather glove also side view bottom View
+leather glove also side view bottom View
+leather glove also side view bottom View
+and
+and
+and
+top view also with the spread out
+top view also with the spread out
+top view also with the spread out
+pointer
+pointer
+pointer
+and
+here we have the full arm
+here we have the full arm
+here we have the full arm
+because I don't have sleeves in this
+because I don't have sleeves in this
+because I don't have sleeves in this
+image
+image
+image
+we see a bit of anatomy so we have here
+we see a bit of anatomy so we have here
+we see a bit of anatomy so we have here
+the the tip of the biceps and here we
+the the tip of the biceps and here we
+the the tip of the biceps and here we
+have the the edge of the bone
+have the the edge of the bone
+have the the edge of the bone
+so modeling wise the the sleeved arm
+so modeling wise the the sleeved arm
+so modeling wise the the sleeved arm
+it's easier because it's basically just
+it's easier because it's basically just
+it's easier because it's basically just
+a tube
+a tube
+a tube
+with a slight dip
+with a slight dip
+with a slight dip
+and for the arm we have to keep in mind
+and for the arm we have to keep in mind
+and for the arm we have to keep in mind
+a bit of anatomy so shoulder wise and
+a bit of anatomy so shoulder wise and
+a bit of anatomy so shoulder wise and
+biceps
+biceps
+biceps
+but yeah later on that so on this part
+but yeah later on that so on this part
+but yeah later on that so on this part
+you really have to decide I would
+you really have to decide I would
+you really have to decide I would
+recommend you just to wear a checkered
+recommend you just to wear a checkered
+recommend you just to wear a checkered
+use gloves or stuff like that or search
+use gloves or stuff like that or search
+use gloves or stuff like that or search
+for references online however you want
+for references online however you want
+for references online however you want
+to present your character that's totally
+to present your character that's totally
+to present your character that's totally
+up to you that's designing and
+up to you that's designing and
+up to you that's designing and
+also interesting colors like
+also interesting colors like
+also interesting colors like
+uh colors that pop out of the of the
+uh colors that pop out of the of the
+uh colors that pop out of the of the
+screen screen for the gloves or
+screen screen for the gloves or
+screen screen for the gloves or
+something or nail polish or something
+something or nail polish or something
+something or nail polish or something
+that will make already the the gameplay
+that will make already the the gameplay
+that will make already the the gameplay
+of your project way more interesting
+of your project way more interesting
+of your project way more interesting
+so I will go on this tutorial with this
+so I will go on this tutorial with this
+so I will go on this tutorial with this
+situation the T-shirt arm leather glove
+situation the T-shirt arm leather glove
+situation the T-shirt arm leather glove
+combo
+combo
+combo
+it looks a bit more interesting to me
+it looks a bit more interesting to me
+it looks a bit more interesting to me
+than than this
+than than this
+than than this
+so let's set up our reference images
+so let's set up our reference images
+so let's set up our reference images
+okay we are here inside an empty default
+okay we are here inside an empty default
+okay we are here inside an empty default
+uh seen inside blender
+uh seen inside blender
+uh seen inside blender
+first up let's give it a save so I'm in
+first up let's give it a save so I'm in
+first up let's give it a save so I'm in
+here folder and I have here a folder
+here folder and I have here a folder
+here folder and I have here a folder
+with the references inside that folder
+with the references inside that folder
+with the references inside that folder
+and already a folder for textures so
+and already a folder for textures so
+and already a folder for textures so
+just click here smash the little create
+just click here smash the little create
+just click here smash the little create
+new
+new
+new
+folder and you get the folder so let's
+folder and you get the folder so let's
+folder and you get the folder so let's
+call it
+call it
+call it
+right through f p
+right through f p
+right through f p
+PS
+humps
+okay nice
+okay nice
+okay nice
+so
+so
+so
+um
+um
+um
+for now let's delete the default Cube
+for now let's delete the default Cube
+for now let's delete the default Cube
+just select it and hit delete by the way
+just select it and hit delete by the way
+just select it and hit delete by the way
+here in the corner corner you will see
+here in the corner corner you will see
+here in the corner corner you will see
+what I'm pressing in this tutorial
+what I'm pressing in this tutorial
+what I'm pressing in this tutorial
+so let's create a new collection
+and let's call it arm to not get
+and let's call it arm to not get
+and let's call it arm to not get
+confused and the first collection let's
+confused and the first collection let's
+confused and the first collection let's
+call it
+call it
+call it
+base
+and for now drag across the light and
+and for now drag across the light and
+and for now drag across the light and
+the the camera and hit H to hide to
+the the camera and hit H to hide to
+the the camera and hit H to hide to
+bring it back just hit Alt
+bring it back just hit Alt
+bring it back just hit Alt
+h
+so now we have a clean view onto our
+so now we have a clean view onto our
+so now we have a clean view onto our
+viewport that total front view is here
+viewport that total front view is here
+viewport that total front view is here
+minus y
+minus y
+minus y
+and this is the total front view okay
+and this is the total front view okay
+and this is the total front view okay
+so select the base collection and hit
+so select the base collection and hit
+so select the base collection and hit
+shift a and empty and image
+now here under object data properties
+now here under object data properties
+now here under object data properties
+open
+open
+open
+now go inside your reference folder and
+now go inside your reference folder and
+now go inside your reference folder and
+we will start with
+we will start with
+we will start with
+um yeah just the arm
+I have here also reference images with
+I have here also reference images with
+I have here also reference images with
+spread out fingers
+spread out fingers
+spread out fingers
+that would be for you know if you wanna
+that would be for you know if you wanna
+that would be for you know if you wanna
+model all the fingers but that's
+model all the fingers but that's
+model all the fingers but that's
+actually something you can change later
+actually something you can change later
+actually something you can change later
+on anyway
+on anyway
+on anyway
+so let's pull this one up here
+so let's pull this one up here
+so let's pull this one up here
+drag this out on this little arrow
+drag this out on this little arrow
+drag this out on this little arrow
+item
+item
+item
+and let's rotate
+and let's rotate
+and let's rotate
+the image upwards on the x-axis 90
+the image upwards on the x-axis 90
+the image upwards on the x-axis 90
+degrees
+let's zoom in a bit
+and
+Skate It Up
+I don't know let's
+I don't know let's
+I don't know let's
+put it somewhere here
+or I for example I like to work on the
+or I for example I like to work on the
+or I for example I like to work on the
+other side
+so let's just turn it by 180
+and selected and hit G to drag around
+and selected and hit G to drag around
+and selected and hit G to drag around
+and I think I want I want the shoulders
+and I think I want I want the shoulders
+and I think I want I want the shoulders
+to be
+to be
+to be
+up
+up
+up
+up here or something
+up here or something
+up here or something
+okay
+now select the reference image and on
+now select the reference image and on
+now select the reference image and on
+the y-axis
+the y-axis
+the y-axis
+drag it back you can
+drag it back you can
+drag it back you can
+um move it up here on location or you go
+um move it up here on location or you go
+um move it up here on location or you go
+here inside
+here inside
+here inside
+the move tool and you just drag it back
+the move tool and you just drag it back
+the move tool and you just drag it back
+we want to have some kind of distance to
+we want to have some kind of distance to
+we want to have some kind of distance to
+the
+the
+the
+to the center of our map
+to the center of our map
+to the center of our map
+so okay
+let's check the
+let's check the
+let's check the
+let's check the the sizing of our um
+let's check the the sizing of our um
+let's check the the sizing of our um
+um for that
+I mean you can
+I mean you can
+I mean you can
+I have down here the feet and here the
+I have down here the feet and here the
+I have down here the feet and here the
+heads you can change it
+heads you can change it
+heads you can change it
+all the always afterwards if you want
+all the always afterwards if you want
+all the always afterwards if you want
+but let's check it with the default Cube
+but let's check it with the default Cube
+but let's check it with the default Cube
+the default cube is two meters tall
+the default cube is two meters tall
+the default cube is two meters tall
+so a total person would fit
+so a total person would fit
+so a total person would fit
+in the queue so the reference is a bit
+in the queue so the reference is a bit
+in the queue so the reference is a bit
+too big
+too big
+too big
+scale it a bit down so from
+from feet to top of head would be
+from feet to top of head would be
+from feet to top of head would be
+something like that
+now we can delete the default Cube again
+now we can delete the default Cube again
+now we can delete the default Cube again
+and
+so also what the
+so also what the
+so also what the
+um
+um
+um
+I would recommend you to go with real
+I would recommend you to go with real
+I would recommend you to go with real
+life measurements we have also hit the
+life measurements we have also hit the
+life measurements we have also hit the
+measurement tool
+measurement tool
+measurement tool
+and you can just
+and you can just
+and you can just
+drag across and
+drag across and
+drag across and
+measure the length of your arm or
+measure the length of your arm or
+measure the length of your arm or
+something
+something
+something
+foreign
+if we now keep the the scale in mind we
+if we now keep the the scale in mind we
+if we now keep the the scale in mind we
+don't have to change everything or mess
+don't have to change everything or mess
+don't have to change everything or mess
+around afterwards inside the game engine
+around afterwards inside the game engine
+around afterwards inside the game engine
+um
+um
+um
+but I mean it's possible it's not that
+but I mean it's possible it's not that
+but I mean it's possible it's not that
+bad if the scaling is is weird right now
+bad if the scaling is is weird right now
+bad if the scaling is is weird right now
+so and I think we can also create the
+so and I think we can also create the
+so and I think we can also create the
+the reference
+the reference
+the reference
+um for
+um for
+um for
+for the just the hand I think this is
+for the just the hand I think this is
+for the just the hand I think this is
+reference enough for the the total arm
+reference enough for the the total arm
+reference enough for the the total arm
+and the reference for the hand
+and the reference for the hand
+and the reference for the hand
+will be a separated one so let's select
+will be a separated one so let's select
+will be a separated one so let's select
+our reference
+shift d left click and drag it a bit
+shift d left click and drag it a bit
+shift d left click and drag it a bit
+forward and down here on the object data
+forward and down here on the object data
+forward and down here on the object data
+properties
+open image
+open image
+open image
+and let's take also the
+and let's take also the
+and let's take also the
+are the top view
+so
+so
+so
+now let's try to line up the reference
+now let's try to line up the reference
+now let's try to line up the reference
+images
+okay I think we have to mirror it
+and R and rotate
+and R and rotate
+and R and rotate
+opacity let's turn it a bit down
+and I like to create a slightly bigger
+and I like to create a slightly bigger
+and I like to create a slightly bigger
+hands
+and because we have separated
+um limps so hand and and arm
+um limps so hand and and arm
+um limps so hand and and arm
+we can change the scale
+we can change the scale
+we can change the scale
+all every time I mean we have always the
+all every time I mean we have always the
+all every time I mean we have always the
+opportunity to change the scale
+opportunity to change the scale
+opportunity to change the scale
+so okay let's bring the opacity back
+so okay let's bring the opacity back
+so okay let's bring the opacity back
+and let's keep everything organized
+and let's keep everything organized
+and let's keep everything organized
+let's call this
+let's call this
+let's call this
+ref
+ref
+ref
+hand and
+ref
+ref
+ref
+arm
+and for now let's hide the hint
+so let's
+so let's
+so let's
+control s to save the whole project
+control s to save the whole project
+control s to save the whole project
+because already we created them pretty
+because already we created them pretty
+because already we created them pretty
+nice setup
+nice setup
+nice setup
+with our references
+with our references
+with our references
+so let's click inside the arm folder and
+so let's click inside the arm folder and
+so let's click inside the arm folder and
+shift a
+shift a
+shift a
+Cube
+and
+and
+and
+scale it down
+to something around the height of the
+to something around the height of the
+to something around the height of the
+shoulder
+shoulder
+shoulder
+let's hit tap to switch into the edit
+let's hit tap to switch into the edit
+let's hit tap to switch into the edit
+mode and a
+and a to select everything and hit G
+and a to select everything and hit G
+and a to select everything and hit G
+to drag it to the position of the
+to drag it to the position of the
+to drag it to the position of the
+shoulder
+shoulder
+shoulder
+and
+and
+and
+um when we now switch back to the
+um when we now switch back to the
+um when we now switch back to the
+object mods the pivot point is still
+object mods the pivot point is still
+object mods the pivot point is still
+here in the center this allows us to
+here in the center this allows us to
+here in the center this allows us to
+mirror the cube
+mirror the cube
+mirror the cube
+one to one perfectly
+one to one perfectly
+one to one perfectly
+um if your Cube if the Pivot Point
+um if your Cube if the Pivot Point
+um if your Cube if the Pivot Point
+didn't stay in the middle
+didn't stay in the middle
+didn't stay in the middle
+so something like that and you dragged
+so something like that and you dragged
+so something like that and you dragged
+it here and the pivot point is in the
+it here and the pivot point is in the
+it here and the pivot point is in the
+middle
+middle
+middle
+just right click set Origins to origin
+just right click set Origins to origin
+just right click set Origins to origin
+3D cursor
+3D cursor
+3D cursor
+2D
+2D
+2D
+now it will jump back
+so and now let's apply the mirror
+so and now let's apply the mirror
+so and now let's apply the mirror
+modifier
+so here on the modify properties add
+so here on the modify properties add
+so here on the modify properties add
+modifier
+modifier
+modifier
+and mirror
+and mirror
+and mirror
+pretty easy so far
+so let's hit tap switch back into the
+so let's hit tap switch back into the
+so let's hit tap switch back into the
+edit mode
+edit mode
+edit mode
+and
+let's select the rotate tool or hit r on
+let's select the rotate tool or hit r on
+let's select the rotate tool or hit r on
+your keyboard and rotate and if we now
+your keyboard and rotate and if we now
+your keyboard and rotate and if we now
+hold
+hold
+hold
+while being in the rotate mode on the
+control
+control
+control
+you will snap to the grid
+you will snap to the grid
+you will snap to the grid
+so this is flexible but holding Ctrl
+so this is flexible but holding Ctrl
+so this is flexible but holding Ctrl
+while doing this will snap to the grid
+while doing this will snap to the grid
+while doing this will snap to the grid
+so I rotated
+so I rotated
+so I rotated
+um I think 40 45 degrees
+um I think 40 45 degrees
+um I think 40 45 degrees
+something like that
+okay
+okay
+okay
+and we will start with the shoulder and
+and we will start with the shoulder and
+and we will start with the shoulder and
+work our way down to the wrist uh to the
+work our way down to the wrist uh to the
+work our way down to the wrist uh to the
+wrist
+wrist
+wrist
+of the arm
+of the arm
+of the arm
+to get a
+to get a
+to get a
+pointy more Globe like
+pointy more Globe like
+pointy more Globe like
+um
+um
+um
+top of the of the shoulder
+top of the of the shoulder
+top of the of the shoulder
+we can do two things we can for example
+we can do two things we can for example
+we can do two things we can for example
+here use the knife tool
+here use the knife tool
+here use the knife tool
+and
+and
+and
+let's click left click and enter
+let's click left click and enter
+let's click left click and enter
+and cut through it
+and cut through it
+and cut through it
+something like that
+and then while being here in the
+and then while being here in the
+and then while being here in the
+vertices selection
+vertices selection
+vertices selection
+just drag the point out
+and yeah here we have vertices selection
+and yeah here we have vertices selection
+and yeah here we have vertices selection
+edits Edge selection we only select the
+edits Edge selection we only select the
+edits Edge selection we only select the
+edges and here's face selection
+and a bit I don't know a quicker move
+and a bit I don't know a quicker move
+and a bit I don't know a quicker move
+then this would be
+then this would be
+then this would be
+to select
+and let's hit M and Center
+now we have this little pyramid
+and if we now drag uh select across the
+and if we now drag uh select across the
+and if we now drag uh select across the
+bottom
+bottom
+bottom
+now we won't select the
+now we won't select the
+now we won't select the
+point the vertices Point behind it so we
+point the vertices Point behind it so we
+point the vertices Point behind it so we
+have to toggle here x ray toggle x-ray
+have to toggle here x ray toggle x-ray
+have to toggle here x ray toggle x-ray
+that way we we can toggle through
+that way we we can toggle through
+that way we we can toggle through
+objects
+objects
+objects
+all the way through so let's do that
+all the way through so let's do that
+all the way through so let's do that
+let's bring it up
+let's bring it up
+let's bring it up
+and let's hit e to extrude
+perfect
+so let's select everything and let's hit
+so let's select everything and let's hit
+so let's select everything and let's hit
+R to rotate and S to scale down
+R to rotate and S to scale down
+R to rotate and S to scale down
+let's try to find a nice point
+let's try to find a nice point
+let's try to find a nice point
+where the shoulder is
+where the shoulder is
+where the shoulder is
+coming into the Torso something like
+coming into the Torso something like
+coming into the Torso something like
+this
+direct select all of the points and to
+direct select all of the points and to
+direct select all of the points and to
+add something to your selection
+add something to your selection
+add something to your selection
+shift left drag
+yeah
+so
+so
+so
+here our base
+let's just straight up drag those points
+let's just straight up drag those points
+let's just straight up drag those points
+here to the wrist
+here to the wrist
+here to the wrist
+hit s to scale down
+hit s to scale down
+hit s to scale down
+and shaft there is put the wrist inside
+and shaft there is put the wrist inside
+and shaft there is put the wrist inside
+the glove
+the glove
+the glove
+yeah liked it
+and we have those tubes
+and we have those tubes
+and we have those tubes
+and now we can define those tubes with
+and now we can define those tubes with
+and now we can define those tubes with
+more geometry
+more geometry
+more geometry
+so cut Loop cut
+so cut Loop cut
+so cut Loop cut
+let's start in the middle
+let's start in the middle
+let's start in the middle
+um
+um
+um
+where the biceps is located here here's
+where the biceps is located here here's
+where the biceps is located here here's
+this little dip
+this little dip
+this little dip
+and if you have a jacket this point is
+and if you have a jacket this point is
+and if you have a jacket this point is
+maybe a bit
+maybe a bit
+maybe a bit
+um it's not that easy to find but
+um it's not that easy to find but
+um it's not that easy to find but
+basically just work with your eyesight
+basically just work with your eyesight
+basically just work with your eyesight
+whereas the middle of the arm
+whereas the middle of the arm
+whereas the middle of the arm
+and yeah let's Place one
+and yeah let's Place one
+and yeah let's Place one
+Loop slightly here's the middle
+Loop slightly here's the middle
+Loop slightly here's the middle
+slightly above
+slightly above
+slightly above
+and underneath
+okay
+and
+now you see here the silhouette of the
+now you see here the silhouette of the
+now you see here the silhouette of the
+arm and basically you now take just the
+arm and basically you now take just the
+arm and basically you now take just the
+points and drag them to the right
+points and drag them to the right
+points and drag them to the right
+position
+position
+position
+like that
+drag select
+now we can check again
+by rotating around it
+so let's zoom in again oh by the way if
+so let's zoom in again oh by the way if
+so let's zoom in again oh by the way if
+you're lost you can select everything or
+you're lost you can select everything or
+you're lost you can select everything or
+just the point
+just the point
+just the point
+and hit a period on the numpet and you
+and hit a period on the numpet and you
+and hit a period on the numpet and you
+will zoom in and focus
+will zoom in and focus
+will zoom in and focus
+um the selected thing and it will be the
+um the selected thing and it will be the
+um the selected thing and it will be the
+new center of your scene it's very handy
+new center of your scene it's very handy
+new center of your scene it's very handy
+to navigate around and to model
+to navigate around and to model
+to navigate around and to model
+so I think we should also insert uh
+so I think we should also insert uh
+so I think we should also insert uh
+another Edge Loop up here
+just for aesthetic reasons
+to give the shoulder more roundness
+and more volume so
+something like that
+let me drag it a bit closer
+and as you can see here the arm is
+and as you can see here the arm is
+and as you can see here the arm is
+coming a bit out so let's do the two
+coming a bit out so let's do the two
+coming a bit out so let's do the two
+let's imagine
+let's imagine
+let's imagine
+this section here a bit and here also
+this section here a bit and here also
+this section here a bit and here also
+to buff up the the silhouette
+to buff up the the silhouette
+to buff up the the silhouette
+and
+and
+and
+print this a bit more inwards
+print this a bit more inwards
+print this a bit more inwards
+like that
+so up front it's currently looking like
+so up front it's currently looking like
+so up front it's currently looking like
+that
+that
+that
+looks pretty arm-like to me
+looks pretty arm-like to me
+looks pretty arm-like to me
+and maybe those points a bit
+okay
+so let's switch to the side view
+so let's switch to the side view
+so let's switch to the side view
+this still looks like a tube and we want
+this still looks like a tube and we want
+this still looks like a tube and we want
+it to look more like your arm
+it to look more like your arm
+it to look more like your arm
+so to do that
+so to do that
+so to do that
+um
+um
+um
+now let's work with the straight here on
+now let's work with the straight here on
+now let's work with the straight here on
+the Gizmo straight up the X
+the Gizmo straight up the X
+the Gizmo straight up the X
+not the minus X the X
+not the minus X the X
+not the minus X the X
+let's buff up the arm a bit here
+and let's bring this point a bit more
+and let's bring this point a bit more
+and let's bring this point a bit more
+inwards
+and this point a bit more outwards and
+and this point a bit more outwards and
+and this point a bit more outwards and
+up
+so now it looks a bit more arm like
+something like that
+and to make it even more arm-like
+and to make it even more arm-like
+and to make it even more arm-like
+um we can drag select
+um we can drag select
+um we can drag select
+this Middle Point here
+and let's just you find the spot where
+and let's just you find the spot where
+and let's just you find the spot where
+we can look straight at it
+we can look straight at it
+we can look straight at it
+something like that it doesn't matter
+something like that it doesn't matter
+something like that it doesn't matter
+and hit r
+and hit r
+and hit r
+and rotate it forward
+bring this a bit more in this a bit more
+bring this a bit more in this a bit more
+bring this a bit more in this a bit more
+out
+out
+out
+and this part here
+and this part here
+and this part here
+there is forward
+so now it's way more organic looking way
+so now it's way more organic looking way
+so now it's way more organic looking way
+more arm like
+perfect
+so I mean you can still play around here
+so I mean you can still play around here
+so I mean you can still play around here
+with the positioning uh
+with the positioning uh
+with the positioning uh
+and stuff
+something like more up here or something
+something like more up here or something
+something like more up here or something
+it's totally up to you
+and yeah you get very fast very lost in
+and yeah you get very fast very lost in
+and yeah you get very fast very lost in
+the process
+the process
+the process
+and I would recommend you to adjust it
+and I would recommend you to adjust it
+and I would recommend you to adjust it
+I would recommend you to just take your
+I would recommend you to just take your
+I would recommend you to just take your
+time and you can always add more
+time and you can always add more
+time and you can always add more
+geometry but I think that's
+geometry but I think that's
+geometry but I think that's
+the the basic geometry the the necessary
+the the basic geometry the the necessary
+the the basic geometry the the necessary
+geometry
+geometry
+geometry
+but we can also do the same special move
+but we can also do the same special move
+but we can also do the same special move
+we did here with the with the elbow
+we did here with the with the elbow
+we did here with the with the elbow
+drag select the shoulder and rotate it
+drag select the shoulder and rotate it
+drag select the shoulder and rotate it
+inwards
+like that
+like that
+like that
+to give it a more organic looking shape
+to give it a more organic looking shape
+to give it a more organic looking shape
+yeah and like I said you can always
+yeah and like I said you can always
+yeah and like I said you can always
+tweak around but let's go with that for
+tweak around but let's go with that for
+tweak around but let's go with that for
+now
+now
+now
+so time to attack the hand itself
+so let's go back into the edit mode and
+so let's go back into the edit mode and
+so let's go back into the edit mode and
+for now we can name those cubes
+for now we can name those cubes
+for now we can name those cubes
+arm
+and uh we can hide the
+and uh we can hide the
+and uh we can hide the
+because we already synced up the the
+because we already synced up the the
+because we already synced up the the
+scale of the hand texture uh the hand
+scale of the hand texture uh the hand
+scale of the hand texture uh the hand
+reference we can now hide the arm
+reference we can now hide the arm
+reference we can now hide the arm
+and
+and
+and
+we can
+we can
+we can
+don't change the scale because we
+don't change the scale because we
+don't change the scale because we
+matched it up with the rest of the arm
+matched it up with the rest of the arm
+matched it up with the rest of the arm
+we can bring it more to the middle so
+we can bring it more to the middle so
+we can bring it more to the middle so
+here on location
+here on location
+here on location
+zero zero zero
+for the rotation
+let's try to
+let's try to
+let's try to
+I don't know let's
+I don't know let's
+I don't know let's
+let's sit the arm
+to a position like
+to a position like
+to a position like
+like that
+like that
+like that
+okay nice
+okay nice
+okay nice
+so we can hide the arms here on
+so we can hide the arms here on
+so we can hide the arms here on
+the height or we just click it and press
+the height or we just click it and press
+the height or we just click it and press
+h
+h
+h
+and now we can continue and attack the
+and now we can continue and attack the
+and now we can continue and attack the
+hand itself
+hand itself
+hand itself
+and well um like I said you can do
+and well um like I said you can do
+and well um like I said you can do
+individual fingers but
+individual fingers but
+individual fingers but
+um for this retro golden eye
+um for this retro golden eye
+um for this retro golden eye
+Vibe
+Vibe
+Vibe
+um
+it's totally enough to have the trigger
+it's totally enough to have the trigger
+it's totally enough to have the trigger
+finger and but I mean that's up to you
+finger and but I mean that's up to you
+finger and but I mean that's up to you
+um
+um
+um
+I will explain this way
+I will explain this way
+I will explain this way
+of doing it so
+of doing it so
+of doing it so
+um
+um
+um
+let's also no we I think we can
+let's also no we I think we can
+let's also no we I think we can
+let's work with only this reference
+let's work with only this reference
+let's work with only this reference
+let's drag it back
+let's drag it back
+let's drag it back
+and let's insert a new Cube select the
+and let's insert a new Cube select the
+and let's insert a new Cube select the
+collection arm
+collection arm
+collection arm
+mesh
+mesh
+mesh
+Cube
+Cube
+Cube
+scale it all the way down
+until it matches the the silhouette
+something like that
+and now let's select the cube and
+make sure to have the X-ray still
+make sure to have the X-ray still
+make sure to have the X-ray still
+toggled drag select across the top
+toggled drag select across the top
+toggled drag select across the top
+and I mean let's start with the bottom
+and I mean let's start with the bottom
+and I mean let's start with the bottom
+and now again we will Trace out the arm
+very very roughly and later on we will
+very very roughly and later on we will
+very very roughly and later on we will
+um
+um
+um
+we will go more into into the details
+we will go more into into the details
+we will go more into into the details
+let's hit e to extrude
+let's hit e to extrude
+let's hit e to extrude
+to here to a line under the knuckles
+and let's hit
+and let's hit
+and let's hit
+oh
+oh
+oh
+yeah let's
+yeah let's
+yeah let's
+try it like that for now
+what
+what
+what
+let's see the edge loop loop cut and I
+let's see the edge loop loop cut and I
+let's see the edge loop loop cut and I
+think you already see it coming we try
+think you already see it coming we try
+think you already see it coming we try
+to line up here
+to line up here
+to line up here
+so
+Loop cut
+here
+that switch back to the move tool we are
+that switch back to the move tool we are
+that switch back to the move tool we are
+still inside the vertex selection let's
+still inside the vertex selection let's
+still inside the vertex selection let's
+drag those points up
+to their endpoints
+for now we will only attack the the
+for now we will only attack the the
+for now we will only attack the the
+fingers above
+like that
+looks let's extrude the first finger the
+looks let's extrude the first finger the
+looks let's extrude the first finger the
+pointer
+like that very roughly
+like that very roughly
+like that very roughly
+make sure to only select the needed
+make sure to only select the needed
+make sure to only select the needed
+vertices again e to extrude
+vertices again e to extrude
+vertices again e to extrude
+like that
+bring this one a bit more inwards
+okay I know the the small thing is a bit
+okay I know the the small thing is a bit
+okay I know the the small thing is a bit
+smaller but let's work with that right
+smaller but let's work with that right
+smaller but let's work with that right
+now
+now
+now
+so the thickness we can already change
+so the thickness we can already change
+so the thickness we can already change
+that let's go to the x-axis let's try to
+that let's go to the x-axis let's try to
+that let's go to the x-axis let's try to
+find a nice Middle Ground
+something like or let's hit a select
+something like or let's hit a select
+something like or let's hit a select
+everything switch into the uh scale tool
+everything switch into the uh scale tool
+everything switch into the uh scale tool
+and only scale on the green on the
+and only scale on the green on the
+and only scale on the green on the
+y-axis
+y-axis
+y-axis
+something like this
+this makes sense for the thickness
+so
+let's try to narrow down the the
+let's try to narrow down the the
+let's try to narrow down the the
+silhouette a bit better
+suppose so good and for the thumb
+suppose so good and for the thumb
+suppose so good and for the thumb
+so we have two ways to approach this uh
+so we have two ways to approach this uh
+so we have two ways to approach this uh
+we can extrude
+we can extrude
+we can extrude
+uh the plane if we switch here into face
+uh the plane if we switch here into face
+uh the plane if we switch here into face
+selection
+selection
+selection
+we can
+untuckle the X-ray to see better the
+untuckle the X-ray to see better the
+untuckle the X-ray to see better the
+faces or we work with
+faces or we work with
+faces or we work with
+with the X-ray then we have to be
+with the X-ray then we have to be
+with the X-ray then we have to be
+careful to not select something on the
+careful to not select something on the
+careful to not select something on the
+other side so we can basically just
+other side so we can basically just
+other side so we can basically just
+extrude here
+extrude here
+extrude here
+the
+the
+the
+you know
+you know
+you know
+the face
+the face
+the face
+would be the the easy way but I think
+would be the the easy way but I think
+would be the the easy way but I think
+it's not very aesthetic if you ask me
+it's not very aesthetic if you ask me
+it's not very aesthetic if you ask me
+I think personally it makes more sense
+I think personally it makes more sense
+I think personally it makes more sense
+to separate the thumb also
+to separate the thumb also
+to separate the thumb also
+so let's select this face here
+so let's select this face here
+so let's select this face here
+and let's only duplicate this face so
+and let's only duplicate this face so
+and let's only duplicate this face so
+CTR shift d
+CTR shift d
+CTR shift d
+and
+and
+and
+drag it a bit forward
+drag it a bit forward
+drag it a bit forward
+left click
+left click
+left click
+now we have only this here
+now we have only this here
+now we have only this here
+let's untuckle the x-ray vision for now
+let's untuckle the x-ray vision for now
+let's untuckle the x-ray vision for now
+and let's
+scale it down to the thickness of the
+scale it down to the thickness of the
+scale it down to the thickness of the
+thumb
+thumb
+thumb
+should you have everything
+should you have everything
+should you have everything
+uh
+uh
+uh
+so okay
+so okay
+so okay
+okay so now select everything or select
+okay so now select everything or select
+okay so now select everything or select
+the whole face with space selection
+the whole face with space selection
+the whole face with space selection
+that's it e to extrude
+just like that
+just like that
+just like that
+let's
+let's
+let's
+scale it down a bit
+scale it down a bit
+scale it down a bit
+like that
+like that
+like that
+and let's switch back into the
+and let's switch back into the
+and let's switch back into the
+x-ray
+x-ray
+x-ray
+drag select those vertices drag select
+drag select those vertices drag select
+drag select those vertices drag select
+those vertices be careful here on this
+those vertices be careful here on this
+those vertices be careful here on this
+Edge
+Edge
+Edge
+let's check those just straight up in
+and
+so let's attack the front view first
+so let's attack the front view first
+so let's attack the front view first
+again basically we just have to align
+and let's hit e again
+oh if I scale down here it gets uh the
+oh if I scale down here it gets uh the
+oh if I scale down here it gets uh the
+finger gets smaller and smaller
+so let's just take the vertices and Shop
+so let's just take the vertices and Shop
+so let's just take the vertices and Shop
+it to the right direction like that
+it to the right direction like that
+it to the right direction like that
+here
+and we have clearly here again
+oh let's just drag it out
+just like that
+yeah let's do it like this look uh for
+yeah let's do it like this look uh for
+yeah let's do it like this look uh for
+now
+so
+so
+so
+now let's just
+now let's just
+now let's just
+select the finger
+select the finger
+select the finger
+for that select one vertices and hit the
+for that select one vertices and hit the
+for that select one vertices and hit the
+L
+L
+L
+button to select only the separated
+button to select only the separated
+button to select only the separated
+this allows you to only separate
+this allows you to only separate
+this allows you to only separate
+um closed meshes
+um closed meshes
+um closed meshes
+so if you work with a lot of different
+so if you work with a lot of different
+so if you work with a lot of different
+separated meshes you can select them by
+separated meshes you can select them by
+separated meshes you can select them by
+be it this feature so
+be it this feature so
+be it this feature so
+okay
+okay
+okay
+let's bring it a bit forward and R to
+let's bring it a bit forward and R to
+let's bring it a bit forward and R to
+rotate
+like this
+we get more organic looking
+we get more organic looking
+we get more organic looking
+um situation with the thumb
+now we can again rotate a bit around it
+now we can again rotate a bit around it
+now we can again rotate a bit around it
+and
+and
+and
+wait let's switch into the object mode
+wait let's switch into the object mode
+wait let's switch into the object mode
+Let's drag the reference a bit more
+Let's drag the reference a bit more
+Let's drag the reference a bit more
+backwards
+backwards
+backwards
+tap to switch back into the object uh to
+tap to switch back into the object uh to
+tap to switch back into the object uh to
+the our select the hand and tap
+the our select the hand and tap
+the our select the hand and tap
+so and it looks very flat right now we
+so and it looks very flat right now we
+so and it looks very flat right now we
+can bring in even more
+um shaping
+um shaping
+um shaping
+to the to the hand for that
+to the to the hand for that
+to the to the hand for that
+let's select those middle points
+like that
+like that
+like that
+let's drag them out
+let's drag them out
+let's drag them out
+so we have here
+so we have here
+so we have here
+wait until the X revision
+wait until the X revision
+wait until the X revision
+so it gets here a bit more inwards
+so it gets here a bit more inwards
+so it gets here a bit more inwards
+you can Center this point a bit
+you can Center this point a bit
+you can Center this point a bit
+and Here Also let's enter it
+and
+those points here
+those points here
+those points here
+let's hit oh let's do that later
+so we can
+try
+to make the bottom part a bit more
+to make the bottom part a bit more
+to make the bottom part a bit more
+rounded
+so we get a more glove-like
+so we get a more glove-like
+so we get a more glove-like
+um silhouette
+and okay for for shaping wise I think we
+and okay for for shaping wise I think we
+and okay for for shaping wise I think we
+should now attack the the fingers
+let's untangle uh toggle that extra
+let's untangle uh toggle that extra
+let's untangle uh toggle that extra
+Vision again
+we have to ignore this part
+I know it's not lining up with the
+I know it's not lining up with the
+I know it's not lining up with the
+reference but uh later on that for now
+reference but uh later on that for now
+reference but uh later on that for now
+well you know what
+well you know what
+well you know what
+um
+um
+um
+let's
+let's
+let's
+left click on the vertices L and hit H
+left click on the vertices L and hit H
+left click on the vertices L and hit H
+let's hide the thumb for now you can
+let's hide the thumb for now you can
+let's hide the thumb for now you can
+always bring it back with alt h
+always bring it back with alt h
+always bring it back with alt h
+but for now let's hide it and let's
+but for now let's hide it and let's
+but for now let's hide it and let's
+focus just on
+focus just on
+focus just on
+the knuckles here
+the knuckles here
+the knuckles here
+so for animating and for movement uh we
+so for animating and for movement uh we
+so for animating and for movement uh we
+need to bring in more geometry
+need to bring in more geometry
+need to bring in more geometry
+and
+and
+and
+um basically a lot of games back then
+um basically a lot of games back then
+um basically a lot of games back then
+did joint Jimmy Tree on on
+did joint Jimmy Tree on on
+did joint Jimmy Tree on on
+you know on on fingers and joint parts
+you know on on fingers and joint parts
+you know on on fingers and joint parts
+and
+and
+and
+for articulation and
+for articulation and
+for articulation and
+um but to avoid stretching you can
+um but to avoid stretching you can
+um but to avoid stretching you can
+disconnect them and again create
+disconnect them and again create
+disconnect them and again create
+separated body parts but we won't do
+separated body parts but we won't do
+separated body parts but we won't do
+that I think personally it looks better
+that I think personally it looks better
+that I think personally it looks better
+that way so we have one major breaking
+that way so we have one major breaking
+that way so we have one major breaking
+point for the geometry and it's here on
+point for the geometry and it's here on
+point for the geometry and it's here on
+the knuckles
+the knuckles
+the knuckles
+so Loop cut and bring it all the way up
+so Loop cut and bring it all the way up
+so Loop cut and bring it all the way up
+like that just like we did with the
+like that just like we did with the
+like that just like we did with the
+elbow
+elbow
+elbow
+now we can bring those points a bit more
+now we can bring those points a bit more
+now we can bring those points a bit more
+more
+more
+more
+upwards
+yeah
+yeah
+yeah
+and if you're looking at your own hand
+and if you're looking at your own hand
+and if you're looking at your own hand
+you have
+you have
+you have
+um
+um
+um
+one small joint here
+one small joint here
+one small joint here
+and one big
+and one big
+and one big
+finger bone knuckle joint here
+finger bone knuckle joint here
+finger bone knuckle joint here
+so it's the thing is separated in three
+so it's the thing is separated in three
+so it's the thing is separated in three
+parts
+parts
+parts
+so we have to bring in those Edge loops
+so we have to bring in those Edge loops
+so we have to bring in those Edge loops
+and I know it's again breaking the
+and I know it's again breaking the
+and I know it's again breaking the
+reference but let's drag select
+reference but let's drag select
+reference but let's drag select
+them
+them
+them
+and drag them a bit out
+like that
+tune the reference if you photograph
+tune the reference if you photograph
+tune the reference if you photograph
+your your own fingers it's it's easier
+your your own fingers it's it's easier
+your your own fingers it's it's easier
+to see where the the the joints of your
+to see where the the the joints of your
+to see where the the the joints of your
+fingers are but here it's a bit more
+fingers are but here it's a bit more
+fingers are but here it's a bit more
+difficult
+difficult
+difficult
+but it's clearly around here
+but it's clearly around here
+but it's clearly around here
+so let's bring in here the joint and
+so let's bring in here the joint and
+so let's bring in here the joint and
+here on top
+here on top
+here on top
+and here on top
+so that way we can bend
+so that way we can bend
+so that way we can bend
+our fingers
+and if you want to avoid stretching and
+and if you want to avoid stretching and
+and if you want to avoid stretching and
+stuff
+stuff
+stuff
+you can simply bring in another Edge
+you can simply bring in another Edge
+you can simply bring in another Edge
+Loop
+like that
+like that
+like that
+but I mean in theory you can do that
+but I mean in theory you can do that
+but I mean in theory you can do that
+anyway afterwards
+anyway afterwards
+anyway afterwards
+so
+so
+so
+that's for now
+that's for now
+that's for now
+ignore it
+so now we can attack again a bit the the
+so now we can attack again a bit the the
+so now we can attack again a bit the the
+reshaping of the hands
+reshaping of the hands
+reshaping of the hands
+we can bring here a bit
+you can get a more rounded
+you can get a more rounded
+you can get a more rounded
+shape
+and
+now let's
+now let's
+now let's
+enter the x-ray vision select those
+enter the x-ray vision select those
+enter the x-ray vision select those
+parts
+parts
+parts
+and hit s and scale down
+and bring them back
+just like that
+now let's take those parts
+bring them
+bring them
+bring them
+oh uh from the other side
+so those points here
+so those points here
+so those points here
+shift left click shift left click and
+shift left click shift left click and
+shift left click shift left click and
+bring them forward
+bring them forward
+bring them forward
+down
+down
+down
+like that
+that's looking even more organically
+that's looking even more organically
+that's looking even more organically
+let's hit alt H to bring back the the
+let's hit alt H to bring back the the
+let's hit alt H to bring back the the
+thumb
+and a thing for glove or forehand it
+and a thing for glove or forehand it
+and a thing for glove or forehand it
+should be exactly the same situation
+so let's adjust our situation with the
+so let's adjust our situation with the
+so let's adjust our situation with the
+thumb here
+thumb here
+thumb here
+spring worked back to the X-ray vision
+spring worked back to the X-ray vision
+spring worked back to the X-ray vision
+take the top
+take the top
+take the top
+extrude it a bit more
+extrude it a bit more
+extrude it a bit more
+and here
+and here
+and here
+let's bring that one a bit more in
+also here
+nothing for the farm you you should
+nothing for the farm you you should
+nothing for the farm you you should
+maybe
+maybe
+maybe
+um rotate a bit more around
+uh the hand
+uh the hand
+uh the hand
+to get a better understanding of the the
+to get a better understanding of the the
+to get a better understanding of the the
+current situation
+and basically the the fingernail sits
+and basically the the fingernail sits
+and basically the the fingernail sits
+is here on top here on top and here it's
+is here on top here on top and here it's
+is here on top here on top and here it's
+for the thumb it's here on this side on
+for the thumb it's here on this side on
+for the thumb it's here on this side on
+the outer side
+the outer side
+the outer side
+on the outside
+okay
+let's bring the bottom part
+more forward
+and those in between points
+and those in between points
+and those in between points
+to bring them even more down
+just like that
+just like that
+just like that
+and like I said this should be one to
+and like I said this should be one to
+and like I said this should be one to
+one the same situation for your um for
+one the same situation for your um for
+one the same situation for your um for
+your hand
+your hand
+your hand
+and
+now again you can revisit the the parts
+now again you can revisit the the parts
+now again you can revisit the the parts
+and uh play around and just even more
+and uh play around and just even more
+and uh play around and just even more
+the
+you know the placing
+and yeah that's again up to you
+and yeah that's again up to you
+and yeah that's again up to you
+I will bring it a bit more down
+also here
+and also this part
+so
+so
+so
+I think it looks pretty nice
+I think it looks pretty nice
+I think it looks pretty nice
+maybe the thumb is a bit too thick
+maybe the thumb is a bit too thick
+maybe the thumb is a bit too thick
+hide the main hand l
+hide the main hand l
+hide the main hand l
+h
+and
+so like I said here is the fingernail
+so here's the fingernails so the inside
+so here's the fingernails so the inside
+so here's the fingernails so the inside
+we want to scale down the inside a bit
+like that
+so that's it alt H bring everything back
+so that's it alt H bring everything back
+so that's it alt H bring everything back
+and I think we're done I mean we can
+and I think we're done I mean we can
+and I think we're done I mean we can
+still
+still
+still
+um add more geometry and
+um add more geometry and
+um add more geometry and
+add more Edge Loops but this this is
+add more Edge Loops but this this is
+add more Edge Loops but this this is
+base that really the bare minimum
+base that really the bare minimum
+base that really the bare minimum
+and yeah like I said normally on a third
+and yeah like I said normally on a third
+and yeah like I said normally on a third
+person character you would have a
+person character you would have a
+person character you would have a
+flipper hand so
+flipper hand so
+flipper hand so
+um
+um
+um
+uh imagine this part
+uh imagine this part
+uh imagine this part
+so the the pointers and here we have
+so the the pointers and here we have
+so the the pointers and here we have
+just The Flipper hand and the thumb
+just The Flipper hand and the thumb
+just The Flipper hand and the thumb
+and yeah let's roll with that let's name
+and yeah let's roll with that let's name
+and yeah let's roll with that let's name
+our hands here
+our hands here
+our hands here
+Cube and call it
+Cube and call it
+Cube and call it
+hands
+so let's bring back our arm
+so let's bring back our arm
+so let's bring back our arm
+take the hand you can hide the reference
+take the hand you can hide the reference
+take the hand you can hide the reference
+take the hand
+take the hand
+take the hand
+and let's just
+and let's just
+and let's just
+use the move tool or G
+use the move tool or G
+use the move tool or G
+drag it to the end point of the sleeve
+drag it to the end point of the sleeve
+drag it to the end point of the sleeve
+let's rotate it in place
+just like that
+from the side view
+and
+we want to rotate it locally so let's
+we want to rotate it locally so let's
+we want to rotate it locally so let's
+change your Global to local
+change your Global to local
+change your Global to local
+now the the gizmos based on the on the
+now the the gizmos based on the on the
+now the the gizmos based on the on the
+rotation of the mesh itself let's rotate
+rotation of the mesh itself let's rotate
+rotation of the mesh itself let's rotate
+on the blue one
+on the blue one
+on the blue one
+like this
+like this
+like this
+to get a nice default pose
+change back
+so I think you wanna
+so I think you wanna
+so I think you wanna
+G drag it a bit more back
+like that yeah nice
+nice
+and let's watch the whole thing here on
+and let's watch the whole thing here on
+and let's watch the whole thing here on
+the material preview
+foreign
+that works Maybe
+that works Maybe
+that works Maybe
+it selected and tab maybe let's
+it selected and tab maybe let's
+it selected and tab maybe let's
+bring this party a bit more outwards it
+bring this party a bit more outwards it
+bring this party a bit more outwards it
+looks very glove-like
+looks very glove-like
+looks very glove-like
+untoggle the X-ray
+untoggle the X-ray
+untoggle the X-ray
+you don't have to watch it's necessary
+you don't have to watch it's necessary
+you don't have to watch it's necessary
+to watch inside
+just drag the points a bit more out
+okay
+okay
+okay
+let's roll with this
+and yeah and for now I think now we
+and yeah and for now I think now we
+and yeah and for now I think now we
+reached a pretty nice point to make a
+reached a pretty nice point to make a
+reached a pretty nice point to make a
+backup so let's take our collection
+backup so let's take our collection
+backup so let's take our collection
+select left click right click duplicate
+select left click right click duplicate
+select left click right click duplicate
+collection
+collection
+collection
+and double click and let's call it
+and double click and let's call it
+and double click and let's call it
+back
+back
+back
+up
+up
+up
+and uncheck the check mark here
+and uncheck the check mark here
+and uncheck the check mark here
+so we have this hidden folder of our
+so we have this hidden folder of our
+so we have this hidden folder of our
+current situation
+current situation
+current situation
+and now we can just
+I think it's
+I think it's
+I think it's
+maybe a bit forward like that
+maybe a bit forward like that
+maybe a bit forward like that
+very slightly now just drag select
+very slightly now just drag select
+very slightly now just drag select
+across the whole arm
+across the whole arm
+across the whole arm
+and
+or you can also do the same thing here
+or you can also do the same thing here
+or you can also do the same thing here
+left click and
+left click and
+left click and
+control left click
+control left click
+control left click
+and everything that's
+and everything that's
+and everything that's
+um the current match that framed with
+um the current match that framed with
+um the current match that framed with
+this where
+this where
+this where
+in this will be combined so inwards
+in this will be combined so inwards
+in this will be combined so inwards
+and currently we have on the arm here
+and currently we have on the arm here
+and currently we have on the arm here
+our mirror modifier and not on the hand
+our mirror modifier and not on the hand
+our mirror modifier and not on the hand
+so if we copy inside the arm the mirror
+so if we copy inside the arm the mirror
+so if we copy inside the arm the mirror
+modifier will also apply onto the
+modifier will also apply onto the
+modifier will also apply onto the
+onto the head
+onto the head
+onto the head
+so let's hit Ctrl J
+so let's hit Ctrl J
+so let's hit Ctrl J
+and as you can see we we mirrored um our
+and as you can see we we mirrored um our
+and as you can see we we mirrored um our
+hand and we joined
+hand and we joined
+hand and we joined
+um both separated parts and we have the
+um both separated parts and we have the
+um both separated parts and we have the
+base we modeled the base setup
+base we modeled the base setup
+base we modeled the base setup
+of our arm
+of our arm
+of our arm
+let's bring back the reference
+let's bring back the reference
+let's bring back the reference
+and we are very close to that
+and we are very close to that
+and we are very close to that
+I know the scale like like I said the
+I know the scale like like I said the
+I know the scale like like I said the
+scale is a bit off but photos can very
+scale is a bit off but photos can very
+scale is a bit off but photos can very
+often
+often
+often
+um display
+um display
+um display
+scale a bit different based on focal
+scale a bit different based on focal
+scale a bit different based on focal
+length and stuff so
+length and stuff so
+length and stuff so
+um
+um
+um
+it's a difficult topic to scale
+it's a difficult topic to scale
+it's a difficult topic to scale
+so but I extended as you can see I
+so but I extended as you can see I
+so but I extended as you can see I
+extended the the uh the tips of the of
+extended the the uh the tips of the of
+extended the the uh the tips of the of
+the fingers a bit but it's still it it
+the fingers a bit but it's still it it
+the fingers a bit but it's still it it
+looks right if it looks right
+looks right if it looks right
+looks right if it looks right
+and do your controls from all the angles
+and do your controls from all the angles
+and do your controls from all the angles
+angles
+angles
+angles
+um if it looks right it's maybe right
+um if it looks right it's maybe right
+um if it looks right it's maybe right
+and here yet now let's head to UV
+and here yet now let's head to UV
+and here yet now let's head to UV
+unwrapping
+unwrapping
+unwrapping
+and um because we have a mirrored
+and um because we have a mirrored
+and um because we have a mirrored
+situation we can for now
+situation we can for now
+situation we can for now
+here on the the modifier tab
+here on the the modifier tab
+here on the the modifier tab
+display viewport we can untoggle that
+display viewport we can untoggle that
+display viewport we can untoggle that
+so the other side is not visible we only
+so the other side is not visible we only
+so the other side is not visible we only
+need to attack one site
+need to attack one site
+need to attack one site
+so
+so
+so
+um let's select our arm and here on the
+um let's select our arm and here on the
+um let's select our arm and here on the
+material properties click and hit new
+material properties click and hit new
+material properties click and hit new
+material
+material
+material
+let's call it
+let's call it
+let's call it
+FPS
+FPS
+FPS
+arm
+arm
+arm
+FPS arm why not
+FPS arm why not
+FPS arm why not
+and down here we have currently the
+and down here we have currently the
+and down here we have currently the
+principal bsdf
+principal bsdf
+principal bsdf
+base color and let's hit that and select
+base color and let's hit that and select
+base color and let's hit that and select
+image texture
+and now hit new
+and now hit new
+and now hit new
+so and basically I'm aiming for a nice
+so and basically I'm aiming for a nice
+so and basically I'm aiming for a nice
+retro
+retro
+retro
+middle ground with the texture size
+middle ground with the texture size
+middle ground with the texture size
+you can go lower or higher than that
+you can go lower or higher than that
+you can go lower or higher than that
+that's up to you I will go with 256 by
+that's up to you I will go with 256 by
+that's up to you I will go with 256 by
+256.
+256.
+256.
+um
+um
+um
+lower than that or higher than that
+lower than that or higher than that
+lower than that or higher than that
+however you like I like the
+however you like I like the
+however you like I like the
+um you have to keep in mind you will see
+um you have to keep in mind you will see
+um you have to keep in mind you will see
+the the arms very close up to the player
+the the arms very close up to the player
+the the arms very close up to the player
+character in a first person character on
+character in a first person character on
+character in a first person character on
+a first person character and the amount
+a first person character and the amount
+a first person character and the amount
+of pixelation
+of pixelation
+of pixelation
+is still in a nice balance with the
+is still in a nice balance with the
+is still in a nice balance with the
+details of the texture
+details of the texture
+details of the texture
+so yeah
+um and if it's too much and we want more
+um and if it's too much and we want more
+um and if it's too much and we want more
+pixelation stuff we can still go
+pixelation stuff we can still go
+pixelation stuff we can still go
+um by half of this with 128
+um by half of this with 128
+um by half of this with 128
+and yeah so scaling up is difficult but
+and yeah so scaling up is difficult but
+and yeah so scaling up is difficult but
+scaling down is not difficult and
+scaling down is not difficult and
+scaling down is not difficult and
+yeah let's uh just roll with that and
+yeah let's uh just roll with that and
+yeah let's uh just roll with that and
+name
+um
+arm
+and let's type in the pixelation
+256p and let's hit OK
+nice and change linear to closest
+nice and change linear to closest
+nice and change linear to closest
+so we are able to see what's going on
+so we are able to see what's going on
+so we are able to see what's going on
+uh with the pixelation and stuff
+uh with the pixelation and stuff
+uh with the pixelation and stuff
+or otherwise it would be blurred
+or otherwise it would be blurred
+or otherwise it would be blurred
+so now let's switch in the other tab in
+so now let's switch in the other tab in
+so now let's switch in the other tab in
+the UV editing tab
+the UV editing tab
+the UV editing tab
+here we will be able to
+here we will be able to
+here we will be able to
+um Mark the seams and UV unwrap the
+um Mark the seams and UV unwrap the
+um Mark the seams and UV unwrap the
+whole situation so let's hit a and
+whole situation so let's hit a and
+whole situation so let's hit a and
+period in the numpad to focus on the arm
+period in the numpad to focus on the arm
+period in the numpad to focus on the arm
+nice
+nice
+nice
+and here we have our texture but the
+and here we have our texture but the
+and here we have our texture but the
+thing is currently our texture is not
+thing is currently our texture is not
+thing is currently our texture is not
+saved so let's hit image save as and
+saved so let's hit image save as and
+saved so let's hit image save as and
+save it in your folder or something
+save it in your folder or something
+save it in your folder or something
+like here
+like here
+like here
+I won't need the the transparency of the
+I won't need the the transparency of the
+I won't need the the transparency of the
+of the pngs or I need no Alpha Channel I
+of the pngs or I need no Alpha Channel I
+of the pngs or I need no Alpha Channel I
+go with RGB
+go with RGB
+go with RGB
+and save as image
+so
+for UV unwrapping I would recommend you
+for UV unwrapping I would recommend you
+for UV unwrapping I would recommend you
+to uh
+to uh
+to uh
+attack the individual parts
+attack the individual parts
+attack the individual parts
+so just
+start with the arm and work your way
+start with the arm and work your way
+start with the arm and work your way
+down
+down
+down
+so let's hide the hand for now
+so let's hide the hand for now
+so let's hide the hand for now
+select a vertices hit L and here also
+select a vertices hit L and here also
+select a vertices hit L and here also
+hover over the scientific L and now just
+hover over the scientific L and now just
+hover over the scientific L and now just
+hit H to hide it we have just the arm
+hit H to hide it we have just the arm
+hit H to hide it we have just the arm
+now to the scenes basically you have to
+now to the scenes basically you have to
+now to the scenes basically you have to
+think about it like like the glove here
+think about it like like the glove here
+think about it like like the glove here
+or like your clothes
+or like your clothes
+or like your clothes
+it's the same with textiles you need
+it's the same with textiles you need
+it's the same with textiles you need
+seams
+seams
+seams
+and
+and
+and
+um to line up flat pieces and put them
+um to line up flat pieces and put them
+um to line up flat pieces and put them
+together so you have to place cuts and
+together so you have to place cuts and
+together so you have to place cuts and
+stuff
+stuff
+stuff
+so I would in this case
+so I would in this case
+so I would in this case
+some people like to cut tubes open and
+some people like to cut tubes open and
+some people like to cut tubes open and
+roll them out but in this situation I
+roll them out but in this situation I
+roll them out but in this situation I
+like to um just have two parts the front
+like to um just have two parts the front
+like to um just have two parts the front
+and the back of the arm
+and the back of the arm
+and the back of the arm
+and yeah let's look let's roll with that
+and yeah let's look let's roll with that
+and yeah let's look let's roll with that
+so
+so
+so
+shift left click
+shift left click
+shift left click
+around the seams
+around the seams
+around the seams
+right click and Mark scene
+right click and Mark scene
+right click and Mark scene
+collected
+collected
+collected
+for down here
+for down here
+for down here
+let's place a cut with the knife
+like that and also Mark it as a theme
+so let's hit a and
+so let's hit a and
+so let's hit a and
+up here on the UV
+up here on the UV
+up here on the UV
+unwrap
+unwrap
+unwrap
+as you can see we unwrapped uh the front
+as you can see we unwrapped uh the front
+as you can see we unwrapped uh the front
+and the side view
+and the side view
+and the side view
+and let's leave it like that
+and let's leave it like that
+and let's leave it like that
+for now
+for now
+for now
+and let's attack uh the the hand
+and let's attack uh the the hand
+and let's attack uh the the hand
+so alt h
+so alt h
+so alt h
+and now let's
+hide the arm so hover over a edge in
+hide the arm so hover over a edge in
+hide the arm so hover over a edge in
+this case because we're in the edge
+this case because we're in the edge
+this case because we're in the edge
+selection hit l
+selection hit l
+selection hit l
+and just hit
+and just hit
+and just hit
+h
+h
+h
+so let's attack the hand
+so let's attack the hand
+so let's attack the hand
+s are a big mystery for me and I hate to
+s are a big mystery for me and I hate to
+s are a big mystery for me and I hate to
+UV unwrap hands
+UV unwrap hands
+UV unwrap hands
+because I'm Never Satisfied by the
+because I'm Never Satisfied by the
+because I'm Never Satisfied by the
+outcome to be honest and yeah
+outcome to be honest and yeah
+outcome to be honest and yeah
+sometimes I just roll with
+sometimes I just roll with
+sometimes I just roll with
+um yes smart this is the system itself
+um yes smart this is the system itself
+um yes smart this is the system itself
+will you be unwrap the the hand
+will you be unwrap the the hand
+will you be unwrap the the hand
+and I will Island Merchant something
+and I will Island Merchant something
+and I will Island Merchant something
+like 20 or 30
+like 20 or 30
+like 20 or 30
+and this will just spread it straight up
+and this will just spread it straight up
+and this will just spread it straight up
+out
+out
+out
+what the system thinks is the best case
+what the system thinks is the best case
+what the system thinks is the best case
+scenario for your situation
+scenario for your situation
+scenario for your situation
+and this looks very promising to me so
+and this looks very promising to me so
+and this looks very promising to me so
+let's roll with this situation
+let's roll with this situation
+let's roll with this situation
+drag select and let's hit
+drag select and let's hit
+drag select and let's hit
+G
+but sometimes Um this can look very
+but sometimes Um this can look very
+but sometimes Um this can look very
+messed up and for example for the arm
+messed up and for example for the arm
+messed up and for example for the arm
+for the top arm this is way too much
+for the top arm this is way too much
+for the top arm this is way too much
+um
+um
+um
+uh individual Islands
+uh individual Islands
+uh individual Islands
+in my opinion so if you're trying to
+in my opinion so if you're trying to
+in my opinion so if you're trying to
+texture paint just
+texture paint just
+texture paint just
+like in Photoshop or something just on
+like in Photoshop or something just on
+like in Photoshop or something just on
+the image file this will be a bit
+the image file this will be a bit
+the image file this will be a bit
+confusing
+confusing
+confusing
+and so it's easier to if you have nicely
+and so it's easier to if you have nicely
+and so it's easier to if you have nicely
+um
+um
+um
+marked teams and stuff it's easier to
+marked teams and stuff it's easier to
+marked teams and stuff it's easier to
+draw directly onto the
+draw directly onto the
+draw directly onto the
+texture but this is fine too so yeah
+texture but this is fine too so yeah
+texture but this is fine too so yeah
+and I think the main parts are the most
+and I think the main parts are the most
+and I think the main parts are the most
+important ones so here
+important ones so here
+important ones so here
+so I used like I said and marked
+so I used like I said and marked
+so I used like I said and marked
+everything UV unwrapping yeah and I
+everything UV unwrapping yeah and I
+everything UV unwrapping yeah and I
+think we we just went through all of
+think we we just went through all of
+think we we just went through all of
+them yeah
+them yeah
+them yeah
+so let's bring back the arm alt h
+so let's bring back the arm alt h
+so let's bring back the arm alt h
+and hit a to select everything
+and hit a to select everything
+and hit a to select everything
+just like that
+just like that
+just like that
+now we have to arrange all those UVS on
+now we have to arrange all those UVS on
+now we have to arrange all those UVS on
+our texture
+our texture
+our texture
+and yeah and we will try to
+and yeah and we will try to
+and yeah and we will try to
+just use all of the texture space
+just use all of the texture space
+just use all of the texture space
+but for now
+but for now
+but for now
+um the texture will not line up
+um the texture will not line up
+um the texture will not line up
+perfectly
+perfectly
+perfectly
+so we have here the end point and here
+so we have here the end point and here
+so we have here the end point and here
+end point
+end point
+end point
+so we want them to line up
+so we want them to line up
+so we want them to line up
+so let's drag it a bit out
+so let's drag it a bit out
+so let's drag it a bit out
+and
+and
+and
+this one and this one
+this one and this one
+this one and this one
+this one we want them to line up so
+this one we want them to line up so
+this one we want them to line up so
+let's hit right click and
+let's hit right click and
+let's hit right click and
+how to align
+how to align
+how to align
+this point this point
+this point this point
+this point this point
+Auto align
+same for those outer points
+same for those outer points
+same for those outer points
+Auto online
+Auto online
+Auto online
+so that way we have a nice transition
+so that way we have a nice transition
+so that way we have a nice transition
+from one Edge to the next Edge
+um just like here
+um just like here
+um just like here
+how to align
+how to align
+how to align
+how to align
+out to align
+outer line
+outer line
+outer line
+just like that
+so the the aspect ratio is not
+so the the aspect ratio is not
+so the the aspect ratio is not
+too far off so something like like this
+too far off so something like like this
+too far off so something like like this
+this will cause huge distortions in our
+this will cause huge distortions in our
+this will cause huge distortions in our
+texture
+texture
+texture
+and yeah
+and yeah
+and yeah
+that's why I'm using the the pixel grid
+that's why I'm using the the pixel grid
+that's why I'm using the the pixel grid
+for example
+for example
+for example
+so let's switch back into the island
+so let's switch back into the island
+so let's switch back into the island
+selection
+selection
+selection
+and I think this um is a pretty
+and I think this um is a pretty
+and I think this um is a pretty
+nice uh size for the arms but to use
+nice uh size for the arms but to use
+nice uh size for the arms but to use
+more of the texture space or more
+more of the texture space or more
+more of the texture space or more
+cleverly we can rotate it
+cleverly we can rotate it
+cleverly we can rotate it
+by 180 which was displaced here up here
+by 180 which was displaced here up here
+by 180 which was displaced here up here
+so we can bring them a bit closer or
+so we can bring them a bit closer or
+so we can bring them a bit closer or
+what's also possible is let's just drag
+what's also possible is let's just drag
+what's also possible is let's just drag
+it to the other Edge
+like this and use the middle space for
+like this and use the middle space for
+like this and use the middle space for
+the rest of the UVs
+so but this can also be beneficial if
+so but this can also be beneficial if
+so but this can also be beneficial if
+you're painting directly on to the PNG
+you're painting directly on to the PNG
+you're painting directly on to the PNG
+file
+that's like in genomics puzzle basically
+so
+let's
+let's
+let's
+let's try this situation
+let's try this situation
+let's try this situation
+and now let's drag select across the
+and now let's drag select across the
+and now let's drag select across the
+whole hand UVS and
+whole hand UVS and
+whole hand UVS and
+basically
+basically
+basically
+we have to scale it down I think by half
+we have to scale it down I think by half
+we have to scale it down I think by half
+of its size
+of its size
+of its size
+so let's drag select all of it hit
+so let's drag select all of it hit
+so let's drag select all of it hit
+s and
+period
+period
+period
+five
+five
+five
+now we divided
+now we divided
+now we divided
+through half of its size
+through half of its size
+through half of its size
+I think that's
+I think that's
+I think that's
+good enough to place it nicely in the
+good enough to place it nicely in the
+good enough to place it nicely in the
+middle
+middle
+middle
+so let's do that
+so let's do that
+so let's do that
+it starts here with the main parts
+rotate
+just like that
+just like that
+just like that
+drag select
+drag select
+drag select
+and yeah there's still more space I
+and yeah there's still more space I
+and yeah there's still more space I
+think
+think
+think
+foreign
+let's bring it a bit
+let's bring it a bit
+let's bring it a bit
+bring it again out
+scale it a bit up
+this looks nice
+yeah and for retro textures there's
+yeah and for retro textures there's
+yeah and for retro textures there's
+still the the topic of
+still the the topic of
+still the the topic of
+um lining up your your UVS to get the
+um to get nice
+so basically you just have to fiddle
+so basically you just have to fiddle
+so basically you just have to fiddle
+around with that
+around with that
+around with that
+find to write spots for your UVs
+foreign
+I'm always pressing the height button so
+so nice
+so nice
+so nice
+so and I think we knew you we used a lot
+so and I think we knew you we used a lot
+so and I think we knew you we used a lot
+of the texture space
+of the texture space
+of the texture space
+and now we can spread them a bit
+and now we can spread them a bit
+and now we can spread them a bit
+more out
+just a bit
+to get a bit of distance between the
+to get a bit of distance between the
+to get a bit of distance between the
+part parts
+yeah just like that nice nice nice
+okay let's give this a safe it's safe
+and
+let's continue to The Next Step the
+let's continue to The Next Step the
+let's continue to The Next Step the
+texture pin tab
+so and again hit a and period on the
+so and again hit a and period on the
+so and again hit a and period on the
+numpads
+numpads
+numpads
+oh we are already in the texture mode
+oh we are already in the texture mode
+oh we are already in the texture mode
+so we have to zoom in
+so we have to zoom in
+so we have to zoom in
+you can switch into the object mode and
+you can switch into the object mode and
+you can switch into the object mode and
+hit zero period on the nump head and
+hit zero period on the nump head and
+hit zero period on the nump head and
+switch back here to the texture paint
+switch back here to the texture paint
+switch back here to the texture paint
+mode and here we have this little square
+mode and here we have this little square
+mode and here we have this little square
+this will be very helpful while
+this will be very helpful while
+this will be very helpful while
+texturing so if we switch back to the UV
+texturing so if we switch back to the UV
+texturing so if we switch back to the UV
+editing
+editing
+editing
+and we for example
+and we for example
+and we for example
+select here just the hand
+select here just the hand
+select here just the hand
+and
+we can either hide it or just select it
+we can either hide it or just select it
+we can either hide it or just select it
+but let's selected for now just and
+but let's selected for now just and
+but let's selected for now just and
+let's hit texture paint
+let's hit texture paint
+let's hit texture paint
+and if we toggle the paint mask
+and if we toggle the paint mask
+and if we toggle the paint mask
+we will only be able to paint what we
+we will only be able to paint what we
+we will only be able to paint what we
+marked on the UV editing tab
+marked on the UV editing tab
+marked on the UV editing tab
+so and if we want to invite our
+so and if we want to invite our
+so and if we want to invite our
+selection we just have to
+selection we just have to
+selection we just have to
+Ctrl I and it will select everything
+Ctrl I and it will select everything
+Ctrl I and it will select everything
+that's not selected
+that's not selected
+that's not selected
+so and let's hide this for example and
+so and let's hide this for example and
+so and let's hide this for example and
+hit a to select everything
+hit a to select everything
+hit a to select everything
+and if we now switch back into texture
+and if we now switch back into texture
+and if we now switch back into texture
+painting
+we got rid of the arm
+we got rid of the arm
+we got rid of the arm
+and if we untangle it we have everything
+and if we untangle it we have everything
+and if we untangle it we have everything
+and here we have the paint mask we can
+and here we have the paint mask we can
+and here we have the paint mask we can
+only paint
+only paint
+only paint
+the arm
+the arm
+the arm
+pretty nice if you ask me
+pretty nice if you ask me
+pretty nice if you ask me
+so but to texture paint we should
+so but to texture paint we should
+so but to texture paint we should
+um start with a base color
+um start with a base color
+um start with a base color
+so let's get everything back alt h
+so let's get everything back alt h
+so let's get everything back alt h
+and
+and
+and
+select everything for now also
+select everything for now also
+select everything for now also
+everything that's selected gets
+everything that's selected gets
+everything that's selected gets
+displayed here
+displayed here
+displayed here
+as the script and actually you can also
+as the script and actually you can also
+as the script and actually you can also
+download this UV map if you want to
+download this UV map if you want to
+download this UV map if you want to
+paint
+paint
+paint
+um your stuff inside and painting
+um your stuff inside and painting
+um your stuff inside and painting
+program
+program
+program
+oh yeah here so in the UV editing tab UV
+oh yeah here so in the UV editing tab UV
+oh yeah here so in the UV editing tab UV
+and Export UV layout
+and Export UV layout
+and Export UV layout
+so now we have your arm
+UV arm
+here again we have the size and the
+here again we have the size and the
+here again we have the size and the
+opacity of the grid let's go with
+opacity of the grid let's go with
+opacity of the grid let's go with
+something lower than that like 0.10
+something lower than that like 0.10
+something lower than that like 0.10
+export and if we now check our folder
+export and if we now check our folder
+export and if we now check our folder
+we have here the UV layout
+we have here the UV layout
+we have here the UV layout
+and basically we can take this file and
+and basically we can take this file and
+and basically we can take this file and
+head straight into Photoshop or krita or
+head straight into Photoshop or krita or
+head straight into Photoshop or krita or
+some other painting software and just
+some other painting software and just
+some other painting software and just
+paint on that or you have a software on
+paint on that or you have a software on
+paint on that or you have a software on
+your iPad or phone or something
+your iPad or phone or something
+your iPad or phone or something
+um yeah you can paint on that but as you
+um yeah you can paint on that but as you
+um yeah you can paint on that but as you
+can see those individual parts are way
+can see those individual parts are way
+can see those individual parts are way
+more confusing
+more confusing
+more confusing
+um then here with the arm for example
+um then here with the arm for example
+um then here with the arm for example
+those main parts we are manually
+those main parts we are manually
+those main parts we are manually
+um cut it into those sections
+um cut it into those sections
+um cut it into those sections
+so that's also an option but for now
+so that's also an option but for now
+so that's also an option but for now
+let's get rid of it
+and uh yeah
+and uh yeah
+and uh yeah
+to paint and let's
+to paint and let's
+to paint and let's
+find our base color so for that let's
+find our base color so for that let's
+find our base color so for that let's
+take the fill tool the the draw tool is
+take the fill tool the the draw tool is
+take the fill tool the the draw tool is
+just you know drawing
+just you know drawing
+just you know drawing
+here for example
+here for example
+here for example
+but let's find our base color
+but let's find our base color
+but let's find our base color
+I would recommend you to here let's take
+I would recommend you to here let's take
+I would recommend you to here let's take
+the reference image
+the reference image
+the reference image
+and color pick and try to find a middle
+and color pick and try to find a middle
+and color pick and try to find a middle
+color tone
+color tone
+color tone
+a bit Brighter Than This
+here you can adjust the brightness here
+here you can adjust the brightness here
+here you can adjust the brightness here
+the color tone
+the color tone
+the color tone
+perfect something like this this
+perfect something like this this
+perfect something like this this
+brownish
+yeah something like this
+yeah something like this
+yeah something like this
+now let's switch back into the FPS arm
+now let's switch back into the FPS arm
+now let's switch back into the FPS arm
+architecture
+seeing the fill tool oh
+seeing the fill tool oh
+seeing the fill tool oh
+but we can
+just paint I like to paint the corner if
+just paint I like to paint the corner if
+just paint I like to paint the corner if
+I'm picking colors I'm I'm just painting
+I'm picking colors I'm I'm just painting
+I'm picking colors I'm I'm just painting
+them in in Strokes onto the texture to
+them in in Strokes onto the texture to
+them in in Strokes onto the texture to
+find them again to color pick them again
+find them again to color pick them again
+find them again to color pick them again
+if I have to use them
+so here the fill tool
+so here the fill tool
+so here the fill tool
+um pick the Color Picker
+um pick the Color Picker
+um pick the Color Picker
+here's our skin color and let's click on
+here's our skin color and let's click on
+here's our skin color and let's click on
+the mesh
+the mesh
+the mesh
+now we fill out
+now we fill out
+now we fill out
+only those parts with our main color
+only those parts with our main color
+only those parts with our main color
+which is the
+which is the
+which is the
+the base color of our skin tone in this
+the base color of our skin tone in this
+the base color of our skin tone in this
+case and
+case and
+case and
+now we can for example paint on
+now we can for example paint on
+now we can for example paint on
+highlights and shadows
+highlights and shadows
+highlights and shadows
+um or we can straight up stencil down
+um or we can straight up stencil down
+um or we can straight up stencil down
+our reference images
+our reference images
+our reference images
+next to that but for now let's give this
+next to that but for now let's give this
+next to that but for now let's give this
+situation a safe image
+situation a safe image
+situation a safe image
+just save or save as if you want a
+just save or save as if you want a
+just save or save as if you want a
+second file
+second file
+second file
+or you want to make sure let's make sure
+or you want to make sure let's make sure
+or you want to make sure let's make sure
+yeah we want to overwrite this file save
+yeah we want to overwrite this file save
+yeah we want to overwrite this file save
+image
+image
+image
+let's take a look in our folder
+let's take a look in our folder
+let's take a look in our folder
+so um
+so um
+so um
+with our base color we head into
+with our base color we head into
+with our base color we head into
+material properties
+material properties
+material properties
+and I would recommend you to decrease
+and I would recommend you to decrease
+and I would recommend you to decrease
+the specular and increase the roughness
+the specular and increase the roughness
+the specular and increase the roughness
+and also what we could do inside the
+and also what we could do inside the
+and also what we could do inside the
+object mode so if we switch here or with
+object mode so if we switch here or with
+object mode so if we switch here or with
+the tab
+the tab
+the tab
+um object mode
+um object mode
+um object mode
+right click and shades move
+we smooth down our our model
+we smooth down our our model
+we smooth down our our model
+sometimes this is helpful for painting
+sometimes this is helpful for painting
+sometimes this is helpful for painting
+and for example
+if I'm painting here in the angle
+if I'm painting here in the angle
+if I'm painting here in the angle
+I can paint
+I can paint
+I can paint
+um along the The Shadow
+um along the The Shadow
+um along the The Shadow
+if I'm here
+if I'm here
+if I'm here
+taking a darker version of the same
+taking a darker version of the same
+taking a darker version of the same
+color
+something like this
+something like this
+something like this
+I can paint along or something
+I can paint along or something
+I can paint along or something
+if I want but
+if I want but
+if I want but
+yeah
+yeah
+yeah
+that's for color painting we will go
+that's for color painting we will go
+that's for color painting we will go
+with stencil Technique we will take our
+with stencil Technique we will take our
+with stencil Technique we will take our
+reference and straight up throw it on to
+reference and straight up throw it on to
+reference and straight up throw it on to
+our arm okay
+okay so we placed we thought our
+okay so we placed we thought our
+okay so we placed we thought our
+character with the base color now we
+character with the base color now we
+character with the base color now we
+will create a stencil
+will create a stencil
+will create a stencil
+based on our reference images for our um
+based on our reference images for our um
+based on our reference images for our um
+so to do that
+so to do that
+so to do that
+um
+um
+um
+choose draw here
+choose draw here
+choose draw here
+and for color let's go with pure white
+and for color let's go with pure white
+and for color let's go with pure white
+so H down s down and V all the way up to
+so H down s down and V all the way up to
+so H down s down and V all the way up to
+have a neutral base for the stencil
+have a neutral base for the stencil
+have a neutral base for the stencil
+now here let's go to texture properties
+now here let's go to texture properties
+now here let's go to texture properties
+hit new
+hit new
+hit new
+and
+and
+and
+open
+open
+open
+and let's choose the the right reference
+uh let's
+yeah let's use use this one here
+and up here
+and up here
+and up here
+active tool in workspace settings
+active tool in workspace settings
+active tool in workspace settings
+scroll down to texture
+and switch tile to stencil
+and switch tile to stencil
+and switch tile to stencil
+now when we hover here we can see the
+now when we hover here we can see the
+now when we hover here we can see the
+the image
+the image
+the image
+as a stencil
+and you can if you hold right you can
+and you can if you hold right you can
+and you can if you hold right you can
+pan around
+pan around
+pan around
+with
+with
+with
+control right you can rotate
+control right you can rotate
+control right you can rotate
+and with shift right you can
+and with shift right you can
+and with shift right you can
+um Zoom
+um Zoom
+um Zoom
+and for example it's here mirrored so if
+and for example it's here mirrored so if
+and for example it's here mirrored so if
+I want to mirror it
+I want to mirror it
+I want to mirror it
+um
+um
+um
+on the other side I have here
+on the other side I have here
+on the other side I have here
+up here the X
+up here the X
+up here the X
+I want to mirror it on the x-axis so I
+I want to mirror it on the x-axis so I
+I want to mirror it on the x-axis so I
+have to put in here
+have to put in here
+have to put in here
+minus one instead of one
+minus one instead of one
+minus one instead of one
+and turn
+and turn
+and turn
+now it's mirrored
+now it's mirrored
+now it's mirrored
+so image aspect and reset transform
+so image aspect and reset transform
+so image aspect and reset transform
+reset transform to switch back
+reset transform to switch back
+reset transform to switch back
+and image aspect to
+and image aspect to
+and image aspect to
+uh now the stencil has the same aspect
+uh now the stencil has the same aspect
+uh now the stencil has the same aspect
+like the reference image
+like the reference image
+like the reference image
+perfect
+basically we can now take this here and
+basically we can now take this here and
+basically we can now take this here and
+based on those values the radius into
+based on those values the radius into
+based on those values the radius into
+strength and the base color you can just
+strength and the base color you can just
+strength and the base color you can just
+paint it onto your 3D onto your model
+paint it onto your 3D onto your model
+paint it onto your 3D onto your model
+but for that I think we should hide the
+but for that I think we should hide the
+but for that I think we should hide the
+the hand
+the hand
+the hand
+you'll be editing
+you'll be editing
+you'll be editing
+and hover over your glove or hands
+and hover over your glove or hands
+and hover over your glove or hands
+l l h
+l l h
+l l h
+a to Mark only the arm
+a to Mark only the arm
+a to Mark only the arm
+and texture paint
+and texture paint
+and texture paint
+and make sure to toggle the paint mask
+and make sure to toggle the paint mask
+and make sure to toggle the paint mask
+now we have only the arm
+so let's try to line up
+with the
+with the
+with the
+reference image and make it a bit larger
+so let's start up here
+paint down
+looks
+looks
+looks
+pretty fine
+pretty fine
+pretty fine
+now for the back side
+we should maybe use a different uh
+we should maybe use a different uh
+we should maybe use a different uh
+stencil image so let's go back in here
+stencil image so let's go back in here
+stencil image so let's go back in here
+texture properties
+texture properties
+texture properties
+open
+open
+open
+let's look for a image
+let's look for a image
+let's look for a image
+different image
+I think I will go with this one
+and I can have some mirrored
+and I can have some mirrored
+and I can have some mirrored
+and I mean you can straight up stick
+and I mean you can straight up stick
+and I mean you can straight up stick
+with the stenciled on version of your
+with the stenciled on version of your
+with the stenciled on version of your
+character
+character
+character
+or you
+or you
+or you
+um
+or you can modify it
+and paint over it
+so I like to use the stencils as
+so I like to use the stencils as
+so I like to use the stencils as
+guidance
+guidance
+guidance
+so it doesn't have to be perfect
+faster good
+yeah and if we switch here into material
+yeah and if we switch here into material
+yeah and if we switch here into material
+preview mode we see straight up how it
+preview mode we see straight up how it
+preview mode we see straight up how it
+will end up like
+will end up like
+will end up like
+this is a good base but as you can see
+this is a good base but as you can see
+this is a good base but as you can see
+we clearly need to fix some parts
+we clearly need to fix some parts
+we clearly need to fix some parts
+but so far so good and yeah let's
+I would say uh let's paint on the glove
+I would say uh let's paint on the glove
+I would say uh let's paint on the glove
+first before we dive into fixing and
+first before we dive into fixing and
+first before we dive into fixing and
+over painting stuff so let's hit Alt H
+over painting stuff so let's hit Alt H
+over painting stuff so let's hit Alt H
+to bring the glove back and
+to bring the glove back and
+to bring the glove back and
+Mark the arm and H now a
+Mark the arm and H now a
+Mark the arm and H now a
+and texture paint make sure
+and texture paint make sure
+and texture paint make sure
+that you're inside the paint mask and
+that you're inside the paint mask and
+that you're inside the paint mask and
+let's switch the here in the texture
+let's switch the here in the texture
+let's switch the here in the texture
+properties
+properties
+properties
+again
+but to only the gloves
+to nice top view
+like this one
+like this one
+like this one
+now we have to adjust again the image
+now we have to adjust again the image
+now we have to adjust again the image
+aspect and the rotation
+like that and let's find a nice
+like that and let's find a nice
+like that and let's find a nice
+perspective
+something like that
+yeah let's just roughly paint over it
+yeah let's just roughly paint over it
+yeah let's just roughly paint over it
+and now we can line it up a bit more
+like that
+the same for the finger
+to the thumb
+to the thumb
+to the thumb
+and Midway through we should save it
+and Midway through we should save it
+and Midway through we should save it
+give it a save
+pretty great so far
+um maybe we have to go back and isolate
+um maybe we have to go back and isolate
+um maybe we have to go back and isolate
+the
+the
+the
+yeah I think we have to attack the the
+yeah I think we have to attack the the
+yeah I think we have to attack the the
+thumb uh individually so let's hide the
+thumb uh individually so let's hide the
+thumb uh individually so let's hide the
+thumb select the thumb with l and H
+thumb select the thumb with l and H
+thumb select the thumb with l and H
+it's only
+it's only
+it's only
+um
+um
+um
+work with the middle part
+work with the middle part
+work with the middle part
+oh a to select everything
+so
+let's change the image again
+just paint over it
+foreign
+nice
+image safe
+now the side view for that I think
+I will go with the same reference image
+and decide this reference
+maybe let's select only those parts
+alt and left click
+alt and left click
+alt and left click
+um will select
+um will select
+um will select
+all around so but here example um alt
+all around so but here example um alt
+all around so but here example um alt
+left click you
+left click you
+left click you
+select and if you select again alt left
+select and if you select again alt left
+select and if you select again alt left
+click
+it will select the other loop
+or let's select this one here
+picture paint
+now let's just cover it in in letter for
+now let's just cover it in in letter for
+now let's just cover it in in letter for
+now
+foreign
+foreign
+now let's try to line up the the ending
+now let's try to line up the the ending
+now let's try to line up the the ending
+of the glove
+of the glove
+of the glove
+if you're just painting on a hand it
+if you're just painting on a hand it
+if you're just painting on a hand it
+should be way easier
+should be way easier
+should be way easier
+because you just have the flesh tone
+the other lines up
+the other lines up
+the other lines up
+pretty nice
+pretty nice
+pretty nice
+this one side
+nice let's give it a safe image save
+nice let's give it a safe image save
+nice let's give it a safe image save
+and let's select the whole glove
+here's the little spot
+let's attack the thumb
+let's attack the thumb
+let's attack the thumb
+so alt H to bring everything back and
+so alt H to bring everything back and
+so alt H to bring everything back and
+just select the thumb and
+just select the thumb and
+just select the thumb and
+oh uh
+oh uh
+oh uh
+Ctrl I
+Ctrl I
+Ctrl I
+to invert the selection hit H to hide
+to invert the selection hit H to hide
+to invert the selection hit H to hide
+and now a to select everything
+and now a to select everything
+and now a to select everything
+and texture paints
+what's the top view
+what's the top view
+what's the top view
+here basically for now we just try to
+here basically for now we just try to
+here basically for now we just try to
+cover the whole thing in
+cover the whole thing in
+cover the whole thing in
+in leather texture
+in leather texture
+in leather texture
+like that
+foreign
+so we get all those wrinkles in
+so we get all those wrinkles in
+so we get all those wrinkles in
+just rotate around and
+doesn't have to be perfect
+doesn't have to be perfect
+doesn't have to be perfect
+it only needs to be covered
+like that
+like that
+like that
+image save and now
+image save and now
+image save and now
+but now let's get rid of our texture
+but now let's get rid of our texture
+but now let's get rid of our texture
+here press X
+here press X
+here press X
+and here on the
+active tool and workspace settings
+active tool and workspace settings
+active tool and workspace settings
+texture and switch back to tiled now Alt
+texture and switch back to tiled now Alt
+texture and switch back to tiled now Alt
+oh UV editing and
+oh UV editing and
+oh UV editing and
+alt h
+to bring everything back and now
+to bring everything back and now
+to bring everything back and now
+untoggle the paint mask
+untoggle the paint mask
+untoggle the paint mask
+this is our current situation
+this is our current situation
+this is our current situation
+already looks really presentable in my
+already looks really presentable in my
+already looks really presentable in my
+opinion
+opinion
+opinion
+now with the painting tune we can blend
+now with the painting tune we can blend
+now with the painting tune we can blend
+the texture a bit more into each other
+the texture a bit more into each other
+the texture a bit more into each other
+to make it more believable and
+to make it more believable and
+to make it more believable and
+but the glove turned out pretty nice
+yeah nice
+yeah nice
+yeah nice
+you could also make a backup of our
+you could also make a backup of our
+you could also make a backup of our
+texture
+texture
+texture
+that way we we won't mess anything up
+that way we we won't mess anything up
+that way we we won't mess anything up
+and arm texture let's go into the folder
+and arm texture let's go into the folder
+and arm texture let's go into the folder
+let's just right click copy
+let's just right click copy
+let's just right click copy
+and
+and
+and
+the way we have a backup if we mess up
+the way we have a backup if we mess up
+the way we have a backup if we mess up
+the painting process
+the painting process
+the painting process
+so and I think
+so and I think
+so and I think
+um
+um
+um
+let's start with the arm itself
+if you're editing
+if you're editing
+if you're editing
+and again hover over its l
+let's invert
+let's invert
+let's invert
+h
+h
+h
+and a to select everything
+and a to select everything
+and a to select everything
+paint texture paint mask and let's work
+paint texture paint mask and let's work
+paint texture paint mask and let's work
+on this situation here
+on this situation here
+on this situation here
+I think we need a smaller radius
+I think we need a smaller radius
+I think we need a smaller radius
+something like 20 and let's use the
+something like 20 and let's use the
+something like 20 and let's use the
+soften tool
+that way we can line up this transition
+that way we can line up this transition
+that way we can line up this transition
+here oh
+here oh
+here oh
+um Smith Tool
+um Smith Tool
+um Smith Tool
+let's line up this situation
+more evenly
+and let's blend it
+if you're a very bright spot
+and there's a lot of noise from my
+and there's a lot of noise from my
+and there's a lot of noise from my
+picture
+picture
+picture
+but it's not that bad
+fixed it later
+smear and blend
+smear and blend
+smear and blend
+you can take a lot of time texture
+you can take a lot of time texture
+you can take a lot of time texture
+painting
+painting
+painting
+uh this is uh there's a reason why in
+uh this is uh there's a reason why in
+uh this is uh there's a reason why in
+the industry there is a
+the industry there is a
+the industry there is a
+a team for that stuff
+a team for that stuff
+a team for that stuff
+so take your time
+just gonna blend it
+a bit
+over the edges
+so it looks more Unified
+also Zoom a bit back
+foreign
+it's pretty dirty uh paint job
+it's pretty dirty uh paint job
+it's pretty dirty uh paint job
+but
+but
+but
+um
+this could take
+hours and just to paint the
+hours and just to paint the
+hours and just to paint the
+foreign texture
+foreign texture
+foreign texture
+so I think we are pretty good to go you
+so I think we are pretty good to go you
+so I think we are pretty good to go you
+know a situation
+know a situation
+know a situation
+and yeah so now to bring back a bit more
+and yeah so now to bring back a bit more
+and yeah so now to bring back a bit more
+of depth
+of depth
+of depth
+um we take the draw tool and let's
+um we take the draw tool and let's
+um we take the draw tool and let's
+select our Brown here
+select our Brown here
+select our Brown here
+and let's make it
+and let's make it
+and let's make it
+darker
+darker
+darker
+like that
+we give you the stroke
+we give you the stroke
+we give you the stroke
+stable as stroke
+stable as stroke
+stable as stroke
+zoom in a bit and
+let's make something like 20 again
+that's maybe a bit too harsh
+let's try to pick up the same Brown
+slightly darker
+and we will create a little Shadow area
+foreign
+pretty good
+now we can zoom in a bit and
+um
+we can plain blend the transition
+again to unify
+and we are basically working with the
+and we are basically working with the
+and we are basically working with the
+um the pixelation it it really is
+um the pixelation it it really is
+um the pixelation it it really is
+helping us out
+helping us out
+helping us out
+and if we want to fix here
+and if we want to fix here
+and if we want to fix here
+this ugly Edge we can just shove it back
+this ugly Edge we can just shove it back
+this ugly Edge we can just shove it back
+in
+like it okay
+like it okay
+like it okay
+and I want a bit more wrinkles
+so again we have here our shadow color
+so we took the brown and made it a bit
+so we took the brown and made it a bit
+so we took the brown and made it a bit
+darker
+darker
+darker
+of the cloth to get our shadow color
+of the cloth to get our shadow color
+of the cloth to get our shadow color
+and
+let's make some wrinkles
+okay
+needed even
+needed even
+needed even
+darker
+I like that yeah
+I like that yeah
+I like that yeah
+so let's turn off the stroke
+so let's turn off the stroke
+so let's turn off the stroke
+stabilization
+stabilization
+stabilization
+and if you watch your uh your t-shirt
+and if you watch your uh your t-shirt
+and if you watch your uh your t-shirt
+for example you can
+for example you can
+for example you can
+see exactly where the
+see exactly where the
+see exactly where the
+whatever wrinkles off your arm so let's
+whatever wrinkles off your arm so let's
+whatever wrinkles off your arm so let's
+try to replicate it we have here at the
+try to replicate it we have here at the
+try to replicate it we have here at the
+the end of the
+the end of the
+the end of the
+of the t-shirt we have fewer wrinkles
+of the t-shirt we have fewer wrinkles
+of the t-shirt we have fewer wrinkles
+and we have here under the armpit we
+and we have here under the armpit we
+and we have here under the armpit we
+have some wrinkles so let's try to
+have some wrinkles so let's try to
+have some wrinkles so let's try to
+replicate that
+go on the back
+here and here
+basically just take a look at your own
+basically just take a look at your own
+basically just take a look at your own
+clothes
+clothes
+clothes
+and
+just roughly
+just roughly
+just roughly
+create the wrinkles
+like that
+and here under the armpit
+the darker spot
+the darker spot
+the darker spot
+and it should be pretty tight on top so
+and it should be pretty tight on top so
+and it should be pretty tight on top so
+no wrinkles there
+it would look a bit weird
+it would look a bit weird
+it would look a bit weird
+so okay here one wrinkle
+so okay here one wrinkle
+so okay here one wrinkle
+one tiny one
+too much
+so we will now take here this smear tool
+and we will
+and we will
+and we will
+um
+I mean we could also work here but I
+I mean we could also work here but I
+I mean we could also work here but I
+like to rotate around it
+like to rotate around it
+like to rotate around it
+take the base color and drag it in
+take the base color and drag it in
+take the base color and drag it in
+and drag those out
+and drag those out
+and drag those out
+to blend the the folds of the fabric
+to blend the the folds of the fabric
+to blend the the folds of the fabric
+so the shadow areas and stuff into each
+so the shadow areas and stuff into each
+so the shadow areas and stuff into each
+other
+other
+other
+and try to keep the same distance to
+and try to keep the same distance to
+and try to keep the same distance to
+your to your model don't switch around
+Here Also let's draw out the tip
+thin out the tip
+thin out the tip
+thin out the tip
+of your fabric Folds
+and if you zoom out you will see it it
+and if you zoom out you will see it it
+and if you zoom out you will see it it
+makes totally sense
+makes totally sense
+makes totally sense
+you have to be I think this is a process
+you have to be I think this is a process
+you have to be I think this is a process
+it can be very you can very fast
+it can be very you can very fast
+it can be very you can very fast
+uh do too much so better do less
+uh do too much so better do less
+uh do too much so better do less
+and also uh one point is
+and also uh one point is
+and also uh one point is
+um
+um
+um
+it's really something you have to get
+it's really something you have to get
+it's really something you have to get
+into to get an understanding of
+into to get an understanding of
+into to get an understanding of
+what's too much
+what's too much
+what's too much
+to do more
+to do more
+to do more
+but the reference image totally helps
+but the reference image totally helps
+but the reference image totally helps
+to give you a nice space
+to give you a nice space
+to give you a nice space
+turn that under the armpit this is very
+turn that under the armpit this is very
+turn that under the armpit this is very
+this isn't big unnecessary spot because
+this isn't big unnecessary spot because
+this isn't big unnecessary spot because
+you will basically never seen in
+you will basically never seen in
+you will basically never seen in
+um you know first person situation the
+um you know first person situation the
+um you know first person situation the
+the armpit or the shoulder
+the armpit or the shoulder
+the armpit or the shoulder
+it's very unlikely
+better this way
+okay
+okay
+okay
+looks pretty solid
+so let me see the the blending and it's
+so let me see the the blending and it's
+so let me see the the blending and it's
+it's unifying the whole situation
+and yeah and now we can take the this uh
+and yeah and now we can take the this uh
+and yeah and now we can take the this uh
+soften tool
+soften tool
+soften tool
+and soften soft the the Shadows here
+and soften soft the the Shadows here
+and soften soft the the Shadows here
+underneath
+and here the the pointy areas
+further blend them into the fabric
+to give them a more shadowy appeal
+and I think
+I will go with that
+click asset for texturing
+click asset for texturing
+click asset for texturing
+um back in the edit mode
+um back in the edit mode
+um back in the edit mode
+we can check also the texture while
+we can check also the texture while
+we can check also the texture while
+smooth shading
+so
+flat or just selected right click
+flat or just selected right click
+flat or just selected right click
+Shades move go back into it
+Shades move go back into it
+Shades move go back into it
+texture paint
+texture paint
+texture paint
+to further
+to further
+to further
+fade the transitions of the edges into
+fade the transitions of the edges into
+fade the transitions of the edges into
+each other
+foreign
+give it a save
+give it a save
+give it a save
+and let's attack the glove so go back in
+and let's attack the glove so go back in
+and let's attack the glove so go back in
+the UV editing
+the UV editing
+the UV editing
+alt H and
+Ctrl i h a to only select the glove
+Ctrl i h a to only select the glove
+Ctrl i h a to only select the glove
+texture painting and because we have the
+texture painting and because we have the
+texture painting and because we have the
+paint mask
+paint mask
+paint mask
+we can only attack our glove
+and also we can fix stuff here as you
+and also we can fix stuff here as you
+and also we can fix stuff here as you
+can see we have here clear line so let's
+can see we have here clear line so let's
+can see we have here clear line so let's
+go down with the radius
+go down with the radius
+go down with the radius
+to get rid of that line
+to get rid of that line
+to get rid of that line
+um while having the soft tool on
+um while having the soft tool on
+um while having the soft tool on
+something like five
+the pixelation is very forgiving
+okay
+okay
+okay
+looks great
+looks great
+looks great
+even though I took a really shitty
+even though I took a really shitty
+even though I took a really shitty
+picture
+picture
+picture
+um we redrew some
+um we redrew some
+um we redrew some
+tiny details and now it's turned out
+tiny details and now it's turned out
+tiny details and now it's turned out
+great
+so but texture painting everything from
+so but texture painting everything from
+so but texture painting everything from
+scratch without the reference images
+scratch without the reference images
+scratch without the reference images
+that can be a lot of work and need
+that can be a lot of work and need
+that can be a lot of work and need
+and a lot of skills are necessary in my
+and a lot of skills are necessary in my
+and a lot of skills are necessary in my
+opinion uh that's something you really
+opinion uh that's something you really
+opinion uh that's something you really
+have to get into I'm
+have to get into I'm
+have to get into I'm
+I'm not so hard into texture painting I
+I'm not so hard into texture painting I
+I'm not so hard into texture painting I
+tried it but I've failed a bit in my
+tried it but I've failed a bit in my
+tried it but I've failed a bit in my
+opinion
+opinion
+opinion
+so and basically here the same we try to
+so and basically here the same we try to
+so and basically here the same we try to
+blend the edges so for that maybe let's
+blend the edges so for that maybe let's
+blend the edges so for that maybe let's
+also select
+also select
+also select
+shade smooth
+um
+um
+um
+and we can clearly see here the edges
+and we can clearly see here the edges
+and we can clearly see here the edges
+maybe for the shadow parts let's drag
+maybe for the shadow parts let's drag
+maybe for the shadow parts let's drag
+them across
+let's start like this
+and here I think there's not a lot to to
+and here I think there's not a lot to to
+and here I think there's not a lot to to
+paint over the texture has so many
+paint over the texture has so many
+paint over the texture has so many
+details and looks already so interesting
+details and looks already so interesting
+details and looks already so interesting
+we just try to preserve that we will
+we just try to preserve that we will
+we just try to preserve that we will
+just try to preserve that
+just try to preserve that
+just try to preserve that
+and
+and
+and
+maybe make the transition a bit easier
+maybe make the transition a bit easier
+maybe make the transition a bit easier
+on the edges
+so I'm really rushing here with the with
+so I'm really rushing here with the with
+so I'm really rushing here with the with
+the texture paint
+the texture paint
+the texture paint
+it's really something you actually
+it's really something you actually
+it's really something you actually
+should take your time because
+um a rushed paint job can miss a lot of
+um a rushed paint job can miss a lot of
+um a rushed paint job can miss a lot of
+things up
+things up
+things up
+so yeah
+so yeah
+so yeah
+so much to that
+but don't worry at the end I mean in my
+but don't worry at the end I mean in my
+but don't worry at the end I mean in my
+opinion
+opinion
+opinion
+everything can change inside the game
+everything can change inside the game
+everything can change inside the game
+engine or in your
+engine or in your
+engine or in your
+in your project
+in your project
+in your project
+um
+so
+so
+so
+with the lighting and you know the
+with the lighting and you know the
+with the lighting and you know the
+rendering and the movement with the
+rendering and the movement with the
+rendering and the movement with the
+animation a lot of stuff can change so
+animation a lot of stuff can change so
+animation a lot of stuff can change so
+and I think the whole process is very
+and I think the whole process is very
+and I think the whole process is very
+forgiving even even with mistakes or
+forgiving even even with mistakes or
+forgiving even even with mistakes or
+stuff uh it can look pretty awesome
+stuff uh it can look pretty awesome
+stuff uh it can look pretty awesome
+yeah well and we will just continue like
+yeah well and we will just continue like
+yeah well and we will just continue like
+that
+that
+that
+and blend
+um
+um
+um
+and smear
+and smear
+and smear
+and at the end we will paint a bit over
+and at the end we will paint a bit over
+and at the end we will paint a bit over
+certain parts
+but I mean you really have to decide if
+but I mean you really have to decide if
+but I mean you really have to decide if
+you're working with a normal hand
+you're working with a normal hand
+you're working with a normal hand
+you can just approach it like
+you can just approach it like
+you can just approach it like
+um
+like the arm
+like the arm
+like the arm
+but here with the glove I really really
+but here with the glove I really really
+but here with the glove I really really
+want to use the texture of the glove
+want to use the texture of the glove
+want to use the texture of the glove
+from the reference image so preservation
+from the reference image so preservation
+from the reference image so preservation
+or modification
+or modification
+or modification
+to the side
+but you see I I'm working here with
+but you see I I'm working here with
+but you see I I'm working here with
+mouse I'm
+mouse I'm
+mouse I'm
+having to actually
+having to actually
+having to actually
+make in solid
+make in solid
+make in solid
+uh paint job with mouse I would
+uh paint job with mouse I would
+uh paint job with mouse I would
+need a lot of time
+need a lot of time
+need a lot of time
+and I'm way too
+I'm already already having a very hard
+I'm already already having a very hard
+I'm already already having a very hard
+time uh because the tutorial is taking
+time uh because the tutorial is taking
+time uh because the tutorial is taking
+so long but I really want to show you
+so long but I really want to show you
+so long but I really want to show you
+all the details and all the hands uh all
+all the details and all the hands uh all
+all the details and all the hands uh all
+the steps
+so and yeah I mean you can use the
+so and yeah I mean you can use the
+so and yeah I mean you can use the
+timestamps
+trick does Shadows
+to the top
+to the top
+to the top
+to the same here
+so I'm let's do some
+so I'm let's do some
+so I'm let's do some
+slight blending here
+slight blending here
+slight blending here
+and yeah we need here some
+and yeah we need here some
+and yeah we need here some
+Shadow situation or something
+Shadow situation or something
+Shadow situation or something
+but looks super awesome
+looks like a glove
+yeah that's enough I really overthink
+yeah that's enough I really overthink
+yeah that's enough I really overthink
+way too often and invest way too much
+way too often and invest way too much
+way too often and invest way too much
+time in in details that end up not being
+time in in details that end up not being
+time in in details that end up not being
+as important or something
+as important or something
+as important or something
+so yeah I hope you you have
+so yeah I hope you you have
+so yeah I hope you you have
+a better way of understanding your
+a better way of understanding your
+a better way of understanding your
+managing your time
+managing your time
+managing your time
+so let's make here a little Shadow spot
+so let's make here a little Shadow spot
+so let's make here a little Shadow spot
+we will use the brown
+you know what let's
+work with this page
+work with this page
+work with this page
+zoom out
+this makes more sense
+let's make it darker
+and let's take
+just make a circle
+like that
+like that
+like that
+image save and
+editing a select everything go back
+editing a select everything go back
+editing a select everything go back
+now let's blend in the edges
+now let's blend in the edges
+now let's blend in the edges
+smear tool
+like that
+like that
+like that
+yeah hell yeah we are making a lot of
+yeah hell yeah we are making a lot of
+yeah hell yeah we are making a lot of
+progress in this tutorial
+progress in this tutorial
+progress in this tutorial
+and yeah
+and yeah
+and yeah
+take your time
+and really
+and really
+and really
+you know
+you know
+you know
+keep in mind a budget for mistakes
+keep in mind a budget for mistakes
+keep in mind a budget for mistakes
+always
+always
+always
+even even if you are profy veteran or
+even even if you are profy veteran or
+even even if you are profy veteran or
+something have a budget a budget for
+something have a budget a budget for
+something have a budget a budget for
+mistakes
+people that create people who create
+people that create people who create
+people that create people who create
+masterpieces didn't expect the
+masterpieces didn't expect the
+masterpieces didn't expect the
+Masterpiece the Masterpiece came
+Masterpiece the Masterpiece came
+Masterpiece the Masterpiece came
+while
+while
+while
+there have been
+there have been
+there have been
+in their elements
+planning a masterpiece is not really a
+planning a masterpiece is not really a
+planning a masterpiece is not really a
+masterpiece in my opinion
+so nice nice transition
+nice
+nice
+nice
+give it a safe and let's uh I would say
+give it a safe and let's uh I would say
+give it a safe and let's uh I would say
+let's redraw slightly some Shadow area
+let's redraw slightly some Shadow area
+let's redraw slightly some Shadow area
+areas
+areas
+areas
+going to draw
+going to draw
+going to draw
+color picked
+the shadow shadowy part here something
+the shadow shadowy part here something
+the shadow shadowy part here something
+it's more reddish okay
+roll with that but let's decrease the
+roll with that but let's decrease the
+roll with that but let's decrease the
+opacity
+zoom in
+like that
+that we we make the glass a bit more pop
+that we we make the glass a bit more pop
+that we we make the glass a bit more pop
+let's drag the line a bit more down
+like that
+like that
+like that
+also here this line
+and I think this Rim we should retrace
+and I think this Rim we should retrace
+and I think this Rim we should retrace
+the rim here
+without the stabilization I think this
+without the stabilization I think this
+without the stabilization I think this
+can look
+can look
+can look
+quite interesting
+just like that
+mm-hmm
+quite all right if you zoom back it
+quite all right if you zoom back it
+quite all right if you zoom back it
+looks actually
+looks actually
+looks actually
+more High poly so okay let's run
+more High poly so okay let's run
+more High poly so okay let's run
+let's leave it like that why not
+let's leave it like that why not
+let's leave it like that why not
+let's leave it like that
+let's leave it like that
+let's leave it like that
+alt H bring everything back you will lay
+alt H bring everything back you will lay
+alt H bring everything back you will lay
+out
+out
+out
+Zoom a bit out nice
+Zoom a bit out nice
+Zoom a bit out nice
+material uh
+material uh
+material uh
+modifier properties and let's bring back
+modifier properties and let's bring back
+modifier properties and let's bring back
+our mirror modifier hell yeah what's the
+our mirror modifier hell yeah what's the
+our mirror modifier hell yeah what's the
+reference here's the reference this is
+reference here's the reference this is
+reference here's the reference this is
+very accurate so before we attack
+very accurate so before we attack
+very accurate so before we attack
+um the rigging I wanna dive into
+um the rigging I wanna dive into
+um the rigging I wanna dive into
+something else
+something else
+something else
+um the we're done with the texture so
+um the we're done with the texture so
+um the we're done with the texture so
+here's my project file references
+here's my project file references
+here's my project file references
+texture and blender file itself and we
+texture and blender file itself and we
+texture and blender file itself and we
+have here still the backup yeah
+have here still the backup yeah
+have here still the backup yeah
+um I think we don't need it anymore I'm
+um I think we don't need it anymore I'm
+um I think we don't need it anymore I'm
+pretty happy with the outcome
+pretty happy with the outcome
+pretty happy with the outcome
+so delete it and now this file let's
+so delete it and now this file let's
+so delete it and now this file let's
+make a copy of this one
+make a copy of this one
+make a copy of this one
+copy and
+copy and
+copy and
+insert
+insert
+insert
+and
+now we can for example try to
+now we can for example try to
+now we can for example try to
+um
+to adjust the
+to adjust the
+to adjust the
+uh to make the the texture smaller maybe
+uh to make the the texture smaller maybe
+uh to make the the texture smaller maybe
+this um amount of pixelation is not
+this um amount of pixelation is not
+this um amount of pixelation is not
+necessary the 256 by 256 maybe
+necessary the 256 by 256 maybe
+necessary the 256 by 256 maybe
+128 is enough so let's give it a try
+128 is enough so let's give it a try
+128 is enough so let's give it a try
+currently it's still
+currently it's still
+currently it's still
+um high so right click
+um high so right click
+um high so right click
+edit and inside paint we have here
+edit and inside paint we have here
+edit and inside paint we have here
+change size in for me it's in German
+change size in for me it's in German
+change size in for me it's in German
+um pixel and let's just change it change
+um pixel and let's just change it change
+um pixel and let's just change it change
+it okay and let's give it a sieve
+it okay and let's give it a sieve
+it okay and let's give it a sieve
+now we have here a big version and a
+now we have here a big version and a
+now we have here a big version and a
+smaller version
+smaller version
+smaller version
+so let's try the smaller version
+so let's try the smaller version
+so let's try the smaller version
+because we we Blended the
+because we we Blended the
+because we we Blended the
+the parts pretty nice uh the transition
+the parts pretty nice uh the transition
+the parts pretty nice uh the transition
+is pretty nice into each other there
+is pretty nice into each other there
+is pretty nice into each other there
+should not be a hard picture pixelation
+should not be a hard picture pixelation
+should not be a hard picture pixelation
+it should be pretty smooth and but I'm
+it should be pretty smooth and but I'm
+it should be pretty smooth and but I'm
+curious about the the details on the
+curious about the the details on the
+curious about the the details on the
+glove
+glove
+glove
+so
+so
+so
+um also
+um also
+um also
+um if you don't prefer this smooth look
+um if you don't prefer this smooth look
+um if you don't prefer this smooth look
+you can always go back to shade flat
+you can always go back to shade flat
+you can always go back to shade flat
+and go with this flat shaded version but
+and go with this flat shaded version but
+and go with this flat shaded version but
+I like this move
+I like this move
+I like this move
+the smooth version
+the smooth version
+the smooth version
+it displays the the texture a bit better
+it displays the the texture a bit better
+it displays the the texture a bit better
+so let's change it select and here
+so let's change it select and here
+so let's change it select and here
+material properties
+material properties
+material properties
+open image and let's change the small
+open image and let's change the small
+open image and let's change the small
+version
+version
+version
+and let's give it a look how it will end
+and let's give it a look how it will end
+and let's give it a look how it will end
+up
+nice
+we have way more pixelation but we still
+we have way more pixelation but we still
+we have way more pixelation but we still
+have the details of the glove
+have the details of the glove
+have the details of the glove
+pretty nice wait let's hide the overlay
+pretty nice wait let's hide the overlay
+pretty nice wait let's hide the overlay
+here
+here
+here
+show overlays
+we still have all the details the
+we still have all the details the
+we still have all the details the
+Shadows here
+Shadows here
+Shadows here
+the glove
+the glove
+the glove
+maybe this line is a bit off
+maybe this line is a bit off
+maybe this line is a bit off
+and down here but we can just move over
+and down here but we can just move over
+and down here but we can just move over
+very quickly
+very quickly
+very quickly
+and let's take the soften tool
+and let's take the soften tool
+and let's take the soften tool
+and hide the glove I think the glove is
+and hide the glove I think the glove is
+and hide the glove I think the glove is
+pretty perfect
+foreign
+foreign
+foreign
+for this
+for this
+for this
+side
+maybe here a bit
+nice
+so let's bring everything back alt h
+let's give it a second look
+let's give it a second look
+let's give it a second look
+yeah I think I will roll with this
+yeah I think I will roll with this
+yeah I think I will roll with this
+resolution this is pretty good I mean
+resolution this is pretty good I mean
+resolution this is pretty good I mean
+here's
+here's
+here's
+now let's leave it like that I like the
+now let's leave it like that I like the
+now let's leave it like that I like the
+amount of pixelation
+amount of pixelation
+amount of pixelation
+it's pixelated enough and so it's it's
+it's pixelated enough and so it's it's
+it's pixelated enough and so it's it's
+high enough to display all the details
+high enough to display all the details
+high enough to display all the details
+and it's low enough to give us a nice
+and it's low enough to give us a nice
+and it's low enough to give us a nice
+crisp pixelation here on the edges for
+crisp pixelation here on the edges for
+crisp pixelation here on the edges for
+example
+example
+example
+and yeah that's a that's a awesome sweet
+and yeah that's a that's a awesome sweet
+and yeah that's a that's a awesome sweet
+spot what's also possible with the
+spot what's also possible with the
+spot what's also possible with the
+uh with the texture for example would be
+uh with the texture for example would be
+uh with the texture for example would be
+right click and oh double tap
+right click and oh double tap
+right click and oh double tap
+in the display mode
+in the display mode
+in the display mode
+we could uh here on the image editing
+we could uh here on the image editing
+we could uh here on the image editing
+we could arrange
+we could arrange
+we could arrange
+the sharpness
+the sharpness
+the sharpness
+of the colors
+to bring out more of the details
+to bring out more of the details
+to bring out more of the details
+to make it more pop and the colors
+to make it more pop and the colors
+to make it more pop and the colors
+can bring them a bit up
+like that
+like that
+like that
+it's a slight difference all inside of
+it's a slight difference all inside of
+it's a slight difference all inside of
+windows
+windows
+windows
+and let's just uh let's just try it I
+and let's just uh let's just try it I
+and let's just uh let's just try it I
+will just straight up save over it why
+will just straight up save over it why
+will just straight up save over it why
+not
+so here we see the colors are a bit
+so here we see the colors are a bit
+so here we see the colors are a bit
+clearer and the details are a bit more
+clearer and the details are a bit more
+clearer and the details are a bit more
+sharp and even though it's the smaller
+sharp and even though it's the smaller
+sharp and even though it's the smaller
+image
+image
+image
+here it's a bit more you know foggy
+here it's a bit more you know foggy
+here it's a bit more you know foggy
+uh let's re-import it
+nice now texture has some
+nice now texture has some
+nice now texture has some
+crisp pop to it
+crisp pop to it
+crisp pop to it
+this will be my final texture nice those
+this will be my final texture nice those
+this will be my final texture nice those
+slight
+slight
+slight
+um changes did a lot for our texture now
+um changes did a lot for our texture now
+um changes did a lot for our texture now
+it looks very professional
+it looks very professional
+it looks very professional
+very nice
+and with without using any big software
+and with without using any big software
+and with without using any big software
+or something so everything inside
+or something so everything inside
+or something so everything inside
+blender and windows and I think we can
+blender and windows and I think we can
+blender and windows and I think we can
+now head to
+now head to
+now head to
+um
+um
+um
+rigging so
+rigging so
+rigging so
+let's give it a save Also let's
+let's give it a save Also let's
+let's give it a save Also let's
+um
+um
+um
+bring back the overlays we can get rid
+bring back the overlays we can get rid
+bring back the overlays we can get rid
+of the reference image select shift left
+of the reference image select shift left
+of the reference image select shift left
+shift d left click now we have arm
+shift d left click now we have arm
+shift d left click now we have arm
+two and drag drop it into the backup
+two and drag drop it into the backup
+two and drag drop it into the backup
+folder perfect
+save again
+so
+so
+so
+um now for our rigging situation uh we
+um now for our rigging situation uh we
+um now for our rigging situation uh we
+need the human meta rig
+need the human meta rig
+need the human meta rig
+if you don't have the human metric so
+if you don't have the human metric so
+if you don't have the human metric so
+shift a
+shift a
+shift a
+amateur and
+amateur and
+amateur and
+human meter rig if you don't have that
+human meter rig if you don't have that
+human meter rig if you don't have that
+you need to activate it here on the edit
+you need to activate it here on the edit
+you need to activate it here on the edit
+preferences and under
+rigify you have to
+rigify you have to
+rigify you have to
+check this one here
+check this one here
+check this one here
+and then it should pop up
+and then it should pop up
+and then it should pop up
+so our amateur shift a amateur and
+so our amateur shift a amateur and
+so our amateur shift a amateur and
+humidoric
+humidoric
+humidoric
+noise and
+noise and
+noise and
+now let's just
+now let's just
+now let's just
+select it and
+select it and
+select it and
+bring it to the height of the shoulders
+like that
+like that
+like that
+bit more down
+bit more down
+bit more down
+and here on the object data properties
+and here on the object data properties
+and here on the object data properties
+viewport display in front
+okay
+okay
+okay
+now we have a lot of unnecessary bones
+now we have a lot of unnecessary bones
+now we have a lot of unnecessary bones
+here and we want to get rid of them so
+here and we want to get rid of them so
+here and we want to get rid of them so
+select the Armature and tap go into edit
+select the Armature and tap go into edit
+select the Armature and tap go into edit
+mode and now we can basically delete
+mode and now we can basically delete
+mode and now we can basically delete
+everything
+exact the arms and we need this spine
+exact the arms and we need this spine
+exact the arms and we need this spine
+bone
+bone
+bone
+and of course we don't need a head
+and of course we don't need a head
+and of course we don't need a head
+because first person this would
+because first person this would
+because first person this would
+be just a camera
+so
+so
+so
+I think it's maybe necessary to shove
+I think it's maybe necessary to shove
+I think it's maybe necessary to shove
+the arms a bit more inwards
+so edit mode
+so edit mode
+so edit mode
+slightly inwards something like that
+slightly inwards something like that
+slightly inwards something like that
+but the rest of the rig will be based on
+but the rest of the rig will be based on
+but the rest of the rig will be based on
+the on the model so
+the on the model so
+the on the model so
+oh one thing left in object mode right
+oh one thing left in object mode right
+oh one thing left in object mode right
+click and
+click and
+click and
+set Origins 3D cursor
+set Origins 3D cursor
+set Origins 3D cursor
+so the origin is not down here or
+so the origin is not down here or
+so the origin is not down here or
+something we need it up here
+okay
+now let's switch here into the solid
+now let's switch here into the solid
+now let's switch here into the solid
+mode
+and select the meter rig and hit
+and select the meter rig and hit
+and select the meter rig and hit
+tap
+and x-ray
+yeah X-ray and I think we should toggle
+yeah X-ray and I think we should toggle
+yeah X-ray and I think we should toggle
+the the wireframe
+the the wireframe
+the the wireframe
+so here
+so here
+so here
+geometry wireframe
+geometry wireframe
+geometry wireframe
+and also up here uh this little magnet
+and also up here uh this little magnet
+and also up here uh this little magnet
+snapping tool we needed
+snapping tool we needed
+snapping tool we needed
+toggle it and volume
+and volume to Center
+and volume to Center
+and volume to Center
+perfect so drag select
+perfect so drag select
+perfect so drag select
+also important toggle here the the X
+also important toggle here the the X
+also important toggle here the the X
+that way it will mirror our adjustments
+that way it will mirror our adjustments
+that way it will mirror our adjustments
+now
+now
+now
+let's lay it here in the middle
+let's lay it here in the middle
+let's lay it here in the middle
+track select
+track select
+track select
+somewhere like here
+and yeah let's use the move tool
+it's just adjusted from the front first
+so I want the ball here the the start of
+so I want the ball here the the start of
+so I want the ball here the the start of
+the hand
+to intersect with one third
+to intersect with one third
+to intersect with one third
+with the arm
+with the arm
+with the arm
+not half around one third
+not half around one third
+not half around one third
+and yeah and I think now we can start
+and yeah and I think now we can start
+and yeah and I think now we can start
+adjusting the
+adjusting the
+adjusting the
+the fingers but let's bring the shoulder
+a bit more in
+more like more like here
+more like more like here
+more like more like here
+yeah that makes sense it will not make a
+yeah that makes sense it will not make a
+yeah that makes sense it will not make a
+lot of difference
+lot of difference
+lot of difference
+so let's
+shove the hand
+shove the hand
+shove the hand
+here and the elbow
+here and the elbow
+here and the elbow
+let's bring the elbow a bit back just
+let's bring the elbow a bit back just
+let's bring the elbow a bit back just
+right behind behind the middle line
+right behind behind the middle line
+right behind behind the middle line
+like that nice
+like that nice
+like that nice
+so and now let's delete some fingers we
+so and now let's delete some fingers we
+so and now let's delete some fingers we
+only need the the pointer the middle
+only need the the pointer the middle
+only need the the pointer the middle
+finger and the thumb and we can delete
+finger and the thumb and we can delete
+finger and the thumb and we can delete
+basically all the other fingers
+basically all the other fingers
+basically all the other fingers
+those are not necessary let's
+shift left click
+and yeah let's
+and yeah let's
+and yeah let's
+we're starting here and let's just
+we're starting here and let's just
+we're starting here and let's just
+because we have the snapping the volume
+because we have the snapping the volume
+because we have the snapping the volume
+snapping active it will
+snapping active it will
+snapping active it will
+throw it inside if it doesn't snap right
+throw it inside if it doesn't snap right
+throw it inside if it doesn't snap right
+or it's a bit distorted just shove it in
+or it's a bit distorted just shove it in
+or it's a bit distorted just shove it in
+place it should be in center with the
+place it should be in center with the
+place it should be in center with the
+first line
+first line
+first line
+the same for this part and now we will
+the same for this part and now we will
+the same for this part and now we will
+just work our way down
+just work our way down
+just work our way down
+so this one here
+so this one here
+so this one here
+in the middle of the fingers
+this one here to this line
+the spawn here the last one to the tip
+maybe a bit more
+maybe a bit more
+maybe a bit more
+centered
+this one a bit more upwards
+good enough drag select
+good enough drag select
+good enough drag select
+and exactly the same thing for the
+and exactly the same thing for the
+and exactly the same thing for the
+pointer
+foreign
+I think the rotation is a bit off
+here on the item
+here on the item
+here on the item
+you should build a
+rotate it a bit back
+and let's start here
+and let's start here
+and let's start here
+I think the last point is not necessary
+I think the last point is not necessary
+I think the last point is not necessary
+for my finger it will be a very limited
+for my finger it will be a very limited
+for my finger it will be a very limited
+thumb
+and the bone of the thumb should be
+and the bone of the thumb should be
+and the bone of the thumb should be
+around here in the middle
+something around this
+something around this
+something around this
+this is also centered
+this is also centered
+this is also centered
+it's a bit more
+it's a bit more
+it's a bit more
+in
+in
+in
+just like that okay
+just like that okay
+just like that okay
+aren't the hand bone
+something like that okay
+something like that okay
+something like that okay
+oh we can untuckle the volume snapping
+oh we can untuckle the volume snapping
+oh we can untuckle the volume snapping
+and
+and
+and
+so the rig is basically done and now we
+so the rig is basically done and now we
+so the rig is basically done and now we
+will work with the automatic uh rigging
+will work with the automatic uh rigging
+will work with the automatic uh rigging
+and then we will touch up some
+and then we will touch up some
+and then we will touch up some
+little uh pots
+little uh pots
+little uh pots
+so let's go back into the object mode
+so let's go back into the object mode
+so let's go back into the object mode
+let's select the mesh first and then the
+let's select the mesh first and then the
+let's select the mesh first and then the
+rig
+shift left click and it's important that
+shift left click and it's important that
+shift left click and it's important that
+this marking this Frame is around the
+this marking this Frame is around the
+this marking this Frame is around the
+meter rig
+meter rig
+meter rig
+right click parent automatic weights
+now let's drag it into the arm folder
+now let's drag it into the arm folder
+now let's drag it into the arm folder
+now it should be Unified
+now it should be Unified
+now it should be Unified
+if we now select the the rig we can
+if we now select the the rig we can
+if we now select the the rig we can
+switch into the post mode
+switch into the post mode
+switch into the post mode
+and now it should be possible if we take
+and now it should be possible if we take
+and now it should be possible if we take
+the rotate tool for example
+the rotate tool for example
+the rotate tool for example
+to remove our rigged arm around
+to remove our rigged arm around
+to remove our rigged arm around
+okay let's test all the bones
+um I think it's better to change Global
+um I think it's better to change Global
+um I think it's better to change Global
+to local
+to local
+to local
+so the it's aligned with the rotation of
+so the it's aligned with the rotation of
+so the it's aligned with the rotation of
+the the bone now let's just
+the the bone now let's just
+the the bone now let's just
+try if we get some weird distortions or
+try if we get some weird distortions or
+try if we get some weird distortions or
+something
+something
+something
+okay to snap it back to its original
+okay to snap it back to its original
+okay to snap it back to its original
+state alt R for rotation alt G would be
+state alt R for rotation alt G would be
+state alt R for rotation alt G would be
+for
+for
+for
+um you know movement and ALT s would be
+um you know movement and ALT s would be
+um you know movement and ALT s would be
+for resetting the scale
+for resetting the scale
+for resetting the scale
+work our way down
+get rotation is a bit off but let's just
+get rotation is a bit off but let's just
+get rotation is a bit off but let's just
+try it
+okay
+okay
+okay
+let's material preview
+I mean it looks alright
+but we can
+yeah you see here the the lower arm gets
+yeah you see here the the lower arm gets
+yeah you see here the the lower arm gets
+very thin thin
+very thin thin
+very thin thin
+and we want volume down here so we have
+and we want volume down here so we have
+and we want volume down here so we have
+to fix that
+to fix that
+to fix that
+the part okay
+the part okay
+the part okay
+alt r
+let's keep that in mind
+and also I don't like this weird
+and also I don't like this weird
+and also I don't like this weird
+rotation it's going to edit mode
+item and roll
+rotate it more towards the camera
+rotate it more towards the camera
+rotate it more towards the camera
+like that
+like that
+like that
+no compose mode select it again you see
+no compose mode select it again you see
+no compose mode select it again you see
+the
+the
+the
+the x value
+the x value
+the x value
+is facing towards the camera
+is facing towards the camera
+is facing towards the camera
+that's way better just like the shoulder
+that's way better just like the shoulder
+that's way better just like the shoulder
+so let's try just the headphone
+okay
+okay
+okay
+get no weird distortions it's just
+get no weird distortions it's just
+get no weird distortions it's just
+rolling
+with the hand perfect alt r
+no
+let's try here the first one for the
+let's try here the first one for the
+let's try here the first one for the
+thumb
+okay we get some slightly sludge
+okay we get some slightly sludge
+okay we get some slightly sludge
+um distortions
+um distortions
+um distortions
+but I think we can
+but I think we can
+but I think we can
+we can work with that
+okay that's pretty okay drag select alt
+okay that's pretty okay drag select alt
+okay that's pretty okay drag select alt
+R to snap back
+can we live with that uh kind of
+can we live with that uh kind of
+can we live with that uh kind of
+distortion
+I mean it's getting really thin up here
+looks kind of weird
+maybe we we have to fix that
+maybe we we have to fix that
+maybe we we have to fix that
+but I think it's not that bad to be
+but I think it's not that bad to be
+but I think it's not that bad to be
+honest if you look it from a bit further
+honest if you look it from a bit further
+honest if you look it from a bit further
+away
+okay let's try to make a fist
+select hit a select everything
+alt R and let's make a fist
+and now the pointer
+now let's lay
+now let's lay
+now let's lay
+uh from
+top of it
+top of it
+top of it
+if you're not sure about your fists try
+if you're not sure about your fists try
+if you're not sure about your fists try
+to make a fist with your own hands and
+to make a fist with your own hands and
+to make a fist with your own hands and
+compare it compare it
+and the finger should close down
+and the finger should close down
+and the finger should close down
+uh the function close down the fist
+uh the function close down the fist
+uh the function close down the fist
+selected
+foreign
+basically I get uh I try to get a test
+basically I get uh I try to get a test
+basically I get uh I try to get a test
+um
+um
+um
+perspective onto my arm
+I think the the deforming of the
+I think the the deforming of the
+I think the the deforming of the
+of the hand is not that bad I know it's
+of the hand is not that bad I know it's
+of the hand is not that bad I know it's
+really thin thinning out up here
+but it's really not that bad
+but it's really not that bad
+but it's really not that bad
+I mean you have to imagine if we hold a
+I mean you have to imagine if we hold a
+I mean you have to imagine if we hold a
+gun or something
+gun or something
+gun or something
+this thing is more relaxed
+this thing is more relaxed
+this thing is more relaxed
+this would be also a bit more forward
+something like this did this would be
+something like this did this would be
+something like this did this would be
+closed a bit more tired tiredly tighter
+closed a bit more tired tiredly tighter
+closed a bit more tired tiredly tighter
+tighter
+tighter
+tighter
+so
+so
+so
+r
+r
+r
+so this would be with a gun
+in gr I can totally live with that
+okay
+yep that's pretty good select all R the
+yep that's pretty good select all R the
+yep that's pretty good select all R the
+only thing I noticed was this distortion
+only thing I noticed was this distortion
+only thing I noticed was this distortion
+of the
+of the
+of the
+of the lower arm if we get all the way
+of the lower arm if we get all the way
+of the lower arm if we get all the way
+up here
+up here
+up here
+this looks really weird we have to fix
+this looks really weird we have to fix
+this looks really weird we have to fix
+that part
+that part
+that part
+so
+so
+so
+let's bring it in a weird pose like this
+switch in to the object mode select only
+switch in to the object mode select only
+switch in to the object mode select only
+the the geometry
+the the geometry
+the the geometry
+like that
+not the rig just to geometry and hit
+not the rig just to geometry and hit
+not the rig just to geometry and hit
+edit
+now here
+set the object data properties we have
+set the object data properties we have
+set the object data properties we have
+the list of all the boats
+and we have here a left shoulder upper
+and we have here a left shoulder upper
+and we have here a left shoulder upper
+arm so shoulder upon
+arm so shoulder upon
+arm so shoulder upon
+and forearm
+so let's click here into nothing and
+so let's click here into nothing and
+so let's click here into nothing and
+select
+select
+select
+what the forearm has assigned
+what the forearm has assigned
+what the forearm has assigned
+okay
+okay
+okay
+so basically we want the forearm to to
+so basically we want the forearm to to
+so basically we want the forearm to to
+just have uh
+it's here's a site but we don't want the
+it's here's a site but we don't want the
+it's here's a site but we don't want the
+middle part we actually want the
+middle part we actually want the
+middle part we actually want the
+the upper arm
+the upper arm
+the upper arm
+and the upper arm and the forearm to not
+and the upper arm and the forearm to not
+and the upper arm and the forearm to not
+have any weight painting in the middle
+have any weight painting in the middle
+have any weight painting in the middle
+this is just for stretching so let's
+this is just for stretching so let's
+this is just for stretching so let's
+select the upper arm
+select the upper arm
+select the upper arm
+okay
+okay
+okay
+so let's start with the upper arm to fix
+so let's start with the upper arm to fix
+so let's start with the upper arm to fix
+this weird distortion
+this weird distortion
+this weird distortion
+we will just go into the face selection
+we will just go into the face selection
+we will just go into the face selection
+let's untoggle the X-ray vision
+alt left click
+alt left click
+alt left click
+so it will wrap around or you just
+so it will wrap around or you just
+so it will wrap around or you just
+shift left click all around all the
+shift left click all around all the
+shift left click all around all the
+faces and while having the upper arm
+faces and while having the upper arm
+faces and while having the upper arm
+selected hit remove
+selected hit remove
+selected hit remove
+and because we still have the mirror
+and because we still have the mirror
+and because we still have the mirror
+modifier on this wave painting will
+modifier on this wave painting will
+modifier on this wave painting will
+apply to the other side
+apply to the other side
+apply to the other side
+if we now
+if we now
+if we now
+deselect this so click into nothing and
+deselect this so click into nothing and
+deselect this so click into nothing and
+select again the upper arm
+select again the upper arm
+select again the upper arm
+it's just this okay just the shoulder
+it's just this okay just the shoulder
+it's just this okay just the shoulder
+this is not enough so
+this is not enough so
+this is not enough so
+let's bring this selected area back
+let's bring this selected area back
+let's bring this selected area back
+and
+and
+and
+assign
+assign
+assign
+click into nothing and let's check again
+click into nothing and let's check again
+click into nothing and let's check again
+okay perfect now the the upper arm
+okay perfect now the the upper arm
+okay perfect now the the upper arm
+bone is assigned to from the shoulder
+bone is assigned to from the shoulder
+bone is assigned to from the shoulder
+part
+part
+part
+down to here
+down to here
+down to here
+and this is now gone perfect
+and this is now gone perfect
+and this is now gone perfect
+let's try the forearm select
+let's try the forearm select
+let's try the forearm select
+okay again we have to deselect
+okay again we have to deselect
+okay again we have to deselect
+those parts because through this part we
+those parts because through this part we
+those parts because through this part we
+get this weird stretching that's
+get this weird stretching that's
+get this weird stretching that's
+thinning out our form
+thinning out our form
+thinning out our form
+remove
+okay let's check it
+okay let's check it
+okay let's check it
+form selected select
+x-ray
+x-ray
+x-ray
+so only the the part down here is left
+so only the the part down here is left
+so only the the part down here is left
+because the the way painting is fading
+because the the way painting is fading
+because the the way painting is fading
+out
+out
+out
+but because we work with low poly we can
+but because we work with low poly we can
+but because we work with low poly we can
+basically just use
+basically just use
+basically just use
+whole faces for weight painting
+whole faces for weight painting
+whole faces for weight painting
+and toggle the X-ray
+shift left click okay this is selected
+shift left click okay this is selected
+shift left click okay this is selected
+and a sign
+and a sign
+and a sign
+now click into nothing select forearm
+now click into nothing select forearm
+now click into nothing select forearm
+x-ray okay the faces inside the hand are
+x-ray okay the faces inside the hand are
+x-ray okay the faces inside the hand are
+selected and this upper part here
+selected and this upper part here
+selected and this upper part here
+perfect
+perfect
+perfect
+in the middle part is not selected by
+in the middle part is not selected by
+in the middle part is not selected by
+the upper arm or the forearm this is
+the upper arm or the forearm this is
+the upper arm or the forearm this is
+just this is it's basically an empty
+just this is it's basically an empty
+just this is it's basically an empty
+space between weight painted
+space between weight painted
+space between weight painted
+um
+um
+um
+mesh that's just here for stretching so
+mesh that's just here for stretching so
+mesh that's just here for stretching so
+we
+we
+we
+so we can test this very easily hit tab
+so we can test this very easily hit tab
+so we can test this very easily hit tab
+now it will spring back into the pose we
+now it will spring back into the pose we
+now it will spring back into the pose we
+we left the Armature
+we left the Armature
+we left the Armature
+and as you can see so
+and as you can see so
+and as you can see so
+um
+side overlays
+side overlays
+side overlays
+now it's looking like a real muscle
+now it's looking like a real muscle
+now it's looking like a real muscle
+and the form is not thinning out anymore
+and the form is not thinning out anymore
+and the form is not thinning out anymore
+but basically do the same process for
+but basically do the same process for
+but basically do the same process for
+the fingers but I have to say it's it's
+the fingers but I have to say it's it's
+the fingers but I have to say it's it's
+not that
+not that
+not that
+of an issue for me so this was way more
+of an issue for me so this was way more
+of an issue for me so this was way more
+an issue the filling out now it's look
+an issue the filling out now it's look
+an issue the filling out now it's look
+it looks way more realistic
+and yeah we get here looks very organic
+and yeah we get here looks very organic
+and yeah we get here looks very organic
+nice
+nice
+nice
+ectometric
+ectometric
+ectometric
+post mode
+we select the spawn and let's hide the
+we select the spawn and let's hide the
+we select the spawn and let's hide the
+overlays
+as you can see this middle part is now
+as you can see this middle part is now
+as you can see this middle part is now
+only for stretching
+not r
+nice pretty nice
+well well well
+now let's check the other side very
+now let's check the other side very
+now let's check the other side very
+quickly
+so because the mirror modifier is on
+here on the arms
+here on the arms
+here on the arms
+the
+the
+the
+the assigned the the changed weight
+the assigned the the changed weight
+the assigned the the changed weight
+painting is applying to the other side
+painting is applying to the other side
+painting is applying to the other side
+as well and we don't have to repeat the
+as well and we don't have to repeat the
+as well and we don't have to repeat the
+whole process for the set for the for
+whole process for the set for the for
+whole process for the set for the for
+the other side only for one side
+the other side only for one side
+the other side only for one side
+that's pretty convenient this thinning
+that's pretty convenient this thinning
+that's pretty convenient this thinning
+out of the arm is would look very
+out of the arm is would look very
+out of the arm is would look very
+um
+um
+um
+dumb and unprofessional the the thing
+dumb and unprofessional the the thing
+dumb and unprofessional the the thing
+out of the fingers it's not that nature
+out of the fingers it's not that nature
+out of the fingers it's not that nature
+but that's a personal
+but that's a personal
+but that's a personal
+opinion slap slap slap okay
+opinion slap slap slap okay
+opinion slap slap slap okay
+so
+so
+so
+let's bring back the overlay and I would
+let's bring back the overlay and I would
+let's bring back the overlay and I would
+say let's give it a safe
+say let's give it a safe
+say let's give it a safe
+basically this setup here
+basically this setup here
+basically this setup here
+is ready to go
+um for some first person animations
+um for some first person animations
+um for some first person animations
+well well well I'm really really proud
+well well well I'm really really proud
+well well well I'm really really proud
+of you if you made it this far in this
+of you if you made it this far in this
+of you if you made it this far in this
+tutorial it's always hard to learn and
+tutorial it's always hard to learn and
+tutorial it's always hard to learn and
+try something new and especially for
+try something new and especially for
+try something new and especially for
+beginner there are a lot of informations
+beginner there are a lot of informations
+beginner there are a lot of informations
+at once if you have any questions leave
+at once if you have any questions leave
+at once if you have any questions leave
+them in the comments below
+them in the comments below
+them in the comments below
+also this um character Rick will be
+also this um character Rick will be
+also this um character Rick will be
+available for my uh on my website
+available for my uh on my website
+available for my uh on my website
+starcraft.com as a free download so if
+starcraft.com as a free download so if
+starcraft.com as a free download so if
+you want to play around with this
+you want to play around with this
+you want to play around with this
+um
+um
+um
+also in the next video we will dive into
+also in the next video we will dive into
+also in the next video we will dive into
+based on this project file uh dive into
+based on this project file uh dive into
+based on this project file uh dive into
+first person animation how to set
+first person animation how to set
+first person animation how to set
+everything the camera and stuff up
+everything the camera and stuff up
+everything the camera and stuff up
+inside
+inside
+inside
+uh blender animates the base animations
+uh blender animates the base animations
+uh blender animates the base animations
+for your character for your first person
+for your character for your first person
+for your character for your first person
+character and then export it
+character and then export it
+character and then export it
+as an fbx file ready for your game
+as an fbx file ready for your game
+as an fbx file ready for your game
+project
+project
+project
+and well and
+and well and
+and well and
+check out my other videos and my death
+check out my other videos and my death
+check out my other videos and my death
+Vlog and please consider subscribing for
+Vlog and please consider subscribing for
+Vlog and please consider subscribing for
+more and yeah I guess see you in the
+more and yeah I guess see you in the
+more and yeah I guess see you in the
+next one

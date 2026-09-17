@@ -1,0 +1,1312 @@
+Kind: captions
+Language: en
+Even though we're no longer limited by
+Even though we're no longer limited by
+Even though we're no longer limited by
+the same hardware restrictions, a lot of
+the same hardware restrictions, a lot of
+the same hardware restrictions, a lot of
+people still love the simplicity of old
+people still love the simplicity of old
+people still love the simplicity of old
+school or PS1 style graphics. So, in
+school or PS1 style graphics. So, in
+school or PS1 style graphics. So, in
+this video, I'm going to try creating a
+this video, I'm going to try creating a
+this video, I'm going to try creating a
+character inspired by that style and
+character inspired by that style and
+character inspired by that style and
+talking through the process of making
+talking through the process of making
+talking through the process of making
+the character. And instead of following
+the character. And instead of following
+the character. And instead of following
+along with the exact design I'm using,
+along with the exact design I'm using,
+along with the exact design I'm using,
+I'd encourage you to come up with your
+I'd encourage you to come up with your
+I'd encourage you to come up with your
+own characters. It's much more rewarding
+own characters. It's much more rewarding
+own characters. It's much more rewarding
+to build something that you designed.
+to build something that you designed.
+to build something that you designed.
+If you want inspiration for this style,
+If you want inspiration for this style,
+If you want inspiration for this style,
+websites like The Models Resource are
+websites like The Models Resource are
+websites like The Models Resource are
+great for studying how classic game
+great for studying how classic game
+great for studying how classic game
+characters and environments were built.
+characters and environments were built.
+characters and environments were built.
+And if you want access to the finished
+And if you want access to the finished
+And if you want access to the finished
+project files or just want to support
+project files or just want to support
+project files or just want to support
+the channel, you can join the Patreon
+the channel, you can join the Patreon
+the channel, you can join the Patreon
+through the link in the description.
+through the link in the description.
+through the link in the description.
+Since the channel is in its early stage,
+Since the channel is in its early stage,
+Since the channel is in its early stage,
+I need your support to keep making
+I need your support to keep making
+I need your support to keep making
+videos consistently. Thank you to
+videos consistently. Thank you to
+videos consistently. Thank you to
+everyone who's already helping out. And
+everyone who's already helping out. And
+everyone who's already helping out. And
+if you become a Patreon member, you also
+if you become a Patreon member, you also
+if you become a Patreon member, you also
+get access to the Discord where you can
+get access to the Discord where you can
+get access to the Discord where you can
+share your work and get feedback. Before
+share your work and get feedback. Before
+share your work and get feedback. Before
+we start modeling, it helps to
+we start modeling, it helps to
+we start modeling, it helps to
+understand how PS1 characters were
+understand how PS1 characters were
+understand how PS1 characters were
+usually built. Instead of being one
+usually built. Instead of being one
+usually built. Instead of being one
+smooth mesh, they were typically made
+smooth mesh, they were typically made
+smooth mesh, they were typically made
+from separate simple shapes for each
+from separate simple shapes for each
+from separate simple shapes for each
+body part. And these parts were often
+body part. And these parts were often
+body part. And these parts were often
+very rigid and blocky, which adds to
+very rigid and blocky, which adds to
+very rigid and blocky, which adds to
+that low-poly look. So, we're going to
+that low-poly look. So, we're going to
+that low-poly look. So, we're going to
+follow the same idea and build our
+follow the same idea and build our
+follow the same idea and build our
+character in separate pieces. If we look
+character in separate pieces. If we look
+character in separate pieces. If we look
+at models from games like Resident Evil
+at models from games like Resident Evil
+at models from games like Resident Evil
+or Silent Hill, you'll notice their arms
+or Silent Hill, you'll notice their arms
+or Silent Hill, you'll notice their arms
+aren't in a typical A-pose or T-pose.
+aren't in a typical A-pose or T-pose.
+aren't in a typical A-pose or T-pose.
+Instead, they're built in a more natural
+Instead, they're built in a more natural
+Instead, they're built in a more natural
+idle stance, closer to how they would
+idle stance, closer to how they would
+idle stance, closer to how they would
+appear in game. We can actually approach
+appear in game. We can actually approach
+appear in game. We can actually approach
+our model in the same way. Starting in a
+our model in the same way. Starting in a
+our model in the same way. Starting in a
+more relaxed pose can make it easier to
+more relaxed pose can make it easier to
+more relaxed pose can make it easier to
+focus on the overall silhouette and
+focus on the overall silhouette and
+focus on the overall silhouette and
+proportions first. Later on, when the
+proportions first. Later on, when the
+proportions first. Later on, when the
+model is finalized, we can adjust the
+model is finalized, we can adjust the
+model is finalized, we can adjust the
+arms into a cleaner position before
+arms into a cleaner position before
+arms into a cleaner position before
+rigging.
+I'm using the proportions of female
+I'm using the proportions of female
+I'm using the proportions of female
+characters from Resident Evil as a base
+characters from Resident Evil as a base
+characters from Resident Evil as a base
+for sketching out a new character. Also,
+for sketching out a new character. Also,
+for sketching out a new character. Also,
+keep in mind things like fashion and
+keep in mind things like fashion and
+keep in mind things like fashion and
+hairstyles can really help to make your
+hairstyles can really help to make your
+hairstyles can really help to make your
+character look more retro. After the
+character look more retro. After the
+character look more retro. After the
+character design is finished, we can
+character design is finished, we can
+character design is finished, we can
+save out the front and side references
+save out the front and side references
+save out the front and side references
+as separate images and put them in a
+as separate images and put them in a
+as separate images and put them in a
+folder for references. Now, we can open
+folder for references. Now, we can open
+folder for references. Now, we can open
+up Blender and start setting up the
+up Blender and start setting up the
+up Blender and start setting up the
+scene. Go into the front view and import
+scene. Go into the front view and import
+scene. Go into the front view and import
+the front reference image. Then, switch
+the front reference image. Then, switch
+the front reference image. Then, switch
+to the right view and import the side
+to the right view and import the side
+to the right view and import the side
+reference image.
+Then line up the images so the feet rest
+Then line up the images so the feet rest
+Then line up the images so the feet rest
+on the grid floor. We can also make it
+on the grid floor. We can also make it
+on the grid floor. We can also make it
+so the images are only visible on the
+so the images are only visible on the
+so the images are only visible on the
+front side of the plane.
+And move them back so we have some space
+And move them back so we have some space
+And move them back so we have some space
+for modeling. In the outliner, I'm going
+for modeling. In the outliner, I'm going
+for modeling. In the outliner, I'm going
+to make two collections, one called ref
+to make two collections, one called ref
+to make two collections, one called ref
+for the reference images and the other
+for the reference images and the other
+for the reference images and the other
+called geo for the modeling.
+called geo for the modeling.
+called geo for the modeling.
+Let's add a cube to use as a height
+Let's add a cube to use as a height
+Let's add a cube to use as a height
+reference. Go into edit mode and select
+reference. Go into edit mode and select
+reference. Go into edit mode and select
+everything by pressing A, then press G,
+everything by pressing A, then press G,
+everything by pressing A, then press G,
+Z and hold control to snap it to the
+Z and hold control to snap it to the
+Z and hold control to snap it to the
+grid floor. We can select the top
+grid floor. We can select the top
+grid floor. We can select the top
+vertices and set them to around 1.6 m or
+vertices and set them to around 1.6 m or
+vertices and set them to around 1.6 m or
+however tall you want your character to
+however tall you want your character to
+however tall you want your character to
+be. Then scale the reference images to
+be. Then scale the reference images to
+be. Then scale the reference images to
+match it and make sure the feet are
+match it and make sure the feet are
+match it and make sure the feet are
+still aligned with the grid floor. Now
+still aligned with the grid floor. Now
+still aligned with the grid floor. Now
+that we have the height set, we can
+that we have the height set, we can
+that we have the height set, we can
+scale this cube down and use it as the
+scale this cube down and use it as the
+scale this cube down and use it as the
+base for the head.
+Let's add a loop cut down the center and
+Let's add a loop cut down the center and
+Let's add a loop cut down the center and
+delete one half of the mesh.
+delete one half of the mesh.
+delete one half of the mesh.
+Then add a mirror modifier to make the
+Then add a mirror modifier to make the
+Then add a mirror modifier to make the
+modeling process easier.
+And while we're here, let's go back to
+And while we're here, let's go back to
+And while we're here, let's go back to
+object mode and duplicate the cube.
+object mode and duplicate the cube.
+object mode and duplicate the cube.
+Right click to leave it in place, go
+Right click to leave it in place, go
+Right click to leave it in place, go
+into edit mode and move it down for the
+into edit mode and move it down for the
+into edit mode and move it down for the
+upper torso. Repeat the same process for
+upper torso. Repeat the same process for
+upper torso. Repeat the same process for
+the hips. It's important to not move any
+the hips. It's important to not move any
+the hips. It's important to not move any
+of the parts in object mode, otherwise
+of the parts in object mode, otherwise
+of the parts in object mode, otherwise
+the mirror modifier will not work the
+the mirror modifier will not work the
+the mirror modifier will not work the
+way we want it to. So always when you
+way we want it to. So always when you
+way we want it to. So always when you
+duplicate an object, right click so it
+duplicate an object, right click so it
+duplicate an object, right click so it
+doesn't go anywhere. Then go into edit
+doesn't go anywhere. Then go into edit
+doesn't go anywhere. Then go into edit
+mode, select it and move it. I find it
+mode, select it and move it. I find it
+mode, select it and move it. I find it
+easier to work things out if they're
+easier to work things out if they're
+easier to work things out if they're
+separate objects. We can hide them for
+separate objects. We can hide them for
+separate objects. We can hide them for
+now and just focus on the head. And
+now and just focus on the head. And
+now and just focus on the head. And
+we're going to try to use as few loop
+we're going to try to use as few loop
+we're going to try to use as few loop
+cuts as possible to create the basic
+cuts as possible to create the basic
+cuts as possible to create the basic
+shape of the head. Later we'll come back
+shape of the head. Later we'll come back
+shape of the head. Later we'll come back
+and model the hair. For now, we're just
+and model the hair. For now, we're just
+and model the hair. For now, we're just
+focusing on the main form.
+focusing on the main form.
+focusing on the main form.
+We'll also model the head and neck
+We'll also model the head and neck
+We'll also model the head and neck
+together as one single object.
+together as one single object.
+together as one single object.
+Here I'm adding some loop cuts and
+Here I'm adding some loop cuts and
+Here I'm adding some loop cuts and
+extruding out some faces to make a
+extruding out some faces to make a
+extruding out some faces to make a
+simple nose and brow.
+And we can simplify the mesh by merging
+And we can simplify the mesh by merging
+And we can simplify the mesh by merging
+vertices like this.
+Then I'll extrude a face on the side of
+Then I'll extrude a face on the side of
+Then I'll extrude a face on the side of
+the head and merge these vertices to
+the head and merge these vertices to
+the head and merge these vertices to
+make the ear.
+Then I'll unhide the next cube and start
+Then I'll unhide the next cube and start
+Then I'll unhide the next cube and start
+modeling the chest. And I'm making sure
+modeling the chest. And I'm making sure
+modeling the chest. And I'm making sure
+to match the front and side reference
+to match the front and side reference
+to match the front and side reference
+images.
+images.
+images.
+I'm roughly blocking it in knowing that
+I'm roughly blocking it in knowing that
+I'm roughly blocking it in knowing that
+I'll need to come back and adjust the
+I'll need to come back and adjust the
+I'll need to come back and adjust the
+form to add the jacket.
+Next, I'll roughly block out the hips
+Next, I'll roughly block out the hips
+Next, I'll roughly block out the hips
+checking both the front and the side
+checking both the front and the side
+checking both the front and the side
+view.
+Next, we'll start working on the limbs.
+Next, we'll start working on the limbs.
+Next, we'll start working on the limbs.
+We can start with the cube, go into edit
+We can start with the cube, go into edit
+We can start with the cube, go into edit
+mode, move it into place, and scale it.
+mode, move it into place, and scale it.
+mode, move it into place, and scale it.
+I'll start with the upper arm, then
+I'll start with the upper arm, then
+I'll start with the upper arm, then
+duplicate it to make the forearm.
+duplicate it to make the forearm.
+duplicate it to make the forearm.
+Once the arm is roughly blocked out, I
+Once the arm is roughly blocked out, I
+Once the arm is roughly blocked out, I
+can duplicate one of the cubes to make
+can duplicate one of the cubes to make
+can duplicate one of the cubes to make
+the hand.
+the hand.
+the hand.
+And for the hand, we'll be keeping it
+And for the hand, we'll be keeping it
+And for the hand, we'll be keeping it
+really simple and not modeling the
+really simple and not modeling the
+really simple and not modeling the
+individual fingers. We'll just be
+individual fingers. We'll just be
+individual fingers. We'll just be
+extruding out the thumb.
+Here, I'm just straightening out the
+Here, I'm just straightening out the
+Here, I'm just straightening out the
+front and back sides of the hand.
+Then I'm adding a slight curve to the
+Then I'm adding a slight curve to the
+Then I'm adding a slight curve to the
+palm from the front view.
+Now that we have the arms and hands
+Now that we have the arms and hands
+Now that we have the arms and hands
+blocked out, I can duplicate this cube
+blocked out, I can duplicate this cube
+blocked out, I can duplicate this cube
+to start making the legs. And I'll work
+to start making the legs. And I'll work
+to start making the legs. And I'll work
+from top to bottom. So, first is the
+from top to bottom. So, first is the
+from top to bottom. So, first is the
+thigh.
+thigh.
+thigh.
+And I'm going to add one loop cut for
+And I'm going to add one loop cut for
+And I'm going to add one loop cut for
+now.
+now.
+now.
+And once that's done, I'll duplicate it
+And once that's done, I'll duplicate it
+And once that's done, I'll duplicate it
+to make the calf.
+And I'm keeping things really simple for
+And I'm keeping things really simple for
+And I'm keeping things really simple for
+now.
+now.
+now.
+And once that's done, I can duplicate it
+And once that's done, I can duplicate it
+And once that's done, I can duplicate it
+to make the foot.
+And double-check to make sure everything
+And double-check to make sure everything
+And double-check to make sure everything
+is looking right from the front and side
+is looking right from the front and side
+is looking right from the front and side
+view.
+view.
+view.
+Now, I'm going to go around and add more
+Now, I'm going to go around and add more
+Now, I'm going to go around and add more
+loop cuts and reshape the parts so
+loop cuts and reshape the parts so
+loop cuts and reshape the parts so
+they're just a little less blocky. If
+they're just a little less blocky. If
+they're just a little less blocky. If
+you want to keep your character super
+you want to keep your character super
+you want to keep your character super
+chunky, then you don't have to. You can
+chunky, then you don't have to. You can
+chunky, then you don't have to. You can
+definitely keep the parts cube-like and
+definitely keep the parts cube-like and
+definitely keep the parts cube-like and
+maybe rotate them 45° if you want.
+Here, I'm making the shape of the jacket
+Here, I'm making the shape of the jacket
+Here, I'm making the shape of the jacket
+sleeve from the upper arm shape.
+sleeve from the upper arm shape.
+sleeve from the upper arm shape.
+Now, to make the hair, I'm going to
+Now, to make the hair, I'm going to
+Now, to make the hair, I'm going to
+select these faces and extrude them out.
+select these faces and extrude them out.
+select these faces and extrude them out.
+Then pick some specific faces and
+Then pick some specific faces and
+Then pick some specific faces and
+extrude them down to make different
+extrude them down to make different
+extrude them down to make different
+chunks of hair.
+chunks of hair.
+chunks of hair.
+I think the hair was one of the more
+I think the hair was one of the more
+I think the hair was one of the more
+time-consuming parts of this project, as
+time-consuming parts of this project, as
+time-consuming parts of this project, as
+I had to go back and rethink how I
+I had to go back and rethink how I
+I had to go back and rethink how I
+wanted it to look multiple times.
+Moving on to the jacket, I'll do
+Moving on to the jacket, I'll do
+Moving on to the jacket, I'll do
+something similar to the hair by
+something similar to the hair by
+something similar to the hair by
+selecting these faces and extruding them
+selecting these faces and extruding them
+selecting these faces and extruding them
+out.
+Then extruding down from these faces.
+And to make a simple collar, I'll
+And to make a simple collar, I'll
+And to make a simple collar, I'll
+extrude these faces for now. I end up
+extrude these faces for now. I end up
+extrude these faces for now. I end up
+coming back and making a bigger collar
+coming back and making a bigger collar
+coming back and making a bigger collar
+later on. Now, I'm going to simplify
+later on. Now, I'm going to simplify
+later on. Now, I'm going to simplify
+some parts here, especially the back of
+some parts here, especially the back of
+some parts here, especially the back of
+the body that's covered up by the
+the body that's covered up by the
+the body that's covered up by the
+jacket. I'm just deleting all of these
+jacket. I'm just deleting all of these
+jacket. I'm just deleting all of these
+faces that we wouldn't see and bridging
+faces that we wouldn't see and bridging
+faces that we wouldn't see and bridging
+these edges together.
+For the parts that intersect with each
+For the parts that intersect with each
+For the parts that intersect with each
+other, we can sort of round out the
+other, we can sort of round out the
+other, we can sort of round out the
+shape. And that way, when the joints
+shape. And that way, when the joints
+shape. And that way, when the joints
+bend, we aren't seeing big gaps in
+bend, we aren't seeing big gaps in
+bend, we aren't seeing big gaps in
+between.
+between.
+between.
+Now that I feel pretty good about the
+Now that I feel pretty good about the
+Now that I feel pretty good about the
+model, I'm going to move on to UV
+model, I'm going to move on to UV
+model, I'm going to move on to UV
+unwrapping.
+unwrapping.
+unwrapping.
+If you haven't UV unwrapped before, I'd
+If you haven't UV unwrapped before, I'd
+If you haven't UV unwrapped before, I'd
+recommend checking out some of my
+recommend checking out some of my
+recommend checking out some of my
+previous modeling videos. I'll put some
+previous modeling videos. I'll put some
+previous modeling videos. I'll put some
+links in the description. Basically, UV
+links in the description. Basically, UV
+links in the description. Basically, UV
+unwrapping is necessary to prepare our
+unwrapping is necessary to prepare our
+unwrapping is necessary to prepare our
+models for receiving 2D image textures.
+models for receiving 2D image textures.
+models for receiving 2D image textures.
+It's kind of like cutting and unfolding
+It's kind of like cutting and unfolding
+It's kind of like cutting and unfolding
+a cardboard box and laying it out flat
+a cardboard box and laying it out flat
+a cardboard box and laying it out flat
+so you can draw on it. Starting with the
+so you can draw on it. Starting with the
+so you can draw on it. Starting with the
+head, I'll make a new material and
+head, I'll make a new material and
+head, I'll make a new material and
+assign it a color grid texture.
+assign it a color grid texture.
+assign it a color grid texture.
+This will help us to see how the texture
+This will help us to see how the texture
+This will help us to see how the texture
+will wrap around our model.
+Then I'll select everything and project
+Then I'll select everything and project
+Then I'll select everything and project
+from view.
+from view.
+from view.
+Then I'll mark seams where I want to
+Then I'll mark seams where I want to
+Then I'll mark seams where I want to
+have the part separated. After marking
+have the part separated. After marking
+have the part separated. After marking
+enough seams, I'll unwrap it. Then I'll
+enough seams, I'll unwrap it. Then I'll
+enough seams, I'll unwrap it. Then I'll
+keep repeating this process. For the
+keep repeating this process. For the
+keep repeating this process. For the
+actual face of the head, I'm going to
+actual face of the head, I'm going to
+actual face of the head, I'm going to
+select it, go into the front view, and
+select it, go into the front view, and
+select it, go into the front view, and
+project from view to get a flat
+project from view to get a flat
+project from view to get a flat
+projection of the UVs. This grid texture
+projection of the UVs. This grid texture
+projection of the UVs. This grid texture
+helps me see what areas need to be
+helps me see what areas need to be
+helps me see what areas need to be
+worked on the most. For example, if
+worked on the most. For example, if
+worked on the most. For example, if
+there's a part that has a lot of
+there's a part that has a lot of
+there's a part that has a lot of
+stretching or distortion, I know the UVs
+stretching or distortion, I know the UVs
+stretching or distortion, I know the UVs
+need to be adjusted there. Also, certain
+need to be adjusted there. Also, certain
+need to be adjusted there. Also, certain
+parts like the face can be bigger to
+parts like the face can be bigger to
+parts like the face can be bigger to
+give them more resolution. And other
+give them more resolution. And other
+give them more resolution. And other
+parts that won't have much detail at all
+parts that won't have much detail at all
+parts that won't have much detail at all
+can be smaller.
+Now moving on to the torso, I'll select
+Now moving on to the torso, I'll select
+Now moving on to the torso, I'll select
+everything and do a project from view
+everything and do a project from view
+everything and do a project from view
+just to get started. Then I'll separate
+just to get started. Then I'll separate
+just to get started. Then I'll separate
+the parts that I know will receive
+the parts that I know will receive
+the parts that I know will receive
+different textures, like the jacket from
+different textures, like the jacket from
+different textures, like the jacket from
+the body and the inside part of the
+the body and the inside part of the
+the body and the inside part of the
+jacket. Then I'll split it into front
+jacket. Then I'll split it into front
+jacket. Then I'll split it into front
+and back pieces. For the limbs, I'm
+and back pieces. For the limbs, I'm
+and back pieces. For the limbs, I'm
+mostly splitting them along the inside
+mostly splitting them along the inside
+mostly splitting them along the inside
+edges and cutting out the faces that are
+edges and cutting out the faces that are
+edges and cutting out the faces that are
+inside the joints.
+inside the joints.
+inside the joints.
+The arms and legs are probably the
+The arms and legs are probably the
+The arms and legs are probably the
+easiest to unwrap because you can just
+easiest to unwrap because you can just
+easiest to unwrap because you can just
+treat them like cylinders.
+After unwrapping, we can straighten
+After unwrapping, we can straighten
+After unwrapping, we can straighten
+these UVs by selecting a face, which
+these UVs by selecting a face, which
+these UVs by selecting a face, which
+will make it the active quad. Then we
+will make it the active quad. Then we
+will make it the active quad. Then we
+need to scale the top and bottom edges
+need to scale the top and bottom edges
+need to scale the top and bottom edges
+to zero on the Y and the side edges to
+to zero on the Y and the side edges to
+to zero on the Y and the side edges to
+zero on the X to straighten them out.
+zero on the X to straighten them out.
+zero on the X to straighten them out.
+After that, we can select the entire UV
+After that, we can select the entire UV
+After that, we can select the entire UV
+Island by pressing L. Then right click
+Island by pressing L. Then right click
+Island by pressing L. Then right click
+and select follow active quads. And we
+and select follow active quads. And we
+and select follow active quads. And we
+can do this for any grid like UV Island
+can do this for any grid like UV Island
+can do this for any grid like UV Island
+like the thigh, calf, and forearm.
+For the hips I'm just splitting them
+For the hips I'm just splitting them
+For the hips I'm just splitting them
+into front and back pieces, but I
+into front and back pieces, but I
+into front and back pieces, but I
+probably should have marked seams along
+probably should have marked seams along
+probably should have marked seams along
+the top and bottom faces to get a better
+the top and bottom faces to get a better
+the top and bottom faces to get a better
+result. Then I'm going to straighten out
+result. Then I'm going to straighten out
+result. Then I'm going to straighten out
+the edges along the center. After I'm
+the edges along the center. After I'm
+the edges along the center. After I'm
+done UV unwrapping a part I'll usually
+done UV unwrapping a part I'll usually
+done UV unwrapping a part I'll usually
+move it off to the side because I'll
+move it off to the side because I'll
+move it off to the side because I'll
+have to reorganize them once everything
+have to reorganize them once everything
+have to reorganize them once everything
+is unwrapped anyways.
+is unwrapped anyways.
+is unwrapped anyways.
+Most of the parts are pretty easy to UV
+Most of the parts are pretty easy to UV
+Most of the parts are pretty easy to UV
+unwrap because we just have to repeat
+unwrap because we just have to repeat
+unwrap because we just have to repeat
+the same steps.
+For the shoes I decided to add some more
+For the shoes I decided to add some more
+For the shoes I decided to add some more
+edge loops just so I could pull in the
+edge loops just so I could pull in the
+edge loops just so I could pull in the
+corners a bit.
+And it's very simple to UV unwrap. I
+And it's very simple to UV unwrap. I
+And it's very simple to UV unwrap. I
+just mark some seams along the bottom,
+just mark some seams along the bottom,
+just mark some seams along the bottom,
+down the back, and around the top.
+I think maybe the hand is a bit tricky,
+I think maybe the hand is a bit tricky,
+I think maybe the hand is a bit tricky,
+but basically I tried to mark seams by
+but basically I tried to mark seams by
+but basically I tried to mark seams by
+following the edges along the sides of
+following the edges along the sides of
+following the edges along the sides of
+the hand just to lay out the front and
+the hand just to lay out the front and
+the hand just to lay out the front and
+back.
+back.
+back.
+Once all of the parts have been UV
+Once all of the parts have been UV
+Once all of the parts have been UV
+unwrapped we'll need to lay them all out
+unwrapped we'll need to lay them all out
+unwrapped we'll need to lay them all out
+in this square. I like to keep the parts
+in this square. I like to keep the parts
+in this square. I like to keep the parts
+together so I'll select a custom region
+together so I'll select a custom region
+together so I'll select a custom region
+by pressing control B
+by pressing control B
+by pressing control B
+and pack the selected islands into that
+and pack the selected islands into that
+and pack the selected islands into that
+custom region. Then I'm going to change
+custom region. Then I'm going to change
+custom region. Then I'm going to change
+the margin to point one to give the
+the margin to point one to give the
+the margin to point one to give the
+islands more space.
+islands more space.
+islands more space.
+Then I'll repeat the process to fit
+Then I'll repeat the process to fit
+Then I'll repeat the process to fit
+everything in the square.
+After we have everything laid out we can
+After we have everything laid out we can
+After we have everything laid out we can
+start texturing the model. So let's get
+start texturing the model. So let's get
+start texturing the model. So let's get
+rid of the color grid image and replace
+rid of the color grid image and replace
+rid of the color grid image and replace
+it with a new blank image texture. If
+it with a new blank image texture. If
+it with a new blank image texture. If
+you want to go with the PS1 style
+you want to go with the PS1 style
+you want to go with the PS1 style
+graphics you may want to choose a low
+graphics you may want to choose a low
+graphics you may want to choose a low
+resolution to start with like 256 by 256
+resolution to start with like 256 by 256
+resolution to start with like 256 by 256
+or you can choose something higher than
+or you can choose something higher than
+or you can choose something higher than
+pixelated and compress it later to get
+pixelated and compress it later to get
+pixelated and compress it later to get
+the look you want.
+the look you want.
+the look you want.
+Now we can start working on the
+Now we can start working on the
+Now we can start working on the
+textures.
+textures.
+textures.
+First, I'll start by filling in some
+First, I'll start by filling in some
+First, I'll start by filling in some
+basic colors for all of the parts,
+basic colors for all of the parts,
+basic colors for all of the parts,
+starting with the skin color. I started
+starting with the skin color. I started
+starting with the skin color. I started
+sketching a simple face, but I end up
+sketching a simple face, but I end up
+sketching a simple face, but I end up
+replacing it later on.
+replacing it later on.
+replacing it later on.
+Depending on the style you're going for,
+Depending on the style you're going for,
+Depending on the style you're going for,
+you may want to draw or you may want to
+you may want to draw or you may want to
+you may want to draw or you may want to
+use images instead. Here I'm just kind
+use images instead. Here I'm just kind
+use images instead. Here I'm just kind
+of planning out where the facial
+of planning out where the facial
+of planning out where the facial
+features will be and adjusting the
+features will be and adjusting the
+features will be and adjusting the
+geometry on the head and hair.
+geometry on the head and hair.
+geometry on the head and hair.
+If you're working with normal resolution
+If you're working with normal resolution
+If you're working with normal resolution
+image textures and you want to preview a
+image textures and you want to preview a
+image textures and you want to preview a
+pixelated look in Blender, we can do
+pixelated look in Blender, we can do
+pixelated look in Blender, we can do
+that with a few nodes in the Shader
+that with a few nodes in the Shader
+that with a few nodes in the Shader
+Editor. Just make sure that you have the
+Editor. Just make sure that you have the
+Editor. Just make sure that you have the
+Node Wrangler add-on enabled. Then
+Node Wrangler add-on enabled. Then
+Node Wrangler add-on enabled. Then
+select the image texture and press Ctrl
+select the image texture and press Ctrl
+select the image texture and press Ctrl
+T. This will make a texture coordinate
+T. This will make a texture coordinate
+T. This will make a texture coordinate
+and a mapping node. In between the
+and a mapping node. In between the
+and a mapping node. In between the
+mapping node and the image texture, add
+mapping node and the image texture, add
+mapping node and the image texture, add
+a Voronoi texture and make sure the
+a Voronoi texture and make sure the
+a Voronoi texture and make sure the
+position is going into the vector. Bring
+position is going into the vector. Bring
+position is going into the vector. Bring
+the randomness all the way down to zero.
+the randomness all the way down to zero.
+the randomness all the way down to zero.
+Then if we adjust the scale, we can kind
+Then if we adjust the scale, we can kind
+Then if we adjust the scale, we can kind
+of pixelate the image. Also, I don't do
+of pixelate the image. Also, I don't do
+of pixelate the image. Also, I don't do
+it here, but if you're working with
+it here, but if you're working with
+it here, but if you're working with
+pixel art or low-resolution images, you
+pixel art or low-resolution images, you
+pixel art or low-resolution images, you
+may want to change the image
+may want to change the image
+may want to change the image
+interpolation from linear to closest.
+interpolation from linear to closest.
+interpolation from linear to closest.
+That will give the image a more jagged
+That will give the image a more jagged
+That will give the image a more jagged
+and blocky look.
+and blocky look.
+and blocky look.
+I'm going to replace the Principled BSDF
+I'm going to replace the Principled BSDF
+I'm going to replace the Principled BSDF
+with an emission shader to give it a
+with an emission shader to give it a
+with an emission shader to give it a
+more flat look.
+more flat look.
+more flat look.
+Don't forget to save your image texture.
+Don't forget to save your image texture.
+Don't forget to save your image texture.
+I'm going to open up the image texture
+I'm going to open up the image texture
+I'm going to open up the image texture
+in a separate drawing program, which
+in a separate drawing program, which
+in a separate drawing program, which
+gives me more tools for layering and
+gives me more tools for layering and
+gives me more tools for layering and
+making edits. Once I've made some
+making edits. Once I've made some
+making edits. Once I've made some
+changes, I can export the image or save
+changes, I can export the image or save
+changes, I can export the image or save
+it in a format like PSD and reload the
+it in a format like PSD and reload the
+it in a format like PSD and reload the
+image into Blender. If a PSD is used as
+image into Blender. If a PSD is used as
+image into Blender. If a PSD is used as
+the image texture, I can simply make
+the image texture, I can simply make
+the image texture, I can simply make
+edits, save it, then reload it by
+edits, save it, then reload it by
+edits, save it, then reload it by
+selecting the image texture node and
+selecting the image texture node and
+selecting the image texture node and
+pressing Alt R.
+pressing Alt R.
+pressing Alt R.
+If you are working with a PSD file and
+If you are working with a PSD file and
+If you are working with a PSD file and
+you need to make edits in Blender, then
+you need to make edits in Blender, then
+you need to make edits in Blender, then
+save out a copy of that image texture
+save out a copy of that image texture
+save out a copy of that image texture
+and make your edits on that copy. Once
+and make your edits on that copy. Once
+and make your edits on that copy. Once
+you're done, save it and re-import it
+you're done, save it and re-import it
+you're done, save it and re-import it
+into the PSD to keep working. If we want
+into the PSD to keep working. If we want
+into the PSD to keep working. If we want
+some basic shading, we can add a mix
+some basic shading, we can add a mix
+some basic shading, we can add a mix
+color node after our image texture.
+color node after our image texture.
+color node after our image texture.
+Then add an ambient occlusion connected
+Then add an ambient occlusion connected
+Then add an ambient occlusion connected
+to a color ramp into the factor. Change
+to a color ramp into the factor. Change
+to a color ramp into the factor. Change
+the color in the B socket to black or
+the color in the B socket to black or
+the color in the B socket to black or
+dark color and swap the black and white
+dark color and swap the black and white
+dark color and swap the black and white
+on the color ramp.
+Here's the part where I replace the face
+Here's the part where I replace the face
+Here's the part where I replace the face
+with an image. It looks pretty silly at
+with an image. It looks pretty silly at
+with an image. It looks pretty silly at
+first. I try to scale and position as
+first. I try to scale and position as
+first. I try to scale and position as
+best as possible and then extend out the
+best as possible and then extend out the
+best as possible and then extend out the
+texture.
+texture.
+texture.
+You can use tools like clone stamp or
+You can use tools like clone stamp or
+You can use tools like clone stamp or
+smearing and then smooth it out with a
+smearing and then smooth it out with a
+smearing and then smooth it out with a
+blur tool.
+blur tool.
+blur tool.
+It shouldn't matter if it's a little
+It shouldn't matter if it's a little
+It shouldn't matter if it's a little
+messy because it'll be pixelated later
+messy because it'll be pixelated later
+messy because it'll be pixelated later
+on.
+on.
+on.
+I'm going to edit some of the features
+I'm going to edit some of the features
+I'm going to edit some of the features
+with the liquify tool. I decided to make
+with the liquify tool. I decided to make
+with the liquify tool. I decided to make
+the eyes a bit bigger. I think it can
+the eyes a bit bigger. I think it can
+the eyes a bit bigger. I think it can
+help when things look a little strange
+help when things look a little strange
+help when things look a little strange
+or uncanny. After that, I'll move on to
+or uncanny. After that, I'll move on to
+or uncanny. After that, I'll move on to
+texturing other parts.
+Even at this stage, I'm still making
+Even at this stage, I'm still making
+Even at this stage, I'm still making
+adjustments to the model.
+adjustments to the model.
+adjustments to the model.
+Just keep in mind that if you're editing
+Just keep in mind that if you're editing
+Just keep in mind that if you're editing
+the geometry a lot, especially if you're
+the geometry a lot, especially if you're
+the geometry a lot, especially if you're
+deleting or adding new things, you'll
+deleting or adding new things, you'll
+deleting or adding new things, you'll
+need to redo the UVs for those sections.
+need to redo the UVs for those sections.
+need to redo the UVs for those sections.
+For example, here I wanted to make a
+For example, here I wanted to make a
+For example, here I wanted to make a
+different type of collar, so I end up
+different type of collar, so I end up
+different type of collar, so I end up
+having to edit the geometry a lot. I'm
+having to edit the geometry a lot. I'm
+having to edit the geometry a lot. I'm
+deleting some faces and adjusting the
+deleting some faces and adjusting the
+deleting some faces and adjusting the
+overall shape.
+Then I'll extrude some faces along the
+Then I'll extrude some faces along the
+Then I'll extrude some faces along the
+bottom of the collar and bridge
+bottom of the collar and bridge
+bottom of the collar and bridge
+everything back together.
+After that, I'll remark the seams where
+After that, I'll remark the seams where
+After that, I'll remark the seams where
+I want them and clear the seams that I
+I want them and clear the seams that I
+I want them and clear the seams that I
+want removed. Then I'll select the faces
+want removed. Then I'll select the faces
+want removed. Then I'll select the faces
+and unwrap them. Luckily, I had space to
+and unwrap them. Luckily, I had space to
+and unwrap them. Luckily, I had space to
+put the collar here without having to
+put the collar here without having to
+put the collar here without having to
+move, bake, or retexture anything.
+For the hair, I tried hand painting it
+For the hair, I tried hand painting it
+For the hair, I tried hand painting it
+and blurring it to make the texture. If
+and blurring it to make the texture. If
+and blurring it to make the texture. If
+you want, you can use pictures of hair
+you want, you can use pictures of hair
+you want, you can use pictures of hair
+from different angles, just like how we
+from different angles, just like how we
+from different angles, just like how we
+used an image for the face.
+Here I'm painting some wrinkles and
+Here I'm painting some wrinkles and
+Here I'm painting some wrinkles and
+shadows onto the jacket.
+I'm using a hard brush, then I smear it
+I'm using a hard brush, then I smear it
+I'm using a hard brush, then I smear it
+to blend it in.
+For the pants, I'm going to add a belt
+For the pants, I'm going to add a belt
+For the pants, I'm going to add a belt
+just to give them some detail.
+Now for the head, I'm going to paint
+Now for the head, I'm going to paint
+Now for the head, I'm going to paint
+some shadows along the bottom and try to
+some shadows along the bottom and try to
+some shadows along the bottom and try to
+blend it in.
+And for the ear, I just kind of drew a
+And for the ear, I just kind of drew a
+And for the ear, I just kind of drew a
+squiggle and blurred it because I know
+squiggle and blurred it because I know
+squiggle and blurred it because I know
+all the detail will be lost when it's
+all the detail will be lost when it's
+all the detail will be lost when it's
+pixelated anyways.
+pixelated anyways.
+pixelated anyways.
+And here I'm hiding the jacket and
+And here I'm hiding the jacket and
+And here I'm hiding the jacket and
+painting shadows along the body. And I'm
+painting shadows along the body. And I'm
+painting shadows along the body. And I'm
+almost always using the blur or smear
+almost always using the blur or smear
+almost always using the blur or smear
+tool to blend stuff in.
+If you want to pixelate your image
+If you want to pixelate your image
+If you want to pixelate your image
+textures further, you can save them out
+textures further, you can save them out
+textures further, you can save them out
+at a lower resolution or you can use
+at a lower resolution or you can use
+at a lower resolution or you can use
+effects like mosaic. You can also layer
+effects like mosaic. You can also layer
+effects like mosaic. You can also layer
+screen tone dithering or noise on top of
+screen tone dithering or noise on top of
+screen tone dithering or noise on top of
+your image texture. Here I added some
+your image texture. Here I added some
+your image texture. Here I added some
+pixelated noise on a duplicated layer,
+pixelated noise on a duplicated layer,
+pixelated noise on a duplicated layer,
+which is mostly visible in the darker
+which is mostly visible in the darker
+which is mostly visible in the darker
+colors.
+colors.
+colors.
+And here I wanted to pixelate just the
+And here I wanted to pixelate just the
+And here I wanted to pixelate just the
+face, so I have it on a separate layer
+face, so I have it on a separate layer
+face, so I have it on a separate layer
+where I applied the mosaic effect.
+where I applied the mosaic effect.
+where I applied the mosaic effect.
+Before rigging, I'll rotate the arms
+Before rigging, I'll rotate the arms
+Before rigging, I'll rotate the arms
+into an A-pose. If you've never rigged a
+into an A-pose. If you've never rigged a
+into an A-pose. If you've never rigged a
+character before, you can check out my
+character before, you can check out my
+character before, you can check out my
+Rigify video in the description. Now we
+Rigify video in the description. Now we
+Rigify video in the description. Now we
+can talk about how to make the rendering
+can talk about how to make the rendering
+can talk about how to make the rendering
+look more like an old game. Let's set
+look more like an old game. Let's set
+look more like an old game. Let's set
+the render engine to Eevee and lower the
+the render engine to Eevee and lower the
+the render engine to Eevee and lower the
+film filter size to point zero one. And
+film filter size to point zero one. And
+film filter size to point zero one. And
+make sure to enable the compositor in
+make sure to enable the compositor in
+make sure to enable the compositor in
+the viewport settings. In the compositor
+the viewport settings. In the compositor
+the viewport settings. In the compositor
+panel, we need to add two scale nodes
+panel, we need to add two scale nodes
+panel, we need to add two scale nodes
+with a pixelate node in between.
+On the first scale node, set the X and Y
+On the first scale node, set the X and Y
+On the first scale node, set the X and Y
+to point five and the second one you can
+to point five and the second one you can
+to point five and the second one you can
+set them to two. And if you want a more
+set them to two. And if you want a more
+set them to two. And if you want a more
+pixelated look, you can adjust these
+pixelated look, you can adjust these
+pixelated look, you can adjust these
+numbers. So I hope you enjoyed watching
+numbers. So I hope you enjoyed watching
+numbers. So I hope you enjoyed watching
+the process. If you did, feel free to
+the process. If you did, feel free to
+the process. If you did, feel free to
+leave a like, subscribe and enable
+leave a like, subscribe and enable
+leave a like, subscribe and enable
+notifications so you don't miss future
+notifications so you don't miss future
+notifications so you don't miss future
+videos. And if you'd like to support the
+videos. And if you'd like to support the
+videos. And if you'd like to support the
+channel or get access to the project
+channel or get access to the project
+channel or get access to the project
+files, you can join the Patreon through
+files, you can join the Patreon through
+files, you can join the Patreon through
+the link in the description. If you have
+the link in the description. If you have
+the link in the description. If you have
+any questions or suggestions for future
+any questions or suggestions for future
+any questions or suggestions for future
+videos, let me know in the comments.

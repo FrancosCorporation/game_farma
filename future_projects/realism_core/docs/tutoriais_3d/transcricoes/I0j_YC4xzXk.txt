@@ -1,0 +1,1460 @@
+in this video we'll learn to create a uv
+map for a dress
+this is part two of a series that goes
+through all the steps it takes to make a
+dress in blender
+if you haven't been following along make
+sure you do part one first
+you can see a 3d view of a dress similar
+to the one we'll be making in the link
+below
+if you want to add any texture or detail
+to your address
+or to any other geometry for that matter
+you will need to create a uv map
+so a uv map is a way to tell the
+computer to take a 2d image like you see
+on the left
+and apply it to a 3d shape like you see
+on the right
+on the left you see here this little
+shape these shapes that's the uv map for
+this dress it looks kind of like we took
+the dress and we cut it all up and laid
+it out flat
+i like to think of it as if you had an
+orange and you unpeeled it and laid it
+out all flat on the table that's like a
+uv map and if you take that orange and
+reshape it into a sphere like it was
+before
+that would be the uv map applied to the
+3d object
+okay let's let's make it
+let's get sub to do some uv editing so
+we will go to our uv editing workspace
+and if you were doing the complete
+character tutorial you'll see this just
+hit slash to exit isolate mode
+grab your dress and hit slash again to
+re-enter isolate mode
+and now let's add a texture map to the
+dress so let's select the dress to make
+sure this material is showing
+what's attached to the dress
+and then let's
+actually let's just make sure
+so if you have the dress
+selected
+go to the material properties here
+and just make sure that this is the
+right material
+there's only one material so this is the
+right material
+okay so now let's go over to the
+material editor and hit shift a
+s i m a for image texture
+go like that let's attach color to base
+color
+and i will give you a link to a jpeg you
+can use for this but i'm going to
+navigate to where i saved it so let's
+click open
+and let's go and find it so it's here
+and textures and
+tomcat uv map2
+okay there we go it's applied now let's
+go and
+make it visible here too
+so
+if you have a lot of textures you can
+you can go here and type in what the
+file was called or even
+a part of what the file was called i'm
+going to type in uv because i remember
+that wasn't a name
+and
+tomcat uv map too
+okay so we've got that here
+let's make some space for ourselves to
+work
+let's grab our mesh and go to edit mode
+to make sure it's working
+okay so if you
+grab the geometry in the 3d viewport you
+can see it selects it in the uv editor
+and vice versa so that's good
+let's leave
+x-ray mode
+we want to cut up this dress
+so we can lay things out flat
+and have as little distortion as
+possible
+so we need to do that by creating seams
+which are these red lines here
+when we're doing that we also want to
+think let's bring back our sketch here
+you also want to think about
+your uving and
+where you want to look really good and
+have like no distortion and parts where
+it's okay to have some distortion so
+if you look at our sketch here
+i think this little flower area i think
+we don't want to have any distortion
+there i think that wants to be very
+clear because it's a very
+you can really see the detail clearly
+and if that's stretched or weird it'll
+look bad
+i think also this trim part here we want
+that to look good
+so let's make that look good i think
+inside the dress
+you know
+it really doesn't matter no one's gonna
+see that that much just you'll just see
+like a little bit of color in the bottom
+so that part can be totally distorted
+so let's go and
+let's go and start creating some
+uvs
+let's go
+back into isolate mode here
+when you're creating seams make sure you
+are in edge mode which we are
+and the way it basically works is you
+just go and grab some edges that you
+want to cut out
+in your uv map
+and go to edge and mark seam
+if you want to delete them you go to
+edge and clear scene
+and it looks like we already have some
+seams because when we duplicated the
+body mesh to make this dress we
+inherited those seams so let's just get
+rid of those
+so go to a
+edge and
+clear scene
+okay so right now we're actually working
+in mirror mode so you can see here we've
+got a mirror
+and
+what that means is that any kind of uv
+work we do
+it's only for half the object
+and you can see here this m5
+over here it's actually mirrored because
+it's it's just a mirror of the first
+half
+so we don't want that because we're
+going to have a flower pattern around
+her belt line and that's not going to be
+a uniform pattern it's going to be
+you know
+decorative and non-uniform so this
+wouldn't actually work so what we're
+going to do is do the uv work with this
+mirror then we'll apply the mirror and
+do some more work to make the mirror run
+across the whole object
+it's it's actually a little bit faster
+than doing the whole object all at once
+and it also makes sure that your uv map
+is symmetrical from left to right and it
+helps out with your texture work
+and actually you know i noticed
+something we turned the mirror off
+we had some strange geometry here and i
+don't know how this got here
+let's just grab it and hit g to move and
+okay so it's not affecting anything
+so let's just hit x and
+edges and see what happens and it's okay
+nothing's happening here it looks okay
+let's turn off our sub d and
+take a look with mirrors a lot of times
+the seams get kind of
+messed up
+so i'm looking now to see if there are
+any problems and it
+looks okay
+and these could be a little bit better
+but i don't see any problems so
+so i don't know how that got there
+but since we're talking about it here
+so a lot of times when you're doing when
+you have a mirror turned on
+this happens so somehow
+faces get
+bridged from the front to back
+or you know
+sometimes you'll get like uh let's see
+here let's undo that
+you get
+a face coming off the inside and it'll
+mess things up and you'll you'll be
+confused because you can't see it you
+don't know what's going on
+so if you're getting weird problems when
+you're modeling
+turn your mirror off and just check and
+see
+and if you have something weird just fix
+it
+x and
+faces
+like that
+okay so now we are
+back and let's do our uvs for half of
+our dress
+so for this part we don't need to see
+the uv map so let's turn that off
+or go to solid
+mode and let's make sure we are in edge
+mode
+like that
+and let's go and add some seams
+so this these colorful lines are kind of
+confusing here
+so the magenta ones
+those are
+those are mark sharp
+and the blue is edge crease and if you
+make red ones those are seams so let's
+alt click this
+right here that'll be our first scene
+and go to edge and
+mark seam
+and so now it's red so
+the red's kind of close to magenta so i
+get confused all the time
+so just make sure you remember magenta
+is
+is a is sharp and
+red is the same
+okay so let's also
+grab this
+and
+mark seam
+and i think what we'll do
+remember this is mirrored
+so i think what we'll do is we'll make
+like one chunk
+for the inside that's cut right down one
+side here so let's just mark these two
+and
+edge and mark oops edge and mark seam
+this one is one chunk so that's fine
+and then for this little
+flat area of the dress that's just going
+to be attached to the outside
+okay and then let's do this
+okay so there's a couple things going on
+here so when i selected that
+you can see it ran down here because the
+loops just runs all the way through
+so you can be lazy about it and just
+grab a face
+x and
+delete faces
+then go back to edge mode and then
+re-grab it
+and now it no longer runs all the way
+through
+so that's the first thing going on the
+second thing going on is we have a pole
+here
+so those aren't really the perfect place
+to
+have a seam because it the texture pulls
+a little bit funny
+but i'm not planning on doing any kind
+of intricate stitching down the sides
+here so i think it doesn't matter too
+much so i'm just gonna go with it if you
+were you could use this one instead over
+here
+or you could throw in a cut
+like that
+but i think we're going to be okay with
+this so let's just go with that
+let's just make sure it didn't go too
+far and yes it stopped where we cut a
+hole in there
+let's go to
+edge and mark seam
+let's go and
+re-fill this with
+the
+f
+and then this the seam for the side
+needs to go on this flat area here too
+so it's going to edge and mark scene let
+me show you what
+okay
+let me show you what would happen if you
+missed this little chunk here because
+that happens a lot so
+you can go to face mode and check to
+make sure all your boundaries are good
+so you can go here and okay that's good
+that's
+that's in between the red line so that
+works here that's good it's in between
+the red lines here
+um here the front should be separate
+from the back right because we put a
+seam on the side so if you hit l
+it it's it's not working because they're
+connected and you know you don't
+understand why
+so it's because somewhere
+along your mesh
+there's um a bridge that goes across and
+in this case it's right here
+so that happens to me a lot
+so i'm just telling you so hopefully it
+doesn't happen to you
+so go to edge and mark scene
+so now if we go back to face mode
+and
+l to select it only selects the front
+and that's the way
+we intend it to be
+okay so if you'll remember we want this
+area here not to be distorted so that's
+roughly this area here
+so let's go and
+cut off just the part that we don't want
+distorted so i think
+this here
+and i think
+that there we can cut off
+for a for a shape like this
+where it's kind of
+sculpty and kind of random shaped
+if you want to minimize the stretching
+try and look for areas that are
+most
+geometric in nature so this area here
+that looks kind of like a cylinder and
+so i think that will unwrap pretty
+nicely
+and it also coincides with the area that
+i want to
+not be warped which is right here so i'm
+going to do that
+i'm going to cut this off here edge and
+mark seam
+like that
+and then i'll go to face mode here and
+grab
+just this part here which i'll work on
+first
+ctrl i to invert h to hide l to grab
+that
+uv and unwrap
+let's turn on our texture here
+looks pretty undistorted so that's
+pretty good
+let's rotate this so our letters
+are pointing upright
+you could always do this later or rotate
+it later
+but it i just find it's easier for my
+brain to handle this okay so we've got
+that here and let's try and get this all
+squared up
+and so the reason why i
+mean you could you could uv the whole
+thing like we did for the body if you
+took the
+complete character tutorial
+and have all these you know
+sculpty shapes
+or bendy shapes and it
+doesn't matter because you can
+texture paint on the 3d geometry
+but for this dress what we're going to
+do is use photoshop to apply some of the
+textures
+so for that reason
+parts of the uv map want to be nice and
+straight and as much like a grid as
+possible
+and specifically the little flower area
+which we're going to apply with
+photoshop so we want this part to be
+nice and flat but when you flatten it
+you want to have it you want to ha you
+don't want to create more distortion so
+see right here it's pretty even
+which is nice but it's kind of bending
+away from the seam
+so let's try and get this edge to
+this uh this like uh edge here in the
+graphics to just be square or flush with
+the um with the seam
+let me do that by just grabbing some
+points here
+and turn on proportional editing and g
+and x and just move that a bit over here
+and move this a bit back maybe we'll
+produce that wheel
+and so that should be
+more square
+right click that and align what oops
+align x
+so this edge here is perfectly square
+with
+the texture around it and so when we
+attach the
+back clothing
+it'll be perfectly lined up
+okay so
+these coming across the
+middle part here are good down here it's
+good over here it's bending a bit
+you can see that this
+red line here
+is bumping or it kind of has a v in the
+middle and we don't have it here
+so let's and you can see over here it
+pushes up
+so let's go and g
+y and just
+pull it a bit
+just to make that part straight
+and the only reason why i care about
+that is that's front and center of the
+character and so you're going to see it
+you know
+most often
+so let's just make this front part nice
+and even
+okay so now that we like this the way it
+is we're going to grab that and right
+click and pin
+and so when you pin it
+when you
+when you go to this uv
+and
+unwrap
+it doesn't
+mess with this
+you can still move things
+like that but when you do the unwrap it
+stays okay so let's alt h to bring
+everything back and let's
+work on more of the front here so we
+want to work on this part
+and we want to attach to this part so
+let's grab those two
+ctrl i and h to hide everything else
+and that's l to grab that
+and you can see it's all weird over
+there which is okay because we're going
+to go to uv and
+unwrap
+and now it's unwrapped
+so um you can see how it's when i move
+it it's pulling the stomach area that's
+because i had proportional editing on
+let's turn it off
+scale this down let's move this down so
+we just need to roughly line this up and
+get this
+upper area more like how we want it
+and
+since this whole
+body or this whole dress is on on a
+mirror
+this middle section in between the two
+halves you want that to be perfectly
+straight
+so let's go and do that too so we can
+what can we do here what's the easiest
+way to do it so i think
+you can see it's curving out here which
+is bad but here it's pretty straight
+which is good
+so what i think i'll do
+is drop a 3d cursor here go to
+transform around to the center and hit r
+to rotate this
+and i'm looking at the 3d view to see
+when it looks
+fairly square
+okay that looks pretty good
+down here looks good up here looks bad
+so let's go and grab some stuff there
+and then we'll look to see where it's
+pulling away and i think it's pulling
+away right here so shift right click to
+drop a 3d cursor
+and then
+turn on proportional editing and hit r
+to rotate this
+and i'm just going to increase
+the area of influence until
+i can get this to be as straight as
+possible
+then do the same thing drop a 3d cursor
+grab that here
+r and reduce that
+until this is looking pretty straight
+then let's see here
+you can manually adjust if you want to
+then grab the whole edge
+in fact this is something good to point
+out here so
+this point here
+is actually the same point as this right
+here okay can you see those two if you
+click this one you can see that one
+highlights because it's actually the
+same point
+and so if you move
+even with proportional editing turned
+off if you move this one the other one
+goes with it
+so it's kind of weird so if you want to
+move say if i want to move
+this whole whole row
+out oops
+out that way you can see it's going to
+move the bottom with it and so i don't
+want that
+so what i'll do is
+go to
+face mode
+grab this guy here
+and i'll just move this until
+it's about where i want it
+then i'll check this side to see if it
+lines up and i think that's
+probably close enough
+so then i'll move this one back up here
+g and y
+and let's just straighten the side up
+too
+this part you you could you could leave
+it if you wanted to
+but i think i'm going to straighten it
+up
+so maybe i'll throw a stitching seam
+along the edge here and it'll look like
+clothing or something
+and i haven't i haven't thought that far
+so let's just grab some
+faces here turn on proportional editing
+and hit r to rotate this and let's
+increase our area of influence
+like that so this is looking more square
+you can see we're still pushing inwards
+so what i'm going to do now is going to
+go to point mode
+grab these and hit g
+g x to pull it in a bit
+then pull this in a bit
+i'm just getting it roughly straight and
+here we'll pull it out of it
+oh see this is no good because you're
+messing with the bottom so that's
+so it's
+but i want to move that so what we're
+going to do is we're going to go to face
+mode
+hit l to grab that one h to hide it
+now go back to vertex mode grab this and
+g x to move it out
+until that's straight
+looking up here it looks pretty good so
+let's grab that right click and align x
+so now that's straight and this one is
+straight
+since we also
+want to have this area straight in case
+we want to put a trim there let's go and
+straighten that one out
+so i think this one will just move it
+g
+y and pull it down
+let's go some more gy let's increase our
+area of influence
+pull these guys up
+let's go to face mode
+i'm going to go to facebook because i
+want these
+two edges to be consistent across the
+whole thing
+so if you go to face mode it doesn't
+face mode it doesn't move it separately
+so g
+y and pull this one up
+okay it's pretty good
+let's click this here right click and
+the line x
+nope
+align y
+align y
+align x
+let's just check this to line x okay so
+we're
+all this area here is pretty squared up
+let's check our texture
+a little warpy here i think that's
+probably okay
+okay i think we're okay there so we'll
+alt h to bring that back go to face mode
+grab
+grab this part in that part
+and then we'll go to control i and h
+so we have both of those
+grab our torso area
+drag it down so it's close to the
+stomach area
+and i'm just trying to
+so i see a bit of a problem here
+we know we want to keep the stomach the
+way it is
+and we want to have this top area bend
+to match it
+so let's go and figure out how to do
+that first it's too wide so it's scaled
+down a little bit
+oh let's turn off partial editing
+scale down a bit
+move this over a bit
+scale a bit and move it over a bit
+and let's move this one down
+like that
+so this be a bit tricky because we'll
+just have to memorize and kind of guess
+it but you can see these points
+need to go upwards
+but if you'll remember if we go to point
+mode and move them
+it moves
+its corresponding
+point
+that's not what we want
+so what we'll do is go to face mode grab
+this
+hide that go to vertex mode
+and then let's move these and
+with the partial editing turned on move
+this in y
+and we're just going to kind of fake it
+i'm just going to try and remember what
+we saw before
+okay alt h and that's probably too
+much ctrl z pull this down a bit
+pull that down a bit
+alt h
+close
+move these down g y
+okay so that's good
+enough so let's go to face mode and grab
+our two parts we're working on
+ctrl i
+and h
+and then go to vertex mode grab these
+two
+m
+at center
+and then just right shift and grab all
+these and just join them
+okay this one got misaligned a bit let's
+just grab this whole thing here and
+align y
+line x
+let's do the same thing here align x
+okay so now this whole top area
+nice and square and the stomach area has
+very little distortion so we're looking
+pretty good
+okay so now we'll just do the same thing
+over and over again for the entire dress
+so if if you've got this down and you
+get it
+then you can skip the rest of this video
+because i'll just be doing the same
+thing over and over again if you want to
+watch and go step by step through the
+whole dress with me then by all means
+stick around and we'll go through this
+together okay let's get to it
+so let's alt h here and see what else we
+got here
+okay
+so whoops go to face mode
+l
+so we want to
+do this part next and it goes over to
+this bottom edge okay
+so now we will go to
+uv and unwrap now that's unwrapped
+turn off porsche editing go over here
+grab this guy this guy
+ctrl i and h
+let's make sure this is all pinned
+actually
+right click and pin
+grab this here
+move this down
+oops
+rotate that like that
+let's scale this
+down
+so it's
+roughly the same size
+so i'm trying to make sure
+these points line up here and this point
+lines up over there so i think we need
+to scale down a bit more so let's
+drop a 3d cursor
+change to
+3d cursor mode and scale it down a bit
+more
+and that's good
+g y to pull this down
+and let's see here let's get this down
+here
+i want to get this part straightened
+so let's go to
+vertex mode
+turn on proportional editing
+let's just
+move this gx move that over
+and
+gx let's increase our proportional
+editing
+if you're in 3d cursor mode when you do
+the portion editing
+you can see the wheel it sits around the
+3d cursor so
+just now i was doing this
+and i couldn't see
+how the partial editing was working is
+because it sticks around the 3d cursor
+so just just be aware of that
+and right click that and align y
+and
+oh
+let's go and
+align
+x
+i think it was close enough to here
+where we can align the whole thing align
+x
+okay
+so i'm not going to worry about
+straightening this whole part here up
+because it's just it just flares out too
+much on the dress area
+and you get too much distortion if you
+squish it all down
+but this is looking a little weird
+so you can see when it
+when your uvs turn like a lighter shade
+of gray that means you have overlap
+so make sure you
+don't have overlap
+turn it off partial editing and move
+this down
+and you can
+zoom in with your number pad period to
+see where
+like you can select something in the uv
+view and
+number pad period and see where you're
+at
+and so this looks like it's bending a
+lot
+which is no good let's grab that
+and just see what that does and that
+seems to help
+oh you know we had a um
+we want to have a
+trim detail on the bottom of the dress
+and so we probably want to have this
+whole area nice and square too so let's
+let's go and do that
+so i'm just going to
+manually drag some of these around like
+that
+and that
+i want to make sure there's not too much
+stretching here
+we might be stretching this a little bit
+too much
+maybe offset it over here
+g uh
+partial editing and just pull this down
+a bit
+to just kind of even it out
+it's a little better
+let's move these up
+move these down
+just get everything
+squared up
+then let's just right click that right
+click and align x
+align y
+shift r
+shift r
+okay so now this whole row
+it might be
+kind of skewed
+at an angle here
+but at least here and here it's straight
+and so this way when we add the little
+trim detail it'll be straight
+you could you could take some time to
+like straighten all these things out
+um like that if you wanted to
+but i'm
+i'm not worried about that because
+it's just going to be a straight line
+going across
+i'm thinking we'll do it um
+a normal a normal map that has a little
+bead running across here and so i don't
+think it's going to matter so i'll just
+leave it there if you want to
+do this nicer than i do it then go ahead
+and make sure all these look nice and
+straight in the 3d viewport
+okay so that's that
+alt h to bring it back
+face mode
+ll
+ctrl i h okay we've got our faces here
+grab that
+g
+let's turn off partial editing
+guy and pull it up
+that's kind of
+we want to line up these
+points with these points
+and it's kind of
+in between
+there so let's go like
+let's collect that and pull some of
+these down and some of these up
+go to
+vertex mode
+okay so these have to come up and these
+come down let's go to face mode
+l
+h
+vertex mode
+let's pull some of these up
+gy
+some of these come down
+g y
+alt h
+okay so these come up more and that
+comes down more
+a bit more
+okay i think that's good enough
+so now let's alt h
+grab these faces grab those faces
+ctrl i h
+vertex mode
+grab that right click and merge center
+and just
+right
+shift
+r for all i mean shift r for all these
+there
+okay that's good
+so the only thing that's kind of weird
+is this part here
+so let's grab that and see where it is
+and
+okay i guess it's not horrible
+let me move it and move it in a bit
+it's actually it actually looks okay
+okay
+that's the front
+yeah front half done okay
+okay let's grab all these guys let's
+just move these way out of the way
+and let's pin it
+then alt h to bring everything back
+let's go to face mode and
+hide the front
+and let's do the same thing to the back
+so we'll grab this here l
+uv unwrap
+okay let's rotate this here
+uh turn off proportion editing and
+rotate
+this so i can't tell
+which part of this mesh is where so i'm
+just going to grab some faces so
+okay so this part here is right there
+which means this is the spine
+which is fine let's
+go to
+transform around bounding box enter
+scale that down
+and then let's square off square off the
+middle area first the spine area
+j y
+x
+align y
+line x
+oh so if you align x
+and it does this that's because you have
+the corresponding vertices somewhere
+else which we do so just go to face mode
+and hide it
+and go back
+to
+edge mode right click linux okay so now
+this middle is squared
+that looks nice there's not much
+distortion
+here there's some distortion so it's
+going to fix that
+so let's
+let's drop a 3d cursor
+grab these points
+and transform around
+so that's squared up we will right click
+and align x
+and then
+i don't know if we want to align this in
+y
+i don't think we do because
+this is peaking up there a bit
+and the texture actually looks pretty
+flat so i think
+this stays the way it is
+down here that looks pretty good too
+although this is warping a bit there you
+can see this cube is
+bigger than that cube so let's
+pull these in
+somewhat
+okay that's pretty good
+that's alt h to bring it back
+right click and pin
+let's grab this upper area here in face
+mode
+this area here
+ctrl i h
+grab that again let's move it over here
+and let's
+what is
+that hole
+okay so let's grab this here and see
+where it is
+that is really weird
+i wonder why that happened
+i bet you that's where we had that poll
+before
+okay anyway let's straighten that up
+and face mode and grab this here let's
+see
+i want this part to line up with this
+part but i'm not sure if it's flipped or
+not
+so i'm going to select it and look in
+the 3d viewport
+and you can see
+this part
+and this part are not lined up
+so i've got something flipped so let's
+go here
+r180
+and let's transform around by the box
+center scale this back up again
+and let's try again okay so now these
+are lined up
+let's put this here
+drop the 3d cursor
+transform around 3d cursor let's move
+this down here
+and it's scaled up so this point matches
+that point
+okay that looks pretty good
+let's move this down
+and then
+drop a 3d cursor grab these
+oh look so you can see i grabbed these
+and they're high here but low there
+that's not good
+so let's grab that
+transform around bounding box enter
+scale z negative one
+and then let's try it again so this here
+okay so this here should be on the
+inside so
+grab that
+s y negative one
+s
+x negative one
+let's try it again
+this
+is correct
+that's correct it lines up with that
+okay that's correct
+so
+basically by selecting parts of your
+mesh
+from one part of the mesh to the other
+part you can tell
+which parts line up
+so this way you don't kind of mess
+things up
+okay
+so
+let's go back to
+let's move this up here
+and let's drop a 3d cursor here and
+let's move all these out with
+proportional editing turned
+on and
+transform around 3d cursor
+and like that
+and then we'll move some of these down
+you can see i'm starting to affect the
+bottom which is no good so
+let's move it just a little bit
+so you can't do it in point mode because
+it's going to affect the bottom so let's
+just
+stick with faces
+and
+i think these line up this wants to come
+over
+and this wants to come over
+and i think that should be enough
+let's bring this down here
+and then
+let's right click
+m
+and
+center
+and just
+right shift all these guys
+then grab that
+right click and align x
+let's check our map here and see how
+this top looks
+it actually looks okay
+there's a weird crease there
+right click and align y
+and right click and line y
+okay something weird happened oh look at
+this
+so for some reason
+we have overlapping uvs so if you turn
+off portion editing and if you hit g and
+move you can see it's right on top of
+there
+i'm not sure why that happened
+but you can select here
+and so now we have
+here
+now we have only the edge
+selected let's make it so you can see it
+here
+okay so you can grab that here
+and go to your
+uv editor and gy and pull it up just a
+bit
+then grab the next row which is there
+and the next row which is there which
+all makes sense that's good
+then flatten it
+line y
+line y
+and line y
+let's check our textures
+it looks pretty close to before
+but
+i know that since this geometry is nice
+and consistent the uvs should equally be
+consistent
+okay so that's that area
+let's right click this and pin it
+and alt h
+and then let's do the last part of the
+outside
+let's go to face mode and grab that grab
+that grab that
+ctrl i and h
+grab this
+uv and unwrap
+let's
+move this down here let's rotate this in
+and let's turn
+that
+to
+transform around bounding box center and
+scale this in
+let's make sure we're lined up right
+so
+so we are oh
+okay we're lined up right
+yeah
+let's move this here and let's drop a 3d
+cursor and scale so this point lines up
+transform around
+3d cursor
+and this is
+close enough so we can just go here and
+go m
+at center and just
+attach all these guys
+and since these are so close to being
+straight i might as well just
+make it closer and just slowly flare out
+let's check our texture here
+yeah and that looks nice
+maybe pull this a bit in
+okay
+so i forgot that
+this is a mirror and so this inside edge
+you want to all line up perfectly
+oh and we also need to make this whole
+bottom area squared off so let's go and
+do that
+so let's grab some faces let's make sure
+nothing else is visible
+grab that
+do proportional editing and let's rotate
+like that
+let's grab this here and rotate some
+more
+grab that
+this is um
+it's the kind of work where you just
+want to
+go um to room by yourself
+so no one bothers you and so you can
+just
+peacefully do your work
+line y grab this align y
+let's grab this align y
+so we just totally stretch this bottom
+area here
+but now we know that these are all
+horizontal so that's good and let's make
+sure this one is not too bad so we'll
+turn on partial editing and let's just
+pull that down some
+so the stretching is kind of even
+maybe let's pull these in a bit
+i'm just trying to get all those cubes
+to be
+a little bit more consistent
+okay
+so i think that's pretty good
+and
+alt h
+so we've got our main front
+address and the main back of the dress
+done so now we can just do the bottom so
+let's go here
+face mode and let's grab
+the parts that are done let's go to h to
+hide those
+let's grab this guy here
+and
+find him on the u the uv window
+and go to uv unwrap let's just
+transform around bounding box center and
+scale that down and move it aside
+then we'll grab
+this guy here oops
+face mode here
+and we have a closed loop uv unwrap so
+that's good and i think what we're going
+to do since this is basically a ribbon
+going around the whole thing
+i'm just going to
+even this whole thing out so it's
+oops let's just move that
+rotate that go to
+edge mode
+and
+grab this right click line y
+face mode and hide that go to edge mode
+right click line x
+grab that align x
+grab that
+align
+y grab that align
+grab that and align y
+grab that
+line y
+go to face modes and now this
+face right here is perfectly square
+so
+click this guy
+then hit l to grab everything else
+so you'll see that
+our perfectly square face is
+white where everything else is orange
+then right click follow active quads
+and so it creates everything just
+follows
+the geometry of this first one so it's
+now it's perfectly square
+you'll have lots of stretching on the
+inside here
+it's
+the inside so you can't really see it
+too well but now at least it's nice and
+square
+let's scale it down because we don't
+care about that
+alt h and bring everything back
+oops turn off partial editing move that
+here
+okay so we've got
+everything you need for our half body
+okay so i'm just checking it over really
+quickly to see
+make sure these seams are all pretty
+straight
+in the front
+and the back
+and i'm seeing
+looks like the heights
+of these are different no it's actually
+okay it's the widths that are different
+the width is tight here
+it's looser here
+i'm less concerned about that the width
+than i am the height
+because you can
+you can kind of pick up the difference
+on the seam
+if the heights are different
+so i think that's okay
+over here
+it seems to get very tight
+in this whole area here
+maybe over here too so let's go and grab
+a face
+where it starts getting tight
+we will
+actually
+hide the stuff we don't want so let's
+hide that hide that
+click where it gets tight
+right click there
+and let's grab the faces below that 3d
+cursor
+that's alt h
+control and select those things
+turn on proportional editing
+and we'll just scale it in the 3d
+viewport
+when you scale it make sure
+that even though you have proportional
+editing on you don't affect this thing
+and this thing here
+so let's try s and
+transform around 3d cursor
+s and y and it's not affecting anything
+else so i know we're good
+so now let's look in our 3d viewport
+and s and y and let's just scale this
+until it feels like it matches
+the the heights of these cubes match the
+heights of these cubes better
+and we can adjust the size of the 3d
+the proportional editing
+on the fly and i think
+this looks
+better in this area
+now this is stretched too much so let's
+grab the face again
+drop a 3d cursor again grab everything
+below it
+and then
+let's go in s and y
+again to make the remaining parts match
+and i think
+s y and i think
+that looks better
+yeah okay
+i think we feel i think it feels better
+it does seem like it's wider in this
+area and tighter in that area but it
+seems like it matches
+and you could
+you could
+keep noodling this to get it to be you
+know much better
+i probably would too but for the sake of
+the tutorial i think this is good
+and then these things don't matter too
+much
+those look good okay
+let's go to object mode grab your mesh
+let's
+make sure we have our mesh selected then
+go to
+apply
+if the apply doesn't work that's
+probably because you have shape keys so
+just hit minus to delete those
+okay so grab your mesh
+go to edit mode
+and you'll see the uvs look exactly the
+same
+that's because we have two sets of uvs
+sitting on top of each other
+so to un
+to remove them go to solid shade mode go
+to x-ray mode
+then go to
+face mode and go to the top view
+then select half of your mesh like that
+and make sure you only have half your
+mesh selected
+which we do
+okay then go to your 3d viewport turn
+off proportional editing
+and hit gx and move it aside
+let's transform around bounding box
+center
+and if we go to solid shade mode
+i mean shaded mode you'll see
+we have okay let's turn this back on
+here so you'll see we have one half uv'd
+and the other half is uv so everything
+is uv'd
+however
+half the uvs are backwards
+so click a face
+that's backwards go to your 3d viewport
+and hit number pad period to zoom in
+to the area that's reversed
+grab that whole area
+s
+x negative one
+and now if you go to your 3d viewport
+you can see all the uvs are facing the
+correct direction
+okay
+now we just need to line these things
+back up so let's go to here gx and move
+it over
+there's
+probably a better way to line these
+things up
+i just don't know it
+let's move these over here and
+this inside doesn't matter too much
+but
+let's just make sure they're lined up
+correctly okay so this part
+these two parts
+should be attached so let's go here and
+gx
+pull that in
+and then this guy here let's move it
+over and let's grab these two i have
+x-ray turned on so i'm selecting through
+if you turn off x-ray
+you no longer select through
+so by selecting these two i can see
+where they are on the uv map
+and then i can
+rotate 180
+to make them line up and
+of course it's
+weird
+and this probably matters the least
+because it's inside the dress so really
+that doesn't matter
+okay and then let's line up this last
+part here
+gx pull it over here
+g oh shoot okay so i must have um
+warped this at some point i probably
+left it visible while i was scaling
+something else so that's okay
+it's it's not too warped so we can just
+do a quick fix
+so let's just drag it pretty close
+make sure we're in face mode select
+everything else and
+hide because we're going to edit these
+in edge mode
+and then s x
+and now everything should line up
+perfectly again
+we did just distort this a little bit
+but
+i don't think it's enough to matter
+so i'm gonna just go with it
+alt h
+and then let's just scale the stuff and
+make it all fit
+so
+move that there scale this down
+move that there
+let's go to face mode and rotate 180
+let's move this like up over there
+and let's scale this down some so it
+fits
+i feel like this is rather inefficient
+so it's
+scale to oops let's turn on proportional
+editing
+and scale in just a little bit
+turn off proportional editing
+grab those and let's just move this
+turn
+off the partial editing and let's move
+this
+in some
+and then
+scaled a little bit bigger
+so we get a little bit more resolution
+let's just rotate this 90
+and
+drop that there and
+drop that there so this is kind of
+really
+not very efficient
+but
+i think
+i think that's just what it is
+there's not much to this dress okay well
+you know what we can just do this we can
+we can still
+pack these things somewhat efficiently
+because maybe we can use this texture
+for something else
+so we'll put this here and put that
+there
+maybe if we have shoes or some other
+accessories we can use this map for
+those parts of the clothing so let's
+just let's do that so i think we've got
+a
+fully uv'd dress
+okay that's it for our video today i
+hope that was useful to you if it was
+leave a comment to let me know or like
+or subscribe or better yet support me on
+patreon
+and in the next video we will create
+some fine sculpted details
+and use that to make a normal map
+see you next time

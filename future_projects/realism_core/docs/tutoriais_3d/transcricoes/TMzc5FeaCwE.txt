@@ -1,0 +1,1968 @@
+Kind: captions
+Language: en
+In this video, I'm going to run through
+In this video, I'm going to run through
+In this video, I'm going to run through
+how to make a stylized cartoonish style
+how to make a stylized cartoonish style
+how to make a stylized cartoonish style
+character
+character
+character
+um
+um
+um
+from working from the base model in
+from working from the base model in
+from working from the base model in
+Character Creator 3.
+Character Creator 3.
+Character Creator 3.
+So, I tend to start off with
+So, I tend to start off with
+So, I tend to start off with
+this model, which is the
+this model, which is the
+this model, which is the
+this one here. Uh
+this one here. Uh
+this one here. Uh
+neutral male CC3+1.
+neutral male CC3+1.
+neutral male CC3+1.
+I mean, you can start with
+I mean, you can start with
+I mean, you can start with
+any model. It'll work the same way, but
+any model. It'll work the same way, but
+any model. It'll work the same way, but
+um I always tend to go for this one when
+um I always tend to go for this one when
+um I always tend to go for this one when
+I'm working from a male character.
+I'm working from a male character.
+I'm working from a male character.
+And first thing I will do is rough out
+And first thing I will do is rough out
+And first thing I will do is rough out
+the kind of proportions of the body body
+the kind of proportions of the body body
+the kind of proportions of the body body
+using the morph
+using the morph
+using the morph
+controls. Uh
+controls. Uh
+controls. Uh
+I'm going to bring
+like in.
+like in.
+like in.
+Maybe make the head a little bit bigger.
+Just some of the proportions of the
+Just some of the proportions of the
+Just some of the proportions of the
+body.
+I don't know if I want the head so big.
+I don't know if I want the head so big.
+I don't know if I want the head so big.
+So, it's just a a matter of playing
+So, it's just a a matter of playing
+So, it's just a a matter of playing
+around
+with things.
+Um
+Um
+Um
+It's going to be a generic character, so
+It's going to be a generic character, so
+It's going to be a generic character, so
+I'm not going to go too nuts with
+the morphs at the moment. Um I'm going
+the morphs at the moment. Um I'm going
+the morphs at the moment. Um I'm going
+to be using ZBrush
+to be using ZBrush
+to be using ZBrush
+to do some adjustments. You can use
+to do some adjustments. You can use
+to do some adjustments. You can use
+um the edit mesh tool.
+um the edit mesh tool.
+um the edit mesh tool.
+And you can get some good results, um
+And you can get some good results, um
+And you can get some good results, um
+but for for more smooth results, I tend
+but for for more smooth results, I tend
+but for for more smooth results, I tend
+to um go into ZBrush, but
+to um go into ZBrush, but
+to um go into ZBrush, but
+um I'll run through that a little bit
+um I'll run through that a little bit
+um I'll run through that a little bit
+later on in the video.
+later on in the video.
+later on in the video.
+So, one of the things I'm going to want
+So, one of the things I'm going to want
+So, one of the things I'm going to want
+to do is make the eyes bigger.
+to do is make the eyes bigger.
+to do is make the eyes bigger.
+And if you go to
+morph settings, you got the eye scale. I
+morph settings, you got the eye scale. I
+morph settings, you got the eye scale. I
+probably want to make them about
+150.
+Maybe not have them sticking out so
+Maybe not have them sticking out so
+Maybe not have them sticking out so
+much. So, bring them back in.
+much. So, bring them back in.
+much. So, bring them back in.
+Bring the nose back in.
+Bring the nose back in.
+Bring the nose back in.
+Chin out.
+So,
+So,
+So,
+one of the first things we need to do is
+one of the first things we need to do is
+one of the first things we need to do is
+we need to sort out the texture.
+we need to sort out the texture.
+we need to sort out the texture.
+So,
+So,
+So,
+if we go to the head,
+I need to load up Photoshop.
+I need to load up Photoshop.
+I need to load up Photoshop.
+And we will send the base mesh. And
+And we will send the base mesh. And
+And we will send the base mesh. And
+basically, we just want to remove all
+basically, we just want to remove all
+basically, we just want to remove all
+the detail.
+the detail.
+the detail.
+Uh for the cartoon character, it doesn't
+Uh for the cartoon character, it doesn't
+Uh for the cartoon character, it doesn't
+need any of this detail that's on here
+need any of this detail that's on here
+need any of this detail that's on here
+at all.
+at all.
+at all.
+So, um
+So, um
+So, um
+one of the things I do as well is I'll
+one of the things I do as well is I'll
+one of the things I do as well is I'll
+turn down the bump map.
+turn down the bump map.
+turn down the bump map.
+So,
+So,
+So,
+we want it less detailed.
+we want it less detailed.
+we want it less detailed.
+Um
+Um
+Um
+So, bump map turned down, base mesh now
+So, bump map turned down, base mesh now
+So, bump map turned down, base mesh now
+Photoshop is open.
+Photoshop is open.
+Photoshop is open.
+So, we're going to use the button here
+So, we're going to use the button here
+So, we're going to use the button here
+to launch this in Photoshop.
+It should open up
+It should open up
+It should open up
+Photoshop now.
+Now I've got the texture loaded into
+Now I've got the texture loaded into
+Now I've got the texture loaded into
+Photoshop. Literally, all I want to do
+Photoshop. Literally, all I want to do
+Photoshop. Literally, all I want to do
+is
+select
+select
+select
+uh color, get a tone,
+uh color, get a tone,
+uh color, get a tone,
+and I want to
+and I want to
+and I want to
+fill the whole
+fill the whole
+fill the whole
+object. Make a new layer.
+The only bit of detail I want is
+the lips. So, I'm going to cut them out.
+Paste them onto the new layer.
+All right, I'm going to
+All right, I'm going to
+All right, I'm going to
+I'm going to leave this a bit.
+And I'm just going to bring the opacity
+And I'm just going to bring the opacity
+And I'm just going to bring the opacity
+down.
+down.
+down.
+So, I just want a little bit of detail.
+So, I just want a little bit of detail.
+So, I just want a little bit of detail.
+Maybe not even that much.
+That'll do it.
+That'll do it.
+That'll do it.
+I'll merge layers
+I'll merge layers
+I'll merge layers
+and merge layers
+and merge layers
+and merge layers
+and save.
+And that'll update the character.
+And that'll update the character.
+And that'll update the character.
+So, at this point, it's looking a bit
+So, at this point, it's looking a bit
+So, at this point, it's looking a bit
+ropy.
+ropy.
+ropy.
+Um
+Um
+Um
+What I also um want to do is do the same
+What I also um want to do is do the same
+What I also um want to do is do the same
+for the body, arms, and legs. So, all
+for the body, arms, and legs. So, all
+for the body, arms, and legs. So, all
+I'm going to do is
+I'm going to do is
+I'm going to do is
+what I will do here is send over
+the body.
+And we're going to
+And we're going to
+And we're going to
+do the same thing again. I just want
+do the same thing again. I just want
+do the same thing again. I just want
+no detail at all.
+Merge those layers and save.
+And then I'm going to do the same with
+And then I'm going to do the same with
+And then I'm going to do the same with
+the arms.
+And do the same again.
+And do the same with the legs.
+Okay, I'm going to go back in.
+Okay, I'm going to go back in.
+Okay, I'm going to go back in.
+Um on the arms, legs, and body, again,
+Um on the arms, legs, and body, again,
+Um on the arms, legs, and body, again,
+we're going to turn the bump map all the
+we're going to turn the bump map all the
+we're going to turn the bump map all the
+way down.
+way down.
+way down.
+Maybe leave a little bit.
+And now, what I will do for the face
+And now, what I will do for the face
+And now, what I will do for the face
+is cuz we've got the human um digital
+is cuz we've got the human um digital
+is cuz we've got the human um digital
+human head
+human head
+human head
+texture, uh we'll have
+texture, uh we'll have
+texture, uh we'll have
+um some of these shader settings. And in
+um some of these shader settings. And in
+um some of these shader settings. And in
+here, I normally just play around with
+here, I normally just play around with
+here, I normally just play around with
+um
+um
+um
+I'll bring the blend strength up just to
+I'll bring the blend strength up just to
+I'll bring the blend strength up just to
+give a little color
+give a little color
+give a little color
+around the eyes and the cheeks. It's
+around the eyes and the cheeks. It's
+around the eyes and the cheeks. It's
+quite nice. And then sometimes I might
+quite nice. And then sometimes I might
+quite nice. And then sometimes I might
+play around with the saturation.
+play around with the saturation.
+play around with the saturation.
+But generally, if you're going to do
+But generally, if you're going to do
+But generally, if you're going to do
+that, you want to select
+that, you want to select
+that, you want to select
+all these objects and then play around
+all these objects and then play around
+all these objects and then play around
+with the saturation. So, let's go and do
+with the saturation. So, let's go and do
+with the saturation. So, let's go and do
+it
+at the same time. So, we can get a kind
+at the same time. So, we can get a kind
+at the same time. So, we can get a kind
+of a skin tone going there.
+of a skin tone going there.
+of a skin tone going there.
+Okay, so I mean, that's
+Okay, so I mean, that's
+Okay, so I mean, that's
+a good basis from where I would start.
+a good basis from where I would start.
+a good basis from where I would start.
+And then from there,
+And then from there,
+And then from there,
+I then just need to do some
+I then just need to do some
+I then just need to do some
+changes to the one of the first things I
+changes to the one of the first things I
+changes to the one of the first things I
+do is the eyelashes. So, if we
+do is the eyelashes. So, if we
+do is the eyelashes. So, if we
+go to the eyelash texture,
+go to the eyelash texture,
+go to the eyelash texture,
+go to opacity. What I want to do is I
+go to opacity. What I want to do is I
+go to opacity. What I want to do is I
+want to have a solid eye um
+want to have a solid eye um
+want to have a solid eye um
+eyelash.
+eyelash.
+eyelash.
+And I want to get rid of the bottom one.
+And I want to get rid of the bottom one.
+And I want to get rid of the bottom one.
+So, to do this, I use the opacity layer.
+So, to do this, I use the opacity layer.
+So, to do this, I use the opacity layer.
+I send this to Photoshop. And
+I send this to Photoshop. And
+I send this to Photoshop. And
+then I want to make
+this top bit white.
+I'm just going to use the brush for this
+I'm just going to use the brush for this
+I'm just going to use the brush for this
+one.
+one.
+one.
+Top bit white.
+Top bit white.
+Top bit white.
+And then bottom bit.
+And then bottom bit.
+And then bottom bit.
+I'm going to go
+all black.
+all black.
+all black.
+Let's go to file, save.
+And then you can see I'm going to change
+And then you can see I'm going to change
+And then you can see I'm going to change
+base color to
+base color to
+base color to
+black as well. So, let's just
+black as well. So, let's just
+black as well. So, let's just
+bring the brightness down.
+bring the brightness down.
+bring the brightness down.
+They're quite big, so we're going to use
+They're quite big, so we're going to use
+They're quite big, so we're going to use
+the morph tool to
+the morph tool to
+the morph tool to
+just resize them a little bit.
+just resize them a little bit.
+just resize them a little bit.
+And that looks okay.
+And that looks okay.
+And that looks okay.
+Um now for the eye texture,
+Um now for the eye texture,
+Um now for the eye texture,
+what I want to do with that is
+I generally want to make the eyes
+I generally want to make the eyes
+I generally want to make the eyes
+bigger, but
+bigger, but
+bigger, but
+yeah, I'll do the texture first. So,
+yeah, I'll do the texture first. So,
+yeah, I'll do the texture first. So,
+if we go to the eyes,
+if we go to the eyes,
+if we go to the eyes,
+go to scene, whatever it is, uh we'll
+go to scene, whatever it is, uh we'll
+go to scene, whatever it is, uh we'll
+select the eyes.
+select the eyes.
+select the eyes.
+Eyes.
+Eyes.
+Eyes.
+Now, what I like to do is
+the sclera
+the sclera
+the sclera
+um texture here,
+um texture here,
+um texture here,
+I always think it's a little bit too
+I always think it's a little bit too
+I always think it's a little bit too
+There's too much detail for a stylized
+There's too much detail for a stylized
+There's too much detail for a stylized
+cartoon type style character. So, that
+cartoon type style character. So, that
+cartoon type style character. So, that
+just needs to have a white image. So,
+just needs to have a white image. So,
+just needs to have a white image. So,
+I'm just going to copy this one.
+I'm just going to copy this one.
+I'm just going to copy this one.
+And
+And
+And
+paste that in. Oh, that's not going to
+paste that in. Oh, that's not going to
+paste that in. Oh, that's not going to
+work. Now, that's not going to work.
+work. Now, that's not going to work.
+work. Now, that's not going to work.
+Maybe I can adjust that.
+Embed that. And then
+turn the brightness all the way up.
+turn the brightness all the way up.
+turn the brightness all the way up.
+There we go.
+There we go.
+There we go.
+And we'll lose that detail. And we'll do
+And we'll lose that detail. And we'll do
+And we'll lose that detail. And we'll do
+the same on the other one.
+the same on the other one.
+the same on the other one.
+Oh, embed and bring the brightness all
+Oh, embed and bring the brightness all
+Oh, embed and bring the brightness all
+the way up to full.
+Uh I've selected them all. And we're
+Uh I've selected them all. And we're
+Uh I've selected them all. And we're
+going to go to
+I've selected the
+I've selected the
+I've selected the
+cornea.
+cornea.
+cornea.
+So, I'm going to have the left and the
+So, I'm going to have the left and the
+So, I'm going to have the left and the
+right one selected. And then I want to
+right one selected. And then I want to
+right one selected. And then I want to
+go and I want to
+go and I want to
+go and I want to
+For the cartoon style look, what I tend
+For the cartoon style look, what I tend
+For the cartoon style look, what I tend
+to do is I will bring the pupil scale
+to do is I will bring the pupil scale
+to do is I will bring the pupil scale
+up a lot more.
+Um
+Let's have a little while to do.
+Bring the UV out on that.
+And generally that's and then maybe
+And generally that's and then maybe
+And generally that's and then maybe
+pupils a little bit bigger.
+And that's generally what I tend what I
+And that's generally what I tend what I
+And that's generally what I tend what I
+tend to do and then you can have a play
+tend to do and then you can have a play
+tend to do and then you can have a play
+around with the brightness and things
+around with the brightness and things
+around with the brightness and things
+like that.
+like that.
+like that.
+But that gives you a
+But that gives you a
+But that gives you a
+decent enough cartoon style
+decent enough cartoon style
+decent enough cartoon style
+um
+um
+um
+or kind of Pixarish
+or kind of Pixarish
+or kind of Pixarish
+kind of look. You can play around with
+kind of look. You can play around with
+kind of look. You can play around with
+changing the base color to a more of a
+changing the base color to a more of a
+changing the base color to a more of a
+solid
+solid
+solid
+colored eye. Um
+colored eye. Um
+colored eye. Um
+so
+so
+so
+something like this one and we'll just
+something like this one and we'll just
+something like this one and we'll just
+send this there.
+send this there.
+send this there.
+You could literally just
+That's an example quickly.
+I want it to be a blue eye or
+I want it to be a blue eye or
+I want it to be a blue eye or
+a blue color.
+Uh
+Uh
+Uh
+merge all.
+merge all.
+merge all.
+File, save.
+You can do that and have a more
+You can do that and have a more
+You can do that and have a more
+you know, a very cartoony style type
+you know, a very cartoony style type
+you know, a very cartoony style type
+eye.
+eye.
+eye.
+Um
+Um
+Um
+but that's up to you. I kind of like
+but that's up to you. I kind of like
+but that's up to you. I kind of like
+this kind of look. It's a nice mix in
+this kind of look. It's a nice mix in
+this kind of look. It's a nice mix in
+between.
+between.
+between.
+Or the other option you've got to do is
+Or the other option you've got to do is
+Or the other option you've got to do is
+if you go into
+if you go into
+if you go into
+pre-made eyes in here.
+pre-made eyes in here.
+pre-made eyes in here.
+Um
+Um
+Um
+the slacker eye.
+Also gives a nice
+cartoon like look but
+cartoon like look but
+cartoon like look but
+for now that one will do.
+for now that one will do.
+for now that one will do.
+Um okay, we're going to stick some
+Um okay, we're going to stick some
+Um okay, we're going to stick some
+clothing on the character and some hair.
+clothing on the character and some hair.
+clothing on the character and some hair.
+So
+So
+So
+I'll just generally use whatever's in
+I'll just generally use whatever's in
+I'll just generally use whatever's in
+what I've got in the content library. So
+what I've got in the content library. So
+what I've got in the content library. So
+if the clothing
+if the clothing
+if the clothing
+um
+if it's
+if it's
+if it's
+if you're going to go for something
+if you're going to go for something
+if you're going to go for something
+that's a bit cartoony, you want
+that's a bit cartoony, you want
+that's a bit cartoony, you want
+something that's a little bit more
+simplified.
+Um
+Um
+Um
+let's have a look. I don't know what
+let's have a look. I don't know what
+let's have a look. I don't know what
+we've got. Let's just work with
+we've got. Let's just work with
+we've got. Let's just work with
+something that's
+some of the presets so that we know we
+some of the presets so that we know we
+some of the presets so that we know we
+can
+can
+can
+kind of
+kind of
+kind of
+sort them out a little bit. So let's go
+sort them out a little bit. So let's go
+sort them out a little bit. So let's go
+with just one of the
+with just one of the
+with just one of the
+one of the shirts.
+I'll pick that.
+And then let's do some
+jeans.
+And we'll get rid of the
+boxers.
+And again with these the key to that
+And again with these the key to that
+And again with these the key to that
+cartoony style look uh stylized look is
+cartoony style look uh stylized look is
+cartoony style look uh stylized look is
+just
+just
+just
+you know, getting rid of the bump. We
+you know, getting rid of the bump. We
+you know, getting rid of the bump. We
+don't need any of that.
+The roughness
+The roughness
+The roughness
+Let's do that. Need base color.
+You can turn that down low.
+You can turn that down low.
+You can turn that down low.
+Maybe change color a little bit.
+I like there.
+I like there.
+I like there.
+And we can smooth we're going to smooth
+And we can smooth we're going to smooth
+And we can smooth we're going to smooth
+all this off and clean up when we get to
+all this off and clean up when we get to
+all this off and clean up when we get to
+the ZBrush stage. But again um
+the ZBrush stage. But again um
+the ZBrush stage. But again um
+it can all be done in if you use the
+it can all be done in if you use the
+it can all be done in if you use the
+edit
+edit
+edit
+mesh and you you've got the smooth tools
+mesh and you you've got the smooth tools
+mesh and you you've got the smooth tools
+and things in here
+and things in here
+and things in here
+for
+for
+for
+kind of cleaning things up as well which
+kind of cleaning things up as well which
+kind of cleaning things up as well which
+work works really well. But it's just a
+work works really well. But it's just a
+work works really well. But it's just a
+little bit easier to do it in ZBrush if
+little bit easier to do it in ZBrush if
+little bit easier to do it in ZBrush if
+you have access to that and you can get
+you have access to that and you can get
+you have access to that and you can get
+a much better results.
+a much better results.
+a much better results.
+But again with the jeans
+But again with the jeans
+But again with the jeans
+we want to um
+delete the oh bring the bump all the way
+delete the oh bring the bump all the way
+delete the oh bring the bump all the way
+down.
+down.
+down.
+Roughness, get rid of that. Base color.
+Now let's give them some
+Put the bump back into it and then
+copy this and paste into roughness.
+copy this and paste into roughness.
+copy this and paste into roughness.
+Um we will
+bring the brightness up.
+bring the brightness up.
+bring the brightness up.
+Okay.
+I won't bother with any shoes or
+I won't bother with any shoes or
+I won't bother with any shoes or
+anything like that for now. Uh next
+anything like that for now. Uh next
+anything like that for now. Uh next
+thing we want to do is add on some hair.
+thing we want to do is add on some hair.
+thing we want to do is add on some hair.
+So with the hair we've got um
+the new prime hair
+the new prime hair
+the new prime hair
+hair style but you can use any kind of
+hair style but you can use any kind of
+hair style but you can use any kind of
+presets that's already on here.
+presets that's already on here.
+presets that's already on here.
+Um to bring these in. But these all work
+Um to bring these in. But these all work
+Um to bring these in. But these all work
+really nicely so
+if I get like a
+get a hair style. Actually if I go to
+I think I can go with one of these so
+I think I can go with one of these so
+I think I can go with one of these so
+I'll get some
+some beard hair as well.
+some beard hair as well.
+some beard hair as well.
+Okay, so that's a
+a standard look that we're going for.
+a standard look that we're going for.
+a standard look that we're going for.
+Now what we need to do is just play
+Now what we need to do is just play
+Now what we need to do is just play
+around with the proportions slightly
+around with the proportions slightly
+around with the proportions slightly
+again I think so
+again I think so
+again I think so
+I will
+I will
+I will
+give him a slightly bigger head.
+Maybe
+bring the shoulders in a little bit.
+bring the shoulders in a little bit.
+bring the shoulders in a little bit.
+Shoulders down.
+His arms a little bit thinner.
+Make his hands bigger. Just play around
+Make his hands bigger. Just play around
+Make his hands bigger. Just play around
+with it until you've got the kind of
+with it until you've got the kind of
+with it until you've got the kind of
+proportions that you want that suits
+proportions that you want that suits
+proportions that you want that suits
+the character that you're working on.
+the character that you're working on.
+the character that you're working on.
+Um I should have a little bit of them up
+Um I should have a little bit of them up
+Um I should have a little bit of them up
+a little bit more.
+And then
+And then
+And then
+the next step is to go into
+the next step is to go into
+the next step is to go into
+ZBrush. So once you've got the character
+ZBrush. So once you've got the character
+ZBrush. So once you've got the character
+selected
+selected
+selected
+scene select the avatar so everything's
+scene select the avatar so everything's
+scene select the avatar so everything's
+selected
+selected
+selected
+and then we will go to ZBrush. And in
+and then we will go to ZBrush. And in
+and then we will go to ZBrush. And in
+here we want to um just
+here we want to um just
+here we want to um just
+stick with the the basic settings.
+And press go.
+And press go.
+And press go.
+Once ZBrush is loaded up
+Once ZBrush is loaded up
+Once ZBrush is loaded up
+um I always open up a new document.
+um I always open up a new document.
+um I always open up a new document.
+So we've got the full screen.
+So we've got the full screen.
+So we've got the full screen.
+I'll click and drag the character onto
+I'll click and drag the character onto
+I'll click and drag the character onto
+the screen.
+the screen.
+the screen.
+Make sure to press edit
+Make sure to press edit
+Make sure to press edit
+and frame.
+and frame.
+and frame.
+And get that character in position.
+And get that character in position.
+And get that character in position.
+Um
+Um
+Um
+when working with ZBrush you always need
+when working with ZBrush you always need
+when working with ZBrush you always need
+to make sure to change your draw size.
+to make sure to change your draw size.
+to make sure to change your draw size.
+So let's put that up to 5,000 and that
+So let's put that up to 5,000 and that
+So let's put that up to 5,000 and that
+up to 10.
+up to 10.
+up to 10.
+Or around 10.
+Or around 10.
+Or around 10.
+So that you can get the right size
+So that you can get the right size
+So that you can get the right size
+brush.
+brush.
+brush.
+And I'm going to use mainly the move
+And I'm going to use mainly the move
+And I'm going to use mainly the move
+tool. In when I'm using ZBrush I
+tool. In when I'm using ZBrush I
+tool. In when I'm using ZBrush I
+generally use about three tools which is
+generally use about three tools which is
+generally use about three tools which is
+move
+move
+move
+move topology and inflate. Um
+move topology and inflate. Um
+move topology and inflate. Um
+that's pretty much
+all I ever seem to seem to use. Um so
+all I ever seem to seem to use. Um so
+all I ever seem to seem to use. Um so
+now if we go to solo mode
+now if we go to solo mode
+now if we go to solo mode
+we can have a look at this model.
+we can have a look at this model.
+we can have a look at this model.
+Um
+Um
+Um
+what we want to do is smooth off some of
+what we want to do is smooth off some of
+what we want to do is smooth off some of
+this detailing. Make sure our symmetry's
+this detailing. Make sure our symmetry's
+this detailing. Make sure our symmetry's
+on.
+Um we'll start portioning the body a
+Um we'll start portioning the body a
+Um we'll start portioning the body a
+little bit
+little bit
+little bit
+more so it's not so
+humanish. Well, human but we want it to
+humanish. Well, human but we want it to
+humanish. Well, human but we want it to
+look
+look
+look
+a little bit more stylized.
+a little bit more stylized.
+a little bit more stylized.
+So things need to be emphasized a little
+So things need to be emphasized a little
+So things need to be emphasized a little
+bit more or de-emphasized. Um like the
+bit more or de-emphasized. Um like the
+bit more or de-emphasized. Um like the
+shoulders I'm going to bring down this
+shoulders I'm going to bring down this
+shoulders I'm going to bring down this
+neck here. I'm going to take all the
+neck here. I'm going to take all the
+neck here. I'm going to take all the
+detail out of that.
+detail out of that.
+detail out of that.
+Just kind of give him a thin
+thin neck.
+Also on the head
+Also on the head
+Also on the head
+shape to be more like this.
+Now let's have a look. I want to
+change proportions of the face so I'm
+change proportions of the face so I'm
+change proportions of the face so I'm
+going to um
+raise his eyebrows a bit. I'm also going
+raise his eyebrows a bit. I'm also going
+raise his eyebrows a bit. I'm also going
+to move try and increase the size of the
+to move try and increase the size of the
+to move try and increase the size of the
+eyes so they're a little bit more round.
+eyes so they're a little bit more round.
+eyes so they're a little bit more round.
+So they're a little bit more cartoony.
+So they're a little bit more cartoony.
+So they're a little bit more cartoony.
+Again and
+Again and
+Again and
+smooth the detail off that.
+Um also I want to take the detail off
+Um also I want to take the detail off
+Um also I want to take the detail off
+the nose a little bit more so I'm going
+the nose a little bit more so I'm going
+the nose a little bit more so I'm going
+to take the
+to take the
+to take the
+bridge of the nose away and then give it
+bridge of the nose away and then give it
+bridge of the nose away and then give it
+more of a
+shaped
+And make the smart mouth a little bit
+And make the smart mouth a little bit
+And make the smart mouth a little bit
+bigger.
+Put the cheeks out.
+Uh for this character to have not quite
+Uh for this character to have not quite
+Uh for this character to have not quite
+a
+protruding chin and a square jaw, so
+protruding chin and a square jaw, so
+protruding chin and a square jaw, so
+that is
+out.
+So, it's just a case now in ZBrush
+So, it's just a case now in ZBrush
+So, it's just a case now in ZBrush
+playing around
+playing around
+playing around
+with the shape
+of the face until it kind of resembles
+of the face until it kind of resembles
+of the face until it kind of resembles
+something that you want it to look like.
+something that you want it to look like.
+something that you want it to look like.
+So, I'm going to turn that down.
+So, now that I've got that
+So, now that I've got that
+So, now that I've got that
+changed, I can take out solo mode.
+So, now I'm going to just quickly adjust
+So, now I'm going to just quickly adjust
+So, now I'm going to just quickly adjust
+um
+um
+um
+the
+the
+the
+the shirt.
+the shirt.
+the shirt.
+So, make sure symmetry's on. I'm just
+So, make sure symmetry's on. I'm just
+So, make sure symmetry's on. I'm just
+going to move this around to match up as
+going to move this around to match up as
+going to move this around to match up as
+well.
+well.
+well.
+Actually, what I like to do is I've got
+Actually, what I like to do is I've got
+Actually, what I like to do is I've got
+to turn the smoothing down so that it
+to turn the smoothing down so that it
+to turn the smoothing down so that it
+doesn't overly affect everything cuz I
+doesn't overly affect everything cuz I
+doesn't overly affect everything cuz I
+can get a nice
+can get a nice
+can get a nice
+even smooth.
+even smooth.
+even smooth.
+But now, let's drag this out a little
+But now, let's drag this out a little
+But now, let's drag this out a little
+bit more.
+I'm not going to spend too much time on
+I'm not going to spend too much time on
+I'm not going to spend too much time on
+this cuz like I said, the
+this cuz like I said, the
+this cuz like I said, the
+it's just an example, but
+it's just an example, but
+it's just an example, but
+generally
+generally
+generally
+I'd fix all the colors and things and
+I'd fix all the colors and things and
+I'd fix all the colors and things and
+make them all
+make them all
+make them all
+fit in how they need to.
+fit in how they need to.
+fit in how they need to.
+But you can get a bit fiddly with that.
+But you can get a bit fiddly with that.
+But you can get a bit fiddly with that.
+You'd You'd better off finding a model
+You'd You'd better off finding a model
+You'd You'd better off finding a model
+that's got a little bit nearer
+that's got a little bit nearer
+that's got a little bit nearer
+to what you want it to be in the first
+to what you want it to be in the first
+to what you want it to be in the first
+place.
+place.
+place.
+But you can go in and adjust these to
+But you can go in and adjust these to
+But you can go in and adjust these to
+make them work. Um
+make them work. Um
+make them work. Um
+let's have a look at that
+And then we'll go to the trousers.
+I think that's pretty much all right.
+I think that's pretty much all right.
+I think that's pretty much all right.
+They're pretty standard, so
+They're pretty standard, so
+They're pretty standard, so
+not much needs to do in there. So,
+not much needs to do in there. So,
+not much needs to do in there. So,
+we can just have a little play around
+we can just have a little play around
+we can just have a little play around
+with it just to smooth things off.
+with it just to smooth things off.
+with it just to smooth things off.
+Um
+And now we can send this back. So, we
+And now we can send this back. So, we
+And now we can send this back. So, we
+want to press all.
+want to press all.
+want to press all.
+Um if you just press go to Z, it's going
+Um if you just press go to Z, it's going
+Um if you just press go to Z, it's going
+to send back the one
+to send back the one
+to send back the one
+subtool and press all, it's going to
+subtool and press all, it's going to
+subtool and press all, it's going to
+send back everything.
+And we want to update.
+Now we've done this, we're going to want
+Now we've done this, we're going to want
+Now we've done this, we're going to want
+to make sure that we
+realign some things, so um
+realign some things, so um
+realign some things, so um
+if we set the
+mustache, we can go to
+mustache, we can go to
+mustache, we can go to
+the form and
+the form and
+the form and
+like collision collision.
+like collision collision.
+like collision collision.
+That's a ball.
+Now we can adjust these get manually as
+Now we can adjust these get manually as
+Now we can adjust these get manually as
+well. So, let's say the eyebrows
+well. So, let's say the eyebrows
+well. So, let's say the eyebrows
+I can convert these
+and move them.
+and move them.
+and move them.
+Um let's see what they look like. I want
+Um let's see what they look like. I want
+Um let's see what they look like. I want
+them higher up
+around here.
+And now transfer first of all, create
+And now transfer first of all, create
+And now transfer first of all, create
+hair.
+hair.
+hair.
+And we're going to go
+And we're going to go
+And we're going to go
+eyebrows.
+Actually, at this point what it might be
+Actually, at this point what it might be
+Actually, at this point what it might be
+easiest to do is with the beard.
+easiest to do is with the beard.
+easiest to do is with the beard.
+Actually, I'm going to get rid of the
+Actually, I'm going to get rid of the
+Actually, I'm going to get rid of the
+beard anyway.
+But you can just re-add them on.
+But you can just re-add them on.
+But you can just re-add them on.
+Um
+Um
+Um
+Actually, you know I'm going to re-add
+Actually, you know I'm going to re-add
+Actually, you know I'm going to re-add
+all that on cuz it's all
+all that on cuz it's all
+all that on cuz it's all
+messed up a little bit.
+Okay, yeah.
+Okay, yeah.
+Okay, yeah.
+For now, I'm going to just quickly get
+For now, I'm going to just quickly get
+For now, I'm going to just quickly get
+rid of this hair
+rid of this hair
+rid of this hair
+and we'll add that back on in a minute.
+and we'll add that back on in a minute.
+and we'll add that back on in a minute.
+Actually, I might even go for a
+Actually, I might even go for a
+Actually, I might even go for a
+different style. Um
+different style. Um
+different style. Um
+So, looking at the character now, you
+So, looking at the character now, you
+So, looking at the character now, you
+can see there's a few little bits that
+can see there's a few little bits that
+can see there's a few little bits that
+need
+need
+need
+fixing up. Um
+fixing up. Um
+fixing up. Um
+don't like how shiny these trousers are
+don't like how shiny these trousers are
+don't like how shiny these trousers are
+for a start, so I'm going to
+um
+just quickly
+just quickly
+just quickly
+adjust these.
+Just make them a little bit more matte.
+Just make them a little bit more matte.
+Just make them a little bit more matte.
+Same with the shirt. I'm going to make
+Same with the shirt. I'm going to make
+Same with the shirt. I'm going to make
+that a little bit more
+of a matte
+of a matte
+of a matte
+kind of finish.
+So, looking at the character
+So, looking at the character
+So, looking at the character
+I want to kind of fix the indents on his
+I want to kind of fix the indents on his
+I want to kind of fix the indents on his
+eyes actually. So, I'm going to send him
+eyes actually. So, I'm going to send him
+eyes actually. So, I'm going to send him
+back to iClone and just quickly I want
+back to iClone and just quickly I want
+back to iClone and just quickly I want
+to bring the arms up a little bit more
+to bring the arms up a little bit more
+to bring the arms up a little bit more
+and fix a bit of the collar. So, I'm
+and fix a bit of the collar. So, I'm
+and fix a bit of the collar. So, I'm
+going to
+going to
+going to
+re-send him back over
+re-send him back over
+re-send him back over
+to ZBrush.
+All right, now I'll do it from now.
+All right, now I'll do it from now.
+All right, now I'll do it from now.
+And then on the face, I am going to
+just kind of smooth out these
+indentations on the eyes cuz I don't
+indentations on the eyes cuz I don't
+indentations on the eyes cuz I don't
+want it to be so
+kind of
+kind of
+kind of
+detailed uh the eyelids are. So, I want
+detailed uh the eyelids are. So, I want
+detailed uh the eyelids are. So, I want
+it to sort of blend in a little bit
+it to sort of blend in a little bit
+it to sort of blend in a little bit
+more.
+And
+And
+And
+that looks okay for now.
+Yeah, about that will do
+Yeah, about that will do
+Yeah, about that will do
+for what I want. I'm not too pleased
+for what I want. I'm not too pleased
+for what I want. I'm not too pleased
+with my whole shoulder look at the
+with my whole shoulder look at the
+with my whole shoulder look at the
+moment, but
+we can
+we can
+we can
+adjust that there.
+And that'll be all right for now.
+Just some morphs.
+I'll bring the chest up back up.
+I'll bring the chest up back up.
+I'll bring the chest up back up.
+Scale down height.
+Minus
+Minus
+Minus
+80.
+Okay.
+All right, something like that is fine.
+All right, something like that is fine.
+All right, something like that is fine.
+That'll do for now.
+That'll do for now.
+That'll do for now.
+Um
+Um
+Um
+So, now what we need to do is adjust the
+So, now what we need to do is adjust the
+So, now what we need to do is adjust the
+eyeballs because obviously I've made
+eyeballs because obviously I've made
+eyeballs because obviously I've made
+them
+them
+them
+uh slightly wider. So, I want to set the
+uh slightly wider. So, I want to set the
+uh slightly wider. So, I want to set the
+eyes.
+Actually, I want to get head and go to
+Actually, I want to get head and go to
+Actually, I want to get head and go to
+eye and I need to move the height.
+eye and I need to move the height.
+eye and I need to move the height.
+So, I need to go to eyeball.
+So, I need to go to eyeball.
+So, I need to go to eyeball.
+Um we want to
+Um we want to
+Um we want to
+scale them up a bit.
+scale them up a bit.
+scale them up a bit.
+Um we want to bring the height of them
+Um we want to bring the height of them
+Um we want to bring the height of them
+up as well.
+up as well.
+up as well.
+And then using the tools in there, you
+And then using the tools in there, you
+And then using the tools in there, you
+can normally move them around if you
+can normally move them around if you
+can normally move them around if you
+need to anymore, but
+need to anymore, but
+need to anymore, but
+they're pretty
+they're pretty
+they're pretty
+they're pretty much where I want them to
+they're pretty much where I want them to
+they're pretty much where I want them to
+be.
+be.
+be.
+I'm quite pleased with how that's
+I'm quite pleased with how that's
+I'm quite pleased with how that's
+looking.
+looking.
+looking.
+Um one of the other things we want to do
+Um one of the other things we want to do
+Um one of the other things we want to do
+is teeth.
+is teeth.
+is teeth.
+So, if we bring in a facial expression,
+So, if we bring in a facial expression,
+So, if we bring in a facial expression,
+one thing I would suggest to do here as
+one thing I would suggest to do here as
+one thing I would suggest to do here as
+well at this point is go into
+well at this point is go into
+well at this point is go into
+expressions and go to the X plus
+expressions and go to the X plus
+expressions and go to the X plus
+and this will load in
+and this will load in
+and this will load in
+um the extra morphs that I needed for
+um the extra morphs that I needed for
+um the extra morphs that I needed for
+this.
+So, here we want to
+So, here we want to
+So, here we want to
+fix the teeth and make them a little bit
+fix the teeth and make them a little bit
+fix the teeth and make them a little bit
+more cartoony. So, if we go to teeth
+more cartoony. So, if we go to teeth
+more cartoony. So, if we go to teeth
+and morphs
+uh I normally reduce the gap in the
+uh I normally reduce the gap in the
+uh I normally reduce the gap in the
+teeth.
+teeth.
+teeth.
+Then we want to go to the textures,
+Then we want to go to the textures,
+Then we want to go to the textures,
+select the both of them.
+select the both of them.
+select the both of them.
+Um we want to
+bring the brightness up and
+bring the brightness up and
+bring the brightness up and
+desaturation. Actually, we can bring the
+desaturation. Actually, we can bring the
+desaturation. Actually, we can bring the
+brightness down a little bit.
+brightness down a little bit.
+brightness down a little bit.
+And you can play around with them. Just
+And you can play around with them. Just
+And you can play around with them. Just
+get them how you like them. But
+get them how you like them. But
+get them how you like them. But
+generally
+generally
+generally
+they've got a nice kind of cartoonish
+they've got a nice kind of cartoonish
+they've got a nice kind of cartoonish
+look going with it.
+look going with it.
+look going with it.
+Okay. So, now we're going to stick on
+Okay. So, now we're going to stick on
+Okay. So, now we're going to stick on
+some hair. So, we'll just stick with
+some hair. So, we'll just stick with
+some hair. So, we'll just stick with
+what we put on before.
+what we put on before.
+what we put on before.
+Um
+Um
+Um
+the hair and the beard on the character.
+And that looks pretty good. I mean, if
+And that looks pretty good. I mean, if
+And that looks pretty good. I mean, if
+you wanted you can go in
+you wanted you can go in
+you wanted you can go in
+to the settings and the textures
+to the settings and the textures
+to the settings and the textures
+and
+Um, what we got?
+You can go in there and play around with
+You can go in there and play around with
+You can go in there and play around with
+the different colors and
+the different colors and
+the different colors and
+things like that, but I'm not going to
+things like that, but I'm not going to
+things like that, but I'm not going to
+do that now, but it's pretty just go
+do that now, but it's pretty just go
+do that now, but it's pretty just go
+through the parameters
+through the parameters
+through the parameters
+and change
+and change
+and change
+the colors here
+for the different
+for the different
+for the different
+different areas.
+different areas.
+different areas.
+And build that up, but for now I'm quite
+And build that up, but for now I'm quite
+And build that up, but for now I'm quite
+happy with how that looks.
+happy with how that looks.
+happy with how that looks.
+Um
+One thing I would do with this one for
+One thing I would do with this one for
+One thing I would do with this one for
+the
+the
+the
+the face it's a little bit washed out,
+the face it's a little bit washed out,
+the face it's a little bit washed out,
+so
+so
+so
+on the head I'm going to um just up the
+on the head I'm going to um just up the
+on the head I'm going to um just up the
+blend map a little bit more.
+blend map a little bit more.
+blend map a little bit more.
+Get that bit bit more color in the face.
+Get that bit bit more color in the face.
+Get that bit bit more color in the face.
+Uh maybe a bit more saturation.
+Uh maybe a bit more saturation.
+Uh maybe a bit more saturation.
+And another thing that can be done is
+And another thing that can be done is
+And another thing that can be done is
+you can go into skin generate if you've
+you can go into skin generate if you've
+you can go into skin generate if you've
+got that and add in things like wrinkles
+got that and add in things like wrinkles
+got that and add in things like wrinkles
+and a little bit more detail into the
+and a little bit more detail into the
+and a little bit more detail into the
+character, but
+character, but
+character, but
+for a kind of a stylized cartoon
+for a kind of a stylized cartoon
+for a kind of a stylized cartoon
+character look, um this is
+character look, um this is
+character look, um this is
+basically what what I would do.
+basically what what I would do.
+basically what what I would do.
+Um
+And then obviously you can adjust it to
+And then obviously you can adjust it to
+And then obviously you can adjust it to
+however you want to
+however you want to
+however you want to
+make it your own character, so let's
+make it your own character, so let's
+make it your own character, so let's
+just work some shoes on him at the
+just work some shoes on him at the
+just work some shoes on him at the
+moment.
+There we go.
+The other thing I would I have a play
+The other thing I would I have a play
+The other thing I would I have a play
+with now is
+I would have a look at the good content,
+I would have a look at the good content,
+I would have a look at the good content,
+the lighting. So, we've got some really
+the lighting. So, we've got some really
+the lighting. So, we've got some really
+nice preset lightings set up in
+nice preset lightings set up in
+nice preset lightings set up in
+Character Creator 3.
+Character Creator 3.
+Character Creator 3.
+So, this is the default one and I tend
+So, this is the default one and I tend
+So, this is the default one and I tend
+to just go through these and just see
+to just go through these and just see
+to just go through these and just see
+what one works
+what one works
+what one works
+works well with the kind of look that
+works well with the kind of look that
+works well with the kind of look that
+I'm going for.
+I'm going for.
+I'm going for.
+So, that's quite nice.
+And you'll see from doing this it'll
+And you'll see from doing this it'll
+And you'll see from doing this it'll
+dramatically change the look of your
+dramatically change the look of your
+dramatically change the look of your
+character.
+character.
+character.
+I mean, I quite like that one. I'll come
+I mean, I quite like that one. I'll come
+I mean, I quite like that one. I'll come
+back to that one in a minute, so
+back to that one in a minute, so
+back to that one in a minute, so
+full body front.
+That wasn't too bad, but I'll go back to
+That wasn't too bad, but I'll go back to
+That wasn't too bad, but I'll go back to
+a quad light. Where was it? Full body
+a quad light. Where was it? Full body
+a quad light. Where was it? Full body
+front.
+front.
+front.
+Once that one's set up I'll go in to
+Once that one's set up I'll go in to
+Once that one's set up I'll go in to
+scene
+scene
+scene
+and have a look at what lights are on
+and have a look at what lights are on
+and have a look at what lights are on
+here, so
+here, so
+here, so
+turn that one down a little bit. It's a
+turn that one down a little bit. It's a
+turn that one down a little bit. It's a
+little bit too bright.
+Look at the rim light.
+Look at the rim light.
+Look at the rim light.
+Turn that one off to see what it's
+Turn that one off to see what it's
+Turn that one off to see what it's
+doing.
+doing.
+doing.
+That one's okay. Key light two.
+That one's okay. Key light two.
+That one's okay. Key light two.
+Turn that down a little bit.
+Turn that down a little bit.
+Turn that down a little bit.
+And
+And
+And
+there we have a nice render.
+And a stylized character. And
+And a stylized character. And
+And a stylized character. And
+you can go even further into the visuals
+you can go even further into the visuals
+you can go even further into the visuals
+and play around with all your ambient
+and play around with all your ambient
+and play around with all your ambient
+occlusion
+occlusion
+occlusion
+things like that.
+things like that.
+things like that.
+Um
+Bring up your global illumination. Put
+Bring up your global illumination. Put
+Bring up your global illumination. Put
+that on.
+Like that will
+Like that will
+Like that will
+kind of give it more of a
+Sometimes helps to kind of
+Sometimes helps to kind of
+Sometimes helps to kind of
+kill shadows a little bit. That's
+kill shadows a little bit. That's
+kill shadows a little bit. That's
+another key as well. Um
+another key as well. Um
+another key as well. Um
+Bringing the shadow strength down a
+Bringing the shadow strength down a
+Bringing the shadow strength down a
+little bit can help with the look. It
+little bit can help with the look. It
+little bit can help with the look. It
+all depends on what look you are going
+all depends on what look you are going
+all depends on what look you are going
+for. Personally, um
+for. Personally, um
+for. Personally, um
+then you've got
+lighting there. So, you can just go
+lighting there. So, you can just go
+lighting there. So, you can just go
+through.
+through.
+through.
+Um
+Um
+Um
+You've got like your tone map. You can
+You've got like your tone map. You can
+You've got like your tone map. You can
+play around with that one.
+As well, so
+As well, so
+As well, so
+there's plenty of things and it's just a
+there's plenty of things and it's just a
+there's plenty of things and it's just a
+case of going through and testing them
+case of going through and testing them
+case of going through and testing them
+out and getting what it is that you want
+out and getting what it is that you want
+out and getting what it is that you want
+out of the character, but
+out of the character, but
+out of the character, but
+something like this works quite nicely
+something like this works quite nicely
+something like this works quite nicely
+and the great thing is that it's all set
+and the great thing is that it's all set
+and the great thing is that it's all set
+up with all the morphs
+up with all the morphs
+up with all the morphs
+and everything, so
+it'll all work with facial capture, body
+it'll all work with facial capture, body
+it'll all work with facial capture, body
+capture and everything. And like the
+capture and everything. And like the
+capture and everything. And like the
+active lips
+active lips
+active lips
+and all that type of stuff, so
+and all that type of stuff, so
+and all that type of stuff, so
+yeah, I just wanted to give a rough
+yeah, I just wanted to give a rough
+yeah, I just wanted to give a rough
+idea. Let's move this head in a little
+idea. Let's move this head in a little
+idea. Let's move this head in a little
+bit.
+of
+of
+of
+my process of setting up a
+my process of setting up a
+my process of setting up a
+stylized character. And this is the same
+stylized character. And this is the same
+stylized character. And this is the same
+process that I kind of
+process that I kind of
+process that I kind of
+go through. Obviously, it changes in
+go through. Obviously, it changes in
+go through. Obviously, it changes in
+various ways, but for the style that I'm
+various ways, but for the style that I'm
+various ways, but for the style that I'm
+doing, but this is the type of thing
+doing, but this is the type of thing
+doing, but this is the type of thing
+that I would do.
+that I would do.
+that I would do.
+So, I hope that's helpful. Um if you've
+So, I hope that's helpful. Um if you've
+So, I hope that's helpful. Um if you've
+got any questions, um
+got any questions, um
+got any questions, um
+feel free to put them in the comments.
+As I mentioned Oh, before I go, as I
+As I mentioned Oh, before I go, as I
+As I mentioned Oh, before I go, as I
+mentioned before, if you want to do the
+mentioned before, if you want to do the
+mentioned before, if you want to do the
+um this is where you go into ZBrush.
+um this is where you go into ZBrush.
+um this is where you go into ZBrush.
+You can go into
+edit mesh
+edit mesh
+edit mesh
+to do changes to the model. And I'll
+to do changes to the model. And I'll
+to do changes to the model. And I'll
+just point out some of the best tools in
+just point out some of the best tools in
+just point out some of the best tools in
+here that I would use, so
+here that I would use, so
+here that I would use, so
+um the vertex tool is pretty good with
+um the vertex tool is pretty good with
+um the vertex tool is pretty good with
+the soft selection. So, if I wanted to
+the soft selection. So, if I wanted to
+the soft selection. So, if I wanted to
+bring these cheeks out I can bring
+bring these cheeks out I can bring
+bring these cheeks out I can bring
+the area out
+the area out
+the area out
+here.
+here.
+here.
+And if you want it to be mirrored, I can
+And if you want it to be mirrored, I can
+And if you want it to be mirrored, I can
+press this button here.
+press this button here.
+press this button here.
+And then
+And then
+And then
+we can
+use the scale
+use the scale
+use the scale
+to scale that in and out and adjust that
+to scale that in and out and adjust that
+to scale that in and out and adjust that
+mesh there.
+mesh there.
+mesh there.
+Um that's a pretty handy tool. If you
+Um that's a pretty handy tool. If you
+Um that's a pretty handy tool. If you
+want to go into
+want to go into
+want to go into
+uh sculpt in
+uh sculpt in
+uh sculpt in
+a bit more like ZBrush
+a bit more like ZBrush
+a bit more like ZBrush
+you can
+you can
+you can
+do that there
+do that there
+do that there
+as well.
+as well.
+as well.
+And then you've also got the smooth tool
+And then you've also got the smooth tool
+And then you've also got the smooth tool
+for
+for
+for
+changing shapes. And so, anything that
+changing shapes. And so, anything that
+changing shapes. And so, anything that
+we do in ZBrush you can possibly do in
+we do in ZBrush you can possibly do in
+we do in ZBrush you can possibly do in
+in here. It's just obviously um
+in here. It's just obviously um
+in here. It's just obviously um
+using ZBrush
+using ZBrush
+using ZBrush
+I find um
+I find um
+I find um
+has a little bit more control over
+has a little bit more control over
+has a little bit more control over
+things.
+things.
+things.
+Um
+And there we are, a stylized 3D
+And there we are, a stylized 3D
+And there we are, a stylized 3D
+character in iClone 3
+character in iClone 3
+character in iClone 3
+or Character Creator 3.

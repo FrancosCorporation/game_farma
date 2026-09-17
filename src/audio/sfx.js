@@ -17,6 +17,8 @@ function tone(freq, dur = 0.15, type = 'sine', gain = 0.07, delay = 0) {
 export const SFX = {
   ensure,
   pop: () => tone(520, 0.06, 'triangle', 0.03),
+  // clique de plástico (feed-back físico dos botões da capa): thud curto + tick agudo
+  click: () => { tone(196, 0.05, 'square', 0.04); tone(2200, 0.022, 'triangle', 0.018, 0.003); },
   chime: () => { tone(659, 0.12, 'sine', 0.06); tone(880, 0.18, 'sine', 0.06, 0.12); },
   redFlag: () => { tone(392, 0.22, 'square', 0.05); tone(311, 0.3, 'square', 0.05, 0.18); },
   ding: () => { tone(880, 0.1, 'sine', 0.07); tone(1318, 0.2, 'sine', 0.07, 0.09); },

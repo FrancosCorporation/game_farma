@@ -1,0 +1,1057 @@
+Kind: captions
+Language: en
+recently I played An Early Access game
+recently I played An Early Access game
+recently I played An Early Access game
+called disillusion St a game which
+called disillusion St a game which
+called disillusion St a game which
+features these absolutely beautiful '90s
+features these absolutely beautiful '90s
+features these absolutely beautiful '90s
+era renders fit with all the dithering
+era renders fit with all the dithering
+era renders fit with all the dithering
+and compression I need to nourish my
+and compression I need to nourish my
+and compression I need to nourish my
+soul and looking into it I was shocked
+soul and looking into it I was shocked
+soul and looking into it I was shocked
+to find out that all of these renders
+to find out that all of these renders
+to find out that all of these renders
+are actually created in blender although
+are actually created in blender although
+are actually created in blender although
+with a little bit of composite on top
+with a little bit of composite on top
+with a little bit of composite on top
+since then I've committed myself to
+since then I've committed myself to
+since then I've committed myself to
+learning the old 3ds Max SL brce 3D
+learning the old 3ds Max SL brce 3D
+learning the old 3ds Max SL brce 3D
+Style and what I've achieved is near
+Style and what I've achieved is near
+Style and what I've achieved is near
+accurate to what you'd see in the '90s
+accurate to what you'd see in the '90s
+accurate to what you'd see in the '90s
+and early 2000s so let's
+and early 2000s so let's
+and early 2000s so let's
+begin game cutcenes TV shows and album
+begin game cutcenes TV shows and album
+begin game cutcenes TV shows and album
+art all have one thing in common and
+art all have one thing in common and
+art all have one thing in common and
+that is that they do not need to run in
+that is that they do not need to run in
+that is that they do not need to run in
+real time because we don't have the
+real time because we don't have the
+real time because we don't have the
+constraint of having to make our models
+constraint of having to make our models
+constraint of having to make our models
+run particularly well modeling is
+run particularly well modeling is
+run particularly well modeling is
+actually an incredibly small part of
+actually an incredibly small part of
+actually an incredibly small part of
+achieving this look one of dis
+achieving this look one of dis
+achieving this look one of dis
+illusion's most popular characters Mel
+illusion's most popular characters Mel
+illusion's most popular characters Mel
+is a fairly standard model you'd see in
+is a fairly standard model you'd see in
+is a fairly standard model you'd see in
+a program like MMD or VR chat she's
+a program like MMD or VR chat she's
+a program like MMD or VR chat she's
+smooth detailed has a fairly High poly
+smooth detailed has a fairly High poly
+smooth detailed has a fairly High poly
+count and that is completely okay feel
+count and that is completely okay feel
+count and that is completely okay feel
+free to go crazy modeling sculpting
+free to go crazy modeling sculpting
+free to go crazy modeling sculpting
+using photo scans it's all fine one big
+using photo scans it's all fine one big
+using photo scans it's all fine one big
+part of this style that I'd be a fool
+part of this style that I'd be a fool
+part of this style that I'd be a fool
+not to mention though is Primitives
+not to mention though is Primitives
+not to mention though is Primitives
+placing an emphasis on Primitives can be
+placing an emphasis on Primitives can be
+placing an emphasis on Primitives can be
+a really solid way to sell the look
+a really solid way to sell the look
+a really solid way to sell the look
+without any extra effort in order to cut
+without any extra effort in order to cut
+without any extra effort in order to cut
+render times in programs like pav all
+render times in programs like pav all
+render times in programs like pav all
+the The Primitives are created with math
+the The Primitives are created with math
+the The Primitives are created with math
+instead of vertices the upside of using
+instead of vertices the upside of using
+instead of vertices the upside of using
+math-based Primitives is that they have
+math-based Primitives is that they have
+math-based Primitives is that they have
+virtually infinite resolution unlike
+virtually infinite resolution unlike
+virtually infinite resolution unlike
+modern models which will eventually look
+modern models which will eventually look
+modern models which will eventually look
+Jagged once you zoom in Far Enough the
+Jagged once you zoom in Far Enough the
+Jagged once you zoom in Far Enough the
+downside of this though is that you
+downside of this though is that you
+downside of this though is that you
+can't edit them at all so modeling is
+can't edit them at all so modeling is
+can't edit them at all so modeling is
+incredibly limited and that's how we end
+incredibly limited and that's how we end
+incredibly limited and that's how we end
+up with characters like these who are
+up with characters like these who are
+up with characters like these who are
+just built entirely using intersecting
+just built entirely using intersecting
+just built entirely using intersecting
+Primitives math was also commonly used
+Primitives math was also commonly used
+Primitives math was also commonly used
+to create terrains something that was
+to create terrains something that was
+to create terrains something that was
+once staple of Bryce 3D luckily we can
+once staple of Bryce 3D luckily we can
+once staple of Bryce 3D luckily we can
+replicate this method in blender by
+replicate this method in blender by
+replicate this method in blender by
+adding a subsurf modifier to a plane
+adding a subsurf modifier to a plane
+adding a subsurf modifier to a plane
+cranked up fairly High I'd say around
+cranked up fairly High I'd say around
+cranked up fairly High I'd say around
+five or six then add a geometry nodes
+five or six then add a geometry nodes
+five or six then add a geometry nodes
+modifier with the nodes set position
+modifier with the nodes set position
+modifier with the nodes set position
+combine XYZ and then plug in a noise
+combine XYZ and then plug in a noise
+combine XYZ and then plug in a noise
+texture to it and you can make all the
+texture to it and you can make all the
+texture to it and you can make all the
+aesthetic terrain you want by adjusting
+aesthetic terrain you want by adjusting
+aesthetic terrain you want by adjusting
+how the noise looks another thing to
+how the noise looks another thing to
+how the noise looks another thing to
+note before we move on is that because
+note before we move on is that because
+note before we move on is that because
+meshes are built with math a lot of
+meshes are built with math a lot of
+meshes are built with math a lot of
+programs had just an infinite plane as
+programs had just an infinite plane as
+programs had just an infinite plane as
+the base of their scene for our purposes
+the base of their scene for our purposes
+the base of their scene for our purposes
+though you can just scale up a single
+though you can just scale up a single
+though you can just scale up a single
+regular plane really big and call it a
+regular plane really big and call it a
+regular plane really big and call it a
+day which usually the look just fine
+day which usually the look just fine
+day which usually the look just fine
+modeling the Angel's egg scene wasn't
+modeling the Angel's egg scene wasn't
+modeling the Angel's egg scene wasn't
+particularly difficult the ship was just
+particularly difficult the ship was just
+particularly difficult the ship was just
+two spheres and then the outer one I
+two spheres and then the outer one I
+two spheres and then the outer one I
+split in half and added this little
+split in half and added this little
+split in half and added this little
+divot to and then I threw on a hair
+divot to and then I threw on a hair
+divot to and then I threw on a hair
+particle and use these three sort of
+particle and use these three sort of
+particle and use these three sort of
+primitive pillars as the hair particle
+primitive pillars as the hair particle
+primitive pillars as the hair particle
+object and then as for our character I
+object and then as for our character I
+object and then as for our character I
+didn't model a character it's just a
+didn't model a character it's just a
+didn't model a character it's just a
+plane that I Loosely based on little
+plane that I Loosely based on little
+plane that I Loosely based on little
+silhouette in the image and then this
+silhouette in the image and then this
+silhouette in the image and then this
+thing on the side was made
+thing on the side was made
+thing on the side was made
+excruciatingly in edit mode using a
+excruciatingly in edit mode using a
+excruciatingly in edit mode using a
+bunch of circles that I slowly combined
+bunch of circles that I slowly combined
+bunch of circles that I slowly combined
+together until it fit the reference and
+together until it fit the reference and
+together until it fit the reference and
+you can kind of see where I gave up with
+you can kind of see where I gave up with
+you can kind of see where I gave up with
+this thing on the side it's a lot more
+this thing on the side it's a lot more
+this thing on the side it's a lot more
+complex than it actually came out but
+complex than it actually came out but
+complex than it actually came out but
+you know I think the final render looks
+you know I think the final render looks
+you know I think the final render looks
+nice either way as for the rest of the
+nice either way as for the rest of the
+nice either way as for the rest of the
+scene it's really just big planes so the
+scene it's really just big planes so the
+scene it's really just big planes so the
+modeling was not difficult in any sense
+modeling was not difficult in any sense
+modeling was not difficult in any sense
+and I mostly just stuck to my rules of
+and I mostly just stuck to my rules of
+and I mostly just stuck to my rules of
+trying to rely on Primitives as much as
+trying to rely on Primitives as much as
+trying to rely on Primitives as much as
+I
+could texturing is also shockingly easy
+could texturing is also shockingly easy
+could texturing is also shockingly easy
+and Incredibly similar to how most 3D
+and Incredibly similar to how most 3D
+and Incredibly similar to how most 3D
+models are created now days there's just
+models are created now days there's just
+models are created now days there's just
+a larger emphasis on automatic
+a larger emphasis on automatic
+a larger emphasis on automatic
+generation as opposed to drawing the
+generation as opposed to drawing the
+generation as opposed to drawing the
+textures yourself if you press shift a
+textures yourself if you press shift a
+textures yourself if you press shift a
+and enter the textures tab you'll find
+and enter the textures tab you'll find
+and enter the textures tab you'll find
+all the textures that blender can
+all the textures that blender can
+all the textures that blender can
+automatically generate and if you enjoy
+automatically generate and if you enjoy
+automatically generate and if you enjoy
+90 CG some of these may stick out to you
+90 CG some of these may stick out to you
+90 CG some of these may stick out to you
+like the Checker texture for example
+like the Checker texture for example
+like the Checker texture for example
+which you see all over these renders you
+which you see all over these renders you
+which you see all over these renders you
+can still manually texture characters
+can still manually texture characters
+can still manually texture characters
+but for most objects that don't require
+but for most objects that don't require
+but for most objects that don't require
+a lot of detail I generate them in
+a lot of detail I generate them in
+a lot of detail I generate them in
+blender yourself you'd be surprised how
+blender yourself you'd be surprised how
+blender yourself you'd be surprised how
+much you can do with these settings for
+much you can do with these settings for
+much you can do with these settings for
+example using a wave texture and a bit
+example using a wave texture and a bit
+example using a wave texture and a bit
+of noise I was able to create a pretty
+of noise I was able to create a pretty
+of noise I was able to create a pretty
+convincing marble texture without
+convincing marble texture without
+convincing marble texture without
+actually putting in that much effort
+actually putting in that much effort
+actually putting in that much effort
+texturing wasn't particularly difficult
+texturing wasn't particularly difficult
+texturing wasn't particularly difficult
+in my angel's egg scene the landscape is
+in my angel's egg scene the landscape is
+in my angel's egg scene the landscape is
+just a distorted wave pattern run
+just a distorted wave pattern run
+just a distorted wave pattern run
+through a color ramp so that it's orange
+through a color ramp so that it's orange
+through a color ramp so that it's orange
+and black instead of white and black
+and black instead of white and black
+and black instead of white and black
+then I mixed some gradients on the sides
+then I mixed some gradients on the sides
+then I mixed some gradients on the sides
+of the texture so that it's a bit darker
+of the texture so that it's a bit darker
+of the texture so that it's a bit darker
+around the edges the foreground
+around the edges the foreground
+around the edges the foreground
+landscape was incredibly simple it's
+landscape was incredibly simple it's
+landscape was incredibly simple it's
+just a checker texture and then the
+just a checker texture and then the
+just a checker texture and then the
+ship's eye up here was projected
+ship's eye up here was projected
+ship's eye up here was projected
+directly from the scene in the movie for
+directly from the scene in the movie for
+directly from the scene in the movie for
+convenience everything else in the scene
+convenience everything else in the scene
+convenience everything else in the scene
+relies on fairly flat colors or shaders
+relies on fairly flat colors or shaders
+relies on fairly flat colors or shaders
+so we will do that in our next
+section before we start building our
+section before we start building our
+section before we start building our
+shaders we're going to switch to cycles
+shaders we're going to switch to cycles
+shaders we're going to switch to cycles
+and for many of you out there who may be
+and for many of you out there who may be
+and for many of you out there who may be
+shying away from Cycles because you're
+shying away from Cycles because you're
+shying away from Cycles because you're
+running blender on older Hardware or a
+running blender on older Hardware or a
+running blender on older Hardware or a
+laptop I assure you that once we are
+laptop I assure you that once we are
+laptop I assure you that once we are
+done tweaking the settings here you will
+done tweaking the settings here you will
+done tweaking the settings here you will
+be just fine we are crushing Cycles all
+be just fine we are crushing Cycles all
+be just fine we are crushing Cycles all
+the way down to the bare minimum we need
+the way down to the bare minimum we need
+the way down to the bare minimum we need
+to make a scene so I'm doing this on a
+to make a scene so I'm doing this on a
+to make a scene so I'm doing this on a
+fresh blender file just so that things
+fresh blender file just so that things
+fresh blender file just so that things
+are a little easier because my angel's
+are a little easier because my angel's
+are a little easier because my angel's
+egg file has already been tweaked
+egg file has already been tweaked
+egg file has already been tweaked
+entirely so in this new fresh file I'm
+entirely so in this new fresh file I'm
+entirely so in this new fresh file I'm
+going to set our render engine to cycles
+going to set our render engine to cycles
+going to set our render engine to cycles
+and set my device to GPU because my GPU
+and set my device to GPU because my GPU
+and set my device to GPU because my GPU
+is much faster than my CPU for the
+is much faster than my CPU for the
+is much faster than my CPU for the
+samples I like to have the samples
+samples I like to have the samples
+samples I like to have the samples
+really low because I think the grainy
+really low because I think the grainy
+really low because I think the grainy
+texture that low samples gives these
+texture that low samples gives these
+texture that low samples gives these
+renders actually stylizes them in a
+renders actually stylizes them in a
+renders actually stylizes them in a
+really nice way so I'm going to turn off
+really nice way so I'm going to turn off
+really nice way so I'm going to turn off
+both noise thresholds and turn off D
+both noise thresholds and turn off D
+both noise thresholds and turn off D
+noising and set the samples somewhere
+noising and set the samples somewhere
+noising and set the samples somewhere
+from 10 to 100 in my case I going to do
+from 10 to 100 in my case I going to do
+from 10 to 100 in my case I going to do
+10 we can close our sampling tab come to
+10 we can close our sampling tab come to
+10 we can close our sampling tab come to
+light paths and set our total light
+light paths and set our total light
+light paths and set our total light
+paths to one set the diffuse to zero set
+paths to one set the diffuse to zero set
+paths to one set the diffuse to zero set
+the glossy to one set the transmission
+the glossy to one set the transmission
+the glossy to one set the transmission
+to zero set the volume to zero but it's
+to zero set the volume to zero but it's
+to zero set the volume to zero but it's
+already there and set the transparent to
+already there and set the transparent to
+already there and set the transparent to
+one this basically ensures that we have
+one this basically ensures that we have
+one this basically ensures that we have
+bouncing light on our glossy objects and
+bouncing light on our glossy objects and
+bouncing light on our glossy objects and
+on our transparent objects but for
+on our transparent objects but for
+on our transparent objects but for
+everything else we are using the
+everything else we are using the
+everything else we are using the
+absolute bare minimum amount of light
+absolute bare minimum amount of light
+absolute bare minimum amount of light
+bounces which is usually around 1 to 2
+bounces which is usually around 1 to 2
+bounces which is usually around 1 to 2
+too finally we come into color
+too finally we come into color
+too finally we come into color
+management we set the view transform to
+management we set the view transform to
+management we set the view transform to
+standard and then as for the look you
+standard and then as for the look you
+standard and then as for the look you
+don't have to do this but I find that
+don't have to do this but I find that
+don't have to do this but I find that
+medium high contrast is a little more
+medium high contrast is a little more
+medium high contrast is a little more
+convincing than just regular medium
+convincing than just regular medium
+convincing than just regular medium
+contrast now we're going to come into
+contrast now we're going to come into
+contrast now we're going to come into
+the output properties where we're going
+the output properties where we're going
+the output properties where we're going
+to change our frame rate to custom and
+to change our frame rate to custom and
+to change our frame rate to custom and
+set this to 12 FPS and then for our
+set this to 12 FPS and then for our
+set this to 12 FPS and then for our
+resolution I do anything that's around
+resolution I do anything that's around
+resolution I do anything that's around
+480p and below so I would try to keep
+480p and below so I would try to keep
+480p and below so I would try to keep
+your resolution as low as possible
+your resolution as low as possible
+your resolution as low as possible
+because that's the best way to sell the
+because that's the best way to sell the
+because that's the best way to sell the
+look as for me the game disillusion uses
+look as for me the game disillusion uses
+look as for me the game disillusion uses
+544 by 416 which I think comes out
+544 by 416 which I think comes out
+544 by 416 which I think comes out
+really well and I really like this
+really well and I really like this
+really well and I really like this
+aspect ratio and when we render it it
+aspect ratio and when we render it it
+aspect ratio and when we render it it
+looks very stylized and very very old
+looks very stylized and very very old
+looks very stylized and very very old
+which is exactly what we
+which is exactly what we
+which is exactly what we
+want now that Cycles can effectively run
+want now that Cycles can effectively run
+want now that Cycles can effectively run
+on a calculator head into the rendered
+on a calculator head into the rendered
+on a calculator head into the rendered
+View and we can begin tweaking with our
+View and we can begin tweaking with our
+View and we can begin tweaking with our
+shaders we need to run our shaders
+shaders we need to run our shaders
+shaders we need to run our shaders
+through something other than the
+through something other than the
+through something other than the
+principled bsdf this thing is too
+principled bsdf this thing is too
+principled bsdf this thing is too
+powerful and realistic for the style
+powerful and realistic for the style
+powerful and realistic for the style
+we're trying to achieve and LU there's a
+we're trying to achieve and LU there's a
+we're trying to achieve and LU there's a
+wonderful free blender node that offers
+wonderful free blender node that offers
+wonderful free blender node that offers
+just what we need I will link it in the
+just what we need I will link it in the
+just what we need I will link it in the
+description it's called the nonprincipal
+description it's called the nonprincipal
+description it's called the nonprincipal
+bsdf you'll download the file then in
+bsdf you'll download the file then in
+bsdf you'll download the file then in
+our current blender file we'll click
+our current blender file we'll click
+our current blender file we'll click
+append find our download come into node
+append find our download come into node
+append find our download come into node
+tree and append these three nodes now if
+tree and append these three nodes now if
+tree and append these three nodes now if
+we press shift a in the shading tab we
+we press shift a in the shading tab we
+we press shift a in the shading tab we
+could add the non-principal bsdf or in
+could add the non-principal bsdf or in
+could add the non-principal bsdf or in
+simpler terms a Fong Shader you'll see
+simpler terms a Fong Shader you'll see
+simpler terms a Fong Shader you'll see
+Fong shading all over early CG even in
+Fong shading all over early CG even in
+Fong shading all over early CG even in
+highly Polished Work like Toy Story in
+highly Polished Work like Toy Story in
+highly Polished Work like Toy Story in
+essence it's a diffused Shader with a
+essence it's a diffused Shader with a
+essence it's a diffused Shader with a
+specular laid on top adjusting the power
+specular laid on top adjusting the power
+specular laid on top adjusting the power
+and blur of these two shaders can create
+and blur of these two shaders can create
+and blur of these two shaders can create
+a variety of very basic materials you
+a variety of very basic materials you
+a variety of very basic materials you
+need during a production this is great
+need during a production this is great
+need during a production this is great
+for most objects and characters but if
+for most objects and characters but if
+for most objects and characters but if
+you aren't getting the results you need
+you aren't getting the results you need
+you aren't getting the results you need
+there are a few shaders that would have
+there are a few shaders that would have
+there are a few shaders that would have
+actually been viable at the time so feel
+actually been viable at the time so feel
+actually been viable at the time so feel
+free to mix in the glossy bsdf diffused
+free to mix in the glossy bsdf diffused
+free to mix in the glossy bsdf diffused
+bsdf transparent and translucent bsdf as
+bsdf transparent and translucent bsdf as
+bsdf transparent and translucent bsdf as
+well as using normal maps and bump Maps
+well as using normal maps and bump Maps
+well as using normal maps and bump Maps
+the general rule to building your own
+the general rule to building your own
+the general rule to building your own
+object Shader is to keep things stupidly
+object Shader is to keep things stupidly
+object Shader is to keep things stupidly
+simple you want the bare minimum water
+simple you want the bare minimum water
+simple you want the bare minimum water
+doesn't even need to be transparent like
+doesn't even need to be transparent like
+doesn't even need to be transparent like
+it is in real life you can instead dumb
+it is in real life you can instead dumb
+it is in real life you can instead dumb
+it down to just a glossy Shader with a
+it down to just a glossy Shader with a
+it down to just a glossy Shader with a
+bump map on top it's all about cutting
+bump map on top it's all about cutting
+bump map on top it's all about cutting
+as many corners as you can for my scene
+as many corners as you can for my scene
+as many corners as you can for my scene
+I threw a Fong Shader onto the rest of
+I threw a Fong Shader onto the rest of
+I threw a Fong Shader onto the rest of
+the big ship in the background and then
+the big ship in the background and then
+the big ship in the background and then
+because the little character in the
+because the little character in the
+because the little character in the
+bottom left was meant to be a silhouette
+bottom left was meant to be a silhouette
+bottom left was meant to be a silhouette
+I just left his material tab completely
+I just left his material tab completely
+I just left his material tab completely
+blank as for the abstract Machinery on
+blank as for the abstract Machinery on
+blank as for the abstract Machinery on
+the left I threw on a glossy Shader with
+the left I threw on a glossy Shader with
+the left I threw on a glossy Shader with
+the roughness set to zero so it looks a
+the roughness set to zero so it looks a
+the roughness set to zero so it looks a
+bit like metal once we have our seam
+bit like metal once we have our seam
+bit like metal once we have our seam
+completely textured with the proper
+completely textured with the proper
+completely textured with the proper
+materials we will need to get some
+lighting lighting is where things get
+lighting lighting is where things get
+lighting lighting is where things get
+tricky as blender's lighting engine has
+tricky as blender's lighting engine has
+tricky as blender's lighting engine has
+changed so drastically over the years
+changed so drastically over the years
+changed so drastically over the years
+that it's almost impossible to light
+that it's almost impossible to light
+that it's almost impossible to light
+your scenes correctly without using the
+your scenes correctly without using the
+your scenes correctly without using the
+pav add-on but we can get very close
+pav add-on but we can get very close
+pav add-on but we can get very close
+first off is the environment in our
+first off is the environment in our
+first off is the environment in our
+shading tab we're going to replace the
+shading tab we're going to replace the
+shading tab we're going to replace the
+background node with our simple
+background node with our simple
+background node with our simple
+background and set the ambient lighting
+background and set the ambient lighting
+background and set the ambient lighting
+to pitch black during this era of CGI
+to pitch black during this era of CGI
+to pitch black during this era of CGI
+ambient lighting wasn't really possible
+ambient lighting wasn't really possible
+ambient lighting wasn't really possible
+pretty much all of the lighting and any
+pretty much all of the lighting and any
+pretty much all of the lighting and any
+scene was generated purely with math but
+scene was generated purely with math but
+scene was generated purely with math but
+we see as lighting is really just a
+we see as lighting is really just a
+we see as lighting is really just a
+point in space telling all the objects
+point in space telling all the objects
+point in space telling all the objects
+around it how bright or dark they should
+around it how bright or dark they should
+around it how bright or dark they should
+be and because of this we will proceed
+be and because of this we will proceed
+be and because of this we will proceed
+with no ambient lighting and as few
+with no ambient lighting and as few
+with no ambient lighting and as few
+light sources as we can possibly place
+light sources as we can possibly place
+light sources as we can possibly place
+it's up to you which light you choose
+it's up to you which light you choose
+it's up to you which light you choose
+but I find that the spotlight and the
+but I find that the spotlight and the
+but I find that the spotlight and the
+point light produce the most accurate
+point light produce the most accurate
+point light produce the most accurate
+results but I wanted to stylize my
+results but I wanted to stylize my
+results but I wanted to stylize my
+render a bit so in my case I used a sun
+render a bit so in my case I used a sun
+render a bit so in my case I used a sun
+with a light red color and pointed it to
+with a light red color and pointed it to
+with a light red color and pointed it to
+emulate the backlight on the ship and
+emulate the backlight on the ship and
+emulate the backlight on the ship and
+the long shadow on the character in the
+the long shadow on the character in the
+the long shadow on the character in the
+reference I also felt the ship lacked
+reference I also felt the ship lacked
+reference I also felt the ship lacked
+visible detail so I added a light bluish
+visible detail so I added a light bluish
+visible detail so I added a light bluish
+area light facing the top left of the
+area light facing the top left of the
+area light facing the top left of the
+ship now that our objects are well lit
+ship now that our objects are well lit
+ship now that our objects are well lit
+we can create our own Sky texture that
+we can create our own Sky texture that
+we can create our own Sky texture that
+doesn't affect the lighting in the scene
+doesn't affect the lighting in the scene
+doesn't affect the lighting in the scene
+the way the simple background node works
+the way the simple background node works
+the way the simple background node works
+is that the bottom tab is going to
+is that the bottom tab is going to
+is that the bottom tab is going to
+control our ambient lighting which we
+control our ambient lighting which we
+control our ambient lighting which we
+are going to keep completely black and
+are going to keep completely black and
+are going to keep completely black and
+then we can put whatever colors we want
+then we can put whatever colors we want
+then we can put whatever colors we want
+in the top tab without affecting the
+in the top tab without affecting the
+in the top tab without affecting the
+ambient Lighting in the scene and in
+ambient Lighting in the scene and in
+ambient Lighting in the scene and in
+this case we're going to build a sky
+this case we're going to build a sky
+this case we're going to build a sky
+using this I explained this wrong so
+using this I explained this wrong so
+using this I explained this wrong so
+it's time for the text to speech bot
+it's time for the text to speech bot
+it's time for the text to speech bot
+we're going to need four nodes for our
+we're going to need four nodes for our
+we're going to need four nodes for our
+Sky a gradient texture a separate XYZ
+Sky a gradient texture a separate XYZ
+Sky a gradient texture a separate XYZ
+node a mapping node and a texture
+node a mapping node and a texture
+node a mapping node and a texture
+coordinate node plug the gradient
+coordinate node plug the gradient
+coordinate node plug the gradient
+texture into the output then connect the
+texture into the output then connect the
+texture into the output then connect the
+remaining three nodes behind that
+remaining three nodes behind that
+remaining three nodes behind that
+gradient as I am doing on screen okay
+gradient as I am doing on screen okay
+gradient as I am doing on screen okay
+back to you Mr Sunny online we're going
+back to you Mr Sunny online we're going
+back to you Mr Sunny online we're going
+to move the gradient down a bit on the
+to move the gradient down a bit on the
+to move the gradient down a bit on the
+z-axis so that we can see the entire
+z-axis so that we can see the entire
+z-axis so that we can see the entire
+gradient and then using a color ramp in
+gradient and then using a color ramp in
+gradient and then using a color ramp in
+front of everything we can manipulate
+front of everything we can manipulate
+front of everything we can manipulate
+how our sky looks we can form a bright
+how our sky looks we can form a bright
+how our sky looks we can form a bright
+white Horizon like like Bryce 3D using a
+white Horizon like like Bryce 3D using a
+white Horizon like like Bryce 3D using a
+setup like this or it can form a warm
+setup like this or it can form a warm
+setup like this or it can form a warm
+sunset or a cool moonlit night you have
+sunset or a cool moonlit night you have
+sunset or a cool moonlit night you have
+a lot of control just using this one
+a lot of control just using this one
+a lot of control just using this one
+color ramp if you have a lot of
+color ramp if you have a lot of
+color ramp if you have a lot of
+reflective objects in your scene though
+reflective objects in your scene though
+reflective objects in your scene though
+they sadly don't reflect the world
+they sadly don't reflect the world
+they sadly don't reflect the world
+texture at all for whatever reason in my
+texture at all for whatever reason in my
+texture at all for whatever reason in my
+case if you look closely at our metal
+case if you look closely at our metal
+case if you look closely at our metal
+object the sky reflection is just pitch
+object the sky reflection is just pitch
+object the sky reflection is just pitch
+black in it so it may be in your best
+black in it so it may be in your best
+black in it so it may be in your best
+interest instead to leave the background
+interest instead to leave the background
+interest instead to leave the background
+alone and put that gradient texture onto
+alone and put that gradient texture onto
+alone and put that gradient texture onto
+a UV sphere to act as a Sky Box while
+a UV sphere to act as a Sky Box while
+a UV sphere to act as a Sky Box while
+all your reflective objects in the scene
+all your reflective objects in the scene
+all your reflective objects in the scene
+can reflect the Sky Box the sad thing is
+can reflect the Sky Box the sad thing is
+can reflect the Sky Box the sad thing is
+that this does come at the cost of
+that this does come at the cost of
+that this does come at the cost of
+having ambient lighting so you can
+having ambient lighting so you can
+having ambient lighting so you can
+choose whichever is going to be best for
+you the final step of this style
+you the final step of this style
+you the final step of this style
+contains two things first is crushing
+contains two things first is crushing
+contains two things first is crushing
+down the dynamic range of the render and
+down the dynamic range of the render and
+down the dynamic range of the render and
+second is adding dithering both of which
+second is adding dithering both of which
+second is adding dithering both of which
+are almost comically easy in Photoshop
+are almost comically easy in Photoshop
+are almost comically easy in Photoshop
+we're going to open a file and click the
+we're going to open a file and click the
+we're going to open a file and click the
+first image in our animation and check
+first image in our animation and check
+first image in our animation and check
+the image sequence then we're going to
+the image sequence then we're going to
+the image sequence then we're going to
+immediately export the animation for web
+immediately export the animation for web
+immediately export the animation for web
+here we can Crush down the color as much
+here we can Crush down the color as much
+here we can Crush down the color as much
+as we would possibly want I'm just going
+as we would possibly want I'm just going
+as we would possibly want I'm just going
+for as low as I can without losing too
+for as low as I can without losing too
+for as low as I can without losing too
+much detail and then tweaking the
+much detail and then tweaking the
+much detail and then tweaking the
+dithering settings until I like them I'd
+dithering settings until I like them I'd
+dithering settings until I like them I'd
+stay away from ordered dithering is it
+stay away from ordered dithering is it
+stay away from ordered dithering is it
+usually makes things look a bit too
+usually makes things look a bit too
+usually makes things look a bit too
+clean and in my case I'm using the noise
+clean and in my case I'm using the noise
+clean and in my case I'm using the noise
+dithering set to the Macintosh preset in
+dithering set to the Macintosh preset in
+dithering set to the Macintosh preset in
+this bottom panel and once we export
+this bottom panel and once we export
+this bottom panel and once we export
+this we are done your render should look
+this we are done your render should look
+this we are done your render should look
+really bad in the really good way so
+really bad in the really good way so
+really bad in the really good way so
+long as you have a strong artistic
+long as you have a strong artistic
+long as you have a strong artistic
+vision and you use the tools I provided
+vision and you use the tools I provided
+vision and you use the tools I provided
+here you should be able to convincingly
+here you should be able to convincingly
+here you should be able to convincingly
+replicate this look in any new or old
+replicate this look in any new or old
+replicate this look in any new or old
+blender project if you create any art
+blender project if you create any art
+blender project if you create any art
+using elements from this tutorial make
+using elements from this tutorial make
+using elements from this tutorial make
+sure to tag me in it at Sunny isonline
+sure to tag me in it at Sunny isonline
+sure to tag me in it at Sunny isonline
+YT on Twitter so I can check it out also
+YT on Twitter so I can check it out also
+YT on Twitter so I can check it out also
+consider joining my patreon for an epic
+consider joining my patreon for an epic
+consider joining my patreon for an epic
+3D shout out in this outro segment I
+3D shout out in this outro segment I
+3D shout out in this outro segment I
+know at least personally sometimes I can
+know at least personally sometimes I can
+know at least personally sometimes I can
+struggle to wrap my head around some
+struggle to wrap my head around some
+struggle to wrap my head around some
+Concepts in blender without seeing
+Concepts in blender without seeing
+Concepts in blender without seeing
+people actually do them in real time so
+people actually do them in real time so
+people actually do them in real time so
+just for anyone who's still confused on
+just for anyone who's still confused on
+just for anyone who's still confused on
+how to achieve this look in the
+how to achieve this look in the
+how to achieve this look in the
+description I'm going to link the entire
+description I'm going to link the entire
+description I'm going to link the entire
+process on how I made this thumbnail
+process on how I made this thumbnail
+process on how I made this thumbnail
+just reporting the entire thing from
+just reporting the entire thing from
+just reporting the entire thing from
+beginning to end and you can watch
+beginning to end and you can watch
+beginning to end and you can watch
+through that and try to figure out how
+through that and try to figure out how
+through that and try to figure out how
+you can apply that knowledge to your own
+you can apply that knowledge to your own
+you can apply that knowledge to your own
+scene if you'd like thank you for
+scene if you'd like thank you for
+scene if you'd like thank you for
+watching and bye-bye

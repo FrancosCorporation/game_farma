@@ -86,8 +86,8 @@ export function setupFX(scene, camera, renderer) {
   composer.setSize(window.innerWidth, window.innerHeight);
   composer.addPass(new RenderPass(scene, camera));
 
-  const bloom = new UnrealBloomPass(new THREE.Vector2(window.innerWidth, window.innerHeight), 0.42, 0.6, 0.85);
-  bloom.threshold = 0.65;
+  const bloom = new UnrealBloomPass(new THREE.Vector2(window.innerWidth, window.innerHeight), 0.16, 0.45, 0.9);
+  bloom.threshold = 0.88;
   composer.addPass(bloom);
   composer.addPass(new ShaderPass(VignetteShader));
 
@@ -106,7 +106,7 @@ export function setupFX(scene, camera, renderer) {
       }, 120);
     });
 
-  let bloomTarget = 0.42;
+  let bloomTarget = 0.16;
   return {
     composer,
     bloom,
@@ -118,8 +118,8 @@ export function setupFX(scene, camera, renderer) {
       bloom.strength += (bloomTarget - bloom.strength) * 0.08;
     },
     pulse() {
-      bloomTarget = 0.9;
-      setTimeout(() => (bloomTarget = 0.42), 700);
+      bloomTarget = 0.34;
+      setTimeout(() => (bloomTarget = 0.16), 700);
     },
     fadeIn: () => dip(),
     fadeOut: () => dip(),

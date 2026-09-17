@@ -1,0 +1,582 @@
+Kind: captions
+Language: en
+hi everyone this is Giacomo Bukhari and
+hi everyone this is Giacomo Bukhari and
+hi everyone this is Giacomo Bukhari and
+I'm here to show you a very quick
+I'm here to show you a very quick
+I'm here to show you a very quick
+tutorial very simple stuff about how to
+tutorial very simple stuff about how to
+tutorial very simple stuff about how to
+reset your camera when you are in a
+reset your camera when you are in a
+reset your camera when you are in a
+third person game don't worry about that
+third person game don't worry about that
+third person game don't worry about that
+coming in and coming out of the camera
+coming in and coming out of the camera
+coming in and coming out of the camera
+that's the next tutorial that I'm gonna
+that's the next tutorial that I'm gonna
+that's the next tutorial that I'm gonna
+look into so let's say you have your
+look into so let's say you have your
+look into so let's say you have your
+third player here and you have the
+third player here and you have the
+third player here and you have the
+camera like this but you want to be able
+camera like this but you want to be able
+camera like this but you want to be able
+to do this so I'm gonna show you two
+to do this so I'm gonna show you two
+to do this so I'm gonna show you two
+ways of doing that the first one is what
+ways of doing that the first one is what
+ways of doing that the first one is what
+both of them are based on this so I have
+both of them are based on this so I have
+both of them are based on this so I have
+set out an arrow on the player to the
+set out an arrow on the player to the
+set out an arrow on the player to the
+point where actually one day the camera
+point where actually one day the camera
+point where actually one day the camera
+to be or to signal so these are ways
+to be or to signal so these are ways
+to be or to signal so these are ways
+obviously gonna have like a rotation you
+obviously gonna have like a rotation you
+obviously gonna have like a rotation you
+could take this rotation and just send
+could take this rotation and just send
+could take this rotation and just send
+it to the camera
+it to the camera
+it to the camera
+unlike save it on a variable or whatever
+unlike save it on a variable or whatever
+unlike save it on a variable or whatever
+but you know I don't see any good reason
+but you know I don't see any good reason
+but you know I don't see any good reason
+to do that honestly at the moment this
+to do that honestly at the moment this
+to do that honestly at the moment this
+is just for a tutorial so basically this
+is just for a tutorial so basically this
+is just for a tutorial so basically this
+is the introduction to rest the camera
+is the introduction to rest the camera
+is the introduction to rest the camera
+which in my case I've set out so as you
+which in my case I've set out so as you
+which in my case I've set out so as you
+can see in the game but here to the
+can see in the game but here to the
+can see in the game but here to the
+joystick button so there's two ways of
+joystick button so there's two ways of
+joystick button so there's two ways of
+doing this if you don't have to lip
+doing this if you don't have to lip
+doing this if you don't have to lip
+between it if you just want to do it the
+between it if you just want to do it the
+between it if you just want to do it the
+way that unreal likes to do it which is
+way that unreal likes to do it which is
+way that unreal likes to do it which is
+at this speed and at this like this very
+at this speed and at this like this very
+at this speed and at this like this very
+simple way this will work for you 99% of
+simple way this will work for you 99% of
+simple way this will work for you 99% of
+the time unless you are like very
+the time unless you are like very
+the time unless you are like very
+specific about how your camera behaves
+specific about how your camera behaves
+specific about how your camera behaves
+like I am so it would be extremely
+like I am so it would be extremely
+like I am so it would be extremely
+simple you just have to say to the just
+simple you just have to say to the just
+simple you just have to say to the just
+get the camera default rotation which is
+get the camera default rotation which is
+get the camera default rotation which is
+in this case this the sorrow that I have
+in this case this the sorrow that I have
+in this case this the sorrow that I have
+get it's world rotation to get the pong
+get it's world rotation to get the pong
+get it's world rotation to get the pong
+controller and set the pong controller
+controller and set the pong controller
+controller and set the pong controller
+rotation to that rotations simple as
+rotation to that rotations simple as
+rotation to that rotations simple as
+that
+that
+that
+extremely simple and it works really
+extremely simple and it works really
+extremely simple and it works really
+well like it doesn't do any weird things
+well like it doesn't do any weird things
+well like it doesn't do any weird things
+like the one I'm going to show you later
+like the one I'm going to show you later
+like the one I'm going to show you later
+which is a little bit nicer but it does
+which is a little bit nicer but it does
+which is a little bit nicer but it does
+some weird things you will just take
+some weird things you will just take
+some weird things you will just take
+this rotation and move the camera boom
+this rotation and move the camera boom
+this rotation and move the camera boom
+to that and that's it simple as that
+to that and that's it simple as that
+to that and that's it simple as that
+because the camera boon is controlled by
+because the camera boon is controlled by
+because the camera boon is controlled by
+the control rotation or by the con
+the control rotation or by the con
+the control rotation or by the con
+all right so this is very simple but
+all right so this is very simple but
+all right so this is very simple but
+what about if you want to do it a little
+what about if you want to do it a little
+what about if you want to do it a little
+bit prettier way you know unlike with an
+bit prettier way you know unlike with an
+bit prettier way you know unlike with an
+easy nor a nice out and stuff like that
+easy nor a nice out and stuff like that
+easy nor a nice out and stuff like that
+right what about that let me show you
+right what about that let me show you
+right what about that let me show you
+how that looks
+how that looks
+how that looks
+let's go here like this it's a little
+let's go here like this it's a little
+let's go here like this it's a little
+bit prettier I mean I haven't like it's
+bit prettier I mean I haven't like it's
+bit prettier I mean I haven't like it's
+a little bit softer is like something
+a little bit softer is like something
+a little bit softer is like something
+like Nier automata or like PlatinumGames
+like Nier automata or like PlatinumGames
+like Nier automata or like PlatinumGames
+you know they take a lot of care about
+you know they take a lot of care about
+you know they take a lot of care about
+these things you know so very beautiful
+these things you know so very beautiful
+these things you know so very beautiful
+you see nice out or in this case I think
+you see nice out or in this case I think
+you see nice out or in this case I think
+it's only a nice out correctly you could
+it's only a nice out correctly you could
+it's only a nice out correctly you could
+do lots of things like circular so I
+do lots of things like circular so I
+do lots of things like circular so I
+don't even know like what that will do
+don't even know like what that will do
+don't even know like what that will do
+but circle very simple so right so let
+but circle very simple so right so let
+but circle very simple so right so let
+me show you how to do this this is for
+me show you how to do this this is for
+me show you how to do this this is for
+the previous tutorial so don't worry too
+the previous tutorial so don't worry too
+the previous tutorial so don't worry too
+much about it let's forget about this
+much about it let's forget about this
+much about it let's forget about this
+right now
+right now
+right now
+so input rested camera we press the
+so input rested camera we press the
+so input rested camera we press the
+button this is just to show you the
+button this is just to show you the
+button this is just to show you the
+large version and what's gonna happen is
+large version and what's gonna happen is
+large version and what's gonna happen is
+that if Erica if our controller rotation
+that if Erica if our controller rotation
+that if Erica if our controller rotation
+is not the same as the word rotation of
+is not the same as the word rotation of
+is not the same as the word rotation of
+the arrow camera default rotation then
+the arrow camera default rotation then
+the arrow camera default rotation then
+we will continue in here in this gate
+we will continue in here in this gate
+we will continue in here in this gate
+and this gate is huge so like we will
+and this gate is huge so like we will
+and this gate is huge so like we will
+stop so for example it's accelerate this
+stop so for example it's accelerate this
+stop so for example it's accelerate this
+so we will stop rotating the camera at
+so we will stop rotating the camera at
+so we will stop rotating the camera at
+some point because if we never stop
+some point because if we never stop
+some point because if we never stop
+rotating it a lot of weird things happen
+rotating it a lot of weird things happen
+rotating it a lot of weird things happen
+so here it stops rotating even before it
+so here it stops rotating even before it
+so here it stops rotating even before it
+actually gets there because the value is
+actually gets there because the value is
+actually gets there because the value is
+very high but imagine if I don't have
+very high but imagine if I don't have
+very high but imagine if I don't have
+this so it's always true this is gonna
+this so it's always true this is gonna
+this so it's always true this is gonna
+happen it's never gonna stop following
+happen it's never gonna stop following
+happen it's never gonna stop following
+us so you really don't want that so you
+us so you really don't want that so you
+us so you really don't want that so you
+need to let it stop at some point and
+need to let it stop at some point and
+need to let it stop at some point and
+this is just like you know like a
+this is just like you know like a
+this is just like you know like a
+tolerance and it's not super important I
+tolerance and it's not super important I
+tolerance and it's not super important I
+mean you would have to use a very high
+mean you would have to use a very high
+mean you would have to use a very high
+number to make it not work but the point
+number to make it not work but the point
+number to make it not work but the point
+of this gate here is that if that if the
+of this gate here is that if that if the
+of this gate here is that if that if the
+rotation of the camera is close enough
+rotation of the camera is close enough
+rotation of the camera is close enough
+the rotation
+the rotation
+the rotation
+arrow it will stop moving so we'll just
+arrow it will stop moving so we'll just
+arrow it will stop moving so we'll just
+go back to its normal behavior and that
+go back to its normal behavior and that
+go back to its normal behavior and that
+good will be open when we press it their
+good will be open when we press it their
+good will be open when we press it their
+input dress at camera so basically for
+input dress at camera so basically for
+input dress at camera so basically for
+example here it won't do anything it
+example here it won't do anything it
+example here it won't do anything it
+won't open
+won't open
+won't open
+I mean it will open but like for nothing
+I mean it will open but like for nothing
+I mean it will open but like for nothing
+no time at all because this will be
+no time at all because this will be
+no time at all because this will be
+false right so so we open it with the
+false right so so we open it with the
+false right so so we open it with the
+rest of camera let's assume that this is
+rest of camera let's assume that this is
+rest of camera let's assume that this is
+true it's not the same so everything
+true it's not the same so everything
+true it's not the same so everything
+will come in here and every single tick
+will come in here and every single tick
+will come in here and every single tick
+we had a little bit of the rotation to
+we had a little bit of the rotation to
+we had a little bit of the rotation to
+the camera so they boom because that's
+the camera so they boom because that's
+the camera so they boom because that's
+being controlled by the control rotation
+being controlled by the control rotation
+being controlled by the control rotation
+so we're gonna learn between the current
+so we're gonna learn between the current
+so we're gonna learn between the current
+rotation and the rotation we want to go
+rotation and the rotation we want to go
+rotation and the rotation we want to go
+to so that will be the current get
+to so that will be the current get
+to so that will be the current get
+controller you knowing its its location
+controller you knowing its its location
+controller you knowing its its location
+rotation sorry and the actual piece
+rotation sorry and the actual piece
+rotation sorry and the actual piece
+where we want to go which is where the
+where we want to go which is where the
+where we want to go which is where the
+arrow is there it's rotation however you
+arrow is there it's rotation however you
+arrow is there it's rotation however you
+do want to make sure that you are not
+do want to make sure that you are not
+do want to make sure that you are not
+setting the roll you want to forget
+setting the roll you want to forget
+setting the roll you want to forget
+about that because if you let the roll
+about that because if you let the roll
+about that because if you let the roll
+in let's try to get it usually happens
+in let's try to get it usually happens
+in let's try to get it usually happens
+here I don't know if you could
+here I don't know if you could
+here I don't know if you could
+appreciate it there but the camera keeps
+appreciate it there but the camera keeps
+appreciate it there but the camera keeps
+very weird angle laterally so you don't
+very weird angle laterally so you don't
+very weird angle laterally so you don't
+want that
+want that
+want that
+okay so just take the roll out so
+okay so just take the roll out so
+okay so just take the roll out so
+basically the camera is going to adjust
+basically the camera is going to adjust
+basically the camera is going to adjust
+itself on pitch and yaw so I'm just
+itself on pitch and yaw so I'm just
+itself on pitch and yaw so I'm just
+gonna rotate around the character like
+gonna rotate around the character like
+gonna rotate around the character like
+this and it's also gonna adjust itself
+this and it's also gonna adjust itself
+this and it's also gonna adjust itself
+like this but we don't want it to adjust
+like this but we don't want it to adjust
+like this but we don't want it to adjust
+itself like this okay so obviously very
+itself like this okay so obviously very
+itself like this okay so obviously very
+simple and you can do this with an herb
+simple and you can do this with an herb
+simple and you can do this with an herb
+which would be faster but I like the
+which would be faster but I like the
+which would be faster but I like the
+least and II not it's beautiful and you
+least and II not it's beautiful and you
+least and II not it's beautiful and you
+could do this alpha here with that
+could do this alpha here with that
+could do this alpha here with that
+timeline if you wanted to that's a way
+timeline if you wanted to that's a way
+timeline if you wanted to that's a way
+of doing it if you want it to last a
+of doing it if you want it to last a
+of doing it if you want it to last a
+specific amount of time but I found it
+specific amount of time but I found it
+specific amount of time but I found it
+not to be worth it
+not to be worth it
+not to be worth it
+you know it's quite nice just like this
+you know it's quite nice just like this
+you know it's quite nice just like this
+do you want to deal with complexity in a
+do you want to deal with complexity in a
+do you want to deal with complexity in a
+very nice way and eventually if you have
+very nice way and eventually if you have
+very nice way and eventually if you have
+a very complicated controller you're
+a very complicated controller you're
+a very complicated controller you're
+gonna get a lot of complexity in there
+gonna get a lot of complexity in there
+gonna get a lot of complexity in there
+so basically you just want to keep it
+so basically you just want to keep it
+so basically you just want to keep it
+very simple so just get the wall Delta
+very simple so just get the wall Delta
+very simple so just get the wall Delta
+seconds which is for those of you who
+seconds which is for those of you who
+seconds which is for those of you who
+don't know it's the same thing that
+don't know it's the same thing that
+don't know it's the same thing that
+would come from here if you set it to a
+would come from here if you set it to a
+would come from here if you set it to a
+variable and that's seriously that's
+variable and that's seriously that's
+variable and that's seriously that's
+extremely simple like I said the non
+extremely simple like I said the non
+extremely simple like I said the non
+looping system works beautifully oh wait
+looping system works beautifully oh wait
+looping system works beautifully oh wait
+I broke something let's see what I broke
+I broke something let's see what I broke
+I broke something let's see what I broke
+oh yeah the blent exponential is like
+oh yeah the blent exponential is like
+oh yeah the blent exponential is like
+the speed at which you're gonna move the
+the speed at which you're gonna move the
+the speed at which you're gonna move the
+camera around so they ease in and ease
+camera around so they ease in and ease
+camera around so they ease in and ease
+out and stuff like that so as you can
+out and stuff like that so as you can
+out and stuff like that so as you can
+see with one is quite fast with zero one
+see with one is quite fast with zero one
+see with one is quite fast with zero one
+is going to be extremely fast like too
+is going to be extremely fast like too
+is going to be extremely fast like too
+fast probably for most cases because if
+fast probably for most cases because if
+fast probably for most cases because if
+you were doing this you can break it
+you were doing this you can break it
+you were doing this you can break it
+variously so two is usually 1 2 is like
+variously so two is usually 1 2 is like
+variously so two is usually 1 2 is like
+a very good number 10 is like too slow
+a very good number 10 is like too slow
+a very good number 10 is like too slow
+so you can barely appreciate it I mean
+so you can barely appreciate it I mean
+so you can barely appreciate it I mean
+it's basically not happening as you can
+it's basically not happening as you can
+it's basically not happening as you can
+see it's it's just not working yeah like
+see it's it's just not working yeah like
+see it's it's just not working yeah like
+1 2 something like that that will also
+1 2 something like that that will also
+1 2 something like that that will also
+change depending on this on that
+change depending on this on that
+change depending on this on that
+function by the way you definitely want
+function by the way you definitely want
+function by the way you definitely want
+to have shortest paths paths in there
+to have shortest paths paths in there
+to have shortest paths paths in there
+because if not you can do weird things
+because if not you can do weird things
+because if not you can do weird things
+let's try to get it in a real position
+let's try to get it in a real position
+let's try to get it in a real position
+well it's not doing it now but it's I've
+well it's not doing it now but it's I've
+well it's not doing it now but it's I've
+been in situations where it would get
+been in situations where it would get
+been in situations where it would get
+here and it would not move funny good -
+here and it would not move funny good -
+here and it would not move funny good -
+there we go there we go I can get up
+there we go there we go I can get up
+there we go there we go I can get up
+yeah see so it's trying to go above the
+yeah see so it's trying to go above the
+yeah see so it's trying to go above the
+character and do good things and I can
+character and do good things and I can
+character and do good things and I can
+get out of it so you definitely want the
+get out of it so you definitely want the
+get out of it so you definitely want the
+shortest path because then it's going to
+shortest path because then it's going to
+shortest path because then it's going to
+work out check it out like even if I do
+work out check it out like even if I do
+work out check it out like even if I do
+this it should work perfectly no see
+this it should work perfectly no see
+this it should work perfectly no see
+let's just get in there I mean obviously
+let's just get in there I mean obviously
+let's just get in there I mean obviously
+if I move a lot it's never gonna get
+if I move a lot it's never gonna get
+if I move a lot it's never gonna get
+there so you don't want it to be this
+there so you don't want it to be this
+there so you don't want it to be this
+low you know you want it to be a little
+low you know you want it to be a little
+low you know you want it to be a little
+bit faster than this but you get the
+bit faster than this but you get the
+bit faster than this but you get the
+point
+point
+point
+anyway I hope that was useful and yeah
+anyway I hope that was useful and yeah
+anyway I hope that was useful and yeah
+take care guys

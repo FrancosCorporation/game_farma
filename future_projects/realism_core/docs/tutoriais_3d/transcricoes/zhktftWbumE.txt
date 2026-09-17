@@ -1,0 +1,704 @@
+hi there this is some sort of recap
+video of the streaming sessions i did
+while animating the brand new character
+named snow
+implanter
+as of right now the snow rig is
+available for you to download link is in
+the description
+i've been collecting bits and pieces of
+the topics which i demonstrated during
+the streaming sessions
+and if you want to see more about a
+certain topic
+check the timestamp in the description
+this will link to the actual stream and
+you can watch it from there
+but first
+let's take a look at the final animation
+i want to keep talking to you you know i
+don't know what your situation is
+but uh i feel like we got some kind of
+uh
+connection right
+well this is something i came up with
+um and let me show you what what i i
+have here
+i want to keep talking to you you know
+i don't know what your situation is
+but uh i feel like we got some kind of
+uh connection right
+it's i i gotta say i don't nail the
+acting fully
+but i do have uh
+some ideas from it i do have another
+shot
+i want to keep talking to you you know i
+don't know what your situation is
+but uh i feel like we got some kind of
+uh connection right
+so a bit more uncertain of
+of his uh
+approach here
+uh in terms of like how it's looking
+you know a bit sideways
+and there you know with reference
+shooting reference i always tend to do a
+lot of takes because i never nailed it
+the first time
+even the 50th time i i'm not happy with
+but i do find bits and pieces that i
+like little gestures or way i move
+that
+i want to incorporate with the
+animation
+and i always see
+the reference pass
+as a big inspirational pass where you
+come up with new ideas where you try
+things out
+but not necessarily you know
+let yourself be constrained to the
+actual reference because you want to
+push things here and there or maybe
+combine ideas so this is another take of
+it but just to give you guys some idea
+of
+of what i could go for there's a couple
+of
+things we have to consider when starting
+a shot like this
+and one of them is that we actually deal
+with the bar itself
+so the hand will be resting on the bar
+and actually let me turn on the
+as i'm sitting here
+um
+my and also the glasses uh been
+you know pull
+put down
+and maybe shoved forward right at the
+end so
+we need to think about the actual
+constraint setup before we start
+animating because if i start blocking
+out things now then i have to fight my
+own
+mistakes or
+find my own
+yeah not doing the any of the
+constraints so
+so i always try to kind of
+figure out a nice setup to
+set constraints up
+i want to keep talking to you you know
+all right and i'm going to just block in
+some some poses here
+now the main body movement from here um
+i noticed when i was
+sitting at a bar drinking beer and that
+the main motion is coming from
+from the actual um torso bone
+this guy
+and
+so i'm going to start blocking the main
+beats for just moving this bone it's
+like playing with a lego
+uh puppet just going up and down going
+forward and backward
+simply
+to get the beat in there and then i'll
+post stuff from there so
+and i'm not pushing it too much on this
+uh bone because it's our base bone we're
+gonna do the chest and everything else
+but this is just to get a little bit of
+rhythm
+some beats going on here so we got some
+motion just to see like does it does the
+energy flow well does it is it on the
+right time is the right timing there so
+a bit boring but very necessary
+i want to keep talking to you you know
+i don't know what your situation is but
+uh
+i feel like we got some kind of uh
+connection right okay i want him to lean
+more to the right here
+like this
+maybe
+and turn on rain
+because we she's part of it too
+i want to keep talking to you you know i
+don't know what your situation is
+but uh
+i feel like we got some kind of uh
+connection right
+now again staging wise you see the hand
+is there i might want to do some
+adjustments there but i maybe want to
+have him already like do a last sip of
+his glass put the glass down
+so we cut in the middle of an action
+it's always nicer and it feels more
+organic too
+to do that instead of wait for the line
+to start so we continue the blocking
+pass
+and
+another thing i i did
+because i was struggling a little bit
+i'm still not fully happy with how this
+arm kind of
+turns inward there but at least
+um
+yeah it feels better than what i had
+yesterday and then opening the hand
+right to the end and there's a little
+bit of insertion intersection there
+i want to lead
+with the
+the eyebrows here okay i already tried
+to block out
+which part of this motion is gonna lead
+the action it's gonna lead the next beat
+and therefore i already put it in my
+blocking
+i see my blocking
+i've been thinking about this yesterday
+and i definitely see my blocking is also
+putting in notes for myself so even
+though it's rough in there
+like this
+it reminds me later on when i continue
+to
+to refine my stuff that
+i put it in there to remind myself okay
+i want to lead
+with the eyebrows here i don't know
+i don't know what your situation is
+and that's the same right here
+this part has been isolated
+because i want to lead with the head
+now there are these controls
+these are pretty neat i find
+what what they do like their little
+arrows
+up and down
+i only can move them up and down
+now and these controls they determine
+how much the corner is following either
+the jaw or sticking to the skull
+a little example
+let me close the jaw here
+and i push this all the way up
+you don't see difference now but now
+when i
+open the jaw
+the corner stays up there
+okay
+i can go in between but i can also go
+down
+now when i move
+rotate the jaw
+it's fully rotating with it so you can
+create
+a nice organic movement with simply
+favoring the jaw or the skull and let's
+say i do it a little bit more in between
+i can
+you know it's following
+halfway
+which gives you nice shapes
+so that's new uh and i'm very happy with
+those kind of
+tweaks
+right
+we got some kind of uh connection right
+nice a little bit too much rotation
+so let's dive into the graph editor
+not location rotation
+and here you can clearly see the
+rotation of the head
+the head
+so rotating down up down
+up
+and there's
+we could even push this
+yeah
+keep it there okay
+so
+i'm just gonna
+see if
+i'm just going to reduce a little bit of
+this
+um connection right
+of um connection right some kind of some
+kind of uh connection right some cuts
+some kind of uh connection right we got
+some we got some kind of uh connection
+right
+i want to keep talking to you you know i
+don't know what your situation is
+but uh i feel like we got some kind of
+uh connection right so that's my
+blocking
+and
+if i
+turn off rain
+and go to our friend here you see
+all of our keys
+are
+are constant
+and if we go to the graph editor
+all of our keys are stepped so
+stair step
+all right
+now if i hit
+uh
+spline
+or like go spline so i select everything
+and i say
+i hit
+t
+and the installation set from constant
+which is it right now just with j
+bump
+what you get right now is like computer
+figure it out
+and there we go
+brace yourselves
+oh i want to keep talking to you you
+know
+i don't know what your situation is
+but uh
+i feel like we got some kind of uh
+connection right
+horrible
+you shall not do that okay
+that will take you
+it it becomes very hard to work and
+recover some of your existing keys so
+seeing this happening before you do this
+let me go back to
+constant
+what you want to do
+first off
+you want to
+separate your facial animation
+and your body animation what i mean with
+that is
+i still keep my
+facial animation in constant
+and start splining the body because my
+facial animation i will adjust later
+anyways and it's still holding up it's
+it doesn't
+interrupt the um
+yeah the spline of of of the body
+so
+we can basically hide the the face uh
+bones right now
+face
+like that and basically
+just keep your
+body um
+bones visible so when you select those
+you can spline them and nothing else
+will be splined
+so you basically pick and choose which
+bones you want to spline some of them
+are not even keyed like for instance i'm
+using the
+fk spine
+control
+which is
+working a little bit differently than
+the ik spine so these these bones i can
+basically hide or
+you know get rid of them
+in some
+non-destructive sense
+these two
+and then so what i do is make sure i put
+down pillars of my key poses
+i put down keys on everything where i
+feel like the pose needs to hold
+until here
+because if i now if i only have let's
+say i go to the to the chest bone
+and i go here
+for instance this this key right here
+if i
+now
+i deliberately want this post to hold
+for
+quite this long
+it's not the best example but it will
+show you
+if i put this into spline
+per se it goes like it it it morphs into
+the next key so what i want to do
+is say for all these keys let's
+put a key right here because this is
+somewhat deliberate and this is not the
+best example but now if i spline it
+it will hold that key for a little bit
+longer it will still be choppy but at
+least you get better uh representation
+of your
+of your uh initiated
+planning so let's go back
+and i'm not going through the whole
+process because it's still a lot of work
+to clean up your your spline
+curves
+but at least it gives you an example on
+on how to work and how to set this up
+because the preparation of going into
+spline is the most important thing
+now
+so i have my keys here and i don't want
+to look at this but basically make it a
+bit more
+readable um
+and
+i do it a bit more roughly right now
+basically i don't touch the fingers
+right now i keep them in step as well
+so let's hide the fingers and
+show them again
+so
+there we go
+so
+first off on frame one that's my that's
+a that's a pose right there so i key all
+my all of the bones
+398 keyframes
+and make sure their this pose is locked
+in frame so no interpolation whatsoever
+then we go here so so we take this pose
+and from one frame one to frame eight
+i want to
+make this uh motion
+or like make this pose
+stay there and it will still move as you
+can see i put in those keyframes slow
+look like it's drinking
+put in an extra pose here so now they're
+splined this it will hold this pose
+instead of
+already blending into this pose so
+that's why you want to
+lock your keyframes in that sense
+that it's it's
+you deliberately put in a hold so from
+zero to eight
+you don't get as much blending now
+there's a big movement here
+and
+and right here is our next key
+so we key right here
+so this can be i i'm allowing the
+computer to kind of
+do this motion and and interpolate that
+um i noticed like the hand there's the
+fk ik switch no ik space switch
+going on
+i had to clean that up and also the arc
+was a bit wobbly and terrible
+now from here we hold and then we go
+suddenly into this pose which i want to
+want it to be a bit more snappy
+so i hold the pose from let's say
+and then i want to go forward so within
+44 to 47 in three frames it pops a bit
+more forward
+so the timing is
+instead of like going from here to here
+which gives it creates a slow
+floaty movement
+you want to hold the key and then it's
+moving faster
+now and that's what you basically do for
+the whole shot you pick your holds and
+you key everything so it will
+being put as a key so the computer knows
+or like interpolates
+the right keys at the right time yeah
+and also this moment here
+i do want to
+like the rotation of the thing
+i feel like it's happening at the
+definitely the wrong spot there
+so i do i do want to
+see
+we can actually make that a bit more
+physical i'm putting my 3d cursor
+roughly around there
+and
+let me delete those keys
+and go there
+and then
+blend my keys back so this is
+don't show
+3d cursor here
+that
+okay so
+now we rotate
+yeah that makes more sense
+so it's actually rotating from the pivot
+point that connects to the table
+i know there's translation now involved
+so we do need to clean that up
+but at least
+it feels a bit more natural
+connection right
+connection right um connection
+the connection right
+um connection right the
+connection right
+there's a big whoop jump so we're gonna
+reduce that
+as we uh dive into some lip syncing now
+so the face is on blocking on snapped
+keys
+we will uh
+lay out a solid foundation uh for the
+for the lip sync so
+it's gonna be a lot of scrubbing today
+like audio scrubbing
+which can get a little bit annoying
+sorry for that but uh
+well
+um
+yeah we'll jump into that
+and show you a little bit about how i
+approach
+generally a shot with lip sync
+so
+lip sync
+now what i find
+mostly important is the jaw open and jaw
+close
+i want to set the rhythm
+for the
+for the lip sync first and then i work
+with the mouth corners to get the
+foundation of our
+lip sync in there and from there once
+the
+foundation is established
+we
+will refine the shapes so we're going to
+look at the rhythm of the mouth
+and a very common mistake
+with lip sync issue that
+people and sometimes me as well
+uh
+tend to
+over um accentuate
+dialogue so on every beat
+i want to keep talking to you you try to
+open the the jaw which is generally not
+the case for lip sync
+you try to pick and choose your jaw
+opens so a lot of the time
+the jaw is fairly stable and you just
+move it a little bit
+but on the the main punches on punches
+on the main words like the main beats
+you um you open it up
+more and
+sometimes blends a little bit in between
+so that's what we're going to do now
+okay
+let's dial that back a little bit so
+there's
+some kind of um
+i feel like we got some kind of uh
+connection right
+okay
+i want to keep talking to you you know i
+don't know what your situation is
+but uh
+i feel like we got some kind of uh
+connection right
+okay last part
+then we'll jump i'll go back into the
+chat
+so it's connection right
+i feel like we got some kind of um
+first we need to get rid of this shape
+because this is just
+um left over from this shape right here
+so
+select lower mouth
+lower face i mean and then lower mouth
+and then
+go here connection so we go to a
+connection connection
+like that
+roll those clips out a little bit
+and then you know
+post libraries can be super helpful you
+know we don't have to create all of our
+poses
+if they're set up nicely then they blend
+well together
+so connection
+connection now i do want to
+change it a bit
+go here and then i
+i want to create more of a
+smile there but also
+move these guys down a little bit so you
+get a bit more of
+this kind of shape
+what's it called
+kiss
+i don't know
+like this
+okay
+um kid action right
+now this smile is not the most appealing
+one
+uh so let's let's change that a little
+bit
+okay
+so in the polishing phase we'll turn on
+subdivide
+uh turn off simplify and kind of like go
+into really polishing up the shapes
+but for now i can already see this is
+gonna be
+uh a bit
+and he's not finishing his sentence
+a bit a bit a bit of work that i needed
+to do
+you get more like
+closed
+corners
+so
+um
+we do that with these green green little
+it's a bit hard to see if i had a picker
+i could show you more easily but i don't
+so
+please if you need a bigger screen
+on any blender
+and again i know there are speakers out
+there we cannot just use them at the
+studio
+so it's more of this kind of shape and
+let me pull back a little bit
+same on the other side
+connection
+connection right
+um connection
+so it's a bit too pushed as you can see
+here
+and then we go back to
+to the next shape
+which is more like
+this one
+connection right
+actually that's that's blending a little
+bit of that so
+so the s is there so we want to raise it
+up a lip a little bit
+connection right
+connection right
+connection right
+connection
+connection and i want to close this hope
+that close the corner there
+i want to raise this a little bit
+push it
+i'm only looking at my camera view for
+any of this i don't mind that
+this is borked
+it's looking weird
+i'm looking at this view i want to make
+that appealing and i do everything in my
+power to have that
+look nice and this i don't you don't
+mind the other way around you know it's
+not a game it's not a video game where
+you need to be
+looking on all angles so
+you only worry about the camera
+perspective
+yeah that's better i want to keep
+talking to you you know
+i don't know what your situation is
+but uh
+i feel like we got some kind of uh
+connection right
+so we're going into the nitty-gritty
+details of um
+animating the fingers here and what i
+want to do
+on this motion is
+have the fingers
+settle a little bit a little bit of
+saddle on that
+jump but i first want to
+work on this
+pose right here
+and get this finger in a little bit more
+and then i'm just gonna
+move these a little bit out
+so i'm just gonna
+you know offset them a little bit
+of course that that lower one is already
+set
+pretty much
+yeah that's nice that's a little bit of
+you know give to that bone that's
+connecting and then
+i want back
+i want
+connection right
+there's so much overlap for fingers
+fingers never bounced
+like that
+they're pretty stiff
+um
+yeah they're
+so this is too much bounce um
+which i'm gonna reduce same for the
+thumb when you change the pose on your
+thumb
+it doesn't overshoot the like it doesn't
+drag that much like this part
+i wouldn't do like
+maybe a little bit
+okay let's do it
+it becomes uh broken soon so be very
+careful uh to make your hands too floppy
+sometimes it can help motion
+right
+right
+i'll keep polishing on the shot
+to make it
+uh to make all the fingers work and some
+small tweaks here and there of course
+ray needs to be fully animated she's
+just
+having two poses
+and then see if there's time to actually
+put in a funny joke in there like
+um
+but yes that's it for this
+shot
+i
+thank you guys for joining me
+and
+we'll see each other on another
+animation stream
+i want to keep talking to you you know
+i don't know what your situation is
+but
+i feel like we got some kind of
+connection right

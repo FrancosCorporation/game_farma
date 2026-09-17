@@ -1,0 +1,550 @@
+in this video we'll add some
+translucency to the skin with a
+subsurface scattering map
+this is part of a series that goes
+through all the steps it takes to make a
+character in blender
+if you haven't done the previous videos
+as long as you have a uv character you
+should be able to follow along
+here's an example of the kind of
+subsurface scattering we're going to
+make it'll be a very simplistic
+subsurface scattering map looks
+something like this with just a bunch of
+bunch of gray
+dark gray with a little bit of light
+gray
+and you can see if you look at the 3d
+viewport
+the fingers and the bit of the nose
+looks a bit red because that's where the
+light is hitting and it's coming through
+the body so i can show you it turned off
+let's see with it off it's very solid
+looking
+but with it turned on it adds a nice bit
+of realism
+okay let's get to it
+okay let's get set up to do our
+subsurface scattering map
+so let's grab this guy and hit shift d
+to duplicate it let's get rid of this
+here we will make a new texture
+we'll call this a u t
+s s s
+and we'll hit ok
+make this non color
+and drag this to our subsurface
+scattering map panel
+and it looks the same because
+it's completely black
+let's go to here
+and let's add a little bit of color here
+so let's go to paint bucket hit n over
+here
+and let's
+the value controls how dark or bright
+let's make this .025
+and then click
+you should see that it has a
+really faint
+translucency effect going on
+you can tell it's working because if you
+unplug it
+it becomes solid
+so i don't know if you can see that here
+this is solid
+and this is with it slightly translucent
+pretty pretty subtle but that's just our
+foundation so for the most part it'll be
+just barely
+translucent but for some parts like the
+ears or the nose where it gets very thin
+we'll make it a lighter gray
+for the texture map and it'll look more
+translucent
+it's a little hard to see the subsurface
+scattering effect on our character so
+let's do some things to make it easier
+for us
+to make sure scene lights are turned on
+make scene make sure scene world is not
+turned on
+let's pick
+this guy here it's there by default put
+the strength lower
+and then let's
+do some more stuff so let's pull up a 3d
+viewport
+let's turn on
+let's turn on this
+okay let's turn on our wireframes
+and
+what we're going to do
+is we're going to animate these lights
+to rotate around our characters this way
+we can
+easily
+change the lights to be able to see the
+subsurface scattering while we're
+painting okay so to do that we will
+first put our 3d cursor to the
+zero point we'll go to shift a to add
+we'll add an empty let's add this plain
+axis one here
+okay
+we'll call this lights
+and then we'll grab our three grab our
+three lights here
+and then shift grab our
+um
+oops grab our three lights here and then
+shift grab into 3d viewport
+are empty and control p and object
+okay so now
+when we move this empty
+everything moves with it
+or you can rotate it in z and you can
+move the lights around it
+and that's what we'll do when we're
+painting
+but let's also
+add another window here and we'll make
+this a timeline
+and we're going to animate this empty to
+rotate
+so
+the way animation basically works is
+if you've got
+your object say this empty here selected
+if you go to i
+which is enter keyframe and go to
+location rotation scale
+and click that it creates this little
+yellow dot in your timeline and that is
+a keyframe that tells blender to
+put this empty
+in this position
+at this point in the timeline okay
+so say if you moved it here and moved
+this over here
+and then hit i and location rotation
+scale
+it would tell blender to move this empty
+here
+when it's at frame 26
+so you can see it moves between those
+two
+okay
+you can also turn on this record button
+and so this way
+it automatically records all the
+movements you do
+so it's got a keyframe there and see if
+i move this to frame 26
+and hit g and move it
+it does the same thing but you didn't
+have to hit the i
+key
+it does it for you
+so there's a couple ways to do animation
+then that's that's your crash course in
+animation
+and what happened here i
+think i deleted oh all right so this
+happens a lot so
+you grab your object
+and you want to delete your keyframes
+but if you leave your mouse over the 3d
+viewport you delete your object so so if
+you want to delete your keyframes clip
+click your object go over to the
+timeline and then hit
+a to select all x and delete keyframe
+that's that's better
+okay so let's move this
+um
+empty to the zero point with our record
+button on so alt g
+goes to zero
+and then we're gonna go
+and do is
+we'll set our start and beginning to 1
+to 200.
+i
+location rotations scale go to 100
+r z
+180.
+now let's go to frame 200
+r z
+and now this should go in a full circle
+so this way we can control
+the lights easily by just dragging this
+timeline
+okay let's place our lights so they're
+easier to
+see let's turn off our hair
+i mean easier and easier to see the
+translucency
+so let's get our skin and let's pull
+this off and make the subsurface
+scattering like .05
+so it's pretty obvious
+and then let's
+pull this guy down here
+and i find usually if you put one light
+like down here somewhere and one light
+up here somewhere
+kind of off to the side it usually works
+pretty good so let's
+try it's so weird you have to kind of
+like just keep messing with stuff until
+it works
+so let's grab let's turn off all our
+lights so we can see what each light is
+doing
+okay so let's grab this guy here
+looks pretty dark let's make this like
+40.
+and now it's pretty bright
+let's move this
+down here somewhere
+and can we see translucency let's pull
+it back a bit
+maybe here
+okay looks like it's starting to be kind
+of translucent
+yeah
+about the nose can we see the
+translucent nose
+yeah i think so
+okay let's get this other one
+other light
+let's move this
+kind of like that
+i'm looking at the ear and seeing if i
+can get it to look
+very obviously translucent let's make
+this like uh 30
+and make the radius smaller
+i think that's good
+yeah i think that's good let's check the
+nose
+i think we've got enough
+translucency so we can see it
+so i think that's pretty good
+so now so we can get rid of this window
+here
+and lower this a bit
+i like to see my
+little animation keyframes so now we can
+just
+just drag this slide
+where to go
+now we just drag the slider and we can
+use this as a tool to help us while
+we're painting our subsurface scattering
+map
+so that's set up
+let's grab our skin again let's plug
+this back in
+okay
+let's grab a brush so this is a
+let's pick a brush tool here and this is
+our
+skin texture one let's get the basic
+drawing brush
+and let's put the strength down to say
+0.2
+and
+i forgot what color we had i think was
+0.2025 so let's hit s to grab the color
+and then we can click here and see what
+it was it was o24
+so now let's make this .035
+and then i think we're ready to paint
+let's make sure the brush is working
+so go to object and texture paint
+oh it's switched okay so let's
+make sure we're painting on the right
+one so go to tool and
+autumn sss
+and then
+let's make this obvious so we can see it
+okay
+so it's working
+let's make this back to
+0.035
+you want to paint any part of the body
+that the skin gets very thin and where
+light comes through so usually that's
+the ears
+the tip of the nose
+uh the fingers the toes
+um maybe a little bit of the lips but
+basically those areas maybe some of the
+hands also and the
+foot
+um so let's let's go and do some
+painting
+let's set the strength to
+maybe 0.6 or so
+and
+it's very hard to see
+what's going on here
+i'm just painting
+the areas i think
+let's go this to this view here so we
+can see it as we're painting it i'm
+painting all the areas i think would be
+um
+translucent like so the ears here some
+of this thing here
+let's get the back of the ears
+the back of these ears are seriously
+unrealistic but that's okay because
+i don't really care about ears
+they do need to be translucent
+so we can check in cycles but to do that
+first we need to save the texture so
+let's go to image and save
+and then turn on cycles and we can see
+oh i forgot so the subsurface color
+this should be
+red
+so let's go and do that
+like a ready orange
+so that's to simulate picking up the
+blood vessels and
+stuff inside the uh the ear or the body
+okay so that looks
+kind of nice it's kind of like a
+translucent
+let's go back here and let's try and do
+the nose next
+so let's get the light over here
+and let's do some painting so the tip of
+the nose the nostrils are pretty
+translucent
+up
+here goes a little bit the nasal goes a
+little bit translucent
+sometimes when you paint with this
+mirror mode
+on you get these little uh
+holes or different funny patterns right
+down the center line so if you have that
+just
+fix it in the 2d viewport
+okay
+let's get a bit of the ellipse area too
+that goes a little translucent
+i feel like the um
+the chin gets a little translucent too
+oh and also the eyes go a little
+translucent let's get rid of the face
+details here
+so the eyelash gets a little translucent
+i mean the eyelid
+let's get down here a little bit too
+not too
+much
+okay let's bring that back let's go to
+image and
+save and turn on cycles and see how our
+nose looks
+okay i think that's pretty good
+the the lights
+it looks a little funny because the
+lights are so strong but and focused so
+it wouldn't
+it's not going to always look like she
+has a big red nose
+let's get the hands a bit
+let's just
+paint over the fingers
+you can see we have a very light
+subsurface scattering for the whole body
+so it kind of does a lot already
+let's add a bit to the hand let's see
+what we're doing here
+fingers go translucent
+some of the fleshy parts around the um
+palm go a little translucent
+like that
+and it looks like we're missing
+from front to back
+because we're trying to paint on this 3d
+object so
+make sure you get that
+or you can just come here and hit it a
+bit too
+okay let's go to image and save
+and check in cycles
+um i can't see the lights here
+okay let's go like there
+okay it's got some
+translucency going on
+yep
+let's go and do the feet
+and
+okay
+i i care
+even less about feet than i care about
+the ears
+because people are usually wearing shoes
+so you don't really see it
+but let's just do this anyway
+i'm gonna kind of i'm gonna just do that
+okay
+let's go to the image and save
+let's check cycles
+let's see if we can see through our toes
+and
+ah actually looks pretty good
+so that's
+kind of that's kind of it
+um maybe
+let's check our face
+i feel like we could go a bit more
+translucent um
+for the nose up so let's go and make it
+lighter let's do
+0.05
+in
+and let's
+go back to this view and
+let's get the nostrils a bit more just a
+little bit lighter
+let's get
+this part of the nose here a little bit
+lighter and
+maybe the tip of the nose just a little
+bit lighter
+maybe we'll make the ears a little bit
+lighter too
+so i think uh
+right here gets a bit thinner so let's
+make that a little thinner
+maybe
+right here gets a little thinner
+yeah that gets a little thinner
+i think this thing gets a little thinner
+and the lobe gets thinner
+i know this area is simplified but i
+think the area right here gets thinner
+too
+okay
+let's go to image and
+save
+and check cycles
+yeah looks a little better
+yeah okay
+i think we're looking pretty good
+let's go and save this in case we
+haven't
+i think i actually already did save it
+and let's put our lights back the way
+they were before
+let's
+make a 3d viewport here
+actually let's go to modeling
+and let's go and find our lights let's
+actually open a timeline too
+so our lights have key frames let's go
+and delete those x delete keyframe make
+sure recording is turned off
+and let's put our lights back
+where they should be
+so i think this big one here will be
+nice for the main light
+it's nice and soft
+to hide these guys
+let's cool the slide off a little bit by
+taking out saturation
+and i think
+maybe a bit higher
+okay that's good
+let's get another light here
+we can use this one to um use this as a
+rim light to
+catch a highlight on the back of her
+head let's turn the hair
+so we'll move this behind her
+and above her
+and let's make this a really bright
+light
+so this is nice to catch the highlights
+on the hair
+and then let's make our last light
+fill the right side a bit so let's go
+over here and this is
+maybe too bright we can just make it go
+away
+further away
+maybe this goes a bit brighter
+and more to the
+left
+okay i think that's pretty good let's
+turn on our yeah that's good
+i think that should be
+it let's hide this hair we don't need
+that
+okay
+and see
+let's put that down here oh the eyes
+okay so the eyes are still
+um
+shading faceted so let's go and
+fix that and i believe it was the color
+ones that were faceted
+yep
+so let's go to edit mode
+face mode a face and shade smooth
+okay nice and shiny oh they're glossy
+glossy eye this part should not be
+glossy so let's go to our shading
+workspace
+and
+make sure we have the eyes selected they
+are the eyes let's turn the specular
+down
+turn this clear coat off turn the
+roughness up
+now they should be matte
+yep
+okay
+so that's good
+yeah so we've got hair eyelashes
+eyebrows we've got the eyes done we've
+got the lips done how about the did we
+do the teeth i think we did
+you could add a subsurface scattering
+map to that one if you wanted to or
+roughness
+um is this boxy
+oh okay so the teeth are boxy too so
+let's go and select that
+face shade smooth
+okay
+all right so i think that's uh
+i think that's it for
+that's it for our main character i think
+i think there's nothing else
+so if you're here to learn subsurface
+scattering i hope this video was helpful
+to you
+and if you're one of the ones who's gone
+through this entire series so far
+congratulations this is a ton of work
+it's a lot of material to absorb so take
+a minute to appreciate what you've
+accomplished
+thank you for the likes subscriptions
+and the wonderful comments
+and thank you for the support you've
+shown me on patreon but you're not
+finished yet because in the next video
+we will work on the dress
+see you then

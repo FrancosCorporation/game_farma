@@ -1,0 +1,684 @@
+I want to express my gratitude to all of
+you for this incredible support you have
+shown for this series welcome back
+everyone let's wrap up the remaining
+clothing items today we are diving into
+the 3D modeling of jacket and shoes if
+at any point during today's session you
+find the process is a bit repetitive
+take it as a positive sign it means you
+have learned well enough to predict the
+next step before seeing them this is Ram
+from Cross mine studio and you're tuning
+into chapter number six of animated
+character creation series for bonus
+chapters project files and other useful
+stuff check out the premium version
+details hot Keys PDF and more resources
+are in the description let's Dive Right
+In for the jacket select the t-shirt and
+create a duplicate of
+this we can uh edit this into jacket so
+first thing I'm going to do is uh expand
+this a
+little uh yeah something like this and
+select this Center Loop and then I can
+press V and rip this
+apart I'll change proportion editing to
+Connected only basically I want front to
+be have a opening
+here like this
+this I select this loop control+ on the
+number pad delete
+these I'll just recreate a little part
+of this so if you want you can get rid
+of these borders unnecessary geometry
+that we had made but just in case if you
+plan to use your character in a
+different states like with the clothes
+on with t-shirt on jacket on and off so
+you might want to keep details
+underneath it so extrude the Border
+and extend it till forearm to create the
+sleeves of the jacket going to add few
+extra Loops for the cuff of
+jacket and uh add a few Loops here and
+bulge it out so just work on the one
+side and then uh we can symmetrize
+this selecting the loops and reorienting
+these just observing what was looks what
+not and uh
+here I think the sleeves could be much
+more tighter wrapped around the skin so
+just have a look at the jacket sleeves a
+few reference or if you have one uh when
+the arms are tucked in how it folds yeah
+more or less seems fine it's just that I
+want the arms to be bit more buffier I
+mean jacket right here because the
+material is
+bit stiff so it's it's not exactly going
+to fall on and Shrink around the
+body so it's bit more structured stiff
+on the
+structure so that's what I'm trying to
+achieve here yeah it seems fine just
+going to add a bit more volume here I
+just want this to look a bit more
+stacked like much more cloth is being uh
+folded here a full length of arm sleeve
+is crunched in this much area we are not
+creating any realistic folds or anything
+just try
+to deform some of these loops and uh
+let's see if we can symmetrize
+this and I want this jacket to be
+shorter than the T-shirt bit shorter not
+much so about this much I'm just going
+to try and change the mat cap
+uh I keep shuffling between different
+mat cap types sometimes shinier mat caps
+give much more ler view of what's
+happening in the surface so just made a
+bevel here to create the separation for
+the cuff of jacket right here what I can
+do is uh make it a slightly more rounder
+shape just trying to make it look a bit
+puffier and uh just look at the back and
+uh we don't need this to um conform to
+body instead keep it straight and just
+fix bit of shape at the back because we
+extracted this from the body so it's
+still following some of that older shape
+so the basic structure is there now I'm
+going to get rid of these
+colors we are not going to need it and
+instead we are going to create a
+different kind of
+color so just disable the proportionate
+editing for
+now and make it something like this
+extend it with extrude tool and uh just
+try to arrange it in the shape of the
+collars and also going to add one Edge
+Loop in between crlr to add a loop to
+fill this bigger
+stretch with few extra Loops pretty
+simple standard standing rib net colar
+type I don't want to use Loop tools
+because this is not exactly a around
+color
+and once we are done let's symmetrize
+this let's see how this looks so these
+are way too high on the neck instead
+uh I can lower these
+down there's usually a partition between
+collars and uh the main part of the
+jacket so that's what I'm going to do
+create a simple bevel with control B and
+X extrude these inside with the
+proportionate editing just scroll your
+brush up and down and then I'll see if
+there are any flat surfaces I'm just
+going to bulge these out a little just
+want to keep it soft and round
+shape and then smooth out the overall
+shape right here we can create Seam for
+the arm so something like this but
+before that I think we can give it a bit
+circular formation if I make a circle
+with with Loop tools yeah this this does
+the
+job and then contrl
+B and create sort of a
+seam add a few Loops to
+strengthen these areas and ALT e extrude
+along
+normals and there you go
+if you find it way too flat you can
+always adjust it later just try and
+break the flat straight lines to make it
+more natural like it's actually worn by
+a
+person symmetrize again to have the
+sleeve on the both sides you can also
+keep it symmetrical by using mirror
+modifier if you want just delete the
+half of the jacket but I'm just thinking
+we might would need to keep it
+asymmetrical and for that reason I'm not
+using modifier pretty much done and here
+just need to add one extra Loop right at
+the bottom and uh even this out spread
+it out nicely and uh let's see how we
+can create the zipper
+front which is going to be from here I'm
+just going to select this entire loop at
+the bottom and uh create one bevel
+thin line extrude along normal for
+waistband
+separation and uh right
+here I'm going to select this entire
+line slide this
+inside and create an additional
+Extrusion like this for zipper front add
+one more Loop in between just push this
+Loop in a little and create a bevel to
+create the separation of the end
+yeah something like this in these areas
+we are going to add one zipper later on
+with the help of geometry nodes but
+right now we just need to make room for
+uh that geometry
+and just extend this a little to give
+this a slightly rounder look I'm just
+going to add one more Loop in between
+and push this out like
+this and just going to close upper and
+bottom part where we are going to put a
+stopper later
+on yeah so here we can create zip if we
+want later on if we are going into that
+much detail but for now I'm going to
+leave it as it is and right about here
+add one more
+Loop and push it out like
+this and right about here I'm going to
+select
+these
+collar
+edges and create an extrusion move it
+inside just to add a bit of depth in the
+fabric of
+collar just fill few of these open areas
+with
+f select these edges press
+F now all I'm doing is just trying to
+break the symmetry on the both side a
+little even though we can do that in the
+pose mode once the character is rigged
+but but few of the things I want to have
+asymmetry on the model level as well
+I'll just see if I can create few
+creas these might won't look much at
+this moment but when we apply some
+glossy material on these it's going to
+catch some nice
+highlights yeah so even though we
+haven't really sculpted any details and
+this is not high resolution but at least
+it appears
+softer and uh with a little bit of tweak
+these bulges and uh not really high
+resolution uh folds but still a bit of
+distortion here and there it's going to
+create illusion of uh soft cloth which
+is enough for
+me so that's the reason I'm trying to
+limit myself and not get ambitious or
+anything there you go you have the
+jacket and here I'm going to select
+these two loops and on these two Loops I
+can uh create a Vertex group let's call
+it zip and assign this right here I'm
+going to bring geometry node editor
+click on new so for the zip what I can
+do is simply bring uh Delete geometry
+and what we want to delete is this
+attribute the lines that we made in a
+Vertex group so put that into selection
+and select set this to edges and you'll
+see this node is deleting this
+geometry so instead if we bring one
+Boolean node Boolean math and invert
+this
+selection set this to not now we have
+only this part of the jacket so what we
+can do is bring one map range and put
+this right after the attribute and here
+we can start
+adjusting basically we can shrink and
+expand this selection so now we are only
+left with that particular
+Edge and now if I bring mesh two
+points
+mesh two points and
+uh yeah now here I'm going to bring the
+simple Cube which we are going to use as
+a zipper and bring one instances on
+points so on the points of
+uh these lines that we made earlier we
+want to instance this
+Cube really tiny scale
+like 02 or
+something and now we can merge the
+original geometry and this control shift
+and click and drag or you can simply
+bring join geometry
+node right here there's a different
+playlist for geometry node if you are
+interested just check the playlist
+section on the Channel all right this
+you can do manually as well let's say if
+you select this you can separate
+this separate selection and then you can
+convert this to curve and on that curve
+you can use one array modifier so you
+can do that as well but the problem with
+that is anytime you do any changes in
+the jacket you'll have to redo this
+whole thing again so right now if I
+change the shape of this
+jacket so the zip is going to follow so
+that's the interesting part about this
+01 so so if you want to have even
+distribution of these lines what you can
+do is this geometry delete this node for
+now mesh to points and instances to on
+points so this geometry of lines we have
+here convert this to mesh to
+curve now what will happen is if I bring
+curve to points
+now and
+instances
+on
+points now we have even distribution so
+now with this curve to point you can
+increase the number of points you want
+to create on this curve and this is
+going to give you even distribution and
+if you want to align these to the shape
+of the jacket directly plug the rotation
+here now the threads of the zipper are
+rotating and conforming according to the
+shape of the
+jacket
+so that's about it for the jacket now
+let's move to the other part which is
+shoes making shoes is going to be pretty
+simple I'm just going to make one simple
+plane in the top
+view yeah go to the edit mode scale it
+down about the proportion of the
+feed now we are going to make three Loop
+Cuts in the length and two Loop Cuts in
+the width for
+now let's select all the outer word es
+and scale these
+down so this is the base of the shoe if
+you apply subdivision surface with
+control 1 or two you're going to see
+this roundish shape which is a good
+start now I'm going to select all these
+faces and extrude these upwards to make
+the sole of the
+shoe and now I can select all these
+upper faces create one inser like
+this and create one Extrusion
+upwards going to create a bit of space
+for more Edge Loops in the
+center so this is going to be front of
+the shoe so I'm just going to push this
+inside to create that round formation
+that you typically see in front of the
+shoe and also just bulge this out a
+little and this is going to be the back
+side so let's go to the side view this
+kind of reminds me of second chapter of
+introduction Series where we made a
+sandal and several different objects so
+we are just going to make use of what we
+have learned in the
+past we can get rid of these nine
+faces create one insert first and then
+delete
+this shade
+smooth I'm going to add one Loop here to
+sort of create a rounder
+shape
+just make necessary edits with
+proportionate editing
+tool once I have the basic geometry I'm
+just going to revisit the overall shape
+and
+volume so just working on the overall
+shape of the shoe we'll have to figure
+out a few things like uh how to create
+the side flaps and all but first I just
+want to make sure that there are enough
+Loops based on which we will create the
+rest of the
+details I think overall it looks
+fine and I think there's plenty of
+geometry for us to move
+ahead I'm going to select this Loop here
+and extrude this upward like
+this all right pretty simple generic uh
+shape of the shoe that you typically see
+especially for kids
+now here I'm going to select all of
+these faces this much and create one
+extrude along
+normals make it twice to create a hard
+surface around these parts I'm going to
+add one Edge Loop here as well just to
+make sure that I'm not making some
+crooked geometry I'm just going to
+shuffle back and forth between
+subdivision mode and turn it on and off
+but this seems fine actually I'm going
+to add one Loop here right between the
+shoe and sole to create this nice
+separation this could be extruded
+upwards and I'll do the same select this
+entire line with
+control create one Extrusion move it
+upwards and we can make this diagonal
+like this so kids shoes have all of
+these fancy designs
+to make this line slightly more stronger
+I'm going to add one more Edge Loop add
+just
+one so just smooth this out a
+little now let's go to the top view and
+start breaking the the straight
+lines so I might have made a mistake
+here I think I was bit careless and I
+was working in perspective view it's
+usually better to work in autographic
+views when you're working on
+profiles so overall this looks fine just
+going to share smooth
+this and uh just extrude this entire
+border and scale it inside to add a bit
+of depth to this border you don't
+exactly need to follow it step by step
+just have a look at the overall picture
+I think you kind of understand and get
+the point what we are doing here so just
+work on the overall shape adjust the
+volumes and keep adding Loops whenever
+you need to detail
+something now I'm going to select these
+two front edges press shift d and create
+one separate geometry with this I'm
+going to extrud this this way with that
+extracted line that we just made and
+this is going to be shoe
+tongue above this we are going to tile
+aces all right now I can add a few more
+Loops to round it up like this just
+going to select this entire Loop and see
+if I can create one harsh line here so
+maybe just scale it down a little just
+going to adjust the Top Line Coler a bit
+I think it could be a bit more
+softer now I'm going to select this
+entire Loop which is at the opening of
+the shoe and going to extrude this and
+move it downwards to sort of create
+create lining now right here what I
+think is
+uh we can have slightly more taller shoe
+so I'm just going to move it up a little
+bit more and uh do the same for for this
+tongue
+here overall it's forming well uh we
+just need to add shoe laes and all that
+what if I extrude these this way and uh
+we you can also select this entire thing
+and exode it
+outwards two times just so that it
+appears solid and not a thin flat plane
+we can make the inner lining a bit more
+softer maybe I can pull few of these
+faces manually in and
+out try to keep things
+uneven trying to break the
+Symmetry just want to add a bit of
+collar padding add one Loop here maybe
+one more here right at the main collar
+create one simple bevel to make a hard
+line for separation between
+Fabrics so this looks
+fine now the only thing left is isets
+where we are going to tie two laces so
+just make some room for it maybe slide
+few of these
+edges let's select few of these square
+faces here for eyelets before that I
+think I need to make these proper
+Square make even
+distribution I'm just looking for a few
+squares uh so this one this one this
+one and
+these create one
+inser and then delete these faces so
+these seems way too bigger so maybe if
+we create two
+inserts first insert and then second and
+then delete these
+faces yeah so I'm just going to fix
+these uh the shape of the hole I could
+have used a circle from Loop
+tools actually yeah let's let's do that
+I'm going to select a few of these and
+use circle from Loop tools it's not too
+late to fix
+it
+and uh now we can create few shoelaces
+so for the
+shoelaces I'm simply going to create one
+curve basier curve and uh scale this
+down like this first I'll make this
+vector by pressing
+V so that the line appears straight and
+it's easy to
+manipulate in the curve properties we
+can simply increase the depth so that
+the curve have some
+geometry now select both of these and
+extrude these
+upwards like
+this for these eyelets create one more
+Extrusion so that these holes have some
+outline I'm selecting these loops with
+alt and extrude along normal and now now
+these do look structurally a bit heavy
+there you go now just make sure this
+shoelace is resting well on this
+shoe I'm going to make a duplicate of
+this within the edit
+mode make one more duplicate and uh turn
+it this way adjust it according to the
+hole you can also adjust the radius of
+the shoe laces by pressing alt s because
+it's a curve object and then we we can
+uh create few diagonal lines with
+control
+click so all of these commands were
+discussed in a beginner Series so any of
+you who are new to blender please don't
+try to attempt this as your first
+assignment in blender so there's a
+series for beginners if you just head to
+the playlist section it's called
+introduction to blender for absolute
+beginners so it's going to clear out all
+the basics and commands memorize those
+with the assignments which are there in
+the tutorial so that this is much easier
+for you to follow
+along subdivide these
+curves this curve could be opposite it
+could be inside out we can move it this
+way so that it comes out of this hole
+and then we can tie a knot in
+this not really good with knots so just
+going to to give it an overall
+shape if you want you can also use alt
+as command to scale the radius up and
+down so I'm just going to try and make a
+knot here I have no idea how to make it
+in
+3D and yeah I'm clearly struggling with
+it but I think it's almost there I might
+revisit this later on so I'm just
+extruding these points and uh creating
+this the shoelaces press e to extrude
+just going to make a few tweaks
+here now I'll select both of these
+disable the isolation mode and uh align
+this to our character I want these shoes
+to be
+bigger I think the origin should be at
+the center of geometry origin into
+geometry now once the foot is inside
+shoe I'm just checking the proportions
+this big of shoe I want so here now I
+select this shoe shape of the shoe to
+adjust according to the character I'm
+just going to select these
+Loops enable the proportionate
+editing disable connected only I might
+have to tweak shoelaces again but don't
+worry about that too much
+let's see if we can dissolve this Edge
+yeah so that that one Edge was
+completely unnecessary so we can clean
+that
+out yeah it appears much more smoother
+now and uh the only thing we need to do
+is just keep tweaking the shape a little
+I want this to be a bit more
+cartoony just checking off just checking
+all possible corners for
+improvements now here I'm thinking of
+adding one more
+Loop to create sort of a crease at the
+front like this I think we might have
+designed a shoe for
+ourselves just need to fix the shoe
+padding a little I think it could appear
+a bit more softer overall so just
+pushing out few of these pinched
+areas I think we are done with the shoe
+so these feet were just the placeholders
+so don't worry about the feet now we
+need to make a bit of geometry for sole
+of the shoe so if I select this part and
+extrude it
+down like this and uh then I can select
+few of these
+alternatively and then I can extrude
+these downwards as
+well
+so this is a completely optional thing
+just in case if you plan on making some
+animation where the bottom of the shoe
+would be visible and now I can select
+front of these with proportionate
+editing I just want to attempt
+it a bit rotation right
+here maybe we can add a bit of a hook or
+something at the back of the
+counter these are completely optional
+things and if you have something else in
+mind feel feel free to improvise a
+little whatever you make just keep it
+Bold And Chunky so that it it stays with
+the
+style and then I'm just going to create
+one Extrusion here to make the colors
+bit more
+prominent now I'm just going to select
+this leg and uh expand this selection
+just this much press shift d to make a
+duplicate and then separate the
+selection this we can use to make socks
+use shrink and fatten tool to expand
+this a
+little and uh maybe scale this down so
+that this line is bit more
+straight now right here I'm just going
+to select this extrude it
+inwards extrude it again to create a
+thick
+Edge like
+this this looks a bit disoriented so I
+can delete this Edge dissolve Edge and
+add another loop fresh one so that
+straight bevel one Edge extrude inside
+along normal just going to add few more
+Loops here and then start distorting
+this geometry a little like a actual
+cloth now what I can do is select all of
+these three things apply location so
+that once I apply a mirror modifier on
+these it would perfectly mirror because
+the center is at the word
+origin the only thing I would like to do
+is Select this shoe in the edit mode
+just point it outwards like this do the
+same for the shoelaces align it to the
+shoes and we have pretty much
+done if there's any Minor error here and
+there I'll fix it later so don't worry
+about it too much yeah so now it looks
+like a proportion of our character I
+mean we have exaggerated scale here in
+the head so too tiny of shoes might
+would look bad we will add a few more
+details in the final chapter of the
+modeling session in the cleanup stage
+and make a pockets of the jacket and
+maybe add a few more details in between
+and that wraps up the clothing part the
+entire character model is now complete
+now consider adding a few more small
+details that can elevate your 3D
+character to different level maybe the
+character is wearing a wristband or
+there's a earphone hanging out of the
+pocket a small iPod or something similar
+think of few small editions that can
+provide extra layer of detail to your
+character and it will also help you in
+secondary animations in the later stage
+in the next video we will be adding some
+of these elements bag glasses wristband
+badges Muffler clothing tags buttons Etc
+can't wait to see this whole character
+complete with the colors and everything
+and also would love to see what you guys
+are making jump to Discord server if
+you'd like to discuss anything related
+to this on channel dedicated to this
+series check pin command for frequently
+asked questions and problems check
+description for PDF of keyboard
+shortcuts discount coupons and other
+mentioned resources for this tutorial if
+you enjoyed this chapter do check out
+the full playlist and hope you continue
+all the way till the end also consider
+buying the premium version and unlock
+the additional chapters and project
+files and bonus content which will take
+you through the process of rigging with
+rigify creating a nice walk cycle
+animation creating secondary animations
+using plot physics and Bone constraints
+and rendering your entire project using
+Cycles Render engine share your work
+with me on Instagram tag me with instros
+mind and participate in discussion on
+Discord channel for this course links
+are in the description please give it a
+like And subscribe and stay tuned for
+more share your thoughts in the comment
+section and don't forget to share it
+with your colleagues and on social media
+to help us reach the wider audience
+thank you for all your support and love
+let's jump to the next video

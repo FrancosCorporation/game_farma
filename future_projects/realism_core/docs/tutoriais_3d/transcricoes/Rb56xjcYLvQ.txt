@@ -1,0 +1,604 @@
+when it comes to modeling a 3D shape
+whether you are a wood sculptor Stone
+Carver or 3D modeler the basics are
+common among all of these begin with the
+sizable block chisel out the edges to
+define the structure and proportions and
+smooth it out to achieve overall volume
+and then work on the finer details at
+last now if you have ever crafted
+something with paper mâché Clay Wood
+sand or any other medium you'll find
+yourself in somewhat familiar place
+today so for those who haven't allowed
+me to introduce it to you for the first
+time and don't worry you'll have much
+easier and forgiving time than carving a
+stone because we are using computers
+this is Ram from Cross mine Studio
+wishing you all the very best on this
+journey this is chapter number two of
+animated character creation series get
+the premium version for bonus chapters
+project files and other useful resources
+all the support is much appreciated read
+the description for more info let's Dive
+Right
+In
+now before we begin I'd like to suggest
+that you download the latest version I'm
+using blender 4.0 so this series was
+recorded using Alpha version pre-release
+versions and the final version of 4.0
+however even if you're using previous
+versions like still using LTS 3.6 or
+something that is completely fine I will
+be explaining what all changes have been
+here in the previous versions and the
+latest version as well so on the way so
+don't worry about any of that and uh
+also to be sure we are using the same
+setup from the add-on menu here in the
+edit
+preferences uh just enable node Wrangler
+this is going to help us in the material
+Shader editor this lets you use a few
+short commands to quickly work around
+the node editor which we discussed in
+the introduction series as well then you
+need Loop tools it can ease out a few of
+the task which I'll explain during the
+Tut tutorial and then you
+need rigify so this will be required
+when we reach the riging chapter so just
+enable all of these three all right and
+then you save preferences so now just to
+cross check our mature if this shows
+human metallic that means rigify is
+enabled if you go to edit mode and
+select any of these vertices from right
+here in the edit you see Loop tools so
+that means add-ons are not working now
+let's start the work so to begin with
+head model we need to find a basic block
+first and as we discussed basic block
+first structure and volume and then
+final details a sphere is usually a good
+start but we need something with good
+topology and all quads so UV sphere have
+triangles so my preference is going to
+be bringing a simple Cube and then bevel
+all of these edges and make it into
+almost sphere like this I'm going to
+leave it at four segments I think it's a
+good resolution to start with for simple
+model now right at the middle I'm going
+to add one more Loop by pressing crlr
+and now our model is perfectly
+symmetrical now I'm imagining the face
+of the character will be mostly in the
+second half of this sphere to make our
+work easy I'm just going to get rid of
+half of this model in the face mode
+select half of these faces and delete
+all these now from the modifier panel
+click on ADD modifier and search for
+Mirror modifier now this way we can work
+on one side and let the mirror modifier
+do the rest of the job on the other side
+now I imagine these four quads can make
+a good hole for eye sockets and from
+here I can also change and tweak this
+topology to make a formation of ey
+socket with circular Loops so I'm just
+going to press I on keyboard and insert
+these faces and once it's done delete
+all those four faces with these edges
+still selected I'm going to go to the
+side panel for Loop tools that we
+enabled from add-on and click on Circle
+to make it into a circular formation now
+tweak few of these points around this
+eye socket and make sure these are
+evenly distributed and following sort of
+similar circular formation I'm using
+double g to slide these vertices just
+tap G twice to move these and slide now
+we have initial block which defines the
+overall volume now let's work on
+structure a bit let's go to the left
+view now even out this long stretch by
+simply adding one Loop just like what we
+did in the front view let's enable
+proportionate editing and grab a Vertex
+around the chin part and try to form
+profile view of face move few of these
+vertices towards the front to form the
+jaw and chin and then grab few of these
+back vertices to make a circular sort of
+formation I'm using proportionate
+editing and rotating few of these
+vertices just taking my time to work on
+only the profile view for now if you
+wish to follow similar sort of design
+that I I'm following you can find the
+images from the description so I still
+think these vertices could move a bit
+more further and uh sort of trying to
+make a skull kind of shape and trying to
+define a bit of jawline let's go to the
+front view now just push these chin
+vertices down so just like how we made
+circular Loops for eye sockets we need
+to make a bit of space to add few Loops
+for mouth shape so you can see here just
+by moving few of these vertices down
+it's sort of forming a visual for mouth
+area and also there's a continuous loop
+running around it in the second half of
+the face so you can say we have changed
+the flow of topology and now we can use
+this flow to make loops for the mouth
+shape so let's select two of these faces
+and insert both of these from the pop-up
+menu disable boundary so that it doesn't
+create insert on the center edge now
+let's create one more insert and scale
+this down vertically in
+z-axis now I'm just going to clean up
+this corner and make sure it's not
+intersecting now let's grab two of these
+faces and extrude these inside to form
+the inside of the mouth we will work on
+this later but for now leave it as it is
+so we have eyes we have mouth the
+initial Loops but we need something for
+nose so just going to grab this face and
+extrude this out I just need to select
+this phas which is at the boundary and
+delete it make sure clipping is enabled
+so that these don't overlap at the
+center in Mirror modifier now let's
+apply one subdivision surface and see
+what's going on now I'm going to select
+this top edge of the nose and move it
+back and scale it down a little so at
+least the basic Loops are forming up and
+now I'm going to just add one more Loop
+right here between the loops of the lips
+just going to tweak the shape of these
+lips a little maybe the corner of of the
+lips can be a little smaller and with
+proportionate editing I'm just going to
+try and form this Arc of the lips move
+few of these edges back so that from
+profile view we can see a side of the
+lips now that we have a bit more of
+structure on phas and few more Loops to
+work with let's take a proportionate
+editing tool and uh rework on the shape
+a little so just going to revisit the
+overall shape of the head and try to
+form the profile view and uh the main
+jawline a little now the overall volume
+and structure is there now I feel we
+need a few more Loops to start working
+on details so control R to add few more
+Loops in between I'm going to add few
+extra right here and uh one right here
+almost double up few of these front
+edges going to recircle the eye
+socket and disable flatten so that it
+does doesn't flattens the circle and
+maintains the 3D form now as you can see
+here when you have good mesh flow in
+your model it becomes really easy to add
+more loops and make selections just
+control R and these Loops are going to
+flow exactly in between existing Loops
+now that we have few more Edge Loops to
+work with let's try and Define few more
+details on this phas so starting from
+nose let's push few of these vertices
+out and uh this right here could be
+placed for for nostrils so just press I
+and insert these and just going to
+delete these and select this border and
+create circle with Loop tools and now
+I'm just going to create another
+Extrusion and push these inside and
+scale these down a little now I'm going
+to add one more Loop here and then start
+scaling down the Upper Bridge of the
+nose it it looks too broad obviously so
+let's go to the profile view first
+disable the subdivision surface
+and uh let's try and shape this nose as
+best as we can as you have seen in the
+trailer it's a pretty simple model with
+bold and round shapes overall so keeping
+that in mind I'm going to keep overall
+shapes bit smoother and softer and won't
+be breaking Contours too much so for now
+let's disable subdivision surface let's
+work on the nose a bit more I'm going to
+just reduce the broadness of this nose
+going to slide these vertices and uh
+just narrow this whole thing down now
+this makes a bit more room around the
+eye sockets so let's add one more Loop
+here and uh let's push few of these
+backwards just going to slide it tap
+double g to keep the density consistent
+let's keep adding Loops right here slide
+this right here and add one more I feel
+I can smooth out the flow of these Loops
+a bit more sort of relax it a bit so
+just take the smooth tool on from the
+left and uh maybe a really little
+smoothing now let's continue working on
+the shape a bit more pointiness on the
+nose and one more Edge loop around the
+nostrils one right here which is leading
+to the corner of eyes I think we have
+enough Loops we need to fix the overall
+shape of the head with proportionate
+editing but before that let's work on
+the mouth a little more I'm going to
+push the under noose a little inside and
+start adding a few more Loops for the
+mouth sorry lips
+part and uh right here let's push these
+uh inside and out to start forming the
+lip
+part I think we have a four or five
+loops and these should be good enough to
+make the overall form of the lips so
+carefully select these Loops now the
+overall lips look way too wide I'm going
+to reduce it a bit with proportionate
+editing just going to move
+these inside and uh yeah cheeks a bit
+out I think so little by little this is
+going to keep building up and uh in a
+moment we will see much better phas so
+at this moment you just need to keep
+revisiting these areas and uh see as
+much as you can refine the shapes and uh
+just give it some
+time all of this is going to come
+together in a moment while making any of
+these changes make sure you maintain a
+good distribution of mesh and keep it
+clean with all of these faces still
+selected I'm just going to relax it a
+bit with smooth tool now let's fix the
+overall shape I think the lips are still
+wider and I'm going to reduce the
+scale just select all of these loops and
+with proportional editing just going to
+tweak this down a little similarly for
+nose as well I think we can narrow this
+whole thing down select the surrounding
+loops and pinch these down a little just
+going to uh work on the overall
+proportions of these
+features because I think we have enough
+geometry at this moment and we should
+start focusing on details but before
+that I just want to make sure that I
+have achieved the overall shape of the
+head and uh the basics are fine so yeah
+let's work on this a bit more I think we
+can add one more Loop here for the lips
+and close this down a
+little so it's much better but I think
+I'm going to scale this down a bit more
+overall and let's see what's happening
+in the profile view yeah this whole
+jawline uh we need to work on a bit more
+so just grab few of these faces with
+proportionate editing and uh start
+shaping up a good profile view so at
+this moment everything is on the same
+level eyes nose and lips so I'm just
+going to round this whole thing up a bit
+more I think we can uh push down this
+chin a little
+and here move the overall this mouth
+unit a bit more
+out and we can smooth out these cheeks
+now what I do is select all of these
+faces and take this shrink and fatten
+tool now just to push out these volumes
+a bit more now back to the profile view
+uh I think uh it needs more rounding
+just going to select the back of the
+head one of the pH with proportion
+editing and uh start rotating these
+so yeah and also like I said at the
+start of a tutorial I imagine the
+features of the phas to remain in the
+second half of the phas like half of the
+sphere it looks cuter that way and I
+don't like all of these points meeting
+at the cheek it kind of gets bit Pinchy
+so I'm going to delete all of those and
+create a grid fill surprisingly it did a
+good job now let's make this character a
+bit more puffier push these cheeks out a
+little now right here in the profile
+view let's grab these faces and delete
+these I'm just going to scale it up a
+little and delete this grab this entire
+Loop and create a circle with Loop tools
+I'm going to create one Extrusion from
+here and scale this
+down I'm going to scale this up
+vertically to make it tall and I'm going
+to just rotate this Loop and the loop
+around it bit towards the back like this
+now just for the sake of having ears for
+this stylized character I'm going to
+extrude this thing and add one Loop in
+between now let's select this push this
+out a little add one more Loop and make
+it round overall with smooth
+tool just going to have a look from
+different
+views and uh yeah it might be facing too
+much towards the back so I'm just going
+to grab this with proportionate editing
+and make it face front a little more and
+just bevel this center edge we need a
+few more quads here and again smooth
+this whole thing out a bit
+more yeah so just overall create a
+rounder formation a simplified shape now
+right here I think we can add one more
+Edge Loop just going to space this out a
+bit more and add one Loop in
+between and
+uh yeah so select four of uh six of
+these faces or yeah just create one
+insert and push these inside a
+little just going to create one circular
+formation then manually just fix the
+form and and uh shape it something like
+this I think we can grab few of these
+faces and push these inside a little
+more can also extrude few of these
+Corners to make it appear more like ear
+however stylized this
+is now that we have ears let's revisit
+the overall form of the head I think
+these uh corners of the head at the top
+are way too out so let's put these down
+a little and again the profile view with
+ears look a bit different so just going
+to create a few more adjustments here I
+think we can move the ear down create a
+bit more jawline and make the overall
+face a bit more cuter let's push these
+lips out and uh yeah chin a bit more
+round so overall I think it's coming
+together now as you can see I'm not
+adding uh any more Loop cuts at this
+moment I'm just focusing on fixing the
+overall form I think we can Define the
+back of the ears at a bit more uh maybe
+push this out a
+little I think more or less we are there
+we just need to work on eyelids a bit
+more uh eye sockets and create the neck
+part and maybe tweak the overall shape a
+bit more that's all now right here in
+the eyelids eye sockets I'm going to
+grab this entire Loop and uh create one
+Extrusion and move it inside and maybe
+uh create one more so we have two Loops
+here so before I do detail out the
+eyelids or anything I just want
+to uh slide few of these vertices here
+and uh space these out bit more
+evenly overall this looks fine I think
+we can move the corner of this point the
+nose a bit more
+inside and uh yeah slide few of these
+add one more Loop here for
+eyelids and yeah one right here at the
+top of the nose bridge for eye
+Corners now let's select everything and
+with shrink and fatten tool just push
+all of these out a little I think uh
+yeah don't need to overdo this just a
+little more it's just that I want to
+make this character a little more cuter
+so it's completely up to you if you
+don't want to do this now let's go at
+the bottom of the face and here I'm
+going to grab of these
+faces now before that for neck we are
+going to create something like this
+going to extrude these faces and make a
+formation like this so let's grab few of
+these
+faces and then I'm going to delete all
+of these and select this Loop and create
+a circle with it with Loop
+tools now with this Loops still selected
+in the side view I'm going to create one
+Extrusion and narrow this down just like
+what we are drawn here so just create a
+two or three I think uh three four loops
+and create a
+narrow neck for this
+character let's grab this Loop and uh
+move it up a
+little now right here at the corner I'm
+seeing a
+weird uh all of these Loops meeting in
+creating a weird formation so I'm just
+going to press V and rip it apart and
+try to form some
+quads uh or maybe we can simply just
+grab all of these delete these and see
+if we can grid fill
+this so yeah this does the job
+sometimes but if you have personal
+preferences where exactly you want to
+land these loops and control more then
+you will have to do this manually so
+neck part is done now what I'm thinking
+is uh in the forehead and the head part
+we have a a bit more spaced out Loops so
+just going to move these aside and add a
+few more you can bevel these or press
+crlr to add new so just going to slide
+few of these vertices and make more
+consistent
+distribution now ears look a bit too out
+so I'm just going to tweak the shape
+which goes more with head and uh going
+to select all of these and push these
+inside a little and neck seemed fine
+from the profile view but there's a
+whole different story in the front view
+so first I think we should uh add a bit
+more Arc to
+it just as we uh discussed in the a bit
+of drawing that we did and uh in the
+front view maybe extrude this out one
+more time at this moment this head model
+is complete the only thing we need to do
+is uh just add a few more Loops in the
+eyelids but other than that it's
+completely up to you how you want to
+form the overall phase if you have have
+an image of character in mind or if you
+have a sketch that you want to follow
+just feel free to shape it however you
+want so as you can see I'm just trying
+to revisit this whole thing up one more
+time and uh just thinking if there are
+any more improvements I can do in the
+overall shape so I'm going to work on uh
+formation of lips a bit more and uh yeah
+and can clean out these corners of the
+mouth I think all of these Loops are
+meeting here there's a bit of
+overlapping going on so just carefully
+need to deal with this so just having a
+look at the all of these shapes from
+different views lips nose and everything
+and trying to uh push these volumes out
+a bit break those uh flat
+faces so add more curvature to
+everything yeah so just going to clean
+this out and uh maybe we can smooth few
+of these Edge loops
+to form a better Corner which is not
+overlapping a bit of smoothing
+here and I think we are done we need to
+just work on uh eyelids and I'm pretty
+happy with it honestly I'm just thinking
+of moving these uh Loops at the cheek a
+bit down like uh there's a bit of
+weight and
+also the lip formation
+we can move the corners
+down and yeah this will make it look a
+bit more
+cuter so right here for the con for the
+outline of the lip I think we can add
+one more Edge loop it's completely
+optional but uh let's see I'm just going
+to Bevel this Loop and this is going to
+create this hard
+line which is uh not looking bad I think
+I'm going to to keep it so now I'm going
+to select few of these chin faces and
+create one insert with boundary disabled
+and uh push this out a little but this
+is creating two harsh line so I can use
+a smooth tool to relax this a bit and
+slightly move it
+out right here at the jaw I'm just going
+to slide few of
+these there's a weird pinching going on
+and maybe we can move this down a little
+with the proportionate editing
+now let's work on eyelids we need to add
+few more Loops so we can create eye
+blinks and close the eyelid when it
+expands it needs more Loops so I'm going
+to add one shape key right here and
+going to select this Loop and scale this
+down in Z
+axis with proportionate editing this is
+going to create this gradual transition
+and close the eyelids so all the
+surrounding Loops are evenly spaced out
+because we were working with
+proportionate editing and then
+I think I can add one more Loop here and
+one Loop here now I'm just thinking
+whether or not we should add one more
+Loop here now once you're done you can
+disable the shape key or even can delete
+this one we don't need this uh I just
+wanted to see how many Loops we need to
+create ey blink even if you remove the
+shape key those Loops are still going to
+stay but for now I'm going to keep this
+shape key around I am in no hurry to
+delete it and uh I think we are done so
+that concludes chapter number two
+however we are not finished with this
+character yet in the next chapter we
+will be modeling the Torso part in each
+session little by little we will keep on
+adding more stuff to this torso limbs
+clothes props and much more so there's a
+whole lot to be excited about but at the
+same time it's really important to
+revisit what you have learned during
+this session and practice a bit so don't
+stress about creating one perfect head
+model that's not going to happen if you
+are doing it for the very first time but
+in Instead try crafting five imperfect
+ones and you'll find yourself getting
+much more comfortable with the all
+important steps so yeah that's about it
+jump to Discord server if you'd like to
+discuss anything related to this on
+channel dedicated to this series check
+pin comment for frequently asked
+questions and problems check description
+for PDF of keyboard shortcuts discount
+coupons and other mentioned resources
+for this tutorial if you enjoyed this
+chapter do check out the full playlist
+and hope you continue all the way till
+the end also consider buying the premium
+version and unlock the additional ch
+chapters and project files and bonus
+content which will take you through the
+process of rigging with rigify creating
+a nice walk cycle animation creating
+secondary animations using plot physics
+and Bone constraints and rendering your
+entire project using Cycles Render
+engine share your work with me on
+Instagram tag me with instros mind and
+participate in discussion on Discord
+channel for this course links are in the
+description please give it a like And
+subscribe and stay tuned for more share
+your thoughts in the comment section and
+don't forget to share it with your
+colleagues and on social media to help
+us reach the wider audience thank you
+for all your support and love let's jump
+to the next video

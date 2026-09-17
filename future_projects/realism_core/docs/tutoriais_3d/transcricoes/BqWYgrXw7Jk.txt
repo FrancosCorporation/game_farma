@@ -1,0 +1,592 @@
+Kind: captions
+Language: en
+i'm gonna show you how to create hair
+i'm gonna show you how to create hair
+i'm gonna show you how to create hair
+and blender in one of the easiest ways
+and blender in one of the easiest ways
+and blender in one of the easiest ways
+ever it gets really good results and
+ever it gets really good results and
+ever it gets really good results and
+i've been using it myself on the channel
+i've been using it myself on the channel
+i've been using it myself on the channel
+for the characters that i sculpt in this
+for the characters that i sculpt in this
+for the characters that i sculpt in this
+video i'll show you how to do it and
+video i'll show you how to do it and
+video i'll show you how to do it and
+also give you some tips on how to create
+also give you some tips on how to create
+also give you some tips on how to create
+hair in general tips like you know hair
+hair in general tips like you know hair
+hair in general tips like you know hair
+flow and that kind of stuff let's get
+flow and that kind of stuff let's get
+flow and that kind of stuff let's get
+right into it the method that i'm going
+right into it the method that i'm going
+right into it the method that i'm going
+to show you on how to create hair is
+to show you on how to create hair is
+to show you on how to create hair is
+something that i use for a lot of my
+something that i use for a lot of my
+something that i use for a lot of my
+characters so let me just show you what
+characters so let me just show you what
+characters so let me just show you what
+it does if i duplicate this hair mesh
+it does if i duplicate this hair mesh
+it does if i duplicate this hair mesh
+over here and go to edit mode you can
+over here and go to edit mode you can
+over here and go to edit mode you can
+see that i have points that i can
+see that i have points that i can
+see that i have points that i can
+control and move around i can also scale
+control and move around i can also scale
+control and move around i can also scale
+the hair up and down i can scale
+the hair up and down i can scale
+the hair up and down i can scale
+individual points i can also twist the
+individual points i can also twist the
+individual points i can also twist the
+individual points as you can see over
+individual points as you can see over
+individual points as you can see over
+here okay so i'm going to show you how
+here okay so i'm going to show you how
+here okay so i'm going to show you how
+to do this first things first we're
+to do this first things first we're
+to do this first things first we're
+going to create two curves the first one
+going to create two curves the first one
+going to create two curves the first one
+i like to create is the path curve and
+i like to create is the path curve and
+i like to create is the path curve and
+this is the one i use to control the
+this is the one i use to control the
+this is the one i use to control the
+hair mesh and the second curve i'm going
+hair mesh and the second curve i'm going
+hair mesh and the second curve i'm going
+to use is the circle curve which i will
+to use is the circle curve which i will
+to use is the circle curve which i will
+use to control the overall shape of the
+use to control the overall shape of the
+use to control the overall shape of the
+hair mesh so let's do it right away with
+hair mesh so let's do it right away with
+hair mesh so let's do it right away with
+shift a you can create curves over here
+shift a you can create curves over here
+shift a you can create curves over here
+i'll create a path curve and another
+i'll create a path curve and another
+i'll create a path curve and another
+curve which is the circle curve now i'll
+curve which is the circle curve now i'll
+curve which is the circle curve now i'll
+take both of these curves i'll just put
+take both of these curves i'll just put
+take both of these curves i'll just put
+them up over here and rotate them at 90
+them up over here and rotate them at 90
+them up over here and rotate them at 90
+degrees so that we have the same look
+degrees so that we have the same look
+degrees so that we have the same look
+that i have down over here the
+that i have down over here the
+that i have down over here the
+orientation however does not really
+orientation however does not really
+orientation however does not really
+matter so anyways i'm going to scale
+matter so anyways i'm going to scale
+matter so anyways i'm going to scale
+both of these guys down i'm just going
+both of these guys down i'm just going
+both of these guys down i'm just going
+to use ctrl a to apply the scale since i
+to use ctrl a to apply the scale since i
+to use ctrl a to apply the scale since i
+scaled them in object mode just so that
+scaled them in object mode just so that
+scaled them in object mode just so that
+we don't have any issues later on and
+we don't have any issues later on and
+we don't have any issues later on and
+then i'm going to grab the path curve so
+then i'm going to grab the path curve so
+then i'm going to grab the path curve so
+in the path curve just make sure you go
+in the path curve just make sure you go
+in the path curve just make sure you go
+down to this icon over here so it's the
+down to this icon over here so it's the
+down to this icon over here so it's the
+properties for the any curve that you
+properties for the any curve that you
+properties for the any curve that you
+have and on the right open geometry and
+have and on the right open geometry and
+have and on the right open geometry and
+then in bevel over here select the color
+then in bevel over here select the color
+then in bevel over here select the color
+picker of object
+picker of object
+picker of object
+and select the second curve which is the
+and select the second curve which is the
+and select the second curve which is the
+circle once you do that right away
+circle once you do that right away
+circle once you do that right away
+you're gonna see that the path curve got
+you're gonna see that the path curve got
+you're gonna see that the path curve got
+the shape of the circle so i'm just
+the shape of the circle so i'm just
+the shape of the circle so i'm just
+going to rotate this so that we have the
+going to rotate this so that we have the
+going to rotate this so that we have the
+same orientation as the curves down
+same orientation as the curves down
+same orientation as the curves down
+like so
+like so
+like so
+and then i'm going to go to the circle
+and then i'm going to go to the circle
+and then i'm going to go to the circle
+curve over here and i'll move the points
+curve over here and i'll move the points
+curve over here and i'll move the points
+so just to make sure that which point
+so just to make sure that which point
+so just to make sure that which point
+controls which area of the path curve
+controls which area of the path curve
+controls which area of the path curve
+i'm going to move this and then i'll
+i'm going to move this and then i'll
+i'm going to move this and then i'll
+look back and there you go so it's
+look back and there you go so it's
+look back and there you go so it's
+controlling
+controlling
+controlling
+the area in the bottom over here which
+the area in the bottom over here which
+the area in the bottom over here which
+is perfect
+is perfect
+is perfect
+okay so
+okay so
+okay so
+what i can do is i'll just put it
+what i can do is i'll just put it
+what i can do is i'll just put it
+upwards like this i'm just gonna remove
+upwards like this i'm just gonna remove
+upwards like this i'm just gonna remove
+the proportional editing so i'm just
+the proportional editing so i'm just
+the proportional editing so i'm just
+gonna move it up over here and then i
+gonna move it up over here and then i
+gonna move it up over here and then i
+will scale these guys so to scale a
+will scale these guys so to scale a
+will scale these guys so to scale a
+point over here you're gonna have to
+point over here you're gonna have to
+point over here you're gonna have to
+grab the outer points and scale it like
+grab the outer points and scale it like
+grab the outer points and scale it like
+so so i'll grab these guys as well and
+so so i'll grab these guys as well and
+so so i'll grab these guys as well and
+then i'll scale both of them
+then i'll scale both of them
+then i'll scale both of them
+like so and i'll put them downwards by
+like so and i'll put them downwards by
+like so and i'll put them downwards by
+grabbing the middle points over here
+grabbing the middle points over here
+grabbing the middle points over here
+and then i'm going to grab this one i'll
+and then i'm going to grab this one i'll
+and then i'm going to grab this one i'll
+move it downwards and i'll scale the
+move it downwards and i'll scale the
+move it downwards and i'll scale the
+outer points with s so that i have a
+outer points with s so that i have a
+outer points with s so that i have a
+sharp curve over here i can also grab
+sharp curve over here i can also grab
+sharp curve over here i can also grab
+both of these points and just push them
+both of these points and just push them
+both of these points and just push them
+downwards and scale them
+downwards and scale them
+downwards and scale them
+there you go so now we have a sharp
+there you go so now we have a sharp
+there you go so now we have a sharp
+looking hair well a hair mesh anyways so
+looking hair well a hair mesh anyways so
+looking hair well a hair mesh anyways so
+i'm going to grab everything i'll scale
+i'm going to grab everything i'll scale
+i'm going to grab everything i'll scale
+it
+it
+it
+on the x-axis like so
+on the x-axis like so
+on the x-axis like so
+and now we have something similar
+and now we have something similar
+and now we have something similar
+to this one over here
+to this one over here
+to this one over here
+so why does it look different that's
+so why does it look different that's
+so why does it look different that's
+because
+because
+because
+i went to edit mode to the individual
+i went to edit mode to the individual
+i went to edit mode to the individual
+points and i scaled each point so when
+points and i scaled each point so when
+points and i scaled each point so when
+you do that and you try to scale up with
+you do that and you try to scale up with
+you do that and you try to scale up with
+s it won't really work that's because to
+s it won't really work that's because to
+s it won't really work that's because to
+scale individual points just the points
+scale individual points just the points
+scale individual points just the points
+by itself you're gonna have to use alt s
+by itself you're gonna have to use alt s
+by itself you're gonna have to use alt s
+like so there you go so this is how you
+like so there you go so this is how you
+like so there you go so this is how you
+scale individual hairs trans
+scale individual hairs trans
+scale individual hairs trans
+all right
+all right
+all right
+so with alt s i'm going to scale it and
+so with alt s i'm going to scale it and
+so with alt s i'm going to scale it and
+scale this point as well
+scale this point as well
+scale this point as well
+there you go
+there you go
+there you go
+i can also grab everything and use alt s
+i can also grab everything and use alt s
+i can also grab everything and use alt s
+to scale it down or upwards as you can
+to scale it down or upwards as you can
+to scale it down or upwards as you can
+see and i can also use ctrl t
+see and i can also use ctrl t
+see and i can also use ctrl t
+to tilt individual points when i'm
+to tilt individual points when i'm
+to tilt individual points when i'm
+basically trying to groom the hair
+basically trying to groom the hair
+basically trying to groom the hair
+once i'm done i'm just going to take
+once i'm done i'm just going to take
+once i'm done i'm just going to take
+this material so i basically created
+this material so i basically created
+this material so i basically created
+material here
+material here
+material here
+and to see it in the viewports display i
+and to see it in the viewports display i
+and to see it in the viewports display i
+just changed the color over here i'm
+just changed the color over here i'm
+just changed the color over here i'm
+just going to take the same one as i
+just going to take the same one as i
+just going to take the same one as i
+have over here with
+have over here with
+have over here with
+ctrl l material so i just linked the
+ctrl l material so i just linked the
+ctrl l material so i just linked the
+materials
+materials
+materials
+and now i have the same hair that we
+and now i have the same hair that we
+and now i have the same hair that we
+have over here just a slightly different
+have over here just a slightly different
+have over here just a slightly different
+shape
+shape
+shape
+all right
+all right
+all right
+there you go
+there you go
+there you go
+once you're done now these two guys
+once you're done now these two guys
+once you're done now these two guys
+you're just going to keep them on the
+you're just going to keep them on the
+you're just going to keep them on the
+side you can create a new collection a
+side you can create a new collection a
+side you can create a new collection a
+new layer so i can just hit m
+new layer so i can just hit m
+new layer so i can just hit m
+and move it to a new collection
+and move it to a new collection
+and move it to a new collection
+oops new collection and i'll call it
+oops new collection and i'll call it
+oops new collection and i'll call it
+hair
+hair
+hair
+control
+control
+control
+all right
+all right
+all right
+and now i can grab this one shift d to
+and now i can grab this one shift d to
+and now i can grab this one shift d to
+duplicate it i'll put it on the side
+duplicate it i'll put it on the side
+duplicate it i'll put it on the side
+over here
+over here
+over here
+and then i can just
+and then i can just
+and then i can just
+rotate it and then go to edit mode and
+rotate it and then go to edit mode and
+rotate it and then go to edit mode and
+play with individual points
+play with individual points
+play with individual points
+to groom the hair
+to groom the hair
+to groom the hair
+as you can see over here so again alt s
+as you can see over here so again alt s
+as you can see over here so again alt s
+to control the shape of individual
+to control the shape of individual
+to control the shape of individual
+points well the size and control t to
+points well the size and control t to
+points well the size and control t to
+rotate or tilt each individual points
+rotate or tilt each individual points
+rotate or tilt each individual points
+all right perfect alright so now that
+all right perfect alright so now that
+all right perfect alright so now that
+you know how to create hair in blender
+you know how to create hair in blender
+you know how to create hair in blender
+let me show you or give you a few tips
+let me show you or give you a few tips
+let me show you or give you a few tips
+on how to create hair for your
+on how to create hair for your
+on how to create hair for your
+characters this is
+characters this is
+characters this is
+ochako that i sculpted on the channel
+ochako that i sculpted on the channel
+ochako that i sculpted on the channel
+she's a character from my hero academia
+she's a character from my hero academia
+she's a character from my hero academia
+i'll add a link in the description below
+i'll add a link in the description below
+i'll add a link in the description below
+to that video but anyways so first
+to that video but anyways so first
+to that video but anyways so first
+things first look at a lot of reference
+things first look at a lot of reference
+things first look at a lot of reference
+pay attention to how hair works also pay
+pay attention to how hair works also pay
+pay attention to how hair works also pay
+attention to the hair flow so you can
+attention to the hair flow so you can
+attention to the hair flow so you can
+see over here the hair starts
+see over here the hair starts
+see over here the hair starts
+right here and there's this movement
+right here and there's this movement
+right here and there's this movement
+there's a flow
+there's a flow
+there's a flow
+that is all over her hair so it kind of
+that is all over her hair so it kind of
+that is all over her hair so it kind of
+gives
+gives
+gives
+the impression of this movement over
+the impression of this movement over
+the impression of this movement over
+here all right let me just erase all of
+here all right let me just erase all of
+here all right let me just erase all of
+this and then we have harmony versus
+this and then we have harmony versus
+this and then we have harmony versus
+chaos so generally speaking you want to
+chaos so generally speaking you want to
+chaos so generally speaking you want to
+have some sense of harmony when creating
+have some sense of harmony when creating
+have some sense of harmony when creating
+the hair like she has over here but also
+the hair like she has over here but also
+the hair like she has over here but also
+a little chaos can make things look
+a little chaos can make things look
+a little chaos can make things look
+interesting just pay attention not to
+interesting just pay attention not to
+interesting just pay attention not to
+overdo it otherwise it will break the
+overdo it otherwise it will break the
+overdo it otherwise it will break the
+look so you can see over here that i
+look so you can see over here that i
+look so you can see over here that i
+have some hair strands that are going
+have some hair strands that are going
+have some hair strands that are going
+on the other side and also some hair
+on the other side and also some hair
+on the other side and also some hair
+strands are just
+strands are just
+strands are just
+out of you know the whole shape of her
+out of you know the whole shape of her
+out of you know the whole shape of her
+hair so i'm creating some chaos next we
+hair so i'm creating some chaos next we
+hair so i'm creating some chaos next we
+have shape variation so the shape
+have shape variation so the shape
+have shape variation so the shape
+variation is basically just like how
+variation is basically just like how
+variation is basically just like how
+when you create a character you want to
+when you create a character you want to
+when you create a character you want to
+add big shapes medium shapes and then
+add big shapes medium shapes and then
+add big shapes medium shapes and then
+small shapes it's the same thing for the
+small shapes it's the same thing for the
+small shapes it's the same thing for the
+hair so you can see over here that i
+hair so you can see over here that i
+hair so you can see over here that i
+have bigger strands smaller strands
+have bigger strands smaller strands
+have bigger strands smaller strands
+another big strand over here so i'm
+another big strand over here so i'm
+another big strand over here so i'm
+basically mixing it up and making it
+basically mixing it up and making it
+basically mixing it up and making it
+look interesting instead of creating
+look interesting instead of creating
+look interesting instead of creating
+only small hair strands or only big ones
+only small hair strands or only big ones
+only small hair strands or only big ones
+that pretty much sums it up for this
+that pretty much sums it up for this
+that pretty much sums it up for this
+video if you guys enjoyed it don't give
+video if you guys enjoyed it don't give
+video if you guys enjoyed it don't give
+it share with your friends oh and hit
+it share with your friends oh and hit
+it share with your friends oh and hit
+that notification
+make sure to subscribe to the channel
+make sure to subscribe to the channel
+make sure to subscribe to the channel
+for more awesome characters cups and art
+for more awesome characters cups and art
+for more awesome characters cups and art
+related videos you can also check out my
+related videos you can also check out my
+related videos you can also check out my
+store for full courses on character
+store for full courses on character
+store for full courses on character
+sculpting texturing materials brushes
+sculpting texturing materials brushes
+sculpting texturing materials brushes
+and more last but not least if you
+and more last but not least if you
+and more last but not least if you
+enjoyed this video then you will
+enjoyed this video then you will
+enjoyed this video then you will
+definitely enjoy the next one

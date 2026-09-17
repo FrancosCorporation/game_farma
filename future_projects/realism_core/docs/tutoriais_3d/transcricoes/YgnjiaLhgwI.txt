@@ -1,0 +1,1402 @@
+Kind: captions
+Language: en
+It's time to make a character. This
+It's time to make a character. This
+It's time to make a character. This
+video series will cover all the major
+video series will cover all the major
+video series will cover all the major
+parts of making a character in Blender,
+parts of making a character in Blender,
+parts of making a character in Blender,
+like how to start the model, build their
+like how to start the model, build their
+like how to start the model, build their
+various parts, how to get some good
+various parts, how to get some good
+various parts, how to get some good
+stylized materials for them, even
+stylized materials for them, even
+stylized materials for them, even
+creating an outline, and lastly, all the
+creating an outline, and lastly, all the
+creating an outline, and lastly, all the
+parts that'll go into rigging him for
+parts that'll go into rigging him for
+parts that'll go into rigging him for
+animation. This method of making a
+animation. This method of making a
+animation. This method of making a
+character should be useful for making
+character should be useful for making
+character should be useful for making
+tons of different characters, not just
+tons of different characters, not just
+tons of different characters, not just
+the one I'll be making for the tutorial.
+the one I'll be making for the tutorial.
+the one I'll be making for the tutorial.
+So, it'll be great for starting to make
+So, it'll be great for starting to make
+So, it'll be great for starting to make
+your own characters in Blender. While
+your own characters in Blender. While
+your own characters in Blender. While
+this is a tutorial for beginners, for
+this is a tutorial for beginners, for
+this is a tutorial for beginners, for
+one, this isn't for people who haven't
+one, this isn't for people who haven't
+one, this isn't for people who haven't
+touched Blender at all. If that's you,
+touched Blender at all. If that's you,
+touched Blender at all. If that's you,
+then I recommend going to my other
+then I recommend going to my other
+then I recommend going to my other
+video, Blender for Absolute Beginners.
+video, Blender for Absolute Beginners.
+video, Blender for Absolute Beginners.
+It's only 36 minutes and it should get
+It's only 36 minutes and it should get
+It's only 36 minutes and it should get
+you caught up. And for two, character
+you caught up. And for two, character
+you caught up. And for two, character
+modeling is inherently a pretty
+modeling is inherently a pretty
+modeling is inherently a pretty
+intermediate challenge. So, even though
+intermediate challenge. So, even though
+intermediate challenge. So, even though
+I'm going to try and go through every
+I'm going to try and go through every
+I'm going to try and go through every
+little thing you need to know, it's
+little thing you need to know, it's
+little thing you need to know, it's
+definitely a good idea to get used to
+definitely a good idea to get used to
+definitely a good idea to get used to
+modeling as a whole before tackling
+modeling as a whole before tackling
+modeling as a whole before tackling
+characters. Or you can just go for it.
+characters. Or you can just go for it.
+characters. Or you can just go for it.
+I'm not your mom. Like with my other
+I'm not your mom. Like with my other
+I'm not your mom. Like with my other
+tutorial, I'll put a link to the script
+tutorial, I'll put a link to the script
+tutorial, I'll put a link to the script
+that I wrote for this video in the
+that I wrote for this video in the
+that I wrote for this video in the
+description and comments where you can
+description and comments where you can
+description and comments where you can
+use Ctrl+F to search for keywords in the
+use Ctrl+F to search for keywords in the
+use Ctrl+F to search for keywords in the
+doc so you don't have to scroll through
+doc so you don't have to scroll through
+doc so you don't have to scroll through
+the video to find things. It includes
+the video to find things. It includes
+the video to find things. It includes
+every part of this tutorial, so it's
+every part of this tutorial, so it's
+every part of this tutorial, so it's
+like 80 pages long. You can even read
+like 80 pages long. You can even read
+like 80 pages long. You can even read
+ahead if you wanted to, but I wouldn't
+ahead if you wanted to, but I wouldn't
+ahead if you wanted to, but I wouldn't
+recommend it. And of course, please put
+recommend it. And of course, please put
+recommend it. And of course, please put
+any issues you're experiencing in the
+any issues you're experiencing in the
+any issues you're experiencing in the
+comments, no matter what part of the
+comments, no matter what part of the
+comments, no matter what part of the
+series you're on. I'll try to help you
+series you're on. I'll try to help you
+series you're on. I'll try to help you
+out as much as I can. Most problems have
+out as much as I can. Most problems have
+out as much as I can. Most problems have
+super easy solutions when you're just
+super easy solutions when you're just
+super easy solutions when you're just
+starting out, so don't be afraid to ask.
+starting out, so don't be afraid to ask.
+starting out, so don't be afraid to ask.
+Also, I'm not a master at making
+Also, I'm not a master at making
+Also, I'm not a master at making
+tutorials, so there's probably some part
+tutorials, so there's probably some part
+tutorials, so there's probably some part
+of the process I'll forget to mention,
+of the process I'll forget to mention,
+of the process I'll forget to mention,
+so it might not even be your fault.
+so it might not even be your fault.
+so it might not even be your fault.
+Okay, so step one is just knowing what
+Okay, so step one is just knowing what
+Okay, so step one is just knowing what
+character you want to model in the first
+character you want to model in the first
+character you want to model in the first
+place. In this tutorial, we're going to
+place. In this tutorial, we're going to
+place. In this tutorial, we're going to
+model this guy.
+He's a relatively simple character, but
+He's a relatively simple character, but
+He's a relatively simple character, but
+we'll end up teaching him a lot of
+we'll end up teaching him a lot of
+we'll end up teaching him a lot of
+things, and the method you'll follow for
+things, and the method you'll follow for
+things, and the method you'll follow for
+him can work for a lot of different
+him can work for a lot of different
+him can work for a lot of different
+characters, so it'll be a good thing to
+characters, so it'll be a good thing to
+characters, so it'll be a good thing to
+get started with. It will be seven
+get started with. It will be seven
+get started with. It will be seven
+videos in total, including this one. So,
+videos in total, including this one. So,
+videos in total, including this one. So,
+we'll start with blocking out, then
+we'll start with blocking out, then
+we'll start with blocking out, then
+building the head, then the rest of the
+building the head, then the rest of the
+building the head, then the rest of the
+body, then doing the materials, then
+body, then doing the materials, then
+body, then doing the materials, then
+starting the rig, then rigging his face,
+starting the rig, then rigging his face,
+starting the rig, then rigging his face,
+and then other parts like texturing and
+and then other parts like texturing and
+and then other parts like texturing and
+clothes. I'll add to the list if I think
+clothes. I'll add to the list if I think
+clothes. I'll add to the list if I think
+of something or if a lot of people want
+of something or if a lot of people want
+of something or if a lot of people want
+to know something special. Now, let's
+to know something special. Now, let's
+to know something special. Now, let's
+start with the reference image.
+Normally, I just create a super vague
+Normally, I just create a super vague
+Normally, I just create a super vague
+sketch of the character to get started
+sketch of the character to get started
+sketch of the character to get started
+with, but in this case, I made a full
+with, but in this case, I made a full
+with, but in this case, I made a full
+reference, including a reference for the
+reference, including a reference for the
+reference, including a reference for the
+hands. This is pretty much just a
+hands. This is pretty much just a
+hands. This is pretty much just a
+tracing of the original test model I
+tracing of the original test model I
+tracing of the original test model I
+made before this, so it should be pretty
+made before this, so it should be pretty
+made before this, so it should be pretty
+solid. You can download it in the Google
+solid. You can download it in the Google
+solid. You can download it in the Google
+Drive link below. You can definitely
+Drive link below. You can definitely
+Drive link below. You can definitely
+draw your own, but you're going to
+draw your own, but you're going to
+draw your own, but you're going to
+quickly realize how hard it is to make a
+quickly realize how hard it is to make a
+quickly realize how hard it is to make a
+perfect reference for a 3D character.
+perfect reference for a 3D character.
+perfect reference for a 3D character.
+You never realize how much you can get
+You never realize how much you can get
+You never realize how much you can get
+away with in 2D that's super hard to
+away with in 2D that's super hard to
+away with in 2D that's super hard to
+interpret into 3D. Normally, I just vibe
+interpret into 3D. Normally, I just vibe
+interpret into 3D. Normally, I just vibe
+out what looks good in 3D, just using
+out what looks good in 3D, just using
+out what looks good in 3D, just using
+the reference as a starting point, but
+the reference as a starting point, but
+the reference as a starting point, but
+I'd have to guess a lot of people want a
+I'd have to guess a lot of people want a
+I'd have to guess a lot of people want a
+true reference, so I'll use one for this
+true reference, so I'll use one for this
+true reference, so I'll use one for this
+tutorial.
+tutorial.
+tutorial.
+To add it to your scene, you can either
+To add it to your scene, you can either
+To add it to your scene, you can either
+just drag the file directly into your
+just drag the file directly into your
+just drag the file directly into your
+viewport, or we can go to add image
+viewport, or we can go to add image
+viewport, or we can go to add image
+reference. It'll spawn as a special kind
+reference. It'll spawn as a special kind
+reference. It'll spawn as a special kind
+of image in the scene, which is facing
+of image in the scene, which is facing
+of image in the scene, which is facing
+your view. So, we need to rotate it so
+your view. So, we need to rotate it so
+your view. So, we need to rotate it so
+you can use it, right? Hit N to bring
+you can use it, right? Hit N to bring
+you can use it, right? Hit N to bring
+out this panel on the right where it
+out this panel on the right where it
+out this panel on the right where it
+shows its rotation. Just set it to 90 0.
+shows its rotation. Just set it to 90 0.
+shows its rotation. Just set it to 90 0.
+Then just move it either in front or
+Then just move it either in front or
+Then just move it either in front or
+behind of the middle of the scene
+behind of the middle of the scene
+behind of the middle of the scene
+depending on which you prefer. I set the
+depending on which you prefer. I set the
+depending on which you prefer. I set the
+image up so if the X location at the top
+image up so if the X location at the top
+image up so if the X location at the top
+here is at zero, it should be in the
+here is at zero, it should be in the
+here is at zero, it should be in the
+center. Then down here in the red image
+center. Then down here in the red image
+center. Then down here in the red image
+tab, you can turn on opacity and turn it
+tab, you can turn on opacity and turn it
+tab, you can turn on opacity and turn it
+down to whatever you want. Personally, I
+down to whatever you want. Personally, I
+down to whatever you want. Personally, I
+go as low as 0.1 or 10%. Repeat those
+go as low as 0.1 or 10%. Repeat those
+go as low as 0.1 or 10%. Repeat those
+steps with the side and hand images with
+steps with the side and hand images with
+steps with the side and hand images with
+them being rotated at 90 090
+and 0 0 respectively. Although the hand
+and 0 0 respectively. Although the hand
+and 0 0 respectively. Although the hand
+one can just be put aside for later.
+one can just be put aside for later.
+one can just be put aside for later.
+Now it's all set up. Although when we're
+Now it's all set up. Although when we're
+Now it's all set up. Although when we're
+modeling, you might end up selecting the
+modeling, you might end up selecting the
+modeling, you might end up selecting the
+reference image when you want to select
+reference image when you want to select
+reference image when you want to select
+the object. To fix that, we can make it
+the object. To fix that, we can make it
+the object. To fix that, we can make it
+so we can't select the reference at all.
+so we can't select the reference at all.
+so we can't select the reference at all.
+In the top of the outliner under this
+In the top of the outliner under this
+In the top of the outliner under this
+tab that looks like a funnel, turn on
+tab that looks like a funnel, turn on
+tab that looks like a funnel, turn on
+the icon that looks like a cursor. This
+the icon that looks like a cursor. This
+the icon that looks like a cursor. This
+will let us disable whether or not we
+will let us disable whether or not we
+will let us disable whether or not we
+can select certain objects. So you can
+can select certain objects. So you can
+can select certain objects. So you can
+turn off the cursor on each reference
+turn off the cursor on each reference
+turn off the cursor on each reference
+image,
+image,
+image,
+but I like adding all the references to
+but I like adding all the references to
+but I like adding all the references to
+a single collection so I can turn it on
+a single collection so I can turn it on
+a single collection so I can turn it on
+and off with only one click.
+and off with only one click.
+and off with only one click.
+Now we're actually all set up. One
+Now we're actually all set up. One
+Now we're actually all set up. One
+important note, I'll be saying left and
+important note, I'll be saying left and
+important note, I'll be saying left and
+right a lot throughout this tutorial,
+right a lot throughout this tutorial,
+right a lot throughout this tutorial,
+but I sometimes mean different things.
+but I sometimes mean different things.
+but I sometimes mean different things.
+When referring to UI elements or
+When referring to UI elements or
+When referring to UI elements or
+buttons, I'll be using your left and
+buttons, I'll be using your left and
+buttons, I'll be using your left and
+right. But when referring to stuff in
+right. But when referring to stuff in
+right. But when referring to stuff in
+the 3D space itself, it'll actually be
+the 3D space itself, it'll actually be
+the 3D space itself, it'll actually be
+reversed because we will then be using
+reversed because we will then be using
+reversed because we will then be using
+your characters left and right. So if
+your characters left and right. So if
+your characters left and right. So if
+I'm telling you to go to the bottom left
+I'm telling you to go to the bottom left
+I'm telling you to go to the bottom left
+of the screen, it'll be your left. But
+of the screen, it'll be your left. But
+of the screen, it'll be your left. But
+when we're making your character's
+when we're making your character's
+when we're making your character's
+hands, we'll obviously need to refer to
+hands, we'll obviously need to refer to
+hands, we'll obviously need to refer to
+them as the character would. That's how
+them as the character would. That's how
+them as the character would. That's how
+a lot of stuff in Blender uses it. So
+a lot of stuff in Blender uses it. So
+a lot of stuff in Blender uses it. So
+it's best to get used to it now. Just
+it's best to get used to it now. Just
+it's best to get used to it now. Just
+pay attention to my cursor if it gets
+pay attention to my cursor if it gets
+pay attention to my cursor if it gets
+confusing. Okay, before we start for
+confusing. Okay, before we start for
+confusing. Okay, before we start for
+real, you can obviously see my scene
+real, you can obviously see my scene
+real, you can obviously see my scene
+already has a ton of stuff set up. All
+already has a ton of stuff set up. All
+already has a ton of stuff set up. All
+the stuff like the background and floor
+the stuff like the background and floor
+the stuff like the background and floor
+are all just cosmetic stuff that I like
+are all just cosmetic stuff that I like
+are all just cosmetic stuff that I like
+having around when I build characters.
+having around when I build characters.
+having around when I build characters.
+You don't actually need any of this, but
+You don't actually need any of this, but
+You don't actually need any of this, but
+if you'd like to have it anyway, you can
+if you'd like to have it anyway, you can
+if you'd like to have it anyway, you can
+download my starting file on my Gumroad
+download my starting file on my Gumroad
+download my starting file on my Gumroad
+for free, but again, don't worry about
+for free, but again, don't worry about
+for free, but again, don't worry about
+it. I'll explain everything you need to
+it. I'll explain everything you need to
+it. I'll explain everything you need to
+know. I'm going to turn it all off until
+know. I'm going to turn it all off until
+know. I'm going to turn it all off until
+we start rigging anyway. And the very
+we start rigging anyway. And the very
+we start rigging anyway. And the very
+last thing, add-ons. I feel like a lot
+last thing, add-ons. I feel like a lot
+last thing, add-ons. I feel like a lot
+of people turn up their noses at add-ons
+of people turn up their noses at add-ons
+of people turn up their noses at add-ons
+because it feels like cheating or
+because it feels like cheating or
+because it feels like cheating or
+whatever. So, I'm here to say don't
+whatever. So, I'm here to say don't
+whatever. So, I'm here to say don't
+resist add-ons. While you do want to
+resist add-ons. While you do want to
+resist add-ons. While you do want to
+learn the base process of doing things
+learn the base process of doing things
+learn the base process of doing things
+first, a lot of add-ons are just for
+first, a lot of add-ons are just for
+first, a lot of add-ons are just for
+quality of life and save you a ton of
+quality of life and save you a ton of
+quality of life and save you a ton of
+time. The one add-on I want you to
+time. The one add-on I want you to
+time. The one add-on I want you to
+download for this part of the tutorial
+download for this part of the tutorial
+download for this part of the tutorial
+is called Loop Tools. All it does is
+is called Loop Tools. All it does is
+is called Loop Tools. All it does is
+give you a ton of useful buttons in the
+give you a ton of useful buttons in the
+give you a ton of useful buttons in the
+side menu, which will be super useful to
+side menu, which will be super useful to
+side menu, which will be super useful to
+us later, and I use them a lot in my own
+us later, and I use them a lot in my own
+us later, and I use them a lot in my own
+modeling process. To add add-ons, in the
+modeling process. To add add-ons, in the
+modeling process. To add add-ons, in the
+top left, go to edit, preferences,
+top left, go to edit, preferences,
+top left, go to edit, preferences,
+extensions. Here you can super easily
+extensions. Here you can super easily
+extensions. Here you can super easily
+download add-ons. Just make sure you
+download add-ons. Just make sure you
+download add-ons. Just make sure you
+allow online access. Type in loop tools
+allow online access. Type in loop tools
+allow online access. Type in loop tools
+in the search and click install. I
+in the search and click install. I
+in the search and click install. I
+already have it installed. Then you can
+already have it installed. Then you can
+already have it installed. Then you can
+turn it on and off in the add-on
+turn it on and off in the add-on
+turn it on and off in the add-on
+section. Also, you could even download
+section. Also, you could even download
+section. Also, you could even download
+themes here if you want, which is why my
+themes here if you want, which is why my
+themes here if you want, which is why my
+UI might look different. The theme I use
+UI might look different. The theme I use
+UI might look different. The theme I use
+is called Gold Pro if you wanted to.
+is called Gold Pro if you wanted to.
+is called Gold Pro if you wanted to.
+Now, all the housekeeping is done. So,
+Now, all the housekeeping is done. So,
+Now, all the housekeeping is done. So,
+let's actually get to making the body.
+let's actually get to making the body.
+let's actually get to making the body.
+The first step of any model, even if
+The first step of any model, even if
+The first step of any model, even if
+you're a master doing this at a
+you're a master doing this at a
+you're a master doing this at a
+professional level, is blocking out,
+professional level, is blocking out,
+professional level, is blocking out,
+which means we start by using simple
+which means we start by using simple
+which means we start by using simple
+shapes to get the general idea of what
+shapes to get the general idea of what
+shapes to get the general idea of what
+our character will look like. Let's
+our character will look like. Let's
+our character will look like. Let's
+start with the head. As mentioned in my
+start with the head. As mentioned in my
+start with the head. As mentioned in my
+absolute beginner tutorial, we want to
+absolute beginner tutorial, we want to
+absolute beginner tutorial, we want to
+figure out what primitive shape is the
+figure out what primitive shape is the
+figure out what primitive shape is the
+best fit for the part you're trying to
+best fit for the part you're trying to
+best fit for the part you're trying to
+make. So, the guy's head is pretty
+make. So, the guy's head is pretty
+make. So, the guy's head is pretty
+round, so we start with a sphere. Well,
+round, so we start with a sphere. Well,
+round, so we start with a sphere. Well,
+not exactly. Start with a cube. I'll
+not exactly. Start with a cube. I'll
+not exactly. Start with a cube. I'll
+explain why later. Let's just get
+explain why later. Let's just get
+explain why later. Let's just get
+everything into place. move it into the
+everything into place. move it into the
+everything into place. move it into the
+general location of the head, but make
+general location of the head, but make
+general location of the head, but make
+sure to not move it left or right since
+sure to not move it left or right since
+sure to not move it left or right since
+this is the middle of the scene and we
+this is the middle of the scene and we
+this is the middle of the scene and we
+need to keep it that way. For the body,
+need to keep it that way. For the body,
+need to keep it that way. For the body,
+we should also start with a cube,
+we should also start with a cube,
+we should also start with a cube,
+but let's use the scale tool to flatten
+but let's use the scale tool to flatten
+but let's use the scale tool to flatten
+it a bit on the Y-axis
+it a bit on the Y-axis
+it a bit on the Y-axis
+and then maybe a bit on the X axis. And
+and then maybe a bit on the X axis. And
+and then maybe a bit on the X axis. And
+again, make sure to not move it left or
+again, make sure to not move it left or
+again, make sure to not move it left or
+right. Just so you know, the three axes
+right. Just so you know, the three axes
+right. Just so you know, the three axes
+of 3D space in Blender are X, left, and
+of 3D space in Blender are X, left, and
+of 3D space in Blender are X, left, and
+right, Y forward and back, and Z up and
+right, Y forward and back, and Z up and
+right, Y forward and back, and Z up and
+down. You can see which is which in the
+down. You can see which is which in the
+down. You can see which is which in the
+little gizmo in the top right. Anyway,
+little gizmo in the top right. Anyway,
+little gizmo in the top right. Anyway,
+for the limbs, let's add a cylinder. But
+for the limbs, let's add a cylinder. But
+for the limbs, let's add a cylinder. But
+before you click anything, we can
+before you click anything, we can
+before you click anything, we can
+actually edit some things about the
+actually edit some things about the
+actually edit some things about the
+object we just added in this little
+object we just added in this little
+object we just added in this little
+pop-up window in the bottom left. The
+pop-up window in the bottom left. The
+pop-up window in the bottom left. The
+number at the top is how many edges we
+number at the top is how many edges we
+number at the top is how many edges we
+want around the circumference of it.
+want around the circumference of it.
+want around the circumference of it.
+Turn that down to eight, which lowers
+Turn that down to eight, which lowers
+Turn that down to eight, which lowers
+its resolution. If we plan ahead, we can
+its resolution. If we plan ahead, we can
+its resolution. If we plan ahead, we can
+actually use these parts in our final
+actually use these parts in our final
+actually use these parts in our final
+body. If we keep its resolution down,
+body. If we keep its resolution down,
+body. If we keep its resolution down,
+it'll be a lot easier to attach it to
+it'll be a lot easier to attach it to
+it'll be a lot easier to attach it to
+the body later. Also in this menu is the
+the body later. Also in this menu is the
+the body later. Also in this menu is the
+radius, which we obviously want to be
+radius, which we obviously want to be
+radius, which we obviously want to be
+thinner. Click and drag on the number,
+thinner. Click and drag on the number,
+thinner. Click and drag on the number,
+so you can just eyeball whatever looks
+so you can just eyeball whatever looks
+so you can just eyeball whatever looks
+right. Same for the depth, but we'll
+right. Same for the depth, but we'll
+right. Same for the depth, but we'll
+probably have to change that one later
+probably have to change that one later
+probably have to change that one later
+anyway. The last bit is the cap fill,
+anyway. The last bit is the cap fill,
+anyway. The last bit is the cap fill,
+which if you switch it to nothing, you
+which if you switch it to nothing, you
+which if you switch it to nothing, you
+can see it opens up the top and bottom
+can see it opens up the top and bottom
+can see it opens up the top and bottom
+of the cylinder, which will just save us
+of the cylinder, which will just save us
+of the cylinder, which will just save us
+a step later since we don't actually
+a step later since we don't actually
+a step later since we don't actually
+want those faces. Now, since we want the
+want those faces. Now, since we want the
+want those faces. Now, since we want the
+arms and legs to look pretty much the
+arms and legs to look pretty much the
+arms and legs to look pretty much the
+same, right click and duplicate it, and
+same, right click and duplicate it, and
+same, right click and duplicate it, and
+move one dupe to the location for each.
+move one dupe to the location for each.
+move one dupe to the location for each.
+The legs are already rotated, right? But
+The legs are already rotated, right? But
+The legs are already rotated, right? But
+for the arms, we want the character to
+for the arms, we want the character to
+for the arms, we want the character to
+be in a T- pose, which I'm sure you
+be in a T- pose, which I'm sure you
+be in a T- pose, which I'm sure you
+already know about if you're into video
+already know about if you're into video
+already know about if you're into video
+games. This is just the default unrigged
+games. This is just the default unrigged
+games. This is just the default unrigged
+pose of the character, so it's both
+pose of the character, so it's both
+pose of the character, so it's both
+easier to model and easier to rig when
+easier to model and easier to rig when
+easier to model and easier to rig when
+we get to that point. To make it easy,
+we get to that point. To make it easy,
+we get to that point. To make it easy,
+when using the rotate tool, you can hold
+when using the rotate tool, you can hold
+when using the rotate tool, you can hold
+control to rotate it on set increments,
+control to rotate it on set increments,
+control to rotate it on set increments,
+so it'll snap right into place when it
+so it'll snap right into place when it
+so it'll snap right into place when it
+hits 90°.
+hits 90°.
+hits 90°.
+Just like I mentioned with the reference
+Just like I mentioned with the reference
+Just like I mentioned with the reference
+image, you can open up the side menu by
+image, you can open up the side menu by
+image, you can open up the side menu by
+pressing N and see what its rotation is.
+pressing N and see what its rotation is.
+pressing N and see what its rotation is.
+In this case, we want the Y rotation to
+In this case, we want the Y rotation to
+In this case, we want the Y rotation to
+be 90. Now that our parts are somewhat
+be 90. Now that our parts are somewhat
+be 90. Now that our parts are somewhat
+in place, we can start by using the
+in place, we can start by using the
+in place, we can start by using the
+reference, but it's kind of hard to get
+reference, but it's kind of hard to get
+reference, but it's kind of hard to get
+a good idea of where the parts should go
+a good idea of where the parts should go
+a good idea of where the parts should go
+in that case because our view has depth.
+in that case because our view has depth.
+in that case because our view has depth.
+We can change this though by pressing
+We can change this though by pressing
+We can change this though by pressing
+one on your numpad specifically. It'll
+one on your numpad specifically. It'll
+one on your numpad specifically. It'll
+completely flatten out the view. This is
+completely flatten out the view. This is
+completely flatten out the view. This is
+called orthographic projection, which is
+called orthographic projection, which is
+called orthographic projection, which is
+necessary for modeling with a reference
+necessary for modeling with a reference
+necessary for modeling with a reference
+and just handy in general. You can also
+and just handy in general. You can also
+and just handy in general. You can also
+go to this view by clicking on the axis
+go to this view by clicking on the axis
+go to this view by clicking on the axis
+in the top right gizmo, specifically the
+in the top right gizmo, specifically the
+in the top right gizmo, specifically the
+negative Y part. Now, let's get this
+negative Y part. Now, let's get this
+negative Y part. Now, let's get this
+stuff into the right place. Shift select
+stuff into the right place. Shift select
+stuff into the right place. Shift select
+each object by going into edit mode so
+each object by going into edit mode so
+each object by going into edit mode so
+we can edit them all at the same time.
+we can edit them all at the same time.
+we can edit them all at the same time.
+For the head, we want to move and scale
+For the head, we want to move and scale
+For the head, we want to move and scale
+the whole thing. So, you can select it
+the whole thing. So, you can select it
+the whole thing. So, you can select it
+all by hovering over it and pressing L,
+all by hovering over it and pressing L,
+all by hovering over it and pressing L,
+which stands for select linked. We'll
+which stands for select linked. We'll
+which stands for select linked. We'll
+have to edit this one a lot more later,
+have to edit this one a lot more later,
+have to edit this one a lot more later,
+so just get it a little closer.
+You can go into side orthographic view
+You can go into side orthographic view
+You can go into side orthographic view
+with numpad 3 or clicking the positive
+with numpad 3 or clicking the positive
+with numpad 3 or clicking the positive
+X-axis. The numpad numbers are all used
+X-axis. The numpad numbers are all used
+X-axis. The numpad numbers are all used
+for orthographic view. As I move the
+for orthographic view. As I move the
+for orthographic view. As I move the
+torso, I'm seeing that our references
+torso, I'm seeing that our references
+torso, I'm seeing that our references
+aren't at the same height. So, make sure
+aren't at the same height. So, make sure
+aren't at the same height. So, make sure
+you can select the references again. And
+you can select the references again. And
+you can select the references again. And
+in the right panel, you can copy its Z
+in the right panel, you can copy its Z
+in the right panel, you can copy its Z
+location or its vertical location and
+location or its vertical location and
+location or its vertical location and
+paste it onto the other reference's Z
+paste it onto the other reference's Z
+paste it onto the other reference's Z
+location. We should also make sure that
+location. We should also make sure that
+location. We should also make sure that
+the reference's feet are right on the
+the reference's feet are right on the
+the reference's feet are right on the
+ground. So, make sure they sit right on
+ground. So, make sure they sit right on
+ground. So, make sure they sit right on
+this colored line. Then, copy that Z
+this colored line. Then, copy that Z
+this colored line. Then, copy that Z
+location to the other reference.
+location to the other reference.
+location to the other reference.
+Now, we can line everything up
+Now, we can line everything up
+Now, we can line everything up
+perfectly.
+For the arms and legs, alt click the
+For the arms and legs, alt click the
+For the arms and legs, alt click the
+ends of each cylinder. Then move the
+ends of each cylinder. Then move the
+ends of each cylinder. Then move the
+wrist to the reference's wrist and the
+wrist to the reference's wrist and the
+wrist to the reference's wrist and the
+shoulder to the shoulder.
+shoulder to the shoulder.
+shoulder to the shoulder.
+And then the top of the thigh and the
+And then the top of the thigh and the
+And then the top of the thigh and the
+ankle, too. Scaling out each part to
+ankle, too. Scaling out each part to
+ankle, too. Scaling out each part to
+make it fit the reference.
+All right, everything is moved into
+All right, everything is moved into
+All right, everything is moved into
+place, but we only have one set of
+place, but we only have one set of
+place, but we only have one set of
+limbs. This is because there's a
+limbs. This is because there's a
+limbs. This is because there's a
+modifier that'll save us a bunch of
+modifier that'll save us a bunch of
+modifier that'll save us a bunch of
+modeling time, which is the mirror
+modeling time, which is the mirror
+modeling time, which is the mirror
+modifier. Humans are mostly symmetrical,
+modifier. Humans are mostly symmetrical,
+modifier. Humans are mostly symmetrical,
+so we might as well use it. But before
+so we might as well use it. But before
+so we might as well use it. But before
+we add it to anything, we need to set
+we add it to anything, we need to set
+we add it to anything, we need to set
+the model up so it'll work right. For
+the model up so it'll work right. For
+the model up so it'll work right. For
+one, all of these pieces are different
+one, all of these pieces are different
+one, all of these pieces are different
+objects, which all have their own set of
+objects, which all have their own set of
+objects, which all have their own set of
+modifiers. So if you shift select every
+modifiers. So if you shift select every
+modifiers. So if you shift select every
+part and hit CtrlJ, it'll join each
+part and hit CtrlJ, it'll join each
+part and hit CtrlJ, it'll join each
+object into a single one. So we just
+object into a single one. So we just
+object into a single one. So we just
+need one modifier for the whole thing.
+need one modifier for the whole thing.
+need one modifier for the whole thing.
+But we actually need to care about what
+But we actually need to care about what
+But we actually need to care about what
+order we select the objects in. The
+order we select the objects in. The
+order we select the objects in. The
+mirror modifier mirrors across the
+mirror modifier mirrors across the
+mirror modifier mirrors across the
+object's origin point, which is this
+object's origin point, which is this
+object's origin point, which is this
+orange dot you see when you select it.
+orange dot you see when you select it.
+orange dot you see when you select it.
+So for the torso, it's here, but for the
+So for the torso, it's here, but for the
+So for the torso, it's here, but for the
+arms, it's here. We want to use the
+arms, it's here. We want to use the
+arms, it's here. We want to use the
+torso's origin point as the mirror point
+torso's origin point as the mirror point
+torso's origin point as the mirror point
+for the whole body. So make sure that in
+for the whole body. So make sure that in
+for the whole body. So make sure that in
+the right menu, it's at zero in its X
+the right menu, it's at zero in its X
+the right menu, it's at zero in its X
+location. Same for the head. The numbers
+location. Same for the head. The numbers
+location. Same for the head. The numbers
+here are the origin points location in
+here are the origin points location in
+here are the origin points location in
+3D space. Then shift select the objects,
+3D space. Then shift select the objects,
+3D space. Then shift select the objects,
+but make sure you select the torso last.
+but make sure you select the torso last.
+but make sure you select the torso last.
+You can deselect it and reselect it to
+You can deselect it and reselect it to
+You can deselect it and reselect it to
+make sure it was selected last. Then
+make sure it was selected last. Then
+make sure it was selected last. Then
+pressing Ctrl + J will sort all other
+pressing Ctrl + J will sort all other
+pressing Ctrl + J will sort all other
+objects into its group. Now the last
+objects into its group. Now the last
+objects into its group. Now the last
+step is to actually cut off the other
+step is to actually cut off the other
+step is to actually cut off the other
+side of the torso and head that are on
+side of the torso and head that are on
+side of the torso and head that are on
+the right side of the torso, the
+the right side of the torso, the
+the right side of the torso, the
+character's right, your left, since that
+character's right, your left, since that
+character's right, your left, since that
+part will get filled in by the mirror
+part will get filled in by the mirror
+part will get filled in by the mirror
+modifier and it'll overlap if we don't
+modifier and it'll overlap if we don't
+modifier and it'll overlap if we don't
+get rid of it. Go to edit mode and use
+get rid of it. Go to edit mode and use
+get rid of it. Go to edit mode and use
+CtrlR to start a loop cut over the
+CtrlR to start a loop cut over the
+CtrlR to start a loop cut over the
+center of the torso and click to add it
+center of the torso and click to add it
+center of the torso and click to add it
+in and right click so it doesn't move
+in and right click so it doesn't move
+in and right click so it doesn't move
+from its original spot. You can use the
+from its original spot. You can use the
+from its original spot. You can use the
+loop cut tool, but when modeling a
+loop cut tool, but when modeling a
+loop cut tool, but when modeling a
+character, you do a lot of loop cutting,
+character, you do a lot of loop cutting,
+character, you do a lot of loop cutting,
+so it'll be handy to know the shortcut,
+so it'll be handy to know the shortcut,
+so it'll be handy to know the shortcut,
+which is controlr. Using the shortcut
+which is controlr. Using the shortcut
+which is controlr. Using the shortcut
+has its own benefits, too, but I'll
+has its own benefits, too, but I'll
+has its own benefits, too, but I'll
+explain that later. Now, shift select
+explain that later. Now, shift select
+explain that later. Now, shift select
+all of the verts in the right face of
+all of the verts in the right face of
+all of the verts in the right face of
+the torso and X or delete to delete them
+the torso and X or delete to delete them
+the torso and X or delete to delete them
+and delete vertices. So, delete these
+and delete vertices. So, delete these
+and delete vertices. So, delete these
+faces along with it. Repeat those steps
+faces along with it. Repeat those steps
+faces along with it. Repeat those steps
+with the head. Now, everything is
+with the head. Now, everything is
+with the head. Now, everything is
+sorted, so we can finally go to the blue
+sorted, so we can finally go to the blue
+sorted, so we can finally go to the blue
+wrench tab and add the mirror modifier
+wrench tab and add the mirror modifier
+wrench tab and add the mirror modifier
+by searching for it. It fills in the
+by searching for it. It fills in the
+by searching for it. It fills in the
+right half of the body and any change
+right half of the body and any change
+right half of the body and any change
+that we make will automatically be
+that we make will automatically be
+that we make will automatically be
+applied to the other side. Now, it's
+applied to the other side. Now, it's
+applied to the other side. Now, it's
+important to know some quirks that'll
+important to know some quirks that'll
+important to know some quirks that'll
+happen with this modifier. As is the
+happen with this modifier. As is the
+happen with this modifier. As is the
+case with all modifiers, the parts of
+case with all modifiers, the parts of
+case with all modifiers, the parts of
+the model that it's adding don't
+the model that it's adding don't
+the model that it's adding don't
+actually exist yet. So, just as an
+actually exist yet. So, just as an
+actually exist yet. So, just as an
+example, we hit A to select all the
+example, we hit A to select all the
+example, we hit A to select all the
+verts in edit mode. You can see the
+verts in edit mode. You can see the
+verts in edit mode. You can see the
+center point of our selection is
+center point of our selection is
+center point of our selection is
+actually a bit off to the right. And
+actually a bit off to the right. And
+actually a bit off to the right. And
+when we scale it down with S, you can
+when we scale it down with S, you can
+when we scale it down with S, you can
+see it separates the model from its
+see it separates the model from its
+see it separates the model from its
+mirrored side. For one, in the modifier
+mirrored side. For one, in the modifier
+mirrored side. For one, in the modifier
+settings, you can enable clipping, which
+settings, you can enable clipping, which
+settings, you can enable clipping, which
+at least makes it so the verts in the
+at least makes it so the verts in the
+at least makes it so the verts in the
+mirrored center are locked together and
+mirrored center are locked together and
+mirrored center are locked together and
+won't ever separate, but it's still
+won't ever separate, but it's still
+won't ever separate, but it's still
+scaling weird. This is just a quirk that
+scaling weird. This is just a quirk that
+scaling weird. This is just a quirk that
+you'll have to learn to deal with, more
+you'll have to learn to deal with, more
+you'll have to learn to deal with, more
+or less. You can do some special stuff
+or less. You can do some special stuff
+or less. You can do some special stuff
+to change where you're scaling from, but
+to change where you're scaling from, but
+to change where you're scaling from, but
+it's more efficient to just learn ways
+it's more efficient to just learn ways
+it's more efficient to just learn ways
+around it. One way is to actually use
+around it. One way is to actually use
+around it. One way is to actually use
+the shortcut Alt S, which instead of
+the shortcut Alt S, which instead of
+the shortcut Alt S, which instead of
+scaling to the center point of
+scaling to the center point of
+scaling to the center point of
+everything you selected, will scale each
+everything you selected, will scale each
+everything you selected, will scale each
+face inward or outward, which can have
+face inward or outward, which can have
+face inward or outward, which can have
+its own quirks, but it generally works a
+its own quirks, but it generally works a
+its own quirks, but it generally works a
+lot better with parts that are being
+lot better with parts that are being
+lot better with parts that are being
+mirrored, like the torso.
+mirrored, like the torso.
+mirrored, like the torso.
+And the last thing to know, when we add
+And the last thing to know, when we add
+And the last thing to know, when we add
+objects in edit mode, they'll be a part
+objects in edit mode, they'll be a part
+objects in edit mode, they'll be a part
+of the selected group, which is more
+of the selected group, which is more
+of the selected group, which is more
+efficient than just control Jing every
+efficient than just control Jing every
+efficient than just control Jing every
+time. But they will have the mirror
+time. But they will have the mirror
+time. But they will have the mirror
+modifier, and they might not be ready to
+modifier, and they might not be ready to
+modifier, and they might not be ready to
+have it yet. We can solve this issue by
+have it yet. We can solve this issue by
+have it yet. We can solve this issue by
+moving the 3D cursor, which is this
+moving the 3D cursor, which is this
+moving the 3D cursor, which is this
+little lifesaver thing at the bottom. It
+little lifesaver thing at the bottom. It
+little lifesaver thing at the bottom. It
+has a ton of uses, but its primary
+has a ton of uses, but its primary
+has a ton of uses, but its primary
+function is to be where every object
+function is to be where every object
+function is to be where every object
+spawns when we add them. We move it by
+spawns when we add them. We move it by
+spawns when we add them. We move it by
+shift right clicking. So, if it's on the
+shift right clicking. So, if it's on the
+shift right clicking. So, if it's on the
+left side, which is the real side of the
+left side, which is the real side of the
+left side, which is the real side of the
+model, we can add objects and they'll be
+model, we can add objects and they'll be
+model, we can add objects and they'll be
+mirrored normally. Then, if you need to,
+mirrored normally. Then, if you need to,
+mirrored normally. Then, if you need to,
+you can add loop cuts and delete the
+you can add loop cuts and delete the
+you can add loop cuts and delete the
+right side and then move them into the
+right side and then move them into the
+right side and then move them into the
+center to glue them to the mirrored
+center to glue them to the mirrored
+center to glue them to the mirrored
+side. Let's add some cubes for the hands
+side. Let's add some cubes for the hands
+side. Let's add some cubes for the hands
+and feet. Let's squish the hand cube
+and feet. Let's squish the hand cube
+and feet. Let's squish the hand cube
+down
+and resize the foot cube so it's about
+and resize the foot cube so it's about
+and resize the foot cube so it's about
+as thick as the leg, but obviously
+as thick as the leg, but obviously
+as thick as the leg, but obviously
+longer in the front to fit the
+longer in the front to fit the
+longer in the front to fit the
+reference. Make sure to not accidentally
+reference. Make sure to not accidentally
+reference. Make sure to not accidentally
+glue them in the middle.
+Just to make things go back to normal,
+Just to make things go back to normal,
+Just to make things go back to normal,
+let's return the 3D cursor back to where
+let's return the 3D cursor back to where
+let's return the 3D cursor back to where
+it was. You can do this by pressing
+it was. You can do this by pressing
+it was. You can do this by pressing
+shift S and selecting cursor to world
+shift S and selecting cursor to world
+shift S and selecting cursor to world
+origin. The other options are great for
+origin. The other options are great for
+origin. The other options are great for
+positioning the 3D cursor in other ways
+positioning the 3D cursor in other ways
+positioning the 3D cursor in other ways
+too, so remember it for later. Now that
+too, so remember it for later. Now that
+too, so remember it for later. Now that
+all of that is dealt with, we can add
+all of that is dealt with, we can add
+all of that is dealt with, we can add
+more loops to these parts to refine the
+more loops to these parts to refine the
+more loops to these parts to refine the
+shape further. For the torso, add one
+shape further. For the torso, add one
+shape further. For the torso, add one
+loop around the waist. When we add it
+loop around the waist. When we add it
+loop around the waist. When we add it
+with a shortcut, we can slide it down
+with a shortcut, we can slide it down
+with a shortcut, we can slide it down
+automatically, which the tool doesn't
+automatically, which the tool doesn't
+automatically, which the tool doesn't
+let us do. Now, we can select the two
+let us do. Now, we can select the two
+let us do. Now, we can select the two
+verts on the edge and move them inward.
+verts on the edge and move them inward.
+verts on the edge and move them inward.
+And moving the back edge inward, too, to
+And moving the back edge inward, too, to
+And moving the back edge inward, too, to
+make a slight hourglass shape. I won't
+make a slight hourglass shape. I won't
+make a slight hourglass shape. I won't
+describe every action I'm doing out
+describe every action I'm doing out
+describe every action I'm doing out
+loud. So, if you want to copy me
+loud. So, if you want to copy me
+loud. So, if you want to copy me
+exactly, just pay attention. But you can
+exactly, just pay attention. But you can
+exactly, just pay attention. But you can
+edit all the stuff to your own liking,
+edit all the stuff to your own liking,
+edit all the stuff to your own liking,
+so don't worry about getting it exact.
+For the feet, you can controlr to add a
+For the feet, you can controlr to add a
+For the feet, you can controlr to add a
+loop like usual. But one thing the
+loop like usual. But one thing the
+loop like usual. But one thing the
+shortcut lets us do while hovering over
+shortcut lets us do while hovering over
+shortcut lets us do while hovering over
+the area we want to add the loop to, you
+the area we want to add the loop to, you
+the area we want to add the loop to, you
+can scroll up and down to change the
+can scroll up and down to change the
+can scroll up and down to change the
+number of loops that we want to add.
+number of loops that we want to add.
+number of loops that we want to add.
+Here, let's add two. We can move this
+Here, let's add two. We can move this
+Here, let's add two. We can move this
+one so there's a sort of square face
+one so there's a sort of square face
+one so there's a sort of square face
+under the leg. And we can move the other
+under the leg. And we can move the other
+under the leg. And we can move the other
+one to the edge of the toe. And we can
+one to the edge of the toe. And we can
+one to the edge of the toe. And we can
+grab these four verts around the toe and
+grab these four verts around the toe and
+grab these four verts around the toe and
+lower them, giving us a nice simple
+lower them, giving us a nice simple
+lower them, giving us a nice simple
+shoelike shape. You can go off on your
+shoelike shape. You can go off on your
+shoelike shape. You can go off on your
+own as much as you'd like. Of course,
+own as much as you'd like. Of course,
+own as much as you'd like. Of course,
+you don't have to copy everything I do.
+Just remember that if you move the legs
+Just remember that if you move the legs
+Just remember that if you move the legs
+too close to each other, they'll get
+too close to each other, they'll get
+too close to each other, they'll get
+glued by the mirror modifier. You can
+glued by the mirror modifier. You can
+glued by the mirror modifier. You can
+fix that by disabling clipping in the
+fix that by disabling clipping in the
+fix that by disabling clipping in the
+modifier and then simply moving them
+modifier and then simply moving them
+modifier and then simply moving them
+away from each other, but it's generally
+away from each other, but it's generally
+away from each other, but it's generally
+a lot better to just be careful about
+a lot better to just be careful about
+a lot better to just be careful about
+it.
+it.
+it.
+And that's our character blocked out.
+And that's our character blocked out.
+And that's our character blocked out.
+So, in the next video, we'll be building
+So, in the next video, we'll be building
+So, in the next video, we'll be building
+the head. If you ever have any questions
+the head. If you ever have any questions
+the head. If you ever have any questions
+or problems during the process, comment
+or problems during the process, comment
+or problems during the process, comment
+them below or go to my Discord server
+them below or go to my Discord server
+them below or go to my Discord server
+where I have a help channel where you
+where I have a help channel where you
+where I have a help channel where you
+can ask questions. I'll try to answer as
+can ask questions. I'll try to answer as
+can ask questions. I'll try to answer as
+many as I can. See you in the next one.

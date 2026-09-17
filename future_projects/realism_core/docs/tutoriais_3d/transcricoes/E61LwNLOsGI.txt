@@ -1,0 +1,864 @@
+this video will show how to add finely
+sculpted details to a low density mesh
+using a normal map this is part of a
+series that goes through all the steps
+it takes to make a character in blender
+if you haven't seen the previous videos
+as long as you have a uv'd
+low density mesh you'll have all you
+need to follow along
+here's an example of a character that
+has a normal map similar to the one that
+we'll make in this tutorial
+and you can see for example on the lips
+here
+there's lots of wrinkles on it but if
+you look at the actual geometry
+it's actually a very simple geometry and
+over here you can see the
+this is the actual normal map and you
+can see
+the wrinkles on this normal map here
+and that's how we get the textures or
+the shapes
+on these lips here
+we create the normal map with two meshes
+a low density mesh like you see on the
+left here that you use for your
+animations or your project
+and a high density mesh using a
+multi-res modifier
+which you do all your fine detail and
+sculpting work and then we do
+a process called baking where we bake
+the detail of the high res mesh onto
+the load detail mesh
+the way we're doing this tutorial is a
+little bit backwards because we're
+starting off with a low detail mesh
+and then creating a high detail sculpt
+normally you'd create a high detail
+sculpt first
+and then create the low detail mesh
+afterwards
+either way once you've got the two
+meshes a low detail and a high detail
+the process of baking the normals is the
+same thing
+okay let's sculpt some details
+okay let's go to our sculpting workspace
+if you mouse over the outliner and hit
+minus it closes
+the collections via plus it opens them
+so let's
+hide that hide that open our character
+here
+grab the body go to edit mode
+drag some and zoom in and i
+we just want to get the parts we want to
+sculpt and
+we are only going to put detail on the
+face if you want to put detail
+in more places you're welcome to but
+this tutorial just covers the face
+so let's grab the eye sockets
+grab the mouth
+just in case we need that
+hit shift d escape
+mesh separate selection
+okay go out of edit mode grab the
+we can hide that grab the body and hit h
+to hide it
+let's leave x-ray and there we go we
+have
+the mesh that we're going to do the high
+detail on
+let's go to the modifiers tab
+and let's delete our sub d go and add a
+multi resolution
+so it's right here and depending on your
+system
+if you have a weak weak system you won't
+be able to subdivide this
+many times if you can swing it
+get this up to about seven six is
+probably okay
+but seven is better you can see my
+computer's
+cranking as it thinks about this and one
+more time
+so we've got that set up and if you go
+to
+go to sculpt mode you can see it's
+very high detail
+i don't like the view so
+wide angles let's make this 200
+and i think we are ready to
+sculpt let's go to x-ray and go to tool
+let's actually move this over here
+we can use this texture
+from where we're doing the colors let's
+put this to
+stencil let's put this
+sample bias to negative 0.7
+set this to 0.1
+let's go to the front view here
+and zoom in on the lips let's drag this
+here and it's
+stretched so let's reset the image
+aspect
+oops we said transform
+image aspect
+turn off whenever i undo things kind of
+revert
+so okay here we go
+i think that looks pretty good to start
+with
+let's let's take a minute to explain
+this sample bias here
+so the effect we're trying to go for is
+the dark parts
+of this texture we want that to push
+inwards and the rest we want to stay the
+same
+so that way the shape of the lips
+overall stays
+the same it's just we put in some detail
+so let me show you
+what that looks like here so if you
+leave us at zero
+and we brush over here
+we can see it pops outwards and we don't
+want
+that okay
+if we set this to negative one and do
+the same thing
+you can see the whole thing pushes
+inwards we don't want that
+i've messed with this so i know that
+negative point seven
+is just about right
+so if we brush that you can see
+more or less it stays pretty flush it
+sinks in a bit but
+it's pretty flush this is overly
+exaggerated because i have it set to
+strength
+1. so
+when you want to do this let's ctrl z
+this a few times
+here here and here
+when you have your own textures just
+mess with the sample bias
+so that way it stays um pretty flat
+also and i thought it would do it but it
+didn't do it sometimes
+this texture gets really hard to see
+like it gets really faint or really dark
+i don't know why that happens but the
+only way i've found to fix that
+is you just go to brushes delete that
+brush
+hit a new brush and re-grab your texture
+and you have to basically reset
+everything
+and then it goes back to where you can
+see it nicely
+so okay so let's
+go back to our front view here
+we will reset the image aspect
+like that and let's scale it down a bit
+here actually let's zoom in here
+and scale that up and get this lined up
+just the way we want it
+and then let's make this 0.1
+get our bias back to negative 0.7
+and then let's make this a bit bigger
+and we can just
+oh yeah you see here how we lost our um
+for some reason it changed and it's hard
+to see so
+i don't know why that happens but we
+just delete
+that oops
+new tiled
+stencil it's so weird
+okay 0.1
+and negative 0.7 okay i don't know why
+it's happening
+okay here we are so let's brush this in
+so if we just
+brush that in with our mouse this is
+probably better with a
+stylus you can see we're getting some
+texturing
+and so this is the artistic part you
+just
+brush it in until you are happy with the
+effect
+if you're using a mouse set this to 0.1
+so you can easily
+just sneak up on how much texture you
+want to add
+put a little bit around the edges
+to be more here
+maybe more in the middle
+okay i think that's pretty good let's
+see what we got here
+let's drag that aside
+normally textures don't line up
+perfectly like that
+but you can always go in and add some
+more texture so
+you can just drag that to where you want
+it or you can rotate it
+and add a bit more as you please
+you can like rotate and scale and mess
+with whatever texture map you're using
+to get your texture to be just the way
+you want it
+okay let's add some more texture here so
+we will
+copy this and call this
+a dash skin
+blow that away click open and find the
+texture i made for this tutorial i'll
+give this to you guys also
+let's set this to actually random
+and make the sample bias negative point
+eight
+i've already tested it and make this
+point one
+and for when you set to random it just
+randomly
+throws this texture down everywhere if
+you
+make the spacing less let's say point
+two percent it'll make that
+um that uh these textures closer
+together
+the largest number it is they're further
+apart they are
+and then let's see here so if you hit
+f you can make this texture this the
+scale you want to be so
+i think that's pretty good
+but you should also set brush to
+scene okay so you can see the size of
+this
+texture and the size the red dot red
+circle
+if you set the brush to scene
+right there when you scale out the size
+of the red circle
+it gets smaller also so this way
+whatever
+zoom level you're in that texture is
+always the same size
+in relation to the face if this is set
+to view
+when you scale out like this you can see
+the size of the texture is
+gigantic and so that wouldn't it
+wouldn't look good
+so choose
+the size you want go to brush and scene
+okay 0.1 negative
+0.8 i'm going to turn on mirror
+so you only have to do one side
+and let's hide these eyelashes so we can
+see better
+so just really lightly
+i mean this is a pretty stylized
+character so i'm just really lightly
+putting some indication of
+texture so there's a bit more depth
+like that and it's i don't even know if
+you can see it in the video but there's
+a very faint texture there
+if you did a if you were making a very
+realistic character
+each zone of the face would have a
+different type of texture map
+because the skin the skin changes
+all over the face and all over the body
+for this it's a pretty stylized
+simple character so i'm just going to
+use this one texture for the whole face
+when you add um subsurface scattering
+and color to it it's really hard to see
+but sometimes you'll catch it with a
+shadow
+you can see my computer just lagged
+there because it's um
+the multi-resolution is pretty high so
+it's hard for my computer to handle this
+i'm steering clear of the edge of this
+mesh here because if if you go too close
+to it
+you'll see an abrupt change from
+textured to non-textured
+if you want to texture the back of the
+head you should have you can grab that
+too
+let's add a bit of texture here
+okay maybe we can add
+a little more like larger pores
+here just a little bit
+you also want to be careful um around
+the eyelids
+because when they close it'll stretch
+all these textures
+so i'm actually i'm actually not putting
+any textures there
+if if that's important to you what you
+can do is model your character with the
+eyes
+closed or partially closed and then
+texture it that way and then animate it
+opened
+so this way you get more resolution but
+for me
+it doesn't bother me so i'm i'm doing it
+like this
+so yeah so i think that's i think that's
+pretty good
+i think i'm happy with that okay let's
+go to our shader workspace
+so when we bake the normals we want to
+have our high res mesh
+the low res mesh and we want to create a
+new texture
+that's inside our low res mesh
+when we bake the normals from the
+high-res mesh
+onto the low-res mesh we actually record
+it
+in that new texture we're going to
+create that's inside the low-res mesh
+so let's go and create that
+let's make a little more space here and
+let's
+get this file set up to bake
+so we only want things active
+that we want in our bake so let's turn
+everything off we don't want
+this little eye means it's not visible
+but it would still render so you can
+delete that or move it somewhere i'll
+put it in templates
+and let's check here these eyelashes
+will get in the way because they are
+active so let's turn that off
+and oops we've got this is our high res
+mesh let's name that
+high
+res sculpt
+and let's call this which is our body
+the um
+low-res
+mesh okay so we got those
+two here let's also just so we don't
+confuse ourself
+let's take off the material from the
+high res
+so turn that hit that minus and it'll
+delete
+this material
+let's move this over a bit here and
+we'll add our
+textures so we can make our normals onto
+it
+so shift a s i m a for
+image texture click that there we will
+shift duplicate this so we'll make
+one lower resolution so we can test it
+and one high resolution so we can do it
+for real because
+baking is finicky and it takes a few
+tries to get to work
+so click new call this a-u-t
+oops a-u-t dash
+normal normal
+one we'll make this say 4k to match our
+other textures
+4096. that's kind of overkill
+okay and then we will make a new one
+here
+a-u-t dash normal
+test and we'll make this
+15 37
+15 37.
+it's kind of high but the the uh the
+face is so small on this map i want to
+be able to at least
+see what we're testing make this
+blue okay so we've got those two here
+let's
+make sure our big settings are proper so
+cycles so set this to cycles feature set
+support is fine gp if you have a good
+gpu turn it on if you don't you can use
+a cpu
+let's lower this this uh this render
+settings here
+samples is how high quality it is
+so let's lower this to 64 for our test
+we'll make it
+higher when we do our actual bake
+you can use denoising i'm not sure if
+this works for bakes for normals but um
+you can have that turned on if you have
+a gpu optic x is good if you don't you
+can use open image
+for cpu and bake set this to
+normals normals
+there we go um selected to active
+here and so basically when you do your
+baking
+you're kind of like messing with this um
+extrusion number here
+and just playing with that so so um
+and it takes a few tries to get the
+perfect setting
+what i'm going to do is show you bad
+first so you can
+understand what bad and good looks like
+and then we'll do a good one
+and then let's see here oh i forgot also
+so
+let's start with our test so this is the
+autumn normal test
+so let's make it visible here and
+autumn normal test okay so at least we
+can
+kind of preview and see what's going on
+for our test render so this is how
+baking works
+you click your high-res mesh you shift
+click your low res mesh you
+select the texture you want to
+bake your normals onto make sure it's
+visible here which it is make sure
+the normal is selected here and selected
+to active
+and then you want to have this set to
+the proper number this is the improper
+number let's test it and see what it
+looks like
+okay so let's take a look here so if you
+see
+so for your for your normal map
+everything wants to be
+kind of purpley um all this
+yellow and green and you know
+bright fuchsia and dark purple that's
+all
+bad we don't want that if you look
+closely
+this is part of the lip here you see how
+it's
+pinks and purples light purples and blue
+light blues
+that's all good so we want the whole
+thing to be as much
+as possible like that so this is
+clearly not okay
+so normally i'd mess with this until i
+get something that looks good let's try
+0.5 which i think worked pretty good
+okay so let's see here now
+okay so we've got lots of the wrinkles
+for the lips
+look like they're all correct this here
+is this
+um this is like inside the lips and
+inside the mouth a bit
+so you get this kind of thing going on
+when
+there's a cavity or something like that
+for this bake it's
+um it's okay we are going to just erase
+that
+in blender usually i use photoshop to
+delete these or erase these kinds of
+things but
+let's try and stick to blender only for
+this tutorial so
+as much as possible so let's just use
+blender to do that
+but let me see here
+if everything else looks good yeah these
+textures are so faint it's okay
+and so all this other stuff all over
+here we're just gonna blow all of that
+away
+but we'll keep some of these faint
+texture details around the face and the
+lips
+okay so let's do our actual bake so we
+will
+grab our
+real texture here we'll make it visible
+down
+here autumn
+normal01 okay this is our 4k texture
+here
+that's clicked on here so click our mesh
+shift clicked
+click our hybridized mesh shift click
+the low res mesh
+select the texture we want to bake our
+normal onto
+make it visible here so you can see it
+and then
+we've got 0.5 set and click bake
+okay let's check out our normal map here
+so we'll see
+yep we've got faint textures hopefully
+you can see that in the video
+like here on the cheek there's some
+paint textures
+let's make this bigger
+yeah yeah wrinkles for the lips that's
+good
+um these here will um just because
+they're cavities we'll
+get rid of all those so let's first save
+our image when we've got the star it
+means it's not saved so let's go to
+image
+and save as and it's autumn normal 01
+save okay so we've got that saved
+next we'll resize the image so go to the
+image editing program of your choice
+i'm using photoshop open up
+our new normal map and
+let me explain why we're doing this so
+when you create normals in blender
+there's um it doesn't smooth things out
+there's no anti-aliasing so this is a a
+hack to get anti-aliasing so you can see
+here these um it's pretty rough
+especially these wrinkles and so we will
+go to image and image
+size and change this to a 4k
+and click ok and then when it updates
+ah when it updates you can see
+now this has smoothed out nicely
+so then go to file and save
+then let's jump back into blender
+back in blender let's just make sure we
+reload our texture
+so we'll go to get rid of that
+and go to open and navigate to where we
+have the textures saved
+which is in the textures folder can't
+see here
+and autumn normal
+now let's go and
+edit that image so we'll go to our
+texture paint workspace drag that over
+and drag this over yeah let's just start
+messing with this
+you know i forgot let's take a look and
+see actually let's plug in our normal
+map and see what it looks like
+so let's go to our shading workspace
+and drag this down here we don't need
+this
+test anymore so let's delete that
+we'll drag our texture over here
+and let's also make sure you save your
+file
+so you have this high detail sculpt if
+you need to bake again
+i'm going to delete it so it's bogging
+down my system
+let's turn on the lights here so we can
+see what's going
+on and again grab our mesh
+let's plug these things in so this goes
+to non-color
+drag this color node to
+normal you can see it looks really
+strange
+we don't want that then go to shift a
+at shift a s n
+o r for normal map just drag this onto
+the white line
+and it's plugged in the way it should be
+um let's take a look and see
+here yeah
+there's texture here
+it's hard to see so let's pull off our
+albedo
+okay okay so you can see we've got
+indeed we've got some textures on the
+lips
+we've got some i can barely see textures
+on
+the cheeks here so we're good
+but you can see um anywhere we had those
+surfaces or cavities too close together
+you can see
+you have these weird shadows or
+watermarks so we need to get rid of
+all of that stuff here so
+you know you could have actually
+rendered this at a higher resolution but
+4k is pretty high so i don't think we
+want to
+go any higher than that it's a little
+bit rough
+but people won't really be looking this
+close
+it'll be more you know like
+maybe here and it looks fine from this
+distance
+okay it's a weird collar brown okay so
+let's go and
+let's go and and get rid of all these um
+little imperfections in our normal map
+so let's grab this and drag it over here
+and drag that over there
+we will make this one smaller and set
+this to
+image editor
+and set this from view to paint
+and hit t to bring up our tools palette
+so we can paint it we can edit things
+here and and fix it we can also edit
+things here so we set this to
+texture paint and hit t for tools
+you can see we can edit the normal map
+in the actual 3d viewport too so let's
+let's show you both of those ways of
+doing things
+so let's zoom in here and
+okay you can see this funny little
+watermark there we want to get rid of
+that
+so if we reduce this down
+and go to the smudge tool
+we can hit n to get our tools palette
+and
+set the strength from 1 to
+all the way down i'm just going to leave
+it at 1.
+and i'm going to just smudge this around
+until i don't see it
+in the 3d viewport but you want to be
+careful not to mess up the
+good parts of your normal map so this
+part here
+is good sorry this part here is good
+this pink part is bad so we want to make
+sure you don't mess with the pink part
+but um i want to show you so let's see
+here
+so let's mess with this little yellow
+part okay
+so if you go and smudge it down
+you can see it fixes it makes a little
+tiny fixed part
+in the 3d viewport so if you go and just
+drag all this
+in you can see it starts to move
+all that bad area in towards the middle
+of
+her mouth okay so you can do that
+you can also brush it so if you hit the
+brush tool
+and find a nice neutral color
+somewhere so maybe here is
+good hit s to pick it up
+and then you can i think my brush is set
+too weak
+so let's go to the brush
+settings here and
+oh strength yeah it's too low so i'm
+going to put that
+all the way up okay s
+to grab a color and then you can just
+draw that all and just get rid of it
+so use smudge or used painting whatever
+whatever you like whatever works for you
+i'm not worried about this too much
+because it's inside the mouth
+if you say like some of these wrinkles
+you want to pull them
+in further you could do that with the
+smudge tool
+so if you hit and if for that i might
+lower this
+strength to like 0.5
+so if you want to say pull this wrinkle
+further in you could do that by just
+clicking that and dragging it
+and it
+is so faint it's not really
+doing a lot just doing a little bit
+i think it was dark it'd work better
+but either way you don't see it too much
+that's not
+a huge deal
+let's put this back to one
+just drag it all in if you wanted to you
+could also do it
+in the 3d viewport so if you hit n
+to go to tool make sure
+you have the correct texture
+selected so this would be the color
+that we don't want to mess with this is
+the normal map
+same one over here so make sure that's
+selected
+and then you can find smudge tool
+you can smudge that here also
+see here if you didn't catch that
+i just went to edit mode and grab the
+face i wanted to look at
+and then i zoomed in and popped out of
+edge mode
+edit mode it's a nice way to
+you know just snap your view so like say
+let's go
+fix inside the nostril you can go to
+edit mode drag there
+select it zoom in go back into texture
+paint
+and then with the smudge tool on you can
+you know paint
+in your 3d viewport and just get rid of
+all that stuff
+here since you can maybe see in the nose
+i'm going to
+paint instead and it's a little bit hard
+because you can't see the actual texture
+you can just see the result
+so if you're brave you can just
+pick an area where you think the texture
+is pretty good and hit s to pick it up
+and just paint stuff away if you want to
+be
+careful a bit you can go over here and
+say
+hit s here
+so you know the color is a nice neutral
+color and then go back
+and paint it all away so it's
+you know you can just flip back and
+forth and find the easiest way
+for you to just go through all this
+probably
+just go big and just get rid of all that
+maybe that was too big
+just get rid of all this stuff here too
+oh when you see the star it means it's
+not saved so let's make sure we
+save this
+so i'm going to go through all of the
+face and delete and get rid of all these
+little details
+but oh also for the rest of this mesh
+like everything else
+we don't need any of this so
+just get your brush on here hit s to
+grab it
+let's make sure we set the strength one
+erase
+all of that or paint over all of that so
+it's
+that generic purple color at the edges
+of
+this the face that was the
+high resolution scope that we made for
+all of that just
+draw along the edges so it's just the
+pure
+purple color
+just get rid of all the stuff we don't
+need any of it
+oh it's slow
+when you zoom out too far it it's slow
+so
+stay a little bit stay a little bit
+zoomed in
+because you're just trying to manipulate
+too many pixels
+4k is pretty high okay so that's pretty
+good so i'm just gonna go here and
+okay let's get rid of some of this stuff
+here so
+just smudge it away
+and to get rid of these it's probably
+the worst
+area i don't want to mess up
+the good parts of the
+map
+again this is probably a lot easier with
+a stylus
+one day
+one day i'll get a stylus
+you
+okay so i think that's about it i'm just
+gonna
+check to make sure everything looks okay
+i think that's actually a little bit
+funny
+sure on brush here
+let's grab s to grab a color
+and just
+where is that fingers oh yeah i missed i
+totally missed all this
+let's not make it so big that it bogs
+down
+my work
+oops
+did i just wipe over the face
+i think i still have texture there the
+uh
+these the subsurface scattering makes it
+harder to see you can turn it off
+you can see the textures more cleanly
+okay i've still got textures
+i think that's good now
+subsurface back on oops
+0.01 and let's put our
+color back on and let's
+save our image save
+okay let's turn everything back on so we
+can get a feel for
+what the character looks like with a
+normal map on so we'll turn on the
+eyelashes
+turn on the hair get that out of the way
+let's go to object mode
+so it's pretty subtle right now it's
+hard to see
+and that's because the lips are
+completely
+matte we're going to actually later make
+a
+roughness map to make the lips glossy
+and so something like this
+and so you can see once the lips get
+glossy and the skin
+the cheek here once it gets glossy you
+can see the bumps more
+when when the roughness is really low
+it's harder to see it
+so but so don't worry the normal map is
+actually doing something
+and we'll be able to see it more once we
+finish our whole character
+that's it for a video today i hope you
+found it useful if it was leave a
+comment to let me know
+subscribe or better yet support me on
+patreon
+and in the next video we will finish the
+skin by creating a roughness map
+and a subsurface scattering map thanks
+for watching

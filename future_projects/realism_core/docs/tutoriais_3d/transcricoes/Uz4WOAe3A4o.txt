@@ -1,0 +1,1828 @@
+Kind: captions
+Language: en
+As you can see, I'm able to talk with
+As you can see, I'm able to talk with
+As you can see, I'm able to talk with
+hand movement and facial expression,
+hand movement and facial expression,
+hand movement and facial expression,
+which is pretty impressive. It means I
+which is pretty impressive. It means I
+which is pretty impressive. It means I
+can deliver content that feels natural,
+can deliver content that feels natural,
+can deliver content that feels natural,
+engaging, and human like. This AI does
+engaging, and human like. This AI does
+engaging, and human like. This AI does
+not just speak, it performs. As you can
+not just speak, it performs. As you can
+not just speak, it performs. As you can
+see, I'm dancing, dancing. I'm dancing.
+see, I'm dancing, dancing. I'm dancing.
+see, I'm dancing, dancing. I'm dancing.
+See, see the move there. This is really
+See, see the move there. This is really
+See, see the move there. This is really
+fun to create. You can see how my studio
+fun to create. You can see how my studio
+fun to create. You can see how my studio
+looks. It's pretty good. So, all right.
+looks. It's pretty good. So, all right.
+looks. It's pretty good. So, all right.
+Let me go back to my position. Now from
+Let me go back to my position. Now from
+Let me go back to my position. Now from
+here you can create an entire series of
+here you can create an entire series of
+here you can create an entire series of
+content without even showing your face.
+Hello everybody. Welcome to this Digital
+Hello everybody. Welcome to this Digital
+Hello everybody. Welcome to this Digital
+Academy. So in today's episode I'll be
+Academy. So in today's episode I'll be
+Academy. So in today's episode I'll be
+showing you guys how to create a 3D
+showing you guys how to create a 3D
+showing you guys how to create a 3D
+cartoon or 3D animated character for
+cartoon or 3D animated character for
+cartoon or 3D animated character for
+your social medias and the rest of them.
+your social medias and the rest of them.
+your social medias and the rest of them.
+So for this we'll be going step by step.
+So for this we'll be going step by step.
+So for this we'll be going step by step.
+And step one is for you to get your
+And step one is for you to get your
+And step one is for you to get your
+image down. So, and for this one, we'll
+image down. So, and for this one, we'll
+image down. So, and for this one, we'll
+be using GTP. So, we'll be using CHTP to
+be using GTP. So, we'll be using CHTP to
+be using GTP. So, we'll be using CHTP to
+create this our image. I like using CHTP
+create this our image. I like using CHTP
+create this our image. I like using CHTP
+personally because of the way it makes
+personally because of the way it makes
+personally because of the way it makes
+the whole thing to be so natural
+the whole thing to be so natural
+the whole thing to be so natural
+and engaging. So, um for for us to
+and engaging. So, um for for us to
+and engaging. So, um for for us to
+start, we need to give ChP prompt
+start, we need to give ChP prompt
+start, we need to give ChP prompt
+because it's actually what you prompt
+because it's actually what you prompt
+because it's actually what you prompt
+like is exactly how you give it to Chp.
+like is exactly how you give it to Chp.
+like is exactly how you give it to Chp.
+That's exactly how it's going to give it
+That's exactly how it's going to give it
+That's exactly how it's going to give it
+to you. Now, um this is how to go. So, I
+to you. Now, um this is how to go. So, I
+to you. Now, um this is how to go. So, I
+told you GTP create a pel a 3D pizza um
+told you GTP create a pel a 3D pizza um
+told you GTP create a pel a 3D pizza um
+style character of a young African woman
+style character of a young African woman
+style character of a young African woman
+in her 20ies sitting in a well light
+in her 20ies sitting in a well light
+in her 20ies sitting in a well light
+broadcast studio. She is facing the
+broadcast studio. She is facing the
+broadcast studio. She is facing the
+camera. Her hands are clearly visible on
+camera. Her hands are clearly visible on
+camera. Her hands are clearly visible on
+the decks. She has a low fed um Okay,
+the decks. She has a low fed um Okay,
+the decks. She has a low fed um Okay,
+should I remove this? Let me remove this
+should I remove this? Let me remove this
+should I remove this? Let me remove this
+haircut.
+Let me remove Let me leave the haircut.
+Let me remove Let me leave the haircut.
+Let me remove Let me leave the haircut.
+This
+She's wearing a blue a blue um long
+She's wearing a blue a blue um long
+She's wearing a blue a blue um long
+sleeve blah blah and the environment and
+sleeve blah blah and the environment and
+sleeve blah blah and the environment and
+everything. So now pay attention. You
+everything. So now pay attention. You
+everything. So now pay attention. You
+see that in this place um I said
+see that in this place um I said
+see that in this place um I said
+this um I said that she's sitting at a
+this um I said that she's sitting at a
+this um I said that she's sitting at a
+studio a studio. So that's number one.
+studio a studio. So that's number one.
+studio a studio. So that's number one.
+So if you want your owner to be in a
+So if you want your owner to be in a
+So if you want your owner to be in a
+studio form, you can just tell that you
+studio form, you can just tell that you
+studio form, you can just tell that you
+want um the kind of a place you want
+want um the kind of a place you want
+want um the kind of a place you want
+your your cartoon or your character to
+your your cartoon or your character to
+your your cartoon or your character to
+sit. And I also said that she's facing
+sit. And I also said that she's facing
+sit. And I also said that she's facing
+the camera to make sure that she's
+the camera to make sure that she's
+the camera to make sure that she's
+facing the camera directly. And also
+facing the camera directly. And also
+facing the camera directly. And also
+here I said her hand is clearly is
+here I said her hand is clearly is
+here I said her hand is clearly is
+visually visible on the decks. If you
+visually visible on the decks. If you
+visually visible on the decks. If you
+don't tell that the hand should be clear
+don't tell that the hand should be clear
+don't tell that the hand should be clear
+on the decks, you
+on the decks, you
+on the decks, you
+will end up giving you making the hand
+will end up giving you making the hand
+will end up giving you making the hand
+not to be on the deck. So but with this
+not to be on the deck. So but with this
+not to be on the deck. So but with this
+you can um it will make it very visible.
+you can um it will make it very visible.
+you can um it will make it very visible.
+um to it and also in fact um also I said
+um to it and also in fact um also I said
+um to it and also in fact um also I said
+um ratio 16.9 169 so um if you're
+um ratio 16.9 169 so um if you're
+um ratio 16.9 169 so um if you're
+posting this on YouTube then you use 169
+posting this on YouTube then you use 169
+posting this on YouTube then you use 169
+but if you want to make it as a real on
+but if you want to make it as a real on
+but if you want to make it as a real on
+YouTube as well like Facebook stories
+YouTube as well like Facebook stories
+YouTube as well like Facebook stories
+Tik Tok and the rest of them you use 916
+Tik Tok and the rest of them you use 916
+Tik Tok and the rest of them you use 916
+that's the aspect ratio you will use so
+that's the aspect ratio you will use so
+that's the aspect ratio you will use so
+now I'm going to send in this and note
+now I'm going to send in this and note
+now I'm going to send in this and note
+This one is.
+This one is.
+This one is.
+So, I'm going to send it and hold on for
+So, I'm going to send it and hold on for
+So, I'm going to send it and hold on for
+it to load. But note that this one is
+it to load. But note that this one is
+it to load. But note that this one is
+basically for um for someone that just
+basically for um for someone that just
+basically for um for someone that just
+want to create a random 3D cartoon, a
+want to create a random 3D cartoon, a
+want to create a random 3D cartoon, a
+random 3D. So, after um after this one
+random 3D. So, after um after this one
+random 3D. So, after um after this one
+is done processing, I will show you a
+is done processing, I will show you a
+is done processing, I will show you a
+video about how you can get for yourself
+video about how you can get for yourself
+video about how you can get for yourself
+like a video that has your facial
+like a video that has your facial
+like a video that has your facial
+expression and everything. So all the
+expression and everything. So all the
+expression and everything. So all the
+prompts I use, I'll be dropping it
+prompts I use, I'll be dropping it
+prompts I use, I'll be dropping it
+as well with the video so that you can
+as well with the video so that you can
+as well with the video so that you can
+be able to use the prompt, rephrase it
+be able to use the prompt, rephrase it
+be able to use the prompt, rephrase it
+to your own test and use it to create
+to your own test and use it to create
+to your own test and use it to create
+your own. So just hold on for this thing
+your own. So just hold on for this thing
+your own. So just hold on for this thing
+to create. So I'll pause the video and
+to create. So I'll pause the video and
+to create. So I'll pause the video and
+resume when it's done creating.
+All right, our video is done. Our video
+All right, our video is done. Our video
+All right, our video is done. Our video
+is ready. So as you can see, this is
+is ready. So as you can see, this is
+is ready. So as you can see, this is
+what it gave us. This is what RGTP gave
+what it gave us. This is what RGTP gave
+what it gave us. This is what RGTP gave
+us. This is beautiful, isn't it? Yes, it
+us. This is beautiful, isn't it? Yes, it
+us. This is beautiful, isn't it? Yes, it
+is. Now, I want to I want to refresh
+is. Now, I want to I want to refresh
+is. Now, I want to I want to refresh
+this so that it will have my own facial
+this so that it will have my own facial
+this so that it will have my own facial
+expression. It will look like my own um
+expression. It will look like my own um
+expression. It will look like my own um
+this thing. So, for this one is
+this thing. So, for this one is
+this thing. So, for this one is
+basically for someone that wants to
+basically for someone that wants to
+basically for someone that wants to
+create um to create for for for
+create um to create for for for
+create um to create for for for
+yourself. You want to use your image.
+yourself. You want to use your image.
+yourself. You want to use your image.
+So, I'm going to I'm going to upload my
+So, I'm going to I'm going to upload my
+So, I'm going to I'm going to upload my
+image. I'm going to upload my image. And
+image. I'm going to upload my image. And
+image. I'm going to upload my image. And
+for you to upload your image, tap on
+for you to upload your image, tap on
+for you to upload your image, tap on
+this plus sign on GTP. When you tap on
+this plus sign on GTP. When you tap on
+this plus sign on GTP. When you tap on
+plus sign, you click on photos. When you
+plus sign, you click on photos. When you
+plus sign, you click on photos. When you
+click on photos, let me just quickly
+click on photos, let me just quickly
+click on photos, let me just quickly
+select any of the any of my So I've
+select any of the any of my So I've
+select any of the any of my So I've
+uploaded my image. So now I'm going to
+uploaded my image. So now I'm going to
+uploaded my image. So now I'm going to
+enter prompt. So note, I won't be using
+enter prompt. So note, I won't be using
+enter prompt. So note, I won't be using
+same prompt I used earlier. I won't be
+same prompt I used earlier. I won't be
+same prompt I used earlier. I won't be
+using same prompt. I'll be making some
+using same prompt. I'll be making some
+using same prompt. I'll be making some
+changes. So I'll also be dropping the
+changes. So I'll also be dropping the
+changes. So I'll also be dropping the
+prompt as well. So this one say create a
+prompt as well. So this one say create a
+prompt as well. So this one say create a
+3D pizza art. So please not always use
+3D pizza art. So please not always use
+3D pizza art. So please not always use
+this word this pizza style. Yeah, always
+this word this pizza style. Yeah, always
+this word this pizza style. Yeah, always
+use pizza. This pizza style always make
+use pizza. This pizza style always make
+use pizza. This pizza style always make
+use of that character of a young African
+use of that character of a young African
+use of that character of a young African
+woman sitting in a well light broadcast.
+woman sitting in a well light broadcast.
+woman sitting in a well light broadcast.
+She's facing the camera. Her hand is
+She's facing the camera. Her hand is
+She's facing the camera. Her hand is
+clearly. So if you notice that I made so
+clearly. So if you notice that I made so
+clearly. So if you notice that I made so
+many changes and also it was still this
+many changes and also it was still this
+many changes and also it was still this
+aspect ratio of this same aspect ratio
+aspect ratio of this same aspect ratio
+aspect ratio of this same aspect ratio
+of 16.9.
+of 16.9.
+of 16.9.
+So always remember that. So I will tap
+So always remember that. So I will tap
+So always remember that. So I will tap
+on this arrow and hold on for this to
+on this arrow and hold on for this to
+on this arrow and hold on for this to
+generate. So we hold on for it to
+generate. So we hold on for it to
+generate. So we hold on for it to
+create. As you can see here it's showing
+create. As you can see here it's showing
+create. As you can see here it's showing
+loading. Yeah. So it's loading.
+Aha. Our image is ready. Like this is
+Aha. Our image is ready. Like this is
+Aha. Our image is ready. Like this is
+beautiful. As you can see, it looks like
+beautiful. As you can see, it looks like
+beautiful. As you can see, it looks like
+my picture. It has almost everything.
+my picture. It has almost everything.
+my picture. It has almost everything.
+The way my hair was packed, same kind of
+The way my hair was packed, same kind of
+The way my hair was packed, same kind of
+smile and everything. So, as you can
+smile and everything. So, as you can
+smile and everything. So, as you can
+see, this is very beautiful. Is very
+see, this is very beautiful. Is very
+see, this is very beautiful. Is very
+very beautiful. So, for you to save this
+very beautiful. So, for you to save this
+very beautiful. So, for you to save this
+image to your phone, uh you will click
+image to your phone, uh you will click
+image to your phone, uh you will click
+on this save. Once I tap on save now,
+on this save. Once I tap on save now,
+on this save. Once I tap on save now,
+you see that it's loading. is showing an
+you see that it's loading. is showing an
+you see that it's loading. is showing an
+arrow showing that it's loading. So, and
+arrow showing that it's loading. So, and
+arrow showing that it's loading. So, and
+it shows image saved. So, it's done
+it shows image saved. So, it's done
+it shows image saved. So, it's done
+saving. So, you can check it on your
+saving. So, you can check it on your
+saving. So, you can check it on your
+folder. So, now we're getting our image
+folder. So, now we're getting our image
+folder. So, now we're getting our image
+down. So, the next thing now is for us
+down. So, the next thing now is for us
+down. So, the next thing now is for us
+to make to animate this our image. And
+to make to animate this our image. And
+to make to animate this our image. And
+for us to animate this image, we'll be
+for us to animate this image, we'll be
+for us to animate this image, we'll be
+using Pvas um yeah, Pvver.ai.
+using Pvas um yeah, Pvver.ai.
+using Pvas um yeah, Pvver.ai.
+We'll be using pisver.ai. So head over
+We'll be using pisver.ai. So head over
+We'll be using pisver.ai. So head over
+to your head over to your browser and
+to your head over to your browser and
+to your head over to your browser and
+search for pisver.ai.
+search for pisver.ai.
+search for pisver.ai.
+So this is it. This is [clears throat]
+So this is it. This is [clears throat]
+So this is it. This is [clears throat]
+pisver.ai.
+pisver.ai.
+pisver.ai.
+So we click you tab here.
+So I want you to pay rapid attention
+So I want you to pay rapid attention
+So I want you to pay rapid attention
+here. I want you to pay very rapid
+here. I want you to pay very rapid
+here. I want you to pay very rapid
+attention. So in case it's your first
+attention. So in case it's your first
+attention. So in case it's your first
+time, your home may not come this way.
+time, your home may not come this way.
+time, your home may not come this way.
+It might be showing you um a login um
+It might be showing you um a login um
+It might be showing you um a login um
+login interface here because I've been
+login interface here because I've been
+login interface here because I've been
+using this for a while. So it might show
+using this for a while. So it might show
+using this for a while. So it might show
+you a login interface for you to login.
+you a login interface for you to login.
+you a login interface for you to login.
+So just login and when you log in you
+So just login and when you log in you
+So just login and when you log in you
+use it for free. You you get free coins.
+use it for free. You you get free coins.
+use it for free. You you get free coins.
+So you can use it. So and um
+So you can use it. So and um
+So you can use it. So and um
+[clears throat]
+for this so how we are going to make um
+for this so how we are going to make um
+for this so how we are going to make um
+our image to talk to say what we want it
+our image to talk to say what we want it
+our image to talk to say what we want it
+to say. So I want you guys to pay rapid
+to say. So I want you guys to pay rapid
+to say. So I want you guys to pay rapid
+attention here
+attention here
+attention here
+because we are going to follow several
+because we are going to follow several
+because we are going to follow several
+process that if you don't pay attention
+process that if you don't pay attention
+process that if you don't pay attention
+you may not be able to get it. So now so
+you may not be able to get it. So now so
+you may not be able to get it. So now so
+for you to add your your image to upload
+for you to add your your image to upload
+for you to add your your image to upload
+that image you will see this sign here.
+that image you will see this sign here.
+that image you will see this sign here.
+So just tap here it will give you a it
+So just tap here it will give you a it
+So just tap here it will give you a it
+will give you an interface where you do
+will give you an interface where you do
+will give you an interface where you do
+it. So drag tap here you'll see click
+it. So drag tap here you'll see click
+it. So drag tap here you'll see click
+drag and copy. So this is our image.
+drag and copy. So this is our image.
+drag and copy. So this is our image.
+This is our image here. So I'm going to
+This is our image here. So I'm going to
+This is our image here. So I'm going to
+select it. I'm going to select it and
+select it. I'm going to select it and
+select it. I'm going to select it and
+click done. So your own is going to load
+click done. So your own is going to load
+click done. So your own is going to load
+this way. Pay attention here. You see
+this way. Pay attention here. You see
+this way. Pay attention here. You see
+that it's loading. So you just hold on
+that it's loading. So you just hold on
+that it's loading. So you just hold on
+for it to load. So once it's done, you
+for it to load. So once it's done, you
+for it to load. So once it's done, you
+tap on the on the image. Once you tap on
+tap on the on the image. Once you tap on
+tap on the on the image. Once you tap on
+it, you see that it's down here. It will
+it, you see that it's down here. It will
+it, you see that it's down here. It will
+it this confirm automatically highlight.
+it this confirm automatically highlight.
+it this confirm automatically highlight.
+So just tap on confirm is here. So now
+So just tap on confirm is here. So now
+So just tap on confirm is here. So now
+we are going to tell this image to say
+we are going to tell this image to say
+we are going to tell this image to say
+something or to make a move. So in here
+something or to make a move. So in here
+something or to make a move. So in here
+you said describe the content you want
+you said describe the content you want
+you said describe the content you want
+to create. So I'm going to paste in my
+to create. So I'm going to paste in my
+to create. So I'm going to paste in my
+prompt. Sorry about that.
+prompt. Sorry about that.
+prompt. Sorry about that.
+[clears throat]
+[clears throat]
+[clears throat]
+I'm going to paste in my prompt in here.
+So I will be dropping the the prompt as
+So I will be dropping the the prompt as
+So I will be dropping the the prompt as
+well. It said a static shot of a woman
+well. It said a static shot of a woman
+well. It said a static shot of a woman
+sparkling directly to the camera. She
+sparkling directly to the camera. She
+sparkling directly to the camera. She
+she gestures gently with both hands
+she gestures gently with both hands
+she gestures gently with both hands
+while talking maintaining a calm. So
+while talking maintaining a calm. So
+while talking maintaining a calm. So
+please whenever you are prompting you
+please whenever you are prompting you
+please whenever you are prompting you
+say that this I I use this word calm. If
+say that this I I use this word calm. If
+say that this I I use this word calm. If
+not it will not be natural. to calm
+not it will not be natural. to calm
+not it will not be natural. to calm
+that calm presence with a minimal
+that calm presence with a minimal
+that calm presence with a minimal
+movement. And also I said her eyes
+movement. And also I said her eyes
+movement. And also I said her eyes
+blink.
+blink.
+blink.
+Her eyes blink is also one of the things
+Her eyes blink is also one of the things
+Her eyes blink is also one of the things
+you need to pay attention to. So I'm
+you need to pay attention to. So I'm
+you need to pay attention to. So I'm
+going to send it. So once you're done,
+going to send it. So once you're done,
+going to send it. So once you're done,
+you click on this create.
+you click on this create.
+you click on this create.
+I'll send it and hold on for it to to
+I'll send it and hold on for it to to
+I'll send it and hold on for it to to
+create.
+create.
+create.
+I'll click on create.
+I'll click on create.
+I'll click on create.
+So if you see here it's showing Q. So
+So if you see here it's showing Q. So
+So if you see here it's showing Q. So
+and it's already um it's already
+and it's already um it's already
+and it's already um it's already
+loading. So just hold on for it to load.
+loading. So just hold on for it to load.
+loading. So just hold on for it to load.
+And once it is done loading we'll play
+And once it is done loading we'll play
+And once it is done loading we'll play
+it and see the result of what we'll be
+it and see the result of what we'll be
+it and see the result of what we'll be
+able to create.
+H So it's ready.
+This is beautiful. Can you see? Can you
+This is beautiful. Can you see? Can you
+This is beautiful. Can you see? Can you
+see? So this is the first thing. So if
+see? So this is the first thing. So if
+see? So this is the first thing. So if
+you notice in the video, I was able to
+you notice in the video, I was able to
+you notice in the video, I was able to
+stand. I stowed and I I danced. So and I
+stand. I stowed and I I danced. So and I
+stand. I stowed and I I danced. So and I
+said I was going to show it in this. So
+said I was going to show it in this. So
+said I was going to show it in this. So
+now this is the um when you're done
+now this is the um when you're done
+now this is the um when you're done
+getting this first one. So the second
+getting this first one. So the second
+getting this first one. So the second
+one is for you to um how you'll be able
+one is for you to um how you'll be able
+one is for you to um how you'll be able
+to get this this character to stand is
+to get this this character to stand is
+to get this this character to stand is
+where the main work lies. If you think
+where the main work lies. If you think
+where the main work lies. If you think
+you will just skip and you continue
+you will just skip and you continue
+you will just skip and you continue
+doing the same process, then you're
+doing the same process, then you're
+doing the same process, then you're
+going to make a mistake. So pay
+going to make a mistake. So pay
+going to make a mistake. So pay
+attention to this. We're going to do it
+attention to this. We're going to do it
+attention to this. We're going to do it
+step by step. Step by step. So now
+step by step. Step by step. So now
+step by step. Step by step. So now
+um and in this step we won't be making
+um and in this step we won't be making
+um and in this step we won't be making
+use of um we won't be making use of
+use of um we won't be making use of
+use of um we won't be making use of
+video anymore. We won't be making use of
+video anymore. We won't be making use of
+video anymore. We won't be making use of
+videos.
+videos.
+videos.
+Sorry about that. We'll be making use of
+Sorry about that. We'll be making use of
+Sorry about that. We'll be making use of
+video like we used earlier. We'll be
+video like we used earlier. We'll be
+video like we used earlier. We'll be
+making use of that. So for this one,
+making use of that. So for this one,
+making use of that. So for this one,
+we're making use of modify.
+we're making use of modify.
+we're making use of modify.
+Sorry, extent. Sorry about that. Making
+Sorry, extent. Sorry about that. Making
+Sorry, extent. Sorry about that. Making
+use of extent. So, and in this extent,
+use of extent. So, and in this extent,
+use of extent. So, and in this extent,
+we're going to tap in here.
+We going to tap in here. Let me delete
+We going to tap in here. Let me delete
+We going to tap in here. Let me delete
+this. So, we're going to tap in here.
+this. So, we're going to tap in here.
+this. So, we're going to tap in here.
+So, this one allows us to um upload
+So, this one allows us to um upload
+So, this one allows us to um upload
+upload videos, a short clip of videos.
+upload videos, a short clip of videos.
+upload videos, a short clip of videos.
+So, we're going to type in here, and
+So, we're going to type in here, and
+So, we're going to type in here, and
+we're going to upload that first video
+we're going to upload that first video
+we're going to upload that first video
+we did earlier. So, we're going to
+we did earlier. So, we're going to
+we did earlier. So, we're going to
+upload this. It was Yeah, it was the
+upload this. It was Yeah, it was the
+upload this. It was Yeah, it was the
+first um it was the first video and we
+first um it was the first video and we
+first um it was the first video and we
+clicked on. Hold on for it to load.
+clicked on. Hold on for it to load.
+clicked on. Hold on for it to load.
+We hold on for it to load.
+We hold on for it to load.
+We hold on for it to load.
+So, once you once you tap on it, you now
+So, once you once you tap on it, you now
+So, once you once you tap on it, you now
+select it. You now click on this and we
+select it. You now click on this and we
+select it. You now click on this and we
+going to enter our prompt. So, we enter
+going to enter our prompt. So, we enter
+going to enter our prompt. So, we enter
+our prompt. We want that our image to
+our prompt. We want that our image to
+our prompt. We want that our image to
+stand to stand. Yes. So we said a track
+stand to stand. Yes. So we said a track
+stand to stand. Yes. So we said a track
+a track of an animated woman standing up
+a track of an animated woman standing up
+a track of an animated woman standing up
+from her seat and while walking talking
+from her seat and while walking talking
+from her seat and while walking talking
+she looks directly into the camera and
+she looks directly into the camera and
+she looks directly into the camera and
+gently gestures with both hands and as
+gently gestures with both hands and as
+gently gestures with both hands and as
+as as she speaks. Know why I said as she
+as as she speaks. Know why I said as she
+as as she speaks. Know why I said as she
+speaks her eyes blinks consistently. So
+speaks her eyes blinks consistently. So
+speaks her eyes blinks consistently. So
+and camera follows her. So pay attention
+and camera follows her. So pay attention
+and camera follows her. So pay attention
+to this. And when you're done when
+to this. And when you're done when
+to this. And when you're done when
+you're done you click on this generate.
+you're done you click on this generate.
+you're done you click on this generate.
+So I'll just tap on this generate now.
+So I'll just tap on this generate now.
+So I'll just tap on this generate now.
+Okay. So, and here is what we got. And
+Okay. So, and here is what we got. And
+Okay. So, and here is what we got. And
+here was the result of what we we did.
+here was the result of what we we did.
+here was the result of what we we did.
+So, let's just see it.
+Network is bad. Okay, let's just save it
+Network is bad. Okay, let's just save it
+Network is bad. Okay, let's just save it
+and watch it from our folder since
+and watch it from our folder since
+and watch it from our folder since
+network is bad here. So, you click on
+network is bad here. So, you click on
+network is bad here. So, you click on
+this download. Click on tap on
+this download. Click on tap on
+this download. Click on tap on
+watermarks. So, you can't save directly.
+watermarks. So, you can't save directly.
+watermarks. So, you can't save directly.
+You can't save directly to your phone.
+You can't save directly to your phone.
+You can't save directly to your phone.
+So, just click on. So, I myself I share
+So, just click on. So, I myself I share
+So, just click on. So, I myself I share
+it on WhatsApp. I share it myself on
+it on WhatsApp. I share it myself on
+it on WhatsApp. I share it myself on
+WhatsApp and download it. So, it will
+WhatsApp and download it. So, it will
+WhatsApp and download it. So, it will
+come in here. Once it is in here.
+come in here. Once it is in here.
+come in here. Once it is in here.
+So this is it. Let's watch it here.
+Woo. You see? You see the way she stood
+Woo. You see? You see the way she stood
+Woo. You see? You see the way she stood
+from her desk. So from her chair. So
+from her desk. So from her chair. So
+from her desk. So from her chair. So
+that's that's number one. So in case
+that's that's number one. So in case
+that's that's number one. So in case
+your phone doesn't save it directly once
+your phone doesn't save it directly once
+your phone doesn't save it directly once
+you're in here, tap on the body of the
+you're in here, tap on the body of the
+you're in here, tap on the body of the
+of the picture. Tap on the body of the
+of the picture. Tap on the body of the
+of the picture. Tap on the body of the
+video. You by up up here. Once you tap
+video. You by up up here. Once you tap
+video. You by up up here. Once you tap
+on your video, you'll see up up up
+on your video, you'll see up up up
+on your video, you'll see up up up
+right. You will see this three dots that
+right. You will see this three dots that
+right. You will see this three dots that
+will appear here. I don't know why it's
+will appear here. I don't know why it's
+will appear here. I don't know why it's
+not. So once it appear, tap on it.
+not. So once it appear, tap on it.
+not. So once it appear, tap on it.
+You'll see this save. You tap on save to
+You'll see this save. You tap on save to
+You'll see this save. You tap on save to
+save directly to your phone. So now
+save directly to your phone. So now
+save directly to your phone. So now
+we've gotten this. We've done this first
+we've gotten this. We've done this first
+we've gotten this. We've done this first
+one. And the second one now please pay
+one. And the second one now please pay
+one. And the second one now please pay
+attention. The second one now is for us
+attention. The second one now is for us
+attention. The second one now is for us
+to make that's for us to make it to
+to make that's for us to make it to
+to make that's for us to make it to
+stand. So as a standing to dance. So now
+stand. So as a standing to dance. So now
+stand. So as a standing to dance. So now
+for this one we are going to use um
+for this one we are going to use um
+for this one we are going to use um
+there are still more way you can use it
+there are still more way you can use it
+there are still more way you can use it
+but this is actually one of the best way
+but this is actually one of the best way
+but this is actually one of the best way
+to do it. So we are going to making use
+to do it. So we are going to making use
+to do it. So we are going to making use
+of same this thing. So you now go to
+of same this thing. So you now go to
+of same this thing. So you now go to
+your main folder your phone folder go to
+your main folder your phone folder go to
+your main folder your phone folder go to
+your phone folder and when you phone
+your phone folder and when you phone
+your phone folder and when you phone
+folder click on edit. When you click on
+folder click on edit. When you click on
+folder click on edit. When you click on
+edit yes click on edit and you click on
+edit yes click on edit and you click on
+edit yes click on edit and you click on
+edit. So you're going to trim this trim
+edit. So you're going to trim this trim
+edit. So you're going to trim this trim
+it trim it down so that we get let's
+it trim it down so that we get let's
+it trim it down so that we get let's
+just say 3 seconds or 5 seconds is not
+just say 3 seconds or 5 seconds is not
+just say 3 seconds or 5 seconds is not
+bad. So yeah, 2 seconds, 3 seconds, you
+bad. So yeah, 2 seconds, 3 seconds, you
+bad. So yeah, 2 seconds, 3 seconds, you
+just want to get the last part of it.
+just want to get the last part of it.
+just want to get the last part of it.
+You just want to get the last part of it
+You just want to get the last part of it
+You just want to get the last part of it
+where she's standing. I mean the main
+where she's standing. I mean the main
+where she's standing. I mean the main
+video. So once you are done, click on
+video. So once you are done, click on
+video. So once you are done, click on
+this save. So it's the one we get here.
+this save. So it's the one we get here.
+this save. So it's the one we get here.
+That's what we going to use now. So once
+That's what we going to use now. So once
+That's what we going to use now. So once
+you're done, click on that save. Click
+you're done, click on that save. Click
+you're done, click on that save. Click
+on save. You see it's loading. So once
+on save. You see it's loading. So once
+on save. You see it's loading. So once
+it's done saving, we'll go back to that
+it's done saving, we'll go back to that
+it's done saving, we'll go back to that
+PV
+PV
+PV
+AI. So now this time around we are still
+AI. So now this time around we are still
+AI. So now this time around we are still
+using the same thing but different
+using the same thing but different
+using the same thing but different
+prompts. So we are using the same the
+prompts. So we are using the same the
+prompts. So we are using the same the
+same um the same extent but different
+same um the same extent but different
+same um the same extent but different
+prompts.
+prompts.
+prompts.
+So we still go back. So we are going to
+So we still go back. So we are going to
+So we still go back. So we are going to
+change our image. Just long press for
+change our image. Just long press for
+change our image. Just long press for
+you to get what I'm saying. Hold this
+you to get what I'm saying. Hold this
+you to get what I'm saying. Hold this
+place. Hold this image. Once you hold
+place. Hold this image. Once you hold
+place. Hold this image. Once you hold
+the image this this um this cancel sign
+the image this this um this cancel sign
+the image this this um this cancel sign
+will come out here. Let me show you what
+will come out here. Let me show you what
+will come out here. Let me show you what
+I'm saying. This cancel sign will come
+I'm saying. This cancel sign will come
+I'm saying. This cancel sign will come
+out. You cancel it. Once you cancel it,
+out. You cancel it. Once you cancel it,
+out. You cancel it. Once you cancel it,
+you add, you tap on here to add another
+you add, you tap on here to add another
+you add, you tap on here to add another
+image. So, we are going to upload the
+image. So, we are going to upload the
+image. So, we are going to upload the
+one we trimmed, which is this one. So,
+one we trimmed, which is this one. So,
+one we trimmed, which is this one. So,
+that's what we're going to tap. So,
+that's what we're going to tap. So,
+that's what we're going to tap. So,
+she's actually standing at this moment.
+she's actually standing at this moment.
+she's actually standing at this moment.
+She's standing. So, tap on it. So, make
+She's standing. So, tap on it. So, make
+She's standing. So, tap on it. So, make
+sure you trim to a place she's standing.
+sure you trim to a place she's standing.
+sure you trim to a place she's standing.
+And we are going to enter different
+And we are going to enter different
+And we are going to enter different
+prompts. So, we're going to enter
+prompts. So, we're going to enter
+prompts. So, we're going to enter
+different prompts here. All the prompts
+different prompts here. All the prompts
+different prompts here. All the prompts
+I use here, I'm going to drop them so
+I use here, I'm going to drop them so
+I use here, I'm going to drop them so
+that you'll be able to follow up. You
+that you'll be able to follow up. You
+that you'll be able to follow up. You
+can just use my prompt or modify your
+can just use my prompt or modify your
+can just use my prompt or modify your
+own. So this one I said a track of an
+own. So this one I said a track of an
+own. So this one I said a track of an
+animated woman dancing calmly and
+animated woman dancing calmly and
+animated woman dancing calmly and
+talking. She looks directly into the
+talking. She looks directly into the
+talking. She looks directly into the
+into the camera and gentle dance as she
+into the camera and gentle dance as she
+into the camera and gentle dance as she
+speaks. Her blinks continuously. So
+speaks. Her blinks continuously. So
+speaks. Her blinks continuously. So
+these things are to make sure and also
+these things are to make sure and also
+these things are to make sure and also
+pay attention. You see that all my this
+pay attention. You see that all my this
+pay attention. You see that all my this
+thing I maintains I keep camera follows
+thing I maintains I keep camera follows
+thing I maintains I keep camera follows
+her. So when you're done tap on this
+her. So when you're done tap on this
+her. So when you're done tap on this
+generate. So I'll tap on generate now
+generate. So I'll tap on generate now
+generate. So I'll tap on generate now
+and hold on for it to load.
+and hold on for it to load.
+and hold on for it to load.
+Okay. So this is the result of what we
+Okay. So this is the result of what we
+Okay. So this is the result of what we
+got. So let's see it. Can you see it
+got. So let's see it. Can you see it
+got. So let's see it. Can you see it
+continue from where she's? You see? I
+continue from where she's? You see? I
+continue from where she's? You see? I
+don't know why this keep giving me
+don't know why this keep giving me
+don't know why this keep giving me
+issues. The network is bad. So we just
+issues. The network is bad. So we just
+issues. The network is bad. So we just
+download it. I will show you guys. Let
+download it. I will show you guys. Let
+download it. I will show you guys. Let
+me show you guys on the phone is up. You
+me show you guys on the phone is up. You
+me show you guys on the phone is up. You
+see? You see? You see she's dancing. So
+see? You see? You see she's dancing. So
+see? You see? You see she's dancing. So
+now I want her to see while she's still
+now I want her to see while she's still
+now I want her to see while she's still
+dancing. She went, she will just walk
+dancing. She went, she will just walk
+dancing. She went, she will just walk
+back to her chair. Now this is the last
+back to her chair. Now this is the last
+back to her chair. Now this is the last
+part. And if you didn't watch this last
+part. And if you didn't watch this last
+part. And if you didn't watch this last
+part, you'll never get it. There is
+part, you'll never get it. There is
+part, you'll never get it. There is
+never a way you're going to get it. This
+never a way you're going to get it. This
+never a way you're going to get it. This
+time around we are not using video. We
+time around we are not using video. We
+time around we are not using video. We
+are not using extend. We are using
+are not using extend. We are using
+are not using extend. We are using
+something different which is transition.
+something different which is transition.
+something different which is transition.
+We using transition. So and in this
+We using transition. So and in this
+We using transition. So and in this
+transition
+transition
+transition
+in this transition we are going to um we
+in this transition we are going to um we
+in this transition we are going to um we
+are going to add two frame to this
+are going to add two frame to this
+are going to add two frame to this
+transition. And the first frame is going
+transition. And the first frame is going
+transition. And the first frame is going
+to be um um where she's standing. And
+to be um um where she's standing. And
+to be um um where she's standing. And
+the second frame is going to be where
+the second frame is going to be where
+the second frame is going to be where
+she sat because in that video she went
+she sat because in that video she went
+she sat because in that video she went
+back to her chair. So now let me follow
+back to her chair. So now let me follow
+back to her chair. So now let me follow
+you guys along. So the first frame is
+you guys along. So the first frame is
+you guys along. So the first frame is
+what we are going to add. This is the
+what we are going to add. This is the
+what we are going to add. This is the
+first frame. So tap in here to add your
+first frame. So tap in here to add your
+first frame. So tap in here to add your
+first frame. And select from here which
+first frame. And select from here which
+first frame. And select from here which
+is the one she's standing. Okay. Sorry I
+is the one she's standing. Okay. Sorry I
+is the one she's standing. Okay. Sorry I
+think I mess it up. Now you can
+think I mess it up. Now you can
+think I mess it up. Now you can
+you can for you to get where she's
+you can for you to get where she's
+you can for you to get where she's
+standing for me to let's explain this
+standing for me to let's explain this
+standing for me to let's explain this
+better. Let me explain better. For you
+better. Let me explain better. For you
+better. Let me explain better. For you
+to get where she's standing, you can
+to get where she's standing, you can
+to get where she's standing, you can
+just go to your
+just go to your
+just go to your
+go to your um to your galler to your
+go to your um to your galler to your
+go to your um to your galler to your
+this thing. So see she's standing here.
+this thing. So see she's standing here.
+this thing. So see she's standing here.
+You can screenshot it. Just screenshot.
+You can screenshot it. Just screenshot.
+You can screenshot it. Just screenshot.
+Tap on it. Cropped it. Use your hand to
+Tap on it. Cropped it. Use your hand to
+Tap on it. Cropped it. Use your hand to
+keep it here. You see she's standing
+keep it here. You see she's standing
+keep it here. You see she's standing
+here. She's standing. just screenshot
+here. She's standing. just screenshot
+here. She's standing. just screenshot
+any part she's standing and save it.
+any part she's standing and save it.
+any part she's standing and save it.
+Once you save it, you now go to
+Once you save it, you now go to
+Once you save it, you now go to
+[clears throat] you now go to this place
+[clears throat] you now go to this place
+[clears throat] you now go to this place
+and upload it. Click upload. Once you
+and upload it. Click upload. Once you
+and upload it. Click upload. Once you
+upload it,
+upload it,
+upload it,
+sorry about that.
+sorry about that.
+sorry about that.
+So upload it. Once you upload where
+So upload it. Once you upload where
+So upload it. Once you upload where
+she's standing,
+that's the first clip. Upload it. Then
+that's the first clip. Upload it. Then
+that's the first clip. Upload it. Then
+you upload.
+you upload.
+you upload.
+You still tap on it like usual.
+You still tap on it like usual.
+You still tap on it like usual.
+You tap on it. It will confirm. Now we
+You tap on it. It will confirm. Now we
+You tap on it. It will confirm. Now we
+are to end to upload the end frame. So
+are to end to upload the end frame. So
+are to end to upload the end frame. So
+if you pay attention here in here, it
+if you pay attention here in here, it
+if you pay attention here in here, it
+says please [clears throat] describe
+says please [clears throat] describe
+says please [clears throat] describe
+describe the content frame and the last
+describe the content frame and the last
+describe the content frame and the last
+frame. So this one we are going to add
+frame. So this one we are going to add
+frame. So this one we are going to add
+the last frame which is we want her to
+the last frame which is we want her to
+the last frame which is we want her to
+go back and sit. We want her to go back
+go back and sit. We want her to go back
+go back and sit. We want her to go back
+there and sit back. So we are going to
+there and sit back. So we are going to
+there and sit back. So we are going to
+end add our end frame.
+end add our end frame.
+end add our end frame.
+So we tap on it to confirm. So you see
+So we tap on it to confirm. So you see
+So we tap on it to confirm. So you see
+that in here it has two frames now. It
+that in here it has two frames now. It
+that in here it has two frames now. It
+has two frames here. It has two frames
+has two frames here. It has two frames
+has two frames here. It has two frames
+here. So please
+here. So please
+here. So please
+follow my steps. It has two frames here
+follow my steps. It has two frames here
+follow my steps. It has two frames here
+now. So now we are going to enter our
+now. So now we are going to enter our
+now. So now we are going to enter our
+prop which is to describe how we want it
+prop which is to describe how we want it
+prop which is to describe how we want it
+to work. Uh,
+okay. So, and in here I said a track
+okay. So, and in here I said a track
+okay. So, and in here I said a track
+shot of an animated an animated woman
+shot of an animated an animated woman
+shot of an animated an animated woman
+gradually walking towards her table and
+gradually walking towards her table and
+gradually walking towards her table and
+gradually sitting down on her chair. You
+gradually sitting down on her chair. You
+gradually sitting down on her chair. You
+see the way I said it. I analyzed it. So
+see the way I said it. I analyzed it. So
+see the way I said it. I analyzed it. So
+once it's done, you click on create as
+once it's done, you click on create as
+once it's done, you click on create as
+usual. So let's click on create and see
+usual. So let's click on create and see
+usual. So let's click on create and see
+what happen. Okay. So this is the
+what happen. Okay. So this is the
+what happen. Okay. So this is the
+result. This is the result of Woohoo.
+result. This is the result of Woohoo.
+result. This is the result of Woohoo.
+You see, she just went back and sat on
+You see, she just went back and sat on
+You see, she just went back and sat on
+her chair. Let me take it back.
+She just went back and sat on her chair.
+She just went back and sat on her chair.
+She just went back and sat on her chair.
+Woo! You see everything went smooth. So
+Woo! You see everything went smooth. So
+Woo! You see everything went smooth. So
+now we are done
+now we are done
+now we are done
+When we are done getting our everything
+When we are done getting our everything
+When we are done getting our everything
+down. The next step now is for us to is
+down. The next step now is for us to is
+down. The next step now is for us to is
+for us to um to put them together and
+for us to um to put them together and
+for us to um to put them together and
+also make them say what we want to say.
+also make them say what we want to say.
+also make them say what we want to say.
+Like the video you watch, you know, it
+Like the video you watch, you know, it
+Like the video you watch, you know, it
+was having my real voice clips. So the
+was having my real voice clips. So the
+was having my real voice clips. So the
+next thing you're going to do is to um
+next thing you're going to do is to um
+next thing you're going to do is to um
+to get your voice over down. Now for
+to get your voice over down. Now for
+to get your voice over down. Now for
+this I suggest you use um um
+this I suggest you use um um
+this I suggest you use um um
+AI Studio. Google AI Studio.
+AI Studio. Google AI Studio.
+AI Studio. Google AI Studio.
+Yes, Google AI studio.com. This one.
+Yes, Google AI studio.com. This one.
+Yes, Google AI studio.com. This one.
+Yes, you can.
+Yes, you can.
+Yes, you can.
+So, you can use Google AI Studio is 100%
+So, you can use Google AI Studio is 100%
+So, you can use Google AI Studio is 100%
+free unlike 11 Labs and the rest of
+free unlike 11 Labs and the rest of
+free unlike 11 Labs and the rest of
+them. This is actually if you don't want
+them. This is actually if you don't want
+them. This is actually if you don't want
+to record your voice. For the one I did,
+to record your voice. For the one I did,
+to record your voice. For the one I did,
+I use my voice. So, I will still be
+I use my voice. So, I will still be
+I use my voice. So, I will still be
+showing you guys how I did it for but
+showing you guys how I did it for but
+showing you guys how I did it for but
+for those that wants to um use their um
+for those that wants to um use their um
+for those that wants to um use their um
+to record
+to record
+to record
+to use their this thing to use um what's
+to use their this thing to use um what's
+to use their this thing to use um what's
+it called to use
+it called to use
+it called to use
+to use an AI voice use googlestudio.com
+to use an AI voice use googlestudio.com
+to use an AI voice use googlestudio.com
+so when you're in here tap here so is
+so when you're in here tap here so is
+so when you're in here tap here so is
+either you use um tap there to change it
+either you use um tap there to change it
+either you use um tap there to change it
+to one single speaker yes you can change
+to one single speaker yes you can change
+to one single speaker yes you can change
+it to single speaker you tap in single
+it to single speaker you tap in single
+it to single speaker you tap in single
+speaker you can now type in your prompt
+speaker you can now type in your prompt
+speaker you can now type in your prompt
+here type in what you want your AI to
+here type in what you want your AI to
+here type in what you want your AI to
+say. So once you type it in here and
+say. So once you type it in here and
+say. So once you type it in here and
+once you're done typing, let me just
+once you're done typing, let me just
+once you're done typing, let me just
+type something and show you guys how to
+type something and show you guys how to
+type something and show you guys how to
+go. Hi, my name is
+the CEO of the
+so now once you notice if you notice if
+so now once you notice if you notice if
+so now once you notice if you notice if
+you look closely you see that immedately
+you look closely you see that immedately
+you look closely you see that immedately
+I tap something you can see that it's
+I tap something you can see that it's
+I tap something you can see that it's
+showing me run here. So that's just it
+showing me run here. So that's just it
+showing me run here. So that's just it
+and once you tap on run it will start
+and once you tap on run it will start
+and once you tap on run it will start
+running and you can now after then you
+running and you can now after then you
+running and you can now after then you
+save it to um to get your video but I
+save it to um to get your video but I
+save it to um to get your video but I
+myself I won't be using um I won't be
+myself I won't be using um I won't be
+myself I won't be using um I won't be
+using audio I'll be using AI voice so I
+using audio I'll be using AI voice so I
+using audio I'll be using AI voice so I
+won't be using my own voice. So, and for
+won't be using my own voice. So, and for
+won't be using my own voice. So, and for
+me to do this, we will be going I'll be
+me to do this, we will be going I'll be
+me to do this, we will be going I'll be
+using um I'll be making use of Dreamface
+using um I'll be making use of Dreamface
+using um I'll be making use of Dreamface
+Dreamface app. Dreamface app.com.
+Dreamface app. Dreamface app.com.
+Dreamface app. Dreamface app.com.
+Yes.com
+Yes.com
+Yes.com
+dreamfaceapp.com.
+dreamfaceapp.com.
+dreamfaceapp.com.
+I'll be making use of greenface.com. So,
+I'll be making use of greenface.com. So,
+I'll be making use of greenface.com. So,
+by default, this is how is going to be.
+by default, this is how is going to be.
+by default, this is how is going to be.
+And if you see here, it shows um you can
+And if you see here, it shows um you can
+And if you see here, it shows um you can
+use it for free. You can use this place
+use it for free. You can use this place
+use it for free. You can use this place
+for free. So we tap these three dots,
+for free. So we tap these three dots,
+for free. So we tap these three dots,
+these three signs here. Tap it. This
+these three signs here. Tap it. This
+these three signs here. Tap it. This
+one. Yeah. Once you tap there, you'll go
+one. Yeah. Once you tap there, you'll go
+one. Yeah. Once you tap there, you'll go
+to all tools, other tools rather. So you
+to all tools, other tools rather. So you
+to all tools, other tools rather. So you
+will see um
+see what templates you should see a lip
+see what templates you should see a lip
+see what templates you should see a lip
+syncing.
+Okay. So when you scroll down you see
+Okay. So when you scroll down you see
+Okay. So when you scroll down you see
+lip syncing. This lip syncing. This is
+lip syncing. This lip syncing. This is
+lip syncing. This lip syncing. This is
+lip syncing. You say lip syncing. So you
+lip syncing. You say lip syncing. So you
+lip syncing. You say lip syncing. So you
+you tap on lip syncing. Wait top of lip
+you tap on lip syncing. Wait top of lip
+you tap on lip syncing. Wait top of lip
+sink in.
+So when you're in so by default this is
+So when you're in so by default this is
+So when you're in so by default this is
+how it might come. So please if it is
+how it might come. So please if it is
+how it might come. So please if it is
+your first time of using green face it
+your first time of using green face it
+your first time of using green face it
+might not come out this way. So just
+might not come out this way. So just
+might not come out this way. So just
+log. So once you log in um it just
+log. So once you log in um it just
+log. So once you log in um it just
+follow this normal process of login. So
+follow this normal process of login. So
+follow this normal process of login. So
+by default when you tap syncing this is
+by default when you tap syncing this is
+by default when you tap syncing this is
+the um this is going to be the interface
+the um this is going to be the interface
+the um this is going to be the interface
+of it. So now we are going to upload our
+of it. So now we are going to upload our
+of it. So now we are going to upload our
+image here. So we are going to upload
+image here. So we are going to upload
+image here. So we are going to upload
+the video rather. So we are going to
+the video rather. So we are going to
+the video rather. So we are going to
+upload the first clip. We're going to do
+upload the first clip. We're going to do
+upload the first clip. We're going to do
+this one after the other, please. We're
+this one after the other, please. We're
+this one after the other, please. We're
+going to do this one after the other.
+going to do this one after the other.
+going to do this one after the other.
+So, the first video is where it was
+So, the first video is where it was
+So, the first video is where it was
+talking and then chewed up. She's stewed
+talking and then chewed up. She's stewed
+talking and then chewed up. She's stewed
+up. So, I'll just
+up. So, I'll just
+up. So, I'll just
+tap in here.
+tap in here.
+tap in here.
+Aha. You see? So, I've uploaded the
+Aha. You see? So, I've uploaded the
+Aha. You see? So, I've uploaded the
+first clip. Now, we need to add, we are
+first clip. Now, we need to add, we are
+first clip. Now, we need to add, we are
+going to add the voice. So now in here
+going to add the voice. So now in here
+going to add the voice. So now in here
+you can also use a voice over from from
+you can also use a voice over from from
+you can also use a voice over from from
+this dream face thereby you tap in this
+this dream face thereby you tap in this
+this dream face thereby you tap in this
+choose voice. When you tap on choose
+choose voice. When you tap on choose
+choose voice. When you tap on choose
+voice it will bring you to this place
+voice it will bring you to this place
+voice it will bring you to this place
+where you can select your character
+where you can select your character
+where you can select your character
+select everything.
+select everything.
+select everything.
+So the language and everything the
+So the language and everything the
+So the language and everything the
+character the whether male or female
+character the whether male or female
+character the whether male or female
+anyone child or any of them but we're
+anyone child or any of them but we're
+anyone child or any of them but we're
+not making use of this. So we are going
+not making use of this. So we are going
+not making use of this. So we are going
+to be making use of this place.
+to be making use of this place.
+to be making use of this place.
+We're going to be making use of this
+We're going to be making use of this
+We're going to be making use of this
+place. This um wants avatar to say. So
+place. This um wants avatar to say. So
+place. This um wants avatar to say. So
+we click on want avatar to say. So in
+we click on want avatar to say. So in
+we click on want avatar to say. So in
+here you can actually type in what you
+here you can actually type in what you
+here you can actually type in what you
+want avatar to say as well. So this
+want avatar to say as well. So this
+want avatar to say as well. So this
+place that's when you are done choosing
+place that's when you are done choosing
+place that's when you are done choosing
+this. So I myself I'll be making use of
+this. So I myself I'll be making use of
+this. So I myself I'll be making use of
+audio. So here you can upload an audio
+audio. So here you can upload an audio
+audio. So here you can upload an audio
+from your file or you can also record.
+from your file or you can also record.
+from your file or you can also record.
+So I myself I'm going to record my own
+So I myself I'm going to record my own
+So I myself I'm going to record my own
+voice. So I'm going to tap here to
+voice. So I'm going to tap here to
+voice. So I'm going to tap here to
+record.
+record.
+record.
+So I'm done recording. As you can see
+So I'm done recording. As you can see
+So I'm done recording. As you can see
+here, as you can see here is
+here, as you can see here is
+here, as you can see here is
+highlighting. It's showing that I've
+highlighting. It's showing that I've
+highlighting. It's showing that I've
+recorded. So now I'm going to um click
+recorded. So now I'm going to um click
+recorded. So now I'm going to um click
+on this generate and generate mine. So
+on this generate and generate mine. So
+on this generate and generate mine. So
+just hold on for you to generate. So um
+just hold on for you to generate. So um
+just hold on for you to generate. So um
+so if you pay attention here it's saying
+so if you pay attention here it's saying
+so if you pay attention here it's saying
+generating. So we hold on for it to
+generating. So we hold on for it to
+generating. So we hold on for it to
+generate and we then put it.
+Okay. So he's ready. He's ready. So this
+Okay. So he's ready. He's ready. So this
+Okay. So he's ready. He's ready. So this
+our video is ready. Don't worry, I'm
+our video is ready. Don't worry, I'm
+our video is ready. Don't worry, I'm
+going to play it. I'm going to play. But
+going to play it. I'm going to play. But
+going to play it. I'm going to play. But
+now I want to show you guys how you can
+now I want to show you guys how you can
+now I want to show you guys how you can
+download from Dream Face. So you will
+download from Dream Face. So you will
+download from Dream Face. So you will
+see download here. So tap on that
+see download here. So tap on that
+see download here. So tap on that
+download and you tap on download. Um
+download and you tap on download. Um
+download and you tap on download. Um
+you hold on for it to download. So yeah,
+you hold on for it to download. So yeah,
+you hold on for it to download. So yeah,
+you can see up here is showing um one
+you can see up here is showing um one
+you can see up here is showing um one
+file is downloaded. So tap it to open.
+file is downloaded. So tap it to open.
+file is downloaded. So tap it to open.
+So you repeat this process in each of
+So you repeat this process in each of
+So you repeat this process in each of
+the videos. You repeat this process in
+the videos. You repeat this process in
+the videos. You repeat this process in
+each of the videos and when you're done
+each of the videos and when you're done
+each of the videos and when you're done
+you head over to any of the editing
+you head over to any of the editing
+you head over to any of the editing
+editing tools you are using. So but for
+editing tools you are using. So but for
+editing tools you are using. So but for
+the sake of this tutorial I'll be making
+the sake of this tutorial I'll be making
+the sake of this tutorial I'll be making
+use of capcot. So let's hold over to
+use of capcot. So let's hold over to
+use of capcot. So let's hold over to
+capcot. When you're in capcot click on
+capcot. When you're in capcot click on
+capcot. When you're in capcot click on
+new videos. So what we are going to do
+new videos. So what we are going to do
+new videos. So what we are going to do
+here is to add together all the videos
+here is to add together all the videos
+here is to add together all the videos
+we were able to get from um from this
+we were able to get from um from this
+we were able to get from um from this
+place. So we are just going to select
+place. So we are just going to select
+place. So we are just going to select
+them one after the other. Select them
+them one after the other. Select them
+them one after the other. Select them
+one after the other and you click here.
+one after the other and you click here.
+one after the other and you click here.
+Once you're done selecting, click here
+Once you're done selecting, click here
+Once you're done selecting, click here
+to add them. So you click on add three.
+to add them. So you click on add three.
+to add them. So you click on add three.
+So um
+So um
+So um
+add three. So don't worry, I'm going to
+add three. So don't worry, I'm going to
+add three. So don't worry, I'm going to
+play this video for you guys. So we just
+play this video for you guys. So we just
+play this video for you guys. So we just
+going to add it together. Just be
+going to add it together. Just be
+going to add it together. Just be
+creative. Be
+So, I'm just going to take this one.
+So, I'm just going to take this one.
+So, I'm just going to take this one.
+Okay. So, this should be the last clip.
+Okay. So, this should be the last clip.
+Okay. So, this should be the last clip.
+So, I'm just going to take this one.
+So, I'm just going to take this one.
+So, I'm just going to take this one.
+Okay. Okay. I made a mistake.
+Okay. Okay. I made a mistake.
+Okay. Okay. I made a mistake.
+Oh, okay. I think I selected two of
+Oh, okay. I think I selected two of
+Oh, okay. I think I selected two of
+them. Two of the clip. Um, I selected
+them. Two of the clip. Um, I selected
+them. Two of the clip. Um, I selected
+two of the clips. So, I'm going to look
+two of the clips. So, I'm going to look
+two of the clips. So, I'm going to look
+for the other one. Uh, the other one. I
+for the other one. Uh, the other one. I
+for the other one. Uh, the other one. I
+think this should be.
+Uhhuh.
+Okay, that's it. So, this is the one.
+Okay, that's it. So, this is the one.
+Okay, that's it. So, this is the one.
+So, we going to add it. Just be
+So, we going to add it. Just be
+So, we going to add it. Just be
+creative.
+creative.
+creative.
+So, after the whole editing and
+So, after the whole editing and
+So, after the whole editing and
+everything. So, we have this now. So we
+everything. So, we have this now. So we
+everything. So, we have this now. So we
+can
+can
+can
+yourself
+yourself
+yourself
+&gt;&gt; and facial expression which is pretty
+&gt;&gt; and facial expression which is pretty
+&gt;&gt; and facial expression which is pretty
+impressive. It means I can deliver
+impressive. It means I can deliver
+impressive. It means I can deliver
+content that feels natural, engaging and
+content that feels natural, engaging and
+content that feels natural, engaging and
+human like this AI does not just speak.
+human like this AI does not just speak.
+human like this AI does not just speak.
+It performs. As you can see I'm dancing,
+It performs. As you can see I'm dancing,
+It performs. As you can see I'm dancing,
+dancing. I'm dancing. See, see the move
+dancing. I'm dancing. See, see the move
+dancing. I'm dancing. See, see the move
+there. This is really fun to create. You
+there. This is really fun to create. You
+there. This is really fun to create. You
+can see how my studio looks. It's pretty
+can see how my studio looks. It's pretty
+can see how my studio looks. It's pretty
+good. So all right, let me go back to my
+good. So all right, let me go back to my
+good. So all right, let me go back to my
+position. Now from here you can create
+position. Now from here you can create
+position. Now from here you can create
+an entire series of content without even
+an entire series of content without even
+an entire series of content without even
+you see it's very very enticing is very
+you see it's very very enticing is very
+you see it's very very enticing is very
+beautiful easy to create. It's just as
+beautiful easy to create. It's just as
+beautiful easy to create. It's just as
+simple as that. See you guys.

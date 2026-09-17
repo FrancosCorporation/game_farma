@@ -1,0 +1,1528 @@
+in this video we'll learn to attach
+clothing to a character that's already
+been raked
+this is part of the complete character
+tutorial series but if you haven't been
+following along you'll need a character
+that's been rigged
+and then you'll need clothing that
+either fits but if your clothing doesn't
+fit that's okay because this video will
+cover that too okay let's get started
+we're going to create a set of basic
+animations with the body moving so that
+way when we attach the clothes we can
+make sure it fits okay if you've already
+got a set of animations like this from
+the last
+tutorial in this series then you can
+skip this part but if you're if you're
+just jumping in now this is how to
+create those animations
+give me a second here to
+delete all the
+current
+keyframes
+okay so this is a basic rundown of how
+animations work with the rigofy rig grab
+your rig go to object mode and pose mode
+so now you're in pose mode um hit n to
+open the tool panel so so grab one of
+your bones here and then go to
+go to item
+and this panel here is riggify's generic
+control area so you can turn on
+different layers
+that have the bones that the controls
+that you want to control so we're going
+to use just a basic one so it's face
+torso
+arm ik and leg ik and that's enough they
+also have these more granular controls
+or fk controls but this is enough for us
+for the most part
+and the way you set a keyframe is you
+select a bone here
+let's grab the hand
+so
+you grab
+a bone control here
+hit i and you can set a keyframe for
+location
+rotation or scale or you can set all
+three at once
+so i'm just going to set all three at
+once
+you can see in the timeline here it
+created a yellow keyframe
+and so that's how you know that this
+object
+when you click on it
+has a keyframe
+let's set this one here too
+i location rotation scale let's go
+forward 10 frames in time so we're going
+to put your mouse over the timeline and
+hit the right arrow
+this is now moving forward in time it's
+like playing a video
+but she's not moving because she we
+haven't made her move yet
+okay so at frame 10
+let's grab her hand here and hit g to
+move it out with the rigify rig make
+sure you don't stretch it too much
+um it can cause some problems unless
+you're trying to go for that look
+okay let's rotate it
+okay
+and so you can now we've set a keyframe
+for this hand
+at this location
+and rotation at frame 10 and since we're
+in mirror mode this hand came along with
+it
+so now
+if you
+go into the timeline and hit back arrow
+you can see that
+we now have
+some animation going
+yay okay
+so now we're going to do the same thing
+for all of this
+this is probably not the best way to
+animate but for this simple animation
+that's we're going to do so hit a to
+select everything
+and i
+location rotation scales and now
+everything is set
+at frame 10 for this location
+so let's and let's also let's hide the
+um
+hide the hair
+let's go to solid mode like that it it
+moves faster
+and then let's go to frame
+20 and let's move the hands
+let's move our hands up
+rotate it
+if you hit rotate once it rotates it
+based on how you're looking at it if you
+hit rotate r twice
+you can rotate it like a
+like a trackball and move your limbs to
+the
+maximum extent that your limbs will ever
+go during your animation whoever's
+animating it however keep in mind with
+this basic riggify rig the shoulders can
+only do so much
+okay it's pretty good
+let's set everything i
+location rotation scale
+so do this a few times
+just to give you a feel for how it works
+and then i'm just gonna
+go through all of it really fast
+you can uh reset
+the pose by hitting alt r
+alt g
+alt s
+and then double r to move them just
+forward like that
+and you can also scrub through and see
+how it looks
+oh if you get
+this is always annoying um
+if you're using euler for your rotation
+you get
+the hand twisting sometimes
+so a quick fix is you can just
+since we're mirrored
+you can just hit
+r
+and it snaps it in the position it
+should be and whenever you see it
+popping just
+hit r again
+and so this way it looks okay this is
+not the correct way to fix it but for
+this
+simple project here it's
+it's okay because we're our hands are
+mirrored
+yeah so that's that's annoying
+okay that's looking all right
+it's looking okay there
+maybe let's make the arms go back too
+let's grab this alt r
+double hit r to make it go back a bit
+i don't think your limbs can actually go
+that far
+okay
+forward up
+let's go back to
+down
+like that
+a i
+oh you see i think i forgot to set
+everything else here
+a i location rotation scale
+and
+okay
+now let's do the uh let's do the hips
+next
+i'll just fast forward this
+because i think everybody gets the idea
+okay so here we're seeing a bit of a
+problem
+this uh there's too much overlap
+from the uh the calf to the thigh
+so we can tweak that a bit so let's go
+to leg tweak
+okay you get these little spheres
+you can use these
+and hit g to move it but let's first
+go back to here
+and set these in its default position a
+um
+i
+located location rotation scale
+and then go to here
+let's just move this a bit to alleviate
+some of that pinching right there
+doesn't help much
+like this you might need to actually use
+some corrective shape keys but
+this helps a little bit
+and set that
+and then
+i think
+i think that's all we need here got the
+legs bending
+torso
+torso
+hips
+arms
+you could do maybe a bit more but
+this is the basic idea ankles yeah
+that's good
+okay i think that's good enough
+grs
+i
+location rotation and scale okay so now
+we have an animation all set up
+so we can attach our clothes okay now
+let's go and add the clothing
+typically when you are trying to add
+some clothes from a different model
+it's not going to fit your character so
+you need to do that so let's let's go
+and
+look at how to make this close fit
+pretty quickly so let's go to edit mode
+a let's just roughly bring it down
+and so it's close
+and you see it's not fitting
+in the back either so let's rotate it a
+bit
+just kind of kind of get it close
+and then
+let's see let's set the
+let's let's make the origin of the
+sweatshirt match our character
+so the origin is this little orange dot
+you can hit
+and let's move the 3d cursor to the
+origin so hit shift s
+and cursor to selected so it's cursor to
+selected which is two
+there you go
+so now let's grab our object and go to
+object set origin origin origin to 3d
+cursor like that
+okay so that just keeps things nice and
+tidy let's also set the scale
+so
+ctrl a and all transforms and this
+resets the scale of this
+this object
+i think was actually fine
+just make sure it's all at zero
+and let's turn off our animation
+we don't want that
+let's go here and x and delete
+and keyframes
+okay so that's all zeroed out
+now a good way to make clothes fit
+is to go to sculpt mode go to object and
+sculpt mode
+make sure dyno toppo is turned off
+and then i find
+that this
+this elastic tool here is really useful
+so click that hit f to make it bigger or
+smaller
+you can hit shift f to make that
+stronger or weaker
+one thing to watch out for is if you
+scale it
+you see it's moving the sleeve but it's
+also moving the body and you don't want
+that
+so what you can do is hide things
+with face
+face sets
+so it's you can see these different
+colors it's already got face sets
+assigned but let's just make sure
+they're good
+so do initiate face sets
+by uv seams
+and it looks the same but
+it's broken up all the you facets by the
+uvs so this is going to depend on
+whoever makes the clothing that you're
+importing if they've got the seams cut
+the way you want it or not so just
+experiment with different ways of
+initiating face sets
+where to go
+like material it's all one material
+that's no good so let's go back to
+uv seams and once you have the seams
+assigned hold shift and hit h and you
+can hide
+parts of the
+mesh and just keep holding shift h okay
+so now when we modify the sleeves we
+won't be modifying the body
+but with this technique you want to be
+careful about modifying
+the part where
+what's visible meets what's invisible
+because you get weird deformations so
+focus more on the parts that are away
+from where it connects
+so let's go ahead and do that
+here
+you can also do um slash to hide
+everything else except for what you're
+working on to make it easier to pick
+things
+and i'm going to go pretty quickly
+you really should take more time on this
+i would
+normally take more time on this
+let's get the inside of the arm here
+you can see it's way too big over here
+but i'm just going to leave that for now
+oh and i forgot to mention make sure
+this
+mirror is turned on so that way it
+affects both sides at once
+okay
+let's just make sure the other side
+looks alright it doesn't always
+i don't think the sweatshirt is
+symmetrical
+so sometimes the other side is not
+working
+uh if you know your first side is okay
+you can edit the second side but make
+sure you turn off mirror
+and just tweak it a bit
+so it fits okay
+okay
+that's alt h
+and then let's hit um
+shift h to hide the sleeves now
+and do the same thing let's uh just
+sculpt this
+middle part
+to fit nicely
+going pretty rough here just wanna make
+sure everything is outside
+oh i should have mirror turned on here
+okay so that's pretty good
+alt h
+now you can see if we go to
+x-ray mode you can see it's way too big
+so we're going to try and shrink it to
+make it fit so let's try
+this is a technique that works sometimes
+but let's just show you so you can
+have it as one of your tools
+okay so let's go back into object mode
+make sure the sweatshirt's selected go
+to modifiers
+and let's go to
+shrink wrap click shrink wrap
+click this little eyedropper and click
+on our mesh
+okay so then the whole thing just
+shrinks down you can see it it doesn't
+work super super good
+and then
+sometimes outside surface works good i
+guess it's not doing much and then you
+can play with the offset
+to see
+how far you want this to sit from the
+body
+so i'm going to do something
+like 0.005
+and then
+so i mean and clearly this doesn't look
+good and you can see by how it's pulling
+that it's um
+it's not going to look good at all once
+we have the textures turned on
+so you can see it's it's just doing
+weird things
+but it is fitting the body now
+as you can see our body mesh is pretty
+close to the sweatshirt now and then
+what you can do is with this shrink wrap
+modifier go to save as shape key so turn
+off this
+this modifier
+and then go to your shape key and you
+can
+adjust it from full off to full on
+and so just kind of like play with this
+to get it as close as you kind of like
+think
+feels all right too far that'll it'll
+mess with all of your uvs
+and it makes it lose all of its detail
+um too little it's the same thing so
+kind of go somewhere that you you kind
+of like
+like i think that's okay i'll have to
+fix this thing there
+you can check it in x-ray mode and see
+how much
+so there's obviously the chest is
+a lot bigger
+than the sweatshirt
+but i think if you push it anymore
+you'll just lose all the detail so i'm
+going to actually reduce it a bit
+like that
+and then go to
+apply to
+basis
+okay so now that is
+the actual shape of this mesh
+and then you have to go back into sculpt
+mode
+and just manually
+shape everything until it fits nicely
+for that
+this tool is also useful
+you hit the n key go to tool
+hit the subtract key here
+set this around
+one five or so
+it's probably a good idea to save this
+first
+and then you go and
+just brush over it
+until it feels like
+it's the right size
+um this will work better you can go to
+x-ray mode
+makes your mirrors turned on
+switchers are kind of bulky so that's
+kind of
+good in a way
+i think the back
+i'm not sure why that blew through
+you hit the n key here
+changes to add
+and you can add
+this tool unlike elastic it only affects
+what you're you're working on so it
+won't affect the sleeves
+so just kind of go through and like
+you know
+catch the side views you can see how
+bulky things are from the side better
+and just shrink this whole thing until
+it feels like
+it's a good size
+so i'm just going to go and do that now
+it's it's um
+nice to toggle from wireframe
+transparent on and off
+as you're doing this i think alt z might
+be a custom hotkey but you can just
+toggle it here too i feel like up here
+needs to get smaller
+in areas where we have seams
+be careful with shrinking it too much
+because
+you might mess up the detail
+so in that case you could go back to the
+elastic tool and just pull stuff in
+it's kind of a slow manual process but
+it's kind of peaceful and relaxing too
+okay i think that's
+kind of
+maybe
+too much here
+you you could um hold shift to smooth
+but
+that'll um mess your textures up so if
+you click shift and smooth it
+you know it'll
+it'll kind of smooth
+that little
+little bumps
+but then
+it messes up the textures so just be
+really careful with that
+if your computer is not fast enough like
+mine you get little
+lags
+with your mouse cursor and it might snap
+down by accident
+okay
+i think that's pretty good so that's
+that's kind of quickly how you can shape
+things to fit
+let's check the armpit it usually has
+problems
+yeah it looks like the armpits
+overlapping so here you can use shift
+and and oops let's reduce the shift so
+the shift is actually smooth so click
+smooth
+let's reduce this down to like 0.2
+then go back to elastic so now when you
+hold shift it won't be as as fast
+it's still kind of fast
+and even though shift kind of messes
+with the uh will mess with the textures
+the uv mapping a bit it does work pretty
+good in this situation where you're
+trying to like make two parts kind of
+separate
+you just want to get like a little bit
+of separation
+check it on the inside to see you can
+see right here it's overlapping so i'm
+going to reduce this and
+hold shift a bit
+and i think that should be okay
+maybe a bit more there
+okay so now we don't have
+very much overlap
+we have a sub d modifier so we can
+turn that off and just
+check it this way too sometimes when
+you're
+sculpting like this with the subdued
+turned on you get really extreme
+shapes with your
+uh underlying mesh so just make sure you
+don't have like
+like this is probably not good here
+so you can go to this one here this hook
+tool
+turn off mirror
+this has a
+smaller
+radius of influence
+okay that's all right
+okay
+so that's uh that's one way to make
+clothes fit
+okay let's go to object mode and let's
+finally attach our clothes to our rig so
+click our close shift click our rig
+control p
+to set parent two
+automatic ways
+and there you go
+let's scrub through animation and see
+how it fits and it's it's okay we've got
+some weird stuff going on here um so
+that's not super nice so there's a um
+another way to do this but
+you can really mess things up i have
+done this a few times so let's
+do this little trick so you don't mess
+yourself up main body go to here and
+shift d duplicate that hide the main
+body call this
+body for weight paint
+okay so
+so you you could uh you could mess up
+your main bot the weight painting for
+your main body
+and find out a couple days later and
+it's just it's a mess because you have
+to redo all this work so this way
+we're using this one this copy so we we
+can't mess up our main body
+okay so now we
+grab our new main body shift click our
+object our sweatshirt that we're trying
+to change
+go to object mode and wait paint
+and then go to and so the item that
+you're modifying should be blue with
+these rainbow colors here and there so
+in this case we know we're modifying the
+sweatshirt not the body but
+even still i've made mistakes
+let's go to weight
+transfer weights
+go to active layer and go by name
+and i feel like you need to click out in
+space but that could just be me
+and then go and check it and see how it
+looks you can um
+go like that
+so you can see it's uh
+it's got some weird stuff going on there
+and that that happens because the arms
+are so close this should
+usually people modify in more of an a
+frame
+i like to break more like that so it
+causes these problems okay
+but everything else seems like it's
+working pretty good
+the shoulders are the hardest part the
+torso is usually
+okay
+um the legs bending up that's usually a
+problem but it's
+looks okay
+okay so let's go and fix this okay so
+let's go and do some weight painting if
+you have been following along with this
+series you already know how to weight
+paint so you can
+you can probably skip the rest of this
+video it's it's nothing really new it's
+the same weight painting as uh doing the
+body and the hair
+but if you want to watch
+you're more than welcome
+and if you're new to this series then
+this part you should watch because this
+is how you do
+the way painting to make the clothes fit
+properly and not do these weird things
+okay
+so let's turn on our weight painting
+layer i think it's this one here yep so
+those are the weight painting bones okay
+and let's click our
+rig shift click our sweatshirt go to
+object and weight paint and so the way
+the way weight painting works is
+you um
+you click the various bones the
+deformation bones here
+and
+then where it's
+red
+it's where that particular bone is
+affecting the um
+weight
+of the
+movement
+like a lot and yellow is less blue is
+much less and dark blue is not at all so
+you kind of want to modify
+the weight
+of how much this bone influences
+so the first thing i think we should fix
+is these little
+little
+streaks of clothing
+so
+you can click around and see what's
+affecting it
+okay so it looks like
+looks like this body part here shouldn't
+be affecting
+these pieces and you can um toggle x-ray
+to make it easier to see what's going on
+okay so i think that's messing with it
+and so
+you can
+go to the smudge tool
+f to make that bigger
+and this kind of smears the weights
+around so you can do this
+to reduce the influence so you go you
+you take the weights from
+over here where it's a zero and you kind
+of smear it down to here where it's
+probably like a 0.1
+you're kind of reducing those weights
+okay it doesn't look like it's doing
+much but you can see
+the color is changing this was uh here
+this is shift c
+i think shift z is wireframe let's have
+a hotkey for a wireframe
+so in case you're wondering
+how that's
+appearing and disappearing it's a it's a
+hotkey for that
+okay
+so that's lower but it looks like it's
+not doing anything which is kind of
+funny
+so we can go here
+go into the blur tool
+just blur it a bit and that should pull
+it up
+okay that's a little better
+and this this well
+this sweater is not symmetrical so
+unfortunately so that means that if you
+modify one side you have to do it to the
+other side also
+because you can see it's not doing
+anything
+it's okay
+okay so it's coming in a bit which is
+nice let's check the body here
+let's produce it some more
+let's go shift f to make it strong just
+pull that in
+okay maybe it needs some of this here
+too
+you could use the smear tool
+for that too
+instead of the blur tool
+let's check this one here nope not that
+one
+oh okay
+i was wondering why it's not working
+because you can see here it's
+fairly even
+there it is there it is and i forgot the
+we have breast bones in this character
+so this bone here is clearly you can see
+this is what's messing it up so let's go
+and smudge this back and that should fix
+it
+okay that's
+that's what i was looking for and here
+too i think it's a little bit
+i think this wants to pull up towards
+the shoulder also so let's pull that out
+i actually like to start with the blur
+tool
+and then go into the smudge later
+it seems like it just kind of evens
+things out
+where'd that go
+you can see parts of this mesh are
+symmetrical so if you modify some of it
+the other side modifies but
+but the whole thing is not symmetrical
+so it's not going to totally work
+okay so let's see how that looks
+i think this is still pulling out too
+much
+so let's go and reduce that
+so i think the shoulder bone is
+affecting that too much
+so let's go ahead and smudge that some
+more
+whoops so you can see i went too far so
+now it's
+not
+it's a overlapping the body is popping
+out so let's put that back
+and you can see
+these uh
+loops i'm just trying to get them to be
+a little bit a little bit more even
+and i think this is not
+it's blurred a bit doesn't work it's
+blurred a bit
+okay so i think that's kind of okay
+this
+is still pulling inwards
+so let's see if they have
+the breastbone might still be affecting
+that so let's get this brush tool here
+go to tool go to
+b which is subtract
+and let's just erase
+whatever's there
+let's also get the main torso here and
+erase whatever's there
+something is affecting that i'm not sure
+what
+it might just be the shape of it here
+it might be just the shape of the
+original mesh that's making that little
+bump
+but you can check it
+so
+when you go to edit mode you can
+actually check the weights for your mesh
+however you can see the sweater snapped
+back so go to armature
+turn these on this way it'll stay the um
+sweater will stay in place even when you
+go into edit mode grab a point that
+you're curious about what the weights
+are
+like that go to item
+and you can see here these are all the
+weights affecting this particular point
+so we've got spines
+here
+you can see this is at 1.3 maybe that's
+doing it
+upper arm that's okay
+so i'm going to guess that
+def spine o2 is affecting that
+and so if you go here you can see okay
+so you can see this spine here
+is affecting that and it shouldn't be so
+let's go and erase that
+go to tool
+subtract
+and that should pop it all back in place
+and since we're here let's pull some of
+this out
+pull some of that out
+smudge tool is a very strange tool
+and i think it was the breastbone that
+was doing most of it
+damage here so
+pull that out
+let's just try the blur tool first
+that too
+okay now let's go and get rid of some of
+this
+tool subtract
+f to make that smaller and
+it's too much
+and that
+okay
+okay so that's getting a little bit
+better
+and you can tweak this as long as you
+want to make it perfect
+i'm not going to
+do it totally perfect but i am going to
+fix that
+and that
+let's get that out of there
+let's see here
+let's check the shoulder smear tool
+let's
+pull that back
+back a bit
+let's do the same thing for over here
+it's got a little hole there
+that worked
+no i didn't like that
+i think this is pulling too much also so
+let's reduce that a
+bit
+it's kind of like a
+sculpting in
+the fourth dimension
+so you're sculpting
+but also thinking it's going to be
+moving while you sculpt
+it's tricky
+let's pull that back a bit
+that's better
+let's pull this whole area back
+and blur it a bit
+okay it's a little better
+okay that's okay
+oh turn it maybe we need to increase
+that a bit
+you just got to kind of play with it and
+try and get it to work
+worse comes the worst you can sometimes
+add
+modify your actual mesh
+but you kind of want to save that
+for the last
+thing you try
+and only do it a little bit
+okay so i think that's okay let's check
+the arms up that's usually the hardest
+part and
+yeah okay that's all right
+let's check the hips here hips are
+usually pretty easy
+that's weird
+this might be shoulder bone related
+maybe reduce the body a bit
+the tricky thing is whenever you fix it
+in one pose you gotta go and check all
+the other poses to make sure it's all
+right
+oh look we still got some blow through
+here
+and some over here
+reduce that a bit
+let's see here i wonder if this is the
+breastbone
+maybe it's the shoulder bone
+look at the goat now it's not the
+shoulder bone
+to kind of go through and try and figure
+out what's causing these things
+sometimes it's this arm here
+that might be it
+oops
+and the smudge tool is not as good at
+taking everything out so sometimes you
+need to use this
+oops too strong
+it's tricky because you want to remove
+some weight to fix it in this position
+you want to add in this
+position it's kind of driving me bonkers
+here let's see here
+okay so
+at this point
+it's close but not quite there and i'm
+kind of driving myself crazy so this is
+where you can just go to sculpt mode
+sculpt mode like that
+go to
+add reduce this down
+and just
+pop it out just a little bit
+to just make it easier on yourself
+before doing that you want to make sure
+it's not going to alter the
+character
+you know
+it's not an important part of this
+character
+and in this case i think it's okay
+so
+that's one way to solve some problems
+let's go through the rest of this here
+and see
+how it looks
+hips are pretty easy
+um the hard part is when the legs bend
+up that's hard also
+so let's go and check that
+still checking the shoulders okay
+so i think the shoulders are good
+oh wait
+i just saw something
+right there so let's just pop it out
+just a tiny bit
+okay now let's go work on the legs
+let's go back to pose sculpt mode uh
+weight paint mode
+let's see here
+so for this usually you can
+blur
+that helps a lot
+just get that to smooth out
+and
+blur these also
+the middle gets gets messed up because
+it because it it thinks it's like
+it's looking for a mesh like like the
+same thing as the body so like pants
+so this is kind of
+like a skirt and this middle part always
+gets messed up
+so this middle part needs to be fixed
+this area here is very finicky so if
+it's not poking through just kind of
+leave it as much as possible
+and you can smooth it a little bit
+but
+try not to mess with it too much
+so what you can do here is you can smear
+some of this down
+so you
+pull some of that
+back
+this you can pull it up
+oh we didn't blur this one yet let's
+blur that one
+pull that up
+so you want this middle part to go with
+the legs and left with the tor uh pelvis
+so pull that up
+pull that up
+pull that up
+and this one
+oops
+it's a little better
+it's still a little
+crinkly
+this is um
+average it's kind of a different blur
+tool
+i believe it averages the weights
+between whatever it's affecting it
+so sometimes that one is good too
+i like to start with blur
+or smudge and use that later
+okay that's a little better i mean
+you can make you can make it a lot
+better than this but
+you kind of get the idea of how this
+thing works
+oh it's a little weird back here too
+let's fix this
+funny weights
+okay
+this is a long sweatshirt so it's kind
+of like a dress and
+you could do it you can do a short dress
+like this or you can add bones
+to uh to rig it so you can have more
+control but for this tutorial we're just
+going to follow the body it's very
+simple
+okay i think it's okay if i was doing
+this for real i'd probably put a little
+more effort into that
+so that's example one of how to
+attach clothes to a rig the example two
+and three
+they're going to be the dress and the
+shoes and the reason why i'm showing
+those is because that's part of the
+complete character tutorial and that's
+what we made so it'd be nice just to
+show the whole process
+so
+if you feel like you've got a handle on
+how to attach clothes now you're good to
+go just you know go and attach some
+clothes
+and if you want to sit here and watch
+this then
+hang out and
+watch me attach some clothes okay let's
+attach the dress
+so we'll grab our address
+shift-click our rig
+control p
+automatic weights
+check it and see how it looks okay
+address is obviously weird
+i'm looking more up here at the chest
+area and the chest is not working great
+either
+so let's do the weight transfer so click
+the body make sure this is our backup
+body yes body for away paint shift click
+our address
+object
+uh object weight paint
+and weights
+transfer weights and
+by name
+click here
+and then let's
+make sure and see how it looks
+and i think that's working better
+got some textured tears in the arm how
+to fix that later
+so um
+so it looks like the arms are pulling
+the dress up
+but in this case and the hands the thumb
+i guess is pulling the dress up
+in this case there might be a fix for it
+to make our lives easier
+so let's grab our body here
+and let's go to edit mode
+hit l l
+l
+okay so let's grab
+those parts of the body and then let's
+grab the hands also
+go to mesh
+separate selection
+okay so let's do this let's let's delete
+the armature so let's delete that go to
+our
+object data properties
+so we're going to delete what we did
+when we just rigged this address let's
+let's unrig it
+let's go here and delete
+all unlocked or delete yeah here we go
+so now this has nothing there's no
+rigging on this dress at all
+see it just stays so let's try and rig
+the dress just to the body part and not
+to the arms so grab the dress
+grab the address
+shift click the rig here
+control p
+with automatic weights
+okay let's check it and see how it looks
+let's go to
+solid mode it's actually
+it's hard to tell what's going on
+because these are the same colors so
+let's go to like
+random okay here we go
+and see how it looks
+okay so it's
+the hands are still pulling the dress up
+and up here it's still not following it
+correctly so let's grab the
+torso part with the arms cut off shift
+click
+the dress
+object
+waypaint weights
+transfer weights and by name
+click there go to object mode and let's
+see how this looks okay that's
+i think that's better
+okay so now let's go and do some weight
+paintings let's click here shift click
+the dress
+object and wait paint
+and let's do the same thing we did for
+the sweatshirt let's just go and
+kind of like
+make things a little bit smoother
+let's see if this dress is mirrored
+i don't think it is
+i'm just going to smooth things a bit
+first
+i don't like how wrinkly that is
+smooth you can put pretty strong
+okay it's a little better
+see it's making this worse
+smooth this side here
+smooth that there
+and
+that one there
+okay that's all right
+then let's go and fix some of that blow
+through here
+okay let's
+pull this
+down a bit
+and then
+this one too
+pull that down a bit
+okay
+let's
+see how this works
+this is that same problem we had with
+the sweatshirt
+you want to
+pull it down to fix that you want to
+pull it
+up to fix it over here
+so last time we modified the dress the
+sweatshirt we could just
+really zoom in and see if that works
+no so you might have to just modify this
+dress a little bit
+and let's see here
+this side's actually a little bit better
+it's so close
+okay i'm just going to
+i'm just going to tweet the dress
+sculpt mode brush
+tool
+plus
+0.1 it's okay
+oops let's turn off the mirror
+just add a tiny bit
+it's a little bit of cheating
+looks like here it's going through a bit
+there
+and a bit there
+oh and a bit here too
+okay a little bit of cheating it's okay
+okay so i think
+the arms are all good let's fix the um
+legs of the dress here
+okay so let's fix it here first
+let's um
+i want to get a little bit more
+animation for the legs so let's go to
+item and go to leg um ik
+pose mode and let's
+go here
+and let's do
+this a bit
+so you can see
+when the legs spread what happens in the
+dress here let's go back to our weight
+painting layer grab our address object
+weight paint
+okay
+and let's go back to our blur tool f
+shift f
+and just blur
+the material between the legs so it just
+gets more even
+let's pull this up a bit
+same here same there
+it's got some funny wrinkles there
+so we kind of don't want to mess with
+the area right to where
+the legs bend
+it's not super great
+but up here this sprinkle looks bad
+let's go and fix that
+let's do the same thing over here
+you can see the green is the body poking
+throughout to fix that
+but i don't like these um
+strange wrinkles
+okay that's a little
+it's a little better
+um let's go to the smear tool
+let's remove this little
+how the material pulls down let's get
+rid of that
+so let's either add some of the legs
+weights or take away some of the pelvis
+weights
+if you add too much weights you'll start
+to blow through the pelvis so it's kind
+of a balancing act
+let's try this average tool
+okay
+let's fix
+the middle part of the dress more let's
+average that out
+like that
+oh there it goes
+it was pinching a bit so let's
+smooth that out also
+i'm not sure what's causing that little
+divot
+okay it was the
+there must be a faint amount of weight
+there
+so let's go and get rid of it
+tool minus
+oops
+it's a little better let's fix the back
+that should be wrinkly also
+so let's see here
+oh so silly when i
+had the legs go apart i didn't set a
+keyframe
+because this was not turned on
+so let's go
+let's go back here
+pose
+mode leg ik
+g
+okay there we go so now we have an ik
+set for that okay let's try again
+object weight paint
+and let's smooth out back here too
+um
+let's go to pose mode let's turn off leg
+ik
+weight paint okay
+smooth that all out
+smooth that all out here
+same thing over here
+same thing over there
+so just kind of all blends better you
+can see here the
+skin's poking through a bit
+it's a little bit wrinkly too so let's
+smooth some of this out
+i'm toggling constantly so i can catch
+the reflections and see how it looks
+when you smooth you'll probably find a
+bone that messes things up like that
+so be
+wary of that
+let's actually smooth in between
+the two sides
+like that
+okay and let's fix these little um
+poking through
+with the smudge tool
+let's pull that down a bit and grab this
+leg
+and pull it down a
+bit okay
+that's pretty good
+okay
+all right
+so i think that is good
+let's go to object mode here and let's
+add these shoes
+for the shoes we should also animate the
+toes so let's go to leg i k turn these
+on
+let's go to pose mode let's go all the
+way to the end
+and let's go
+let's see here
+alt grs
+let's go to 190
+grs
+it's weird
+g
+r
+s
+okay
+r x
+make these go down here
+a
+i
+location rotation scale let's go to
+200 let's grab the toes only
+go to r x
+and
+r x
+okay
+let's turn off our leg iks
+and go back to here
+and let's attach these shoes
+so let's grab our let's uh let's
+i can't see the shoes or the same color
+let's go to
+random no
+let's go to object
+viewport display where's viewport
+display here we go let's make these
+pinkish there we go
+so
+click the shoes
+shift click the
+rig object
+sorry
+click the rig shift click the shoes
+object and wait paint you see how i just
+reversed that i've done this a million
+times but
+for me i still
+get them flipped
+and that's how you can also mess up your
+when you're weight painting that's how
+you can mess up your rig so
+definitely make a backup
+don't use your main body
+okay so let's
+grab our shoes shift-click our rig
+ctrl p
+automatic weights
+let's
+check it and see how it looks
+and we've got some parts not attaching
+that's okay
+that's uh that's this happens a lot when
+you have
+you're attaching something with multiple
+pieces that that kind of just happens
+we can fix that
+let's check the toes
+yeah it's not not so great so now let's
+grab our
+mesh
+let's make sure
+it's the weight painting one
+shift click our shoes
+object weight paint weight to enter
+weights make sure this is by name
+click off
+and let's see how this looks
+is it better
+yeah
+all right i think that's better
+it's actually
+actually it's actually pretty good
+ah our toes are poking through
+i find this happens a lot
+and
+for me the way i usually fix it is i
+i apply a shape key
+to the body or someone just taught me a
+new method so i'll show you those
+as an option
+but let's first try and improve this
+because i think it could be a little bit
+better
+but i think
+this could be smoother
+so let's go and
+click our rig shift click our shoes
+object and weight paint
+and let's click the toe bone here
+let's go here so it's faster
+and let's just blur that a bit
+and blur that a bit
+okay let's do the same thing here
+that a bit
+and grab your toe
+and blur that a bit
+okay i think that's about it i can show
+you
+the fix for those toes
+okay so let's do that let's do that next
+so a lot of times you'll get the body
+poking through your mesh
+we saw that up on the dress here and
+besides whey painting i just
+i puffed the dress out right there and
+it fixed it
+which is
+not great
+um there's other ways to solve this and
+so these two i'll show you two solutions
+these two solutions can also solve the
+body poking through um we're gonna do it
+just just for the toes here but you can
+use this wherever you want to on your
+mesh that that it's poking through
+clothing
+so the first is to create a shape key
+so you can go
+uh grab your mesh
+and then go to the object data
+properties click plus and you'll get
+this basis
+so this is a
+a shape key group
+that's the
+your your basic model it's the way you
+had it it's the way you have the model
+right now it's the basic shape you can
+make a second one we'll call this um
+shrink
+toes
+set this to one
+so we're going to make a modified
+version of the mesh
+and with this we're going to shrink the
+toes so object sculpt mode click this
+here click tool click minus
+f to make that bigger
+and let's just
+shrink
+the toes
+so now they're
+inside the shoes
+okay so now that's
+covered up
+and that's one way to that's one way to
+make the body fit clothing if you don't
+want to modify the clothing too much
+okay so let's turn this off
+make sure we have basis selected and
+let's
+go to where you can see the toes poking
+through so this is the other method
+to hide parts of the body poking through
+let's go to
+edit mode
+and let's go and add a modifier let's
+call this the mask modifier here click
+these to make sure it's turned on
+go to object data properties click plus
+call this mask
+toes
+okay so we're going to do is
+select the parts we want hidden
+so it's the toes
+don't select too much maybe over here
+maybe over there too
+okay
+and then go
+make sure you have this mask
+selected and go to remove
+sorry control i
+and assign
+and go to control i and remove
+and then go and select that mask so
+we'll type in mask
+toes
+and then the toes disappear and it looks
+like we picked too much
+so we're going to go back to our
+outdated properties
+and let's see here we want to
+unremove
+so let's turn that off
+and let's go back to here
+and click assign so that way everything
+is visible
+and then let's
+unselect
+some of these up here
+and select some of those
+okay
+and then click remove
+and turn that back on
+and we still have some blow through here
+so let's do it again
+let's unselect some of those
+unselect some of those
+and then
+go to here and
+control
+control i assign control i remove
+go back to here turn that on
+and now
+we're good it's it's kind of a weird
+it's kind of
+weird the way it works you want to
+assign
+all of the faces or vertexes that you
+want to be visible and remove the ones
+you want to be invisible
+so but this is a good way to um
+to hide parts of the geometry it's
+poking through also so either either way
+they both work
+pick what's good for you
+okay
+i think she is
+i think our character is rigged
+all right
+so that is it for our video today and
+that is it for this series
+for those of you who have stuck around
+this whole time congratulations you now
+have a fully rigged character with
+clothing and hair and all the works
+so you should be proud of that so give
+yourself a pat in the back
+for the people that are new to this
+series i hope this was helpful to you
+and for everybody this is not the end of
+the tutorials
+so if there's something you want to
+learn let me know
+thank you for listening i really hope
+this helped you and as always like
+subscribe support me on patreon or if
+you want to see what things i'm working
+on you can check me out on instagram
+hope to hear from you soon

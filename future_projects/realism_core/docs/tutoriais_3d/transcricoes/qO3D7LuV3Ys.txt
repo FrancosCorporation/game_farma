@@ -1,0 +1,1672 @@
+Kind: captions
+Language: en
+Hello and welcome to my first tutorial
+Hello and welcome to my first tutorial
+Hello and welcome to my first tutorial
+on how to make a low poly 3D character
+on how to make a low poly 3D character
+on how to make a low poly 3D character
+in Blender. Woohoo! This day finally
+in Blender. Woohoo! This day finally
+in Blender. Woohoo! This day finally
+came. If you've been following me for a
+came. If you've been following me for a
+came. If you've been following me for a
+while, you've probably seen that my most
+while, you've probably seen that my most
+while, you've probably seen that my most
+recent artworks feature lots and lots
+recent artworks feature lots and lots
+recent artworks feature lots and lots
+ and lots of 3D characters. I
+ and lots of 3D characters. I
+ and lots of 3D characters. I
+basically started learning modeling in
+basically started learning modeling in
+basically started learning modeling in
+Blender a little bit under a year ago,
+Blender a little bit under a year ago,
+Blender a little bit under a year ago,
+and now  most of my work revolves
+and now  most of my work revolves
+and now  most of my work revolves
+around doing this. I've always been kind
+around doing this. I've always been kind
+around doing this. I've always been kind
+of fascinated with 3D worlds and virtual
+of fascinated with 3D worlds and virtual
+of fascinated with 3D worlds and virtual
+habitats of sorts. [snorts]
+habitats of sorts. [snorts]
+habitats of sorts. [snorts]
+So, learning how to make my own 3D
+So, learning how to make my own 3D
+So, learning how to make my own 3D
+characters and  habitats and
+characters and  habitats and
+characters and  habitats and
+landscapes. All of this has been
+landscapes. All of this has been
+landscapes. All of this has been
+extremely rewarding.  And
+extremely rewarding.  And
+extremely rewarding.  And
+character modeling specifically is
+character modeling specifically is
+character modeling specifically is
+something that is super interesting to
+something that is super interesting to
+something that is super interesting to
+me. And I've been spending a lot of time
+me. And I've been spending a lot of time
+me. And I've been spending a lot of time
+figuring out a workflow that's best for
+figuring out a workflow that's best for
+figuring out a workflow that's best for
+me. So, basically, this tutorial was
+me. So, basically, this tutorial was
+me. So, basically, this tutorial was
+very heavily requested. So, I am super
+very heavily requested. So, I am super
+very heavily requested. So, I am super
+happy to finally be able to share what
+happy to finally be able to share what
+happy to finally be able to share what
+I've learned with you guys.  Um,
+I've learned with you guys.  Um,
+I've learned with you guys.  Um,
+but I do want to state that I am in no
+but I do want to state that I am in no
+but I do want to state that I am in no
+way a professional or a Blender guru or
+way a professional or a Blender guru or
+way a professional or a Blender guru or
+anything like that. I am in fact still
+anything like that. I am in fact still
+anything like that. I am in fact still
+learning myself. 3D character creation
+learning myself. 3D character creation
+learning myself. 3D character creation
+is super intricate and does require you
+is super intricate and does require you
+is super intricate and does require you
+to know a lot of very different and
+to know a lot of very different and
+to know a lot of very different and
+specific little skills and there's a lot
+specific little skills and there's a lot
+specific little skills and there's a lot
+of very distinct stages of creating a
+of very distinct stages of creating a
+of very distinct stages of creating a
+character like this. So, just like any
+character like this. So, just like any
+character like this. So, just like any
+other 3D artists, I might know more
+other 3D artists, I might know more
+other 3D artists, I might know more
+about one stage and less about the
+about one stage and less about the
+about one stage and less about the
+other. And you know, you might too,
+other. And you know, you might too,
+other. And you know, you might too,
+which is completely fine. So, at many
+which is completely fine. So, at many
+which is completely fine. So, at many
+points in this video, I will be linking
+points in this video, I will be linking
+points in this video, I will be linking
+videos by other creators that really
+videos by other creators that really
+videos by other creators that really
+helped me understand what I'm doing, and
+helped me understand what I'm doing, and
+helped me understand what I'm doing, and
+they might explain it way better than I
+they might explain it way better than I
+they might explain it way better than I
+can. I also want to preface this with
+can. I also want to preface this with
+can. I also want to preface this with
+one note. I do consider my style to be
+one note. I do consider my style to be
+one note. I do consider my style to be
+low poly compared to like other high
+low poly compared to like other high
+low poly compared to like other high
+resolution models, but I wouldn't say
+resolution models, but I wouldn't say
+resolution models, but I wouldn't say
+that this is low poly by the book, as in
+that this is low poly by the book, as in
+that this is low poly by the book, as in
+ I don't really take strict poly
+ I don't really take strict poly
+ I don't really take strict poly
+count into consideration. Uh, however, I
+count into consideration. Uh, however, I
+count into consideration. Uh, however, I
+do adhere to all textures being no more
+do adhere to all textures being no more
+do adhere to all textures being no more
+than 1,024 pixels. In short, my style is
+than 1,024 pixels. In short, my style is
+than 1,024 pixels. In short, my style is
+more like PS2 than PS1, if you know what
+more like PS2 than PS1, if you know what
+more like PS2 than PS1, if you know what
+I mean. But if you're looking into
+I mean. But if you're looking into
+I mean. But if you're looking into
+ proper low poly models, I really
+ proper low poly models, I really
+ proper low poly models, I really
+recommend Crashoon Academy tutorials.
+recommend Crashoon Academy tutorials.
+recommend Crashoon Academy tutorials.
+These are super amazing at explaining
+These are super amazing at explaining
+These are super amazing at explaining
+everything in professional detail, and I
+everything in professional detail, and I
+everything in professional detail, and I
+definitely say this is your go-to kind
+definitely say this is your go-to kind
+definitely say this is your go-to kind
+of proper low poly model tutorial. So,
+of proper low poly model tutorial. So,
+of proper low poly model tutorial. So,
+to wrap up this intro, I'm going to go
+to wrap up this intro, I'm going to go
+to wrap up this intro, I'm going to go
+over inspirations, mood boarding, and
+over inspirations, mood boarding, and
+over inspirations, mood boarding, and
+turnaround, modeling, 
+turnaround, modeling, 
+turnaround, modeling, 
+rigging, unwrapping, and texturing. Oh,
+rigging, unwrapping, and texturing. Oh,
+rigging, unwrapping, and texturing. Oh,
+and last thing. This tutorial is not
+and last thing. This tutorial is not
+and last thing. This tutorial is not
+intended for  absolute beginners.
+intended for  absolute beginners.
+intended for  absolute beginners.
+This is more of an overview of my
+This is more of an overview of my
+This is more of an overview of my
+workflow with tips and tricks along the
+workflow with tips and tricks along the
+workflow with tips and tricks along the
+way.  And knowledge of basic 3D
+way.  And knowledge of basic 3D
+way.  And knowledge of basic 3D
+modeling functions and tools will help
+modeling functions and tools will help
+modeling functions and tools will help
+you understand what I'm doing. If you're
+you understand what I'm doing. If you're
+you understand what I'm doing. If you're
+completely new to Blender, I've linked a
+completely new to Blender, I've linked a
+completely new to Blender, I've linked a
+YouTube playlist in the description of
+YouTube playlist in the description of
+YouTube playlist in the description of
+this video that features all the
+this video that features all the
+this video that features all the
+tutorials that I followed myself in
+tutorials that I followed myself in
+tutorials that I followed myself in
+chronological order while I was learning
+chronological order while I was learning
+chronological order while I was learning
+Blender. My top tip when learning this
+Blender. My top tip when learning this
+Blender. My top tip when learning this
+is to memorize all the shortcuts as
+is to memorize all the shortcuts as
+is to memorize all the shortcuts as
+early as possible. And there are videos
+early as possible. And there are videos
+early as possible. And there are videos
+in this playlist that will help you do
+in this playlist that will help you do
+in this playlist that will help you do
+that. And I'm going to be using a lot of
+that. And I'm going to be using a lot of
+that. And I'm going to be using a lot of
+them in this video. So if you're
+them in this video. So if you're
+them in this video. So if you're
+interested in which hotkeys I am using,
+interested in which hotkeys I am using,
+interested in which hotkeys I am using,
+please keep an eye on this left 
+please keep an eye on this left 
+please keep an eye on this left 
+bottom corner. This video turned out to
+bottom corner. This video turned out to
+bottom corner. This video turned out to
+be very long, way longer than I
+be very long, way longer than I
+be very long, way longer than I
+expected. So it's going to be separated
+expected. So it's going to be separated
+expected. So it's going to be separated
+into a couple of parts. And this is part
+into a couple of parts. And this is part
+into a couple of parts. And this is part
+one. Enjoy. So, first things first,
+one. Enjoy. So, first things first,
+one. Enjoy. So, first things first,
+before modeling the character, we need
+before modeling the character, we need
+before modeling the character, we need
+what's called a turnaround drawing. So,
+what's called a turnaround drawing. So,
+what's called a turnaround drawing. So,
+this comes from an idea or a piece of
+this comes from an idea or a piece of
+this comes from an idea or a piece of
+concept art, and it really helps with
+concept art, and it really helps with
+concept art, and it really helps with
+modeling with the right proportions and
+modeling with the right proportions and
+modeling with the right proportions and
+colors. When coming up with a turnaround
+colors. When coming up with a turnaround
+colors. When coming up with a turnaround
+for an original character, it's super
+for an original character, it's super
+for an original character, it's super
+helpful to create something like a mood
+helpful to create something like a mood
+helpful to create something like a mood
+board of sorts where you can look at how
+board of sorts where you can look at how
+board of sorts where you can look at how
+all of your inspirations work in tandem
+all of your inspirations work in tandem
+all of your inspirations work in tandem
+with each other. Personally, I have some
+with each other. Personally, I have some
+with each other. Personally, I have some
+chaotic and unorganized Pinterest boards
+chaotic and unorganized Pinterest boards
+chaotic and unorganized Pinterest boards
+of a bunch of my inspirations, which
+of a bunch of my inspirations, which
+of a bunch of my inspirations, which
+mostly include like weird abandoned wear
+mostly include like weird abandoned wear
+mostly include like weird abandoned wear
+anime girls, and early PS2 era models.
+anime girls, and early PS2 era models.
+anime girls, and early PS2 era models.
+My characters are also heavily inspired
+My characters are also heavily inspired
+My characters are also heavily inspired
+by my favorite of all time anime, Kaiba,
+by my favorite of all time anime, Kaiba,
+by my favorite of all time anime, Kaiba,
+where the art style features these
+where the art style features these
+where the art style features these
+oversized heads, hands, and feet. And
+oversized heads, hands, and feet. And
+oversized heads, hands, and feet. And
+when you look at this all together, you
+when you look at this all together, you
+when you look at this all together, you
+can kind of see the resemblance. Also, I
+can kind of see the resemblance. Also, I
+can kind of see the resemblance. Also, I
+really like floating heads, so no necks
+really like floating heads, so no necks
+really like floating heads, so no necks
+allowed in here. I'm sorry I won't be
+allowed in here. I'm sorry I won't be
+allowed in here. I'm sorry I won't be
+showing how to model a neck in here, but
+showing how to model a neck in here, but
+showing how to model a neck in here, but
+it is pretty simple. Shouldn't be that
+it is pretty simple. Shouldn't be that
+it is pretty simple. Shouldn't be that
+much of a problem, I hope. So, today for
+much of a problem, I hope. So, today for
+much of a problem, I hope. So, today for
+this, I  wanted to make somewhat
+this, I  wanted to make somewhat
+this, I  wanted to make somewhat
+of a complimentary character for my
+of a complimentary character for my
+of a complimentary character for my
+first 3D model that I made last year,
+first 3D model that I made last year,
+first 3D model that I made last year,
+who's this angelic sort of character.
+who's this angelic sort of character.
+who's this angelic sort of character.
+So, I found some vague inspiration for a
+So, I found some vague inspiration for a
+So, I found some vague inspiration for a
+contrasted little devil-like character,
+contrasted little devil-like character,
+contrasted little devil-like character,
+and I wanted her to feature a lot of
+and I wanted her to feature a lot of
+and I wanted her to feature a lot of
+black and red  colors compared to
+black and red  colors compared to
+black and red  colors compared to
+a lot of whites and blues. So, finally,
+a lot of whites and blues. So, finally,
+a lot of whites and blues. So, finally,
+it's time to draw this turnaround. So,
+it's time to draw this turnaround. So,
+it's time to draw this turnaround. So,
+I'm using Procreate to draw these, but
+I'm using Procreate to draw these, but
+I'm using Procreate to draw these, but
+you can literally use  any
+you can literally use  any
+you can literally use  any
+drawing software for this. Uh, set up a
+drawing software for this. Uh, set up a
+drawing software for this. Uh, set up a
+symmetry drawing guide,  and I'm
+symmetry drawing guide,  and I'm
+symmetry drawing guide,  and I'm
+also using a old sketch of the
+also using a old sketch of the
+also using a old sketch of the
+complimentary character in question as a
+complimentary character in question as a
+complimentary character in question as a
+guide for proportions as I wanted them
+guide for proportions as I wanted them
+guide for proportions as I wanted them
+to look alike. So, here I'm just
+to look alike. So, here I'm just
+to look alike. So, here I'm just
+experimenting with whatever ideas come
+experimenting with whatever ideas come
+experimenting with whatever ideas come
+into my mind. It's okay to be impulsive
+into my mind. It's okay to be impulsive
+into my mind. It's okay to be impulsive
+sometimes and have fun. I personally
+sometimes and have fun. I personally
+sometimes and have fun. I personally
+have an overwhelming sense of choice
+have an overwhelming sense of choice
+have an overwhelming sense of choice
+paralysis like all of the time and I
+paralysis like all of the time and I
+paralysis like all of the time and I
+struggle to stay put with just one idea.
+struggle to stay put with just one idea.
+struggle to stay put with just one idea.
+So,  you know, most of the time I
+So,  you know, most of the time I
+So,  you know, most of the time I
+will allow myself to follow a vague idea
+will allow myself to follow a vague idea
+will allow myself to follow a vague idea
+instead and just kind of let myself play
+instead and just kind of let myself play
+instead and just kind of let myself play
+around with the details until it 
+around with the details until it 
+around with the details until it 
+feels just right. A lot of this process
+feels just right. A lot of this process
+feels just right. A lot of this process
+just kind of falls on intuition for me
+just kind of falls on intuition for me
+just kind of falls on intuition for me
+personally, but you know, might be more
+personally, but you know, might be more
+personally, but you know, might be more
+helpful for you to spend a bit more time
+helpful for you to spend a bit more time
+helpful for you to spend a bit more time
+fleshing out a concept like this before
+fleshing out a concept like this before
+fleshing out a concept like this before
+making  a turnaround. Uh, so I do
+making  a turnaround. Uh, so I do
+making  a turnaround. Uh, so I do
+a simple turnaround with a front and a
+a simple turnaround with a front and a
+a simple turnaround with a front and a
+side. Sometimes you'll see these from
+side. Sometimes you'll see these from
+side. Sometimes you'll see these from
+all four perspectives, but as I'm making
+all four perspectives, but as I'm making
+all four perspectives, but as I'm making
+a super simple symmetric design, I only
+a super simple symmetric design, I only
+a super simple symmetric design, I only
+need these two. And make sure to have
+need these two. And make sure to have
+need these two. And make sure to have
+your main model features lined up here
+your main model features lined up here
+your main model features lined up here
+at least somewhat, it will help a lot
+at least somewhat, it will help a lot
+at least somewhat, it will help a lot
+when modeling, but you can always tweak
+when modeling, but you can always tweak
+when modeling, but you can always tweak
+this later. 
+First things first, I'm just going to
+First things first, I'm just going to
+First things first, I'm just going to
+share a couple of things I keep in mind
+share a couple of things I keep in mind
+share a couple of things I keep in mind
+when setting up a Blender file. I use
+when setting up a Blender file. I use
+when setting up a Blender file. I use
+ Eevee for my render engine of
+ Eevee for my render engine of
+ Eevee for my render engine of
+choice. And if you're looking to make
+choice. And if you're looking to make
+choice. And if you're looking to make
+low poly models like this, you most
+low poly models like this, you most
+low poly models like this, you most
+likely will be absolutely fine using it
+likely will be absolutely fine using it
+likely will be absolutely fine using it
+as well. Cycles is very powerful and can
+as well. Cycles is very powerful and can
+as well. Cycles is very powerful and can
+produce highly realistic scenes, but it
+produce highly realistic scenes, but it
+produce highly realistic scenes, but it
+does require a lot of horsepower to run.
+does require a lot of horsepower to run.
+does require a lot of horsepower to run.
+And in my experience, for the type of
+And in my experience, for the type of
+And in my experience, for the type of
+work that I do, 98% of the time, it's
+work that I do, 98% of the time, it's
+work that I do, 98% of the time, it's
+completely unnecessary. In the latest
+completely unnecessary. In the latest
+completely unnecessary. In the latest
+versions of Blender, they also
+versions of Blender, they also
+versions of Blender, they also
+introduced straight tracing for Eevee,
+introduced straight tracing for Eevee,
+introduced straight tracing for Eevee,
+which is super cool and  it does
+which is super cool and  it does
+which is super cool and  it does
+help a lot in some instances. I usually
+help a lot in some instances. I usually
+help a lot in some instances. I usually
+have it on. However, for more candid
+have it on. However, for more candid
+have it on. However, for more candid
+retro PS1 inspired scenes and
+retro PS1 inspired scenes and
+retro PS1 inspired scenes and
+characters, you most likely will want it
+characters, you most likely will want it
+characters, you most likely will want it
+off as the gear back in those days
+off as the gear back in those days
+off as the gear back in those days
+wasn't able to produce this kind of rate
+wasn't able to produce this kind of rate
+wasn't able to produce this kind of rate
+tracing. For color management, always
+tracing. For color management, always
+tracing. For color management, always
+use standard. It's the most accurate
+use standard. It's the most accurate
+use standard. It's the most accurate
+portrayal of colors and helps a lot when
+portrayal of colors and helps a lot when
+portrayal of colors and helps a lot when
+you're using color references from
+you're using color references from
+you're using color references from
+concept art. Another important thing to
+concept art. Another important thing to
+concept art. Another important thing to
+keep in mind if you want this kind of
+keep in mind if you want this kind of
+keep in mind if you want this kind of
+pixelated look on your render is in this
+pixelated look on your render is in this
+pixelated look on your render is in this
+film panel have you filter size all the
+film panel have you filter size all the
+film panel have you filter size all the
+way down. By default, it's usually 1.5.
+way down. By default, it's usually 1.5.
+way down. By default, it's usually 1.5.
+So just bring it all the way down here.
+So just bring it all the way down here.
+So just bring it all the way down here.
+This allows for sharper edges on your
+This allows for sharper edges on your
+This allows for sharper edges on your
+render. So if you're after that retro
+render. So if you're after that retro
+render. So if you're after that retro
+look on your character, it's super
+look on your character, it's super
+look on your character, it's super
+useful. This also really helps if you're
+useful. This also really helps if you're
+useful. This also really helps if you're
+after that pixelated filter on the
+after that pixelated filter on the
+after that pixelated filter on the
+render itself. For a more in-depth look
+render itself. For a more in-depth look
+render itself. For a more in-depth look
+on how to do this, please watch this
+on how to do this, please watch this
+on how to do this, please watch this
+wonderful short tutorial. Right now,
+wonderful short tutorial. Right now,
+wonderful short tutorial. Right now,
+let's get to modeling this character. I
+let's get to modeling this character. I
+let's get to modeling this character. I
+start by dragging in my turnarounds. You
+start by dragging in my turnarounds. You
+start by dragging in my turnarounds. You
+can do this by simply dragging your
+can do this by simply dragging your
+can do this by simply dragging your
+pictures from a folder into Blender.
+pictures from a folder into Blender.
+pictures from a folder into Blender.
+Now, reset location and rotation of
+Now, reset location and rotation of
+Now, reset location and rotation of
+both.
+If you're using multiple turnarounds, do
+If you're using multiple turnarounds, do
+If you're using multiple turnarounds, do
+try and line them up as best as you can.
+try and line them up as best as you can.
+try and line them up as best as you can.
+Here I'm making sure the main features
+Here I'm making sure the main features
+Here I'm making sure the main features
+like  the horns are aligned. I
+like  the horns are aligned. I
+like  the horns are aligned. I
+like to move them aside so that they
+like to move them aside so that they
+like to move them aside so that they
+don't interfere or clip through the
+don't interfere or clip through the
+don't interfere or clip through the
+model. So you're creating this kind of
+model. So you're creating this kind of
+model. So you're creating this kind of
+box over here. Modeling in orthographic
+box over here. Modeling in orthographic
+box over here. Modeling in orthographic
+view is the standard. You access it by
+view is the standard. You access it by
+view is the standard. You access it by
+pressing one on your numpad for the
+pressing one on your numpad for the
+pressing one on your numpad for the
+front view and three for the side view.
+front view and three for the side view.
+front view and three for the side view.
+This way the features of the model will
+This way the features of the model will
+This way the features of the model will
+be  unaffected by perspective.
+be  unaffected by perspective.
+be  unaffected by perspective.
+All modeling is going to be done with
+All modeling is going to be done with
+All modeling is going to be done with
+simple 3D shapes like cubes and
+simple 3D shapes like cubes and
+simple 3D shapes like cubes and
+cylinders and etc. I always start with
+cylinders and etc. I always start with
+cylinders and etc. I always start with
+the head using a cube and applying a
+the head using a cube and applying a
+the head using a cube and applying a
+subdivision modifier to it.
+Line up your previously cube now kind of
+Line up your previously cube now kind of
+Line up your previously cube now kind of
+a sphere.
+Apply a subdivision modifier and delete
+Apply a subdivision modifier and delete
+Apply a subdivision modifier and delete
+half of the object in edit mode by
+half of the object in edit mode by
+half of the object in edit mode by
+selecting half of the vertices and
+selecting half of the vertices and
+selecting half of the vertices and
+dissolving them. We're doing this so we
+dissolving them. We're doing this so we
+dissolving them. We're doing this so we
+can apply a mirror modifier instead.
+can apply a mirror modifier instead.
+can apply a mirror modifier instead.
+Enable clipping. This is super important
+Enable clipping. This is super important
+Enable clipping. This is super important
+for your mirrored halves not to go into
+for your mirrored halves not to go into
+for your mirrored halves not to go into
+each other and instead clip at the
+each other and instead clip at the
+each other and instead clip at the
+middle. You're going to want to do this
+middle. You're going to want to do this
+middle. You're going to want to do this
+for any object on your model that is
+for any object on your model that is
+for any object on your model that is
+symmetrical. For example, torso, legs,
+symmetrical. For example, torso, legs,
+symmetrical. For example, torso, legs,
+etc., at least in the basic stages of
+etc., at least in the basic stages of
+etc., at least in the basic stages of
+modeling. Make use of proportional
+modeling. Make use of proportional
+modeling. Make use of proportional
+editing. Instead of moving just one
+editing. Instead of moving just one
+editing. Instead of moving just one
+vertex, you'll be able to move
+vertex, you'll be able to move
+vertex, you'll be able to move
+everything around it as well, or kind of
+everything around it as well, or kind of
+everything around it as well, or kind of
+mold the mesh. Make the radius bigger or
+mold the mesh. Make the radius bigger or
+mold the mesh. Make the radius bigger or
+smaller by just scrolling your mouse
+smaller by just scrolling your mouse
+smaller by just scrolling your mouse
+wheel. Here, I'm just starting with
+wheel. Here, I'm just starting with
+wheel. Here, I'm just starting with
+modeling the head.
+I use loop cuts to pronounce some
+I use loop cuts to pronounce some
+I use loop cuts to pronounce some
+ shapes on the body better, like
+ shapes on the body better, like
+ shapes on the body better, like
+this nose here.
+this nose here.
+this nose here.
+You don't want to be making too many of
+You don't want to be making too many of
+You don't want to be making too many of
+these if you're working in low poly, but
+these if you're working in low poly, but
+these if you're working in low poly, but
+it is very useful during the modeling
+it is very useful during the modeling
+it is very useful during the modeling
+process. It's super helpful to regularly
+process. It's super helpful to regularly
+process. It's super helpful to regularly
+toggle in and out of X-ray mode 
+toggle in and out of X-ray mode 
+toggle in and out of X-ray mode 
+with Alt Z. It helps you better to see
+with Alt Z. It helps you better to see
+with Alt Z. It helps you better to see
+the design you're modeling from.
+I'm also checking how the object looks
+I'm also checking how the object looks
+I'm also checking how the object looks
+in shade smooth as this is what most of
+in shade smooth as this is what most of
+in shade smooth as this is what most of
+us will use on a model like this.
+us will use on a model like this.
+us will use on a model like this.
+However, in Shade Smooth, when you're
+However, in Shade Smooth, when you're
+However, in Shade Smooth, when you're
+modeling more pronounced features, the
+modeling more pronounced features, the
+modeling more pronounced features, the
+creases can be just a bit too smooth.
+creases can be just a bit too smooth.
+creases can be just a bit too smooth.
+You can make them a bit more pronounced
+You can make them a bit more pronounced
+You can make them a bit more pronounced
+by selecting those edges in edit mode,
+by selecting those edges in edit mode,
+by selecting those edges in edit mode,
+right clicking them, and make sharp. Now
+right clicking them, and make sharp. Now
+right clicking them, and make sharp. Now
+you have a smooth object with a couple
+you have a smooth object with a couple
+you have a smooth object with a couple
+of sharp edges when you need them.
+of sharp edges when you need them.
+of sharp edges when you need them.
+Now here I want to extrude a face out of
+Now here I want to extrude a face out of
+Now here I want to extrude a face out of
+the head mesh to make the horn. But I
+the head mesh to make the horn. But I
+the head mesh to make the horn. But I
+don't have a face with enough vertices
+don't have a face with enough vertices
+don't have a face with enough vertices
+to make a horn out of that's not a
+to make a horn out of that's not a
+to make a horn out of that's not a
+rectangle. I want it to be a bit more of
+rectangle. I want it to be a bit more of
+rectangle. I want it to be a bit more of
+a circle. I can create a circle out of
+a circle. I can create a circle out of
+a circle. I can create a circle out of
+this rectangle. First, I add a loop cut
+this rectangle. First, I add a loop cut
+this rectangle. First, I add a loop cut
+to add some vertices in this area. And
+to add some vertices in this area. And
+to add some vertices in this area. And
+then I match the extra vertices that I
+then I match the extra vertices that I
+then I match the extra vertices that I
+don't need. I use loop tools, which is a
+don't need. I use loop tools, which is a
+don't need. I use loop tools, which is a
+free add-on pre-installed with Blender
+free add-on pre-installed with Blender
+free add-on pre-installed with Blender
+to make a circle out of the square, and
+to make a circle out of the square, and
+to make a circle out of the square, and
+just extrude that. Modeling the horns. I
+just extrude that. Modeling the horns. I
+just extrude that. Modeling the horns. I
+just used some proportional editing,
+just used some proportional editing,
+just used some proportional editing,
+loop cuts, and modeling from different
+loop cuts, and modeling from different
+loop cuts, and modeling from different
+angles.
+Apply scale to every object after you
+Apply scale to every object after you
+Apply scale to every object after you
+finished editing it in any way. This is
+finished editing it in any way. This is
+finished editing it in any way. This is
+super important as it will allow Blender
+super important as it will allow Blender
+super important as it will allow Blender
+to read the size and the proportions of
+to read the size and the proportions of
+to read the size and the proportions of
+the model correctly and allow you to
+the model correctly and allow you to
+the model correctly and allow you to
+make accurate extrusions, insets, and
+make accurate extrusions, insets, and
+make accurate extrusions, insets, and
+etc. So, make sure to keep an eye on
+etc. So, make sure to keep an eye on
+etc. So, make sure to keep an eye on
+this. Next, I'm starting to model the
+this. Next, I'm starting to model the
+this. Next, I'm starting to model the
+hair. Obviously, I don't have a lot of
+hair. Obviously, I don't have a lot of
+hair. Obviously, I don't have a lot of
+normal looking hair on this model, but
+normal looking hair on this model, but
+normal looking hair on this model, but
+there is a fringe  and I model
+there is a fringe  and I model
+there is a fringe  and I model
+every lock of hair the same way that I
+every lock of hair the same way that I
+every lock of hair the same way that I
+do here. So, I think it's pretty good
+do here. So, I think it's pretty good
+do here. So, I think it's pretty good
+for reference still. So I model my hair
+for reference still. So I model my hair
+for reference still. So I model my hair
+using simple planes and I then 
+using simple planes and I then 
+using simple planes and I then 
+use an applied solidify modifier. So I
+use an applied solidify modifier. So I
+use an applied solidify modifier. So I
+always start with the fringe shaping it
+always start with the fringe shaping it
+always start with the fringe shaping it
+first from the side and wrapping it
+first from the side and wrapping it
+first from the side and wrapping it
+around the head as much as I can like
+around the head as much as I can like
+around the head as much as I can like
+so.
+Proportional editing really comes into
+Proportional editing really comes into
+Proportional editing really comes into
+play when modeling hair. I model as many
+play when modeling hair. I model as many
+play when modeling hair. I model as many
+strands of hair separately as I can as
+strands of hair separately as I can as
+strands of hair separately as I can as
+I'm going to root them separately down
+I'm going to root them separately down
+I'm going to root them separately down
+the line too. 
+You can see me using a mirror modifier
+You can see me using a mirror modifier
+You can see me using a mirror modifier
+here as well with clipping turned off
+here as well with clipping turned off
+here as well with clipping turned off
+this time as I don't need the side
+this time as I don't need the side
+this time as I don't need the side
+strands to be merging together at the
+strands to be merging together at the
+strands to be merging together at the
+center.
+After they're all shaped, I use a
+After they're all shaped, I use a
+After they're all shaped, I use a
+solidify modifier and copy it to all
+solidify modifier and copy it to all
+solidify modifier and copy it to all
+selected hair strands. I don't stop
+selected hair strands. I don't stop
+selected hair strands. I don't stop
+here, however, as these planes with just
+here, however, as these planes with just
+here, however, as these planes with just
+this solidifier can look pretty awkward
+this solidifier can look pretty awkward
+this solidifier can look pretty awkward
+and boxy. So I apply the modifier and it
+and boxy. So I apply the modifier and it
+and boxy. So I apply the modifier and it
+lets me edit the solidified mesh
+lets me edit the solidified mesh
+lets me edit the solidified mesh
+further. After applying it, I add a loop
+further. After applying it, I add a loop
+further. After applying it, I add a loop
+cut running through the whole side of
+cut running through the whole side of
+cut running through the whole side of
+the hair. Select the top seam and use
+the hair. Select the top seam and use
+the hair. Select the top seam and use
+either  pushpull or shrink
+either  pushpull or shrink
+either  pushpull or shrink
+flatten on it depending on the mesh and
+flatten on it depending on the mesh and
+flatten on it depending on the mesh and
+what looks better. Here I use the
+what looks better. Here I use the
+what looks better. Here I use the
+pushpull to create a smooth transition
+pushpull to create a smooth transition
+pushpull to create a smooth transition
+from the top faces  making the
+from the top faces  making the
+from the top faces  making the
+hair less blocky. I then do the same
+hair less blocky. I then do the same
+hair less blocky. I then do the same
+thing on the bottom seam.
+thing on the bottom seam.
+thing on the bottom seam.
+After this, I just manually adjust the
+After this, I just manually adjust the
+After this, I just manually adjust the
+inner and outer seams and vertices to
+inner and outer seams and vertices to
+inner and outer seams and vertices to
+make the hair look as natural as
+make the hair look as natural as
+make the hair look as natural as
+possible.
+I turn on wireframe when assembling hair
+I turn on wireframe when assembling hair
+I turn on wireframe when assembling hair
+strands together to make sure that the
+strands together to make sure that the
+strands together to make sure that the
+topology is somewhat similar on all
+topology is somewhat similar on all
+topology is somewhat similar on all
+nearby objects. Now I'm moving on to
+nearby objects. Now I'm moving on to
+nearby objects. Now I'm moving on to
+modeling the hood of the character by
+modeling the hood of the character by
+modeling the hood of the character by
+adding a cylinder. If you add an object
+adding a cylinder. If you add an object
+adding a cylinder. If you add an object
+and want it to be a bit more low poly
+and want it to be a bit more low poly
+and want it to be a bit more low poly
+than it is right now, you can adjust the
+than it is right now, you can adjust the
+than it is right now, you can adjust the
+amount of vertices in this little popup
+amount of vertices in this little popup
+amount of vertices in this little popup
+window over here. Exact thing as before,
+window over here. Exact thing as before,
+window over here. Exact thing as before,
+adding a middle modifier and choosing
+adding a middle modifier and choosing
+adding a middle modifier and choosing
+the head as the mirror object. That
+the head as the mirror object. That
+the head as the mirror object. That
+basically means that this head is the
+basically means that this head is the
+basically means that this head is the
+point of reference from where the
+point of reference from where the
+point of reference from where the
+mirroring starts. The process here is
+mirroring starts. The process here is
+mirroring starts. The process here is
+pretty simple. I'm just doing a bunch of
+pretty simple. I'm just doing a bunch of
+pretty simple. I'm just doing a bunch of
+extruding and sizing the loop cuts up
+extruding and sizing the loop cuts up
+extruding and sizing the loop cuts up
+and down when there's a little bit of a
+and down when there's a little bit of a
+and down when there's a little bit of a
+bend
+to connect the ears to the head. I'm
+to connect the ears to the head. I'm
+to connect the ears to the head. I'm
+experimenting a bit. Just like with most
+experimenting a bit. Just like with most
+experimenting a bit. Just like with most
+things when I model, honestly, I think
+things when I model, honestly, I think
+things when I model, honestly, I think
+experimenting is pretty important. So,
+experimenting is pretty important. So,
+experimenting is pretty important. So,
+don't be afraid to try stuff out and
+don't be afraid to try stuff out and
+don't be afraid to try stuff out and
+find a way to make something work along
+find a way to make something work along
+find a way to make something work along
+the way. Mistakes are pretty necessary
+the way. Mistakes are pretty necessary
+the way. Mistakes are pretty necessary
+to learn. I'm using loop tools here
+to learn. I'm using loop tools here
+to learn. I'm using loop tools here
+again. The same addon as before.
+again. The same addon as before.
+again. The same addon as before.
+Creating a circle out of some faces.
+In this case, the circle on the head has
+In this case, the circle on the head has
+In this case, the circle on the head has
+six eyes while the ear has eight. So, I
+six eyes while the ear has eight. So, I
+six eyes while the ear has eight. So, I
+dissolved a couple of edge loops on the
+dissolved a couple of edge loops on the
+dissolved a couple of edge loops on the
+ear to make it look like they both fit.
+I then turn all of these loops into
+I then turn all of these loops into
+I then turn all of these loops into
+circles using loop tools so that it
+circles using loop tools so that it
+circles using loop tools so that it
+looks a bit less flat.
+After pressing Ctrl J, these objects are
+After pressing Ctrl J, these objects are
+After pressing Ctrl J, these objects are
+merged into one. So we can connect those
+merged into one. So we can connect those
+merged into one. So we can connect those
+loops by selecting both of them with alt
+loops by selecting both of them with alt
+loops by selecting both of them with alt
+and shift, right click and then bridge
+and shift, right click and then bridge
+and shift, right click and then bridge
+loops. From then I just manually added
+loops. From then I just manually added
+loops. From then I just manually added
+the bridge to make it a bit less pointy.
+to make it look a bit more like a hood.
+to make it look a bit more like a hood.
+to make it look a bit more like a hood.
+I select the faces I want to split.
+Shift D to duplicate. Right click to
+Shift D to duplicate. Right click to
+Shift D to duplicate. Right click to
+reset movement and just press P to
+reset movement and just press P to
+reset movement and just press P to
+separate the selection. apply scale on
+separate the selection. apply scale on
+separate the selection. apply scale on
+it and put a trusty solidify modifier
+it and put a trusty solidify modifier
+it and put a trusty solidify modifier
+on. 
+Now that the hood is sorted, I just edit
+Now that the hood is sorted, I just edit
+Now that the hood is sorted, I just edit
+it and the hair a bit more to make it
+it and the hair a bit more to make it
+it and the hair a bit more to make it
+look like the hair is going underneath
+look like the hair is going underneath
+look like the hair is going underneath
+the hood.
+the hood.
+the hood.
+So the body is probably the simplest
+So the body is probably the simplest
+So the body is probably the simplest
+part. I use a cylinder for it, but you
+part. I use a cylinder for it, but you
+part. I use a cylinder for it, but you
+can also often see people using a cube.
+can also often see people using a cube.
+can also often see people using a cube.
+Same thing here. Just keep extruding,
+Same thing here. Just keep extruding,
+Same thing here. Just keep extruding,
+checking from the front and side view
+checking from the front and side view
+checking from the front and side view
+constantly. Sizing loops up and down
+constantly. Sizing loops up and down
+constantly. Sizing loops up and down
+where needed and also manually moving
+where needed and also manually moving
+where needed and also manually moving
+vertices with proportional editing on
+To model the arms, you will want to
+To model the arms, you will want to
+To model the arms, you will want to
+extrude them out of the body on the
+extrude them out of the body on the
+extrude them out of the body on the
+side. Yet again, use loop tools to make
+side. Yet again, use loop tools to make
+side. Yet again, use loop tools to make
+a circle. And to make it completely
+a circle. And to make it completely
+a circle. And to make it completely
+straight, you can scale it by zero on
+straight, you can scale it by zero on
+straight, you can scale it by zero on
+the  X-axis. From then, you can
+the  X-axis. From then, you can
+the  X-axis. From then, you can
+just extrude and shape the arms the same
+just extrude and shape the arms the same
+just extrude and shape the arms the same
+way we did with the other body parts.
+way we did with the other body parts.
+way we did with the other body parts.
+Add loop cuts in areas that will be
+Add loop cuts in areas that will be
+Add loop cuts in areas that will be
+deforming the most. In this case, this
+deforming the most. In this case, this
+deforming the most. In this case, this
+elbow area. I also like to add a couple
+elbow area. I also like to add a couple
+elbow area. I also like to add a couple
+more loop cuts around the shoulders
+more loop cuts around the shoulders
+more loop cuts around the shoulders
+ to make sure that the mesh
+ to make sure that the mesh
+ to make sure that the mesh
+deforms a bit better down the line.
+deforms a bit better down the line.
+deforms a bit better down the line.
+You can also use the knife tool to carve
+You can also use the knife tool to carve
+You can also use the knife tool to carve
+out the elbow area a bit more.
+out the elbow area a bit more.
+out the elbow area a bit more.
+So, modeling hands is a bit more
+So, modeling hands is a bit more
+So, modeling hands is a bit more
+complicated. I really recommend watching
+complicated. I really recommend watching
+complicated. I really recommend watching
+this tutorial on how modeling low poly
+this tutorial on how modeling low poly
+this tutorial on how modeling low poly
+hands work as it's the one that I
+hands work as it's the one that I
+hands work as it's the one that I
+learned from myself and it's explained
+learned from myself and it's explained
+learned from myself and it's explained
+way better there. And I'm just going to
+way better there. And I'm just going to
+way better there. And I'm just going to
+be pretty surface level with this. So,
+be pretty surface level with this. So,
+be pretty surface level with this. So,
+start with a simple cube. Scale it to
+start with a simple cube. Scale it to
+start with a simple cube. Scale it to
+resemble the shape of a hand. And then
+resemble the shape of a hand. And then
+resemble the shape of a hand. And then
+add three loop cuts lengthwise and two
+add three loop cuts lengthwise and two
+add three loop cuts lengthwise and two
+widthwise. Move some of the outer edges
+widthwise. Move some of the outer edges
+widthwise. Move some of the outer edges
+ down towards the arm to continue
+ down towards the arm to continue
+ down towards the arm to continue
+creating that hand shape.
+To create the fingers, select the outer
+To create the fingers, select the outer
+To create the fingers, select the outer
+faces, insert them with I, and extrude
+faces, insert them with I, and extrude
+faces, insert them with I, and extrude
+them with E, 
+them with E, 
+them with E, 
+adjust their lengths to match real
+adjust their lengths to match real
+adjust their lengths to match real
+fingers, and use your own hand for
+fingers, and use your own hand for
+fingers, and use your own hand for
+reference as that's always super
+reference as that's always super
+reference as that's always super
+helpful. 
+Add two loop cuts here where your
+Add two loop cuts here where your
+Add two loop cuts here where your
+fingers  bend and move and scale
+fingers  bend and move and scale
+fingers  bend and move and scale
+the fingers so they point slightly
+the fingers so they point slightly
+the fingers so they point slightly
+downwards as real fingers would.
+downwards as real fingers would.
+downwards as real fingers would.
+and also a curve in the knuckles.
+Making a thumb is a similar process of
+Making a thumb is a similar process of
+Making a thumb is a similar process of
+extruding these four bottom faces. My
+extruding these four bottom faces. My
+extruding these four bottom faces. My
+process here is very awkward, but yet
+process here is very awkward, but yet
+process here is very awkward, but yet
+again, I don't have a set formula for
+again, I don't have a set formula for
+again, I don't have a set formula for
+this. A lot of this is experimentation.
+Heat. Heat. 
+When modeling hands, it's super useful
+When modeling hands, it's super useful
+When modeling hands, it's super useful
+to use edge slide, which is activated by
+to use edge slide, which is activated by
+to use edge slide, which is activated by
+pressing G twice. This will basically
+pressing G twice. This will basically
+pressing G twice. This will basically
+slide your chosen edge or vertex instead
+slide your chosen edge or vertex instead
+slide your chosen edge or vertex instead
+of moving it  freely. I use this
+of moving it  freely. I use this
+of moving it  freely. I use this
+to soften and smoothen the sides of the
+to soften and smoothen the sides of the
+to soften and smoothen the sides of the
+hand and the palm.
+I connect the hand to the arm by merging
+I connect the hand to the arm by merging
+I connect the hand to the arm by merging
+the objects and stitching them by
+the objects and stitching them by
+the objects and stitching them by
+choosing two vertices and pressing F.
+choosing two vertices and pressing F.
+choosing two vertices and pressing F.
+Fill them out by choosing opposite edges
+Fill them out by choosing opposite edges
+Fill them out by choosing opposite edges
+and also pressing F.
+It looks super weird at first, but we
+It looks super weird at first, but we
+It looks super weird at first, but we
+can edit that by scaling some loops. I'm
+can edit that by scaling some loops. I'm
+can edit that by scaling some loops. I'm
+doing some last touches here using edge
+doing some last touches here using edge
+doing some last touches here using edge
+slide.
+And then I go in and see if I missed any
+And then I go in and see if I missed any
+And then I go in and see if I missed any
+details, which is way easier to spot
+details, which is way easier to spot
+details, which is way easier to spot
+after shading smooth.
+I'm finishing up the hips by doing some
+I'm finishing up the hips by doing some
+I'm finishing up the hips by doing some
+more extruding.
+To model the legs, I use some simple
+To model the legs, I use some simple
+To model the legs, I use some simple
+cylinders and make sure to have some
+cylinders and make sure to have some
+cylinders and make sure to have some
+loop cuts around the knees.
+Next step would be stitching the legs to
+Next step would be stitching the legs to
+Next step would be stitching the legs to
+the torso, similar to how I stitched the
+the torso, similar to how I stitched the
+the torso, similar to how I stitched the
+hands to the arms. However, I've
+hands to the arms. However, I've
+hands to the arms. However, I've
+realized I needed a bit more reference
+realized I needed a bit more reference
+realized I needed a bit more reference
+on shaping the hips over here. I just
+on shaping the hips over here. I just
+on shaping the hips over here. I just
+pulled my turnaround from before that I
+pulled my turnaround from before that I
+pulled my turnaround from before that I
+did of my persona like months ago to
+did of my persona like months ago to
+did of my persona like months ago to
+help with this. Here, you would
+help with this. Here, you would
+help with this. Here, you would
+definitely want to have clipping on to
+definitely want to have clipping on to
+definitely want to have clipping on to
+merge the two bottommost vertices
+merge the two bottommost vertices
+merge the two bottommost vertices
+together. and then merge the objects and
+together. and then merge the objects and
+together. and then merge the objects and
+just start stitching with pressing F.
+After that, I just start editing and
+After that, I just start editing and
+After that, I just start editing and
+perfecting the shapes as much as
+perfecting the shapes as much as
+perfecting the shapes as much as
+possible.
+Here
+I'm adjusting the knees a bit to allow
+I'm adjusting the knees a bit to allow
+I'm adjusting the knees a bit to allow
+for better deforming
+to make the feet. I just extrude the end
+to make the feet. I just extrude the end
+to make the feet. I just extrude the end
+of the legs some more. Add some loop
+of the legs some more. Add some loop
+of the legs some more. Add some loop
+cuts and extrude it again at the front.
+cuts and extrude it again at the front.
+cuts and extrude it again at the front.
+The shape of the feet really depend on
+The shape of the feet really depend on
+The shape of the feet really depend on
+what kind of shoes your character is
+what kind of shoes your character is
+what kind of shoes your character is
+wearing. In my case here, I don't
+wearing. In my case here, I don't
+wearing. In my case here, I don't
+separate them from the leg object
+separate them from the leg object
+separate them from the leg object
+either, as I can just draw the shoes on
+either, as I can just draw the shoes on
+either, as I can just draw the shoes on
+the texture instead. For this character,
+the texture instead. For this character,
+the texture instead. For this character,
+I really wanted to embellish this chunky
+I really wanted to embellish this chunky
+I really wanted to embellish this chunky
+platform heels.
+So, I disabled the mirror modifier for a
+So, I disabled the mirror modifier for a
+So, I disabled the mirror modifier for a
+moment while I carve the heels out with
+moment while I carve the heels out with
+moment while I carve the heels out with
+a knife tool.
+Fill the sole with S. And now we just
+Fill the sole with S. And now we just
+Fill the sole with S. And now we just
+scale and move some vertices around.
+scale and move some vertices around.
+scale and move some vertices around.
+Before moving on to making the clothes,
+Before moving on to making the clothes,
+Before moving on to making the clothes,
+in this case the dress, I go back and
+in this case the dress, I go back and
+in this case the dress, I go back and
+delete some of the extra unnecessary
+delete some of the extra unnecessary
+delete some of the extra unnecessary
+loop cuts as I don't really need them
+loop cuts as I don't really need them
+loop cuts as I don't really need them
+and they're just making the topology too
+and they're just making the topology too
+and they're just making the topology too
+heavy for a low poly adjacent model. I
+heavy for a low poly adjacent model. I
+heavy for a low poly adjacent model. I
+still try to make sure that the
+still try to make sure that the
+still try to make sure that the
+deforming areas have enough loop cuts
+deforming areas have enough loop cuts
+deforming areas have enough loop cuts
+around them. To make the clothes, I
+around them. To make the clothes, I
+around them. To make the clothes, I
+select the faces on the torso where the
+select the faces on the torso where the
+select the faces on the torso where the
+clothes would be. Duplicate them with
+clothes would be. Duplicate them with
+clothes would be. Duplicate them with
+shift D and separate them with P. Apply
+shift D and separate them with P. Apply
+shift D and separate them with P. Apply
+scale and then scale it a bit bigger so
+scale and then scale it a bit bigger so
+scale and then scale it a bit bigger so
+it doesn't clip through the torso. And
+it doesn't clip through the torso. And
+it doesn't clip through the torso. And
+from then you can go back to edit mode
+from then you can go back to edit mode
+from then you can go back to edit mode
+and start modeling the dress the usual
+and start modeling the dress the usual
+and start modeling the dress the usual
+way, extruding, scaling, and etc. As
+way, extruding, scaling, and etc. As
+way, extruding, scaling, and etc. As
+usual, check it from different angles
+usual, check it from different angles
+usual, check it from different angles
+regularly to make sure that its volume
+regularly to make sure that its volume
+regularly to make sure that its volume
+is correct.
+After the base of the dress is done, I
+After the base of the dress is done, I
+After the base of the dress is done, I
+do the sleeves exactly the same way I
+do the sleeves exactly the same way I
+do the sleeves exactly the same way I
+did with the arms, extruding them and
+did with the arms, extruding them and
+did with the arms, extruding them and
+making sure that the loop cuts on the
+making sure that the loop cuts on the
+making sure that the loop cuts on the
+sleeve match the ones on the arm so that
+sleeve match the ones on the arm so that
+sleeve match the ones on the arm so that
+they're forming in the same way. 
+they're forming in the same way. 
+they're forming in the same way. 
+I do this by enabling wireframe and
+I do this by enabling wireframe and
+I do this by enabling wireframe and
+entering X-ray mode with alt C.
+Last thing is to solidify it exactly
+Last thing is to solidify it exactly
+Last thing is to solidify it exactly
+like I did the hood. Last thing to model
+like I did the hood. Last thing to model
+like I did the hood. Last thing to model
+here is the headphones which are just
+here is the headphones which are just
+here is the headphones which are just
+simple spheres
+and then the bow ties on the headphones
+and then the bow ties on the headphones
+and then the bow ties on the headphones
+and the dress which I create from a
+and the dress which I create from a
+and the dress which I create from a
+plane. Extruding, adding loop cuts and
+plane. Extruding, adding loop cuts and
+plane. Extruding, adding loop cuts and
+shaping the plane to match the ribbon on
+shaping the plane to match the ribbon on
+shaping the plane to match the ribbon on
+the turnaround here.
+Adding another solidifier on it as well.
+Adding another solidifier on it as well.
+Adding another solidifier on it as well.
+Applying that modifier and creating an
+Applying that modifier and creating an
+Applying that modifier and creating an
+inner and outer loop cuts to push them
+inner and outer loop cuts to push them
+inner and outer loop cuts to push them
+out and creating a bit more of that
+out and creating a bit more of that
+out and creating a bit more of that
+volume.
+Same thing with the ribbons. Start with
+Same thing with the ribbons. Start with
+Same thing with the ribbons. Start with
+a plane and scale the extrusions
+a plane and scale the extrusions
+a plane and scale the extrusions
+accordingly.
+Apply a solidifier with the proportional
+Apply a solidifier with the proportional
+Apply a solidifier with the proportional
+editing turned on. Curve it so it looks
+editing turned on. Curve it so it looks
+editing turned on. Curve it so it looks
+like it's weighted down on the torso.
+like it's weighted down on the torso.
+like it's weighted down on the torso.
+Absolutely the same process with the
+Absolutely the same process with the
+Absolutely the same process with the
+headphone ribbons here.
+I think I add more loop cuts on these
+I think I add more loop cuts on these
+I think I add more loop cuts on these
+ribbons that is necessary for a low poly
+ribbons that is necessary for a low poly
+ribbons that is necessary for a low poly
+model. However, I'm doing this because I
+model. However, I'm doing this because I
+model. However, I'm doing this because I
+want  to rip them in a specific
+want  to rip them in a specific
+want  to rip them in a specific
+way. More on that later.
+Hello. Hello. So, this is going to be it
+Hello. Hello. So, this is going to be it
+Hello. Hello. So, this is going to be it
+for today's part one. And next time
+for today's part one. And next time
+for today's part one. And next time
+we're going to be looking at weight
+we're going to be looking at weight
+we're going to be looking at weight
+painting and rigging and some
+painting and rigging and some
+painting and rigging and some
+constraints as well. And then in part
+constraints as well. And then in part
+constraints as well. And then in part
+three, we're going to be looking at UV
+three, we're going to be looking at UV
+three, we're going to be looking at UV
+unwrapping and texturing.  Thank
+unwrapping and texturing.  Thank
+unwrapping and texturing.  Thank
+you so so much if you came to the end of
+you so so much if you came to the end of
+you so so much if you came to the end of
+this video and thank you so so much if
+this video and thank you so so much if
+this video and thank you so so much if
+you're watching this awkward outro. This
+you're watching this awkward outro. This
+you're watching this awkward outro. This
+is the first time I'm doing like a
+is the first time I'm doing like a
+is the first time I'm doing like a
+tutorial and it's honestly very
+tutorial and it's honestly very
+tutorial and it's honestly very
+heartwarming that it was so heavily
+heartwarming that it was so heavily
+heartwarming that it was so heavily
+requested over on Instagram and 
+requested over on Instagram and 
+requested over on Instagram and 
+Tik Tok. I started doing like 3D
+Tik Tok. I started doing like 3D
+Tik Tok. I started doing like 3D
+modeling pretty recently actually. So,
+modeling pretty recently actually. So,
+modeling pretty recently actually. So,
+it's like a huge  deal to me that
+it's like a huge  deal to me that
+it's like a huge  deal to me that
+everyone's so supportive and yeah, I
+everyone's so supportive and yeah, I
+everyone's so supportive and yeah, I
+just wanted to say a huge thank you for
+just wanted to say a huge thank you for
+just wanted to say a huge thank you for
+motivating me to do this, to make this
+motivating me to do this, to make this
+motivating me to do this, to make this
+thing. Uh, yes, it's the first time I'm
+thing. Uh, yes, it's the first time I'm
+thing. Uh, yes, it's the first time I'm
+doing something like this, scripting so
+doing something like this, scripting so
+doing something like this, scripting so
+much, you know, editing, 
+much, you know, editing, 
+much, you know, editing, 
+filming, all of this, all of this jazz.
+filming, all of this, all of this jazz.
+filming, all of this, all of this jazz.
+Yeah, it's a lot, but it's very, very
+Yeah, it's a lot, but it's very, very
+Yeah, it's a lot, but it's very, very
+fun. So, thank you so much. Make sure to
+fun. So, thank you so much. Make sure to
+fun. So, thank you so much. Make sure to
+follow me over uh on these platforms.
+follow me over uh on these platforms.
+follow me over uh on these platforms.
+This is where I live the most online. I
+This is where I live the most online. I
+This is where I live the most online. I
+guess this is where I'm most active. So,
+guess this is where I'm most active. So,
+guess this is where I'm most active. So,
+if you are interested in seeing my art
+if you are interested in seeing my art
+if you are interested in seeing my art
+and stuff like that, make sure to check
+and stuff like that, make sure to check
+and stuff like that, make sure to check
+out these platforms over here. And yeah,
+out these platforms over here. And yeah,
+out these platforms over here. And yeah,
+thank you again so much and I hope to
+thank you again so much and I hope to
+thank you again so much and I hope to
+see you in the next video. Bye-bye.
+see you in the next video. Bye-bye.
+see you in the next video. Bye-bye.

@@ -1,0 +1,2178 @@
+in this video we'll finish the dress by
+creating sculpted and colored details
+and baking them all into textures
+we'll be using blender and photoshop for
+this tutorial
+we'll start with the dress we made in
+the past couple videos
+then we will create a
+high detail sculpt
+adding in some wrinkles and some fabric
+details we'll also model in
+some stitching details on the top and
+the bottom
+then we will use photoshop to add in
+some fabric details
+with a normal map
+and finally we'll bake all the colors
+and the wrinkles and the fabric details
+into
+the original low poly dress
+okay let's get started
+okay let's go to our
+sculpting
+window here and let's go to object mode
+and
+so what we'll do is let's hide some of
+the stuff we don't need so let's hide
+the
+hair hide the eyelashes hide the body
+get our address here
+and
+we're going to grab the mesh
+and go to the modifiers and go to apply
+and this will just
+evenly add geometry to the whole mesh
+and i think we don't need quite this
+much so let's get rid of this one and
+this one
+x and
+delete
+dissolve edges
+so we've got our dress here we'll call
+this short dress low
+this is the low poly version that we'll
+actually use for our character and let's
+duplicate this with a shift d
+hide that one and we'll call this short
+dress sculpt
+which we will actually sculpt
+and then let's go to
+multi-resolution modifier
+and
+i'm going to subdivide this a few times
+you want to make this as high as you
+need to to get the detail you want
+but you have to balance it out with how
+how slow it is to work
+on your computer so right now you can
+see it's it's cranking on my computer
+i added a couple sketches here
+so we can see what we're doing
+so i don't think we need a lot of detail
+here but we'll need to add
+this seam
+and then we'll add some of these
+wrinkles here
+oops
+so this just a little bit of wrinkle i
+think the red dress has too many
+wrinkles but i think more like the green
+dress
+but i think that seam is nice so we'll
+go and do that down here i don't think
+we need any wrinkles
+so let's go and do that
+and
+to do this it's a lot easier
+using a a tablet
+you can do with mouse but the tablet's
+easier so i'm going to use a tablet
+okay so um so let's add that seam in
+here so you can see that
+it looks like it's doubled up on the
+inside
+and it so there's a little uh you can
+see a
+band almost and you can see a gap in
+between the two so let's go and add that
+in first
+and then we'll put these wrinkles on
+after that
+we will go grab our object go to sculpt
+mode
+and i think the clay
+stripes tool or strips tool
+so we want to
+come down
+i guess down there
+like that
+let's make this a bit bigger
+and then it's not bad
+you kind of want to be careful because
+um
+you can see how this form pulls away
+because it's a curve
+you'll lose some um
+accuracy in the area that pulls away
+so maybe it's better to
+kind of turn it so that the
+surfaces face you more
+so something like that
+maybe
+i think that's pretty good
+and that's pretty good
+i think we need a little more
+still uneven up there
+okay so i think that's pretty good and
+then let's blur out the outside with the
+blur tool or the smooth tool
+oh and make sure you have your mirror
+turned on so you don't have to do it
+twice
+yeah that's about right
+okay so then let's
+blur it because it's not this crisp
+so i'm just going to soften the
+the outside a bit
+so it's not so prominent
+i'm going to leave the middle
+nice and crisp
+also you can see there's this funny uh
+pattern i think i brushed it a little
+bit too fast
+so let's just get rid of some of that
+too
+if we want to blur out the outsides
+here
+and down here let's get rid of all that
+okay
+i think it's still uh
+it looks heavier on the outside than the
+inside so let's blur out the inside more
+let's do the outside some more and let's
+also use this flatten tool
+it's a nice way to even out
+when you have ripples in the surfaces
+that looks better it's not as obvious
+maybe out here too
+the seam is too wide so let's go and
+shrink that a bit with this tool here
+this pinch tool
+this this pulls uh
+everything towards the center of the
+brush
+so you can see here it's a nice way to
+make the seam sharper
+okay so i think that's pretty good
+okay let's go uh let's see here
+so let's add our horizontal wrinkles but
+we'll turn off the mirror mode
+just a few
+not a lot going on here maybe some on
+the sides
+that one's kind of nice that's kind of
+nice i don't think we need all this many
+wrinkles um
+so somewhere in between these two
+dresses
+sculpting's funny it's hard to to
+show how to do it because it's such a
+touchy feely thing
+but i'll try and explain it as i'm going
+so i want to
+pull the geometry out so it looks like
+cloth being pulled out
+across the skin
+so i like to use um the
+sharp tool the draw sharp tool to to
+pull material out
+a lot
+and then once i pull it out and it looks
+like it's prominent enough
+then i use
+the smooth tool and the flattened tool
+and the elastic tool to
+kind of get it into the shape i want so
+let's let's see what this looks like
+here
+so i'm going to try and
+create
+it's going to add instead here okay
+so let's uh kind of like
+turn off
+the x mirror mode and
+go for a
+drapery like
+hanging
+cloth
+feel
+okay that's pretty good
+then
+maybe
+something like that
+i guess that's okay
+okay so i think that's a nice wrinkle so
+let's
+go and add some more material so it's
+more prominent
+and i'm trying to get this to feel like
+the cloth is
+pulling
+away from the body
+you just want to have enough
+material coming out you can see it pulls
+funny so
+i like to use the elastic tool
+this cloth
+should be
+pulling pretty evenly like straight
+across not on
+pushing inwards
+so you can use the
+elastic tool to move it
+whoops
+so it's more
+even
+so we'll pull this back
+pull this out
+so it feels like the cloth has more
+tension
+that's better let's do the same thing to
+the top pull that out
+so you do this trying to just try and
+imagine
+try and imagine or feel what the cloth
+is doing
+and then
+make what you're sculpting feel the same
+way
+and try not to spend too much time it's
+so easy to just
+keep doing this
+it's very relaxing and satisfying but
+you know don't spend too long
+okay so
+that feels like it's pretty even
+but it looks horrible
+so let's go and
+make this
+look better
+cloth or draperies
+usually they're
+more
+hollowed out on the top and the bottom
+they're flatter
+so let's go and we have two of them here
+so let's do that to these so we will um
+add some material
+to the bottom so it feels like the cloth
+is pulling away from the body
+like that a bit i know it looks bad
+but well just keep messing with it until
+it looks good
+and up here i think that's probably okay
+and so i like using this um
+flattened tool a lot
+it uh
+i don't know how it works but it feels
+like it just evens out
+the area inside this circle and so
+it should even out
+all these little
+uh ripples and imperfections so it's
+nice and flat
+um
+it feels like this this is more of a
+planar smooth and smooth
+it just kind of like smooths
+things out but keeps the shape
+that's not
+that's not making any sense
+i'm sorry i'm not helping you much here
+but uh
+try the flatten tool it's pretty nice
+so let's flatten this inside out a bit
+more
+okay
+then let's also um
+i think this is
+too heavy so let's smooth this whole
+thing down
+yeah feels too
+too prominent over there
+and it feels like this wants to pull
+down
+so
+let's go and do that
+now let's say here you just gotta keep
+messing with it until it looks good it's
+not like the um
+hard modeling
+kind of technique we were doing all this
+time which
+it's more mechanical this is just very
+uh
+flowy
+okay so i think that's pretty good
+and then let's uh let's add some more
+wrinkles
+okay so let's see here
+let's add a little tiny wrinkle
+up here
+and then maybe a couple
+below the chest area
+and maybe
+a couple across the stomach okay so
+let's
+add a wrinkle over here
+and we
+make this bigger so it's
+a less focused
+wrinkle
+okay that's pretty good
+and then let's add um
+maybe a wrinkle uh let's see here
+down there and up here
+so we'll add a wrinkle going across this
+seam
+okay that's all
+right let's add something over here
+so we are gonna have a stitching detail
+running all along this upper edge so i'm
+gonna stay a little bit away from that
+otherwise i'd put a like this is
+probably
+that's probably okay but i'm gonna be a
+little bit further away from it
+i think i'll turn on mirror mode also
+okay
+let's turn off mirror mode
+we don't need a lot just a little bit to
+add some uh
+life to it
+i'm trying to feel where the wrinkles
+are where
+where did the wrinkles want to be
+oh i like that one
+a lot of times you'll see wrinkles where
+there's uh
+hollows in the skin
+because the dress pulled away from it a
+bit
+but i don't want to do too many
+okay i think
+i think that's enough so now let's go
+and smooth these all out
+just knock them back some
+uh you don't want to really smooth
+across this seam because um
+you'll lose this crispness
+so stay away from that
+let's just
+knock all these back
+so this is a little bit prominent here
+and that's okay
+we will just
+fill it in some
+whoops
+like that
+i think this is still
+this is too heavy
+smooth the whole thing out
+so
+so that's so we're going to call the day
+and let's go and add some um
+stitching details
+okay let's go back into object mode
+and let's hide our high poly
+sculpt show our low poly dress
+let's hide these sketches so let's go
+add some stitching detail
+so the way we're going to do this is
+we're going to
+create
+some stitches
+and then we're going to create a curve
+that we can use to guide the stitches
+around the mesh
+so
+let's make the let's make the guide
+curve first let's start it so what we're
+going to do is just we're going to use
+one of these curves from the dress
+and we'll use that as the actual guide
+curve so it we know it follows perfectly
+we want to remake it
+so let's grab our address
+and let's
+go to edge mode and grab a loop
+and we'll just use this
+to clear our stitching
+actually i want the stitching to be a
+little bit closer to the edge so let's
+do this let's go ctrl r
+and click that
+and i think that'll be good
+so then let's go to shift d to duplicate
+this
+then we will drop it with the escape key
+and then go to mesh
+separate selection
+so that's a separate part now
+and we can make sure okay so that's
+this is our
+low stitch sorry let's go to
+bottom
+guide so let's hide this for now
+and let's go and delete this loop
+because we don't need that
+go to x dissolve edges
+let's bring back our
+bottom stitch guide so right now this is
+technically it's a mesh even though it's
+just a a edge but this is technically a
+mesh so we need to cur
+convert this to a curve
+but before we do that we need to
+break it so it's not a closed loop
+when we use the curve modifier it works
+better when it's not a closed loop so
+let's go and break it
+let's make the break as small as
+possible so to edge and subdivide
+like that
+and then we'll grab these two and go to
+x and
+delete
+edges
+now we will go to object mode
+go to object and convert
+to perv
+so now this is a curve and let's go and
+edit mode
+grab that point and let's put our 3d
+we want to put the object origin there
+so where is our origin
+oh you know what we probably can't see
+it because we probably have things
+toggled off so
+3d cursor was turned off and origin was
+turned off so
+i want to bring the origin
+to this point right here but we need the
+3d cursor to do that so i also turn on
+3d cursor
+so now we can see this red and white
+circle is a 3d cursor and the orange dot
+is the orange
+the orange dot is the origin
+so let's grab a point go to shift s
+which brings our
+3d cursor tools up and hit two
+to
+what is it
+two is
+cursor to selected so
+grab a point
+shift s curve switch is selected and
+that brings it here
+now that we have the 3d cursor there we
+will go to object mode and then
+set origin
+origin to 3d cursor
+so now and if you can see that that
+orange dot appeared right at the edge so
+now that's that's um
+set up and ready to go okay so let's see
+here
+so you can kind of pick the stitching
+style you like
+i'm just going to go for something
+simple like that or
+something like that looks like it has
+two
+weaves kind of
+intermingling together so let's go and
+let's go and make that
+so we go to our front view go to shift a
+mesh and cube and let's scale it down
+so it's the same
+i guess width of the stitching i want to
+do so
+it's about good
+let's move this forward
+actually let's leave it there
+and then let's go
+and uh let's first let's
+freeze the scales so
+since i scale it down the scale is not
+zeroed out so let's go to control a and
+scale so that's back to one one one
+then go to ed mode grab a face
+and let's um
+what i'm going to do is i'm going to
+model
+the model just
+just this little piece here
+so let's go and
+model just that one little piece
+so let's go to here and let's
+but instead of going down we're gonna go
+sideways so g
+x and pull it like
+that
+i'm gonna have to like bend this in kind
+of an s shape so let's go to control r
+and add some geometry here
+like
+that
+and then let's
+make it
+smooth so let's go to
+subdivision surface and smooth it out
+and i think
+let's just um go to object mode and
+apply that
+and i think that should be enough
+geometry so then let's do this let's go
+and add an array modifier
+this is how we'll get our stitching to
+repeat across the whole
+go around the whole dress
+and then let's shape this some more so
+go to edit mode grab that let's rotate
+it
+oops
+so i wasn't in x-ray mode so it only
+grabbed the front of it if you go to
+x-ray mode then you'll grab through it
+okay
+and let's go out of x-ray mode
+so now we can rotate this
+kind of
+like
+that
+i think if we rotate this down and
+rotate that up that'll do it
+so we need to rotate around the object
+center
+and we've got that selected
+already this bounding box center
+so let's go to point mode
+x-ray mode
+and grab just the tips
+oops
+what
+okay
+and then let's turn on proportional
+editing
+and then let's
+turn off x-ray mode and rotate this and
+it's just moving the whole thing
+so let's scroll our mouse wheel on we
+have portion editing turned on so let's
+scroll our mouse wheel up until
+the sphere gets smaller
+then you can see it's starting to
+pull it down a bit
+i think like that that's good
+then let's rotate it again and
+scroll the wheel up
+and yeah i think
+that looks good let's scale it wider
+scale x
+so it's a wider thing
+they're not touching so let's go and
+reduce this to say point nine
+no point
+eight
+now
+point
+seven okay
+is that good
+point six
+okay i think that looks that looks nice
+it looks like
+a nice little detail
+so let's um
+duplicate this a bunch of times so it
+can go around the whole dress
+turn on
+our wire frame our
+thing here so you can see our
+curve
+and let's hide this dress for now okay
+so let's grab our
+object here this should be a curve and
+yeah so let's grab that
+the origin is there grab our
+stitching detail and the origin is also
+in the same place
+let's go and add a curve modifier here
+so curve
+and then let's grab our
+curve
+okay so now our curve is starting to go
+around the dress so let's um
+add to the array here until it goes all
+the way around
+okay
+so maybe
+94.
+okay so let's go to edit mode here
+turn on
+all the real time things so we can see
+it
+and let's scale it in
+scale it in x
+just a little bit
+okay
+good so now we've got our stitching
+going all the way around the dress let's
+turn our dress back on here
+it's not perfect here so we'll have to
+tweak the curve so it's
+popping out
+we don't want it to be inside the dress
+if it's out too much that's okay because
+we're just going to use this to make
+normals
+so let's go and modify
+the curve so it's all outside so where
+is our curve
+okay so that's
+needs to go forward
+gy
+let's turn off proportional editing
+gy
+oh so you can see we're changing the um
+changing the curve actually changes the
+alignment of the stitching so i'll have
+to go ahead and change that later
+gy let's pull that out a bit
+these
+two will need to scale out
+scale
+x
+that is also
+in so scale x
+so just go through this and make sure
+everything is outside of the geometry i
+think this one
+gy
+a bit back
+okay so i think that's good
+now let's go back to our array and
+subtract some knight three ninety two
+then any one
+ninety okay ninety one
+let's go to edit mode and again
+scaled in
+scale and x
+so if you
+scaled in x and you're too close to
+where your object is
+it's um
+this is actually the the object so if
+you scale it
+when you're too close to the middle it's
+hard to control
+let's turn that on
+it's hard to control it
+if you're further away and you scale
+next it's easier to control it when
+you're further away
+okay let's turn that back on and scale
+scale and x
+and i think that's pretty good
+okay so we've got our little uh
+stitching detail at the bottom of the
+dress
+and let's just do the same thing for the
+top of the dress
+so let's pull back our um
+bring back our low poly dress
+and let's go and grab
+some loops at the top
+grab the dress edit mode edge mode grab
+some loops
+and
+that's
+that's pretty good i think
+shift d to duplicate escape and drop it
+and then mesh separate selection
+like that
+okay let's
+hide the address
+so same as last time let's go to edit
+mode zoom in here point mode
+subdivide this a couple times
+edge and subdivide
+so divide again let's delete this here
+x let's make sure we're right in the
+right place yeah
+x and
+uh edges
+click a point there shift s and
+two
+drop out into object mode
+object set origin to 3d cursor
+that's there
+oops and then let's go
+down here and grab our object here
+let's
+shift d to duplicate that
+and move it up and z
+whoa that's pretty crazy it's cool
+um
+so
+let's make it easier to see
+so let's
+turn these off turn that off
+and let's un
+uncurve it
+where's our array
+okay
+let's turn that off okay
+so
+now let's bring our object
+the origin for this stitch up to the
+origin for this
+curve
+so we'll go to shift s and eight which
+is
+eight is
+uh selection to cursor there you go
+and then
+let's turn
+this stuff back on
+turn that stuff back on
+so we'll
+pick this curve this time
+uh pick this curve this time
+oh we didn't convert this yet so this is
+right now this is a mesh
+so to go to object and convert to curve
+and now
+let's click the curve
+and it attaches to it
+then let's reduce our array count here
+not sure why it's going
+the other way that's
+something must be flipped backwards um
+i'm not sure why
+but that's okay
+oh look and it lines up nicely
+and let's bring back our high poly
+address let's make sure it's not
+poking through okay so that looks all
+okay
+okay so now we've got
+our wrinkles
+sculpted in and we've got our little um
+stitching detail for the edge of the
+dress
+i think the
+this uh stitching detail is just a
+little bit too yeah it's not
+falling close enough so let's go and
+modify these curves a bit let's go to
+object mode with our curve selected
+it's hard to see crib selected and go to
+no let's go to edit mode
+curve
+curve set spline type
+bezier
+then go to control points
+handle type and
+free
+let's bring back
+our mesh so what this does it allows us
+to
+modify the curve
+with a granular level of control
+you see here we can let's turn off our
+proportional editing
+g
+x and you can
+okay
+g x and you can see we can modify
+the curve
+as finely as we want to
+so let's
+let's just take care of
+little edges
+g
+x
+g
+g y
+g x
+it doesn't need to be super accurate
+because we're just going to use this for
+a um
+to create normals
+this is okay this is our center point
+so we'll just take out a few segments of
+our array
+so ignore that one
+let's pop this one out a bit
+g x and move that
+g
+x
+and
+g x g y
+so just go through and
+suddenly
+modify this
+it's a little tedious
+but i i think this will get better
+results when we
+bake
+okay so now that the curve is all
+tweaked and nice let's go and
+modify our array to take out some of
+these stitches
+and of course it doesn't line up so
+let's go to edit mode
+oops a to select all
+and
+s
+x
+o
+s x
+i think that will project better it's
+not perfect but
+i think it'll project better and so
+we're good
+we also want to add some fine
+fabric like texture to this whole dress
+and if we look at our
+reference image here
+we also want to add this flower
+detail to the dress
+for the colors but this should also
+kind of pop out from the fabric a little
+bit so we want to put that in the normal
+map so let's go and add those two
+so to do that we will need to
+use photoshop
+you can also do this in
+[ __ ] which is a free program but
+i i know photoshop so i'm just going to
+use photoshop for this tutorial
+so what we want to do is go to the uv
+editing workspace
+and go to our uv window here hit a to
+select all go to uv
+export uv layout
+and then save that somewhere so i'll
+save it in this textures folder
+and we'll call this
+short dress
+uh uv map
+and let's make it a 4k image
+so you can always downsize it later
+okay so we've got that saved
+and we also want to i know this is a lot
+of dead space here it's
+pretty inefficient but let's also add um
+a uv map for
+stitching details
+let's grab our stitching detail go to
+edit mode
+hit a to select it and it's already
+laid out
+we're going to put this uv map
+into the uv map for the address
+and
+so there's a little bit of guesswork but
+if you go to the dress select it
+you can see like
+you know that the stitching is so small
+you don't really need much
+it's basically as wide as
+like this n g here and so if you look
+here
+it's about that wide
+so what i'm going to do is i'm going to
+put one stitching detail
+this top one right here inside this box
+and for the bottom stitching detail
+which is the same size we'll put it
+right there
+so we can use the same map for both
+parts
+okay so let's go and do that
+so let's
+unpick this
+and grab our stitching detail
+grab that
+scale this down
+scale this down and let's go to here
+so it's mc and md so let's just move
+this
+right there
+so that's one
+and then go to uv
+export uv layout
+textures and we'll call this
+top stitch
+uv map
+and save it as 4k
+and then let's do the same thing for the
+bottom
+go to edit mode
+a select all
+and grab this
+move down here it was
+mc and md so let's see here scale is
+here
+okay and uv export uv layout
+and save this in here
+and we'll put this as bottom
+bottom stitch uv map okay export layout
+okay
+now let's jump into photoshop
+okay so let's we've got photoshop open
+and
+i'm going to open this
+main dress uv map into photoshop so i'll
+just
+double click that and use photoshop
+and let's open up this top stitching
+and this bottom stitching so we've got
+all of our uv maps here
+and so we want to bring these two
+they're hard to see here
+so these two
+images have the little stitching detail
+so you want to bring that into the main
+dress uv map so let's just drag this to
+the side here
+click our main map hit v
+so we have the move tool selected right
+here this guy
+and just
+drag this over
+to the map where we want to put it hold
+shift and let go
+and it should
+put it
+in
+didn't do it
+v
+okay that's that's weird
+now it did it make sure you hold shift
+when you're dragging it over
+so this way it puts it centered
+relative to where it started
+otherwise it won't line up right
+so i can show that if you just drag it
+over
+you can see it just puts it you know
+wherever
+i don't know if you can see that it just
+puts it wherever we don't want that
+we want it right in this bottom quadrant
+so if you
+so you drag see it's moving go over here
+hold shift and let go you can see it
+puts it right where it started
+okay close that
+um
+shift drag
+all the visible layers in the layer
+window
+ctrl e to collapse it
+and then change this to multiply
+and let's see
+let's make a background so we can see it
+so
+so uh click this little icon here to
+make a new layer
+it's called layer three
+we'll call this background
+let's call this um
+map
+so the background let's just fill it
+with white if you hit
+if you hit d it changes these two to
+black foreground and white background
+and so other or or you could pick this
+and like change whatever color you want
+but d just changes it to black and white
+go and click your layer
+then hit alt delete
+hit ctrl delete control delete fills it
+with the background color and alt delete
+fills it with the foreground color so
+foreground is the black color here
+background is the
+color swatch that's behind the the front
+one
+so this way you can easily just fill a
+layer with a color
+okay so we got the background here so
+now we can see our map instead of this
+you know checker pattern
+and let's put this to multiply it's
+already set to hit control l to
+do your levels
+let's just drag this
+over here
+this is a nice way to adjust
+the brightness of things so drag this so
+you just see an outline
+okay then let's lock the transparency
+okay so that's set up
+so now we want to add a texture to it
+so let's go and open a texture file
+so let's grab our layer here so you can
+grab any
+jpeg just look up seamless textures so
+let's grab this
+double click it here
+and what we'll do is we will
+okay we'll hit ctrl a ctrl c go over to
+this window ctrl v to paste it
+v to make sure we have the
+v tool the pick tool selected
+it's a move tool i don't know what it's
+called i've done photoshop for so long i
+just think photoshop
+so
+use the move tool and let's move this up
+here
+if you hold alt
+you can
+duplicate things as you move them and so
+what we want to do is we want to take
+this texture and map it across the
+entire texture
+but it's also too big so we want to
+scale it down
+so let's um ctrl z to undo and hit v
+let's move this here and let's scale to
+see how big we want this actual
+pattern to be so if you hit ctrl t you
+can transform
+and if you go up to here and click this
+magnet you'll lock the x and y
+and let's just scale this down and i
+think
+i don't know ten percent
+and if you click enter it'll
+apply the scale
+so i think that looks about good
+so about 10
+so we're going to do now is we are going
+to
+let's just delete this layer
+and go to here
+so we're going to make a new um we're
+going to make a new image and we're
+gonna map this across the entire image
+and repeat it so that way
+it's nice and full and then we'll scale
+the whole thing down so we're gonna make
+this um
+i guess
+10 times the size of what it is now so
+let's go to image
+and image size
+okay so it's nice it's 10 24 by 10 24.
+so it's square and it's a standard image
+size which is nice so we'll cancel that
+and we will
+ctrl a to copy it
+ctrl a to select all ctrl c to copy it
+and then we will go to image and image
+size
+and let's make this uh like um
+1 6
+384.
+okay so that should be around
+16 times the size of what it was before
+i'll hit ctrl v to paste it and
+i can't even see what's going on so
+let's delete
+let's fill this background layer with
+white
+like that and go back to our texture
+here
+okay so there's probably a better way to
+do this but i'm just going to do it like
+this
+so let's
+tell you how to do it so
+click the layer over here which has our
+texture
+hit v to get the v tool hold alt
+you'll see the icon changes to a
+double arrow
+and click
+click it so you can move it and then
+hold shift
+without letting go of the mouse and so
+it'll constrain it
+to different directions
+so i'm going to move it over here and
+then hit shift and you can see it goes
+only in the horizontal
+and then just drag it back until it
+snaps
+now we know it's perfectly aligned
+then hit ctrl e to merge this layer down
+to this layer
+so now this is just one chunk
+and then do the same thing alt
+click drag
+shift
+ctrl e so this is a
+really manual hands-on way of doing
+things
+there's much
+better ways of doing this
+okay
+so we've got the whole thing repeating
+which is good now ctrl a to select all
+ctrl c to copy
+go back over here and let's zoom out
+ctrl v and it should be really big so
+hit ctrl t to transform
+and then
+to write let's get closer so we can see
+drag it until it snaps
+like that
+okay hit enter
+okay
+that looks right
+um i want to move this layer below the
+map layer so i could drag that
+so now we can see it's behind it
+or you can
+have the layer you want to move selected
+and hit control
+left bracket or right bracket and you
+can just step it through
+your um layers
+okay
+so now we've got this texture here and
+let's see if it's the right size
+so i'm looking at like
+well the
+chest because it's a reference for size
+and you can see okay
+i think the stitching
+details
+okay now it could be a little bit
+smaller but it's okay okay so we've got
+that
+so now let's uh bring this into blender
+and see how it looks so let's turn off
+our lines
+actually let's also do this
+let's uh
+see
+fabric
+and let's also
+add a um stitching
+okay so this is our stitching layer
+and let's just um
+space ctrl to zoom in
+and hold space and left mouse to pan
+around
+okay m to get the marquee tool
+and then just drag around these two here
+make sure our stitching layer is active
+let's change this color to like i don't
+know
+light blue
+and then
+uh control click
+i always get this backwards alt click
+and we fill
+our selection
+and the layer we have selected
+with the color
+so we've got that ctrl d to unselect
+and let's see here
+so that's our stitching this is all the
+inside of the dress so
+if you want to cheat and not make it pbr
+you can grab this
+and
+make a layer and make this darker but if
+you want to do
+strictly pbr then just leave it alone so
+we'll just leave it alone
+and then let's see it's ctrl s to save
+it again turn off our map
+control shift
+s to save it as
+and hit
+let's pick jpeg
+and we'll call this short dress
+alb for albedo
+and click save
+and okay
+okay so back to blender where is blender
+okay back to blender here
+and let's um
+unselect that
+grab our dress
+go to our base color here
+click this to open our image
+then let's navigate to where our image
+was
+so
+these are all the tutorial files here
+texture
+and short dress albedo and click open
+image this should change to show our
+texture
+and so let's zoom in
+and uh
+well gosh this texture is still too
+thick
+it's okay we'll change that
+but let's also apply the same texture to
+our stitching
+so
+this texture is called so if you have
+our object selected let's go to the
+material
+properties
+and it's okay so it's the dress material
+so let's grab our stitching
+click this little material window here
+and click address
+and this applies that same
+texture and you can see it's the light
+blue that we made that little blowout
+window let's apply the same thing to the
+bottom here
+click that
+and then
+click dress
+and on
+okay here we go
+okay so now we know at least those are
+mapping okay
+we also know that our texture for the
+dress is still too
+still too big
+so let's make that smaller and i know
+you can see a repeating pattern if you
+use something like substance you could
+deal with that better
+but this is going to be a really subtle
+normal map
+so
+you're not going to see that so let's go
+back to photoshop
+let's go back to photoshop got a
+gazillion windows open
+and let's do the same thing here v
+move that
+ctrl e let me know e
+do that
+and ctrl e
+ctrl t
+50.
+let's turn on our map here and check
+this
+okay i think that looks good now
+so let's control shift s
+tab
+j for jpeg then click the
+same file we saved earlier and we'll
+save over it
+click yes hit enter
+alt tab to blender
+and then reopen this thing
+if you do it too fast um
+the file won't be saved yet but i think
+we're okay
+okay so now this texture looks like it's
+maybe still a little bit big but this
+this is much more looks much more
+appropriate
+okay so now we have our base texture for
+our fabric
+that we'll use to make a normal map
+then let's also
+um
+add in our flower pattern
+so
+i saved already made
+so you can find these on the web where
+you can draw your own
+but we want to map these onto the dress
+and then use this to create to also add
+to our normal map
+so i'll show you how to do that but we
+want to figure out
+where to put the flowers
+on the normals so if you
+let's see here
+if you grab the dress and go to edit
+mode
+you can see over here it's like well
+where you know where do i put the
+flowers do i put it here you know it's
+kind of there or do i put it back here
+yeah maybe
+but a nice and easy way to
+just help you figure out where to put it
+is go to texture paint mode
+go to
+t for tools make sure that's selected
+hit n
+for tool here and just pick a let's pick
+a color let's pick like fuchsia
+and then let's make sure the strength is
+all the way up hit f to reduce the
+size
+let's just draw a little um
+band here
+to show where we want the flower to go
+so i think like
+right there maybe a little higher
+kind of like right there maybe turn on
+mirror mode
+and then
+maybe the middle of the flower is right
+there and on the side let's just
+make that go like that
+and then this will be the middle of the
+back
+a computer is going very slow
+i might need to
+restart or something
+okay
+so now let's save this image so we have
+to go and find it
+in the
+image viewer here
+so this was the address
+albedo so let's click that
+and go and so you can see the little
+star to tell you it's not saved
+then just go to image and save
+then let's flip back to photoshop here
+actually let's open up the albedo
+double click that
+so you've got that control a control c
+w to close it
+and then
+uh sorry
+control
+zoom out so
+control alt space
+this is how you zoom out or control
+space is how you zoom in so control
+space to zoom out control v to paste
+so you can see
+now we have those lines that we created
+earlier
+and you can see where it is on the mesh
+so it's
+right in those areas
+so then let's go and grab our
+flowers
+and just drop in control a control c
+control w control v
+and then hit v and then move this to
+where we want to go
+i think this should be upside down
+when you're manipulating
+images in photoshop
+if you rotate it and it's always on a 90
+it won't
+degrade the image
+so don't worry about doing that
+if you
+ctrl t
+and hold alt and click a corner and then
+hold shift to constrain
+you can scale it proportionally
+this will degrade the image so make sure
+you want to do this
+and i do so let's put this like kinda
+like right there um if you
+you can make this a little bit
+transparent
+with this opacity slider oops um
+i'm not sure which layer this is now so
+i'm going to hit v and i'm going to
+control click
+oh so the map is on top
+i wanted to control click to just click
+these flowers but the map is on top
+so it just picked whatever is the
+highest on the stack you can lock that
+layer and then control click again
+and now it'll go to
+the layer you select
+let's call this
+flowers
+front
+okay
+let's call this one
+flower
+ref
+okay so now
+let's hit ctrl click and we are on the
+flower front so now you can see you can
+see through the flower and you can see
+our reference line and
+where we want to put that so i think
+like that's good
+alt tab we'll grab the back flowers
+enter control a control c control w
+control v
+let's call this
+back flower flower back okay let's move
+this over here let's reduce the opacity
+so we can see better
+you'll notice this back dress is upside
+down
+so
+let's hit control t
+and move the mouse cursor until you see
+the
+rotating arrow
+then click and drag and hold shift to
+constrain
+and enter to lock it in
+and let's just put it like right there
+and just leave it at that
+okay
+so let's make sure our flowers are lined
+up properly we will
+grab our let's go to object mode
+so grab our dress and then
+go to the albedo here the base color and
+let's reload it here
+i did not save it so let's go back to
+photoshop
+and then let's
+hide the lines there ctrl shift s
+tab
+j
+click that
+enter yes
+make sure it's saved alt tab to blender
+and then let's load it up and see
+yeah okay i think that's a good location
+okay so now let's
+add let's use these flowers to
+add to our um
+textures
+so we can create a normal map so let's
+go back to photoshop here
+and
+let's delete our flowers ref
+file uh layer
+okay so
+first let's deal with this um
+overall fabric so we don't need blue so
+we're gonna create
+a uh
+levels
+thing here so we'll go to here
+so click this little guy here
+and go to
+hue saturation
+and then just take out all the
+saturation
+and then
+go to make and make sure you had fabric
+selected so it'll put this um
+this layer right on top of it
+then go to the same thing and go to
+levels
+so the way it works is
+and i always get this backwards
+the way it works when you're creating
+normal maps
+or bump maps is if it's
+lighter
+it's protruding
+out from a surface and if it's darker
+it's protruding back
+so
+so let's modify this
+so it works like that
+but what i want is i want the
+flowers to be the highest part of this
+so let's drag this down here
+so
+to make that work well
+now this actually might work good so if
+the whole um
+if all this medium gray area
+has some fine texture details that's
+good and then if the flower parts are
+brighter than that
+then it'll stand off from the main
+fabric texture so
+i think that'll work
+so let's go and bring our flowers in
+here
+and so let's make this 100
+and 100
+so how do we make this
+a white image on top of a gray field so
+let's grab our flower layer and drag it
+down to this little piece of paper
+looking icon and it duplicates it
+let's move this
+up here a bit and let's call this flower
+front
+bump
+it's kind of like a bum map
+let's do the same thing for the back
+drag this down to here
+flower back
+bump
+and let's hide our
+main flowers okay so we want to make
+this flower um
+stick out
+okay so let's grab our flower here
+and we will control
+i
+to invert it
+and we will control u to take out the
+color
+and then we will change the
+transparency to like uh
+screen
+screen okay
+okay so that's pretty good i'm gonna
+guess that is too dark
+let's do the same thing for here
+control i
+ctrl u take out the saturation
+okay
+and make this
+uh screen
+where'd you go
+okay
+so back to the front flower i'm going to
+guess this is going to be to
+um
+to
+not bright enough
+so let's do this here
+so let's um
+take this
+let's test it out so let's take this and
+move this down here to duplicate it
+so these are all duplicated let's hit
+ctrl e to merge all these layers
+so it freezes it
+so you can see here
+um
+now it's just
+just that the grade is now just a frozen
+image so let's put this over here
+versus down here you can see it's not
+deconstructed so we still have the color
+and the levels
+okay so we don't need these now we just
+need this gray one here
+and let's
+grab these three here and
+let's hit ctrl e to merge them all so
+now this is just one image one giant
+gray texture with uh
+these flowers
+and then let's go to
+have this layer selected go to
+filter
+3d and generate normal normal map let it
+work for a bit
+okay so you can see it's hard to see
+here
+you can kind of see that it's yeah it's
+looking like it's popping out which is
+nice um you can double check it in this
+3d
+ish window here
+and uh so it looks
+is that popping out
+uh if if you get it backwards you can
+invert the height so
+okay so this looks correct
+so let's click ok
+then go to file and save as
+tab
+j
+for jpeg and then it's called this short
+dress
+normal
+fine so this is just for the fabric
+detail let's click save and save that
+and let's go back to blender and see if
+we
+got it right here
+okay so let's take off our color here
+and let's go and
+shift a
+s i m a for image texture
+let's load up
+our
+new normal
+make this non-color
+then go to
+shift-a-s-n-o-r for normal map click
+that here
+and we can
+just add color to normal
+and if you can see that
+so i attached color to normal i just
+drag that in between and it plugs it in
+okay so here it goes and let's
+okay so
+oh not
+not bad
+so it looks like the flowers are popping
+out which is good we want that
+and then do we have our fabric textures
+here
+yep we've got fabric textures there
+it's pretty subtle
+okay i think that's pretty good
+so let's go back to um photoshop
+and let's see here
+yeah that's actually good so let's so
+let's call that a day let's add some
+color also so i mean
+we i was going to just bake the normal
+map but let's also since we've got this
+all made let's just add some color
+so
+we had a white dress
+with um
+a little
+flower pattern and we didn't actually
+have the stitching in our concept
+but let's go and add that here so
+um
+let's bring back our flowers so we've
+got red flowers let's make the stitching
+match that
+so i've got the stitching box selected
+here i'm going to hit ctrl u to adjust
+the hue
+let's just make that
+red or maybe
+slightly pinkish i think that's good
+and then let's
+make sure we look good here okay ctrl
+shift s tab j
+it's probably better to go with like
+pngs or something
+alb for albedo
+and click save
+and they take a bit to save
+okay let's go back to blender and
+add that on
+so we'll reattach the color
+and then let's go and open our newly
+saved png click ok
+and let's see what we got here
+so we've got
+our stitching
+we've got our flowers
+and they
+well
+you almost can't see that they're
+popping out but if you pull off your
+color you can see
+the normal map is doing something
+it's just it's
+it's hard to see
+you know
+when you've got all this color on here
+okay so i think we have everything ready
+to
+bake our
+textures
+so let's go and do that let's go to our
+shading workspace
+let's zoom out a bit here
+and let's see here okay so
+let's hide what we don't need so we
+don't need these curves anymore
+we want to bake
+the two stitching well let's call this
+stitch
+and let's call this stitch
+okay so we want to bake the stitching
+from the bottom
+we want to bake the stitching from the
+bottom and the top and the
+sculpted dress
+onto
+this
+short dress low so this is the
+low poly
+well low-ish poly dress
+so let's make them all visible
+and then we want to first
+let's actually grab our low poly dress
+go to our texture here
+and let's
+we can actually use the same albedo for
+the color
+but we want to make a new normal texture
+so
+shift a s
+i m a for image texture
+hit new
+make this 4096 by 4096
+we'll call this
+short dress
+normal
+test
+and let's make this 1k
+just so we can
+test it and not waste lots of time
+then let's shift d and duplicate that
+and we'll call this
+we'll make a new one
+call this short
+normal
+by
+so let's test it with the low res one
+just so it doesn't take forever
+let's make it visible down here so it's
+s h o r short dress
+normal
+test
+okay so now we can see it as it's baking
+make sure it's selected here
+hit slash to bring everything back
+so let's grab
+all the high poly parts so stitching top
+stitching bottom
+and the sculpt
+and then control click the address low
+okay
+then let's bake it
+at 0.5 extrusion to see what it looks
+like when it's not good
+okay so we've got our little normal
+baked here we've got fabric textures
+we've got the flowers we've got the
+stitching here
+when i test it before i i had some
+glitches
+in these areas here but it
+look it looks okay now
+over here these of course are going to
+be messed up because they're on the
+inside of the dress
+so
+you can improve that by lowering this
+number but um
+i would usually just take it out in
+photoshop but um
+yeah it's funny okay so so well anyway
+so i know so you could leave it at point
+five but i know that point
+o two five worked better so i'm just
+gonna do that
+um it'll it'll help all this stuff over
+here anyway
+um
+so let's go and do our bake for real
+so short dress
+short dress fine
+and we can save this
+test just in case
+but let's make this the
+short dress normal thought no
+short dress
+normal
+okay
+and then make sure short dress
+normal is selected
+and then let's click bake
+make sure short dress normal is selected
+and then let's click bake let's make
+sure we have these selected correctly
+yes
+make sure they're visible
+yes and bake
+okay so
+the uh file is baked
+so let's go and check it out and see how
+it looks let's turn off our high detail
+meshes here
+grab our low poly mesh
+and
+take off the um the fine detail
+normal and put on the normal with the
+fine detail plus the
+wrinkles
+and let's
+oh
+if you get these weird seams it's
+because you didn't switch it to
+non-color
+okay
+okay
+so now we've got our little fabric
+details
+and we've got our wrinkles and our seams
+and we've got the
+flowers um
+bumping out it's hard to see let's do
+this
+yeah great
+got it
+so
+i think we are good to go oh and we also
+have our little um
+stitching details
+that we uh modeled up
+so let's see here
+yeah they did get a little bit distorted
+around those ends
+um i think
+it's i think it's okay i i guess if you
+want to avoid that you would model these
+so they're not bending quite as much
+so it maps a little bit better
+but uh i think it's okay
+yeah same thing there it's a little bit
+a little dodgy i mean you should you
+should really redo it but um
+for the tutorial we're not gonna do it
+uh here you can see this is
+too close so by lowering that number for
+the bake
+oh yeah let's look at that
+so by lowering the number for the bake
+before it was all messed up here
+now it's
+less messed up
+but i'll just take this out in photoshop
+because the inside
+it's not as important as the outside
+maybe clean up down here too
+okay so
+normal is good
+let's put our color back on
+and since we're here
+let's also bake the color for the
+stitching
+so we have the color stitching so let's
+bring back our high detail stuff and
+let's exit isolate mode
+okay
+and we've got
+the high poly visible
+and the stitching parts are visible
+okay so let's go and bake the color here
+so
+we'll grab our short dress albedo here
+let's make it visible down
+here short dress
+up albedo
+okay so we can see it there
+and then we can grab this here
+and let's make sure that
+so when you bake it
+we're going to bake the color now so
+let's just make sure our high poly has
+all the colors we want so i'll hide the
+low poly
+and
+okay so
+well i don't want that so let's fix that
+but uh
+and how that got there so
+the high poly has the flowers
+and it's got
+the um
+stitching colors
+and we just need to fix this little
+thing here
+so let's go to
+n for the tool okay
+uh
+s to pick up a color
+and f to make it bigger i can't even see
+it it's actually there
+okay so that's gone
+image and save
+okay
+let's bring back our lope
+poly model
+and control click the high poly parts
+let's
+make it all visible here
+and then control click our low poly
+dress
+and then let's go to bake
+and pick
+color
+or diffuse
+and then
+let's just pick
+color
+okay i think that works
+address albedo is selected
+bake
+okay the bake is done so let's go and
+take a look at this here
+so we'll turn off our high poly objects
+let's turn on our
+light source
+and then let's go and
+see how this looks
+okay so we've got
+a little stitching
+there
+down there
+got our flowers
+and our dress
+we've got the
+fine textures and the wrinkles
+so i think that's about everything
+i do think that we need um
+let's see here
+i think we need
+so let's just make a roughness map
+since we're here so let's go to our
+photoshop
+and let's go and bring back our little
+textures and our flower and we'll have
+to do this again won't we
+okay so we'll have to uh
+let's just do this again quickly so
+we'll grab flowers drag it down here
+hide these guys
+go ctrl i ctrl i ctrl
+and ctrl u
+turn saturation
+then go to
+normal and go to screen screen screen
+and go to normal to screen
+so let's make a roughness
+so i think the way it works is
+everything that's dark is shiny
+so
+let's make the flowers a little bit
+shiny so let's actually
+invert this
+then go to multiply and multiply
+then let's make the texture for our um
+cloth very light so let's go to levels
+double click that
+and make it like almost
+white
+and so this should make
+everything
+pretty um matte
+it'll make the flowers a little bit
+glossy i think that'll be nice so ctrl
+shift s
+tab
+j and short dress
+roughness
+ugh
+let's flip back into blender
+and
+let's just
+grab one of these guys here
+and open that roughness map
+and non-color
+and drag that to roughness and i hope i
+didn't get this backwards
+and is it
+yeah okay so the flowers are shiny
+and everything else is met which is what
+we want okay
+let's go and fix those things so let's
+go and fix the color map
+and the normal map
+so for the color we've got it right here
+so let's let's just do it in um
+blender
+okay so let's go to texture painting
+mode
+let's go back to object mode here let's
+go and grab our address
+and let's first paint the paint out all
+this color stuff here
+so we'll go to
+the albedo
+short dress
+a l b short dress albedo okay so we've
+got that one there
+you just take out all this stuff
+so grab the object
+go to sculpt texture paint mode
+and then
+have this here
+you can probably leave mirror on
+hit s to pick up a color
+and just
+wipe it out
+you should see the same thing happen
+over here
+you can even color it here if you want
+to
+be careful you don't
+don't go over into the
+part of the textures you actually want
+to be nice
+okay
+i think this is messing some stuff up
+down here so let's
+get rid of that
+okay
+then these also
+okay that's
+better let's go to
+image and save
+then let's look at the normal and oh our
+short dress normal
+short dress
+oh here we go
+so we have to get rid of all of this
+stuff here
+so i'm going to hmm
+and this stuff down here too so let's go
+s to pick up a color
+make sure uh
+if you're angled this way and trying to
+draw here
+yo
+what's going on here short dress normal
+oh
+so when you're painting
+make sure you have the correct map
+selected short dress normal okay
+so
+s to pick up a color here it looks like
+it's color but i'm actually picking up
+off
+this map
+so it's probably picking up one of these
+colors here or you can get it here
+hit s to pick it up then
+you can see you can just wipe out all
+those little details but if you're
+angled this way
+you'll go too far and you'll end up
+wiping out
+the part you actually want to keep
+and since this surface was angled away
+you didn't actually touch it
+so
+when you're just you know
+fixing your normal make sure you turn
+the surfaces that you want to keep away
+from you
+so this way
+when you brush over it
+you can see the outside still good
+like that
+and
+we need a subdivision
+like that
+just clean it up
+if you don't want to if you want to keep
+some of these details you can do that
+too but the clone tool so click the
+clone tool
+and then hit
+control to pick up a texture
+ctrl left click to pick up a texture and
+then
+right click to
+draw in or paint in the texture so
+you can do that too
+just like that it doesn't work in a 3d
+it doesn't work in a 2d thing
+i'm just going
+and then i think it's actually a bit
+nicer
+although i think i think it's nice to
+have the bottom clean so let's go and
+brush
+the bottom all even
+like that
+yeah let's just like
+it up first and then we'll add in the
+texture back so collect that
+i think
+this part's all done
+clone tool and hit control
+control
+looking for any little glitches here
+and i'm
+rotating away so like i don't
+i don't want to modify the bottom part i
+want to modify the more the front part
+so control and drag that
+i must have missed this
+s to pick up
+then the clone tool
+that looks okay
+oops
+control
+so just go around and clean up
+any little glitches
+in the normal map it looks okay
+and then if you want to
+keep the texture on the inside you can
+do that too just same thing
+um it's it's hard to i don't want to
+mess with this bottom part so
+yeah it's kind of hard to do that so
+we'll just get close control and just
+drag it there like that
+and we should have mirror mode on so
+we should only need to do half of this
+color bleeding through here so let's hit
+our end tool
+go to the albedo
+n
+and draw
+s to pick it up and just wipe out those
+little glitches
+okay and n let's go back to our normal
+and clone tool
+and then go back to it
+control
+this is the inside of the dress so it's
+really not that big of a deal
+okay
+let's check the top here too
+okay
+okay let's go to object mode and i think
+that is our
+that's our dress
+okay so let's bring back our character
+and see how she looks
+with her
+new dress
+so we've got the short dress low
+turn on the
+eyelashes and if they're not showing up
+it's because we are in isolate mode okay
+there we go
+uh let's turn on the body let's get the
+hair in place and turn on some color
+and
+yeah
+okay
+nice
+so that's it for our video today i hope
+you found that useful if it was leave a
+comment to let me know
+like or subscribe or better yet support
+me on patreon
+in the next video we will make some
+shoes
+see you then

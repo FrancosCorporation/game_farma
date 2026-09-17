@@ -1,0 +1,1174 @@
+Kind: captions
+Language: en
+hello guys welcome to another blender
+hello guys welcome to another blender
+hello guys welcome to another blender
+script tutorial from blender ignite my
+script tutorial from blender ignite my
+script tutorial from blender ignite my
+name is Ryan gric and in this tutorial
+name is Ryan gric and in this tutorial
+name is Ryan gric and in this tutorial
+we're going to be talking about first
+we're going to be talking about first
+we're going to be talking about first
+person and third person camera moves
+person and third person camera moves
+person and third person camera moves
+using a camera rig script you will see
+using a camera rig script you will see
+using a camera rig script you will see
+that if you click on this camera here
+that if you click on this camera here
+that if you click on this camera here
+that there's a bunch of properties that
+that there's a bunch of properties that
+that there's a bunch of properties that
+can change values I'm hoping that these
+can change values I'm hoping that these
+can change values I'm hoping that these
+properties are very
+properties are very
+properties are very
+self-explanatory and that as I give you
+self-explanatory and that as I give you
+self-explanatory and that as I give you
+a run through it you'll be able to jump
+a run through it you'll be able to jump
+a run through it you'll be able to jump
+in and get started I did want to bring
+in and get started I did want to bring
+in and get started I did want to bring
+up something though I found while
+up something though I found while
+up something though I found while
+searching around this mouse move script
+searching around this mouse move script
+searching around this mouse move script
+now a mouse move script is a little bit
+now a mouse move script is a little bit
+now a mouse move script is a little bit
+different than a camera rig script made
+different than a camera rig script made
+different than a camera rig script made
+by this guy right here I really wanted
+by this guy right here I really wanted
+by this guy right here I really wanted
+to pronounce his name and I really
+to pronounce his name and I really
+to pronounce his name and I really
+didn't want to offend him so I hope you
+didn't want to offend him so I hope you
+didn't want to offend him so I hope you
+guys will understand me but um he has
+guys will understand me but um he has
+guys will understand me but um he has
+made a really awesome script here
+made a really awesome script here
+made a really awesome script here
+however I did want to point out that
+however I did want to point out that
+however I did want to point out that
+they are different so in this tutorial
+they are different so in this tutorial
+they are different so in this tutorial
+here I just wanted to create a rig that
+here I just wanted to create a rig that
+here I just wanted to create a rig that
+would be very easy to use and that could
+would be very easy to use and that could
+would be very easy to use and that could
+have a set of properties that would be
+have a set of properties that would be
+have a set of properties that would be
+very easy to understand and just convert
+very easy to understand and just convert
+very easy to understand and just convert
+that into any game that you're wanting
+that into any game that you're wanting
+that into any game that you're wanting
+I'm going to get started and show you
+I'm going to get started and show you
+I'm going to get started and show you
+how this works now before I start I just
+how this works now before I start I just
+how this works now before I start I just
+wanted to bring up one thing that I
+wanted to bring up one thing that I
+wanted to bring up one thing that I
+found and that is that the mouse cursor
+found and that is that the mouse cursor
+found and that is that the mouse cursor
+will appear in the game engine visibly
+will appear in the game engine visibly
+will appear in the game engine visibly
+at all times which means that
+at all times which means that
+at all times which means that
+in the script I have set the mouse
+in the script I have set the mouse
+in the script I have set the mouse
+cursor to be non viewable During certain
+cursor to be non viewable During certain
+cursor to be non viewable During certain
+options I'll take you through those but
+options I'll take you through those but
+options I'll take you through those but
+the screen recording software will
+the screen recording software will
+the screen recording software will
+record the mouse cursor no matter which
+record the mouse cursor no matter which
+record the mouse cursor no matter which
+option I have set so it's a little bit
+option I have set so it's a little bit
+option I have set so it's a little bit
+disappointing because you'll see that it
+disappointing because you'll see that it
+disappointing because you'll see that it
+jumps to the middle and moves around the
+jumps to the middle and moves around the
+jumps to the middle and moves around the
+center a bit but it shouldn't be too
+center a bit but it shouldn't be too
+center a bit but it shouldn't be too
+much of a problem that is basically it
+much of a problem that is basically it
+much of a problem that is basically it
+I'm just going to push play Jump in you
+I'm just going to push play Jump in you
+I'm just going to push play Jump in you
+can see that um the mouse cursor is
+can see that um the mouse cursor is
+can see that um the mouse cursor is
+visible right now the cube here it is
+visible right now the cube here it is
+visible right now the cube here it is
+surrounded by an outline to make it
+surrounded by an outline to make it
+surrounded by an outline to make it
+easier for us I can move this player
+easier for us I can move this player
+easier for us I can move this player
+around a bit and what I'm going to do is
+around a bit and what I'm going to do is
+around a bit and what I'm going to do is
+I'm going to click over here grab using
+I'm going to click over here grab using
+I'm going to click over here grab using
+the left button which means that as I
+the left button which means that as I
+the left button which means that as I
+move forward and rotate using the mouse
+move forward and rotate using the mouse
+move forward and rotate using the mouse
+it's also moving the player object that
+it's also moving the player object that
+it's also moving the player object that
+you have attached to this Cube around
+you have attached to this Cube around
+you have attached to this Cube around
+your scene and it just allows for a more
+your scene and it just allows for a more
+your scene and it just allows for a more
+Dynamic view now if you click the right
+Dynamic view now if you click the right
+Dynamic view now if you click the right
+button you will see that you can then
+button you will see that you can then
+button you will see that you can then
+rotate around the entire Cube so this
+rotate around the entire Cube so this
+rotate around the entire Cube so this
+means that you while you're moving you
+means that you while you're moving you
+means that you while you're moving you
+can rotate around it and it will not
+can rotate around it and it will not
+can rotate around it and it will not
+rotate the actual Cube here if you want
+rotate the actual Cube here if you want
+rotate the actual Cube here if you want
+to go back to the middle just click the
+to go back to the middle just click the
+to go back to the middle just click the
+left Mouse button and you'll see that it
+left Mouse button and you'll see that it
+left Mouse button and you'll see that it
+just moves back to that view the mouse
+just moves back to that view the mouse
+just moves back to that view the mouse
+is visible during that game and it just
+is visible during that game and it just
+is visible during that game and it just
+allows you to press buttons and still
+allows you to press buttons and still
+allows you to press buttons and still
+interact with your character all within
+interact with your character all within
+interact with your character all within
+the same script so that is the player
+the same script so that is the player
+the same script so that is the player
+mode third person we also have another
+mode third person we also have another
+mode third person we also have another
+mode which you may have heard called
+mode which you may have heard called
+mode which you may have heard called
+first person and that means it just
+first person and that means it just
+first person and that means it just
+takes the camera and moves it into a
+takes the camera and moves it into a
+takes the camera and moves it into a
+view that makes it look like you are the
+view that makes it look like you are the
+view that makes it look like you are the
+person traveling your character so
+person traveling your character so
+person traveling your character so
+what's actually happening is that the
+what's actually happening is that the
+what's actually happening is that the
+camera is traveling along that line
+camera is traveling along that line
+camera is traveling along that line
+there you can see that it's parented to
+there you can see that it's parented to
+there you can see that it's parented to
+the cube and ending right there you can
+the cube and ending right there you can
+the cube and ending right there you can
+if you want to if you don't like the
+if you want to if you don't like the
+if you want to if you don't like the
+jerk when you jump into the game you can
+jerk when you jump into the game you can
+jerk when you jump into the game you can
+just take that camera just move bit
+just take that camera just move bit
+just take that camera just move bit
+closer to that Cube so you can see but I
+closer to that Cube so you can see but I
+closer to that Cube so you can see but I
+just want to show you right now so when
+just want to show you right now so when
+just want to show you right now so when
+I push P you can see I jump into that
+I push P you can see I jump into that
+I push P you can see I jump into that
+you can see that I can rotate so if I
+you can see that I can rotate so if I
+you can see that I can rotate so if I
+look down at that wireframe you can see
+look down at that wireframe you can see
+look down at that wireframe you can see
+I'm rotating it and I can also rotate
+I'm rotating it and I can also rotate
+I'm rotating it and I can also rotate
+within that character within the camera
+within that character within the camera
+within that character within the camera
+so that mode means that you can do first
+so that mode means that you can do first
+so that mode means that you can do first
+person or third person first person all
+person or third person first person all
+person or third person first person all
+it is is just moving the camera to that
+it is is just moving the camera to that
+it is is just moving the camera to that
+Center and what it is also doing is
+Center and what it is also doing is
+Center and what it is also doing is
+disabling this these Zoom features and
+disabling this these Zoom features and
+disabling this these Zoom features and
+I'll talk about that in just a little
+I'll talk about that in just a little
+I'll talk about that in just a little
+bit in first person though there is one
+bit in first person though there is one
+bit in first person though there is one
+other thing that most games use and that
+other thing that most games use and that
+other thing that most games use and that
+is called a free mode what exactly is a
+is called a free mode what exactly is a
+is called a free mode what exactly is a
+free mode well free mode what it does is
+free mode well free mode what it does is
+free mode well free mode what it does is
+it takes the rotation instead of
+it takes the rotation instead of
+it takes the rotation instead of
+clicking and dragging what it does is it
+clicking and dragging what it does is it
+clicking and dragging what it does is it
+allows the rotation of your mouse to
+allows the rotation of your mouse to
+allows the rotation of your mouse to
+affect the movement and what does that
+affect the movement and what does that
+affect the movement and what does that
+mean it means that it frees up the left
+mean it means that it frees up the left
+mean it means that it frees up the left
+and right button so that you can connect
+and right button so that you can connect
+and right button so that you can connect
+it to say a weapon or you can move it
+it to say a weapon or you can move it
+it to say a weapon or you can move it
+and throw a grenade um and that means
+and throw a grenade um and that means
+and throw a grenade um and that means
+that also that the cursor disappears
+that also that the cursor disappears
+that also that the cursor disappears
+meaning you can use an overlay say for a
+meaning you can use an overlay say for a
+meaning you can use an overlay say for a
+Target and it just allows the firsters
+Target and it just allows the firsters
+Target and it just allows the firsters
+mode to be a lot more Dynamic so I'm
+mode to be a lot more Dynamic so I'm
+mode to be a lot more Dynamic so I'm
+just going to enable that right now
+just going to enable that right now
+just going to enable that right now
+within the first person and you can just
+within the first person and you can just
+within the first person and you can just
+see that as I move around here I'm not
+see that as I move around here I'm not
+see that as I move around here I'm not
+clicking down at all and it's just
+clicking down at all and it's just
+clicking down at all and it's just
+moving the player around that's a pretty
+moving the player around that's a pretty
+moving the player around that's a pretty
+cool mode also works for third person so
+cool mode also works for third person so
+cool mode also works for third person so
+you can see here same type of thing the
+you can see here same type of thing the
+you can see here same type of thing the
+mouse cursor has disappeared um so that
+mouse cursor has disappeared um so that
+mouse cursor has disappeared um so that
+means that you can't click on anything I
+means that you can't click on anything I
+means that you can't click on anything I
+mean it will be visible in the recording
+mean it will be visible in the recording
+mean it will be visible in the recording
+but right now I can't see the cursor and
+but right now I can't see the cursor and
+but right now I can't see the cursor and
+so that's just allowing me to move and
+so that's just allowing me to move and
+so that's just allowing me to move and
+rotate around that player so it all
+rotate around that player so it all
+rotate around that player so it all
+depends on what game you're thinking of
+depends on what game you're thinking of
+depends on what game you're thinking of
+you know whether it's first person third
+you know whether it's first person third
+you know whether it's first person third
+person and whether that camera is moving
+person and whether that camera is moving
+person and whether that camera is moving
+coming down to the button switch we have
+coming down to the button switch we have
+coming down to the button switch we have
+um a bullion here so true or false that
+um a bullion here so true or false that
+um a bullion here so true or false that
+just means that when you are not in free
+just means that when you are not in free
+just means that when you are not in free
+mode if you're dragging with the left
+mode if you're dragging with the left
+mode if you're dragging with the left
+button it will perform the operation of
+button it will perform the operation of
+button it will perform the operation of
+the other button so it just switches
+the other button so it just switches
+the other button so it just switches
+those two up so if you want those
+those two up so if you want those
+those two up so if you want those
+different within your game and just
+different within your game and just
+different within your game and just
+moving down the mouse sensitivity just
+moving down the mouse sensitivity just
+moving down the mouse sensitivity just
+determines how fast your mouse is moving
+determines how fast your mouse is moving
+determines how fast your mouse is moving
+within the game you know how fast that
+within the game you know how fast that
+within the game you know how fast that
+rotation is when you move your mouse so
+rotation is when you move your mouse so
+rotation is when you move your mouse so
+if you go down to one and you know I'm
+if you go down to one and you know I'm
+if you go down to one and you know I'm
+just going to come up here and enable
+just going to come up here and enable
+just going to come up here and enable
+free mode so if I just push play you'll
+free mode so if I just push play you'll
+free mode so if I just push play you'll
+see that the mouse is just rotating
+see that the mouse is just rotating
+see that the mouse is just rotating
+really slowly I know it might be hard to
+really slowly I know it might be hard to
+really slowly I know it might be hard to
+see but on the mouse pad I have to
+see but on the mouse pad I have to
+see but on the mouse pad I have to
+travel a lot farther distance than if I
+travel a lot farther distance than if I
+travel a lot farther distance than if I
+did it here and you can just see that it
+did it here and you can just see that it
+did it here and you can just see that it
+moves a lot faster so that can be
+moves a lot faster so that can be
+moves a lot faster so that can be
+determined by the mouse sensitivity and
+determined by the mouse sensitivity and
+determined by the mouse sensitivity and
+the mouse angle is how far this camera
+the mouse angle is how far this camera
+the mouse angle is how far this camera
+rotates on the player so what does that
+rotates on the player so what does that
+rotates on the player so what does that
+exactly mean well here's the camera and
+exactly mean well here's the camera and
+exactly mean well here's the camera and
+here's the player you will see that this
+here's the player you will see that this
+here's the player you will see that this
+camera um can rotate any distance along
+camera um can rotate any distance along
+camera um can rotate any distance along
+here but you can see that this mouse
+here but you can see that this mouse
+here but you can see that this mouse
+angle helps cap or set up a cap lock so
+angle helps cap or set up a cap lock so
+angle helps cap or set up a cap lock so
+that your camera doesn't go over to the
+that your camera doesn't go over to the
+that your camera doesn't go over to the
+other side and flip upside down so that
+other side and flip upside down so that
+other side and flip upside down so that
+just means that this camera will stop um
+just means that this camera will stop um
+just means that this camera will stop um
+at the 180 degree line or whatever angle
+at the 180 degree line or whatever angle
+at the 180 degree line or whatever angle
+that you've set here in this case I've
+that you've set here in this case I've
+that you've set here in this case I've
+done 170 which means there's 5° off the
+done 170 which means there's 5° off the
+done 170 which means there's 5° off the
+top and 5° off the bottom so that can be
+top and 5° off the bottom so that can be
+top and 5° off the bottom so that can be
+changed and adjusted um for when you hit
+changed and adjusted um for when you hit
+changed and adjusted um for when you hit
+that distance so going back into the
+that distance so going back into the
+that distance so going back into the
+camera mode we now have some Zoom
+camera mode we now have some Zoom
+camera mode we now have some Zoom
+features and I haven't showed you the
+features and I haven't showed you the
+features and I haven't showed you the
+zoom so let me just go in just going to
+zoom so let me just go in just going to
+zoom so let me just go in just going to
+push play and you can see that I can
+push play and you can see that I can
+push play and you can see that I can
+scroll forward Zooms in and I can zoom
+scroll forward Zooms in and I can zoom
+scroll forward Zooms in and I can zoom
+out up to two distances and those are
+out up to two distances and those are
+out up to two distances and those are
+determined by the maximum distance so
+determined by the maximum distance so
+determined by the maximum distance so
+how far away from the player you are and
+how far away from the player you are and
+how far away from the player you are and
+the minimum minum distance which is how
+the minimum minum distance which is how
+the minimum minum distance which is how
+close you are to this player so that is
+close you are to this player so that is
+close you are to this player so that is
+determined by those two values and the
+determined by those two values and the
+determined by those two values and the
+mouse Zoom is just how fast you move
+mouse Zoom is just how fast you move
+mouse Zoom is just how fast you move
+between them if it's two it'll take
+between them if it's two it'll take
+between them if it's two it'll take
+smaller chunks than say five and it's a
+smaller chunks than say five and it's a
+smaller chunks than say five and it's a
+float value so you can do like 0.5 to do
+float value so you can do like 0.5 to do
+float value so you can do like 0.5 to do
+a lot of small motion if you want to you
+a lot of small motion if you want to you
+a lot of small motion if you want to you
+know just within the game and that means
+know just within the game and that means
+know just within the game and that means
+that it's a lot smoother when you scroll
+that it's a lot smoother when you scroll
+that it's a lot smoother when you scroll
+so I'll just bring that up to here and
+so I'll just bring that up to here and
+so I'll just bring that up to here and
+the last option down here is called Zoom
+the last option down here is called Zoom
+the last option down here is called Zoom
+FP which stands for Zoom first person
+FP which stands for Zoom first person
+FP which stands for Zoom first person
+and that means that if you are in third
+and that means that if you are in third
+and that means that if you are in third
+person and want to still have
+person and want to still have
+person and want to still have
+firstperson capability it just allows
+firstperson capability it just allows
+firstperson capability it just allows
+you that instead of hitting this minimum
+you that instead of hitting this minimum
+you that instead of hitting this minimum
+distance and ending what it does is when
+distance and ending what it does is when
+distance and ending what it does is when
+you select this it hits that minimum
+you select this it hits that minimum
+you select this it hits that minimum
+distance and goes straight into
+distance and goes straight into
+distance and goes straight into
+firstperson view um and that allows you
+firstperson view um and that allows you
+firstperson view um and that allows you
+to um bypass any of the sort of
+to um bypass any of the sort of
+to um bypass any of the sort of
+obstruction to the camera that would
+obstruction to the camera that would
+obstruction to the camera that would
+happen Happ and so you can set this
+happen Happ and so you can set this
+happen Happ and so you can set this
+distance say to like five and then when
+distance say to like five and then when
+distance say to like five and then when
+you come in and zoom in you can see that
+you come in and zoom in you can see that
+you come in and zoom in you can see that
+when it goes past that view just zooms
+when it goes past that view just zooms
+when it goes past that view just zooms
+straight into that you know firstperson
+straight into that you know firstperson
+straight into that you know firstperson
+view that should give you a lot of
+view that should give you a lot of
+view that should give you a lot of
+variance within your game I'm hoping
+variance within your game I'm hoping
+variance within your game I'm hoping
+that's going to be very useful for you
+that's going to be very useful for you
+that's going to be very useful for you
+hopefully they're quite
+hopefully they're quite
+hopefully they're quite
+self-explanatory and that there's still
+self-explanatory and that there's still
+self-explanatory and that there's still
+a lot of variety that you can use within
+a lot of variety that you can use within
+a lot of variety that you can use within
+your game so now that I've showed you
+your game so now that I've showed you
+your game so now that I've showed you
+the camera rig I want to show you um how
+the camera rig I want to show you um how
+the camera rig I want to show you um how
+this would be used us with a character
+this would be used us with a character
+this would be used us with a character
+up here in the outliner I have this
+up here in the outliner I have this
+up here in the outliner I have this
+character you can see that it is um
+character you can see that it is um
+character you can see that it is um
+hidden I'm just going to turn it on
+hidden I'm just going to turn it on
+hidden I'm just going to turn it on
+right here and turn it on in the
+right here and turn it on in the
+right here and turn it on in the
+rendering I'm just going to rotate
+rendering I'm just going to rotate
+rendering I'm just going to rotate
+around this character here and you can
+around this character here and you can
+around this character here and you can
+see that it's made up of a few different
+see that it's made up of a few different
+see that it's made up of a few different
+parts one you can see that there's
+parts one you can see that there's
+parts one you can see that there's
+objects here and they are parented to
+objects here and they are parented to
+objects here and they are parented to
+this Armature here that I've set up now
+this Armature here that I've set up now
+this Armature here that I've set up now
+I'm not going to show you how to build
+I'm not going to show you how to build
+I'm not going to show you how to build
+this character if you just search for it
+this character if you just search for it
+this character if you just search for it
+on Google you should find some tutorials
+on Google you should find some tutorials
+on Google you should find some tutorials
+of how to set set that up and all I've
+of how to set set that up and all I've
+of how to set set that up and all I've
+done is really just parented to this
+done is really just parented to this
+done is really just parented to this
+Armature and have created very simple
+Armature and have created very simple
+Armature and have created very simple
+little bit of a walk cycle so that you
+little bit of a walk cycle so that you
+little bit of a walk cycle so that you
+could see this in the game engine have
+could see this in the game engine have
+could see this in the game engine have
+taken this Armature and just parented it
+taken this Armature and just parented it
+taken this Armature and just parented it
+to this bounding box or player and so
+to this bounding box or player and so
+to this bounding box or player and so
+that way as the player moves this
+that way as the player moves this
+that way as the player moves this
+character follows it and then the walk
+character follows it and then the walk
+character follows it and then the walk
+cycle looks like it's walking all I've
+cycle looks like it's walking all I've
+cycle looks like it's walking all I've
+done is just applied a keyboard and an
+done is just applied a keyboard and an
+done is just applied a keyboard and an
+action just to get those moving when I
+action just to get those moving when I
+action just to get those moving when I
+go forward and I'm just going to show
+go forward and I'm just going to show
+go forward and I'm just going to show
+you how this works in the game so I'm
+you how this works in the game so I'm
+you how this works in the game so I'm
+just going to come into the camera mode
+just going to come into the camera mode
+just going to come into the camera mode
+I'm just going to flip over to third
+I'm just going to flip over to third
+I'm just going to flip over to third
+person take off free mode and I'm just
+person take off free mode and I'm just
+person take off free mode and I'm just
+going to show you how this works I'm
+going to show you how this works I'm
+going to show you how this works I'm
+going to just push play and what you're
+going to just push play and what you're
+going to just push play and what you're
+going to see is that this bounding box
+going to see is that this bounding box
+going to see is that this bounding box
+is still that outline but we don't want
+is still that outline but we don't want
+is still that outline but we don't want
+that because now we have a character so
+that because now we have a character so
+that because now we have a character so
+we're just going to click on that box go
+we're just going to click on that box go
+we're just going to click on that box go
+under the material settings up here
+under the material settings up here
+under the material settings up here
+scroll down
+scroll down
+scroll down
+and click invisible and that way when we
+and click invisible and that way when we
+and click invisible and that way when we
+push play it all disappears and and it
+push play it all disappears and and it
+push play it all disappears and and it
+will act normally so what can I do I can
+will act normally so what can I do I can
+will act normally so what can I do I can
+move forward you can see that it's
+move forward you can see that it's
+move forward you can see that it's
+walking and you can see I can rotate up
+walking and you can see I can rotate up
+walking and you can see I can rotate up
+I can jump back to that front view and
+I can jump back to that front view and
+I can jump back to that front view and
+you know just rotate the object using
+you know just rotate the object using
+you know just rotate the object using
+the mouse and it's just walking forward
+the mouse and it's just walking forward
+the mouse and it's just walking forward
+using that um using a bit of that walk
+using that um using a bit of that walk
+using that um using a bit of that walk
+cycle and so I can watch it walk in and
+cycle and so I can watch it walk in and
+cycle and so I can watch it walk in and
+then spin around to the front and spin
+then spin around to the front and spin
+then spin around to the front and spin
+back and just rotate it around and so
+back and just rotate it around and so
+back and just rotate it around and so
+it's quite versatile you can do a lot of
+it's quite versatile you can do a lot of
+it's quite versatile you can do a lot of
+things I can zoom in into first person
+things I can zoom in into first person
+things I can zoom in into first person
+mode you can see that here now that I am
+mode you can see that here now that I am
+mode you can see that here now that I am
+the character zoom out and I can have a
+the character zoom out and I can have a
+the character zoom out and I can have a
+really top view of the
+really top view of the
+really top view of the
+character so many options so many things
+character so many options so many things
+character so many options so many things
+I hope you guys are just looking out and
+I hope you guys are just looking out and
+I hope you guys are just looking out and
+seeing if there's anything that you can
+seeing if there's anything that you can
+seeing if there's anything that you can
+see that would useful for your game I'm
+see that would useful for your game I'm
+see that would useful for your game I'm
+going to hopefully be adding some more
+going to hopefully be adding some more
+going to hopefully be adding some more
+features to this later on so I'm pretty
+features to this later on so I'm pretty
+features to this later on so I'm pretty
+excited so that's it for the character
+excited so that's it for the character
+excited so that's it for the character
+you can see that it is applied um just
+you can see that it is applied um just
+you can see that it is applied um just
+really quick feature when you append
+really quick feature when you append
+really quick feature when you append
+this to your scene later on you're going
+this to your scene later on you're going
+this to your scene later on you're going
+to see that this um cube is quite a bit
+to see that this um cube is quite a bit
+to see that this um cube is quite a bit
+taller I'm just going to hide this
+taller I'm just going to hide this
+taller I'm just going to hide this
+character really quick you're also going
+character really quick you're also going
+character really quick you're also going
+to see that this empty is quite a bit
+to see that this empty is quite a bit
+to see that this empty is quite a bit
+higher and this is done just by clicking
+higher and this is done just by clicking
+higher and this is done just by clicking
+on this circle just grabbing it and just
+on this circle just grabbing it and just
+on this circle just grabbing it and just
+moving it up and you can see that the
+moving it up and you can see that the
+moving it up and you can see that the
+camera and the two empties follow it and
+camera and the two empties follow it and
+camera and the two empties follow it and
+once it travels into the center of the
+once it travels into the center of the
+once it travels into the center of the
+character the camera you'll see that
+character the camera you'll see that
+character the camera you'll see that
+because these faces are only one-sided
+because these faces are only one-sided
+because these faces are only one-sided
+your camera can see out the one other
+your camera can see out the one other
+your camera can see out the one other
+thing I just wanted to show you is that
+thing I just wanted to show you is that
+thing I just wanted to show you is that
+the way this camera is rotating using
+the way this camera is rotating using
+the way this camera is rotating using
+the mouse is set up by just rotating
+the mouse is set up by just rotating
+the mouse is set up by just rotating
+each of these empties in a very
+each of these empties in a very
+each of these empties in a very
+different way but that means because
+different way but that means because
+different way but that means because
+they are all parented to each other we
+they are all parented to each other we
+they are all parented to each other we
+now have the opportunity to create a
+now have the opportunity to create a
+now have the opportunity to create a
+little bit more organic motion and so I
+little bit more organic motion and so I
+little bit more organic motion and so I
+can use it by just clicking on this
+can use it by just clicking on this
+can use it by just clicking on this
+empty going over to the object settings
+empty going over to the object settings
+empty going over to the object settings
+scrolling down
+scrolling down
+scrolling down
+to relationship extras panel and to slow
+to relationship extras panel and to slow
+to relationship extras panel and to slow
+parent and selecting that and just
+parent and selecting that and just
+parent and selecting that and just
+adding in a bit of an offset the
+adding in a bit of an offset the
+adding in a bit of an offset the
+movement will not be so rigid and just a
+movement will not be so rigid and just a
+movement will not be so rigid and just a
+bit smoother um for when you're in the
+bit smoother um for when you're in the
+bit smoother um for when you're in the
+game it might be hard to see in the
+game it might be hard to see in the
+game it might be hard to see in the
+recording but it just means that now my
+recording but it just means that now my
+recording but it just means that now my
+player is spinning a little little bit
+player is spinning a little little bit
+player is spinning a little little bit
+ahead of my camera and it's just
+ahead of my camera and it's just
+ahead of my camera and it's just
+creating a lot more smoother movement
+creating a lot more smoother movement
+creating a lot more smoother movement
+with that so it's not as harsh within
+with that so it's not as harsh within
+with that so it's not as harsh within
+the character so that's a very cool
+the character so that's a very cool
+the character so that's a very cool
+feature and will really add a lot to
+feature and will really add a lot to
+feature and will really add a lot to
+your game so that is basically it for
+your game so that is basically it for
+your game so that is basically it for
+that camera script so I'm just going to
+that camera script so I'm just going to
+that camera script so I'm just going to
+show you in the next section how to
+show you in the next section how to
+show you in the next section how to
+append this to your scene and just show
+append this to your scene and just show
+append this to your scene and just show
+you how easy it is to set it up for your
+you how easy it is to set it up for your
+you how easy it is to set it up for your
+game
+all right guys we have the blank scene
+all right guys we have the blank scene
+all right guys we have the blank scene
+open before us we have the plane and the
+open before us we have the plane and the
+open before us we have the plane and the
+light and we're going to just to pen
+light and we're going to just to pen
+light and we're going to just to pen
+that camera rig into our scene now
+that camera rig into our scene now
+that camera rig into our scene now
+before we do that we're going to have to
+before we do that we're going to have to
+before we do that we're going to have to
+download the file from blender ignite
+download the file from blender ignite
+download the file from blender ignite
+the link is included in the description
+the link is included in the description
+the link is included in the description
+below or you can just go to blender
+below or you can just go to blender
+below or you can just go to blender
+ignite and download it from there and
+ignite and download it from there and
+ignite and download it from there and
+then once you have the file downloaded
+then once you have the file downloaded
+then once you have the file downloaded
+we're just going to navigate to it so
+we're just going to navigate to it so
+we're just going to navigate to it so
+we're going to go file append
+we're going to go file append
+we're going to go file append
+you know search for the camera rig and
+you know search for the camera rig and
+you know search for the camera rig and
+open that up and under group we're going
+open that up and under group we're going
+open that up and under group we're going
+to select camera rig and then go link
+to select camera rig and then go link
+to select camera rig and then go link
+and append and you'll see that it brings
+and append and you'll see that it brings
+and append and you'll see that it brings
+in that whole setup here and all we have
+in that whole setup here and all we have
+in that whole setup here and all we have
+to do is come under the camera if it's
+to do is come under the camera if it's
+to do is come under the camera if it's
+not selected and hold down control
+not selected and hold down control
+not selected and hold down control
+numpad zero so now that we're in the
+numpad zero so now that we're in the
+numpad zero so now that we're in the
+camera you'll see that um all the modes
+camera you'll see that um all the modes
+camera you'll see that um all the modes
+are here and rig is all set up so the
+are here and rig is all set up so the
+are here and rig is all set up so the
+only thing left we have to do is bring
+only thing left we have to do is bring
+only thing left we have to do is bring
+in this camera rig script so we go under
+in this camera rig script so we go under
+in this camera rig script so we go under
+text open text block navigate to the
+text open text block navigate to the
+text open text block navigate to the
+scripts and open the camera rig. python
+scripts and open the camera rig. python
+scripts and open the camera rig. python
+script open that up and you will see
+script open that up and you will see
+script open that up and you will see
+that we have the camera rig script here
+that we have the camera rig script here
+that we have the camera rig script here
+so right now if we just select that
+so right now if we just select that
+so right now if we just select that
+material go down to the materials for it
+material go down to the materials for it
+material go down to the materials for it
+go down to Invisible and uncheck that
+go down to Invisible and uncheck that
+go down to Invisible and uncheck that
+you can see that we can push play and we
+you can see that we can push play and we
+you can see that we can push play and we
+can rotate and we are good to go now I'm
+can rotate and we are good to go now I'm
+can rotate and we are good to go now I'm
+going to just make that invisible we're
+going to just make that invisible we're
+going to just make that invisible we're
+going to now bring in the character from
+going to now bring in the character from
+going to now bring in the character from
+the other blend file or whatever
+the other blend file or whatever
+the other blend file or whatever
+character that you have so we're going
+character that you have so we're going
+character that you have so we're going
+to go under file append it's still in
+to go under file append it's still in
+to go under file append it's still in
+the same place so character 2 Link and
+the same place so character 2 Link and
+the same place so character 2 Link and
+and pen that in if you see that nothing
+and pen that in if you see that nothing
+and pen that in if you see that nothing
+is there just by pushing the I and the
+is there just by pushing the I and the
+is there just by pushing the I and the
+render here and you can see that it
+render here and you can see that it
+render here and you can see that it
+appear
+appear
+appear
+here now what you'll find is that if
+here now what you'll find is that if
+here now what you'll find is that if
+this moves here everything else moves
+this moves here everything else moves
+this moves here everything else moves
+but not this character so take the
+but not this character so take the
+but not this character so take the
+Armature here and select the player
+Armature here and select the player
+Armature here and select the player
+object push contrl p parent to
+object push contrl p parent to
+object push contrl p parent to
+object test it and you're good to go now
+object test it and you're good to go now
+object test it and you're good to go now
+there is no movement remember because
+there is no movement remember because
+there is no movement remember because
+the movement here is another script and
+the movement here is another script and
+the movement here is another script and
+if you want you can copy it or create
+if you want you can copy it or create
+if you want you can copy it or create
+your new movement so you can do that by
+your new movement so you can do that by
+your new movement so you can do that by
+going under um just creating a new text
+going under um just creating a new text
+going under um just creating a new text
+block copying this pasting it
+block copying this pasting it
+block copying this pasting it
+here taking this the run off and go py
+here taking this the run off and go py
+here taking this the run off and go py
+here and then just navigate to the other
+here and then just navigate to the other
+here and then just navigate to the other
+blender file go down to the movement 2
+blender file go down to the movement 2
+blender file go down to the movement 2
+script select it here push contrl a
+script select it here push contrl a
+script select it here push contrl a
+select It All Copy and then navigate
+select It All Copy and then navigate
+select It All Copy and then navigate
+back to the blender file and push contrl
+back to the blender file and push contrl
+back to the blender file and push contrl
+V just paste that in and so now when you
+V just paste that in and so now when you
+V just paste that in and so now when you
+push play you'll see that your character
+push play you'll see that your character
+push play you'll see that your character
+will move and if we go into the camera
+will move and if we go into the camera
+will move and if we go into the camera
+view you can see that we can now move
+view you can see that we can now move
+view you can see that we can now move
+and we can now rotate the player around
+and we can now rotate the player around
+and we can now rotate the player around
+we can now you know spin around it and
+we can now you know spin around it and
+we can now you know spin around it and
+under the camera all the properties are
+under the camera all the properties are
+under the camera all the properties are
+set up and ready to go that's pretty
+set up and ready to go that's pretty
+set up and ready to go that's pretty
+much it from our end Please Subscribe if
+much it from our end Please Subscribe if
+much it from our end Please Subscribe if
+you want to be open for any updates with
+you want to be open for any updates with
+you want to be open for any updates with
+blender ignite or any more script
+blender ignite or any more script
+blender ignite or any more script
+tutorials thanks for watching my name is
+tutorials thanks for watching my name is
+tutorials thanks for watching my name is
+Ryan gric and I will see you next time

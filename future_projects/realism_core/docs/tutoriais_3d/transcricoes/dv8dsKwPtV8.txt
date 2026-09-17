@@ -1,0 +1,2930 @@
+in this series we'll learn to create a
+pair of shoes similar to these we'll
+cover modeling uving creating texture
+maps and we'll also cover creating a
+high detail sculpt so we can bake normal
+maps
+this video covers the modeling and uving
+here's a list of plugins i use so make
+sure you install these before you do
+this tutorial
+we're going to pick up where we left off
+where we finished the dress if you
+didn't do all of this tutorial stuff and
+you just want to make a shoe check the
+links below there will be a
+place where you can grab just a leg here
+and you can do this whole tutorial
+without
+having to worry about any of this dress
+or body
+okay so let's get started here
+okay so let's grab our
+body here and we will
+going to
+go to face mode
+front view make sure we're in x-ray mode
+yes we are so let's just grab a part of
+the leg that we can use
+so we can work
+and we will shift d to duplicate that
+escape to drop it
+mesh separate and selection
+okay tab out of there
+and so let's grab
+everything all the body and stuff let's
+just hide it
+so we've got all of our mesh here and
+let's just hide all that so now we have
+just a leg we should make a lamp
+okay so now we've got so this will be
+our reference for our body we're going
+to hide everything else it doesn't get
+in the way so now we're going to make
+basically a um a blank shoe
+it's useful to have these things just
+around and ready to go so that way
+it saves you a bit of work so you have
+to do this over and over again so let's
+grab uh
+our foot go to x-ray modes go over here
+and let's just grab
+enough meshes so it's the height of a
+calf
+and then we will shift d again
+escape to drop it
+mesh separate and selection
+let's tap out of there
+then grab our
+boot here so this is our boot and let's
+change the material
+over here and
+hide that click new
+let's just make this like a
+blue blue gray
+we'll have a blue gray boot
+and let's offset from the skin let's go
+to edit mode a
+alt s and let's just push it out a bit
+so it's
+i think it's too much
+let's zoom in a bit here
+and
+that's alt s
+push that out as much as you like it to
+look
+and then let's go and delete these toes
+so
+let's go here and grab that and we grab
+too much so ctrl alt shift and click on
+the lines here and it'll do that
+okay
+so then let's just delete these toes
+x and faces
+okay so let's turn off our sub d
+modifier here let's turn off x-ray
+let's grab
+let's go to edge mode and grab a couple
+edges here
+a couple edges
+there let's just close up this whole
+front area here so we'll hit e to
+extrude
+escape to drop it g y to pull that
+forward
+let's go to top view and scale it in the
+x
+so we're just going to roughly close
+this thing off here
+make sure you installed the plug-in f2
+that i mentioned earlier you can do that
+with it it's a great tool
+hit f again to close it
+okay
+so
+i find it useful to have
+um
+one row of
+faces wrapping around like that um it's
+it's kind of useful because sometimes
+shoes like tennis shoes will wrap around
+like that so
+let's go ahead and put that in there
+so we will let's see here what we do we
+will hit e to extrude
+escape to drop it g y to pull it back
+and scale that in
+then we'll hit f
+and f so now we've got that wrapping
+around
+and let's do the same thing for the
+bottom
+e to extrude drop it
+gy
+you can't see here
+and let's see let's do this g z
+so this is the same height as this one
+over here
+and then let's hit f
+and f okay so we've got that
+kind of wrapping around
+okay let's go to edit mode
+edge mode click here ctrl r
+add a couple loops so we're matching up
+here
+fff to close it up
+so i'm thinking where do we need
+geometry to build that um shoes
+toes flex a lot here
+it's good to add geometry here and in
+this area
+so that way it can flex nicely
+and then it's shoes are pretty
+complicated so let's just sprinkle some
+geometry throughout this so we have
+enough geometry to build whatever should
+we want to make so let's do that so it's
+ctrl r and add that loop ctrl r and add
+this loop and
+i i don't want the geometry to go all
+the way up the legs let's delete some
+faces
+so we can stop our loop
+and then ctrl r and
+add that here
+let's add some here and here then we can
+flex in this area
+then let's uh
+add some geometry here i don't think we
+need it up here
+so let's delete some faces
+x and faces and ctrl r
+to add that
+let's also close up the bottom of the
+foot so let's uh go to edge mode and
+grab an edge
+let's try and get the get a let's try
+and get a wrap around here so it's just
+e to extrude
+hard to rotate
+let's pull this down a bit
+and a to extrude
+to the same thing here
+e and r
+g so this way
+that's lining up here that's lining up
+there this is lining up there
+e to extrude and r to rotate it again so
+now this is lining up there
+let's just join those two
+and then let's go ctrl r to add a couple
+loops
+so that's all lining up here and
+matching down there
+let's go f to join that ctrl r
+to add a loop
+and then
+f
+and f f and that should be good we'll
+have to
+clean this all up
+let's go to point mode
+and
+click
+click these two and
+m at
+first
+grab those two shift r
+shift r
+i can't see what's going on here
+r
+grab those two shift r
+i think that one's already closed this
+is not
+okay so that's pretty good
+we can just click points and double hit
+g a few times to
+line things up a little bit nicer we'll
+probably move all of this later anyway
+but uh this kind of gives us a nice
+start
+okay let's close up the rest of this
+here
+okay let's go and close this up here so
+uh
+i think we could add some geometry here
+and
+um that's weird so let's
+just delete some faces
+and then add our loop
+and then let's close it
+i think that'll be okay
+and then let's close this guy up here so
+point mode
+and f
+and then edge mode and f
+and then let's see here
+i think that
+will close it okay
+and
+double hit g a few times
+okay it's kind of like a
+it's got a little puzzle game
+let's close the rest of this up so let's
+go here and close that and
+we need to add some geometry somewhere
+so i think we can add something here
+oops here
+and then close that and close that
+let's close it over here to
+f and then ff
+and we can
+do something like that and pull these
+guys down
+pull these guys down
+yeah so it's kind of
+looking
+vaguely like a shoe
+and while we're here let's just um
+complete these um
+seams these red lines
+so these were left over from when we
+created the body
+so what we'll do is we'll just
+use them and tweak them how we want them
+so we'll go to edge and clear scene
+and then
+we'll add them back in
+edge and
+mark seam and so seams are how you
+define boundaries when you're creating a
+uv map
+so edge and mark scene
+and like i'll uh
+i'll talk about that later in the video
+but since we've got them here let's just
+finish them
+okay let's add some reference images so
+we can see what we're
+going to create here so let's um
+let's add leave edit mode and go to
+shift a and image reference let's go to
+our reference images
+and let's go and grab this one here
+so you can see kind of like what a shoe
+looks like and then let's go to the side
+view here
+shift a image reference and let's grab a
+side view
+let's scale this down to roughly the
+size we're going to
+be making
+and so let's rotate it z 180
+and that's um let's make this
+transparent
+and then let's move it in front
+of the foot
+g x like that
+so we can roughly line it up with our
+foot scale a bit down
+so
+scaled a bit more
+so we're not totally lining up but i
+think
+something like that shoes are kind of
+weird because there's a lot of air space
+in the front
+so it kind of
+doesn't make sense but that's kind of
+what i've noticed at least and let's add
+a bottom reference so
+shift a image reference let's grab a
+bottom reference
+let's also make this transparent
+and scale it down
+rotate it
+y 180
+okay scale this down a bit
+and roughly line it up with our foot
+i'm going to say something
+something like that okay and that's uh
+this is
+further south than our foot so we can
+use it as a reference and this is
+further to the outside so we can use
+that also
+let's just pull this back
+it's not in the way
+and uh i think that's probably all we
+need for the reference images
+so let's let's see what we got
+okay so
+it's hard to see this here
+so
+shoes usually have some kind of flat
+area on the bottom
+and a lot of times they'll have a heel
+so i i usually build that into my
+template shoe
+even if it doesn't have a heel you can
+just either take it out or make it
+really small so let's go and let's go
+and build that
+also the front of the shoe
+usually
+this area here is
+it's round but it's more
+consistent goes all the way around
+and then this top area
+pulls upwards it gets more um
+becomes more of a trapezoid i guess
+let's let's go and build all that
+so let's grab our shoe here
+and let's go
+and make everything else invisible
+and go to the side view
+and then actually let's just look at our
+shoe
+okay
+so go to edit mode
+and let's do this let's
+grab
+a bunch of edges here
+go to x-ray mode
+let's
+un-pick
+this area
+and
+make sure we're transforming around the
+bounding block center and s z zero
+let's do the same thing for here
+and unselect
+this stuff here
+let me keep that one that's the zero
+so this kind of squares up that front
+foot area
+and let's do the same thing for here
+and
+here
+this might get a little bit funky
+so i'm going to put a 3d cursor here by
+holding shift and right clicking
+and then transforming around the
+bounding box 3d center 3d cursor
+and
+s z
+0.
+okay so that's
+pretty consistent
+doesn't look really good
+so maybe let's just rotate it a bit
+like that
+okay
+um let's go to the side view here let's
+do the same thing for down here
+s z
+oops let's go around bounding box enter
+s z zero
+okay and then let's square up back here
+so usually that it feels like it goes
+lower then it peels upwards so let's go
+and do the peel upward area here so
+s z zero
+grab that same thing just
+c0
+this one now
+has zero since we're here
+and then let's grab that one too
+see zero
+okay so that's kind of nice
+and i think
+all this area should actually
+be kind of flat too
+so let's start off with the flat we can
+we'll probably have to pull it upwards
+because shoes tend to have a um
+you know they kind of uh
+kind of curve upwards so let's flatten
+it out first sc
+pull it down a bit
+unselect
+that
+and so i'm looking here
+i'm gonna pull this upwards
+so we can curve it like a shoe
+but a lot of times there's the heel
+there i'm gonna have a heel so i'm just
+looking to make sure this could be
+made into a heel shape and i think it
+can
+so let's pull this up here
+and then let's turn on
+points and
+proportional editing and g
+see
+okay so pretty
+rough
+um we'll have to do a lot more work on
+this
+um shoes are very
+lumpy
+non-constructed things so they're um
+i find them a little bit hard to model
+anyway okay so we're getting some
+progress here
+so now let's go and build in a um let's
+go and build in
+this bottom platform and a heel okay so
+i think we should clean this up a bit
+more first
+before we make it into our little heel
+in our little platform
+let's uh make this all even
+z
+s z zero
+and g z
+let's pull it up a little bit higher
+than our ball of our foot
+and then see here
+this is just kind of like using your
+feelings to
+shape it nicely
+maybe we make this go straight across so
+let's uh
+click that
+um s y zero s z zero
+and then g z
+it feels a little better
+and let's pull these a little bit more
+in line
+okay
+i know i said we were going to do the
+platform but i just realized
+this is not shaped like a shoe yet so
+that's
+especially the toe
+so let's um let's do that
+first
+so
+kind of the easiest way i've found is
+you just find a nice bottom view of a
+shoe and just use that
+as um
+a guide for the shoot so
+let's make sure we're in x-ray mode grab
+some points
+make sure proportional editing is on and
+just hit g and scroll the mouse wheel
+and just keep doing this
+until it's roughly
+following the shape of the
+reference image
+and
+let's make sure we don't grab the leg
+here
+so we will
+hide that
+in fact let's hide more let's hide uh
+let's hide this
+back to the bottom
+and let's see grab some of these pull
+them in
+grab some of those and pull them in
+we're still staying pretty loose
+let's just
+get this to be a little bit more in
+shape like
+this shoe here
+all right that's really good enough here
+let's see what we've got
+let's go to
+isolate mode and
+okay that feels a lot more like a shoe
+um let's grab let's grab edit mode alt h
+out of x-ray mode and this is really
+popping out so it's
+alt s and pull that in and
+pull that in
+in fact let's just smooth some of these
+things out so
+vertex and smooth vertices
+it's a little better
+let's smooth some of these so
+select
+m
+m
+and then vertex mode and vertex smooth
+vertices
+okay it's a little bit better
+and i know i said we were going to make
+up the platform part but let's
+let's roughly make this fit our foot too
+so let's grab our leg and our boot
+then isolate everything else and see if
+we're poking through and we are so let's
+go and let's go and fix that
+nice little trick with moving geometry
+that you want to put back
+is use the
+object origin so
+let me just show you here so we will
+move this 3d cursor to the zero so shift
+s and one
+and then move that to the zero point
+then grab your object and go to object
+set origin to 3d cursor
+like that
+and then you can move this wherever you
+want
+and then if you just move it
+if you uh alt g
+it brings it back to its word the the
+origin so let's move this aside here
+let's look at our foot
+so i think the foot is not shaped
+super super good
+like it might be a little bit
+wide here
+i think the
+i think the shoe looks more natural than
+the foot does
+so let's go and modify our foot
+to match our shoe
+so alt g
+um let's grab our foot here
+okay and go to
+let's go to scope on alt object and
+sculpt mode
+let's go to our elastic tool
+f to make that a bit bigger
+and let's just pull this in slightly
+until it's
+not poking through
+make that a bit smaller
+and what's nice is that we haven't
+rigged our character anything yet so
+it's relatively painless to
+modify
+the feet
+hold this in a bit too
+actually i'm going to leave the bottom
+poking through
+um
+because i don't want to mess with the
+bottom of her feet
+and with the shoe i'm just going to fake
+it so it covers up her feet so
+and the reason why is that i don't want
+to make her feet look funny when she's
+not wearing shoes
+so let's leave that there
+and let's
+mess with these toes here
+so for this i want to be a little bit
+careful because you don't want to deform
+the toes too much
+so let's
+see what we got here so let's go in edit
+mode
+x-ray mode let's grab all of
+let's see
+let's grab all of those
+let's go back out of isolate and see
+what we got here
+let's go to the top view
+make sure proportional editing is turned
+on and so i'm going to just want to
+pivot this whole thing i'm going to kind
+of rock it
+that way
+so let's drop a 3d cursor say like right
+here
+and then let's transform around the 3d
+cursor and then hit
+r
+oh yeah hit r and then you can see the
+whole thing just kind of rocks over
+so let's just
+get that in shape
+but then let's isolate
+to make sure if it's not all
+really weird
+i think it actually looks a little bit
+better
+looks a bit
+back a little thick back here
+okay let's uh let's not waste too much
+time
+tweaking things
+this is uh this is where
+this is where you lose all your time
+okay so let's uh let's not do that okay
+so we've got our shoe and it's fitting
+roughly and so now let's make our
+platform for our shoe okay let's uh
+go to object mode and grab our shoe
+blanket here and let's um
+edit mode and zoom in a bit here
+turn off x-ray go to face mode
+let's just check a few loops
+okay that's not good
+that's good
+that's not good good good okay so
+there's a little bit of stuff we need to
+fix here
+so when you have all quad topology
+if you um
+alt click on an edge
+the
+it'll select everything in line and
+it'll create a nice
+clean loop
+so this is good for
+when you're doing animations and you're
+bending your mesh
+quads bend nicer
+when you have triangles they
+you can see kind of deformations in the
+surface or the highlights
+so it's it's kind of nice to have quads
+um also when you're modeling say
+if i want to modify this boot to make a
+shorter boot
+if you go to edge mode and um click on
+the edge and control r you can see that
+it's just it's easy because things just
+add loops
+the way you'd expect them to
+if you have
+triangles with things it won't work
+quite the same way
+however triangles can be sometimes
+useful
+if you want to break a loop
+without spending a long time trying to
+figure out how to do it
+so
+so you can throw in triangles
+in strategic places to help make your
+topology easier to work with
+and so and you and so where you would
+where it's okay to add triangles is
+where it's not going to bend and no
+one's going to see it
+so the shoes
+are the bottoms of the feet that's a
+great place to put it
+so let's see here
+so that one's good
+that one's good
+so that one's bad
+so this is coming down
+all the way down here which is good down
+to here
+and it
+wraps over here so let's add a
+looks like it wraps here and here and
+there
+maybe there so let's add a couple of
+cuts here so we'll hit k to cut
+just
+snap to these corners
+like that
+and now if you do the alt click you can
+see it stops
+right at
+those um
+triangles
+and so this is just
+it's just more manageable
+so that's pretty good
+that's good
+that's weird too
+and i don't like it so
+this uh
+this would be nice if it just runs
+around
+all the way up there
+um cutting is not going to help that so
+let's go to face mode and grab some
+faces
+x and
+faces
+and just add in the geometry so you get
+the loop you want
+and check it so that's okay
+and just close that up
+and do something like that i think
+that's okay
+okay
+let's see here
+let's continue checking our loops
+good good good
+good
+good good
+good
+good
+it's a little weird but that's okay
+okay so i think that's pretty good
+let's check this
+i don't exactly like that so
+i think it'd be nice of this wrapped
+around
+there and it this probably doesn't
+matter because it's the foot so it
+doesn't
+no one's going to really see this but
+let's just
+let's just do it so
+we'll go
+to point mode hit f
+pull that in a bit
+go to edge mode hit f
+and hit f again
+so now
+that loops around there
+okay that's good these
+don't matter there but this does okay so
+i think we're good
+okay let's look at an example
+of a shoe blank so let's turn this on
+turn off isolate
+return on isolate okay so let's just
+make this real simple
+generic shoe
+little platform on bottom with a little
+bit of a heel this can be used to
+make many different types of shoes and
+so it's nice to have these around so
+let's go and
+hide that
+grab our shoe here go here
+in fact let's call this um
+blank
+and let's
+duplicate it because it might be useful
+to have
+a real simple blank like that
+okay so shoe blank
+and we want to make a platform
+so let's go and
+so
+it's nice to have the let's pull up my
+reference
+so it kind of pulls inwards
+for the top leather part
+the platform kind of pops out
+and you can kind of see it back here too
+kind of pulls inwards here i guess it
+goes down
+so there needs to be some kind of
+pulling in for the top part
+let's start with making that
+and we'll do that by
+coming here
+going to edge mode and hitting ctrl r
+let's pull this
+kind of like uh
+down to
+there
+okay
+and then what we'll do is
+do control r again and
+cut it there
+let's alt click
+that in face mode and delete
+like that
+let's hit l to grab the whole thing and
+let's pull this whole thing so now let's
+pull this whole thing down the length of
+how thick our little platform is going
+to be so
+cheesy
+something like that
+and then let's flatten this out a bit so
+go to edge mode grab that
+go to the front view and
+g z so it's roughly flat
+and then let's um scale this out
+because the platform pushes out a it
+so
+alt s
+and that's not gonna do it
+s y and s x
+oh you know what i'm transforming around
+the 3d cursor so
+do that
+s y
+s x
+and that's
+probably
+enough okay
+then hit e z
+pull that up
+and i think back here
+well we can tweak all the uh the shapes
+later let's just construct this
+first so let's grab these two here and
+hit
+f to close it
+and let's
+go here
+and fff
+let's go over here
+and keep hitting f until we see it close
+okay so now we've got a platform
+and then let's make sure our foot fits
+it object mode grab our leg
+isolate mode
+okay so our foot's ticking through still
+so let's grab a few faces
+and
+g z and pull it down
+actually let's do this
+g z and pull it down and this so this is
+a nice way to um
+create a sense of a heel without
+making the foot actually bend
+and let's pull this guy out some
+okay
+um let's also sharpen this
+shoe so it's easier to see that little
+platform
+so edge mark sharp
+and then
+shift e
+right here
+and plus one
+so now it looks like a little little
+platform deal
+let's also add that small heel so we go
+to the bottom here the so the heel
+shouldn't be curving it should be flat
+so let's let's actually just grab these
+here and s
+y
+zero so that's flattened out g y and
+pull it forward a little bit
+and then let's pull this one here back
+to match that here
+okay
+pull out of it also
+and let's
+pull this back to b y
+okay
+so now that heels pretty um
+flat let's just go to face mode
+grab these faces
+and easy pull it down
+the side view
+and let's make this
+platform match the shoe up here
+go uh this front view here
+actually that's s z 0 and then g c
+okay like that
+and then let's
+sharpen that up too
+that one
+that one that one
+that one
+and i think that one
+so shift e plus one and then edge
+mark sharp
+okay so and it you know it looks really
+funny right now but we'll um
+just construct this first then we can
+shape it into shape
+okay
+so let's here let's hide this guy here
+let's hide that
+let's leave this one for now so let's
+just shape this um
+foot shoe blank here so it's
+more
+uh shoe like normal shoe luck
+let's go to x-ray mode
+wireframe mode
+let's just grab some of these and pull
+it back
+and i'm not going to use reference
+whoops
+okay make sure in x-ray mode so you're
+selecting all the way through
+i'm not using reference for this i'm
+just going to
+shape it until i'm
+happy with it
+so make this how you like it because
+you'll be using it
+to make your own shoes later
+i think maybe
+curve the heel a bit more
+and i think uh
+i think i want this whole front section
+to come down more
+i'm going to pull the whole area where i
+flattened up a bunch of those
+points
+and i'm going to
+pull this whole thing
+here that thing down
+like that
+and see here
+it feels a little better
+this shoe is feeling a little blobby
+so let's
+sharpen that up a bit
+so when you have a curve
+and your
+edges are closer together
+the curve gets sharper so
+i think
+they're closer here so it's sharper but
+over here
+they're wider and so it's
+contrasting and it makes it it contrasts
+the softness to that sharpness so it
+makes us look weird
+so let's double hit g and pull
+double head g and pull that down
+like that
+maybe faded out up here
+okay that feels better
+and
+this is looking a little
+it's like it's bumping out there
+it's got a sculpt mode and
+elastic it's uh so i made all these
+faces so let's initiate the face set
+okay and let's pull this down a bit turn
+off mirror
+the sculpting tool is great to uh just
+tweak your mesh
+using the sculpt and the elastic tool is
+great or you can hold um
+shift and use the smooth tool and it
+smooths things down
+something like that
+um you can set the strength of the tool
+up here
+when the smooth tool is here so you can
+lower this to like
+point one something
+so now when you're using your elastic
+tool and you hold shift the smooth tilt
+won't be as strong
+and we could maybe use some smooth right
+here
+and right there
+and
+right here
+right there
+maybe there too
+obviously you don't want to smooth over
+things like this because
+it'll this is more constructed down here
+so it's going to mess up that area oh
+let's fix this shoe here
+edit mode
+and point mode let's grab some of these
+and to
+x
+gx let's pull back that reference
+because um shoes are kind of weird
+the backs of shoes are just the weirdest
+shaped things so the back of the shoe
+kind of curves in so it does get
+narrower at the base but not a lot
+okay so let's go and do that
+that feels more appropriate
+gx
+okay then let's
+mess with the rest of these so it just
+kind of matches
+turn on the partial editing and
+just pull some of this
+let me pull this one into
+i don't have x-ray turned on because i
+don't want to select all the way up the
+legs so
+it's making it hard to get all these
+points
+proportional editing should
+fix that but
+let's just be careful here
+okay
+okay it feels like a
+feels like almost like a nice
+even
+template shoe
+okay
+then let's make sure our body's not
+poking through again
+which it is so let's go to
+object mode and i just realized
+this uh this leg is um just our
+temporary leg
+and we're actually modifying that so
+that's okay because we can go and just
+attach this back to our we'll delete the
+leg from our body and reattach it so
+it's not a big deal and so let's go and
+grab that
+let's go to sculpt mode
+and the elastic tool not that tool this
+one
+and modify it just enough so it pokes in
+uh doesn't poke out
+and let's make sure it's not weird
+looking
+yeah and i think it's okay
+okay
+let's name this um shoe
+let's see here let's call this a
+foot
+blank call this
+shoe blank
+and let's
+duplicate that
+this will be our shoot
+okay so let's go to our side view here
+and
+let's look at this shoe so
+this whole um
+inside area of the shoe needs to be cut
+out
+so let's look for the line of where to
+cut that out so it looks like there's a
+heel area
+and there's a platform on the bottom
+and there's a toe area so let's go and
+and this sketch doesn't totally match up
+so maybe we can move this
+well looks like the shoe pulls up at the
+front so maybe we can do
+that so let's uh
+drop our 3d cursor like right here
+grab the front there proportional
+editing is on
+let's transform around the 3d cursor
+and r
+let's
+scroll the mouse wheel up
+so it kind of
+does something like
+that and i think this needs to pull
+forward more
+so it's
+g
+g y and pull that
+bit more forward and rotate it a bit
+more
+and it gets pointier
+so you can see this
+faint blurry line
+shows the shape of the shoe our shoe is
+thicker so let's go and
+make this pointier
+so i think we can grab those
+drop a 3d cursor
+and
+rotate that down a bit
+maybe grab some more
+and we're not we're not matching
+perfectly here
+the photo is not
+this is not a great it's not a perfect
+side view photo so it's
+you can't follow it exactly
+just use it as kind of reference
+okay so then
+now let's figure out where to cut it
+here
+so i'm just gonna go turn off turn off
+x-ray mode
+go to face mode i'm just going to start
+picking some
+faces
+that are outside where we want to cut it
+so
+those we can all delete
+okay
+x and faces
+let's do the same thing for the opposite
+side
+let's see let's do this
+and i think that's not exactly the same
+here
+okay i'll do some weird stuff here so
+let's uh do that
+yep
+x faces
+then l
+and x delete all that
+okay
+so now let's make this little
+heel area
+so if we look at our let's look at our
+other shoe here
+it's uh
+shift d
+y
+because this won't already change that
+hide this one
+okay so it looks like our heel kind of
+pulls up
+i mean the uh
+this
+cup for the heel pulls up from the
+actual heel so
+let's do the same thing here so we can
+grab those
+and delete that
+and grab these and delete that
+and let's delete it up to the platform
+so the platform is
+starting
+well
+starting right there
+okay
+it's actually
+not narrow enough
+oops
+so let's scale in some
+and
+transform around bounding box center and
+s and turn off proportion editing and
+okay let's just pull that in a bit
+okay
+and let's hide this
+that
+so let's make this curve around here
+and so i think uh
+i think it'd be nice to have the uh
+faces
+peel around and then arc
+so if you're doing some kind of
+stitching detail it it just kind of
+follows it a little bit easier so let's
+just delete some faces
+and then let's just grab these two and
+just hit
+f to join it and hit ctrl r
+add a couple cuts in there and let's
+just hit g to move it a bit like
+that
+it's pretty rough
+let's do the same thing over here let's
+delete that delete that
+and delete
+that x faces
+edge
+f to join it
+ctrl r add two loops
+and g to just move it okay so we've got
+kind of this shape peeling around which
+is nice
+and then let's
+figure out how to close these holes up
+so
+point mode let's click that click that
+m f
+o n
+a
+click click shift r shift r duplicate
+your last command
+then click click shift r and we've got a
+we've got unevenness here
+delete that
+and let's do this
+two three oh we've got an extra here
+okay so let's just make this even this
+out we will do
+x dissolve edges
+and now we're consistent
+okay
+so we've got a little heel guy there
+and let's work on the front okay let's
+bring up
+our reference here and see
+how far this opening goes it goes
+roughly there
+so let's
+make sure x-ray turn x-ray is turned on
+and
+move that in the y
+so it's roughly the same location
+okay
+and then we need to just
+blend
+this line over
+to here so how do we do that let's just
+figure it out and i think it was nice to
+have this loop running around the edge
+of that
+area so let's do the same thing for the
+front
+okay so i think what we're going to do
+oh and also i want to have a
+nice cut along the shoe here
+and i want to have that in the geometry
+so let's move some of these back
+let's turn x-ray mode on
+so let's get this line
+to be straight across
+and i'm just
+using the
+just double hitting g a whole bunch
+i think i missed something here
+there we go so we have a nice clean cut
+line going across the whole toe
+and i think uh
+to move some of this
+over also
+okay then let's pull in the front of our
+shoe
+so we get that curving thing going on
+and then let's temporarily cut this
+through
+to roughly make our shape
+let's do the same thing for this side
+oops
+okay
+just roughly do that so we temporarily
+get this
+idea of what we're going to make
+okay then let's go into face mode and
+delete
+some of these faces
+i think that's pretty good and then
+we need to connect um
+this edge to that edge so it just runs
+into clean loops let's figure out how to
+do that
+okay let's check our example
+and
+isolate
+so i'm trying to go for a little uh toe
+area like that it looks like their toe
+area is
+smaller than what we've got right here
+so let's make our toe smaller
+so let's go to edge mode and
+grab some of these and pull it forward
+because they're in the way
+and then let's grab some of these
+move that forward
+and grab some of these oops
+okay that's a better
+smaller toe
+styled cap not sure what those are
+called
+but it looks
+awful stylish
+let's just straighten these up a bit
+and then like that
+like that okay
+okay i think that's pretty good
+now let's go back to creating this loop
+up over here
+i think we're going to um
+just draw it in our
+shoe here again like that
+and
+like that
+and like that so we're kind of drawing
+it
+kind of constructing it
+it's a little bit freeform and a little
+bit
+clicking on points that just happen to
+be close by
+and like that okay let's go to point
+mode and we'll hit
+double hit g a few times
+to make that shape a little bit this
+little band to be a little bit more
+consistent
+and even
+okay
+okay something
+like that
+and then uh
+we need to clean up all these things and
+so
+what i think we're going to do is just
+extrude it
+we're going to extrude a piece of
+temporary building geometry so
+e to extrude that
+then we're going to just delete all
+these here
+like that
+x and faces and then go to edge mode and
+use f2
+to see if this works
+i'm actually a little bit surprised it's
+working
+okay i thought we'd be like one off but
+that works pretty good
+so let's re-grab our temporary geometry
+x and faces
+so now we've got a loop there and let's
+just figure out how to deal with
+things like that and that
+so if we turn on our sub d surface here
+you can see that
+those um
+these triangles or these poles here
+it makes this line here
+not nice it's kind of like warbly
+and so i want that one to be smooth also
+and so let's go and make that let's turn
+off our sub d here
+let's delete actually what we're gonna
+do we're gonna cut that also
+so let's hit k to cut
+and then
+i'm trying to look here to see i want to
+reuse as much
+of these edges as possible
+but we'll cut it where necessary so
+let's
+i think we can start from here and move
+it forward so let's just
+cut it from there to continue that line
+to cut that there
+and then i think we can snap it to there
+okay let's do the same thing over here
+let's hit decay to cut
+and i think we will
+reuse that one
+and then
+we will um
+i think we'll actually skip
+that one but use that one
+and that one
+okay
+let's do the same thing let's just
+delete a bunch of faces here
+actually i think that one's okay
+and delete a bunch of faces here
+x and faces
+let's use the f tool
+to see what happens
+and
+we didn't close okay
+that's okay
+just add a cut
+okay we'll have to deal with this uh
+triangle there later
+let's do the same thing here f f and f
+that one's better we still have a
+triangle
+and let's turn on our sub d
+okay so now you can see that this loop
+is nice and smooth okay so now let's go
+and deal with these
+little triangle situations okay i'm
+looking at these poles here and
+they're going to mess up our toe cut
+line
+so that's not smooth
+so let's go ahead and fix that also
+so i think what we're going to do is
+i'm going to control r
+and have that loop come around
+you can see our loop cut stops where we
+don't have quads
+it's kind of a reason why we you use
+quads
+let's go and
+let's see here
+let's go and delete that one delete that
+one delete that one
+and delete that one
+then ctrl
+r so i'm just deleting some faces and
+trying to continue this loop around
+and then i'll attach it
+let's delete our triangles too
+triangle
+x and faces
+and it's just f to close that
+f to close that
+and that is creating a pole situation so
+we don't want that so let's go on this
+side
+so it's not a pole
+and select these
+and then let's go and do
+that
+that
+that
+whoops
+and that and that so that closes it up
+ugly we can fix that later
+let's check our sub d okay so this is
+now smooth
+and this remains to be
+smooth and we'll have to fix all this
+mess there
+let's do the same and do we get rid of
+our triangle yeah get rid of our
+triangle
+okay so let's do the same thing for this
+side we will
+f that so that way we keep our
+loop running around
+then let's do
+that
+and
+that
+let's use the f command again
+again
+and again
+let's actually take this out
+x to the edges
+and then f that's good oh we got a
+triangle down here and that's okay
+because we can just
+do that
+that's not the part that we really cared
+about was
+this one oops
+oops
+that one and we've got
+a mess down there
+so let's go and cut something
+let's go and cut this
+yep okay so we don't care about that one
+we care about that one
+and that one
+and
+that looks good
+that looks good
+okay
+let's go and clean this up
+okay let's leave isolate
+let's hide these um sketches
+and let's grab our
+shoe and our leg and go back into
+isolate and grab our shoe and
+number pad pretty did you to zoom in
+and let's just um shape this
+shoe to fit better
+so we'll turn off the sub d
+go to edit mode
+the point mode
+these are sticking out so let's double
+head g it's a nice little trick just to
+move things in place
+then let's go to sculpt mode
+base sets
+initiate face sets and let's just
+pull things in shape a bit
+and we should um
+keep toggling this back and forth
+so you're kind of aware of what it looks
+like with the sub d turned on and off
+but we've got the good and nice good
+foundation mesh
+made so now we just need to use our
+artistry to
+make this look nice
+oh we got some toes poking through the
+shoe here let's
+cover those up
+and
+this whole shoe top is sticking out too
+much
+so let's um
+go to edit mode face mode and
+not great
+okay let's just
+grab a bunch of these here
+like that
+and then
+let's turn on our sub d
+and proportional editing and
+g and z and
+mess with the scroll wheel
+we don't want to move the base
+so make sure this is not doing that
+let's just pull this down a bit
+actually let's do this
+we're going to go to side view here
+drop our 3d cursor
+transform around
+3d cursor
+we're going to move it here
+with the r
+rotate command but we'll look at it here
+i think that's a little bit better and
+we'll also gz pull it down just a bit
+makes it a little too pointy
+pull it up a bit
+and g z
+that's a little bit better
+let's go ahead and pop these out here so
+alt s
+alt s
+just doing the sculpt it's easier
+it's faster
+and let's pull this in a bit here
+check the heel too i think that's
+sticking out a little bit too far
+oops too much
+and here the heels poking through
+oops
+oops and when you make sure you're
+grabbing the right point
+and
+see here
+okay so i think our shoe is looking
+pretty good
+let's turn off our subd
+and go to edit mode point mode
+this looks a little bit weird let's pull
+that back here
+pull this in here
+let's grab that to an alt s
+like you're um
+you're sculpting with the sub d turned
+on you can get this to look good but
+then
+if you turn off your subdue
+sometimes the
+original mesh gets kind of warped too
+much so
+make sure you're flipping back and forth
+with this update on and off
+just make sure your um
+your mesh is not too weird
+okay it's pretty good let's also get rid
+of these things here
+edge clear seam
+let's add a seam here and here to make
+it easier for us to select
+edge
+mark seam
+so this way we can just
+do that that
+okay so i think this is looking pretty
+good
+yeah
+okay so let's see here
+let's look at our example
+let's leave isolate
+and gx
+so i think next we need to add this
+platform base here
+and then add some
+thickness
+to the shoe so it's got a little return
+lip
+and depending on your
+use of the shoe you might want to have a
+surface inside here
+this one doesn't have it so
+if you um
+if you're here
+and you look on the inside of the shoe
+say if you're in unity or something this
+would be transparent
+so sometimes you don't want that
+so you'd have to add an inside surface
+or you'd pull the lip in further to
+intersect into the foot
+if you're staying in blender only you
+can leave it
+the way it is here where it's only an
+outside surface
+okay so let's go and add those here so
+let's grab this
+and
+let's go here
+ll
+mesh
+separate selection
+grab this again
+isolate isolate
+and
+okay what we want to do is you want to
+make a flat surface here but i also want
+to make a little racetrack running
+around the whole thing
+so let's go and do that
+let's go to edge mode grab that
+e to extrude drop it
+turn this off and oh and let's go around
+bounding box center so alt s to bring
+the whole thing in
+that's weird
+okay so something weird is going on so
+i want this whole thing to scale inwards
+normal to itself so what we're going to
+do is we're going to hit e to extrude
+escape to drop it then g and z
+to pull that up
+go to face mode grab that
+alt s to pull the whole thing in
+and now we've got this little race track
+that's going kind of flat then x and
+faces
+let's go to edge mode grab that and
+that's
+g and z again and pull it down just a
+bit
+and then let's go here and
+use
+the f command from the plugin f2
+to close this all up control r
+okay now we've got our little foundation
+that's good
+let's make sure this is the seam here
+edge
+seam
+okay
+so that's pretty good it's a nice little
+platform we can use that for many
+different types of shoes so we'll save
+that as a template
+but first let's go and um
+let's go and thicken up these surfaces
+here
+let's go to isolate mode
+grab that
+face mode
+a
+then let's go to solidify so go add
+modifier and solidify
+and then
+let's go and drag this solidify modifier
+on top of the sub d like that
+and then let's make this
+zero zero two
+so this here that controls how thick it
+goes
+this controls the offset so you can go
+in one head see this is easier to see it
+this controls the direction
+or the original offset of it
+this controls
+how much it goes
+okay so this is good
+wait a minute
+no we want i want this to go inward so
+this is good
+let's turn this back on
+and then let's go to
+object mode
+and then apply
+and it doesn't work because we have okay
+so i had
+shape keys here from before
+it's a nice way to do animations and
+things
+click expressions
+but if we don't want that
+we can grab our shape key that we want
+to delete
+and
+apply selected shape key to basis
+and so now
+this shape key is dead it doesn't do
+anything we can delete that this one
+has the old
+shape key so you can see it goes back to
+it
+but we actually don't want that so let's
+delete that
+and if you don't need any shape keys you
+can delete that too so now this has no
+shape key
+go back to here and apply
+so now this is the original shape
+so
+i'm not going to need the inside
+surfaces if you do need it then leave
+them there
+but i'm going to get rid of them
+and so let's grab those edges and edge
+mark sharp
+mark seam
+go to face mode
+l and l
+x and faces
+and then let's also
+i don't need to get these two
+let's also delete these bottom
+so we'll faces click all these
+edge and mark scene
+face mode
+l
+l
+x
+faces okay
+that's also
+mark these as sharp so shift e
+plus one
+and then edge mark sharp
+so it's nice and crispy um
+we'll we'll have to soften this out but
+we'll do this when we're doing a normal
+map
+but so for now this is fine
+okay so we're getting somewhere this um
+so what we've got here this is a nice
+kind of
+generic shoe that you can use to make
+all different kinds of shoes so
+we'll save that as a as a
+template shoe also okay so we want to
+join these two but
+if you'll remember
+we delete the shape keys from this part
+but not for this part and so
+weird things kind of happen sometimes
+so for example if you grab this one here
+and then shift click that one there
+ctrl j
+it's okay
+if you grab the bass and then grab the
+top here ctrl j
+you know weird weird things happen
+because the uh the shape keys mess
+things up like that so
+let's do the same thing
+so go to
+uh so grab the one with the shape keys
+go
+and grab the
+shape key that's active and apply to
+basis like that and then just delete
+delete oh also
+don't delete the bases first
+weird things happen
+so delete
+the other shape keys first and then the
+basis and then it's all good then you
+can join it
+it should be fine
+okay
+now this uh
+this nice good
+basic shoe
+um no let's uh
+let's
+join
+these here so we'll go
+click click
+m at
+first let's do the same thing here click
+click
+oops
+oh click click
+m
+at first
+see the same thing here
+i can't see what's going on here
+so click
+shift click
+embed first
+and then
+click shift-click
+m at first
+okay so now we're kind of buttoned up
+here
+looks like it's peeling up a little bit
+um
+it's just a
+sub d kind of does weird things
+sometimes
+but uh i think it's actually okay
+in fact i bet you we should join this
+whole
+we should join the whole thing
+so let's go and join all the points
+so we can do this by
+going to point mode
+hit a to select all
+and you can merge by distance so
+we uh
+look at try and find um
+virtual distance is good but
+sometimes it's bad let me show you why
+so hit a
+hit m
+by distance
+and so you can see like these points we
+don't want to merge those and so this
+number is too high
+you'll see that
+it'll actually
+merge
+like say if this is like
+like that it'll merge but we don't want
+to merge
+so make sure this number is
+you do merge by distance make sure this
+number is very very low
+like that
+and then if you go to face mode and then
+grab these surfaces
+and move it you can see they stick
+together nicely
+okay so
+this is our
+this is a nice
+template for
+lots of shoes or high heels or flats or
+whatever
+so let's shift d to duplicate that
+and let's save this as
+flat
+blank
+let's hide that
+so this way
+you can
+skip doing all this stuff for
+many different types of shoes
+okay so let's look at our example here
+again
+and let's see what to do next
+so next let's add our toe cap here
+to there
+and then let's add our little strap
+detail
+okay let's grab this here let's uh just
+grab that there
+edge and
+mark
+seam
+and then let's
+face mode
+l grab that
+and we will
+e to extrude
+drop it with the escape key and
+let's turn this off so we can see better
+and then alt s to scale us up a bit
+okay let's turn that back on and it
+looks really goofy
+it's okay let's go and grab that and
+shift
+grab that
+shift e plus one
+and
+edge mark sharp
+and same thing for your grab this guy
+this guy
+and that guy
+shift e plus one
+and
+edge mark sharp
+oops
+edge mark sharp
+there
+okay so we've got that there um
+if you don't like that shape we can
+tweak it a bit i don't think i do like
+it
+so i'm going to
+pull it in
+a bit so g
+x pull that in just a bit
+this one actually looked okay
+i don't think i like that either
+g x pull that in
+a bit
+and let's just make sure our foot is now
+not sticking out
+so let's un-isolate okay we're okay
+okay so we've got our little shoe cap
+here
+a little warbly but we can tweak that
+later let's just get our main
+geometry made
+so now let's go and make this a little
+strap thing here
+you can see it's kind of a
+it's got a thickness
+a wall thickness
+a fake wall thickness on top of this
+fake wall thickness
+so let's go and
+make and then we have these traps let's
+go and make all that
+okay so how do we add this strap here
+let's
+grab our mesh
+and i'm gonna duplicate some faces but
+i remember that
+this has the shape keys
+so let's go and apply
+to basis and delay to late delete
+and then let's go and grab this
+face mode grabs that
+control grab that
+shift d escape
+mesh
+separate selection
+object mode grab that
+and then
+edit mode
+a make sure you're in face mode
+alt s to push that out of it
+back to object mode shift click that
+ctrl j
+and we've got two materials in our
+object here so let's go to materials
+and delete that
+okay
+so now we've got our strap up here
+let's make this strap smaller
+go to face mode face mode i'll click
+that
+x and
+faces and then we're going to um
+extrude these guys out
+whoops
+can't see here go to isolate mode
+e to extrude
+and so we have
+one two three cuts
+so i'm just
+temporarily doing this to see
+how many uh loops i have going to this
+thing i have three
+so let's ctrl z that
+go here ctrl r and add three cuts
+and then
+we will let's turn off our sub d so we
+can see better
+f
+and then fff
+okay so now we're connected
+do the same thing here
+shift click that
+f
+and then fff
+okay so that's connected
+but i think we're going to need some
+more geometry here let's let's sharpen
+this up here
+let's grab that
+grab that
+shift e plus one
+edge mark sharp
+okay
+and then let's bring back our foot
+let's hit a ctrl r here
+grab that and alt s
+just pop it out a bit
+let's make sure it's not looking funny
+maybe we need to pull this out so
+turn on partial editing and
+gx
+pull that a bit
+this looks a little close here too
+yeah we're overlapping
+so let's go to face mode and gx
+and then let's add a
+let's actually
+push these out first
+g x
+and then
+edge mode control r
+let's grab that one and alt s
+then
+point mode
+i can't see
+alt s
+zoom in here
+and let's do this still hit g
+pull that down
+and then alt s let's have it pop out
+just where we need it
+okay i think that's pretty good
+let's see something funny here
+this should be
+together so let's click that
+and should click that
+m at first
+let's do the same thing over here
+you can't see
+okay click shift click
+m at first
+okay
+okay so we've got
+a basic strap there
+it looks okay so now let's go and add uh
+this little overlap here and the uh
+the wall thickness
+okay let's so let's
+build this let's cut this and extend the
+strap
+so we will go to face mode here grab
+this x and faces
+go to edge mode grab that
+let's just
+actually first let's pull this in a bit
+so
+let's see here
+gx and pull that in
+okay i think that's okay
+and then now let's grab this oops grab
+that
+and we will
+a to extrude
+and just g to pull it back a bit
+let's turn off partial editing
+okay that's e to extrude again
+let's pull that back a bit
+i know we're i'm breaking through there
+it's okay
+let's
+eat extrude one more time
+that's pretty good
+let's go ahead and grab that loop where
+is it
+right there
+and alt s to pop it out
+let's grab this one here
+and let's pull this back a bit
+and scale in a bit
+okay
+maybe let's
+pull this in a bit
+so it's more curving outwards
+oops
+let's pop those out a bit i didn't
+realize it was so close
+and let's pull these in also
+with our
+double g
+and let's pull these down with our
+double g and then alt s to pop it out
+okay i think that's pretty good
+looks like a
+strap thing
+okay let's add some thickness here so
+let's go to isolate mode and we will
+face mode hit l and l and l
+and then mesh
+separate
+mesh separate selection
+leave object mode
+edit mode go back to edit mode
+and
+and
+solidify
+and let's pull this up here
+oops
+there
+make this
+o
+two
+and then let's make sure there's no sub
+shape keys okay
+object mode and apply
+edit mode and let's turn
+off our sub d so we can see better
+go to edge mode
+and we will grab
+some edges here
+so we're going to create
+the seams so we can select
+what we want to delete
+okay like that
+then edge mark seam
+oops
+and
+turn off x-ray mode so i think that's it
+and we'll hit l
+l
+x and faces
+and then that should be
+let's turn on
+it's hard to see what's going on here
+i think these let's go to edge mode and
+pull these in a bit
+s x
+and then let's see let's take these off
+and
+g z
+t y
+okay that's a little bit easier to see
+let's add
+some sharp edges here
+like that and let's get this one here
+too
+and then shift e plus one
+and then edge mark sharp
+turn this guy on
+oops
+okay that's better
+not sure if i'm digging that
+i think you need to just
+either sharpen it or throw geometry at
+it let's see here shift e
+plus one
+oh i guess
+that's okay it makes it a little bit
+sharp there but
+i i think uh no one's gonna notice that
+so that's okay
+let's pull this out
+so that way
+it's not uh
+overlapping there
+let's do the same thing right here
+okay so we've got our thickness there
+and then we just need to add our little
+buckle detail
+and i think we'll be good to go
+but let's uh let's take a second here
+just to
+sculpt this around and get in shape
+okay
+and see here so
+i think we also
+have extra faces here let's turn this
+off so i can see better
+okay so let's
+we don't need these bottom faces
+just delete that
+delete that
+let's also
+make sure these are sharp
+shift e plus one
+and edge
+mark sharp
+so this way
+shift e plus one
+edge mark
+sharp
+maybe these need it too
+edge
+mark sharp shifty plus one okay there we
+go
+so now it's nice and crispy
+and
+well let's bring back our sh our foot so
+we can make sure this is fitting it and
+let's also join this
+so we will ctrl j to join that
+let's go to edit mode a
+merge m to merge and go by distance
+so this way all these parts that were
+separate are now joined
+and then
+let's go to sculpt mode
+and
+face sets and initiate
+and now let's just take a second to
+straighten up that band a bit
+pull that down a bit
+let's go to edit mode and
+grab a couple edges and pull them back
+oops
+so it
+smooths it out
+and let's see here let's go
+to
+face mode
+and let's pull these out with
+proportional editing turned on
+be back here too
+g
+y
+like that
+maybe here
+two g y
+g x
+not too much and let's just pull these
+points out
+with a
+double g
+careful with that because what happens
+is this is
+this is the real geometry so it's super
+close
+so um
+you don't want to
+make it touch
+let me do that
+maybe it's better to grab the edges and
+pull them out
+yeah i think it's okay
+okay
+so i think that is
+looking pretty good
+let me pull this out a bit
+here and there
+yeah okay i think we're looking pretty
+good
+so now we just need a little uh clasp
+detail and then
+i think we should be good to go
+okay so let's go over here go to face
+mode
+let's
+grab some faces
+shift d
+mesh separate selection
+object mode edit mode
+a let's uh turn this off
+alt s to pull it out a bit
+then let's s to scale it up a bit
+and then go to edge mode and double head
+g to pull this back so you just kind of
+kind of shape this to what you want
+okay
+face mode a e to extrude
+and we've got our little buckle thing
+here and let's uh
+translate this x dissolve edges
+let's hit a
+with edge one selected shift e plus one
+and edge mark sharp
+okay and let's grab this guy here and
+face mode
+a
+shift d
+s to scale it down let's let's go to
+x-ray so you can see it s to scale down
+and then
+g x to pull it out
+let's grab that front face and g x to
+pull that out
+so this is the part that people would
+actually um
+alt s to pull that out
+and then rotate that just a bit
+okay
+and then let's uh let's
+temporarily make a new color for this
+okay
+okay
+so that'll be our little buckle thing
+you could square that up if you want to
+and we'll uh we'll round this off
+with the high poly version
+oh maybe we can do it a little bit here
+is this is probably
+too much detail but um
+well
+uh shift b
+oops ctrl b
+just
+knock it down a bit
+maybe
+a bit more
+you just
+kind of soften it just a little bit
+okay i think that's good enough
+and let's see here i guess we can join
+this
+okay so that is um
+it's our basic shoe
+so we've got our shoe there
+make sure we named it right
+so we'll call this
+the you know
+fancy flat shoe
+okay so we've got our shoe all modeled
+and then i think now we need to just uh
+throw some uvs on there
+okay so let's hide this guy
+we can
+grab our shoe here
+isolate
+go to uv editing
+whoops let's isolate again
+shift a s i am a image texture go to
+here
+new let's call this
+shoe uv
+let's make this
+2048 by
+and okay and then let's go over here to
+shoe
+shoe uv
+okay
+so we'll use that for our shoe if you
+want a higher resolution go ahead and
+make a higher resolution
+okay so let's go to edit mode
+and a and let's just well let's
+let's just see what happens here so uv
+unwrap
+okay so it looks like
+things may have already
+been broken up okay
+i'm going to explain this anyway in case
+um you're not familiar with uving so
+basically when you uv map your um you're
+cutting up your your surfaces into
+little areas you can flatten out so for
+example here this is the toe
+and over here you can see this is the
+toe all flattened
+out and you want to cut little sections
+that can like logically be flattened out
+so here you can see
+we made all these little seams
+by
+alt clicking edges
+then go to edge and mark seam
+and we were doing that because that's an
+easy way to select things
+it's also useful and that's that's how
+you mark boundaries for your uvs so
+you can see this is not perfect because
+we've got a
+we've got a surface here and then we
+have a little trim for it here and i
+and which is over here
+and you can see it goes all the way
+under so this is not perfect so we need
+to like fix it oh yeah okay so
+and we have a surface down here actually
+that we don't need
+so let's go and
+unclick that
+and x and
+delete faces
+okay so now let's go and join
+this
+uv to this one over here so we'll
+grab this edge
+and go to edge and clear seam
+and then grab this again and uv
+unwrap
+and now it's one thing don't worry about
+the size we'll fix all that later
+so that's that
+here too
+we can
+clear the seam
+so
+edge so um
+alt click that
+then edge and clear scene
+go to face
+mode
+l
+and
+uv unwrap
+that looks good over there
+um so the red line is the seam the pink
+line that's a sharp edge so
+um
+you want to use the red for the seams so
+just keep that in mind
+okay
+let's see here
+this is the shoe
+base but we don't
+want all of this
+part
+up here with the base
+so let's do this let's figure out where
+we want the base to stop
+and i think we want to stop
+oops
+there
+i think that's where we want the base to
+stop
+or do you want to be there
+yeah i think that's better so go to edge
+and
+mark scene
+and then we'll hit
+uh go to face mode and hit l
+okay i think this bottom platform of the
+shoe you want to be separate from this
+side of the heel so go to edge mode and
+just
+select
+all around the heel
+and edge and mark scene
+and then go back to face mode
+click off in space and then
+hover over and hit l
+okay so i think that is our base so uv
+unwrap
+looks good
+okay and these side walls let's see we
+got here
+i think the side walls should be
+separate from the heel so let's just
+grab that and mark that edge
+mark seam
+and then let's also
+mark a seam for here too
+edge mark scene
+okay go to face mode
+that's the heal
+and
+that's the side walls of the heel so
+uv unwrap
+l
+uv unwrap
+now
+i'm not worried about
+all of this uh layout here because we'll
+deal with it later
+so i'm just moving it aside so i can see
+what's left
+okay so we've got the base here and then
+we've got
+that there
+and let's see here i'm trying to think
+of how shoes are made and
+kind of how this should be textured
+so i think uh
+oops face mode and
+i think we don't want this part selected
+so let's go to edge mode and alt click
+and
+alt click
+and
+edge mark seam
+and go to face mode and click often
+space and then
+l
+and i think that is correct let's go to
+x-ray
+yeah
+so it looks like
+we've got this sidewall and a bit of the
+top
+i think shoes are kind of like that
+we need to also
+put a seam for this
+ring
+so
+on the insides of the feet are seen less
+often
+and
+since we have a
+surface
+coming down into here you you won't
+notice as much
+right here this little seam so let's go
+to edge and mark seam
+face mode
+l
+uv unwrap okay that's good
+i think the toe is already done is this
+part done that's done
+this heel is that done
+looks okay
+that looks okay
+okay
+um not so sure about that one
+i mean it kind of looks okay um
+this is
+weird it
+might be a little bit
+difficult to fit that
+on this little uv layout here so i'm
+gonna just
+throw a little cut in here like that
+edge
+oops edge mark
+scene
+and then go to face mode and l and l
+and uv and unwrap
+i think that'll be a little easier to
+fit
+and
+let's get these little buckles here
+so that's uh here which we do here
+let's
+let's go and do this
+just mark these four edges
+i mean the four corners
+edge and
+mark scene go to face mode l and l
+and yeah see that's not working so uv
+unwrap
+oh
+um
+oh okay so i had a
+i had a back surface there so we don't
+need that
+so go to face mode and we want to select
+should be a dot
+where is
+i can't see the dot
+there should be a dot in the middle of
+each face like i can't see it for some
+reason so
+let's just
+pull that out g
+x
+then x and faces
+we'll do the same thing here
+g x
+x and faces
+g
+x
+l g x let's pull this back in place
+there
+turn off x-ray
+and then
+uv unwrap
+okay that looks
+more logical so everything should be
+able to be laid out flat like that
+and not be too distorted where you can't
+um
+you can't apply your textures so hit a
+uv
+unwrap and that looks
+pretty good
+that's awful long
+hmm
+might be okay
+but we could also just throw a little
+cut there
+i'll click that
+edge mark scene
+face mode
+a uv unwrap
+okay
+i think that would probably fit a little
+bit better
+so if you're just going to
+if you're just going to texture paint
+in blender then you can probably just go
+with that
+but i like to do certain things in
+photoshop and so for photoshop
+or or whatever
+it's nice to straighten out some of
+these parts
+so it maps more logically and i can
+explain that better
+let's bring in our example shoe here
+okay
+let's turn on shaded mode
+okay so
+that's better
+so for example um
+this area right here
+i needed to have that uv
+a little more even so that way
+i need this uv to be a little bit more
+even and and straight so that way in
+photoshop i can just throw in a texture
+map
+and it would
+lay out nicely
+so for certain places you need to kind
+of do that
+so
+it's time consuming and tedious and no
+one likes it but um
+it's it's kind of good to do this
+unless you're only going to texture in
+the
+3d painting then you don't really need
+to do any of that
+but i will show you how to lay out the
+uvs
+more like this
+okay so let's
+duplicate this and we'll add a texture
+map here
+i'll put a link in the description for
+this uv map
+for you to use
+and then let's attach this to the base
+color here
+okay so now you can kind of get a sense
+of the scale and it looks
+looks like these uh
+squares are all roughly the same size so
+i think that's okay
+okay let's go to edit mode here and
+let's figure out which of these we want
+to lay out flat so let's
+get this out of the way here
+and i want that one to be rather flat
+so let's put that there
+i think that's okay
+this one here has that pattern on it
+let's grab that one
+and
+this one here
+oops
+and so let's see i'm looking
+at the
+square patterns and seeing how it's
+lined up
+so here you can see the pattern
+let's see here
+it's
+roughly straight across
+so let's do the same thing for these
+here
+let's make this roughly straight
+like that
+and then just do the same thing for this
+one here
+so
+this is coming straight and it's kind of
+parallel to this here
+let's see the same thing and that's
+pretty good
+these don't need to be exactly
+okay
+and let's see here with the um
+the shoe uh
+base
+straight up and down is pretty good so
+let's
+bring that over here
+same thing for here
+and there
+let's put that there
+and put that there
+it's also kind of nice to lay out your
+uvs
+so they're
+just logical
+so i'm going to try and put this heel
+close to the heel sidewall close to the
+heel here
+and
+it's kind of handy to straighten out
+these um strips like here
+so say if you wanted to make it a wood
+heel
+it would map nicely because this would
+be straight so let's do that here go to
+edge mode
+and right click and
+align okay so we need to uh
+when you select an edge or some point
+and it's connecting to something else
+then it
+whatever you transform will affect the
+other part of it
+so what you need to do is go to face
+mode
+and l
+control i
+h
+then go back to edge mode and then
+line x
+line x
+line y
+align y
+go to face mode grab that l
+right click
+follow active quads
+and then alt h
+and brings everything back and now this
+is
+perfectly straight here
+just put that there for now what else do
+we have here
+keel i'm not sure how i want to map that
+so i think it's just going to leave it
+like that
+let's bring that over there
+this toe
+should be um
+kind of straight that way so let's do
+that let's move this over here
+and rotate it like that
+okay
+and let's see what else we got here
+these little trim pieces let's see these
+are our
+latch
+let's just put that there for now
+then we've got this main side wall
+so let's bring this down there ctrl i
+h
+then we'll do
+this here
+and then
+align x
+line x
+align whoops
+line y
+align y and i had um overlapping
+geometry there so
+line x
+and i want to make sure
+i think that's still doing something
+wait a minute
+okay i just want to make sure i didn't
+have um
+a duplicated edge there that's not being
+used or duplicated faces but it's it's
+actually being used so it's okay
+okay get that
+l right click follow up to quads
+let's do the same thing over here
+it's over here and
+align x
+align x
+then line y
+line y face mode grab that l right click
+follow active
+okay
+to put that down here
+then alt h
+and let's grab these and move it near
+the um
+the base of our shoe so
+love to lay this all out better later
+okay like that
+now let's see what else we got here
+what is this
+okay this is part of the the sidewall
+for the shoe
+i guess it transitions from here into
+there
+so that should be
+kind of around this heel so let's just
+scale it up a little bit
+that should be okay
+let's see what this is here
+okay this is part of the trim piece here
+and it connects to that one and
+oops
+this this and this go together
+and this one does two
+see it's it's making seams because we
+have um
+this surface here breaking it
+so this is this is kind of a weird
+construction
+so what we can do
+is
+you can grab all of these
+just temporarily just break it off
+like that
+and like that
+and then go to mesh
+separate selection
+go out of
+edit mode grab that go back into edit
+mode
+a
+let's see here let's just see what
+happens if we unwrap it okay that's
+not what we want let's go to isolate
+mode
+and look at this here and let's break
+some of these seams
+so i'm going to go
+to this mode here and then go to edge
+mode
+and i'm going to grab these
+and if you can see that it's hard to see
+grab those and go to
+edge clear seam
+i'm going to go down here go ahead and
+grab
+that one
+and
+that one
+an edge
+mark
+seam
+and then i'm going to a
+uv unwrap
+and that's better to deal with
+since we're here let's also straighten
+these out so grab that
+align x
+and shift r shift r shift r
+then let's grab these and align y
+and
+align y grab that i'll right click
+follow active quads same thing
+okay
+and then let's
+go to object mode and isolate
+shift click our shoe
+ctrl j
+isolate
+go back into edit mode go to point mode
+a
+m
+by distance
+that should be good
+okay so now when we go to face mode
+these should again be attached
+yep
+good okay
+okay so that's all of our
+uvs laid out let's go and check our
+sizing because these might be messed up
+and yes it looks like these squares are
+smaller so let's
+scale that until these squares on this
+little trim area is the same as that
+and that looks about right
+okay so next we need to
+make all of this stuff
+fit
+onto half of this rectangle because
+we're going to have two shoes and i'm
+just wondering did we do this one here
+yeah we did okay
+okay so let's make all this squish into
+half of this square
+okay so
+here's our shoe top area and here's that
+trim so let's
+put those kind of close together
+let's put that pretty close together
+let's put that close together
+okay let's just move that over there
+so this is just you know it's like a
+little jigsaw puzzle just lay things out
+so it's
+roughly in half this
+uv layout and then we're going to
+duplicate the shoe
+and then
+move the uvs for that duplicate
+side over and mirror it
+okay
+so let's move this down a bit
+and the idea with laying uvs is you want
+to make everything big enough
+small enough so it fits onto the whole
+uh square but
+as big as possible and i
+i think this is okay
+i'm not really sure
+but uh
+well
+let's just try and make it work
+let's see what was this guy here this
+was that
+sidewall inside wall okay so let's just
+put that
+over here
+this parts
+awful long
+let's hope we can fit this here
+for these um
+since i want these textures to be
+straight
+if you rotate them on a 90 it still
+works out pretty good
+if you rotate it on a 45 then sometimes
+uh
+it makes it a little bit more difficult
+to lay out textures in photoshop
+if you're really close looks like it
+fits
+if you're really close you can cheat
+though and you can like
+scooch things around
+make sure you have proportional editing
+turned on
+you could you know kind of nudge things
+things is actually okay
+let's grab these guys pull them over
+here oh darn
+so close
+let's see here
+rotate
+180 so i bet you we could do this
+ we could
+trying to find a
+nice break so it's not super obvious
+so it's gonna turn off partial editing
+that just breaks it so we can
+we can do that
+i think that won't be a big deal
+and yeah and i think that that fits it's
+actually a little bit small
+okay so those are that's our uv layout
+for
+half of our shoe
+or one of our shoes
+and it looks okay
+okay that's it for our video today i
+hope that was useful to you
+and if it was leave a comment to let me
+know or like or subscribe or better yet
+support me on patreon
+and in the next video we will
+texture this with a normal map and a
+color map
+okay thanks

@@ -1,0 +1,42 @@
+with your character loaded we need some
+video reference shoot yourself doing
+something silly
+don't use that and we'll use that drag
+it into blender to load it as a
+background image and align it behind
+your character
+check that automatic keyframe button
+then typically it's easiest to start
+posing with the center pelvic bone twist
+the hips a little bit pose the legs by
+grabbing the foot controllers and some
+rotating a little hip twist and then
+just move up the body opposing the spine
+to line up with the video reference then
+pose the hand controllers move it around
+in 3d space to make sure it looks good
+at all
+angles and then move about eight frames
+forward in the timeline and adjust the
+rig as needed to match up with the video
+reference again mainly just using the
+hand controllers and the foot
+controllers and now we have some
+character movement another four frames
+in the timeline and we'll need one more
+pose here so jumping to frame one with
+the bone selected copy the pose move
+forward in the timeline and paste the
+pose flipped
+now just repeat this process for the
+other two poses we created you can add a
+little variation here then to make it a
+perfect loop just copy your first
+keyframe and paste it at the end and
+adjust the timeline and with a little
+tender love and tweaking there's our
+cringe-worthy animation render it out as
+an animation and send it to pixar and if
+you didn't catch all that i also just
+posted a 25 minute beginner
+animation tutorial on cg geek

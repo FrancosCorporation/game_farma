@@ -1,0 +1,412 @@
+Kind: captions
+Language: en
+Hey, I am jelle, And today, I am going to
+show you how you can make your very own 3D
+character for your game,
+I’m going to go over every step, from the
+first sketch, to a controllable character
+in a game.
+Over the past year I’ve made a bunch of
+little games and I feel like I’ve learned
+a few tricks along the way to make characters
+quick and easy, but still have them looking
+great!
+So let’s get started!
+A game character is created in a bunch of
+different steps, I will go over the following parts:
+Drawing your first sketch
+Creating the 3D model
+Texturing the Character
+Setting up the rig
+Creating the animations
+And creating the character controller in a
+game with working animations.
+The first step is creating a concept,
+Today I’m going to make my avatar.
+I usually create some sort of sketch but you
+know, I have drawn my avatar a bunch of times
+already, so I’ll just *boop* that in.
+I create a front view with the character standing
+in the t-pose, and a side view to get another
+perspective in, this is great for the modelling
+phase where we want to get different angles
+to reference.
+I’m just going to keep it simple and give
+my character a t-shirt, jeans and of course,
+a pair of sunglasses!
+Okay, when you are happy with your concept,
+I mean, mine is basically just a sketch with
+my finished face, but you can go as detailed
+as you want of course, it’s time to make
+the 3D model!
+Let’s open the 3D program of our choice:
+Blender!
+Before we get started there are some plugins
+I always use when I create a character:
+Go to edit &gt; preferences &gt; add-ons and search
+for : loop tools, rigidify and images as planes.
+With the images as planes plugin installed,
+import your concept drawing and set it up
+to be about 1.8m tall, just like me.
+duplicate and rotate it to have an image for
+the sides as well.
+When I need a quick and smooth 3Dmodel, I
+use a method called subdivision surface modelling
+.
+This means that I create for example a simple
+cube first and then, add this modifier called
+subdivision surface , who would have guessed
+that.
+This subdivides the object and smoothes out
+the polygons.
+So you can easily create smooth shapes with
+the basic shapes from the cube you just created.
+I like to keep the subdivisions to a minimum
+for the game, because you want to have as
+little polygons as possible to make your game
+run much smoother.
+To make sure I don’t have to do any double
+work, I also add a mirror modifier, so when
+I move stuff on the right, It automatically
+does the same thing on the left.
+So let’s start modelling!
+The basic human shape goes like this, you
+have the center core, with a head on top,
+all created with some loop cuts and extrusions.
+When you create your character, it is important
+to think in edge loops, you see, the body
+and head all have nice loops going horizontal
+and vertical.
+So we want the same things for the arms,
+If we would just extrude the arms straight,
+we would have a lot of weird loops and the
+shoulders would be harder to move naturally.
+That’s why I like to extrude the shoulders
+first and the extrude the arms down from there.
+That’s much more natural, just take a look
+at your own shoulders.
+I do the same thing with the legs which creates
+a nice pelvis.
+Extrude the legs further down and plop out
+some shoes.
+You can add some extra loopcuts along the
+ends of the clothes and scale them up to create
+some differentiation between the separate
+clothes.
+Move some more points around to shape out
+the body to fit the sketch you made.
+If your character doesn’t need to do any
+fine grabbing movements, than I would just
+not create the separate fingers, just add
+a thumb and you good to go, remember, less
+bones = less work and better performance!
+Okey, so after some more tweaking, you will
+arrive at something you will be kind of happy
+with.
+You can add some other stuff to the character
+like a pair of sunglasses to hide the face,
+that way, you won’t have to worry about
+any complex facial topology.
+You can go crazy wild with the hair, but as
+you can see, my hair isn’t that exiting,
+luckily, a buzz cut is the easiest to create,
+just extrude it a little bit.
+Okey, so we have our 3D model ready!
+So now it is time for the texturing!
+Before we can start adding colours to our
+character, we need to uv unwrap it, which
+is basically trying to lay all the polygons
+flat on a plane.
+But, as you may have noticed when you’re
+doing the Laundry, it’s kind of hard to
+lay it flat with all the parts visible.
+That’s why we add seams, virtual cuts along
+the model where we tell the program it’s
+okey to separate the flattening.
+The easiest parts to unwrap are your clothes
+of course, because that’s how they are created!
+Look at you shirt and find the seems where
+your shirt is sown together.
+Just select the edges that kind of follow
+those lines and go to uv&gt; mark seam.
+Do the same thing for the pants and arms,
+try to find a line where you take your virtual
+scissor and after your cuts, you the skin
+will just lay flat, kind of like an animal
+rug.
+[take cow hide]
+After you’ve cut all the parts go the the
+uv editing tab and go to uv&gt; unwrap!
+And tadaaa!
+You have some nice flat parts of your model,
+perfect for texturing.
+Oh, and when you have different objects for
+your character, and your not planning to affect
+them in your game, it’s more performant
+to have just one combined mesh for the character,
+because my character will always keep his
+glasses on, I’ll just join them together
+with the character.
+At this point there are two parallel realities
+where each has there own way of texturing,
+There is the easy and fast, but less artistic
+way, and the longer but more freedom way.
+The easy way to texture your character is
+by creating a color palette and importing
+it in your material in the shading tab.
+Move all your uv islands out of the way and
+place them one by one to the correct color.
+And you’re done already, super quick and
+easy.
+However, I like to have some more control
+over the materials, so instead of using just
+one material with different colours, I like
+to make different materials for all the real
+different materials on the characters.
+So just add a bunch of different materials.
+Because we’ve already unwrapped our character
+we can easily select the polygons by selecting
+just one and pressing “L” to select all
+the linked polygons.
+Then click apply and do the same for all the
+rest.
+before we start texturing, be sure to maximise
+the uv island to get as much pixels per polygon
+as possible!
+The big advantage of this method is that we
+can easily apply a whole bunch of different
+properties, not just the color.
+I always like to give my materials different
+smoothness values.
+the smoothness, or the inverse, Roughness
+determine the sharpness of the reflections,
+if you look at your sunglasses for example,
+you see that the reflections in the glass
+part are way sharper than the frame parts,
+where you can barely tell it’s even reflecting.
+You can use some pre-existing maps from the
+internet to quickly add some realism and break
+up the large flat parts of the model.
+Okey, so you see I didn’t model the mouth
+because that’s hard and time-consuming to
+make it look good, so what I like to do is
+just draw it on.
+So I drew a mouth texture and if you leave
+the mouth as a separate material on a duplicated
+set of polygons on the face, you can animate
+the mouth by setting up different drawings
+on a texture which you can move later in your
+game.
+What a nice smile!
+After you’re happy with your materials,
+it’s time to optimise.
+To make your game run smooth, you should try
+to have as little materials as possible, but
+you see, we have a whole lot right now.
+Luckily there is a thing called texture baking.
+Which means that we place all the different
+textures onto one single image, according
+to the uv map we made earlier.
+And that for each property, so in this case,
+the color and the roughness texture.
+So the shirt texture for example will be baked
+on a texture, but only on the parts where
+the shirt polygons are.
+We can bake textures by adding an empty image
+texture in each material you want to bake,
+be sure to select a size as a power of two,
+something like 2048x2048 should be plenty!
+This is because we can then later more easily
+compress the texture to smaller sizes to squeeze
+out some extra fps. and then changing the
+renderer to cycles and selecting the bake
+menu.
+There, you can select which property you want
+to bake, so we’ll start with the diffuse
+channel, which is color, and deselect the
+direct and indirect lighting because we only
+want the color information none of the lights
+that are in our project.
+After waiting, you’ll see the different
+colours being baked on the texture you created
+for the character.
+Be sure to save the texture before baking
+another texture because blender will overwrite
+the texture if you bake something else!
+We’ll do the same for the roughness channel.
+And something as a nice bonus.
+You see that in the render settings of the
+eve renderer I activated the ambient occlusion
+tab, but in a game, that effect is expensive,
+so what if we could calculate that beforehand.
+Luckily, there is such a thing!
+You can also bake the ambient occlusion of
+a character onto a texture!
+So just select the ambient occlusion and bake
+it out!
+Okey, now that the textures are baked, duplicate
+the character to make a back up, and remove
+all the other materials on the character,
+except the mouth, and replace it with a new
+material.
+Then drag your recently baked materials into
+the shading tab and link them the to the correct
+channels.
+Texturing done!
+Now it’s time to give our character a skeleton
+to make him move.
+Also known as a rig, because we’ve activated
+the rigidify add on, we can just insert a
+human rig, ready to be used.
+Another performance tip is to use as few bones
+as possible, so just delete all the bones
+you don’t need, all the face bones can just
+*boop*, and also you won’t need that many
+fingers!
+Now that you only have the bones you need,
+it’s time to match them to your character,
+you can turn on the x symmetry so you only
+need to do half of the work.
+Grab the bones and move and rotate them in
+place.
+When you’re happy with the positioning of
+the bones, select the mesh, then shift select
+the rig and press ctrl P to parent the mesh
+to the bones, with automatic weights.
+If you did it right, your character should
+now be linked to the rig.
+Go into pose mode and test it out, if find
+there are any part that move a little weird,
+you can always tweak the bones in edit mode.
+If there are parts of the mesh that move too
+much, or not enough, you can select your rig
+first than your mesh as well and go into weight
+paint mode, here you can tweak the amount
+of influence each bone has over a certain
+polygon.
+The redder the point, the more it is influenced
+by the selected bone, you can check by shift
+selecting a certain bone.
+Be sure to turn on auto normalise to make
+sure every point has a total influence of
+one, lower the weight of your brush and click
+on the points you want to be influenced more.
+We’re almost done!
+The hard part is over and now it’s time
+to have some fun with the animations!
+I like to just create all the different animations
+on my timeline and then split them up later
+in unity.
+For this example I will create 3 animations,
+and idle loop, a running animation and a jump.
+Start by limiting your timeline to however
+long you want the animation to take and go
+into pose mode, select all the bones and right
+click and add a keyframe for all the bones,
+then turn on the record feature and go to
+frame 1.
+You can now move your character into the pose
+you want and when you’re happy, select them
+all again to set a keyframe for all the parts
+you didn’t move.
+Copy the keyframe over to the end of the clip,
+go to the middle of the timeline and start
+tweaking the body to make.it look like he’s
+breathing in.
+And tadaaaaa, you have an idle animation!
+Do the same thing for the running animation
+by moving over the timeline to the next 30
+frames and set up your base pose in the start
+and copy it over to the end. for the center
+pose, you want the exact opposite so what
+you can do is select the start frame, ctrl
+C and then go to the middle and press ctrl
+shift v to paste a mirror keyframe!
+Now just create some in between poses where
+the feet are on the ground and play with the
+arms and head to make it a bit more dynamic.
+Lastly, we’ll add a jumping animation by
+making him as small a possible at first and
+then exploding him straight up!
+With a wind down to the end to make sure there
+is no static frames in the animation.
+Okey and that was all the work for the character
+in blender!
+You now have a fully rigged and textured 3D
+model to use in your game!
+So, let’s set it up shall we!
+Select the rig and everything in it and export
+is as an fbx.
+Open up a new unity project and put it in
+there.
+Go the the materials panel and extract the
+materials into a new folder.
+Next import all the images you created and
+start setting up the materials, but as you
+can see, there is no where to place the roughness
+map anywhere, if you’re using the standard
+renderer, you will have to make it as an alpha
+texture of your color map.
+You can do this in the image editor of your
+choice, I use affinity photo, invert the roughness
+texture so it will become it’s inverse,
+also known as a smoothness texture and convert
+the greyscale roughness texture to a mask,
+apply the mask to the color texture and export
+it back into unity.
+Put it in the albedo channel and select the
+albedo alpha as the source for your smoothness
+And put in the occlusion texture to finish
+things off!
+Tadaa, your textured character in unity!
+Now, go back to the 3D model tab and go to
+animations, here we can split up the animations
+we created earlier in blender.
+Name them accordingly and apply the changes.
+Okey, so now, we have an animator component
+on our character and create a new animator
+controller for the player, open it up in the
+animator panel and drag the three clips into
+it.
+We need 2 parameters to control the animations.
+A boolean for when we are running, and a boolean
+for when we are jumping, set up the transitions
+between the different clips and make sure
+exit time is turned off.
+With all of that set up, it’s time to create
+our controller script, you can do a bunch
+of different ways to control your character,
+but for this example I chose to use a character
+controller, I based my script on a unity example
+and added the animations boolean controller
+to make the correct animation play when the
+player is doing certain things!
+okey, we're very close now
+our character is correctly animating, but our camera isn't doing anything
+And the real final part is setting up a cinemachine
+camera to follow the player at a certain offset
+after all that hard work,
+and we are finally done!
+Our character can now move and jump and stop
+and do noting while looking cool!
+Exactly what I need for one of my future projects!
+Now it’s your turn to make your character
+do what you need for your game!
+There is a bunch of different ways to make
+characters for your game, this is jus how
+I like to do it.
+Of course it is important to create your character
+to the needs of your game!
+You have probably noticed that all my characters
+look pretty different because they al move
+in special ways or have to do special things.
+I hope you learned something today and that
+you will be able to create awesome 3D models
+for your games as well!
+You can find all the source files in the links
+below so you can play with them however you
+want.
+Like the video if you enjoyed this and subscribe
+if you want to see more games in the future!
+And I’ll see you guys next time, where I
+will be back with another fun little game!

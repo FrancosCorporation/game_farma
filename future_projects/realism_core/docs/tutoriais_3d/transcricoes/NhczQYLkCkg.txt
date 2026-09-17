@@ -1,0 +1,3289 @@
+in this video we'll learn how to make
+lightweight textured hair using blender
+this is part 4 of a series that goes
+through all the steps it takes to make a
+character in blender
+if you haven't been following along
+check below for the free plugins you'll
+need
+this is the hair we'll make and we'll
+make this
+in stages or layers so this is the first
+layer we'll make and this hair covers
+the
+back of the the neck or the nape of the
+neck
+and the back of the head this hair is
+here so that way
+if you're animating and the hair blows
+up or backwards
+you don't see a bald spot in the back of
+the head
+this next layer will cover the sides
+over her ear a bit
+and the hairline this is kind of a skull
+cap
+and this one here is the main hair and
+this is um
+this is the main part you'll actually
+see most of the time
+and so that's where we'll put most of
+the work
+we'll make this hair using what i call
+hair tubes it's
+basically one giant mesh
+we can make different sizes for
+different levels of detail
+and you can see it's one very light
+piece of geometry for the hair
+and there is a path on the inside and
+the
+mesh has a curve modifier so you can
+deform the hair to match your head
+or make whatever shape you want it's
+pretty simple
+and then we'll have the little details
+and grooves and colors
+made with procedural textures
+okay let's get started
+let's hide the hair toggle on the
+character layer
+i made some a little jumpsuit here
+just so it doesn't look funny all the
+time
+so that's it well let's change this to
+body
+and we will duplicate this
+let's lock our body
+so this little carrot here
+allows you to select it or and if it's
+uh
+an empty carrot then you can't select it
+so let's see here
+so you see right now it's a solid carrot
+and if you select it
+it's fine if you toggle this off
+you can no longer select it so i'm
+leaving this off because i don't want to
+mess with the body
+i only want to mess with this duplicate
+of the body
+that one and you by default you can't
+see this
+so go to this little drop down here
+and click this guy to toggle it on
+okay okay so we
+have our body let's write jumpsuit
+let's go to the materials and delete
+delete let's make it
+white and viewport display
+and it's already white
+where is it
+okay so now we can
+go to edit mode hit a this to select
+everything
+zoom in a little bit and hit alt
+s just to scale out
+oops too much scale out
+just a touch okay go to face mode
+um face mode
+and alt control and then
+x and faces
+and then l x
+faces let's make sure there's nothing
+else there
+if you go to x-ray mode you can you see
+these little dots
+you'll see them floating around if i
+missed something
+and it looks okay
+so let's select
+that x and faces and then hit
+l a few times x faces
+and then and then
+x faces l
+x and there okay
+so now she's got a jumpsuit
+okay let's
+now okay her feet aren't touching the
+ground and that's going to cause
+problems
+later so let's move this down
+but since we've got so much other stuff
+here and it all
+relates to it like we have this head
+bass mesh
+reference it's kind of handy to have
+everything
+lining up but we might not ever use it
+again but we might and so
+it's not too hard for us just to
+change it so with these we don't need to
+change okay
+so let's grab all of that let's make
+sure
+yeah okay that's good
+now let's move her foot down to the
+floor
+so let's go like that i'm gonna actually
+leave it a little bit
+higher because i usually have
+shoes on her feet or their feet
+and so i'd like to have it a little bit
+higher
+so something like that i think that's
+good
+okay now let's go and
+hide all that stuff we just unhid
+again so collection
+oh we want that hide this one
+hide that one
+uh we don't need that one
+okay
+okay let's add let's add our first hair
+tube
+so let's hide a character
+in fact let's hide the stuff too
+we can leave the templates so we will
+move our
+3d cursor to the world origin so shift
+s for this section we'll be hitting
+shift s a lot
+so shift s one goes to the world origin
+or shift s one it's right here
+okay then we will hit shift a
+to add a mesh get a cylinder which will
+be our hair tube
+we'll make this 10 radius will be
+the the width of this is how wide you
+want that chunk of hair to be
+so i'm going to make it 1.5 inches which
+is
+3 inches diameter or 3 inches wide
+and let's see here the depth will make
+it
+one meter around three feet
+and i want to make this hair to roughly
+the length of
+her hair here also taking into account
+for how much it curves i think it's too
+long but it's okay because we can scale
+it later
+okay and we don't need caps
+nothing and let's see let's shape this
+so let's go to edit mode
+point mode zoom in and
+quick note if you grab this and scale in
+the x and it does weird things like that
+where it moves the top not the bottom
+it's because
+you are in you are not in x-ray mode
+so make sure you're in x-ray mode which
+is this thing here
+this is this thing here so you can see
+it's turned on now
+and then sx to scale and the x
+i'm going to do 0.5
+the way i like to do the hair tubes is i
+this this half will be the part that's
+on the
+outside of the hair right
+so it's going to curve maybe like this
+here and it's going to curve around the
+top of her head
+so i like that part to be flat
+so we will scale this in towards
+3d cursor yep
+pull that in let me pull this back a
+little bit
+too and then
+this side here i like to make it a bit
+thicker just to
+fill the mass between the gaps so it's
+covered up
+so we will ctrl r to add a cut
+and grab these and x and dissolve edges
+okay let's go back to the top view
+go to point mode and let's see here
+let's turn off proportional editing so
+there's not much geometry here
+but this is going to go across all the
+hair
+so the lighter you can make this cross
+section the faster it's going to easier
+to be for your computer to process it
+so just keep that in mind
+and now having said that i'm going to
+add
+and add a bit more so
+ctrl r i can't see it here what's going
+on
+ctrl r
+and ctrl r
+so i've got a little bit
+more
+oops and i just want to make it
+so the it's not so pointy for the hair
+on the side so it rounds
+rounds a little bit
+and i want to move this over
+and so the part of the reason why i'm
+doing this
+is because
+a couple of reasons one it's better to
+have more geometry on this side because
+that's the side that's going to be
+facing outwards towards the
+viewer also we're going to split
+the uv map in half so this back half
+will have
+a section of the texture map and this
+front half
+will have another section and so it's
+it's nice to have a break right down the
+middle
+it's not necessary but it's nice okay so
+that's
+our hair tube profile
+then let's add some cuts some loops so
+you can shape it
+along the hair so we will go to edit
+mode
+ctrl r and let's add like
+12. yeah
+i think that's good that should be
+enough
+for us to curb it and then
+let's also
+scale this in so let's go to top view
+we just have the top here
+and then we will go to top view and
+we'll scale it
+in towards the 3d cursor scale
+x and we'll do
+0.1
+and then turn on proportional editing
+and scaled in the y
+so it comes in that scale
+there so this is going to be the root of
+the hair
+coming from the scalp and it's going to
+come out
+and flare out a bit then fall down
+on the side of her head and back and
+it'll be a little tape at the very
+bottom
+so let's grab this
+bottom here
+and then if you go to how do you go to
+bob view
+that was shift no control
+okay control number pad 7 is bottom view
+scale x we will do 0.1
+okay and then
+for the side view
+it's nice to have this hair taper
+gradually
+so it's scaling the y oh that's no good
+proportion editing is on scale on the y
+and let's make this circle bigger
+and i don't like how that's tapering you
+can see it's making this
+kind of a s shape and i want to be more
+of a
+bullet shape so let's go to this one
+here
+scale y and that's
+nicer yeah i like that better
+scale y and let's just bring that
+no i want just the tip scaling
+okay so i just made that
+i hit scale and y to activate scale and
+while it's active
+you can control your radius
+for proportional editing so i'm just
+going to make that small but now i can't
+see how much it's scaling because it's
+too far away
+so i'm going to escape out of it then
+zoom in
+and scale y again again
+and now i can see it and i know that the
+radius
+for the proportional editing is very
+small and it won't affect the other
+points
+so i'll just do that okay
+that's good
+i originally used this this hair tube
+technique a lot
+in my studio max days because i would 3d
+print these characters and so this
+i would close these caps instead of
+leaving them open and and 3d print it
+and it worked good
+so that is our hair tube
+and we want to
+move the top of this hair tube down to
+the floor
+so we will to do that we will
+well there's two ways you can do this
+because i know that this
+is one meter tall i can do
+g z negative 0.5
+and it's at the zero point but
+for this segment we'll be moving these
+hair tubes around a lot
+using the 3d cursor so let's show you
+that way so if you grab this hair tube
+here
+go to edit mode and select
+all these faces here if you go to
+shift s and cursor to selected which is
+here
+it brings that cursor to the very tip
+of whatever you have selected okay
+and i want to bring this point to the
+world origin
+so now go to object mode and back in
+object mode
+you'll see the origin for this object
+is over here okay we want to bring that
+origin point for the object
+to this 3d cursor which we
+set to be right in the middle of this
+area here
+so we'll grab that object and i'm sorry
+if i'm repeating myself and said this
+earlier
+object set origin
+transform set origin here it goes origin
+to 3d cursor
+and here it goes okay so the point is
+now
+there so we can now move this object
+based on that point
+so we want to move that to the world
+origin origin
+to do that we will hit shift s and one
+to bring the cursor to the world origin
+okay it goes down there grab this
+shift s and i think it's eight
+yeah selection to cursor okay
+so oh so when you when you do this
+shift s selection to cursor
+it takes this selection more
+specifically
+the origin point this little orange dot
+for the current selection and brings it
+to the 3d cursor which is down here
+there so now it's down there so
+the first time i learned this it was
+kind of a brain twister and after you
+get used to it it's
+it's fine
+so if it's confusing
+i hope i explained that good enough okay
+so here's our object now we need to add
+the path
+so we will hit shift a curve and
+path there we go we got our path we'll
+rotate it r x no
+r y 90.
+and we want to bring this path
+also down to the very tip just like we
+did with the mesh so let's do the same
+thing again
+grab object edit mode grab this very top
+point
+shift s to
+the two
+cursor to select it there you go
+okay go to object mode and then
+object set origin to 3d cursor
+okay so now
+if we move this you can see yes again
+our origin
+is at the very tip where we just had the
+3d cursor
+then shift s and 1 which brings our
+cursor back to the world origin
+and then shift s and 8 which brings our
+object
+which brings our object and brings our
+object
+with its 3d curs our object with its
+origin
+to the 3d cursor
+okay scale this down so the curve is
+just a little bit longer than our hair
+tube
+and that's pretty good
+now we need to make sure everything is
+not scaled or rotated
+so we'll go to item and
+it's not rotated which is good it's not
+scaled which is good
+okay that's good check our curve here
+our path
+and this is rotated and it is scaled so
+we will hit
+ctrl a and apply you could do
+all transforms but let's do it one at a
+time so if you do rotation
+it makes that zero and that's good
+control a
+and scale and that's good
+okay so now we are set to add a curve
+modifier
+so we'll grab our hair
+and go to modifiers
+add modifier and curve there we go
+and then we will click this little
+eyedropper
+you know what let's name these
+let's call it h
+t for hair tube
+uh oh one okay
+let's call this
+ht
+path
+maybe this is ht01 mesh
+so the reason why i'm naming these
+the same first five characters
+is so that way if you organize by name
+this ht01
+mesh will always be just before hto1
+path
+so they're always kind of together
+because we'll be clicking these
+um over here a lot from the list
+instead of in in the 3d viewport so it's
+important that these are
+kind of easy for you to understand now
+we could also put it in groups too so
+let's do that
+new collection let's call this
+ht and we'll
+grab these two hit m
+and move so so if you
+so if you click a couple objects hit m
+you can move them you can also do it
+here you can grab these and hit
+oops and hit m and you can move them
+to this collection here
+okay so now it's nice and neat
+and you can see the other hair did the
+same thing all these guys i i had them
+yeah all inside a collection okay
+so now let's add our modifier
+so we will click this curve object
+eyedropper click our tube i mean our
+path
+and something really weird happens what
+is that that's weird
+so i don't know why it does that
+but go through all these until you see
+the one that looks the closest
+and it's probably going to be negative z
+so that's kind of okay but it's all
+skinny and i don't know why it does that
+and it's also the different it's the
+wrong orientation
+so i mean the best way i found to do
+this
+was let's see here turn this on
+grab this control um sorry could it go
+to edit mode
+and a rz90
+then pop out and
+okay so now this is back to the way
+at least the orientation i wanted this
+okay but it's too small so
+let's go back into edit mode and let's
+let's turn these on let's do that
+that's cool so now we can see the orange
+is the actual geometry and the
+gray is the modified geometry so i want
+this to be wider
+than it is so
+actually i want the gray one to be as
+white as white as the orange one
+so we need to make the orange one even
+wider so the
+so the gray one's wider it's really
+weird so scale
+x 2 makes that wider
+and scale y 2 makes it wider so now
+this is the size i originally want it to
+be
+i i think does that look right
+how big is that
+let's see here
+no it's not wide enough
+okay so then we will make this bigger
+yet
+scale x
+1.25
+scale x 1.5
+that looks right scale y 1.5
+okay that now looks correct
+now something interesting to note
+because i modified the size of this the
+scale of this
+while in edit mode
+it left the scale all at
+one it didn't change anything and that's
+because you're in
+edit mode if you scale if you're outside
+of edit mode and scaled it scale x2
+you'll see it it changes it here also
+and that just screws everything up
+especially for rigging
+so it's kind of good practice to keep
+this always
+at one
+okay so let's see if this worked let's
+grab our path here or you can grab it
+here
+hto ht01path grab
+a point and hey
+it did not work it's
+it's it's rotating funny so that's not
+good
+so let's try this grab this
+hit edit mode rz
+negative 90.
+and then go back to the path so what
+what the you want to happen is
+when you pull the curve out this way
+this hair should flatten out so let's
+try it grab that
+okay so that's good it's flattening out
+but the wrong side is flattening out we
+don't want that we want the
+this side's flatter this side is pointy
+we want the flat side
+so let's grab this again
+rz 180
+now we'll grab our path grab that point
+g to move it okay
+so now that's what we want
+so we'll take this hair we'll bring it
+actually no we're not done yet
+okay so let's let's add a uv for this
+thing here
+so let's do that turn off x-ray
+go to edge mode and we will alt oops
+sorry uh alt
+left and shift alt left
+so now we've got both sides
+selected go to edge
+mark seam which is right here
+so this basically separates as far as
+uvs are concerned it separates one side
+from the other so if you go to face mode
+and hit l
+which selects everything now it stops
+at the boundary which is this red line
+and this
+open surface there same thing for the
+back
+okay so that's good and let's go to our
+uv
+editing workspace
+and let's go to here
+so now um
+so for our hair texture we want the hair
+texture
+to follow straight here and then towards
+the bottom
+we want the hair texture to curve
+inwards just like the geometry does
+so to do that we need to make sure that
+this
+uv layout stays perfectly vertical
+so we need to keep it nice and vertical
+we also want to scale this
+uv down so it matches
+this basic size
+so we will hit l and now
+since we've hit l we've got them
+selected all the faces in the back are
+selected
+but they're also selected in the uv
+editor
+so the uv editor is kind of like this
+mesh geometry
+laid out flat turn off proportional
+editing and g
+x move it aside
+and now we'll grab the front
+and so this got split funny
+this is over here and it should be
+lined up with the rest of it if i uh
+if i if i do a uv
+it if i unwrap it it
+makes it funny
+ah let's see here
+no it's not good
+so if i unwrap it this is still nice and
+clean
+but if i use the procedural textures
+the these straight lines
+for the texture which goes straight
+across i can see these
+this grid here it all goes straight
+across it'll
+cut straight through the uv but it
+won't
+the curves for our texture
+will come down here and they'll start to
+come outwards
+and we don't want that we want these uvs
+to be all straight
+so let's undo that instead we'll just
+move it in place
+so if you grab this here
+you can this tells you that this surf
+this edge here
+is the same here it should be connected
+there
+this one here should be connected there
+but we don't want that
+we just want to have this whole front
+section
+in one chunk this one stays in its own
+chunk
+so we'll grab this gx pull it over here
+scale it in
+and that's probably good enough
+okay let's move this
+closer
+so now if we um
+we want to make the proportion of this
+uv
+roughly the same as this here so we will
+pull this in until it's something
+like that and bring that over here
+and yeah that's good
+okay so now we've got our hair
+all uv'd and let's call this
+let's change this let's call this hair
+tools
+uh sorry not hair tools uh hair tube
+large lg
+o1 mesh and we'll call this
+hair tube lg 01
+path because we're also going to make a
+medium and a small
+okay so let's
+grab this guy here click and shift click
+and let's see here we will
+shift duplicate gx
+okay so now you've got that and let's
+see here we want to make this will be
+the large one
+we'll make one that's half the size of
+this large hair
+so we'll grab this
+and we want to scale it around
+its own center point so
+this orange dot
+so we will a to select all
+change this to bounding box center
+scale x
+uh am i i'm in edit mode yeah
+let's get so go make sure you're in edit
+mode scale x
+0.5 scale y 0.5
+okay this didn't scale correctly and the
+reason why
+is because when you pick bounding box
+center
+it scales it based on
+the the size of the average uh
+they take the average of the whole
+selection and find the center point and
+that's not what we want we want to go
+to the object origin so
+well i don't know how to do that so we
+will do this
+so we'll grab our object shift s
+and 8 which is cursor to selected
+sorry shift s2 which is cursor to
+selected
+then we'll grab our mesh again go to
+edit mode let's go to
+the top view so we can make sure it
+doesn't act up
+scale x 0.5
+it didn't work again because i need to
+go to
+3d cursor scale x 0.5 okay that's good
+scale y 0.5
+okay now we're working
+so since we made this hair
+thinner than the first one
+we need to make our uv thinner also
+it's kind of a good practice to make
+your texture maps
+over here a square and
+often times people will have several
+pieces of hair
+um using one map and they'll have
+different types of textures in different
+sections
+so it might be good for us to just move
+this
+texture for the medium-sized hair to the
+side so
+let's move it and we don't want to
+overlap the first hair
+so i'm going to use my 3d cursor and
+shift
+right click to mark the ending because i
+know this is where
+the big hair uv ends
+i can show you here go here edit
+so this is the uv for the big hair it's
+right there
+so let's go to here go to edit mode
+a to click all gx let's move this over
+here
+and now let's scale this down so it's so
+this front half is roughly the same
+proportion is
+this front half scale x
+something like that okay
+let's just make sure this is not scaled
+and it's not
+because whenever i scaled it i was in
+edit mode
+and let's call these two
+medium so
+md let's get rid of this 0 0 1.
+and then the other one is this here lg
+to md
+0 0 1. now again the reason why i'm
+naming these um
+alphabetically so it sorts
+nicely is because we're going to be
+copying these over and over and over
+again making a whole bunch of strands
+and it's going to oops it's going to
+it'll copy it and it'll add a 001 to it
+and so oops
+when you get a whole bunch of them it's
+just a huge list and it's
+kind of hard to find these points so you
+just go and say
+well i got this hair this is
+medium o3 i need to find the curve for
+it so you go
+to medium 03 and then you find the curve
+so it just
+it gives you another way to select
+things or you could just go and say
+where is that
+path there it goes so it's just
+another way to make it make life easier
+for yourself
+so medium oh
+okay so now we've got our medium and
+let's make a small one so let's grab
+that
+shift t g x one
+let's move shift s we'll move our 3d
+cursor to the selected which is
+two and go to edit mode
+let's go to top view so we can watch
+this and
+see if we mess up again s x point
+five s y point five
+okay this time it worked
+we know that this uv right here is from
+the medium here
+so we can just shift right click to mark
+where this uv stops gx to move it over
+and then scale
+this uv down so it's roughly this
+proportion
+scale x
+okay so i think that's good
+and if we grab all three of our
+hair tubes you can see the uvs
+nothing is overlapping and each
+uv is roughly half the width of the
+previous one okay
+so
+now we've got our hair tubes all made
+and ready to position
+but before we start positioning these
+let's
+let's create a material for it
+we're going to make a procedural hair
+texture
+and this here is a screen grab
+of the hair texture this is what you'd
+see in the shading window
+so this uh you can see numbers here
+this shows you the sequence of which you
+make each of these nodes
+and a little star means you can plug in
+this node to your texture and you can
+see
+what it should look like so here number
+five should look like this one
+and number eight should look like that
+one so this way you know you're
+you're on track
+okay so let's add our material so grab
+our hair
+pull this out here go to our materials
+panel click
+new and double click and let's call this
+hair one
+here one
+when you create a new material
+this node and this node are made
+automatically
+so number one is already made we now
+need
+to add number two three and four two
+tells this material to use
+the uv coordinates we just made
+this mapping here adjusts
+how the map is made like you can scale
+it
+and here noise texture this creates kind
+of like a random noise texture
+so we'll uh we'll
+attach this noise texture and then
+adjust these numbers
+to adjust how the noise looks
+i hope that makes sense so let's go to
+shading
+zoom in here turn on materials in the
+viewport
+and we'll zoom into our material
+so this one here yep that's our material
+so we will do
+shift a shift a
+s type in t x
+to get our texture coordinates shift a
+s m a p to add our mapping
+and shift a s to add our
+noise
+there we go
+so you can see um let's see
+in our example
+image a reference image this little star
+shows you what this node should look
+like
+i'll show you how you can preview that
+so if you go into the shading panel
+say i want to see what this node looks
+like i can drag that
+to the base color you can see okay
+that's that's what it looks like
+so that's how you can preview where
+those little stars are
+okay so we'll grab our texture
+coordinates
+and grab the uv and drag it to vector
+this tells
+our material to use the uvs we just made
+attach vector to vector
+this will allow this mapping node
+to adjust how the noise looks and now
+let's plug it in
+okay looks nothing like here
+but if you play with these things here
+you can see it
+adjusts how this uh this noise looks
+so we can you know adjust this
+to a higher number so it gets smaller
+and then we can make this a lower number
+so that'll get
+longer so let's say
+let's say 0.1
+maybe that's too even so
+0.15 okay that's
+i think that's pretty good can play with
+these two and it's it's nice you can see
+it real time so if you adjust this it
+makes it a finer texture
+and if you adjust this it's kind of like
+a contrast so let's make it a bit more
+punchy
+nope too much maybe 5.5
+then roughness adjusts how
+crisp or soft it is 0.5 is fine
+and distortion kind of adds a an extra
+noise to it
+um let's go
+like that and you know what i think
+this should be 0.1
+uh i think that's
+yeah i think that's good and you can you
+can adjust this yourself
+to get the look that you like
+okay
+okay let's well first let's
+group these with
+ctrl j
+this just helps to keep things organized
+right click rename noise
+just turn on that
+okay shift a s r
+a m for color ramp
+drop that right in between there you can
+see the curve automatically updates
+so nothing happens initially but if you
+change color
+yeah if you change a color you can see
+the whole color updates
+so let's get this color to be the way
+you like it so let's add a couple points
+here
+um i'm going to try and make her
+blondish like a strawberry blonde or
+redhead
+so let's do that make this a little more
+yellowy
+um it's kind of dark so let's go to
+turn off the scene lights and world
+lights
+see that's
+good and let's make this a little bit
+darker
+what's nice about this is it's plugged
+in so you can see it real time and you
+can adjust it the way you like it
+so let's go for something like
+something like that okay and then we
+will
+add a ramp right now the texture is even
+all the way across we can add a gradient
+so it'll be light here dark here and
+light there or
+whatever whatever we want so
+shift a s m a p for mapping
+a s g r a
+for gradient texture
+and then shift a s r a m for ramp
+color ramp okay so same thing
+we get uv vector
+vector the vector color to pack
+so we can preview this so we can see
+what we're doing
+while we're doing it so we want this to
+be
+a gradient so light to dark to light or
+whatever we want
+right now you can't see anything
+because the orientation is the wrong way
+so mess with these here
+so it's not right
+let's try this one okay there we go
+so let's uh let's see here
+let's add
+so let's get some kind of ramp going on
+and then we're going to combine this
+ramp
+with this color
+shift a s mix add a mix
+rgb
+so let's see here
+so this is what we'll use to mix the two
+so the mix shader it's got
+two uh two elements color one and color
+two
+and if you adjust the fact hit it it
+adjusts
+the strength of each one of these so
+right now if you
+have it at one it's all red if you have
+it at zero it's all white
+so the fact adjusts
+how much is red or white so we're gonna
+add
+color to color one here so now you can
+see
+if it's one it's all red if it's zero
+it's
+this texture
+so we're going to combine so now we're
+going to change this fact so that way
+instead of being all red it'll be
+red at the top this texture at the
+middle
+and red at the bottom so we do that by
+attaching it to the fact
+uh well it's the reverse but you get the
+idea so now it's red here
+it's the red is up here
+the middle is this texture and the
+bottom is red
+so if we make this
+there okay and you can
+play with this also to get the look you
+like
+so you know
+okay
+so let's uh join some of these together
+ctrl j let's rename this
+uh ramp
+you can join these two and call it
+like uh color mix or color combined
+okay
+let's go and add a bump map shift a s v
+u m add that there we'll use the same
+noise texture and drag that to height
+and drag normal to normal
+um it's hard to see
+because the lighting is super even so
+let's add some
+or turn on our scene and scene lights
+and world
+and unhide that okay so now you can see
+we've got a texture there
+no bump oh let's
+go to edit mode a face
+shade smooth
+uh let's also go to
+where is it normals autosmooth
+180 okay uh
+where were we oh yeah
+okay so you can see we've got
+we've got our bump no bump
+let's make this like 0.5
+let's also add shift a s
+a anisotropic
+shader so this will uh preview this
+plug this straight into here
+so you can see it and
+you can see it's this big metal
+thing let's color this a bit
+and let's use the same
+noise
+that's that we'll go to normal
+and let's use the same uvs
+okay so it's this nice
+reflective shiny thing
+unplug that
+and let's combine
+these two materials
+so shift a s m i x
+we will do a mix shader this was a
+mixing color this is mixed shader
+works the same way plug that in
+plug that in plug
+that in
+and you can see this is
+our shader and this is all metal
+so you can adjust it to how you like it
+okay
+okay let's add a sub d to this
+go to some d surface
+okay we want the hair to vignette out
+in individual strands or what looks like
+individual strands
+so we need to add a transparency to it
+so to do that we will shift a
+s or a m for a ramp
+we'll need two of these shift a s
+d m a t for a math node
+m a t for a math node
+and a transparent t r a
+make sure you don't pick translucent get
+transparent
+okay so similar to how
+this ramp makes it dark in the middle
+and light on the top and bottom
+you want to do something like that but
+inverse it so we'll
+grab this guy plug that in here
+grab this guy plug it in there
+and we will
+see here i want to
+add some points make this
+dark so it'll be a black
+is transparent so we'll make the roots
+transparent and the tips transparent
+so we'll drag that up here
+we'll make the bottom kind of fade
+like that
+okay now we're going to bump it up
+by doing a divide so we'll
+grab this one and put that there
+and we're going to divide it by
+this noise texture
+okay so we can see what that looks like
+okay so now you can see the the ramp
+gets opaque in the middle and
+transparent on the sides
+using that same hair texture
+let's um let's bump it up some more so
+we'll grab
+this guy attach to that grab this one to
+here so we can see it
+so can't see much yet but
+if you drag this you can see it
+gets punchier so let's add
+you know
+maybe not
+so something
+like
+that
+so i mean you can tweak this to your
+liking
+but basically we've got this black color
+um is transparent so we got that
+so now we need to combine these together
+so we will
+oops
+we'll add another mix
+shader here
+so what we're going to do is we're going
+to
+put this one here and this one
+here
+and then we will so so um
+what this does
+okay so
+if we go to zero it's all color if we go
+to one
+it's oh
+okay so we need to
+go to our material
+and go to the
+viewport display and make this alpha
+hashed
+okay so now it goes invisible so
+back to here if you go to here it's all
+color over here it's all
+transparent so we're going to adjust
+that with our transparency map up here
+and you should see
+oh
+that's the exact opposite
+of what i wanted
+okay here we go okay so now we've got
+a hair tube that goes transparent at the
+roots
+looks like strands of hair and
+transparent at the tips tonight i think
+that's too much
+so let's um
+let's pull this
+down
+yeah that's better yeah okay so now
+we've got our
+we've got our hair tube all ready to um
+attach to the head
+okay let's go and make some hair so we
+will
+go to the modeling
+window let's turn on our shortcuts
+we will hide let's see
+hide the reference images
+let's lock out these um
+templates by turning off the selectables
+so not selectable these
+lights let's lock those out
+let's also bring our character back so
+we can build the hair around our
+character
+and let's make our character
+unselectable
+and let's look at our hair to see what
+we're going to make
+okay so let's hide these these are
+reference
+samples
+let's hide that and that
+so this is what we want to make first
+let's
+hide these so first we want to make
+this large chunk right in the back
+and then we want to make these two side
+large chunks
+so these these hair this hair that goes
+in the back of the head like that
+it's really there just to
+plug the holes so we'll use big pieces
+you're not going to see them that much
+and we can make them nice and thick
+and you just don't move them that much
+when you animate them
+okay so let's hide that
+let's go to our hair oh forgot to apply
+the colors
+so we already did the uvs and everything
+for these so let's
+grab these two and then
+shift click the one with the hair
+texture we want
+okay ctrl l
+which copies and i'm going to copy the
+materials
+and now they all have the same material
+okay let's see here
+okay so
+this technique uh you end up creating
+lots of
+hair and lots of hair meshes
+you can see mesh and we create lots of
+hair
+paths and so it gets confusing
+and these are not named correctly so
+this is hair tube large
+mesh large path this is
+hair to medium mesh and medium
+i mean this should be small okay this
+should be
+hair tube small
+one mesh
+and the path that goes along with it it
+should be
+small
+path that could have sworn i already did
+this
+okay so we've got small mesh and path
+medium method mesh and path
+and large mesh and path
+okay that's good let's also
+make these same folders or collections
+so new new new
+nape
+side
+and top side
+okay
+let's grab our hair shift d to move
+um m to move
+and move it to a folder find the folder
+we want
+select it to move it there let's go to
+the side view move this
+so we want to move this is the so i'll
+show you the workflow for
+a few pieces of hair it's going to be
+the same thing over and over and over
+again for all
+all the hair so let's let's just walk
+through a couple of them
+so g to move it i'm moving the root to
+where i want the hair to come from
+it's going to start there and if you go
+to control 1 you go to
+back view if you hit number pad you go
+and look at what you have selected so
+you could
+move this manually um but it's not
+perfectly centered it's a little bit off
+i'll exaggerate it for this
+example so that's you know
+it's it's not perfectly centered and in
+my imagination
+blender works better when you move
+things exactly
+don't know if that's true or not so what
+we can do
+usually if you want to just move a mesh
+you know it moves the origin point to
+center you just
+click here and hit zero and it moves
+but it didn't move only the origin moved
+you could similarly grab the path hit
+zero
+and the mesh and path move which looks
+good but when you click on it
+the origin has not moved this is because
+the mesh is being modified by the um the
+curve modifier
+right there so it so it's weird
+so um what you could do so there's two
+ways to solve this
+and as you're laying down your hair
+sometimes you'll notice that
+the origin for your mesh is messed up so
+i'll show you how to fix that
+so um i can't see my
+path so i grab the path that grab the
+hair that i want to
+mess with then i find what number this
+is
+click the corresponding number and now i
+have the path and you can see the origin
+is where it should be
+i want the 3d cursor to be there so
+we'll hit shift s
+and 2 to bring the 3d cursor to the
+origin
+then i'll grab the mesh hit object and
+set origin to 3d cursor so that's one
+way to solve it if you see that your
+origin for the mesh is in the wrong
+place okay
+but what if we want to avoid that and
+just
+move this without changing all that
+so we can do this we can
+grab this or the path you can grab
+either
+go to the x and copy
+whatever's there then shift
+and then control shift
+and pick both of those things we want to
+move
+and we can just hit g and x to move it
+on the x-axis but
+which way do we go so we want to go
+um this way towards the right and if we
+look at this transform gizmo you can see
+that
+we're going opposite of the red x
+and the line which means we're going
+negative
+if we had one to go to the left we'd be
+going positive
+okay so we'll hit g and x
+and since we're going negative we will
+enter negative on the keyboard
+and then we will hit ctrl v to paste and
+it moves
+the mesh and the path exactly
+to the zero
+okay let's so we have the hair placed
+now we want to shape it so let's grab
+the
+grab the mesh find its corresponding
+path
+this i know this doesn't make sense
+because there's only two
+objects here and so of course it's the
+other one but when you have like 30
+this helps a lot so grab the mesh pick
+the corresponding
+path go to edit mode and just
+drag the path until the hair is the
+shape you want to be
+up by the scalp feel free to add lots of
+points in your path because that's not
+going to be moving at all
+you know i take it back it doesn't it
+doesn't matter too much
+because we won't be animating the path
+we'll be animating the hair
+so add as many points as you want
+and there
+okay nice little curve so we have the
+path in place
+and the hair is shaped like we want it
+but it's
+it's really too long it's weird
+so let's fix that make sure our
+transform around 3d cursor is active
+go to edit mode a to select all
+and let's go to
+um s z
+to shorten it and it's that's too short
+let's make it
+so just the tip of the path is there so
+you can
+select the path that way if you want to
+okay
+um let's make it wider also
+so we're good we're going to scale this
+out a bit and y
+like that
+and let's see here so that's pretty good
+now make sure you don't scale in object
+mode
+if you scale it in edit mode the scale
+stays
+zeroed out if you scale in
+object mode then this will get messed up
+okay so now we want to shape this hair
+to follow the head so let's go back into
+edit mode
+now so this is where this gets this
+this method of modeling hair gets
+weird um so you would think you just
+you just grab it and hit g and move it
+but you see
+i'm i'm hitting g and i'm moving my
+mouse to the left
+and this is what happens so click now
+move to the left
+and you can see it's really like what is
+what is going on it's not working um
+this is because
+this hair is being modified by the um
+the curve modifier and so
+so it's just it's just weird so if you
+turn this off you can see that
+this is this is what the shape of the
+actual hair
+so when i'm clicking g and moving my
+mouse to the left
+this is what's happening but
+when you turn the modifier back on
+you can see that move here
+that's what happened so you have to
+understand in your head how the hair is
+actually shaped even though you can't
+see it and then move it
+according to that knowledge okay really
+weird
+um you you get used to it so let's see
+what can we do here
+no no
+i thought there was a way to ghost it
+then maybe not
+okay so so how do so how do we do this
+it's weird how what do i do so you can
+grab it
+and you can hit g and y
+and well that's not going to work okay g
+x
+okay that's closer but you know i also
+want to be
+wider so let's go to g
+y so it's wider oh i want proportional
+editing on
+g y and make this bigger
+okay that's that's better
+maybe pull this towards the skull g
+so it's
+you know it's a bit weird but but you
+get used to it
+g
+too much
+okay um
+oh shoot only half of it moved okay
+so let's turn on our mirror our um
+symmetry modifier so this
+too is going to work funny so let's just
+test it first
+hit x like you think it should be and
+let's just free hit g
+and see if it mirrors and it does not
+let's try y and okay
+that looks good so let's move this
+hair and shape again i'm going to grab
+more this time
+g y nope gx
+and g y
+okay i'm going to
+maybe pull my mirroring yeah
+pull that in some
+let's see here go to point mode and
+grab that point there
+if you can't see it you can go to
+this mode and hit shift alt z to go to
+x-ray
+and okay i've got selected then
+gx and pull it back and scroll that
+i think i want to cover more of this
+bottom part because
+this hair is covering more of this area
+here so let's go to edge mode grab a
+couple of these
+g x
+that's good here g x
+maybe a little bit more
+gx now gy
+okay that's pretty good
+so now i've got the hair kind of
+covering the
+empty spots i want to cover and let's
+add our
+second hair let's see here
+so same thing grab it shift d
+to duplicate you'll see now this has a
+zero zero two
+instead of zero zero one hit m
+h t nape
+same thing let's move this to where we
+wanted to start
+up there let's start around the same
+place
+and let's move this towards the center
+gx and since we're not moving this
+accurately
+uh with um with this
+transform information here it it works
+like you'd expect
+but let's move this
+there
+so you can see that
+this this hair is
+totally not following this this uh skull
+it's um it's at a an angle
+peeling off that's okay all we're
+concerned about is making sure we get
+the root where we want to be
+okay so now let's bring our 3d cursor
+back to the root shift s and two
+and then let's shape our path so let's
+see here grab that
+number two path number two edit mode
+let's grab some edges so i will want to
+explain let's see so
+so if you move the second vertices of
+your path
+to the left or right of the first one
+then it changes the
+orientation of this mesh
+so see if you hit g and you just move it
+around you can see it just
+it just kind of moves around that's how
+this
+path modifier works the curve modifier
+works it's okay
+so what i like to do i like to use that
+fact
+to easily set
+the angle so move that point close
+i'm going to hit g oops i have
+proportional editing on turn that off
+um g and now i can get this
+kind of where i want it i'm going to
+make this hair wider
+so let's go to the mesh edit mode a
+scale in y and yep that's good
+um you know what i don't want the whole
+thing wider
+i want more of the top wider so i'm
+going to go to path mode
+and alt click alt shift
+click turn
+proportional editing on and scale y
+so it's a nice gentle slope
+like that okay so that's good
+now we want to shape the path so we will
+grab i'll see here number two grab path
+number two
+go to edit mode and
+let's move this around
+with proportional editing turned off
+so g
+so this will be the exact same workflow
+as the last one
+so i'm going to run out of things to say
+about this because it's
+the exact same thing
+but let's just let's just
+watch me flounder about here and
+try and make hair
+e to extrude
+e to extrude
+and okay i think that's nice
+maybe not perfect let's move this
+in a bit and then let's move it
+out at the very end
+okay that's kind of
+good yeah good enough
+too long let's make it shorter go to
+edit mode
+make sure 3d cursor is on up here
+a to select all s z to shorten it
+and it is shorter
+let's um see here
+so i don't like how this hair back here
+is not really laying flat against this
+hair
+here um this hair piece is going to be
+below the rest of the hair so i want to
+be a little bit a little bit flatter
+filling space is good but um i feel like
+it needs to be flatter
+so what we can do is go to edit mode
+which we are in
+alt click to select a loop
+turn on proportional editing which is on
+and
+s z huh
+s z oh
+sorry r z and
+we can rotate the air sk s is scale in
+case anyone
+is wondering r is rotate
+r c and it's kind of
+nice you can you can get some cool
+shapes you can
+you know really twist it up if you want
+if you wanted to
+let's see here i think i'll move the tip
+a bit also
+r z so it's like
+that okay that's pretty good
+then let's pull in some of these
+faces to fit the back of the head
+so let's grab these
+and gy oops turn off
+i will leave partial editing on and just
+make it smaller
+gx
+where oh here we go
+and let's grab some of these gx
+let me grab a couple of those
+so i'm trying to keep this a little bit
+thick maybe we can make this thicker
+here
+because i'm trying to fill the space so
+scale y now yes scale y
+no scale x
+x square y
+let's flatten these out a bit
+too let's rotate it
+okay
+maybe close that path up a little bit so
+grab number two pull that in
+okay so that's a good underlying hair
+i think it's a little thick back there
+it's flattened out some okay
+uh yeah i think it's okay so you should
+spend more time than this i'm just gonna
+kind of burn through it
+for the sake of the tutorial and time so
+we've got this
+the way we want shaped let's go to add
+modifier and find our mirror
+oh and it didn't work so that's because
+mirror mirrors around the
+origin but you can also use a
+different object's origin so let's
+unlock our character because i know that
+character's origin is at zero
+and find our mirror modifier oh
+leave these
+off you know how we're modeling the body
+you want to leave merge and clipping on
+because
+we're merging the two halves together
+this we don't want these to merge so
+make sure those are off
+click um mirror object
+this tells they may recommend what
+objects origin to use and then click
+that and it
+mirrors okay there we go so our nape is
+done
+and let's make sure
+it's all in the right folder okay there
+we go okay so that's
+that is our nape of the hair and we're
+going to do that
+like 15 more times
+okay so let's build the sides of the
+hair let's
+preview it here so we'll get a couple of
+pieces of geometry to
+i guess start above the sideburns and go
+over the ears
+it'll come on the inside of this hair
+and then we'll put a couple pieces to
+cover the
+hairline so let's do that so let's grab
+i think we should grab um the middle one
+for the ones over the ear
+so we'll shift d to duplicate
+m the move put this into side
+let's um make sure it's ends okay it's
+in the right place
+go to here let's move this did i hit
+what
+g okay hmm
+i think i i think i hit h but i thought
+i was trying to hit g
+it's hard for me to see my keyboard
+while i'm
+recording this
+because of my microphone setup
+so let's get this in place here
+and let's go to
+path edit mode grab these you know what
+i'm going to
+you know what i forgot to do i forgot to
+move the 3d cursor so
+we just placed the hair and path where
+we wanted to start from
+grab one of those two shift s and
+two and now the 3d cursor is at
+the origin now let's shape the hair
+so let's grab uh shape the path
+edit mode a i'm going to i'm going to
+just make this shorter
+because i want some detail over the ear
+let's go to side view
+remember once you move this
+it oops let's turn off the portion
+editing
+once you move it it shape it controls
+how the
+hair is oriented so
+which in this case is not going to work
+because you want the hair to go
+backwards and it's going to make it kind
+of a horizontal so
+that's okay so let's just make this
+path follow the flow we want it
+to have so something
+let's see here
+something like
+that
+i'm trying to imagine like this is you
+know
+two inches wide so try to imagine
+what this looks like following this path
+when it's two inches wide
+and i think i think that's right
+um also you can see the mesh is too boxy
+and poly polygonal
+if you grab that go to edit mode
+a and s z
+and we'll scale it smaller like that
+you can see now it's it's um
+sharper i mean not sharper it's got more
+resolution but it's still
+pretty boxy so you can hit control r
+and click it ctrl r click and you can
+see the path
+just gets um the mesh gets smooth and
+follows the path better okay
+so let's keep editing that path over
+here
+let's see here let's bring this
+in some
+let's have it come in a bit
+oops extrude
+extrude extrude let's like
+yeah okay
+i think that's pretty good and
+this next layer of hair is very similar
+to it so i'm just going to
+just going to grab these two and shift
+d to duplicate it i'm just going to move
+it
+move it out of the way for now now just
+i'll just use the same thing
+to make the next one so let's rotate
+this a bit so it's
+in the proper shape let's remember
+that this is actually
+in this orientation so let's keep that
+in mind as we're rotating it
+we're going to um grab a loop
+turn on proportional editing and rotate
+it in z
+something like something like that but
+what we're going to see
+is our z it's going to look
+like that so weird
+but it's low geometry
+oops
+and you can scroll your mouse wheel with
+proportional editing to control the
+how much influence it has
+so i think that's good
+let's check the bottom here
+r z it's uh you can see this
+dotted line it's because it's rotating
+around the 3d cursor it's okay you can
+just
+kind of do that too much
+okay
+i think that's pretty good
+let's add the path a bit so number one
+number one
+grab that and
+well there's a hole there but i think
+it's okay
+because
+we're going to have more hair
+over that now you know what this one's
+under so this one
+probably shouldn't have holes so let's
+move this
+back we will right click and subdivide
+to add a point
+and we will
+grab mesh edit mode face mode
+alt click turn proportional editing on
+rz and let's narrow the influence
+to that okay
+anyway
+oh there's a big bald spot there
+so let's fix that so remember when we uh
+so we want to cover more of this here
+but when we move um where the hair
+starts
+we want to do that in object mode
+so let's bring the root to where we want
+the hair to start
+shift sn2 so our origins
+uh at the root
+and let's see here let's pull it
+in just a bit
+and then we'll go to edit mode and grab
+this um let's check out our mesh so you
+can see
+this is this is i guess the biggest
+problem with this method
+is as you're editing once you start
+rotating this thing
+um it's all it doesn't
+scale and move clean so if you hit
+scale x you can see it's
+all skewed or scale y you can see it's
+all
+messed up
+so you know this is not the perfect
+method but
+hopefully if um
+you don't mess with it too much you know
+it still works so you can see right now
+rotating is still working for me
+rotating it seems like it works pretty
+good once you start
+grabbing certain sections and moving
+them that's when it gets weird
+so like say let's take this and
+g x now g y
+well it's it's still working but
+if you mess with a lot it starts to get
+weird
+um okay i think that's pretty good
+excuse me let's get this
+next layer on here
+uh you know what i want this wider
+so let's scale now
+scale x
+crease
+scale x uh
+if you um for proportional editing you
+can pick different
+um profiles that affects
+i guess the rates of the influence
+so this one um
+it's hard to explain this one the curve
+starts off
+stronger and it tapers off where this
+one
+the influencer curve starts off
+shallower and it
+slowly gets stronger so it just uh i
+guess
+just play with it until you figure out
+what you like
+scale x
+um
+scale x
+hmm i don't i don't like that
+okay i'm i think i'm
+once again wasting time
+okay oh i made it worse okay let's put
+it back
+okay so that's done now let's do the
+same thing
+one more time let's move this in place
+so it starts you know kind of
+here
+let's grab let's see this is number two
+grab path number two
+let's go to the side view and shape this
+and let's see here
+let's see here let's just
+shape this so it's nice and flowing but
+i kind of want to come out wider
+and we can probably curb it to avoid
+that collision
+okay okay that's
+i think that's good oops
+then let's grab the mesh go to edit mode
+face mode
+oh i forgot i wonder if that messed it
+up i didn't move my 3d cursor
+shift s2 okay i didn't
+i guess i didn't move the mesh or the
+path at the very start so at the very
+root of it so it's okay
+let's go to edit mode a and let's see
+here
+no we want to rotate so
+alt click
+rz
+and something
+i want this to be parallel with the
+scalp
+in fact i want this to be
+parallel with the scalp so we'll go to
+object mode shift
+s2 edit mode it's still selected
+r z
+r z so that's the reason why i want this
+to be parallel with the scalp
+you can see how the hair
+it tapers out but it's a tube
+so there's an inside and if you can see
+it
+there's a transparent map
+on the outside and the inside of the
+hair
+so kind of like ideally
+ideally only the outside one's visible i
+guess it's okay
+but um either way if this edge
+is parallel with the the head
+it'll look more like the hair is just
+flowing into the head which is what we
+want
+okay shift s2
+let's go back to the path
+and pull this in nope
+it must be a mistake so we grab the
+whole thing
+g and pull the whole thing in
+and then grab the path edit and
+pull this out
+okay that's better
+and i think i want to
+pull this out somewhat so let's
+grab these now you know what i think the
+path will work better
+subdivide this guy and grab these guys
+and pull them out
+so gx
+i'm taking careful not to move this very
+first one
+okay
+grab the mesh oops
+proportional editing and
+r z
+okay
+i think that twist is actually bad
+so it's r z and kind of
+untwist it
+okay that's better
+i actually want this one wider so let's
+go to edit mode
+a i think this is not going to work
+scale x
+yeah it doesn't work because this path
+is twisting
+this mesh is twisting
+but up here it's not twisting too much
+so
+we can do that because i wanted this to
+cover
+more of the scalp here
+edge
+scale x
+okay so this
+messes with things but i'm going to
+rotate it so rotate
+y
+okay just there you go
+okay
+that's not good but okay let's just move
+on we can fix all that later
+let's not dilly dally too much on this
+okay so let's get some hair for the
+hairline
+so we'll grab that shift d to duplicate
+and let's move this to the
+top side i mean the side
+here we go let's move this in place
+let's see let's do
+let's do the middle one first
+let's go over there let's go to front
+view
+side view we want this to be on center
+so let's
+check our information window here
+it is uh on x it is
+this amount copy it and i want to move
+it
+negative this amount because it's
+opposite this
+red line so
+g x negative control v
+oh that didn't work
+okay so when i selected these two
+so you can see how these two are both
+orange
+that's that's because
+this dimension here is referencing
+something else
+that i had selected previously i'm not
+sure what
+so uh so if you just shift-click
+um or yeah shift-click one of these two
+that you're moving
+you can see it one of them turns yellow
+so now this number is reflecting
+this object here the yellow one so now
+we can control
+c uh get that
+and then we will
+hit g x negative
+control v and now it moves in place
+okay now let's grab our path
+go to edit mode and let's
+drag this in place i'm just going to get
+these
+roughly closer
+first okay
+and let's just shape this
+so i'm just getting the um
+shaping the control path
+outside of the head slightly knowing
+that when i scale the mesh
+it'll be okay so now i need to shift
+s and 2 so our 3d cursor is
+at the root of the hair edit mode
+a s z and scale and the whole thing
+squishes up
+okay she looks
+really funny looks like mrs t
+for you old folks out there who know who
+mr t
+is okay so let's go back to our path
+uh let's go to object mode grab our path
+go to edit mode and e to extrude
+pull that down a bit and i think
+these can go closer
+and i think i can make this hair not as
+thick so let's grab this ctrl
+go to edit mode and s
+x no s that was
+y s x
+so um the hair on the sides and back
+here
+we were making them bulky um so it hides
+all the holes
+and it takes up space up on top
+the hair wants to be as thin as possible
+because when you layer on
+the the main hair um
+you you don't want this hair to take up
+too much space because
+the hair in the top head is is it's
+smaller has less volume and so
+if you're layering new hair on top of
+this the whole thing gets really
+bulky or puffy so make this top part as
+thin as possible
+sy let's make it a bit thinner
+you can kind of do a quick preview
+to see how it looks
+and i think we'll
+get the path to be a bit closer
+like that and then let's curve this hair
+a bit so we'll grab that
+what do i do let's um
+grab some of these faces
+oops like
+that let's
+get mirror on and
+g x g
+x o
+g x
+and
+that's pretty good
+pull some of these down
+gx pull that down
+so right here i'm i'm looking at the
+very
+tips of this hair um
+you can see how it looks like it's
+doubled that's because
+this hair texture is on the
+um see here so you can see it's this is
+actually an open tube
+until that hair texture is on the front
+side and on the back side
+and on the back side i know if you can
+see that it is
+halfway sticking through
+the um the actual scalp that's why over
+here you can see it's
+you can see only the tips of that
+texture because it's only halfway
+exposed so
+i'm going to try and get this hair so
+that only the
+outer texture is visible right where the
+hairline starts
+so gx let's pull it down
+like that and let me
+pull it a bit a bit more
+what's going on
+that was weird
+so that looks pretty good on the front
+edge there yes this is popping through
+here let's fix that
+so let's grab that gx
+pull turn off partial editing and pull
+that up
+and pull this one up and that's
+that's good okay
+yeah i like that i think we should we
+should leave it like that that's cool
+okay let's grab some more hair here
+shift d to duplicate
+m side
+let's go to side view and move this up
+so this is you know this is i'm doing
+the same thing over and over again
+i'll i'll go through it a few times
+because it's a bit of a weird process so
+so if
+you've got it down um just skim through
+the rest of this video and just look for
+uh
+i guess the beginning where i lay out
+each piece of hair so you can kind of
+get
+the download and the strategy for it but
+for the actual technique it's the same
+thing over and over again
+so um i'll talk to it a few times and i
+think for the rest of it i'll i'll
+probably just
+do it and record it and help me i'll
+like speed it up some
+okay so placing the root where i think
+it should be so you can see here let's
+see this this is a good example of a
+some weirdness so
+their hair looks like it's i don't know
+around
+three inches wide and it looks like this
+gap from the hair here all the way to
+there
+is like three
+four and a quarter inches or so um
+so it doesn't so we'll need two of these
+instead of
+one the example had just one piece there
+so i'm just trying to figure out where
+to place it
+so let's see here so i think if i put
+one here and one there it'll overlap on
+the side
+and over here so let's do that so let's
+move this
+oops
+like
+just checking to see if my root is right
+outside the skull
+and that looks pretty good shift s and
+two so now our 3d cursors
+right in place let's see number four
+mesh number four
+path grab these points
+and let's just shape it
+so i'm just gonna get all these
+just closer and easily within reach
+okay so now i think
+i'm going to
+so those points look like they're all
+roughly outside the head but
+um we want to fill
+i want i want these points to be further
+down
+i'm also lazy so i want to work as
+little as possible so
+let's just grab these go to front view
+make sure we have um transform around
+3d cursor on and we'll rotate in
+the y and just rotate the whole thing
+down
+like that
+and then we'll scale it in
+i think that's pretty good
+maybe some more oops rotating why
+like that
+scale x
+scale
+y c
+i don't think that saved any time i
+think i could have just moved it
+manually and
+probably just as fast so that didn't
+work
+a test z and let's shorten this whole
+thing down
+s z so
+or something like that
+let's make it a little bit skinnier says
+what
+sx it's a bit skinnier
+and then let's rotate this so let's go
+to
+face mode and alt click
+turn off x-ray
+turned on proportional editing and rz
+let's rotate it let's just
+rotate the whole thing
+okay that's pretty good let's go back to
+our
+path so number four we want number four
+and let's pull that
+turn off for partial editing pull that
+in
+extrude
+extrude and extrude
+i think that's okay
+let's see here maybe a little skinnier
+a s y oops
+a s
+oh so you can see after i scaled it now
+it's
+after i rotated it now it scales funny
+and that's because if we
+turn this off you can see that this is
+now at an angle
+so scaling is not going to work super
+clean anymore
+which is it's okay what we can do is we
+can let's see what we can do
+we can do alt alt s instead so let's
+grab
+some of these go to x-ray and grab
+those and let's un-grab
+those and then
+alt s and this just scales uh whatever
+faces you have selected
+normal uh in its normal direction
+so you can see normals where was it
+no i could have sworn there was a oh
+was that it
+okay so this is the normal direction
+for each face so if you hit alt s you
+can see it moves it
+like if you look at if you look at this
+if you look at it's hard to see look at
+this first one here
+if you hit alt s you can see it moves it
+along that blue line
+that's its normal direction so it
+doesn't matter
+how it's scaled let's find the same one
+so this this is the same one right there
+if you scale that it moves around along
+its normal direction
+here too so this is a nice way you can
+selectively scale
+even though the object is rotated
+i hope that made sense alt s let's
+let's uh let's i want to grab a few more
+faces here when i grab this row
+so we'll do select m for more and m for
+more
+and then we'll unselect these ends
+here and then alt
+s scaled in
+yeah i like that okay
+now let's pull some of these
+in
+and then we will move it let's turn off
+x-ray
+and g g x
+uh turn on proportional editing g
+x and let's scroll the mouse wheel to
+make it
+less powerful g
+x and g y
+and i think that's pretty good
+again this is pretty rough so you
+probably want to spend more time in this
+but um well it's a tutorial so i'm going
+to go kind of quick here
+let's grab these edges here and
+turn off proportional editing and rx
+and okay
+so i want this to be a little bit
+further forward
+but if i just move it then it's not
+squared up with its origin if we know
+that we're done with this and we're not
+going to change it again
+then yeah you can you can probably go
+ahead and do that but
+i might change this later so i'm going
+to be safe
+and just oops grab these two
+and move them slightly forward
+so i have it where i want it
+i'm just making sure the front looks
+nice this is we'll fix that up here
+we'll fix this down here but it looks
+like it's lined up nicely
+then i'll go back to edit
+this path and pull it up a bit
+okay and then grab the
+mesh point and
+pull this let's
+move this in g y
+g x
+gx and gy
+too much
+okay
+let's make this one look nicer here
+and let's pull this up
+like so
+okay i think that's pretty good
+and that's not a big deal there
+okay so let's see here
+i think i think we can
+use this same one and just duplicate it
+so i'll grab
+this one here and it's corresponding
+path
+and then duplicate it
+let's just move it
+so let's kind of move it in between
+we'll put the root
+like right there
+okay let's move this back in
+very close to the scalp
+let's pull that up here shift sn2
+let's just rotate this in place first
+r z uh let's turn up to portion editing
+r z
+so the whole thing moves
+and will this work
+looking at the hairline here
+oh so the hair needs to all come forward
+quite a bit more
+okay so let's do that
+so let's grab these gy
+to pull that forward
+and i think these also need to come
+forward it's
+yeah it looks too far back
+i think these also have to come forward
+so it's one and two one and two let's
+move these
+all forward
+okay maybe we'll stagger this a little
+bit forward
+okay i think that's better
+so let's let's just make sure okay so
+i've i've thrown everything off here
+so i need to re-um
+line up everything
+let's see if just moving it will help it
+okay that seems okay let's
+move this one in also one and
+one g x pull that in
+and let's shift s
+and
+shift s and two okay that's weird go to
+edit mode
+grab that r
+z
+and let's let's just move the very end
+of this
+out
+r z let's scroll
+out
+okay that's pretty good
+and then let's see here
+maybe we'll rotate this to
+r z and increase the
+strength slightly
+what's happening here
+it's not liking my rotate that's
+so so i think i've added this so much
+that now it's starting to get finicky
+so
+okay that's good this one looks pretty
+good
+now let's go and blend between
+this one and this one
+so let's find number five so you can see
+here i'm starting to get a lot of
+pieces of hair so i'm finding number
+five and a corresponding path
+grabbing that and
+let's move this
+kind of in between like
+that
+and let's pull this in like
+that
+in fact i think i'm gonna have this
+piece of hair
+sit below this piece of hair here
+because right at the front which is the
+only part i'm really
+concerned about right now this hair is
+over it
+and so this will fit nicely below it so
+let's go and grab our hair and our path
+and let's move this a bit lower
+and bring it in
+let's grab our path now go to edit mode
+let's just move this all in place
+here
+so i'm going to have this top part it's
+going to be below the hair up here but
+the bottom part will be
+above this hair over here
+so i'm just moving it so it's kind of in
+between the two
+and then i'll rotate the mesh to make it
+blend
+nicely just pull this
+down and
+like that get this one down here
+and i think back here it will probably
+just start to flatten out towards the
+head
+or maybe fill this hole there a bit
+and we'll rotate this mesh to cover up
+this hole up here
+that's pretty good grab the mesh here
+again check this part that matters most
+and that's pretty good
+so now let's grab
+say those
+oh make sure we got a 3d cursor in the
+right place shift s
+and 2 and then
+r z
+and something
+like that so now it's going over this
+bottom hair
+close to under this top here
+r z and
+some more rz
+okay let's individually push some of
+these in
+like that let's pull this one out
+here
+and let's grab a f uh edge
+did i get it yeah
+all right c and
+okay i think uh
+this hair is pulling up too much so
+let's grab its corresponding
+path and pull it
+down a bit
+like that
+so i'm looking down here to see how that
+looks
+and i think that's better
+okay now we got a little patch up here
+let's fix that so we'll go to x-ray so
+we can see it go to face mode and grab a
+few faces
+um checking to see if the 3d cursor is
+in the right place which it is
+and then r z and i'm just gonna pull
+that out
+okay
+okay i think that works pretty good it's
+really messed up back here but
+that'll all be covered but the front
+looks
+pretty nice so let's
+go to object mode and mirror some of
+these
+so go to mirror
+grab our body do the same thing a few
+times
+mirror
+grab the body
+and after this you will know the mirror
+command by heart
+mirror grab the body
+okay okay so now she's got
+all the the underneath hair now we can
+add the main hair to the top
+okay so now let's see we need so we have
+the side
+hair done we have the nape done next we
+need to do
+the top sides
+top here okay so next we're doing the
+main hair this is like everything okay
+you can see here the hair got a little
+bit too thick
+so we lay um these outer hairs over it
+it'll all be they'll have to cover that
+so it'll push our hair out a bit
+um i think it's not too much so it
+shouldn't be a big deal
+if it is we can always go back and just
+edit that
+but so next we will make this outer hair
+so we're going to make this in halfs
+halves and this one will be just one
+giant piece
+so let's uh and you can see we're using
+some medium-sized ones
+some small ones and some
+big ones so it's kind of a combination
+okay so let's do that so let's hide our
+example here
+and let's make sure we got a top side
+folder that's not named
+weird maybe just call this outer
+outer here outer hair
+makes more sense
+and then let's grab let's see where do
+we start start from the back or start
+from the front
+i think we will start from the front
+because that's what you see
+and we can really kind of work on our
+character lines for the hair
+so let's let's start from the front
+let's hide that and let's start with um
+let's start with this piece here these
+two
+they're a little bit thicker so let's go
+for a medium piece
+and we want to put this in outer hair so
+shift d
+m hair tubes
+and outer hair let's go to the side and
+move this in place
+let's move this towards the middle let's
+take a peek
+at what we're doing okay so it starts
+looks like it starts right in the middle
+and it kind of
+peels out and goes down so let's do that
+and i i think what we're going to do is
+we're going to rotate it so it's like a
+little
+thin so it's thin and we're going to
+rotate it so it gets
+wider so we'll move the root
+right in the middle
+oh what happened there
+did i oh i have
+oh i don't have partial edging on what's
+i don't know why that's happening
+that is it looks like proportional
+editing is on but it's not on
+so that's
+oh i forgot so it must be that the last
+hair i had selected before was this one
+right here
+and even though it's not turned on
+somehow it's selected
+it doesn't look like it but i bet you if
+we just
+select these two again it's fine okay so
+that was
+that was strange so let's get back on
+track here we'll move this
+right to the middle
+like that that's where it's going to
+come from and i think
+this can go
+back a bit i'm going to
+make it go a little bit further back to
+take into account how
+thick this hair is
+so i think something like that
+is good
+grab the path go to edit mode let's go
+to the front
+view and let's shape this
+to match our front um
+let's see here i'm going to move this
+template over
+so we can see it as we're working gx
+hold that there let's lock it
+grab our hair jump to it
+and grab the path okay
+so let's just
+move let's just shape
+this control path to roughly match this
+hair
+and again this is getting really
+repetitive it's the same thing
+over and over again
+so if you've got it just uh just skip
+all this and just
+just go to it if you um
+if you want to watch some more to just
+see if there are any other little
+tidbits that come up then by all means
+keep watching
+okay and it kind of comes down to here
+and peels out
+okay let's grab this shift sn2
+edit mode a select all
+s and z and let's just shorten this
+whole thing
+like that
+need some more geometry here so control
+r and
+i think we'll need quite a bit in this
+top area
+to make this um intricate curvature
+maybe one more
+okay now let's grab the path
+so let's grab this path and see here
+let's shape it from the side a bit first
+so
+we're just kind of roughing in with the
+path we're going to obviously have to
+tweak this a bit more
+but you can you know we're just getting
+it started
+so let's um so it kind of
+hangs down near the eye and then swings
+back over the shoulder and it looks like
+it just
+kind of waves so let's do that
+so it's
+so let's see here guy
+so um one thing here is um
+from the front i have the path
+roughly the way i want it i don't want
+to i don't want to change it by
+moving things up and down you can see
+it'll it'll change
+how the shape is or the profile or the
+the read of this you know path
+so over here if you move this up and
+down it'll mess with that
+front view so make sure when you move
+this
+only move it forward and backwards
+this will help you um
+not get confused when you see the
+front and it's all messed up and you're
+like what happened
+okay let's pull this back
+was the ear exposed nope
+kind of goes back over the shoulder
+and then peels back
+in
+and kind of wave ease back out again
+okay let's make this
+mesh a bit longer edit mode
+a whoops a s z
+okay
+we need to we need to work on her face
+but uh it's okay um we can
+sculpt this later so she looks better
+right now she looks a little uh
+a little bubble heady she's kind of
+bubble heady
+but let's finish our hair let's grab
+this guy
+here so i think the curve is
+close let's move this out a bit
+um
+maybe more like that
+let's pull this in more like that
+okay
+so let's uh let's see here
+i think maybe a little bit further
+forward oops
+okay and i think
+up here we don't have a sketch of it but
+i believe up here this hair
+would um wouldn't go straight out i
+think it'd come forward a bit
+and back so let's do that too
+with proportional editing turned off
+let's just go
+a bit like that
+okay so i think that's going to be good
+so let's grab our mesh here
+let's make sure our 3d cursor is where
+it should be
+go to edit mode so from the front
+it's a nice little fin and from the side
+let's let's
+rotate it in z with proportional editing
+turned on
+r z
+and
+something like that maybe a little bit
+more
+maybe the curve is not right
+no that's worse
+that was good
+select m m r
+z
+okay that's i think that's better
+okay so it gets a bit thicker there
+and over here it looks like it
+narrows again that's kind of there so
+maybe it's
+we do a bit more over here r
+z and
+no this one r z
+and then it looks like it well like
+i can't really tell what happens here i
+think the sketch just kind of gets
+mixed and jumbled so let's just say it
+gets
+a bit thicker here
+and that's kind of boxy so let's add
+some geometry okay
+okay so i think that's um pretty good i
+think it needs to get
+thicker
+yeah let's make it thicker so let's grab
+this
+and grab
+a row here and s
+y
+let's put smooth on
+and let's uh do that
+okay
+that's better
+let's rotate this a bit more
+and let's edit this path
+a little bit more so it
+comes out um this so this first
+hair here this character line for the
+hair
+i'm pretty sure it's going to be
+overlaying the hair that's behind it
+right so this first piece here will be
+on top of the hairs that are behind it
+and so right now it's too close to the
+scalp or the hair cap so let's pull it
+out
+so it has some breathing room so this
+will start to
+it might start to deviate from our our
+concept sketch
+a little bit um we can always throw into
+more hair to get it closer
+or or mess with it more when it's done
+this it's a very um iterative pro
+iterative process iterative process so
+you have to kind of go back and
+you know add more stuff fix it add more
+stuff and fix it
+it's it's a lot of the hair takes a lot
+of um
+artistic feeling i guess okay
+okay so that's our first piece of main
+hair and so
+i'm gonna kind of keep going here and
+adding more and more pieces of hair
+it's going to be the same thing over and
+over again and so
+it may possibly get boring
+so i'm going to do a couple and then i'm
+going to
+stop narrating and i'm just going to
+fast forward it
+and maybe i'll uh maybe i'll watch it
+while it's playing fast forwarded and
+just talk through it
+here and there but let's let's let's do
+one more
+let's go over here
+so next we're gonna do let's see here
+what do you want to do
+we could do a hair up here
+or we could put a hair on the bottom
+let me see here let's move that
+let's move that
+so i'm thinking here if the hair blows
+aside it gives this strand
+and say if this one's behind it if the
+hair blows aside what are they going to
+see
+and will look funny and so i think if
+this hair blows aside
+you'll see these roots going straight
+back and so it might
+be a little bit funny so i think what
+i'm going to do is add another dangly
+piece like this
+right below it and that's going to peel
+away from here
+and kind of come down
+yeah okay
+so let's do that and i think i'm going
+to
+duplicate this
+no i'm not i'm going to get that get
+another one let's get a small one here
+shift d move hair tools
+outer hair front view
+i've been getting weird problems when
+these are both orange so i'm going to
+control click one of those
+and make sure nothing is okay so
+nothing's moving weird
+so let's move this so you can see our
+sketch
+this is four and four
+so let's see
+it's easier so
+i think i'm going to start the hair
+right around here and have it peel
+down on the
+so we'll start here and have it peel
+down
+and kind of follow one of these inner
+hairs
+so we will oops grab number four and
+number four
+and move these over here oh
+look our hair is not this
+tip should come all the way to the root
+here
+so let's see here let's
+see if we can rotate this
+r r x
+r x
+no not like that let's first
+make sure okay this is at an angle so
+let's first
+make sure this is perpendicular
+to the center plane
+and then we'll do r x
+and that's better
+no it's scaling funny r y
+r x
+scale scale x so you can see it it gets
+a little weird to work with
+r z
+okay i think that's better
+um maybe pull the whole thing down a bit
+because it the hair feathers out so it's
+invisible so it looks like
+invisible hair is growing from the scalp
+so let's just pull this down just a tiny
+bit
+um if you have too much overlap
+with these transparent hairs it starts
+to look like hey
+why is this uh this thing you know
+poking through
+if it's too little then you see a gap in
+between so you kind of strike a balance
+so i think that's pretty good
+and i i think now this
+uh this is all boxy
+um i like to model put that on
+sorry with um flat faces on because it's
+uh
+i feel like you can read the form better
+but
+now i'm trying to kind of artistically
+compare the face to the hair and
+it's distracting me so let's make that
+smooth so shade smooth
+and it's kind of this weird
+so so you select your faces so you go to
+edit mode
+um go to face mode a to select all
+then go to faced shade smooth and
+there's this weird
+thing about it and i don't know why it
+happens but
+it seems like you need to turn on this
+other setting
+to make it work better
+so turn on auto smooth and put this to
+like 180.
+i guess looks the same but it seems like
+it
+in the past it's messed me up so make
+sure you turn
+turn on your um smooth faces up here and
+then turn on
+auto smooth down here under object data
+properties
+okay now let's do uh
+this too a
+face shade smooth
+auto smooth 180 okay
+okay i think that's pretty good
+so now let's go and
+grab our second piece of outer hair
+pick its corresponding path
+let's move it
+back to where you want to go
+this is kind of a slow painful process
+i like to use a paid plug-in
+called hair tools it does a different
+style of hair
+you couldn't use it for 3d printing like
+you can with this hair
+and it's somewhat higher poly than this
+but it gets really great results
+number four number four and i'll make
+another tutorial i was going to do
+just this tutorial but um seemed like
+there's a lot of interest to see
+both ways to make hair with hair tools
+and without so
+following this hair tutorial i'll do
+hair tutorial
+on how to use that plug-in called hair
+tools
+amazing plug-in
+okay let's make sure our 3d cursor
+is where it's supposed to be grab this
+turn off proportional editing
+so the reason why i just backed up a few
+steps was because
+i had porcelain proportional editing
+turned on
+when i moved this i saw that it moved
+the
+first point of this path and then
+i thought well maybe i'm moving maybe i
+move stuff away from the
+origin point and i don't want to do that
+so i just undid it and i redid it again
+it's um this method requires you to be
+very clean
+okay
+so let's so we can't really see in the
+sketch what's going on i guess you kind
+of can
+so it's kind of
+gets covered up here
+it kind of comes out down there so let's
+you know
+kind of imagine what we think is
+happening
+so it's kind of it's kind of following
+the outer hair
+but coming in more
+and then let's just kind of
+no fake it
+okay grab this
+a s z let's squish this down
+we'll add some geometry
+okay
+so now let's grab this path and move it
+from the side view
+and let's see here so i don't have any
+sketches of what these
+inner hairs do so maybe it's just
+maybe it's hidden from the side of here
+and it maybe it starts to appear
+down by the ear and it kind of zigzags
+so let's do that
+so that's hidden
+and remember we're only moving it back
+and forth
+and why
+so it's hidden here
+and then it starts to appear
+okay let's pull that back a bit
+pull this forward some
+and let's pull this back with
+proportional editing turned on
+and oh so i've got proportional editing
+turned on so it
+kind of curves smoothly but this is kind
+of a interesting illustration for
+how these um curves work
+so let's see okay so if you grab the
+very tip
+so i want to curve
+i want to curve outwards
+like this path here want to curve out
+nicely like that
+if you grab the point and just pull it
+back
+with proportional editing turned on it
+should kind of do that
+but if you do that you can see that it
+kind of
+it pulls it but it comes back down in an
+s curve
+that's because the nature of how this
+curve works now to understand how these
+work but
+it's um but this is this is what i've
+noticed
+i can't mathematically explain it if you
+go with sharp
+you can see that it does more like what
+we're expecting
+because i guess somehow this the nature
+of this curve and this icon here
+does what's happening here if you go to
+sphere you can see
+it it kind of kind of keeps this
+flat here and it curves
+um as it goes away from the starting
+vertex so kind of interesting little
+thing i just noticed i thought
+explain
+let's just move that back here
+and move that back there
+okay i can't see
+it the hair is so shiny i can't see the
+hair
+okay so it's poking through
+okay so um
+let's get this hair to nest nicely with
+the skull
+so let's grab that
+and put this on smooth
+r z
+and this is um
+too far from the scalp let's check this
+you know it's underneath the skull you
+probably would never uh underneath the
+other hairs you probably never notice it
+but uh well it only takes a second so
+let's just
+move this in place
+a little better
+and i think i changed my mind
+so this hair here is like a little fin
+coming out
+and this next hair oh i turned off
+okay so this first hair here is like a
+little fin
+this next hair it it is a fin but i i'm
+gonna use a second hair just as a filler
+to fill the space a bit
+i already have a skull cap in place but
+i want to have a filler piece
+that looks like it's flowing down
+so instead of having this second piece
+as a fin i'm going to have it
+i'm wider
+so let's see here so let's grab these
+guys
+and let's move it over
+like that let's grab
+this and
+let our see here
+okay so i think we need to
+so this hair is going directly to the
+side so it's not going to
+move like we want it so let's
+turn it off for partial editing and then
+let's move this
+up and forward
+like
+i think like that let's grab the mesh
+and rotate it in z
+with proportional editing turned on
+go back to our path
+and i think what we want to do is you
+want to subdivide that
+okay so that's starting to do
+we are we're actually asking the
+geometry to
+twist and bend quite a bit in a very
+small area so
+whenever you do that it starts to
+make it difficult for the computer to do
+it
+in any 3d program
+i didn't have the 3d curse in the right
+place so hopefully i didn't mess things
+up i just fixed it
+so let's pull that in
+rotate this in z so i'm going to line
+this line up here
+roughly with this line right there
+and i think
+it looks about right
+okay and then let's
+grab the hair
+and the corresponding path
+this is kind of the hardest part of this
+whole thing
+it's this these front few pieces of hair
+okay so let's see here let's turn that
+on
+oh our hair is transparent it's messing
+things up so let's
+grab these and pull them
+in
+so you can see if it goes too much
+you can kind of see it poking through
+that's not so bad
+but if you bury it in the skullcap hair
+is just invisible
+okay so i think i'm liking that now so
+now
+if like you if you're looking up her
+nose and you happen to see that
+this hair up here you'll see like it
+looks like it
+peels away from
+the hairline nicely
+so now let's get this piece of hair
+covering the second one
+let's pull this back
+hair takes forever
+okay
+oh my hair's so shiny i can't even
+see what's going on it's kind of nice
+because it you know it kind of
+makes the hair all blend together into
+one
+thing but it makes it awful hard to see
+what's going on
+okay
+this is uh
+face shade smooth
+let's grab this
+see the same thing here a
+face shade smooth
+auto smooth i think this auto smooth
+it's only necessary if you're creasing
+edges
+i think i don't remember
+and let's see here
+let's go and change these also so this
+way we're not doing this
+over and over and over again
+that would get really annoying a
+autosmooth
+put this here face shade smooth okay
+so now at least when we copied these
+over and over again they won't uh
+be all boxy like this one here
+and do that okay
+so how is our hair looking
+the same no it's not
+so i think this outer hair needs to kind
+of come
+up more and then flow down
+number three number three
+and let's sum divide this
+nope let's do oh man
+you can see when you when you move the
+second vertex
+it changes the rotation so i was
+trying to not do that but i think we
+need to
+so i'll need to re-rotate the whole hair
+but now our hair is looking
+better i think
+maybe one more
+okay let's grab our mesh and
+let's make sure our 3d cursor is in the
+right place
+and rotate it in z like
+r z
+okay i think
+that's thin here which is nice
+it's thick there which is nice but i
+think it gets thinner up here
+so it's rz and
+let's turn on a little bit of
+proportional editing
+okay
+and this looks really flat
+let's go to object mode grab our path
+why is that so flat
+okay
+looks like our hair here is intersecting
+this um the lower side here so let's
+fix that a bit you're you're gonna get
+intersecting hair
+um it's why the the hair cards
+technique is kind of nice because it
+hides it better this one it's just
+it's very hard to hide it so
+kind of do your best to
+make the intersections as unnoticeable
+as
+possible and it's
+in the hairs like default resting state
+when you animate it or move it it's
+going to get visible
+and you can't help it but if you make
+the
+your neutral model hide it better it
+just reduces the visibility
+let's make sure our 3d cursor is the
+right place let's shape this
+hair i don't like how it's
+so abrupt there scale y
+let's
+okay
+um i notice hair looks nicer
+when it goes from thick to thin
+in a smooth way
+so you can see from the front from the
+front read here
+it's thin here and it gets wider there
+then thins out a bit
+and it gets wider there so it's trying
+you know our concept sketch is 2d so
+it's it's
+very different you can control the view
+um this our model is 3d so
+you can see from all sides so you know
+you just
+try and get it to look like from any
+view it's going from the hair is going
+from thick to thin here so this view
+it's great
+we've got a thin thick you would have a
+wrap around
+maybe we make it look thicker down here
+by rotating it
+like like that
+which is kind of nice but then from this
+video here you can see it's like okay
+it's
+thinner it gets thicker there a bit kind
+of bumpy
+and then it's just kind of like flat so
+maybe we
+scale this also here
+so i'm adding more geometry
+kind of be really careful about how much
+geometry you add because
+um the more you add the heavier your
+model gets
+you you don't want to make it too heavy
+but you want to look nice too and what's
+nice is you know
+later on you can you can use a decimate
+tool to make it lighter or you can
+selectively
+reduce some take out some loops so you
+know it's not
+it means more work but you can um
+fix some of it and lighten it
+later
+that's how you make relatively low poly
+hair and blender i'll go through the
+rest of the hair
+so feel free to watch it if you want to
+but it'll be the same thing over and
+over again
+so if you get it then just go go to it
+and make your own hair
+here's the final hair if you want to
+smooth things out you can add a subdeep
+modifier to it
+thank you so much for watching i hope
+this was helpful if you want to see more
+content like this please
+leave a comment or subscribe or support
+me on patreon
+and in our next video we will create the
+eyelashes and the eyebrows
+thanks for watching

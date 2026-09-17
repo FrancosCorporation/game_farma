@@ -1,0 +1,1300 @@
+Kind: captions
+Language: en
+i love games that let you move with
+i love games that let you move with
+i love games that let you move with
+speed
+speed
+speed
+fluidity and finesse
+fluidity and finesse
+fluidity and finesse
+i'm talking about games with perfect
+i'm talking about games with perfect
+i'm talking about games with perfect
+parkour
+parkour
+parkour
+comic book web swinging awesome
+comic book web swinging awesome
+comic book web swinging awesome
+skateboarding
+skateboarding
+skateboarding
+super sonic speeds and ninja-like wall
+super sonic speeds and ninja-like wall
+super sonic speeds and ninja-like wall
+running
+running
+running
+the problem is there's no
+the problem is there's no
+the problem is there's no
+one-size-fits-all answer
+one-size-fits-all answer
+one-size-fits-all answer
+for how to make such a movement system
+for how to make such a movement system
+for how to make such a movement system
+what makes
+what makes
+what makes
+rocket league great is completely
+rocket league great is completely
+rocket league great is completely
+different to sunset overdrive
+different to sunset overdrive
+different to sunset overdrive
+which is different still to titanfall 2.
+which is different still to titanfall 2.
+which is different still to titanfall 2.
+sure we can point
+sure we can point
+sure we can point
+to obvious stuff like responsive
+to obvious stuff like responsive
+to obvious stuff like responsive
+controls visual effects
+controls visual effects
+controls visual effects
+and cool animations but perhaps we can
+and cool animations but perhaps we can
+and cool animations but perhaps we can
+go further
+go further
+go further
+what we can do is look at the very
+what we can do is look at the very
+what we can do is look at the very
+different ways that movement works
+different ways that movement works
+different ways that movement works
+in a bunch of brilliant games and then
+in a bunch of brilliant games and then
+in a bunch of brilliant games and then
+see if there's anything these varying
+see if there's anything these varying
+see if there's anything these varying
+approaches
+approaches
+approaches
+all have in common and help answer the
+all have in common and help answer the
+all have in common and help answer the
+question of how to make movement
+question of how to make movement
+question of how to make movement
+fun so hi i'm mark brown and this
+fun so hi i'm mark brown and this
+fun so hi i'm mark brown and this
+is gamemaker's toolkit
+is gamemaker's toolkit
+is gamemaker's toolkit
+okay let's start with super mario
+okay let's start with super mario
+okay let's start with super mario
+odyssey
+odyssey
+odyssey
+this game is all about giving the player
+this game is all about giving the player
+this game is all about giving the player
+a bunch of different
+a bunch of different
+a bunch of different
+moves that all allow for slightly
+moves that all allow for slightly
+moves that all allow for slightly
+different actions
+different actions
+different actions
+you've got tool jumps and long jumps and
+you've got tool jumps and long jumps and
+you've got tool jumps and long jumps and
+fast jumps and
+fast jumps and
+fast jumps and
+last minute save jumps it's about
+last minute save jumps it's about
+last minute save jumps it's about
+knowing which move to use
+knowing which move to use
+knowing which move to use
+and when but what's even better is that
+and when but what's even better is that
+and when but what's even better is that
+these moves can be
+these moves can be
+these moves can be
+chained together to eke out further
+chained together to eke out further
+chained together to eke out further
+advantages
+advantages
+advantages
+mario's jump dive and hat throw can be
+mario's jump dive and hat throw can be
+mario's jump dive and hat throw can be
+carefully chained together to bound
+carefully chained together to bound
+carefully chained together to bound
+between rooftops
+between rooftops
+between rooftops
+in new donk city we see similar stuff in
+in new donk city we see similar stuff in
+in new donk city we see similar stuff in
+other 3d platformers like
+other 3d platformers like
+other 3d platformers like
+sac boy a big adventure and a hat in
+sac boy a big adventure and a hat in
+sac boy a big adventure and a hat in
+time but also the tony hawk series which
+time but also the tony hawk series which
+time but also the tony hawk series which
+is laser focused on combining moves
+is laser focused on combining moves
+is laser focused on combining moves
+there are two actions the revert and the
+there are two actions the revert and the
+there are two actions the revert and the
+manual which are specifically designed
+manual which are specifically designed
+manual which are specifically designed
+to keep your combo going between the
+to keep your combo going between the
+to keep your combo going between the
+skatepark pieces
+skatepark pieces
+skatepark pieces
+next up is insomniac's open world zombie
+next up is insomniac's open world zombie
+next up is insomniac's open world zombie
+blaster
+blaster
+blaster
+sunset overdrive now here the main
+sunset overdrive now here the main
+sunset overdrive now here the main
+character doesn't have a particularly
+character doesn't have a particularly
+character doesn't have a particularly
+involved moveset
+involved moveset
+involved moveset
+just a basic run jump and roll but
+just a basic run jump and roll but
+just a basic run jump and roll but
+that's because
+that's because
+that's because
+this game is all about using things in
+this game is all about using things in
+this game is all about using things in
+the environment
+the environment
+the environment
+running on walls bouncing on awnings
+running on walls bouncing on awnings
+running on walls bouncing on awnings
+grinding on rails
+grinding on rails
+grinding on rails
+and swinging on poles clever use of the
+and swinging on poles clever use of the
+and swinging on poles clever use of the
+environment
+environment
+environment
+will put you at a huge advantage over
+will put you at a huge advantage over
+will put you at a huge advantage over
+the enemies other games that put the
+the enemies other games that put the
+the enemies other games that put the
+focus on environmental interaction
+focus on environmental interaction
+focus on environmental interaction
+include sci-fi ninja sim ghost runner
+include sci-fi ninja sim ghost runner
+include sci-fi ninja sim ghost runner
+and the best bits of the ori games
+and the best bits of the ori games
+and the best bits of the ori games
+as you bash to propel yourself off
+as you bash to propel yourself off
+as you bash to propel yourself off
+enemies and projectiles
+next let's look quickly at the pathless
+next let's look quickly at the pathless
+next let's look quickly at the pathless
+and this one is all about
+and this one is all about
+and this one is all about
+timing in this game you can temporarily
+timing in this game you can temporarily
+timing in this game you can temporarily
+boost your speed
+boost your speed
+boost your speed
+by shooting arrows at floating targets
+by shooting arrows at floating targets
+by shooting arrows at floating targets
+in the world
+in the world
+in the world
+you have to charge the shot and release
+you have to charge the shot and release
+you have to charge the shot and release
+when the meter fills up completely
+when the meter fills up completely
+when the meter fills up completely
+giving the game a sort of rhythmic
+giving the game a sort of rhythmic
+giving the game a sort of rhythmic
+action as you try to efficiently time
+action as you try to efficiently time
+action as you try to efficiently time
+the release of every shot
+the release of every shot
+the release of every shot
+and that's not to mention that if you
+and that's not to mention that if you
+and that's not to mention that if you
+release when the meter is only halfway
+release when the meter is only halfway
+release when the meter is only halfway
+full
+full
+full
+you get a much bigger burst of speed but
+you get a much bigger burst of speed but
+you get a much bigger burst of speed but
+if you screw up the timing
+if you screw up the timing
+if you screw up the timing
+the shot will miss and you get nothing
+the shot will miss and you get nothing
+the shot will miss and you get nothing
+moving on to titanfall 2 and this game
+moving on to titanfall 2 and this game
+moving on to titanfall 2 and this game
+is all about
+is all about
+is all about
+momentum building it and keeping it the
+momentum building it and keeping it the
+momentum building it and keeping it the
+pilot can run
+pilot can run
+pilot can run
+at a max speed of only 22 kilometers per
+at a max speed of only 22 kilometers per
+at a max speed of only 22 kilometers per
+hour
+hour
+hour
+however your speed can be temporarily
+however your speed can be temporarily
+however your speed can be temporarily
+boosted by things like
+boosted by things like
+boosted by things like
+wall running leaping away from walls and
+wall running leaping away from walls and
+wall running leaping away from walls and
+sliding along the ground
+sliding along the ground
+sliding along the ground
+so to be truly fast you've got to try
+so to be truly fast you've got to try
+so to be truly fast you've got to try
+and keep that momentum up
+and keep that momentum up
+and keep that momentum up
+by endlessly chaining together these
+by endlessly chaining together these
+by endlessly chaining together these
+moves but that's not all
+moves but that's not all
+moves but that's not all
+when we go into multiplayer we get
+when we go into multiplayer we get
+when we go into multiplayer we get
+things like the grapple which hooks onto
+things like the grapple which hooks onto
+things like the grapple which hooks onto
+a wall
+a wall
+a wall
+and then retracts like link's hookshot
+and then retracts like link's hookshot
+and then retracts like link's hookshot
+on fast forward
+on fast forward
+on fast forward
+combine that with a jump and you can
+combine that with a jump and you can
+combine that with a jump and you can
+slingshot your way across the map
+slingshot your way across the map
+slingshot your way across the map
+at super speed and we're still not done
+at super speed and we're still not done
+at super speed and we're still not done
+because
+because
+because
+when you come to land you can do a slide
+when you come to land you can do a slide
+when you come to land you can do a slide
+hop which is where you hit
+hop which is where you hit
+hop which is where you hit
+crouch then jump to maintain that
+crouch then jump to maintain that
+crouch then jump to maintain that
+momentum
+momentum
+momentum
+the very best titanfall 2 players i.e
+the very best titanfall 2 players i.e
+the very best titanfall 2 players i.e
+not me
+not me
+not me
+are the ones who are always thinking
+are the ones who are always thinking
+are the ones who are always thinking
+about ways to keep the momentum they've
+about ways to keep the momentum they've
+about ways to keep the momentum they've
+built up
+built up
+built up
+we see similar stuff in older shooters
+we see similar stuff in older shooters
+we see similar stuff in older shooters
+like quake and counter-strike
+like quake and counter-strike
+like quake and counter-strike
+where bunny hopping to build momentum
+where bunny hopping to build momentum
+where bunny hopping to build momentum
+was a physics-busting emergent strategy
+was a physics-busting emergent strategy
+was a physics-busting emergent strategy
+not intended by the developers the
+not intended by the developers the
+not intended by the developers the
+parkour gem mirror's edge
+parkour gem mirror's edge
+parkour gem mirror's edge
+will force you to maintain momentum if
+will force you to maintain momentum if
+will force you to maintain momentum if
+you want to nail its time trials
+you want to nail its time trials
+you want to nail its time trials
+crumble is all about getting faster and
+crumble is all about getting faster and
+crumble is all about getting faster and
+faster the more you move
+faster the more you move
+faster the more you move
+and in the platform at n plus plus you
+and in the platform at n plus plus you
+and in the platform at n plus plus you
+need to build momentum
+need to build momentum
+need to build momentum
+in order to make the biggest jumps next
+in order to make the biggest jumps next
+in order to make the biggest jumps next
+up
+up
+up
+is cyberhook a first person speedrunner
+is cyberhook a first person speedrunner
+is cyberhook a first person speedrunner
+about grappling onto blocks
+about grappling onto blocks
+about grappling onto blocks
+and launching yourself towards the goal
+and launching yourself towards the goal
+and launching yourself towards the goal
+and so this one
+and so this one
+and so this one
+i think is about understanding
+i think is about understanding
+i think is about understanding
+trajectories
+trajectories
+trajectories
+bear with me for a second a trajectory
+bear with me for a second a trajectory
+bear with me for a second a trajectory
+is a path an object will follow
+is a path an object will follow
+is a path an object will follow
+when moving under the influence of a
+when moving under the influence of a
+when moving under the influence of a
+physical force and we subconsciously
+physical force and we subconsciously
+physical force and we subconsciously
+consider this when playing any
+consider this when playing any
+consider this when playing any
+platformer
+platformer
+platformer
+because the arc of every jump is
+because the arc of every jump is
+because the arc of every jump is
+determined by gravity
+determined by gravity
+determined by gravity
+but in games with grappling hooks like a
+but in games with grappling hooks like a
+but in games with grappling hooks like a
+story about my uncle and bionic commando
+story about my uncle and bionic commando
+story about my uncle and bionic commando
+the swing's arc is determined by both
+the swing's arc is determined by both
+the swing's arc is determined by both
+gravity and the taut pull
+gravity and the taut pull
+gravity and the taut pull
+of the rope and so to get the most out
+of the rope and so to get the most out
+of the rope and so to get the most out
+of the mechanic
+of the mechanic
+of the mechanic
+we have to mentally map out the precise
+we have to mentally map out the precise
+we have to mentally map out the precise
+arc of the swing
+arc of the swing
+arc of the swing
+and know the best time to latch on and
+and know the best time to latch on and
+and know the best time to latch on and
+let go we also see this in games with
+let go we also see this in games with
+let go we also see this in games with
+gliding mechanics it's all about the
+gliding mechanics it's all about the
+gliding mechanics it's all about the
+shapes the character will make when
+shapes the character will make when
+shapes the character will make when
+moving
+moving
+moving
+and understanding how to use that to
+and understanding how to use that to
+and understanding how to use that to
+your advantage
+your advantage
+your advantage
+and finally i want to touch on rocket
+and finally i want to touch on rocket
+and finally i want to touch on rocket
+league
+league
+league
+this game is kind of unique because the
+this game is kind of unique because the
+this game is kind of unique because the
+character in this case
+character in this case
+character in this case
+a car is basically a physics object and
+a car is basically a physics object and
+a car is basically a physics object and
+you just apply forces in different
+you just apply forces in different
+you just apply forces in different
+directions
+directions
+directions
+this allows you to move the car about in
+this allows you to move the car about in
+this allows you to move the car about in
+pretty much whatever way you desire
+pretty much whatever way you desire
+pretty much whatever way you desire
+leading to masterful players discovering
+leading to masterful players discovering
+leading to masterful players discovering
+absurd tricks like
+absurd tricks like
+absurd tricks like
+making a car fly across the pitch or
+making a car fly across the pitch or
+making a car fly across the pitch or
+doing bonkers bicycle kicks
+doing bonkers bicycle kicks
+doing bonkers bicycle kicks
+trust me this one is way over my head
+trust me this one is way over my head
+trust me this one is way over my head
+but i thought it was still worth
+but i thought it was still worth
+but i thought it was still worth
+mentioning
+mentioning
+mentioning
+so here i've identified six different
+so here i've identified six different
+so here i've identified six different
+elements
+elements
+elements
+that great games use to make movement
+that great games use to make movement
+that great games use to make movement
+more fun those are chaining moves
+more fun those are chaining moves
+more fun those are chaining moves
+using the environment nailing timing
+using the environment nailing timing
+using the environment nailing timing
+windows
+windows
+windows
+building momentum understanding
+building momentum understanding
+building momentum understanding
+trajectories and playing with physics
+trajectories and playing with physics
+trajectories and playing with physics
+now that's not an exhaustive list and
+now that's not an exhaustive list and
+now that's not an exhaustive list and
+it's also important to note that many
+it's also important to note that many
+it's also important to note that many
+games
+games
+games
+mix and match these different elements
+mix and match these different elements
+mix and match these different elements
+in just cause 3 for example
+in just cause 3 for example
+in just cause 3 for example
+you need a hook shot onto the
+you need a hook shot onto the
+you need a hook shot onto the
+environment which builds momentum as the
+environment which builds momentum as the
+environment which builds momentum as the
+rope retracts
+rope retracts
+rope retracts
+you can then chain into your parachute
+you can then chain into your parachute
+you can then chain into your parachute
+and then chain into your wingsuit
+and then chain into your wingsuit
+and then chain into your wingsuit
+at which point you're carefully
+at which point you're carefully
+at which point you're carefully
+considering the weirdo trajectory of
+considering the weirdo trajectory of
+considering the weirdo trajectory of
+this thing
+this thing
+this thing
+as you dive away from enemy attacks so
+as you dive away from enemy attacks so
+as you dive away from enemy attacks so
+this gives us a sort of table of
+this gives us a sort of table of
+this gives us a sort of table of
+elements when it comes to movement
+elements when it comes to movement
+elements when it comes to movement
+the building blocks that are used and
+the building blocks that are used and
+the building blocks that are used and
+combined to make interesting
+combined to make interesting
+combined to make interesting
+interactions
+interactions
+interactions
+these are the things that make movement
+these are the things that make movement
+these are the things that make movement
+fun but
+fun but
+fun but
+why is there anything these different
+why is there anything these different
+why is there anything these different
+approaches to movement have in common
+approaches to movement have in common
+approaches to movement have in common
+to help explain their appeal
+to help explain their appeal
+to help explain their appeal
+first all of these approaches allow for
+first all of these approaches allow for
+first all of these approaches allow for
+a real
+a real
+a real
+freedom of movement they're about giving
+freedom of movement they're about giving
+freedom of movement they're about giving
+you options for how to get around the
+you options for how to get around the
+you options for how to get around the
+world
+world
+world
+you could take a very slow and
+you could take a very slow and
+you could take a very slow and
+meandering trip up a staircase
+meandering trip up a staircase
+meandering trip up a staircase
+or you could run up the wall turn around
+or you could run up the wall turn around
+or you could run up the wall turn around
+spring off the wall
+spring off the wall
+spring off the wall
+and tuck your feet up over the handrail
+and tuck your feet up over the handrail
+and tuck your feet up over the handrail
+this effectively turns the entire game
+this effectively turns the entire game
+this effectively turns the entire game
+space
+space
+space
+into a traversal playground walls and
+into a traversal playground walls and
+into a traversal playground walls and
+big gaps are no longer barriers to
+big gaps are no longer barriers to
+big gaps are no longer barriers to
+impede progress
+impede progress
+impede progress
+they are challenges to overcome and
+they are challenges to overcome and
+they are challenges to overcome and
+where many games are practically glued
+where many games are practically glued
+where many games are practically glued
+to the ground
+to the ground
+to the ground
+these advanced movement mechanics add
+these advanced movement mechanics add
+these advanced movement mechanics add
+verticality to the world
+verticality to the world
+verticality to the world
+second these movement mechanics
+second these movement mechanics
+second these movement mechanics
+typically allow for very analog
+typically allow for very analog
+typically allow for very analog
+inputs which let me explain what i mean
+inputs which let me explain what i mean
+inputs which let me explain what i mean
+when using the hook shot in zelda you
+when using the hook shot in zelda you
+when using the hook shot in zelda you
+must aim it at a suitable point
+must aim it at a suitable point
+must aim it at a suitable point
+and then it locks link into an
+and then it locks link into an
+and then it locks link into an
+unstoppable animation until he reaches
+unstoppable animation until he reaches
+unstoppable animation until he reaches
+his destination
+his destination
+his destination
+it follows a single predetermined path
+it follows a single predetermined path
+it follows a single predetermined path
+in titanfall 2 however the grapple works
+in titanfall 2 however the grapple works
+in titanfall 2 however the grapple works
+in a very different way you can latch on
+in a very different way you can latch on
+in a very different way you can latch on
+to any point in the world
+to any point in the world
+to any point in the world
+you can move while it retracts in order
+you can move while it retracts in order
+you can move while it retracts in order
+to change its trajectory
+to change its trajectory
+to change its trajectory
+you can boost the speed with a jump and
+you can boost the speed with a jump and
+you can boost the speed with a jump and
+you can cancel the grapple at any point
+you can cancel the grapple at any point
+you can cancel the grapple at any point
+there is an almost infinite number of
+there is an almost infinite number of
+there is an almost infinite number of
+paths it can follow
+paths it can follow
+paths it can follow
+entirely based on your control and
+entirely based on your control and
+entirely based on your control and
+desire
+desire
+desire
+and we see this in other mechanics too
+and we see this in other mechanics too
+and we see this in other mechanics too
+like generous mid-air movement in mario
+like generous mid-air movement in mario
+like generous mid-air movement in mario
+being able to bash in literally any
+being able to bash in literally any
+being able to bash in literally any
+direction in ori
+direction in ori
+direction in ori
+and the absurdly granular input you have
+and the absurdly granular input you have
+and the absurdly granular input you have
+in physics-based movement systems like
+in physics-based movement systems like
+in physics-based movement systems like
+rocket league
+rocket league
+rocket league
+these either give you perfect
+these either give you perfect
+these either give you perfect
+fine-grained control of the character
+fine-grained control of the character
+fine-grained control of the character
+or at least the ability to influence a
+or at least the ability to influence a
+or at least the ability to influence a
+trajectory
+trajectory
+trajectory
+third when done well these mechanics
+third when done well these mechanics
+third when done well these mechanics
+allow you to move
+allow you to move
+allow you to move
+with flow which is when you fluidly move
+with flow which is when you fluidly move
+with flow which is when you fluidly move
+through a level
+through a level
+through a level
+without stopping or slowing down too
+without stopping or slowing down too
+without stopping or slowing down too
+much so perhaps that's chaining together
+much so perhaps that's chaining together
+much so perhaps that's chaining together
+moves
+moves
+moves
+across an entire level or keeping your
+across an entire level or keeping your
+across an entire level or keeping your
+momentum
+momentum
+momentum
+with careful navigation of the space
+with careful navigation of the space
+with careful navigation of the space
+this can be particularly fun in games
+this can be particularly fun in games
+this can be particularly fun in games
+with
+with
+with
+environmental interactions as you bounce
+environmental interactions as you bounce
+environmental interactions as you bounce
+from one object to another
+from one object to another
+from one object to another
+but that's as much to do with level
+but that's as much to do with level
+but that's as much to do with level
+design as it is the basic movement
+design as it is the basic movement
+design as it is the basic movement
+mechanics
+mechanics
+mechanics
+fourth and perhaps most importantly
+fourth and perhaps most importantly
+fourth and perhaps most importantly
+these
+these
+these
+advanced movement mechanics are a test
+advanced movement mechanics are a test
+advanced movement mechanics are a test
+of skill
+of skill
+of skill
+when chaining moves you need to know how
+when chaining moves you need to know how
+when chaining moves you need to know how
+and when
+and when
+and when
+to link these actions together and
+to link these actions together and
+to link these actions together and
+probably in mid-air or when moving at
+probably in mid-air or when moving at
+probably in mid-air or when moving at
+speed when it comes to using the
+speed when it comes to using the
+speed when it comes to using the
+environment
+environment
+environment
+there's a certain level of precision
+there's a certain level of precision
+there's a certain level of precision
+needed to guide your character onto a
+needed to guide your character onto a
+needed to guide your character onto a
+rail
+rail
+rail
+or bounce pad and timing naturally tests
+or bounce pad and timing naturally tests
+or bounce pad and timing naturally tests
+your timing momentum has a built-in
+your timing momentum has a built-in
+your timing momentum has a built-in
+skill check
+skill check
+skill check
+the faster you move the harder the game
+the faster you move the harder the game
+the faster you move the harder the game
+is to control
+is to control
+is to control
+trajectories can be particularly hard to
+trajectories can be particularly hard to
+trajectories can be particularly hard to
+understand until you
+understand until you
+understand until you
+internalize their unique arcs and
+internalize their unique arcs and
+internalize their unique arcs and
+physics-based characters are naturally
+physics-based characters are naturally
+physics-based characters are naturally
+challenging to navigate
+challenging to navigate
+challenging to navigate
+and so while these advanced moves offer
+and so while these advanced moves offer
+and so while these advanced moves offer
+huge advantages
+huge advantages
+huge advantages
+over the more basic running and jumping
+over the more basic running and jumping
+over the more basic running and jumping
+such as making you move faster
+such as making you move faster
+such as making you move faster
+take shortcuts or get the drop on
+take shortcuts or get the drop on
+take shortcuts or get the drop on
+enemies in combat they come with a huge
+enemies in combat they come with a huge
+enemies in combat they come with a huge
+skill barrier and until you can surpass
+skill barrier and until you can surpass
+skill barrier and until you can surpass
+it you're gonna spend a lot of time
+it you're gonna spend a lot of time
+it you're gonna spend a lot of time
+scraping your face against the tarmac
+scraping your face against the tarmac
+scraping your face against the tarmac
+but that leads to the fifth and
+but that leads to the fifth and
+but that leads to the fifth and
+final similarity which is when you do
+final similarity which is when you do
+final similarity which is when you do
+have that skill
+have that skill
+have that skill
+all of these movement mechanics are
+all of these movement mechanics are
+all of these movement mechanics are
+intrinsically satisfying to use
+intrinsically satisfying to use
+intrinsically satisfying to use
+when chaining moves you're performing
+when chaining moves you're performing
+when chaining moves you're performing
+tiny quickfire piano melodies on the
+tiny quickfire piano melodies on the
+tiny quickfire piano melodies on the
+controller which just feels amazing on
+controller which just feels amazing on
+controller which just feels amazing on
+the fingers
+the fingers
+the fingers
+when you're exploiting the environment
+when you're exploiting the environment
+when you're exploiting the environment
+you're constantly making plans about
+you're constantly making plans about
+you're constantly making plans about
+your route forward
+your route forward
+your route forward
+and hitting a button in a microscopic
+and hitting a button in a microscopic
+and hitting a button in a microscopic
+timing window and getting a big burst of
+timing window and getting a big burst of
+timing window and getting a big burst of
+feedback
+feedback
+feedback
+is always a hit building momentum lets
+is always a hit building momentum lets
+is always a hit building momentum lets
+you get almost uncontrollably fast
+you get almost uncontrollably fast
+you get almost uncontrollably fast
+putting you in thrilling white knuckle
+putting you in thrilling white knuckle
+putting you in thrilling white knuckle
+situations as you try not to slam into a
+situations as you try not to slam into a
+situations as you try not to slam into a
+wall
+wall
+wall
+and expertly navigating a character
+and expertly navigating a character
+and expertly navigating a character
+while navigating gravity and other
+while navigating gravity and other
+while navigating gravity and other
+physics-based interactions
+physics-based interactions
+physics-based interactions
+just feels great skimming close to the
+just feels great skimming close to the
+just feels great skimming close to the
+ground with just cause a swingsuit
+ground with just cause a swingsuit
+ground with just cause a swingsuit
+is an unparalleled treat it would be
+is an unparalleled treat it would be
+is an unparalleled treat it would be
+easy to say that movement in a game
+easy to say that movement in a game
+easy to say that movement in a game
+feels good because you're playing as a
+feels good because you're playing as a
+feels good because you're playing as a
+character with awesome abilities but i
+character with awesome abilities but i
+character with awesome abilities but i
+think it's the player's
+think it's the player's
+think it's the player's
+physical performance of these skills
+physical performance of these skills
+physical performance of these skills
+that feels satisfying
+that feels satisfying
+that feels satisfying
+and not just the super heroic imagery on
+and not just the super heroic imagery on
+and not just the super heroic imagery on
+screen
+screen
+screen
+though let me give a couple caveats one
+though let me give a couple caveats one
+though let me give a couple caveats one
+is that games should look for precision
+is that games should look for precision
+is that games should look for precision
+but not
+but not
+but not
+perfection so it's good to have systems
+perfection so it's good to have systems
+perfection so it's good to have systems
+that subtly help the player out
+that subtly help the player out
+that subtly help the player out
+i've talked before about coyote time
+i've talked before about coyote time
+i've talked before about coyote time
+which is letting the player jump off a
+which is letting the player jump off a
+which is letting the player jump off a
+platform
+platform
+platform
+even if they've already run off the edge
+even if they've already run off the edge
+even if they've already run off the edge
+we can do something similar on the
+we can do something similar on the
+we can do something similar on the
+landing
+landing
+landing
+by pushing the player to safety if they
+by pushing the player to safety if they
+by pushing the player to safety if they
+were just a few centimeters away
+were just a few centimeters away
+were just a few centimeters away
+from the ledge you might also give the
+from the ledge you might also give the
+from the ledge you might also give the
+player moves to save themselves from a
+player moves to save themselves from a
+player moves to save themselves from a
+bad jump
+bad jump
+bad jump
+like being able to write your board back
+like being able to write your board back
+like being able to write your board back
+in line with the ground
+in line with the ground
+in line with the ground
+in tony hawk's or slow time and dash in
+in tony hawk's or slow time and dash in
+in tony hawk's or slow time and dash in
+ghost runner which can be used
+ghost runner which can be used
+ghost runner which can be used
+to realign for a wall run and in king of
+to realign for a wall run and in king of
+to realign for a wall run and in king of
+cards
+cards
+cards
+if you get hit in midair you'll get a
+if you get hit in midair you'll get a
+if you get hit in midair you'll get a
+free shoulder bash move which can be
+free shoulder bash move which can be
+free shoulder bash move which can be
+used for a last minute
+used for a last minute
+used for a last minute
+frantic scramble to safety and secondly
+frantic scramble to safety and secondly
+frantic scramble to safety and secondly
+this brings us back to something i
+this brings us back to something i
+this brings us back to something i
+explored in a video late last year
+explored in a video late last year
+explored in a video late last year
+the idea of whether the player should be
+the idea of whether the player should be
+the idea of whether the player should be
+given a power fantasy
+given a power fantasy
+given a power fantasy
+through slick animation and highly
+through slick animation and highly
+through slick animation and highly
+automated systems
+automated systems
+automated systems
+or have to earn the power fantasy
+or have to earn the power fantasy
+or have to earn the power fantasy
+through the application of hard-won
+through the application of hard-won
+through the application of hard-won
+skills
+skills
+skills
+ultimately we want something that can do
+ultimately we want something that can do
+ultimately we want something that can do
+both easy to use
+both easy to use
+both easy to use
+but hard to master so please check out
+but hard to master so please check out
+but hard to master so please check out
+that video
+that video
+that video
+for more information and ideas for how
+for more information and ideas for how
+for more information and ideas for how
+to make these movement systems more
+to make these movement systems more
+to make these movement systems more
+accessible to a wider audience
+accessible to a wider audience
+accessible to a wider audience
+so how do we make interesting movement
+so how do we make interesting movement
+so how do we make interesting movement
+systems in games
+systems in games
+systems in games
+if you ask me we're looking for
+if you ask me we're looking for
+if you ask me we're looking for
+mechanics that give players a real
+mechanics that give players a real
+mechanics that give players a real
+freedom of movement through analog
+freedom of movement through analog
+freedom of movement through analog
+inputs that let them fully control
+inputs that let them fully control
+inputs that let them fully control
+how their character moves we want to
+how their character moves we want to
+how their character moves we want to
+test or at least
+test or at least
+test or at least
+reward the player's skill and create
+reward the player's skill and create
+reward the player's skill and create
+movement
+movement
+movement
+that feels satisfying when you perform
+that feels satisfying when you perform
+that feels satisfying when you perform
+it well
+it well
+it well
+whether that's through quick fire finger
+whether that's through quick fire finger
+whether that's through quick fire finger
+action on the controller or stomach
+action on the controller or stomach
+action on the controller or stomach
+clenching
+clenching
+clenching
+near miss thrill rides i've established
+near miss thrill rides i've established
+near miss thrill rides i've established
+a number of elements that work towards
+a number of elements that work towards
+a number of elements that work towards
+these goals
+these goals
+these goals
+from chaining together a big load of
+from chaining together a big load of
+from chaining together a big load of
+actions to toying with the trajectory of
+actions to toying with the trajectory of
+actions to toying with the trajectory of
+a wingsuit
+a wingsuit
+a wingsuit
+under gravity but there are probably
+under gravity but there are probably
+under gravity but there are probably
+more to discover
+more to discover
+more to discover
+and more i missed so in the comments
+and more i missed so in the comments
+and more i missed so in the comments
+below
+below
+below
+what's your favorite movement system in
+what's your favorite movement system in
+what's your favorite movement system in
+a game and most crucially of all
+a game and most crucially of all
+a game and most crucially of all
+why it's indie game
+why it's indie game
+why it's indie game
+recommendation time and i've been having
+recommendation time and i've been having
+recommendation time and i've been having
+a lot of fun
+a lot of fun
+a lot of fun
+with cyber shadow an nes throwback
+with cyber shadow an nes throwback
+with cyber shadow an nes throwback
+platformer that's inspired by games like
+platformer that's inspired by games like
+platformer that's inspired by games like
+ninja gaiden
+ninja gaiden
+ninja gaiden
+and shatterhand it's not quite as
+and shatterhand it's not quite as
+and shatterhand it's not quite as
+punishing as those old games but it will
+punishing as those old games but it will
+punishing as those old games but it will
+certainly give you a good challenge if
+certainly give you a good challenge if
+certainly give you a good challenge if
+you're up for it
+you're up for it
+you're up for it
+you can expect great level design a huge
+you can expect great level design a huge
+you can expect great level design a huge
+moveset and
+moveset and
+moveset and
+stellar boss fights cybershadow is out
+stellar boss fights cybershadow is out
+stellar boss fights cybershadow is out
+now
+now
+now
+on all major platforms

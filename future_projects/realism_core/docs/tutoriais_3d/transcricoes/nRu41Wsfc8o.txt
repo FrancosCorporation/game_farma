@@ -1,0 +1,1899 @@
+Kind: captions
+Language: en
+In this video, I'm going to show you how
+In this video, I'm going to show you how
+In this video, I'm going to show you how
+you can create Hollywood level character
+you can create Hollywood level character
+you can create Hollywood level character
+animations in Blender. Let's go.
+animations in Blender. Let's go.
+animations in Blender. Let's go.
+Special.
+So, photorealistic environments combined
+So, photorealistic environments combined
+So, photorealistic environments combined
+with complex character animations. These
+with complex character animations. These
+with complex character animations. These
+are basically the core elements to any
+are basically the core elements to any
+are basically the core elements to any
+animated film. And how do all of these
+animated film. And how do all of these
+animated film. And how do all of these
+big studios do it? Take a look at
+big studios do it? Take a look at
+big studios do it? Take a look at
+something like, for example, Love,
+something like, for example, Love,
+something like, for example, Love,
+Death, and Robots. Tons of characters
+Death, and Robots. Tons of characters
+Death, and Robots. Tons of characters
+everywhere, animated perfectly inside of
+everywhere, animated perfectly inside of
+everywhere, animated perfectly inside of
+beautiful cinematic worlds. I mean,
+beautiful cinematic worlds. I mean,
+beautiful cinematic worlds. I mean,
+these are the types of films that
+these are the types of films that
+these are the types of films that
+inspired me to try to become a 3D
+inspired me to try to become a 3D
+inspired me to try to become a 3D
+filmmaker. But for the longest time, I
+filmmaker. But for the longest time, I
+filmmaker. But for the longest time, I
+had no idea where to start, and you
+had no idea where to start, and you
+had no idea where to start, and you
+might be feeling this way, too. Well,
+might be feeling this way, too. Well,
+might be feeling this way, too. Well,
+with this video, I hope to provide you
+with this video, I hope to provide you
+with this video, I hope to provide you
+with an insight into my workflow so that
+with an insight into my workflow so that
+with an insight into my workflow so that
+you'll have all the resources and
+you'll have all the resources and
+you'll have all the resources and
+information you need to create your own
+information you need to create your own
+information you need to create your own
+films. So, let me go ahead and run you
+films. So, let me go ahead and run you
+films. So, let me go ahead and run you
+through the game plan, an overview of
+through the game plan, an overview of
+through the game plan, an overview of
+each step that I took to complete these
+each step that I took to complete these
+each step that I took to complete these
+animations, and how this video will be
+animations, and how this video will be
+animations, and how this video will be
+formatted. This video is going to start
+formatted. This video is going to start
+formatted. This video is going to start
+by breaking down everything you need to
+by breaking down everything you need to
+by breaking down everything you need to
+know about character animation, as that
+know about character animation, as that
+know about character animation, as that
+is the core focus of all these projects.
+is the core focus of all these projects.
+is the core focus of all these projects.
+And the techniques are global, which
+And the techniques are global, which
+And the techniques are global, which
+means no matter what your environment
+means no matter what your environment
+means no matter what your environment
+is, the character animation workflow
+is, the character animation workflow
+is, the character animation workflow
+will stay the same. Once you master
+will stay the same. Once you master
+will stay the same. Once you master
+these skills, you can truly do anything.
+these skills, you can truly do anything.
+these skills, you can truly do anything.
+You'll learn how to utilize free motion
+You'll learn how to utilize free motion
+You'll learn how to utilize free motion
+capture animations from online, how to
+capture animations from online, how to
+capture animations from online, how to
+easily set up advanced control rigs, how
+easily set up advanced control rigs, how
+easily set up advanced control rigs, how
+to customize and adjust your animations
+to customize and adjust your animations
+to customize and adjust your animations
+by hand, how to blend multiple
+by hand, how to blend multiple
+by hand, how to blend multiple
+animations together, and even how to
+animations together, and even how to
+animations together, and even how to
+have your characters hold items like
+have your characters hold items like
+have your characters hold items like
+this assault rifle or pistol. If you
+this assault rifle or pistol. If you
+this assault rifle or pistol. If you
+want to take it a step even further into
+want to take it a step even further into
+want to take it a step even further into
+studio quality level animations, I'll
+studio quality level animations, I'll
+studio quality level animations, I'll
+also show you my entire RCOO motion
+also show you my entire RCOO motion
+also show you my entire RCOO motion
+capture suit workflow. from recording
+capture suit workflow. from recording
+capture suit workflow. from recording
+movements to setting up a control rig,
+movements to setting up a control rig,
+movements to setting up a control rig,
+cleaning up the animation to convert it
+cleaning up the animation to convert it
+cleaning up the animation to convert it
+into studio quality and finalizing. Once
+into studio quality and finalizing. Once
+into studio quality and finalizing. Once
+we finish up on characters, I'll give
+we finish up on characters, I'll give
+we finish up on characters, I'll give
+you a clear and concise breakdown of how
+you a clear and concise breakdown of how
+you a clear and concise breakdown of how
+I created each of these environments
+I created each of these environments
+I created each of these environments
+from blocking out to texturing to
+from blocking out to texturing to
+from blocking out to texturing to
+lighting and rendering. All right, now
+lighting and rendering. All right, now
+lighting and rendering. All right, now
+with everything laid out, let's get
+with everything laid out, let's get
+with everything laid out, let's get
+started. So, the first step, character
+started. So, the first step, character
+started. So, the first step, character
+models. You can find all sorts of
+models. You can find all sorts of
+models. You can find all sorts of
+fantastic character models out there,
+fantastic character models out there,
+fantastic character models out there,
+and a lot of them are free, too. If
+and a lot of them are free, too. If
+and a lot of them are free, too. If
+you're just beginning or learning the
+you're just beginning or learning the
+you're just beginning or learning the
+techniques, I'd recommend checking out
+techniques, I'd recommend checking out
+techniques, I'd recommend checking out
+Miximo. They have a few free models that
+Miximo. They have a few free models that
+Miximo. They have a few free models that
+will work great, like this futuristic
+will work great, like this futuristic
+will work great, like this futuristic
+soldier guy. If you're going for
+soldier guy. If you're going for
+soldier guy. If you're going for
+something more studio quality, you might
+something more studio quality, you might
+something more studio quality, you might
+have to pay a bit. For example, the big,
+have to pay a bit. For example, the big,
+have to pay a bit. For example, the big,
+medium, small library has amazingly
+medium, small library has amazingly
+medium, small library has amazingly
+realistic characters with great
+realistic characters with great
+realistic characters with great
+topology. These characters are what I
+topology. These characters are what I
+topology. These characters are what I
+will be using for my animations. Now,
+will be using for my animations. Now,
+will be using for my animations. Now,
+here is a huge plus for you. You don't
+here is a huge plus for you. You don't
+here is a huge plus for you. You don't
+need to worry about rigs or vertex
+need to worry about rigs or vertex
+need to worry about rigs or vertex
+groups, whatever. As long as your model
+groups, whatever. As long as your model
+groups, whatever. As long as your model
+is in to pose or a pose, I'll show you
+is in to pose or a pose, I'll show you
+is in to pose or a pose, I'll show you
+how to add your own rig. Okay, you
+how to add your own rig. Okay, you
+how to add your own rig. Okay, you
+downloaded your character and dropped
+downloaded your character and dropped
+downloaded your character and dropped
+them into Blender. And you're probably
+them into Blender. And you're probably
+them into Blender. And you're probably
+wondering how this lifeless shape is
+wondering how this lifeless shape is
+wondering how this lifeless shape is
+going to run and jump and talk. Well,
+going to run and jump and talk. Well,
+going to run and jump and talk. Well,
+remember when I mentioned adding a rig?
+remember when I mentioned adding a rig?
+remember when I mentioned adding a rig?
+That's the next step. But what is a rig
+That's the next step. But what is a rig
+That's the next step. But what is a rig
+anyway? The way 3D characters are
+anyway? The way 3D characters are
+anyway? The way 3D characters are
+animated is controlled by what's called
+animated is controlled by what's called
+animated is controlled by what's called
+a rig. A rig is essentially the
+a rig. A rig is essentially the
+a rig. A rig is essentially the
+character's skeleton. And that skeleton
+character's skeleton. And that skeleton
+character's skeleton. And that skeleton
+can communicate with vertex groups on
+can communicate with vertex groups on
+can communicate with vertex groups on
+the model. Vertex groups are heat
+the model. Vertex groups are heat
+the model. Vertex groups are heat
+mapbased information that determines how
+mapbased information that determines how
+mapbased information that determines how
+joints and other parts of the model will
+joints and other parts of the model will
+joints and other parts of the model will
+move. The relationship between the rig
+move. The relationship between the rig
+move. The relationship between the rig
+and vertex groups is super important and
+and vertex groups is super important and
+and vertex groups is super important and
+a highquality one will ensure that your
+a highquality one will ensure that your
+a highquality one will ensure that your
+model animates correctly. That is
+model animates correctly. That is
+model animates correctly. That is
+exactly why I ain't making that from
+exactly why I ain't making that from
+exactly why I ain't making that from
+scratch. Instead of creating our own, we
+scratch. Instead of creating our own, we
+scratch. Instead of creating our own, we
+are going to utilize Miximo's excellent
+are going to utilize Miximo's excellent
+are going to utilize Miximo's excellent
+auto rig tool. The process begins in
+auto rig tool. The process begins in
+auto rig tool. The process begins in
+Blender. I'll click on my model and make
+Blender. I'll click on my model and make
+Blender. I'll click on my model and make
+sure to remove any modifiers, vertex
+sure to remove any modifiers, vertex
+sure to remove any modifiers, vertex
+groups or key frames. Now apply rotation
+groups or key frames. Now apply rotation
+groups or key frames. Now apply rotation
+and scale and one final special step
+and scale and one final special step
+and scale and one final special step
+regarding materials. Unfortunately, if
+regarding materials. Unfortunately, if
+regarding materials. Unfortunately, if
+you export your model with materials,
+you export your model with materials,
+you export your model with materials,
+the auto rig tool often fails because of
+the auto rig tool often fails because of
+the auto rig tool often fails because of
+image texture file sizes. So, what we
+image texture file sizes. So, what we
+image texture file sizes. So, what we
+can do to get around this is to
+can do to get around this is to
+can do to get around this is to
+duplicate your model and on the
+duplicate your model and on the
+duplicate your model and on the
+duplicated model, hit this little button
+duplicated model, hit this little button
+duplicated model, hit this little button
+to copy the materials. These copied
+to copy the materials. These copied
+to copy the materials. These copied
+materials will contain all of the image
+materials will contain all of the image
+materials will contain all of the image
+textures on the model you are going to
+textures on the model you are going to
+textures on the model you are going to
+export. Delete all of the image textures
+export. Delete all of the image textures
+export. Delete all of the image textures
+from the materials, but make sure to
+from the materials, but make sure to
+from the materials, but make sure to
+keep the materials themselves on the
+keep the materials themselves on the
+keep the materials themselves on the
+model. Now, later when we import the
+model. Now, later when we import the
+model. Now, later when we import the
+rigged character into Blender, we can
+rigged character into Blender, we can
+rigged character into Blender, we can
+quickly convert the materials without
+quickly convert the materials without
+quickly convert the materials without
+image textures into the ones with image
+image textures into the ones with image
+image textures into the ones with image
+textures. Once all of this is done,
+textures. Once all of this is done,
+textures. Once all of this is done,
+click on your model file, export as FBX,
+click on your model file, export as FBX,
+click on your model file, export as FBX,
+hit only selection, and uncheck
+hit only selection, and uncheck
+hit only selection, and uncheck
+animation. Now, in Miximo, let's upload
+animation. Now, in Miximo, let's upload
+animation. Now, in Miximo, let's upload
+the character to the autorigger.
+the character to the autorigger.
+the character to the autorigger.
+Determine key points on the model like
+Determine key points on the model like
+Determine key points on the model like
+the groin, arms, and legs, and it will
+the groin, arms, and legs, and it will
+the groin, arms, and legs, and it will
+output a pretty great rigged character.
+output a pretty great rigged character.
+output a pretty great rigged character.
+Now, export this character to Blender.
+Now, export this character to Blender.
+Now, export this character to Blender.
+Bring back our materials, and we are
+Bring back our materials, and we are
+Bring back our materials, and we are
+done. Okay, so now we have a rigged
+done. Okay, so now we have a rigged
+done. Okay, so now we have a rigged
+character. They are ready for animation.
+character. They are ready for animation.
+character. They are ready for animation.
+But how do we actually put an animation
+But how do we actually put an animation
+But how do we actually put an animation
+on this guy, much less customize them to
+on this guy, much less customize them to
+on this guy, much less customize them to
+do whatever we want? Well, it all starts
+do whatever we want? Well, it all starts
+do whatever we want? Well, it all starts
+with something called a control rig.
+with something called a control rig.
+with something called a control rig.
+Like I said earlier, the rig is
+Like I said earlier, the rig is
+Like I said earlier, the rig is
+basically your character's skeleton that
+basically your character's skeleton that
+basically your character's skeleton that
+controls animation. A basic rig, like
+controls animation. A basic rig, like
+controls animation. A basic rig, like
+what we have now, is actually very
+what we have now, is actually very
+what we have now, is actually very
+limited in how flexibly you can control
+limited in how flexibly you can control
+limited in how flexibly you can control
+your character because all you can do is
+your character because all you can do is
+your character because all you can do is
+grab each individual bone and move it
+grab each individual bone and move it
+grab each individual bone and move it
+into position. But then each of these
+into position. But then each of these
+into position. But then each of these
+bones aren't even interacting with each
+bones aren't even interacting with each
+bones aren't even interacting with each
+other realistically. What we want is a
+other realistically. What we want is a
+other realistically. What we want is a
+more advanced rig which is called a
+more advanced rig which is called a
+more advanced rig which is called a
+control rig. You can see with this
+control rig. You can see with this
+control rig. You can see with this
+control rig I can grab the hips for
+control rig I can grab the hips for
+control rig I can grab the hips for
+example, move them around anywhere I
+example, move them around anywhere I
+example, move them around anywhere I
+want and the entire body will respond
+want and the entire body will respond
+want and the entire body will respond
+realistically. I can do the same with
+realistically. I can do the same with
+realistically. I can do the same with
+the arms or the legs or any other major
+the arms or the legs or any other major
+the arms or the legs or any other major
+section of the body. To add a control
+section of the body. To add a control
+section of the body. To add a control
+rig to a Miximo rig, I am using the
+rig to a Miximo rig, I am using the
+rig to a Miximo rig, I am using the
+Miximo control rig add-on. It's very
+Miximo control rig add-on. It's very
+Miximo control rig add-on. It's very
+simple. All you have to do is select
+simple. All you have to do is select
+simple. All you have to do is select
+your character and hit create control
+your character and hit create control
+your character and hit create control
+rig.
+rig.
+rig.
+Now, we need to jump back into Miximo
+Now, we need to jump back into Miximo
+Now, we need to jump back into Miximo
+and download an animation. I'll download
+and download an animation. I'll download
+and download an animation. I'll download
+this running animation and import it
+this running animation and import it
+this running animation and import it
+into Blender using the Miximo control
+into Blender using the Miximo control
+into Blender using the Miximo control
+rig plugin. Select your character, then
+rig plugin. Select your character, then
+rig plugin. Select your character, then
+select your animation you downloaded as
+select your animation you downloaded as
+select your animation you downloaded as
+the source and hit apply animation to
+the source and hit apply animation to
+the source and hit apply animation to
+control rig. Now, we have an animated
+control rig. Now, we have an animated
+control rig. Now, we have an animated
+character that also has a control rig,
+character that also has a control rig,
+character that also has a control rig,
+which sets us up perfectly to customize
+which sets us up perfectly to customize
+which sets us up perfectly to customize
+our animation. Some examples of what we
+our animation. Some examples of what we
+our animation. Some examples of what we
+can do now are moving the hands to hold
+can do now are moving the hands to hold
+can do now are moving the hands to hold
+an assault rifle or clean up glitchy leg
+an assault rifle or clean up glitchy leg
+an assault rifle or clean up glitchy leg
+movements or turn the character's head
+movements or turn the character's head
+movements or turn the character's head
+in directions it wasn't otherwise
+in directions it wasn't otherwise
+in directions it wasn't otherwise
+looking. You can really do anything you
+looking. You can really do anything you
+looking. You can really do anything you
+want. So, let me show you how. We are
+want. So, let me show you how. We are
+want. So, let me show you how. We are
+going to use a feature in Blender called
+going to use a feature in Blender called
+going to use a feature in Blender called
+nonlinear animation. You can think of it
+nonlinear animation. You can think of it
+nonlinear animation. You can think of it
+like photoshopping your animation. It's
+like photoshopping your animation. It's
+like photoshopping your animation. It's
+all completely non-destructive. I'll
+all completely non-destructive. I'll
+all completely non-destructive. I'll
+show you how to use it with a quick
+show you how to use it with a quick
+show you how to use it with a quick
+example. I have a character walking
+example. I have a character walking
+example. I have a character walking
+animation, but instead of walking with
+animation, but instead of walking with
+animation, but instead of walking with
+their hands down, I want them to be up,
+their hands down, I want them to be up,
+their hands down, I want them to be up,
+kind of like a zombie. I'll click on my
+kind of like a zombie. I'll click on my
+kind of like a zombie. I'll click on my
+character in enter pose mode. Then I'll
+character in enter pose mode. Then I'll
+character in enter pose mode. Then I'll
+select either all the bones with a or
+select either all the bones with a or
+select either all the bones with a or
+just the individual bones you want to
+just the individual bones you want to
+just the individual bones you want to
+work with. Now I'll open up the
+work with. Now I'll open up the
+work with. Now I'll open up the
+nonlinear animation window. I'll click
+nonlinear animation window. I'll click
+nonlinear animation window. I'll click
+on the first animation layer here and
+on the first animation layer here and
+on the first animation layer here and
+change the blending mode to combine.
+change the blending mode to combine.
+change the blending mode to combine.
+This makes it non-destructive. Very
+This makes it non-destructive. Very
+This makes it non-destructive. Very
+important. Then I'll hit this little
+important. Then I'll hit this little
+important. Then I'll hit this little
+button to push the layer down. This is
+button to push the layer down. This is
+button to push the layer down. This is
+basically allowing us to add new edits
+basically allowing us to add new edits
+basically allowing us to add new edits
+on top. Now I'll go to the first frame I
+on top. Now I'll go to the first frame I
+on top. Now I'll go to the first frame I
+want my edit to begin on and I'll hit I
+want my edit to begin on and I'll hit I
+want my edit to begin on and I'll hit I
+to add a key frame. This new key frame
+to add a key frame. This new key frame
+to add a key frame. This new key frame
+represents the current pose that my
+represents the current pose that my
+represents the current pose that my
+character is in. Now I'll go to the next
+character is in. Now I'll go to the next
+character is in. Now I'll go to the next
+frame, move the arms upwards
+frame, move the arms upwards
+frame, move the arms upwards
+and add another key frame by hitting I.
+and add another key frame by hitting I.
+and add another key frame by hitting I.
+This key frame represents the new pose I
+This key frame represents the new pose I
+This key frame represents the new pose I
+made on the character. Now you can see
+made on the character. Now you can see
+made on the character. Now you can see
+if I play the animation, the arms shoot
+if I play the animation, the arms shoot
+if I play the animation, the arms shoot
+up. If I want the arms to come up more
+up. If I want the arms to come up more
+up. If I want the arms to come up more
+slowly, just move the second key frame
+slowly, just move the second key frame
+slowly, just move the second key frame
+away from the first. And now you can see
+away from the first. And now you can see
+away from the first. And now you can see
+it takes more time to transition from
+it takes more time to transition from
+it takes more time to transition from
+the base pose into the edited pose. If
+the base pose into the edited pose. If
+the base pose into the edited pose. If
+you want the arms to go back to where
+you want the arms to go back to where
+you want the arms to go back to where
+they were originally, just copy the
+they were originally, just copy the
+they were originally, just copy the
+first key frame you made and paste it
+first key frame you made and paste it
+first key frame you made and paste it
+somewhere at the end. Now you can see it
+somewhere at the end. Now you can see it
+somewhere at the end. Now you can see it
+transitions slowly back to the original.
+transitions slowly back to the original.
+transitions slowly back to the original.
+If I want to add edits on top of this,
+If I want to add edits on top of this,
+If I want to add edits on top of this,
+just push the layer down again with this
+just push the layer down again with this
+just push the layer down again with this
+button and add a key frame before making
+button and add a key frame before making
+button and add a key frame before making
+edits to save the current position. Pose
+edits to save the current position. Pose
+edits to save the current position. Pose
+your character differently and add a key
+your character differently and add a key
+your character differently and add a key
+frame for that. And then you can copy
+frame for that. And then you can copy
+frame for that. And then you can copy
+and paste the first key frame to the end
+and paste the first key frame to the end
+and paste the first key frame to the end
+to close off the edit. In this new
+to close off the edit. In this new
+to close off the edit. In this new
+example, you can see I made the
+example, you can see I made the
+example, you can see I made the
+character crouch down, then stand up
+character crouch down, then stand up
+character crouch down, then stand up
+again. I would recommend practicing all
+again. I would recommend practicing all
+again. I would recommend practicing all
+of this. Okay, so now we know how to
+of this. Okay, so now we know how to
+of this. Okay, so now we know how to
+utilize singular animations and
+utilize singular animations and
+utilize singular animations and
+customize them. But how do we actually
+customize them. But how do we actually
+customize them. But how do we actually
+stitch these animations together? You
+stitch these animations together? You
+stitch these animations together? You
+know, in an animated film, characters
+know, in an animated film, characters
+know, in an animated film, characters
+aren't just doing one thing. They're
+aren't just doing one thing. They're
+aren't just doing one thing. They're
+running and jumping and hiding behind a
+running and jumping and hiding behind a
+running and jumping and hiding behind a
+wall or talking to someone. You know,
+wall or talking to someone. You know,
+wall or talking to someone. You know,
+these are all separate animations that
+these are all separate animations that
+these are all separate animations that
+need to be brought together as one. So,
+need to be brought together as one. So,
+need to be brought together as one. So,
+let me show you how to do it. Let's
+let me show you how to do it. Let's
+let me show you how to do it. Let's
+download two animations from Miximo, a
+download two animations from Miximo, a
+download two animations from Miximo, a
+running animation and a jumping
+running animation and a jumping
+running animation and a jumping
+animation. import them into Blender and
+animation. import them into Blender and
+animation. import them into Blender and
+organize them all side by side and into
+organize them all side by side and into
+organize them all side by side and into
+collections. This will make things much
+collections. This will make things much
+collections. This will make things much
+simpler for us to work with. Now, with
+simpler for us to work with. Now, with
+simpler for us to work with. Now, with
+our nonlinear animation sheet open,
+our nonlinear animation sheet open,
+our nonlinear animation sheet open,
+let's name the animations the according
+let's name the animations the according
+let's name the animations the according
+action. For example, this guy is
+action. For example, this guy is
+action. For example, this guy is
+running. I'll name it run, and the other
+running. I'll name it run, and the other
+running. I'll name it run, and the other
+I'll name jump. Now, on the Miximo
+I'll name jump. Now, on the Miximo
+I'll name jump. Now, on the Miximo
+control rig add-on, I'll attach the
+control rig add-on, I'll attach the
+control rig add-on, I'll attach the
+running animation to our soldier.
+running animation to our soldier.
+running animation to our soldier.
+On the nonlinear animation sheet, I'll
+On the nonlinear animation sheet, I'll
+On the nonlinear animation sheet, I'll
+hit this drop-down button to essentially
+hit this drop-down button to essentially
+hit this drop-down button to essentially
+save the animation as a layer on our
+save the animation as a layer on our
+save the animation as a layer on our
+soldier. So now the running animation is
+soldier. So now the running animation is
+soldier. So now the running animation is
+a saved layer. Now I'll go back to the
+a saved layer. Now I'll go back to the
+a saved layer. Now I'll go back to the
+control rig add-on and add our jump
+control rig add-on and add our jump
+control rig add-on and add our jump
+animation
+and save it as a layer as well.
+Now if I put these layers side by side,
+Now if I put these layers side by side,
+Now if I put these layers side by side,
+you can see that one is running and the
+you can see that one is running and the
+you can see that one is running and the
+other is jumping.
+other is jumping.
+other is jumping.
+If your first animation is not playing,
+If your first animation is not playing,
+If your first animation is not playing,
+that's because you need to set the
+that's because you need to set the
+that's because you need to set the
+extrapolation to nothing on both your
+extrapolation to nothing on both your
+extrapolation to nothing on both your
+layers. Before blending the two
+layers. Before blending the two
+layers. Before blending the two
+animations together, let's start by
+animations together, let's start by
+animations together, let's start by
+looping our running animation. I can go
+looping our running animation. I can go
+looping our running animation. I can go
+to the end of the first running layer,
+to the end of the first running layer,
+to the end of the first running layer,
+hit shift A, and select our running
+hit shift A, and select our running
+hit shift A, and select our running
+layer to create a duplicate. Now,
+layer to create a duplicate. Now,
+layer to create a duplicate. Now,
+currently, you can see the beginning of
+currently, you can see the beginning of
+currently, you can see the beginning of
+the second running animation begins
+the second running animation begins
+the second running animation begins
+where the first one started. Obviously,
+where the first one started. Obviously,
+where the first one started. Obviously,
+we want them to continue running forward
+we want them to continue running forward
+we want them to continue running forward
+and not glitch back like this. In order
+and not glitch back like this. In order
+and not glitch back like this. In order
+to fix that, let's go into pose mode and
+to fix that, let's go into pose mode and
+to fix that, let's go into pose mode and
+select the base bone. It's the one on
+select the base bone. It's the one on
+select the base bone. It's the one on
+the floor. Now, let's go to the last
+the floor. Now, let's go to the last
+the floor. Now, let's go to the last
+frame of the first running animation
+frame of the first running animation
+frame of the first running animation
+layer and add a key frame. Then, on the
+layer and add a key frame. Then, on the
+layer and add a key frame. Then, on the
+first frame of the second running
+first frame of the second running
+first frame of the second running
+animation layer, let's move the
+animation layer, let's move the
+animation layer, let's move the
+character forward and add a key frame.
+character forward and add a key frame.
+character forward and add a key frame.
+You might have to adjust the position of
+You might have to adjust the position of
+You might have to adjust the position of
+the character to perfectly match where
+the character to perfectly match where
+the character to perfectly match where
+the first running animation left off.
+the first running animation left off.
+the first running animation left off.
+Now, our character continues to run
+Now, our character continues to run
+Now, our character continues to run
+forward, effectively seamlessly looping
+forward, effectively seamlessly looping
+forward, effectively seamlessly looping
+the animation. All right, let's add our
+the animation. All right, let's add our
+the animation. All right, let's add our
+jumping animation. Now, I'll grab my
+jumping animation. Now, I'll grab my
+jumping animation. Now, I'll grab my
+jumping animation, move the layer down
+jumping animation, move the layer down
+jumping animation, move the layer down
+on top of the running layer. Our
+on top of the running layer. Our
+on top of the running layer. Our
+objective here is to find the most
+objective here is to find the most
+objective here is to find the most
+closely matching pose between the
+closely matching pose between the
+closely matching pose between the
+running and jumping animation and place
+running and jumping animation and place
+running and jumping animation and place
+it there. For example, here I'll find
+it there. For example, here I'll find
+it there. For example, here I'll find
+the point in the running animation where
+the point in the running animation where
+the point in the running animation where
+the right foot is down. And on the
+the right foot is down. And on the
+the right foot is down. And on the
+jumping animation, I'll make sure it
+jumping animation, I'll make sure it
+jumping animation, I'll make sure it
+starts where the right foot is beginning
+starts where the right foot is beginning
+starts where the right foot is beginning
+the jump. I'll key frame the position of
+the jump. I'll key frame the position of
+the jump. I'll key frame the position of
+the jumping animation to match the
+the jumping animation to match the
+the jumping animation to match the
+location of the running layer. And now
+location of the running layer. And now
+location of the running layer. And now
+you can see kind of looks like the jump
+you can see kind of looks like the jump
+you can see kind of looks like the jump
+takes off at the same point that the
+takes off at the same point that the
+takes off at the same point that the
+rudding leaves off. However, obviously
+rudding leaves off. However, obviously
+rudding leaves off. However, obviously
+things still look a little janky. The
+things still look a little janky. The
+things still look a little janky. The
+transition isn't smooth. In order to fix
+transition isn't smooth. In order to fix
+transition isn't smooth. In order to fix
+this, I'll utilize this blendin tool on
+this, I'll utilize this blendin tool on
+this, I'll utilize this blendin tool on
+the jumping animation. And just like
+the jumping animation. And just like
+the jumping animation. And just like
+magic, it perfectly blends the
+magic, it perfectly blends the
+magic, it perfectly blends the
+animations together to create something
+animations together to create something
+animations together to create something
+that looks seamless. Now our character
+that looks seamless. Now our character
+that looks seamless. Now our character
+runs then jumps. Beautiful. This is the
+runs then jumps. Beautiful. This is the
+runs then jumps. Beautiful. This is the
+exact method you will use to blend any
+exact method you will use to blend any
+exact method you will use to blend any
+two animations together. And the
+two animations together. And the
+two animations together. And the
+possibilities are truly endless. Okay,
+possibilities are truly endless. Okay,
+possibilities are truly endless. Okay,
+now for the really cool part. What if we
+now for the really cool part. What if we
+now for the really cool part. What if we
+want our character to hold items like
+want our character to hold items like
+want our character to hold items like
+guns or swords or, you know, any sort of
+guns or swords or, you know, any sort of
+guns or swords or, you know, any sort of
+object? How do we do that? At first,
+object? How do we do that? At first,
+object? How do we do that? At first,
+giving your character the ability to
+giving your character the ability to
+giving your character the ability to
+wield weapons seems super complex. Like,
+wield weapons seems super complex. Like,
+wield weapons seems super complex. Like,
+how does a motion capture animation
+how does a motion capture animation
+how does a motion capture animation
+interact with a separate animation
+interact with a separate animation
+interact with a separate animation
+controlling an assault rifle? And how do
+controlling an assault rifle? And how do
+controlling an assault rifle? And how do
+you make both of their hands stick onto
+you make both of their hands stick onto
+you make both of their hands stick onto
+the gun while also dynamically moving
+the gun while also dynamically moving
+the gun while also dynamically moving
+with the rest of the body? First, we
+with the rest of the body? First, we
+with the rest of the body? First, we
+need the actual weapon. In this case, I
+need the actual weapon. In this case, I
+need the actual weapon. In this case, I
+have a simple assault rifle. Let's
+have a simple assault rifle. Let's
+have a simple assault rifle. Let's
+position it next to our character's
+position it next to our character's
+position it next to our character's
+arms.
+arms.
+arms.
+Now, add a child of constraint to the
+Now, add a child of constraint to the
+Now, add a child of constraint to the
+weapon. Make the target your character,
+weapon. Make the target your character,
+weapon. Make the target your character,
+and the bone should be the right hand.
+and the bone should be the right hand.
+and the bone should be the right hand.
+Now, rotate and position the gun until
+Now, rotate and position the gun until
+Now, rotate and position the gun until
+it looks like your character is grabbing
+it looks like your character is grabbing
+it looks like your character is grabbing
+it.
+If I play the animation, you can see the
+If I play the animation, you can see the
+If I play the animation, you can see the
+weapon actually works properly on the
+weapon actually works properly on the
+weapon actually works properly on the
+right hand, but the left hand isn't
+right hand, but the left hand isn't
+right hand, but the left hand isn't
+grabbing anything.
+grabbing anything.
+grabbing anything.
+To fix this, select the left hand and
+To fix this, select the left hand and
+To fix this, select the left hand and
+add an inverse kinematics constraint.
+add an inverse kinematics constraint.
+add an inverse kinematics constraint.
+Set the chain link to three and check
+Set the chain link to three and check
+Set the chain link to three and check
+rotation.
+rotation.
+rotation.
+Now add an empty. Place it where the
+Now add an empty. Place it where the
+Now add an empty. Place it where the
+left hand should be holding on the gun.
+left hand should be holding on the gun.
+left hand should be holding on the gun.
+Parent it to the gun. And back on the
+Parent it to the gun. And back on the
+Parent it to the gun. And back on the
+inverse kinematics constraint target,
+inverse kinematics constraint target,
+inverse kinematics constraint target,
+set this to be the empty. Now just
+set this to be the empty. Now just
+set this to be the empty. Now just
+rotate the empty and position onto where
+rotate the empty and position onto where
+rotate the empty and position onto where
+you want the left hand to hold the
+you want the left hand to hold the
+you want the left hand to hold the
+weapon.
+weapon.
+weapon.
+It works.
+Now let's use the nonlinear animation
+Now let's use the nonlinear animation
+Now let's use the nonlinear animation
+method to control how the character is
+method to control how the character is
+method to control how the character is
+holding the gun. For example, we can key
+holding the gun. For example, we can key
+holding the gun. For example, we can key
+frame a more focused scope position.
+frame a more focused scope position.
+frame a more focused scope position.
+If you want to take character animation
+If you want to take character animation
+If you want to take character animation
+even more seriously and are interested
+even more seriously and are interested
+even more seriously and are interested
+in a dedicated course helping you truly
+in a dedicated course helping you truly
+in a dedicated course helping you truly
+master this workflow, then it's your
+master this workflow, then it's your
+master this workflow, then it's your
+lucky day because I have actually
+lucky day because I have actually
+lucky day because I have actually
+released the ultimate character
+released the ultimate character
+released the ultimate character
+animation course on my Patreon. In fact,
+animation course on my Patreon. In fact,
+animation course on my Patreon. In fact,
+I am designing it to be the best place
+I am designing it to be the best place
+I am designing it to be the best place
+to learn 3D. We have the character
+to learn 3D. We have the character
+to learn 3D. We have the character
+animation course, the abandoned hallway
+animation course, the abandoned hallway
+animation course, the abandoned hallway
+course, the Tundra Mountain course,
+course, the Tundra Mountain course,
+course, the Tundra Mountain course,
+Cyberpunk City course, and much, much
+Cyberpunk City course, and much, much
+Cyberpunk City course, and much, much
+more. All for literally $5 a month. Not
+more. All for literally $5 a month. Not
+more. All for literally $5 a month. Not
+only am I posting courses and tutorials
+only am I posting courses and tutorials
+only am I posting courses and tutorials
+regularly where you can learn how to
+regularly where you can learn how to
+regularly where you can learn how to
+create professional scenes and
+create professional scenes and
+create professional scenes and
+animations, but you also unlock the
+animations, but you also unlock the
+animations, but you also unlock the
+ability to have my help with your
+ability to have my help with your
+ability to have my help with your
+projects whenever you need. We have a
+projects whenever you need. We have a
+projects whenever you need. We have a
+fantastic community growing every single
+fantastic community growing every single
+fantastic community growing every single
+day full of artists who are seriously
+day full of artists who are seriously
+day full of artists who are seriously
+leveling up their 3D skills and at the
+leveling up their 3D skills and at the
+leveling up their 3D skills and at the
+same time making my job, my dream job as
+same time making my job, my dream job as
+same time making my job, my dream job as
+a 3D artist possible. So, if that sounds
+a 3D artist possible. So, if that sounds
+a 3D artist possible. So, if that sounds
+cool to you, you should absolutely jump
+cool to you, you should absolutely jump
+cool to you, you should absolutely jump
+in. The link to my Patreon is in the
+in. The link to my Patreon is in the
+in. The link to my Patreon is in the
+description. You should check it out.
+description. You should check it out.
+description. You should check it out.
+Thanks. Now, let's move on to my
+Thanks. Now, let's move on to my
+Thanks. Now, let's move on to my
+official studio quality character
+official studio quality character
+official studio quality character
+animation workflow. Yo, I can't tell you
+animation workflow. Yo, I can't tell you
+animation workflow. Yo, I can't tell you
+how fun this is. and so so useful for
+how fun this is. and so so useful for
+how fun this is. and so so useful for
+creating amazing character animations
+creating amazing character animations
+creating amazing character animations
+and it's a workout. I am in the RCOO
+and it's a workout. I am in the RCOO
+and it's a workout. I am in the RCOO
+motion capture suit which the team at
+motion capture suit which the team at
+motion capture suit which the team at
+RCoo were so kind to send to me and I
+RCoo were so kind to send to me and I
+RCoo were so kind to send to me and I
+got the suit, I got the gloves and this
+got the suit, I got the gloves and this
+got the suit, I got the gloves and this
+basically transforms your house into a
+basically transforms your house into a
+basically transforms your house into a
+motion capture studio which is crazy. So
+motion capture studio which is crazy. So
+motion capture studio which is crazy. So
+yeah, now I'll show you how I go from
+yeah, now I'll show you how I go from
+yeah, now I'll show you how I go from
+recording these movements
+recording these movements
+recording these movements
+into a polished high quality character
+into a polished high quality character
+into a polished high quality character
+animation. So let's go.
+animation. So let's go.
+animation. So let's go.
+Let's start on our first animation for
+Let's start on our first animation for
+Let's start on our first animation for
+this hallway scene. Okay, so I want my
+this hallway scene. Okay, so I want my
+this hallway scene. Okay, so I want my
+character to sort of run out of this
+character to sort of run out of this
+character to sort of run out of this
+doorway into this hallway and then look
+doorway into this hallway and then look
+doorway into this hallway and then look
+at two possible threat directions. Uh
+at two possible threat directions. Uh
+at two possible threat directions. Uh
+aiming a pistol back and forth. So let's
+aiming a pistol back and forth. So let's
+aiming a pistol back and forth. So let's
+go ahead and get started. I can go over
+go ahead and get started. I can go over
+go ahead and get started. I can go over
+to RCOO Studio. Okay, so here I am in
+to RCOO Studio. Okay, so here I am in
+to RCOO Studio. Okay, so here I am in
+RCOO Studio. I can go ahead and just hit
+RCOO Studio. I can go ahead and just hit
+RCOO Studio. I can go ahead and just hit
+the record button after calibrating.
+the record button after calibrating.
+the record button after calibrating.
+Should be good. Okay, now I'm going to
+Should be good. Okay, now I'm going to
+Should be good. Okay, now I'm going to
+run over here, do my movements.
+run over here, do my movements.
+run over here, do my movements.
+So I sort of want to go over here. Okay.
+Okay. Something like that. Something
+Okay. Something like that. Something
+Okay. Something like that. Something
+like that. All right. Now I can stop
+like that. All right. Now I can stop
+like that. All right. Now I can stop
+recording and I can go ahead and just
+recording and I can go ahead and just
+recording and I can go ahead and just
+review what I recorded. Okay. This is
+review what I recorded. Okay. This is
+review what I recorded. Okay. This is
+where it starts.
+where it starts.
+where it starts.
+Run out of the hall. Look back and
+Run out of the hall. Look back and
+Run out of the hall. Look back and
+forth.
+forth.
+forth.
+Start walking down the hallway. Look
+Start walking down the hallway. Look
+Start walking down the hallway. Look
+back. Yeah,
+back. Yeah,
+back. Yeah,
+this looks great. This looks great.
+this looks great. This looks great.
+this looks great. This looks great.
+And then the export is super easy. I'm
+And then the export is super easy. I'm
+And then the export is super easy. I'm
+just going to select FBX. And then I'll
+just going to select FBX. And then I'll
+just going to select FBX. And then I'll
+select Miximo because I'm using Miximo
+select Miximo because I'm using Miximo
+select Miximo because I'm using Miximo
+rigs and 30 fps. That's the frame rate
+rigs and 30 fps. That's the frame rate
+rigs and 30 fps. That's the frame rate
+of my scene. And then I can just pick
+of my scene. And then I can just pick
+of my scene. And then I can just pick
+where I want to export it to and click
+where I want to export it to and click
+where I want to export it to and click
+export clip. I'll export this animation
+export clip. I'll export this animation
+export clip. I'll export this animation
+and bring it into Blender. And using the
+and bring it into Blender. And using the
+and bring it into Blender. And using the
+Miximo control rig add-on, I can attach
+Miximo control rig add-on, I can attach
+Miximo control rig add-on, I can attach
+the animation to my rigged character.
+Awesome. Now, I'm going to open up the
+Awesome. Now, I'm going to open up the
+Awesome. Now, I'm going to open up the
+nonlinear animation sheet as well as the
+nonlinear animation sheet as well as the
+nonlinear animation sheet as well as the
+graph editor to help me clean up and
+graph editor to help me clean up and
+graph editor to help me clean up and
+polish the animation. As you can see
+polish the animation. As you can see
+polish the animation. As you can see
+here, we have a few glitches in the
+here, we have a few glitches in the
+here, we have a few glitches in the
+legs.
+legs.
+legs.
+So, I can select the problem bones and
+So, I can select the problem bones and
+So, I can select the problem bones and
+in the graph editor, highlight the
+in the graph editor, highlight the
+in the graph editor, highlight the
+frames where the problem exists and hit
+frames where the problem exists and hit
+frames where the problem exists and hit
+decimate key frames. Essentially, this
+decimate key frames. Essentially, this
+decimate key frames. Essentially, this
+interpolates between the first and last
+interpolates between the first and last
+interpolates between the first and last
+key frames of your selection, therefore
+key frames of your selection, therefore
+key frames of your selection, therefore
+smoothing out any issues in between.
+smoothing out any issues in between.
+smoothing out any issues in between.
+I'll repeat this for any other weird
+I'll repeat this for any other weird
+I'll repeat this for any other weird
+movements, jitters, or glitches for each
+movements, jitters, or glitches for each
+movements, jitters, or glitches for each
+according bone. Now, to fix issues like
+according bone. Now, to fix issues like
+according bone. Now, to fix issues like
+this, where the hand is sort of clipping
+this, where the hand is sort of clipping
+this, where the hand is sort of clipping
+into the body, I can use nonlinear
+into the body, I can use nonlinear
+into the body, I can use nonlinear
+animation.
+animation.
+animation.
+Just push down your layer, which
+Just push down your layer, which
+Just push down your layer, which
+represents the base key frames. And for
+represents the base key frames. And for
+represents the base key frames. And for
+your new layer, make sure it's set to
+your new layer, make sure it's set to
+your new layer, make sure it's set to
+combine. Now I'll grab the hand, pull it
+combine. Now I'll grab the hand, pull it
+combine. Now I'll grab the hand, pull it
+out
+and key frame this new location. Now
+and key frame this new location. Now
+and key frame this new location. Now
+it's fixed.
+it's fixed.
+it's fixed.
+I'll repeat the same technique for the
+I'll repeat the same technique for the
+I'll repeat the same technique for the
+character's general pose as well. For
+character's general pose as well. For
+character's general pose as well. For
+example, here, let's take a look at
+example, here, let's take a look at
+example, here, let's take a look at
+another animation I made for the
+another animation I made for the
+another animation I made for the
+sheriff. You can see when she crouches
+sheriff. You can see when she crouches
+sheriff. You can see when she crouches
+down, it looks a bit off. So I can key
+down, it looks a bit off. So I can key
+down, it looks a bit off. So I can key
+frame an adjusted pose for this position
+frame an adjusted pose for this position
+frame an adjusted pose for this position
+that feels more natural. This is why
+that feels more natural. This is why
+that feels more natural. This is why
+nonlinear animation is so insanely
+nonlinear animation is so insanely
+nonlinear animation is so insanely
+powerful. Not only does it serve as a
+powerful. Not only does it serve as a
+powerful. Not only does it serve as a
+way to clean up buggy movements, but you
+way to clean up buggy movements, but you
+way to clean up buggy movements, but you
+have complete control over your
+have complete control over your
+have complete control over your
+character's poses.
+character's poses.
+character's poses.
+Get familiar with the graph editor and
+Get familiar with the graph editor and
+Get familiar with the graph editor and
+the nonlinear animation sheet, and you
+the nonlinear animation sheet, and you
+the nonlinear animation sheet, and you
+will be creating studio quality level
+will be creating studio quality level
+will be creating studio quality level
+animations in no time. If you guys are
+animations in no time. If you guys are
+animations in no time. If you guys are
+interested in creating super highquality
+interested in creating super highquality
+interested in creating super highquality
+custom character animations like I am,
+custom character animations like I am,
+custom character animations like I am,
+make sure to check out the RCOO motion
+make sure to check out the RCOO motion
+make sure to check out the RCOO motion
+capture suit in the description. And
+capture suit in the description. And
+capture suit in the description. And
+using this link and code, you can get a
+using this link and code, you can get a
+using this link and code, you can get a
+huge discount. Take advantage of it.
+huge discount. Take advantage of it.
+huge discount. Take advantage of it.
+Okay, you guys. I hope that I provided a
+Okay, you guys. I hope that I provided a
+Okay, you guys. I hope that I provided a
+solid look into my character animation
+solid look into my character animation
+solid look into my character animation
+workflow. And now, let's jump into
+workflow. And now, let's jump into
+workflow. And now, let's jump into
+environment creation. Good-looking
+environment creation. Good-looking
+environment creation. Good-looking
+characters are only one part of the
+characters are only one part of the
+characters are only one part of the
+puzzle because if they don't exist in a
+puzzle because if they don't exist in a
+puzzle because if they don't exist in a
+beautiful and immersive world, your
+beautiful and immersive world, your
+beautiful and immersive world, your
+animations are going to fall kind of
+animations are going to fall kind of
+animations are going to fall kind of
+flat. Now, my standard for environments
+flat. Now, my standard for environments
+flat. Now, my standard for environments
+is very high. I like my worlds to be
+is very high. I like my worlds to be
+is very high. I like my worlds to be
+truly stunning. So, how did I create
+truly stunning. So, how did I create
+truly stunning. So, how did I create
+these? Well, let's start by breaking
+these? Well, let's start by breaking
+these? Well, let's start by breaking
+down the unforgiving apocalypse
+down the unforgiving apocalypse
+down the unforgiving apocalypse
+landscape environment I created for this
+landscape environment I created for this
+landscape environment I created for this
+animation I named Vanguard. First step
+animation I named Vanguard. First step
+animation I named Vanguard. First step
+is finding inspiration and references,
+is finding inspiration and references,
+is finding inspiration and references,
+which I'll drop into a massive pure ref
+which I'll drop into a massive pure ref
+which I'll drop into a massive pure ref
+sheet. I'll also write a little bit of
+sheet. I'll also write a little bit of
+sheet. I'll also write a little bit of
+lore in world building, which is kind of
+lore in world building, which is kind of
+lore in world building, which is kind of
+an underrated process, but I think it
+an underrated process, but I think it
+an underrated process, but I think it
+really helps me with the environment
+really helps me with the environment
+really helps me with the environment
+creation. Now I'll block out the scene.
+creation. Now I'll block out the scene.
+creation. Now I'll block out the scene.
+Just getting rough ideas of scale and
+Just getting rough ideas of scale and
+Just getting rough ideas of scale and
+distance from Google Earth. And then
+distance from Google Earth. And then
+distance from Google Earth. And then
+sizing everything up with cubes, planes,
+sizing everything up with cubes, planes,
+sizing everything up with cubes, planes,
+and simple lights.
+and simple lights.
+and simple lights.
+Now I'll begin working on the
+Now I'll begin working on the
+Now I'll begin working on the
+foreground. I'll sculpt roughly what I
+foreground. I'll sculpt roughly what I
+foreground. I'll sculpt roughly what I
+want it to look like
+and add my materials. Here I have a
+and add my materials. Here I have a
+and add my materials. Here I have a
+rocky material and a dry cracked mud
+rocky material and a dry cracked mud
+rocky material and a dry cracked mud
+material. Everything looks even better
+material. Everything looks even better
+material. Everything looks even better
+once I add rock scans from Quickixle.
+once I add rock scans from Quickixle.
+once I add rock scans from Quickixle.
+Now I'll play with the lighting a bit to
+Now I'll play with the lighting a bit to
+Now I'll play with the lighting a bit to
+get that distinct ray of sun hitting the
+get that distinct ray of sun hitting the
+get that distinct ray of sun hitting the
+rocks and revealing the characters.
+rocks and revealing the characters.
+rocks and revealing the characters.
+Next, I'll add an even deeper level of
+Next, I'll add an even deeper level of
+Next, I'll add an even deeper level of
+detail into the foreground by simulating
+detail into the foreground by simulating
+detail into the foreground by simulating
+rock scatter. I can just take a clump of
+rock scatter. I can just take a clump of
+rock scatter. I can just take a clump of
+low poly rocks, add a rigid body
+low poly rocks, add a rigid body
+low poly rocks, add a rigid body
+simulation to them, and let them fall
+simulation to them, and let them fall
+simulation to them, and let them fall
+into the cracks and corners of the
+into the cracks and corners of the
+into the cracks and corners of the
+foreground. Look how much amazing detail
+foreground. Look how much amazing detail
+foreground. Look how much amazing detail
+this adds.
+this adds.
+this adds.
+Next, I'll move on to the midground,
+Next, I'll move on to the midground,
+Next, I'll move on to the midground,
+which I'll create using Gaia. Here, I
+which I'll create using Gaia. Here, I
+which I'll create using Gaia. Here, I
+want a rocky cliffside. Here's what it
+want a rocky cliffside. Here's what it
+want a rocky cliffside. Here's what it
+looks like in Gaia. And then I'll
+looks like in Gaia. And then I'll
+looks like in Gaia. And then I'll
+position them how I want in the scene.
+On the side here, I'd like a rocky hill,
+On the side here, I'd like a rocky hill,
+On the side here, I'd like a rocky hill,
+also made in Gaia. Here's what it looks
+also made in Gaia. Here's what it looks
+also made in Gaia. Here's what it looks
+like.
+like.
+like.
+And I'll position it just like this.
+I'll take the same rock scans that I
+I'll take the same rock scans that I
+I'll take the same rock scans that I
+used for the foreground, scale them up
+used for the foreground, scale them up
+used for the foreground, scale them up
+to be much bigger, and position them
+to be much bigger, and position them
+to be much bigger, and position them
+around my midground to fake cliffs in
+around my midground to fake cliffs in
+around my midground to fake cliffs in
+giant boulders.
+giant boulders.
+giant boulders.
+Now for the very very far background
+Now for the very very far background
+Now for the very very far background
+mountains, I'll also make them in Gaia.
+mountains, I'll also make them in Gaia.
+mountains, I'll also make them in Gaia.
+And I'll move them around until it
+And I'll move them around until it
+And I'll move them around until it
+creates this nice cozy valley below.
+Okay, so things really look terribly
+Okay, so things really look terribly
+Okay, so things really look terribly
+unrealistic without atmosphere at this
+unrealistic without atmosphere at this
+unrealistic without atmosphere at this
+distance. So don't be too hard on
+distance. So don't be too hard on
+distance. So don't be too hard on
+yourself if your landscape doesn't look
+yourself if your landscape doesn't look
+yourself if your landscape doesn't look
+so great until you've established
+so great until you've established
+so great until you've established
+atmosphere. To get good-looking
+atmosphere. To get good-looking
+atmosphere. To get good-looking
+atmosphere, I'm just covering my entire
+atmosphere, I'm just covering my entire
+atmosphere, I'm just covering my entire
+world with a cube with a principled
+world with a cube with a principled
+world with a cube with a principled
+volume as the shader.
+volume as the shader.
+volume as the shader.
+Here's my settings. Next, I'd like a
+Here's my settings. Next, I'd like a
+Here's my settings. Next, I'd like a
+futuristic alien looking colony set up
+futuristic alien looking colony set up
+futuristic alien looking colony set up
+in the valley. I created this by
+in the valley. I created this by
+in the valley. I created this by
+assembling kit bash spaceship pieces
+assembling kit bash spaceship pieces
+assembling kit bash spaceship pieces
+until I developed my own custom
+until I developed my own custom
+until I developed my own custom
+building. And then I textured it with
+building. And then I textured it with
+building. And then I textured it with
+some simple tech trim sheets. For the
+some simple tech trim sheets. For the
+some simple tech trim sheets. For the
+lights, it's just pictures of windows
+lights, it's just pictures of windows
+lights, it's just pictures of windows
+with an emission spread around the
+with an emission spread around the
+with an emission spread around the
+building with the shrink wrap modifier.
+building with the shrink wrap modifier.
+building with the shrink wrap modifier.
+All right, that environment is done.
+All right, that environment is done.
+All right, that environment is done.
+Now, let's break down the hallway
+Now, let's break down the hallway
+Now, let's break down the hallway
+environment, which is quite a different
+environment, which is quite a different
+environment, which is quite a different
+type of scene. Now, for this
+type of scene. Now, for this
+type of scene. Now, for this
+environment, I didn't use very many
+environment, I didn't use very many
+environment, I didn't use very many
+references. Actually, just one. This
+references. Actually, just one. This
+references. Actually, just one. This
+fantastic art created by Vatitali Smick.
+fantastic art created by Vatitali Smick.
+fantastic art created by Vatitali Smick.
+First, I'll establish a blockout, get
+First, I'll establish a blockout, get
+First, I'll establish a blockout, get
+some rough lighting in, and quickly
+some rough lighting in, and quickly
+some rough lighting in, and quickly
+begin working on the textures. For the
+begin working on the textures. For the
+begin working on the textures. For the
+floor, I'm using a basic tile, but I'm
+floor, I'm using a basic tile, but I'm
+floor, I'm using a basic tile, but I'm
+making sure to really dial in the
+making sure to really dial in the
+making sure to really dial in the
+roughness to get nice reflections. A
+roughness to get nice reflections. A
+roughness to get nice reflections. A
+high quality displacement map is also
+high quality displacement map is also
+high quality displacement map is also
+very important here. For the walls, I'm
+very important here. For the walls, I'm
+very important here. For the walls, I'm
+blending together a few different types
+blending together a few different types
+blending together a few different types
+of plaster, but most importantly, I'm
+of plaster, but most importantly, I'm
+of plaster, but most importantly, I'm
+painting decals by hand to achieve a
+painting decals by hand to achieve a
+painting decals by hand to achieve a
+next level of realism. I'll add graffiti
+next level of realism. I'll add graffiti
+next level of realism. I'll add graffiti
+and grunge coming from the corners,
+and grunge coming from the corners,
+and grunge coming from the corners,
+floor, and ceiling. My advice for
+floor, and ceiling. My advice for
+floor, and ceiling. My advice for
+building realistic materials is to
+building realistic materials is to
+building realistic materials is to
+layer, layer, layer. There should be
+layer, layer, layer. There should be
+layer, layer, layer. There should be
+color variation, dirt, grunge. Corners
+color variation, dirt, grunge. Corners
+color variation, dirt, grunge. Corners
+should be dark like in real life.
+should be dark like in real life.
+should be dark like in real life.
+Reflections should be punchy. Really
+Reflections should be punchy. Really
+Reflections should be punchy. Really
+utilize everything you possibly can to
+utilize everything you possibly can to
+utilize everything you possibly can to
+push this away from that stale 3D look.
+push this away from that stale 3D look.
+push this away from that stale 3D look.
+The scene also greatly benefits from
+The scene also greatly benefits from
+The scene also greatly benefits from
+atmosphere. Here it is with and without.
+atmosphere. Here it is with and without.
+atmosphere. Here it is with and without.
+And finally, let's take a look at the
+And finally, let's take a look at the
+And finally, let's take a look at the
+Pacific Northwest environment I created
+Pacific Northwest environment I created
+Pacific Northwest environment I created
+for this western type animation.
+for this western type animation.
+for this western type animation.
+Similarly to every project you make, you
+Similarly to every project you make, you
+Similarly to every project you make, you
+should start with a blockout. Here, I
+should start with a blockout. Here, I
+should start with a blockout. Here, I
+establish the main ideas about the
+establish the main ideas about the
+establish the main ideas about the
+foreground size, boulders, and
+foreground size, boulders, and
+foreground size, boulders, and
+mountains. Next, I'll build the
+mountains. Next, I'll build the
+mountains. Next, I'll build the
+foreground material by blending tundra
+foreground material by blending tundra
+foreground material by blending tundra
+textures from Quickixle, and I'll add in
+textures from Quickixle, and I'll add in
+textures from Quickixle, and I'll add in
+some beautiful rock scans. Foliage is
+some beautiful rock scans. Foliage is
+some beautiful rock scans. Foliage is
+very important here, and I'm scattering
+very important here, and I'm scattering
+very important here, and I'm scattering
+it using geometry nodes. When working
+it using geometry nodes. When working
+it using geometry nodes. When working
+with foliage, it's important to test
+with foliage, it's important to test
+with foliage, it's important to test
+everything on a small plane first. Then
+everything on a small plane first. Then
+everything on a small plane first. Then
+once your materials and scatter systems
+once your materials and scatter systems
+once your materials and scatter systems
+work well together, bring it over to the
+work well together, bring it over to the
+work well together, bring it over to the
+larger main terrain.
+larger main terrain.
+larger main terrain.
+Here I have some small tundra plants,
+Here I have some small tundra plants,
+Here I have some small tundra plants,
+bushes, and fur trees. For the
+bushes, and fur trees. For the
+bushes, and fur trees. For the
+background mountains, I created them in
+background mountains, I created them in
+background mountains, I created them in
+Gaia and paid close attention to
+Gaia and paid close attention to
+Gaia and paid close attention to
+creating solid masks. The main mask I'm
+creating solid masks. The main mask I'm
+creating solid masks. The main mask I'm
+utilizing is the difference between
+utilizing is the difference between
+utilizing is the difference between
+cliff rocks and grass. This is what the
+cliff rocks and grass. This is what the
+cliff rocks and grass. This is what the
+mountain looks like with just grass. And
+mountain looks like with just grass. And
+mountain looks like with just grass. And
+now cliffs. I'll add on my trees here as
+now cliffs. I'll add on my trees here as
+now cliffs. I'll add on my trees here as
+well. It looks beautiful. The lighting
+well. It looks beautiful. The lighting
+well. It looks beautiful. The lighting
+was very, very simple. Literally just a
+was very, very simple. Literally just a
+was very, very simple. Literally just a
+basic overcast HDRI and of course solid
+basic overcast HDRI and of course solid
+basic overcast HDRI and of course solid
+atmosphere. Okay, you guys, I hope I
+atmosphere. Okay, you guys, I hope I
+atmosphere. Okay, you guys, I hope I
+provided a good insight into my
+provided a good insight into my
+provided a good insight into my
+environment creation process. But as
+environment creation process. But as
+environment creation process. But as
+this video was mostly about character
+this video was mostly about character
+this video was mostly about character
+animation, I understand that I might
+animation, I understand that I might
+animation, I understand that I might
+have skipped over some steps. So, if you
+have skipped over some steps. So, if you
+have skipped over some steps. So, if you
+are interested in a more step-by-step
+are interested in a more step-by-step
+are interested in a more step-by-step
+super thorough breakdown of all the
+super thorough breakdown of all the
+super thorough breakdown of all the
+environments in this video, you can
+environments in this video, you can
+environments in this video, you can
+check out my Patreon where again I have
+check out my Patreon where again I have
+check out my Patreon where again I have
+a course on all of these environments.
+a course on all of these environments.
+a course on all of these environments.
+Definitely check it out. Thank you guys
+Definitely check it out. Thank you guys
+Definitely check it out. Thank you guys
+so much for watching. I really, really
+so much for watching. I really, really
+so much for watching. I really, really
+hope you enjoyed and got something out
+hope you enjoyed and got something out
+hope you enjoyed and got something out
+of this video and I will see you in the
+of this video and I will see you in the
+of this video and I will see you in the
+next one.

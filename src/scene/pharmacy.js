@@ -14,14 +14,14 @@ const mk = (geo, mat, cast = true) => {
 };
 const rnd = (a, b) => a + Math.random() * (b - a);
 
-// Iluminação por ambiente (reflexos PBR) via RoomEnvironment + adjuste fino
-// G5 — texturas PBR + realismo
+// Iluminação por ambiente via RoomEnvironment + ajuste fino (reflexos suaves)
+// Direção de arte: estilizado casual — ver docs/DIRETRIZES_ARTE_ESTILIZADA.md
 function makeEnvironment(scene, renderer) {
   if (!renderer) return;
   const pmrem = new THREE.PMREMGenerator(renderer);
   const envTex = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
   scene.environment = envTex;
-  scene.environmentIntensity = 0.5;
+  scene.environmentIntensity = 0.24;
 }
 
 // Rua exterior visível pela porta de vidro (fundo noturno)
@@ -95,7 +95,7 @@ function outdoor(scene) {
   const poste = mk(new THREE.CylinderGeometry(0.03, 0.04, 3.4, 8), M(0x23282e, { roughness: 0.6 }), false);
   poste.position.set(-2.6, 1.7, -8.15);
   scene.add(poste);
-  const posteLight = new THREE.PointLight(0xffc77a, 4, 7);
+  const posteLight = new THREE.PointLight(0xffc77a, 0.8, 7);
   posteLight.position.set(-2.6, 3.4, -8.15);
   scene.add(posteLight);
   const lampCap = mk(new THREE.CylinderGeometry(0.09, 0.05, 0.16, 10), M(0x14171c, { roughness: 0.5 }), false);
@@ -126,7 +126,7 @@ function canvasTexture(size, draw, repeatX = 1, repeatY = 1) {
   return tex;
 }
 
-// Piso cerâmico 40x40 — agora PBR: grout marcado + manchas + "brilho" (roughness baixa)
+// Piso cerâmico 40x40 — grout marcado + variação sutil + brilho leve (canvas limpo, sem grunge)
 function tileTexture() {
   return canvasTexture(512, (g, s) => {
     g.fillStyle = '#c9cfd5';
@@ -261,7 +261,8 @@ function attendant(scene, addTicker, x, z, color, glbName) {
     head.rotation.y = Math.sin(t * 0.6 + x) * 0.3;
   });
   if (glbName) {
-    // G5 — atendente modelado (uniforme) substitui o procedural; fallback automático
+    // Atendente modelado (uniforme) substitui o procedural; fallback automático
+    // (legado realista → substituir na leva estilizada)
     propFromGLB(`models/${glbName}.glb`, g, scene, { pos: [x, 0, z], rotY: 0.5 });
   } else {
     g.position.set(x, 0, z);
@@ -385,7 +386,7 @@ export function buildPharmacy(scene, addTicker, renderer) {
   crossH.position.set(0, 2.1, 0.07);
   crossV.position.set(0, 2.1, 0.07);
   signGroup.add(crossH, crossV);
-  const glow = new THREE.PointLight(0x34d399, 1.6, 6);
+  const glow = new THREE.PointLight(0x34d399, 0.55, 6);
   glow.position.set(0, 2.1, 0.5);
   signGroup.add(glow);
   signGroup.position.set(-6.2, 0, -6.4);
@@ -407,7 +408,7 @@ export function buildPharmacy(scene, addTicker, renderer) {
   banner.position.set(0, 3.15, -6.5);
   scene.add(banner);
 
-  // Porta de entrada (vidro) — G5: más transparente + marco aluminio
+  // Porta de entrada (vidro) + marco
   const doorFrame = mk(new THREE.BoxGeometry(1.6, 2.3, 0.14), M(0x37474f, { metalness: 0.4, roughness: 0.4 }));
   doorFrame.position.set(3.2, 1.15, -6.36);
   scene.add(doorFrame);
@@ -434,11 +435,11 @@ export function buildPharmacy(scene, addTicker, renderer) {
   propFromGLB('models/prop_vitrine.glb', vitrineG, scene, { pos: [8.2, 0, -1.5], rotY: Math.PI / 2 });
 
 
-  // Atendentes de fundo — G5: agora com uniformes modelados (GLB)
+  // Atendentes de fundo — uniformes modelados (GLB; legado realista)
   attendant(scene, addTicker, -5.2, 1.9, 0x8d99ae, 'atendente_balcon');
   attendant(scene, addTicker, 5.2, 1.9, 0xb08968, 'atendente_gondola');
 
-  // ================= G5 — Ambientación + realismo =================
+  // ================= Ambientação =================
 
   // Cartazes de farmácia nas paredes
   function posterTex(title, body) {
@@ -472,20 +473,20 @@ export function buildPharmacy(scene, addTicker, renderer) {
   }
 
   // Luz LED extra: fría no techo sobre el balcón + cálida en góndolas
-  const led = new THREE.PointLight(0xeaf4ff, 8, 16);
+  const led = new THREE.PointLight(0xeaf4ff, 0.8, 16);
   led.position.set(0, 3.6, 1.0);
   scene.add(led);
-  const gondoWarm = new THREE.PointLight(0xffe2b0, 5, 10);
+  const gondoWarm = new THREE.PointLight(0xffe2b0, 0.45, 10);
   gondoWarm.position.set(0, 2.8, -3.5);
   scene.add(gondoWarm);
-  const vitrineCool = new THREE.PointLight(0xcfe8ff, 6, 9);
+  const vitrineCool = new THREE.PointLight(0xcfe8ff, 0.55, 9);
   vitrineCool.position.set(8.6, 2.6, -1.5);
   scene.add(vitrineCool);
 
   // Rua exterior noturna pela porta de vidro
   outdoor(scene);
 
-  // Ambiente PBR (reflexos) — precisa do renderer
+  // Ambiente/reflexos suaves — precisa do renderer
   makeEnvironment(scene, renderer);
 
   return { scene };

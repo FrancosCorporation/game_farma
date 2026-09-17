@@ -1,0 +1,639 @@
+in this video we'll learn to bake the
+procedural materials we made for the
+eyebrows eyelashes and hair
+into texture-based materials this is
+useful if you're exporting
+your character from blender into another
+program such as unity
+this lesson builds on episodes four and
+five so if you haven't been following
+along
+make sure you check those out first
+okay let's start baking so baking is
+just a different version of rendering
+and so when you bake it'll also
+capture these shadows from other objects
+so we want to put only what we want to
+bake
+in the active scene so to do that we
+will make a new collection
+and put what we want to bake in that
+collection
+i'm going to grab an eyebrow here that's
+as flat as possible so it's nice nice
+even
+bake and we'll hit m to move that
+to collection 8. let's call this
+collection bake
+okay so that's there and we will hide
+everything else
+we want to keep these lights but we want
+to hide everything else
+click off make sure you don't click the
+i because that means it's still there
+you just can't see it
+if you click the check mark that means
+it's turned off
+okay so those are all off so so here we
+are we've got our
+geometry and our lights yep there we go
+let's go to our shading window
+and make sure where you can see our
+eyelash okay eyebrow
+so we've got our texture here
+let's increase our sub d
+so you can see in the viewport it's
+pretty rough
+um the render is set higher it's set to
+two so if we make this
+match the quality of the render you can
+see it's smoother
+let's bump this up even further just so
+we get nice a nice quality
+bake let's put that to three and three
+we'll put this lower later
+okay and we've got our
+eyebrow selected so
+to do our bake we need to make textures
+that we want to bake onto so we'll do
+that now so
+shift a s i n a
+for image texture let's also
+hide this and let's turn on
+screencast keys okay so we're going to
+make three textures
+so we will duplicate this three times
+here we will click new
+we'll click make this called eye
+eyebrow bake albedo
+let's copy i'm going to copy this first
+part because i'm going to
+call all three textures the same thing
+except for the last word so copy that
+we'll call this alb for albedo
+let's make this 2k 2048
+2048. let's color this
+so we can tell we're making something
+okay we'll do the same thing here
+okay let's move that a bit new
+control v and this will be the
+alpha
+and then let's make one more ctrl
+v and normal
+okay so these are the three textures
+we're gonna make so when you
+bake and it's kind of weird
+you want to click your geometry in the
+3d viewport
+you want to click your texture
+in the shader window here so click that
+guy
+and the geometry and then let's also go
+to here
+to make sure we can see it so let's type
+in
+eyebrow albedo because right now we're
+doing the
+albedo let's just do this so we can see
+we're doing so
+albedo this is the albedo here so we can
+see it
+and over here we've got our geometry
+selected
+so let's go into the renderer and see
+here so
+you can see when it's rendering it's got
+it looks like it's 3d because we've got
+a normal map it's got specular and all
+stuff we we want to be just kind of like
+just the color so it's nice and simple
+so let's go and set those
+settings so it only catches the color
+so go to your renderer panel so this
+right here it's the render
+render properties and make sure this is
+not an experimental
+and make sure this is on cycles
+if you go into the sampling the higher
+this number here is
+the higher the quality is but the longer
+it takes and baking takes a long time
+so i think 128 is okay let's leave it at
+that
+let's go down to your bake panel here
+and we just want the color so let's turn
+off
+indirect leave the fuse turn off glossy
+turn off transmission ambient and
+emission
+that should be good and so you can see
+here
+the color turns slightly brown here but
+basically it's all black
+and we've got all these uh shadings and
+reflections and that should be
+gone when we bake it so let's go and
+let's make sure we got everything
+selected so
+geometry texture
+and bake and i'll
+i'll speed this up because it's slow
+okay let's see we got here it looks
+almost like it's all black but you can
+see we've got a bit of color here
+and if you'll recall that's how we set
+our our texture so that's
+correct you'll see also there's the
+little star next to the word image here
+which means that this
+this bake or this render is not saved
+yet so we will go
+to save as
+and then i made a folder called textures
+so let's save it wherever you want to it
+pre-names it based on what you called
+that texture so just click save
+and it's saved so now let's
+make our normal next so this third one
+is the normal
+let's click normal the normal texture in
+the preview window so we can see it as
+it bakes
+after it bakes and then
+let's make sure to click our eyebrow
+click our texture
+then go to normal and click
+bake and the default settings should be
+fine
+and this is baking the normals based off
+of our current texture
+which was this guy we set up over here
+okay so let's take a look here
+and i think that's going to be okay
+not sure what that line is but it should
+be it should be okay
+okay so then let's go to image and
+save as
+and normal
+and then let's go and bake our
+alpha so we'll click our alpha texture
+here
+now for the alpha we want to have
+basically
+anything that's opaque we want that to
+be white and anything that's transparent
+we want to be black
+so let's make our tics our shader look
+like that
+so let's take off the
+so we're back in our main shader
+our regular shader and we will
+pull off the color so now it's all pink
+let's make that
+white like that
+and then let's go back and pick our
+alpha new shader here and let's pick it
+over here so we can
+see it okay here we go
+and go back to our bake panel and let's
+go to
+combine and we will do oh you know what
+i forgot something let's also go to
+emission
+and put this up to 100.
+yeah this is probably better actually
+let's do
+let's do i think we just need to do that
+just emission okay i'm not sure let's
+try it
+let's see here that looks
+looks about right we've got black
+and white here so let's go
+to image and save
+eyebrow bake alpha right save that
+okay so now we've got our three textures
+we'll make a new material
+shift a s p r i for printable
+bsdf and let's
+drag these here so color we'll put this
+to emission for now we'll put it back to
+diffuse in a second emission is nice
+because you can see
+what the texture looks like without any
+kind of like you know
+lights in the scene affecting it let's
+make our alpha
+non-color and our
+normal non-color we'll drag
+the alpha to the alpha and we'll drag
+that and then we'll well let's just do
+this drag normal to normal
+shift a s n o r for normal
+pick normal map and drop it in between
+it should automatically hook it up
+so that's the way it should be and then
+we will
+let's pull this down
+oops let's drag this
+down here so it's a little bit easier
+to reach and then let's put
+our material back the way it was so put
+the color back
+in and turn emission off
+okay so you can see here we have our
+nice
+high resolution procedural
+material and here is our baked one so it
+should be not as nice
+but it should allow us to uh well that's
+weird um
+so let's turn the specular
+down and roughness up
+so here's our new shader
+and here's our old shader so you can see
+that there's a big difference
+however if this is say
+in a game or anything like a
+video it's going to be way far out there
+and you'll never unless you're like
+looking at individual strands of hair
+you'll never notice the difference
+okay so let's put this back to where it
+belongs
+so let's come out of isolate mode
+and hit m oops i was out
+so come out of isolate mode hit m
+and move this to character and eyelashes
+and turn our character back on
+and let's see how it looks looks
+pretty much like it did before
+okay let's
+do the same thing for the
+eyelashes so let's grab the
+we don't want the eyelash that's just
+the top we want the one that's the top
+and bottom
+and let's also make sure we get the one
+that's forward facing
+so let's see here yep that's
+forward facing let's turn that off
+and let's go and add some textures
+shift a s i n a for
+image texture this is basically the same
+thing as last time
+shift d and shift d
+we'll hit new call this e y e l a
+s h bake underscore
+copy this a l
+b for albedo make this
+2048 by
+2048 and make this
+some random color
+do the same thing three times v this is
+the
+alpha alpha
+and this one is the normal
+okay shift a s
+p r i for principle bsdf
+and let's position this so it's
+easy to switch between our procedural
+and our
+texture bake version we'll plug these in
+let's put this into
+emission for now we'll put this back to
+base color later and we'll grab
+this alpha into alpha and
+normal into normal shift a s and o
+r for normal map
+put that there okay so i think we are
+all set let's grab
+our albedo here
+and oh let's move this to our bake
+layer down here so we will hit
+m and move this to bake
+and hide that nothing else is active
+except our lights which is good
+okay now let's go and let's grab this
+grab that go to our
+render properties and bake settings
+combined direct
+emit diffuse
+and let's go to
+eyelash albedo so you can see it
+we well this is kind of inefficient
+using a whole texture for just the
+bottom here um
+like you i'm leaving it like this in
+case you want to
+change the normals and have every
+piece of geometry for the texture
+laid out separately so you can lay it
+all out through the whole map but
+um for this uh this video we're just
+going to use the bottom here
+but but we you have that space if you
+want to do that that's the
+i guess that's a more proper way to to
+bake these but
+since we're reusing the same texture for
+all the pieces of geometry
+um we'll just use the bottom section
+i hope that made sense and
+let's go and click bake
+yeah so basically if you want to lay out
+if you want to bake this the right way
+you would
+take all the eyelashes combine them all
+together into one mesh
+and then lay out the uvs so nothing
+overlaps
+but and that's the right way to do it
+but since we're just
+reusing it over and over again for all
+the geometry we're just going to do it
+this way
+okay so this looks okay here so let's go
+in
+image and save
+and i'm using a dual screen so you can't
+see my save window so let's see if we
+can
+okay eyelash bake
+albedo save image okay
+okay let's do the alph
+uh let's do the normal map next
+so click this guy here that's selected
+go to normal and
+let's go to here so we can see it
+and click bake
+okay so let's go to image and save
+i'm just gonna click save here
+okay so that is saved and now let's do
+the alpha so let's grab
+the alpha here get our geometry there
+and let's modify our texture so it
+looks um so it
+will make a nice alpha so let's just
+pull that off
+let's make this white
+oops not pink white
+let's turn the emission all the way up
+and i think this is not going to give us
+a nice
+alpha map because of all this hazy
+easy almost translucent um color here
+white color here we want to have it um
+look like strands
+it looked okay for our procedural but
+it's not going to work for an
+alpha so let's just bump up the contrast
+here
+let's see
+see i don't want to be too thin
+but i want to avoid some of these flat
+spots
+i think that should be okay
+okay so let's grab our
+alpha texture here let's
+make our alpha visible here grab
+our geometry it is grabbed here
+and we'll make this combined
+uh let's see direct diffuse emit
+and bake
+it looks pretty good go to image and
+save
+i'm just going to save that
+and then let's put our procedural
+shader back the way it was so let's put
+that
+back on there these
+need to be set to non-color
+and non-color
+and let's see how this looks so this is
+our
+nice procedural let's turn this down
+okay so this is our nice procedural
+eyelashes and let's drag this one over
+here and
+see how it looks oh
+that's that's not good oh
+okay
+okay that's not too bad
+procedural oh it is a lot crisper
+i think it's because that alpha
+that might be too dark let's check with
+our
+whole character and see
+yeah i think that looks too dark
+so let's go and rebake that to be a
+little bit
+finer
+so let's go and
+turn this back up
+plug this back in
+unplug that there
+and let's make this alpha look a little
+bit
+finer
+more like that let's go and grab our
+alpha again
+grab our eyelash again combine direct
+diffuse emit
+yes and yes and bake
+okay this looks better let's go and
+save this again
+and let's go and plug in
+i think that's better let's go and check
+our character
+yeah okay that looks better so let's go
+and put our procedural shader back
+together so let's drag that back over
+there
+turn plug the base color back in
+and turn the emission back down
+and then let's just check this out here
+yeah okay that looks good
+oh and we should put this um
+this back the way it was
+it's funny that the haziness didn't oh
+yeah i guess it's there you just
+i just didn't notice it
+it looked okay for the procedural but
+for the baked texture
+it didn't but yeah i think that's good
+so let's put these lashes back
+so grab that m character
+eyelashes turn our character back on
+yeah i think that's pretty good okay
+let's do the same thing now
+for the hair so we'll hide our character
+turn on our hair and
+let's go out of cycles
+so we're not going to use the actual
+hair to bake it we're going to use
+the um the straight pieces
+so let's go ahead and grab these make
+sure we have
+the hair plus the curves and shift
+d escape g z
+to get out of the way we will
+m to move and move these to our bake
+layer
+and then we will hide the hair
+so we want to our lights are
+up here so let's move the hair closer
+so let's go
+just drag it up grab that
+um g x
+g x
+g x
+okay so if you will recall
+each of these hairs occupied
+a different space on the uv
+so i want to bake i want to make them
+all at once and so it'll just bake
+this section here but that will apply
+to all the hair we made so to do that
+we need to um join these
+with ctrl j but because we have the
+curve modifier
+it'll it'll mess things up so if you
+grab all these here ctrl
+j it does weird stuff so
+we will grab this and hit
+apply which basically applies that curve
+modifier we can do apply again and apply
+again so now we actually don't need
+these curves because it's um
+the curve modifier has been applied and
+it's it's
+built into the the mesh now
+sub d's that's fine let's leave those on
+we can hit ctrl j and it'll just assume
+oops
+sorry so
+okay i guess i only had subdues on this
+one piece here so let's
+grab one here without a sub d shift
+click the other without a sub d
+then shift click the hair with the sub d
+and hit ctrl
+j so now it keeps the sub d
+okay so now if we go to edit mode you'll
+see
+the uvs take up this whole chunk here
+instead of just
+one area like like that
+now let's set up our texture to bake
+just like we did the last two times
+so we will do shift a s
+i m a for image texture
+let's drag that out a bit
+shift d shift d
+new let's call this
+hair bake
+copy that c v alph albedo a
+l b we'll make this
+2048 by 2048
+you can make that more if you want to
+but your bake will take longer
+hair albedo
+okay new
+control v this will be our
+alpha alpha
+and this will be our normal
+shift-a-s p-r-i
+for principle bsdf
+we'll drag that to emission for now
+alpha and normal shift
+a s and o r for normal map
+drop that right in there okay
+so now let's grab our albedo
+grab our geometry
+and let's let's just make sure it's yeah
+it's lit okay
+and then let's go to our render
+properties and the bake area
+combined direct diffuse turn off admit
+and let's oh let's preview this too was
+the hair
+bake h-a-i hair bake albedo
+let's just zoom in a bit
+do that
+okay selected
+and selected and bake
+okay let's go to image
+and save
+okay so let's take a look at this here
+looks pretty good okay so let's
+go and bake our normal
+next so we'll grab our normal
+grab our geometry go
+to normal and let's
+set this to normal so we can see it
+and click bake
+okay it looks pretty good let's go to
+image and save i'll just click
+save let's plug in
+our alpha
+here almost plugged in okay now let's
+make the alpha
+so we need to fix our
+procedural shader so this looks
+all white
+oh white
+it's got a little color up here i think
+that's not going to be good
+okay let's try and render it and see
+what happens
+so we will grab our
+alpha here grab our geometry here
+go to combined here let's turn off
+diffuse and turn on emit
+switch this over to alpha and click bake
+okay so those little uh faint striations
+here
+they do not appear in the
+main middle section of the hair alpha so
+i think
+i think we're actually okay
+so let's go to image and save
+we'll save that
+and then let's go and
+see let's pull this back well let's pull
+this back up to
+base color set this to
+non-color and this one to non-color
+let's put our procedural shader back
+our color back in
+and let's see how how it looks here
+so let's see so we can see how it
+kind of fades out
+and let's
+switch this
+got a lot darker i think our
+texture bake was a lot darker our color
+because of how our lighting was set up
+let's check and see how our character
+looks
+no it actually looks pretty good let's
+see turn on cycles
+let's turn this specular down and
+roughness
+up here oops maybe
+you can see the this uh hair is a lot
+less
+sophisticated as the uh our procedural
+but it works um it works for other
+programs where procedurals wouldn't
+so i think that's pretty good let's go
+to uh our modeling window
+yeah there there you go so we've got uh
+we've got baked textures for her
+hair eyelashes and eyebrows
+so that's it for a video today i hope
+this video was helpful to you
+if it was leave a comment like or betty
+better support me on patreon
+and in the next video we will learn to
+do some uving

@@ -1,0 +1,3235 @@
+Kind: captions
+Language: en
+if you've ever wanted to learn how to do
+if you've ever wanted to learn how to do
+if you've ever wanted to learn how to do
+things like 3d modeling in a 3d software
+things like 3d modeling in a 3d software
+things like 3d modeling in a 3d software
+like blender for example this tutorial
+like blender for example this tutorial
+like blender for example this tutorial
+is aimed at absolute beginners by which
+is aimed at absolute beginners by which
+is aimed at absolute beginners by which
+i mean i'm going to be approaching it
+i mean i'm going to be approaching it
+i mean i'm going to be approaching it
+from the perspective of somebody that's
+from the perspective of somebody that's
+from the perspective of somebody that's
+never even opened up blender i'm going
+never even opened up blender i'm going
+never even opened up blender i'm going
+to be showing you how to move around how
+to be showing you how to move around how
+to be showing you how to move around how
+do basic navigational things work and
+do basic navigational things work and
+do basic navigational things work and
+the goal of this tutorial is to show you
+the goal of this tutorial is to show you
+the goal of this tutorial is to show you
+how to get started with modeling your
+how to get started with modeling your
+how to get started with modeling your
+first ever object in this case we're
+first ever object in this case we're
+first ever object in this case we're
+going to be modeling this really really
+going to be modeling this really really
+going to be modeling this really really
+basic little character here it's not
+basic little character here it's not
+basic little character here it's not
+fancy
+fancy
+fancy
+or posh like some of the other tutorials
+or posh like some of the other tutorials
+or posh like some of the other tutorials
+i've done and modeling techniques on my
+i've done and modeling techniques on my
+i've done and modeling techniques on my
+channel this one is really going to be
+channel this one is really going to be
+channel this one is really going to be
+kept
+kept
+kept
+absolutely basic very low poly by which
+absolutely basic very low poly by which
+absolutely basic very low poly by which
+i mean the amount of points and faces
+i mean the amount of points and faces
+i mean the amount of points and faces
+and things you're going to be selecting
+and things you're going to be selecting
+and things you're going to be selecting
+are going to be to an absolute minimal
+are going to be to an absolute minimal
+are going to be to an absolute minimal
+to make it as simple as possible i'm
+to make it as simple as possible i'm
+to make it as simple as possible i'm
+also going to be showing you guys how to
+also going to be showing you guys how to
+also going to be showing you guys how to
+use modifiers in blender which are these
+use modifiers in blender which are these
+use modifiers in blender which are these
+things over here so one i'm going to be
+things over here so one i'm going to be
+things over here so one i'm going to be
+showing you how to use is a mirror
+showing you how to use is a mirror
+showing you how to use is a mirror
+modifier
+modifier
+modifier
+and this mirror modifier allows you to
+and this mirror modifier allows you to
+and this mirror modifier allows you to
+be modeling on one side and it mirrors
+be modeling on one side and it mirrors
+be modeling on one side and it mirrors
+over to the other side and this is
+over to the other side and this is
+over to the other side and this is
+something that really saves you a lot of
+something that really saves you a lot of
+something that really saves you a lot of
+time and it makes for a more consistent
+time and it makes for a more consistent
+time and it makes for a more consistent
+even
+even
+even
+topology and then i'm going to show you
+topology and then i'm going to show you
+topology and then i'm going to show you
+how to add a subdivision surface
+how to add a subdivision surface
+how to add a subdivision surface
+modifier which is this thing here which
+modifier which is this thing here which
+modifier which is this thing here which
+just smooths out your model
+just smooths out your model
+just smooths out your model
+we're pretty much going to be starting
+we're pretty much going to be starting
+we're pretty much going to be starting
+with a default primitive object in this
+with a default primitive object in this
+with a default primitive object in this
+case it's going to be the default cube
+case it's going to be the default cube
+case it's going to be the default cube
+and once we've modeled it we're going to
+and once we've modeled it we're going to
+and once we've modeled it we're going to
+end up with this here so once again
+end up with this here so once again
+end up with this here so once again
+absolute beginners i hope you enjoyed
+absolute beginners i hope you enjoyed
+absolute beginners i hope you enjoyed
+this i hope you learned something and
+this i hope you learned something and
+this i hope you learned something and
+this gets you a good start with blender
+this gets you a good start with blender
+this gets you a good start with blender
+so um let's get started with this uh
+so um let's get started with this uh
+so um let's get started with this uh
+absolute beginner tutorial in blender
+so just in case you have not already
+so just in case you have not already
+so just in case you have not already
+downloaded blender i'm just going to
+downloaded blender i'm just going to
+downloaded blender i'm just going to
+quickly touch on it if you go to
+quickly touch on it if you go to
+quickly touch on it if you go to
+blender.org and then you go up to the
+blender.org and then you go up to the
+blender.org and then you go up to the
+top and you click on the download
+top and you click on the download
+top and you click on the download
+section you can download a version of
+section you can download a version of
+section you can download a version of
+blenders in this case it says download
+blenders in this case it says download
+blenders in this case it says download
+blender 2.92
+blender 2.92
+blender 2.92
+for me i downloaded it and it made a zip
+for me i downloaded it and it made a zip
+for me i downloaded it and it made a zip
+folder which was in my downloads and
+folder which was in my downloads and
+folder which was in my downloads and
+then i just simply extracted that zip
+then i just simply extracted that zip
+then i just simply extracted that zip
+folder and then i took that file and i
+folder and then i took that file and i
+folder and then i took that file and i
+just put it into a builds folder so i'll
+just put it into a builds folder so i'll
+just put it into a builds folder so i'll
+quickly show you here if i go to builds
+quickly show you here if i go to builds
+quickly show you here if i go to builds
+i just i just put that extracted zip
+i just i just put that extracted zip
+i just i just put that extracted zip
+folder in the folder here and it can be
+folder in the folder here and it can be
+folder in the folder here and it can be
+anywhere on your computer so you're just
+anywhere on your computer so you're just
+anywhere on your computer so you're just
+going to open that up wherever it's
+going to open that up wherever it's
+going to open that up wherever it's
+extracted and just run blender you can
+extracted and just run blender you can
+extracted and just run blender you can
+also right click and you can just um pin
+also right click and you can just um pin
+also right click and you can just um pin
+it to your taskbar or your start which
+it to your taskbar or your start which
+it to your taskbar or your start which
+is also what i did so in this case i'm
+is also what i did so in this case i'm
+is also what i did so in this case i'm
+just going to run
+just going to run
+just going to run
+the this version of blender which is
+the this version of blender which is
+the this version of blender which is
+blender 2.93 even if you use blender
+blender 2.93 even if you use blender
+blender 2.93 even if you use blender
+2.92 that should all be fine so go ahead
+2.92 that should all be fine so go ahead
+2.92 that should all be fine so go ahead
+and just run it once you've installed it
+and just run it once you've installed it
+and just run it once you've installed it
+and you do get options for mac
+and you do get options for mac
+and you do get options for mac
+windows and linux so i'm going to run
+windows and linux so i'm going to run
+windows and linux so i'm going to run
+mine which is for windows
+mine which is for windows
+mine which is for windows
+and when you open up blender this is
+and when you open up blender this is
+and when you open up blender this is
+what you're going to see right
+what you're going to see right
+what you're going to see right
+so
+so
+so
+it's not too complicated of a software
+it's not too complicated of a software
+it's not too complicated of a software
+to use i know it can look a little bit
+to use i know it can look a little bit
+to use i know it can look a little bit
+intimidating but it's actually very well
+intimidating but it's actually very well
+intimidating but it's actually very well
+organized and it's better than a lot of
+organized and it's better than a lot of
+organized and it's better than a lot of
+other softwares i've used in the past so
+other softwares i've used in the past so
+other softwares i've used in the past so
+what you're going to do
+what you're going to do
+what you're going to do
+is if you want to move around
+is if you want to move around
+is if you want to move around
+in blender
+in blender
+in blender
+one of the main ways to do that is you
+one of the main ways to do that is you
+one of the main ways to do that is you
+if you have a mouse you're just going to
+if you have a mouse you're just going to
+if you have a mouse you're just going to
+click and hold in the scroll button the
+click and hold in the scroll button the
+click and hold in the scroll button the
+the up and down scroll button and if you
+the up and down scroll button and if you
+the up and down scroll button and if you
+hold it in you can move your mouse
+hold it in you can move your mouse
+hold it in you can move your mouse
+and you can see you're actually able to
+and you can see you're actually able to
+and you can see you're actually able to
+turn around in your scene
+turn around in your scene
+turn around in your scene
+right so just practice that for a bit
+right so just practice that for a bit
+right so just practice that for a bit
+just press your middle mouse button
+just press your middle mouse button
+just press your middle mouse button
+and you can turn around and rotate
+and you can turn around and rotate
+and you can turn around and rotate
+around an object
+around an object
+around an object
+if you want to move side to side you
+if you want to move side to side you
+if you want to move side to side you
+simply hold in shift
+simply hold in shift
+simply hold in shift
+click the middle mouse button and you
+click the middle mouse button and you
+click the middle mouse button and you
+can move side to side that's with shift
+can move side to side that's with shift
+can move side to side that's with shift
+and you can also hold in control if you
+and you can also hold in control if you
+and you can also hold in control if you
+want so just hold in control or command
+want so just hold in control or command
+want so just hold in control or command
+on a mac
+on a mac
+on a mac
+your middle mouse button afterwards and
+your middle mouse button afterwards and
+your middle mouse button afterwards and
+then you can zoom in or out so super
+then you can zoom in or out so super
+then you can zoom in or out so super
+simple commands to use to make it a
+simple commands to use to make it a
+simple commands to use to make it a
+little bit easier i'm just going to hit
+little bit easier i'm just going to hit
+little bit easier i'm just going to hit
+n on my keyboard you guys don't have to
+n on my keyboard you guys don't have to
+n on my keyboard you guys don't have to
+do this and i've got an add-on in
+do this and i've got an add-on in
+do this and i've got an add-on in
+blender that i'm using that just allows
+blender that i'm using that just allows
+blender that i'm using that just allows
+you guys to see what i'm pressing so i'm
+you guys to see what i'm pressing so i'm
+you guys to see what i'm pressing so i'm
+going to enable that this is not
+going to enable that this is not
+going to enable that this is not
+something that you guys will see in your
+something that you guys will see in your
+something that you guys will see in your
+version of blender because i've
+version of blender because i've
+version of blender because i've
+specifically downloaded it and installed
+specifically downloaded it and installed
+specifically downloaded it and installed
+this as an add-on but you can now see
+this as an add-on but you can now see
+this as an add-on but you can now see
+down here the keys i am pressing
+down here the keys i am pressing
+down here the keys i am pressing
+are now visible to you guys if i press a
+are now visible to you guys if i press a
+are now visible to you guys if i press a
+or s or d or whatever
+or s or d or whatever
+or s or d or whatever
+so once again just quickly recapping we
+so once again just quickly recapping we
+so once again just quickly recapping we
+hold in the middle mouse button to turn
+hold in the middle mouse button to turn
+hold in the middle mouse button to turn
+around we hold and shift and then the
+around we hold and shift and then the
+around we hold and shift and then the
+middle mouse button to pan side to side
+middle mouse button to pan side to side
+middle mouse button to pan side to side
+and we hold in control or command and
+and we hold in control or command and
+and we hold in control or command and
+our middle mouse button to zoom in or
+our middle mouse button to zoom in or
+our middle mouse button to zoom in or
+out so once we have that kind of out of
+out so once we have that kind of out of
+out so once we have that kind of out of
+the way how to actually move around in
+the way how to actually move around in
+the way how to actually move around in
+the interface i'll quickly show you what
+the interface i'll quickly show you what
+the interface i'll quickly show you what
+we have in a default scene so in a
+we have in a default scene so in a
+we have in a default scene so in a
+default scene
+default scene
+default scene
+if i'm moving around here with the
+if i'm moving around here with the
+if i'm moving around here with the
+middle mouse button you can see we have
+middle mouse button you can see we have
+middle mouse button you can see we have
+a camera so if you just left click you
+a camera so if you just left click you
+a camera so if you just left click you
+can select the camera or if you left
+can select the camera or if you left
+can select the camera or if you left
+click on the cube here you can select
+click on the cube here you can select
+click on the cube here you can select
+that or if you left click on this object
+that or if you left click on this object
+that or if you left click on this object
+here that's your lamp or your light and
+here that's your lamp or your light and
+here that's your lamp or your light and
+that's what's gonna eventually we're not
+that's what's gonna eventually we're not
+that's what's gonna eventually we're not
+gonna be talking about that today but
+gonna be talking about that today but
+gonna be talking about that today but
+that's what we'll like your scene if you
+that's what we'll like your scene if you
+that's what we'll like your scene if you
+were to do a render so for now the only
+were to do a render so for now the only
+were to do a render so for now the only
+thing we're going to be interested is
+thing we're going to be interested is
+thing we're going to be interested is
+this default primitive here which is
+this default primitive here which is
+this default primitive here which is
+just a default cube
+just a default cube
+just a default cube
+now if you for example wanted to start
+now if you for example wanted to start
+now if you for example wanted to start
+with any other kind of primitive to
+with any other kind of primitive to
+with any other kind of primitive to
+model it you could just go shift a so if
+model it you could just go shift a so if
+model it you could just go shift a so if
+you hit shift a in blender that's what
+you hit shift a in blender that's what
+you hit shift a in blender that's what
+brings up your add menu so
+brings up your add menu so
+brings up your add menu so
+usually when you're going to do modeling
+usually when you're going to do modeling
+usually when you're going to do modeling
+the thing we're always going to be
+the thing we're always going to be
+the thing we're always going to be
+starting with are our meshes these are
+starting with are our meshes these are
+starting with are our meshes these are
+the actual pieces of geometry and that
+the actual pieces of geometry and that
+the actual pieces of geometry and that
+the 3d software that you can manipulate
+the 3d software that you can manipulate
+the 3d software that you can manipulate
+and extrude and move around so in this
+and extrude and move around so in this
+and extrude and move around so in this
+case you can see there's the default
+case you can see there's the default
+case you can see there's the default
+cube here's just a simple plane here's
+cube here's just a simple plane here's
+cube here's just a simple plane here's
+the circle here's your uv sphere it's
+the circle here's your uv sphere it's
+the circle here's your uv sphere it's
+all just like play school level stuff
+all just like play school level stuff
+all just like play school level stuff
+like little shapes you would have
+like little shapes you would have
+like little shapes you would have
+learned about in kindergarten so let's
+learned about in kindergarten so let's
+learned about in kindergarten so let's
+just not worry about that because we
+just not worry about that because we
+just not worry about that because we
+already have the default cube
+already have the default cube
+already have the default cube
+and if we want to work in blender we
+and if we want to work in blender we
+and if we want to work in blender we
+have usually a front view so if you have
+have usually a front view so if you have
+have usually a front view so if you have
+a number pad on your keyboard
+a number pad on your keyboard
+a number pad on your keyboard
+you can hit one and that'll take you
+you can hit one and that'll take you
+you can hit one and that'll take you
+into the front orthographic view if you
+into the front orthographic view if you
+into the front orthographic view if you
+hit free that'll take you into the right
+hit free that'll take you into the right
+hit free that'll take you into the right
+orthographic view if you hit 7 it'll
+orthographic view if you hit 7 it'll
+orthographic view if you hit 7 it'll
+take you to the top orthographic view
+take you to the top orthographic view
+take you to the top orthographic view
+now if you have a laptop and you don't
+now if you have a laptop and you don't
+now if you have a laptop and you don't
+have a number pad you can go to edit
+have a number pad you can go to edit
+have a number pad you can go to edit
+you can go over to preferences
+you can go over to preferences
+you can go over to preferences
+and you can go over here to inputs and
+and you can go over here to inputs and
+and you can go over here to inputs and
+you can go emulate number pad so if you
+you can go emulate number pad so if you
+you can go emulate number pad so if you
+don't have a number pad and you just
+don't have a number pad and you just
+don't have a number pad and you just
+have to basic one two three four five
+have to basic one two three four five
+have to basic one two three four five
+six and so on on the top of your
+six and so on on the top of your
+six and so on on the top of your
+keyboard you can press emulate number
+keyboard you can press emulate number
+keyboard you can press emulate number
+pad
+pad
+pad
+and then you can close this and that'll
+and then you can close this and that'll
+and then you can close this and that'll
+do the same thing if you want to do it
+do the same thing if you want to do it
+do the same thing if you want to do it
+manually you can just go to view
+manually you can just go to view
+manually you can just go to view
+and then you can go to viewport and you
+and then you can go to viewport and you
+and then you can go to viewport and you
+can choose top bottom front and left so
+can choose top bottom front and left so
+can choose top bottom front and left so
+up here in view
+up here in view
+up here in view
+that's how you do that but i would
+that's how you do that but i would
+that's how you do that but i would
+definitely recommend getting accustomed
+definitely recommend getting accustomed
+definitely recommend getting accustomed
+to the viewport shortcut so for example
+to the viewport shortcut so for example
+to the viewport shortcut so for example
+one is front of graphic view three is
+one is front of graphic view three is
+one is front of graphic view three is
+the right of graphic view so what we're
+the right of graphic view so what we're
+the right of graphic view so what we're
+going to want to do is we're going to
+going to want to do is we're going to
+going to want to do is we're going to
+want to hit one on a number pad and
+want to hit one on a number pad and
+want to hit one on a number pad and
+you're going to see up here it says
+you're going to see up here it says
+you're going to see up here it says
+front or for graphic you can see right
+front or for graphic you can see right
+front or for graphic you can see right
+up here it says front or graphic
+up here it says front or graphic
+up here it says front or graphic
+and once again you can just go here to
+and once again you can just go here to
+and once again you can just go here to
+viewport and go into the front if number
+viewport and go into the front if number
+viewport and go into the front if number
+pad didn't work for you
+pad didn't work for you
+pad didn't work for you
+and we're going to now select the
+and we're going to now select the
+and we're going to now select the
+default key and the way you know it's
+default key and the way you know it's
+default key and the way you know it's
+selected you can see it has this orange
+selected you can see it has this orange
+selected you can see it has this orange
+outline so if i quickly deselect it you
+outline so if i quickly deselect it you
+outline so if i quickly deselect it you
+can see there's no orange outline but if
+can see there's no orange outline but if
+can see there's no orange outline but if
+i click on it
+i click on it
+i click on it
+i can see it's an orange outline so i
+i can see it's an orange outline so i
+i can see it's an orange outline so i
+know it's what we call active and i can
+know it's what we call active and i can
+know it's what we call active and i can
+also look up here in my scene
+also look up here in my scene
+also look up here in my scene
+collections and i can see under this
+collections and i can see under this
+collections and i can see under this
+collection here's my cube and the cube
+collection here's my cube and the cube
+collection here's my cube and the cube
+is highlighted it's got this blue bar
+is highlighted it's got this blue bar
+is highlighted it's got this blue bar
+around it so i know it is an active
+around it so i know it is an active
+around it so i know it is an active
+element
+element
+element
+in my scene so it's not my light it's
+in my scene so it's not my light it's
+in my scene so it's not my light it's
+not my camera but it's the cube itself
+not my camera but it's the cube itself
+not my camera but it's the cube itself
+that is selected
+that is selected
+that is selected
+now we're currently in what we call
+now we're currently in what we call
+now we're currently in what we call
+object mode in blender so that's this
+object mode in blender so that's this
+object mode in blender so that's this
+mode up here right in object mode we can
+mode up here right in object mode we can
+mode up here right in object mode we can
+see objects we can also move them around
+see objects we can also move them around
+see objects we can also move them around
+and rotate them
+and rotate them
+and rotate them
+but what we want to do today is we
+but what we want to do today is we
+but what we want to do today is we
+actually want to edit the geometry
+actually want to edit the geometry
+actually want to edit the geometry
+itself the mesh and to do that with this
+itself the mesh and to do that with this
+itself the mesh and to do that with this
+cube active we need to actually go up to
+cube active we need to actually go up to
+cube active we need to actually go up to
+object mode and go into our edit mode
+object mode and go into our edit mode
+object mode and go into our edit mode
+there are other things you can do in
+there are other things you can do in
+there are other things you can do in
+object mode for example if you hit the g
+object mode for example if you hit the g
+object mode for example if you hit the g
+key you can move
+key you can move
+key you can move
+if you hit the r key you can rotate
+if you hit the r key you can rotate
+if you hit the r key you can rotate
+if you hit the r key twice you can
+if you hit the r key twice you can
+if you hit the r key twice you can
+rotate
+rotate
+rotate
+on all axis axis like this but if you
+on all axis axis like this but if you
+on all axis axis like this but if you
+also um hit s you can scale so that's
+also um hit s you can scale so that's
+also um hit s you can scale so that's
+super useful but we're not going to be
+super useful but we're not going to be
+super useful but we're not going to be
+focusing on that today we're going to
+focusing on that today we're going to
+focusing on that today we're going to
+actually be getting into the edit mode
+actually be getting into the edit mode
+actually be getting into the edit mode
+so let's go over to our edit mode with
+so let's go over to our edit mode with
+so let's go over to our edit mode with
+the cube active
+the cube active
+the cube active
+and what we can see here
+and what we can see here
+and what we can see here
+is all of these points here which we
+is all of these points here which we
+is all of these points here which we
+call vertices right if it's a single
+call vertices right if it's a single
+call vertices right if it's a single
+vertices we or we call it a vertex okay
+vertices we or we call it a vertex okay
+vertices we or we call it a vertex okay
+so what we're going to do now
+so what we're going to do now
+so what we're going to do now
+is you can click on any one of these
+is you can click on any one of these
+is you can click on any one of these
+verts here and you can see they become
+verts here and you can see they become
+verts here and you can see they become
+active
+active
+active
+you can also see up here we are
+you can also see up here we are
+you can also see up here we are
+currently in vertex select mode which
+currently in vertex select mode which
+currently in vertex select mode which
+means if we have that enabled we can
+means if we have that enabled we can
+means if we have that enabled we can
+select the vertex
+select the vertex
+select the vertex
+if we then want to select one of these
+if we then want to select one of these
+if we then want to select one of these
+edges we can click on the edge select
+edges we can click on the edge select
+edges we can click on the edge select
+mode and then we can click on edges
+mode and then we can click on edges
+mode and then we can click on edges
+so if i click on this edge or this edge
+so if i click on this edge or this edge
+so if i click on this edge or this edge
+you can see we are able to select them
+you can see we are able to select them
+you can see we are able to select them
+then we have this thing here called face
+then we have this thing here called face
+then we have this thing here called face
+select mode which enables us to as the
+select mode which enables us to as the
+select mode which enables us to as the
+name implies we can select individual
+name implies we can select individual
+name implies we can select individual
+faces so i'm selecting this face
+faces so i'm selecting this face
+faces so i'm selecting this face
+now i can select this face so what we're
+now i can select this face so what we're
+now i can select this face so what we're
+going to be doing in this tutorial we'll
+going to be doing in this tutorial we'll
+going to be doing in this tutorial we'll
+be going in between these little modes
+be going in between these little modes
+be going in between these little modes
+often so let's start by just practicing
+often so let's start by just practicing
+often so let's start by just practicing
+some selection so with the face select
+some selection so with the face select
+some selection so with the face select
+enabled
+enabled
+enabled
+if you want to select more than one face
+if you want to select more than one face
+if you want to select more than one face
+at a time right so for example i want to
+at a time right so for example i want to
+at a time right so for example i want to
+select both of these
+select both of these
+select both of these
+what you can do is you can click on the
+what you can do is you can click on the
+what you can do is you can click on the
+face first like this one for example and
+face first like this one for example and
+face first like this one for example and
+if you hold and shift you can click on
+if you hold and shift you can click on
+if you hold and shift you can click on
+the second face and in the third face
+the second face and in the third face
+the second face and in the third face
+and then you can hold your middle mouse
+and then you can hold your middle mouse
+and then you can hold your middle mouse
+button you can still move around
+button you can still move around
+button you can still move around
+then just hold and shift again and you
+then just hold and shift again and you
+then just hold and shift again and you
+can keep selecting faces and holding and
+can keep selecting faces and holding and
+can keep selecting faces and holding and
+shift will allow you to select multiple
+shift will allow you to select multiple
+shift will allow you to select multiple
+faces if i let go of shift and then i
+faces if i let go of shift and then i
+faces if i let go of shift and then i
+click on another face all of a sudden it
+click on another face all of a sudden it
+click on another face all of a sudden it
+just selects that face so that's how you
+just selects that face so that's how you
+just selects that face so that's how you
+do multiple face selections the exact
+do multiple face selections the exact
+do multiple face selections the exact
+same thing goes with edges if i select
+same thing goes with edges if i select
+same thing goes with edges if i select
+one edge and then i hold and shift i can
+one edge and then i hold and shift i can
+one edge and then i hold and shift i can
+select another one hold and shift i can
+select another one hold and shift i can
+select another one hold and shift i can
+select the third one and so on and the
+select the third one and so on and the
+select the third one and so on and the
+exact same thing applies to the vertices
+exact same thing applies to the vertices
+exact same thing applies to the vertices
+if i want to select one vertex i can go
+if i want to select one vertex i can go
+if i want to select one vertex i can go
+over to the next one by holding shift
+over to the next one by holding shift
+over to the next one by holding shift
+and so on so forth
+and so on so forth
+and so on so forth
+so you can see that's how it all works
+so you can see that's how it all works
+so you can see that's how it all works
+so that's just different ways of
+so that's just different ways of
+so that's just different ways of
+selecting essentially the same mesh but
+selecting essentially the same mesh but
+selecting essentially the same mesh but
+just in a different way so what we're
+just in a different way so what we're
+just in a different way so what we're
+going to do is we're going to hit 1 now
+going to do is we're going to hit 1 now
+going to do is we're going to hit 1 now
+to go into our front orthographic view
+to go into our front orthographic view
+to go into our front orthographic view
+and once again if you go to view you can
+and once again if you go to view you can
+and once again if you go to view you can
+go to viewport and do that over here by
+go to viewport and do that over here by
+go to viewport and do that over here by
+going front
+going front
+going front
+and if we want to be able to
+and if we want to be able to
+and if we want to be able to
+model this one thing that i'm going to
+model this one thing that i'm going to
+model this one thing that i'm going to
+teach you about are modifiers so
+teach you about are modifiers so
+teach you about are modifiers so
+modifiers are these things down here if
+modifiers are these things down here if
+modifiers are these things down here if
+you go and you click on the modifier
+you go and you click on the modifier
+you go and you click on the modifier
+properties you can see something here
+properties you can see something here
+properties you can see something here
+called add modifier so if we click on
+called add modifier so if we click on
+called add modifier so if we click on
+add modifier you're going to see a whole
+add modifier you're going to see a whole
+add modifier you're going to see a whole
+bunch of things which we won't be
+bunch of things which we won't be
+bunch of things which we won't be
+focusing on today but
+focusing on today but
+focusing on today but
+they essentially give our mesh or
+they essentially give our mesh or
+they essentially give our mesh or
+geometry certain kind of properties that
+geometry certain kind of properties that
+geometry certain kind of properties that
+are applied to them that consult us make
+are applied to them that consult us make
+are applied to them that consult us make
+things easier for us for example if we
+things easier for us for example if we
+things easier for us for example if we
+go over down here under degener generate
+go over down here under degener generate
+go over down here under degener generate
+we can go over to what's called a mirror
+we can go over to what's called a mirror
+we can go over to what's called a mirror
+modifier and the mirror modifier is
+modifier and the mirror modifier is
+modifier and the mirror modifier is
+essentially going to take this geometry
+essentially going to take this geometry
+essentially going to take this geometry
+and take one side of it and mirror it
+and take one side of it and mirror it
+and take one side of it and mirror it
+exactly the same on the opposite side so
+exactly the same on the opposite side so
+exactly the same on the opposite side so
+let's quickly go ahead and add in a
+let's quickly go ahead and add in a
+let's quickly go ahead and add in a
+mirror modifier
+mirror modifier
+mirror modifier
+and now
+and now
+and now
+we need to select our geometry and just
+we need to select our geometry and just
+we need to select our geometry and just
+move it to the side so what we're going
+move it to the side so what we're going
+move it to the side so what we're going
+to actually do is we can hit a to select
+to actually do is we can hit a to select
+to actually do is we can hit a to select
+all of the geometry
+all of the geometry
+all of the geometry
+then in our front orthographic view we
+then in our front orthographic view we
+then in our front orthographic view we
+can go g
+can go g
+can go g
+x and move it over to the side you can
+x and move it over to the side you can
+x and move it over to the side you can
+see it's actually mirrored on this side
+see it's actually mirrored on this side
+see it's actually mirrored on this side
+here and over here you can see that's
+here and over here you can see that's
+here and over here you can see that's
+our x-axis
+our x-axis
+our x-axis
+the x-axis you can also see up here this
+the x-axis you can also see up here this
+the x-axis you can also see up here this
+little gizmo shows us the x goes this
+little gizmo shows us the x goes this
+little gizmo shows us the x goes this
+way right the z goes up and down like
+way right the z goes up and down like
+way right the z goes up and down like
+this and then the y goes like that but
+this and then the y goes like that but
+this and then the y goes like that but
+that's from our right orthographic view
+that's from our right orthographic view
+that's from our right orthographic view
+which we're not working in currently so
+which we're not working in currently so
+which we're not working in currently so
+just hit 1 to go back to your front
+just hit 1 to go back to your front
+just hit 1 to go back to your front
+orthographic view
+orthographic view
+orthographic view
+and over here you can see we have the
+and over here you can see we have the
+and over here you can see we have the
+cube mirrored on the x you can also
+cube mirrored on the x you can also
+cube mirrored on the x you can also
+change these by the way
+change these by the way
+change these by the way
+so you can change them like this if you
+so you can change them like this if you
+so you can change them like this if you
+want to work on different axes but we
+want to work on different axes but we
+want to work on different axes but we
+won't be doing that just focus on the x
+won't be doing that just focus on the x
+won't be doing that just focus on the x
+for now but what we also want to do is
+for now but what we also want to do is
+for now but what we also want to do is
+we want to come over here and enable
+we want to come over here and enable
+we want to come over here and enable
+clipping when we enable clipping and we
+clipping when we enable clipping and we
+clipping when we enable clipping and we
+take this cube and we go g
+take this cube and we go g
+take this cube and we go g
+x remember it's all selected because we
+x remember it's all selected because we
+x remember it's all selected because we
+hit a to select everything so we're
+hit a to select everything so we're
+hit a to select everything so we're
+going to go g
+going to go g
+going to go g
+x and we're going to move it in and you
+x and we're going to move it in and you
+x and we're going to move it in and you
+can see these are clipping together now
+can see these are clipping together now
+can see these are clipping together now
+they're in the middle so we're going to
+they're in the middle so we're going to
+they're in the middle so we're going to
+bring it in just about this much you can
+bring it in just about this much you can
+bring it in just about this much you can
+see they're clipping together
+see they're clipping together
+see they're clipping together
+see there and if we hit g and then x to
+see there and if we hit g and then x to
+see there and if we hit g and then x to
+move it back on the x i hit g and x move
+move it back on the x i hit g and x move
+move it back on the x i hit g and x move
+it this way you can see they're kind of
+it this way you can see they're kind of
+it this way you can see they're kind of
+stuck together and that's what clipping
+stuck together and that's what clipping
+stuck together and that's what clipping
+is for which is all good now they're
+is for which is all good now they're
+is for which is all good now they're
+fused together and whatever we do in
+fused together and whatever we do in
+fused together and whatever we do in
+this side we'll copy on that side but at
+this side we'll copy on that side but at
+this side we'll copy on that side but at
+the moment if we hit z so if you hit z
+the moment if we hit z so if you hit z
+the moment if we hit z so if you hit z
+on your keyboard you can go to what we
+on your keyboard you can go to what we
+on your keyboard you can go to what we
+call wireframe so you can actually see
+call wireframe so you can actually see
+call wireframe so you can actually see
+through this and at the moment there is
+through this and at the moment there is
+through this and at the moment there is
+actually a face in between these two
+actually a face in between these two
+actually a face in between these two
+which we don't want okay there's
+which we don't want okay there's
+which we don't want okay there's
+actually a face here if i just un come
+actually a face here if i just un come
+actually a face here if i just un come
+over here and i hide the modifier you
+over here and i hide the modifier you
+over here and i hide the modifier you
+can see there's a face in here so let's
+can see there's a face in here so let's
+can see there's a face in here so let's
+just go to face select select this face
+just go to face select select this face
+just go to face select select this face
+by clicking on it then hit x and delete
+by clicking on it then hit x and delete
+by clicking on it then hit x and delete
+that face once again
+that face once again
+that face once again
+select it hit x and just delete the face
+select it hit x and just delete the face
+select it hit x and just delete the face
+now we can just bring that back
+now we can just bring that back
+now we can just bring that back
+and make sure clipping is enabled
+and make sure clipping is enabled
+and make sure clipping is enabled
+so now
+so now
+so now
+what we can do is we can hit a again to
+what we can do is we can hit a again to
+what we can do is we can hit a again to
+select all of the geometry and this time
+select all of the geometry and this time
+select all of the geometry and this time
+we want to flatten it but on the y axis
+we want to flatten it but on the y axis
+we want to flatten it but on the y axis
+this one over here so what we're going
+this one over here so what we're going
+this one over here so what we're going
+to do is we're going to hit s to scale
+to do is we're going to hit s to scale
+to do is we're going to hit s to scale
+and we're going to go y and we're going
+and we're going to go y and we're going
+and we're going to go y and we're going
+to scale it down on the wire to flatten
+to scale it down on the wire to flatten
+to scale it down on the wire to flatten
+it so about this much
+it so about this much
+it so about this much
+okay if you hit 1 to go back to your
+okay if you hit 1 to go back to your
+okay if you hit 1 to go back to your
+front or graphic view you can hit g x
+front or graphic view you can hit g x
+front or graphic view you can hit g x
+and you can move it like this so we want
+and you can move it like this so we want
+and you can move it like this so we want
+something that looks like this
+something that looks like this
+something that looks like this
+and then from the side
+and then from the side
+and then from the side
+looks like that doesn't have to be exact
+looks like that doesn't have to be exact
+looks like that doesn't have to be exact
+but just roughly these proportions and
+but just roughly these proportions and
+but just roughly these proportions and
+then what we're going to do
+then what we're going to do
+then what we're going to do
+is we're going to go over to our edge
+is we're going to go over to our edge
+is we're going to go over to our edge
+select option
+select option
+select option
+and we're going to hit a twice to
+and we're going to hit a twice to
+and we're going to hit a twice to
+deselect everything so double tap a
+deselect everything so double tap a
+deselect everything so double tap a
+and then we're going to select this face
+and then we're going to select this face
+and then we're going to select this face
+here or edge so make sure you're in your
+here or edge so make sure you're in your
+here or edge so make sure you're in your
+edge select
+edge select
+edge select
+and once you've clicked on it hold in
+and once you've clicked on it hold in
+and once you've clicked on it hold in
+shift
+shift
+shift
+go to the other side
+go to the other side
+go to the other side
+and then click on this edge now they're
+and then click on this edge now they're
+and then click on this edge now they're
+both active
+both active
+both active
+as you can see and then we're going to
+as you can see and then we're going to
+as you can see and then we're going to
+go s
+go s
+go s
+and we're going to hit y and we're going
+and we're going to hit y and we're going
+and we're going to hit y and we're going
+to scale it on the y
+to scale it on the y
+to scale it on the y
+like this
+like this
+like this
+as you can see
+as you can see
+as you can see
+that's really easy to do
+that's really easy to do
+that's really easy to do
+and then we're going to hit 1 to go into
+and then we're going to hit 1 to go into
+and then we're going to hit 1 to go into
+our front of graphic view
+our front of graphic view
+our front of graphic view
+and then what we're going to do is we're
+and then what we're going to do is we're
+and then what we're going to do is we're
+going to hit z on our keyboard
+going to hit z on our keyboard
+going to hit z on our keyboard
+and we're going to go to wireframe
+and we're going to go to wireframe
+and we're going to go to wireframe
+then we're going to go to our vertex
+then we're going to go to our vertex
+then we're going to go to our vertex
+select option
+select option
+select option
+i'm going to click here and we're going
+i'm going to click here and we're going
+i'm going to click here and we're going
+to drag
+to drag
+to drag
+so click and drag and we're going to
+so click and drag and we're going to
+so click and drag and we're going to
+select just these bottom verts
+select just these bottom verts
+select just these bottom verts
+and then we're going to go g
+and then we're going to go g
+and then we're going to go g
+z and move them up to where that red
+z and move them up to where that red
+z and move them up to where that red
+line is here that's our x-axis so you
+line is here that's our x-axis so you
+line is here that's our x-axis so you
+can see it's our floor pretty much
+can see it's our floor pretty much
+can see it's our floor pretty much
+and then we're going to go g
+and then we're going to go g
+and then we're going to go g
+x and we're going to move these in just
+x and we're going to move these in just
+x and we're going to move these in just
+a little bit on the x
+a little bit on the x
+a little bit on the x
+like that
+like that
+like that
+and while we have those verts selected
+and while we have those verts selected
+and while we have those verts selected
+or active
+or active
+or active
+we're going to go e to extrude and then
+we're going to go e to extrude and then
+we're going to go e to extrude and then
+z and we're going to extrude them down
+z and we're going to extrude them down
+z and we're going to extrude them down
+so extruding them down
+so extruding them down
+so extruding them down
+to about
+to about
+to about
+here
+here
+here
+like that so you can see we have almost
+like that so you can see we have almost
+like that so you can see we have almost
+like an hourglass here
+like an hourglass here
+like an hourglass here
+and if you want to go back into solid
+and if you want to go back into solid
+and if you want to go back into solid
+view you can go z
+view you can go z
+view you can go z
+and then just click on solid
+and then just click on solid
+and then just click on solid
+so now we're back in solid view and now
+so now we're back in solid view and now
+so now we're back in solid view and now
+we kind of have the the torso of the
+we kind of have the the torso of the
+we kind of have the the torso of the
+body as you can see the upper chest and
+body as you can see the upper chest and
+body as you can see the upper chest and
+the bottom of our model here the bottom
+the bottom of our model here the bottom
+the bottom of our model here the bottom
+of the torso but what we want to do now
+of the torso but what we want to do now
+of the torso but what we want to do now
+where this face is here we want to
+where this face is here we want to
+where this face is here we want to
+extrude a leg so we went into
+extrude a leg so we went into
+extrude a leg so we went into
+our front view
+our front view
+our front view
+and with those faces or vert steel
+and with those faces or vert steel
+and with those faces or vert steel
+active in our front view we're just
+active in our front view we're just
+active in our front view we're just
+going to go r to rotate and we're going
+going to go r to rotate and we're going
+going to go r to rotate and we're going
+to rotate it a little bit like this but
+to rotate it a little bit like this but
+to rotate it a little bit like this but
+one of the issues we're going to run
+one of the issues we're going to run
+one of the issues we're going to run
+into now if we hit e to extrude and we
+into now if we hit e to extrude and we
+into now if we hit e to extrude and we
+try to extrude that face in they're kind
+try to extrude that face in they're kind
+try to extrude that face in they're kind
+of clipping together here which is not
+of clipping together here which is not
+of clipping together here which is not
+what we want so we're going to just hit
+what we want so we're going to just hit
+what we want so we're going to just hit
+ctrl z to undo that or command z and we
+ctrl z to undo that or command z and we
+ctrl z to undo that or command z and we
+have to temporarily just come here under
+have to temporarily just come here under
+have to temporarily just come here under
+our modifiers to our mirror modifier and
+our modifiers to our mirror modifier and
+our modifiers to our mirror modifier and
+just untick clipping
+just untick clipping
+just untick clipping
+so now if we hit e to extrude and we
+so now if we hit e to extrude and we
+so now if we hit e to extrude and we
+extrude it out so i just hit e to
+extrude it out so i just hit e to
+extrude it out so i just hit e to
+extrude so we're extruding it out and
+extrude so we're extruding it out and
+extrude so we're extruding it out and
+then just click somewhere here to stop
+then just click somewhere here to stop
+then just click somewhere here to stop
+that action you can see we've now
+that action you can see we've now
+that action you can see we've now
+extruded the legs we can now enable
+extruded the legs we can now enable
+extruded the legs we can now enable
+clipping again as we do still need the
+clipping again as we do still need the
+clipping again as we do still need the
+clipping with these
+clipping with these
+clipping with these
+vert steel selected or active
+vert steel selected or active
+vert steel selected or active
+you can now go s to scale them and if
+you can now go s to scale them and if
+you can now go s to scale them and if
+you accidentally did deselect them all
+you accidentally did deselect them all
+you accidentally did deselect them all
+you have to do is just click somewhere
+you have to do is just click somewhere
+you have to do is just click somewhere
+here just drag over them and select them
+here just drag over them and select them
+here just drag over them and select them
+you can also just go to your face select
+you can also just go to your face select
+you can also just go to your face select
+and just select the face so for now
+and just select the face so for now
+and just select the face so for now
+let's just actually go to face select
+let's just actually go to face select
+let's just actually go to face select
+and select the face
+and select the face
+and select the face
+go into our front view again for that
+go into our front view again for that
+go into our front view again for that
+face active
+face active
+face active
+we're just going to go down
+we're just going to go down
+we're just going to go down
+to about here which would be where our
+to about here which would be where our
+to about here which would be where our
+knees are
+knees are
+knees are
+bring them in a little bit closer
+bring them in a little bit closer
+bring them in a little bit closer
+and then we're going to just rotate so
+and then we're going to just rotate so
+and then we're going to just rotate so
+hit r to rotate in your front view
+hit r to rotate in your front view
+hit r to rotate in your front view
+flatten them out just a bit and then e
+flatten them out just a bit and then e
+flatten them out just a bit and then e
+to extrude
+to extrude
+to extrude
+bring them down to about here
+bring them down to about here
+bring them down to about here
+and then s to scale with that face still
+and then s to scale with that face still
+and then s to scale with that face still
+active and then g
+active and then g
+active and then g
+and just move it over to the side so hit
+and just move it over to the side so hit
+and just move it over to the side so hit
+g and just move it over like that
+g and just move it over like that
+g and just move it over like that
+so you can see now we have the legs
+so you can see now we have the legs
+so you can see now we have the legs
+coming down
+coming down
+coming down
+like that very very simple very
+like that very very simple very
+like that very very simple very
+basic so far
+basic so far
+basic so far
+but let's get started with the top here
+but let's get started with the top here
+but let's get started with the top here
+so we're going to go
+so we're going to go
+so we're going to go
+so holding in my middle mouse button to
+so holding in my middle mouse button to
+so holding in my middle mouse button to
+rotate i'm going to select the top face
+rotate i'm going to select the top face
+rotate i'm going to select the top face
+here and then what we're going to do is
+here and then what we're going to do is
+here and then what we're going to do is
+go back into our front view and we're
+go back into our front view and we're
+go back into our front view and we're
+going to go r to rotate and we're going
+going to go r to rotate and we're going
+going to go r to rotate and we're going
+to rotate that face just a little bit
+to rotate that face just a little bit
+to rotate that face just a little bit
+like this
+like this
+like this
+just to give a bit of a slant to the
+just to give a bit of a slant to the
+just to give a bit of a slant to the
+shoulder
+shoulder
+shoulder
+and then we're going to do something
+and then we're going to do something
+and then we're going to do something
+that might be a little bit tricky if
+that might be a little bit tricky if
+that might be a little bit tricky if
+you're new to it but we need to add in
+you're new to it but we need to add in
+you're new to it but we need to add in
+some extra geometry here and the way
+some extra geometry here and the way
+some extra geometry here and the way
+we're going to do that we're going to go
+we're going to do that we're going to go
+we're going to do that we're going to go
+over to our edge select here so click on
+over to our edge select here so click on
+over to our edge select here so click on
+edge select then you're going to hover
+edge select then you're going to hover
+edge select then you're going to hover
+your cursor over this edge here
+your cursor over this edge here
+your cursor over this edge here
+and if you hit control r or command r
+and if you hit control r or command r
+and if you hit control r or command r
+you should see this yellow line
+you should see this yellow line
+you should see this yellow line
+appearing
+appearing
+appearing
+and if you roll your middle mouse button
+and if you roll your middle mouse button
+and if you roll your middle mouse button
+you can see
+you can see
+you can see
+these yellow lines increase if you roll
+these yellow lines increase if you roll
+these yellow lines increase if you roll
+it down they decrease so that is what we
+it down they decrease so that is what we
+it down they decrease so that is what we
+call a cut we're adding in an edge loop
+call a cut we're adding in an edge loop
+call a cut we're adding in an edge loop
+here or a cut so once you see the yellow
+here or a cut so once you see the yellow
+here or a cut so once you see the yellow
+line just left click and you can move
+line just left click and you can move
+line just left click and you can move
+the the cursor once you've left click
+the the cursor once you've left click
+the the cursor once you've left click
+then your left click to slide it
+then your left click to slide it
+then your left click to slide it
+once you've kind of let go of it so if
+once you've kind of let go of it so if
+once you've kind of let go of it so if
+you click again and
+you click again and
+you click again and
+that option is no longer there you can
+that option is no longer there you can
+that option is no longer there you can
+just hit g twice with that edge still
+just hit g twice with that edge still
+just hit g twice with that edge still
+active so hit g twice and that allows
+active so hit g twice and that allows
+active so hit g twice and that allows
+you to slide it along the edges
+you to slide it along the edges
+you to slide it along the edges
+so what i'm going to do now is i'm just
+so what i'm going to do now is i'm just
+so what i'm going to do now is i'm just
+going to slide it
+going to slide it
+going to slide it
+right down to about here
+right down to about here
+right down to about here
+and that gives us this square over here
+and that gives us this square over here
+and that gives us this square over here
+so let's quickly go to our face select
+so let's quickly go to our face select
+so let's quickly go to our face select
+option click on the square
+option click on the square
+option click on the square
+and we're going to go into our front
+and we're going to go into our front
+and we're going to go into our front
+orthographic view
+orthographic view
+orthographic view
+and we're just going to go s to scale
+and we're just going to go s to scale
+and we're just going to go s to scale
+i'm going to scale that square down a
+i'm going to scale that square down a
+i'm going to scale that square down a
+bit so just s to scale
+bit so just s to scale
+bit so just s to scale
+and go back into your front view
+and go back into your front view
+and go back into your front view
+rotate it a little bit more
+rotate it a little bit more
+rotate it a little bit more
+and then g to move it over to the side
+and then g to move it over to the side
+and then g to move it over to the side
+of it so just hit g
+of it so just hit g
+of it so just hit g
+and then you're going to go e to extrude
+and then you're going to go e to extrude
+and then you're going to go e to extrude
+and then with that face still active
+and then with that face still active
+and then with that face still active
+you're going to go r to rotate and once
+you're going to go r to rotate and once
+you're going to go r to rotate and once
+again i'm always going to my front
+again i'm always going to my front
+again i'm always going to my front
+orthographic view by hitting one on the
+orthographic view by hitting one on the
+orthographic view by hitting one on the
+numpad
+numpad
+numpad
+so we're just going to rotate that face
+so we're just going to rotate that face
+so we're just going to rotate that face
+like that
+like that
+like that
+then we're going to click on this bottom
+then we're going to click on this bottom
+then we're going to click on this bottom
+face
+face
+face
+once again back into our front view
+once again back into our front view
+once again back into our front view
+r to rotate it a little bit like this
+r to rotate it a little bit like this
+r to rotate it a little bit like this
+g to move it up
+g to move it up
+g to move it up
+and now we're going to go e and we're
+and now we're going to go e and we're
+and now we're going to go e and we're
+going to extrude that face out
+going to extrude that face out
+going to extrude that face out
+i'm going to bring it to
+i'm going to bring it to
+i'm going to bring it to
+about here
+about here
+about here
+and then s to scale it
+and then s to scale it
+and then s to scale it
+and then hit g and move it
+and then hit g and move it
+and then hit g and move it
+just to the side here you can kind of
+just to the side here you can kind of
+just to the side here you can kind of
+use a bit of creative license here place
+use a bit of creative license here place
+use a bit of creative license here place
+it however you want but i'm just going
+it however you want but i'm just going
+it however you want but i'm just going
+to put mine here
+to put mine here
+to put mine here
+and then we go r to rotate
+and then we go r to rotate
+and then we go r to rotate
+then i'm going to go e to extrude
+then i'm going to go e to extrude
+then i'm going to go e to extrude
+and i'm going to go s
+and i'm going to go s
+and i'm going to go s
+x and just flatten that face
+x and just flatten that face
+x and just flatten that face
+just like that for now
+just like that for now
+just like that for now
+and then i'm going to hover over this
+and then i'm going to hover over this
+and then i'm going to hover over this
+edge here with my cursor and i'm going
+edge here with my cursor and i'm going
+edge here with my cursor and i'm going
+to go ctrl r
+to go ctrl r
+to go ctrl r
+once again we see the yellow line just
+once again we see the yellow line just
+once again we see the yellow line just
+left click you can move the cursor to
+left click you can move the cursor to
+left click you can move the cursor to
+move it but i'm just going to leave it
+move it but i'm just going to leave it
+move it but i'm just going to leave it
+there by left clicking again
+there by left clicking again
+there by left clicking again
+go into your front view and then with
+go into your front view and then with
+go into your front view and then with
+that active you can just hit g and just
+that active you can just hit g and just
+that active you can just hit g and just
+move it out just a little bit and then r
+move it out just a little bit and then r
+move it out just a little bit and then r
+to rotate that edge
+to rotate that edge
+to rotate that edge
+so now we have the arms coming together
+so now we have the arms coming together
+so now we have the arms coming together
+it's still very primitive at this point
+it's still very primitive at this point
+it's still very primitive at this point
+but we are trying to make this as basic
+but we are trying to make this as basic
+but we are trying to make this as basic
+as possible for beginners to understand
+as possible for beginners to understand
+as possible for beginners to understand
+how modeling works
+how modeling works
+how modeling works
+so let's hold and shift in our front
+so let's hold and shift in our front
+so let's hold and shift in our front
+view just so we can move around once
+view just so we can move around once
+view just so we can move around once
+again just remember that
+again just remember that
+again just remember that
+and roll your middle mouse button to
+and roll your middle mouse button to
+and roll your middle mouse button to
+zoom in
+zoom in
+zoom in
+and now we're just going to hit z and
+and now we're just going to hit z and
+and now we're just going to hit z and
+we're going to go into wireframe
+we're going to go into wireframe
+we're going to go into wireframe
+and we're going to go to our vertex
+and we're going to go to our vertex
+and we're going to go to our vertex
+select option and over here in the front
+select option and over here in the front
+select option and over here in the front
+you can just click anywhere and drag and
+you can just click anywhere and drag and
+you can just click anywhere and drag and
+we can select vertices so i'm just going
+we can select vertices so i'm just going
+we can select vertices so i'm just going
+to select these guys here
+to select these guys here
+to select these guys here
+i'm going to hit g and i'm just going to
+i'm going to hit g and i'm just going to
+i'm going to hit g and i'm just going to
+move it up
+move it up
+move it up
+just to make the legs a little bit
+just to make the legs a little bit
+just to make the legs a little bit
+shorter and this is where you can come
+shorter and this is where you can come
+shorter and this is where you can come
+in and you can correct the proportions
+in and you can correct the proportions
+in and you can correct the proportions
+however you want
+however you want
+however you want
+so it's completely up to you how you
+so it's completely up to you how you
+so it's completely up to you how you
+want to do that but for now i'm just
+want to do that but for now i'm just
+want to do that but for now i'm just
+going to leave it as is
+going to leave it as is
+going to leave it as is
+and with these bottom verts actually
+and with these bottom verts actually
+and with these bottom verts actually
+selected here what we're now going to do
+selected here what we're now going to do
+selected here what we're now going to do
+is we're going to scale them just a
+is we're going to scale them just a
+is we're going to scale them just a
+little bit more and we're going to make
+little bit more and we're going to make
+little bit more and we're going to make
+the feet
+the feet
+the feet
+so in your front view with those
+so in your front view with those
+so in your front view with those
+selected we're going to go e to extrude
+selected we're going to go e to extrude
+selected we're going to go e to extrude
+them down to about here
+them down to about here
+them down to about here
+and then what we're going to do is we're
+and then what we're going to do is we're
+and then what we're going to do is we're
+going to hit z we're going to go into
+going to hit z we're going to go into
+going to hit z we're going to go into
+solid view
+solid view
+solid view
+go to your face select and once again
+go to your face select and once again
+go to your face select and once again
+select the face over here we're just
+select the face over here we're just
+select the face over here we're just
+moving over to the side a bit in fact
+moving over to the side a bit in fact
+moving over to the side a bit in fact
+hit free on your number pad to go to the
+hit free on your number pad to go to the
+hit free on your number pad to go to the
+right orthographic view
+right orthographic view
+right orthographic view
+and if that's face active you're going
+and if that's face active you're going
+and if that's face active you're going
+to go e to extrude and then y
+to go e to extrude and then y
+to go e to extrude and then y
+and you're going to extrude it forward
+and you're going to extrude it forward
+and you're going to extrude it forward
+on the y like so go to your edge select
+on the y like so go to your edge select
+on the y like so go to your edge select
+select this edge here and then go g
+select this edge here and then go g
+select this edge here and then go g
+z and bring it down go back to face
+z and bring it down go back to face
+z and bring it down go back to face
+select select the face here
+select select the face here
+select select the face here
+and then we're going to hit 7
+and then we're going to hit 7
+and then we're going to hit 7
+or control 7 or command 7 to go into the
+or control 7 or command 7 to go into the
+or control 7 or command 7 to go into the
+bottom of graphic view
+bottom of graphic view
+bottom of graphic view
+you can also just go to view view port
+you can also just go to view view port
+you can also just go to view view port
+and then go to bottom
+and then go to bottom
+and then go to bottom
+and if that face still active we're
+and if that face still active we're
+and if that face still active we're
+going to go r to rotate it and then s x
+going to go r to rotate it and then s x
+going to go r to rotate it and then s x
+i'm going to scale it a little bit on
+i'm going to scale it a little bit on
+i'm going to scale it a little bit on
+the x
+the x
+the x
+maybe just rotate it a little bit like
+maybe just rotate it a little bit like
+maybe just rotate it a little bit like
+this by hitting r
+this by hitting r
+this by hitting r
+then go to your vertex select option
+then go to your vertex select option
+then go to your vertex select option
+and holding and shift just click on this
+and holding and shift just click on this
+and holding and shift just click on this
+vertex and this vertex so they're both
+vertex and this vertex so they're both
+vertex and this vertex so they're both
+active
+active
+active
+ctrl 7 again to go into the bottom of
+ctrl 7 again to go into the bottom of
+ctrl 7 again to go into the bottom of
+graphic view and then g just to move
+graphic view and then g just to move
+graphic view and then g just to move
+them out like that
+and then
+and then
+and then
+hold click on this one hold and shift
+hold click on this one hold and shift
+hold click on this one hold and shift
+and select this one ctrl 7 again to go
+and select this one ctrl 7 again to go
+and select this one ctrl 7 again to go
+to the bottom
+to the bottom
+to the bottom
+and you can just move that however you
+and you can just move that however you
+and you can just move that however you
+need to
+need to
+need to
+just to kind of make the bottom of the
+just to kind of make the bottom of the
+just to kind of make the bottom of the
+foot
+foot
+foot
+so just use how much um however much
+so just use how much um however much
+so just use how much um however much
+creative license you need but just
+creative license you need but just
+creative license you need but just
+something like that basic should be fine
+something like that basic should be fine
+something like that basic should be fine
+and then we can come over this corner
+and then we can come over this corner
+and then we can come over this corner
+here with our cursor hit ctrl r and you
+here with our cursor hit ctrl r and you
+here with our cursor hit ctrl r and you
+can see a yellow line appearing
+can see a yellow line appearing
+can see a yellow line appearing
+just left click and then move down to
+just left click and then move down to
+just left click and then move down to
+here
+here
+here
+left click again and then just s
+left click again and then just s
+left click again and then just s
+to scale that in to kind of make a bit
+to scale that in to kind of make a bit
+to scale that in to kind of make a bit
+of an angle
+of an angle
+of an angle
+and that's how simple that is
+and that's how simple that is
+and that's how simple that is
+double tap a to deselect everything
+double tap a to deselect everything
+double tap a to deselect everything
+shift and alt so if you hold shift and
+shift and alt so if you hold shift and
+shift and alt so if you hold shift and
+alt n you can actually click on an edge
+alt n you can actually click on an edge
+alt n you can actually click on an edge
+and that will loop select the whole edge
+and that will loop select the whole edge
+and that will loop select the whole edge
+so once again just practice that shift
+so once again just practice that shift
+so once again just practice that shift
+alt and then click on an edge it'll loop
+alt and then click on an edge it'll loop
+alt and then click on an edge it'll loop
+selected and you can go s to scale that
+selected and you can go s to scale that
+selected and you can go s to scale that
+as well
+as well
+as well
+however you want so i'm just going to
+however you want so i'm just going to
+however you want so i'm just going to
+scale that down just a little bit you
+scale that down just a little bit you
+scale that down just a little bit you
+can also just hit g in your front view
+can also just hit g in your front view
+can also just hit g in your front view
+just to move it like that so just
+just to move it like that so just
+just to move it like that so just
+position the knees where you feel you
+position the knees where you feel you
+position the knees where you feel you
+need to but around here should be okay
+need to but around here should be okay
+need to but around here should be okay
+so far it's all coming together pretty
+so far it's all coming together pretty
+so far it's all coming together pretty
+well so let's start working on the upper
+well so let's start working on the upper
+well so let's start working on the upper
+body here
+body here
+body here
+to come to the upper body
+to come to the upper body
+to come to the upper body
+select this vertex here and then double
+select this vertex here and then double
+select this vertex here and then double
+tap g just to slide it back a bit
+tap g just to slide it back a bit
+tap g just to slide it back a bit
+and then we're going to go to our face
+and then we're going to go to our face
+and then we're going to go to our face
+select option we're going to select this
+select option we're going to select this
+select option we're going to select this
+face here
+face here
+face here
+and now we're going to hit e to extrude
+and now we're going to hit e to extrude
+and now we're going to hit e to extrude
+and once we've hit that we're going to
+and once we've hit that we're going to
+and once we've hit that we're going to
+hit s right after it
+hit s right after it
+hit s right after it
+to scale in so we're going to scale it
+to scale in so we're going to scale it
+to scale in so we're going to scale it
+into here and then we're going to go g
+into here and then we're going to go g
+into here and then we're going to go g
+y and we're going to move it or
+y and we're going to move it or
+y and we're going to move it or
+g x and we're going to move it
+g x and we're going to move it
+g x and we're going to move it
+in like this
+in like this
+in like this
+and i'm going to go g
+and i'm going to go g
+and i'm going to go g
+z and just move it up
+z and just move it up
+z and just move it up
+a little bit like that
+a little bit like that
+a little bit like that
+and then to flatten it we're going to go
+and then to flatten it we're going to go
+and then to flatten it we're going to go
+s and then z
+s and then z
+s and then z
+so s and z and we're just going to
+so s and z and we're just going to
+so s and z and we're just going to
+flatten it onto z just a little bit
+flatten it onto z just a little bit
+flatten it onto z just a little bit
+we're then going to go e to extrude
+we're then going to go e to extrude
+we're then going to go e to extrude
+move it up like this
+move it up like this
+move it up like this
+and then g
+and then g
+and then g
+x to move it in a bit
+x to move it in a bit
+x to move it in a bit
+and now what we can do with that face
+and now what we can do with that face
+and now what we can do with that face
+still active we can hit control plus or
+still active we can hit control plus or
+still active we can hit control plus or
+command plus just to grow the selection
+command plus just to grow the selection
+command plus just to grow the selection
+once
+once
+once
+then we can go g
+then we can go g
+then we can go g
+y and that'll allow us to move that all
+y and that'll allow us to move that all
+y and that'll allow us to move that all
+back just a little bit if you now hit
+back just a little bit if you now hit
+back just a little bit if you now hit
+free on your number pad you can go to
+free on your number pad you can go to
+free on your number pad you can go to
+the side of graphic view and over here
+the side of graphic view and over here
+the side of graphic view and over here
+you can also hit g if you want to move
+you can also hit g if you want to move
+you can also hit g if you want to move
+it around a little bit easier
+it around a little bit easier
+it around a little bit easier
+so just about here we don't want the
+so just about here we don't want the
+so just about here we don't want the
+neck too forward or right in the middle
+neck too forward or right in the middle
+neck too forward or right in the middle
+just a little bit more back
+just a little bit more back
+just a little bit more back
+then you can get your vertex select and
+then you can get your vertex select and
+then you can get your vertex select and
+you can select these chest vertices here
+you can select these chest vertices here
+you can select these chest vertices here
+and just move them to flatten them out a
+and just move them to flatten them out a
+and just move them to flatten them out a
+bit
+bit
+bit
+just so the chest isn't as pointy at the
+just so the chest isn't as pointy at the
+just so the chest isn't as pointy at the
+front
+front
+front
+so just like that you can also select
+so just like that you can also select
+so just like that you can also select
+the verts at the back
+the verts at the back
+the verts at the back
+and just move them in
+and just move them in
+and just move them in
+the ones on the shoulder here you can
+the ones on the shoulder here you can
+the ones on the shoulder here you can
+also move it in the arm itself should
+also move it in the arm itself should
+also move it in the arm itself should
+not be sitting
+not be sitting
+not be sitting
+too forward in the body in fact an easy
+too forward in the body in fact an easy
+too forward in the body in fact an easy
+way to solve this is just to go shift
+way to solve this is just to go shift
+way to solve this is just to go shift
+alt
+alt
+alt
+click on an edge down here to loop
+click on an edge down here to loop
+click on an edge down here to loop
+selected
+selected
+selected
+go control plus
+go control plus
+go control plus
+and grow the selection till the whole
+and grow the selection till the whole
+and grow the selection till the whole
+arm is
+arm is
+arm is
+active
+active
+active
+so that should be enough
+so that should be enough
+so that should be enough
+and
+and
+and
+so just make sure it's only
+so just make sure it's only
+so just make sure it's only
+these here that are selected the arm go
+these here that are selected the arm go
+these here that are selected the arm go
+to your thing here called proportional
+to your thing here called proportional
+to your thing here called proportional
+editing so if you click on that
+editing so if you click on that
+editing so if you click on that
+you can now go g
+you can now go g
+you can now go g
+y and move it back and if you roll your
+y and move it back and if you roll your
+y and move it back and if you roll your
+middle mouse button while you're doing
+middle mouse button while you're doing
+middle mouse button while you're doing
+that you can control the fall off so how
+that you can control the fall off so how
+that you can control the fall off so how
+much goes along with it so we're going
+much goes along with it so we're going
+much goes along with it so we're going
+to roll the middle mouse button until
+to roll the middle mouse button until
+to roll the middle mouse button until
+it's quite small and i'm only going to
+it's quite small and i'm only going to
+it's quite small and i'm only going to
+move the arm back on the y
+move the arm back on the y
+move the arm back on the y
+just a little bit like that so once
+just a little bit like that so once
+just a little bit like that so once
+again i just hit g y
+again i just hit g y
+again i just hit g y
+to move it along to y so just back a
+to move it along to y so just back a
+to move it along to y so just back a
+little bit you can go into your right or
+little bit you can go into your right or
+little bit you can go into your right or
+graphic view by hitting free
+graphic view by hitting free
+graphic view by hitting free
+and you can actually see the arm doesn't
+and you can actually see the arm doesn't
+and you can actually see the arm doesn't
+need to be in the middle just a little
+need to be in the middle just a little
+need to be in the middle just a little
+bit back like that
+bit back like that
+bit back like that
+and what we can also do
+and what we can also do
+and what we can also do
+is just select this vert down here and
+is just select this vert down here and
+is just select this vert down here and
+just bring that in a bit it doesn't need
+just bring that in a bit it doesn't need
+just bring that in a bit it doesn't need
+to be
+to be
+to be
+so thick here at the front
+so thick here at the front
+so thick here at the front
+so just
+so just
+so just
+using proportional editing here you can
+using proportional editing here you can
+using proportional editing here you can
+select verts you can move them around
+select verts you can move them around
+select verts you can move them around
+and you can roll your middle mouse
+and you can roll your middle mouse
+and you can roll your middle mouse
+button to control
+button to control
+button to control
+the fall off
+the fall off
+the fall off
+so this is a really powerful modeling
+so this is a really powerful modeling
+so this is a really powerful modeling
+tool here i use it a lot in my own work
+tool here i use it a lot in my own work
+tool here i use it a lot in my own work
+at the moment the waste here is a little
+at the moment the waste here is a little
+at the moment the waste here is a little
+bit fixed so if you come here to
+bit fixed so if you come here to
+bit fixed so if you come here to
+the edge here you can go ctrl r
+the edge here you can go ctrl r
+the edge here you can go ctrl r
+just click twice disable proportional
+just click twice disable proportional
+just click twice disable proportional
+editing and then just go g
+editing and then just go g
+editing and then just go g
+y
+y
+y
+or gx so gx and just move it in a little
+or gx so gx and just move it in a little
+or gx so gx and just move it in a little
+bit
+bit
+bit
+like that
+like that
+like that
+so we already have this little guy
+so we already have this little guy
+so we already have this little guy
+coming together quite well so let's go
+coming together quite well so let's go
+coming together quite well so let's go
+over to our head so we're going to go
+over to our head so we're going to go
+over to our head so we're going to go
+over to our face select select this face
+over to our face select select this face
+over to our face select select this face
+here
+here
+here
+and then we're going to go
+and then we're going to go
+and then we're going to go
+e to extrude we're going to extrude it
+e to extrude we're going to extrude it
+e to extrude we're going to extrude it
+up to here
+up to here
+up to here
+and then we're going to go e one more
+and then we're going to go e one more
+and then we're going to go e one more
+time to extrude it about this much and
+time to extrude it about this much and
+time to extrude it about this much and
+then we're going to select this face
+then we're going to select this face
+then we're going to select this face
+holding in shift we're going to select
+holding in shift we're going to select
+holding in shift we're going to select
+this face as well
+this face as well
+this face as well
+and then we're going to go e to extrude
+and then we're going to go e to extrude
+and then we're going to go e to extrude
+forward
+forward
+forward
+and then s and we're going to scale that
+and then s and we're going to scale that
+and then s and we're going to scale that
+like so
+like so
+like so
+we're then going to
+we're then going to
+we're then going to
+select this back face here
+select this back face here
+select this back face here
+go into your right orthographic view and
+go into your right orthographic view and
+go into your right orthographic view and
+then go g
+then go g
+then go g
+and just move that back
+and just move that back
+and just move that back
+and then select this top face here
+and then select this top face here
+and then select this top face here
+and just g and move it up in your side
+and just g and move it up in your side
+and just g and move it up in your side
+view you can also just hit g
+view you can also just hit g
+view you can also just hit g
+z
+z
+z
+g z to move it up on the z but we're
+g z to move it up on the z but we're
+g z to move it up on the z but we're
+going to move it up to about here
+going to move it up to about here
+going to move it up to about here
+and we're just making a really basic
+and we're just making a really basic
+and we're just making a really basic
+head if you hit one to go into front of
+head if you hit one to go into front of
+head if you hit one to go into front of
+graphic view
+graphic view
+graphic view
+you can just rotate that face like so
+you can just rotate that face like so
+you can just rotate that face like so
+and you can also just select these side
+and you can also just select these side
+and you can also just select these side
+faces here
+in your front view
+in your front view
+in your front view
+g just to move them over to the side
+g just to move them over to the side
+g just to move them over to the side
+and at the moment the neck's a bit thick
+and at the moment the neck's a bit thick
+and at the moment the neck's a bit thick
+so if we come in here
+so if we come in here
+so if we come in here
+over this corner we can hit control r
+over this corner we can hit control r
+over this corner we can hit control r
+click twice
+click twice
+click twice
+and then s to scale
+and then s to scale
+and then s to scale
+and now we can just add a little bit of
+and now we can just add a little bit of
+and now we can just add a little bit of
+more definition to the neck
+more definition to the neck
+more definition to the neck
+and we can also go shift
+and we can also go shift
+and we can also go shift
+alt and click on this edge here and in
+alt and click on this edge here and in
+alt and click on this edge here and in
+our front view we can go g to move it
+our front view we can go g to move it
+our front view we can go g to move it
+around and this is an easy way to kind
+around and this is an easy way to kind
+around and this is an easy way to kind
+of define the neck a little bit it
+of define the neck a little bit it
+of define the neck a little bit it
+really depends on the character you're
+really depends on the character you're
+really depends on the character you're
+making you might want a bit of a thicker
+making you might want a bit of a thicker
+making you might want a bit of a thicker
+neck but just something like this should
+neck but just something like this should
+neck but just something like this should
+be fine so you can now kind of see we're
+be fine so you can now kind of see we're
+be fine so you can now kind of see we're
+getting this guy coming together quite
+getting this guy coming together quite
+getting this guy coming together quite
+well
+well
+well
+um in the front view as well you can
+um in the front view as well you can
+um in the front view as well you can
+just select some of these points on the
+just select some of these points on the
+just select some of these points on the
+face just kind of move them around and
+face just kind of move them around and
+face just kind of move them around and
+by no means are we trying to make this
+by no means are we trying to make this
+by no means are we trying to make this
+look really accurate this is very low
+look really accurate this is very low
+look really accurate this is very low
+poly we're just going to select this
+poly we're just going to select this
+poly we're just going to select this
+face here and we're going to go g
+face here and we're going to go g
+face here and we're going to go g
+and just also move that down
+and just also move that down
+and just also move that down
+so just creating a super basic head
+so just creating a super basic head
+so just creating a super basic head
+model here maybe just grab this edge
+model here maybe just grab this edge
+model here maybe just grab this edge
+here
+here
+here
+hit g and just move it in a bit
+hit g and just move it in a bit
+hit g and just move it in a bit
+so now we have a very low poly character
+so now we have a very low poly character
+so now we have a very low poly character
+here but what we can do to make this
+here but what we can do to make this
+here but what we can do to make this
+look even better
+look even better
+look even better
+once again we can go to our modifiers
+once again we can go to our modifiers
+once again we can go to our modifiers
+tab and now on top of this modifier here
+tab and now on top of this modifier here
+tab and now on top of this modifier here
+let's go down click on it go to generate
+let's go down click on it go to generate
+let's go down click on it go to generate
+let's add a subdivision surface modifier
+let's add a subdivision surface modifier
+let's add a subdivision surface modifier
+what the subdivision surface modifier
+what the subdivision surface modifier
+what the subdivision surface modifier
+does essentially it just sub divides
+does essentially it just sub divides
+does essentially it just sub divides
+each face
+each face
+each face
+and it's something that you can turn on
+and it's something that you can turn on
+and it's something that you can turn on
+and off
+and off
+and off
+and you can also come here to the
+and you can also come here to the
+and you can also come here to the
+viewport level and increase that
+viewport level and increase that
+viewport level and increase that
+the render here is simply just what it's
+the render here is simply just what it's
+the render here is simply just what it's
+going to be when it does a final render
+going to be when it does a final render
+going to be when it does a final render
+what we're going to be focusing on here
+what we're going to be focusing on here
+what we're going to be focusing on here
+is actually just at the moment the
+is actually just at the moment the
+is actually just at the moment the
+viewport display because that's what
+viewport display because that's what
+viewport display because that's what
+we're actually seeing
+we're actually seeing
+we're actually seeing
+so i've clicked on that now
+so i've clicked on that now
+so i've clicked on that now
+and i've bumped it up to two
+and i've bumped it up to two
+and i've bumped it up to two
+and now we can see it's a lot smoother
+and now we can see it's a lot smoother
+and now we can see it's a lot smoother
+but we're still seeing this cage out
+but we're still seeing this cage out
+but we're still seeing this cage out
+here the rough um approx like the rough
+here the rough um approx like the rough
+here the rough um approx like the rough
+cage we originally modeled if you want
+cage we originally modeled if you want
+cage we originally modeled if you want
+that to kind of hug against that
+that to kind of hug against that
+that to kind of hug against that
+modifier you can come over here and
+modifier you can come over here and
+modifier you can come over here and
+click on this cage on and it'll put that
+click on this cage on and it'll put that
+click on this cage on and it'll put that
+on it like so and it looks a little bit
+on it like so and it looks a little bit
+on it like so and it looks a little bit
+nicer
+nicer
+nicer
+so i'm going to click on that
+so i'm going to click on that
+so i'm going to click on that
+and now we can just do the exact same
+and now we can just do the exact same
+and now we can just do the exact same
+thing you can go into your front view
+thing you can go into your front view
+thing you can go into your front view
+you can just select edges some still
+you can just select edges some still
+you can just select edges some still
+have my edge select here you can hit g
+have my edge select here you can hit g
+have my edge select here you can hit g
+to move it you can enable proportional
+to move it you can enable proportional
+to move it you can enable proportional
+editing to control the fall-off
+editing to control the fall-off
+editing to control the fall-off
+um whatever you need so this is where
+um whatever you need so this is where
+um whatever you need so this is where
+you can kind of look at a reference
+you can kind of look at a reference
+you can kind of look at a reference
+image
+image
+image
+and kind of just define the shape of
+and kind of just define the shape of
+and kind of just define the shape of
+your model or your character
+your model or your character
+your model or your character
+a little bit more
+a little bit more
+a little bit more
+and that's very very fun and powerful
+and that's very very fun and powerful
+and that's very very fun and powerful
+tool to use
+tool to use
+tool to use
+and you can select different edges on
+and you can select different edges on
+and you can select different edges on
+the the torso bring them in a bit just
+the the torso bring them in a bit just
+the the torso bring them in a bit just
+to find the mesh a little bit more
+to find the mesh a little bit more
+to find the mesh a little bit more
+and stuff like that you can come over
+and stuff like that you can come over
+and stuff like that you can come over
+here to your leg
+here to your leg
+here to your leg
+shift alt just click on this edge here
+shift alt just click on this edge here
+shift alt just click on this edge here
+go to your right view
+go to your right view
+go to your right view
+and just go g and just move
+and just go g and just move
+and just go g and just move
+the leg forward a bit to give it some
+the leg forward a bit to give it some
+the leg forward a bit to give it some
+dynamic
+dynamic
+dynamic
+and you can also go hit z go into
+and you can also go hit z go into
+and you can also go hit z go into
+wireframe
+wireframe
+wireframe
+go to vertex select and then just click
+go to vertex select and then just click
+go to vertex select and then just click
+and select these bottom verts and go g
+and select these bottom verts and go g
+and select these bottom verts and go g
+y and just move them back a bit
+y and just move them back a bit
+y and just move them back a bit
+like so
+like so
+like so
+just create a little bit of a bend in
+just create a little bit of a bend in
+just create a little bit of a bend in
+the legs there so here you can see
+the legs there so here you can see
+the legs there so here you can see
+using some very basic and rudimentary
+using some very basic and rudimentary
+using some very basic and rudimentary
+modeling techniques we've kind of made a
+modeling techniques we've kind of made a
+modeling techniques we've kind of made a
+figure and once again i'm keeping this
+figure and once again i'm keeping this
+figure and once again i'm keeping this
+super basic for absolute beginners
+super basic for absolute beginners
+super basic for absolute beginners
+that's why it's a very basic looking
+that's why it's a very basic looking
+that's why it's a very basic looking
+model with no like big features it's
+model with no like big features it's
+model with no like big features it's
+just getting the main proportions
+just getting the main proportions
+just getting the main proportions
+established
+established
+established
+so what we can do now if we want to make
+so what we can do now if we want to make
+so what we can do now if we want to make
+some very basic hands is we can simply
+some very basic hands is we can simply
+some very basic hands is we can simply
+just go to our face select
+just go to our face select
+just go to our face select
+then just select this face down here
+then just select this face down here
+then just select this face down here
+and with that active we're going to hit
+and with that active we're going to hit
+and with that active we're going to hit
+g and just move it in a little bit i'm
+g and just move it in a little bit i'm
+g and just move it in a little bit i'm
+in my front orthographic view
+in my front orthographic view
+in my front orthographic view
+and then just e to extrude it a little
+and then just e to extrude it a little
+and then just e to extrude it a little
+bit more
+bit more
+bit more
+and then i'm going to come over here
+and then i'm going to come over here
+and then i'm going to come over here
+over this edge here and i'm going to go
+over this edge here and i'm going to go
+over this edge here and i'm going to go
+ctrl r
+ctrl r
+ctrl r
+click twice
+click twice
+click twice
+and then double g just to slide it up a
+and then double g just to slide it up a
+and then double g just to slide it up a
+bit
+bit
+bit
+then i'm going to go to my face select
+then i'm going to go to my face select
+then i'm going to go to my face select
+and i'm going to select this face right
+and i'm going to select this face right
+and i'm going to select this face right
+here
+here
+here
+then i'm going to go to my right
+then i'm going to go to my right
+then i'm going to go to my right
+orthographic view
+orthographic view
+orthographic view
+and i'm going to go r to rotate
+and i'm going to go r to rotate
+and i'm going to go r to rotate
+and then g to move it forward a bit then
+and then g to move it forward a bit then
+and then g to move it forward a bit then
+i'm going to go e to extrude
+i'm going to go e to extrude
+i'm going to go e to extrude
+like so
+like so
+like so
+and then e to extrude one more time
+and then e to extrude one more time
+and then e to extrude one more time
+and then i'm going to disable
+and then i'm going to disable
+and then i'm going to disable
+proportional editing and with that face
+proportional editing and with that face
+proportional editing and with that face
+active i'm just going to go control plus
+active i'm just going to go control plus
+active i'm just going to go control plus
+and then i'm going to go s
+and then i'm going to go s
+and then i'm going to go s
+x and i'm just going to scale that down
+x and i'm just going to scale that down
+x and i'm just going to scale that down
+a bit
+a bit
+a bit
+just to make a very very simple looking
+just to make a very very simple looking
+just to make a very very simple looking
+thumb we can select this face here we
+thumb we can select this face here we
+thumb we can select this face here we
+can go g y and just move back a bit
+can go g y and just move back a bit
+can go g y and just move back a bit
+and then you can come over this edge
+and then you can come over this edge
+and then you can come over this edge
+ctrl r
+ctrl r
+ctrl r
+click twice
+click twice
+click twice
+double g to slide down to here and then
+double g to slide down to here and then
+double g to slide down to here and then
+s just to scale it
+s just to scale it
+s just to scale it
+like that just create a basic wrist so
+like that just create a basic wrist so
+like that just create a basic wrist so
+this is a very very simple character you
+this is a very very simple character you
+this is a very very simple character you
+can just select edges anytime you want
+can just select edges anytime you want
+can just select edges anytime you want
+g to move them
+g to move them
+g to move them
+so i might want to select this edge here
+so i might want to select this edge here
+so i might want to select this edge here
+g to move that very very simple
+g to move that very very simple
+g to move that very very simple
+all i'm doing is i'm with my edge select
+all i'm doing is i'm with my edge select
+all i'm doing is i'm with my edge select
+here i'm moving around clicking on edges
+here i'm moving around clicking on edges
+here i'm moving around clicking on edges
+and i'm hitting g to move them
+and i'm hitting g to move them
+and i'm hitting g to move them
+let's hit one to go back into our front
+let's hit one to go back into our front
+let's hit one to go back into our front
+orthographic view
+orthographic view
+orthographic view
+and here you can see we have the basic
+and here you can see we have the basic
+and here you can see we have the basic
+character done so i'm just going to go
+character done so i'm just going to go
+character done so i'm just going to go
+back into object mode
+back into object mode
+back into object mode
+over here so go into object mode you can
+over here so go into object mode you can
+over here so go into object mode you can
+also hit the tab key as a shortcut to do
+also hit the tab key as a shortcut to do
+also hit the tab key as a shortcut to do
+that and at the moment it's not looking
+that and at the moment it's not looking
+that and at the moment it's not looking
+very smooth so with this
+very smooth so with this
+very smooth so with this
+cube still active we're going to go to
+cube still active we're going to go to
+cube still active we're going to go to
+object mode up here and we're going to
+object mode up here and we're going to
+object mode up here and we're going to
+go shades moves now we have nice smooth
+go shades moves now we have nice smooth
+go shades moves now we have nice smooth
+shading on here
+shading on here
+shading on here
+and if you want this guy
+and if you want this guy
+and if you want this guy
+so example in object mode if i were to
+so example in object mode if i were to
+so example in object mode if i were to
+hit r to rotate them you can see it's
+hit r to rotate them you can see it's
+hit r to rotate them you can see it's
+actually rotating around this point here
+actually rotating around this point here
+actually rotating around this point here
+which is what we call an origin point
+which is what we call an origin point
+which is what we call an origin point
+but what we wanted that origin point to
+but what we wanted that origin point to
+but what we wanted that origin point to
+be is at the bottom of the feet a quick
+be is at the bottom of the feet a quick
+be is at the bottom of the feet a quick
+way to do that is just to tab into edit
+way to do that is just to tab into edit
+way to do that is just to tab into edit
+mode
+mode
+mode
+hit a to select everything and then in
+hit a to select everything and then in
+hit a to select everything and then in
+go g
+go g
+go g
+z and just move it up till his feet
+z and just move it up till his feet
+z and just move it up till his feet
+are where that little orange dot is or
+are where that little orange dot is or
+are where that little orange dot is or
+where the floor is so you should be
+where the floor is so you should be
+where the floor is so you should be
+sitting right on the floor
+sitting right on the floor
+sitting right on the floor
+then we're going to go back into object
+then we're going to go back into object
+then we're going to go back into object
+mode
+mode
+mode
+and now if we hit r you can see here
+and now if we hit r you can see here
+and now if we hit r you can see here
+rotates around that origin point
+rotates around that origin point
+rotates around that origin point
+so here now in our scene
+so here now in our scene
+so here now in our scene
+we have this character here that's
+we have this character here that's
+we have this character here that's
+really low poly
+really low poly
+really low poly
+so that means there's very few points
+so that means there's very few points
+so that means there's very few points
+you actually have to edit when you go
+you actually have to edit when you go
+you actually have to edit when you go
+into edit mode
+into edit mode
+into edit mode
+but he also has a subdivision surface
+but he also has a subdivision surface
+but he also has a subdivision surface
+modifier which makes him look nice and
+modifier which makes him look nice and
+modifier which makes him look nice and
+smooth
+smooth
+smooth
+so once you've learned these basic
+so once you've learned these basic
+so once you've learned these basic
+extrusion
+extrusion
+extrusion
+techniques and also just how to select
+techniques and also just how to select
+techniques and also just how to select
+verts
+verts
+verts
+how to select edges
+how to select edges
+how to select edges
+and how to select faces
+and how to select faces
+and how to select faces
+and also how to scale them rotate them
+and also how to scale them rotate them
+and also how to scale them rotate them
+and extrude them
+and extrude them
+and extrude them
+right once you've learned that you can
+right once you've learned that you can
+right once you've learned that you can
+pretty much make anything in a 3d space
+pretty much make anything in a 3d space
+pretty much make anything in a 3d space
+and you can also use your subdivision
+and you can also use your subdivision
+and you can also use your subdivision
+surface modifier
+surface modifier
+surface modifier
+you can at any time come over one of
+you can at any time come over one of
+you can at any time come over one of
+these edges here hit control r
+these edges here hit control r
+these edges here hit control r
+click twice double g to slide and add in
+click twice double g to slide and add in
+click twice double g to slide and add in
+more geometry
+more geometry
+more geometry
+and that's how simple this is i hope you
+and that's how simple this is i hope you
+and that's how simple this is i hope you
+guys enjoyed this absolute beginner
+guys enjoyed this absolute beginner
+guys enjoyed this absolute beginner
+tutorial on modeling and blender i know
+tutorial on modeling and blender i know
+tutorial on modeling and blender i know
+it's a little bit lengthy but it is for
+it's a little bit lengthy but it is for
+it's a little bit lengthy but it is for
+absolute beginners so this is probably
+absolute beginners so this is probably
+absolute beginners so this is probably
+if you're really new to this this might
+if you're really new to this this might
+if you're really new to this this might
+be one of your first creations in
+be one of your first creations in
+be one of your first creations in
+blender and i really hope you enjoyed it
+blender and i really hope you enjoyed it
+blender and i really hope you enjoyed it
+i'm just going to go back into object
+i'm just going to go back into object
+i'm just going to go back into object
+mode here
+mode here
+mode here
+and yeah that's pretty much it i'll
+and yeah that's pretty much it i'll
+and yeah that's pretty much it i'll
+quickly show you guys the one i made
+quickly show you guys the one i made
+quickly show you guys the one i made
+earlier when i was practicing this
+earlier when i was practicing this
+earlier when i was practicing this
+you can see this one
+you can see this one
+you can see this one
+exact same thing i just spent a little
+exact same thing i just spent a little
+exact same thing i just spent a little
+bit more time on it
+bit more time on it
+bit more time on it
+proportions a little bit more but it's
+proportions a little bit more but it's
+proportions a little bit more but it's
+pretty much the exact same technique
+pretty much the exact same technique
+pretty much the exact same technique
+and i kept it really simple for
+and i kept it really simple for
+and i kept it really simple for
+beginners
+beginners
+beginners
+so i will see you guys next time for
+so i will see you guys next time for
+so i will see you guys next time for
+another tutorial and if you want to see
+another tutorial and if you want to see
+another tutorial and if you want to see
+some more advanced things you can check
+some more advanced things you can check
+some more advanced things you can check
+out some of my other tutorials where i
+out some of my other tutorials where i
+out some of my other tutorials where i
+go over things in a little bit more
+go over things in a little bit more
+go over things in a little bit more
+detail
+detail
+detail
+but they're also a little bit more
+but they're also a little bit more
+but they're also a little bit more
+advanced so i'll see you guys next time
+you

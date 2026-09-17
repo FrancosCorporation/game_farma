@@ -1,0 +1,1138 @@
+Kind: captions
+Language: en
+One of these is her real face mesh and
+One of these is her real face mesh and
+One of these is her real face mesh and
+the other is a reverse engineered copy.
+the other is a reverse engineered copy.
+the other is a reverse engineered copy.
+Can you spot the fake?
+Can you spot the fake?
+Can you spot the fake?
+This is the copy and this is the
+This is the copy and this is the
+This is the copy and this is the
+character's real face mesh. The copy was
+character's real face mesh. The copy was
+character's real face mesh. The copy was
+built from scratch using reverse
+built from scratch using reverse
+built from scratch using reverse
+engineering. And while a few details do
+engineering. And while a few details do
+engineering. And while a few details do
+out it as the fake, most of the
+out it as the fake, most of the
+out it as the fake, most of the
+fundamental features are captured. In
+fundamental features are captured. In
+fundamental features are captured. In
+this video, I'll reveal the secrets of
+this video, I'll reveal the secrets of
+this video, I'll reveal the secrets of
+reverse engineering 3D models. a skill
+reverse engineering 3D models. a skill
+reverse engineering 3D models. a skill
+that can instantly boost your 3D
+that can instantly boost your 3D
+that can instantly boost your 3D
+modeling and allow you to mimic or
+modeling and allow you to mimic or
+modeling and allow you to mimic or
+incorporate professional 3D art styles.
+incorporate professional 3D art styles.
+incorporate professional 3D art styles.
+The first step to acquiring a model's
+The first step to acquiring a model's
+The first step to acquiring a model's
+secret sauce is a microscopic
+secret sauce is a microscopic
+secret sauce is a microscopic
+investigation. I identify patterns and
+investigation. I identify patterns and
+investigation. I identify patterns and
+techniques used within their mesh. There
+techniques used within their mesh. There
+techniques used within their mesh. There
+is a diamond- shaped loop around the
+is a diamond- shaped loop around the
+is a diamond- shaped loop around the
+mouth that houses the circular loops
+mouth that houses the circular loops
+mouth that houses the circular loops
+that make up the lips. These loops not
+that make up the lips. These loops not
+that make up the lips. These loops not
+only provide the best structure and
+only provide the best structure and
+only provide the best structure and
+deformationation for the lips later, but
+deformationation for the lips later, but
+deformationation for the lips later, but
+stay functional during the modeling and
+stay functional during the modeling and
+stay functional during the modeling and
+shape key creation phases as they can
+shape key creation phases as they can
+shape key creation phases as they can
+conveniently edge select all the way
+conveniently edge select all the way
+conveniently edge select all the way
+around and slide at will. The placement
+around and slide at will. The placement
+around and slide at will. The placement
+of this loop varies. Some games have
+of this loop varies. Some games have
+of this loop varies. Some games have
+this diamond larger and now wider. When
+this diamond larger and now wider. When
+this diamond larger and now wider. When
+it's wider like this, the circle loop
+it's wider like this, the circle loop
+it's wider like this, the circle loop
+zone also widens for easier expression
+zone also widens for easier expression
+zone also widens for easier expression
+control and mouth deforms. But Wua's
+control and mouth deforms. But Wua's
+control and mouth deforms. But Wua's
+more compact version allows for cheek
+more compact version allows for cheek
+more compact version allows for cheek
+chin edges to flow more naturally and be
+chin edges to flow more naturally and be
+chin edges to flow more naturally and be
+easier to manage at quarter angles. At
+easier to manage at quarter angles. At
+easier to manage at quarter angles. At
+the center of this is the signature Wooa
+the center of this is the signature Wooa
+the center of this is the signature Wooa
+lip line and the infamous pout that
+lip line and the infamous pout that
+lip line and the infamous pout that
+commonly goes along with it, which is
+commonly goes along with it, which is
+commonly goes along with it, which is
+textured precisely within the edges to
+textured precisely within the edges to
+textured precisely within the edges to
+achieve pseudo infinite resolution.
+achieve pseudo infinite resolution.
+achieve pseudo infinite resolution.
+Next, the loop structure around the eyes
+Next, the loop structure around the eyes
+Next, the loop structure around the eyes
+not only house the eye socket and guide
+not only house the eye socket and guide
+not only house the eye socket and guide
+the contours of the brow ridge, but the
+the contours of the brow ridge, but the
+the contours of the brow ridge, but the
+edges also run parallel with the lashes,
+edges also run parallel with the lashes,
+edges also run parallel with the lashes,
+eyelid crease, and eyebrows. I'll touch
+eyelid crease, and eyebrows. I'll touch
+eyelid crease, and eyebrows. I'll touch
+on the bonuses of doing this later. This
+on the bonuses of doing this later. This
+on the bonuses of doing this later. This
+goes handinhand with the nose's edge
+goes handinhand with the nose's edge
+goes handinhand with the nose's edge
+flow, which is super minimal for this
+flow, which is super minimal for this
+flow, which is super minimal for this
+model, and thin. One of their models
+model, and thin. One of their models
+model, and thin. One of their models
+standout features is their beautiful
+standout features is their beautiful
+standout features is their beautiful
+profile view, which we can replicate by
+profile view, which we can replicate by
+profile view, which we can replicate by
+following the classic rule of the lips
+following the classic rule of the lips
+following the classic rule of the lips
+not exceeding the nose to mouth
+not exceeding the nose to mouth
+not exceeding the nose to mouth
+boundary. and forming this distant bird
+boundary. and forming this distant bird
+boundary. and forming this distant bird
+shape in the negative space. I'll reveal
+shape in the negative space. I'll reveal
+shape in the negative space. I'll reveal
+more features as we go along. Let's
+more features as we go along. Let's
+more features as we go along. Let's
+begin the recreation. The goal of this
+begin the recreation. The goal of this
+begin the recreation. The goal of this
+phase is just to get the form
+phase is just to get the form
+phase is just to get the form
+established. We'll recreate the mesh
+established. We'll recreate the mesh
+established. We'll recreate the mesh
+from the ground up and make sure to
+from the ground up and make sure to
+from the ground up and make sure to
+include all the concepts that we found
+include all the concepts that we found
+include all the concepts that we found
+earlier. Perfection is not needed at
+earlier. Perfection is not needed at
+earlier. Perfection is not needed at
+this point. Think of it like the first
+this point. Think of it like the first
+this point. Think of it like the first
+drive that quickly gets us 90% of the
+drive that quickly gets us 90% of the
+drive that quickly gets us 90% of the
+way there. And then we increase focus on
+way there. And then we increase focus on
+way there. And then we increase focus on
+the art style specific details. By the
+the art style specific details. By the
+the art style specific details. By the
+way, today's whole raw process is
+way, today's whole raw process is
+way, today's whole raw process is
+available for free on my Patreon, and
+available for free on my Patreon, and
+available for free on my Patreon, and
+the project files are available in the
+the project files are available in the
+the project files are available in the
+$5 tier along with a bunch of recent
+$5 tier along with a bunch of recent
+$5 tier along with a bunch of recent
+drops. All right, we break down this
+drops. All right, we break down this
+drops. All right, we break down this
+mesh to its most elementary shape. To
+mesh to its most elementary shape. To
+mesh to its most elementary shape. To
+me, this looks like a simple kite
+me, this looks like a simple kite
+me, this looks like a simple kite
+shield. So, if we use that shape while
+shield. So, if we use that shape while
+shield. So, if we use that shape while
+capturing the flow around the chin, then
+capturing the flow around the chin, then
+capturing the flow around the chin, then
+we've already got our foot in the door.
+we've already got our foot in the door.
+we've already got our foot in the door.
+To do this, start by simply adding a
+To do this, start by simply adding a
+To do this, start by simply adding a
+plane to the scene. Rotate it 90° to
+plane to the scene. Rotate it 90° to
+plane to the scene. Rotate it 90° to
+face you, and use auto mirror to split
+face you, and use auto mirror to split
+face you, and use auto mirror to split
+it into two symmetrical halves.
+it into two symmetrical halves.
+it into two symmetrical halves.
+Move the middle verts very slightly
+Move the middle verts very slightly
+Move the middle verts very slightly
+forward. Do a horizontal loop cut across
+forward. Do a horizontal loop cut across
+forward. Do a horizontal loop cut across
+the plane. And from side view, take
+the plane. And from side view, take
+the plane. And from side view, take
+these two bottom points, scale them
+these two bottom points, scale them
+these two bottom points, scale them
+down, and move them forward. Take this
+down, and move them forward. Take this
+down, and move them forward. Take this
+middle top vertex and move it forward.
+middle top vertex and move it forward.
+middle top vertex and move it forward.
+This will set up the forehead area. You
+This will set up the forehead area. You
+This will set up the forehead area. You
+might notice this is similar process to
+might notice this is similar process to
+might notice this is similar process to
+the one in this past video, but stay
+the one in this past video, but stay
+the one in this past video, but stay
+tuned because it's further optimized and
+tuned because it's further optimized and
+tuned because it's further optimized and
+tailored to this specific art style.
+tailored to this specific art style.
+tailored to this specific art style.
+Now, make two vertical loop cuts like
+Now, make two vertical loop cuts like
+Now, make two vertical loop cuts like
+this. And while still selected, move
+this. And while still selected, move
+this. And while still selected, move
+them slightly forward, creating a curve.
+them slightly forward, creating a curve.
+them slightly forward, creating a curve.
+Do two horizontal loop cuts on the top
+Do two horizontal loop cuts on the top
+Do two horizontal loop cuts on the top
+half and three on the bottom half.
+half and three on the bottom half.
+half and three on the bottom half.
+Face select this bottom corner face and
+Face select this bottom corner face and
+Face select this bottom corner face and
+delete all of his vertices. Select these
+delete all of his vertices. Select these
+delete all of his vertices. Select these
+three points and make a face.
+three points and make a face.
+three points and make a face.
+Then select this edge and make a face.
+Then select this edge and make a face.
+Then select this edge and make a face.
+Slide these points in the corner more
+Slide these points in the corner more
+Slide these points in the corner more
+towards the middle like this.
+towards the middle like this.
+towards the middle like this.
+Then select this point under the midline
+Then select this point under the midline
+Then select this point under the midline
+and move it forwards and slightly
+and move it forwards and slightly
+and move it forwards and slightly
+upwards. Use the knife tool and cut
+upwards. Use the knife tool and cut
+upwards. Use the knife tool and cut
+straight across to the middle like this.
+straight across to the middle like this.
+straight across to the middle like this.
+Then enter sculpt mode. Let's turn on
+Then enter sculpt mode. Let's turn on
+Then enter sculpt mode. Let's turn on
+wireframe so that we can clearly see
+wireframe so that we can clearly see
+wireframe so that we can clearly see
+which points are being moved by the grab
+which points are being moved by the grab
+which points are being moved by the grab
+brush. And let's use that grab brush to
+brush. And let's use that grab brush to
+brush. And let's use that grab brush to
+bring in these points closer to the
+bring in these points closer to the
+bring in these points closer to the
+middle like this. Contour the cheek area
+middle like this. Contour the cheek area
+middle like this. Contour the cheek area
+inwards as well. Then bring the forehead
+inwards as well. Then bring the forehead
+inwards as well. Then bring the forehead
+forward a little bit as well.
+forward a little bit as well.
+forward a little bit as well.
+Now add a subdivision surface modifier
+Now add a subdivision surface modifier
+Now add a subdivision surface modifier
+to the mesh. And in edit mode, enter
+to the mesh. And in edit mode, enter
+to the mesh. And in edit mode, enter
+edging mode and select the entire
+edging mode and select the entire
+edging mode and select the entire
+midline, this edge leading up to the
+midline, this edge leading up to the
+midline, this edge leading up to the
+nose and the corner edges. Then press
+nose and the corner edges. Then press
+nose and the corner edges. Then press
+shift E1 to max out the crease on all
+shift E1 to max out the crease on all
+shift E1 to max out the crease on all
+those edges. If you want, use shade
+those edges. If you want, use shade
+those edges. If you want, use shade
+smooth. Back in sculpt mode, let's add
+smooth. Back in sculpt mode, let's add
+smooth. Back in sculpt mode, let's add
+some volume to the cheeks by moving
+some volume to the cheeks by moving
+some volume to the cheeks by moving
+these areas forward. And similarly fill
+these areas forward. And similarly fill
+these areas forward. And similarly fill
+out the brow ridge area/forehead area as
+out the brow ridge area/forehead area as
+out the brow ridge area/forehead area as
+well.
+well.
+well.
+Now apply both of the modifiers and then
+Now apply both of the modifiers and then
+Now apply both of the modifiers and then
+reapply your auto mirror. Select these
+reapply your auto mirror. Select these
+reapply your auto mirror. Select these
+specific points in the middle of the
+specific points in the middle of the
+specific points in the middle of the
+mouth and delete them. This will be
+mouth and delete them. This will be
+mouth and delete them. This will be
+important to apply the circle loops
+important to apply the circle loops
+important to apply the circle loops
+concept on the lips. After deleting,
+concept on the lips. After deleting,
+concept on the lips. After deleting,
+select this loop, extrude it, and then
+select this loop, extrude it, and then
+select this loop, extrude it, and then
+scale it down. Make sure it aligns from
+scale it down. Make sure it aligns from
+scale it down. Make sure it aligns from
+the side view. And let's quickly
+the side view. And let's quickly
+the side view. And let's quickly
+straighten out these verts. Let's scale
+straighten out these verts. Let's scale
+straighten out these verts. Let's scale
+that down a little more and move it
+that down a little more and move it
+that down a little more and move it
+closer to the center. Now create a loop
+closer to the center. Now create a loop
+closer to the center. Now create a loop
+cut in the middle of that and follow
+cut in the middle of that and follow
+cut in the middle of that and follow
+along by selecting these points and
+along by selecting these points and
+along by selecting these points and
+pressing F to create a face. One here as
+pressing F to create a face. One here as
+pressing F to create a face. One here as
+well. One more loop cut these new faces
+well. One more loop cut these new faces
+well. One more loop cut these new faces
+in the middle. And select these two
+in the middle. And select these two
+in the middle. And select these two
+points and close that out. Now shrink
+points and close that out. Now shrink
+points and close that out. Now shrink
+that down. Select these points and use
+that down. Select these points and use
+that down. Select these points and use
+proportional editing to move all of
+proportional editing to move all of
+proportional editing to move all of
+these closer together on the X-axis
+these closer together on the X-axis
+these closer together on the X-axis
+while slimming down the cheeks a little
+while slimming down the cheeks a little
+while slimming down the cheeks a little
+further. Quick sculpt fix to smooth out
+further. Quick sculpt fix to smooth out
+further. Quick sculpt fix to smooth out
+these rough edges. And one thing I
+these rough edges. And one thing I
+these rough edges. And one thing I
+shouldn't forget, take your knife tool
+shouldn't forget, take your knife tool
+shouldn't forget, take your knife tool
+and cut this across. This will set up
+and cut this across. This will set up
+and cut this across. This will set up
+our lip loops for later. And now let's
+our lip loops for later. And now let's
+our lip loops for later. And now let's
+create eye sockets by selecting these
+create eye sockets by selecting these
+create eye sockets by selecting these
+two points and deleting them. Use loop
+two points and deleting them. Use loop
+two points and deleting them. Use loop
+tools circle to round these out or you
+tools circle to round these out or you
+tools circle to round these out or you
+can just round them out manually. Turn
+can just round them out manually. Turn
+can just round them out manually. Turn
+off proportional editing. Scale this
+off proportional editing. Scale this
+off proportional editing. Scale this
+down on the Z-axis and move it backwards
+down on the Z-axis and move it backwards
+down on the Z-axis and move it backwards
+into the face. Push in this inner corner
+into the face. Push in this inner corner
+into the face. Push in this inner corner
+of the eye. We'll worry about the exact
+of the eye. We'll worry about the exact
+of the eye. We'll worry about the exact
+shape of the socket later. And let's add
+shape of the socket later. And let's add
+shape of the socket later. And let's add
+another key feature by selecting the
+another key feature by selecting the
+another key feature by selecting the
+eyeloop, extruding it, and scale it down
+eyeloop, extruding it, and scale it down
+eyeloop, extruding it, and scale it down
+ever so slightly so that we can select
+ever so slightly so that we can select
+ever so slightly so that we can select
+the outer loop like this. Make sure all
+the outer loop like this. Make sure all
+the outer loop like this. Make sure all
+of it is selected. Then edge slide it
+of it is selected. Then edge slide it
+of it is selected. Then edge slide it
+outwards, which allows us to create that
+outwards, which allows us to create that
+outwards, which allows us to create that
+supporting eye loop and brow ridge. Add
+supporting eye loop and brow ridge. Add
+supporting eye loop and brow ridge. Add
+subdivision to the mesh. Once again, the
+subdivision to the mesh. Once again, the
+subdivision to the mesh. Once again, the
+socket should now be sticking out at the
+socket should now be sticking out at the
+socket should now be sticking out at the
+side like this. So, let's make these
+side like this. So, let's make these
+side like this. So, let's make these
+three quarter angle tweaks inside of
+three quarter angle tweaks inside of
+three quarter angle tweaks inside of
+sculpt mode. And here are some other
+sculpt mode. And here are some other
+sculpt mode. And here are some other
+tweaks I did. Pushed out the cheek a
+tweaks I did. Pushed out the cheek a
+tweaks I did. Pushed out the cheek a
+little more. Pushed the mouth area
+little more. Pushed the mouth area
+little more. Pushed the mouth area
+slightly more together. Worked on the
+slightly more together. Worked on the
+slightly more together. Worked on the
+contour of the bottom of the nose. We
+contour of the bottom of the nose. We
+contour of the bottom of the nose. We
+will definitely continue to retouch
+will definitely continue to retouch
+will definitely continue to retouch
+these areas later and add touches that
+these areas later and add touches that
+these areas later and add touches that
+will be specific to our reference and
+will be specific to our reference and
+will be specific to our reference and
+the art style that we're going for. Now,
+the art style that we're going for. Now,
+the art style that we're going for. Now,
+once again, apply all the modifiers. So,
+once again, apply all the modifiers. So,
+once again, apply all the modifiers. So,
+apply the mirror, apply the subdivision.
+apply the mirror, apply the subdivision.
+apply the mirror, apply the subdivision.
+It may look pretty dense now, but this
+It may look pretty dense now, but this
+It may look pretty dense now, but this
+is the last subdivision we'll apply. And
+is the last subdivision we'll apply. And
+is the last subdivision we'll apply. And
+we'll actually start culling some edges
+we'll actually start culling some edges
+we'll actually start culling some edges
+now. But as you can see, now we have
+now. But as you can see, now we have
+now. But as you can see, now we have
+those lip loops available within that
+those lip loops available within that
+those lip loops available within that
+diamond shaped loop that we discussed as
+diamond shaped loop that we discussed as
+diamond shaped loop that we discussed as
+well as the supporting loops around the
+well as the supporting loops around the
+well as the supporting loops around the
+eye socket. Select this edge in the
+eye socket. Select this edge in the
+eye socket. Select this edge in the
+middle of the mouth. Then press V to
+middle of the mouth. Then press V to
+middle of the mouth. Then press V to
+split the edges creating the opening of
+split the edges creating the opening of
+split the edges creating the opening of
+the mouth.
+the mouth.
+the mouth.
+Then select these two edges on the top
+Then select these two edges on the top
+Then select these two edges on the top
+and bottom. And from the side view, push
+and bottom. And from the side view, push
+and bottom. And from the side view, push
+them out a little bit. Let's add another
+them out a little bit. Let's add another
+them out a little bit. Let's add another
+loop cut here for more lip detail. And
+loop cut here for more lip detail. And
+loop cut here for more lip detail. And
+do the same. push it out a little and
+do the same. push it out a little and
+do the same. push it out a little and
+create a curve with it. The generic base
+create a curve with it. The generic base
+create a curve with it. The generic base
+is now finished. The process up to this
+is now finished. The process up to this
+is now finished. The process up to this
+point can be followed step by step, but
+point can be followed step by step, but
+point can be followed step by step, but
+the next phase is art style specific.
+the next phase is art style specific.
+the next phase is art style specific.
+So, focus more on the mindset and adapt
+So, focus more on the mindset and adapt
+So, focus more on the mindset and adapt
+according to your reference and target
+according to your reference and target
+according to your reference and target
+art style. For example, now I'm going to
+art style. For example, now I'm going to
+art style. For example, now I'm going to
+call some edges to match the mesh that
+call some edges to match the mesh that
+call some edges to match the mesh that
+I'm referencing. So, I dissolve this
+I'm referencing. So, I dissolve this
+I'm referencing. So, I dissolve this
+edge right under the nose loop. Slide in
+edge right under the nose loop. Slide in
+edge right under the nose loop. Slide in
+the surrounding edge to average out the
+the surrounding edge to average out the
+the surrounding edge to average out the
+gap that was created. And I'll also
+gap that was created. And I'll also
+gap that was created. And I'll also
+curve one vertical edge, making sure to
+curve one vertical edge, making sure to
+curve one vertical edge, making sure to
+select through the mouth, too. And as
+select through the mouth, too. And as
+select through the mouth, too. And as
+always, slide it to even out the
+always, slide it to even out the
+always, slide it to even out the
+spacing. I noticed that the loops on the
+spacing. I noticed that the loops on the
+spacing. I noticed that the loops on the
+outer edges of the Weathering Ways face
+outer edges of the Weathering Ways face
+outer edges of the Weathering Ways face
+are closer together on the outer edges,
+are closer together on the outer edges,
+are closer together on the outer edges,
+so I edge slide that out a bit. This
+so I edge slide that out a bit. This
+so I edge slide that out a bit. This
+helps with the face contours and gives
+helps with the face contours and gives
+helps with the face contours and gives
+space for the mouth loops. Let's cull
+space for the mouth loops. Let's cull
+space for the mouth loops. Let's cull
+one of the mouth loops now and average
+one of the mouth loops now and average
+one of the mouth loops now and average
+out the spacing by sliding out the inner
+out the spacing by sliding out the inner
+out the spacing by sliding out the inner
+rings. Still a little dense around the
+rings. Still a little dense around the
+rings. Still a little dense around the
+cheeks, so I call a couple more of these
+cheeks, so I call a couple more of these
+cheeks, so I call a couple more of these
+horizontal edges and average out the
+horizontal edges and average out the
+horizontal edges and average out the
+spacing. Now it's time to do a sculpting
+spacing. Now it's time to do a sculpting
+spacing. Now it's time to do a sculpting
+pass because removing those edges
+pass because removing those edges
+pass because removing those edges
+definitely changed the form a little
+definitely changed the form a little
+definitely changed the form a little
+bit. So I retouch the nose, making it
+bit. So I retouch the nose, making it
+bit. So I retouch the nose, making it
+slimmer, and work on the forehead and
+slimmer, and work on the forehead and
+slimmer, and work on the forehead and
+the cheek, retouching and adding volume.
+the cheek, retouching and adding volume.
+the cheek, retouching and adding volume.
+And now let's work on this mouth area.
+And now let's work on this mouth area.
+And now let's work on this mouth area.
+First, I'm going to use proportional
+First, I'm going to use proportional
+First, I'm going to use proportional
+editing, selecting these parts and
+editing, selecting these parts and
+editing, selecting these parts and
+moving it upwards. Glancing at my
+moving it upwards. Glancing at my
+moving it upwards. Glancing at my
+reference for the exact mouth placement.
+reference for the exact mouth placement.
+reference for the exact mouth placement.
+Now with sculpt mode, it's time to puff
+Now with sculpt mode, it's time to puff
+Now with sculpt mode, it's time to puff
+out these lips. Optimally work from the
+out these lips. Optimally work from the
+out these lips. Optimally work from the
+bottom angle and protrude the middle of
+bottom angle and protrude the middle of
+bottom angle and protrude the middle of
+the lip first, then sculpt laterally to
+the lip first, then sculpt laterally to
+the lip first, then sculpt laterally to
+get that transition to the outer lip.
+get that transition to the outer lip.
+get that transition to the outer lip.
+Same concept applies to the bottom lip.
+Same concept applies to the bottom lip.
+Same concept applies to the bottom lip.
+Now moving on to contour the face shape.
+Now moving on to contour the face shape.
+Now moving on to contour the face shape.
+It's wider towards the forehead and
+It's wider towards the forehead and
+It's wider towards the forehead and
+tapers at the cheeks. Take note of the
+tapers at the cheeks. Take note of the
+tapers at the cheeks. Take note of the
+cheek slope midpoint around the bottom
+cheek slope midpoint around the bottom
+cheek slope midpoint around the bottom
+of the lip area. A general rule for lip
+of the lip area. A general rule for lip
+of the lip area. A general rule for lip
+width is that they should be slightly
+width is that they should be slightly
+width is that they should be slightly
+narrower than the eye gap. For the
+narrower than the eye gap. For the
+narrower than the eye gap. For the
+signature weathering waves pout, bring
+signature weathering waves pout, bring
+signature weathering waves pout, bring
+down the corners of the mouth. This is
+down the corners of the mouth. This is
+down the corners of the mouth. This is
+also just basic anatomy. The corners of
+also just basic anatomy. The corners of
+also just basic anatomy. The corners of
+the lips naturally sit below the lip
+the lips naturally sit below the lip
+the lips naturally sit below the lip
+line. At this point, it all boils down
+line. At this point, it all boils down
+line. At this point, it all boils down
+to this. Spot as much differences as you
+to this. Spot as much differences as you
+to this. Spot as much differences as you
+can between the reference and your mesh,
+can between the reference and your mesh,
+can between the reference and your mesh,
+then apply them to your own. Don't be
+then apply them to your own. Don't be
+then apply them to your own. Don't be
+tempted to overlay trace. Side by side
+tempted to overlay trace. Side by side
+tempted to overlay trace. Side by side
+is fine. Tracing will only rob you of
+is fine. Tracing will only rob you of
+is fine. Tracing will only rob you of
+your own gains. Doing this process
+your own gains. Doing this process
+your own gains. Doing this process
+independently allows you to slowly
+independently allows you to slowly
+independently allows you to slowly
+absorb all that professional knowledge,
+absorb all that professional knowledge,
+absorb all that professional knowledge,
+which expands your mental library and
+which expands your mental library and
+which expands your mental library and
+deepens your skills. So, similar to my
+deepens your skills. So, similar to my
+deepens your skills. So, similar to my
+ref, I increase the density on the outer
+ref, I increase the density on the outer
+ref, I increase the density on the outer
+edge and add a loop. Let's push in the
+edge and add a loop. Let's push in the
+edge and add a loop. Let's push in the
+lip opening a little bit. For placement
+lip opening a little bit. For placement
+lip opening a little bit. For placement
+tweaks like this, your best friend is
+tweaks like this, your best friend is
+tweaks like this, your best friend is
+control num plus and proportional
+control num plus and proportional
+control num plus and proportional
+editing in combination. Following my
+editing in combination. Following my
+editing in combination. Following my
+ref, I straighten out these edges by
+ref, I straighten out these edges by
+ref, I straighten out these edges by
+doing scale to zero. And I'll do it for
+doing scale to zero. And I'll do it for
+doing scale to zero. And I'll do it for
+the edges on the side as well. The next
+the edges on the side as well. The next
+the edges on the side as well. The next
+one is a pretty big change. We're going
+one is a pretty big change. We're going
+one is a pretty big change. We're going
+to shift the location and alignment of
+to shift the location and alignment of
+to shift the location and alignment of
+the mouth diamond. I cut a line to the
+the mouth diamond. I cut a line to the
+the mouth diamond. I cut a line to the
+edge that I want to redirect it to. Then
+edge that I want to redirect it to. Then
+edge that I want to redirect it to. Then
+I dissolve all of the edges that don't
+I dissolve all of the edges that don't
+I dissolve all of the edges that don't
+follow this new flow. This does mean
+follow this new flow. This does mean
+follow this new flow. This does mean
+that we have to have another pass of
+that we have to have another pass of
+that we have to have another pass of
+retouching because the form has been
+retouching because the form has been
+retouching because the form has been
+shifted. So in hindsight, maybe it's
+shifted. So in hindsight, maybe it's
+shifted. So in hindsight, maybe it's
+best to do this at an earlier stage, but
+best to do this at an earlier stage, but
+best to do this at an earlier stage, but
+it's not a big deal. All right, this is
+it's not a big deal. All right, this is
+it's not a big deal. All right, this is
+the last edge that we needed to call.
+the last edge that we needed to call.
+the last edge that we needed to call.
+And we can fill that blank space with
+And we can fill that blank space with
+And we can fill that blank space with
+the new cuts. I'm going to push these
+the new cuts. I'm going to push these
+the new cuts. I'm going to push these
+outer edges out a little more to make
+outer edges out a little more to make
+outer edges out a little more to make
+room for the new loops and to mimic the
+room for the new loops and to mimic the
+room for the new loops and to mimic the
+spacing on my reference. Filling the
+spacing on my reference. Filling the
+spacing on my reference. Filling the
+space with a couple more loop cuts. And
+space with a couple more loop cuts. And
+space with a couple more loop cuts. And
+as you can see, that eye socket area
+as you can see, that eye socket area
+as you can see, that eye socket area
+will have to get retweaked as well as
+will have to get retweaked as well as
+will have to get retweaked as well as
+the overall shape of the circular and
+the overall shape of the circular and
+the overall shape of the circular and
+diamond loops. So, let's work on that a
+diamond loops. So, let's work on that a
+diamond loops. So, let's work on that a
+little and also dissolve one edge here
+little and also dissolve one edge here
+little and also dissolve one edge here
+on the bottom half of the mouth because
+on the bottom half of the mouth because
+on the bottom half of the mouth because
+earlier we called one edge that was on
+earlier we called one edge that was on
+earlier we called one edge that was on
+the top half and touches the lip line. A
+the top half and touches the lip line. A
+the top half and touches the lip line. A
+bunch of manual tweaking here to
+bunch of manual tweaking here to
+bunch of manual tweaking here to
+harmonize the new edges. And let's tweak
+harmonize the new edges. And let's tweak
+harmonize the new edges. And let's tweak
+that eye socket as well. I've been
+that eye socket as well. I've been
+that eye socket as well. I've been
+working with the ref externally, but
+working with the ref externally, but
+working with the ref externally, but
+sometimes it's good to bring it in for
+sometimes it's good to bring it in for
+sometimes it's good to bring it in for
+the side by side. With a closer look, I
+the side by side. With a closer look, I
+the side by side. With a closer look, I
+can see that my mouth loops are more
+can see that my mouth loops are more
+can see that my mouth loops are more
+football-shaped. So, let's slide them
+football-shaped. So, let's slide them
+football-shaped. So, let's slide them
+around to make them more circular. Our
+around to make them more circular. Our
+around to make them more circular. Our
+nose loops have this double magnet
+nose loops have this double magnet
+nose loops have this double magnet
+shape, but the target just has this
+shape, but the target just has this
+shape, but the target just has this
+straight across. I'll just merge these
+straight across. I'll just merge these
+straight across. I'll just merge these
+three points and slide them in until
+three points and slide them in until
+three points and slide them in until
+they're straight. There's also
+they're straight. There's also
+they're straight. There's also
+potentially some edges there at the
+potentially some edges there at the
+potentially some edges there at the
+bottom of the nose that we can dissolve.
+bottom of the nose that we can dissolve.
+bottom of the nose that we can dissolve.
+And I can see that our brow ridge is
+And I can see that our brow ridge is
+And I can see that our brow ridge is
+slightly different because the pole
+slightly different because the pole
+slightly different because the pole
+location is one lower than the targets.
+location is one lower than the targets.
+location is one lower than the targets.
+To fix this discrepancy, let's merge
+To fix this discrepancy, let's merge
+To fix this discrepancy, let's merge
+these three points and merge down the
+these three points and merge down the
+these three points and merge down the
+edges that are above it and to the right
+edges that are above it and to the right
+edges that are above it and to the right
+of it. This allows the brow ridge area
+of it. This allows the brow ridge area
+of it. This allows the brow ridge area
+to synergize more with the nose area. We
+to synergize more with the nose area. We
+to synergize more with the nose area. We
+still can call an edge off the nose
+still can call an edge off the nose
+still can call an edge off the nose
+bridge and the top lip. There's some
+bridge and the top lip. There's some
+bridge and the top lip. There's some
+considerations when doing that, so I may
+considerations when doing that, so I may
+considerations when doing that, so I may
+address this in the next video. Okay,
+address this in the next video. Okay,
+address this in the next video. Okay,
+moving on. I'm just going to fix the
+moving on. I'm just going to fix the
+moving on. I'm just going to fix the
+direction of this edge cuz it looks a
+direction of this edge cuz it looks a
+direction of this edge cuz it looks a
+little like it's curving the wrong way.
+little like it's curving the wrong way.
+little like it's curving the wrong way.
+In the eyelid area, they increase
+In the eyelid area, they increase
+In the eyelid area, they increase
+density with this triangle formation to
+density with this triangle formation to
+density with this triangle formation to
+make sure that curve is nice and round.
+make sure that curve is nice and round.
+make sure that curve is nice and round.
+We also did one more loop cut around the
+We also did one more loop cut around the
+We also did one more loop cut around the
+socket. And you can knife in the pattern
+socket. And you can knife in the pattern
+socket. And you can knife in the pattern
+just like so. Triangling towards the
+just like so. Triangling towards the
+just like so. Triangling towards the
+middle of the top of the face, then
+middle of the top of the face, then
+middle of the top of the face, then
+cutting a straight line upwards from the
+cutting a straight line upwards from the
+cutting a straight line upwards from the
+apex of those triangles. Then you can
+apex of those triangles. Then you can
+apex of those triangles. Then you can
+just tweak those added resolution points
+just tweak those added resolution points
+just tweak those added resolution points
+to get the right curve for your eyelid.
+to get the right curve for your eyelid.
+to get the right curve for your eyelid.
+Looks like there's a lot of tweaks we
+Looks like there's a lot of tweaks we
+Looks like there's a lot of tweaks we
+have to make on the profile view as
+have to make on the profile view as
+have to make on the profile view as
+well. The eye socket area is even
+well. The eye socket area is even
+well. The eye socket area is even
+flatter than I expected. So, we can just
+flatter than I expected. So, we can just
+flatter than I expected. So, we can just
+proportionally scale that down and cave
+proportionally scale that down and cave
+proportionally scale that down and cave
+it more inwards if needed. This area is
+it more inwards if needed. This area is
+it more inwards if needed. This area is
+flatter and cleanly separates the cheek
+flatter and cleanly separates the cheek
+flatter and cleanly separates the cheek
+and the nose. And the deepest part of
+and the nose. And the deepest part of
+and the nose. And the deepest part of
+the nose bridge should be higher up to
+the nose bridge should be higher up to
+the nose bridge should be higher up to
+about the middle of the eye. The target
+about the middle of the eye. The target
+about the middle of the eye. The target
+nose is also a little further out and a
+nose is also a little further out and a
+nose is also a little further out and a
+little more upturned. So, let's do a
+little more upturned. So, let's do a
+little more upturned. So, let's do a
+sculpting pass to include all these
+sculpting pass to include all these
+sculpting pass to include all these
+changes.
+I also moved this eyelid edge a little
+I also moved this eyelid edge a little
+I also moved this eyelid edge a little
+inward and the eyebrow edge a little
+inward and the eyebrow edge a little
+inward and the eyebrow edge a little
+forward. And I will go over this in more
+forward. And I will go over this in more
+forward. And I will go over this in more
+detail in the next episode when we start
+detail in the next episode when we start
+detail in the next episode when we start
+adding the eye features. A similar
+adding the eye features. A similar
+adding the eye features. A similar
+triangle density change is applied to
+triangle density change is applied to
+triangle density change is applied to
+the top of the forehead, which we can
+the top of the forehead, which we can
+the top of the forehead, which we can
+mimic simply by adding these triangles
+mimic simply by adding these triangles
+mimic simply by adding these triangles
+with our knife tool and dissolving the
+with our knife tool and dissolving the
+with our knife tool and dissolving the
+middle edges between those triangles.
+middle edges between those triangles.
+middle edges between those triangles.
+Just a small optimization because the
+Just a small optimization because the
+Just a small optimization because the
+forehead does not deform nor does it
+forehead does not deform nor does it
+forehead does not deform nor does it
+need all of that geometry. It now has
+need all of that geometry. It now has
+need all of that geometry. It now has
+most of the important features of the
+most of the important features of the
+most of the important features of the
+target mesh. Next time, we'll continue
+target mesh. Next time, we'll continue
+target mesh. Next time, we'll continue
+this and attempt to recreate an anime
+this and attempt to recreate an anime
+this and attempt to recreate an anime
+character into this game's art style.
+character into this game's art style.
+character into this game's art style.
+Comment hot anime characters down below,
+Comment hot anime characters down below,
+Comment hot anime characters down below,
+and if they're hotter than the one I
+and if they're hotter than the one I
+and if they're hotter than the one I
+have in mind, then I might pivot to that
+have in mind, then I might pivot to that
+have in mind, then I might pivot to that
+one instead. Thank you so much for
+one instead. Thank you so much for
+one instead. Thank you so much for
+watching. You guys are my goats. I'll
+watching. You guys are my goats. I'll
+watching. You guys are my goats. I'll
+see you in the next upload. Have
+see you in the next upload. Have
+see you in the next upload. Have
+yourselves a good
