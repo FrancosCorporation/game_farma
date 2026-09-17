@@ -1,0 +1,54 @@
+name: QA assets 3D
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  qa-char:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        char: [ana]
+    env:
+      CHAR: ${{ matrix.char }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: npm ci
+      - run: npx playwright install chromium --with-deps
+      - run: pip install pillow
+
+      - name: Gate do viewer (budgets + a11y + console limpo)
+        run: node scripts/qa_char_preview.mjs "$CHAR" 1
+
+      - name: QA visual (final vs cru, quando houver renders)
+        run: |
+          RAW="/tmp/opencode/raw_${CHAR}_face.png"
+          FINAL="scripts/comfy/qa/${CHAR}_face.png"
+          BAD="/tmp/opencode/${CHAR}_face.png"
+          if [ -f "$FINAL" ] && [ -f "$RAW" ]; then
+            if [ -f "$BAD" ]; then
+              python3 scripts/comfy/qa_compare.py "$FINAL" "$RAW" --bad "$BAD"
+            else
+              python3 scripts/comfy/qa_compare.py "$FINAL" "$RAW"
+            fi
+          else
+            echo "sem renders para comparar — pulando (ok)"
+          fi
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: qa-${{ matrix.char }}
+          path: |
+            /tmp/opencode/qa_char_preview.png
+            scripts/comfy/qa/
+          if-no-files-found: ignore
