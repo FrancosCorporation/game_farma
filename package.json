@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview --port 4173",
-    "start": "node server/index.mjs",
+    "start": "vite",
     "voicegen": "node scripts/voicegen.mjs",
     "check": "node --check src/main.js && node --check src/core/game.js && node --check src/scene/patient.js"
   },

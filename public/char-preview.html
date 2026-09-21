@@ -109,6 +109,10 @@ function loadModel() {
     window.__ready = true;
     window.__model = m;
     window.__THREE = THREE;
+    window.__renderer = renderer;
+    window.__camera = camera;
+    window.__scene = scene;
+    window.__controls = controls;
     hud.textContent = `${name} · 1.72 m · arraste = girar · scroll = zoom · setas = mover`;
   }, (ev) => {
     if (ev && ev.total) hud.textContent = `carregando… ${Math.round(100 * ev.loaded / ev.total)}%`;

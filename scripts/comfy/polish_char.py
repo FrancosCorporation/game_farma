@@ -94,10 +94,10 @@ bsdf = mat.node_tree.nodes["Principled BSDF"]
 texn = mat.node_tree.nodes.new("ShaderNodeTexImage")
 texn.image = bimg
 mat.node_tree.links.new(texn.outputs["Color"], bsdf.inputs["Base Color"])
-bsdf.inputs["Roughness"].default_value = 0.07
+bsdf.inputs["Roughness"].default_value = 0.25
 bsdf.inputs["Metallic"].default_value = 0.0
 coat = bsdf.inputs.get("Coat Weight") or bsdf.inputs.get("Clearcoat")
-if coat: coat.default_value = 1.0
+if coat: coat.default_value = 0.0   # sem clearcoat: sem "espelho preto" sem envmap
 cr = bsdf.inputs.get("Coat Roughness") or bsdf.inputs.get("Clearcoat Roughness")
 if cr: cr.default_value = 0.03
 
@@ -153,6 +153,8 @@ def make_eye_sphere(name, center, R, seg=48, ring=20):
         f = bm.faces.new((p1, p2, bot))
         f.loops[0][uvl].uv = uv1; f.loops[1][uvl].uv = uv2
     bm.normal_update()
+    _bmesh.ops.recalc_face_normals(bm, faces=bm.faces)
+    bm.normal_update()
     for f in bm.faces:
         f.smooth = True
     bm.to_mesh(mesh)
@@ -162,14 +164,24 @@ def make_eye_sphere(name, center, R, seg=48, ring=20):
     obj.data.materials.append(mat)
     return obj
 
-R = 0.021
-bump = -0.0105
+R = 0.019
 for nm, c in centers.items():
-    loc = Vector((c[0], c[1] + bump * front_sign, c[2]))
+    # pálpebra frontal real: vértice mais à frente numa caixa ao redor do centro.
+    # Usa percentil (20%) em vez do extremo para NÃO capturar o nariz (pico estreito).
+    box = (np.abs(P[:, 0] - c[0]) < 0.024) & (np.abs(P[:, 2] - c[2]) < 0.03) & (np.abs(P[:, 1] - c[1]) < 0.05)
+    if P[box].shape[0] < 20:
+        print(f"[polish] ATENCAO: caixa do olho {nm} pequena ({P[box].shape[0]} verts) — alargando caixa")
+        box = (np.abs(P[:, 0] - c[0]) < 0.04) & (np.abs(P[:, 2] - c[2]) < 0.035) & (np.abs(P[:, 1] - c[1]) < 0.05)
+    if front_sign < 0:
+        lid_y = np.percentile(P[box, 1], 20)
+    else:
+        lid_y = np.percentile(P[box, 1], 80)
+    center_y = lid_y + front_sign * (0.004 - R)   # polo fica 4mm adiante da pálpebra
+    loc = Vector((c[0], center_y, c[2]))
     obj = make_eye_sphere(f"Eye_{nm}", loc, R)
     vs = np.empty((len(obj.data.vertices), 3))
     obj.data.vertices.foreach_get("co", vs.ravel())
-    print(f"[polish] DEBUG Eye_{nm} n_verts={len(vs)} bbox_min={np.round(vs.min(axis=0),4).tolist()} bbox_max={np.round(vs.max(axis=0),4).tolist()}")
+    print(f"[polish] DEBUG Eye_{nm} lid_y={lid_y:.4f} centro={np.round(loc,4).tolist()} bbox_y=[{vs[:,1].min():.4f},{vs[:,1].max():.4f}]")
 print("[polish] olhos criados (determinístico)")
 
 # ---- suavização anti-banding (laplaciano nas posições) ----

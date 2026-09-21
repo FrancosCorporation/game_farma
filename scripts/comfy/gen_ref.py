@@ -37,28 +37,34 @@ def main():
 
     positive = (
         "stylized 3D render, Pixar style, casual mobile game art, friendly young adult woman, "
-        "full body, standing confident pose with both hands resting on hips, arms akimbo, "
+        "full body, standing neutral T-pose variant, both arms slightly raised out to the sides, "
+        "both hands OPEN, palms facing viewer, fingers spread apart and clearly separated, "
+        "five fingers on each hand, detailed anatomical hands, "
         "simple casual clothes, soft pastel palette, smooth PBR, clean textures, soft global illumination, "
         "clean symmetric eyes, round irises, centered pupils, calm friendly gaze, warm smile, "
-        "hands cleanly modeled, naturally curled relaxed fingers, clear finger separation, "
-        "no objects overlapping the hands, clean neutral studio background, centered composition, "
+        "well proportioned face, natural skin tone, "
+        "clean neutral studio background, centered composition, "
         "head to feet visible, game asset"
     )
     negative = (
         "photorealistic, hyperrealistic, GTA V, 8k detail, skin pores, photogrammetry, scan, "
         "grunge, dirt, scratches, realistic human face, PBR micro-detail, cinematic dark lighting, "
         "multiple people, multiple views, collage, cropped, out of frame, text, watermark, logo, "
+        "arms crossed, hands behind back, hands in pockets, hands on hips, hands hidden, hands at sides, "
         "button between fingers, object between fingers, hole between fingers, gap between fingers, "
         "webbed fingers, fused fingers, extra fingers, missing fingers, deformed hands, poorly drawn hands, "
-        "poorly drawn eyes, asymmetric eyes, cross-eyed, extra pupils, glassy eyes"
+        "mitten hands, three fingers, four fingers, six fingers, blob hands, melted fingers, "
+        "thin stick fingers, tentacle fingers, noodle fingers, "
+        "poorly drawn eyes, asymmetric eyes, cross-eyed, extra pupils, glassy eyes, dead eyes, "
+        "black hole eyes, empty eye sockets"
     )
 
     prompt = {
-        "1": {"class_type": "CheckpointLoaderSimple", "inputs": {"ckpt_name": "sd_xl_base_1.0.safetensors"}},
+        "1": {"class_type": "CheckpointLoaderSimple", "inputs": {"ckpt_name": "dreamshaper_xl.safetensors"}},
         "2": {"class_type": "CLIPTextEncode", "inputs": {"text": positive, "clip": ["1", 1]}},
         "3": {"class_type": "CLIPTextEncode", "inputs": {"text": negative, "clip": ["1", 1]}},
         "4": {"class_type": "EmptyLatentImage", "inputs": {"width": 832, "height": 1216, "batch_size": n}},
-        "5": {"class_type": "KSampler", "inputs": {"seed": seed, "steps": 30, "cfg": 6.0,
+        "5": {"class_type": "KSampler", "inputs": {"seed": seed, "steps": 12, "cfg": 4.0,
               "sampler_name": "dpmpp_2m", "scheduler": "karras", "denoise": 1.0,
               "model": ["1", 0], "positive": ["2", 0], "negative": ["3", 0], "latent_image": ["4", 0]}},
         "6": {"class_type": "VAEDecode", "inputs": {"samples": ["5", 0], "vae": ["1", 2]}},

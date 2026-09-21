@@ -1,0 +1,14 @@
+import { chromium } from 'playwright';
+const browser = await chromium.launch();
+const page = await browser.newPage();
+const errs = [];
+page.on('pageerror', e => errs.push('ERR: ' + e.message.slice(0,200)));
+page.on('console', m => { if (m.type()==='error') errs.push('console.err: '+m.text().slice(0,200)); });
+const start = Date.now();
+await page.goto('https://francoscorporation.ddns.net/game/ufggame/char-preview.html?m=ana');
+await page.waitForTimeout(12000);
+const ready = await page.evaluate(() => window.__ready);
+const hud = await page.evaluate(() => document.getElementById('hud')?.textContent);
+console.log('ready:', ready, '| hud:', hud, '| t:', Date.now()-start, 'ms');
+console.log('erros:', errs.slice(0,5).join(' || '));
+await browser.close();
