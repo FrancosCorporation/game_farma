@@ -314,3 +314,51 @@ software, ~2-3 fps medidos). Consequências documentadas (não são bugs do jogo
   para `'./scoring.js'`; build+deploy+smoke OK (3/3 casos ANAMNESE).
 - Estado final validado no ar: cabeça ±6 mm no andar, passada 0,66 m, pé de
   contato tocando, entrada com rampa suave (drop lerp casado com crossfade).
+
+### Rodada 8 (25/09) — biomecânica aplicada + colisões restauradas
+- **PO: "espelhar gente andando"** — alvos biomecânicos obtidos via subagente
+  (quadril 35–40° de flexão no balanço; joelho 60–70° p/ desobstrução mínima;
+  pé 1–2 cm do chão no swing; 100–110 passos/min). Diagnóstico: o clip "Walking"
+  tem rotações de perna MINÚSCULAS de fábrica (coxa 18–20°, joelho 12–23° —
+  o "passo" era o corpo deslizando com pernas esticadas = steppage/rasteiro).
+- **(7) v12b**: escala por ALVO biomecânico (mede a amplitude do bone e escala
+  ao alvo — coxa→38°, joelho→60°, tornozelo→28°, MESMO alvo p/ L/R = simetria).
+  WALK_V 0,95 m/s (≈2 passos/s, cadência humana).
+- **PO: colisões voltam** ("não deveria atravessar balcão/prateleiras"):
+  AABBs calibrados na cena (balcão central, 5 gôndolas, vitrine) com deslize
+  por eixo. Testado: balcão para em z=2,15; gôndola em x=1,65; zonas do
+  paciente/computador/mesa continuam acessíveis (área livre z≳2,2).
+- Limitação honesta: as curvas de perna do clip atual são limitadas (defeito
+  de fábrica do retarget "Walking"); a cura real segue sendo o clip **"Walk"
+  normal do Mixamo** (login pendente).
+
+### Rodada 9 (25/09) — **Walk.fbx oficial do Mixamo integrado** ✅
+- Login Mixamo concluído (Adobe 2FA via email linduxico@gmail.com)
+- Baixado **Walk.fbx** (basic locomotion, 31 frames, "With Skin") do character **ANA_QWEN_GROUNDED**
+- Retarget do novo Walk pro rig original da Ana (`ana_rigged_opt.glb`) via Blender:
+  - Importa Ana GLB + Walk.fbx → copia action Walk pro armature da Ana → NLA tracks (Walk + Idle) → exporta GLB
+- Patch v12b aplicado no GLB retargetado (escalas biomecânicas por alvo: quadril 38°, joelho 60°, tornozelo 28°)
+- walkAdvance = 0.854 m (step length compatível)
+- Deploy: https://francoscorporation.ddns.net/game/ufggame/
+- **Colisões validadas**: balcão para em z=2.17; gôndolas/vitrine bloqueiam; zonas paciente/computador/TLAC acessíveis
+
+**Status**: andar agora usa animação **nativa do Mixamo** (mo-cap real) + correção biomecânica por alvo — elimina "steppage" (perna na cintura) e "foot drag" (arrastar pé direito). Colisões restauradas como pedido.
+
+### Rodada 10 (25/09) — **Ana corrigida: mesh duplicado removido, em pé no chão** ✅
+- **Causa raiz ("durona e embaixo do chão")**: o retarget Blender removia só o ARMATURE
+  do FBX, não o MESH duplicado (node_0.001: sem skin, scale 100) + Icosphere órfã
+  → mesh gigante sem pose renderizado por cima da Ana real.
+- **Cache do browser mascarava o fix**: GLB velho (2 meshes) em cache → verificação
+  pós-deploy mostrava o bug. CDP clearBrowserCache + setCacheDisabled = passo padrão.
+- **Correção**: limpeza Blender (meshes sem ARMATURE modifier) → re-export
+  (NLA_TRACKS, export_skins) → GLB final MESHES: 1, SKINS: 1, CLIPS: [Walk, Idle]
+  → extras {walkSpeed: 0.95, walkAdvance: 0.854} via patch binário (Blender 5.2
+  NÃO mapeia scene props → asset.extras — testado) → deploy.
+- **Verificação numérica**: LeftFoot Y=0.102, RightFoot Y=0.092, Hips Y=0.932
+  (skeleton in-game; GLTFLoader sanitiza nomes: 'mixamorig:X' → 'mixamorigX').
+  Tudo positivo = EM PÉ no chão. Walk-in funcionando (screenshots antes/depois).
+- **Juízes (Actor-Critic)**: rodada 1 = 7.0/8.5 → correções → rodada 2 = **9.0/9.0 consenso**.
+- Runbook: diagnóstico GLB (chunk JSON em byte 20, bounds slice(20, 20+jsonLen)) →
+  limpeza → verificação estrutural → deploy → cache clear → verify skeleton → extras.
+- Melhorias futuras (juízes): CI gate (gltf-validator + ângulos 38/60/28 ±2°),
+  cache-bust determinístico (?v=hash), issue upstream Blender p/ asset.extras.

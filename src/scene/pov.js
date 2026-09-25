@@ -20,10 +20,24 @@ const LIM_YAW = 0.6;   // limite do look-around (rad)
 const LIM_PITCH = 0.3;
 const DUR_TWEEN = 0.9;
 
-// Andar livre (WASD) — limites do salão (piso 18x13, paredes em ±9 / z -6.5..6.5)
-const VEL = 2.6; // m/s
+  // Andar livre (WASD) — limites do salão (piso 18x13, paredes em ±9 / z -6.5..6.5)
+  const VEL = 2.6; // m/s
   const ANDAR = { x0: -8.4, x1: 8.4, z0: -5.6, z1: 5.8, balcaoX: 3.4, balcaoZ: 2.0 };
   const EYE = 1.6;
+
+  // Colisões (PO 25/09: "os obstáculos voltam a bloquear — balcão, prateleiras,
+  // modelos"). AABBs calibrados na cena (pharmacy.js): balcão central (z~1,55),
+  // gôndolas 2,4×0,5 m (fundo e paredes) e vitrine. Margem ~0,25 m do corpo.
+  const OBSTACULOS = [
+    { x0: -3.6, x1: 3.6, z0: 1.0, z1: 2.15 },      // balcão central
+    { x0: -4.65, x1: -1.75, z0: -5.15, z1: -4.05 }, // gôndola fundo esq
+    { x0: -1.25, x1: 1.65, z0: -5.95, z1: -4.85 },  // gôndola fundo centro
+    { x0: -8.3, x1: -7.3, z0: -3.65, z1: -0.75 },   // gôndola parede esq 1
+    { x0: -8.3, x1: -7.3, z0: -5.85, z1: -2.95 },   // gôndola parede esq 2
+    { x0: 7.1, x1: 8.1, z0: -4.85, z1: -1.95 },     // gôndola parede dir
+    { x0: 7.7, x1: 8.7, z0: -2.0, z1: -1.0 },       // vitrine parede dir
+  ];
+  const colide = (x, z) => OBSTACULOS.some((o) => x > o.x0 && x < o.x1 && z > o.z0 && z < o.z1);
 
   // Zona por proximidade (andar livre): a mais próxima dentro do raio, ou null.
   const RAIO_ZONA = 1.45;
@@ -127,8 +141,12 @@ export function createPOV({ camera, addTicker, canvas, povControl }) {
         let nz = camera.position.z + (-cy * f - sy * r) * VEL * dt;
         nx = clamp(nx, ANDAR.x0, ANDAR.x1);
         nz = clamp(nz, ANDAR.z0, ANDAR.z1);
-        // balcão LIBERADO (PO 24/09): dá para cruzar e chegar perto do paciente
-        camera.position.set(nx, EYE, nz);
+        // colisão com deslize por eixo: tenta o movimento completo, senão
+        // desliza ao longo do obstáculo (não gruda)
+        const px = camera.position.x, pz = camera.position.z;
+        if (!colide(nx, nz)) camera.position.set(nx, EYE, nz);
+        else if (!colide(nx, pz)) camera.position.set(nx, EYE, pz);
+        else if (!colide(px, nz)) camera.position.set(px, EYE, nz);
       }
       aplicar();
       // Zona por PROXIMIDADE (PO 24/09): andando livre, a zona acompanha onde
