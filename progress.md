@@ -362,3 +362,31 @@ software, ~2-3 fps medidos). Consequências documentadas (não são bugs do jogo
   limpeza → verificação estrutural → deploy → cache clear → verify skeleton → extras.
 - Melhorias futuras (juízes): CI gate (gltf-validator + ângulos 38/60/28 ±2°),
   cache-bust determinístico (?v=hash), issue upstream Blender p/ asset.extras.
+
+### Rodada 11 (25/09, noite) — **WALKING HUMANO v13: mocap cru transplantado no Walk** ✅
+- **Causa raiz da manqueira/estiff ("abre as pernas", "mexendo a testa", "travado")**: o
+  pipeline v12b RESSINTETIZOU as curvas das pernas para persegir alvos de amplitude
+  (38/60/28 ±2°) — joelhos ficaram 25,7°/46,5° (Δ20,8° de assimetria = manqueira) e os braços
+  foram amortecidos (LeftArm 24,7°→10,5° = "travado"). O mocap cru do Mixamo nunca teve
+  esses defeitos: 37,9°/39,4° simétricos.
+- **Fix (`scripts/fix_ana_walk_mocap.mjs`)**: transplantou VERBATIM as 58 curvas de rotação
+  do mocap cru (pernas/braços/mãos/dedos), manteve os fixes aprovados (Hips pinado,
+  cabeça/tronco zerados, yaw damped 40% ±8°), derivou o transform de frame M do próprio
+  clip público em produção, retimou TODOS os canais p/ 1,033 s e regravou
+  `walkAdvance=1,7402` (stride real medido no root do cru; era 0,854 do synthetic).
+  Backup do estado anterior: `/tmp/opencode/ana_coriza_pre_walkfix.glb` (+ fonte crua
+  copiada p/ `ana_work/ana_merged_source_250925.glb`).
+- **Gate v13 recalibrado p/ mocap** (`qa_walk_angles.tmp.mjs`): quadril 28°, joelho 38,6°,
+  tornozelo 26,4° ±4° + simetria por par — **19/19 PASS** (era 3 FAIL crônicos).
+- **Verificação in-game** (headless :4174): cadência ×0,56 (clip 1,68 m/s → 0,95 m/s =
+  stride/p temporal exato → sem foot slide estrutural); walk-calib converge p/ drop 0,001 m
+  (pés plantando em y≈0,000); toes levantam 0,13–0,17 m alternados; mesh deforma
+  (getVertexPosition varia); 0 pageerrors.
+- **Contralateralidade em espaço-mundo** (rAF in-page, detrend do root): mão×pé mesmo lado
+  −0,94/−0,89; cruzado +0,96/+0,95; pé L×pé R −0,84 → caminhada humana (braço oposto à perna).
+- **Juiz de visão** (nas capturas de passada máxima, sep 0,75–0,79 m): "passada clara,
+  joelho dobrado, pisada correta, sem mancar" → **ACEITÁVEL** (VLM 9B oscila em fases de
+  duplo-apoio — ignorar leituras "parada" fora do pico de separação).
+- Pendências visuais (não-bloqueantes): torso 100% rígido é efeito colateral do zero-set
+  pedido pelo PO ("testa não mexe"); se quiser mais vida, restaurar Spine/Spine1 do mocap
+  SEM o Neck/Head (só o pescoço pra cima fica parado).

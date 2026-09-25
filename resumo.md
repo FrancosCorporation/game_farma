@@ -201,3 +201,22 @@ Pipeline local (ComfyUI + TRELLIS 2), executado em sessões anteriores — é o 
 - **patient.js estendido**: `AnimationMixer` com crossfade 0,25s — `clips.idle` de base, `walk()` dispara clip Walk, fim do walk volta a Idle; `mixer.update(dt)` no topo do update; **lerp de pose procedural desligado quando há clips** (senão ele sobrescreve os bones por frame e mata a animação). Blink/respiração/poses do rig Eric continuam p/ os modelos antigos (fallback natural: sem `gltf.animations` → comportamento igual).
 - **Deploy**: `ana_coriza.glb` = Ana rigada animada (3,3 MB), `vite build` + `docker cp dist/. game_farma:/app/dist/`. Atendentes já estavam no ar da leva anterior. **O jogo agora tem: Ana com pés + olhos alinhados, andando com animação Mixamo real + idle vivo.**
 - Contas/sessões (todas no perfil NVMe, sobrevivem reboot): Google ✓, Qwen Studio ✓, Tencent ✓, **Adobe (senha própria) ✓**. Cota Tencent: 17.
+
+## Sessão 25/09 (noite) — WALKING NATURAL v13: mancada eliminada ✓
+- **Diagnóstico do "andar esquisito"** (pernas abrindo/joelhos esticados/travado): o clip Walk
+  em produção não era mais mocap — o pipeline v12b havia RECONSTRUÍDO as curvas das pernas
+  por alvos numéricos, produzindo joelhos assimétricos (Δ20,8° = manqueira) e braços
+  amortecidos. O mocap cru baixado do Mixamo nunca teve esses defeitos.
+- **Correção**: transplantamos o mocap cru de volta (curvas originais de pernas, braços,
+  mãos e dedos), preservando o que já estava certo — pés plantando no chão, cabeça parada
+  ("testa não mexe"), andar reto sem yaw, sem root motion pulando. Stride real (1,74 m/passo
+  duplo) gravado no asset p/ a cadência do jogo casar 1:1 com o deslocamento.
+- **Provas**: gate offline 19/19 (joelhos simétricos 68,5°×70,8° de amplitude real); no
+  navegador — pés tocam y≈0,000, levantam 13–17 cm alternados, calibração de solo converge;
+  braço sempre oposto à perna (correlação −0,94 mesmo lado, +0,96 cruzado); juiz de visão
+  local leu "passada clara, joelho dobrado, pisada correta, sem mancar — ACEITÁVEL".
+- **Resultado**: a Ana agora anda como gente, no navegador, no Three.js atual. Sem troca de
+  engine — Unreal/Unity/Godot ficaram só como avaliação (Unreal não exporta nativo p/ web;
+  Unity/Godot exportam mas não eram necessários: o problema era o asset, não a engine).
+- Artefatos: `scripts/fix_ana_walk_mocap.mjs` (pipeline reproduzível), gate
+  `qa_walk_angles.tmp.mjs` v13 (alvos = mocap), capturas em `/tmp/walkside2-*.png`.

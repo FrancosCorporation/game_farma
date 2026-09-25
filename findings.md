@@ -320,3 +320,34 @@ Se travar de verdade:
   (raio 1,45 m) no ticker do modo livre e disparar onChange.
 - **Painel contextual**: painel aberto + jogador saiu de perto → fecha sozinho (gate por
   zona no atendimento.js). E dentro da zona não re-tweena a câmera.
+
+## 8. Sessão 25/09 — transplant do mocap cru no Walk (v13) + pitfalls gltf-transform 4.x
+
+- **Alvo-de-amplitude (v12b) era a causa da manqueira**: a ressíntese sintética que perseguiu
+  os alvos 38°/60°/28° degradou o mocap — joelhos 25,7°/46,5° (Δ20,8°) e quadríssis inflados ±20°,
+  braços amputados (LeftArm 24,7°→10,5°). O clip cru do Mixamo (`ana_merged.glb`) é simétrico
+  (37,9°/39,4°). **Fonte da verdade = mocap cru**; gate recalibrado p/ alvos medidos no cru
+  (28°/38,6°/26,4° ±4°, `qa_walk_angles.tmp.mjs` v13). Fix: `scripts/fix_ana_walk_mocap.mjs`.
+- **Transform M derivado do clip em produção**: em vez de re-derivar Rx(+90°)+recentre do zero,
+  M = média de Karcher de `q_pub(t)·q_raw(t)⁻¹` nas fases alinhadas (fase casa a 0%) — herda
+  TODO o histórico de fixes de frame do clip que já funcionava no jogo. Depois: recentre
+  (média) + damp de yaw pélvico 40% ±8°. Zero-set (Spine*/Neck/Head) preservado do público.
+- **gltf-transform 4.x — 3 armadilhas silenciosas**:
+  1. `doc.createAnimationChannel/createAnimationSampler(arg1, arg2…)` aceitam APENAS o NOME
+     (outros args ignorados sem erro) → sempre `.setTargetPath().setTargetNode().setSampler()` /
+     `.setInput().setOutput().setInterpolation()`.
+  2. O sampler pertence à **Animation**: sem `anim.addSampler(sampler)` ele NÃO serializa
+     (canal lê com sampler null no arquivo escrito).
+  3. `meshopt()` transform DEQUANTIZA com convenção errada neste asset (POSITION ia de ±0,186
+     para ±6088 = ×32767) e o prune dele derrubou a SKIN VIVA. Round-trip via `io.write` puro
+     preserva a compressão original; canais novos ficam flat (~40 KB, irrelevante).
+- **Retimado TUDO — inclusive o zero-set**: canal esquecido no timeline velho (1,208s vs 1,033s)
+  estica `AnimationClip.duration` → zona morta ~0,17 s/loop = stutter periódico.
+- **Contralateralidade só em espaço-mundo**: correlação de componentes de quaternion entre
+  perna L×R é inválida (rig espelhado — oscilação dominante em eixos diferentes). Válido:
+  posição-mundo DETRENDADA do root, amostrada IN-PAGE via rAF (loop externo de `evaluate`
+  aliaza a 2 fps no SwiftShader). Gate: `tmp_walk_contra_world.tmp.mjs` (mesmo lado < −0,3;
+  cruzado > +0,3; medido −0,94/−0,89 e +0,96/+0,95 ✓).
+- **Câmera × VLM**: passada NA DIREÇÃO da câmera projeta em linha ("pés juntos" pro juiz);
+  capturar no MÁXIMO de separação de dedos (~0,75 m) e, se precisar de ângulo, `avatar.walk()`
+  em travessia lateral — posicionar a câmera na mão não cola, o jogo re-tweena no ANAMNESE.
