@@ -3,6 +3,7 @@
  * Shows a button in the bottom-right corner on mobile/tablet devices
  * to enter fullscreen mode (like F11 on desktop)
  */
+import { t } from './i18n.js';
 
 export function initFullscreenButton() {
   // Detect mobile/tablet: touch-capable or small viewport
@@ -20,8 +21,8 @@ export function initFullscreenButton() {
   // Create button element
   const btn = document.createElement('button');
   btn.id = 'btn-fullscreen';
-  btn.setAttribute('aria-label', 'Entrar em tela cheia');
-  btn.title = 'Tela cheia';
+  btn.setAttribute('aria-label', t('fs.enter'));
+  btn.title = t('fs.enterTitle');
   btn.className = 'fs-btn';
   btn.innerHTML = `
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -89,8 +90,8 @@ export function initFullscreenButton() {
             <path d="M10 20v-6"/>
           </svg>
         `;
-        btn.setAttribute('aria-label', 'Sair da tela cheia');
-        btn.title = 'Sair da tela cheia';
+        btn.setAttribute('aria-label', t('fs.exit'));
+        btn.title = t('fs.exit');
       } else {
         await document.exitFullscreen();
         // Update icon to enter fullscreen
@@ -102,8 +103,8 @@ export function initFullscreenButton() {
             <path d="M16 21h3a2 2 0 0 0 2-2v-3"/>
           </svg>
         `;
-        btn.setAttribute('aria-label', 'Entrar em tela cheia');
-        btn.title = 'Tela cheia';
+        btn.setAttribute('aria-label', t('fs.enter'));
+        btn.title = t('fs.enterTitle');
       }
     } catch (err) {
       console.warn('Fullscreen não suportado ou negado:', err);
@@ -121,8 +122,8 @@ export function initFullscreenButton() {
           <path d="M16 21h3a2 2 0 0 0 2-2v-3"/>
         </svg>
       `;
-      btn.setAttribute('aria-label', 'Entrar em tela cheia');
-      btn.title = 'Tela cheia';
+      btn.setAttribute('aria-label', t('fs.enter'));
+      btn.title = t('fs.enterTitle');
     }
   });
 

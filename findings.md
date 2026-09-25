@@ -1,5 +1,49 @@
 # findings.md — descobertas, armadilhas e receitas (handoff)
 
+## Armadilhas confirmadas na sessão 21/09/2026 (com medição)
+
+### 1. `await` no topo do entry mata a UI inteira
+`src/main.js` fazia `await loadGLBFPatient('models/paciente_real.glb')` no topo. Como ESM executa
+o corpo do módulo só depois de resolver todas as importações **e** o await estar pendente, todo o
+wiring de DOM (capa, i18n, menu, botões) ficava para depois. Medição no headless: `window.__farmacheck`
+só existia a **~10,3 s** — e nesse intervalo o clique em "Iniciar Jogo" não fazia nada.
+Regra prática deste projeto: **nada de `await` no caminho crítico do boot**; carregar asset pesado
+em background e trocar quando chegar (`mountAvatar`), nunca no caminho do primeiro render.
+
+### 2. Import estático de three.js na entry atrasa o primeiro clique
+O browser precisa baixar e **avaliar** o three (~600 kB) antes de executar a entry. Mesmo sem
+`await`, o wiring da capa ficava atrás desse custo (pior com a máquina carregada: load average 22
+medido nesta sessão → boot de ~13 s).
+Solução adotada: `src/main.js` = entry leve (capa/i18n, ~13 kB) + `import('./app.js')` dinâmico para
+cena/regras. Resultado medido: capa em **258–303 ms**, cena em **825 ms**.
+
+### 3. Medir tempos de boot com Playwright: cuidado com starvation
+`waitForFunction`/`waitForSelector` pollam por `requestAnimationFrame`; durante a inicialização da
+cena o main thread está ocupado e a medição infla vários segundos (falso negativo: "capa não pronta
+em 1,5 s" quando ela estava pronta em 258 ms). `page.addInitScript` com `MutationObserver` também
+não serve: o elemento `document.documentElement` ainda pode não existir quando o init script roda.
+Receita que funcionou: **carimbar o tempo dentro da página** (`data-*-ms` no `documentElement`)
+e o gate só lê o valor.
+
+### 4. Docker/deploy do repo não batia com o README
+README mandava `docker compose up --build` e não havia `docker-compose.yml`; o Dockerfile usava
+`serve -s dist`, que **não** expõe `POST /api/case/next` (Expediente Livre quebrava). Além disso o
+nome `game_farma` já é o container de **produção** (Caddy) — usar `docker_container_name`
+diferente (`game_farma_local`) evita derrubar o deploy.
+
+### 5. Testes do repo eram frágeis
+`npm run check` cobria 3 arquivos (um erro de sintaxe em `ui/`, `audio/`, `ai/` passava batido);
+`scripts/smoke-f2f3f4.mjs` importava Playwright por um caminho absoluto de `~/.npm/_npx/...`
+(quebra em qualquer outra máquina). Substituídos por `scripts/check-syntax.mjs` (51 arquivos) e
+`import { chromium } from 'playwright'`.
+
+### 6. `root.visible` dos avatares
+`PatientAvatar` e `loadGLBFPatient` **nascem invisíveis** (`root.visible = false`) e só aparecem no
+`enter()`. Qualquer troca de avatar fora do fluxo de caso precisa respeitar isso, senão o paciente
+some de cena no meio do atendimento (por isso o boot só monta o GLB realista quando
+`game.state` não está em atendimento).
+
+
 > **Atualizado:** 14/09/2026 · Complementa `task_plan.md` e `progress.md`.
 > Tudo aqui foi descoberto NA PRÁTICA nesta sessão (i.e., se doeu, está documentado).
 
@@ -247,3 +291,32 @@ Se travar de verdade:
 - **Crash → tela de bloqueio (investigado 16/09)**: VRAM esgotada (ComfyUI/TRELLIS + apps) → amdgpu
   `pin failed`/`-ENOMEM` → reset da GPU → mutter/gnome-shell perde o contexto → tela de bloqueio.
   Mitigação: fechar apps de GPU antes de lotes (VRAM 11,2→1,9 GB) e/ou limitar VRAM do ComfyUI.
+
+---
+
+## 7. Sessão 24/09 — rig Mixamo na Ana + pitfalls de runtime
+
+- **GLTFLoader sanitiza nomes de nodes**: `PropertyBinding.sanitizeNodeName` **REMOVE**
+  `:` (não troca por `_`): `mixamorig:Head` vira `mixamorigHead` no runtime. Os tracks
+  são sanitizados igual (casam). Ao procurar bone por nome no runtime, use a grafia
+  sem separador.
+- **Merge FBX→GLB do Mixamo pode vir com 3 defeitos simultâneos** (todos corrigidos
+  com patches offline via `@gltf-transform` + MeshoptDecoder/Encoder — round-trip
+  preserva meshopt+webp):
+  1. clips no frame Y-up cru + Armature com `Rx(+90°)` baked → personagem deitada.
+     Fix: pré-multiplicar rotação do Hips por `Rx(+90°)` (forma fechada:
+     `x'=c(x+w) y'=c(y+z) z'=c(z-y) w'=c(w-x)`).
+  2. root motion embutido no Walk (89 cm/loop → "pulava" ao reiniciar o loop, brigando
+     com o tween do jogo). Fix: pino da translação do Hips (in-place).
+  3. yaw médio embutido (-37,6° no Walk; tilt no Idle) → andava "de lado/capenga" e
+     parava torta. Fix: recentrar cada clip pela média de rotação do Hips
+     (pré-multiplicar pelo inverso do quat médio; pernas/braços acompanham pois são
+     filhos). Extra: yaw pélvico damped a 40% (±8°, gingado natural).
+- **Agentes sem visão: usar `scripts/vision_judge.py`** (Qwen3.8-9B multimodal em
+  :8081) como "olhos" objetivo — prompt com pergunta FECHADA e específica dá resposta
+  útil (~50 s/imagem); prompt genérico vagueia.
+- **Zonas por proximidade**: o andar livre (WASD) não atualizava `zonaAtual` → hint da
+  tecla E e o próprio E ficavam presos em "paciente". Fix: calcular zona por distância
+  (raio 1,45 m) no ticker do modo livre e disparar onChange.
+- **Painel contextual**: painel aberto + jogador saiu de perto → fecha sozinho (gate por
+  zona no atendimento.js). E dentro da zona não re-tweena a câmera.

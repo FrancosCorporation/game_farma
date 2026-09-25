@@ -1,9 +1,11 @@
+import { getLang } from '../ui/i18n.js';
+
 export function createDictation(inputEl) {
   const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
   const btn = document.getElementById('btn-mic');
   if (!SR) { if (btn) btn.hidden = true; return { supported: false }; }
   const rec = new SR();
-  rec.lang = 'pt-BR'; rec.interimResults = true; rec.continuous = false;
+  rec.lang = getLang() === 'en' ? 'en-US' : 'pt-BR'; rec.interimResults = true; rec.continuous = false;
   let on = false;
   rec.onresult = (e) => {
     let final = '';

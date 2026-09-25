@@ -22,8 +22,19 @@ const DUR_TWEEN = 0.9;
 
 // Andar livre (WASD) — limites do salão (piso 18x13, paredes em ±9 / z -6.5..6.5)
 const VEL = 2.6; // m/s
-const ANDAR = { x0: -8.4, x1: 8.4, z0: -5.6, z1: 5.8, balcaoX: 3.4, balcaoZ: 2.0 };
-const EYE = 1.6;
+  const ANDAR = { x0: -8.4, x1: 8.4, z0: -5.6, z1: 5.8, balcaoX: 3.4, balcaoZ: 2.0 };
+  const EYE = 1.6;
+
+  // Zona por proximidade (andar livre): a mais próxima dentro do raio, ou null.
+  const RAIO_ZONA = 1.45;
+  const zonaPorPos = (p) => {
+    let melhor = null, dMin = RAIO_ZONA;
+    for (const [nome, z] of Object.entries(ZONAS)) {
+      const d = Math.hypot(p.x - z.pos.x, p.z - z.pos.z);
+      if (d < dMin) { dMin = d; melhor = nome; }
+    }
+    return melhor;
+  };
 
 export function createPOV({ camera, addTicker, canvas, povControl }) {
   const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -116,10 +127,17 @@ export function createPOV({ camera, addTicker, canvas, povControl }) {
         let nz = camera.position.z + (-cy * f - sy * r) * VEL * dt;
         nx = clamp(nx, ANDAR.x0, ANDAR.x1);
         nz = clamp(nz, ANDAR.z0, ANDAR.z1);
-        if (Math.abs(nx) < ANDAR.balcaoX) nz = Math.max(nz, ANDAR.balcaoZ); // balcão bloqueia
+        // balcão LIBERADO (PO 24/09): dá para cruzar e chegar perto do paciente
         camera.position.set(nx, EYE, nz);
       }
       aplicar();
+      // Zona por PROXIMIDADE (PO 24/09): andando livre, a zona acompanha onde
+      // o jogador está — o hint da tecla E e o próprio E ficam contextuais.
+      const zonaPerto = zonaPorPos(camera.position);
+      if (zonaPerto !== zonaAtual) {
+        zonaAtual = zonaPerto;
+        listeners.forEach((fn) => fn(zonaAtual));
+      }
       return;
     }
     // mola do look-around
@@ -141,6 +159,7 @@ export function createPOV({ camera, addTicker, canvas, povControl }) {
   // ---- look-around por drag (mouse + touch via Pointer Events) ----
   const eNavegavel = () => !tween && !drag;
   canvas.addEventListener('pointerdown', (e) => {
+    if (document.pointerLockElement === canvas) return; // com lock, o mouse já gira
     if (tween || retorno) return;
     drag = { id: e.pointerId, x: e.clientX, y: e.clientY, yaw0: off.yaw, pitch0: off.pitch };
     canvas.setPointerCapture(e.pointerId);
@@ -159,6 +178,35 @@ export function createPOV({ camera, addTicker, canvas, povControl }) {
   };
   canvas.addEventListener('pointerup', fimDrag);
   canvas.addEventListener('pointercancel', fimDrag);
+
+  // ---- Pointer Lock (PO 24/09): clicar no jogo trava o mouse (modo "tela
+  // cheia" — olhar livre 360°), ESC destrava (nativo do browser). O drag com
+  // botão pressionado continua valendo como fallback. ----
+  canvas.addEventListener('click', () => {
+    if (document.pointerLockElement !== canvas && canvas.requestPointerLock) {
+      canvas.requestPointerLock();
+    }
+  });
+  document.addEventListener('pointerlockchange', () => {
+    if (document.pointerLockElement === canvas) {
+      drag = null;            // cancela drag pendente do clique que travou
+      entrarLivre();          // olhar livre ilimitado enquanto destravado
+    }
+  });
+  document.addEventListener('mousemove', (e) => {
+    if (document.pointerLockElement !== canvas) return;
+    if (livre) {
+      // modo livre: olhar 360°
+      baseYaw -= e.movementX * 0.0024;
+      basePitch = clamp(basePitch - e.movementY * 0.002, -1.25, 0.95);
+      off = { yaw: 0, pitch: 0 };
+    } else {
+      // numa zona (1/2/3): look-around com os limites originais
+      off.yaw = clamp(off.yaw - e.movementX * 0.0024, -LIM_YAW, LIM_YAW);
+      off.pitch = clamp(off.pitch - e.movementY * 0.002, -LIM_PITCH, LIM_PITCH);
+    }
+    aplicar();
+  });
 
   // Teclado: WASD anda livre; 1/2/3 (ou ←/→) navegam entre os pontos de interesse
   const ORDEM = ['paciente', 'computador', 'mesa'];

@@ -1,10 +1,11 @@
-import { classify, KnowledgeState, norm, DOMAIN_LABELS } from './factGate.js';
-import { buildActorSystemPrompt, templateReply, buildEvaluatorMessages } from '../ai/prompts.js';
+import { classify, KnowledgeState, norm, domainLabel } from './factGate.js';
+import { buildActorSystemPrompt, templateReply, buildEvaluatorMessages, looksPortuguese, buildTranslateMessages } from '../ai/prompts.js';
 import { scoreCase, starsForScore } from './scoring.js';
+import { localizeCase } from '../data/cases.js';
+import { t, getLang } from '../ui/i18n.js';
 import { TTS } from '../audio/tts.js';
 import { SFX } from '../audio/sfx.js';
 import { createDictation } from '../audio/stt.js';
-import { POSE_FRASE } from '../scene/patient.js';
 
 const $ = (id) => document.getElementById(id);
 const MAX_TURNS = 30;
@@ -35,6 +36,13 @@ export class Game {
 
     this.bind();
     this.dictation = createDictation(this.el['chat-input']);
+    this.el['hud-score'].textContent = `${t('hud.pontos')} 0`;
+  }
+
+  /** Re-render dinâmico p/ troca de idioma no menu/capa (listener de langchange). */
+  refreshLangUI() {
+    this.el['hud-score'].textContent = `${t('hud.pontos')} ${this.points}`;
+    if (this.state === 'MENU') this.renderPhases();
   }
 
   bind() {
@@ -62,6 +70,8 @@ export class Game {
       if (b) this.selectConduta(b.dataset.conduta);
     });
     this.el['btn-confirmar'].addEventListener('click', () => this.confirmDecision());
+    // habilita o confirmar assim que um MIP é marcado (conduta "sugerir")
+    this.el['mip-list'].addEventListener('change', () => this.updateConfirm());
     $('btn-proximo').addEventListener('click', () => this.nextPatient());
     $('btn-repetir').addEventListener('click', () => this.startCase(this.case, { repeat: true }));
     $('btn-exportar').addEventListener('click', () => window.print());
@@ -78,8 +88,8 @@ export class Game {
     });
   }
 
-  setFase(f) {
-    this.el['hud-fase'].textContent = f;
+  setFase(key) {
+    this.el['hud-fase'].textContent = t(`fase.${key}`);
   }
 
   // ---------- fases / seleção ----------
@@ -111,7 +121,7 @@ export class Game {
       btn.className = 'phase-card' + (locked ? ' locked' : '') + (i === this.phaseIdx ? ' pressed' : '');
       btn.setAttribute('aria-pressed', String(i === this.phaseIdx));
       btn.disabled = locked;
-      btn.innerHTML = `<span class="ph-num">${phase.icone}</span><span class="ph-info"><b>${phase.nome}</b><small>${phase.desc}</small></span>`;
+      btn.innerHTML = `<span class="ph-num">${phase.icone}</span><span class="ph-info"><b>${t(`phase.${phase.id}.nome`)}</b><small>${t(`phase.${phase.id}.desc`)}</small></span>`;
       btn.addEventListener('click', () => {
         this.phaseIdx = i;
         this.renderPhases();
@@ -138,7 +148,8 @@ export class Game {
     this.startCase(c);
   }
 
-  async startCase(caseDef, { repeat = false } = {}) {
+  async startCase(caseDefRaw, { repeat = false } = {}) {
+    const caseDef = localizeCase(caseDefRaw, getLang());
     this.case = caseDef;
     this.state = 'CHEGADA';
     this.knowledge = new KnowledgeState(caseDef);
@@ -160,19 +171,28 @@ export class Game {
     this.el['btn-decisao'].hidden = true;
     this.el['chat-log'].innerHTML = '';
     this.el['chat-chips'].innerHTML = '';
-    this.el['chat-nome'].textContent = `${caseDef.persona.nome}, ${caseDef.persona.idade} anos`;
-    this.el['chat-avatar'].textContent = caseDef.persona.nome.replace(/^Dona? ?/i, '')[0] || '?';
+    this.el['chat-nome'].textContent = `${caseDef.persona.nome}, ${caseDef.persona.idade}${t('chat.anos')}`;
+    this.el['chat-avatar'].textContent = caseDef.persona.nome.replace(/^(Dona?|Seu|Mr\.?|Mrs\.?)\s*/i, '')[0] || '?';
     this.el['chat-contador'].textContent = `0/${MAX_TURNS}`;
-    this.el['hud-paciente'].textContent = `Cliente: ${caseDef.persona.nome}`;
-    this.setFase('Chegada');
-    this.el['chat-input'].disabled = false;
+    this.el['hud-paciente'].textContent = `${t('chat.cliente')} ${caseDef.persona.nome}`;
+    this.setFase('chegada');
+    // O chat só aceita texto na fase Anamnese: durante a chegada (walk-in do
+    // paciente) o input fica desabilitado para o jogador não digitar no vazio.
+    this.el['chat-input'].disabled = true;
     SFX.chime();
     TTS.setCase(caseDef.id);
 
-    await this.avatar.enter(caseDef.persona.aparencia);
+    // A chegada é cosmética: se o avatar falhar (GLB quebrado/sem clip), o
+    // atendimento continua — nunca deixar o jogador travado em "Chegada".
+    try {
+      await this.avatar?.enter?.(caseDef.persona.aparencia);
+    } catch {
+      /* segue sem a caminhada de entrada */
+    }
     this.fx.dip();
     this.state = 'ANAMNESE';
-    this.setFase('Anamnese');
+    this.setFase('anamnese');
+    this.el['chat-input'].disabled = false;
     this.addBubble('paciente', caseDef.abertura);
     TTS.speak(caseDef.abertura, caseDef.persona.voz);
     this.lastPatientLine = caseDef.abertura;
@@ -238,10 +258,10 @@ export class Game {
     const askedNow = this.knowledge.askedDomains;
     if (!this.queixaRegistrada && askedNow.has('localizacao') && askedNow.has('duracao')) {
       this.queixaRegistrada = true;
-      this.addSystem('Queixa principal e duração do quadro registradas.');
+      this.addSystem(t('sys.queixaRegistrada'));
     }
     if (this.case.testeRapido?.indicado && !this.testeRapido && this.turn >= 3) {
-      this.addSystem('Lembre-se: avalie se há necessidade de teste rápido no computador.');
+      this.addSystem(t('sys.lembreteTeste'));
     }
 
     const reply = await this.generateReply(novos, evasivas);
@@ -258,14 +278,14 @@ export class Game {
     if (f.redFlag && f.valor) {
       SFX.redFlag();
       this.fx.pulse();
-      this.addSystem(`Sinal de alerta: ${f.rotulo}`, true);
-      this.avatar.setMood('dolorido');
+      this.addSystem(`${t('sys.redflag')}${f.rotulo}`, true);
+      this.avatar?.setMood?.('dolorido');
     } else if (f.valor === false) {
-      this.addSystem(`Investigado — ${f.rotulo} (negado)`);
+      this.addSystem(`${t('sys.investigado')}${f.rotulo}${t('sys.negado')}`);
     }
     if (f.postura) {
-      this.avatar.setPose(f.postura);
-      this.addSystem(`${this.case.persona.nome} ${POSE_FRASE[f.postura]}.`);
+      this.avatar?.setPose?.(f.postura);
+      this.addSystem(`${this.case.persona.nome} ${t(`pose.${f.postura}`)}.`);
     }
   }
 
@@ -273,16 +293,16 @@ export class Game {
   registrarConsultaBulario() {
     if (this.state === 'ANAMNESE' || this.state === 'DECISAO') {
       this.consultaBulario = true;
-      this.addSystem('Bulário/diretrizes consultados no computador.');
+      this.addSystem(t('sys.bulario'));
     }
   }
 
   registrarTesteRapido(resultado) {
     if (this.state !== 'ANAMNESE' && this.state !== 'DECISAO') return;
     this.testeRapido = { executado: true, resultado: resultado || null };
-    const tipo = this.case.testeRapido?.tipo || 'Teste rápido';
+    const tipo = this.case.testeRapido?.tipo || t('tlac.title');
     this.addSystem(
-      `${tipo}: ${resultado ? `resultado ${String(resultado).toUpperCase()}` : 'executado'}`,
+      `${tipo}: ${resultado ? `${t('sys.testeResultado')}${String(resultado).toUpperCase()}` : t('sys.testeExecutado')}`,
       !!resultado && /positiv/i.test(String(resultado)),
     );
   }
@@ -290,7 +310,20 @@ export class Game {
   registrarDSF(conduta) {
     if (this.state !== 'ANAMNESE' && this.state !== 'DECISAO') return;
     this.dsf = conduta || null;
-    this.addSystem(conduta ? `DSF emitida — ${conduta}` : 'DSF emitida.');
+    this.addSystem(conduta ? `${t('sys.dsfCom')}${conduta}` : `${t('sys.dsfEmitida')}.`);
+  }
+
+  /** UI em EN + resposta do LLM em PT → traduz no próprio servidor de IA;
+   *  falhou ou continuou PT → devolve '' (o template EN assume). */
+  async enforceLang(text) {
+    if (getLang() !== 'en' || !text || !looksPortuguese(text)) return text;
+    if (!this.llm || this.llm.ok === false) return '';
+    try {
+      const { text: tr } = await this.llm.chat(buildTranslateMessages(text), { maxTokens: 160, temperature: 0.2 });
+      const clean = (tr || '').trim();
+      if (clean && !looksPortuguese(clean)) return clean;
+    } catch { /* cai no template EN */ }
+    return '';
   }
 
   async generateReply(novos, evasivas) {
@@ -307,7 +340,7 @@ export class Game {
           this.scrollLog();
         },
       });
-      out = text;
+      out = await this.enforceLang(text);
     } catch {
       out = '';
     }
@@ -328,7 +361,7 @@ export class Game {
   goDecision() {
     if (this.state !== 'ANAMNESE' || this.busy) return;
     this.state = 'DECISAO';
-    this.setFase('Decisão');
+    this.setFase('decisao');
     this.el['chat-input'].disabled = true;
     this.el['chat-chips'].innerHTML = '';
     this.el['btn-decisao'].hidden = true;
@@ -343,7 +376,7 @@ export class Game {
       cb.type = 'checkbox';
       cb.value = f.tag;
       const span = document.createElement('span');
-      span.textContent = f.rotulo + (f.valor ? '' : ' (negado)');
+      span.textContent = f.rotulo + (f.valor ? '' : t('sys.negado'));
       label.append(cb, span);
       list.appendChild(label);
     }
@@ -358,7 +391,7 @@ export class Game {
 
   backToAnamnese() {
     this.state = 'ANAMNESE';
-    this.setFase('Anamnese');
+    this.setFase('anamnese');
     this.el.decision.hidden = true;
     this.el['chat-input'].disabled = false;
     this.renderChips();
@@ -391,11 +424,11 @@ export class Game {
       };
       fill('mip-list', this.case.prateleira, 'id');
       fill('orient-list', this.case.orientacoes, 'nome');
-      this.el['btn-confirmar'].textContent = 'Confirmar: orientar e dispensar MIP';
+      this.el['btn-confirmar'].textContent = t('decision.confirmarSugerir');
     } else {
       mipBox.hidden = true;
       this.el['btn-confirmar'].textContent =
-        kind === 'vender' ? 'Confirmar: vender o pedido' : 'Confirmar: encaminhar à urgência';
+        kind === 'vender' ? t('decision.confirmarVender') : t('decision.confirmarEncaminhar');
     }
     this.updateConfirm();
   }
@@ -409,7 +442,7 @@ export class Game {
   async confirmDecision() {
     if (!this.conduta) return;
     this.state = 'AVALIANDO';
-    this.setFase('Avaliando');
+    this.setFase('avaliando');
     const decisao = {
       conduta: this.conduta,
       mips: [...this.el['mip-list'].querySelectorAll('input:checked')].map((i) => i.value),
@@ -422,7 +455,7 @@ export class Game {
     };
     const result = scoreCase(this.case, this.knowledge, decisao, this.history);
     this.points += result.total;
-    this.el['hud-score'].textContent = `Pontos ${this.points}`;
+    this.el['hud-score'].textContent = `${t('hud.pontos')} ${this.points}`;
 
     const stars = starsForScore(result.total);
     this.progress.registerResult({
@@ -433,9 +466,15 @@ export class Game {
     });
 
     const outcome = this.case.consequencias[this.conduta];
-    this.avatar.leave();
+    // O paciente saindo de cena é cosmético e não pode segurar o relatório:
+    // dispara em segundo plano e engole falha de avatar/GLB.
+    try {
+      Promise.resolve(this.avatar?.leave?.()).catch(() => {});
+    } catch {
+      /* segue para o debriefing */
+    }
     this.state = 'DEBRIEFING';
-    this.setFase('Relatório');
+    this.setFase('relatorio');
     this.renderDebrief(outcome, result, stars);
     if (outcome.desfecho === 'bom') SFX.ding();
     else SFX.buzz();
@@ -446,14 +485,25 @@ export class Game {
     if (this.llm && this.llm.ok) {
       try {
         const log = this.history
-          .map((m) => (m.role === 'user' ? 'FARMACÊUTICO: ' : 'PACIENTE: ') + m.content)
+          .map((m) => `${m.role === 'user' ? t('log.farmaceutico') : t('log.paciente')}: ${m.content}`)
           .join('\n');
         const { text } = await this.llm.chat(buildEvaluatorMessages(this.case, decisao, result, log), {
           maxTokens: 320,
           temperature: 0.3,
         });
-        this.el['debrief-preceptor'].textContent = text;
-        this.el['debrief-preceptor'].hidden = false;
+        let feedback = (text || '').trim();
+        if (getLang() === 'en' && looksPortuguese(feedback)) {
+          try {
+            const { text: tr } = await this.llm.chat(buildTranslateMessages(feedback), { maxTokens: 400, temperature: 0.2 });
+            const clean = (tr || '').trim();
+            if (clean && !looksPortuguese(clean)) feedback = clean;
+            else feedback = '';
+          } catch { feedback = ''; }
+        }
+        if (feedback) {
+          this.el['debrief-preceptor'].textContent = feedback;
+          this.el['debrief-preceptor'].hidden = false;
+        }
       } catch {
         /* template já cobre */
       }
@@ -469,7 +519,11 @@ export class Game {
       neutro: 'bg-slate-700/60 text-slate-200',
     };
     tag.className = 'inline-block px-3 py-1 rounded-full text-xs font-semibold mb-3 ' + (styles[outcome.desfecho] || styles.neutro);
-    tag.textContent = { fatal: 'DESFECHO FATAL', grave: 'DESFECHO GRAVE', bom: 'BOM DESFECHO', neutro: 'CONDUÇÃO QUESTIONÁVEL' }[outcome.desfecho] || 'DESFECHO';
+    const tagKey = {
+      fatal: 'debrief.tag.fatal', grave: 'debrief.tag.grave',
+      bom: 'debrief.tag.bom', neutro: 'debrief.tag.neutro',
+    }[outcome.desfecho] || 'debrief.tag.default';
+    tag.textContent = t(tagKey);
 
     this.el['debrief-stars'].innerHTML = [1, 2, 3]
       .map((i) => `<span class="star ${i <= stars ? 'on' : ''}">★</span>`)
@@ -504,27 +558,27 @@ export class Game {
       det.appendChild(e);
     };
     if (result.missedDomains.length)
-      li(`Deveria ter perguntado sobre: ${result.missedDomains.map((d) => DOMAIN_LABELS[d] || d).join(', ')}.`, 'text-amber-300');
+      li(`${t('debrief.faltaPerguntar')}${result.missedDomains.map((d) => domainLabel(d)).join(', ')}.`, 'text-amber-300');
     if (result.missedRed.length)
-      li(`Sinais de alerta não investigados: ${result.missedRed.map((d) => DOMAIN_LABELS[d] || d).join(', ')}.`, 'text-amber-300');
+      li(`${t('debrief.alertaNaoInvestigado')}${result.missedRed.map((d) => domainLabel(d)).join(', ')}.`, 'text-amber-300');
     if (result.reprovado)
-      li(`REPROVADO — dispensou item contraindicado (${this.case.contraindicado?.motivo || 'contraindicação'}).`, 'text-red-400 font-semibold');
+      li(`${t('debrief.reprovado')}${this.case.contraindicado?.motivo || t('bulario.contraindicado')}).`, 'text-red-400 font-semibold');
     if (result.testeRapidoPerdido)
-      li(`Teste rápido indicado (${this.case.testeRapido?.tipo}) e não executado (−30).`, 'text-amber-300');
+      li(`${t('debrief.testePerdidoPre')}${this.case.testeRapido?.tipo}${t('debrief.testePerdidoPos')}`, 'text-amber-300');
     if (result.arboviroseNaoEncaminhada)
-      li('Suspeita de arbovirose não encaminhada ao pronto-socorro (−40).', 'text-red-400');
+      li(t('debrief.arbovirose'), 'text-red-400');
     if (result.orientacaoInadequada)
-      li('Orientação inadequada em quadro autolimitado (−25).', 'text-amber-300');
+      li(t('debrief.orientacao'), 'text-amber-300');
     if (this.case.dsf && !result.dsfOk)
-      li('DSF não emitida ou com conduta incorreta (−30).', 'text-amber-300');
-    result.criticals.forEach((c) => li(`ERRO CRÍTICO — ${c}`, 'text-red-400 font-semibold'));
+      li(t('debrief.dsf'), 'text-amber-300');
+    result.criticals.forEach((c) => li(`${t('debrief.critico')}${c}`, 'text-red-400 font-semibold'));
     if (!result.missedDomains.length && !result.missedRed.length && !result.criticals.length
       && !result.reprovado && !result.testeRapidoPerdido && !result.arboviroseNaoEncaminhada
       && !result.orientacaoInadequada && result.dsfOk)
-      li('Anamnese completa e conduta adequada. Atendimento-modelo.', 'text-teal-300');
+      li(t('debrief.perfeito'), 'text-teal-300');
 
     this.el['debrief-stamp'].textContent =
-      `caso ${this.case.id} v${this.case.version} · seed ${this.seed} · FarmaCheck web · condutas ilustrativas — validar bula e protocolos vigentes`;
+      `${t('debrief.stampCase')} ${this.case.id} v${this.case.version} · seed ${this.seed} · FarmaCheck web · ${t('debrief.stampTail')}`;
     this.el.debrief.hidden = false;
     this.el.debrief.querySelector('h2').focus();
   }

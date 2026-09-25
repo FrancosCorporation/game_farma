@@ -1,329 +1,20 @@
 import * as THREE from 'three';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { createGLTFLoader } from './glbLoader.js';
 
-const M = (color, opts = {}) => new THREE.MeshStandardMaterial({ color, roughness: 0.7, metalness: 0.05, ...opts });
-const mk = (geo, mat) => {
-  const m = new THREE.Mesh(geo, mat);
-  m.castShadow = true;
-  return m;
-};
-const rnd = (a, b) => a + Math.random() * (b - a);
-
-// Posturas semiológicas — pivôs em grupos (padrão Codrops): torso gira no quadril, cabeça no pescoço.
-const POSES = {
-  idle:         { torso: 0.00, head: 0.03, armLx: 0.10, armLz: 0.12, armRx: 0.10, armRz: -0.12 },
-  mao_no_peito: { torso: 0.05, head: 0.16, armLx: 0.10, armLz: 0.14, armRx: -1.30, armRz: -0.60 },
-  curvado:      { torso: 0.32, head: 0.46, armLx: -0.30, armLz: 0.14, armRx: -0.30, armRz: -0.14 },
-  cabeca_baixa: { torso: 0.10, head: 0.58, armLx: 0.10, armLz: 0.12, armRx: 0.10, armRz: -0.12 },
-};
 export const POSE_FRASE = {
   mao_no_peito: 'aperta o peito com a mão',
   curvado: 'se curva, como se o corpo pesasse',
   cabeca_baixa: 'abaixa a cabeça, visivelmente cansado',
 };
 
-// Proporções cartoon (Codrops): cabeça ~1/5 da altura, corpo arredondado, rosto expressivo.
-export class PatientAvatar {
-  constructor(scene) {
-    this.reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
-    this.matSkin = M(0xd9a066, { roughness: 0.55 });
-    this.matShirt = M(0x8b8378, { roughness: 0.65 });
-    this.matPants = M(0x37414b, { roughness: 0.7 });
-    this.matHair = M(0x4a4a4a, { roughness: 0.8 });
-    this.matShoe = M(0x22262a, { roughness: 0.4 });
-    this.matAccent = M(0xf28f3b, { roughness: 0.5 });
-    this.cur = { ...POSES.idle };
-    this.target = POSES.idle;
-    this.walking = null;
-    this.mood = 'neutro';
-    this._blink = 2;
-    this._blinkT = 0;
-    this._glance = 0;
-
-    const root = (this.root = new THREE.Group());
-
-    // ---- Pernas (pivô no quadril) ----
-    this.legL = new THREE.Group();
-    this.legL.position.set(0.105, 0.86, 0);
-    this.legR = new THREE.Group();
-    this.legR.position.set(-0.105, 0.86, 0);
-    for (const leg of [this.legL, this.legR]) {
-      const mesh = mk(new THREE.CapsuleGeometry(0.075, 0.56, 8, 14), this.matPants);
-      mesh.position.y = -0.42;
-      const shoe = mk(new THREE.CapsuleGeometry(0.055, 0.1, 8, 12), this.matShoe);
-      shoe.rotation.x = Math.PI / 2;
-      shoe.scale.set(1, 1.55, 1);
-      shoe.position.set(0, -0.82, 0.055);
-      leg.add(mesh, shoe);
-      root.add(leg);
-    }
-
-    // ---- Torso (pivô no quadril → postura) ----
-    this.torso = new THREE.Group();
-    this.torso.position.set(0, 0.9, 0);
-    const torsoMesh = mk(new THREE.CapsuleGeometry(0.185, 0.28, 8, 16), this.matShirt);
-    torsoMesh.position.y = 0.27;
-    this.torso.add(torsoMesh);
-
-    // Peito (dá volume superior, deixa o corpo mais "de gente")
-    const chest = mk(new THREE.SphereGeometry(0.185, 16, 12), this.matShirt);
-    chest.scale.set(1, 0.82, 0.9);
-    chest.position.set(0, 0.4, 0);
-    this.torso.add(chest);
-
-    // Gola + botões
-    const collar = mk(new THREE.CylinderGeometry(0.055, 0.065, 0.1, 12), this.matShirt);
-    collar.position.set(0, 0.52, 0);
-    this.torso.add(collar);
-    const btnMat = M(0x2b2b33, { roughness: 0.3 });
-    for (let i = 0; i < 3; i++) {
-      const btn = mk(new THREE.SphereGeometry(0.013, 8, 6), btnMat);
-      btn.position.set(0, 0.36 - i * 0.09, 0.16);
-      this.torso.add(btn);
-    }
-
-    // Braços (pivô no ombro) — oscilam no caminhar
-    this.armL = new THREE.Group();
-    this.armL.position.set(-0.24, 0.5, 0);
-    this.armR = new THREE.Group();
-    this.armR.position.set(0.24, 0.5, 0);
-    for (const arm of [this.armL, this.armR]) {
-      const mesh = mk(new THREE.CapsuleGeometry(0.058, 0.4, 8, 12), this.matShirt);
-      mesh.position.y = -0.25;
-      const hand = mk(new THREE.SphereGeometry(0.06, 12, 10), this.matSkin);
-      hand.position.y = -0.48;
-      hand.scale.set(1, 1.15, 1);
-      arm.add(mesh, hand);
-      this.torso.add(arm);
-    }
-
-    // ---- Cabeça (pivô no pescoço) — ACIMA do torso, com rosto frontal ----
-    const neck = mk(new THREE.CylinderGeometry(0.055, 0.07, 0.09, 12), this.matSkin);
-    neck.position.y = 0.6;
-    this.torso.add(neck);
-
-    this.headPivot = new THREE.Group();
-    this.headPivot.position.set(0, 0.66, 0);
-    this.headBaseY = 0.66;
-    this.torso.add(this.headPivot);
-
-    // Crânio maior (proporção cartoon "bonitinha")
-    const head = mk(new THREE.SphereGeometry(0.15, 24, 20), this.matSkin);
-    head.position.set(0, 0.05, 0);
-    this.headPivot.add(head);
-
-    // Orelhas
-    for (const sx of [-1, 1]) {
-      const ear = mk(new THREE.SphereGeometry(0.035, 10, 8), this.matSkin);
-      ear.position.set(sx * 0.145, 0.02, 0);
-      this.headPivot.add(ear);
-    }
-
-    // Rosto (na frente da esfera)
-    const eyeWhite = M(0xffffff, { roughness: 0.25 });
-    const pupil = M(0x2b2b33, { roughness: 0.2 });
-    this.eyes = [];
-    for (const sx of [-0.052, 0.052]) {
-      const white = mk(new THREE.SphereGeometry(0.024, 12, 10), eyeWhite);
-      white.position.set(sx, 0.08, 0.145);
-      white.scale.set(1.25, 1.1, 0.7);
-      this.headPivot.add(white);
-      const ir = mk(new THREE.SphereGeometry(0.012, 10, 8), pupil);
-      ir.position.set(sx, 0.08, 0.168);
-      ir.scale.set(1, 1.2, 0.6);
-      this.headPivot.add(ir);
-      // brilho (highlight) dá "vida"
-      const hl = mk(new THREE.SphereGeometry(0.004, 6, 4), M(0xffffff, { emissive: 0xffffff, emissiveIntensity: 0.6 }));
-      hl.position.set(sx + 0.004, 0.087, 0.178);
-      this.headPivot.add(hl);
-      this.eyes.push(white);
-    }
-
-    // Sobrancelhas (mood)
-    const browMat = M(0x3a2a1a, { roughness: 0.6 });
-    const browGeo = new THREE.BoxGeometry(0.05, 0.013, 0.02);
-    this.browL = mk(browGeo, browMat);
-    this.browL.position.set(-0.052, 0.132, 0.15);
-    this.browR = mk(browGeo, browMat);
-    this.browR.position.set(0.052, 0.132, 0.15);
-    this.headPivot.add(this.browL, this.browR);
-
-    // Nariz
-    const nose = mk(new THREE.SphereGeometry(0.018, 10, 8), this.matSkin);
-    nose.scale.set(1, 1.6, 1.1);
-    nose.position.set(0, 0.025, 0.16);
-    this.headPivot.add(nose);
-
-    // Boca (morfável)
-    this.mouth = mk(new THREE.CapsuleGeometry(0.012, 0.04, 6, 8), M(0x8a4444, { roughness: 0.5 }));
-    this.mouth.rotation.z = Math.PI / 2;
-    this.mouth.scale.set(1, 1.6, 1);
-    this.mouth.position.set(0, -0.055, 0.16);
-    this.headPivot.add(this.mouth);
-
-    // Bochecha (blush — fofura)
-    const blushMat = M(0xe89a9a, { roughness: 0.6, transparent: true, opacity: 0.55 });
-    for (const sx of [-0.085, 0.085]) {
-      const blush = mk(new THREE.SphereGeometry(0.016, 10, 8), blushMat);
-      blush.position.set(sx, -0.015, 0.15);
-      this.headPivot.add(blush);
-    }
-
-    // Cabelo (calota + franja)
-    this.hair = mk(new THREE.SphereGeometry(0.158, 24, 14, 0, Math.PI * 2, 0, Math.PI * 0.55), this.matHair);
-    this.hair.position.set(0, 0.1, 0);
-    this.headPivot.add(this.hair);
-    // franja
-    const fringe = mk(new THREE.SphereGeometry(0.16, 20, 10, 0, Math.PI * 2, 0, Math.PI * 0.35), this.matHair);
-    fringe.position.set(0, 0.115, 0.05);
-    fringe.scale.set(1.02, 1, 0.98);
-    this.headPivot.add(fringe);
-
-    root.add(this.torso);
-    root.visible = false;
-    scene.add(root);
-  }
-
-  setStyle(a = {}) {
-    this.matShirt.color.set(a.camisa ?? 0x8b8378);
-    this.matPants.color.set(a.calca ?? 0x37414b);
-    this.matHair.color.set(a.cabelo ?? 0x4a4a4a);
-    this.matSkin.color.set(a.pele ?? 0xd9a066);
-    this.matShoe.color.set(a.sapato ?? 0x22262a);
-    this.matAccent.color.set(a.detalhe ?? 0xf28f3b);
-  }
-  setPose(name) {
-    if (POSES[name]) this.target = POSES[name];
-  }
-  setMood(name) {
-    this.mood = name || 'neutro';
-    const neutro = () => {
-      this.browL.rotation.z = 0;
-      this.browR.rotation.z = 0;
-      this.mouth.rotation.z = Math.PI / 2;
-      this.mouth.rotation.x = 0;
-      this.mouth.scale.set(1, 1.6, 1);
-      this.eyes[0].scale.set(1.25, 1.1, 0.7);
-      this.eyes[1].scale.set(1.25, 1.1, 0.7);
-    };
-    if (name === 'triste') {
-      this.browL.rotation.z = 0.18;
-      this.browR.rotation.z = -0.18;
-      this.browL.position.y = 0.118;
-      this.browR.position.y = 0.118;
-      this.mouth.rotation.z = 0.9;
-      this.mouth.rotation.x = 0;
-    } else if (name === 'dolorido') {
-      this.browL.rotation.z = -0.2;
-      this.browR.rotation.z = 0.2;
-      this.browL.position.y = 0.148;
-      this.browR.position.y = 0.148;
-      this.mouth.rotation.z = Math.PI / 2;
-      this.mouth.scale.set(1.5, 2.4, 1);
-      this.eyes[0].scale.set(1, 0.7, 0.7);
-      this.eyes[1].scale.set(1, 0.7, 0.7);
-    } else {
-      neutro();
-      this.browL.position.y = 0.132;
-      this.browR.position.y = 0.132;
-    }
-  }
-
-  enter(aparencia) {
-    this.setStyle(aparencia);
-    this.setPose('idle');
-    this.setMood('neutro');
-    this.root.visible = true;
-    return this.walk(new THREE.Vector3(3.0, 0, -5.0), new THREE.Vector3(0, 0, 0.6), 2.2);
-  }
-  leave() {
-    return this.walk(new THREE.Vector3(0, 0, 0.6), new THREE.Vector3(3.0, 0, -5.0), 1.8).then(() => {
-      this.root.visible = false;
-    });
-  }
-  walk(from, to, dur) {
-    return new Promise((res) => {
-      this.walking = { from, to, dur, t: 0, res };
-      this.root.position.copy(from);
-    });
-  }
-
-  update(dt, t) {
-    const k = Math.min(1, dt * 4);
-    for (const key in this.cur) this.cur[key] += (this.target[key] - this.cur[key]) * k;
-    this.torso.rotation.x = this.cur.torso;
-    this.headPivot.rotation.x = this.cur.head;
-    this.armL.rotation.set(this.cur.armLx, 0, this.cur.armLz);
-    this.armR.rotation.set(this.cur.armRx, 0, this.cur.armRz);
-
-    if (!this.reduceMotion) {
-      // Respiração (peito expande sutilmente)
-      const b = Math.sin(t * 2.1);
-      this.torso.scale.set(1 + b * 0.018, 1, 1 + b * 0.014);
-      this.torso.position.y = 0.9 + Math.abs(b) * 0.006;
-      // Olhar suave (a cabeça vira levemente de vez em quando)
-      this._glance -= dt;
-      if (this._glance <= 0) this._glance = 6 + Math.random() * 6;
-      const look = this._glance < 2 ? Math.sin(this._glance * 1.2) * 0.28 : 0;
-      this.headPivot.rotation.y += (look - this.headPivot.rotation.y) * Math.min(1, dt * 3);
-      // Piscar
-      this._blink -= dt;
-      if (this._blink <= 0) {
-        this._blink = 2.5 + Math.random() * 2.5;
-        this._blinkT = 0.14;
-      }
-      if (this._blinkT > 0) {
-        this._blinkT -= dt;
-        const s = Math.abs(Math.sin((0.14 - this._blinkT) * 40));
-        this.eyes[0].scale.y = Math.max(0.12, 1.1 * (1 - s));
-        this.eyes[1].scale.y = Math.max(0.12, 1.1 * (1 - s));
-      } else {
-        const ms = this.mood === 'dolorido' ? 0.7 : 1.1;
-        this.eyes[0].scale.y += (ms - this.eyes[0].scale.y) * k;
-        this.eyes[1].scale.y += (ms - this.eyes[1].scale.y) * k;
-      }
-    }
-
-    if (this.walking) {
-      const w = this.walking;
-      w.t += dt;
-      const p = Math.min(1, w.t / w.dur);
-      const e = p * p * (3 - 2 * p);
-      this.root.position.lerpVectors(w.from, w.to, e);
-      if (p < 1) {
-        this.root.rotation.y = Math.atan2(w.to.x - w.from.x, w.to.z - w.from.z);
-        const step = Math.sin(w.t * 7);
-        this.legL.rotation.x = step * 0.45;
-        this.legR.rotation.x = -step * 0.45;
-        // braços acompanham as pernas (opostos) — animação mais natural
-        if (!this.reduceMotion) {
-          this.armL.rotation.x = this.cur.armLx - step * 0.4;
-          this.armR.rotation.x = this.cur.armRx + step * 0.4;
-          this.root.position.y = Math.abs(Math.sin(w.t * 7)) * 0.024;
-          this.torso.rotation.z = Math.sin(w.t * 7) * 0.03;
-          this.headPivot.rotation.z = -Math.sin(w.t * 7) * 0.02;
-        }
-      } else {
-        this.root.rotation.y += (0 - this.root.rotation.y) * Math.min(1, dt * 6);
-        this.torso.rotation.z += (0 - this.torso.rotation.z) * Math.min(1, dt * 6);
-        this.headPivot.rotation.z += (0 - this.headPivot.rotation.z) * Math.min(1, dt * 6);
-        if (Math.abs(this.root.rotation.y) < 0.05) {
-          this.legL.rotation.x = this.legR.rotation.x = 0;
-          this.root.position.y = 0;
-          const done = w.res;
-          this.walking = null;
-          done();
-        }
-      }
-    }
-  }
-}
-
 /**
- * Avatares GLB rigados (humanoid Mixamo-style, ex.: paciente_real.glb "Eric Rigged").
- * As poses semiológicas usam ângulos calibrados por scripts/calibrate_rig.mjs
- * (src/data/rigParams.json) aplicados por bone com lerp suave — sem clips embutidos.
- * Contrato: enter/leave/setPose/setMood/update/setStyle — mesmo do procedural.
+ * Avatares GLB do elenco (Tencent/Hunyuan3D; a Ana rigged traz clips Mixamo
+ * Walk/Idle — os demais são meshes estáticos que deslizam no walk).
+ * As poses por bones valem só para rigs calibrados em src/data/rigParams.json
+ * (nomes Eric: upperleg_l_074…; rigs Mixamo usam os clips embutidos via mixer —
+ * o fix +90°X do Hips foi assado no GLB por mixamo-fix).
+ * Contrato: enter/leave/setPose/setMood/update/setStyle.
+ * Sem fallback procedural: falha de load/parse propaga (para corrigir o asset).
  */
 import rigParams from '../data/rigParams.json' with { type: 'json' };
 
@@ -335,38 +26,99 @@ const BONE_POSES = {
 };
 
 export async function loadGLBFPatient(url, scene) {
-  const gltf = await new GLTFLoader().loadAsync(url);
+  // Usa o loader compartilhado com MeshoptDecoder: GLBs do elenco saem do
+  // optimize_model.mjs com EXT_meshopt_compression (required).
+  let gltf;
+  try {
+    gltf = await createGLTFLoader().loadAsync(url);
+  } catch (err) {
+    console.error(`[patient] FALHA ao carregar GLB: ${url}`, err);
+    throw err;
+  }
   const inner = gltf.scene;
-  const box = new THREE.Box3().setFromObject(inner);
-  const size = box.getSize(new THREE.Vector3());
-  const scale = 1.72 / Math.max(size.y, 1e-4);
+  // Tencent sai Z-up (pé em -Z). Se a altura estiver em Z, rotaciona p/ Y-up
+  // antes de normalizar — senão size.y é a profundidade e o scale explode
+  // (só o pé gigante na câmera).
+  let box = new THREE.Box3().setFromObject(inner);
+  let size = box.getSize(new THREE.Vector3());
+  if (size.z > size.y && size.z >= size.x) {
+    inner.rotation.x = -Math.PI / 2;
+    inner.updateMatrixWorld(true);
+    box.setFromObject(inner);
+    size = box.getSize(new THREE.Vector3());
+  }
+  const h = Math.max(size.y, 1e-4);
+  const scale = 1.72 / h;
+  // Mixamo sai em cm (186u → scale ~0.009). Clamp só p/ caught bugs reais.
+  if (!Number.isFinite(scale) || scale < 1e-3 || scale > 200) {
+    console.error(`[patient] escala absurda (${scale.toFixed(3)}) para ${url} — size`, size.toArray());
+    throw new Error(`scale out of range: ${scale}`);
+  }
+  console.log(`[patient] ${url} size=${size.toArray().map((v) => v.toFixed(3))} scale=${scale.toFixed(3)}`);
   inner.scale.setScalar(scale);
-  box.setFromObject(inner);
+  inner.updateMatrixWorld(true);
+  box = new THREE.Box3().setFromObject(inner);
   const center = box.getCenter(new THREE.Vector3());
   inner.position.x -= center.x;
   inner.position.z -= center.z;
   inner.position.y = -box.min.y;
 
-  // Sombras + material do paciente — LEGADO realista (sheen fake-SSS / clearcoat).
-  // Ao entrar o asset estilizado, simplificar: roughness ~0.55, sem sheen/clearcoat.
-  // Ver docs/DIRETRIZES_ARTE_ESTILIZADA.md §3.
+  // Animações embutidas (ex.: Ana Mixamo Walk/Idle): mixer com crossfade.
+  const mixer = (gltf.animations && gltf.animations.length) ? new THREE.AnimationMixer(inner) : null;
+  const clips = {};
+  if (mixer) {
+    for (const clip of gltf.animations) {
+      const nm = clip.name.toLowerCase();
+      const slot = /idle/.test(nm) ? 'idle' : /walk/.test(nm) ? 'walk' : null;
+      if (slot && !clips[slot]) clips[slot] = mixer.clipAction(clip);
+    }
+    if (clips.idle) clips.idle.play();
+  }
+  const playClip = (slot) => {
+    const to = clips[slot];
+    if (!to || to.isRunning()) return;
+    to.reset().play();
+    const from = Object.values(clips).find((a) => a.isRunning() && a !== to);
+    if (from) to.crossFadeFrom(from, CROSSFADE_S, true);
+  };
+
+  // Cadência × velocidade (sem foot slide): o avanço POR LOOP do clip é gravado
+  // pelo pipeline offline em asset.extras.walkAdvance (sem constante mágica;
+  // fallback só p/ GLBs legacy). A cadência é acelerada até a velocidade real
+  // do deslocamento; o tween do root usa a MESMA velocidade → pé plantado não
+  // desliza.
+  // velocidade alvo lida do ASSET (gravada pelo pipeline em extras.walkSpeed;
+  // fallback 1.3 só p/ GLBs legacy — juiz: "sem hardcoded no runtime")
+  const WALK_V = Number(gltf.asset?.extras?.walkSpeed) > 0 ? Number(gltf.asset.extras.walkSpeed) : 1.3;
+  if (clips.walk) {
+    const advance = Number(gltf.asset?.extras?.walkAdvance) > 0 ? Number(gltf.asset.extras.walkAdvance) : 0.894;
+    const vClip = advance / clips.walk.getClip().duration;
+    clips.walk.timeScale = WALK_V / vClip;
+    console.log(`[patient] walk: cadência ×${(WALK_V / vClip).toFixed(2)} (clip ${vClip.toFixed(2)} m/s → ${WALK_V} m/s; advance ${advance} m/loop)`);
+  }
+  // (v7) O corpo anda 100% PLANO (translação do Hips pinada no clip pelo
+  // pipeline) — sem bob manual: nada além de pernas/braços/mãos mexe.
+  let walkCalib = null; // calibração de solo DO WALK (pé de contato toca y=0)
+  let bobBaseY = null;  // altura base durante o walk (âncora = ground-fix quando pronto)
+  let walkDropAtual = 0; // drop suavizado (casado com o crossfade — sem "pulo")
+
   inner.traverse((o) => {
     if (!o.isMesh && !o.isSkinnedMesh) return;
     o.castShadow = true;
-    o.frustumCulled = false; // skinned mesh some se o bounding não acompanha bones
+    o.frustumCulled = false;
     if (!o.material) return;
     const nm = (o.material.name || '').toLowerCase();
     if (/skin/.test(nm)) {
       const up = new THREE.MeshPhysicalMaterial({
         map: o.material.map, color: o.material.color?.clone() ?? new THREE.Color(1, 1, 1),
         roughness: 0.62, metalness: 0, sheen: 0.5, sheenRoughness: 0.6,
-        sheenColor: new THREE.Color(0xffe0c0), skinning: true,
+        sheenColor: new THREE.Color(0xffe0c0),
       });
       o.material = up;
     } else if (/eye/.test(nm)) {
       const up = new THREE.MeshPhysicalMaterial({
         map: o.material.map, color: o.material.color?.clone() ?? new THREE.Color(1, 1, 1),
-        roughness: 0.15, metalness: 0, clearcoat: 1, clearcoatRoughness: 0.1, skinning: true,
+        roughness: 0.15, metalness: 0, clearcoat: 1, clearcoatRoughness: 0.1,
       });
       o.material = up;
     }
@@ -374,27 +126,35 @@ export async function loadGLBFPatient(url, scene) {
     o.material.opacity = 1;
   });
 
-  // Rim light frio atrás do paciente (perfil contra o fundo escuro)
   const rim = new THREE.PointLight(0x8fb6ff, 0.9, 4.5);
 
-  // Pacote completo (paciente + rim) dentro de um grupo de posicionamento
   const root = new THREE.Group();
   root.add(inner);
   root.add(rim);
   scene.add(root);
 
-  // Mapa de bones por nome
   const bones = new Map();
-  inner.traverse((o) => { if (o.isBone) bones.set(o.name, o); });
-  const restEuler = new Map(); // euler de repouso por bone
-  const curRot = new Map();    // euler extra atual (interpolação)
+  const animNodes = new Set();
+  if (gltf.animations) {
+    for (const clip of gltf.animations) {
+      for (const tr of clip.tracks) {
+        const n = tr.name.split('.')[0];
+        if (n) animNodes.add(n);
+      }
+    }
+  }
+  inner.traverse((o) => {
+    if (!o.name) return;
+    if (o.isBone || animNodes.has(o.name)) bones.set(o.name, o);
+  });
+  const restEuler = new Map();
+  const curRot = new Map();
   for (const [name, b] of bones) {
     restEuler.set(name, b.rotation.clone());
     curRot.set(name, new THREE.Euler());
   }
   const B = (n) => bones.get(n);
 
-  // Materiais para tint de roupa (setStyle): clones por nome
   const tintables = [];
   inner.traverse((o) => {
     if (!o.isSkinnedMesh && !o.isMesh) return;
@@ -404,17 +164,16 @@ export async function loadGLBFPatient(url, scene) {
     tintables.push(o.material);
   });
 
-  // Estado interno
   let poseName = 'idle';
-  let poseRot = {};                      // boneName -> target Euler extra
+  let poseRot = {};
   let mood = 'neutro';
-  let walking = null;                    // { from, to, dur, t, res }
-  let blinkT = 2;                        // countdown p/ piscar
-  let blinkAnim = 0;                     // 0..1 durante a piscada
+  let walking = null;
+  let blinkT = 2;
+  let blinkAnim = 0;
   const speak = { active: false, t: 0, phase: 0 };
   const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const CROSSFADE_S = 0.25; // s — fade entre clips (casado com o lerp do walk-drop)
 
-  // Sombra de contato (elipse suave sob os pés)
   const contactTex = (() => {
     const c = document.createElement('canvas'); c.width = c.height = 128;
     const g = c.getContext('2d');
@@ -431,12 +190,10 @@ export async function loadGLBFPatient(url, scene) {
   contact.position.y = 0.012;
   root.add(contact);
 
-  // Aplica calibração: resolve eixos (rigParams guarda o euler add por bone)
   function computeTargets() {
     const fn = BONE_POSES[poseName] || BONE_POSES.idle;
     poseRot = fn(rigParams);
     if (mood === 'dolorido') {
-      // sobrancelha franzida: soma o yaw "dor" levemente
       for (const n of ['eyebrow_l_021', 'eyebrow_r_022']) {
         const b = B(n);
         if (b) poseRot[n] = poseRot[n] || [0, 0, poseName === 'idle' ? 0.18 : 0.12];
@@ -445,8 +202,28 @@ export async function loadGLBFPatient(url, scene) {
   }
   computeTargets();
 
-  // Expediente extra: TTS hooka nisto via window.__patientSpeak
+  // Aliases: rig Eric + rigs simples (GLBs com legL/legR/torso, p/ sem isBone).
+  const pickWalk = (names) => {
+    for (const n of names) {
+      if (B(n)) return n;
+    }
+    return null;
+  };
+
+  // Calibração de solo (rigs com clips): o Box3 da normalização mede a pose de
+  // BIND da geometria, mas os clips posicionam os pés alguns cm abaixo/acima.
+  // Estratégia: medir APENAS PARADO (nunca durante o walk — pé em swing daria
+  // valor errado), o mínimo dos toe-bases numa janela de ~0,7 s de idle, e
+  // assentar suavemente. Auto-corretivo para qualquer clip futuro.
+  const toeBones = [
+    B('mixamorigLeftToeBase'), B('mixamorigRightToeBase'),
+    B('LeftToeBase'), B('RightToeBase'),
+  ].filter(Boolean);
+  const groundFix = mixer && toeBones.length ? { parado: 0, min: Infinity, done: false, alvo: 0 } : null;
+  const _gv = new THREE.Vector3();
+
   const api = {
+    get root() { return root; },
     setMood(m) { mood = m || 'neutro'; computeTargets(); },
     setPose(name) {
       if (!BONE_POSES[name] && poseName === name) return;
@@ -465,58 +242,52 @@ export async function loadGLBFPatient(url, scene) {
         if (col != null && m.color) m.color.set(col);
       }
     },
-    // TTS chama início/fim de fala: acena com a cabeça enquanto "fala"
     speakStart() { speak.active = true; speak.t = 0; },
     speakEnd() { speak.active = false; },
     async enter(aparencia) {
       this.setStyle(aparencia || {});
       this.setPose('idle');
       root.visible = true;
-      return this.walk(new THREE.Vector3(2.6, 0, -4.6), new THREE.Vector3(0, 0, 0.55), 2.2);
+      root.rotation.set(0, 0, 0);
+      // faceEnd: no fim da chegada encara a câmera (não deixa "torta"/deitada no balcão)
+      return this.walk(new THREE.Vector3(2.6, 0, -4.6), new THREE.Vector3(0, 0, 0.55), 2.2, true);
     },
     async leave() {
-      await this.walk(new THREE.Vector3(0, 0, 0.55), new THREE.Vector3(2.6, 0, -4.6), 1.8);
+      await this.walk(new THREE.Vector3(0, 0, 0.55), new THREE.Vector3(2.6, 0, -4.6), 1.8, false);
       root.visible = false;
     },
-    walk(from, to, dur) {
-      return new Promise((res) => { walking = { from, to, dur, t: 0, res }; root.position.copy(from); });
+    walk(from, to, dur, faceEnd = false) {
+      return new Promise((res) => {
+        const yaw = Math.atan2(to.x - from.x, to.z - from.z) || 0;
+        root.rotation.set(0, yaw, 0);
+        // com clip de walk: duração pela distância na velocidade da cadência
+        if (mixer && clips.walk) dur = Math.min(12, Math.max(1.2, from.distanceTo(to) / WALK_V));
+        walking = { from, to, dur, t: 0, res, yaw, faceEnd };
+        if (mixer) {
+          bobBaseY = groundFix && groundFix.done ? groundFix.alvo : inner.position.y;
+          // se a base mudou (ex.: ground-fix completou entre um walk e outro),
+          // recalibra o drop do walk na próxima caminhada
+          if (walkCalib && walkCalib.baseY !== bobBaseY) { walkCalib = null; walkDropAtual = 0; }
+        }
+        root.position.copy(from);
+        if (mixer) playClip('walk');
+      });
     },
     getModel: () => inner,
-    update(dt, t) {
-      // -------- caminhada --------
-      if (walking) {
-        const w = walking;
-        w.t += dt;
-        const p = Math.min(1, w.t / w.dur);
-        const e = p * p * (3 - 2 * p);
-        root.position.lerpVectors(w.from, w.to, e);
-        root.rotation.y = Math.atan2(w.to.x - w.from.x, w.to.z - w.from.z) || 0;
-        // passo cíclico nas pernas (eixo calibrado em rigParams.walk)
-        if (!reduceMotion) {
-          const step = Math.sin(w.t * 7);
-          const legL = B('upperleg_l_074'), legR = B('upperleg_r_081');
-          const shinL = B('lowerleg_l_075'), shinR = B('lowerleg_r_082');
-          const wl = rigParams.walk.upperleg_l_074;
-          const wr = rigParams.walk.upperleg_r_081;
-          if (legL) curRot.get('upperleg_l_074').set(wl[0] * step * 0.5, wl[1] * step * 0.5, wl[2] * step * 0.5);
-          if (legR) curRot.get('upperleg_r_081').set(wr[0] * step * 0.5, wr[1] * step * 0.5, wr[2] * step * 0.5);
-          const bend = Math.max(0, -step) * 0.9;
-          if (shinL && curRot.get('lowerleg_l_075')) curRot.get('lowerleg_l_075').z = bend * Math.abs(rigParams.walk.lowerleg_l_075[2]);
-          if (shinR && curRot.get('lowerleg_r_082')) curRot.get('lowerleg_r_082').z = bend * -Math.abs(rigParams.walk.lowerleg_l_075[2]);
-          root.position.y = Math.abs(Math.sin(w.t * 7)) * 0.02;
-        }
-        if (p >= 1) {
-          const done = w.res; walking = null; root.position.y = 0; root.rotation.y = 0;
-          // zera rotação de passo
-          for (const n of ['upperleg_l_074', 'upperleg_r_081', 'lowerleg_l_075', 'lowerleg_r_082'])
-            curRot.get(n)?.set(0, 0, 0);
-          done();
-        }
-        return; // durante o walk não interpola pose nem muda resto
-      }
-
-      // -------- interpolação de pose (lerp dos eulers calibrados) --------
+    // Pose do rig + swing de pernas no walk. Roda durante walking e em idle
+    // (antes o early-return congelava a pose → deslizo/pose torta na chegada).
+    applyBones(dt, t) {
+      const walkingNow = !!walking;
       const k = Math.min(1, dt * 3.2);
+      if (mixer) {
+        // Mixer cuida de Idle/Walk (clip in-place). Só sobrepõe o swing quando o
+        // rig não tem clip de walk e o "falar" (cabeça) durante a fala no chat.
+        // swing procedural de pernas só p/ rigs SEM clip de walk (com clip,
+        // sobrescreveria a animação do mixer — juiz #6)
+        if (walkingNow && !reduceMotion && !clips.walk) this.applyLegSwing(walking.t);
+        if (speak.active && !reduceMotion) this.applySpeak(t);
+        return;
+      }
       for (const [name] of bones) {
         const tgt = poseRot[name] || [0, 0, 0];
         const c = curRot.get(name);
@@ -527,45 +298,176 @@ export async function loadGLBFPatient(url, scene) {
         const r = restEuler.get(name);
         b.rotation.set(r.x + c.x, r.y + c.y, r.z + c.z);
       }
-
-      // -------- vida: respiração, piscar, olhar --------
-      if (!reduceMotion) {
-        const br = Math.sin(t * 2.0) * 0.012;
-        const sp2 = B('spine_03_05'); if (sp2) sp2.rotation.x += br;
-        const hd = B('head_07'); if (hd) hd.rotation.z += Math.sin(t * 0.9) * 0.006;
-
-        // piscar (eyelid: eixo calibrado = Z é o dominante)
-        blinkT -= dt;
-        if (blinkT <= 0) { blinkT = 2.4 + Math.random() * 2.6; blinkAnim = 0.14; }
-        if (blinkAnim > 0) {
-          blinkAnim -= dt;
-          const s = Math.abs(Math.sin((0.14 - blinkAnim) * 40));
-          const bl = B('eyelid_l_017'), brr = B('eyelid_r_019');
-          const amp = s * 0.55; // rad estimado p/ cobrir
-          if (bl) bl.rotation.z += amp;
-          if (brr) brr.rotation.z -= amp;
-        }
-
-        // fala: leve nod da cabeça + micro yaw enquanto TTS fala
-        if (speak.active) {
-          speak.t += dt;
-          const nod = Math.sin(speak.t * 6.4) * 0.045;
-          const sway = Math.sin(speak.t * 0.7) * 0.04;
-          if (hd) { hd.rotation.x += nod; hd.rotation.y += sway; }
+      if (walkingNow && !reduceMotion) this.applyLegSwing(walking.t);
+      if (reduceMotion) return;
+      const br = Math.sin(t * 2.0) * 0.012;
+      const sp2 = B('spine_03_05') || B('spine');
+      if (sp2) sp2.rotation.x += br;
+      const hd = B('head_07') || B('head');
+      if (hd) hd.rotation.z += Math.sin(t * 0.9) * 0.006;
+      blinkT -= dt;
+      if (blinkT <= 0) { blinkT = 2.4 + Math.random() * 2.6; blinkAnim = 0.14; }
+      if (blinkAnim > 0) {
+        blinkAnim -= dt;
+        const s = Math.abs(Math.sin((0.14 - blinkAnim) * 40));
+        const bl = B('eyelid_l_017'), brr = B('eyelid_r_019');
+        const amp = s * 0.55;
+        if (bl) bl.rotation.z += amp;
+        if (brr) brr.rotation.z -= amp;
+      }
+      if (speak.active) {
+        speak.t += dt;
+        const nod = Math.sin(speak.t * 6.4) * 0.045;
+        const sway = Math.sin(speak.t * 0.7) * 0.04;
+        if (hd) { hd.rotation.x += nod; hd.rotation.y += sway; }
+      }
+    },
+    // Fala: micro-nod de cabeça/pescoço sincronizado com o TTS. O asset ainda
+    // não tem morph targets de boca (boca articulada = blendshape no pipeline
+    // futuro); o nod por cima do clip é a aproximação atual.
+    applySpeak(t) {
+      // GLTFLoader sanitiza nodes ("mixamorig:Head" → "mixamorigHead" — o ':' é
+      // REMOVIDO, não trocado). Cobre as grafias + rigs Eric legados.
+      const hd = B('mixamorigHead') || B('mixamorig_Head') || B('mixamorig:Head') || B('head_07') || B('head');
+      const nk = B('mixamorigNeck') || B('mixamorig_Neck') || B('mixamorig:Neck') || B('neck_06');
+      const nod = Math.sin(t * 7.3) * 0.035 + Math.sin(t * 13.1) * 0.012;
+      if (hd) {
+        hd.rotation.x += nod;
+        hd.rotation.y += Math.sin(t * 1.9) * 0.02;
+      }
+      if (nk) nk.rotation.x += nod * 0.6;
+    },
+    applyLegSwing(wt) {
+      const step = Math.sin(wt * 7);
+      const legL = pickWalk(['upperleg_l_074', 'legL']);
+      const legR = pickWalk(['upperleg_r_081', 'legR']);
+      const shinL = pickWalk(['lowerleg_l_075', 'shinL']);
+      const shinR = pickWalk(['lowerleg_r_082', 'shinR']);
+      const wl = rigParams.walk.upperleg_l_074;
+      const wr = rigParams.walk.upperleg_r_081;
+      const bend = Math.max(0, -step) * 0.9;
+      const shinAmp = Math.abs(rigParams.walk.lowerleg_l_075[2]);
+      if (legL) {
+        const b = B(legL), r = restEuler.get(legL);
+        b.rotation.set(r.x + wl[0] * step * 0.5, r.y + wl[1] * step * 0.5, r.z + wl[2] * step * 0.5);
+      }
+      if (legR) {
+        const b = B(legR), r = restEuler.get(legR);
+        b.rotation.set(r.x + wr[0] * step * 0.5, r.y + wr[1] * step * 0.5, r.z + wr[2] * step * 0.5);
+      }
+      if (shinL) {
+        const b = B(shinL), r = restEuler.get(shinL);
+        b.rotation.set(r.x, r.y, r.z + bend * shinAmp);
+      }
+      if (shinR) {
+        const b = B(shinR), r = restEuler.get(shinR);
+        b.rotation.set(r.x, r.y, r.z - bend * shinAmp);
+      }
+    },
+    update(dt, t) {
+      if (mixer) mixer.update(dt);
+      if (groundFix && !groundFix.done) {
+        if (!walking) {
+          groundFix.parado += dt;
+          let minY = Infinity;
+          for (const b of toeBones) { b.getWorldPosition(_gv); minY = Math.min(minY, _gv.y); }
+          if (Number.isFinite(minY)) groundFix.min = Math.min(groundFix.min, minY);
+          if (groundFix.parado >= 0.7) {
+            const m = groundFix.min;
+            if (Number.isFinite(m) && Math.abs(m) < 0.4 && Math.abs(m) > 0.002) {
+              groundFix.alvo = inner.position.y - m; // assenta o pé no chão
+              groundFix.aplicando = true;
+              console.log(`[patient] ground-fix: idle toes minY=${m.toFixed(3)} m → ajuste ${(-m).toFixed(3)} m`);
+            } else {
+              console.log(`[patient] ground-fix: dispensado (toes minY=${Number.isFinite(m) ? m.toFixed(3) : 'n/a'})`);
+            }
+            groundFix.done = true;
+          }
+        } else {
+          groundFix.parado = 0; // reinicia a janela: só conta idle parado
         }
       }
+      if (groundFix && groundFix.done && groundFix.aplicando) {
+        // assenta suavemente (~0,3 s) para não dar "pulo" visível
+        inner.position.y += (groundFix.alvo - inner.position.y) * Math.min(1, dt * 4);
+        if (Math.abs(groundFix.alvo - inner.position.y) < 0.0005) {
+          groundFix.aplicando = false;
+        }
+      }
+      if (groundFix && groundFix.done && !groundFix.aplicando) {
+        // calibração de solo concluída (o bob do walk captura a própria base)
+      }
+      root.rotation.x = 0;
+      root.rotation.z = 0;
+      if (walking) {
+        const w = walking;
+        w.t += dt;
+        const p = Math.min(1, w.t / w.dur);
+        const e = p * p * (3 - 2 * p);
+        root.position.lerpVectors(w.from, w.to, e);
+        // Solo do WALK — CALIBRAÇÃO ITERATIVA: mede o pé de CONTATO em janelas
+        // pós-crossfade (0,4–2,8 s) e corrige o drop incrementalmente até o pé
+        // tocar y≈0 (a 1ª medição durante o crossfade dava valor transiente →
+        // ela "andava por cima" com o drop curto — PO 24/09).
+        if (mixer && bobBaseY !== null) {
+          if (!walkCalib) walkCalib = { t: -0.4, minToe: Infinity, janela: 0, drop: 0, baseY: bobBaseY };
+          const t0 = 0.4 + walkCalib.janela * 0.8; // início da janela (s)
+          const t1 = t0 + 0.8;
+          if (!walkCalib.done) {
+            if (w.t >= t0) {
+              if (walkCalib.t < t0) walkCalib.t = t0; // (re)inicia contagem da janela
+              walkCalib.t += dt;
+              let m2 = Infinity;
+              for (const b of toeBones) { b.getWorldPosition(_gv); m2 = Math.min(m2, _gv.y); }
+              if (Number.isFinite(m2)) walkCalib.minToe = Math.min(walkCalib.minToe, m2);
+              if (walkCalib.t >= t1) {
+                const corr = -walkCalib.minToe; // quanto falta subir/descer
+                walkCalib.drop += corr;
+                console.log(`[patient] walk-calib janela ${walkCalib.janela + 1}: toeMin=${Number.isFinite(walkCalib.minToe) ? walkCalib.minToe.toFixed(3) : 'n/a'} → drop agora ${walkCalib.drop.toFixed(3)} m`);
+                walkCalib.janela++;
+                walkCalib.minToe = Infinity;
+                if (!Number.isFinite(corr) || Math.abs(corr) < 0.01 || walkCalib.janela >= 4) walkCalib.done = true;
+              }
+            }
+          }
+          // drop suavizado na mesma escala do crossfade (sem "pulo" na transição)
+          walkDropAtual += (walkCalib.drop - walkDropAtual) * Math.min(1, dt * 4);
+          inner.position.y = bobBaseY + walkDropAtual;
+        }
+        // Últimos 30% do trajeto: blend do yaw de caminhada → face da câmera
+        // (evita snap duro = "deitada"/girada seca na chegada).
+        const tFace = w.faceEnd && p > 0.7 ? (p - 0.7) / 0.3 : 0;
+        const yawTgt = w.yaw + (0 - w.yaw) * tFace;
+        const kRot = Math.min(1, dt * 6);
+        root.rotation.y += (yawTgt - root.rotation.y) * kRot;
+        // hop só p/ rigs SEM clip (o clip Walk tem bob próprio no Hips)
+        if (!reduceMotion && !mixer) root.position.y = Math.abs(Math.sin(w.t * 7)) * 0.02;
+        if (p >= 1) {
+          const done = w.res;
+          walking = null;
+          root.position.y = 0;
+          if (mixer && bobBaseY !== null) {
+            inner.position.y = groundFix && groundFix.done ? groundFix.alvo : bobBaseY;
+          }
+          if (w.faceEnd) root.rotation.y = 0;
+          if (mixer) playClip('idle');
+          done();
+        }
+      } else if (!reduceMotion) {
+        root.rotation.y += (0 - root.rotation.y) * Math.min(1, dt * 4);
+      }
+      this.applyBones(dt, t);
     },
     get _speakHook() { return (on) => (on ? api.speakStart() : api.speakEnd()); },
   };
 
-  // Integra fala do TTS se existir
   try {
     import('../audio/tts.js').then(({ TTS }) => {
       if (TTS && typeof TTS.hookSpeak === 'function') TTS.hookSpeak(api._speakHook);
-    }).catch(() => {});
-  } catch { /* opcional */ }
+    }).catch((e) => console.error('[patient] TTS hook', e));
+  } catch (e) { console.error('[patient] TTS hook', e); }
 
-  rim.position.set(0.6, 2.2, -1.2); // atrás do paciente (no balcão)
+  rim.position.set(0.6, 2.2, -1.2);
   root.visible = false;
   return api;
 }

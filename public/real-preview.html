@@ -6,7 +6,7 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 const qs=new URLSearchParams(location.search);
-const name=qs.get('m')||'paciente_real';
+const name=qs.get('m')||'ana_coriza';
 const poseKey=qs.get('pose')||'idle';
 const canvas=document.getElementById('c');
 const renderer=new THREE.WebGLRenderer({canvas,antialias:true,preserveDrawingBuffer:true});

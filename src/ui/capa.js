@@ -84,4 +84,11 @@ export function initCapa() {
       }
     }
   }
+
+  // Sinal de prontidão da capa (gate de boot em scripts/qa_boot.mjs): marca no documento
+  // que os listeners estão instalados — antes disso o 1º clique do jogador cairia no vazio.
+  // O carimbo de tempo é medido na própria página (o polling do harness fica faminto
+  // durante a inicialização da cena e não serve para medir boot).
+  document.documentElement.dataset.capaPronta = '1';
+  document.documentElement.dataset.capaProntaMs = String(Math.round(performance.now()));
 }

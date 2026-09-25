@@ -1,7 +1,7 @@
 {
   "name": "farmacheck-web",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "FarmaCheck — O Desafio da Anamnese (simulador web 3D de farmácia com IA llama.cpp)",
   "type": "module",
   "scripts": {
@@ -9,8 +9,12 @@
     "build": "vite build",
     "preview": "vite preview --port 4173",
     "start": "vite",
+    "serve": "node server/index.mjs",
     "voicegen": "node scripts/voicegen.mjs",
-    "check": "node --check src/main.js && node --check src/core/game.js && node --check src/scene/patient.js"
+    "check": "node scripts/check-syntax.mjs",
+    "qa": "node scripts/farmacheck_qa.mjs",
+    "qa:boot": "node scripts/qa_boot.mjs",
+    "verify": "npm run check && npm run build"
   },
   "dependencies": {
     "three": "^0.169.0"

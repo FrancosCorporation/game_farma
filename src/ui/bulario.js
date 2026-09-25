@@ -5,9 +5,9 @@ import { SFX } from '../audio/sfx.js';
 const $ = (id) => document.getElementById(id);
 
 const DIRETRIZES_FIXAS = [
-  'MIPs: orientar dose, horário e duração máxima (reavaliar em até 3–5 dias sem melhora).',
-  'Sinais de alarme (febre persistente, sangramento, dor intensa, vômitos) → encaminhar à urgência.',
-  'Suspeita de arbovirose: evitar AAS e anti-inflamatórios — risco de sangramento e quadro hemorrágico.',
+  () => t('bulario.dir1'),
+  () => t('bulario.dir2'),
+  () => t('bulario.dir3'),
 ];
 
 export function initBulario({ game, aoFechar }) {
@@ -31,7 +31,7 @@ export function initBulario({ game, aoFechar }) {
       h(t('bulario.prateleira')),
       ...caso.prateleira.map((p) => card(`<b>${p.nome}</b>`)),
       h(t('bulario.diretrizes')),
-      ...DIRETRIZES_FIXAS.map((d) => card(`<span class="text-xs leading-relaxed">${d}</span>`)),
+      ...DIRETRIZES_FIXAS.map((d) => card(`<span class="text-xs leading-relaxed">${d()}</span>`)),
     ].filter(Boolean).join('');
   }
 

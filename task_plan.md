@@ -1,5 +1,36 @@
 # task_plan.md — FarmaCheck: arte estilizada + pipeline de personagens
 
+## Retomada atual — 21/09/2026
+
+Pedido: tornar o jogo 3D existente utilizável, corrigindo bloqueios verificáveis.
+Este bloco é o plano atual; os registros abaixo são históricos, não indicam processos em execução hoje.
+
+| # | Item | Status | Evidência |
+|---|------|--------|-----------|
+| 1 | Auditoria de código/execução/assets | **COMPLETE** | `findings.md` §21/09 |
+| 2 | Corrigir bloqueios de boot (capa morta ~10 s, three.js na entry, entrada em cena travando o chat, debriefing podendo não aparecer) | **COMPLETE** | `progress.md` §21/09 (capa 258 ms, cena 825 ms) |
+| 3 | Testes reproduzíveis + build/servidor/API | **COMPLETE** | `npm run check` (51 arq.), `qa:boot` 10/10 desktop+celular, `POST /api/case/next` 200 |
+| 4 | Documentação de execução (dev/build/docker/testes) | **COMPLETE** | `README.md`, `docker-compose.yml`, Dockerfile |
+| 5 | QA completo do fluxo (decisão → debriefing) | **EM ANDAMENTO** | `npm run qa` (`/tmp/farma-qa2.log`) |
+
+Restrições respeitadas: alterações preexistentes em `public/models/ana.glb`, a remoção de
+`public/models/ana_hq_wired.glb` e `3d_free.md` foram preservadas; nenhum serviço de IA/infra foi
+alterado e nada foi publicado em produção.
+
+### Pendências que NÃO são bloqueio de jogar (arte/conteúdo, para o PO decidir)
+- Substituição "em leva" do elenco estilizado (Fase H do plano antigo) — os GLB atuais são legado
+  realista/procedural; `ana.glb` está com alterações locais do PO.
+- Validação clínica dos 11 casos pela PO (Jhuly) antes de congelar conteúdo.
+- Voz/LLM em tempo real: o jogo roda em modo plantão determinístico sem `llama-server` na 8081.
+- **Assets mortos pesando no deploy** (`public/models/`, copiados para `dist/`):
+  `_raw_paulo.glb` 48 MB, `_raw_clara.glb` 47 MB, `trellis_ana_pbr_new.glb` 44 MB,
+  `trellis_ana_pbr.glb` 23 MB — nenhum é referenciado pelo jogo (o caso usa `models/<caseId>.glb`
+  e o boot usa `paciente_real.glb`). São intermediários de pipeline (~165 MB dos 337 MB da pasta).
+  Mover para fora do `public/` (ou apagar, já versionados em git) reduz o deploy ~50%.
+- `usedChips` em `src/core/game.js` nunca é preenchido (chips permanecem após uso) — comportamento
+  atual inofensivo, mas se a intenção era consumir o chip após a pergunta, é um ajuste de 1 linha.
+
+
 > **Atualizado:** 14/09/2026 (sessão opencode)
 > **Objetivo geral:** migrar o FarmaCheck para a direção **3D estilizado casual mobile (Pixar/Disney)**
 > e substituir o elenco legado (realista/procedural) por personagens gerados no pipeline

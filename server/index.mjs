@@ -61,8 +61,17 @@ const server = createServer(async (req, res) => {
     path = join(ROOT, 'index.html'); // SPA fallback
   }
   try {
+    const f = await stat(path);
+    const ext = extname(path);
+    // Cache: assets com hash de build são imutáveis; o resto (html/glb/sons) revalida.
+    const hashed = /-[A-Za-z0-9_]{8,}\.[a-z]+$/i.test(path.split('/').pop() || '');
+    const cache = (ext === '.js' || ext === '.css') && hashed
+      ? 'public, max-age=31536000, immutable'
+      : 'no-cache';
+    const lm = f.mtime.toUTCString();
+    if (req.headers['if-modified-since'] === lm) { res.writeHead(304, { 'Cache-Control': cache }); res.end(); return; }
     const data = await readFile(path);
-    res.writeHead(200, { 'Content-Type': MIME[extname(path)] || 'application/octet-stream' });
+    res.writeHead(200, { 'Content-Type': MIME[ext] || 'application/octet-stream', 'Cache-Control': cache, 'Last-Modified': lm });
     res.end(data);
   } catch {
     res.writeHead(404);

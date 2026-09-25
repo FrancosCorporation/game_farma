@@ -3,7 +3,7 @@
 <script type="module">
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-new GLTFLoader().load('models/paciente_real.glb',(g)=>{
+new GLTFLoader().load('models/ana_coriza.glb',(g)=>{
   const bones={}; g.scene.traverse(o=>{if(o.isBone&&o.name)bones[o.name]=o;});
   const LA=bones['J_Bip_L_UpperArm'];
   const hand=bones['J_Bip_L_Hand'];

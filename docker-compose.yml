@@ -1,0 +1,18 @@
+# FarmaCheck — sobe o jogo (build estático + API do Expediente Livre) em um container.
+#   docker compose up --build      → http://localhost:4174
+# O server do repo serve dist/ e expõe POST /api/case/next (modo Expediente Livre).
+#
+# ⚠️  Não use o nome `game_farma` para o container: esse nome pertence ao deploy de
+# produção (base_fundation + Caddy, sem porta publicada). Este compose é o ambiente
+# local de desenvolvimento/teste e usa `game_farma_local`.
+services:
+  game:
+    build: .
+    image: game_farma:local
+    container_name: game_farma_local
+    ports:
+      - "4174:3000"
+    environment:
+      PORT: "3000"
+      HOST: "0.0.0.0"
+    restart: unless-stopped

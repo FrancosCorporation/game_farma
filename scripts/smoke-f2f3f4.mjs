@@ -1,6 +1,6 @@
 // Smoke F2/F3/F4 — navegação por pontos de interesse, TLAC completo na Carla e DSF emitida.
-// Uso: node scripts/smoke-f2f3f4.mjs  (requer `npm run preview` na porta 4173 ou SMOKE_URL)
-import { chromium } from 'file:///home/servidor/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/index.mjs';
+// Uso: node scripts/smoke-f2f3f4.mjs  (requer o jogo servido — `npm run preview` na 4173 ou SMOKE_URL)
+import { chromium } from 'playwright';
 
 const BASE = process.env.SMOKE_URL || 'http://localhost:4173/';
 const falhas = [];

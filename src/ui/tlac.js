@@ -95,7 +95,7 @@ export function initTlac({ game, aoFechar }) {
       elTipo.textContent = '';
       renderNaoIndicado();
     } else {
-      elTipo.textContent = `🧪 ${tr.tipo} — kit disponível na bandeja`;
+      elTipo.textContent = `🧪 ${tr.tipo} — ${t('tlac.kit')}`;
       renderPassos();
     }
     painel.hidden = false;

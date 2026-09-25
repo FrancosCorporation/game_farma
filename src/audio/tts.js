@@ -18,6 +18,8 @@ function splitChunks(text, max = 180) {
   return out;
 }
 
+import { getLang } from '../ui/i18n.js';
+
 function hash(s) {
   let h = 5381;
   for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) | 0;
@@ -40,12 +42,22 @@ export const TTS = {
     if (!('speechSynthesis' in window)) return;
     const pick = () => {
       const vs = speechSynthesis.getVoices();
-      this.voice = vs.find((v) => /pt[-_]BR/i.test(v.lang)) || vs.find((v) => /^pt/i.test(v.lang)) || null;
+      this.voices = vs;
+      this.voice = this._voiceFor(vs);
     };
     // getVoices() pode bloquear alguns segundos em ambientes sem backend de voz
     // (ex.: Chromium headless) — a leitura é adiada para não travar o boot do jogo.
     speechSynthesis.addEventListener('voiceschanged', pick);
     setTimeout(pick, 0);
+  },
+
+  // Voz nativa coerente com o idioma da UI (EN → voz en-US; PT → pt-BR).
+  _voiceFor(vs = this.voices || speechSynthesis.getVoices()) {
+    if (!vs || !vs.length) return null;
+    if (getLang() === 'en') {
+      return vs.find((v) => /en[-_]US/i.test(v.lang)) || vs.find((v) => /^en/i.test(v.lang)) || null;
+    }
+    return vs.find((v) => /pt[-_]BR/i.test(v.lang)) || vs.find((v) => /^pt/i.test(v.lang)) || null;
   },
 
   setCase(caseId) {
@@ -110,7 +122,7 @@ export const TTS = {
         body: JSON.stringify({
           model: 'tts-1',
           input: text,
-          voice: this.voiceName,
+          voice: getLang() === 'en' ? 'en-US' : this.voiceName,
           response_format: 'mp3',
         }),
       });
@@ -129,10 +141,12 @@ export const TTS = {
   _playNative(text) {
     if (!('speechSynthesis' in window)) return;
     speechSynthesis.cancel();
+    const lang = getLang();
+    const voice = this._voiceFor();
     for (const chunk of splitChunks(text)) {
       const u = new SpeechSynthesisUtterance(chunk);
-      u.lang = 'pt-BR';
-      if (this.voice) u.voice = this.voice;
+      u.lang = lang === 'en' ? 'en-US' : 'pt-BR';
+      if (voice) u.voice = voice;
       u.rate = this.rate || 1;
       u.pitch = this.pitch ?? 1;
       speechSynthesis.speak(u);

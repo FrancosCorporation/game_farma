@@ -1,22 +1,42 @@
+import { getLang } from '../ui/i18n.js';
+
 const norm = (s) => (s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
-// Métricas Scoring v2 (GDD) — labels exatos usados no debrief.
-export const GDD_LABELS = {
-  queixa_principal: 'Queixa principal identificada (com duração)',
-  sinais_alarme: 'Sinais de alarme investigados (contraindicações/medicamentos/alergias)',
-  bulario: 'Consulta a bulário/diretrizes',
-  teste_rapido: 'Teste rápido executado (quando indicado)',
-  dsf: 'DSF com conduta correta',
-  contraindicado: 'Dispensou item contraindicado (−100 · reprovação)',
-  teste_pendente: 'Finalizou sem teste necessário (−30)',
-  arbovirose: 'Não encaminhou suspeita de arbovirose ao PS (−40)',
-  orientacao: 'Orientação inadequada em quadro autolimitado (−25)',
+// Métricas Scoring v2 (GDD) — labels exatos usados no debrief (bilíngues).
+const GDD_LABELS = {
+  pt: {
+    queixa_principal: 'Queixa principal identificada (com duração)',
+    sinais_alarme: 'Sinais de alarme investigados (contraindicações/medicamentos/alergias)',
+    bulario: 'Consulta a bulário/diretrizes',
+    teste_rapido: 'Teste rápido executado (quando indicado)',
+    dsf: 'DSF com conduta correta',
+    contraindicado: 'Dispensou item contraindicado (−100 · reprovação)',
+    teste_pendente: 'Finalizou sem teste necessário (−30)',
+    arbovirose: 'Não encaminhou suspeita de arbovirose ao PS (−40)',
+    orientacao: 'Orientação inadequada em quadro autolimitado (−25)',
+  },
+  en: {
+    queixa_principal: 'Chief complaint identified (with duration)',
+    sinais_alarme: 'Warning signs investigated (contraindications/medications/allergies)',
+    bulario: 'Package inserts/guidelines checked',
+    teste_rapido: 'Rapid test performed (when indicated)',
+    dsf: 'DSF with correct conduct',
+    contraindicado: 'Dispensed a contraindicated item (−100 · fail)',
+    teste_pendente: 'Finished without the required test (−30)',
+    arbovirose: 'Did not refer suspected arboviral infection to the ER (−40)',
+    orientacao: 'Inadequate guidance for a self-limiting condition (−25)',
+  },
 };
+
+export function gddLabel(metrica) {
+  const dict = GDD_LABELS[getLang()] || GDD_LABELS.pt;
+  return dict[metrica] || metrica;
+}
 
 function heuristicaComunicacao(history, caso) {
   const all = history.map((m) => norm(m.content)).join(' ');
   let pts = 3;
-  if (/(bom dia|boa tarde|boa noite|ola|oi )/.test(all)) pts++;
+  if (/(bom dia|boa tarde|boa noite|ola|oi |hello|hi |good (morning|afternoon|evening)|hey )/.test(all)) pts++;
   const nome = norm(caso.persona.nome).split(' ').find((w) => w.length > 3);
   if (nome && all.includes(nome)) pts++;
   return Math.min(5, pts);
@@ -83,7 +103,7 @@ export function scoreCase(caso, knowledge, decisao, history) {
 
   // ----- Scoring v2 (GDD) -----
   const breakdown = [];
-  const add = (metrica, pontos) => breakdown.push({ metrica, label: GDD_LABELS[metrica] || metrica, pontos });
+  const add = (metrica, pontos) => breakdown.push({ metrica, label: gddLabel(metrica), pontos });
 
   // +20 queixa principal identificada (com duração)
   let queixa = 0;

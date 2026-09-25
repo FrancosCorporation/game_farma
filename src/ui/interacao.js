@@ -2,6 +2,7 @@
 // Pontos de interesse alinhados à cena (pharmacy.js): paciente (à frente do balcão),
 // computador (bulário, esquerda) e mesa (TLAC, direita).
 import { SFX } from '../audio/sfx.js';
+import { t } from './i18n.js';
 
 const $ = (id) => document.getElementById(id);
 
@@ -43,7 +44,7 @@ export function initInteracao({ game, pov, addTicker, atendimento }) {
     alvoAtual = perto;
 
     if (perto) {
-      banner.querySelector('b').textContent = perto.nome;
+      banner.querySelector('b').textContent = t(`alvo.${perto.nome}`);
       banner.classList.remove('hidden');
     } else {
       banner.classList.add('hidden');

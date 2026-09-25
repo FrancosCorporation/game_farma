@@ -3,7 +3,7 @@
 <script type="module">
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-const name=new URLSearchParams(location.search).get('m')||'paciente_real';
+const name=new URLSearchParams(location.search).get('m')||'ana_coriza';
 new GLTFLoader().load('models/'+name+'.glb',(g)=>{
   const box=new THREE.Box3().setFromObject(g.scene);
   const s=box.getSize(new THREE.Vector3());

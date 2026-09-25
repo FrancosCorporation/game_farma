@@ -1,5 +1,6 @@
 // ⚠️ CONTEÚDO CLÍNICO = RASCUNHO TÉCNICO. Validação e assinatura da PO são bloqueantes.
 // Marcas e condutas são ilustrativas — não substituem bula nem protocolos vigentes.
+import { CASE_EN } from './cases.en.js';
 
 export const CASES = [
 {
@@ -750,6 +751,45 @@ export const CASES = [
 ];
 
 export const CASE_INDEX = new Map(CASES.map((c) => [c.id, c]));
+
+// Ids de casos servidos pelo modo Expediente Livre vêm com sufixo `_sNNNNNN`.
+const BASE_ID = (id) => String(id || '').replace(/_s\d+$/, '');
+
+/**
+ * Localiza um caso (display + regexes de gatilho/segredo). Em 'en', devolve um
+ * clone com os textos do overlay EN (cases.en.js); lógica (testes, dominios,
+ * mips, valores) permanece a do caso-base. Em 'pt' devolve o caso inalterado.
+ */
+export function localizeCase(caseDef, lang = 'pt') {
+  if (!caseDef || lang !== 'en') return caseDef;
+  const en = CASE_EN[BASE_ID(caseDef.id)];
+  if (!en) return caseDef;
+  const c = { ...caseDef };
+  c.titulo = en.titulo ?? c.titulo;
+  c.pedido = en.pedido ?? c.pedido;
+  c.abertura = en.abertura ?? c.abertura;
+  c.persona = { ...c.persona, ...(en.persona || {}) };
+  if (en.fatos) {
+    c.fatos = c.fatos.map((f) => (en.fatos[f.tag] ? { ...f, ...en.fatos[f.tag] } : { ...f }));
+  }
+  if (en.prateleira) {
+    c.prateleira = c.prateleira.map((p) => ({ ...p, nome: en.prateleira[p.id] || p.nome }));
+  }
+  if (en.orientacoes) c.orientacoes = [...en.orientacoes];
+  if (en.errosCriticos) {
+    c.errosCriticos = c.errosCriticos.map((e) => ({ ...e, msg: en.errosCriticos[e.id] || e.msg }));
+  }
+  if (en.consequencias) {
+    c.consequencias = Object.fromEntries(
+      Object.entries(c.consequencias).map(([k, v]) => [k, { ...v, ...(en.consequencias[k] || {}) }]),
+    );
+  }
+  if (en.chips) c.chips = [...en.chips];
+  if (en.dsf) c.dsf = { ...c.dsf, ...en.dsf };
+  if (en.contraindicado) c.contraindicado = { ...c.contraindicado, ...en.contraindicado };
+  if (en.testeRapido) c.testeRapido = { ...c.testeRapido, ...en.testeRapido };
+  return c;
+}
 
 export function seededPickCaseIds(count, seed = 1) {
   let s = seed;

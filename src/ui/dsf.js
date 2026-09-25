@@ -8,28 +8,12 @@ const $ = (id) => document.getElementById(id);
 const ehArbovirose = (caso) =>
   Boolean(caso.testeRapido?.indicado) && /dengue|zika|chikungunya|arbovir/i.test(caso.testeRapido?.tipo || '');
 
-// Condutas rápidas (texto acrescentado ao campo de conduta)
+// Condutas rápidas (texto acrescentado ao campo de conduta) — bilíngues via i18n.
 const RAPIDAS = [
-  {
-    id: 'recusa',
-    destaque: (caso) => ehArbovirose(caso),
-    texto: 'Recusei a dispensação do medicamento solicitado (contraindicado) e encaminhei a pessoa ao pronto-socorro com urgência, orientando hidratação e sinais de alarme.',
-  },
-  {
-    id: 'mip',
-    destaque: () => false,
-    texto: 'Dispensei medicamento isento de prescrição (MIP) com orientações não-medicamentosas e prazo de reavaliação.',
-  },
-  {
-    id: 'hidratacao',
-    destaque: () => false,
-    texto: 'Orientei hidratação, repouso e monitoração de sinais de alarme.',
-  },
-  {
-    id: 'retorno',
-    destaque: () => false,
-    texto: 'Orientei retorno ao serviço se os sintomas piorarem ou persistirem por mais de 3 dias.',
-  },
+  { id: 'recusa', destaque: (caso) => ehArbovirose(caso), key: 'dsf.rapida.recusa' },
+  { id: 'mip', destaque: () => false, key: 'dsf.rapida.mip' },
+  { id: 'hidratacao', destaque: () => false, key: 'dsf.rapida.hidratacao' },
+  { id: 'retorno', destaque: () => false, key: 'dsf.rapida.retorno' },
 ];
 
 export function initDsf({ game, aoFechar }) {
@@ -45,14 +29,15 @@ export function initDsf({ game, aoFechar }) {
     const box = $('dsf-rapidas');
     box.innerHTML = '';
     for (const r of RAPIDAS) {
+      const texto = t(r.key);
       const b = document.createElement('button');
       b.type = 'button';
       b.className = 'dsf-chip' + (r.destaque(caso) ? ' dsf-chip-destaque' : '');
-      b.textContent = r.destaque(caso) ? `⚠ ${t('dsf.encaminhamento')} — pronto-socorro` : r.texto.slice(0, 42) + '…';
-      b.title = r.texto;
+      b.textContent = r.destaque(caso) ? `⚠ ${t('dsf.encaminhamento')} — ${t('dsf.er')}` : texto.slice(0, 42) + '…';
+      b.title = texto;
       b.addEventListener('click', () => {
         SFX.pop();
-        elConduta.value = (elConduta.value ? elConduta.value.trim() + ' ' : '') + r.texto;
+        elConduta.value = (elConduta.value ? elConduta.value.trim() + ' ' : '') + texto;
         atualizarEmitir();
         elConduta.focus();
       });
@@ -87,10 +72,10 @@ export function initDsf({ game, aoFechar }) {
       casoIdAtual = caso.id;
       elConduta.value = '';
     }
-    $('dsf-paciente').value = `${caso.persona.nome}, ${caso.persona.idade} anos`;
+    $('dsf-paciente').value = `${caso.persona.nome}, ${caso.persona.idade}${t('chat.anos')}`;
     $('dsf-data').value = new Date().toISOString().slice(0, 10);
     $('dsf-queixa').value = caso.pedido;
-    $('dsf-encaminhamento').value = caso.dsf?.encaminhamento || 'Não necessário';
+    $('dsf-encaminhamento').value = caso.dsf?.encaminhamento || t('dsf.naoNecessario');
     renderRapidas(caso);
     renderOrient(caso);
     atualizarEmitir();
@@ -108,9 +93,9 @@ export function initDsf({ game, aoFechar }) {
   function montarTexto() {
     const orients = [...$('dsf-orient').querySelectorAll('input:checked')].map((i) => i.value);
     let texto = elConduta.value.trim();
-    if (orients.length) texto += ` Orientações fornecidas: ${orients.join('; ')}.`;
+    if (orients.length) texto += ` ${t('dsf.orientacoes')}: ${orients.join('; ')}.`;
     const enc = $('dsf-encaminhamento').value.trim();
-    if (enc) texto += ` Encaminhamento: ${enc}.`;
+    if (enc) texto += ` ${t('dsf.encaminhamento')}: ${enc}.`;
     return texto;
   }
 
@@ -137,8 +122,7 @@ export function initDsf({ game, aoFechar }) {
       <p class="dsf-linha"><b>${t('dsf.conduta')}:</b> ${texto}</p>
       ${orients.length ? `<p class="dsf-linha"><b>${t('dsf.orientacoes')}:</b> ${orients.join('; ')}</p>` : ''}
       <p class="dsf-linha"><b>${t('dsf.encaminhamento')}:</b> ${enc}</p>`;
-    $('dsf-doc-stamp').textContent =
-      `DSF emitida no simulador FarmaCheck · conteúdo 100% fictício e educacional — não substitui registro real (Anvisa/CFF).`;
+    $('dsf-doc-stamp').textContent = t('dsf.stamp');
     applyI18n(preview);
   }
 

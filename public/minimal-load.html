@@ -3,7 +3,7 @@
 <script type="module">
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-const name = new URLSearchParams(location.search).get('m') || 'paciente_real';
+const name = new URLSearchParams(location.search).get('m') || 'ana_coriza';
 const loader = new GLTFLoader();
 loader.load('models/'+name+'.glb',
   (g)=>{ window.__res = 'OK meshes='+g.scene.children.length; },

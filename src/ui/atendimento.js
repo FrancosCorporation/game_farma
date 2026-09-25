@@ -1,6 +1,7 @@
 // F2/F3/F4 — Orquestra os pontos de interesse: botões do HUD → zona da câmera → painel.
 // Escape fecha o painel aberto ou volta ao paciente. Barra de ações só em Anamnese/Decisão.
 import { SFX } from '../audio/sfx.js';
+import { t } from './i18n.js';
 import { initBulario } from './bulario.js';
 import { initTlac } from './tlac.js';
 import { initDsf } from './dsf.js';
@@ -37,7 +38,7 @@ export function initAtendimento({ game, pov }) {
     if (!emAtendimento()) return;
     fecharPainel();
     painelAberto = nome;
-    pov.irPara(zona);
+    if (pov.zonaAtual() !== zona) pov.irPara(zona); // já perto? não re-tweena o olhar
     modulos[nome].abrir();
     atualizarBarra();
   };
@@ -64,7 +65,7 @@ export function initAtendimento({ game, pov }) {
     if (!emAtendimento()) return;
     if (pov.zonaAtual() === 'computador') abrirPainel('bulario', 'computador');
     else if (pov.zonaAtual() === 'mesa') abrirPainel('tlac', 'mesa');
-    else {
+    else if (pov.zonaAtual() === 'paciente') {
       const input = document.getElementById('chat-input');
       if (input && !input.disabled) input.focus();
     }
@@ -77,17 +78,29 @@ export function initAtendimento({ game, pov }) {
     else if (!barra.hidden && pov.zonaAtual() !== 'paciente') voltarPaciente();
   });
 
-  pov.onChange(atualizarBarra);
-  pov.onChange((zona) => {
+  function atualizarHint() {
     const hint = document.getElementById('hint-e');
     const txt = document.getElementById('hint-e-texto');
     if (!hint || !txt) return;
     const ativo = emAtendimento();
-    hint.hidden = !ativo;
-    if (!ativo) return;
-    txt.textContent = zona === 'computador' ? 'para consultar o computador (bulário)'
-      : zona === 'mesa' ? 'para realizar teste rápido (TLAC)'
-      : 'para conversar com o paciente';
+    const zona = pov.zonaAtual();
+    // contextual por PROXIMIDADE (PO 24/09): longe dos pontos de interesse,
+    // não há o que interagir — o hint some.
+    hint.hidden = !ativo || !zona;
+    if (!ativo || !zona) return;
+    txt.textContent = zona === 'computador' ? t('hint.computador')
+      : zona === 'mesa' ? t('hint.mesa')
+      : t('hint.paciente');
+  }
+
+  pov.onChange(atualizarBarra);
+  pov.onChange(atualizarHint);
+
+  // Saiu da frente do painel (andou p/ outro lugar)? O painel desativa sozinho.
+  const ZONA_DO_PAINEL = { bulario: 'computador', tlac: 'mesa', dsf: 'paciente' };
+  pov.onChange(() => {
+    if (!painelAberto) return;
+    if (pov.zonaAtual() !== ZONA_DO_PAINEL[painelAberto]) fecharPainel();
   });
 
   // Controla a visibilidade da barra conforme a fase do atendimento (chamado via game.setFase)
@@ -98,6 +111,8 @@ export function initAtendimento({ game, pov }) {
       pov.irPara('paciente');
     }
     atualizarBarra();
+    // sem irPara() não dispara onChange — hint E ficava escondido na 1ª anamnese
+    atualizarHint();
   }
 
   return { setAtendimento };
