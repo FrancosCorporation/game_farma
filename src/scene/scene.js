@@ -21,7 +21,7 @@ export function createScene(canvas) {
   camera.lookAt(0, 1.38, 0);
 
   // Iluminação "loja de farmácia": ambiente frio + chave quente (valores contidos p/ não estourar)
-  scene.add(new THREE.HemisphereLight(0xdfe9f5, 0x2a2622, 0.45));
+  scene.add(new THREE.HemisphereLight(0xdfe9f5, 0x2a2622, 0.62));
   const key = new THREE.DirectionalLight(0xfff2e0, 1.05);
   key.position.set(2.5, 5.5, 6);
   key.castShadow = true;

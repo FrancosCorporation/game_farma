@@ -29,3 +29,13 @@ npm-debug.log*
 /echo
 /exemplo.png
 /sem_chance.jpeg
+
+# Scratch de automação (madrugada 3D pipeline) — NÃO commitar
+*.tmp.mjs
+ana_work/
+/brave_gemini_*.png
+/gemini_*.png
+/gemini_img_test.jpeg
+/horrivel*.jpeg
+"linda gerada pelo gemini.jpeg"
+/tencent_*.png

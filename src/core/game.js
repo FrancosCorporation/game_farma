@@ -1,6 +1,8 @@
 import { classify, KnowledgeState, norm, domainLabel } from './factGate.js';
 import { buildActorSystemPrompt, templateReply, buildEvaluatorMessages, looksPortuguese, buildTranslateMessages } from '../ai/prompts.js';
 import { scoreCase, starsForScore } from './scoring.js';
+import { evaluateAchievements, ACHIEVEMENTS, achievementIcon } from './achievements.js';
+import { rankInfo, comboMultiplier } from './progression.js';
 import { localizeCase } from '../data/cases.js';
 import { t, getLang } from '../ui/i18n.js';
 import { TTS } from '../audio/tts.js';
@@ -18,7 +20,7 @@ export class Game {
     this.progress = progress;
     this.llm = null;
     this.state = 'MENU';
-    this.points = 0;
+    this.points = progress?.state?.pontos || 0; // espelho do save (fonte da verdade)
     this.lastIdx = -1;
     this.busy = false;
     this.conduta = null;
@@ -28,21 +30,70 @@ export class Game {
 
     this.el = {};
     for (const id of ['chat-log', 'chat-input', 'chat-form', 'chat-chips', 'chat-nome', 'chat-avatar', 'chat-status',
-      'chat-contador', 'hud-paciente', 'hud-fase', 'hud-score', 'btn-decisao', 'decision', 'redflag-list', 'mip-box',
+      'chat-contador', 'chat-cobertura', 'hud-paciente', 'hud-fila', 'hud-fase', 'hud-score', 'hud-combo', 'menu-meta', 'debrief-conquistas',
+      'btn-decisao', 'decision', 'redflag-list', 'mip-box',
       'mip-list', 'orient-list', 'btn-voltar', 'btn-confirmar', 'debrief', 'debrief-stars', 'debrief-tag', 'debrief-titulo',
       'debrief-texto', 'debrief-pontos', 'debrief-breakdown', 'debrief-detalhes', 'debrief-preceptor', 'debrief-stamp',
+      'plantao-modal', 'plantao-total', 'plantao-estrelas', 'plantao-bonus', 'btn-plantao-menu',
       'btn-tts', 'menu', 'phase-select'])
       this.el[id] = $(id);
 
     this.bind();
     this.dictation = createDictation(this.el['chat-input']);
-    this.el['hud-score'].textContent = `${t('hud.pontos')} 0`;
+    this.el['hud-score'].textContent = `${t('hud.pontos')} ${this.points}`;
+    this.updateComboHud(); // HUD de combo já reflete o save no boot
   }
 
   /** Re-render dinâmico p/ troca de idioma no menu/capa (listener de langchange). */
   refreshLangUI() {
     this.el['hud-score'].textContent = `${t('hud.pontos')} ${this.points}`;
+    this.updateComboHud();
     if (this.state === 'MENU') this.renderPhases();
+  }
+
+  /** HUD: combo atual (× multiplicador) — escondido com combo 0. */
+  updateComboHud() {
+    const el = this.el['hud-combo'];
+    if (!el) return;
+    const combo = this.progress?.state?.combo || 0;
+    if (combo < 1) { el.hidden = true; el.textContent = ''; return; }
+    el.hidden = false;
+    el.textContent = `${t('hud.combo')} ×${comboMultiplier(combo).toFixed(1)} · ${combo}${t('hud.comboSeguidos')}`;
+    el.title = t('hud.comboTitle');
+  }
+
+  /** Painel do menu: rank + combo + conquistas (dinâmica de plantão). */
+  renderMeta() {
+    const box = this.el['menu-meta'];
+    if (!box) return;
+    const st = this.progress?.state || {};
+    const pts = st.pontos || 0;
+    const { atual, proximo, faltam, pct } = rankInfo(pts);
+    const combo = st.combo || 0;
+    const unlocked = new Set(this.progress?.unlockedBadges?.() || []);
+    const medal = (a) => {
+      const on = unlocked.has(a.id);
+      return `<li class="medalha${on ? ' on' : ''}" title="${t(`badge.${a.id}.desc`)}" aria-label="${t(`badge.${a.id}.nome`)}">
+        <span class="medalha-ico" aria-hidden="true">${on ? a.icone : '🔒'}</span>
+        <b>${t(`badge.${a.id}.nome`)}</b></li>`;
+    };
+    box.innerHTML = `
+      <div class="meta-rank">
+        <div class="flex items-baseline justify-between gap-2 mb-1">
+          <span class="text-xs uppercase tracking-widest text-teal-300">${t('menu.meta.rank')} · <b>${atual}</b></span>
+          <span class="text-xs text-slate-400">${pts} ${t('hud.pontos')}${
+            proximo ? ` · ${faltam} ${t('menu.meta.para')} ${proximo}` : ` · ${t('menu.meta.max')}`}</span>
+        </div>
+        <span class="rankbar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.round(pct * 100)}">
+          <i style="width:${Math.round(pct * 100)}%"></i></span>
+        <p class="text-xs text-slate-400 mt-2">${t('menu.meta.combo')} <b class="${combo ? 'text-amber-300' : 'text-slate-500'}">${
+          combo ? `🔥 ${combo} · ×${comboMultiplier(combo).toFixed(1)}` : t('menu.meta.comboZero')}</b>
+          <span class="block mt-1 text-slate-500">${t('menu.meta.comboInfo')}</span></p>
+      </div>
+      <div class="meta-badges">
+        <p class="text-xs uppercase tracking-widest text-teal-300 mb-2">${t('menu.meta.badges')} · ${unlocked.size}/${ACHIEVEMENTS.length}</p>
+        <ul class="medalhas">${ACHIEVEMENTS.map(medal).join('')}</ul>
+      </div>`;
   }
 
   bind() {
@@ -59,7 +110,9 @@ export class Game {
     this.el['chat-chips'].addEventListener('click', (e) => {
       const b = e.target.closest('button[data-q]');
       if (b) {
+        this.usedChips.add(b.textContent); // chip usado some do painel (intenção do design)
         this.el['chat-input'].value = b.dataset.q;
+        this.renderChips();
         this.onSubmit();
       }
     });
@@ -76,12 +129,31 @@ export class Game {
     $('btn-repetir').addEventListener('click', () => this.startCase(this.case, { repeat: true }));
     $('btn-exportar').addEventListener('click', () => window.print());
     $('btn-fases').addEventListener('click', () => this.openMenu());
+    this.el['btn-plantao-menu']?.addEventListener('click', () => {
+      if (this.el['plantao-modal']) this.el['plantao-modal'].hidden = true;
+      this.openMenu();
+    });
+    $('btn-zerar-progresso')?.addEventListener('click', () => {
+      if (!window.confirm(t('menu.zerar.confirm'))) return;
+      this.progress.reset();
+      this.points = 0;
+      this.el['hud-score'].textContent = `${t('hud.pontos')} 0`;
+      this.updateComboHud();
+      this.renderPhases();
+    });
     this.el['btn-tts'].addEventListener('click', () => {
       TTS.enabled = !TTS.enabled;
       this.el['btn-tts'].setAttribute('aria-pressed', String(TTS.enabled));
       if (!TTS.enabled) TTS.stop();
     });
     document.addEventListener('keydown', (e) => {
+      // Atalhos da tela de decisão: 1/2/3 escolhem a conduta, Esc volta à anamnese
+      if (this.state === 'DECISAO' && !e.ctrlKey && !e.metaKey && !e.altKey && !e.isComposing) {
+        const cards = [...document.querySelectorAll('#conduta-cards [data-conduta]')];
+        const idx = ['1', '2', '3'].indexOf(e.key);
+        if (idx >= 0 && cards[idx]) { cards[idx].click(); e.preventDefault(); return; }
+        if (e.key === 'Escape') { this.backToAnamnese(); e.preventDefault(); return; }
+      }
       if (e.key.toLowerCase() === 'r' && document.activeElement !== this.el['chat-input'] && this.lastPatientLine) {
         TTS.speak(this.lastPatientLine, this.case?.persona.voz);
       }
@@ -107,6 +179,8 @@ export class Game {
     this.state = 'MENU';
     this.el.debrief.hidden = true;
     this.el.decision.hidden = true;
+    if (this.el['plantao-modal']) this.el['plantao-modal'].hidden = true;
+    if (this.el['hud-fila']) this.el['hud-fila'].hidden = true;
     this.el.menu.hidden = false;
     this.renderPhases();
   }
@@ -121,7 +195,13 @@ export class Game {
       btn.className = 'phase-card' + (locked ? ' locked' : '') + (i === this.phaseIdx ? ' pressed' : '');
       btn.setAttribute('aria-pressed', String(i === this.phaseIdx));
       btn.disabled = locked;
-      btn.innerHTML = `<span class="ph-num">${phase.icone}</span><span class="ph-info"><b>${t(`phase.${phase.id}.nome`)}</b><small>${t(`phase.${phase.id}.desc`)}</small></span>`;
+      // progresso da fase (estrelas ganhas + casos feitos) — visível no menu
+      const feitos = this.progress?.state?.porFase?.[phase.id]?.feitos?.length || 0;
+      const total = Array.isArray(phase.casos) ? phase.casos.length : 0;
+      const estrelas = Object.values(this.progress?.state?.porFase?.[phase.id]?.estrelas || {}).reduce((a, b) => a + b, 0);
+      const prog = (feitos || estrelas)
+        ? `<span class="ph-prog">★ ${estrelas} · ${total ? `${feitos}/${total}` : feitos} ${t('menu.fase.casos')}</span>` : '';
+      btn.innerHTML = `<span class="ph-num">${phase.icone}</span><span class="ph-info"><b>${t(`phase.${phase.id}.nome`)}</b><small>${t(`phase.${phase.id}.desc`)}</small>${prog}</span>`;
       btn.addEventListener('click', () => {
         this.phaseIdx = i;
         this.renderPhases();
@@ -129,23 +209,55 @@ export class Game {
       });
       box.appendChild(btn);
     });
+    this.renderMeta();
   }
 
   // ---------- ciclo de partida ----------
   async nextPatient() {
     this.el.debrief.hidden = true;
+    const phase = this.phaseDef();
+
+    // Se a fase tem número fixo de casos e já concluímos todos no turno
+    if (phase.casos && phase.casos.length > 0) {
+      const concluidos = this.progress?.state?.porFase?.[phase.id]?.feitos?.length || 0;
+      if (this.lastIdx >= 0 && concluidos >= phase.casos.length) {
+        this.mostrarFechamentoPlantao(phase);
+        return;
+      }
+    }
+
     const cfg = JSON.parse(localStorage.getItem('farmacheck:llm') || '{}');
     let c = await import('../data/cases.js').then((m) => m.fetchNextCase(cfg.serverURL));
     if (!c) {
       const pool = this.caseOrder.length ? this.caseOrder : this.cases.map((x) => x.id);
       let id;
-      do {
-        id = pool[(Math.random() * pool.length) | 0];
-      } while (pool.length > 1 && id === this.caseOrder[this.lastIdx]);
+      // Para fases lineares (como Aprendiz/Plantão), prioriza casos ainda não feitos na fase
+      const feitos = new Set(this.progress?.state?.porFase?.[phase.id]?.feitos || []);
+      const naoFeitos = pool.filter((x) => !feitos.has(x));
+
+      if (naoFeitos.length > 0) {
+        id = naoFeitos[0];
+      } else {
+        do {
+          id = pool[(Math.random() * pool.length) | 0];
+        } while (pool.length > 1 && id === this.caseOrder[this.lastIdx]);
+      }
       this.lastIdx = pool.indexOf(id);
       c = this.cases.find((x) => x.id === id);
     }
     this.startCase(c);
+  }
+
+  mostrarFechamentoPlantao(phase) {
+    this.state = 'PLANTAO_CONCLUIDO';
+    SFX.shiftComplete?.();
+    const faseData = this.progress?.state?.porFase?.[phase.id] || { feitos: [], estrelas: {} };
+    const totalFeitos = faseData.feitos.length;
+    const totalEstrelas = Object.values(faseData.estrelas).reduce((a, b) => a + b, 0);
+
+    if (this.el['plantao-total']) this.el['plantao-total'].textContent = totalFeitos;
+    if (this.el['plantao-estrelas']) this.el['plantao-estrelas'].textContent = `★ ${totalEstrelas}`;
+    if (this.el['plantao-modal']) this.el['plantao-modal'].hidden = false;
   }
 
   async startCase(caseDefRaw, { repeat = false } = {}) {
@@ -164,6 +276,7 @@ export class Game {
     this.dsf = null;           // texto da conduta do jogador
     this.queixaRegistrada = false;
     this.lastPatientLine = '';
+    this.novaFaseLiberada = null;
     this.seed = Math.floor(Math.random() * 1e6);
 
     this.el.debrief.hidden = true;
@@ -175,6 +288,19 @@ export class Game {
     this.el['chat-avatar'].textContent = caseDef.persona.nome.replace(/^(Dona?|Seu|Mr\.?|Mrs\.?)\s*/i, '')[0] || '?';
     this.el['chat-contador'].textContent = `0/${MAX_TURNS}`;
     this.el['hud-paciente'].textContent = `${t('chat.cliente')} ${caseDef.persona.nome}`;
+    
+    // Atualiza mostrador de fila/posição no turno
+    const phase = this.phaseDef();
+    if (phase.casos && phase.casos.length > 0) {
+      const idxAtual = Math.min(phase.casos.length, (this.progress?.state?.porFase?.[phase.id]?.feitos?.length || 0) + 1);
+      if (this.el['hud-fila']) {
+        this.el['hud-fila'].textContent = `${t('hud.fila')} ${idxAtual}/${phase.casos.length}`;
+        this.el['hud-fila'].hidden = false;
+      }
+    } else {
+      if (this.el['hud-fila']) this.el['hud-fila'].hidden = true;
+    }
+
     this.setFase('chegada');
     // O chat só aceita texto na fase Anamnese: durante a chegada (walk-in do
     // paciente) o input fica desabilitado para o jogador não digitar no vazio.
@@ -197,6 +323,9 @@ export class Game {
     TTS.speak(caseDef.abertura, caseDef.persona.voz);
     this.lastPatientLine = caseDef.abertura;
     this.renderChips();
+    this.renderCobertura();
+    // onboarding: só no MUITO primeiro atendimento do save (histórico vazio)
+    if (!(this.progress?.state?.historico || []).length) this.addSystem(t('sys.dicaOnboarding'));
     this.el['btn-decisao'].hidden = false;
     // sem auto-focus: o jogador anda com WASD; clicar no chat foca para digitar
   }
@@ -216,6 +345,23 @@ export class Game {
   }
 
   // ---------- turno de anamnese ----------
+  /** Checklist vivo: domínios do caso já cobertos ✓ + quantos faltam (sem dizer quais). */
+  renderCobertura() {
+    const box = this.el['chat-cobertura'];
+    if (!box) return;
+    if (!this.case || !this.knowledge) { box.textContent = ''; return; }
+    const asked = this.knowledge.askedDomains;
+    const checklist = this.case.checklistDominios || [];
+    const cobertos = checklist.filter((d) => asked.has(d));
+    const pendentes = Math.max(0, checklist.length - cobertos.length);
+    if (!cobertos.length) { box.textContent = t('chat.coberturaVazio'); return; }
+    const resto = pendentes
+      ? ` · <span class="text-amber-400/80">${pendentes} ${t('chat.coberturaPendentes')}</span>`
+      : ` · <span class="text-teal-300">${t('chat.coberturaCompleta')}</span>`;
+    box.innerHTML = `<span class="text-teal-400/80">${t('chat.cobertura')}</span> `
+      + `${cobertos.map((d) => `✓ ${domainLabel(d)}`).join(' · ')}${resto}`;
+  }
+
   addBubble(kind, text) {
     const el = document.createElement('div');
     el.className = kind === 'paciente' ? 'bub bub-pac' : 'bub bub-farm';
@@ -253,6 +399,7 @@ export class Game {
     const domains = classify(text);
     const { novos, evasivas } = this.knowledge.ask(text, domains);
     novos.forEach((f) => this.onFactRevealed(f));
+    this.renderCobertura(); // checklist de cobertura atualizado a cada pergunta
 
     // Scoring v2: feedback de queixa principal identificada (localização + duração)
     const askedNow = this.knowledge.askedDomains;
@@ -372,6 +519,10 @@ export class Game {
       if (!this.knowledge.revealed.has(f.tag) || !(f.redFlag || f.valor === false)) continue;
       const label = document.createElement('label');
       label.className = 'check-row';
+      // contrato p/ os gates de QA: identificam a linha e se é achado NEGADO
+      // ("não tem alergia"), que não é sinal de alarme
+      label.dataset.tag = f.tag;
+      label.dataset.negado = String(!f.valor);
       const cb = document.createElement('input');
       cb.type = 'checkbox';
       cb.value = f.tag;
@@ -454,16 +605,29 @@ export class Game {
       dsf: this.dsf,
     };
     const result = scoreCase(this.case, this.knowledge, decisao, this.history);
-    this.points += result.total;
-    this.el['hud-score'].textContent = `${t('hud.pontos')} ${this.points}`;
-
     const stars = starsForScore(result.total);
-    this.progress.registerResult({
+
+    // Dinâmica de plantão: conquistas são avaliadas com o contexto PÓS-caso
+    // (combo já incrementado quando o atendimento segura a sequência) e o
+    // registro aplica o multiplicador do combo acumulado ATÉ AQUI.
+    const unlockAntes = this.progress.unlockLevel();
+    const previa = this.progress.previewAfter({ nota: result.total, stars, reprovado: result.reprovado });
+    const novasBadges = evaluateAchievements({
+      caso: this.case, decisao, result, stars, faseId: this.phaseDef().id, ...previa,
+    }, this.progress.unlockedBadges());
+    const registro = this.progress.registerResult({
       faseId: this.phaseDef().id,
       casoId: this.case.id,
       nota: result.total,
       stars,
+      reprovado: result.reprovado,
+      badges: novasBadges,
     });
+    this.points = registro.pontos;
+    this.el['hud-score'].textContent = `${t('hud.pontos')} ${this.points}`;
+    this.updateComboHud();
+    const unlockDepois = this.progress.unlockLevel();
+    this.novaFaseLiberada = unlockDepois > unlockAntes ? unlockDepois : null; // destaque no debrief
 
     const outcome = this.case.consequencias[this.conduta];
     // O paciente saindo de cena é cosmético e não pode segurar o relatório:
@@ -475,7 +639,15 @@ export class Game {
     }
     this.state = 'DEBRIEFING';
     this.setFase('relatorio');
-    this.renderDebrief(outcome, result, stars);
+    this.renderDebrief(outcome, result, stars, registro);
+
+    // Efeitos sonoros contextuais
+    if (registro?.novasBadges?.length) {
+      setTimeout(() => SFX.badge?.(), 300);
+    } else if (registro?.combo >= 2 && !registro?.comboQuebrou) {
+      setTimeout(() => SFX.comboUp?.(), 300);
+    }
+
     if (outcome.desfecho === 'bom') SFX.ding();
     else SFX.buzz();
     TTS.speak(`${outcome.titulo}. ${outcome.texto}`);
@@ -510,7 +682,7 @@ export class Game {
     }
   }
 
-  renderDebrief(outcome, result, stars) {
+  renderDebrief(outcome, result, stars, registro = null) {
     const tag = this.el['debrief-tag'];
     const styles = {
       fatal: 'bg-red-900/60 text-red-200',
@@ -576,6 +748,33 @@ export class Game {
       && !result.reprovado && !result.testeRapidoPerdido && !result.arboviroseNaoEncaminhada
       && !result.orientacaoInadequada && result.dsfOk)
       li(t('debrief.perfeito'), 'text-teal-300');
+
+    // Dinâmica de plantão: bônus de combo + conquistas conquistadas no atendimento
+    const cx = this.el['debrief-conquistas'];
+    if (cx) {
+      const partes = [];
+      if (this.novaFaseLiberada != null && this.phases?.[this.novaFaseLiberada]) {
+        partes.push(`<p class="dyn-line text-amber-200 font-semibold">🎉 ${t('debrief.novaFase')} ${t(`phase.${this.phases[this.novaFaseLiberada].id}.nome`)}</p>`);
+      }
+      if (registro) {
+        const mult = registro.mult || 1;
+        partes.push(`<p class="dyn-line">${t('debrief.comboGanho')} ${result.total} × ${mult.toFixed(1)} = <b class="text-teal-300">${registro.ganhos}</b> ${t('hud.pontos')}</p>`);
+        const rk = rankInfo(this.points);
+        partes.push(`<p class="dyn-line text-slate-400">${t('menu.meta.rank')} <b>${rk.atual}</b>${
+          rk.proximo ? ` → ${rk.proximo} · ${rk.faltam} ${t('menu.meta.para')}` : ` · ${t('menu.meta.max')}`}</p>`);
+        if (registro.comboQuebrou) {
+          partes.push(`<p class="dyn-line text-red-300">${t('debrief.comboQuebrou')}</p>`);
+        } else if (registro.combo >= 2) {
+          partes.push(`<p class="dyn-line text-amber-300">🔥 ${t('debrief.comboMantido')} ${registro.combo}${t('debrief.comboProx')} ×${comboMultiplier(registro.combo + 1).toFixed(1)}.</p>`);
+        }
+        if (registro.novasBadges?.length) {
+          partes.push(`<p class="dyn-line text-teal-200">${t('debrief.badgeNova')}</p><ul class="medalhas">${
+            registro.novasBadges.map((id) => `<li class="medalha on"><span class="medalha-ico" aria-hidden="true">${achievementIcon(id)}</span><b>${t(`badge.${id}.nome`)}</b><small>${t(`badge.${id}.desc`)}</small></li>`).join('')}</ul>`);
+        }
+      }
+      cx.innerHTML = partes.join('');
+      cx.hidden = partes.length === 0;
+    }
 
     this.el['debrief-stamp'].textContent =
       `${t('debrief.stampCase')} ${this.case.id} v${this.case.version} · seed ${this.seed} · FarmaCheck web · ${t('debrief.stampTail')}`;

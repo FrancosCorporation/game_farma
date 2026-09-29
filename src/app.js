@@ -180,7 +180,9 @@ export function startApp() {
     game.llm = new LLMClient(loadLLMConfig());
     game.llm.probe();
     $('menu').hidden = true;
-    game.setPhase(0);
+    // honra a fase escolhida no menu (antes forçava sempre a 0 — e a última
+    // fase jogada, guardada em progress.ultimaFase, era perdida)
+    game.setPhase(Math.max(0, game.phaseIdx));
     game.nextPatient();
   });
 

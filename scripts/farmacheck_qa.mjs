@@ -160,12 +160,15 @@ try {
     await shot(page, '05_decisao');
     const condutas = await page.$$('.conduta');
     check('painel de decisão com condutas', condutas.length >= 3, `${condutas.length} condutas`);
-    const redflags = await page.$eval('#redflag-list', (el) => el.childElementCount).catch(() => 0);
+    // Só ACHADOS POSITIVOS são sinais de alarme: linhas com data-negado="true"
+    // são negativas úteis ("não tem alergia") e aparecem de propósito na decisão.
+    const redflags = await page.$eval('#redflag-list', (el) => el.querySelectorAll('label:not([data-negado="true"])').length).catch(() => 0);
+    const negados = await page.$eval('#redflag-list', (el) => el.querySelectorAll('label[data-negado="true"]').length).catch(() => 0);
     if (casoTemRedFlag) {
       check('red flags listadas', redflags > 0, `${redflags} red flags (caso tem sinal de alarme)`);
     } else {
-      check('sem red flags em caso de emergência silenciosa', redflags === 0,
-        `${redflags} red flags (esperado: caso ${'temRedFlag:false'})`);
+      check('sem sinais de alarme em caso silencioso', redflags === 0,
+        `${redflags} sinais de alarme + ${negados} achados negados (esperado: 0 alarmes em caso temRedFlag:false)`);
     }
     const condutaCards = await page.$eval('#conduta-cards', (el) => el.childElementCount).catch(() => 0);
     check('condutas renderizadas', condutaCards >= 3, `${condutaCards} cards`);

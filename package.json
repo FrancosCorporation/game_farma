@@ -12,9 +12,12 @@
     "serve": "node server/index.mjs",
     "voicegen": "node scripts/voicegen.mjs",
     "check": "node scripts/check-syntax.mjs",
+    "test:logica": "node scripts/test_dynamics.mjs",
     "qa": "node scripts/farmacheck_qa.mjs",
     "qa:boot": "node scripts/qa_boot.mjs",
-    "verify": "npm run check && npm run build"
+    "qa:dynamics": "node scripts/qa_dynamics.mjs",
+    "qa:all": "node scripts/qa_all.mjs",
+    "verify": "npm run check && npm run test:logica && npm run build"
   },
   "dependencies": {
     "three": "^0.169.0"

@@ -98,9 +98,8 @@ export async function loadGLBFPatient(url, scene) {
   }
   // (v7) O corpo anda 100% PLANO (translação do Hips pinada no clip pelo
   // pipeline) — sem bob manual: nada além de pernas/braços/mãos mexe.
-  let walkCalib = null; // calibração de solo DO WALK (pé de contato toca y=0)
-  let bobBaseY = null;  // altura base durante o walk (âncora = ground-fix quando pronto)
-  let walkDropAtual = 0; // drop suavizado (casado com o crossfade — sem "pulo")
+  let walkCalib = null; // (27/09: sistema morto — só a declaração fica p/ compat)
+  let bobBaseY = null;  // altura base durante o walk (groundFix.alvo − stanceDelta)
 
   inner.traverse((o) => {
     if (!o.isMesh && !o.isSkinnedMesh) return;
@@ -172,7 +171,7 @@ export async function loadGLBFPatient(url, scene) {
   let blinkAnim = 0;
   const speak = { active: false, t: 0, phase: 0 };
   const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const CROSSFADE_S = 0.25; // s — fade entre clips (casado com o lerp do walk-drop)
+  const CROSSFADE_S = 0.15; // s — fade entre clips (26/09: 0,25 deixava glide no início — o corpo andava com o clip ainda engatinhando)
 
   const contactTex = (() => {
     const c = document.createElement('canvas'); c.width = c.height = 128;
@@ -221,6 +220,48 @@ export async function loadGLBFPatient(url, scene) {
   ].filter(Boolean);
   const groundFix = mixer && toeBones.length ? { parado: 0, min: Infinity, done: false, alvo: 0 } : null;
   const _gv = new THREE.Vector3();
+  const lowestToeY = () => {
+    let minY = Infinity;
+    for (const b of toeBones) { b.getWorldPosition(_gv); minY = Math.min(minY, _gv.y); }
+    return minY;
+  };
+
+  // Referência de solo (PO 26/09: "o chão de quando ela PARA vale para o
+  // andar"): no load (avatar invisível) mede o dedo na pose de APOIO do Walk
+  // vs na pose de Idle → o walk nasce com o pé no MESMO nível do idle (que o
+  // ground-fix deixa certinho). O calib por mediana continua só como fino.
+  let stanceDelta = 0;
+  if (mixer && clips.walk && clips.idle && toeBones.length) {
+    const _sv2 = new THREE.Vector3();
+    const toeMinL = () => {
+      let m = Infinity;
+      for (const b of toeBones) { b.getWorldPosition(_sv2); m = Math.min(m, _sv2.y); }
+      return m;
+    };
+    const wAct = clips.walk;
+    const savedTs = wAct.timeScale;
+    wAct.timeScale = 1;
+    mixer.stopAllAction();
+    clips.idle.reset().play();
+    mixer.setTime(0);
+    inner.updateMatrixWorld(true);
+    const idleY = toeMinL();
+    wAct.reset().play();
+    const ys = [];
+    for (const tt of wAct.getClip().tracks[0].times) {
+      mixer.setTime(tt);
+      inner.updateMatrixWorld(true);
+      ys.push(toeMinL());
+    }
+    ys.sort((a, b) => a - b);
+    stanceDelta = (ys[Math.floor(ys.length / 2)] ?? idleY) - idleY;
+    wAct.stop();
+    wAct.timeScale = savedTs;
+    clips.idle.play();
+    mixer.setTime(0);
+    inner.updateMatrixWorld(true);
+    console.log(`[patient] referência de solo: apoio do walk ${stanceDelta >= 0 ? '+' : ''}${stanceDelta.toFixed(3)} m vs idle → walk nasce alinhado ao chão`);
+  }
 
   const api = {
     get root() { return root; },
@@ -264,10 +305,13 @@ export async function loadGLBFPatient(url, scene) {
         if (mixer && clips.walk) dur = Math.min(12, Math.max(1.2, from.distanceTo(to) / WALK_V));
         walking = { from, to, dur, t: 0, res, yaw, faceEnd };
         if (mixer) {
+          // 27/09: SEM stanceDelta — o PO reportou pé afundando. A medição
+          // era fantasgada (instrumentação). groundFix.alvo basta: o walk
+          // clip tem o Hips pinado no MESMO valor do idle.
           bobBaseY = groundFix && groundFix.done ? groundFix.alvo : inner.position.y;
           // se a base mudou (ex.: ground-fix completou entre um walk e outro),
           // recalibra o drop do walk na próxima caminhada
-          if (walkCalib && walkCalib.baseY !== bobBaseY) { walkCalib = null; walkDropAtual = 0; }
+          if (walkCalib) { walkCalib = null; } // (27/09: legacy — sistema morto)
         }
         root.position.copy(from);
         if (mixer) playClip('walk');
@@ -369,9 +413,8 @@ export async function loadGLBFPatient(url, scene) {
       if (groundFix && !groundFix.done) {
         if (!walking) {
           groundFix.parado += dt;
-          let minY = Infinity;
-          for (const b of toeBones) { b.getWorldPosition(_gv); minY = Math.min(minY, _gv.y); }
-          if (Number.isFinite(minY)) groundFix.min = Math.min(groundFix.min, minY);
+          const m = lowestToeY();
+          if (Number.isFinite(m)) groundFix.min = Math.min(groundFix.min, m);
           if (groundFix.parado >= 0.7) {
             const m = groundFix.min;
             if (Number.isFinite(m) && Math.abs(m) < 0.4 && Math.abs(m) > 0.002) {
@@ -403,36 +446,15 @@ export async function loadGLBFPatient(url, scene) {
         const w = walking;
         w.t += dt;
         const p = Math.min(1, w.t / w.dur);
-        const e = p * p * (3 - 2 * p);
+        // LINEAR, sem easing (PO 25/09: pés patinavam)
+        const e = p;
         root.position.lerpVectors(w.from, w.to, e);
-        // Solo do WALK — CALIBRAÇÃO ITERATIVA: mede o pé de CONTATO em janelas
-        // pós-crossfade (0,4–2,8 s) e corrige o drop incrementalmente até o pé
-        // tocar y≈0 (a 1ª medição durante o crossfade dava valor transiente →
-        // ela "andava por cima" com o drop curto — PO 24/09).
+        // SOLO (PO 27/09: "define o chão — sem flutuar, sem afundar, sem subir"):
+        // UMA altura só. groundFix (idle) + stanceDelta (diferença walk-vs-idle,
+        // medida determinística no load). NENHUMA calibração runtime — o
+        // walkCalib antigo flutuava → afundava → deslizava pra cima.
         if (mixer && bobBaseY !== null) {
-          if (!walkCalib) walkCalib = { t: -0.4, minToe: Infinity, janela: 0, drop: 0, baseY: bobBaseY };
-          const t0 = 0.4 + walkCalib.janela * 0.8; // início da janela (s)
-          const t1 = t0 + 0.8;
-          if (!walkCalib.done) {
-            if (w.t >= t0) {
-              if (walkCalib.t < t0) walkCalib.t = t0; // (re)inicia contagem da janela
-              walkCalib.t += dt;
-              let m2 = Infinity;
-              for (const b of toeBones) { b.getWorldPosition(_gv); m2 = Math.min(m2, _gv.y); }
-              if (Number.isFinite(m2)) walkCalib.minToe = Math.min(walkCalib.minToe, m2);
-              if (walkCalib.t >= t1) {
-                const corr = -walkCalib.minToe; // quanto falta subir/descer
-                walkCalib.drop += corr;
-                console.log(`[patient] walk-calib janela ${walkCalib.janela + 1}: toeMin=${Number.isFinite(walkCalib.minToe) ? walkCalib.minToe.toFixed(3) : 'n/a'} → drop agora ${walkCalib.drop.toFixed(3)} m`);
-                walkCalib.janela++;
-                walkCalib.minToe = Infinity;
-                if (!Number.isFinite(corr) || Math.abs(corr) < 0.01 || walkCalib.janela >= 4) walkCalib.done = true;
-              }
-            }
-          }
-          // drop suavizado na mesma escala do crossfade (sem "pulo" na transição)
-          walkDropAtual += (walkCalib.drop - walkDropAtual) * Math.min(1, dt * 4);
-          inner.position.y = bobBaseY + walkDropAtual;
+          inner.position.y = bobBaseY; // constante durante TODO o walk
         }
         // Últimos 30% do trajeto: blend do yaw de caminhada → face da câmera
         // (evita snap duro = "deitada"/girada seca na chegada).

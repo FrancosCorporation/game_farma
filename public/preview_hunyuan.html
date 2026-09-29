@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Preview Hunyuan3D</title>
+<style>body{margin:0;background:#1a1a2e}canvas{display:block}</style></head>
+<body>
+<script type="importmap">{"imports":{"three":"./vendor/three/three.module.js","three/addons/":"./vendor/three/jsm/"}}</script>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x1a1a2e);
+const camera = new THREE.PerspectiveCamera(50, innerWidth/innerHeight, 0.1, 100);
+camera.position.set(0, 1.2, 3);
+camera.lookAt(0, 0.9, 0);
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setSize(innerWidth, innerHeight);
+renderer.setPixelRatio(1);
+document.body.appendChild(renderer.domElement);
+const controls = new OrbitControls(camera, renderer.domElement);
+scene.add(new THREE.HemisphereLight(0xffffff, 0x334, 1.5));
+const dl = new THREE.DirectionalLight(0xffffff, 2);
+dl.position.set(2, 4, 2);
+scene.add(dl);
+const grid = new THREE.GridHelper(10, 20, 0x556, 0x334);
+scene.add(grid);
+new GLTFLoader().load('models/ana_hunyuan.glb', (g) => {
+  const m = g.scene;
+  const box = new THREE.Box3().setFromObject(m);
+  const size = box.getSize(new THREE.Vector3());
+  console.log('size:', size);
+  m.scale.setScalar(1.72 / Math.max(size.y, 1e-4));
+  m.updateMatrixWorld(true);
+  const b2 = new THREE.Box3().setFromObject(m);
+  m.position.y -= b2.min.y;
+  scene.add(m);
+  window.__ready = 1;
+  const clock = new THREE.Clock();
+  renderer.setAnimationLoop(() => {
+    controls.update();
+    renderer.render(scene, camera);
+  });
+});
+</script></body></html>

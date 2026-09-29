@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Kimodo Preview</title>
+<style>body{margin:0;background:#111}canvas{display:block}</style></head>
+<body>
+<script type="importmap">{"imports":{"three":"./vendor/three/three.module.js","three/addons/":"./vendor/three/jsm/"}}</script>
+<script type="module">
+import * as THREE from "three"; window.__THREE__ = THREE;
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x18202a);
+const camera = new THREE.PerspectiveCamera(50, innerWidth / innerHeight, 0.1, 50);
+camera.position.set(0, 1.2, 3.2);
+camera.lookAt(0, 0.9, 0);
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setSize(innerWidth, innerHeight);
+renderer.setPixelRatio(1);
+document.body.appendChild(renderer.domElement);
+scene.add(new THREE.HemisphereLight(0xffffff, 0x334, 1.2));
+const dl = new THREE.DirectionalLight(0xffffff, 1.5);
+dl.position.set(2, 3, 2);
+scene.add(dl);
+const grid = new THREE.GridHelper(10, 20, 0x556, 0x334);
+scene.add(grid);
+new GLTFLoader().load('models/ana_kimodo_walk.glb', (g) => {
+  const m = g.scene;
+  // normalização IDÊNTICA ao patient.js do jogo (incluindo o Z-up fix)
+  let box = new THREE.Box3().setFromObject(m);
+  let size = box.getSize(new THREE.Vector3());
+  if (size.z > size.y && size.z >= size.x) {
+    m.rotation.x = -Math.PI / 2;
+    m.updateMatrixWorld(true);
+    box = new THREE.Box3().setFromObject(m);
+    size = box.getSize(new THREE.Vector3());
+  }
+  const s = 1.72 / Math.max(size.y, 1e-4);
+  m.scale.setScalar(s);
+  m.updateMatrixWorld(true);
+  box = new THREE.Box3().setFromObject(m);
+  const c = box.getCenter(new THREE.Vector3());
+  m.position.x -= c.x;
+  m.position.z -= c.z;
+  m.position.y = -box.min.y;
+  scene.add(m);
+  window.__clips = g.animations.map((a) => a.name);
+  const mixer = new THREE.AnimationMixer(m);
+  const wanted = new URLSearchParams(location.search).get('clip');
+  const clip = g.animations.find((a) => a.name === wanted) || g.animations[0];
+  mixer.clipAction(clip).play();
+  window.__dur = clip.duration;
+  window.__ready = 1; window.__model = m;
+  const clock = new THREE.Clock();
+  renderer.setAnimationLoop(() => {
+    mixer.update(clock.getDelta());
+    renderer.render(scene, camera);
+  });
+});
+</script></body></html>

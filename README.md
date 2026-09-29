@@ -35,10 +35,16 @@ deploy de produção via Caddy, para não colidir.
 
 ```bash
 npm run check      # sintaxe de todos os módulos (src/, server/, scripts/)
+npm run test:logica # regras da dinâmica de plantão (combo, conquistas, rank) — node puro
 npm run qa:boot    # gate de boot: capa clicável + cena + anamnese  (precisa do jogo servido)
 npm run qa         # QA completo: capa → menu → fase → chat → decisão → debriefing
-npm run verify     # check + build
+npm run qa:dynamics # QA da dinâmica (painel do menu, HUD de combo, chips, debrief) — servido
+npm run qa:all     # TODOS os gates em sequência + resumo (--fast = só estáticos)
+npm run verify     # check + test:logica + build
 ```
+
+**Plano vivo e donos de arquivo:** `docs/ROADMAP.md` (workstreams W1–W6, backlog com critério de
+aceite e matriz de gates). Log de rodadas em `progress.md`; armadilhas em `findings.md`.
 
 Os gates de navegador exigem o jogo servido (uma das duas opções acima) e usam
 Playwright/Chromium headless. Sem GPU real o WebGL cai para SwiftShader: os tempos

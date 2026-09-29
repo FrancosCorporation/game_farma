@@ -56,6 +56,7 @@
                       background:rgba(13,148,136,.25); border:1px solid rgba(94,234,212,.3); flex-shrink:0; }
 .phase-card .ph-info b { display:block; font-size:0.92rem; }
 .phase-card .ph-info small { color:#94a3b8; font-size:0.72rem; }
+.phase-card .ph-prog { display:block; margin-top:0.2rem; font-size:0.68rem; color:#fbbf24; }
 .phase-card.locked { opacity:.45; }
 .phase-card.locked .ph-num { background:rgba(100,116,139,.2); color:#94a3b8; }
 
@@ -246,6 +247,28 @@
   .dsf-chip-destaque { animation: none; }
   .tlac-timer-bar > i { transition: none; }
 }
+
+/* ============ Dinâmica de plantão: combo · rank · conquistas ============ */
+.rankbar { display:block; height:8px; border-radius:999px; background:#1e293b; overflow:hidden; }
+.rankbar > i { display:block; height:100%; background:linear-gradient(90deg,#0d9488,#2dd4bf); transition:width .35s ease; }
+.medalhas { display:grid; grid-template-columns:repeat(auto-fill,minmax(9.5rem,1fr)); gap:0.4rem;
+            list-style:none; margin:0; padding:0; }
+.medalha { display:flex; align-items:center; gap:0.45rem; padding:0.35rem 0.5rem; border-radius:0.6rem;
+           border:1px solid rgba(255,255,255,.08); background:rgba(15,23,42,.6);
+           font-size:0.7rem; color:#64748b; }
+.medalha b { font-weight:600; line-height:1.15; }
+.medalha small { display:block; color:#94a3b8; font-size:0.65rem; font-weight:400; }
+.medalha.on { color:#e2e8f0; border-color:rgba(45,212,191,.45); background:rgba(13,148,136,.16); }
+.medalha:not(.on) .medalha-ico { filter:grayscale(1) opacity(.5); }
+.medalha-ico { font-size:1rem; line-height:1; }
+.dyn-line { font-size:0.85rem; color:#cbd5e1; margin-bottom:0.35rem; }
+.dyn-line + .medalhas { margin-top:0.35rem; }
+/* Atalhos da tela de decisão (teclas 1/2/3) */
+.kbd-num { display:inline-grid; place-items:center; min-width:1.15rem; height:1.15rem; margin-right:0.4rem;
+           padding:0 0.25rem; border-radius:0.35rem; font-family:ui-monospace,monospace; font-size:0.66rem;
+           font-weight:700; color:#5eead4; background:rgba(13,148,136,.25);
+           border:1px solid rgba(94,234,212,.35); vertical-align:middle; }
+.conduta[aria-pressed="true"] .kbd-num { color:#0f172a; background:#5eead4; }
 
 /* Exportar relatório (imprimir/PDF) */
 @media print {

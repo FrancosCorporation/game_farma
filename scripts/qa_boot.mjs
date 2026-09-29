@@ -63,17 +63,21 @@ async function cenario(nome, viewport, usarToque) {
     'hook de QA (__farmacheck.game) disponível');
   ok(await page.$eval('#btn-iniciar', (el) => el.disabled === false), 'botão "Iniciar expediente" liberado quando a cena fica pronta');
 
-  // 3. Menu → atendimento
+  // 3. Menu → atendimento. ORDEM IMPORTA: no headless (SwiftShader ~3 fps) o
+  // walk-in do paciente pode passar de 1 min, então primeiro espera a fase
+  // ANAMNESE concluir (timeout generoso) e SÓ ENTÃO exige a barra do POV
+  // visível. Antes a barra era esperada com 30 s e falhava por orçamento de
+  // tempo (gate flaky), não por bug.
   await page.click('#btn-iniciar');
-  const hud = await page.waitForSelector('#acoes:not([hidden])', { timeout: 30000 }).then(() => true).catch(() => false);
-  ok(hud, 'HUD de atendimento aparece');
-
-  // 4. Chegada → Anamnese (chat destravado)
   const anamnese = await page.waitForFunction(
     () => window.__farmacheck.game.state === 'ANAMNESE',
-    null, { timeout: 30000 },
+    null, { timeout: 180000, polling: 200 },
   ).then(() => true).catch(() => false);
   ok(anamnese, 'fase chega em ANAMNESE (walk-in conclui)');
+  const hud = await page.waitForSelector('#acoes:not([hidden])', { timeout: 15000 })
+    .then(() => true).catch(() => false);
+  ok(hud, 'HUD de atendimento aparece (barra do POV visível na anamnese)');
+
   ok(await page.$eval('#chat-input', (el) => el.disabled === false), 'chat liberado na anamnese');
   const fase = await page.$eval('#hud-fase', (el) => el.textContent);
   ok(fase === 'Anamnese', `HUD mostra a fase Anamnese (${fase})`);

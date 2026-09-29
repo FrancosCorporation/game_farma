@@ -13,7 +13,9 @@ const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
 export const ZONAS = {
   paciente: { pos: new THREE.Vector3(0, 1.62, 2.7), yaw: 0, pitch: -0.089 },
   computador: { pos: new THREE.Vector3(-0.78, 1.56, 2.48), yaw: 0.62, pitch: -0.33 },
-  mesa: { pos: new THREE.Vector3(1.6, 1.52, 2.42), yaw: -0.7, pitch: -0.4 },
+  // mesa em x3.1 (desde 25/09 noite — saiu de cima do balcão): câmera
+  // reposicionada p/ enquadrar a bandeja do kit TLAC no novo lugar
+  mesa: { pos: new THREE.Vector3(2.15, 1.52, 2.45), yaw: -0.76, pitch: -0.39 },
 };
 
 const LIM_YAW = 0.6;   // limite do look-around (rad)
@@ -26,10 +28,17 @@ const DUR_TWEEN = 0.9;
   const EYE = 1.6;
 
   // Colisões (PO 25/09: "os obstáculos voltam a bloquear — balcão, prateleiras,
-  // modelos"). AABBs calibrados na cena (pharmacy.js): balcão central (z~1,55),
-  // gôndolas 2,4×0,5 m (fundo e paredes) e vitrine. Margem ~0,25 m do corpo.
+  // modelos"). AABBs calibrados pela GEOMETRIA RENDERIZADA (bounds medidos no
+  // browser, tmp_bounds.tmp.mjs) + margem ~0,25 m do corpo:
+  // · balcão central (GLB 4,8 m): visível x −2,4..2,4 / z 1,08..2,02
+  //   — PO 25/09 noite: AABB antigo ia até x ±3,6 → ~1 m de "parede invisível"
+  //   em cada lado (espaço em branco intransponível sem balcão).
+  // · mesa lateral TLAC (tampo 0,95×0,7 rot −0,35 rad): visível x 1,88..3,02 /
+  //   z 0,96..1,94 — antes sem AABB próprio (era engolida pelo balcão gigante).
+  // · gôndolas 2,4×0,5 m (fundo e paredes) e vitrine — inalteradas.
   const OBSTACULOS = [
-    { x0: -3.6, x1: 3.6, z0: 1.0, z1: 2.15 },      // balcão central
+    { x0: -2.65, x1: 2.65, z0: 0.85, z1: 2.27 },      // balcão central (medido + 0,25)
+    { x0: 2.28, x1: 3.92, z0: 0.71, z1: 2.19 },      // mesa lateral TLAC (x3.1 desde 25/09 noite; medido + 0,25)
     { x0: -4.65, x1: -1.75, z0: -5.15, z1: -4.05 }, // gôndola fundo esq
     { x0: -1.25, x1: 1.65, z0: -5.95, z1: -4.85 },  // gôndola fundo centro
     { x0: -8.3, x1: -7.3, z0: -3.65, z1: -0.75 },   // gôndola parede esq 1
