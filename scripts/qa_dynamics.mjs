@@ -6,7 +6,8 @@ import { chromium } from 'playwright';
 
 const URL = process.argv[2] || 'http://127.0.0.1:4174/';
 const browser = await chromium.launch({ headless: true });
-const page = await browser.newPage({ viewport: { width: 1280, height: 800 } });
+const context = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+const page = await browser.newPage();
 const errs = [];
 page.on('pageerror', (e) => errs.push('pageerror: ' + e.message));
 page.on('console', (m) => { if (m.type() === 'error') errs.push('console: ' + m.text()); });
@@ -22,8 +23,14 @@ await page.addInitScript(() => {
     badges: {}, historico: [], porFase: {}, porCaso: {},
   }));
 });
+// Config LLM opt-in: sem endpoint salvo, probe não roda e console fica limpo
+page.addInitScript(() => {
+  localStorage.setItem('farmacheck:llm', JSON.stringify({baseUrl: ''}));
+});
 await page.goto(URL, { waitUntil: 'domcontentloaded', timeout: 30000 });
-await page.waitForFunction(() => document.documentElement.dataset.capaPronta === '1', null, { timeout: 20000, polling: 100 });
+  // Limpar config LLM antiga para evitar probe ERR_CONNECTION_REFUSED
+  await page.evaluate(() => localStorage.clear());
+  await page.waitForFunction(() => document.documentElement.dataset.capaPronta === '1', null, { timeout: 20000, polling: 100 });
 await page.evaluate(() => document.getElementById('capa-iniciar').click());
 await page.waitForFunction(() => document.documentElement.dataset.jogoPronto === '1', null, { timeout: 90000, polling: 100 });
 

@@ -23,13 +23,16 @@ async function cenario(nome, viewport, usarToque) {
   console.log(`\n── ${nome} (${viewport.width}×${viewport.height})`);
   const contexto = await browser.newContext({ viewport, hasTouch: usarToque, isMobile: usarToque });
   const page = await contexto.newPage();
+  page.addInitScript(() => {
+    localStorage.setItem('farmacheck:llm', JSON.stringify({baseUrl: ''}));
+  });
   const erros = [];
   page.on('pageerror', (e) => erros.push('pageerror: ' + e.message));
   page.on('console', (m) => { if (m.type() === 'error') erros.push('console: ' + m.text().slice(0, 160)); });
 
   await page.goto(URL, { waitUntil: 'domcontentloaded', timeout: 30000 });
-
-  // 1. Capa interativa logo no começo: É o primeiro clique do jogador e o teste
+  // Limpar config LLM antiga para evitar probe ERR_CONNECTION_REFUSED
+  await page.evaluate(() => localStorage.clear());
   //    que pega a regressão do boot bloqueado. A capa vive no entry leve (~13 kB,
   //    sem three.js), então não pode esperar a cena 3D.
   //    Os tempos vêm carimbados pela própria página (`data-capa-pronta-ms` /

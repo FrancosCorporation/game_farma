@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { createGLTFLoader } from './glbLoader.js';
+import { createGLTFLoader, sanitizeClips } from './glbLoader.js';
 
 export const POSE_FRASE = {
   mao_no_peito: 'aperta o peito com a mão',
@@ -31,6 +31,7 @@ export async function loadGLBFPatient(url, scene) {
   let gltf;
   try {
     gltf = await createGLTFLoader().loadAsync(url);
+    sanitizeClips(gltf);
   } catch (err) {
     console.error(`[patient] FALHA ao carregar GLB: ${url}`, err);
     throw err;
@@ -41,7 +42,7 @@ export async function loadGLBFPatient(url, scene) {
   // (só o pé gigante na câmera).
   let box = new THREE.Box3().setFromObject(inner);
   let size = box.getSize(new THREE.Vector3());
-  if (size.z > size.y && size.z >= size.x) {
+  if (size.z > size.y * 1.5) {
     inner.rotation.x = -Math.PI / 2;
     inner.updateMatrixWorld(true);
     box.setFromObject(inner);
@@ -189,9 +190,15 @@ export async function loadGLBFPatient(url, scene) {
   contact.position.y = 0.012;
   root.add(contact);
 
+  // Guard: rigParams é calibrado p/ o rig Eric (paciente_real.glb). Se o
+  // esqueleto carregado não tiver os bones-alvo, poses procedurais viram
+  // no-op ({} → applyBones aplica [0,0,0]) — nunca distorce rigs não calibrados.
+  const rigMatch = ['upperarm_l_024', 'upperarm_r_049', 'spine_01_03', 'neck_06', 'head_07'].every((n) => B(n));
+  if (!rigMatch) console.log('[patient] rig não calibrado no rigParams — poses procedurais off');
+
   function computeTargets() {
     const fn = BONE_POSES[poseName] || BONE_POSES.idle;
-    poseRot = fn(rigParams);
+    poseRot = rigMatch ? fn(rigParams) : {};
     if (mood === 'dolorido') {
       for (const n of ['eyebrow_l_021', 'eyebrow_r_022']) {
         const b = B(n);
@@ -417,12 +424,16 @@ export async function loadGLBFPatient(url, scene) {
           if (Number.isFinite(m)) groundFix.min = Math.min(groundFix.min, m);
           if (groundFix.parado >= 0.7) {
             const m = groundFix.min;
-            if (Number.isFinite(m) && Math.abs(m) < 0.4 && Math.abs(m) > 0.002) {
-              groundFix.alvo = inner.position.y - m; // assenta o pé no chão
+            // 29/09: neste rig retargetado os TOE BONES vivem na convenção do
+            // esqueleto (y=-2,9 m!), não na da malha — confiar nele enterra a
+            // modelo (PO: "pernas enfiadas no chão") ou a faz voar pro teto.
+            // A malha JÁ nasce assentada (Box3 do load). Sane: só ajuste fino.
+            if (Number.isFinite(m) && Math.abs(m) > 0.002 && Math.abs(m) <= 0.15) {
+              groundFix.alvo = inner.position.y - m; // ajuste fino (< 15 cm)
               groundFix.aplicando = true;
               console.log(`[patient] ground-fix: idle toes minY=${m.toFixed(3)} m → ajuste ${(-m).toFixed(3)} m`);
             } else {
-              console.log(`[patient] ground-fix: dispensado (toes minY=${Number.isFinite(m) ? m.toFixed(3) : 'n/a'})`);
+              console.log(`[patient] ground-fix: SKIP (toes minY=${Number.isFinite(m) ? m.toFixed(3) : 'n/a'} — fora da faixa ±0,15 m; malha já assentada pelo Box3)`);
             }
             groundFix.done = true;
           }

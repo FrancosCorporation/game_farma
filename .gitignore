@@ -2,6 +2,10 @@
 node_modules/
 dist/
 
+# Internos: planos de orquestração e backups locais (não versionar)
+.agent-plans/
+ana_work/
+
 # Logs
 *.log
 npm-debug.log*
@@ -31,8 +35,27 @@ npm-debug.log*
 /sem_chance.jpeg
 
 # Scratch de automação (madrugada 3D pipeline) — NÃO commitar
-*.tmp.mjs
-ana_work/
+scripts/*.tmp.mjs
+scripts/build_*.mjs
+old_transform.mjs
+tmp_nudge.mjs
+transfer_weights.mjs
+
+# Modelos GLB versionados (nao capturam arquivos rastreados)
+public/models/ana_v*.glb
+public/models/ana_283k_crua.glb
+public/models/ref_test.glb
+public/models/test_*.glb
+public/models/ana.glb
+public/models/ana2.glb
+public/models/ana3.glb
+public/models/ana5.glb
+public/models/ana6.glb
+public/models/ana_nova.glb
+
+# Teste e arquivos de ref
+*.test.*
+ref_test.*
 /brave_gemini_*.png
 /gemini_*.png
 /gemini_img_test.jpeg

@@ -21,6 +21,8 @@ Este diretório contém prompts/playbooks padronizados para que IAs menores (mod
 | **E — Fontes de Asset por Scan/IA** | ~~arquivada~~ | Arquivada em 14/09/2026 (era photogrammetry/LiDAR — direção realista). Ver `future_projects/realism_core/skills/`. |
 | **F — Gameplay: Câmera, Raycast, Interação** | `SKILL_F_GAMEPLAY_CAMERA_RAYCAST.md` | Câmera 1ª/3ª pessoa com suavização, raycasting de seleção/tiro e alternância de perspectiva no frontend web. |
 | **G — Princípios de Modelagem 3D** | `SKILL_G_PRINCIPIOS_MODELAGEM_3D.md` | **Ler antes de modelar qualquer objeto.** Esqueleto/eixos antes da forma, base universal + variações por parâmetro, pesquisa de domínio. Diretriz do PO aplicável às skills A e D. |
+| **H — Pipeline Mixamo Auto-Rig (autônomo)** | `SKILL_H_RIG_MIXAMO_AUTO.md` | Personagem nova (malha de IA) → FBX com pivô centralizado → upload no Mixamo via browser-headless + CDP → auto-rig colocando os 8 pontos fixos do esqueleto por coordenadas (espelho de simetria calibrado) → download FBX rigged → transplante dos clips aprovados (Walk/Idle) no nível glTF → QA in-game com probe + juiz de visão → deploy. (Sessão 01/10/2026, agent-browser + VLM-local) |
+| **I — Hitem3D/Meshwright** | `SKILL_I_HITEM3D_MESHWRIGHT.md` | Geração e inspeção de malhas 3D na nuvem (hi3d.ai, Meshy) e validação no Meshwright antes do rig; comparação de abordagens nuvem vs local; custo zero de transcrição de vídeos via yt-dlp. |
 
 ## Schema de Referência
 

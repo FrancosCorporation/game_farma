@@ -1,10 +1,14 @@
 import * as THREE from 'three';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
-import { clone as skeletonClone } from 'three/addons/utils/SkeletonUtils.js';
+import { createGLTFLoader } from './glbLoader.js';
 
 // Instância compartilhada do loader GLTF (evita criar um loader por prop)
-const gltfLoader = new GLTFLoader();
+// 29/09: loader COMPARTILHADO com MeshoptDecoder (antes: new GLTFLoader()
+// sem decoder → o ana_coriza.glb meshopt-comprimido FALHAVA no parse e a
+// aten­dente caía no .catch silencioso — e no browser do PO o cache de disco
+// entregava o GLB VELHO não-comprimido (era quebrada) que parseava →
+// atendentes-clone esticadas no balcão).
+const gltfLoader = createGLTFLoader();
 
 const M = (color, opts = {}) => new THREE.MeshStandardMaterial({ color, roughness: 0.85, metalness: 0.05, ...opts });
 const mk = (geo, mat, cast = true) => {
@@ -699,28 +703,10 @@ export function buildPharmacy(scene, addTicker, renderer) {
   propFromGLB('models/prop_vitrine.glb', vitrineG, scene, { pos: [8.2, 0, -1.5], rotY: -Math.PI / 2 });
 
 
-  // Atendentes (26/09, PO: "remove os dois procedurais, coloca como a que
-  // entrou") — clones da Ana com skeletonClone (skinning correto) + Idle.
-  gltfLoader.loadAsync('models/ana_coriza.glb').then((g) => {
-    for (const [ax, az, ary] of [[-4.4, 1.6, Math.PI + 0.25], [4.4, 1.6, Math.PI - 0.25]]) {
-      const wrap = new THREE.Group();
-      wrap.position.set(ax, 0, az);
-      wrap.rotation.y = ary;
-      const inst = skeletonClone(g.scene);
-      const box = new THREE.Box3().setFromObject(inst);
-      const size = box.getSize(new THREE.Vector3());
-      inst.scale.setScalar(1.72 / Math.max(size.y, 1e-4));
-      inst.updateMatrixWorld(true);
-      inst.position.y -= new THREE.Box3().setFromObject(inst).min.y;
-      wrap.add(inst);
-      scene.add(wrap);
-      const mx = new THREE.AnimationMixer(inst);
-      const idle = g.animations.find((c) => /idle/i.test(c.name));
-      if (idle) mx.clipAction(idle).play();
-      const spd = 0.85 + Math.random() * 0.3; // respiração dessincronizada
-      addTicker((dt) => mx.update(dt * spd));
-    }
-  }).catch(() => { /* fallback: sem atendentes */ });
+  // Atendentes REMOVIDAS (04/10, PO: "as outras duas nao quero, ate resolvermos
+  // a primeira na minha frente e ela ficar excepcional"). O bloco de clones da
+  // Ana foi desativado para concentrar todo o esforço na paciente central.
+  // Reativar somente quando a modelo principal estiver aprovada pelo PO.
 
   // ================= Ambientação =================
 

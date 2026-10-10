@@ -94,10 +94,45 @@ function loadModel() {
   retryBtn.style.display = 'none';
   hud.textContent = 'carregando… 0%';
   new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).load(`models/${name}.glb`, (g) => {
+    // IGUALA O PREVIEW AO JOGO: o glbLoader aplica sanitizeClips (congela bones
+    // de ponta — dedos/HeadTop_End/Toe_End — que arremessam vertices em fitas
+    // quando animam). Sem isso o preview mostra deformacao que o jogo nao tem.
+    {
+      const FREEZE_BONES = /(_End)$|^(mixamorig:?|mixamorig)?(Left|Right)Hand(Pinky|Ring|Middle|Index|Thumb)[1-4]$/;
+      let removed = 0;
+      for (const clip of g.animations || []) {
+        const before = clip.tracks.length;
+        clip.tracks = clip.tracks.filter((t) => !FREEZE_BONES.test(t.name.split('.')[0]));
+        removed += before - clip.tracks.length;
+      }
+      if (removed) console.log(`[preview] ${removed} tracks de bones de ponta congelados (anti-fita, igual ao jogo)`);
+    }
     if (model) { scene.remove(model); }
     const m = g.scene;
     const box = new THREE.Box3().setFromObject(m);
-    const size = box.getSize(new THREE.Vector3());
+    let size = box.getSize(new THREE.Vector3());
+    if (size.z > size.y * 1.5) {
+      let headBone = null;
+      m.traverse(o => { if (!headBone && o.isBone && /head/i.test(o.name) && !/toe/i.test(o.name)) headBone = o; });
+      let best = -Math.PI / 2, bestScore = -Infinity;
+      for (const rx of [Math.PI / 2, -Math.PI / 2, Math.PI]) {
+        m.rotation.x = rx;
+        m.updateMatrixWorld(true);
+        let score;
+        if (headBone) {
+          const v = new THREE.Vector3();
+          headBone.getWorldPosition(v);
+          score = v.y;
+        } else {
+          box.setFromObject(m);
+          score = box.getSize(new THREE.Vector3()).y;
+        }
+        if (score > bestScore) { bestScore = score; best = rx; }
+      }
+      m.rotation.x = best;
+      box.setFromObject(m);
+      size = box.getSize(new THREE.Vector3());
+    }
     m.scale.setScalar(1.72 / Math.max(size.y, 1e-4));
     box.setFromObject(m);
     m.position.y -= box.min.y;
@@ -107,6 +142,49 @@ function loadModel() {
     scene.add(m);
     model = m;
     window.__ready = true;
+    // 05/10 ground-fix SKINNED: o Box3 cru (rest invertido da convenção) deixa o
+    // modelo flutuando ~5-17 cm. Amostra os pés na POSE ANIMADA e assenta no chão.
+    setTimeout(() => {
+      try {
+        const m2 = window.__model;
+        if (!m2) return;
+        m2.updateMatrixWorld(true);
+        let sk = null;
+        m2.traverse((o) => { if (o.isSkinnedMesh) sk = o; });
+        if (!sk) return;
+        const fn = sk.applyBoneTransform ? sk.applyBoneTransform.bind(sk) : sk.boneTransform.bind(sk);
+        const pos = sk.geometry.attributes.position;
+        const v = new THREE.Vector3();
+        let minY = Infinity;
+        const step = Math.max(1, Math.floor(pos.count / 4000));
+        for (let i = 0; i < pos.count; i += step) {
+          v.fromBufferAttribute(pos, i);
+          fn(i, v);
+          v.applyMatrix4(sk.matrixWorld);
+          if (Number.isFinite(v.y) && v.y < minY) minY = v.y;
+        }
+        if (Number.isFinite(minY) && Math.abs(minY) < 0.5) {
+          m2.position.y -= minY;
+          console.log('[ground-fix] pés skinned assentados:', (-minY).toFixed(3), 'm');
+        }
+      } catch (e) { /* ground-fix é best-effort */ }
+    }, 2500);
+    if (qs.get('anim')) {
+      const mx = new THREE.AnimationMixer(m);
+      const cl = g.animations.find((c) => new RegExp(qs.get('anim'), 'i').test(c.name)) || g.animations[0];
+      const ac = mx.clipAction(cl); ac.play(); ac.paused = !qs.get('play'); ac.time = parseFloat(qs.get('t') || '0');
+      window.__mixer = mx; window.__anim = cl.name; window.__playing = !!qs.get('play');
+      hud.textContent += ` · anim=${cl.name} t=${qs.get('t') || 0}`;
+    } else if (g.animations && g.animations.length) {
+      // 05/10: SEM anim no URL o preview mostrava a pose técnica de rig (T-pose
+      // INVERTIDA — convenção da família de modelos) e confundia o PO 3x.
+      // Agora auto-play do Idle: qualquer link mostra a personagem viva e de pé.
+      const mx = new THREE.AnimationMixer(m);
+      const idle = g.animations.find((c) => /idle/i.test(c.name)) || g.animations[0];
+      const ac = mx.clipAction(idle); ac.play();
+      window.__mixer = mx; window.__anim = idle.name; window.__playing = true;
+      hud.textContent += ` · anim=${idle.name} (auto)`;
+    }
     window.__model = m;
     window.__THREE = THREE;
     window.__renderer = renderer;
@@ -135,8 +213,12 @@ if (qs.get('cam') === 'free') {
   setCam(qs.get('cam') || 'full');
 }
 let frames = 0, lastFpsT = performance.now();
+let lastT = performance.now();
 function loop() {
   requestAnimationFrame(loop);
+  const nowT = performance.now();
+  if (window.__mixer) window.__mixer.update(window.__playing ? Math.min((nowT - lastT) / 1000, 0.05) : 0);
+  lastT = nowT;
   controls.autoRotate = spin;
   controls.autoRotateSpeed = 1.6;
   controls.update();

@@ -15,7 +15,7 @@ import urllib.request
 import urllib.error
 
 ENDPOINT = "http://127.0.0.1:8081/v1/chat/completions"
-MODEL = "Qwen3.8-9B"
+MODEL = "Qwen2.5-VL-7B"
 
 DEFAULT_PROMPT = (
     "Você é um diretor de arte de jogos 3D (referência: personagens mid-poly "
@@ -41,7 +41,7 @@ def main():
             {"type": "text", "text": prompt},
             {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{b64}"}},
         ]}],
-        "max_tokens": 1500,
+        "max_tokens": 1500, "chat_template_kwargs": {"enable_thinking": False},
         "temperature": 0.3,
     }
     req = urllib.request.Request(

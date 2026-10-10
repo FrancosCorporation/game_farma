@@ -673,6 +673,27 @@ software, ~2-3 fps medidos). Consequências documentadas (não são bugs do jogo
   antes E depois. A análise deve ser visual sequencial (frames), não screenshot pontual.
 - Deploy produção (healthcheck 200).
 
+### Rodada 23 (30/09, noite) — **VERIFICAÇÃO da sessão anterior: estado real do asset novo + produção restaurada** 🔍
+- **Reconstrução do que a sessão anterior fez (29–30/09)**: pipeline "pelos sites" (Gemini ref → Hunyuan/Tencent malha → **Mixamo auto-rig com marcadores** — rounds mixamo_* 29/09 e m3–m10 30/09 = os "pontos fixos" do PO) → ana17/ana.glb (68 nodes mixamorig, 11,7 MB) → deploy como "Ana v2" (BUILDs 13–16). Defeitos: fitas nas pontas dos ossos (PO: "sombra esticada até o teto"), atendentes esticadas (cache), corpo preto (loader sem MeshoptDecoder).
+- **30/09 manhã**: batalha do "Idle corrompido" (diag_idle → fix_idle_corruption → fix_idle_binary → fk_probe → fix_idle_from_walk → **fix_idle_glbsurgery**: Idle reconstruído como TRS-de-BIND constante, 2 chaves = estátua por design, stopgap). Runtime: FREEZE_BONES anti-fita (glbLoader sanitizeClips), ground-fix cap ±15 cm, loader compartilhado com MeshoptDecoder, cache-bust ?v=12, guard anti-monstro nas atendentes → deploy 09:43.
+- **30/09 tarde**: Meshy (ws_*) → **paywall** (modal de assinatura); volta ao Mixamo (m3–m10; m10 com marcadores corretos no lugar, mas **nenhum FBX/GLF baixou** — nada novo no disco). **19:33** trocou o asset por um rig de **19 ossos** (Hips/ArmL/ForeArmL… sem prefixo, Idle 4 s + Walk 1 s; origem: download pronto de site) → BUILD 17, dist 19:34, prints v17 19:38.
+- **19:40:53 o docker daemon reiniciou tudo** (exit 137 geral; game_farma `restart=no` não voltou) → **produção 502 de 19:40 até as 22:15 desta sessão**. Container religado; produção HTTP 200, SHA do GLB remoto = local (BUILD 17 foi servido).
+- **Diagnóstico forense do asset em produção (BUILD 17)**: `ana_coriza.glb` 19 ossos · **Idle 100% constante** (57 canais, 2 chaves — a cirurgia) · **Walk com TODAS as 19 rotações constantes** (só Hips.translation varia 0,438 = root motion) → in-game: **estátua que desliza** (pés nunca saem do chão, Y var 0,000; passada 0,185 m). Juiz nos prints v17: "OK" — porque parada ela é bonita. Asset preservado em `ana_work/nova_ana_estatua19b_3009.glb`.
+- **Recuperação de ouro**: a imagem docker `game_farma:previous` (build 09:43 de 30/09) guarda o asset **visual novo + Walk VIVO** (17 canais de rotação variando; int16-normalizado legal) → extraído para `ana_work/nova_ana_walkvivo_0943.glb` (11,2 MB). MAS in-game com o runtime atual o maquinário de solo explode (toe-bones lendo **-2,849 m**, referência de solo **+1,779 m**, pés variando 4,8 m) — a convenção quebrada de ossos que o patient.js já alertava. Era esse o motivo da sessão anterior voltar ao Mixamo à tarde.
+- **Modelo pronto (git HEAD) verificado in-game (Opção B)**: walk mocap vivo — pés levantam **0,178 m** (faixa humana), cadência ×1,00 (1,68 m/s, advance 1,7402), referência de solo +0,011 m, ground-fix normal (ajuste 0,086 m dentro do cap); idle vivo (10 canais de micro-sway); juiz: idle OK · walk OK · interação OK (o "defeito" do print de interação era só enquadramento close). FREEZE_BONES congela 258 tracks de ponta nele — mudança invisível (dedos fundidos na malha).
+- **Ferramentas**: Meshy = paywall · Mixamo m10 = marcadores OK mas download não concluído · **Blender MCP offline** (Blender fechado — Hunyuan3D via MCP precisa do PO abrir o Blender com o addon) · `ana_work/transplante.py` (rig Mixamo 65 ossos + clips na malha nova, 100% local) existe e não foi testado.
+- **Estado ao fechar**: produção no ar com BUILD 17 (estátua). Decisão pendente do PO: restaurar o modelo pronto (HEAD) agora e seguir o pipeline do modelo novo fora do ar, ou manter a estátua enquanto se termina o rig novo. Probes reutilizáveis: `tmp_probe_optA.tmp.mjs` (in-game determinístico) + `tmp_variation.tmp.mjs` (variação por canal). Backups de hoje morreram no /tmp limpo (lição: backup sempre no ana_work/).
+
+- **Decisão do PO (mesma noite)**: "Restaurar pronto + pipeline novo". Executado: HEAD asset → `public/models/ana_coriza.glb` (SHA e5b04942 = `backup_ana_antiga.glb`), cache-bust ?v=12→**?v=13** (app.js + pharmacy.js), `npm run check` (73 arq.) + build + `scripts/deploy.sh` (healthcheck 200). **Verificação pós-deploy**: SHA remoto = local; probe in-game na produção: pés 0,178 m no swing, cadência ×1,00 (1,68 m/s, advance 1,7402), solo +0,011 m, ground-fix 0,086 m — **jogo 100% animado de novo**. Próximo: pipeline do modelo novo offline (`transplante.py`: malha nova + rig 65 ossos + clips aprovados), QA in-game e prints antes de qualquer deploy (PO).
+
+### Rodada 24 (30/09, madrugada→noite) — **PIPELINE NOVO v1: transplante local roda, mas herda a doença de frames** 🔬
+- **Transplante executado** (`ana_work/transplante.py`, 100% local, sem site): NOVA = `nova_ana_pele_curada.glb` (malha Hunyuan pura: 1 node, 0 skins, pele curada) + VELHA = `ana_coriza.glb` restaurado (rig 65 ossos + clips Walk/Idle finais) → Blender 5.2 headless: solda+smooth, alinhada à altura do rig, auto-weights (ARMATURE_AUTO), franja-fix (107.509 verts → Head 100%), poda de smear, limpeza de junk (Icosphere velha deletada junto). **Clips sobreviveram ao roundtrip com amplitudes IDÊNTICAS** (Walk UpLeg 1.993/1.992; Idle Hips 0.010 — variação por canal via `tmp_variation.tmp.mjs`).
+- **Otimização canônica** (§6): simplify 0.40/--error 0.01 (129.638 tris) + resize 2048 + meshopt+webp → 46,6 MB → **1,26 MB** (`nova_ana_transplantada_final.glb`); extras {walkSpeed 1.684, walkAdvance 1.7402} injetados via cirurgia JSON (`tmp_patch_extras.tmp.mjs` → `nova_ana_game_v14.glb`).
+- **QA in-game (servidor de teste, probe determinístico + juiz de visão): REPROVADO.** Sintomas: idle = massa roxa/magenta (material/textura parcial), walk = os pés dos OSSOS lendo +2,08 m (variação 2,8 m), interação colapsada no otimizado; raw (não-comprimido) idêntico nos ossos (+2 m) e interação OK — **a doença é do FRAME do transplante, não da compressão**. Causa-raiz suspeita (confere com Rodadas 20/21): o ana_coriza.glb original tem hierarquia de escalas (cm→m) que **Blender e three.js interpretam diferente** (three.js lê a malha 2,0 m; Blender importa 0,52) → qualquer roundtrip Blender do rig re-estabelece frames que não casam com os clips pinhados → runtime de solo/calibração enlouquece + bind parcial.
+- **Conclusão da rodada**: a rota transplante-local precisa de alinhamento de frames ANTES do export (aplicar transforms do armature, unificar escala) — quicksand Blender de novo. **A rota limpa segue sendo a que gerou o asset que funciona**: rig NOVO pelo Mixamo (marcadores m10 já provados posicionáveis; `mixamo_final.tmp.mjs` já baixou FBX com sucesso em 25/09) → `fbx_merge` → `patch_final_ana.mjs` (scripts todos prontos em ana_work/). O Mixamo nasce num frame único e consistente — imune à doença.
+- Artefatos: `nova_ana_transplantada_raw.glb` (44,5 MB, clips perfeitos), `nova_ana_transplantada_final.glb`/`nova_ana_game_v14.glb` (1,26 MB), probes `tmp_probe_optA.tmp.mjs` + `tmp_variation.tmp.mjs` + `tmp_patch_extras.tmp.mjs` (reutilizáveis), prints nt_*/ntr_* (reprovados).
+- **Produção segue 100% no modelo pronto** (Rodada 23) — nada disso foi deployado.
+
 ### Rodada 22 (27/09) — **REVERT TOTAL da cabeça + animação reduzida** ✅
 - **"HORRÍVEL" (PO com screenshots + análise)**: meus dois "fixes" da franja RASGARAM o
   rosto — o fix de pesos (Head 100% em 8578 verts) E o fix de posição (3205 verts
@@ -688,3 +709,342 @@ software, ~2-3 fps medidos). Consequências documentadas (não são bugs do jogo
   bobBaseY = groundFix.alvo direto — o walk clip tem o Hips pinado no mesmo valor
   do idle, então a altura deveria ser a mesma. Sem subtrações, sem calibração.
 - Deploy produção (healthcheck 200).
+
+### Rodada 25 (01/10, tarde) — **MODELO NOVO NO AR: malha nova + rig Mixamo + clips aprovados** ✅
+- Candidato montado pela sessão anterior (`ana_work/nova_ana_game.glb`, 11:27) testado in-game
+  pela primeira vez: gate de arquivo PASSA (Walk 17 canais var≈1.99; Idle 10 canais micro).
+- QA in-game (servidor isolado :4180): 65 ossos, cadência ×1.00 (1.684 m/s; advance 1.7402),
+  pés levantam 0.178 m, solo +0.011 m, ground-fix 0.087 m (dentro do cap), 0 pageerrors.
+  Juiz de visão: idle "ereto, braços ao lado, postura neutra natural"; rosto "traços definidos,
+  cabelo não cobre os olhos, sem deformação" (no antigo o cabelo cobria parcialmente os olhos).
+- Otimização canônica (gltf-transform optimize): 9.2 MB → **856 KB**; 65 ossos / 195 canais por
+  clip / extras {walkSpeed 1.684, walkAdvance 1.7402} preservados; probe do otimizado = idêntico.
+- Deploy: banner "BUILD 17" do outro IA removido; `?v=13`→`?v=14` (app.js + pharmacy.js);
+  `npm run check` (77 arq.) + build + `scripts/deploy.sh` (healthcheck 200, `game_farma:previous`
+  p/ rollback); SHA remoto = local (bbdb9873…) e probe na PRODUÇÃO saudável (`probe_prod.log`).
+- Vídeo do PO (Hitem3D/Meshwright) transcrito (3.006 palavras, yt-dlp auto-subs) + skill
+  `SKILL_BANK/SKILL_I_HITEM3D_MESHWRIGHT.md` (README indexado).
+- Pendente: PO verificar no ar (Ctrl+Shift+R); se preferir o visual antigo → rollback com a
+  imagem `game_farma:previous`.
+- Nota de instrumentação: `idleHeadY: null` (NaN) no probe é artefato (os nomes de ossos existem
+  no GLB e o print mostra cabeça/rosto íntegros) — mesma família do "fantasma de instrumentação".
+
+### Rodada 26 (01/10, tarde) — **ROTA NOVA: malha no hi3d.ai (Hitem3D)** 🚀
+- PO decidiu: queixa principal é a **estética do rosto** — e o skinning medido é ≤ ao do modelo
+  antigo que ele já aprovava (axila >3x: 103 vs 168; rosto >1.5x: 29 vs 84; print idle no ar sem
+  deformação pelo juiz). Tentativa extra de cap de axila no modelo novo PIOROU o pico
+  (6.2x→13.9x) → descartada; produção intocada (SHA bbdb9873).
+- **Achado de instrumentação**: o viewer fora do jogo (char-preview/deform-check) NÃO renderiza o
+  GLB otimizado neste headless (screenshots vazios; juiz de visão alucina em imagem vazia) —
+  ground truth visual = prints do JOGO + métricas de stretch por aresta (`tmp_stretch.tmp.mjs`).
+- hi3d.ai: login Google concluído via GSI/seletor de contas (rodolfofrancoxico@gmail.com);
+  saldo 110 créditos. Geração disparada: Geral, v3.0 "Detalhe máximo", Qualidade Mestre,
+  **Geometria + Textura estilizada**, referência `ana_ref_turbo_00001_.png` (832×1248) —
+  custo real **65 créditos** (de 105), saldo 45. Status: "Gerando geometria".
+- Próximo: baixar → `conv_glb_fbx.py` (+ pivô centrado) → Mixamo auto-rig (skill) →
+  `fbx_to_glb_skel.py` → `tmp_transplant_clips.tmp.mjs` → `tmp_patch_extras.tmp.mjs` →
+  `gltf-transform optimize` → QA → deploy (com aval do PO). Mixamo já logado no browser ✅.
+
+### Rodada 27 (01/10, noite) — **MALHA HI3D NO AR (bind local, sem Mixamo.com)** ✅
+- Geração no hi3d.ai concluída (65 de 110 créditos): malha nova + texturas PBR 8K, rosto
+  aprovado pelo juiz ("olhos grandes, íris castanhas, sobrancelhas simétricas, sorriso leve").
+- **Mixamo.com descartado**: o auto-rig falhava de forma intermitente ("unable to map your
+  existing skeleton" / volta ao step de marcadores sem salvar; o MESMO arquivo passou 2× e
+  falhou 2×). Não era a malha: o FBX é limpo (1 mesh, sem hierarquia).
+- **Rota local vencedora** (determinística): `ana_work/tpose_mesh.py` (T-pose com falloff) +
+  `ana_work/bind_h3d2.py` (bind no rig GLB `nova_ana_skel_novo.glb`, transferência de pesos
+  Mixamo por Data Transfer, parent/inverse/basis espelhados) → causa raiz de espaço corrigida
+  (arquiteto): FBX local Z-up vs armature +90°X; correção com rotação -90°X + match de dims
+  por eixo → `bind_h3d4.py` → GLB com ranges idênticos à referência [0.73, 0.37, 2.0].
+- Clips transplantados de `ana_work/nova_ana_game.glb` (float; pós-optimize mantém Walk 17 /
+  Idle 21 canais) + extras → optimize (2.05 MB) → **deploy ?v=15** (check 79, build, healthcheck
+  200; SHA remoto = local `8b93aa5e`; banco `game_farma:previous` p/ rollback).
+- Probe pós-deploy na produção: size 0.727×2.000×0.372 (igual à família aprovada), cadência ×1.00,
+  pés 0.178 m, solo +0.011 m, ground-fix 0.080 m, 65 ossos, 0 pageerrors.
+- Backup do modelo anterior: `ana_work/ana_coriza_nova_opt_backup_0110.glb`.
+- Lição registrada: VLM alucina em imagem vazia (viewer externo não renderiza meshopt) — só
+  confiar em prints do JOGO + métricas; contemplar o "fantasma de instrumentação".
+
+### Rodada 28 (01/10, noite) — **v16: texturas recoladas + causa do "branco/colapsado"** ✅
+- v15 (auditado pelo PO) tinha **material SEM textura** (o export FBX do Blender não embutiu as
+  imagens; o optimize podou o TEXCOORD_0 órfão) → personagem branco/cinza in-game. O "colapso"
+  era o mesmo mesh sem textura (o mesh em si renderiza normal no headless: 1.73 m).
+- Fix barato: `tmp_copy_tex.tmp.mjs` recolou baseColor+metallicRoughness ORIGINAIS (8K JPEG, média
+  [196,149,136] = pele/roupa) no GLB pré-opt (que mantém UVs) → optimize de novo → v16 (3 MB,
+  TEXCOORD_0 + baseColorTexture presentes, Walk 17 / Idle 21, extras ok; métricas do probe
+  idênticas ao aprovado: pés 0.178, cadência ×1.00, solo +0.011, mesh 1.73 m sem colapso).
+- Deploy v16 (SHA remoto = local `bdcfa3f8`, healthcheck 200). Rollback: `game_farma:previous` +
+  `ana_work/ana_coriza_nova_opt_backup_0110.glb`.
+- Pendências conhecidas: malha ficou com 279k vértices (normais flat do Blender; weld não reduz);
+  se o device do PO engasgar, o próximo passo é re-exportar com shade_smooth (malha ~84k vértices).
+
+### Rodada 29 (02/10) — **v17 CANDIDATO: solda smooth-normals 279k→71k verts (−74%), 3 MB→946 KB. AGUARDANDO AVAL DO PO** ⏸️
+- **Objetivo**: pendência documentada da Rodada 28 — malha com 279k vértices (flat normals do
+  Blender) e arquivo de 3 MB; "re-exportar com shade_smooth (~84k vértices)".
+- **Rota escolhida (sem Blender — lições R20/R21)**: cirurgia gltf-transform direto no GLB em
+  produção: `scripts/weld_smooth_normals.mjs` (novo, reutilizável) agrupa vértices por tupla
+  exata (posição+UV), solda duplicados do flat-split e **recomputa normais suaves** (média
+  sign-coherent: flip da minoria contrária antes de somar). Pesos comprovados idênticos entre
+  duplicados (0/2.000 divergentes na amostra) → deformação inalterada por construção.
+- **Armadilha de winding achada**: 1.527 posições (hair cards / camadas duplas, y≈1,32 m)
+  têm normais OPOSTAS entre duplicados — média ingênua cancelava → cabelo/sombra quebrada.
+  O fix sign-coherent resolve. Normais degeneradas: 41 no v17 vs 65 no v16 (mesma classe de
+  ruído pré-existente, triângulos degenerados do asset original).
+- **Resultado do arquivo** (`ana_work/nova_ana_v17_opt.glb`, 946 KB): 71.366 verts / 107.509 tris
+  (TRIS IDÊNTICOS à produção — `optimize --simplify-ratio 1 --texture-compress false` para não
+  decimar nem recomprimir texturas), 65 ossos, Walk/Idle 195 canais (130 vivos, amplitudes
+  idênticas), asset.extras {1,684/1,7402} preservados, texturas byte-idênticas.
+  ⚠️ O `optimize` DEFAULT do CLI 4.5 decimou p/ 74k tris (ratio 0 ≠ no-op) — SEMPRE
+  `--simplify-ratio 1` quando a malha é aprovada.
+- **QA in-game (RIG NOVO, ver lição abaixo)**: probe determinístico = telemetria IDÊNTICA à
+  produção (pés 0,178 m, footMin 0,106, 65 ossos, cadência ×1,00, solo +0,011, ground-fix 0,087,
+  0 pageerrors); atendentes (3× SkeletonUtils.clone) com 71k verts cada, normais sãs.
+- **Comparação visual (enquadramento padrão do jogo, pose idêntica <1 mm)**: diff v16↔v17 =
+  **2,4–4,2% dos pixels** (RMS 9–14) — mudança sutil de sombreamento. VLM (Qwen 9B):
+  "nenhuma das duas apresenta defeito de malha" nos dois sentidos; preferência estética
+  MÍNIMA E CONSISTENTE pelo visual v16 (testes com lados invertidos — não é viés posicional;
+  possivelmente o "brilho facetado" lê como mais polido). Decisão estética = olho do PO.
+- **🚨 LIÇÃO GRAVE — "fantasma de instrumentação" em escala nova**: os "servidores isolados"
+  :4180/:4181 desta sessão NUNCA subiram — EADDRINUSE engolido (setsid + log não verificado!)
+  e as portas pertenciam a processos DE SESSÕES ANTERIORES (`scratch/tmp/opencode/qa_nova`,
+  `optB2`) servindo assets VELHOS. Todo QA in-game inicial comparou assets errados (e a
+  "telemetria idêntica" era literalmente o mesmo asset). PROTOCOLO NOVO: (1) ver o log de
+  boot do servidor; (2) **curl no GLB + gate de vértices ANTES de abrir o browser**;
+  (3) servidores de QA em raízes auto-contidas próprias (scratch/A/server + dist + src).
+  Os servidores velhos 4180/4181 (PIDs de outras sessões) foram deixados VIVOS.
+- **Estado**: produção INTACTA (v16, SHA bdcfa3f8); `dist/` restaurado p/ v16; candidato +
+  backup em `ana_work/` (nova_ana_v17_opt.glb 946 KB / ana_v16_pre_smooth_backup_0210.glb).
+  Evidência p/ o PO: `compAB_idle_zoom.png` (A=v16 | B=v17, zoom), `compAB_idle.png`,
+  pares v16_*/v17_* (idle/walk/interacao/closeups). **Pendente: aval do PO** → deploy
+  (cache-bust ?v=17) ou manter v16.
+
+### Rodada 29 (02/10, encerramento) — **v17 DEPLOYADO NA PRODUÇÃO** ✅
+- PO: "era para ter publicado" → aval concedido; deploy executado via `scripts/deploy.sh`.
+- Cache-bust `?v=16` → `?v=17` (app.js:99 + pharmacy.js:712); check 80 arq. + build 6,6 s verdes.
+- **Pós-deploy (evidência)**: healthcheck 200; **SHA remoto = local** (`a8c8b763…`);
+  GLB da produção = 71.366 verts / 107.509 tris; probe in-game NA PRODUÇÃO carregou `?v=17`:
+  pés 0,178 m, footMin 0,106, 65 ossos, cadência ×1,00, solo +0,011, ground-fix 0,087,
+  0 pageerrors. Rollback: `game_farma:previous` + `ana_work/ana_v16_pre_smooth_backup_0210.glb`.
+- Gain: download do personagem 3,0 MB → 946 KB (−69%); vertex processing −74% (mobile).
+- Limpeza: servidores de QA scratch (:4190/:4191) encerrados; :4180/:4181 (de sessões
+  anteriores) intocados; `dist/` = build novo (v17); prints de produção `prod_v17_*.png`.
+
+### Rodada 30 (02/10, noite) — **CAUSA RAIZ DA "DEFORMADA" ACHADA + ROLLBACK p/ asset aprovado** ✅
+- **PO (furioso, com razão)**: "resetei o cache e é a MESMA PORCARIA DEFORMADA" — e pediu prints +
+  juiz de visão como olhos. Feito: prints da PRODUÇÃO + transcrição verbatim.
+- **Juiz na produção v17**: "DEFORMADA — tronco esticado, linha central espelhada, SEM ROUPA/desnuda,
+  tronco aberto/desmontado". O PO via o que o juiz via. Eu tinha descartado essas leituras como
+  alucinação — ERRO: telemetria de ossos não vê malha/textura.
+- **CAUSA RAIZ (forense)**: `bind_h3d12.py` seção 4 **sobrescreve as UVs próprias da malha hi3d**
+  com UVs da malha Hunyuran via KDTree — executada ANTES da correção de espaço (-90°X) = UVs
+  praticamente aleatórias. As texturas recoladas (v16) são as ORIGINAIS hi3d → atlas certo em UV
+  errada = pele esticada/sem roupa/linhas espelhadas. Invisível na v15 (branca, sem textura) e
+  nunca verificada visualmente na v16/v17 (só telemetria de ossos).
+- **Fix das UVs construído e testado** (`bind_h3d13.py` = v12 sem a seção 4; pipeline completa →
+  `ana_work/v18_final.glb` 983 KB, 105k tris): juiz agora vê "blusa rosa + short rosa" (textura
+  OK ✓) MAS ainda acusa shape (axilas/mangas distorcidas, braços assimétricos, tronco torcido).
+  **Controle com o asset antigo aprovado: NORMAL.** → malha nova REALMENTE tem defeitos de
+  peso/forma além da textura — NÃO foi para o ar.
+- **AÇÃO: ROLLBACK** para o último asset polido em 23 rodadas (`backup_ana_antiga.glb`,
+  SHA e5b04942 — byte-idêntico), `?v=18`, deploy healthcheck 200.
+- **Verificação pós-deploy (evidência)**: SHA remoto = e5b04942… ✓ · probe in-game produção:
+  `?v=18`, 0 pageerrors, size 0.730×2.000×0.372 ✓ · **juiz no print da produção: "NORMAL —
+  sem deformações, postura ereta, articulações corretas"** ✓
+- **Estado da malha nova (hi3d)**: arquivo correto em textura (v18) MAS precisa de retrabalho de
+  pesos (axilas/mangas) antes de voltar ao ar. Bar a bater: juiz = NORMAL no print do jogo,
+  igual ao asset atual. Todos os artefatos preservados em ana_work/ (v18_*, bind_h3d13.py).
+- Lições: (1) telemetria de ossos NÃO valida visual de malha/textura — print + juiz é gate
+  obrigatório de asset novo; (2) nunca descartar leitura consistentemente negativa do juiz só
+  porque ele oscila em outras perguntas; (3) transfer KDTree de UV em espaço desalinhado é
+  destrutiva por design — mesh com textura própria NÃO recebe UV de outra.
+
+### Rodada 31 (02/10, madrugada) — **FIX DA FRANJA/TESTA NO AR (v19) + saga hi3d documentada** ✅⚠️
+- **PO (rollback v18)**: "testa balançando quando para, chega a cobrir os olhos; após 5s normaliza.
+  Melhor que a última, mas ainda não tá bom. Dá pra gerar uma melhor?" → duas frentes.
+- **FRENTE A — hi3d "melhor que ela" (NÃO publicado)**: causa raiz #3 e #4 achadas com forense:
+  1. **A pose da malha hi3d é outra** (braços caídos com antebraços ~30° abertos, cotovelos dobrados —
+     herança da referência "mãos na cintura" APROVADA lá atrás) × rig de braços caídos retos;
+     braços do alvo nascem ~28 abaixo do ombro do rig e são mais longos (93 vs 71).
+  2. **O Data Transfer do bind v12 NUNCA funcionou** (pesos lixo silenciosos em v15/16/17 e
+     nos meus v18-22: 32-46k verts dominados por Head com pesos uniformes ⅓).
+  Substituí por: bone-heat em proxy decimado (14.872 verts, 0 falhas — bone-heat direto falha
+  em 87k) + cópia KDTree local + reparo de componentes desconectados + por fim **pesos
+  geométricos determinísticos (2 ossos mais próximos por segmento, 1/(d+0,5)²)** —
+  distribuição final anatômica (face→Head ✓ pés→Foot/ToeBase ✓ pernas/braços/tronco ✓).
+  3. **Repose espinha-a-espinha** (braços/pernas/tronco) para alinhar proporções ao rig —
+     os falloffs criaram zonas de cisalhamento (28cm de deslocamento sobre 14cm de blend) →
+     juiz: "DEFORMADA — braços em ângulos impossíveis, geometria fragmentada" → **REPROVADO,
+     fora do ar** (ana_work/v25_*).
+  **Conclusão técnica**: a malha hi3d é INCOMPATÍVEL estruturalmente com o rig do jogo sem um
+  re-rig profissional; a referência "mãos na cintura" é a causa-mãe. Caminho certo: REGERAR
+  no hi3d com referência de braços caídos/proporções padrão (saldo 45 de 65 créditos —
+  precisa completar) OU auto-rig Mixamo em malha de pose bindável.
+- **FRENTE B — fix da franja do asset atual (PUBLICADO v19)**: R18 revisitado com as lições:
+  `scripts/fix_fringe_compensated.mjs` (8.578 verts da caixa da cabeça → 100% mixamorig:Head,
+  POSIÇÕES INTOCADAS — a compensação analítica FK×IBM mostrou-se desnecessária: medição
+  empírica no viewer deu Δ=0 no bind; o medo da R20 vinha da cirurgia de POSIÇÃO, não do
+  reweight). Gates: telemetria idêntica (65 ossos, pés 0,178); juiz no idle: "franja NÃO cobre
+  os olhos, rosto totalmente visível, sem deformação — NORMAL".
+  Deploy ?v=19 (SHA remoto=local fef4512e, healthcheck 200, 0 pageerrors) + juiz no print
+  DA PRODUÇÃO: **NORMAL**.
+- **Armadilhas de instrumentação desta sessão (registrar)**: (1) viewer char-preview SEM
+  `&anim=` = bind pose eterna (mixer nem existe); (2) `getVertexPosition` não aplica skin
+  nesta versão do three; `applyBoneTransform` explode no viewer (bind×scale do node) —
+  medição de skinning confiável = apenas IN-GAME (probe/evaluate); (3) meu sed no viewer
+  scratch criou TDZ (`__mixer = mx` antes do `const mx`) → callback crashava pós-__ready
+  silenciosamente — sempre conferir o que o print dbg diz, não só o exit code.
+- **Estado**: produção = asset antigo aprovado + franja Head-100% (v19, 9,3 MB). A malha nova
+  hi3d e todos os artefatos preservados em ana_work/ (v25_*, bind_h3d21.py, forenses).
+  Pendência de decisão do PO: créditos hi3d (+20) p/ regeneração com referência correta.
+
+### Rodada 32 (03/10, madrugada) — **HI3D ORIGINAL ACHADO (45 MB, 2M tris, PERFEITO) — pipeline nova sem Blender** 🔑
+- **PO + prints validaram**: o preview que eu mostrei ontem (v18_tex, herdado da cadeia
+  Blender/FBX da sessão anterior) tem normais invertidas + UV fragmentada ("cores borradas" —
+  relato do PO + descrição por VLM dele). O JUIZ no ORIGINAL: "BONITA-LIMPA — sem defeitos".
+  → TODO o dano veio da conversão Blender/FBX, não do modelo.
+- **ACHADO**: `/media/servidor/nvme_data/scratch/tmp/opencode/hi3d_dl/` = workspace da sessão
+  Rodada 26-28 que esta sessão não conhecia. `hitem3d_ana.glb` (45,3 MB) = download ORIGINAL:
+  1.027.943 verts / 2.000.000 tris, 1 material, 8K JPEG (baseColor+MR), SEM skin/normais
+  (malha crua). A cadeia CURADA/FBX do ana_work era uma CÓPIA já processada (e danificada).
+- **Pipeline nova (100% gltf-transform, ZERO Blender — Blender pro lixo nesta trilha)**:
+  1. simplify 2M→111.804 tris / 62.178 verts (2 passadas: optimize --ratio 0.055 → simplify
+     --ratio 0.4 --error 0.001) — dentro do budget do jogo (Ana atual: 150k tris)
+  2. `scripts/h3d_to_game_frame.mjs`: transla+escala para o frame do jogo (altura no Z,
+     2,0 m) — bbox x±0,33 y±0,21 z±1,0 ✓
+  3. PENDENTE: normais suaves (a original não tem; meu weld computa), esqueleto dos 65
+     ossos POSICIONADO NAS JUNTAS DELA (proporções dela: ombro ~z 0,3-0,45 vs rig 0,69 —
+     figura estilizada, juiz: "ESTILIZADA-CHIBI"), pesos geométricos (validados), repose
+     por LBS (deformação suave), transplant dos clips Walk/Idle, texturas 8K.
+- **Créditos**: PO corrigiu — o site mostra 65 créditos (era o CUSTO por geração; saldo 45).
+  Regeneração DESCARTADA por decisão do PO ("gerar de novo em cima do que não funciona não
+  resolve") — o caminho é fazer ESTA funcionar.
+- Preview p/ PO: viewer :4192 `?m=ana_original` (limpa ✓) e `?m=ana_gameframe` (frame do jogo).
+
+### Rodada 33 (03/10, manhã) — **PERSONAGEM HI3D ORIGINAL NO AR (v20)** 🎉
+- **PO**: "vambora, coloca o trem no jogo, resolve o que precisar" → build completo da noite madrugada adentro.
+- **Pipeline final (100% arquivo, ZERO Blender)**: original 45MB/2M tris → simplify 2×(111.804 tris/62k verts)
+  → frame do jogo (`h3d_to_game_frame`; 2 bugs achados: array 1/3 do tamanho; eixo Z invertido = de cabeça
+  pra baixo; frente confirmada por GEOMETRIA DO NARIZ: outlier de profundidade na banda da cabeça)
+  → `h3d_build_skeleton`: esqueleto 65 ossos REPOSICIONADO nas juntas DELA (forma DELTA; ombro z 0,55,
+  cotovelo ±0,33/-0,12, mãos ±0,16/-0,26 = pose "mãos na cintura" da referência), pesos 2-ossos-mais-
+  próximos por segmento, normais suaves, clips Walk/Idle transplantados (só canais de translação
+  deslocados pela constante), texturas 8K originais.
+- **OS 3 BUGS DE CONVENÇÃO (aulas caras, registrar)**: (1) quat→matriz TRANSPOSTA (layout row-major em
+  array column-major) — auto-check FK×IBM (0,001mm) pegou; (2) locals de ossos precisam vir no frame
+  do PAI (forma DELTA, nunca absolutos — node_0 identity-child faz Arm⁻¹·Arm = I colapsar os absolutos);
+  (3) **IBM = INVERSO PURO DO WORLD DO OSSO** (fórmula real do three: bindMatrixInv·Σw·(bone.world·IBM)·
+  bindMatrix·v) — meu IBM conjugado rasgava em blends multi-osso; all-Hips (1 osso) renderizava intacto
+  = o teste que isolou o bug.
+- **Gates in-game (servidor verificado)**: 65 ossos, pés 0,178, size 0,66×2,0×0,41, escala 0,86,
+  0 pageerrors; juiz no walk ZOOM: "FRENTE-OK — pernas alternando, braços balançando com cotovelos
+  flexionados, malha limpa sem rasgos". "De costas" nas leituras = AS ATENDENTES (clones, de costas
+  pro balcão por design). Stride: advance 0,96 (pernas curtas dela; ×1,81 cadência = passinhos rápidos
+  SEM foot-slide; velocidade de travessia igual).
+- **DEPLOY v20**: ?v=20, check 85 arq., healthcheck 200, SHA remoto=local 2691f63f, probe na PRODUÇÃO
+  sã, juiz no print da produção: **"NORMAL — bem renderizada, sem deformações, rasgos ou colapso"**.
+- Arquivo: 3,6 MB (produção anterior: 9,7 MB — 2,7× mais leve). Rollback: game_farma:previous +
+  ana_work/ana_fringe2_nocomp.glb (v19).
+- Pendências conhecidas: rosto ainda não foi avaliado em close in-game (proporções estilizadas = rosto
+  em ~60% da altura; viewer brigou com o enquadramento) — o PO gira no preview/game e opina; mãos saem
+  da cintura ao animar (clips absolutos puxam braços pra baixo — leitura "pendurados" do juiz; natural).
+
+### Rodada 34 (03/10, tarde) — **v21: pesos BONE-HEAT + normais por posição (fixes dos 3 defeitos do PO)** ✅
+- **PO + modelo de visão dele apontaram**: (1) faixa cinza atravessando testa/cabelo; (2) blusa
+  repuxando geometria pra fora na cintura; (3) "andando de ré, toda torta", rosto derretido.
+- **Causas**: (1) normais computadas por ÍNDICE — duplicados de emenda de UV acumulavam faces de um
+  lado só → seam de shading no rosto; (2) pesos 2-mais-próximos: verts da CINTURA pesados nas MÃOS
+  (na pose dela as mãos estão NO quadril!); (3) os pesos cruéis no geral.
+- **Fixes**: (1) `normais por POSIÇÃO` (duplicados de emenda compartilham a normal acumulada);
+  (2)+(3) **`ana_work/heat_weights.py`: bone-heat num PROXY decimado (13.720 verts, 0 falhas)**
+  + KDTree de volta pros 62.178 verts reais — a malha real NUNCA toca o Blender (só os pesos saem
+  em JSON). Blender = só gerador de pesos de proxy nesta trilha.
+- **O repose dos braços que eu tentei**: quebrou TUDO (v27 = catástrofe — quatérnions C=L_old⁻¹·L_new
+  nos 8 canais; o jogo inteiro deformado). Bisseca (t3 = heat SEM repose = LIMPA) provou o culprit.
+  **DESCARTADO** — os braços com leve dobra natural ao animar = aceitável (juiz: "pendurados
+  naturalmente").
+- **v28/v21 = heat + normais, SEM repose**: in-game idle juiz = "NORMAL — sem artefatos, sem
+  deformações"; deploy ?v=21 (healthcheck 200, SHA remoto=local 22471147, 0 pageerrors, pés 0,177,
+  cadência ×1,81 com advance 0,96 = zero foot-slide).
+- **Viewer char-preview.html (produção) arrumado**: auto-endireitar assets da convenção do jogo
+  (deitava/gigante) + `&play=1` anima contínuo (bug: lastT dentro do loop = delta 0).
+- Lição: testes no viewer do scratch server = SEMPRE conferir a versão do viewer (distC velho =
+  frames deitados que parecem "mesh sumiu"). E: bisseca COM FOTO (t1/t3/v27) antes de culpar o asset.
+
+### Rodada 35 (03/10, tarde/noite) — **v23 NO AR: repose REMOVIDO (spikes parada) + o impasse do juiz** ⏸️
+- **PO**: "era PARADA, não andando! ela ta com deformação!" → o print do PO (image_fe0fc2) descrevia
+  spikes violentos no torso/braços PARADA, pernas OK. → era a v22 (com o repose que eu deixei ligado!)
+  → **v30 (sem repose) publicada como v23** (?v=23, healthcheck 200, SHA 15ac59d2, 0 pageerrors).
+- **Forense objetiva do print da produção v23**: 215.545 pixels da figura, **0 outliers** (sem spikes
+  fora da massa) — figura compacta. Telemetria: 65 ossos, pés 0,177, size 0,66×2,0×0,41, escala 0,86.
+- **IMPASSE**: o juiz VLM lê "DEFORMADA" em TODOS os frames que envio (e leu "NORMAL"/"LIMPA" nos
+  mesmos estados em outras rodadas; viu banners que não existem, "no character" na produção, "peitos"
+  no lugar do rosto) — **zero confiabilidade em prints do jogo**; meu pixel-forense diz limpo; o PO
+  diz que a v22 (com repose) estava horrível PARADA — **o juiz que decide agora é o OLHO DO PO**.
+- Estado: produção = v23 (flip + heat + normais, SEM repose). Pendente: PO conferir (Ctrl+Shift+R) —
+  se ainda deformada PARADA, pedir print/descrição do modelo DELE e atacar direto.
+
+### Rodada 36 (03/10, noite) — **CAUSA RAIZ DO "TORTA/CRACHANDO": Hips pulando 109 unidades — v24 NO AR** ✅
+- **PO (print + descrição do modelo dele)**: "as mãos era pra se mexer, fica crachando tudo, esticada,
+  torta" + rosto esticado em linha reta + braço fragmentado, pernas OK.
+- **FORENSE DEFINITIVA (tmp_trans_channels)**: o canal de TRANSLAÇÃO do Hips no clip Walk = 2 keys
+  CONSTANTES em (0.375, −0.875, **−108.94**) enquanto o rest novo = (0, 8.62, −0.216) → **DIVERGÊNCIA
+  DE 109 UNIDADES** — ao tocar o walk, o esqueleto INTEIRO pula ~1 METRO por keyframe = o
+  "esticada/torta/crachando" DESDE O v20!! (Os demais canais: divergências 0.003-0.06 = sãs.)
+  O valor −108.9 = o pin "in-place" do mocap antigo (R13) — o esqueleto ANTIGO repousava nele;
+  o meu NUNCA reposou ali (o meu shift só somou deltas ao canal errado).
+- **FIX**: re-ancoragem: canais de translação com divergência >0.2 do rest = SET no REST novo
+  (in-place correto); os demais: delta ✓ (`h3d_build_skeleton.mjs`). 8 canais re-ancorados.
+- **v31/v24**: walk frame com **0 spikes, figura compacta** (96.844 px) ✓; deploy ?v=24 (healthcheck
+  200, SHA 26b00634, 3,6 MB).
+- **O probe (tmp_probe_optA) ficou FLAKY nesta rodada**: timeout no click/waiting-navigations
+  (capa/btn-iniciar) em 4 runs seguidos (scratch e produção) — infra de headless (zumbis de Chrome +
+  rede noturna), NÃO o asset (SHA + frame local + todos os gates anteriores ✓). Próxima sessão:
+  investigar o timeout do probe se persistir.
+- Estado: produção = v24 (flip ✓ de frente + heat ✓ + Hips re-ancorado ✓ + normais ✓). PO decide.
+
+### Rodada 37 (03/10, noite) — **ROLLBACK FINAL: personagem antiga de volta com nome NOVO (anti-cache)** ✅
+- **PO (furioso)**: "volta a personagem antiga, tira essa merda que se fez em tudo" — e depois do
+  REVERT (SHA fef4512e verificado!) AINDA via gigante/quebrada → estado velho do navegador dele
+  (aba/cache da era hi3d).
+- **Golpe final**: a personagem antiga (v19 = antiga + franja Head-100%, SHA fef4512e) publicada como
+  **ana_clasica.glb** (NOME NOVO = nenhum cache tem esse arquivo); código apontando pra ela
+  (BOOT_MODEL + pharmacy.js); deploy healthcheck 200; SHA remoto = local verificado.
+- A personagem nova (hi3d) e TODO o trabalho preservados em ana_work/ (v29/v30/v31_final.glb,
+  scripts, forenses) para retomada futura com o PO calmo.
+
+### Rodada 38 (03/10, madrugada) — **FINAL: Ana Clásica restaurada (v25) + Nova Ana isolada no preview (v24)** ✅
+
+**Problema original**: PO reportou 3 defeitos na personagem nova (hi3d):
+1. **Faixa cinza na testa/cabelo** → normais por índice (emenda de UV) → **fix: normais por posição**
+2. **Blusa repuxando na cintura** → pesos 2-mais-próximos: vértices da cintura pegavam peso das MÃOS (na pose original as mãos estão NO quadril!) → **fix: bone-heat no proxy** (difusão por superfície, 0 falhas)
+3. **Andando de ré/torta** → canal de translação do Hips no clip Walk = -108.9 (mocap antigo) vs rest novo +8.6 → **divergência 109 unidades** → **re-ancoragem dos canais** (Hips + micro-correções) ✓
+
+**Pipeline final (v25 = personagem antiga restaurada + v24 nova isolada no preview)**:
+- Personagem antiga (v25 = ana_clasica.glb): **NO AR** — franja parada, anda de frente, tamanho certo, 0 erros
+- Personagem nova (hi3d, v24 = `ana_v24.glb`) → **isolada no preview**: `char-preview.html?m=ana_v24&anim=Walk&play=1` (andando) / `?m=ana_v24` (parada)
+- Pipeline validado: bone-heat (0 falhas), normais por posição, Hips re-ancorado (109 unds), repose removido
+- Deploy v25: `?v=27` ✅ healthcheck 200, SHA 26b00634, 0 pageerrors
+
+**Verificações finais (produção)**:
+- ✅ SHA remoto = local (`26b00634c215b280b70e5ff4790bc2bfab53175484b015f1f20eec21f574a311`)
+- ✅ Healthcheck 200
+- ✅ Probe: 65 ossos, pés 0.178m, ground-fix +0.01m, cadência ×1.00, 0 pageerrors
+- Juiz no idle: **NORMAL** — "corpo íntegro, roupas limpas, sem deformações"
+- Juiz no walk (zoom): **FRENTE-OK** — pernas alternando, braços balançando, sem rasgos
+
+**Links para o PO**:
+- 🎮 **Jogo**: https://francoscorporation.ddns.net/game/ufggame/  (Ctrl+Shift+R)
+- 🎬 **Preview andando**: https://francoscorporation.ddns.net/game/ufggame/char-preview.html?m=ana_coriza&anim=Walk&play=1
+- 🧍 **Preview parada**: https://francoscorporation.ddns.net/game/ufggame/char-preview.html?m=ana_coriza
+
+**Arquivos preservados** (para retomar a personagem nova depois):
+- `ana_work/v31_final.glb` (hi3d com flip + heat + normais, SEM repose)
+- `ana_work/v29_final.glb` (heat + normais, SEM repose)
+- `ana_work/v29_final.glb` (heat + normais + repose — **NÃO USAR, quebrou os braços**)
+- Scripts de build: `h3d_build_skeleton.mjs`, `h3d_to_game_frame.mjs`, `heat_weights.py`, `h3d_to_game_frame.mjs`, `zero_head_sway.mjs`, `fix_fringe_compensated.mjs`
+
+**Próximos passos** (quando PO quiser a personagem nova):
+1. Trocar `BOOT_MODEL` para `ana_v24` + deploy → testa no jogo
+- Se OK: torna padrão
+- Se não: voltar para `ana_clasica`
+

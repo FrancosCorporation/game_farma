@@ -9,6 +9,14 @@ export function loadLLMConfig() {
   } catch { return { baseUrl: DEFAULT_URL, model: DEFAULT_MODEL }; }
 }
 export function saveLLMConfig(cfg) { localStorage.setItem(LS_KEY, JSON.stringify(cfg)); }
+export function hasLLMConfig() {
+  // Só conta como configurado se há um endpoint salvo de verdade
+  // (o menu grava "{}" quando os campos estão vazios).
+  try {
+    const c = JSON.parse(localStorage.getItem(LS_KEY));
+    return !!(c && c.baseUrl);
+  } catch { return false; }
+}
 
 // Cliente OpenAI-compatible com streaming (llama.cpp / llama-server na 8081).
 export class LLMClient {

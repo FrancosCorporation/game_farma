@@ -40,12 +40,19 @@ function pickRandomCase() {
 const server = createServer(async (req, res) => {
   const url = new URL(req.url, `http://${req.headers.host}`);
 
-  if (req.method === 'POST' && url.pathname === '/api/case/next') {
+if (req.method === 'POST' && url.pathname === '/api/case/next') {
     const c = pickRandomCase();
     res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
     res.end(JSON.stringify(c));
     return;
-  }
+}
+
+if (req.method === 'POST' && url.pathname === '/cases/next') {
+    const c = pickRandomCase();
+    res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
+    res.end(JSON.stringify(c));
+    return;
+}
 
   // Estático
   let path = normalize(join(ROOT, decodeURIComponent(url.pathname)));
@@ -67,7 +74,7 @@ const server = createServer(async (req, res) => {
     const hashed = /-[A-Za-z0-9_]{8,}\.[a-z]+$/i.test(path.split('/').pop() || '');
     const cache = (ext === '.js' || ext === '.css') && hashed
       ? 'public, max-age=31536000, immutable'
-      : 'no-cache';
+      : ext === '.html' ? 'no-store' : 'no-cache';
     const lm = f.mtime.toUTCString();
     if (req.headers['if-modified-since'] === lm) { res.writeHead(304, { 'Cache-Control': cache }); res.end(); return; }
     const data = await readFile(path);

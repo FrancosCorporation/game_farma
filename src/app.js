@@ -12,7 +12,7 @@ import { Game } from './core/game.js';
 import { createProgressStore, PHASES } from './core/progression.js';
 import { TTS } from './audio/tts.js';
 import { SFX } from './audio/sfx.js';
-import { LLMClient, loadLLMConfig, saveLLMConfig } from './ai/llm.js';
+import { LLMClient, loadLLMConfig, saveLLMConfig, hasLLMConfig } from './ai/llm.js';
 import { initAtendimento } from './ui/atendimento.js';
 import { t } from './ui/i18n.js';
 import { CASES } from './data/cases.js';
@@ -64,7 +64,7 @@ export function startApp() {
   // pipeline depois e aí o mapa por caso volta a existir. Pacientes
   // procedurais e meshes TRELLIS/estáticos foram removidos; SEM fallback.
   // (deve vir ANTES do boot IIFE que usa BOOT_MODEL — TDZ)
-  const BOOT_MODEL = 'ana_coriza';
+  const BOOT_MODEL = 'ana_clasica';
   const modeloDoCaso = () => BOOT_MODEL;
 
   // Retry p/ GLBs (rede móvel/flaky): 3 tentativas; se falhar, ERRO (sem fallback).
@@ -96,7 +96,7 @@ export function startApp() {
     if (!modelId) return Promise.resolve(null);
     if (avatarCache.has(modelId)) return Promise.resolve(avatarCache.get(modelId));
     if (carregando.has(modelId)) return carregando.get(modelId);
-    const p = loadGLBWithRetry(`models/${modelId}.glb`, api.scene)
+    const p = loadGLBWithRetry(`models/${modelId}.glb?v=36`, api.scene)  // ?v=36 (05/10): REVERSÃO a pedido do PO — volta a ana_clasica (a personagem aprovada que andava bem). A nova (ana_v38) fica só no char-preview até aprovação explícita.
       .then((m) => {
         avatarCache.set(modelId, m);
         api.addTicker((dt, t) => m.update(dt, t));
@@ -148,9 +148,13 @@ export function startApp() {
   };
 
   // Config do servidor de IA (persistida em localStorage)
-  const saved = loadLLMConfig();
-  $('cfg-endpoint').value = saved.baseUrl || '';
-  $('cfg-model').value = saved.model || '';
+  // Mostra só o que o usuário salvou de fato — preencher com defaults aqui
+  // faria o btn-iniciar regravar o endpoint padrão e re-ligar o probe.
+  const savedRaw = (() => { try { return JSON.parse(localStorage.getItem('farmacheck:llm')) || {}; } catch { return {}; } })();
+  $('cfg-endpoint').value = savedRaw.baseUrl || '';
+  $('cfg-model').value = savedRaw.model || '';
+  $('cfg-endpoint').placeholder = 'http://127.0.0.1:8081/v1';
+  $('cfg-model').placeholder = 'Qwen3.5-9B-Q8_0';
 
   const readCfg = () => ({
     baseUrl: $('cfg-endpoint').value.trim() || undefined,
@@ -178,7 +182,11 @@ export function startApp() {
     SFX.ensure();
     saveLLMConfig(readCfg());
     game.llm = new LLMClient(loadLLMConfig());
-    game.llm.probe();
+    // IA é opt-in: só sonda o endpoint se o usuário já salvou uma config.
+    // Sem isso todo boot buscava 127.0.0.1:8081 e sujava o console
+    // (ERR_CONNECTION_REFUSED) mesmo no modo determinístico.
+    game.llm.ok = hasLLMConfig() ? null : false;
+    if (hasLLMConfig()) game.llm.probe();
     $('menu').hidden = true;
     // honra a fase escolhida no menu (antes forçava sempre a 0 — e a última
     // fase jogada, guardada em progress.ultimaFase, era perdida)
