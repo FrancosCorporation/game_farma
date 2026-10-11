@@ -1,8 +1,75 @@
+# Checkpoint mais recente — correção da axila/ombro da Ana
+
+- **Atualizado:** 11/10/2026, antes do reinício do servidor solicitado pelo PO
+- **Projeto:** `/home/servidor/Git/game_farma`
+- **Pedido atual:** preservar o progresso em `resumo.md` para que a próxima sessão/agente retome sabendo o que já foi diagnosticado e o que falta.
+
+## Estado atual em uma frase
+
+A falha visual do ombro/axila ainda não está resolvida nem publicada. A causa mais provável já foi isolada na interação entre a rotação do osso `RightArm` e os pesos locais da camiseta. A variante que mais reduziu a faixa triangular até agora reduz a amplitude de `RightArm` para 25%, mas ainda precisa passar por avaliação de corpo inteiro e não deve ser promovida sem QA visual completo.
+
+## Pedido visual do PO
+
+Durante o movimento do braço para frente e para trás, a camiseta forma uma linha/faixa vertical de triângulos e vincos entre o ombro e a lateral do peito, deslocada para o lado do tórax em vez de acompanhar a axila anatomicamente. Investigar bind pose/pivô, pesos, topologia e geometria. Não mascarar com luz/material e não mover os ossos isoladamente sem preservar bind pose e inverse bind matrices. O PO também observou anteriormente que a personagem parece flutuar um pouco; o problema prioritário agora é a deformação do ombro/axila.
+
+## Diagnóstico comprovado até aqui
+
+- Rig/malha da candidata: 1 mesh skinned, 65 joints, aproximadamente 111.050 vértices e 149.996 triângulos.
+- O pivô e a bind pose parecem plausíveis: residual matricial medido em torno de `2,2e-5`. Não há evidência que justifique deslocar pivôs.
+- A auditoria da região da camiseta não encontrou aberturas reais: componentes analisados ficam fechados após weld posicional; não foram encontrados edges com mais de duas faces incidentes nem faces duplicadas na área investigada. Portanto, a faixa triangular em movimento não foi demonstrada como rasgo da geometria base.
+- A varredura de triângulos/raycast mostrou variação muito brusca de influência de `RightArm` em triângulos visíveis na lateral do peito: há faces com pesos de braço entre zero e aproximadamente 0,56 entre vértices da mesma face. Isso sustenta uma transição de skinning problemática.
+- Teste de isolamento decisivo: congelar somente a rotação de `RightArm` no Walk quase elimina a faixa vertical; congelar somente `RightShoulder` não reduz a faixa de forma comparável. O gatilho imediato é a rotação de `RightArm`, embora os pesos da camiseta possam ser a causa estrutural subjacente.
+- A amplitude original de `RightArm` já estava bastante amortecida no GLB em preview (aprox. 5,9° de desvio máximo em relação à bind). O candidato experimental de 25% reduz isso para aproximadamente 1,5°. `RightForeArm` e os demais ossos continuam animados; isso mantém algum movimento distal, mas pode deixar o braço superior rígido demais.
+- Não há confirmação visual ainda de que reduzir a animação seja uma correção final aceitável. Preferir encontrar pesos/forma de transição apropriados se isso puder ser feito sem criar novas placas.
+
+## Variantes tentadas e decisão
+
+Todas as variantes listadas abaixo são experimentais em `ana_work/` e nenhuma foi publicada:
+
+- Reweight bilateral obtido espelhando a correção antiga do lado esquerdo: `..._mirroredDelta01_20261011.glb` e `..._mirroredDelta02_20261011.glb`. O primeiro passou os invariantes estruturais, mas deixou a faixa principal e criou pequeno pico perto do ombro; o segundo piorou as dobras. Rejeitadas.
+- Máscara analítica ancorada em raycast/poses Walk (`..._stripe01_20261011.glb`): 3.627 edições diretas + cópias de seam; passou gate estrutural, mas espalhou triângulos pelo alto do ombro. Rejeitada.
+- Suavização geométrica (`..._weldedSmooth03_20261011.glb`): sem melhora visual relevante. Rejeitada.
+- Ajuste somente do eixo Z (`..._rightArmZ015_20261011.glb`): a fase inicial melhorou parcialmente, mas fase posterior ainda mostrou dobra funda. Pior que a redução uniforme; rejeitada.
+- `RightArm` a 50% (`..._rightArmMotion05_20261011.glb`): reduziu parte da dobra, mas a faixa continuou bem evidente. Gate passou, visual não suficiente; rejeitada.
+- **Melhor candidata experimental neste momento:** `ana_work/ana_qwen_walkidle_armdamped02_torso07_chestweights_rightArmMotion025_20261011.glb`, SHA-256 `b6b1667a7fb8e2e9c67ddfcc2e8031e0d4023c5b807049a65caf55942afcc943`. Gate estrutural passou. Em close-up, nas fases Walk 25/75%, a faixa triangular/dobra diminuiu muito, mas ainda há resíduo. Falta avaliar as capturas de corpo inteiro para verificar se o braço ficou rígido ou assimétrico demais e fazer QA por ângulos/poses antes de qualquer publicação.
+
+Capturas de corpo inteiro já geradas para a candidata 25% e a base, fases 0/25/50/75/99%:
+
+- Base: `/tmp/ana_shoulder_motion025_full_base_000.png`, `_025.png`, `_050.png`, `_075.png`, `_099.png`.
+- Candidata: `/tmp/ana_shoulder_motion025_full_candidate_000.png`, `_025.png`, `_050.png`, `_075.png`, `_099.png`.
+
+Capturas close-up da candidata e demais experimentos estão em `/tmp/ana_shoulder*`. Elas podem desaparecer após reinício/limpeza; se sumirem, recapturar a partir dos GLBs mantidos em `ana_work/`.
+
+## Preview e preservação dos assets
+
+- O GLB público isolado atual `public/models/ana_walk_preview.glb` tem SHA-256 `b81e07f5123df0e55f039a23d07530875f6071d6d17e1e99a765e6455f661b87`. Ele representa o último preview anterior aprovado, ainda com a deformação de ombro pendente.
+- Runtime do jogo `ana_clasica`, `v=38`, continua sem alteração. Nenhum candidato de ombro foi copiado para o jogo ativo ou para o preview público.
+- O preview público DNS anteriormente usado é `https://francoscorporation.ddns.net/game/ufggame/char-preview.html?m=ana_walk_preview&anim=Walk&play=1&cam=full`. O serviço pode ficar indisponível durante/depois do reinício solicitado pelo PO.
+- Servidores locais de comparação estavam nos ports: `4201` base/preview público anterior; `4226` smooth rejeitado; `4227` mirroredDelta01; `4228` mirroredDelta02; `4229` motion05; `4230` stripe01; `4231` motion025 (melhor candidata); `4232` Z015. `ss` confirmou listeners Node nos ports na última observação, antes do reinício. Não presumir que continuarão vivos.
+- Quando os serviços forem retomados, se a candidata motion025 ainda estiver disponível no servidor local: `http://127.0.0.1:4231/char-preview.html?m=ana_walk_preview&anim=Walk&play=1&cam=full`.
+- Não substituir o GLB público até terminar QA e concluir que a amplitude reduzida não deixa o movimento artificial. Mesmo depois de corrigir o preview isolado, ativação no jogo requer aprovação explícita do PO.
+
+## Próximos passos para retomar
+
+1. Ler este checkpoint primeiro, depois revisar os arquivos ativos em `.planning/2026-10-10-walk-animation-web-pipeline/` e o estado do worktree. A anotação de pausa em seções antigas é histórica e não bloqueia a retomada atual.
+2. O PO pretende reiniciar o servidor. Confirmar depois do reinício quais URLs/ports voltaram; não assumir que as sessões Node antigas sobreviveram.
+3. Inspecionar comparativamente as 10 capturas full-body listadas acima, principalmente se o braço direito ficou excessivamente estático nas fases 0/25/50/75/99. Comparar com a base para movimento geral, equilíbrio bilateral e marcha.
+4. Se a candidata motion025 parecer aceitável em corpo inteiro, completar QA de close-up frente, lado e costas, incluindo Walk 0/25/50/75/100, movimento progressivo do braço e Idle/Rest. Inspecionar ombro, axila, manga, lateral do peito e também que a caminhada/pés não regrediram. Confirmar também o defeito de flutuação sem confundi-lo com a correção de ombro.
+5. Se 25% ficar rígido ou o resíduo de dobra continuar inaceitável, não publicar. Retomar a investigação de pesos/topologia da faixa no lado direito com hipótese comprovável; não repetir espelhamento cego, suavização nem o mask stripe já rejeitado.
+6. Só depois de inspeção visual completa e gate passar, atualizar o **preview isolado** e validar o DNS servido. Preservar `ana_clasica`/`v=38` e os arquivos do usuário.
+7. Registrar novas evidências e a decisão final em `resumo.md` e nos arquivos de planejamento. O próximo objetivo pendente continua sendo uma correção estrutural/visual aprovada para a camiseta do ombro/axila, além do ajuste de flutuação observado pelo PO.
+
+## Limite da conclusão atual
+
+A causa imediata do artefato está isolada na animação `RightArm`; o diagnóstico estrutural de pesos é forte, mas ainda não foi corrigido de modo visualmente aprovado. A candidata motion025 reduz o sintoma e é apenas candidata de QA. **Não dizer ao PO que os bugs de ombro foram resolvidos e não afirmar que já pode ver uma nova versão no preview público.**
+
+---
+
 # Handoff da sessão — personagem 3D, caminhada web e pipeline do elenco
 
 **Atualizado em:** 11/10/2026
 **Projeto:** `/home/servidor/Git/game_farma`
-**Estado ao interromper:** o PO pediu para parar o trabalho e retomar em outra sessão. Este arquivo substitui o resumo anterior e é o ponto de retomada.
+**Nota histórica:** o pedido de pausa registrado nesta versão antiga foi superado pela retomada mais recente. Para o estado atual, prevalece a seção “Checkpoint mais recente” no início deste arquivo.
 
 ## Objetivo e preferências do PO
 
@@ -10,13 +77,13 @@ O primeiro personagem é a Ana. Ela precisa caminhar de forma visualmente convin
 
 O PO autorizou conduzir o melhor caminho, inclusive experimentar métodos novos, mas pediu para ser avisado honestamente se houver impasse ou se não estiver havendo progresso. Ele não quer ficar aprovando cada alteração. Para revisão, prefere sempre o preview no DNS, pois links locais dificultam o acesso. A publicação em preview isolado não significa autorização para trocar o personagem ativo do jogo. Preservar identidade, rosto, proporções, cabelo, roupa e cores; não esconder defeitos com câmera/luz/material nem trocar pela personagem roxa sem confirmação.
 
-O PO pediu agora para encerrar o terminal/sessão e continuar depois. **Não continue testes, deploy, geração ou alterações além deste handoff até ele retomar.**
+Essa orientação era válida na sessão anterior e foi superada pela retomada posterior. O PO agora informou que vai reiniciar o servidor; este checkpoint foi preparado para essa retomada. Não interpretar esta frase histórica como bloqueio do trabalho futuro.
 
 ## Estado do jogo e do preview
 
 - O personagem ativo e rollback de produção continua `ana_clasica`, `v=38` em `src/app.js`. Não foi alterado nesta fase.
 - O preview isolado da caminhada está no DNS: [Abrir Ana caminhando no preview](https://francoscorporation.ddns.net/game/ufggame/char-preview.html?m=ana_walk_preview&anim=Walk&play=1&cam=full).
-- O asset `public/models/ana_walk_preview.glb` é uma cópia do candidato `ana_work/ana_qwen_walkidle_armdamped02_20261011.glb`; SHA-256 `0ef2d253ce43bf6f33afe7f4f45a2a6bc224ff583f094f63669e2789d861b92b`, ~1,63 MB. Em sessão anterior ele foi copiado isoladamente para `/app/dist/models/ana_walk_preview.glb` do container `game_farma`; download DNS e local eram byte a byte iguais. O runtime ativo permaneceu inalterado.
+- **Registro histórico:** naquele ponto, `public/models/ana_walk_preview.glb` era cópia de `ana_work/ana_qwen_walkidle_armdamped02_20261011.glb` (SHA `0ef2d253ce43bf6f33afe7f4f45a2a6bc224ff583f094f63669e2789d861b92b`). O estado mais recente do arquivo público é o descrito no checkpoint inicial deste documento (SHA `b81e07f5123df0e55f039a23d07530875f6071d6d17e1e99a765e6455f661b87`). O runtime ativo permaneceu inalterado.
 - URL DNS do preview e seu GLB já responderam HTTP 200 em validação anterior. A página pública ainda contém o ground-fix antigo, pois a correção de HTML feita nesta sessão **ainda não foi copiada para o container nem verificada no DNS**.
 - O navegador integrado não estava conectado para operar serviços externos. Não houve upload ao Mixamo, nova geração no Hunyuan nem consumo de quota nesta etapa. Não contornar login com automação externa.
 
