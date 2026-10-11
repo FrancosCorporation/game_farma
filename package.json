@@ -17,6 +17,7 @@
     "qa:character-walk": "node scripts/gate_character_walk.mjs",
     "qa:character-topology": "node scripts/audit_gltf_topology.mjs",
     "qa:character-walk:runtime": "node scripts/qa_character_walk.mjs",
+    "qa:character-preview": "node scripts/qa_character_preview_ground_fix.mjs",
     "preview:character": "node scripts/preview_character_glb.mjs",
     "qa:boot": "node scripts/qa_boot.mjs",
     "qa:dynamics": "node scripts/qa_dynamics.mjs",

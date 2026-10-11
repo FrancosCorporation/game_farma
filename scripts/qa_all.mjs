@@ -13,11 +13,17 @@ const ESTATICOS = [
   { id: 'check', bin: 'npm', args: ['run', 'check'], cobre: 'sintaxe de src/, server/, scripts/' },
   { id: 'test:logica', bin: 'npm', args: ['run', 'test:logica'], cobre: 'dinâmica: combo, conquistas, rank, persistência' },
   { id: 'build', bin: 'npm', args: ['run', 'build'], cobre: 'bundle Vite (dist/)' },
+  { id: 'qa:character-walk', bin: 'npm', args: ['run', 'qa:character-walk', '--', 'public/models/ana_walk_preview.glb'], cobre: 'contrato offline Walk/Idle do candidato isolado' },
+  { id: 'qa:character-topology', bin: 'npm', args: ['run', 'qa:character-topology', '--', 'public/models/ana_walk_preview.glb'], cobre: 'topologia renderizável do candidato isolado' },
 ];
 const BROWSER = [
   { id: 'qa:boot', bin: 'npm', args: ['run', 'qa:boot', '--', URL], cobre: 'capa → menu → cena → anamnese' },
   { id: 'qa:dynamics', bin: 'npm', args: ['run', 'qa:dynamics', '--', URL], cobre: 'painel, HUD, chips, cobertura, atalhos, debrief' },
   { id: 'qa', bin: 'npm', args: ['run', 'qa', '--', URL], cobre: 'fluxo completo (18 checks)' },
+  { id: 'qa:character-walk:runtime', bin: 'npm', args: ['run', 'qa:character-walk:runtime', '--', URL, 'public/models/ana_walk_preview.glb'], cobre: 'rota de entrada e Walk do candidato no runtime' },
+];
+const BROWSER_LOCAL = [
+  { id: 'qa:character-preview', bin: 'npm', args: ['run', 'qa:character-preview'], cobre: 'preview isolado e calibração do piso no ciclo' },
 ];
 
 async function servidorDePe() {
@@ -54,6 +60,7 @@ if (!FAST) {
   } else {
     for (const s of BROWSER) if (!roda(s)) falhas++;
   }
+  for (const s of BROWSER_LOCAL) if (!roda(s)) falhas++;
 }
 
 const total = linhas.length;
