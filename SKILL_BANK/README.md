@@ -23,6 +23,7 @@ Este diretório contém prompts/playbooks padronizados para que IAs menores (mod
 | **G — Princípios de Modelagem 3D** | `SKILL_G_PRINCIPIOS_MODELAGEM_3D.md` | **Ler antes de modelar qualquer objeto.** Esqueleto/eixos antes da forma, base universal + variações por parâmetro, pesquisa de domínio. Diretriz do PO aplicável às skills A e D. |
 | **H — Pipeline Mixamo Auto-Rig (autônomo)** | `SKILL_H_RIG_MIXAMO_AUTO.md` | Personagem nova (malha de IA) → FBX com pivô centralizado → upload no Mixamo via browser-headless + CDP → auto-rig colocando os 8 pontos fixos do esqueleto por coordenadas (espelho de simetria calibrado) → download FBX rigged → transplante dos clips aprovados (Walk/Idle) no nível glTF → QA in-game com probe + juiz de visão → deploy. (Sessão 01/10/2026, agent-browser + VLM-local) |
 | **I — Hitem3D/Meshwright** | `SKILL_I_HITEM3D_MESHWRIGHT.md` | Geração e inspeção de malhas 3D na nuvem (hi3d.ai, Meshy) e validação no Meshwright antes do rig; comparação de abordagens nuvem vs local; custo zero de transcrição de vídeos via yt-dlp. |
+| **J — Personagem humanoide: Walk/Idle para Web** | `SKILL_J_PERSONAGEM_WEB_WALK.md` | Preparar uma malha estilizada para rig/animação, validar GLB/Walk/Idle contra o runtime Three.js e fazer QA isolado antes de trocar o personagem ativo. É a referência atual para o contrato web; a Skill H documenta detalhes históricos da automação Mixamo. |
 
 ## Schema de Referência
 

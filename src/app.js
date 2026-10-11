@@ -59,10 +59,10 @@ export function startApp() {
 
   const emAtendimento = () => ['CHEGADA', 'ANAMNESE', 'DECISAO'].includes(game.state);
 
-  // Elenco (PO 24/09): por enquanto SOMENTE a Ana (Tencent + rig Mixamo, a
-  // aprovada) atende TODOS os casos — os demais serão gerados no mesmo
-  // pipeline depois e aí o mapa por caso volta a existir. Pacientes
-  // procedurais e meshes TRELLIS/estáticos foram removidos; SEM fallback.
+  // Elenco (PO 24/09): por enquanto SOMENTE a Ana atende TODOS os casos —
+  // os demais serão gerados no mesmo pipeline depois e aí o mapa por caso volta
+  // a existir. A variante 283k está suspensa até a revisão visual do skinning.
+  // Mantemos a Ana clássica, aprovada, em produção durante a correção.
   // (deve vir ANTES do boot IIFE que usa BOOT_MODEL — TDZ)
   const BOOT_MODEL = 'ana_clasica';
   const modeloDoCaso = () => BOOT_MODEL;
@@ -84,8 +84,8 @@ export function startApp() {
 
   // (boot do avatar default fica DEPOIS de preloadAvatar — precisa do cache)
 
-  // Elenco (PO 24/09): por enquanto SOMENTE a Ana (Tencent + rig Mixamo, a
-  // aprovada) atende TODOS os casos — os demais pacientes serão gerados no
+  // Elenco (PO 24/09): por enquanto SOMENTE a Ana atende TODOS os casos —
+  // os demais pacientes serão gerados no
   // mesmo pipeline depois e aí o mapa por caso volta a existir.
   // Pacientes procedurais e meshes TRELLIS/estáticos foram removidos; SEM
   // fallback procedural: falha de load/parse propaga.
@@ -96,7 +96,7 @@ export function startApp() {
     if (!modelId) return Promise.resolve(null);
     if (avatarCache.has(modelId)) return Promise.resolve(avatarCache.get(modelId));
     if (carregando.has(modelId)) return carregando.get(modelId);
-    const p = loadGLBWithRetry(`models/${modelId}.glb?v=36`, api.scene)  // ?v=36 (05/10): REVERSÃO a pedido do PO — volta a ana_clasica (a personagem aprovada que andava bem). A nova (ana_v38) fica só no char-preview até aprovação explícita.
+    const p = loadGLBWithRetry(`models/${modelId}.glb?v=38`, api.scene)  // ?v=38 (10/10): retorna à Ana aprovada enquanto o skinning da variante 283k é corrigido.
       .then((m) => {
         avatarCache.set(modelId, m);
         api.addTicker((dt, t) => m.update(dt, t));

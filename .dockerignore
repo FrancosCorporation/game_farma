@@ -5,3 +5,5 @@ build
 *.log
 .env
 npm-debug.log*
+ana_work/
+.planning/

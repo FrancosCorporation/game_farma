@@ -142,8 +142,9 @@ function loadModel() {
     scene.add(m);
     model = m;
     window.__ready = true;
-    // 05/10 ground-fix SKINNED: o Box3 cru (rest invertido da convenção) deixa o
-    // modelo flutuando ~5-17 cm. Amostra os pés na POSE ANIMADA e assenta no chão.
+    // Ground-fix skinned: calibrar pelo ponto mais baixo do ciclo completo,
+    // nunca por um frame isolado. Uma amostra no meio do Walk pode estar vários
+    // centímetros acima do apoio e fazer o ajuste enterrar o pé no frame seguinte.
     setTimeout(() => {
       try {
         const m2 = window.__model;
@@ -156,18 +157,44 @@ function loadModel() {
         const pos = sk.geometry.attributes.position;
         const v = new THREE.Vector3();
         let minY = Infinity;
-        const step = Math.max(1, Math.floor(pos.count / 4000));
-        for (let i = 0; i < pos.count; i += step) {
-          v.fromBufferAttribute(pos, i);
-          fn(i, v);
-          v.applyMatrix4(sk.matrixWorld);
-          if (Number.isFinite(v.y) && v.y < minY) minY = v.y;
+        const walk = g.animations?.find((clip) => /walk/i.test(clip.name));
+        const auditMixer = walk ? new THREE.AnimationMixer(m2) : null;
+        const action = auditMixer?.clipAction(walk);
+        if (action) {
+          action.setLoop(THREE.LoopOnce, 1);
+          action.clampWhenFinished = true;
+          action.play();
         }
-        if (Number.isFinite(minY) && Math.abs(minY) < 0.5) {
-          m2.position.y -= minY;
-          console.log('[ground-fix] pés skinned assentados:', (-minY).toFixed(3), 'm');
+        const phaseSamples = action ? 60 : 0;
+        const step = Math.max(1, Math.ceil(pos.count / 12000));
+        for (let phase = 0; phase <= phaseSamples; phase++) {
+          if (action) auditMixer.setTime(walk.duration * phase / phaseSamples);
+          m2.updateMatrixWorld(true);
+          for (let i = 0; i < pos.count; i += step) {
+            v.fromBufferAttribute(pos, i);
+            fn(i, v);
+            v.applyMatrix4(sk.matrixWorld);
+            if (Number.isFinite(v.y) && v.y < minY) minY = v.y;
+          }
         }
-      } catch (e) { /* ground-fix é best-effort */ }
+        auditMixer?.stopAllAction();
+        window.__mixer?.update(0);
+        m2.updateMatrixWorld(true);
+        const clearance = 0.005;
+        const correction = clearance - minY;
+        if (Number.isFinite(correction) && Math.abs(correction) < 0.5) {
+          m2.position.y += correction;
+          window.__groundFixData = {
+            status: 'pass', minYBefore: minY, clearance,
+            predictedMinYAfter: minY + correction, correction,
+            phaseSamples: action ? phaseSamples + 1 : 1,
+            verticesSampledPerPhase: Math.ceil(pos.count / step),
+          };
+          console.log(`[ground-fix] mínimo do ciclo (${window.__groundFixData.phaseSamples} amostras): ${minY.toFixed(3)} m → folga ${clearance.toFixed(3)} m; ajuste ${correction.toFixed(3)} m`);
+        } else {
+          window.__groundFixData = { status: 'fail', minYBefore: minY, correction };
+        }
+      } catch (e) { window.__groundFixData = { status: 'error', error: String(e) }; }
     }, 2500);
     if (qs.get('anim')) {
       const mx = new THREE.AnimationMixer(m);
