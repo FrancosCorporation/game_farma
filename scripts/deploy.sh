@@ -12,6 +12,9 @@ if docker image inspect game_farma:latest >/dev/null 2>&1; then
 fi
 
 bash /home/servidor/Git/base_fundation/game_farma/rebuild.sh
+# The rebuild helper creates the production container without a restart policy.
+# Keep the published game available after a host/Docker restart.
+docker update --restart unless-stopped game_farma
 
 ok=0
 for i in 1 2 3 4 5 6; do
@@ -26,7 +29,7 @@ if [ "$ok" = "1" ]; then
 else
   echo "❌ Healthcheck falhou — rollback para game_farma:previous"
   docker rm -f game_farma >/dev/null 2>&1 || true
-  docker run -d --name game_farma --network base_fundation_app_network \
+  docker run -d --restart unless-stopped --name game_farma --network base_fundation_app_network \
     -e HOST=0.0.0.0 -e PORT=4174 game_farma:previous
   exit 1
 fi
