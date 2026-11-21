@@ -1,0 +1,152 @@
+{
+  "mode": "local Vite development; per-case animated mappings enabled in the normal build",
+  "viewport": {
+    "width": 900,
+    "height": 600,
+    "mobile": false
+  },
+  "defaultMode": {
+    "status": "PASS",
+    "candidateReviewMode": false,
+    "candidateModelsInNormalBuild": 11
+  },
+  "directCandidateRoute": {
+    "status": "PASS",
+    "caseId": "clara_cefaleia",
+    "modelId": "candidates/clara_cefaleia_walk_v001",
+    "stateAtSelection": "CHEGADA"
+  },
+  "candidateRuntime": [
+    {
+      "caseId": "marina_amoxicilina",
+      "modelId": "candidates/marina_patient_v001",
+      "state": "ANAMNESE",
+      "bones": 33,
+      "movementMeters": 5.716320938659674,
+      "movementSamples": 436,
+      "status": "PASS"
+    },
+    {
+      "caseId": "jose_gripe",
+      "modelId": "candidates/jose_patient_v002",
+      "state": "ANAMNESE",
+      "bones": 65,
+      "movementMeters": 5.710765383104094,
+      "movementSamples": 394,
+      "status": "PASS"
+    },
+    {
+      "caseId": "clara_cefaleia",
+      "modelId": "candidates/clara_cefaleia_walk_v001",
+      "state": "ANAMNESE",
+      "bones": 57,
+      "movementMeters": 5.735765383104108,
+      "movementSamples": 691,
+      "status": "PASS"
+    },
+    {
+      "caseId": "nelson_infarto",
+      "modelId": "candidates/nelson_infarto_walkidle_gait_candidate_v001",
+      "state": "ANAMNESE",
+      "bones": 65,
+      "movementMeters": 5.7158361720134305,
+      "movementSamples": 432,
+      "status": "PASS"
+    },
+    {
+      "caseId": "paulo_dor_lombar",
+      "modelId": "candidates/paulo_dor_lombar_walkidle_gait_candidate_v001",
+      "state": "ANAMNESE",
+      "bones": 65,
+      "movementMeters": 5.714419290332684,
+      "movementSamples": 421,
+      "status": "PASS"
+    },
+    {
+      "caseId": "joao_queimacao",
+      "modelId": "candidates/joao_queimacao_walkidle_gait_candidate_v007",
+      "state": "ANAMNESE",
+      "bones": 57,
+      "movementMeters": 5.714177255052922,
+      "movementSamples": 419,
+      "status": "PASS"
+    },
+    {
+      "caseId": "helena_avc",
+      "modelId": "candidates/helena_avc_walkidle_gait_candidate_v001",
+      "state": "ANAMNESE",
+      "bones": 57,
+      "movementMeters": 5.716524684974408,
+      "movementSamples": 437,
+      "status": "PASS"
+    },
+    {
+      "caseId": "dona_rosa_hipotensao",
+      "modelId": "candidates/rosa_hipotensao_walkidle_gait_candidate_v001",
+      "state": "ANAMNESE",
+      "bones": 57,
+      "movementMeters": 5.717245107386789,
+      "movementSamples": 444,
+      "status": "PASS"
+    },
+    {
+      "caseId": "carlos_asma",
+      "modelId": "candidates/carlos_asma_mixamo_prepared_v010_lod100k_bindframe",
+      "state": "ANAMNESE",
+      "bones": 33,
+      "movementMeters": 5.7174320497707765,
+      "movementSamples": 445,
+      "status": "PASS"
+    },
+    {
+      "caseId": "bia_apendicite",
+      "modelId": "candidates/bia_apendicite_voxel_mixamo_walkidle_candidate_v023_arm_rebase_v001",
+      "state": "ANAMNESE",
+      "bones": 65,
+      "movementMeters": 5.715820940776717,
+      "movementSamples": 432,
+      "status": "PASS"
+    },
+    {
+      "caseId": "carla_dengue",
+      "modelId": "candidates/carla_dengue_voxel_mixamo_walkidle_candidate_v009_arm_rebase_v003",
+      "state": "ANAMNESE",
+      "bones": 65,
+      "movementMeters": 5.714419290332684,
+      "movementSamples": 421,
+      "status": "PASS"
+    },
+    {
+      "caseId": "roberto_dispepsia",
+      "modelId": "candidates/roberto_dispepsia_voxel_mixamo_walkidle_candidate_v006_arm_rebase_v001",
+      "state": "ANAMNESE",
+      "bones": 65,
+      "movementMeters": 5.714419290332684,
+      "movementSamples": 421,
+      "status": "PASS"
+    },
+    {
+      "caseId": "catia_dermatite",
+      "modelId": "candidates/catia_dermatite_voxel_mixamo_walkidle_candidate_v004_arm_rebase_v001",
+      "state": "ANAMNESE",
+      "bones": 65,
+      "movementMeters": 5.7158361720134305,
+      "movementSamples": 432,
+      "status": "PASS"
+    },
+    {
+      "caseId": "ana_coriza",
+      "modelId": "ana_clasica",
+      "state": "ANAMNESE",
+      "bones": 65,
+      "movementMeters": 5.707987605326326,
+      "movementSamples": 376,
+      "status": "PASS"
+    }
+  ],
+  "networkFailureRetry": {
+    "status": "PASS",
+    "caseId": "jose_gripe",
+    "modelId": "candidates/jose_patient_v002"
+  }
+}

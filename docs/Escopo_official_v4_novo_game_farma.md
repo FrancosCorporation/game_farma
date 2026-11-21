@@ -1,5 +1,7 @@
 Excelente material de referência — dá para extrair um escopo web muito sólido. Antes do código, duas decisões de arquitetura que tomei como arquiteto:
 
+> **Vigência:** este arquivo conserva a especificação original v4 e exemplos de implementação, não o estado atual do produto ou das decisões. Use [`README.md`](../README.md), [`plan.md`](../plan.md) e [`resumo.md`](../resumo.md) para execução/roadmap. Os casos clínicos seguem fictícios e pendentes de revisão profissional (`FC-006`); os exemplos de IA/geração abaixo não são autorização para mudar o contrato atual.
+
 **Por que Vanilla JS (e não React/R3F):**
 1. **Câmera fixa + overlay** — a cena 3D é um "palco" estático; não há Nada que justifique reconciliation do React sobre o canvas.
 2. **O "motor manda, a IA atua" (pilar do GDD v3.0) vira código puro**: Fact Gate, KnowledgeState e ScoreEngine são módulos JS determinísticos — sem estado React intermediando.

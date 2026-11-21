@@ -4,7 +4,7 @@ Uso:
   blender -b --python scripts/blender/postprocess_character.py -- <entrada.glb> <saida.glb> [tris_alvo=15000] [altura_m=1.72]
 
 Faz: une malhas, decima ao orçamento, normaliza escala (altura em metros),
-pivô nos pés (Z=0) e centralizado em X/Y, shade smooth e exporta GLB.
+aterrissa e centraliza no eixo vertical detectado, shade smooth e exporta GLB.
 Orçamentos: docs/DIRETRIZES_ARTE_ESTILIZADA.md §2 (personagem 6k–15k tris).
 """
 import sys
@@ -18,6 +18,29 @@ def log(*a):
 
 def tri_count(obj):
     return sum(len(p.vertices) - 2 for p in obj.data.polygons)
+
+
+def normalized_scale(current_scale, current_height, target_height):
+    """Return imported scale multiplied by the ratio needed to reach target height."""
+    scale = tuple(float(component) for component in current_scale)
+    if target_height <= 0 or current_height <= 0:
+        return scale
+    ratio = float(target_height) / float(current_height)
+    return tuple(component * ratio for component in scale)
+
+
+def vertical_axis(dimensions):
+    """Choose the dominant character-height axis; prefer legacy Z on exact ties."""
+    return max(range(3), key=lambda axis: (float(dimensions[axis]), axis == 2))
+
+
+def grounded_center_offset(bounds_min, bounds_max, up_axis):
+    """Translate bounds to floor the up axis at zero and center the other axes."""
+    return tuple(
+        -float(bounds_min[axis]) if axis == up_axis
+        else -(float(bounds_min[axis]) + float(bounds_max[axis])) / 2
+        for axis in range(3)
+    )
 
 
 def main():
@@ -54,22 +77,32 @@ def main():
         bpy.ops.object.modifier_apply(modifier=mod.name)
         log('decimado:', cur, '->', tri_count(obj))
 
-    # escala pela altura (Blender = Z-up); target_h <= 0 mantém as dimensões originais (props)
-    dim = obj.dimensions
-    if target_h > 0 and dim.z > 0:
-        s = target_h / dim.z
-        obj.scale = (s, s, s)
-        bpy.ops.object.transform_apply(location=False, rotation=False, scale=True)
-    log('altura final:', round(obj.dimensions.z, 3), 'm')
-
-    # pivô: pés no chão (Z=0) e centro em X/Y
+    # Basear a escala nos bounds world-space. Alguns importadores mantêm
+    # obj.dimensions alinhado ao eixo local do GLB mesmo após a conversão para Z-up.
     bb = [obj.matrix_world @ Vector(c) for c in obj.bound_box]
-    min_z = min(v.z for v in bb)
-    cx = (max(v.x for v in bb) + min(v.x for v in bb)) / 2
-    cy = (max(v.y for v in bb) + min(v.y for v in bb)) / 2
-    obj.location.x -= cx
-    obj.location.y -= cy
-    obj.location.z -= min_z
+    bounds_min = tuple(min(v[axis] for v in bb) for axis in range(3))
+    bounds_max = tuple(max(v[axis] for v in bb) for axis in range(3))
+    world_dimensions = tuple(bounds_max[axis] - bounds_min[axis] for axis in range(3))
+
+    # GLB externos podem chegar Y-up ou Z-up no Blender. Para personagens,
+    # a maior dimensão world-space identifica o eixo vertical; props mantêm Z.
+    up_axis = vertical_axis(world_dimensions) if target_h > 0 else 2
+    if target_h > 0 and world_dimensions[up_axis] > 0:
+        # Bounds already include the imported object's current scale.
+        # Apply the ratio relatively; replacing scale with it compounds size.
+        obj.scale = normalized_scale(obj.scale, world_dimensions[up_axis], target_h)
+        bpy.ops.object.transform_apply(location=False, rotation=False, scale=True)
+
+    # pivô: pés no chão e centro nos dois eixos restantes.
+    bb = [obj.matrix_world @ Vector(c) for c in obj.bound_box]
+    bounds_min = tuple(min(v[axis] for v in bb) for axis in range(3))
+    bounds_max = tuple(max(v[axis] for v in bb) for axis in range(3))
+    world_dimensions = tuple(bounds_max[axis] - bounds_min[axis] for axis in range(3))
+    log('eixo vertical:', 'XYZ'[up_axis], '| altura final:', round(world_dimensions[up_axis], 3), 'm')
+    offset = grounded_center_offset(bounds_min, bounds_max, up_axis)
+    world_matrix = obj.matrix_world.copy()
+    world_matrix.translation += Vector(offset)
+    obj.matrix_world = world_matrix
     bpy.ops.object.transform_apply(location=True, rotation=False, scale=False)
 
     # sombreamento suave
@@ -90,8 +123,11 @@ def main():
                     n.inputs['Metallic'].default_value = min(0.1, n.inputs['Metallic'].default_value)
 
     bpy.ops.export_scene.gltf(filepath=dst, export_format='GLB', export_apply=True)
+    bb = [obj.matrix_world @ Vector(c) for c in obj.bound_box]
+    final_min = tuple(min(v[axis] for v in bb) for axis in range(3))
+    final_max = tuple(max(v[axis] for v in bb) for axis in range(3))
     log('exportado:', dst, '| tris finais:', tri_count(obj),
-        '| dims:', tuple(round(v, 3) for v in obj.dimensions))
+        '| bounds:', tuple(round(final_max[i] - final_min[i], 3) for i in range(3)))
 
 
 if __name__ == '__main__':

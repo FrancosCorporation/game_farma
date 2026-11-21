@@ -5,6 +5,8 @@ import { t } from './i18n.js';
 import { initBulario } from './bulario.js';
 import { initTlac } from './tlac.js';
 import { initDsf } from './dsf.js';
+import { initMobileChat } from './mobileChat.js';
+import { initTouchMovement } from './touchMovement.js';
 
 const $ = (id) => document.getElementById(id);
 
@@ -13,7 +15,9 @@ const comSfx = (fn) => () => {
   fn();
 };
 
-export function initAtendimento({ game, pov }) {
+export function initAtendimento({ game, pov, camera, pharmacy }) {
+  const mobileChat = initMobileChat(camera);
+  const touchMovement = initTouchMovement({ pov });
   const barra = $('acoes');
   const btnPc = $('btn-hud-pc');
   const btnTlac = $('btn-hud-tlac');
@@ -23,7 +27,7 @@ export function initAtendimento({ game, pov }) {
   let painelAberto = null;
   const modulos = {
     bulario: initBulario({ game, aoFechar: () => { painelAberto = null; } }),
-    tlac: initTlac({ game, aoFechar: () => { painelAberto = null; } }),
+    tlac: initTlac({ game, pov, pharmacy, aoFechar: () => { painelAberto = null; } }),
     dsf: initDsf({ game, aoFechar: () => { painelAberto = null; } }),
   };
 
@@ -100,11 +104,15 @@ export function initAtendimento({ game, pov }) {
   const ZONA_DO_PAINEL = { bulario: 'computador', tlac: 'mesa', dsf: 'paciente' };
   pov.onChange(() => {
     if (!painelAberto) return;
-    if (pov.zonaAtual() !== ZONA_DO_PAINEL[painelAberto]) fecharPainel();
+    const zona = pov.zonaAtual();
+    const coletaDoTlac = painelAberto === 'tlac' && zona === 'coleta';
+    if (zona !== ZONA_DO_PAINEL[painelAberto] && !coletaDoTlac) fecharPainel();
   });
 
   // Controla a visibilidade da barra conforme a fase do atendimento (chamado via game.setFase)
   function setAtendimento(on) {
+    mobileChat.setAtendimento(on);
+    touchMovement.setEnabled(on);
     barra.hidden = !on;
     if (!on) {
       fecharPainel();

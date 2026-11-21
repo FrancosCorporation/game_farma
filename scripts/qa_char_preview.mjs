@@ -8,17 +8,19 @@ import { chromium } from 'playwright';
 import AxeBuilder from '@axe-core/playwright';
 import { createServer } from 'node:http';
 import { execFileSync } from 'node:child_process';
-import { readFileSync, existsSync, statSync } from 'node:fs';
-import { join, extname } from 'node:path';
+import { readFileSync, existsSync, statSync, mkdirSync } from 'node:fs';
+import { join, extname, dirname, resolve } from 'node:path';
 
 const model = process.argv[2] || 'ana';
 const minFps = Number(process.argv[3] || 1);
+const previewOutputPath = resolve(process.env.QA_CHAR_PREVIEW_OUTPUT || '/tmp/opencode/qa_char_preview.png');
 const MAX_TRIS = 300000;
 const MAX_MB = 8;
 
 const MIME = { '.html': 'text/html', '.js': 'text/javascript', '.mjs': 'text/javascript',
   '.glb': 'model/gltf-binary', '.png': 'image/png', '.webp': 'image/webp', '.css': 'text/css' };
 const root = process.cwd();
+mkdirSync(dirname(previewOutputPath), { recursive: true });
 const srv = createServer((req, res) => {
   const rel = decodeURIComponent(req.url.split('?')[0]);
   let p = join(root, rel === '/' ? 'index.html' : rel.slice(1));
@@ -50,7 +52,7 @@ const fps = await page.evaluate(async () => {
   return seen.length ? Math.round(seen.reduce((a, b) => a + b, 0) / seen.length) : null;
 });
 
-await page.screenshot({ path: '/tmp/opencode/qa_char_preview.png' });
+await page.screenshot({ path: previewOutputPath });
 
 let a11y = [];
 try {
@@ -71,7 +73,7 @@ try {
 }
 const budgetsOk = !!info && info.tris <= MAX_TRIS && sizeMb <= MAX_MB && info.uv0 === true;
 
-console.log('📸 /tmp/opencode/qa_char_preview.png | modelo:', model,
+console.log(`📸 ${previewOutputPath} | modelo:`, model,
   '| fps médio (swiftshader):', fps, '| erros:', errs.length ? errs.join(' | ') : 'NENHUM');
 console.log(`📦 budgets: tris=${info ? info.tris : '?'} (<=${MAX_TRIS}) | ${sizeMb.toFixed(2)} MB (<=${MAX_MB}) | uv0=${info ? info.uv0 : '?'}`);
 

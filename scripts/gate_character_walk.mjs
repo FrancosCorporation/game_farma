@@ -5,6 +5,7 @@ import { NodeIO } from '@gltf-transform/core';
 import { ALL_EXTENSIONS } from '@gltf-transform/extensions';
 import { getBounds } from '@gltf-transform/functions';
 import { MeshoptDecoder } from 'meshoptimizer';
+import { decodeAccessor } from './util/normalizedAccessor.mjs';
 
 const file = process.argv[2];
 if (!file || file === '--help') {
@@ -47,7 +48,34 @@ try {
   report.skins = skins.length;
   report.joints = jointCount;
   if (skins.length !== 1) fail.push(`esperada 1 skin Mixamo; encontrado ${skins.length}`);
-  if (jointCount !== 65) fail.push(`esperados 65 joints Mixamo; encontrados ${jointCount}`);
+  const profile = assetExtras.skeletonProfile || 'mixamo-standard-65';
+  report.skeletonProfile = profile;
+  // Profiles name exact observed Mixamo topologies. A missing finger chain is
+  // accepted only when declared explicitly; the 65-joint contract stays default.
+  if (profile === 'mixamo-index-33') {
+    const core = ['Hips', 'Spine', 'Spine1', 'Spine2', 'Neck', 'Head', 'HeadTop_End'];
+    for (const side of ['Left', 'Right']) core.push(...['Shoulder', 'Arm', 'ForeArm', 'Hand', 'HandIndex1', 'HandIndex2', 'HandIndex3', 'HandIndex4', 'UpLeg', 'Leg', 'Foot', 'ToeBase', 'Toe_End'].map(n => side + n));
+    const expected = new Set(core.map(n => 'mixamorig' + n));
+    const actual = new Set(skins[0]?.listJoints().map(n => n.getName().replaceAll(':', '')) || []);
+    if (jointCount !== 33 || actual.size !== 33 || [...expected].some(n => !actual.has(n))) fail.push('perfil mixamo-index-33 exige exatamente os 33 joints declarados');
+  } else if (profile === 'mixamo-no-pinky-57') {
+    const core = ['Hips', 'Spine', 'Spine1', 'Spine2', 'Neck', 'Head', 'HeadTop_End'];
+    for (const side of ['Left', 'Right']) core.push(...[
+      'Shoulder', 'Arm', 'ForeArm', 'Hand',
+      'HandIndex1', 'HandIndex2', 'HandIndex3', 'HandIndex4',
+      'HandMiddle1', 'HandMiddle2', 'HandMiddle3', 'HandMiddle4',
+      'HandRing1', 'HandRing2', 'HandRing3', 'HandRing4',
+      'HandThumb1', 'HandThumb2', 'HandThumb3', 'HandThumb4',
+      'UpLeg', 'Leg', 'Foot', 'ToeBase', 'Toe_End',
+    ].map(n => side + n));
+    const expected = new Set(core.map(n => 'mixamorig' + n));
+    const actual = new Set(skins[0]?.listJoints().map(n => n.getName().replaceAll(':', '')) || []);
+    if (jointCount !== 57 || actual.size !== 57 || [...expected].some(n => !actual.has(n))) {
+      fail.push('perfil mixamo-no-pinky-57 exige exatamente os 57 joints sem as duas cadeias Pinky');
+    }
+  } else if (profile !== 'mixamo-standard-65' || jointCount !== 65) {
+    fail.push(`esperados 65 joints Mixamo no perfil padrão; encontrados ${jointCount}`);
+  }
   const jointSet = new Set(skins[0]?.listJoints().map((n) => n.getName()) || []);
   const skinnedNodes = root.listNodes().filter((n) => n.getSkin());
   if (!skinnedNodes.length) fail.push('nenhum node usa skin');
@@ -115,11 +143,21 @@ try {
       fail.push(`${clipName}: canal sem node/sampler/accessor`);
       return null;
     }
-    const times = Array.from(input);
-    const values = Array.from(output);
+    const times = Array.from(decodeAccessor(sampler.getInput(), input));
+    const values = Array.from(decodeAccessor(sampler.getOutput(), output));
     const components = { rotation: 4, translation: 3, scale: 3 }[path];
     const interpolation = sampler.getInterpolation() || 'LINEAR';
     const factor = interpolation === 'CUBICSPLINE' ? 3 : 1;
+    if (path === 'rotation' && components) {
+      for (let i = 0; i < times.length; i++) {
+        const start = (i * factor + (factor === 3 ? 1 : 0)) * 4;
+        const norm = Math.hypot(...values.slice(start, start + 4));
+        if (!finite(norm) || Math.abs(norm - 1) > 0.001) {
+          fail.push(`${clipName}: quaternion não unitário em ${target.getName()} (${norm.toFixed(4)})`);
+          break;
+        }
+      }
+    }
     if (!components) fail.push(`${clipName}: path não suportado ${path}`);
     if (!times.length || times.some((t, i) => !finite(t) || (i > 0 && t <= times[i - 1]))) {
       fail.push(`${clipName}: tempos inválidos em ${target.getName()}.${path}`);

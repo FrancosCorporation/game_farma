@@ -1,5 +1,6 @@
 import { SFX } from '../audio/sfx.js';
 import { setLang, applyI18n } from './i18n.js';
+import { createModalFocusSession } from './focus.js';
 
 const $ = (id) => document.getElementById(id);
 
@@ -31,6 +32,7 @@ export function initCapa() {
   const capa = $('capa');
   const menu = $('menu');
   const refs = $('refs');
+  const refsFocus = createModalFocusSession(refs);
   const pt = $('capa-lang-pt');
   const en = $('capa-lang-en');
 
@@ -53,14 +55,27 @@ export function initCapa() {
     setBackgroundInert(false);
   }));
 
-  $('capa-refs').addEventListener('click', withSfx(() => { refs.hidden = !refs.hidden; }));
-  $('btn-refs-fechar').addEventListener('click', withSfx(() => { refs.hidden = true; }));
+  $('btn-menu-capa').addEventListener('click', withSfx(() => {
+    menu.hidden = true;
+    capa.hidden = false;
+    setBackgroundInert(true);
+    $('capa-iniciar').focus();
+  }));
+
+  $('capa-refs').addEventListener('click', withSfx(() => {
+    if (refs.hidden) {
+      if (refsFocus.open()) $('btn-refs-fechar').focus();
+    } else {
+      refsFocus.close($('capa-refs'));
+    }
+  }));
+  $('btn-refs-fechar').addEventListener('click', withSfx(() => refsFocus.close($('capa-refs'))));
 
   pt.addEventListener('click', withSfx(() => { setLang('pt'); applyI18n(document); markLang(); }));
   en.addEventListener('click', withSfx(() => { setLang('en'); applyI18n(document); markLang(); }));
 
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && refs && !refs.hidden) refs.hidden = true;
+    if (e.key === 'Escape' && refs && !refs.hidden) refsFocus.close($('capa-refs'));
   });
 
   markLang();

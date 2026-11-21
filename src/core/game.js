@@ -1,13 +1,42 @@
-import { classify, KnowledgeState, norm, domainLabel } from './factGate.js';
-import { buildActorSystemPrompt, templateReply, buildEvaluatorMessages, looksPortuguese, buildTranslateMessages } from '../ai/prompts.js';
+import { classify, KnowledgeState, warningSignsFromQuestion } from './factGate.js';
+import { generatePatientReply } from '../ai/patientReply.js';
+import { generatePreceptorFeedback } from '../ai/preceptorFeedback.js';
 import { scoreCase, starsForScore } from './scoring.js';
-import { evaluateAchievements, ACHIEVEMENTS, achievementIcon } from './achievements.js';
-import { rankInfo, comboMultiplier } from './progression.js';
-import { localizeCase } from '../data/cases.js';
+import { evaluateAchievements } from './achievements.js';
+import { fetchNextCase, localizeCase } from '../data/cases.js';
 import { t, getLang } from '../ui/i18n.js';
 import { TTS } from '../audio/tts.js';
 import { SFX } from '../audio/sfx.js';
 import { createDictation } from '../audio/stt.js';
+import { loadCaseServiceConfig } from './caseService.js';
+import { buildPhaseCaseOrder, selectNextCaseId } from './caseSelection.js';
+import { containsHiddenFact } from './hiddenFactGuard.js';
+import { createModalFocusSession } from '../ui/focus.js';
+import { buildTesteRapidoSystemMessage } from './testeRapidoMessage.js';
+import { renderQuestionChips } from '../ui/chatChips.js';
+import { renderChatCoverage } from '../ui/chatCoverage.js';
+import { createChatBubble, createSystemMessage } from '../ui/chatMessages.js';
+import {
+  appendChatTranscriptEntry,
+  scrollChatTranscript,
+  setChatTypingIndicator,
+} from '../ui/chatTranscript.js';
+import { renderComboHud } from '../ui/comboHud.js';
+import { renderScoreHud } from '../ui/scoreHud.js';
+import { renderPatientHeader, renderTurnCounter } from '../ui/patientHeader.js';
+import { renderPhaseHud } from '../ui/phaseHud.js';
+import { applyFactRevealFeedback } from '../ui/factRevealFeedback.js';
+import { renderMenuMeta } from '../ui/menuMeta.js';
+import { renderPhaseSelection } from '../ui/phaseSelection.js';
+import { renderDecisionConfirm } from '../ui/decisionConfirm.js';
+import { renderDecisionOptions } from '../ui/decisionOptions.js';
+import { renderDecisionFlags } from '../ui/decisionFlags.js';
+import { showAnamnesisPanel, showDecisionPanel } from '../ui/decisionPanel.js';
+import { renderDebriefPanel } from '../ui/debrief.js';
+import { renderShiftSummary } from '../ui/shiftSummary.js';
+import { bindGameControls } from '../ui/gameControls.js';
+import { bindGameKeyboardShortcuts } from '../ui/gameKeyboard.js';
+import { showGameMenu } from '../ui/gameMenu.js';
 
 const $ = (id) => document.getElementById(id);
 const MAX_TURNS = 30;
@@ -23,6 +52,8 @@ export class Game {
     this.points = progress?.state?.pontos || 0; // espelho do save (fonte da verdade)
     this.lastIdx = -1;
     this.busy = false;
+    this.caseTransitionPending = false;
+    this.interactionVersion = 0;
     this.conduta = null;
     this.usedChips = new Set();
     this.phaseIdx = 0;
@@ -31,221 +62,215 @@ export class Game {
     this.el = {};
     for (const id of ['chat-log', 'chat-input', 'chat-form', 'chat-chips', 'chat-nome', 'chat-avatar', 'chat-status',
       'chat-contador', 'chat-cobertura', 'hud-paciente', 'hud-fila', 'hud-fase', 'hud-score', 'hud-combo', 'menu-meta', 'debrief-conquistas',
-      'btn-decisao', 'decision', 'redflag-list', 'mip-box',
-      'mip-list', 'orient-list', 'btn-voltar', 'btn-confirmar', 'debrief', 'debrief-stars', 'debrief-tag', 'debrief-titulo',
+      'btn-decisao', 'decision', 'redflag-list', 'mip-box', 'conduta-cards',
+      'mip-list', 'orient-list', 'btn-voltar', 'btn-confirmar', 'btn-proximo', 'btn-repetir', 'btn-exportar', 'btn-fases', 'btn-zerar-progresso', 'debrief', 'debrief-stars', 'debrief-tag', 'debrief-titulo',
       'debrief-texto', 'debrief-pontos', 'debrief-breakdown', 'debrief-detalhes', 'debrief-preceptor', 'debrief-stamp',
       'plantao-modal', 'plantao-total', 'plantao-estrelas', 'plantao-bonus', 'btn-plantao-menu',
       'btn-tts', 'menu', 'phase-select'])
       this.el[id] = $(id);
 
+    this.debriefFocus = createModalFocusSession(this.el.debrief);
+
     this.bind();
-    this.dictation = createDictation(this.el['chat-input']);
-    this.el['hud-score'].textContent = `${t('hud.pontos')} ${this.points}`;
+    this.dictation = createDictation(this.el['chat-input'], { onSubmit: () => this.onSubmit() });
+    renderScoreHud(this.el['hud-score'], this.points, t);
     this.updateComboHud(); // HUD de combo já reflete o save no boot
   }
 
   /** Re-render dinâmico p/ troca de idioma no menu/capa (listener de langchange). */
   refreshLangUI() {
-    this.el['hud-score'].textContent = `${t('hud.pontos')} ${this.points}`;
+    renderScoreHud(this.el['hud-score'], this.points, t);
     this.updateComboHud();
+    this.updateTtsButton();
     if (this.state === 'MENU') this.renderPhases();
+  }
+
+  updateTtsButton() {
+    const button = this.el['btn-tts'];
+    if (!button) return;
+    const key = TTS._speaking ? 'hud.ttsStop' : TTS.enabled ? 'hud.ttsOn' : 'hud.ttsOff';
+    const titleKey = TTS._speaking ? 'hud.ttsStopTitle' : TTS.enabled ? 'hud.ttsOnTitle' : 'hud.ttsOffTitle';
+    button.textContent = t(key);
+    button.title = t(titleKey);
+    button.setAttribute?.('aria-label', t(titleKey));
+    button.setAttribute?.('aria-pressed', String(TTS.enabled));
   }
 
   /** HUD: combo atual (× multiplicador) — escondido com combo 0. */
   updateComboHud() {
-    const el = this.el['hud-combo'];
-    if (!el) return;
     const combo = this.progress?.state?.combo || 0;
-    if (combo < 1) { el.hidden = true; el.textContent = ''; return; }
-    el.hidden = false;
-    el.textContent = `${t('hud.combo')} ×${comboMultiplier(combo).toFixed(1)} · ${combo}${t('hud.comboSeguidos')}`;
-    el.title = t('hud.comboTitle');
+    renderComboHud(this.el['hud-combo'], combo);
   }
 
   /** Painel do menu: rank + combo + conquistas (dinâmica de plantão). */
   renderMeta() {
-    const box = this.el['menu-meta'];
-    if (!box) return;
-    const st = this.progress?.state || {};
-    const pts = st.pontos || 0;
-    const { atual, proximo, faltam, pct } = rankInfo(pts);
-    const combo = st.combo || 0;
-    const unlocked = new Set(this.progress?.unlockedBadges?.() || []);
-    const medal = (a) => {
-      const on = unlocked.has(a.id);
-      return `<li class="medalha${on ? ' on' : ''}" title="${t(`badge.${a.id}.desc`)}" aria-label="${t(`badge.${a.id}.nome`)}">
-        <span class="medalha-ico" aria-hidden="true">${on ? a.icone : '🔒'}</span>
-        <b>${t(`badge.${a.id}.nome`)}</b></li>`;
-    };
-    box.innerHTML = `
-      <div class="meta-rank">
-        <div class="flex items-baseline justify-between gap-2 mb-1">
-          <span class="text-xs uppercase tracking-widest text-teal-300">${t('menu.meta.rank')} · <b>${atual}</b></span>
-          <span class="text-xs text-slate-400">${pts} ${t('hud.pontos')}${
-            proximo ? ` · ${faltam} ${t('menu.meta.para')} ${proximo}` : ` · ${t('menu.meta.max')}`}</span>
-        </div>
-        <span class="rankbar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.round(pct * 100)}">
-          <i style="width:${Math.round(pct * 100)}%"></i></span>
-        <p class="text-xs text-slate-400 mt-2">${t('menu.meta.combo')} <b class="${combo ? 'text-amber-300' : 'text-slate-500'}">${
-          combo ? `🔥 ${combo} · ×${comboMultiplier(combo).toFixed(1)}` : t('menu.meta.comboZero')}</b>
-          <span class="block mt-1 text-slate-500">${t('menu.meta.comboInfo')}</span></p>
-      </div>
-      <div class="meta-badges">
-        <p class="text-xs uppercase tracking-widest text-teal-300 mb-2">${t('menu.meta.badges')} · ${unlocked.size}/${ACHIEVEMENTS.length}</p>
-        <ul class="medalhas">${ACHIEVEMENTS.map(medal).join('')}</ul>
-      </div>`;
+    renderMenuMeta(this.el['menu-meta'], this.progress);
   }
 
   bind() {
-    this.el['chat-form'].addEventListener('submit', (e) => {
-      e.preventDefault();
-      this.onSubmit();
-    });
-    this.el['chat-input'].addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' && !e.shiftKey) {
-        e.preventDefault();
-        this.onSubmit();
-      }
-    });
-    this.el['chat-chips'].addEventListener('click', (e) => {
-      const b = e.target.closest('button[data-q]');
-      if (b) {
-        this.usedChips.add(b.textContent); // chip usado some do painel (intenção do design)
-        this.el['chat-input'].value = b.dataset.q;
+    // Binding is safe to repeat (tests, a future view remount, or explicit
+    // reinitialization): remove the previous handlers before installing them.
+    this.unbind();
+    this.unbindControls = bindGameControls({
+      elements: this.el,
+      onSubmit: () => this.onSubmit(),
+      onQuestionChip: (button) => {
+        this.usedChips.add(button.textContent); // chip usado some do painel (intenção do design)
+        this.el['chat-input'].value = button.dataset.q;
         this.renderChips();
         this.onSubmit();
-      }
+      },
+      onDecision: () => this.goDecision(),
+      onBackToAnamnesis: () => this.backToAnamnese(),
+      onSelectDecision: (kind) => this.selectConduta(kind),
+      onConfirmDecision: () => this.confirmDecision(),
+      onMipChange: () => this.updateConfirm(),
+      onNextPatient: () => this.nextPatient(),
+      onRepeatPatient: () => this.startCase(this.case, { repeat: true, focusAfterArrival: true }),
+      onExportReport: () => window.print(),
+      onOpenMenu: () => this.openMenu(),
+      onPlantaoMenu: () => {
+        if (this.el['plantao-modal']) this.el['plantao-modal'].hidden = true;
+        this.openMenu();
+      },
+      onResetProgress: () => {
+        if (!window.confirm(t('menu.zerar.confirm'))) return;
+        this.progress.reset();
+        this.setPhase(0);
+        this.case = null;
+        this.points = 0;
+        renderScoreHud(this.el['hud-score'], 0, t);
+        this.updateComboHud();
+        this.renderPhases();
+      },
+      onToggleTts: () => {
+        if (TTS._speaking) {
+          TTS.stop();
+          return;
+        }
+        TTS.setEnabled(!TTS.enabled);
+        this.updateTtsButton();
+      },
     });
-    this.el['btn-decisao'].addEventListener('click', () => this.goDecision());
-    this.el['btn-voltar'].addEventListener('click', () => this.backToAnamnese());
-    $('conduta-cards').addEventListener('click', (e) => {
-      const b = e.target.closest('[data-conduta]');
-      if (b) this.selectConduta(b.dataset.conduta);
-    });
-    this.el['btn-confirmar'].addEventListener('click', () => this.confirmDecision());
-    // habilita o confirmar assim que um MIP é marcado (conduta "sugerir")
-    this.el['mip-list'].addEventListener('change', () => this.updateConfirm());
-    $('btn-proximo').addEventListener('click', () => this.nextPatient());
-    $('btn-repetir').addEventListener('click', () => this.startCase(this.case, { repeat: true }));
-    $('btn-exportar').addEventListener('click', () => window.print());
-    $('btn-fases').addEventListener('click', () => this.openMenu());
-    this.el['btn-plantao-menu']?.addEventListener('click', () => {
-      if (this.el['plantao-modal']) this.el['plantao-modal'].hidden = true;
-      this.openMenu();
-    });
-    $('btn-zerar-progresso')?.addEventListener('click', () => {
-      if (!window.confirm(t('menu.zerar.confirm'))) return;
-      this.progress.reset();
-      this.points = 0;
-      this.el['hud-score'].textContent = `${t('hud.pontos')} 0`;
-      this.updateComboHud();
-      this.renderPhases();
-    });
-    this.el['btn-tts'].addEventListener('click', () => {
-      TTS.enabled = !TTS.enabled;
-      this.el['btn-tts'].setAttribute('aria-pressed', String(TTS.enabled));
-      if (!TTS.enabled) TTS.stop();
-    });
-    document.addEventListener('keydown', (e) => {
-      // Atalhos da tela de decisão: 1/2/3 escolhem a conduta, Esc volta à anamnese
-      if (this.state === 'DECISAO' && !e.ctrlKey && !e.metaKey && !e.altKey && !e.isComposing) {
+    this.unbindKeyboard = bindGameKeyboardShortcuts({
+      documentTarget: document,
+      getState: () => this.state,
+      chatInput: this.el['chat-input'],
+      getLastPatientLine: () => this.lastPatientLine,
+      getPatientVoice: () => this.case?.persona.voz,
+      selectDecisionByIndex: (index) => {
         const cards = [...document.querySelectorAll('#conduta-cards [data-conduta]')];
-        const idx = ['1', '2', '3'].indexOf(e.key);
-        if (idx >= 0 && cards[idx]) { cards[idx].click(); e.preventDefault(); return; }
-        if (e.key === 'Escape') { this.backToAnamnese(); e.preventDefault(); return; }
-      }
-      if (e.key.toLowerCase() === 'r' && document.activeElement !== this.el['chat-input'] && this.lastPatientLine) {
-        TTS.speak(this.lastPatientLine, this.case?.persona.voz);
-      }
+        if (!cards[index]) return false;
+        cards[index].click();
+        return true;
+      },
+      backToAnamnesis: () => this.backToAnamnese(),
+      speak: (line, voice) => TTS.speak(line, voice),
     });
+    this.unhookTtsSpeak = TTS.hookSpeak(() => this.updateTtsButton());
+    this.updateTtsButton();
+  }
+
+  /** Remove the DOM/document listeners owned by this Game instance. */
+  unbind() {
+    this.unbindKeyboard?.();
+    this.unbindKeyboard = null;
+    this.unbindControls?.();
+    this.unbindControls = null;
+    this.unhookTtsSpeak?.();
+    this.unhookTtsSpeak = null;
   }
 
   setFase(key) {
-    this.el['hud-fase'].textContent = t(`fase.${key}`);
+    renderPhaseHud(this.el['hud-fase'], key, t);
+  }
+
+  setDebriefVisible(visible, fallback = null) {
+    if (visible) this.debriefFocus.open();
+    else this.debriefFocus.close(fallback);
   }
 
   // ---------- fases / seleção ----------
   setPhase(idx) {
     this.phaseIdx = idx;
     const phase = this.phaseDef();
-    this.caseOrder = phase.casos ? [...phase.casos] : [];
-    if (!phase.casos && this.cases.length) this.caseOrder = this.cases.map((c) => c.id);
+    this.caseOrder = buildPhaseCaseOrder(phase, this.cases);
     this.lastIdx = -1;
   }
   phaseDef() {
     return this.phases[this.phaseIdx] || this.phases[0];
   }
   openMenu() {
+    this.interactionVersion++;
+    this.busy = false;
+    this.showTyping(false);
+    this.dictation?.stop?.();
+    TTS.stop();
     this.state = 'MENU';
-    this.el.debrief.hidden = true;
-    this.el.decision.hidden = true;
-    if (this.el['plantao-modal']) this.el['plantao-modal'].hidden = true;
-    if (this.el['hud-fila']) this.el['hud-fila'].hidden = true;
-    this.el.menu.hidden = false;
-    this.renderPhases();
+    this.setDebriefVisible(false);
+    showGameMenu(this.el, () => this.renderPhases());
   }
   renderPhases() {
     const box = this.el['phase-select'];
-    box.innerHTML = '';
-    const unlocked = this.progress.unlockLevel();
-    this.phases.forEach((phase, i) => {
-      const locked = i > unlocked && i < this.phases.length - 1;
-      const btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'phase-card' + (locked ? ' locked' : '') + (i === this.phaseIdx ? ' pressed' : '');
-      btn.setAttribute('aria-pressed', String(i === this.phaseIdx));
-      btn.disabled = locked;
-      // progresso da fase (estrelas ganhas + casos feitos) — visível no menu
-      const feitos = this.progress?.state?.porFase?.[phase.id]?.feitos?.length || 0;
-      const total = Array.isArray(phase.casos) ? phase.casos.length : 0;
-      const estrelas = Object.values(this.progress?.state?.porFase?.[phase.id]?.estrelas || {}).reduce((a, b) => a + b, 0);
-      const prog = (feitos || estrelas)
-        ? `<span class="ph-prog">★ ${estrelas} · ${total ? `${feitos}/${total}` : feitos} ${t('menu.fase.casos')}</span>` : '';
-      btn.innerHTML = `<span class="ph-num">${phase.icone}</span><span class="ph-info"><b>${t(`phase.${phase.id}.nome`)}</b><small>${t(`phase.${phase.id}.desc`)}</small>${prog}</span>`;
-      btn.addEventListener('click', () => {
-        this.phaseIdx = i;
+    renderPhaseSelection(box, {
+      phases: this.phases,
+      phaseIndex: this.phaseIdx,
+      progress: this.progress,
+      translate: t,
+      onSelect: (index) => {
+        this.phaseIdx = index;
         this.renderPhases();
-        this.setPhase(i);
-      });
-      box.appendChild(btn);
+        this.setPhase(index);
+      },
     });
     this.renderMeta();
   }
 
   // ---------- ciclo de partida ----------
   async nextPatient() {
-    this.el.debrief.hidden = true;
-    const phase = this.phaseDef();
+    if (this.caseTransitionPending) return false;
+    this.caseTransitionPending = true;
+    try {
+      this.setDebriefVisible(false);
+      const phase = this.phaseDef();
 
-    // Se a fase tem número fixo de casos e já concluímos todos no turno
-    if (phase.casos && phase.casos.length > 0) {
-      const concluidos = this.progress?.state?.porFase?.[phase.id]?.feitos?.length || 0;
-      if (this.lastIdx >= 0 && concluidos >= phase.casos.length) {
-        this.mostrarFechamentoPlantao(phase);
-        return;
+      // Se a fase tem número fixo de casos e já concluímos todos no turno
+      if (phase.casos && phase.casos.length > 0) {
+        const concluidos = this.progress?.state?.porFase?.[phase.id]?.feitos?.length || 0;
+        if (this.lastIdx >= 0 && concluidos >= phase.casos.length) {
+          this.mostrarFechamentoPlantao(phase);
+          this.el['btn-plantao-menu']?.focus();
+          return true;
+        }
       }
-    }
 
-    const cfg = JSON.parse(localStorage.getItem('farmacheck:llm') || '{}');
-    let c = await import('../data/cases.js').then((m) => m.fetchNextCase(cfg.serverURL));
-    if (!c) {
-      const pool = this.caseOrder.length ? this.caseOrder : this.cases.map((x) => x.id);
-      let id;
-      // Para fases lineares (como Aprendiz/Plantão), prioriza casos ainda não feitos na fase
-      const feitos = new Set(this.progress?.state?.porFase?.[phase.id]?.feitos || []);
-      const naoFeitos = pool.filter((x) => !feitos.has(x));
-
-      if (naoFeitos.length > 0) {
-        id = naoFeitos[0];
+      let c = null;
+      if (phase.id === 'livre') {
+        const { baseUrl } = loadCaseServiceConfig();
+        if (baseUrl) c = await fetchNextCase(baseUrl);
+        // O serviço opcional conhece os 14 casos do catálogo. Nesta versão,
+        // somente o elenco ativo pode entrar no atendimento jogável.
+        if (c && !this.cases.some((active) => active.id === c.id)) c = null;
+      }
+      if (!c) {
+        const pool = this.caseOrder.length ? this.caseOrder : this.cases.map((x) => x.id);
+        const id = selectNextCaseId({
+          pool,
+          // Para fases lineares (como Aprendiz/Plantão), prioriza casos ainda não feitos na fase.
+          completedIds: this.progress?.state?.porFase?.[phase.id]?.feitos || [],
+          previousCaseId: this.caseOrder[this.lastIdx],
+        });
+        this.lastIdx = pool.indexOf(id);
+        c = this.cases.find((x) => x.id === id);
       } else {
-        do {
-          id = pool[(Math.random() * pool.length) | 0];
-        } while (pool.length > 1 && id === this.caseOrder[this.lastIdx]);
+        this.lastIdx = this.caseOrder.indexOf(c.id);
       }
-      this.lastIdx = pool.indexOf(id);
-      c = this.cases.find((x) => x.id === id);
+
+      if (!c) return false;
+      return (await this.startCase(c, { focusAfterArrival: true, transitionOwned: true })) !== false;
+    } finally {
+      this.caseTransitionPending = false;
     }
-    this.startCase(c);
   }
 
   mostrarFechamentoPlantao(phase) {
@@ -255,12 +280,31 @@ export class Game {
     const totalFeitos = faseData.feitos.length;
     const totalEstrelas = Object.values(faseData.estrelas).reduce((a, b) => a + b, 0);
 
-    if (this.el['plantao-total']) this.el['plantao-total'].textContent = totalFeitos;
-    if (this.el['plantao-estrelas']) this.el['plantao-estrelas'].textContent = `★ ${totalEstrelas}`;
-    if (this.el['plantao-modal']) this.el['plantao-modal'].hidden = false;
+    renderShiftSummary({
+      modal: this.el['plantao-modal'],
+      totalElement: this.el['plantao-total'],
+      starsElement: this.el['plantao-estrelas'],
+      completed: totalFeitos,
+      totalStars: totalEstrelas,
+    });
   }
 
-  async startCase(caseDefRaw, { repeat = false } = {}) {
+  async startCase(caseDefRaw, { repeat = false, focusAfterArrival = false, transitionOwned = false } = {}) {
+    if (!caseDefRaw || (this.caseTransitionPending && !transitionOwned)) return false;
+    const ownsTransition = !transitionOwned;
+    if (ownsTransition) this.caseTransitionPending = true;
+    try {
+      return await this.enterCase(caseDefRaw, { repeat, focusAfterArrival });
+    } finally {
+      if (ownsTransition) this.caseTransitionPending = false;
+    }
+  }
+
+  async enterCase(caseDefRaw, { repeat = false, focusAfterArrival = false } = {}) {
+    this.interactionVersion++;
+    this.isPracticeReplay = Boolean(repeat);
+    this.dictation?.stop?.();
+    TTS.stop();
     const caseDef = localizeCase(caseDefRaw, getLang());
     this.case = caseDef;
     this.state = 'CHEGADA';
@@ -268,6 +312,7 @@ export class Game {
     this.history = [];
     this.turn = 0;
     this.busy = false;
+    this.showTyping(false);
     this.conduta = null;
     this.usedChips = new Set();
     // Scoring v2 (F1): eventos por caso, expostos via registrar*() para as fases de PC/teste/DSF
@@ -277,29 +322,19 @@ export class Game {
     this.queixaRegistrada = false;
     this.lastPatientLine = '';
     this.novaFaseLiberada = null;
-    this.seed = Math.floor(Math.random() * 1e6);
+    this.seed = Number.isSafeInteger(caseDef.seed) && caseDef.seed >= 0
+      ? caseDef.seed
+      : Math.floor(Math.random() * 1e6);
 
-    this.el.debrief.hidden = true;
+    this.setDebriefVisible(false);
     this.el.decision.hidden = true;
     this.el['btn-decisao'].hidden = true;
     this.el['chat-log'].innerHTML = '';
     this.el['chat-chips'].innerHTML = '';
-    this.el['chat-nome'].textContent = `${caseDef.persona.nome}, ${caseDef.persona.idade}${t('chat.anos')}`;
-    this.el['chat-avatar'].textContent = caseDef.persona.nome.replace(/^(Dona?|Seu|Mr\.?|Mrs\.?)\s*/i, '')[0] || '?';
-    this.el['chat-contador'].textContent = `0/${MAX_TURNS}`;
-    this.el['hud-paciente'].textContent = `${t('chat.cliente')} ${caseDef.persona.nome}`;
-    
     // Atualiza mostrador de fila/posição no turno
     const phase = this.phaseDef();
-    if (phase.casos && phase.casos.length > 0) {
-      const idxAtual = Math.min(phase.casos.length, (this.progress?.state?.porFase?.[phase.id]?.feitos?.length || 0) + 1);
-      if (this.el['hud-fila']) {
-        this.el['hud-fila'].textContent = `${t('hud.fila')} ${idxAtual}/${phase.casos.length}`;
-        this.el['hud-fila'].hidden = false;
-      }
-    } else {
-      if (this.el['hud-fila']) this.el['hud-fila'].hidden = true;
-    }
+    renderPatientHeader(this.el, { caseDef, phase, progress: this.progress, translate: t });
+    renderTurnCounter(this.el['chat-contador'], 0, MAX_TURNS);
 
     this.setFase('chegada');
     // O chat só aceita texto na fase Anamnese: durante a chegada (walk-in do
@@ -315,6 +350,9 @@ export class Game {
     } catch {
       /* segue sem a caminhada de entrada */
     }
+    // Se o jogador abriu o menu enquanto o avatar caminhava, não reabrir o
+    // atendimento por cima da navegação que acabou de escolher.
+    if (this.state !== 'CHEGADA') return false;
     this.fx.dip();
     this.state = 'ANAMNESE';
     this.setFase('anamnese');
@@ -327,77 +365,60 @@ export class Game {
     // onboarding: só no MUITO primeiro atendimento do save (histórico vazio)
     if (!(this.progress?.state?.historico || []).length) this.addSystem(t('sys.dicaOnboarding'));
     this.el['btn-decisao'].hidden = false;
+    // Em ponteiro de toque, autofocus abre o teclado virtual e esconde a cena
+    // no primeiro atendimento. O campo continua focável quando o jogador toca.
+    if (focusAfterArrival && !matchMedia('(pointer: coarse)').matches) this.el['chat-input'].focus();
     // sem auto-focus: o jogador anda com WASD; clicar no chat foca para digitar
+    return true;
   }
 
   renderChips() {
-    const box = this.el['chat-chips'];
-    box.innerHTML = '';
-    for (const c of this.case.chips) {
-      if (this.usedChips.has(c.label)) continue;
-      const b = document.createElement('button');
-      b.type = 'button';
-      b.dataset.q = c.q;
-      b.textContent = c.label;
-      b.className = 'text-xs rounded-full border border-teal-400/30 text-teal-200 px-2.5 py-1 hover:bg-teal-900/50';
-      box.appendChild(b);
-    }
+    renderQuestionChips(this.el['chat-chips'], this.case.chips, this.usedChips);
   }
 
   // ---------- turno de anamnese ----------
   /** Checklist vivo: domínios do caso já cobertos ✓ + quantos faltam (sem dizer quais). */
   renderCobertura() {
-    const box = this.el['chat-cobertura'];
-    if (!box) return;
-    if (!this.case || !this.knowledge) { box.textContent = ''; return; }
-    const asked = this.knowledge.askedDomains;
-    const checklist = this.case.checklistDominios || [];
-    const cobertos = checklist.filter((d) => asked.has(d));
-    const pendentes = Math.max(0, checklist.length - cobertos.length);
-    if (!cobertos.length) { box.textContent = t('chat.coberturaVazio'); return; }
-    const resto = pendentes
-      ? ` · <span class="text-amber-400/80">${pendentes} ${t('chat.coberturaPendentes')}</span>`
-      : ` · <span class="text-teal-300">${t('chat.coberturaCompleta')}</span>`;
-    box.innerHTML = `<span class="text-teal-400/80">${t('chat.cobertura')}</span> `
-      + `${cobertos.map((d) => `✓ ${domainLabel(d)}`).join(' · ')}${resto}`;
+    renderChatCoverage(this.el['chat-cobertura'], this.case, this.knowledge);
   }
 
   addBubble(kind, text) {
-    const el = document.createElement('div');
-    el.className = kind === 'paciente' ? 'bub bub-pac' : 'bub bub-farm';
-    el.textContent = text;
-    this.el['chat-log'].appendChild(el);
-    this.scrollLog();
+    const el = createChatBubble(kind, text);
+    appendChatTranscriptEntry(this.el['chat-log'], el);
     SFX.pop();
     return el;
   }
   addSystem(text, red = false) {
-    const el = document.createElement('div');
-    el.className = 'bub bub-sys' + (red ? ' bub-red' : '');
-    el.textContent = text;
-    this.el['chat-log'].appendChild(el);
-    this.scrollLog();
+    appendChatTranscriptEntry(this.el['chat-log'], createSystemMessage(text, red));
   }
   scrollLog() {
-    this.el['chat-log'].scrollTop = this.el['chat-log'].scrollHeight;
+    scrollChatTranscript(this.el['chat-log']);
   }
   showTyping(on) {
-    this.el['chat-status'].classList.toggle('hidden', !on);
+    setChatTypingIndicator(this.el['chat-status'], on);
   }
 
   async onSubmit() {
     const text = this.el['chat-input'].value.trim();
     if (!text || this.busy || this.state !== 'ANAMNESE') return;
+    const interactionVersion = this.interactionVersion;
+    const submittedCase = this.case;
+    const isCurrentInteraction = () => this.interactionVersion === interactionVersion
+      && this.case === submittedCase
+      && this.state === 'ANAMNESE';
     this.el['chat-input'].value = '';
     this.addBubble('farmaceutico', text);
     this.history.push({ role: 'user', content: text });
     this.busy = true;
     this.showTyping(true);
     this.turn++;
-    this.el['chat-contador'].textContent = `${this.turn}/${MAX_TURNS}`;
+    renderTurnCounter(this.el['chat-contador'], this.turn, MAX_TURNS);
 
     const domains = classify(text);
     const { novos, evasivas } = this.knowledge.ask(text, domains);
+    if (this.case.undocumentedWarningSigns && warningSignsFromQuestion(text).length) {
+      this.addSystem(t('sys.sinalNaoInformado'));
+    }
     novos.forEach((f) => this.onFactRevealed(f));
     this.renderCobertura(); // checklist de cobertura atualizado a cada pergunta
 
@@ -411,7 +432,14 @@ export class Game {
       this.addSystem(t('sys.lembreteTeste'));
     }
 
-    const reply = await this.generateReply(novos, evasivas);
+    const reply = await this.generateReply(novos, evasivas, { isCurrentInteraction });
+    if (!isCurrentInteraction()) {
+      if (this.interactionVersion === interactionVersion && this.case === submittedCase) {
+        this.showTyping(false);
+        this.busy = false;
+      }
+      return false;
+    }
     this.showTyping(false);
     this.history.push({ role: 'assistant', content: reply });
     this.lastPatientLine = reply;
@@ -419,21 +447,18 @@ export class Game {
     this.busy = false;
     if (this.turn >= MAX_TURNS) this.goDecision();
     else this.el['chat-input'].focus();
+    return true;
   }
 
   onFactRevealed(f) {
-    if (f.redFlag && f.valor) {
-      SFX.redFlag();
-      this.fx.pulse();
-      this.addSystem(`${t('sys.redflag')}${f.rotulo}`, true);
-      this.avatar?.setMood?.('dolorido');
-    } else if (f.valor === false) {
-      this.addSystem(`${t('sys.investigado')}${f.rotulo}${t('sys.negado')}`);
-    }
-    if (f.postura) {
-      this.avatar?.setPose?.(f.postura);
-      this.addSystem(`${this.case.persona.nome} ${t(`pose.${f.postura}`)}.`);
-    }
+    applyFactRevealFeedback(f, {
+      avatar: this.avatar,
+      fx: this.fx,
+      patientName: this.case.persona.nome,
+      playRedFlag: () => SFX.redFlag(),
+      addSystem: (message, red = false) => this.addSystem(message, red),
+      translate: t,
+    });
   }
 
   // ---------- eventos Scoring v2 (F1) — API para as próximas fases (câmera/PC/TLAC/DSF) ----------
@@ -447,11 +472,12 @@ export class Game {
   registrarTesteRapido(resultado) {
     if (this.state !== 'ANAMNESE' && this.state !== 'DECISAO') return;
     this.testeRapido = { executado: true, resultado: resultado || null };
-    const tipo = this.case.testeRapido?.tipo || t('tlac.title');
-    this.addSystem(
-      `${tipo}: ${resultado ? `${t('sys.testeResultado')}${String(resultado).toUpperCase()}` : t('sys.testeExecutado')}`,
-      !!resultado && /positiv/i.test(String(resultado)),
+    const { message, isPositive } = buildTesteRapidoSystemMessage(
+      resultado,
+      this.case.testeRapido?.tipo,
+      t,
     );
+    this.addSystem(message, isPositive);
   }
 
   registrarDSF(conduta) {
@@ -460,48 +486,27 @@ export class Game {
     this.addSystem(conduta ? `${t('sys.dsfCom')}${conduta}` : `${t('sys.dsfEmitida')}.`);
   }
 
-  /** UI em EN + resposta do LLM em PT → traduz no próprio servidor de IA;
-   *  falhou ou continuou PT → devolve '' (o template EN assume). */
-  async enforceLang(text) {
-    if (getLang() !== 'en' || !text || !looksPortuguese(text)) return text;
-    if (!this.llm || this.llm.ok === false) return '';
-    try {
-      const { text: tr } = await this.llm.chat(buildTranslateMessages(text), { maxTokens: 160, temperature: 0.2 });
-      const clean = (tr || '').trim();
-      if (clean && !looksPortuguese(clean)) return clean;
-    } catch { /* cai no template EN */ }
-    return '';
-  }
-
-  async generateReply(novos, evasivas) {
+  async generateReply(novos, evasivas, { isCurrentInteraction = () => true } = {}) {
     const live = this.addBubble('paciente', '');
-    let out = '';
-    try {
-      if (!this.llm || this.llm.ok === false) throw new Error('llm indisponível');
-      const sys = buildActorSystemPrompt(this.case, this.knowledge, novos, evasivas);
-      const msgs = [{ role: 'system', content: sys }, ...this.history.slice(-9)];
-      const { text } = await this.llm.chat(msgs, {
-        onToken: (tok, full) => {
-          out = full;
-          live.textContent = full;
-          this.scrollLog();
-        },
-      });
-      out = await this.enforceLang(text);
-    } catch {
-      out = '';
-    }
-    if (!out.trim() || this.guardLeaks(out)) out = templateReply(this.case, this.knowledge, novos, evasivas);
+    const out = await generatePatientReply({
+      llm: this.llm,
+      caseDef: this.case,
+      knowledge: this.knowledge,
+      newFacts: novos,
+      evasions: evasivas,
+      history: this.history,
+      language: getLang(),
+      isCurrentInteraction,
+      isHiddenFact: (text) => containsHiddenFact(text, this.case.fatos, this.knowledge.revealed),
+      onStream: (text) => {
+        live.textContent = text;
+        this.scrollLog();
+      },
+    });
+    if (!isCurrentInteraction()) return '';
     live.textContent = out;
     this.scrollLog();
     return out;
-  }
-
-  guardLeaks(text) {
-    const q = norm(text);
-    return this.case.fatos.some(
-      (f) => f.segredo && !this.knowledge.revealed.has(f.tag) && new RegExp(f.segredo, 'i').test(q)
-    );
   }
 
   // ---------- decisão ----------
@@ -509,44 +514,31 @@ export class Game {
     if (this.state !== 'ANAMNESE' || this.busy) return;
     this.state = 'DECISAO';
     this.setFase('decisao');
-    this.el['chat-input'].disabled = true;
-    this.el['chat-chips'].innerHTML = '';
-    this.el['btn-decisao'].hidden = true;
-
-    const list = this.el['redflag-list'];
-    list.innerHTML = '';
-    for (const f of this.case.fatos) {
-      if (!this.knowledge.revealed.has(f.tag) || !(f.redFlag || f.valor === false)) continue;
-      const label = document.createElement('label');
-      label.className = 'check-row';
-      // contrato p/ os gates de QA: identificam a linha e se é achado NEGADO
-      // ("não tem alergia"), que não é sinal de alarme
-      label.dataset.tag = f.tag;
-      label.dataset.negado = String(!f.valor);
-      const cb = document.createElement('input');
-      cb.type = 'checkbox';
-      cb.value = f.tag;
-      const span = document.createElement('span');
-      span.textContent = f.rotulo + (f.valor ? '' : t('sys.negado'));
-      label.append(cb, span);
-      list.appendChild(label);
-    }
-
-    document.querySelectorAll('#conduta-cards [data-conduta]').forEach((b) => b.setAttribute('aria-pressed', 'false'));
-    this.el['mip-box'].hidden = true;
-    this.el['btn-confirmar'].disabled = true;
     this.conduta = null;
-    this.el.decision.hidden = false;
-    this.el.decision.querySelector('h2').focus();
+    showDecisionPanel({
+      chatInput: this.el['chat-input'],
+      chatChips: this.el['chat-chips'],
+      decisionButton: this.el['btn-decisao'],
+      redFlagList: this.el['redflag-list'],
+      mipBox: this.el['mip-box'],
+      confirmButton: this.el['btn-confirmar'],
+      panel: this.el.decision,
+      facts: this.case.fatos,
+      revealed: this.knowledge.revealed,
+      renderFlags: renderDecisionFlags,
+      translate: t,
+    });
   }
 
   backToAnamnese() {
     this.state = 'ANAMNESE';
     this.setFase('anamnese');
-    this.el.decision.hidden = true;
-    this.el['chat-input'].disabled = false;
-    this.renderChips();
-    this.el['chat-input'].focus();
+    showAnamnesisPanel({
+      panel: this.el.decision,
+      chatInput: this.el['chat-input'],
+      decisionButton: this.el['btn-decisao'],
+      renderChips: () => this.renderChips(),
+    });
   }
 
   selectConduta(kind) {
@@ -554,44 +546,27 @@ export class Game {
     document.querySelectorAll('#conduta-cards [data-conduta]').forEach((b) =>
       b.setAttribute('aria-pressed', String(b.dataset.conduta === kind))
     );
-
-    const mipBox = this.el['mip-box'];
-    if (kind === 'sugerir') {
-      mipBox.hidden = false;
-      const fill = (boxId, items, valueKey) => {
-        const box = this.el[boxId];
-        box.innerHTML = '';
-        for (const item of items) {
-          const label = document.createElement('label');
-          label.className = 'check-row';
-          const cb = document.createElement('input');
-          cb.type = 'checkbox';
-          cb.value = valueKey === 'id' ? item.id : item;
-          const span = document.createElement('span');
-          span.textContent = item.nome || item;
-          label.append(cb, span);
-          box.appendChild(label);
-        }
-      };
-      fill('mip-list', this.case.prateleira, 'id');
-      fill('orient-list', this.case.orientacoes, 'nome');
-      this.el['btn-confirmar'].textContent = t('decision.confirmarSugerir');
-    } else {
-      mipBox.hidden = true;
-      this.el['btn-confirmar'].textContent =
-        kind === 'vender' ? t('decision.confirmarVender') : t('decision.confirmarEncaminhar');
-    }
+    renderDecisionOptions({
+      kind,
+      mipBox: this.el['mip-box'],
+      mipList: this.el['mip-list'],
+      orientationList: this.el['orient-list'],
+      confirmButton: this.el['btn-confirmar'],
+      shelf: this.case.prateleira,
+      orientations: this.case.orientacoes,
+      translate: t,
+    });
     this.updateConfirm();
   }
 
   updateConfirm() {
-    const needMip =
-      this.conduta === 'sugerir' && this.el['mip-list'].querySelector('input:checked') === null;
-    this.el['btn-confirmar'].disabled = !this.conduta || needMip;
+    renderDecisionConfirm(this.el['btn-confirmar'], this.el['mip-list'], this.conduta);
   }
 
   async confirmDecision() {
-    if (!this.conduta) return;
+    // Ignore stale, programmatic, or duplicate activations. The state changes
+    // synchronously before scoring, so a second event cannot register twice.
+    if (this.state !== 'DECISAO' || !this.conduta) return;
     this.state = 'AVALIANDO';
     this.setFase('avaliando');
     const decisao = {
@@ -610,21 +585,25 @@ export class Game {
     // Dinâmica de plantão: conquistas são avaliadas com o contexto PÓS-caso
     // (combo já incrementado quando o atendimento segura a sequência) e o
     // registro aplica o multiplicador do combo acumulado ATÉ AQUI.
+    const faseId = this.phaseDef().id;
+    const practiceReplay = Boolean(this.isPracticeReplay &&
+      this.progress?.state?.porFase?.[faseId]?.feitos?.includes(this.case.id));
     const unlockAntes = this.progress.unlockLevel();
-    const previa = this.progress.previewAfter({ nota: result.total, stars, reprovado: result.reprovado });
-    const novasBadges = evaluateAchievements({
-      caso: this.case, decisao, result, stars, faseId: this.phaseDef().id, ...previa,
+    const previa = practiceReplay ? null : this.progress.previewAfter({ nota: result.total, stars, reprovado: result.reprovado });
+    const novasBadges = practiceReplay ? [] : evaluateAchievements({
+      caso: this.case, decisao, result, stars, faseId, ...previa,
     }, this.progress.unlockedBadges());
     const registro = this.progress.registerResult({
-      faseId: this.phaseDef().id,
+      faseId,
       casoId: this.case.id,
       nota: result.total,
       stars,
       reprovado: result.reprovado,
       badges: novasBadges,
+      practice: practiceReplay,
     });
     this.points = registro.pontos;
-    this.el['hud-score'].textContent = `${t('hud.pontos')} ${this.points}`;
+    renderScoreHud(this.el['hud-score'], this.points, t);
     this.updateComboHud();
     const unlockDepois = this.progress.unlockLevel();
     this.novaFaseLiberada = unlockDepois > unlockAntes ? unlockDepois : null; // destaque no debrief
@@ -642,10 +621,12 @@ export class Game {
     this.renderDebrief(outcome, result, stars, registro);
 
     // Efeitos sonoros contextuais
-    if (registro?.novasBadges?.length) {
-      setTimeout(() => SFX.badge?.(), 300);
-    } else if (registro?.combo >= 2 && !registro?.comboQuebrou) {
-      setTimeout(() => SFX.comboUp?.(), 300);
+    if (!registro?.practice) {
+      if (registro?.novasBadges?.length) {
+        setTimeout(() => SFX.badge?.(), 300);
+      } else if (registro?.combo >= 2 && !registro?.comboQuebrou) {
+        setTimeout(() => SFX.comboUp?.(), 300);
+      }
     }
 
     if (outcome.desfecho === 'bom') SFX.ding();
@@ -654,131 +635,37 @@ export class Game {
 
     this.el['debrief-preceptor'].hidden = true;
     this.el['debrief-preceptor'].textContent = '';
-    if (this.llm && this.llm.ok) {
-      try {
-        const log = this.history
-          .map((m) => `${m.role === 'user' ? t('log.farmaceutico') : t('log.paciente')}: ${m.content}`)
-          .join('\n');
-        const { text } = await this.llm.chat(buildEvaluatorMessages(this.case, decisao, result, log), {
-          maxTokens: 320,
-          temperature: 0.3,
-        });
-        let feedback = (text || '').trim();
-        if (getLang() === 'en' && looksPortuguese(feedback)) {
-          try {
-            const { text: tr } = await this.llm.chat(buildTranslateMessages(feedback), { maxTokens: 400, temperature: 0.2 });
-            const clean = (tr || '').trim();
-            if (clean && !looksPortuguese(clean)) feedback = clean;
-            else feedback = '';
-          } catch { feedback = ''; }
-        }
-        if (feedback) {
-          this.el['debrief-preceptor'].textContent = feedback;
-          this.el['debrief-preceptor'].hidden = false;
-        }
-      } catch {
-        /* template já cobre */
-      }
+    const log = this.history
+      .map((m) => `${m.role === 'user' ? t('log.farmaceutico') : t('log.paciente')}: ${m.content}`)
+      .join('\n');
+    const feedback = await generatePreceptorFeedback({
+      llm: this.llm,
+      caseDef: this.case,
+      decision: decisao,
+      result,
+      logText: log,
+      language: getLang(),
+    });
+    if (feedback) {
+      this.el['debrief-preceptor'].textContent = feedback;
+      this.el['debrief-preceptor'].hidden = false;
     }
   }
 
   renderDebrief(outcome, result, stars, registro = null) {
-    const tag = this.el['debrief-tag'];
-    const styles = {
-      fatal: 'bg-red-900/60 text-red-200',
-      grave: 'bg-amber-900/60 text-amber-200',
-      bom: 'bg-teal-900/60 text-teal-200',
-      neutro: 'bg-slate-700/60 text-slate-200',
-    };
-    tag.className = 'inline-block px-3 py-1 rounded-full text-xs font-semibold mb-3 ' + (styles[outcome.desfecho] || styles.neutro);
-    const tagKey = {
-      fatal: 'debrief.tag.fatal', grave: 'debrief.tag.grave',
-      bom: 'debrief.tag.bom', neutro: 'debrief.tag.neutro',
-    }[outcome.desfecho] || 'debrief.tag.default';
-    tag.textContent = t(tagKey);
-
-    this.el['debrief-stars'].innerHTML = [1, 2, 3]
-      .map((i) => `<span class="star ${i <= stars ? 'on' : ''}">★</span>`)
-      .join('');
-
-    this.el['debrief-titulo'].textContent = outcome.titulo;
-    this.el['debrief-texto'].textContent = outcome.texto;
-    this.el['debrief-pontos'].textContent = `${result.total} / 100`;
-
-    const breakdown = result.breakdown || [];
-    const MAX_BY_METRICA = {
-      queixa_principal: 20, sinais_alarme: 20, bulario: 10, teste_rapido: 20, dsf: 30,
-    };
-    this.el['debrief-breakdown'].innerHTML = breakdown.map((m) => {
-      const neg = m.pontos < 0;
-      const max = neg ? Math.abs(m.pontos) : (MAX_BY_METRICA[m.metrica] || Math.max(1, m.pontos));
-      const pct = neg ? 100 : Math.round((m.pontos / max) * 100);
-      return `
-        <div class="scorebar">
-          <span>${m.label}</span>
-          <span class="fill"><i style="width:${pct}%; background:${neg ? '#ef4444' : ''}"></i></span>
-          <span class="text-right">${m.pontos > 0 ? '+' : ''}${m.pontos}</span>
-        </div>`;
-    }).join('');
-
-    const det = this.el['debrief-detalhes'];
-    det.innerHTML = '';
-    const li = (txt, cls) => {
-      const e = document.createElement('li');
-      e.textContent = txt;
-      e.className = cls || '';
-      det.appendChild(e);
-    };
-    if (result.missedDomains.length)
-      li(`${t('debrief.faltaPerguntar')}${result.missedDomains.map((d) => domainLabel(d)).join(', ')}.`, 'text-amber-300');
-    if (result.missedRed.length)
-      li(`${t('debrief.alertaNaoInvestigado')}${result.missedRed.map((d) => domainLabel(d)).join(', ')}.`, 'text-amber-300');
-    if (result.reprovado)
-      li(`${t('debrief.reprovado')}${this.case.contraindicado?.motivo || t('bulario.contraindicado')}).`, 'text-red-400 font-semibold');
-    if (result.testeRapidoPerdido)
-      li(`${t('debrief.testePerdidoPre')}${this.case.testeRapido?.tipo}${t('debrief.testePerdidoPos')}`, 'text-amber-300');
-    if (result.arboviroseNaoEncaminhada)
-      li(t('debrief.arbovirose'), 'text-red-400');
-    if (result.orientacaoInadequada)
-      li(t('debrief.orientacao'), 'text-amber-300');
-    if (this.case.dsf && !result.dsfOk)
-      li(t('debrief.dsf'), 'text-amber-300');
-    result.criticals.forEach((c) => li(`${t('debrief.critico')}${c}`, 'text-red-400 font-semibold'));
-    if (!result.missedDomains.length && !result.missedRed.length && !result.criticals.length
-      && !result.reprovado && !result.testeRapidoPerdido && !result.arboviroseNaoEncaminhada
-      && !result.orientacaoInadequada && result.dsfOk)
-      li(t('debrief.perfeito'), 'text-teal-300');
-
-    // Dinâmica de plantão: bônus de combo + conquistas conquistadas no atendimento
-    const cx = this.el['debrief-conquistas'];
-    if (cx) {
-      const partes = [];
-      if (this.novaFaseLiberada != null && this.phases?.[this.novaFaseLiberada]) {
-        partes.push(`<p class="dyn-line text-amber-200 font-semibold">🎉 ${t('debrief.novaFase')} ${t(`phase.${this.phases[this.novaFaseLiberada].id}.nome`)}</p>`);
-      }
-      if (registro) {
-        const mult = registro.mult || 1;
-        partes.push(`<p class="dyn-line">${t('debrief.comboGanho')} ${result.total} × ${mult.toFixed(1)} = <b class="text-teal-300">${registro.ganhos}</b> ${t('hud.pontos')}</p>`);
-        const rk = rankInfo(this.points);
-        partes.push(`<p class="dyn-line text-slate-400">${t('menu.meta.rank')} <b>${rk.atual}</b>${
-          rk.proximo ? ` → ${rk.proximo} · ${rk.faltam} ${t('menu.meta.para')}` : ` · ${t('menu.meta.max')}`}</p>`);
-        if (registro.comboQuebrou) {
-          partes.push(`<p class="dyn-line text-red-300">${t('debrief.comboQuebrou')}</p>`);
-        } else if (registro.combo >= 2) {
-          partes.push(`<p class="dyn-line text-amber-300">🔥 ${t('debrief.comboMantido')} ${registro.combo}${t('debrief.comboProx')} ×${comboMultiplier(registro.combo + 1).toFixed(1)}.</p>`);
-        }
-        if (registro.novasBadges?.length) {
-          partes.push(`<p class="dyn-line text-teal-200">${t('debrief.badgeNova')}</p><ul class="medalhas">${
-            registro.novasBadges.map((id) => `<li class="medalha on"><span class="medalha-ico" aria-hidden="true">${achievementIcon(id)}</span><b>${t(`badge.${id}.nome`)}</b><small>${t(`badge.${id}.desc`)}</small></li>`).join('')}</ul>`);
-        }
-      }
-      cx.innerHTML = partes.join('');
-      cx.hidden = partes.length === 0;
-    }
-
-    this.el['debrief-stamp'].textContent =
-      `${t('debrief.stampCase')} ${this.case.id} v${this.case.version} · seed ${this.seed} · FarmaCheck web · ${t('debrief.stampTail')}`;
-    this.el.debrief.hidden = false;
-    this.el.debrief.querySelector('h2').focus();
+    renderDebriefPanel({
+      elements: this.el,
+      outcome,
+      result,
+      stars,
+      registration: registro,
+      caseDef: this.case,
+      points: this.points,
+      phases: this.phases,
+      newlyUnlockedPhase: this.novaFaseLiberada,
+      seed: this.seed,
+      translate: t,
+      setVisible: (visible) => this.setDebriefVisible(visible),
+    });
   }
 }

@@ -1,22 +1,27 @@
-# Validação Clínica - Game Farma
-## Casos Validados (14 casos reais de src/data/cases.js)
+# Conteúdo clínico em revisão — Game Farma
+
+> **Status:** este arquivo é um inventário técnico de casos fictícios; não representa validação ou aprovação clínica. Os 14 casos de `src/data/cases.js` aguardam revisão profissional documentada (FC-006). Condutas, medicamentos, doses e observações abaixo são conteúdo pendente de revisão e não devem ser tratados como orientação clínica aprovada.
+
+O [pacote reproduzível de revisão](pacote-revisao-clinica.json) v2 contém os campos ativos PT/EN de cada caso, superfícies clínicas da interface, hashes das fontes e campos vazios para o parecer. Também inclui checklist para os 42 itens de prateleira (14 casos × 3), com os rótulos PT/EN e campos para nome comercial, fabricante, registro Anvisa, princípios ativos, concentração/apresentação, bula oficial, decisão e justificativa. Esses campos estão vazios porque o código não define todas as apresentações comerciais; não devem ser preenchidos por inferência. O pacote é gerado com `npm run update:clinical-review-packet` e conferido por `npm run test:clinical-review-packet`. Neste inventário, **Pedido/prateleira** é o item solicitado ou apresentado no jogo; não significa que o código recomende sua dispensação. O campo **Conduta esperada** também reproduz apenas o gabarito atual, ainda sem aprovação clínica.
+
+## Inventário de casos (14 casos fictícios de `src/data/cases.js`)
 
 ### 1. nelson_infarto - Infarto do miocárdio
 - **Paciente:** Seu Nelson, 58 anos
 - **Queixa principal:** Queimação no peito desde cedo, piora ao esforço, irradiação para braço esquerdo
 - **Achados/sinais de alerta:** Caráter opressivo, irradiação braço/queixo, sudorese fria, dispneia ao esforço, náusea leve, HAS mal controlada, tabagismo há 40 anos, episódios prévios de azia autotratada
 - **Conduta esperada:** encaminhar (gabarito: tipo encaminhar)
-- **Medicação/dose:** AAS 500 mg efervescente (prateleira[0])
-- **Contraindicações:** História de úlcera péptica (tag ulcera_prev, relutante, redFlag no código)
+- **Pedido/prateleira:** AAS 500 mg efervescente (prateleira[0])
+- **Contraindicações:** o caso Nelson não define `contraindicado` nem contém a tag `ulcera_prev`; essa tag pertence a João (`joao_queimacao`). O gabarito do Nelson é encaminhar.
 - **Linguagem (chips usados):** Há quanto tempo? Onde dói? Como é a dor? Irradia? Piora com comida? Outros sintomas? Remédios? Já teve antes?
-- **Observações clínicas:** Pacote com histórico de tabagismo intenso, HAS mal controlada, queixa de azia há 40 anos; decisão de encaminhamento depende de investigação de caráter/irradiação/sintomas associados; código possui redFlag em caracter, irradiacao, associados, fatores.
+- **Observações clínicas:** O código registra tabagismo há 40 anos e episódios recorrentes de azia sem duração definida; não afirma azia há 40 anos. O pacote de código marca red flags nos domínios caráter, irradiação, sintomas associados e fatores. Estes são dados/gates a revisar, não uma validação clínica.
 
 ### 2. marina_amoxicilina - Faringite viral
 - **Paciente:** Marina, 29 anos
 - **Queixa principal:** Garganta inflamada há 2 dias, coriza, tosse seca
 - **Achados/sinais de alerta:** Odinofagia, início há 2 dias, queimação leve/moderada, febre negada, coriza e tosse seca, sem placas/pus, sem disfagia, sem adenomegalia
 - **Conduta esperada:** manejo (gabarito: tipo manejo, mips: dipirona)
-- **Medicação/dose:** Amoxicilina 500 mg (prateleira[0] — exige receita)
+- **Pedido/prateleira:** Amoxicilina 500 mg (prateleira[0] — exige receita)
 - **Contraindicações:** Venda de antimicrobiano sem receita (erro crítico: vender_sem_receita)
 - **Linguagem (chips usados):** Há quanto tempo? Febre? Como é a dor? Outros sintomas? Engolir? Remédios? Alergia?
 - **Observações clínicas:** Quadro clássico de faringite viral sem sinais de alarme; código não indica antimicrobiano; decisão baseada na ausência de placas/pus, dispagia, adenomegalia e febre; MIP dipirona para conforto.
@@ -26,7 +31,7 @@
 - **Queixa principal:** Dor no corpo, nariz escorrendo, tosse, solicita injeção de antibiótico
 - **Achados/sinais de alerta:** Mialgia generalizada, início há ~3 dias, febre baixa <38°C, coriza e espirros, tosse seca, sem dispneia, sem secreção purulenta
 - **Conduta esperada:** manejo (gabarito: tipo manejo, mips: paracetamol)
-- **Medicação/dose:** Paracetamol 750 mg (prateleira[1])
+- **Pedido/prateleira:** Paracetamol 750 mg (prateleira[1])
 - **Contraindicações:** Venda/administração de antimicrobiano para quadro viral clássico (erro crítico: vender_ab)
 - **Linguagem (chips usados):** Há quanto tempo? Febre? Tosse? Outros sintomas? Remédios? Alergia?
 - **Observações clínicas:** Quadro clássico de resfriado viral; código alerta contra antibiótico; decisão baseada na associação coriza/espirros/tosse sem secreção purulenta nem dispneia; MIP paracetamol para sintomático.
@@ -36,9 +41,9 @@
 - **Queixa principal:** Nariz entupido há 2 dias, coceira, espirros
 - **Achados/sinais de alerta:** Congestão nasal bilateral, início há 2 dias, secreção clara e fluida, febre negada, espirros e coceira no nariz, sem dor facial, sem secreção purulenta, histórico de rinite alérgica, alergia à poeira
 - **Conduta esperada:** manejo (gabarito: tipo manejo, mips: loratadina)
-- **Medicação/dose:** Loratadina 10 mg (prateleira[1])
+- **Pedido/prateleira:** Loratadina 10 mg (prateleira[1])
 - **Contraindicações:** Descongestionante tópico sem orientar uso curto (máx. 3 dias) (erro crítico: vender_descong)
-- **Linguagem (chips usados):** Há quanto tempo? Febre? O que escorre? Coceira? Já teve antes? Remédios? Alergia?
+- **Linguagem (chips usados):** Há quanto tempo? Febre? O que escorre? Coceira? Já teve antes? Remédios? O código não oferece chip rápido de alergia neste caso, embora o domínio esteja no checklist; a pessoa ainda pode digitar uma pergunta.
 - **Observações clínicas:** Rinite alérgica conhecida; código indica loratadina + lavagem nasal; decisão baseada em secreção clara/fluida, coceira, histórico de rinite, negação de febre/dor facial/pus; alerta sobre limite de 3 dias do descongestionante tópico.
 
 ### 5. clara_cefaleia - Cefaleia tensional
@@ -46,7 +51,7 @@
 - **Queixa principal:** Dor de cabeça desde o meio da tarde, caráter de aperto bilateral frontal
 - **Achados/sinais de alerta:** Dor frontal em aperto, início no meio da tarde, intensidade ~5/10, sem náusea/vômito, sem fotofobia/fonofobia, sem aura, sem rigidez de nuca, febre negada, piora em dias de estresse, episódio recorrente
 - **Conduta esperada:** manejo (gabarito: tipo manejo, mips: paracetamol)
-- **Medicação/dose:** Dipirona injetável (prateleira[0] — código alerta: via parenteral não é atribuição do balcão)
+- **Pedido/prateleira:** Dipirona injetável (prateleira[0] — código alerta: via parenteral não é atribuição do balcão)
 - **Contraindicações:** Dispensar dipirona injetável no balcão (via parenteral exige avaliação)
 - **Linguagem (chips usados):** Há quanto tempo? Onde dói? Como é a dor? De 0 a 10? Outros sintomas? Pescoço rígido? Febre? Remédios?
 - **Observações clínicas:** Cefaleia tensional sem sinais de alarme; código alerta contra via parenteral no balcão; decisão baseada na ausência de náusea/vômito, fotofobia/fonofobia, aura, rigidez de nuca; MIP paracetamol com orientação de pausa do estresse e compressa fria.
@@ -56,7 +61,7 @@
 - **Queixa principal:** Dor nas costas após levantar peso na obra, solicita relaxante muscular injetável
 - **Achados/sinais de alerta:** Dor lombar baixa, início ontem após esforço, tipo contratura, sem irradiação para perna, sem formigamento/dormência, força preservada nas pernas, febre negada, sem trauma direto, sem perda de urina/fezes
 - **Conduta esperada:** manejo (gabarito: tipo manejo, mips: diclofenaco)
-- **Medicação/dose:** Diclofenaco sódico 50 mg (prateleira[1])
+- **Pedido/prateleira:** Diclofenaco sódico 50 mg (prateleira[1])
 - **Contraindicações:** Dispensar relaxante muscular injetável no balcão (via parenteral exige avaliação)
 - **Linguagem (chips usados):** Onde dói? Há quanto tempo? Irradia? Formigamento? Força? Banheiro? Febre? Remédios?
 - **Observações clínicas:** Lombar mecânica sem bandeiras vermelhas; código alerta contra relaxante injetável no balcão; decisão baseada na ausência de irradiação, formigamento, perda de força/urina; MIP diclofenaco oral + orientação de repouso relativo e compressa quente.
@@ -66,7 +71,7 @@
 - **Queixa principal:** Queimação no estômago desde ontem à noite, piora com comida gordurosa
 - **Achados/sinais de alerta:** Queimação epigástrica, início ontem à noite, piora com comida gordurosa, episódios prévios de dispepsia, história prévia de úlcera péptica (relutante, redFlag), sem melena/fezes escuras (relutante, redFlag), sem vômitos com sangue (relutante, redFlag), febre negada, usa antiácido eventual
 - **Conduta esperada:** manejo (gabarito: tipo manejo, mips: omeprazol)
-- **Medicação/dose:** AAS 500 mg efervescente (prateleira[0] — contraindicado no caso: história de úlcera)
+- **Pedido/prateleira:** AAS 500 mg efervescente (prateleira[0] — contraindicado no caso: história de úlcera)
 - **Contraindicações:** AAS contraindicado em história de úlcera péptica (risco de sangramento digestivo, erro crítico: vender_aas)
 - **Linguagem (chips usados):** Há quanto tempo? Onde queima? Piora com comida? Já teve antes? Úlcera? Sangramento? Remédios?
 - **Observações clínicas:** História de úlcera péptica relutante; AAS contraindicado é o erro crítico do caso; decisão baseia na pergunta sobre úlcera/sangramento antes de liberar AAS; MIP omeprazol + orientação de fracionar refeições e evitar gordura/álcool à noite.
@@ -76,7 +81,7 @@
 - **Queixa principal:** Tontura desde cedo, fala embolada, filha preocupada
 - **Achados/sinais de alerta:** Tontura início ~6h atrás, disartria (fala arrastada), assimetria facial, fraqueza de um lado do corpo, início súbito dos sintomas, HAS em uso, anti-hipertensivo em uso, febre negada
 - **Conduta esperada:** encaminhar (gabarito: tipo encaminhar)
-- **Medicação/dose:** Ginkgo biloba / "circulação" (prateleira[0] — código alerta: inócuo e perigoso no caso)
+- **Pedido/prateleira:** Ginkgo biloba / "circulação" (prateleira[0] — código alerta: inócuo e perigoso no caso)
 - **Contraindicações:** Vender "remédio para circulação" diante de quadro sugestivo de AVC (erro crítico: vender_pedido)
 - **Linguagem (chips usados):** O que sente? Há quanto tempo? Fala? Rosto? Braços? Pressão? Remédios?
 - **Observações clínicas:** AVC suspeito com tríade disartria+assimetria facial+fraqueza unilateral de início súbito; código alerta que venda de "remédio para circulação" é erro crítico; decisão baseada na observação da boca torta, fala embolada, fraqueza de um lado; encaminhamento SAMU com registro de horário de início é conduta gabarito.
@@ -86,7 +91,7 @@
 - **Queixa principal:** Tontura ao levantar, quase desmaiou, solicita tônico para dar força
 - **Achados/sinais de alerta:** Tontura ao levantar, início de manhã, episódio de síncope/queda, sensação de pulso fraco/lento, mudou anti-hipertensivo há 2 dias (redFlag), anti-hipertensivo em uso, diabética em uso de metformina, febre negada, sem dor no peito
 - **Conduta esperada:** encaminhar (gabarito: tipo encaminhar)
-- **Medicação/dose:** Tônico/complexo vitamínico (prateleira[0])
+- **Pedido/prateleira:** Tônico/complexo vitamínico (prateleira[0])
 - **Contraindicações:** Vender tônico a idosa com síncope recente e possível hipotensão por mudança de anti-hipertensivo (erro crítico: vender_pedido)
 - **Linguagem (chips usados):** O que sente? Há quanto tempo? Desmaiou? Coração? Remédios? Pressão? Febre?
 - **Observações clínicas:** Idosa com síncope recente após mudança de anti-hipertensivo; código alerta que queda em idoso é evento-sentinela; decisão baseia na associação tontura ao levantar + mudança de medicação + pulso fraco; não vender tônico sem avaliação da pressão e da cartela de remédios.
@@ -96,17 +101,17 @@
 - **Queixa principal:** Falta de ar desde a madrugada, peito chiando, solicita xarope expectorante
 - **Achados/sinais de alerta:** Sibilância (peito chiando), início na madrugada, dispneia que impede falar frases completas (relutante, redFlag), tosse seca contínua, febre negada, asma conhecida sem manutenção, usa broncodilatador de resgate (bombinha) que não aliviou, crises prévias com PS
 - **Conduta esperada:** encaminhar (gabarito: tipo encaminhar)
-- **Medicação/dose:** Xarope expectorante (prateleira[0] — código alerta: ineficaz na crise asmática)
+- **Pedido/prateleira:** Xarope expectorante (prateleira[0] — código alerta: ineficaz na crise asmática)
 - **Contraindicações:** Vender xarope expectorante para crise asmática com dispneia de repouso e sibilância que não responde à bombinha (erro crítico: vender_pedido)
 - **Linguagem (chips usados):** O que sente? Há quanto tempo? Respirar? Chiado? Lábios? Asma? Remédios?
-- **Observações clínicas:** Crise asmática moderada a grave com dispneia de repouso e bombinha que não alivia; código alerta que expectorante é ineficaz via aérea; decisão baseada em fala entrecortada, chiado persistente, bombinha sem efeito; encaminhamento SAMU com paciente sentado, oxigênio e broncodilatador nebulizado são conduta gabarito.
+- **Observações clínicas:** O gabarito no código é encaminhar. As orientações mostradas no fluxo são acionar o SAMU/urgência, manter a pessoa sentada, não deixá-la sozinha e avaliar a bombinha de resgate enquanto aguarda. Oxigênio e broncodilatador nebulizado aparecem no texto do desfecho hospitalar, não como ação atribuída ao balcão; validar essa separação profissionalmente.
 
 ### 11. bia_apendicite - Apendicite aguda
 - **Paciente:** Bia, 22 anos
 - **Queixa principal:** Dor abdominal começou periumbilical, migrou para fossa ilíaca direita, náusea/vômito, anorexia, febre 37,8°C
 - **Achados/sinais de alerta:** Dor iniciou periumbilical, migração para fossa ilíaca direita, anorexia (relutante, redFlag), náusea com 1 episódio de vômito (relutante, redFlag), febre 37,8°C (relutante, redFlag), constipação leve, dor piora ao andar e rir
 - **Conduta esperada:** encaminhar (gabarito: tipo encaminhar)
-- **Medicação/dose:** Analgésico (prateleira[0] — código alerta: pode mascarar evolução)
+- **Pedido/prateleira:** Analgésico (prateleira[0] — código alerta: pode mascarar evolução)
 - **Contraindicações:** Vender analgésico e antiemético para dor abdominal migratória com febre e anorexia (erro crítico: vender_pedido)
 - **Linguagem (chips usados):** Onde começou? Onde dói agora? Fome? Enjoo? Febre? O que melhora? Banheiro? Remédios?
 - **Observações clínicas:** Padrão clássico de apendicite: dor periumbilical que migra para fossa ilíaca direita + anorexia + náusea/vômito + febre; código alerta que analgésico mascara evolução; decisão baseia na tríade dor migratória + anorexia + febre; NÃO vender analgésico/antiemético; orientar jejum e encaminhamento imediato.
@@ -116,7 +121,7 @@
 - **Queixa principal:** Dor no corpo e dor de cabeça
 - **Achados/sinais de alerta:** Dor no corpo e dor de cabeça, início hoje, dor atrás dos olhos, corpo "moído" (mialgia intensa), febre alta de início súbito (39°C), trabalha em hospital, primeiro episódio, sem medicação hoje, alergias negativas, sem sangramento
 - **Conduta esperada:** encaminhar (gabarito: tipo encaminhar)
-- **Medicação/dose:** Sonrisal (AAS 500 mg efervescente) (prateleira[0])
+- **Pedido/prateleira:** Sonrisal, AAS 325 mg por comprimido efervescente (prateleira[0]); identificação conferida com a bula atual do fabricante, sujeita ao parecer clínico do caso.
 - **Contraindicações:** AAS (Sonrisal) é contraindicado em suspeita de dengue — risco de sangramento e quadro hemorrágico
 - **Linguagem (chips usados):** O que sente? Há quanto tempo? Como é a dor? Febre? Sangramento? Trabalho? Remédios? Alergia?
 - **Observações clínicas:** Suspeita de dengue com febre alta súbita + mialgia + dor retroocular; código possui testeRapido (Dengue NS1/IgM) e campo contraindicado: AAS é contraindicado; decisão baseia na associação febre alta + corpo moído + dor atrás dos olhos; NÃO vender AAS; orientar hidratação, vigilância de sinais de alarme e teste rápido; DSF de encaminhamento urgente ao PS.
@@ -126,7 +131,7 @@
 - **Queixa principal:** Queimação no estômago desde o almoço de ontem
 - **Achados/sinais de alerta:** Queimação no estômago (epigástrio), início desde o almoço de ontem, relaciona com exagero alimentar (evento social), já melhorou com antiácido em episódios passados, sem fezes escuras, sem perda de peso, sem dor irradiada a braço/queixo, sem vômito/sangue, sem medicação em uso, alergias negadas
 - **Conduta esperada:** manejo (gabarito: tipo manejo, mips: antiacido)
-- **Medicação/dose:** Antiácido/"estomacal" forte
+- **Pedido/prateleira:** Antiácido/"estomacal" forte
 - **Contraindicações:** vender_sem_investigar - necessidade de confirmar ausência de sinais de alarme antes de dispensar
 - **Linguagem (chips usados):** Onde dói? Há quanto tempo? O que piora? Irradia? Fezes escuras? Peso? Remédios? Alergia?
 - **Observações clínicas:** Dispepsia pós-exagero alimentar sem sinais de alarme; código indica MIP antiácido + DSF com orientações alimentares; decisão baseia na ausência de fezes escuras, perda de peso, dor irradiada; DSF orienta retorno se piorar, vomitar sangue ou fezes escuras; orientação sobre refeições menores e evitar gordura/álcool.
@@ -136,7 +141,7 @@
 - **Queixa principal:** Coceira e vermelhidão nos braços
 - **Achados/sinais de alerta:** Coceira e vermelhidão nos braços, início há ~3 dias, exposição a produtos de limpeza novos, placas secas/áridas, sem bolhas nem pus, sem falta de ar, sem inchaço em lábios/rosto, sem febre, primeiro episódio, sem medicação em uso, alergias conhecidas: nega
 - **Conduta esperada:** manejo (gabarito: tipo manejo, mips: emoliente)
-- **Medicação/dose:** Pomada para "alergia"
+- **Pedido/prateleira:** Pomada para "alergia"
 - **Contraindicações:** Nenhum (contraindicado: null)
 - **Linguagem (chips usados):** Onde coça? Há quanto tempo? Como é a pele? Produtos? Respirar? Febre? Remédios? Alergia?
 - **Observações clínicas:** Dermatite de contato leve e autolimitada causada por produtos novos de limpeza sem luvas; código indica emoliente tópico + DSF com orientação de luvas; decisão baseia em coceira/vermelhidão, exposição a produtos novos, ausência de bolhas/pus/falta de ar/inchaço/febre; orientação sobre proteção com luvas, água morna e sabonete suave; DSF orienta retorno se piorar, surgir falta de ar ou inchaço.
@@ -203,7 +208,7 @@
 
 ### Carla (dengue)
 - Associar febre alta súbita + mialgia + dor retroocular (pergunta chips: "Como é a dor? Febre? Sangramento? Trabalho? Remédios? Alergia?")
-- Solicitar teste rápido Dengue NS1/IgM antes de recusar AAS
+- O desfecho positivo descreve teste rápido Dengue NS1/IgM antes da recusa do AAS, enquanto as orientações mandam não tomar AAS e encaminhar hoje. Revisar com profissional se a sequência apresentada está adequada e se o teste poderia ser entendido como pré-requisito ou atraso.
 - NÃO vender AAS (risco de sangramento); orientar hidratação + vigilância de sinais de alarme + DSF encaminhamento urgente
 
 ### Roberto (dispepsia)
@@ -216,24 +221,52 @@
 - Dispensar emoliente tópico + orientar proteção com luvas, água morna e sabonete suave
 - DSF orienta retorno se piorar, surgir bolhas, falta de ar ou inchaço no rosto
 
-## Checklist de Assinatura (PO Jhuly - Farmacêutico Validador)
+## Divergência de identificação de Sonrisal — 18/10/2026
 
-| Caso | Conduta | Assinatura Farmacêutico | CRM | Data |
-|------|---------|-------------------------|-----|------|
-| nelson_infarto | encaminhar | _______________ | _______________ | ____/____/____ |
-| marina_amoxicilina | manejo | _______________ | _______________ | ____/____/____ |
-| jose_gripe | manejo | _______________ | _______________ | ____/____/____ |
-| ana_coriza | manejo | _______________ | _______________ | ____/____/____ |
-| clara_cefaleia | manejo | _______________ | _______________ | ____/____/____ |
-| paulo_dor_lombar | manejo | _______________ | _______________ | ____/____/____ |
-| joao_queimacao | manejo | _______________ | _______________ | ____/____/____ |
-| helena_avc | encaminhar | _______________ | _______________ | ____/____/____ |
-| dona_rosa_hipotensao | encaminhar | _______________ | _______________ | ____/____/____ |
-| carlos_asma | encaminhar | _______________ | _______________ | ____/____/____ |
-| bia_apendicite | encaminhar | _______________ | _______________ | ____/____/____ |
-| carla_dengue | encaminhar | _______________ | _______________ | ____/____/____ |
-| roberto_dispepsia | manejo | _______________ | _______________ | ____/____/____ |
-| catia_dermatite | manejo | _______________ | _______________ | ____/____/____ |
+A versão anterior de `carla_dengue` chamava o produto de “Sonrisal (AAS 500 mg)”. A [bula do fabricante, notificada na Anvisa em março de 2025](https://www.sonrisal.com.br/content/dam/cf-consumer-healthcare/sonrisal/br_BR/pages/homepage/sonrisal-leaflet-250605.pdf), informa 325 mg de ácido acetilsalicílico por comprimido efervescente; a [lista CMED da Anvisa de agosto de 2025](https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/cmed/precos/arquivos/pdf_conformidade_gov_20250807_115642184.pdf) também relaciona apresentações registradas de Sonrisal. Corrigi o nome/força exibidos na solicitação e prateleira PT/EN de Carla para 325 mg por comprimido, sem alterar o gabarito, contraindicação ou teste do caso. O pacote reproduzível foi regenerado e testado; a revisão profissional dos 14 casos segue pendente.
+
+Em `nelson_infarto`, “Sorrisal 500 mg” continua sem identificação de produto registrada. A [base aberta de medicamentos registrados da Anvisa, atualizada em 13/10/2026](https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv), foi consultada por nome exato: encontrou zero linhas `SORRISAL`, duas `SONRISAL` (registro ativo 192900011 e entrada legada inativa) e uma `SAL DE SONRISAL` ativa (registro 192900015; sal de magnésio/citrato/bicarbonato, sem AAS listado). Isso não comprova se a fala fictícia usa nome coloquial/erro de escrita nem identifica o item pretendido; não substituir produto ou composição sem decisão do revisor clínico. Resultado, método e SHA-256 do CSV oficial: `.planning/2026-10-12-melhoria-integral/implementation/20261018_fc006_product_leaflet_audit/nelson_sorrisal_registry_audit.json`. As demais marcas/formas genéricas e o kit do teste rápido também precisam de produto exato para comparar bula/instruções.
+
+## Fontes candidatas para conferência — não são aceite clínico
+
+Pesquisa de referências oficiais/profissionais em 17/10/2026. A tabela orienta a leitura do revisor, mas não estabelece que o jogo esteja correto nem substitui protocolo local. O profissional deve confirmar vigência, população, ambiente de atendimento e aplicabilidade; divergências devem ser anotadas antes de qualquer alteração do gabarito.
+
+| Caso | Referência candidata | Escopo a comparar com o jogo |
+|---|---|---|
+| `nelson_infarto` | [SBC — diretrizes oficiais](https://www.portal.cardiol.br/diretrizes), incluindo *Diretriz Brasileira de Atendimento à Dor Torácica na Unidade de Emergência* (2025) | Sinais apresentados, prioridade/encaminhamento, papel do balcão e texto dos desfechos. |
+| `marina_amoxicilina`, `jose_gripe` | [CDC — faringite estreptocócica](https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html), [CDC — resfriado comum](https://www.cdc.gov/common-cold/treatment/), [Anvisa — legislação de antimicrobianos/SNGPC](https://www.gov.br/anvisa/pt-br/assuntos/fiscalizacao-e-monitoramento/sngpc/legislacao) | Diferencial e teste em faringite, uso de antimicrobianos, orientação sintomática, exigência de receita e tradução para a regulamentação brasileira vigente. CDC é referência internacional, não norma brasileira. |
+| `ana_coriza` | [ASBAI — V Consenso Brasileiro sobre Rinites (2024)](https://asbai.org.br/v-consenso-brasileiro-sobre-rinites/) | Caracterização do quadro, pergunta de alergia, escolha de medicamento e limite de uso tópico. |
+| `clara_cefaleia` | [Ministério da Saúde/UFRGS — Neurologia adulto (2022)](https://bvsms.saude.gov.br/bvs/publicacoes/protocolos_encaminhamento_atencao_basica_neurologia.pdf), [SBCe — protocolo de cefaleias na urgência](https://sbcefaleia.com.br/images/file%205.pdf) | Critérios para a classificação proposta, sinais de alerta, recorrência e manejo representado. |
+| `paulo_dor_lombar` | [Ministério da Saúde — protocolo de encaminhamento em Ortopedia Adulto](https://bvsms.saude.gov.br/bvs/publicacoes/protocolos_encaminhamento_atencao_ortopedia_adulto.pdf) | Sinais de alerta, perdas funcionais, limites do atendimento inicial e coerência do encaminhamento. |
+| `joao_queimacao`, além dos itens das prateleiras de todos os casos | [Anvisa — Bulário Eletrônico](https://www.gov.br/anvisa/pt-br/sistemas/bulario-eletronico) | Conferir bula profissional, contraindicação, interação, dose, população e produto exato. O pacote ainda não vincula cada nome comercial/força do jogo à bula do produto registrado correspondente; não usar a bula de outro AAS como substituta. |
+| `helena_avc` | [Ministério da Saúde — PCDT de AVC isquêmico agudo (2025)](https://www.gov.br/saude/pt-br/assuntos/pcdt/a/acidente-vascular-cerebral-isquemico-agudo/view), [Ministério da Saúde — sinais de AVC](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/avc) | Sinais simulados, horário de início, acionamento da rede e separação entre primeiros cuidados e tratamento hospitalar. |
+| `dona_rosa_hipotensao` | [Ministério da Saúde/UFRGS — síncope ou perda transitória da consciência (2022)](https://bvsms.saude.gov.br/bvs/publicacoes/protocolos_encaminhamento_atencao_basica_neurologia.pdf), [Ministério da Saúde — uso seguro de medicamentos em idosos](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-da-pessoa-idosa/uso-seguro-de-medicamentos) | Síncope, sinais circulatórios, alteração recente de anti-hipertensivo, avaliação de medicamentos e texto de urgência. |
+| `carlos_asma` | [GINA — Global Strategy for Asthma Management and Prevention (2026)](https://ginasthma.org/2026-gina-strategy-report/) | Gravidade simulada, medidas enquanto aguarda socorro e distinção entre orientação no balcão e intervenção hospitalar. Conferir tradução/aplicação ao protocolo brasileiro. |
+| `bia_apendicite` | [WSES — Jerusalem Guidelines for Acute Appendicitis, edição 2025 (publicada em 2026)](https://doi.org/10.1001/jamasurg.2025.6218), [Ministério da Saúde/BVS — apendicite](https://bvsms.saude.gov.br/bvs/saude-de-a-a/apendicite/) | Apresentação, urgência, investigação e afirmações sobre jejum/analgesia; fonte informativa da BVS não substitui protocolo profissional. |
+| `carla_dengue` | [Ministério da Saúde — Dengue: diagnóstico e manejo clínico, 6ª ed. (2024; página atualizada em 2026)](https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/dengue/dengue-diagnostico-e-manejo-clinico-adulto-e-crianca/view), [SBC — diretrizes oficiais, incluindo posição sobre antitrombóticos na dengue (2026)](https://www.portal.cardiol.br/diretrizes) | AAS/AINE, sinais e classificação de risco, uso/resultado/ordem do teste, hidratação, encaminhamento e texto do desfecho. A sequência teste→recusa registrada acima precisa de decisão explícita. |
+| `roberto_dispepsia` | [BSG — diretriz de dispepsia funcional (2022)](https://gut.bmj.com/content/early/2022/07/07/gutjnl-2022-327737) | Limites de diagnóstico por sintomas, alarmes, retorno e afirmações sobre tratamento. É diretriz internacional e requer avaliação de aplicabilidade local. |
+| `catia_dermatite` | [Ministério da Saúde — Dermatoses Ocupacionais](https://www.gov.br/saude/pt-br/composicao/svsa/saude-do-trabalhador/vigilancia-em-saude-do-trabalhador-vigisat/doencas-e-agravos-relacionados-ao-trabalho/dermatoses-ocupacionais), [protocolo profissional de dermatoses da BVS/MS](https://bvsms.saude.gov.br/bvs/trabalhador/pdf/protocolo_dermatoses.pdf) | Agente irritante/alérgico, lesões, proteção da pele e critérios de retorno. A referência ocupacional não cobre automaticamente exposição doméstica. |
+
+**Itens sem fonte específica fechada:** o jogo não identifica fabricante/registro e bula de cada medicamento exibido; o TLAC não identifica marca, kit, instrução de uso ou protocolo do teste rápido. A validação de dose/contraindicação exige bula correspondente ao produto e a avaliação do TLAC exige definição do ensaio pretendido. Os textos curtos na tela “Referências” são apenas três tópicos, ainda sem citação completa e sem publicação no produto como fonte aprovada.
+
+## Registro de parecer profissional — revisor(a) a identificar
+
+| Caso | Estado | Decisão / observação | Profissional e registro | Data |
+|------|--------|-----------------------|-------------------------|------|
+| nelson_infarto | Pendente | _______________ | _______________ | ____/____/____ |
+| marina_amoxicilina | Pendente | _______________ | _______________ | ____/____/____ |
+| jose_gripe | Pendente | _______________ | _______________ | ____/____/____ |
+| ana_coriza | Pendente | _______________ | _______________ | ____/____/____ |
+| clara_cefaleia | Pendente | _______________ | _______________ | ____/____/____ |
+| paulo_dor_lombar | Pendente | _______________ | _______________ | ____/____/____ |
+| joao_queimacao | Pendente | _______________ | _______________ | ____/____/____ |
+| helena_avc | Pendente | _______________ | _______________ | ____/____/____ |
+| dona_rosa_hipotensao | Pendente | _______________ | _______________ | ____/____/____ |
+| carlos_asma | Pendente | _______________ | _______________ | ____/____/____ |
+| bia_apendicite | Pendente | _______________ | _______________ | ____/____/____ |
+| carla_dengue | Pendente | _______________ | _______________ | ____/____/____ |
+| roberto_dispepsia | Pendente | _______________ | _______________ | ____/____/____ |
+| catia_dermatite | Pendente | _______________ | _______________ | ____/____/____ |
 
 ---
 
@@ -261,8 +294,8 @@ Os seguintes campos não são definidos automaticamente no código e requerem ju
 
 10. **Follow-up e reavaliação** — O código não rastreia se o paciente retornou ou evoluiu após a conduta inicial; lacuna importante para segurança do paciente.
 
-14. **Consentimento informado e educação em saúde** — A qualidade da explicação ao paciente (chips/comunicação) é avaliada heurísticamente no scoring, mas não há métrica estruturada de "paciente compreendeu" no modelo.
+11. **Consentimento informado e educação em saúde** — A qualidade da explicação ao paciente (chips/comunicação) é avaliada heurísticamente no scoring, mas não há métrica estruturada de "paciente compreendeu" no modelo.
 
 ---
 
-**Documento gerado a partir de src/data/cases.js, src/core/scoring.js e src/core/factGate.js — zero dado inventado.**
+O texto deste inventário é um resumo editorial, não uma exportação automática; divergências encontradas foram registradas e corrigidas contra o código vigente. Para o conteúdo exato, consulte `pacote-revisao-clinica.json`, cuja geração registra SHA-256 das fontes de casos, idioma, regras, scoring e superfícies. O painel de referências do jogo contém três tópicos bibliográficos sem citações completas (autoria, obra, edição/data ou link); esses tópicos continuam pendentes de fontes conferidas por profissional. Nenhum dos dois arquivos representa aprovação clínica.

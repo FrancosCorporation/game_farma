@@ -1,4 +1,4 @@
-name: QA assets 3D
+name: Verify FarmaCheck
 
 on:
   pull_request:
@@ -8,9 +8,11 @@ on:
 jobs:
   qa-char:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     strategy:
       matrix:
-        char: [ana]
+        # Use the tracked, active avatar. `public/models/ana.glb` is ignored by Git.
+        char: [ana_clasica]
     env:
       CHAR: ${{ matrix.char }}
     steps:
@@ -21,13 +23,59 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - run: npm ci
+      - name: Audit dependency advisories
+        run: npm audit --audit-level=low
       - run: npx playwright install chromium --with-deps
-      - run: pip install pillow
+      - name: Install offline TTS engine for integration QA
+        run: sudo apt-get update && sudo apt-get install -y espeak-ng
 
-      - name: Gate do viewer (budgets + a11y + console limpo)
-        run: node scripts/qa_char_preview.mjs "$CHAR" 1
+      - name: Syntax, regression tests and production build
+        run: npm run verify
+        env:
+          CAST_PROVENANCE_MODE: checkout
+
+      - name: TTS fallback/cancel in Chromium
+        run: npm run qa:audio:browser
+
+      - name: Local TTS API synthesizes Portuguese and English
+        run: npm run test:tts-server
+
+      - name: Real WAV playback and stop in Chromium
+        run: |
+          set -euo pipefail
+          HOST=127.0.0.1 PORT=4175 node server/index.mjs >/tmp/farmacheck-tts-server.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+          ready=0
+          for attempt in {1..30}; do
+            if curl --fail --silent http://127.0.0.1:4175/healthz >/dev/null; then
+              ready=1
+              break
+            fi
+            sleep 1
+          done
+          test "$ready" -eq 1
+          QA_TTS_ENGINE_URL=http://127.0.0.1:4175 npm run qa:audio:live
+
+      - name: Accessibility panels (keyboard and axe)
+        run: QA_DISABLE_GPU=1 npm run qa:accessibility:panels
+
+      - name: Free Shift accessibility matrix (desktop/mobile, PT/EN)
+        run: npm run qa:free-shift:matrix
+
+      - name: TLAC result rendering and payload injection regression
+        run: npm run qa:tlac-result
+
+      - name: Character animation contract
+        run: node scripts/gate_character_walk.mjs "public/models/${CHAR}.glb"
+
+      - name: Viewer smoke (software renderer; FPS is not a device benchmark)
+        run: |
+          mkdir -p /tmp/opencode
+          node scripts/qa_char_preview.mjs "$CHAR" 1
+
+      - run: pip install pillow
 
       - name: QA visual (final vs cru, quando houver renders)
         run: |
@@ -41,8 +89,28 @@ jobs:
               python3 scripts/comfy/qa_compare.py "$FINAL" "$RAW"
             fi
           else
-            echo "sem renders para comparar — pulando (ok)"
+            echo "SKIP: sem renders de referência e candidato no checkout. Comparação visual não foi aprovada."
           fi
+
+      - name: Local gameplay smoke in desktop and mobile viewports
+        run: |
+          set -euo pipefail
+          npm run dev -- --host 127.0.0.1 --port 4174 &
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+          ready=0
+          for attempt in {1..30}; do
+            if curl --fail --silent http://127.0.0.1:4174/ >/dev/null; then
+              ready=1
+              break
+            fi
+            sleep 1
+          done
+          test "$ready" -eq 1
+          npm run qa:warm-vite -- http://127.0.0.1:4174/
+          npm run qa:boot -- http://127.0.0.1:4174/
+          SMOKE_URL=http://127.0.0.1:4174/ npm run qa:flow:matrix
+          npm run qa:case-models -- http://127.0.0.1:4174/
 
       - uses: actions/upload-artifact@v4
         if: always()

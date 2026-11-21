@@ -73,3 +73,7 @@ ref_test.*
 /mixamo_*.jpeg
 /*.png
 /*.jpeg
+
+# Cache local dos scripts Blender e QA Python
+__pycache__/
+*.pyc

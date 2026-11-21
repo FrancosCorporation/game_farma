@@ -12,7 +12,7 @@ const GDD_LABELS = {
     dsf: 'DSF com conduta correta',
     contraindicado: 'Dispensou item contraindicado (−100 · reprovação)',
     teste_pendente: 'Finalizou sem teste necessário (−30)',
-    arbovirose: 'Não encaminhou suspeita de arbovirose ao PS (−40)',
+    arbovirose: 'Não encaminhou suspeita de arbovirose para avaliação clínica (−40)',
     orientacao: 'Orientação inadequada em quadro autolimitado (−25)',
   },
   en: {
@@ -23,7 +23,7 @@ const GDD_LABELS = {
     dsf: 'DSF with correct conduct',
     contraindicado: 'Dispensed a contraindicated item (−100 · fail)',
     teste_pendente: 'Finished without the required test (−30)',
-    arbovirose: 'Did not refer suspected arboviral infection to the ER (−40)',
+    arbovirose: 'Did not refer suspected arboviral infection for clinical assessment (−40)',
     orientacao: 'Inadequate guidance for a self-limiting condition (−25)',
   },
 };
@@ -42,14 +42,27 @@ function heuristicaComunicacao(history, caso) {
   return Math.min(5, pts);
 }
 
-// DSF do jogador cobre a conduta correta do gabarito? (match por palavras-chave, tolerante a redação)
-export function dsfCorreta(caso, texto) {
-  if (!caso.dsf || !texto) return false;
-  const alvo = norm(caso.dsf.condutaCorreta).split(/[^a-z0-9]+/).filter((w) => w.length >= 5);
-  const unicos = [...new Set(alvo)];
-  const resp = norm(texto);
-  const acertos = unicos.filter((w) => resp.includes(w)).length;
-  return acertos / Math.max(1, unicos.length) >= 0.7;
+// A DSF é registrada no formulário; a decisão clínica vem do controle estruturado.
+// Redações livres equivalentes não dependem de sobreposição literal com o gabarito.
+export function dsfCorreta(caso, texto, conduta) {
+  if (!caso.dsf || typeof texto !== 'string' || !texto.trim()
+    || conduta !== caso.condutaGabarito?.tipo) return false;
+  if (caso.id !== 'carla_dengue') return true;
+
+  // Na Mariana, o documento exige achados clínicos e conduta explícitos.
+  // A decisão estruturada continua sendo a fonte da nota; a DSF precisa
+  // documentar a avaliação, o quadro e as ações, sem exigir texto idêntico.
+  const registro = norm(texto);
+  const avaliacao = /(avaliacao clinica presumida|presumed clinical assessment):\s*\S/.test(registro);
+  const produto = /(sonrisal|aas|acido acetilsalicilico|acetylsalicylic acid|salicilat)/.test(registro);
+  const recusa = /(recus|nao dispens|contraindicad|evit|refus|did not dispens|withheld|avoid)/.test(registro);
+  const encaminhamento = /(encaminh|ubs|unidade basica|servico de saude|pronto.socorro|refer|primary care|emergency service)/.test(registro);
+  const febre = /(febre|febril|fever)/.test(registro);
+  const sintomas = /(mialgia|dor no corpo|dor muscular|cefaleia|dor de cabeca|nausea|body ache|muscle pain|headache)/.test(registro);
+  const exantema = /(dipirona|manchas|exantema|rash|red spots)/.test(registro);
+  const hidratacao = /(hidrat|reidrat|soro|liquidos|hydration|rehydrat|oral fluids|fluid intake|\bors\b)/.test(registro);
+  const alarme = /(sinais? de alarme|sinais? de alerta|dor abdominal|vomit|sangr|hipotens|warning signs?|abdominal pain|bleed|postural)/.test(registro);
+  return avaliacao && febre && sintomas && exantema && produto && recusa && hidratacao && alarme && encaminhamento;
 }
 
 function dispensouContraindicado(caso, decisao) {
@@ -112,9 +125,17 @@ export function scoreCase(caso, knowledge, decisao, history) {
   add('queixa_principal', queixa);
 
   // +20 sinais de alarme investigados (contraindicações/medicamentos/alergias)
-  const alarmeDominios = [...new Set([...(caso.redFlagDominios || []), 'medicamentos', 'alergias'])];
-  const investigados = alarmeDominios.filter((d) => asked.includes(d)).length;
-  add('sinais_alarme', Math.round(20 * investigados / Math.max(1, alarmeDominios.length)));
+  if (caso.id === 'carla_dengue') {
+    const signs = knowledge.warningSignsAsked || new Set();
+    const pontos = Math.min(4, signs.size) * 3
+      + (asked.includes('medicamentos') ? 4 : 0)
+      + (asked.includes('alergias') ? 4 : 0);
+    add('sinais_alarme', pontos);
+  } else {
+    const alarmeDominios = [...new Set([...(caso.redFlagDominios || []), 'medicamentos', 'alergias'])];
+    const investigados = alarmeDominios.filter((d) => asked.includes(d)).length;
+    add('sinais_alarme', Math.round(20 * investigados / Math.max(1, alarmeDominios.length)));
+  }
 
   // +10 consulta de bulário/diretrizes
   add('bulario', decisao.consultaBulario ? 10 : 0);
@@ -122,11 +143,14 @@ export function scoreCase(caso, knowledge, decisao, history) {
   // +20 teste rápido executado quando indicado
   const testeIndicado = Boolean(caso.testeRapido?.indicado);
   const testeExecutado = Boolean(decisao.testeRapido?.executado);
-  add('teste_rapido', testeIndicado && testeExecutado ? 20 : 0);
+  // Não testar é a ação correta quando o caso não indica TLAC. O item vale
+  // a pontuação cheia tanto para executar um teste indicado quanto para
+  // respeitar a ausência de indicação.
+  add('teste_rapido', testeIndicado === testeExecutado ? 20 : 0);
 
   // +30 DSF com conduta correta (casos novos: texto da DSF; legados: conduta no gabarito)
   const dsfOk = caso.dsf
-    ? dsfCorreta(caso, decisao.dsf) && decisao.conduta === gab.tipo
+    ? dsfCorreta(caso, decisao.dsf, decisao.conduta)
     : decisao.conduta === gab.tipo;
   add('dsf', dsfOk ? 30 : 0);
 

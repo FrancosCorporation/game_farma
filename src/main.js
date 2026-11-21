@@ -1,6 +1,7 @@
 import './styles.css';
 import { initI18n, t } from './ui/i18n.js';
 import { initCapa } from './ui/capa.js';
+import { initFullscreenButton } from './ui/fullscreen.js';
 
 const $ = (id) => document.getElementById(id);
 
@@ -37,9 +38,6 @@ function liberarInicio() {
   }
 }
 
-// Só marca "carregando" se o jogador fechar a capa antes do cenário ficar pronto
-// (no caso normal o aviso nem chega a aparecer).
-$('capa-iniciar')?.addEventListener('click', () => setTimeout(travarInicio, 0));
 document.addEventListener('farmacheck:pronto', liberarInicio);
 
 function falharBoot(erro) {
@@ -51,7 +49,20 @@ function falharBoot(erro) {
   b.textContent = t('boot.falha');
 }
 
-// Cena, avatares, IA e regras (chunk próprio, com three.js), depois da capa viva.
-import('./app.js')
-  .then(({ startApp }) => startApp())
-  .catch(falharBoot);
+// Só carrega a cena pesada depois da escolha explícita do jogador. A pausa dá
+// ao browser tempo para pintar o menu e o estado "Preparando" antes de avaliar
+// Three.js e montar a farmácia; isso mantém a primeira interação responsiva.
+let appStartScheduled = false;
+function startAppAfterCoverPaint() {
+  if (appStartScheduled) return;
+  appStartScheduled = true;
+  import('./app.js')
+    .then(({ startApp }) => startApp())
+    .catch(falharBoot);
+}
+
+$('capa-iniciar')?.addEventListener('click', () => {
+  initFullscreenButton();
+  setTimeout(travarInicio, 0);
+  setTimeout(startAppAfterCoverPaint, 100);
+}, { once: true });

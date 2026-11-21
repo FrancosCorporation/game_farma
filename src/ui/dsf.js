@@ -1,7 +1,8 @@
 // F4 — DSF (Declaração de Serviços Farmacêuticos): formulário guiado + preview imprimível.
-// Ao emitir → game.registrarDSF(texto) (scoring valida cobertura ≥70% das palavras-chave).
+// Ao emitir → game.registrarDSF(texto); a rubrica usa a emissão e a decisão estruturada.
 import { t, applyI18n } from './i18n.js';
 import { SFX } from '../audio/sfx.js';
+import { lockModalFocus, restoreFocus } from './focus.js';
 
 const $ = (id) => document.getElementById(id);
 
@@ -19,9 +20,12 @@ const RAPIDAS = [
 export function initDsf({ game, aoFechar }) {
   const painel = $('dsf');
   const preview = $('dsf-preview');
+  const erroImpressao = $('dsf-print-error');
   const elConduta = $('dsf-conduta');
   const btnEmitir = $('btn-dsf-emitir');
-  let casoIdAtual = null;
+  let atendimentoAtual = null;
+  let focoAnterior = null;
+  let liberarPreview = null;
 
   const atualizarEmitir = () => { btnEmitir.disabled = !elConduta.value.trim(); };
 
@@ -29,7 +33,8 @@ export function initDsf({ game, aoFechar }) {
     const box = $('dsf-rapidas');
     box.innerHTML = '';
     for (const r of RAPIDAS) {
-      const texto = t(r.key);
+      const texto = r.id === 'recusa' && caso.id === 'carla_dengue'
+        ? t('dsf.rapida.recusaMariana') : t(r.key);
       const b = document.createElement('button');
       b.type = 'button';
       b.className = 'dsf-chip' + (r.destaque(caso) ? ' dsf-chip-destaque' : '');
@@ -67,15 +72,23 @@ export function initDsf({ game, aoFechar }) {
   function abrir() {
     const caso = game.case;
     if (!caso) return;
-    if (casoIdAtual !== caso.id) {
+    if (erroImpressao) erroImpressao.hidden = true;
+    if (painel.hidden && preview.hidden) focoAnterior = document.activeElement;
+    if (atendimentoAtual !== game.interactionVersion) {
       // novo atendimento → zera o rascunho
-      casoIdAtual = caso.id;
+      atendimentoAtual = game.interactionVersion;
       elConduta.value = '';
+      $('dsf-hipotese').value = '';
     }
-    $('dsf-paciente').value = `${caso.persona.nome}, ${caso.persona.idade}${t('chat.anos')}`;
+    const nomeRegistro = caso.persona.nomeCivil
+      ? `${caso.persona.nomeCivil} (${caso.persona.nome})` : caso.persona.nome;
+    $('dsf-paciente').value = `${nomeRegistro}, ${caso.persona.idade}${t('chat.anos')}`;
     $('dsf-data').value = new Date().toISOString().slice(0, 10);
     $('dsf-queixa').value = caso.pedido;
-    $('dsf-encaminhamento').value = caso.dsf?.encaminhamento || t('dsf.naoNecessario');
+    // No caso jogável, o encaminhamento é uma decisão do estudante: pré-preencher
+    // o gabarito aqui entregaria a resposta antes da triagem.
+    $('dsf-encaminhamento').value = caso.id === 'carla_dengue'
+      ? '' : (caso.dsf?.encaminhamento || t('dsf.naoNecessario'));
     renderRapidas(caso);
     renderOrient(caso);
     atualizarEmitir();
@@ -85,28 +98,39 @@ export function initDsf({ game, aoFechar }) {
   }
 
   function fechar() {
+    if (painel.hidden && preview.hidden) return;
     painel.hidden = true;
     preview.hidden = true;
+    liberarPreview?.();
+    liberarPreview = null;
     aoFechar?.();
+    restoreFocus(focoAnterior, $('btn-hud-dsf'));
+    focoAnterior = null;
   }
 
   function montarTexto() {
     const orients = [...$('dsf-orient').querySelectorAll('input:checked')].map((i) => i.value);
     let texto = elConduta.value.trim();
+    const hipotese = $('dsf-hipotese').value.trim();
+    // Evita "avaliação: texto.." quando o estudante já fecha a frase com ponto.
+    if (hipotese) texto += ` ${t('dsf.hipotese')}: ${hipotese.replace(/[.]+$/, '')}.`;
     if (orients.length) texto += ` ${t('dsf.orientacoes')}: ${orients.join('; ')}.`;
     const enc = $('dsf-encaminhamento').value.trim();
-    if (enc) texto += ` ${t('dsf.encaminhamento')}: ${enc}.`;
+    if (enc) texto += ` ${t('dsf.encaminhamento')}: ${enc.replace(/[.]+$/, '')}.`;
     return texto;
   }
 
   function emitir() {
     const texto = montarTexto();
     if (!texto) return;
+    if (erroImpressao) erroImpressao.hidden = true;
     game.registrarDSF(texto);
     SFX.chime();
     renderPreview(texto);
     painel.hidden = true;
     preview.hidden = false;
+    liberarPreview?.();
+    liberarPreview = lockModalFocus(preview);
     $('btn-dsf-imprimir').focus();
   }
 
@@ -115,29 +139,64 @@ export function initDsf({ game, aoFechar }) {
     const data = $('dsf-data').value || new Date().toISOString().slice(0, 10);
     const orients = [...$('dsf-orient').querySelectorAll('input:checked')].map((i) => i.value);
     const enc = $('dsf-encaminhamento').value.trim() || '—';
-    $('dsf-doc-corpo').innerHTML = `
-      <p class="dsf-linha"><b>${t('dsf.paciente')}:</b> ${$('dsf-paciente').value || '—'}</p>
-      <p class="dsf-linha"><b>${t('dsf.data')}:</b> ${data}</p>
-      <p class="dsf-linha"><b>${t('dsf.queixa')}:</b> ${caso.pedido}</p>
-      <p class="dsf-linha"><b>${t('dsf.conduta')}:</b> ${texto}</p>
-      ${orients.length ? `<p class="dsf-linha"><b>${t('dsf.orientacoes')}:</b> ${orients.join('; ')}</p>` : ''}
-      <p class="dsf-linha"><b>${t('dsf.encaminhamento')}:</b> ${enc}</p>`;
+    const corpo = $('dsf-doc-corpo');
+    corpo.replaceChildren();
+    const linha = (label, value) => {
+      const p = document.createElement('p');
+      p.className = 'dsf-linha';
+      const b = document.createElement('b');
+      b.textContent = `${label}:`;
+      p.append(b, document.createTextNode(` ${value}`));
+      corpo.appendChild(p);
+    };
+    linha(t('dsf.paciente'), $('dsf-paciente').value || '—');
+    linha(t('dsf.data'), data);
+    linha(t('dsf.queixa'), caso.pedido);
+    const hipotese = $('dsf-hipotese').value.trim();
+    if (hipotese) linha(t('dsf.hipotese'), hipotese);
+    linha(t('dsf.conduta'), elConduta.value.trim());
+    if (orients.length) linha(t('dsf.orientacoes'), orients.join('; '));
+    linha(t('dsf.encaminhamento'), enc);
     $('dsf-doc-stamp').textContent = t('dsf.stamp');
     applyI18n(preview);
   }
 
   elConduta.addEventListener('input', atualizarEmitir);
   btnEmitir.addEventListener('click', emitir);
-  $('btn-dsf-imprimir').addEventListener('click', () => window.print());
+  $('btn-dsf-imprimir').addEventListener('click', () => {
+    if (erroImpressao) erroImpressao.hidden = true;
+    try {
+      if (typeof window.print !== 'function') throw new Error('print-unavailable');
+      window.print();
+    } catch {
+      if (erroImpressao) erroImpressao.hidden = false;
+    }
+  });
   $('btn-dsf-voltar').addEventListener('click', () => {
     preview.hidden = true;
+    liberarPreview?.();
+    liberarPreview = null;
     painel.hidden = false;
     elConduta.focus();
+  });
+  preview.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      fechar();
+      event.preventDefault();
+    }
   });
   $('btn-dsf-fechar').addEventListener('click', () => {
     SFX.pop();
     fechar();
   });
+  const reiniciar = () => {
+    if (!game.case || !window.confirm(t('dsf.reiniciarConfirm'))) return;
+    const caso = game.case;
+    fechar();
+    game.startCase(caso, { repeat: true, focusAfterArrival: true });
+  };
+  $('btn-dsf-reiniciar').addEventListener('click', reiniciar);
+  $('btn-dsf-preview-reiniciar').addEventListener('click', reiniciar);
 
   return { abrir, fechar, aberto: () => !painel.hidden || !preview.hidden };
 }

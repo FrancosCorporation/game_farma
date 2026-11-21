@@ -1,9 +1,20 @@
 let ctx = null;
+let volume = .7;
+try {
+  const stored = localStorage.getItem('farmacheck:sfx-volume');
+  const value = Number(stored);
+  if (stored !== null && Number.isFinite(value) && value >= 0 && value <= 1) volume = value;
+} catch { /* storage unavailable */ }
 const ensure = () => {
   if (!ctx) { const AC = window.AudioContext || window.webkitAudioContext; if (AC) ctx = new AC(); }
+  if (ctx?.state === 'suspended') {
+    try { Promise.resolve(ctx.resume?.()).catch(() => {}); } catch { /* autoplay can remain blocked */ }
+  }
   return ctx;
 };
 function tone(freq, dur = 0.15, type = 'sine', gain = 0.07, delay = 0) {
+  if (volume === 0) return;
+  gain *= volume;
   const c = ensure(); if (!c) return;
   const o = c.createOscillator(), g = c.createGain();
   o.type = type; o.frequency.value = freq;
@@ -16,6 +27,12 @@ function tone(freq, dur = 0.15, type = 'sine', gain = 0.07, delay = 0) {
 }
 export const SFX = {
   ensure,
+  get volume() { return volume; },
+  setVolume(value) {
+    if (!Number.isFinite(value)) return;
+    volume = Math.max(0, Math.min(1, value));
+    try { localStorage.setItem('farmacheck:sfx-volume', String(volume)); } catch { /* memory preference */ }
+  },
   pop: () => tone(520, 0.06, 'triangle', 0.03),
   // clique de plástico (feed-back físico dos botões da capa): thud curto + tick agudo
   click: () => { tone(196, 0.05, 'square', 0.04); tone(2200, 0.022, 'triangle', 0.018, 0.003); },

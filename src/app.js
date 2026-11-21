@@ -8,21 +8,30 @@ import { createScene } from './scene/scene.js';
 import { createPOV } from './scene/pov.js';
 import { buildPharmacy } from './scene/pharmacy.js';
 import { loadGLBFPatient } from './scene/patient.js';
+import { touchCachedAvatar, trimAvatarCache } from './scene/avatarLifecycle.js';
 import { Game } from './core/game.js';
+import { loadCaseServiceConfig, saveCaseServiceConfig } from './core/caseService.js';
 import { createProgressStore, PHASES } from './core/progression.js';
 import { TTS } from './audio/tts.js';
 import { SFX } from './audio/sfx.js';
 import { LLMClient, loadLLMConfig, saveLLMConfig, hasLLMConfig } from './ai/llm.js';
 import { initAtendimento } from './ui/atendimento.js';
-import { t } from './ui/i18n.js';
-import { CASES } from './data/cases.js';
+import { t, getLang } from './ui/i18n.js';
+import { CASE_INDEX, ACTIVE_CASES } from './data/cases.js';
+import { BOOT_MODEL, REVIEW_CANDIDATE_MODELS, modelForCaseId } from './data/patientAssets.js';
 
 const $ = (id) => document.getElementById(id);
 
 export function startApp() {
   // Palco 3D + farmácia procedural (+ renderer p/ ambiente PBR)
   const api = createScene($('scene3d'));
-  buildPharmacy(api.scene, api.addTicker, api.renderer);
+  const pharmacy = buildPharmacy(api.scene, api.addTicker, api.renderer);
+  api.refreshQuality();
+  const qualitySelect = $('cfg-quality');
+  if (qualitySelect) {
+    qualitySelect.value = api.selectedQuality;
+    qualitySelect.addEventListener('change', () => api.setQuality(qualitySelect.value));
+  }
 
   // F2 — POV por pontos de interesse (paciente · computador/bulário · mesa/TLAC)
   const pov = createPOV({
@@ -34,38 +43,49 @@ export function startApp() {
   // Progresso + jogo (game precisa existir antes do avatar, que referencia game.avatar)
   const progress = createProgressStore();
   let avatar = null;
-  const game = new Game({ avatar: null, cases: CASES, fx: api.fx, progress });
+  const game = new Game({ avatar: null, cases: ACTIVE_CASES, fx: api.fx, progress });
   game.phases = PHASES;
+  const AVATAR_CACHE_LIMIT = 2; // Avatar ativo + o último usado, para trocas comuns.
+  const avatarCache = new Map();
+  const trimCachedAvatars = (protectedIds = []) => trimAvatarCache(
+    avatarCache,
+    AVATAR_CACHE_LIMIT,
+    protectedIds,
+    (model, modelId) => {
+      try { model?.dispose?.(); }
+      catch (e) { console.error(`[avatar] dispose ${modelId}`, e); }
+    },
+  );
+  // Instâncias em cache permanecem carregadas, mas apenas a identidade montada
+  // recebe update por frame; evita ticker e animação permanentes por paciente.
+  api.addTicker((dt, t) => avatar?.update(dt, t));
 
   // NPC: só GLB. Sem avatar procedural e sem fallback silencioso — falha de
   // load/parse loga erro e propaga (para corrigir o asset/URL).
-  const avatarCache = new Map();
-  const withTimeout = (p, ms) =>
-    Promise.race([p, new Promise((_, rej) => setTimeout(() => rej(new Error(`timeout ${ms}ms`)), ms))]);
-
   async function mountAvatar(model) {
+    // scoreCase() deixa a saída cosmética rodando enquanto o relatório aparece.
+    // Ao trocar/repetir rapidamente, finalize essa caminhada sem esperar o ticker
+    // do avatar antigo (que deixará de receber updates após a troca).
+    avatar?.cancelMotion?.({ hide: true });
     if (avatar === model) return model;
-    const visivel = avatar?.root?.visible === true;
-    const sair = avatar?.leave;
-    if (visivel && typeof sair === 'function') {
-      try { await withTimeout(avatar.leave(), 4000); } catch (e) { console.error('[avatar] leave', e); }
-    } else if (typeof sair === 'function') {
-      try { Promise.resolve(avatar.leave()).catch((e) => console.error('[avatar] leave', e)); } catch (e) { console.error('[avatar] leave', e); }
-    }
     avatar = model;
     game.avatar = model;
+    trimCachedAvatars([model.modelId].filter(Boolean));
     return model;
   }
 
   const emAtendimento = () => ['CHEGADA', 'ANAMNESE', 'DECISAO'].includes(game.state);
 
-  // Elenco (PO 24/09): por enquanto SOMENTE a Ana atende TODOS os casos —
-  // os demais serão gerados no mesmo pipeline depois e aí o mapa por caso volta
-  // a existir. A variante 283k está suspensa até a revisão visual do skinning.
-  // Mantemos a Ana clássica, aprovada, em produção durante a correção.
-  // (deve vir ANTES do boot IIFE que usa BOOT_MODEL — TDZ)
-  const BOOT_MODEL = 'ana_clasica';
-  const modeloDoCaso = () => BOOT_MODEL;
+  // Candidatos animados são ligados ao caso no build deste checkout para QA
+  // normal de ponta a ponta. O container de produção não muda até deploy.
+  const candidateReviewMode = import.meta.env.DEV
+    && new URLSearchParams(window.location.search).get('candidateReview') === '1';
+  const candidateReviewCaseId = candidateReviewMode
+    ? new URLSearchParams(window.location.search).get('candidateCase')
+    : null;
+  const modeloDoCaso = (caseId) => modelForCaseId(caseId, {
+    includeReviewCandidates: candidateReviewMode,
+  });
 
   // Retry p/ GLBs (rede móvel/flaky): 3 tentativas; se falhar, ERRO (sem fallback).
   const loadGLBWithRetry = async (url, scene, tries = 3) => {
@@ -84,9 +104,7 @@ export function startApp() {
 
   // (boot do avatar default fica DEPOIS de preloadAvatar — precisa do cache)
 
-  // Elenco (PO 24/09): por enquanto SOMENTE a Ana atende TODOS os casos —
-  // os demais pacientes serão gerados no
-  // mesmo pipeline depois e aí o mapa por caso volta a existir.
+  // Cache compartilhado por modelo; somente a identidade do caso é montada.
   // Pacientes procedurais e meshes TRELLIS/estáticos foram removidos; SEM
   // fallback procedural: falha de load/parse propaga.
   const carregando = new Map(); // modelId → Promise<avatar>
@@ -94,12 +112,15 @@ export function startApp() {
   function preloadAvatar(caseId) {
     const modelId = modeloDoCaso(caseId);
     if (!modelId) return Promise.resolve(null);
-    if (avatarCache.has(modelId)) return Promise.resolve(avatarCache.get(modelId));
+    const cached = touchCachedAvatar(avatarCache, modelId);
+    if (cached) return Promise.resolve(cached);
     if (carregando.has(modelId)) return carregando.get(modelId);
-    const p = loadGLBWithRetry(`models/${modelId}.glb?v=38`, api.scene)  // ?v=38 (10/10): retorna à Ana aprovada enquanto o skinning da variante 283k é corrigido.
+    const version = modelId === BOOT_MODEL ? '44' : '1';
+    const p = loadGLBWithRetry(`models/${modelId}.glb?v=${version}`, api.scene)
       .then((m) => {
+        m.modelId = modelId;
         avatarCache.set(modelId, m);
-        api.addTicker((dt, t) => m.update(dt, t));
+        trimCachedAvatars([avatar?.modelId, modelId].filter(Boolean));
         return m;
       })
       .finally(() => carregando.delete(modelId));
@@ -115,8 +136,7 @@ export function startApp() {
     try {
       const inicial = await preloadAvatar(BOOT_MODEL);
       if (!inicial) throw new Error('preload nulo');
-      // ticker NÃO aqui: o preloadAvatar já registra 1× por instância (registrar
-      // de novo = update 2× por frame = walk/clips 2× rápidos).
+      // O ticker único acompanha a referência `avatar`; não registrar por instância.
       if (!emAtendimento()) await mountAvatar(inicial);
     } catch (e) {
       console.error(`[boot] FALHA ao montar ${BOOT_MODEL}.glb — sem avatar em cena`, e);
@@ -124,23 +144,37 @@ export function startApp() {
   })();
 
   const startCaseBase = game.startCase.bind(game);
+  let failedAvatarCase = null;
   game.startCase = async function (caseDef, opts) {
+    pharmacy.setCase(caseDef, getLang() === 'en');
     try {
       const modelo = await preloadAvatar(caseDef?.id);
       if (modelo) await mountAvatar(modelo);
     } catch (e) {
-      // Sem fallback: erro explícito. O caso ainda pode rodar sem avatar novo
-      // apenas se já houver um montado; se não, o jogo loga e segue sem personagem.
+      // Falha explícita; não iniciar um caso usando a identidade do avatar anterior.
       console.error(`[startCase] GLB do caso falhou (${caseDef?.id}):`, e);
       game.lastAvatarError = String(e?.message || e);
+      failedAvatarCase = { caseDef, opts, phaseIdx: game.phaseIdx };
+      $('patient-load-error').hidden = false;
+      $('menu').hidden = false;
+      return; // Retry the same case instead of attending with another person's mesh.
     }
+    failedAvatarCase = null;
+    game.lastAvatarError = null;
+    $('patient-load-error').hidden = true;
     return startCaseBase(caseDef, opts);
   };
 
   TTS.init();
+  game.updateTtsButton();
+  const soundVolume = $('cfg-sfx-volume');
+  if (soundVolume) {
+    soundVolume.value = String(Math.round(SFX.volume * 100));
+    soundVolume.addEventListener('input', () => SFX.setVolume(Number(soundVolume.value) / 100));
+  }
 
   // F2/F3/F4 — HUD de pontos de interesse (bulario/TLAC/DSF) acoplado às fases do atendimento
-  const atendimento = initAtendimento({ game, pov });
+  const atendimento = initAtendimento({ game, pov, camera: api.camera, pharmacy });
   const setFaseBase = game.setFase.bind(game);
   game.setFase = (f) => {
     setFaseBase(f);
@@ -155,6 +189,7 @@ export function startApp() {
   $('cfg-model').value = savedRaw.model || '';
   $('cfg-endpoint').placeholder = 'http://127.0.0.1:8081/v1';
   $('cfg-model').placeholder = 'Qwen3.5-9B-Q8_0';
+  $('cfg-case-endpoint').value = loadCaseServiceConfig().baseUrl;
 
   const readCfg = () => ({
     baseUrl: $('cfg-endpoint').value.trim() || undefined,
@@ -173,21 +208,53 @@ export function startApp() {
   game.renderPhases();
 
   // Troca de idioma na capa: re-renderiza fases e rótulos dinâmicos do HUD.
-  document.addEventListener('farmacheck:langchange', () => game.refreshLangUI());
+  document.addEventListener('farmacheck:langchange', () => {
+    game.refreshLangUI();
+    pharmacy.setCase(game.case, getLang() === 'en');
+  });
 
   // Hook de depuração/QA (smoke Playwright): acesso ao game, ao POV e à câmera
-  window.__farmacheck = { game, pov, camera: api.camera };
+  const qaHooks = {
+    game, pov, pharmacy, camera: api.camera, scene: api.scene, renderer: api.renderer, graphics: api,
+    candidateReviewMode,
+  };
+  if (import.meta.env.DEV) {
+    qaHooks.avatarCacheStats = () => ({ size: avatarCache.size, modelIds: [...avatarCache.keys()] });
+  }
+  window.__farmacheck = qaHooks;
 
   $('btn-iniciar').addEventListener('click', () => {
     SFX.ensure();
     saveLLMConfig(readCfg());
+    saveCaseServiceConfig({ baseUrl: $('cfg-case-endpoint').value.trim() });
     game.llm = new LLMClient(loadLLMConfig());
     // IA é opt-in: só sonda o endpoint se o usuário já salvou uma config.
     // Sem isso todo boot buscava 127.0.0.1:8081 e sujava o console
     // (ERR_CONNECTION_REFUSED) mesmo no modo determinístico.
-    game.llm.ok = hasLLMConfig() ? null : false;
-    if (hasLLMConfig()) game.llm.probe();
+    const llmEnabled = hasLLMConfig();
+    game.llm.primaryEnabled = llmEnabled;
+    game.llm.fallbackEnabled = llmEnabled;
+    game.llm.ok = llmEnabled ? null : false;
+    if (llmEnabled) game.llm.probe();
     $('menu').hidden = true;
+    $('patient-load-error').hidden = true;
+    if (failedAvatarCase && failedAvatarCase.phaseIdx === game.phaseIdx) {
+      const { caseDef, opts } = failedAvatarCase;
+      game.startCase(caseDef, opts);
+      return;
+    }
+    failedAvatarCase = null;
+    if (candidateReviewCaseId && Object.hasOwn(REVIEW_CANDIDATE_MODELS, candidateReviewCaseId)) {
+      // Revisão de candidato consulta o catálogo completo (CASE_INDEX): os outros 13
+      // modelos saem do fluxo jogável mas continuam inspecionáveis pelo link de revisão.
+      const candidateCase = CASE_INDEX.get(candidateReviewCaseId);
+      if (candidateCase) {
+        const phaseIndex = PHASES.findIndex((phase) => phase.casos?.includes(candidateReviewCaseId));
+        if (phaseIndex >= 0) game.setPhase(phaseIndex);
+        game.startCase(candidateCase, { focusAfterArrival: true });
+        return;
+      }
+    }
     // honra a fase escolhida no menu (antes forçava sempre a 0 — e a última
     // fase jogada, guardada em progress.ultimaFase, era perdida)
     game.setPhase(Math.max(0, game.phaseIdx));

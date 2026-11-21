@@ -1,0 +1,187 @@
+{
+  "schema": 1,
+  "modelSha256": {
+    "models/ana_clasica.glb": "ef80f332f6abe601dee0e7c67e7b2d76714a5919ac52c9c72663e7cfd4146794",
+    "models/candidates/marina_patient_v001.glb": "0d075417ed9f947a3fd942eba647441aee3f36b69e253e466753e621a23fd321",
+    "models/candidates/jose_patient_v002.glb": "06ce0fb808c199c53ffd01d9cde8cb910e9fe3ac13e5fa0e572c01aec0f584dc",
+    "models/candidates/nelson_infarto_walkidle_gait_candidate_v001.glb": "63ebbb4b15d6db06350154340a2674749b17d42184547f02403e8e6c9ee25e61",
+    "models/candidates/clara_cefaleia_walk_v001.glb": "94f770ee9a28436c1422a75842acc92bd8faa29ea3f61d48ca4181629a820fd7",
+    "models/candidates/paulo_dor_lombar_walkidle_gait_candidate_v001.glb": "a8c4c7fee366ca31fa2f03444a6f1f0431270953a030001a51a85dd7d6635655",
+    "models/candidates/joao_queimacao_walkidle_gait_candidate_v007.glb": "30b2d42722a8d7b6b66f0686a5dc6c423b53cc3467330ae86977be14aa227145",
+    "models/candidates/helena_avc_walkidle_gait_candidate_v001.glb": "cd0322d125ecb6953a4fa9da036eb9673fa1af3876a7fe5ffad73c750fb1c7c7",
+    "models/candidates/rosa_hipotensao_walkidle_gait_candidate_v001.glb": "0b50134dbe06cc2788e4259c0bc45be655360633f3ea07a1441912b00aed80a3",
+    "models/candidates/carlos_asma_mixamo_prepared_v010_lod100k_bindframe.glb": "ff19bda6b344c3370817e94b6aba1f50cb7268694e2b6bb92df51c4b4a620436",
+    "models/candidates/bia_apendicite_voxel_mixamo_walkidle_candidate_v023_arm_rebase_v001.glb": "b0f8e617f69045247668b38237105ab01576786471b93b4db34fe7ce792ad813",
+    "models/candidates/carla_dengue_voxel_mixamo_walkidle_candidate_v009_arm_rebase_v003.glb": "6afd8d7875c1f445c5f00304ee81497b050851c9ed8f0d4bb0e629ce21095e51",
+    "models/candidates/roberto_dispepsia_voxel_mixamo_walkidle_candidate_v006_arm_rebase_v001.glb": "e15709807a363625414aae29af2dd690522c1b9ca94026b4520482187afddfd5",
+    "models/candidates/catia_dermatite_voxel_mixamo_walkidle_candidate_v004_arm_rebase_v001.glb": "3f797996818f37896709c8f6b95f022418a6000cae957cdf59253a5d980c13f1"
+  },
+  "patients": [
+    {
+      "id": "ana_coriza",
+      "name": "Ana",
+      "age": 21,
+      "status": "live",
+      "model": "ana_clasica",
+      "version": "44",
+      "references": []
+    },
+    {
+      "id": "marina_amoxicilina",
+      "name": "Marina",
+      "age": 29,
+      "status": "live",
+      "model": "candidates/marina_patient_v001",
+      "version": "1",
+      "references": [
+        "refs/candidates/marina_amoxicilina_v001_01.png",
+        "refs/candidates/marina_amoxicilina_v001_02.png"
+      ],
+      "selectedReference": 1
+    },
+    {
+      "id": "jose_gripe",
+      "name": "Seu José",
+      "age": 44,
+      "status": "live",
+      "model": "candidates/jose_patient_v002",
+      "version": "1",
+      "references": [
+        "refs/candidates/jose_gripe_v001_01.png"
+      ],
+      "selectedReference": 0
+    },
+    {
+      "id": "nelson_infarto",
+      "name": "Seu Nelson",
+      "age": 58,
+      "status": "animated-review",
+      "version": "1",
+      "references": [
+        "refs/candidates/nelson_v001.jpg"
+      ],
+      "selectedReference": 0,
+      "model": "candidates/nelson_infarto_walkidle_gait_candidate_v001"
+    },
+    {
+      "id": "clara_cefaleia",
+      "name": "Clara",
+      "age": 33,
+      "status": "candidate",
+      "version": "1",
+      "references": [
+        "refs/candidates/clara_v001.jpg"
+      ],
+      "selectedReference": 0,
+      "model": "candidates/clara_cefaleia_walk_v001"
+    },
+    {
+      "id": "paulo_dor_lombar",
+      "name": "Paulo",
+      "age": 47,
+      "status": "animated-review",
+      "version": "1",
+      "references": [
+        "refs/candidates/paulo_v002.jpg"
+      ],
+      "selectedReference": 0,
+      "model": "candidates/paulo_dor_lombar_walkidle_gait_candidate_v001"
+    },
+    {
+      "id": "joao_queimacao",
+      "name": "João",
+      "age": 39,
+      "status": "animated-review",
+      "version": "7",
+      "references": [
+        "refs/candidates/joao_v001.jpg"
+      ],
+      "selectedReference": 0,
+      "model": "candidates/joao_queimacao_walkidle_gait_candidate_v007"
+    },
+    {
+      "id": "helena_avc",
+      "name": "Dona Helena",
+      "age": 68,
+      "status": "animated-review",
+      "version": "1",
+      "references": [
+        "refs/candidates/helena_v001.jpg"
+      ],
+      "selectedReference": 0,
+      "model": "candidates/helena_avc_walkidle_gait_candidate_v001"
+    },
+    {
+      "id": "dona_rosa_hipotensao",
+      "name": "Dona Rosa",
+      "age": 72,
+      "status": "animated-review",
+      "model": "candidates/rosa_hipotensao_walkidle_gait_candidate_v001",
+      "version": "1",
+      "references": [
+        "refs/candidates/rosa_v001.jpg"
+      ],
+      "selectedReference": 0
+    },
+    {
+      "id": "carlos_asma",
+      "name": "Carlos",
+      "age": 30,
+      "status": "animated-review",
+      "model": "candidates/carlos_asma_mixamo_prepared_v010_lod100k_bindframe",
+      "version": "10",
+      "references": [
+        "refs/candidates/carlos_asma_v001.png"
+      ],
+      "selectedReference": 0
+    },
+    {
+      "id": "bia_apendicite",
+      "name": "Bia",
+      "age": 22,
+      "status": "animated-review",
+      "model": "candidates/bia_apendicite_voxel_mixamo_walkidle_candidate_v023_arm_rebase_v001",
+      "version": "23",
+      "references": [
+        "refs/candidates/bia_apendicite_v001.png"
+      ],
+      "selectedReference": 0
+    },
+    {
+      "id": "carla_dengue",
+      "name": "Carla",
+      "age": 24,
+      "status": "animated-review",
+      "model": "candidates/carla_dengue_voxel_mixamo_walkidle_candidate_v009_arm_rebase_v003",
+      "version": "9",
+      "references": [
+        "refs/candidates/carla_dengue_v001.png"
+      ],
+      "selectedReference": 0
+    },
+    {
+      "id": "roberto_dispepsia",
+      "name": "Roberto",
+      "age": 30,
+      "status": "animated-review",
+      "model": "candidates/roberto_dispepsia_voxel_mixamo_walkidle_candidate_v006_arm_rebase_v001",
+      "version": "6",
+      "references": [
+        "refs/candidates/roberto_dispepsia_v001.png"
+      ],
+      "selectedReference": 0
+    },
+    {
+      "id": "catia_dermatite",
+      "name": "Cátia",
+      "age": 45,
+      "status": "animated-review",
+      "model": "candidates/catia_dermatite_voxel_mixamo_walkidle_candidate_v004_arm_rebase_v001",
+      "version": "4",
+      "references": [
+        "refs/candidates/catia_dermatite_v001.png"
+      ],
+      "selectedReference": 0
+    }
+  ]
+}

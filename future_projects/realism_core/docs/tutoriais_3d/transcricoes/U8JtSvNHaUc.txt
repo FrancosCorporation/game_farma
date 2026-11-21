@@ -1,2 +1,0 @@
-Kind: captions
-Language: en

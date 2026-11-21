@@ -20,16 +20,18 @@ import os
 import re
 import subprocess
 import sys
+import tempfile
 
-REPO = "/home/servidor/Git/game_farma"
+HERE = os.path.dirname(os.path.abspath(__file__))
+REPO = os.path.abspath(os.environ.get("FARMA_REPO_ROOT", os.path.join(HERE, "../..")))
 STATE = os.path.join(REPO, "scripts/comfy/batch_state.json")
 MANIFEST = os.path.join(REPO, "scripts/comfy/assets_manifest.json")
-COMFY_OUTPUT_3D = "/media/servidor/nvme_data/ai_music/comfyui/ComfyUI/output/3d"
-HERE = os.path.dirname(os.path.abspath(__file__))
-BLENDER = "/snap/bin/blender"
-GLTF = os.path.join(REPO, "node_modules/.bin/gltf-transform")
+COMFY_OUTPUT_3D = os.environ.get("FARMA_COMFY_OUTPUT_3D", "/media/servidor/nvme_data/ai_music/comfyui/ComfyUI/output/3d")
+BLENDER = os.environ.get("FARMA_BLENDER_BIN", "/snap/bin/blender")
+GLTF = os.path.join(HERE, "gltf_transform_sdk.mjs")
 GLB_INFO = os.path.join(HERE, "glb_info.mjs")
 SIMPLIFY_ERROR = "0.01"
+TEMP_DIR = os.environ.get("FARMA_FINALIZE_TMP", os.path.join(tempfile.gettempdir(), "farmacheck-finalize"))
 
 
 def log(msg):
@@ -37,7 +39,8 @@ def log(msg):
 
 
 def sh(cmd, **kw):
-    r = subprocess.run(cmd, capture_output=True, text=True, **kw)
+    invoke = ["node", *cmd] if cmd and cmd[0] == GLTF else cmd
+    r = subprocess.run(invoke, capture_output=True, text=True, **kw)
     if r.returncode != 0:
         raise RuntimeError(f"{cmd[0]} falhou: {(r.stderr or r.stdout)[-400:]}")
     return r
@@ -54,6 +57,12 @@ def blender_normalize(raw, out, height=1.72):
     m = re.search(r"\[post\]\s*malhas:\s*\d+\s*\|\s*tris:\s*(\d+)", r.stdout)
     if not m:
         raise RuntimeError(f"tris_raw não encontrado no log do Blender: {r.stdout[-300:]}")
+    if not os.path.isfile(out) or os.path.getsize(out) == 0:
+        detail = (r.stderr or "").strip() or (r.stdout or "").strip()
+        message = f"Blender terminou sem produzir um GLB não vazio: {out}"
+        if detail:
+            message += f"\nsaída do Blender: {detail[-1200:]}"
+        raise RuntimeError(message)
     return int(m.group(1))
 
 
@@ -70,11 +79,26 @@ def validate_contract(final_glb, tris_target, height_target=1.72, size_limit_mb=
         failures.append(f"tris={info['tris']} > {tris_target}*1.15")
     if height_target > 0 and not (1.70 <= info["height"] <= 1.74):
         failures.append(f"altura={info['height']} fora de [1.70,1.74]")
+    if height_target > 0 and abs(info["min"][1]) > 0.005:
+        failures.append(f"pés não aterrados: minY={info['min'][1]} m fora de ±0.005 m")
     size_mb = os.path.getsize(final_glb) / (1024 * 1024)
     if size_mb >= size_limit_mb:
         failures.append(f"tamanho={size_mb:.2f}MB >= {size_limit_mb}MB")
     return {"tris_final": info["tris"], "altura": info["height"],
             "tamanho_mb": round(size_mb, 2), "contract_ok": not failures, "falhas": failures}
+
+
+def require_static_input(raw_path):
+    """Reject skinned/animated GLBs before Blender can discard runtime data."""
+    info = glb_info(raw_path)
+    if not isinstance(info.get("skins"), int) or not isinstance(info.get("animations"), int):
+        raise RuntimeError("não foi possível confirmar se o GLB de entrada é estático")
+    if info["skins"] or info["animations"]:
+        raise RuntimeError(
+            "finalizador Blender aceita apenas GLB estático; "
+            f"entrada contém {info['skins']} skin(s) e {info['animations']} animação(ões)"
+        )
+    return info
 
 
 def qa_shots(aid, final_glb):
@@ -102,9 +126,12 @@ def qa_shots(aid, final_glb):
 
 def finalize_one(raw_path, final_glb, tris, height=1.72, size_limit_mb=8, texture_size=2048, qa=False):
     aid = os.path.basename(final_glb).replace(".glb", "")
-    norm = f"/tmp/opencode/fin_{aid}_norm.glb"
-    simp = f"/tmp/opencode/fin_{aid}_simp.glb"
-    rs = f"/tmp/opencode/fin_{aid}_rs.glb"
+    source = require_static_input(raw_path)
+    os.makedirs(TEMP_DIR, exist_ok=True)
+    temp_prefix = f"fin_{aid}_{os.getpid()}"
+    norm = os.path.join(TEMP_DIR, f"{temp_prefix}_norm.glb")
+    simp = os.path.join(TEMP_DIR, f"{temp_prefix}_simp.glb")
+    rs = os.path.join(TEMP_DIR, f"{temp_prefix}_rs.glb")
     log(f"[{aid}] a) Blender normaliza (sem decimar)...")
     tris_raw = blender_normalize(raw_path, norm, height)
     ratio = min(1.0, max(0.005, round(tris / tris_raw, 5)))
@@ -118,9 +145,12 @@ def finalize_one(raw_path, final_glb, tris, height=1.72, size_limit_mb=8, textur
     sh([GLTF, "optimize", rs, final_glb, "--compress", "meshopt", "--texture-compress", "webp",
         "--texture-size", str(texture_size)])
     metrics = validate_contract(final_glb, tris, height, size_limit_mb)
-    metrics.update(tris_raw=tris_raw, ratio=ratio)
+    metrics.update(tris_raw=tris_raw, ratio=ratio,
+                   source_skins=source["skins"], source_animations=source["animations"])
     log(f"[{aid}]    tris_final={metrics['tris_final']} altura={metrics['altura']} "
         f"mb={metrics['tamanho_mb']} contract_ok={metrics['contract_ok']} falhas={metrics['falhas']}")
+    if not metrics["contract_ok"]:
+        raise RuntimeError(f"contrato do GLB reprovado: {metrics['falhas']}")
     if qa:
         qa_shots(aid, final_glb)
     return metrics

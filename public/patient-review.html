@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>FarmaCheck — revisão dos pacientes</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="patient-review.css">
+</head>
+<body><main>
+  <nav><a href="./">← Abrir jogo</a></nav>
+  <h1>Revisar pacientes <small>teste de arte</small></h1>
+  <p>Os 14 pacientes têm modelo 3D e podem ser conferidos nesta página, incluindo as animações Parada e Caminhando. Ana, Marina e Seu José já estão publicados no jogo; os outros 11 modelos estão disponíveis para revisão visual antes de serem aprovados para o atendimento.</p>
+  <div class="picker">
+    <button id="previous" type="button" disabled>← Anterior</button>
+    <label for="patient">Paciente<select id="patient" disabled><option>Carregando elenco…</option></select></label>
+    <button id="next" type="button" disabled>Próximo →</button>
+  </div>
+  <section aria-labelledby="patient-name">
+    <header><h2 id="patient-name">Carregando…</h2><span id="status" class="badge"></span></header>
+    <p id="detail" role="status" aria-live="polite"></p>
+    <div id="variants" class="tools" role="group" aria-label="Referências disponíveis" hidden></div>
+    <div id="animations" class="tools" role="group" aria-label="Animação" hidden>
+      <button type="button" data-animation="Idle" aria-pressed="true">Parada</button>
+      <button type="button" data-animation="Walk" aria-pressed="false">Caminhando</button>
+    </div>
+    <div id="viewer" aria-label="Arte do paciente"></div>
+    <p id="viewer-hint"></p>
+    <a id="open-reference" target="_blank" rel="noopener" hidden>Abrir referência em tamanho original ↗</a>
+  </section>
+  <p class="count" id="count"></p>
+  <p id="error" role="alert" hidden></p>
+</main>
+<script type="importmap">{ "imports": { "three": "./vendor/three/three.module.js", "three/addons/": "./vendor/three/jsm/" } }</script>
+<script type="module" src="patient-review.js"></script></body>
+</html>

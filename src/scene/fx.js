@@ -80,24 +80,34 @@ function createDust(scene) {
   return dust;
 }
 
-export function setupFX(scene, camera, renderer) {
-  const composer = new EffectComposer(renderer);
-  composer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-  composer.setSize(window.innerWidth, window.innerHeight);
-  composer.addPass(new RenderPass(scene, camera));
-
-  const bloom = new UnrealBloomPass(new THREE.Vector2(window.innerWidth, window.innerHeight), 0.16, 0.45, 0.9);
-  bloom.threshold = 0.88;
-  composer.addPass(bloom);
-  composer.addPass(new ShaderPass(VignetteShader));
-
-  const dust = createDust(scene);
+export function setupFX(scene, camera, renderer, initialQuality) {
+  let quality = initialQuality;
+  let composer = null, bloom = null, dust = null;
+  function ensureEffects() {
+    if (composer) return;
+    composer = new EffectComposer(renderer);
+    composer.setPixelRatio(renderer.getPixelRatio());
+    composer.setSize(window.innerWidth, window.innerHeight);
+    composer.addPass(new RenderPass(scene, camera));
+    bloom = new UnrealBloomPass(new THREE.Vector2(window.innerWidth, window.innerHeight), .16, .45, .9);
+    bloom.threshold = .88;
+    composer.addPass(bloom);
+    composer.addPass(new ShaderPass(VignetteShader));
+    dust = createDust(scene);
+  }
+  function applyQuality(next) {
+    quality = next;
+    if (quality.postProcessing) ensureEffects();
+    if (composer) composer.setPixelRatio(renderer.getPixelRatio());
+    if (dust) dust.visible = quality.postProcessing && !quality.reducedMotion;
+  }
+  applyQuality(quality);
 
   // Transição suave (dip rápido) — nunca apaga a tela; só um "piscar" de câmera
   const overlay = document.createElement('div');
   overlay.style.cssText = 'position:fixed;inset:0;pointer-events:none;background:#02040a;opacity:0;transition:opacity .18s ease;z-index:5;';
   document.body.appendChild(overlay);
-  const dip = () =>
+  const dip = () => quality.reducedMotion ? Promise.resolve() :
     new Promise((res) => {
       overlay.style.opacity = '0.35';
       setTimeout(() => {
@@ -108,14 +118,19 @@ export function setupFX(scene, camera, renderer) {
 
   let bloomTarget = 0.16;
   return {
-    composer,
-    bloom,
+    get composer() { return composer; },
+    get bloom() { return bloom; },
+    applyQuality,
+    render() {
+      if (quality.postProcessing) composer.render();
+      else renderer.render(scene, camera);
+    },
     resize(w, h) {
-      composer.setSize(w, h);
+      composer?.setSize(w, h);
     },
     frame(time) {
-      dust.material.uniforms.uTime.value = time;
-      bloom.strength += (bloomTarget - bloom.strength) * 0.08;
+      if (dust?.visible) dust.material.uniforms.uTime.value = time;
+      if (bloom && quality.postProcessing && !quality.reducedMotion) bloom.strength += (bloomTarget - bloom.strength) * .08;
     },
     pulse() {
       bloomTarget = 0.34;

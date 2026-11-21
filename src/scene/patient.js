@@ -1,5 +1,11 @@
 import * as THREE from 'three';
 import { createGLTFLoader, sanitizeClips } from './glbLoader.js';
+import { createWalkFootGrounding } from './walkFootGrounding.js';
+import { calibrateSoleGround } from './soleGround.js';
+import { createAvatarDisposer } from './avatarLifecycle.js';
+import { createMouthAnimation } from './mouthAnimation.js';
+import { verticalAxisCorrection } from './characterOrientation.js';
+import { TTS } from '../audio/tts.js';
 
 export const POSE_FRASE = {
   mao_no_peito: 'aperta o peito com a mão',
@@ -8,13 +14,19 @@ export const POSE_FRASE = {
 };
 
 /**
- * Avatares GLB do elenco (Tencent/Hunyuan3D; a Ana rigged traz clips Mixamo
- * Walk/Idle — os demais são meshes estáticos que deslizam no walk).
- * As poses por bones valem só para rigs calibrados em src/data/rigParams.json
- * (nomes Eric: upperleg_l_074…; rigs Mixamo usam os clips embutidos via mixer —
- * o fix +90°X do Hips foi assado no GLB por mixamo-fix).
- * Contrato: enter/leave/setPose/setMood/update/setStyle.
- * Sem fallback procedural: falha de load/parse propaga (para corrigir o asset).
+ * Runtime dos avatares GLB do elenco. Os 14 modelos atuais têm skin e clips
+ * Walk/Idle e estão mapeados no fluxo normal do checkout local. Ana, Marina e
+ * José são os três modelos publicados; os outros 11 são candidatos locais,
+ * ainda sem aceite final nem publicação. A origem da malha varia entre os
+ * lotes; clips Mixamo ficam embutidos e Blender é usado para preparo/retarget
+ * quando necessário.
+ * Poses diretas por bones valem para rigs calibrados em rigParams.json (nomes
+ * Eric, como upperleg_l_074). O mixer controla os clips embutidos nos rigs
+ * Mixamo; o ajuste +90°X do Hips já está assado nos GLBs correspondentes.
+ * O swing procedural de pernas continua somente como compatibilidade para
+ * rigs sem clip Walk; não substitui os ciclos validados do elenco atual.
+ * Contrato: enter/leave/setPose/setMood/update/setStyle. Não há fallback de
+ * avatar procedural: falha de load/parse propaga para corrigir o asset.
  */
 import rigParams from '../data/rigParams.json' with { type: 'json' };
 
@@ -42,8 +54,9 @@ export async function loadGLBFPatient(url, scene) {
   // (só o pé gigante na câmera).
   let box = new THREE.Box3().setFromObject(inner);
   let size = box.getSize(new THREE.Vector3());
-  if (size.z > size.y * 1.5) {
-    inner.rotation.x = -Math.PI / 2;
+  const axisCorrection = verticalAxisCorrection(size);
+  if (axisCorrection) {
+    inner.rotation.x = axisCorrection;
     inner.updateMatrixWorld(true);
     box.setFromObject(inner);
     size = box.getSize(new THREE.Vector3());
@@ -78,9 +91,14 @@ export async function loadGLBFPatient(url, scene) {
   const playClip = (slot) => {
     const to = clips[slot];
     if (!to || to.isRunning()) return;
-    to.reset().play();
+    to.reset();
+    const startPhase = Number(gltf.asset?.extras?.walkStartPhase ?? 0);
+    if (slot === 'walk' && startPhase >= 0 && startPhase < 1) to.time = to.getClip().duration * startPhase;
+    to.play();
     const from = Object.values(clips).find((a) => a.isRunning() && a !== to);
-    if (from) to.crossFadeFrom(from, CROSSFADE_S, true);
+    const entryFade = Number(gltf.asset?.extras?.walkCrossfadeSeconds);
+    const fadeSeconds = slot === 'walk' && entryFade > 0 && entryFade <= 0.25 ? entryFade : CROSSFADE_S;
+    if (from) to.crossFadeFrom(from, fadeSeconds, gltf.asset?.extras?.walkCrossfadeWarp !== false);
   };
 
   // Cadência × velocidade (sem foot slide): o avanço POR LOOP do clip é gravado
@@ -97,8 +115,8 @@ export async function loadGLBFPatient(url, scene) {
     clips.walk.timeScale = WALK_V / vClip;
     console.log(`[patient] walk: cadência ×${(WALK_V / vClip).toFixed(2)} (clip ${vClip.toFixed(2)} m/s → ${WALK_V} m/s; advance ${advance} m/loop)`);
   }
-  // (v7) O corpo anda 100% PLANO (translação do Hips pinada no clip pelo
-  // pipeline) — sem bob manual: nada além de pernas/braços/mãos mexe.
+  // O root percorre o chão plano; a animação controla o Hips. Candidatas com
+  // contato assado podem ter compensação vertical da bacia, sem bob manual.
   let walkCalib = null; // (27/09: sistema morto — só a declaração fica p/ compat)
   let bobBaseY = null;  // altura base durante o walk (groundFix.alvo − stanceDelta)
 
@@ -132,6 +150,20 @@ export async function loadGLBFPatient(url, scene) {
   root.add(inner);
   root.add(rim);
   scene.add(root);
+  const mouthAnimation = createMouthAnimation(root);
+  const footContactEnabled = gltf.asset?.extras?.walkFootContact === true;
+  const footContactAuditRequested = new URLSearchParams(window.location.search).get('qaFootContact') === '1';
+  const footGrounding = mixer && clips.walk && (footContactEnabled || footContactAuditRequested)
+    ? createWalkFootGrounding(inner, root, {
+      mixer,
+      walkAction: clips.walk,
+      restoreAction: clips.idle,
+      maxSoleVertices: footContactEnabled ? 512 : Infinity,
+    })
+    : null;
+  if (footGrounding) {
+    console.log(`[patient] foot-contact audit ready: sampled soles ${footGrounding.diagnostics.leftVertices}/${footGrounding.diagnostics.rightVertices} of ${footGrounding.diagnostics.leftCandidateVertices}/${footGrounding.diagnostics.rightCandidateVertices}; IK ${footContactEnabled ? 'experimental/opt-in' : 'off'}; support phase ${JSON.stringify(footGrounding.diagnostics.supportWindows)}`);
+  }
 
   const bones = new Map();
   const animNodes = new Set();
@@ -168,11 +200,19 @@ export async function loadGLBFPatient(url, scene) {
   let poseRot = {};
   let mood = 'neutro';
   let walking = null;
+  let motionVersion = 0;
+  let disposed = false;
+  let unhookSpeak = null;
   let blinkT = 2;
   let blinkAnim = 0;
-  const speak = { active: false, t: 0, phase: 0 };
+  const speak = { active: false };
   const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const CROSSFADE_S = 0.15; // s — fade entre clips (26/09: 0,25 deixava glide no início — o corpo andava com o clip ainda engatinhando)
+  const finishWalking = () => {
+    const active = walking;
+    walking = null;
+    active?.res();
+  };
 
   const contactTex = (() => {
     const c = document.createElement('canvas'); c.width = c.height = 128;
@@ -216,22 +256,31 @@ export async function loadGLBFPatient(url, scene) {
     return null;
   };
 
-  // Calibração de solo (rigs com clips): o Box3 da normalização mede a pose de
-  // BIND da geometria, mas os clips posicionam os pés alguns cm abaixo/acima.
-  // Estratégia: medir APENAS PARADO (nunca durante o walk — pé em swing daria
-  // valor errado), o mínimo dos toe-bases numa janela de ~0,7 s de idle, e
-  // assentar suavemente. Auto-corretivo para qualquer clip futuro.
+  // Calibração de solo para rigs com clips: usar a pose parada para obter uma
+  // correção fina e não medir um pé em balanço durante a caminhada.
   const toeBones = [
     B('mixamorigLeftToeBase'), B('mixamorigRightToeBase'),
     B('LeftToeBase'), B('RightToeBase'),
   ].filter(Boolean);
-  const groundFix = mixer && toeBones.length ? { parado: 0, min: Infinity, done: false, alvo: 0 } : null;
+  // Box3 already positioned inner at the floor. If idle needs no correction,
+  // the next Walk must retain that height rather than use an unset zero target.
+  const groundFix = mixer && toeBones.length ? { parado: 0, min: Infinity, done: false, alvo: inner.position.y } : null;
   const _gv = new THREE.Vector3();
   const lowestToeY = () => {
     let minY = Infinity;
     for (const b of toeBones) { b.getWorldPosition(_gv); minY = Math.min(minY, _gv.y); }
     return minY;
   };
+  const disposeResources = createAvatarDisposer({
+    root,
+    model: inner,
+    mixer,
+    beforeDispose: () => {
+      unhookSpeak?.();
+      unhookSpeak = null;
+      mouthAnimation.dispose();
+    },
+  });
 
   // Referência de solo (PO 26/09: "o chão de quando ela PARA vale para o
   // andar"): no load (avatar invisível) mede o dedo na pose de APOIO do Walk
@@ -270,6 +319,22 @@ export async function loadGLBFPatient(url, scene) {
     console.log(`[patient] referência de solo: apoio do walk ${stanceDelta >= 0 ? '+' : ''}${stanceDelta.toFixed(3)} m vs idle → walk nasce alinhado ao chão`);
   }
 
+  // Referência de solo REAL: a sola (vértices do pé) medida no ciclo inteiro.
+  // O osso do dedal fica alguns milímetros ACIMA da sola, então usá-lo como
+  // referência enterrava o tênis no piso — e o clip de caminhada tem mínimo
+  // mais baixo que o idle. Esta é a mesma calibração do preview approved.
+  const soleCalibration = calibrateSoleGround({ model: inner, mixer, clips, clearance: 0.005 });
+  if (soleCalibration?.ok) {
+    inner.position.y += soleCalibration.correction;
+    inner.updateMatrixWorld(true);
+    // A calibração de carga é a autoridade: o ajuste runtime pelo osso do
+    // dedal mediria um referencial diferente e desfaria esta correção.
+    if (groundFix) { groundFix.alvo = inner.position.y; groundFix.done = true; groundFix.aplicando = false; }
+    console.log(`[patient] solo: mínimo do ciclo ${soleCalibration.minY.toFixed(3)} m → ajuste ${soleCalibration.correction.toFixed(3)} m (folga ${(soleCalibration.clearance * 1000).toFixed(0)} mm, ${soleCalibration.soleVertices} vértices, oscilação ${soleCalibration.spread.toFixed(3)} m)`);
+  } else {
+    console.warn(`[patient] solo: calibração indisponível (${soleCalibration?.reason || 'motivo desconhecido'}) — o ground-fix por osso assume`);
+  }
+
   const api = {
     get root() { return root; },
     setMood(m) { mood = m || 'neutro'; computeTargets(); },
@@ -290,8 +355,23 @@ export async function loadGLBFPatient(url, scene) {
         if (col != null && m.color) m.color.set(col);
       }
     },
-    speakStart() { speak.active = true; speak.t = 0; },
-    speakEnd() { speak.active = false; },
+    speakStart(line = '', progress = null, duration = null) {
+      speak.active = true;
+      mouthAnimation.start(line);
+      if (Number.isFinite(progress)) mouthAnimation.setProgress(progress, duration);
+    },
+    speakProgress(progress, duration = null) { mouthAnimation.setProgress(progress, duration); },
+    speakEnd() {
+      speak.active = false;
+      mouthAnimation.stop();
+    },
+    getSpeechMouthDiagnostics() {
+      return {
+        ...mouthAnimation.diagnostics,
+        speakHookRegistered: Boolean(unhookSpeak),
+        speakHookCount: TTS._speakHooks?.size ?? null,
+      };
+    },
     async enter(aparencia) {
       this.setStyle(aparencia || {});
       this.setPose('idle');
@@ -301,20 +381,39 @@ export async function loadGLBFPatient(url, scene) {
       return this.walk(new THREE.Vector3(2.6, 0, -4.6), new THREE.Vector3(0, 0, 0.55), 2.2, true);
     },
     async leave() {
-      await this.walk(new THREE.Vector3(0, 0, 0.55), new THREE.Vector3(2.6, 0, -4.6), 1.8, false);
+      const leaveMotion = this.walk(new THREE.Vector3(0, 0, 0.55), new THREE.Vector3(2.6, 0, -4.6), 1.8, false);
+      const leaveVersion = motionVersion;
+      await leaveMotion;
+      if (motionVersion === leaveVersion) root.visible = false;
+    },
+    cancelMotion({ hide = false } = {}) {
+      motionVersion++;
+      const canceled = Boolean(walking);
+      finishWalking();
+      if (hide) root.visible = false;
+      return canceled;
+    },
+    dispose() {
+      if (disposed) return false;
+      disposed = true;
+      motionVersion++;
       root.visible = false;
+      finishWalking();
+      return disposeResources();
     },
     walk(from, to, dur, faceEnd = false) {
       return new Promise((res) => {
+        motionVersion++;
+        finishWalking();
         const yaw = Math.atan2(to.x - from.x, to.z - from.z) || 0;
         root.rotation.set(0, yaw, 0);
+        footGrounding?.reset();
         // com clip de walk: duração pela distância na velocidade da cadência
         if (mixer && clips.walk) dur = Math.min(12, Math.max(1.2, from.distanceTo(to) / WALK_V));
         walking = { from, to, dur, t: 0, res, yaw, faceEnd };
         if (mixer) {
-          // 27/09: SEM stanceDelta — o PO reportou pé afundando. A medição
-          // era fantasgada (instrumentação). groundFix.alvo basta: o walk
-          // clip tem o Hips pinado no MESMO valor do idle.
+          // A base do modelo fica fixa; o apoio é responsabilidade do clip.
+          // Não reaplicar stanceDelta nem apagar Hips Y de contato assado.
           bobBaseY = groundFix && groundFix.done ? groundFix.alvo : inner.position.y;
           // se a base mudou (ex.: ground-fix completou entre um walk e outro),
           // recalibra o drop do walk na próxima caminhada
@@ -328,15 +427,16 @@ export async function loadGLBFPatient(url, scene) {
     // Pose do rig + swing de pernas no walk. Roda durante walking e em idle
     // (antes o early-return congelava a pose → deslizo/pose torta na chegada).
     applyBones(dt, t) {
+      // A animação facial fica desativada enquanto o modelo não tiver rig facial.
+      mouthAnimation.update(dt);
       const walkingNow = !!walking;
       const k = Math.min(1, dt * 3.2);
       if (mixer) {
         // Mixer cuida de Idle/Walk (clip in-place). Só sobrepõe o swing quando o
-        // rig não tem clip de walk e o "falar" (cabeça) durante a fala no chat.
+        // rig não tem clip de walk.
         // swing procedural de pernas só p/ rigs SEM clip de walk (com clip,
         // sobrescreveria a animação do mixer — juiz #6)
         if (walkingNow && !reduceMotion && !clips.walk) this.applyLegSwing(walking.t);
-        if (speak.active && !reduceMotion) this.applySpeak(t);
         return;
       }
       for (const [name] of bones) {
@@ -366,27 +466,6 @@ export async function loadGLBFPatient(url, scene) {
         if (bl) bl.rotation.z += amp;
         if (brr) brr.rotation.z -= amp;
       }
-      if (speak.active) {
-        speak.t += dt;
-        const nod = Math.sin(speak.t * 6.4) * 0.045;
-        const sway = Math.sin(speak.t * 0.7) * 0.04;
-        if (hd) { hd.rotation.x += nod; hd.rotation.y += sway; }
-      }
-    },
-    // Fala: micro-nod de cabeça/pescoço sincronizado com o TTS. O asset ainda
-    // não tem morph targets de boca (boca articulada = blendshape no pipeline
-    // futuro); o nod por cima do clip é a aproximação atual.
-    applySpeak(t) {
-      // GLTFLoader sanitiza nodes ("mixamorig:Head" → "mixamorigHead" — o ':' é
-      // REMOVIDO, não trocado). Cobre as grafias + rigs Eric legados.
-      const hd = B('mixamorigHead') || B('mixamorig_Head') || B('mixamorig:Head') || B('head_07') || B('head');
-      const nk = B('mixamorigNeck') || B('mixamorig_Neck') || B('mixamorig:Neck') || B('neck_06');
-      const nod = Math.sin(t * 7.3) * 0.035 + Math.sin(t * 13.1) * 0.012;
-      if (hd) {
-        hd.rotation.x += nod;
-        hd.rotation.y += Math.sin(t * 1.9) * 0.02;
-      }
-      if (nk) nk.rotation.x += nod * 0.6;
     },
     applyLegSwing(wt) {
       const step = Math.sin(wt * 7);
@@ -424,15 +503,14 @@ export async function loadGLBFPatient(url, scene) {
           if (Number.isFinite(m)) groundFix.min = Math.min(groundFix.min, m);
           if (groundFix.parado >= 0.7) {
             const m = groundFix.min;
-            // 29/09: neste rig retargetado os TOE BONES vivem na convenção do
-            // esqueleto (y=-2,9 m!), não na da malha — confiar nele enterra a
-            // modelo (PO: "pernas enfiadas no chão") ou a faz voar pro teto.
-            // A malha JÁ nasce assentada (Box3 do load). Sane: só ajuste fino.
+            // Neste rig, a malha já nasce assentada pelo Box3; o ajuste pelo
+            // osso fica limitado a correções pequenas de altura.
             if (Number.isFinite(m) && Math.abs(m) > 0.002 && Math.abs(m) <= 0.15) {
-              groundFix.alvo = inner.position.y - m; // ajuste fino (< 15 cm)
+              groundFix.alvo = inner.position.y - m;
               groundFix.aplicando = true;
               console.log(`[patient] ground-fix: idle toes minY=${m.toFixed(3)} m → ajuste ${(-m).toFixed(3)} m`);
             } else {
+              groundFix.alvo = inner.position.y;
               console.log(`[patient] ground-fix: SKIP (toes minY=${Number.isFinite(m) ? m.toFixed(3) : 'n/a'} — fora da faixa ±0,15 m; malha já assentada pelo Box3)`);
             }
             groundFix.done = true;
@@ -490,15 +568,28 @@ export async function loadGLBFPatient(url, scene) {
         root.rotation.y += (0 - root.rotation.y) * Math.min(1, dt * 4);
       }
       this.applyBones(dt, t);
+      if (walking && footGrounding) {
+        const walkClip = clips.walk.getClip();
+        const phase = walkClip.duration > 0 ? clips.walk.time / walkClip.duration : 0;
+        if (footContactEnabled) footGrounding.apply(phase);
+        else footGrounding.measure(phase);
+      }
     },
-    get _speakHook() { return (on) => (on ? api.speakStart() : api.speakEnd()); },
+    getWalkFootGroundingDiagnostics() { return footGrounding?.diagnostics ?? null; },
+    get _speakHook() {
+      return (on, line, progress, duration) => {
+        if (!on) return api.speakEnd();
+        if (!speak.active) api.speakStart(line, progress, duration);
+        else if (Number.isFinite(progress)) api.speakProgress(progress, duration);
+      };
+    },
   };
 
   try {
-    import('../audio/tts.js').then(({ TTS }) => {
-      if (TTS && typeof TTS.hookSpeak === 'function') TTS.hookSpeak(api._speakHook);
-    }).catch((e) => console.error('[patient] TTS hook', e));
-  } catch (e) { console.error('[patient] TTS hook', e); }
+    if (!disposed && typeof TTS.hookSpeak === 'function') unhookSpeak = TTS.hookSpeak(api._speakHook);
+  } catch (e) {
+    console.error('[patient] TTS hook', e);
+  }
 
   rim.position.set(0.6, 2.2, -1.2);
   root.visible = false;

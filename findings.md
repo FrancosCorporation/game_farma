@@ -1,3 +1,15 @@
+## Estado atual — Ana044 publicada / retomada pelo resumo.md (12/10/2026)
+
+- PO aprovou a caminhada043 e autorizou corrigir cabeça e publicar. Cabeça044 corrige fallback Hips/Spine2 com transição Neck/Head; todos os canais/tempos de animação preservados. Rest/rig/bind/materiais/mesh preservados; cabeça rígida em Walk/Idle.
+- Asset ativo `public/models/ana_clasica.glb` e preview padrão =044, cachev44 em app.js. SHA local/HTTPS `45ac4e2da7206e7c481830dd1c4c5913b2b490bc875b4bc78c1fa73be74419d2`.
+- Imagem persistente final `game_farma:latest` / `game_farma:ana044-groundfix-20261012`, ID409ae64d6960, containergame_farma healthy/restartunless-stopped, stack base_fundation/game_farma, networkbase_fundation_app_network, PORT4174/HOST0.0.0.0. Backupv38 em imagem/container e ana_work/head_20261012/deploy_before.
+- A primeira QA online encontrou groundFix.alvo0 no ramo SKIP, que afundava nova caminhada. patient.js agora preserva inner.position.y. Rebuild/republicação feitos; QA runtime online final PASS, incluindo SKIP sem afundamento. Boot desktop e celular PASS; etapa concluída. Evidências head044; logs originais reprovados preservados, não confundir com versão final.
+- **Fonte de retomada atual: resumo.md, recriado e completo.** Histórico integral anterior em validated_20261012/head044/resumo_pre044.md e HANDOFF_pre044.md. Skill criacao-modelo-3d atualizada com cabeça e ground-fix; quick_validate PASS.
+- Próximo plano do PO após reinício: melhorar todos os demais objetos/ambientes. Inventariar scene.js/pharmacy.js, priorizar grandes elementos do POV, estilo consistente, candidatos por pequenos lotes e validação no jogo/celular. Nenhuma execução desse plano iniciada. Preservar caminhada aprovada.
+- Worktree sujo, sem commit; não resetar/limpar. Trabalhadores gratuitos NVIDIA autorizados para tarefas mecânicas; contexto completo de entrada, retorno mínimo, sem provider pago.
+
+## Histórico anterior
+
 # findings.md — descobertas, armadilhas e receitas (handoff)
 
 ## Armadilhas confirmadas na sessão 21/09/2026 (com medição)
@@ -351,3 +363,110 @@ Se travar de verdade:
 - **Câmera × VLM**: passada NA DIREÇÃO da câmera projeta em linha ("pés juntos" pro juiz);
   capturar no MÁXIMO de separação de dedos (~0,75 m) e, se precisar de ângulo, `avatar.walk()`
   em travessia lateral — posicionar a câmera na mão não cola, o jogo re-tweena no ANAMNESE.
+
+## Retomada — serviço e preview da Ana (11/10/2026)
+- Se o host reiniciar, verificar docker inspect de game_farma e restart policy antes de rebuild: o container estava parado por restart=no, não por falha de build. Reiniciar a imagem existente restaurou HTTP 200 sem deploy.
+- O preview DNS é um canal separado: SHA b81e07f… do GLB público, com ana_clasica/v=38 ainda ativa no jogo. Não confundir publicação do preview com promoção ao runtime.
+- rightArmMotion025 reduz a dobra dinâmica mas deixa resíduo no close-up. Gate estrutural e captura corpo inteiro não bastam para aprovar estética; verificar Walk/Idle/Rest, ambos lados e múltiplos ângulos antes de publicar.
+
+## Contato dos pés no runtime — 11/10/2026
+- Para localizar flutuação, meça todos os vértices da sola skinada dos dois pés por fase no runtime. O GLB b81e07f passa gate estrutural e QA do ground-fix do preview, mas o QA real mediu folga de até 83,2 mm; ambos os pés ficam acima de 25 mm em 53,7% das amostras e a deriva horizontal chega a 26,5 cm.
+- O bone ToeBase do preview b81e07f já está a +3 mm em Idle (ground-fix de −3 mm), então não atribua o caso ao plano do chão. O defeito está no clip Walk/avanço/pose do rig. O ground-fix pela sola de Idle foi testado e revertido porque elevou o Walk em ~13 mm.
+- O IK dinâmico opt-in ainda reprova: folga de 68,1 mm, deriva de 17,8–23,4 cm, projeção horizontal de 20,8 cm e perna solicitada 6,7 cm além do alcance. Não o ligue por padrão nem publique; corrigir/substituir o clip com rig/identidade compatíveis e repetir contato, penetração e drift juntos.
+- A coleta por frame só deve ocorrer em QA (`?qaFootContact=1`) ou candidato experimental explícito (`asset.extras.walkFootContact=true`); a trilha normal do jogo não deve varrer vértices da sola a cada frame.
+
+## Ana — 12/10/2026
+
+Candidata 038 corrigida e tecnicamente validada. Resumo, relatórios e skills: `.planning/2026-10-10-walk-animation-web-pipeline/HANDOFF.md`. Avatar ativo ainda aguarda revisão visual para promoção.
+
+## 12/10/2026 — complemento da perna esquerda / candidata 039
+
+Corrigidas influência da coxa oposta e descontinuidade dos pesos do joelho esquerdo; 27 saltos >15% em arestas <1 cm eliminados (máximo 51,2% → 11,4%). Ruído geométrico local reparado com Taubin limitado a 4 mm, normais recalculadas; perna direita/rig/bind/clips/UVs/materiais preservados. 48 novas capturas + gate/topologia/viewer/runtime/verify PASS. Preview separado candidata039, SHA 6e7cda16270656108df307875d0314126b7c59675436c5cdd2fe8ca4a0b2661a; avatar ativo preservado. Skill J e referência atualizadas com a falha no recorte dos pesos LowerLeg. Skill global nvidia-free-workers criada/validada e usada por trabalhador NVIDIA real; entrada sem teto de palavras e retorno mínimo até cinco linhas. Ver HANDOFF.md e validated_20261012/pants_left/.
+
+### Diagnóstico final do renderizador publicado
+
+Linhas concêntricas eram principalmente shadow acne no char-preview.html: far=500, bias/normalBias=0. A/B com mesmo GLB/pose/material comprovou; calibrar near=.5/far=20/bias=-.0001/normalBias=.005 elimina padrões preservando sombras. Renderer diagnóstico sem sombras não expunha o defeito. Viewer QA e Skill J atualizados com essa distinção; reparos de coxa/joelho permanecem independentes.
+
+
+## Checkpoint atual — 12/10/2026, candidata 040 e skill renomeada
+
+Caminhada corrigida preservando a malha/bind da 039. Zero inversões de joelho em 241 poses serializadas e no runtime; pelve mais alta/estável, largura 130 mm e contato com deriva máx. 24,4 mm. 48 capturas/quatro vistas, gate, viewer local/HTTPS e verify PASS. Preview: https://francoscorporation.ddns.net/game/ufggame/char-preview.html?m=ana_walk_preview_candidate040&anim=Walk&play=1&cam=full&v=gait20261012 . Avatar ativo intacto; promoção aguarda revisão visual do PO. A 039 foi rejeitada por cinemática; os PASS anteriores não detectavam joelho invertido. Skill agora `criacao-modelo-3d`, instalada globalmente, entrada objetiva de 56 linhas + referências técnicas preservadas e nova referência de caminhada. Fonte de retomada: HANDOFF da planning; evidências validated_20261012/gait/.
+
+
+
+## Estado atual — 12/10/2026, candidata 041
+
+- PO rejeitou 040 por parecer marcha; não promover. Nova 041 usa arco contínuo mais baixo: lift 35 mm em vez de 65, sem patamar no alto; progressão horizontal quintic. Malha/rig/bind/pesos, Idle, upper arms, largura e cadência preservados.
+- Preview: https://francoscorporation.ddns.net/game/ufggame/char-preview.html?m=ana_walk_preview_candidate041&anim=Walk&play=1&cam=full&v=walkarc20261012
+- Fonte `ana_work/walk_natural_20261012/walk1.glb`; cópias local/Docker `ana_walk_preview_candidate041.glb`. SHA local/HTTPS `6687dd041ab507672228968224e283b41dc70716c935f9bb32bb8b2eddaf0a67`.
+- 241 poses: zero joelhos invertidos; flexão L/R 37,0°/38,3°. Runtime 91 solas: deriva 12,4/25,2 mm, gap 2,2 mm, penetração 4,2 mm, ambos elevados 0%; entrada/destino e Idle PASS. 48 frames/quatro vistas, gate, viewer local/HTTPS e verify PASS.
+- Config: advance0,8; stance0,6; halfWidth0,065; lift0,035; reserve0,002; clearance0,005; startPhase0,15; crossfade0,04; ForeArm18°; gaitProfile=walk_arc. Tempo no alto (~90% do pico) caiu de ~53% para30% do swing. Cadência/velocidade seguem a 040.
+- Ativo e preview padrão intactos; aprovação estética do PO ainda pendente. Não afirmar caminhada aprovada só pelos gates técnicos. Skill criacao-modelo-3d registra esta falha de avaliação e o perfil temporal.
+- Evidências `validated_20261012/walk_natural041/`; scratch `ana_work/walk_natural_20261012/`. Preview diagnóstico agora evita render de frames intermediários nos loops de medição; isso resolve timeouts, sem alterar os dados.
+
+
+
+## Estado atual — 12/10/2026, candidata 042
+
+- PO rejeitou 040 por marcha e 041 por passada curta. A 042 aumenta comprimento e retima o ciclo inteiro, mantendo arco baixo e joelhos corretos. Revisão estética do PO ainda pendente; não promover automaticamente.
+- Preview: https://francoscorporation.ddns.net/game/ufggame/char-preview.html?m=ana_walk_preview_candidate042&anim=Walk&play=1&cam=full&v=stride20261012
+- Fonte: `ana_work/walk_stride_20261012/walk1.glb`; cópias `public/models/ana_walk_preview_candidate042.glb` e `game_farma:/app/dist/models/ana_walk_preview_candidate042.glb`.
+- SHA local/HTTPS: `50653728f75bd4502558a0958f1b0120e1f2e9118390633eb21aa3bc9e1134f5`.
+- Avanço 0,8→1,1 m/ciclo; passo nominal 0,40→0,55 m. Amplitude longitudinal relativa de tornozelos 0,371→0,509 m (+37%). Duração 1,0667→1,2 s, cadência112,5→100 passos/min e velocidade~0,917 m/s. Lift35mm, apoio55%, largura130mm, fase0,11, crossfade40ms, ForeArm18°, IK runtime off.
+- 241 poses serializadas: inversões0/0, flexão máxima36,9°/38,1°. Pelve0,896–0,938m; maior excursão necessária à passada maior, sem colapso de joelho. Runtime75solas: deriva16,3/15,5mm, gap2,2mm, penetração4,2mm, ambos elevados0%. Entrada/destino5,769m e Idle PASS.
+- 48 frames/quatro vistas, gate, viewer local/HTTPS e verify PASS. Ativo/preview padrão continuam intactos. Evidências compactas em `validated_20261012/stride042/`; logs/frames/audits completos em `ana_work/walk_stride_20261012/`.
+
+
+## Retomada integral —12/10/2026
+
+- Produção running/healthy409ae64d6960; SHA público/local Ana044 coincidem. Não houve deploy novo nesta rodada.
+- CASES tem14personas;13novas personagens além daAna. PHASES vem de core/progression.js, não cases.js. Primeira importação incorreta foi corrigida sem alterar fonte.
+- PC/mesa GLB existem mas não são ativos; três famílias de props são carregadas. Cinco gôndolas, duas atendentes desativadas, cadeira não construída.
+- Capturas da produção: desktop e celular chegam a ANAMNESE,3POVs por aparelho,8imagens incluindo menus, zero pageerrors. Layoutmobile cobre cena com chat/blur e sobrepõe controles: prioridadeP0.
+- Fallback da gôndola não tem grupo procedural adicionado e o g do callback sombreia o externo; não supor fallback completo a partir do comentário. decorG do balcão é independente e permanece.
+- NVIDIA Nemotron produziu rascunho com erros e escreveu inventory.md na raiz; movido e corrigido por evidências. Não aceitar completed nem contagem declarada como validação. Cwd aninhado não impediu project root voltar à raiz: usar scratch externo no próximo despacho.
+- Plano integral e fichas de elenco são documentos; nenhuma geração, edição de runtime ou nova aprovação estética nesta rodada.
+
+## Primeiro lote aplicado/publicado —12/10/2026
+
+Usuário autorizou aplicar o plano usando trabalhadoresNVIDIA. Entrega: mobile retrato/paisagem com conversa recolhível, cena reenquadrada e controles/painéis separados; cache de fontes/geometry/material/rótulos de props; fallback completo de gôndolas; balcão novoBlenderCPU/meshopt ativo comdimensões preservadas; CRM porcaso/idioma; timeoutintegral doLLM eDONE.
+
+Imagem finalgame_farma:integral001-20261012 /ea49ad1f417f, healthy, compose--no-build somentegame_farma. Rollback principalbefore-integral001(409ae64d6960). Ana044/v44 e código de animação preservados; SHA público/local45ac4e2d…igual. Semcommit, reset/clean ou remoção de experimentos.
+
+QA final: verify PASS, fluxo18/18PASS, mobile19/19 local/online, props/fallback/encaixe2/2 local/online, streaming3cenáriosHTTP PASS, bootdesktop/celularonlinePASS. Logs intermediários sob carga degeração falharam em timing e estão preservados para diagnóstico; não são a validação final. Critérios de sola/contato não alterados. Sem benchmark deaparelho real nem revisão clínica.
+
+Três processosOpenCode/NVIDIA: dois rascunhosNemotron rejeitados; GLM5.3flash entregou correção de stream, revisada/integrada/testada. Rascunhos/eventos/revisão em implementation/nvidia-*. Nenhum worker externo segue emexecução.
+
+ReferênciasC1:2Marinas e1José geradas viaQwenlocal e congeladas em public/refs/candidates. Primeira tentativaJosé parou em carga/cache; refeito comcache-none/disable-async-offload e concluiu11m39. ComfyUI da sessão encerrado, llama-cpp religado. Galeria pública/art-review.html pronta. Semmalha/rig novo: skillqwen-tencent-3d exige “Escolha do PO”; perguntas enviadas paraMarina1/2 eJosé. Não houve geração3DTencent nesta rodada; não presumir resposta/aprovação pelo tempo decorrido.
+
+Próximo: escolhaC1→malha/inspeção/rig/WalkIdle/QA; continuarO2–O8 eC2–C5. Aplicação do plano continua autorizada; não perguntar novamente se pode continuar emgeral. Clínica dos14casos seguependente. Resumo seção10/ROADMAP/plano integral/fichas atualizados.
+
+## 12/10/2026 — revisão visual dos pacientes solicitada pelo usuário
+
+Balcão aprovado pelo usuário. Elenco: Ana044 é a única malha ativa para todos os casos; Marina2referências e José1referência são imagens2D, sem malhas/rigs. Novo cadastro de revisão cobre14pacientes e indica os11restantes ainda planejados. Botão na capa/menu abre revisão em outra aba.
+
+Primeiro teste local com iframe passou, mas o teste público detectou X-Frame-Options:DENY do proxy. Não alterar a política global: revisão corrigida para WebGL direto. Viewer deriva do preview aprovado com normalização, sanitização de clips e correção de piso preservadas; acrescenta dimensionamento pelo painel e cleanup de frame/timer/controles/geometria/material/textura/skeleton/contexto na troca. char-preview.html e modelos aprovados preservados.
+
+NVIDIA/GLM5.3flash externo para métricas de5props em scratch: timeout2m/exit143, sem artefato. Extração local em implementation/prop-metrics-review.json confirma os valores iniciais; não representa FPS/draw calls reais. PC/mesaGLB não são os procedurais ativos.
+
+Verify PASS. Revisão direta final local: desktop1280×800, retrato390×844, paisagem844×390; Ana real, Walk e groundfixPASS, Marina1/2/José, anterior/próximo/select,14casos, pendentes sem avatar falso, toque/entrada e falha do registroPASS. Publicação final em andamento; registrar imagem/QAonline quando concluídos.
+
+Atualização de conclusão: QAfinal-online e boot desktop/celular online PASS. Imagem763094ed7823 publicada/healthy; a implementação anterior comiframe é histórica. Evidências finais em implementation/patient-review-final-online e patient-review-boot-online.log.
+
+12/10 nova versão:5props estilizados gerados BlenderCPU/atlas1024/meshopt, gôndola4134tris/2mats/36produtos, vitrine2396/3mats, mesa1318/2, PC2736/1, CPU480/1. Carga/fallback2/2PASS. Revisão identificou tela rente(front-.029), corrigida para-.0275; shadowacne ajustada near/far/bias; marco/parede de entrada separados, exterior afastado, headeratlas com aspectcorreto. Qualidadeauto/leve/equilibrada/alta implementada comcomposerlazy; narração/SFX persistentes; faseCuidadoIntegral cobre casosfaltantes e desbloqueio off-by-one corrigido/testado. Marina e José fontesTencent500k baixadas(40MB); Marina15kprovisóriasv001/v002 reprovadasporseamsapósdecimação, fonte500ksuave. v00350k emteste, não promovermalhabad porcumprirbudget. MixamoAdobe desconectado, tela de login pronta eperguntaasyncenviada; não acessarcredenciais. GPU local estáocupada(~11.26GB/12.87GB), nova geraçãoQwen não iniciada.
+
+## Acesso às sessões — instrução do usuário
+Reutilizar perfis dedicados já registrados e usar o botão normal “Continue with Google” com a conta existente quando necessário. Não pedir login antes de verificar essas sessões. Senha, OTP e consentimento novo permanecem com o usuário; não ler/copiar cookies ou segredos. Chrome CDP9222, perfil dedicado ana_meshy_profile: Mixamo autenticado confirmado pela UI em12/10. Marina FBX enviada; montagem de marcadores em execução.
+### Retomada — Expediente Livre (13/10/2026)
+
+- `npm run qa:free-shift` foi simplificado para apenas o caminho E2E de menor risco; os cenários de URL ausente, HTTP não-OK e timeout ficaram no contrato unitário `scripts/test_case_service.mjs`.
+- A execução do caminho remoto chegou a `DEBRIEFING`; os asserts anteriores confirmaram que a fase fixa não chamou o endpoint, o payload foi `{}`, o ID com sufixo voltou ao ID local canônico, a seed foi preservada e os dados/regras clínicas vieram do catálogo local.
+- O harness foi interrompido manualmente antes de encerrar a suíte porque o Chromium headless ainda consumia CPU elevada e havia outro render no host que não pertence a esta QA. Portanto, não registrar `qa:free-shift` como comando PASS; o atendimento remoto foi observado até o debriefing e o fechamento automático do teste continua pendente.
+- O teste de contrato cobre explicitamente URL vazia sem rede, erro HTTP e timeout; ainda não há E2E completo do Expediente Livre sem serviço.
+- `npm run qa:dsf-security` passou novamente. `npm run verify` passou: sintaxe, lógica, storage, case-service, TTS, STT e build; Vite emitiu somente avisos conhecidos de módulos importados estática e dinamicamente.
+- A API do host não oferece `nvidia-smi`; não há listener em `8188` (ComfyUI) nem `9222` (CDP). A inspeção de processos mostrou vários `comfy-mcp` e um `llama-server` com offload de GPU; todos foram preservados. Não foi possível confirmar VRAM livre nem perfil/cota Tencent, portanto nenhuma geração/submissão foi feita.
+- Novo teste sem navegador em `scripts/test_case_service.mjs` exercita `Game.nextPatient()` com a fase `livre`, configuração ausente e `fetch` que falha se chamado. Resultado: escolhe o caso do catálogo local e não tenta rede. `npm run test:case-service` passou. O E2E completo sem serviço ainda não foi executado.
+- A consulta somente-leitura `mcp__comfyui__server_info` confirma ComfyUI parado, `hardware.gpu=null`, sem target remoto; também sinaliza core local desatualizado. Pela orientação do servidor, esse `null` é desconhecido, não ausência de GPU, e geração local não deve ser iniciada sem esclarecer capacidade/atualização. Nenhum serviço foi iniciado ou atualizado.
+- Revisão visual CPU dos arquivos disponíveis: as capturas `qa008/ntr_*` mostram Ana ou composição de jogo, não são evidência de aceite da Clara. Os renders de Paulo mostram olhar elevado em comparação à referência frontal; fonte/candidatos permanecem intactos, sem rig. A face do Nelson no close-up disponível não confirma objetivamente o antigo diagnóstico de olhar elevado; o LOD é estático, com 30.000 triângulos, 22.705 vértices e topologia aberta/desconectada que requer inspeção visual antes do rig. O agente de auditoria não alterou arquivos; tarefas de reparo permanecem candidatas isoladas.
+- O gate offline foi executado novamente diretamente sobre `public/models/candidates/clara_cefaleia_walk_v001.glb`: PASS, 57 joints, 30.000 triângulos, Walk 1,3 s/22 rotações vivas/241 chaves de Hips, Idle 8,3667 s/16 rotações vivas/504 chaves; metadados `walkSpeed=0,5` e `walkAdvance=0,65`. O campo `staticBoundsHeightY=0,003624` é limite de accessor offline, não altura runtime; não usar como escala. Gates/runtime anteriores continuam favoráveis, mas não substituem revisão visual nem integração.
+- Foi criado `scripts/test_fact_gate_scoring.mjs`, ligado ao `npm run verify`, com cobertura local determinística para classificação PT/EN, KnowledgeState e score/penalidades/reprovação/estrelas; sem mudar código ou conteúdo clínico. FC-021 passa a Parcial, não concluído.

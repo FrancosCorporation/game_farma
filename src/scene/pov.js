@@ -5,6 +5,7 @@ import * as THREE from 'three';
 
 const easeInOut = (p) => p * p * (3 - 2 * p);
 const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+const compactViewport = matchMedia('(max-width: 600px)');
 
 // Zonas alinhadas à cena procedural (pharmacy.js):
 // · paciente   — frente do balcão, olhando o cliente (z ~0.6)
@@ -12,6 +13,9 @@ const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
 //  · mesa       — bandeja do kit TLAC na mesa lateral, à direita (x 2.45)
 export const ZONAS = {
   paciente: { pos: new THREE.Vector3(0, 1.62, 2.7), yaw: 0, pitch: -0.089 },
+  coleta: { pos: new THREE.Vector3(0.42, 2.02, 2.48), yaw: 0.08, pitch: -0.62 },
+  // Em retrato estreito, o monitor ficava cortado na borda esquerda; alinhar
+  // o yaw com a tela mantém o mesmo ponto de interação inteiramente enquadrado.
   computador: { pos: new THREE.Vector3(-0.78, 1.56, 2.48), yaw: 0.62, pitch: -0.33 },
   // mesa em x3.1 (desde 25/09 noite — saiu de cima do balcão): câmera
   // reposicionada p/ enquadrar a bandeja do kit TLAC no novo lugar
@@ -30,21 +34,24 @@ const DUR_TWEEN = 0.9;
   // Colisões (PO 25/09: "os obstáculos voltam a bloquear — balcão, prateleiras,
   // modelos"). AABBs calibrados pela GEOMETRIA RENDERIZADA (bounds medidos no
   // browser, tmp_bounds.tmp.mjs) + margem ~0,25 m do corpo:
-  // · balcão central (GLB 4,8 m): visível x −2,4..2,4 / z 1,08..2,02
+  // · balcão central (GLB 4,8 m): visível x −2,4..2,4 / z 1,08..2,02;
   //   — PO 25/09 noite: AABB antigo ia até x ±3,6 → ~1 m de "parede invisível"
   //   em cada lado (espaço em branco intransponível sem balcão).
-  // · mesa lateral TLAC (tampo 0,95×0,7 rot −0,35 rad): visível x 1,88..3,02 /
-  //   z 0,96..1,94 — antes sem AABB próprio (era engolida pelo balcão gigante).
-  // · gôndolas 2,4×0,5 m (fundo e paredes) e vitrine — inalteradas.
+  // · mesa lateral TLAC (tampo 0,95×0,7 em (3,1; 1,45), rot −0,35 rad):
+  //   visível x≈2,53..3,67 / z≈0,96..1,94; AABB medido + ~0,25 m.
+  // · CPU no piso, fora do balcão; gôndolas 2,4×0,5 m e vitrine.
   const OBSTACULOS = [
-    { x0: -2.65, x1: 2.65, z0: 0.85, z1: 2.27 },      // balcão central (medido + 0,25)
-    { x0: 2.28, x1: 3.92, z0: 0.71, z1: 2.19 },      // mesa lateral TLAC (x3.1 desde 25/09 noite; medido + 0,25)
+    { x0: -2.65, x1: 2.65, z0: 0.82, z1: 2.28 },      // balcão central (medido + 0,25)
+    { x0: 2.28, x1: 3.92, z0: 0.70, z1: 2.20 },      // mesa lateral TLAC (x3.1 desde 25/09 noite; medido + 0,25)
+    { x0: -1.93, x1: -1.16, z0: 1.77, z1: 2.76 },    // CPU v002 fora do balcão: bounds + 0,25 m
     { x0: -4.65, x1: -1.75, z0: -5.15, z1: -4.05 }, // gôndola fundo esq
     { x0: -1.25, x1: 1.65, z0: -5.95, z1: -4.85 },  // gôndola fundo centro
-    { x0: -8.3, x1: -7.3, z0: -3.65, z1: -0.75 },   // gôndola parede esq 1
-    { x0: -8.3, x1: -7.3, z0: -5.85, z1: -2.95 },   // gôndola parede esq 2
-    { x0: 7.1, x1: 8.1, z0: -4.85, z1: -1.95 },     // gôndola parede dir
-    { x0: 7.7, x1: 8.7, z0: -2.0, z1: -1.0 },       // vitrine parede dir
+    { x0: -8.3, x1: -7.29, z0: -3.65, z1: -0.34 },  // gôndola parede esq 1: bounds + 0,25 m
+    { x0: -8.3, x1: -7.29, z0: -5.85, z1: -2.95 },  // gôndola parede esq 2
+    { x0: 7.09, x1: 8.1, z0: -4.85, z1: -1.95 },    // gôndola parede dir
+    { x0: 7.63, x1: 8.73, z0: -2.36, z1: -0.64 },   // vitrine v002: bounds medidos + 0,25 m
+    { x0: -5.7612, x1: -4.6388, z0: 1.4893, z1: 2.3107 }, // atendente balcão: footprint runtime 0,6223×0,3215 m + folga 0,25 m
+    { x0: 4.6116, x1: 5.7884, z0: 1.4474, z1: 2.3526 },   // atendente gôndola: footprint runtime 0,6768×0,4053 m + folga 0,25 m
   ];
   const colide = (x, z) => OBSTACULOS.some((o) => x > o.x0 && x < o.x1 && z > o.z0 && z < o.z1);
 
@@ -65,6 +72,7 @@ export function createPOV({ camera, addTicker, canvas, povControl }) {
   camera.rotation.order = 'YXZ';
 
   let zonaAtual = 'paciente';
+  let destinoZona = ZONAS.paciente.pos.clone();
   let off = { yaw: 0, pitch: 0 };          // deslocamento do look-around (drag)
   let tween = null;                        // { t, dur, fromPos, toPos, fromYaw, toYaw, fromPitch, toPitch, snap }
   let drag = null;                         // { id, x, y, yaw0, pitch0, moveu }
@@ -81,30 +89,42 @@ export function createPOV({ camera, addTicker, canvas, povControl }) {
     camera.rotation.set(basePitch + off.pitch, baseYaw + off.yaw, 0);
   };
 
-  function irPara(nome, { instantaneo = false } = {}) {
+  function irPara(nome, { instantaneo = false, focus = null } = {}) {
     if (!ZONAS[nome]) return;
     zonaAtual = nome;
     livre = false;
     teclas.clear();
     const z = ZONAS[nome];
-    baseYaw = z.yaw;
-    basePitch = z.pitch;
+    const destination = z.pos.clone();
+    let yaw = nome === 'computador' && compactViewport.matches ? 0.71 : z.yaw;
+    let pitch = z.pitch;
+    if (focus && Number.isFinite(focus.x) && Number.isFinite(focus.y) && Number.isFinite(focus.z)) {
+      const target = new THREE.Vector3(focus.x, focus.y, focus.z);
+      // Enquadra a coleta acima do balcão, que obstruía a mão vista do POV baixo.
+      destination.copy(target).add(new THREE.Vector3(0.2, 2.2, 2.4));
+      const direction = target.clone().sub(destination);
+      yaw = Math.atan2(-direction.x, -direction.z);
+      pitch = Math.atan2(direction.y, Math.hypot(direction.x, direction.z));
+    }
+    destinoZona.copy(destination);
+    baseYaw = yaw;
+    basePitch = pitch;
     off = { yaw: 0, pitch: 0 };
     retorno = null;
     if (instantaneo || reduceMotion) {
       tween = null;
-      camera.position.copy(z.pos);
+      camera.position.copy(destination);
       aplicar();
     } else {
       tween = {
         t: 0,
         dur: DUR_TWEEN,
         fromPos: camera.position.clone(),
-        toPos: z.pos.clone(),
+        toPos: destination,
         fromYaw: camera.rotation.y,
-        toYaw: z.yaw,
+        toYaw: yaw,
         fromPitch: camera.rotation.x,
-        toPitch: z.pitch,
+        toPitch: pitch,
       };
     }
     listeners.forEach((fn) => fn(zonaAtual));
@@ -119,6 +139,16 @@ export function createPOV({ camera, addTicker, canvas, povControl }) {
     baseYaw = camera.rotation.y;
     basePitch = camera.rotation.x;
     off = { yaw: 0, pitch: 0 };
+  };
+
+  const setTouchDirection = (direction, active) => {
+    if (!['w', 'a', 's', 'd'].includes(direction)) return;
+    if (active) {
+      teclas.add(direction);
+      entrarLivre();
+    } else {
+      teclas.delete(direction);
+    }
   };
 
   // Mola do look-around de volta ao enquadramento da zona (snapping suave)
@@ -176,10 +206,10 @@ export function createPOV({ camera, addTicker, canvas, povControl }) {
       off.pitch = retorno.fromPitch * (1 - e);
       if (p >= 1) retorno = null;
     }
-    const z = ZONAS[zonaAtual];
     // micro-respiração (idle) só na zona do paciente, substituindo o balanço do scene.js
     const bob = zonaAtual === 'paciente' && !reduceMotion && !drag ? Math.sin(t * 1.1) * 0.008 : 0;
-    camera.position.set(z.pos.x, z.pos.y + bob, z.pos.z);
+    camera.position.copy(destinoZona);
+    camera.position.y += bob;
     aplicar();
   });
 
@@ -266,6 +296,7 @@ export function createPOV({ camera, addTicker, canvas, povControl }) {
 
   return {
     irPara,
+    setTouchDirection,
     zonaAtual: () => zonaAtual,
     onChange: (fn) => listeners.add(fn),
     navegando: () => Boolean(tween || drag),

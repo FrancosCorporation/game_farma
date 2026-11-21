@@ -7,13 +7,16 @@ The reference rig supplies the 65-bone Mixamo hierarchy and bind pose.
 
 Usage:
   blender -b --python scripts/rebind_character_voxel_auto.py -- \
-    reference_rigged.glb target_raw.glb output_skinned.glb [voxel_size=0.012] [max_transfer_distance=0.06]
+    reference_rigged.glb target_raw.glb output_skinned.glb [voxel_size=0.012] [max_transfer_distance=0.06] [export_animations=0|1] [frame=legacy|current] [max_landmark_distance=0.08]
 """
 import math
 import os
+import json
+import struct
 import sys
 
 import bpy
+import bmesh
 from mathutils import kdtree, Matrix, Vector
 
 
@@ -22,6 +25,42 @@ ALIGN = (
     @ Matrix.Rotation(math.pi / 2, 4, 'X')
     @ Matrix.Scale(1.0 / 0.575, 4)
 )
+CURRENT_FRAME_LANDMARKS = (
+    "Hips", "Spine2", "Neck", "Head",
+    "LeftShoulder", "LeftArm", "LeftForeArm", "LeftHand",
+    "RightShoulder", "RightArm", "RightForeArm", "RightHand",
+    "LeftUpLeg", "LeftLeg", "LeftFoot", "LeftToeBase",
+    "RightUpLeg", "RightLeg", "RightFoot", "RightToeBase",
+)
+GLB_JSON_CHUNK = 0x4E4F534A
+
+
+def read_glb_json(path):
+    with open(path, "rb") as handle:
+        data = handle.read()
+    if data[:4] != b"glTF" or len(data) < 20:
+        raise RuntimeError(f"GLB inválido: {path}")
+    chunk_length = struct.unpack_from("<I", data, 12)[0]
+    chunk_type = struct.unpack_from("<I", data, 16)[0]
+    if chunk_type != GLB_JSON_CHUNK or 20 + chunk_length > len(data):
+        raise RuntimeError(f"Primeiro chunk JSON inválido: {path}")
+    return data, json.loads(data[20:20 + chunk_length].decode("utf-8"))
+
+
+def patch_asset_extras(path, extras):
+    data, document = read_glb_json(path)
+    document.setdefault("asset", {}).setdefault("extras", {}).update(extras)
+    chunk = json.dumps(document, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+    chunk += b" " * ((-len(chunk)) % 4)
+    binary_chunks = data[20 + struct.unpack_from("<I", data, 12)[0]:]
+    total_length = 12 + 8 + len(chunk) + len(binary_chunks)
+    with open(path, "wb") as handle:
+        handle.write(data[:8])
+        handle.write(struct.pack("<I", total_length))
+        handle.write(struct.pack("<II", len(chunk), GLB_JSON_CHUNK))
+        handle.write(chunk)
+        handle.write(binary_chunks)
+    return document
 
 
 def args_after_double_dash():
@@ -30,11 +69,12 @@ def args_after_double_dash():
 
 def main():
     argv = args_after_double_dash()
-    if len(argv) not in (3, 4, 5, 6):
+    if len(argv) not in (3, 4, 5, 6, 7, 8):
         raise SystemExit(
             'Uso: blender -b --python scripts/rebind_character_voxel_auto.py -- '
             'reference_rigged.glb target_raw.glb output_skinned.glb '
-            '[voxel_size=0.012] [max_transfer_distance=0.06] [export_animations=0|1]'
+            '[voxel_size=0.012] [max_transfer_distance=0.06] [export_animations=0|1] '
+            '[frame=legacy|current] [max_landmark_distance=0.08]'
         )
     reference, target, output = map(os.path.abspath, argv[:3])
     voxel_size = float(argv[3]) if len(argv) >= 4 else 0.012
@@ -42,6 +82,12 @@ def main():
     include_animations = len(argv) >= 6 and argv[5] == '1'
     if len(argv) >= 6 and argv[5] not in ('0', '1'):
         raise SystemExit('export_animations deve ser 0 ou 1.')
+    frame_mode = argv[6] if len(argv) >= 7 else 'legacy'
+    if frame_mode not in ('legacy', 'current'):
+        raise SystemExit('frame deve ser legacy ou current.')
+    max_landmark_distance = float(argv[7]) if len(argv) >= 8 else 0.08
+    if not (0.08 <= max_landmark_distance <= 0.15):
+        raise SystemExit('max_landmark_distance deve ficar entre 0,08 e 0,15 m.')
     if not (0.006 <= voxel_size <= 0.04):
         raise SystemExit('voxel_size deve ficar entre 0,006 e 0,04 m.')
     if not (0.01 <= max_transfer_distance <= 0.12):
@@ -74,12 +120,38 @@ def main():
     if mesh is None:
         raise SystemExit('A malha alvo não foi importada.')
 
-    # Match the historical v53 GLB→Blender frame before measuring or weighting.
-    mesh.matrix_world = ALIGN @ mesh.matrix_world
+    # Historical assets used a fixed Y-up→Z-up/scale conversion. Current
+    # FarmaCheck candidates already share the Mixamo reference frame.
+    if frame_mode == 'legacy':
+        mesh.matrix_world = ALIGN @ mesh.matrix_world
     bpy.context.view_layer.update()
+    if frame_mode == 'current':
+        tree = kdtree.KDTree(len(mesh.data.vertices))
+        for index, vertex in enumerate(mesh.data.vertices):
+            tree.insert(mesh.matrix_world @ vertex.co, index)
+        tree.balance()
+        fit_distances = []
+        for suffix in CURRENT_FRAME_LANDMARKS:
+            bone = arm.data.bones.get('mixamorig:' + suffix) or arm.data.bones.get('mixamorig' + suffix)
+            if bone is None:
+                raise SystemExit(f'Rig sem marco anatômico obrigatório: {suffix}.')
+            point = arm.matrix_world @ bone.head_local
+            _, _, distance = tree.find(point)
+            fit_distances.append((suffix, distance))
+        worst_name, worst_distance = max(fit_distances, key=lambda item: item[1])
+        print('[fit] ' + json.dumps(
+            {name: round(distance, 5) for name, distance in fit_distances},
+            sort_keys=True,
+        ), flush=True)
+        if worst_distance > max_landmark_distance:
+            raise SystemExit(
+                f'Rig fora do corpo alvo no marco {worst_name}: '
+                f'{worst_distance:.4f}m > {max_landmark_distance:.4f}m.'
+            )
     bpy.ops.object.select_all(action='DESELECT')
     mesh.select_set(True)
     bpy.context.view_layer.objects.active = mesh
+    bpy.ops.object.parent_clear(type='CLEAR_KEEP_TRANSFORM')
     bpy.ops.object.transform_apply(location=True, rotation=True, scale=True)
     bpy.context.view_layer.update()
 
@@ -89,6 +161,17 @@ def main():
     proxy.name = 'AnaVoxelWeightProxy'
     bpy.context.collection.objects.link(proxy)
     proxy.matrix_world = mesh.matrix_world.copy()
+    # GLB UV seams duplicate coincident vertices. Merge only on the disposable
+    # weight proxy before voxelization; keep the target's UVs/topology untouched.
+    proxy_bm = bmesh.new()
+    proxy_bm.from_mesh(proxy.data)
+    proxy_vertices_before = len(proxy_bm.verts)
+    bmesh.ops.remove_doubles(proxy_bm, verts=list(proxy_bm.verts), dist=0.000001)
+    proxy_bm.to_mesh(proxy.data)
+    proxy_bm.free()
+    proxy.data.update()
+    print(f'[proxy] coincident seams welded={proxy_vertices_before-len(proxy.data.vertices)} '
+          f'vertices={len(proxy.data.vertices)}', flush=True)
     proxy.data.remesh_mode = 'VOXEL'
     proxy.data.remesh_voxel_size = voxel_size
     proxy.data.remesh_voxel_adaptivity = 0.0
@@ -108,12 +191,24 @@ def main():
     proxy.select_set(True)
     arm.select_set(True)
     bpy.context.view_layer.objects.active = arm
+    proxy_world_before_bind = proxy.matrix_world.copy()
     try:
         result = bpy.ops.object.parent_set(type='ARMATURE_AUTO')
     except RuntimeError as error:
         raise SystemExit(f'Bone-heat falhou até no proxy: {error}')
     if 'FINISHED' not in result:
         raise SystemExit(f'Bone-heat não concluiu no proxy: {result}')
+    # Blender's automatic parent operator can change a child object's world
+    # matrix when the source rig has a transformed root. Keep the proxy in the
+    # target's already-validated world frame before building the transfer KDTree.
+    proxy.matrix_world = proxy_world_before_bind
+    bpy.context.view_layer.update()
+    world_delta = max(
+        abs(proxy.matrix_world[row][column] - proxy_world_before_bind[row][column])
+        for row in range(4) for column in range(4)
+    )
+    if world_delta > 1e-6:
+        raise SystemExit(f'Auto-parent alterou o frame do proxy: delta {world_delta:.8f}.')
     for bone in arm.data.bones:
         if proxy.vertex_groups.get(bone.name) is None:
             proxy.vertex_groups.new(name=bone.name)
@@ -172,7 +267,10 @@ def main():
     mesh.select_set(True)
     arm.select_set(True)
     bpy.context.view_layer.objects.active = arm
+    mesh_world_before_bind = mesh.matrix_world.copy()
     bpy.ops.object.parent_set(type='ARMATURE_NAME')
+    mesh.matrix_world = mesh_world_before_bind
+    bpy.context.view_layer.update()
 
     os.makedirs(os.path.dirname(output) or '.', exist_ok=True)
     export_options = {
@@ -195,6 +293,19 @@ def main():
     bpy.ops.export_scene.gltf(**export_options)
     if not os.path.isfile(output) or os.path.getsize(output) < 1024:
         raise SystemExit('Export skinned do proxy falhou.')
+    if frame_mode == 'current':
+        _, source_document = read_glb_json(reference)
+        source_extras = source_document.get('asset', {}).get('extras', {})
+        extras = {
+            'skeletonProfile': 'mixamo-standard-65',
+        }
+        for key in ('walkSpeed', 'walkAdvance'):
+            value = source_extras.get(key)
+            if isinstance(value, (int, float)) and math.isfinite(value):
+                extras[key] = value
+        if not {'walkSpeed', 'walkAdvance'}.issubset(extras):
+            raise SystemExit('Rig de referência sem metadados válidos de Walk.')
+        patch_asset_extras(output, extras)
     print(f'[export] animations={include_animations} output={output} bytes={os.path.getsize(output)}', flush=True)
 
 

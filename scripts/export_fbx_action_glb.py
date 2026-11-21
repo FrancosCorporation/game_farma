@@ -36,11 +36,26 @@ def main():
         raise SystemExit(f'Esperado 1 rig, malha(s) e ação; rigs={len(armatures)} meshes={len(meshes)} actions={len(actions)}')
     arm = armatures[0]
     action = actions[0]
-    if len(arm.data.bones) != 65:
-        raise SystemExit(f'Rig inesperado: {len(arm.data.bones)} joints (esperado 65)')
-    groups = {group.name for mesh in meshes for group in mesh.vertex_groups}
-    if len(groups) < 45:
-        raise SystemExit(f'Poucos vertex groups: {len(groups)}')
+    bone_names = {bone.name.removeprefix('mixamorig:').removeprefix('mixamorig') for bone in arm.data.bones}
+    allowed_profiles = {33, 57, 65}
+    if len(bone_names) not in allowed_profiles:
+        raise SystemExit(f'Rig inesperado: {len(bone_names)} joints (perfis aceitos: {sorted(allowed_profiles)})')
+    required_bones = {
+        'Hips', 'Spine', 'Spine1', 'Spine2', 'Neck', 'Head',
+        'LeftArm', 'LeftForeArm', 'LeftHand', 'RightArm', 'RightForeArm', 'RightHand',
+        'LeftUpLeg', 'LeftLeg', 'LeftFoot', 'RightUpLeg', 'RightLeg', 'RightFoot',
+    }
+    missing_bones = sorted(required_bones - bone_names)
+    if missing_bones:
+        raise SystemExit(f'Rig Mixamo sem juntas humanoides necessárias: {missing_bones}')
+    weighted_meshes = [mesh for mesh in meshes if mesh.vertex_groups and mesh.data.vertices]
+    if not weighted_meshes:
+        raise SystemExit('Nenhuma malha com vertex groups foi importada')
+    groups = {group.name.removeprefix('mixamorig:').removeprefix('mixamorig')
+              for mesh in weighted_meshes for group in mesh.vertex_groups}
+    missing_groups = sorted(required_bones - groups)
+    if missing_groups:
+        raise SystemExit(f'Malha sem grupos de peso para juntas humanoides necessárias: {missing_groups}')
     action.name = clip_name
     if not static_only:
         arm.animation_data_create()
@@ -79,7 +94,7 @@ def main():
         raise SystemExit('GLB export falhou ou criou um arquivo vazio')
     print(
         f'[fbx-action] {clip_name}{" (static)" if static_only else ""}: source={source} bones={len(arm.data.bones)} '
-        f'meshes={len(meshes)} vertexGroups={len(groups)} frames={start:.2f}..{end:.2f} '
+        f'meshes={len(weighted_meshes)} bones={len(bone_names)} vertexGroups={len(groups)} frames={start:.2f}..{end:.2f} '
         f'output={output} bytes={os.path.getsize(output)}',
         flush=True,
     )

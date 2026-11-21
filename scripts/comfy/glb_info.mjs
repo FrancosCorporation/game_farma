@@ -43,5 +43,7 @@ console.log(JSON.stringify({
   max: b.max.map(f),
   uv0: hasUV0,
   uv1: hasUV1,
+  skins: root.listSkins().length,
+  animations: root.listAnimations().length,
   extensionsUsed: root.listExtensionsUsed().map((e) => e.extensionName),
 }));

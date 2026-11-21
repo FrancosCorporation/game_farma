@@ -14,6 +14,7 @@ export function initBulario({ game, aoFechar }) {
   const painel = $('bulario');
   const corpo = $('bulario-corpo');
   let consultadoPara = null;
+  let focoAnterior = null;
 
   const card = (html, cls = '') => `<div class="bulario-card ${cls}">${html}</div>`;
   const h = (txt) => `<h3 class="text-xs uppercase tracking-wide text-slate-400 mb-1">${txt}</h3>`;
@@ -38,6 +39,7 @@ export function initBulario({ game, aoFechar }) {
   function abrir() {
     const caso = game.case;
     if (!caso) return;
+    if (painel.hidden) focoAnterior = document.activeElement;
     // +10 do GDD — conta como consulta ao bulário apenas 1× por caso
     if (consultadoPara !== caso.id) {
       consultadoPara = caso.id;
@@ -49,8 +51,12 @@ export function initBulario({ game, aoFechar }) {
   }
 
   function fechar() {
+    if (painel.hidden) return;
     painel.hidden = true;
+    const retorno = focoAnterior;
+    focoAnterior = null;
     aoFechar?.();
+    if (retorno instanceof HTMLElement && retorno.isConnected && !retorno.matches(':disabled') && retorno.getClientRects().length) retorno.focus();
   }
 
   $('btn-bulario-fechar').addEventListener('click', () => {

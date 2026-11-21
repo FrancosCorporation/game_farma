@@ -6,7 +6,7 @@ the target geometry, animations, or approved production assets.
 
 Usage:
   blender -b --python scripts/rebind_character_polyinterp.py -- \
-    reference_rigged.glb target_raw.glb output_skinned.glb [POLYINTERP_NEAREST|ARMATURE_AUTO]
+    reference_rigged.glb target_raw.glb output_skinned.glb [POLYINTERP_NEAREST|ARMATURE_AUTO] [legacy|current]
 
 The target is aligned with the Mixamo reference frame used by the historical
 Ana v53 build. Export is skin-only; transplant clips separately after checking
@@ -17,6 +17,7 @@ import os
 import sys
 
 import bpy
+import bmesh
 from mathutils import kdtree, Matrix, Vector
 
 
@@ -58,16 +59,19 @@ def distance_to_segment(point, start, end):
 
 def main():
     argv = args_after_double_dash()
-    if len(argv) not in (3, 4):
+    if len(argv) not in (3, 4, 5):
         raise SystemExit(
             'Uso: blender -b --python scripts/rebind_character_polyinterp.py -- '
             'reference_rigged.glb target_raw.glb output_skinned.glb '
-            '[POLYINTERP_NEAREST|ARMATURE_AUTO]'
+            '[POLYINTERP_NEAREST|ARMATURE_AUTO] [legacy|current]'
         )
     reference, target, output = map(os.path.abspath, argv[:3])
-    method = argv[3].upper() if len(argv) == 4 else 'POLYINTERP_NEAREST'
+    method = argv[3].upper() if len(argv) >= 4 else 'POLYINTERP_NEAREST'
+    frame_mode = argv[4].lower() if len(argv) == 5 else 'legacy'
     if method not in {'POLYINTERP_NEAREST', 'ARMATURE_AUTO'}:
         raise SystemExit(f'Método de pesos desconhecido: {method}')
+    if frame_mode not in {'legacy', 'current'}:
+        raise SystemExit(f'Quadro de coordenadas desconhecido: {frame_mode}')
     for path in (reference, target):
         if not os.path.isfile(path) or not path.lower().endswith('.glb'):
             raise SystemExit(f'Entrada GLB ausente/inválida: {path}')
@@ -83,10 +87,13 @@ def main():
     )
     if arm is None or reference_mesh is None:
         raise SystemExit('Referência precisa conter um rig e uma malha ponderada.')
-    if len(arm.data.bones) != 65:
-        raise SystemExit(f'Rig de referência inesperado: {len(arm.data.bones)} ossos (esperado 65).')
-    if len(reference_mesh.vertex_groups) < 60:
-        raise SystemExit(f'Referência sem grupos de peso suficientes: {len(reference_mesh.vertex_groups)}.')
+    if len(arm.data.bones) not in {33, 57, 65}:
+        raise SystemExit(f'Rig de referência inesperado: {len(arm.data.bones)} ossos (perfis suportados: 33, 57, 65).')
+    if len(reference_mesh.vertex_groups) != len(arm.data.bones):
+        raise SystemExit(
+            f'Referência tem {len(reference_mesh.vertex_groups)} grupos de peso para '
+            f'{len(arm.data.bones)} ossos.'
+        )
     arm.data.pose_position = 'REST'
     bpy.context.view_layer.update()
 
@@ -105,9 +112,11 @@ def main():
         f'alvo={mesh.name} ({len(mesh.data.vertices)} verts)', flush=True,
     )
 
-    # Match the stable reference coordinate frame used for v53. Never modify
-    # the source file; the transform is applied only to this freshly imported copy.
-    mesh.matrix_world = ALIGN @ mesh.matrix_world
+    # Historical assets used a fixed Y-up→Z-up/scale conversion. Current
+    # candidates already share the normalized coordinate frame of their rig.
+    # Never modify either source file; this affects only the imported target copy.
+    if frame_mode == 'legacy':
+        mesh.matrix_world = ALIGN @ mesh.matrix_world
     bpy.context.view_layer.update()
     bpy.ops.object.select_all(action='DESELECT')
     mesh.select_set(True)
@@ -137,7 +146,27 @@ def main():
     if worst > 0.16:
         raise SystemExit(f'Rig não se ajusta à malha: {worst:.3f} m (limite 0,16 m).')
 
-    # Surface interpolation is one test against v53's NEAREST-vertex mapping.
+    # Simplifiers can leave exact duplicate or zero-area faces. Remove only
+    # those invalid polygons before transferring skin; valid geometry, UVs,
+    # materials, positions and all source files remain untouched.
+    bm = bmesh.new()
+    bm.from_mesh(mesh.data)
+    duplicate_faces = []
+    seen_faces = set()
+    for face in bm.faces:
+        key = tuple(sorted(vertex.index for vertex in face.verts))
+        if key in seen_faces or face.calc_area() <= 1e-10:
+            duplicate_faces.append(face)
+        else:
+            seen_faces.add(key)
+    if duplicate_faces:
+        bmesh.ops.delete(bm, geom=duplicate_faces, context='FACES_ONLY')
+        bm.to_mesh(mesh.data)
+        mesh.data.update()
+    bm.free()
+    print(f'[topology] removed_invalid_faces={len(duplicate_faces)}', flush=True)
+
+    # Surface interpolation is one test against the prior nearest-surface mapping.
     # ARMATURE_AUTO is the independent fallback: solve weights on the target
     # geometry itself instead of transferring labels across meshes.
     mesh.vertex_groups.clear()

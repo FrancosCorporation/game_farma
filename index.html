@@ -32,17 +32,30 @@
         <span id="hud-fase" class="px-2 py-0.5 rounded-full bg-teal-900/70 text-teal-200 border border-teal-400/30 text-xs">—</span>
         <span id="hud-combo" hidden class="text-amber-300 text-xs font-semibold max-sm:hidden"></span>
         <span id="hud-score" class="text-slate-400 text-xs">Pontos 0</span>
-        <button id="btn-tts" aria-pressed="true" title="Narrar falas em voz alta" data-i18n="hud.tts" class="btn-ghost text-xs">Narrar</button>
+        <button type="button" id="btn-tts" aria-pressed="true" title="Narrar falas em voz alta" class="btn-ghost text-xs">🔊 Som</button>
       </div>
     </header>
 
     <!-- F2 — Barra de ações do POV (pontos de interesse) -->
-    <div id="acoes" hidden class="absolute bottom-3 left-3 z-10 flex flex-wrap items-center gap-2 pointer-events-auto">
+    <div id="acoes" hidden class="absolute bottom-12 left-3 z-10 flex flex-wrap items-center gap-2 pointer-events-auto">
       <button id="btn-hud-pc" class="btn-ghost text-xs" data-i18n="acoes.pc">🖥 Consultar Computador</button>
       <button id="btn-hud-tlac" class="btn-ghost text-xs" data-i18n="acoes.tlac">🧪 Teste Rápido</button>
       <button id="btn-hud-dsf" class="btn-ghost text-xs" data-i18n="acoes.dsf">📄 Gerar Declaração</button>
-      <button id="btn-hud-paciente" hidden class="btn-ghost text-xs text-teal-300 border-teal-400/30" data-i18n="acoes.paciente">↩ Voltar ao paciente</button>
+      <button id="btn-hud-paciente" hidden class="btn-ghost text-xs text-teal-300 border-teal-400/30" data-i18n="acoes.paciente">↩ Voltar ao balcão</button>
       <span id="pov-dica" class="hidden md:inline text-[10px] text-slate-500" data-i18n="pov.dica">Arraste para olhar ao redor · 1/2/3 trocam de ponto</span>
+    </div>
+
+    <!-- Direcional de toque para caminhar pelo cenário sem teclado. -->
+    <div id="touch-movement" hidden role="group" aria-label="Mover pelo cenário" data-i18n-aria="touch.move.title">
+      <div class="touch-movement-pad">
+        <button type="button" class="touch-move-btn" data-touch-move="w" data-i18n-aria="touch.move.forward" aria-label="Andar para frente">▲</button>
+        <div class="touch-move-row">
+          <button type="button" class="touch-move-btn" data-touch-move="a" data-i18n-aria="touch.move.left" aria-label="Andar para a esquerda">◀</button>
+          <button type="button" class="touch-move-btn" data-touch-move="s" data-i18n-aria="touch.move.back" aria-label="Andar para trás">▼</button>
+          <button type="button" class="touch-move-btn" data-touch-move="d" data-i18n-aria="touch.move.right" aria-label="Andar para a direita">▶</button>
+        </div>
+      </div>
+      <span class="touch-movement-hint" data-i18n="touch.move.hint">Segure uma seta para andar</span>
     </div>
 
     <!-- Banner contextual de interação (E) — aparece conforme a zona da câmera -->
@@ -76,6 +89,8 @@
           </div>
         </div>
         <div id="chat-contador" class="ml-auto text-xs text-slate-500 shrink-0">0/30</div>
+        <button id="btn-chat-toggle" type="button" class="btn-ghost mobile-chat-toggle"
+                aria-expanded="true" aria-controls="chat" title="Ampliar o cenário">Ver cena</button>
       </div>
 
       <div id="chat-log" role="log" aria-live="polite" data-i18n-aria="chat.logAria" aria-label="Conversa com o cliente"
@@ -91,7 +106,8 @@
       </button>
 
       <form id="chat-form" class="p-3 border-t border-white/10 flex gap-2 items-end">
-        <button type="button" id="btn-mic" aria-pressed="false" title="Ditar (Ctrl+M)" data-i18n-title="chat.mic" class="btn-ghost shrink-0">Mic</button>
+        <button type="button" id="btn-mic" aria-pressed="false" title="Ditar (Ctrl+M)" data-i18n-title="chat.mic" data-i18n-aria="chat.mic" aria-label="Ditar (Ctrl+M)" class="btn-ghost shrink-0" data-i18n="chat.micButton">🎙 Falar</button>
+        <span id="mic-status" class="sr-only" role="status" aria-live="polite"></span>
         <textarea id="chat-input" rows="1" maxlength="500" placeholder="Faça a próxima pergunta…" data-i18n-placeholder="chat.placeholder"
                   class="input flex-1 resize-none h-10"></textarea>
         <button type="submit" id="btn-send" class="btn-primary shrink-0" data-i18n="chat.enviar">Enviar</button>
@@ -99,13 +115,13 @@
     </section>
 
     <!-- Painel de decisão clínica -->
-    <section id="decision" hidden class="absolute left-0 top-10 bottom-0 w-full sm:w-[380px] flex flex-col
+    <section id="decision" hidden role="region" aria-labelledby="decision-titulo" class="absolute left-0 top-10 bottom-0 w-full sm:w-[380px] flex flex-col
                                          bg-slate-900/70 backdrop-blur-md border-r border-white/10 pointer-events-auto">
       <div class="px-4 py-3 border-b border-white/10 flex items-center justify-between">
-        <h2 tabindex="-1" class="font-semibold" data-i18n="decision.title">Decisão clínica</h2>
+        <h2 id="decision-titulo" tabindex="-1" class="font-semibold" data-i18n="decision.title">Decisão clínica</h2>
         <button id="btn-voltar" class="text-xs text-teal-300 hover:underline" data-i18n="decision.voltar">← voltar à anamnese</button>
       </div>
-      <p class="px-4 pt-2 text-[11px] text-slate-500" data-i18n="decision.keys">1 / 2 / 3 escolhem a conduta · Esc volta à anamnese</p>
+      <p class="px-4 pt-2 text-[11px] text-slate-400" data-i18n="decision.keys">1 / 2 / 3 escolhem a conduta · Esc volta à anamnese</p>
       <div class="flex-1 overflow-y-auto p-4 space-y-5">
         <fieldset>
           <legend class="text-xs uppercase tracking-wide text-slate-400 mb-2" data-i18n="decision.redflags">1 · Sinais de alerta (só o que você investigou)</legend>
@@ -116,7 +132,7 @@
           <div id="conduta-cards" class="grid gap-2">
             <button type="button" data-conduta="vender"    aria-pressed="false" class="conduta"><kbd class="kbd-num">1</kbd><b data-i18n="decision.vender.t">Vender o pedido</b><br><span class="text-xs text-slate-400" data-i18n="decision.vender.s">entregar o que o cliente pediu</span></button>
             <button type="button" data-conduta="sugerir"   aria-pressed="false" class="conduta"><kbd class="kbd-num">2</kbd><b data-i18n="decision.sugerir.t">Sugerir outro MIP</b><br><span class="text-xs text-slate-400" data-i18n="decision.sugerir.s">medicamento isento de prescrição + orientações</span></button>
-            <button type="button" data-conduta="encaminhar" aria-pressed="false" class="conduta"><kbd class="kbd-num">3</kbd><b data-i18n="decision.encaminhar.t">Encaminhar à urgência</b><br><span class="text-xs text-slate-400" data-i18n="decision.encaminhar.s">SAMU 192 / pronto-socorro</span></button>
+            <button type="button" data-conduta="encaminhar" aria-pressed="false" class="conduta"><kbd class="kbd-num">3</kbd><b data-i18n="decision.encaminhar.t">Encaminhar para avaliação</b><br><span class="text-xs text-slate-400" data-i18n="decision.encaminhar.s">UBS ou urgência conforme a triagem</span></button>
           </div>
           <div id="mip-box" hidden class="mt-3">
             <div class="text-xs uppercase tracking-wide text-slate-400 mb-1" data-i18n="decision.prateleira">Prateleira — MIPs</div>
@@ -130,10 +146,10 @@
     </section>
 
     <!-- F2 — Painel do computador: bulário & diretrizes -->
-    <section id="bulario" hidden class="absolute left-0 top-10 bottom-0 w-full sm:w-[400px] flex flex-col
+    <section id="bulario" hidden role="region" aria-labelledby="bulario-titulo" class="absolute left-0 top-10 bottom-0 w-full sm:w-[400px] flex flex-col
                                           bg-slate-900/70 backdrop-blur-md border-r border-white/10 pointer-events-auto">
       <div class="px-4 py-3 border-b border-white/10 flex items-center justify-between">
-        <h2 tabindex="-1" class="font-semibold" data-i18n="bulario.title">🖥 Bulário &amp; diretrizes</h2>
+        <h2 id="bulario-titulo" tabindex="-1" class="font-semibold" data-i18n="bulario.title">🖥 Bulário &amp; diretrizes</h2>
         <button id="btn-bulario-fechar" class="text-xs text-teal-300 hover:underline" data-i18n="bulario.close">Fechar</button>
       </div>
       <div id="bulario-corpo" class="flex-1 overflow-y-auto p-4 space-y-3 text-sm"></div>
@@ -148,6 +164,7 @@
         </header>
         <p id="tlac-tipo" class="text-xs text-slate-400 mb-3"></p>
         <ol id="tlac-passos" class="tlac-passos"></ol>
+        <p id="tlac-scene-status" class="tlac-scene-status" role="status" aria-live="polite" hidden></p>
         <div id="tlac-timer" hidden class="tlac-timer" role="timer" aria-live="off">
           <div class="tlac-timer-bar"><i id="tlac-timer-fill"></i></div>
           <span id="tlac-timer-num" class="font-display font-bold">5s</span>
@@ -157,10 +174,10 @@
     </div>
 
     <!-- F4 — DSF (Declaração de Serviços Farmacêuticos) -->
-    <section id="dsf" hidden class="absolute right-0 top-10 bottom-0 w-full sm:w-[440px] flex flex-col
+    <section id="dsf" hidden role="region" aria-labelledby="dsf-titulo" class="absolute right-0 top-10 bottom-0 w-full sm:w-[440px] flex flex-col
                                      bg-slate-900/80 backdrop-blur-md border-l border-white/10 pointer-events-auto">
       <div class="px-4 py-3 border-b border-white/10 flex items-center justify-between">
-        <h2 tabindex="-1" class="font-semibold text-sm sm:text-base" data-i18n="dsf.title">📄 Declaração de Serviços Farmacêuticos</h2>
+        <h2 id="dsf-titulo" tabindex="-1" class="font-semibold text-sm sm:text-base" data-i18n="dsf.title">📄 Declaração de Serviços Farmacêuticos</h2>
         <button id="btn-dsf-fechar" class="text-xs text-teal-300 hover:underline" data-i18n="dsf.close">Fechar</button>
       </div>
       <div class="flex-1 overflow-y-auto p-4 space-y-3 text-sm">
@@ -176,6 +193,8 @@
           <span class="text-xs uppercase tracking-wide text-slate-400" data-i18n="dsf.rapidas">Condutas rápidas</span>
           <div id="dsf-rapidas" class="flex flex-wrap gap-1.5 mt-1"></div>
         </div>
+        <label class="block"><span class="text-xs uppercase tracking-wide text-slate-300" data-i18n="dsf.hipotese">Avaliação clínica presumida</span>
+          <textarea id="dsf-hipotese" rows="2" class="input mt-1 resize-y" maxlength="500" data-i18n-placeholder="dsf.hipoteseHint" placeholder="Descreva sua avaliação do quadro apresentado"></textarea></label>
         <label class="block"><span class="text-xs uppercase tracking-wide text-slate-400" data-i18n="dsf.conduta">Conduta farmacêutica</span>
           <textarea id="dsf-conduta" rows="5" class="input mt-1 resize-y" data-i18n-aria="dsf.conduta" aria-label="Conduta farmacêutica"></textarea></label>
         <div>
@@ -185,14 +204,15 @@
         <label class="block"><span class="text-xs uppercase tracking-wide text-slate-400" data-i18n="dsf.encaminhamento">Encaminhamento</span>
           <input id="dsf-encaminhamento" class="input mt-1" /></label>
         <button id="btn-dsf-emitir" class="btn-primary w-full py-3" data-i18n="dsf.emitir">Emitir DSF</button>
+        <button id="btn-dsf-reiniciar" type="button" class="btn-ghost w-full" data-i18n="dsf.reiniciar">Reiniciar atendimento</button>
       </div>
     </section>
 
     <!-- F4 — Preview imprimível da DSF -->
-    <div id="dsf-preview" hidden class="absolute inset-0 overflow-y-auto bg-slate-950/90 backdrop-blur pointer-events-auto">
+    <div id="dsf-preview" hidden role="dialog" aria-modal="true" aria-labelledby="dsf-doc-title" class="absolute inset-0 overflow-y-auto bg-slate-950/90 backdrop-blur pointer-events-auto">
       <article class="dsf-doc mx-auto max-w-2xl my-8 p-8 rounded-2xl bg-slate-100 text-slate-900 shadow-2xl">
         <header class="dsf-head">
-          <h3 data-i18n="dsf.doc.title">DECLARAÇÃO DE SERVIÇOS FARMACÊUTICOS</h3>
+          <h3 id="dsf-doc-title" data-i18n="dsf.doc.title">DECLARAÇÃO DE SERVIÇOS FARMACÊUTICOS</h3>
           <p class="dsf-sub" data-i18n="dsf.doc.sub">Atenção farmacêutica — registro do atendimento (Anvisa/CFF · documento fictício para fins educacionais)</p>
         </header>
         <div id="dsf-doc-corpo"></div>
@@ -201,8 +221,10 @@
           <p id="dsf-doc-stamp" class="dsf-stamp"></p>
         </footer>
         <div class="flex flex-wrap gap-3 mt-6 no-print">
+          <p id="dsf-print-error" hidden role="status" aria-live="polite" class="w-full text-sm text-amber-300" data-i18n="dsf.print.error"></p>
           <button id="btn-dsf-imprimir" class="btn-primary" data-i18n="dsf.imprimir">🖨 Imprimir / PDF</button>
           <button id="btn-dsf-voltar" class="btn-ghost" data-i18n="dsf.voltar">← Editar</button>
+          <button id="btn-dsf-preview-reiniciar" type="button" class="btn-ghost" data-i18n="dsf.reiniciar">Reiniciar atendimento</button>
         </div>
       </article>
     </div>
@@ -210,6 +232,7 @@
     <!-- F0 — Tela de capa (arte estilizada fatiada + botões DOM com press físico) -->
     <div id="capa" class="capa-backdrop pointer-events-auto">
       <div class="capa-stage">
+        <div class="capa-mobile-heading" aria-hidden="true"><strong>FarmaCheck</strong><span data-i18n="capa.mobileSubtitle">O Desafio da Anamnese</span></div>
         <button id="capa-iniciar" class="capa-btn capa-btn--iniciar"
                 data-i18n-aria="capa.iniciar" aria-label="Iniciar jogo">
           <img class="capa-btn-ico" src="/capa/spr_avatar.webp" alt="" aria-hidden="true" draggable="false" />
@@ -241,24 +264,45 @@
     </div>
 
     <!-- Tela inicial -->
-    <div id="menu" hidden class="absolute inset-0 grid place-items-center bg-slate-950/80 backdrop-blur pointer-events-auto overflow-y-auto">
-      <div class="max-w-2xl w-full m-4 p-8 rounded-2xl bg-slate-900/90 border border-white/10 shadow-2xl">
+    <div id="menu" hidden class="absolute inset-0 grid place-items-center pointer-events-auto overflow-y-auto">
+      <div class="menu-card">
+        <div class="menu-topline">
+          <span data-i18n="menu.choose">Escolha seu expediente</span>
+          <button id="btn-menu-capa" type="button" class="btn-ghost" data-i18n="menu.backCover">← Voltar à tela inicial</button>
+        </div>
         <p class="text-teal-300 text-xs uppercase tracking-widest mb-1" data-i18n="menu.tagline">Simulador de atendimento farmacêutico</p>
         <h2 class="text-4xl font-black mb-3 font-display">FarmaCheck</h2>
         <p class="text-slate-300 text-sm leading-relaxed mb-3">
-          <span data-i18n="menu.intro.a">Você é a farmacêutica do balcão. Clientes vão chegar pedindo remédios — alguns inofensivos, outros </span><b class="text-amber-300" data-i18n="menu.intro.b">capazes de agravar uma condição grave e oculta</b><span data-i18n="menu.intro.c">. Investigue por anamnese antes de decidir: vender, orientar ou encaminhar.</span>
+          <span data-i18n="menu.intro.a">Você é a farmacêutica do balcão. Mariana pede um medicamento para a náusea, mas seus sintomas exigem </span><b class="text-amber-300" data-i18n="menu.intro.b">investigação cuidadosa</b><span data-i18n="menu.intro.c">. Faça a anamnese antes de decidir a conduta.</span>
         </p>
-        <p class="text-xs text-slate-500 mb-5 border-l-2 border-teal-500/40 pl-3" data-i18n="menu.disclaimer">
+        <p class="text-sm text-slate-300 mb-5 border-l-2 border-teal-500/60 pl-3" data-i18n="menu.disclaimer">
           Ambiente 100% fictício e educacional. Condutas, marcas e desfechos são ilustrativos —
           não substituem avaliação farmacêutica/médica nem bula.
         </p>
 
-        <section id="menu-meta" class="mb-4 rounded-xl border border-white/10 bg-slate-950/40 p-4" aria-live="polite"></section>
-
         <div id="phase-select" class="grid gap-2 mb-4"></div>
+        <section id="menu-meta" class="mb-4 rounded-xl border border-white/10 bg-slate-950/40 p-4" aria-live="polite"></section>
+        <details class="menu-settings mb-4">
+          <summary data-i18n="menu.settings">Configurações do jogo</summary>
+        <label class="block mb-4 text-sm"><span data-i18n="settings.graphics">Qualidade visual</span>
+          <select id="cfg-quality" class="input mt-1">
+            <option value="auto" data-i18n="settings.auto">Automática</option>
+            <option value="low" data-i18n="settings.low">Leve</option>
+            <option value="balanced" data-i18n="settings.balanced">Equilibrada</option>
+            <option value="high" data-i18n="settings.high">Alta</option>
+          </select>
+          <small class="mt-1 block text-slate-400" data-i18n="settings.graphicsHint">Leve limita a 30 FPS, desliga sombras e pós-processamento e mantém os polígonos.</small>
+        </label>
+        <details class="mb-4 text-sm">
+          <summary class="cursor-pointer text-teal-300" data-i18n="guide.title">Como atender</summary>
+          <p class="mt-2 text-slate-300" data-i18n="guide.steps">Converse com o paciente e investigue a queixa. Consulte o computador, use o teste rápido quando indicado e escolha a conduta. O relatório explica o resultado do atendimento.</p>
+        </details>
+        <label class="block mb-4 text-sm"><span data-i18n="settings.sound">Volume dos efeitos sonoros</span>
+          <input id="cfg-sfx-volume" class="w-full mt-2" type="range" min="0" max="100" step="5" value="70" />
+        </label>
 
         <details class="mb-5">
-          <summary class="cursor-pointer text-sm text-teal-300" data-i18n="menu.ai.summary">Servidor de IA (llama.cpp · Qwen3.5-9B)</summary>
+          <summary class="cursor-pointer text-sm text-teal-300" data-i18n="menu.ai.summary">Assistente de conversa (opcional)</summary>
           <div class="mt-3 space-y-2 text-sm">
             <label class="block"><span data-i18n="menu.ai.endpoint">Endpoint</span> <input id="cfg-endpoint" class="input" placeholder="http://127.0.0.1:8081/v1" /></label>
             <label class="block"><span data-i18n="menu.ai.model">Modelo</span> <input id="cfg-model" class="input" placeholder="Qwen3.5-9B-Q8_0" /></label>
@@ -266,13 +310,23 @@
               <button id="btn-testar" class="btn-ghost" data-i18n="menu.ai.test">Testar conexão</button>
               <span id="cfg-status" class="text-xs text-slate-400"></span>
             </div>
-            <button id="btn-zerar-progresso" class="btn-ghost text-xs text-red-300 border-red-400/30 mt-2"
-                    data-i18n="menu.zerar">Zerar progresso</button>
           </div>
         </details>
 
-        <button id="btn-iniciar" class="btn-primary w-full py-3 text-base" data-i18n="menu.iniciar">Iniciar expediente</button>
-        <p class="text-xs text-slate-500 mt-4" data-i18n="menu.keys">Enter envia · Shift+Enter quebra linha · Ctrl+M dita · R repete a última fala · Tab navega</p>
+        <details class="mb-5">
+          <summary class="cursor-pointer text-sm text-teal-300" data-i18n="menu.case.summary">Serviço de casos (opcional)</summary>
+          <div class="mt-3 space-y-2 text-sm">
+            <label class="block"><span data-i18n="menu.case.endpoint">Endpoint para casos do Expediente Livre</span>
+              <input id="cfg-case-endpoint" class="input mt-1" type="url" placeholder="http://127.0.0.1:4174" /></label>
+            <p class="text-xs text-slate-400" data-i18n="menu.case.hint">Usado somente no Expediente Livre; as fases fixas continuam usando a lista local.</p>
+          </div>
+        </details>
+        </details>
+
+        <p id="patient-load-error" role="alert" hidden data-i18n="menu.patient_error">Não foi possível carregar o paciente. Clique em Iniciar expediente para tentar novamente.</p>
+        <button id="btn-iniciar" class="btn-primary w-full py-3 text-base" data-i18n="menu.iniciar" disabled aria-busy="true">Iniciar expediente</button>
+        <button id="btn-zerar-progresso" type="button" class="btn-ghost menu-reset" data-i18n="menu.zerar">Reiniciar jogo e zerar progresso</button>
+        <p class="text-sm text-slate-300 mt-4" data-i18n="menu.keys">Enter envia · Shift+Enter quebra linha · Ctrl+M dita · R repete a última fala · Tab navega</p>
       </div>
     </div>
 
@@ -307,7 +361,7 @@
     </div>
     <!-- Debriefing / relatório -->
     <div id="debrief" hidden class="absolute inset-0 overflow-y-auto bg-slate-950/90 backdrop-blur pointer-events-auto">
-      <article id="debrief-card" class="mx-auto max-w-2xl my-8 p-6 rounded-2xl bg-slate-900 border border-white/10 shadow-2xl">
+      <article id="debrief-card" role="dialog" aria-modal="true" aria-labelledby="debrief-titulo" class="mx-auto max-w-2xl my-8 p-6 rounded-2xl bg-slate-900 border border-white/10 shadow-2xl">
         <div id="debrief-stars" class="text-3xl mb-2" aria-label="Estrelas conquistadas" data-i18n-aria="debrief.estrelas"></div>
         <span id="debrief-tag" class="inline-block px-3 py-1 rounded-full text-xs font-semibold mb-3">—</span>
         <h2 id="debrief-titulo" tabindex="-1" class="text-2xl font-bold mb-2 font-display"></h2>
@@ -320,7 +374,7 @@
         <p id="debrief-stamp" class="text-[10px] text-slate-500 mt-4"></p>
         <div class="flex flex-wrap gap-3 mt-6 no-print">
           <button id="btn-proximo"  class="btn-primary" data-i18n="debrief.next">Próximo cliente</button>
-          <button id="btn-repetir"  class="btn-ghost" data-i18n="debrief.repeat">Repetir este caso</button>
+          <button id="btn-repetir"  class="btn-ghost" data-i18n="debrief.repeat">Reiniciar atendimento (treino)</button>
           <button id="btn-exportar" class="btn-ghost" data-i18n="debrief.export">Exportar relatório</button>
           <button id="btn-fases"   class="btn-ghost" data-i18n="debrief.phases">Fases</button>
         </div>

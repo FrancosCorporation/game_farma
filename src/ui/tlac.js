@@ -2,13 +2,15 @@
 // Com indicação concluída → game.registrarTesteRapido(resultado). Sem indicação → não registra.
 import { t } from './i18n.js';
 import { SFX } from '../audio/sfx.js';
+import { lockModalFocus, restoreFocus } from './focus.js';
+import { renderTlacResult } from './tlacResult.js';
 
 const $ = (id) => document.getElementById(id);
 
 const PASSOS = ['tlac.passo1', 'tlac.passo2', 'tlac.passo3', 'tlac.passo4'];
 const DUR_TIMER = 5; // segundos "em jogo"
 
-export function initTlac({ game, aoFechar }) {
+export function initTlac({ game, pov, pharmacy, aoFechar }) {
   const painel = $('tlac');
   const elTipo = $('tlac-tipo');
   const elPassos = $('tlac-passos');
@@ -16,11 +18,14 @@ export function initTlac({ game, aoFechar }) {
   const elTimerFill = $('tlac-timer-fill');
   const elTimerNum = $('tlac-timer-num');
   const elResultado = $('tlac-resultado');
+  const elStatusCena = $('tlac-scene-status');
   const btnFechar = $('btn-tlac-fechar');
 
   let passo = 0;
   let timerId = null;
   let concluido = false;
+  let focoAnterior = null;
+  let liberarModal = null;
 
   const pararTimer = () => { if (timerId) { clearInterval(timerId); timerId = null; } };
 
@@ -62,13 +67,10 @@ export function initTlac({ game, aoFechar }) {
   function concluir(caso) {
     concluido = true;
     elTimer.hidden = true;
-    const resultado = String(caso.testeRapido.resultado || 'executado');
-    const positivo = /positiv/i.test(resultado);
-    elResultado.hidden = false;
-    elResultado.className = 'tlac-resultado ' + (positivo ? 'tlac-positivo' : 'tlac-negativo');
-    elResultado.innerHTML = `
-      <b>${t('tlac.resultado')}:</b> <span class="font-display font-black">${resultado.toUpperCase()}</span>
-      <small class="block mt-1 text-slate-400">${t('tlac.registrado')}</small>`;
+    const resultado = caso.testeRapido.resultado == null
+      ? t('tlac.semResultadoRoteiro') : String(caso.testeRapido.resultado);
+    const positivo = /positiv/i.test(String(caso.testeRapido.resultado || ''));
+    renderTlacResult(elResultado, { resultado, positivo, semResultado: caso.testeRapido.resultado == null, t });
     game.registrarTesteRapido(caso.testeRapido.resultado);
     if (positivo) SFX.redFlag();
     else SFX.chime();
@@ -85,11 +87,14 @@ export function initTlac({ game, aoFechar }) {
   function abrir() {
     const caso = game.case;
     if (!caso) return;
+    if (painel.hidden) focoAnterior = document.activeElement;
     pararTimer();
     passo = 0;
     concluido = false;
     elResultado.hidden = true;
     elTimer.hidden = true;
+    elStatusCena.hidden = true;
+    painel.classList.remove('tlac-cena-3d');
     const tr = caso.testeRapido;
     if (!tr?.indicado) {
       elTipo.textContent = '';
@@ -99,14 +104,25 @@ export function initTlac({ game, aoFechar }) {
       renderPassos();
     }
     painel.hidden = false;
-    const foco = painel.querySelector('button:not([disabled])');
+    liberarModal?.();
+    liberarModal = lockModalFocus(painel);
+    const foco = elPassos.querySelector('button[data-passo]') || btnFechar;
     if (foco) foco.focus();
   }
 
   function fechar() {
+    if (painel.hidden) return;
     pararTimer();
     painel.hidden = true;
+    painel.classList.remove('tlac-cena-3d');
+    elStatusCena.hidden = true;
+    pharmacy?.cancelNs1Fingerstick?.();
+    if (pov?.zonaAtual() === 'coleta') pov.irPara('paciente');
+    liberarModal?.();
+    liberarModal = null;
     aoFechar?.();
+    restoreFocus(focoAnterior, $('btn-hud-tlac'));
+    focoAnterior = null;
   }
 
   elPassos.addEventListener('click', (e) => {
@@ -115,6 +131,14 @@ export function initTlac({ game, aoFechar }) {
     const caso = game.case;
     if (!caso?.testeRapido?.indicado) return;
     SFX.pop();
+    if (passo === 0 && /\bns1\b/i.test(caso.testeRapido.tipo || '')
+      && pharmacy?.playNs1Fingerstick?.(game.avatar)) {
+      const focoColeta = pharmacy.getNs1FingerstickDiagnostics?.().targetPosition;
+      pov?.irPara('coleta', focoColeta ? { focus: focoColeta } : undefined);
+      painel.classList.add('tlac-cena-3d');
+      elStatusCena.textContent = t('tlac.coleta3d');
+      elStatusCena.hidden = false;
+    }
     passo = Number(b.dataset.passo) + 1;
     if (passo >= PASSOS.length) {
       renderPassos();

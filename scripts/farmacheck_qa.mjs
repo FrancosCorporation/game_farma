@@ -23,7 +23,11 @@ async function shot(page, name) {
 }
 const grab = (page, sel) => page.evaluate((s) => document.querySelector(s)?.innerText ?? null, sel);
 
-const browser = await chromium.launch({ headless: true });
+// QA_HEADED=1 uses the host GPU when SwiftShader cannot render the walk in time.
+// Keeps the same arrival deadline and all flow assertions.
+const headed = process.env.QA_HEADED === '1';
+const ANAMNESE_TIMEOUT_MS = Number(process.env.QA_ANAMNESE_TIMEOUT_MS) || 180000;
+const browser = await chromium.launch({ headless: !headed, ...(headed ? { channel: 'chrome', args: ['--ozone-platform=wayland'] } : {}) });
 const page = await browser.newPage({ viewport: { width: 1280, height: 800 } });
 const errors = [];
 page.on('pageerror', (e) => errors.push('pageerror: ' + e.message));
@@ -51,6 +55,12 @@ try {
   const btnIniciar = await page.$('#btn-iniciar');
   check('menu visível com botão iniciar', menuHidden === false && !!btnIniciar, `menu.hidden=${menuHidden}`);
 
+  await page.waitForFunction(
+    () => document.documentElement.dataset.jogoPronto === '1'
+      && document.getElementById('btn-iniciar')?.disabled === false,
+    null, { timeout: 90000, polling: 100 },
+  );
+
   const canvasInfo = await page.evaluate(() => {
     const c = document.querySelector('#scene3d');
     return c ? { w: c.width, h: c.height, hasGL: !!c.getContext('webgl2') || !!c.getContext('webgl') } : null;
@@ -63,13 +73,13 @@ try {
       window.__tInicio = performance.now();
       document.querySelector('#btn-iniciar').click();
     });
-    // Aguarda o jogo chegar à ANAMNESE. Prazo generoso de propósito: em headless o
+    // Aguarda o jogo chegar à ANAMNESE. O limite acompanha qa_boot: em headless o
     // WebGL é SwiftShader (~1 fps) e o walk-in do paciente só avança por frames
     // renderizados — um limite de 10 s aqui só media a lentidão do software rasterizer.
     // O tempo que interessa (com GPU) sai no log abaixo.
     const anamnese = await page.waitForFunction(
       () => window.__farmacheck?.game?.state === 'ANAMNESE',
-      null, { timeout: 90000, polling: 100 },
+      null, { timeout: ANAMNESE_TIMEOUT_MS, polling: 100 },
     ).then(() => true).catch(() => false);
     const msAteAnamnese = await page.evaluate(() => Math.round(performance.now() - (window.__tInicio || performance.now())));
     await shot(page, '01_iniciado');
@@ -78,9 +88,9 @@ try {
     const chatNome = await grab(page, '#chat-nome');
     check('iniciou e mostrou paciente', !!paciente && !/encerrado/i.test(paciente || ''), `hud-paciente="${paciente}"`);
     check('fase setada (Anamnese)', anamnese && !!fase && fase !== '—',
-      `fase="${fase}" state=${anamnese} em ${msAteAnamnese} ms (headless/software)`);
+      `fase="${fase}" state=${anamnese} em ${msAteAnamnese} ms (${headed ? 'host GPU' : 'headless/software'})`);
     check('chat com nome do paciente', !!chatNome && !/aguardando/i.test(chatNome || ''), `chat-nome="${chatNome}"`);
-    console.log('PACIENTE:', paciente, '| FASE:', fase, '| CHAT:', chatNome, '| até digitar:', msAteAnamnese + 'ms');
+    console.log('PACIENTE:', paciente, '| FASE:', fase, '| CHAT:', chatNome, '| até digitar:', msAteAnamnese + 'ms', '| render:', headed ? 'host GPU' : 'headless/software');
   } else {
     check('botão iniciar encontrado', false, 'sem #btn-iniciar');
   }

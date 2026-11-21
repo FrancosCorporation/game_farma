@@ -576,59 +576,72 @@ export const CASES = [
   ],
 },
 {
-  id: 'carla_dengue', version: 1, temRedFlag: true, titulo: 'A pressa que esconde uma febre',
+  // CASO ÚNICO ATIVO (decisão do usuário em 24/10/2026): o jogo roda apenas este
+  // paciente, apresentado como "Mariana" (Geovana de Souza Troian), conforme
+  // `Downloads/modelos_aserarrumado.docx`. O id `carla_dengue` foi mantido porque
+  // modelos, vozes, manifesto, ledger e proveniência (455 hashes) são indexados por ele.
+  id: 'carla_dengue', version: 1, temRedFlag: false, titulo: 'A pressa que esconde uma febre',
   persona: {
-    nome: 'Carla', idade: 24,
-    resumo: 'profissional de saúde de hospital, apressada, sem filhos, quer resolver "no intervalo do plantão" e minimiza os próprios sintomas',
+    nome: 'Mariana', nomeCivil: 'Geovana de Souza Troian', idade: 25,
+    resumo: 'técnica de enfermagem em hospital, faz plantões noturnos e quer resolver antes de bater o ponto',
     voz: { rate: 1.12, pitch: 1.2 },
     aparencia: { camisa: 0x3e8f7a, calca: 0x27404b, cabelo: 0x1f1a17, pele: 0xa9714b },
-    falaForaDominio: 'Amiga, eu trabalho no hospital, sei o que é febre. Só o Sonrisal mesmo, meu intervalo tá acabando.',
-    falaRepetida: 'Eu sei o que é, confia. Sonrisal pra dor no corpo e pronto.',
+    falaForaDominio: 'Não sei responder isso com certeza. Pode me perguntar sobre o que estou sentindo?',
+    falaRepetida: 'Posso contar de novo o que senti, se ajudar.',
   },
-  pedido: 'Sonrisal (AAS 500 mg efervescente) — "dor no corpo e dor de cabeça"',
-  abertura: 'Oi! Pode ser rapidinho? Me dá um Sonrisal? Tô com dor no corpo e dor de cabeça, e meu intervalo do plantão tá acabando.',
+  pedido: 'Sonrisal (AAS 325 mg por comprimido efervescente) — para aliviar náuseas e mal-estar gástrico',
+  abertura: 'Oi! Só rapidinho, por favor: me dá um Sonrisal? Tô com náusea e o estômago embrulhado, e meu plantão começa já.',
   fatos: [
-    { tag: 'dor_corpo_cabeca', dominio: 'localizacao', valor: true, nivel: 'voluntario', redFlag: false, rotulo: 'Dor no corpo e dor de cabeça', falaLeiga: 'Dor no corpo todo e essa dor de cabeça que não deixa eu pensar.' },
-    { tag: 'inicio_hoje', dominio: 'duracao', valor: true, nivel: 'voluntario', redFlag: false, rotulo: 'Início hoje', falaLeiga: 'Acordei hoje já sentindo, piorou durante o plantão.' },
-    { tag: 'dor_retroocular', dominio: 'localizacao', valor: true, nivel: 'relutante', redFlag: false, gatilho: '(atr[aá]s dos olho|olho|retroocular|testa)', segredo: '(atr[aá]s dos olho)', rotulo: 'Dor atrás dos olhos', falaLeiga: 'É... essa dor de cabeça é mais atrás dos olhos, um peso chato.', falaEvasiva: 'Dor de cabeça normal, de cansaço mesmo.' },
+    { tag: 'dor_corpo_cabeca', dominio: 'localizacao', valor: true, nivel: 'voluntario', redFlag: false, rotulo: 'Mialgia generalizada, especialmente nos membros, e cefaleia intensa', falaLeiga: 'Dói o corpo todo, principalmente os braços e as pernas, e essa dor de cabeça forte não deixa eu pensar.' },
+    { tag: 'inicio_hoje', dominio: 'duracao', valor: true, nivel: 'voluntario', redFlag: false, rotulo: 'Início há cerca de 2 dias', falaLeiga: 'Começou há uns dois dias com febre e dor no corpo, e piorou no plantão.' },
     { tag: 'corpo_moido', dominio: 'caracter', valor: true, nivel: 'relutante', redFlag: false, gatilho: '(como (e|esta)|que tipo|corpo|moid|doendo)', segredo: '(moid|moer|atropelad|a pele)', rotulo: 'Corpo "moído" (mialgia intensa)', falaLeiga: 'O corpo tá moído, viu... parece que fui atropelada, dói até a pele.', falaEvasiva: 'É o cansaço do plantão, coisa de quem fica em pé.' },
-    { tag: 'febre_alta_sudita', dominio: 'febre', valor: true, nivel: 'relutante', redFlag: true, gatilho: '(febre|temperatura|escalafrio|calor no corpo|termometro)', segredo: '(febre alta|de repente|39)', rotulo: 'Febre alta de início súbito', falaLeiga: 'É... ontem de repente veio uma febre alta, medi e tava passando de 39. Hoje ainda tô queimando.', falaEvasiva: 'Febre? Só um calorzinho, deve ser do movimento.' },
-    { tag: 'trabalha_hospital', dominio: 'historico', valor: true, nivel: 'extraivel', redFlag: false, rotulo: 'Trabalha na área da saúde (hospital)', falaLeiga: 'Sou técnica em um hospital, vivo nessa correria.' },
-    { tag: 'primeira_vez', dominio: 'episodios', valor: false, nivel: 'extraivel', redFlag: false, rotulo: 'Primeiro episódio assim; sem filhos pequenos em casa', falaLeiga: 'Nunca fiquei assim não, e moro sozinha, não tenho filhos.' },
-    { tag: 'medicacao_hoje', dominio: 'medicamentos', valor: false, nivel: 'extraivel', redFlag: false, rotulo: 'Sem medicação hoje', falaLeiga: 'Hoje não tomei nada ainda — por isso quero logo o Sonrisal.' },
-    { tag: 'alergias_neg', dominio: 'alergias', valor: false, nivel: 'extraivel', redFlag: false, rotulo: 'Alergias: nega', falaLeiga: 'Alergia não tenho, que eu saiba.' },
-    { tag: 'sangramento_neg', dominio: 'associados', valor: false, nivel: 'extraivel', redFlag: false, rotulo: 'Sem sangramento (gengiva/nariz) até agora', falaLeiga: 'Sangramento não notei, gengiva e nariz tão normais.' },
+    { tag: 'febre_alta_sudita', dominio: 'febre', valor: true, nivel: 'extraivel', redFlag: false, rotulo: 'Febre aguda (cerca de 38 °C)', falaLeiga: 'A febre começou há uns dois dias, perto de 38 graus.' },
+    { tag: 'trabalha_hospital', dominio: 'historico', valor: true, nivel: 'extraivel', redFlag: false, rotulo: 'Trabalha na área da saúde (hospital)', falaLeiga: 'Sou técnica em um hospital, vivo nessa correria.', somenteGatilho: true, gatilho: '(trabalh|plantao|hospital|profiss|ocupac)' },
+    { tag: 'peso_62kg', dominio: 'historico', valor: true, nivel: 'extraivel', redFlag: false, rotulo: 'Peso: 62 kg', falaLeiga: 'Peso 62 quilos.', somenteGatilho: true, gatilho: '(quanto.*pes|qual.*peso|meu peso|seu peso|weigh|weight)' },
+    { tag: 'alimentacao_habitual', dominio: 'fatores', valor: true, nivel: 'extraivel', redFlag: false, rotulo: 'Prepara marmitas; sem mudança recente ou alimento estragado', falaLeiga: 'Eu preparo minha comida em casa e levo marmita para o plantão. Não mudei a alimentação nem comi nada diferente ou estragado.', somenteGatilho: true, gatilho: '(comida|comer|comeu|alimentac|alimento|estragado|marmita|dieta)' },
+    { tag: 'nausea_diarreia', dominio: 'associados', valor: true, nivel: 'extraivel', redFlag: false, rotulo: 'Náuseas e um episódio de diarreia', falaLeiga: 'Senti náusea e tive um episódio de diarreia.', somenteGatilho: true, gatilho: '(nausea|enjoo|diarrei|outros sintomas|o que sente|sentindo)' },
+    { tag: 'dor_abdominal_neg', dominio: 'associados', valor: false, nivel: 'extraivel', redFlag: true, rotulo: 'Dor abdominal intensa e contínua: negada', falaLeiga: 'Não tive dor forte e contínua na barriga.', somenteGatilho: true, gatilho: '(dor abdominal|dor.*barriga|barriga.*dor|abdominal pain|stomach pain|belly pain)' },
+    { tag: 'vomitos_persistentes_neg', dominio: 'associados', valor: false, nivel: 'extraivel', redFlag: true, rotulo: 'Vômitos persistentes: negados', falaLeiga: 'Não vomitei.', somenteGatilho: true, gatilho: '(vomit|vomitando|throw(?:ing)? up)' },
+    { tag: 'sangramento_neg', dominio: 'associados', valor: false, nivel: 'extraivel', redFlag: true, rotulo: 'Sangramento: negado', falaLeiga: 'Não tive sangramento, nem no nariz ou na gengiva.', somenteGatilho: true, gatilho: '(sangr|hematoma|bleed|bruis|nosebleed|gengiva|nariz)' },
+    { tag: 'hipotensao_postural_neg', dominio: 'associados', valor: false, nivel: 'extraivel', redFlag: true, rotulo: 'Tontura ao levantar ou sensação de desmaio: negadas', falaLeiga: 'Não fico tonta quando me levanto e não senti que ia desmaiar.', somenteGatilho: true, gatilho: '(hipotens|tontura|levanta|pressao|desmai|postural|orthostatic|dizz|lightheaded|faint|stand)' },
+    { tag: 'medicacao_hoje', dominio: 'medicamentos', valor: true, nivel: 'extraivel', redFlag: false, rotulo: 'Tomou dipirona (alívio temporário) e apresentou exantema no pescoço', falaLeiga: 'Tomei dipirona pra febre e pra dor, aliviou um tempinho... mas aí apareceram umas manchas vermelhas aqui no pescoço.', gatilho: '(remedio|medicamento|dipirona|mancha|exantema|tomou|tomei)', segredo: '(dipirona|manchas vermelhas|exantema)' },
+    { tag: 'reacao_dipirona', dominio: 'alergias', valor: true, nivel: 'extraivel', redFlag: false, rotulo: 'Exantema no pescoço após dipirona; relação ainda não confirmada', falaLeiga: 'Depois da dipirona apareceram manchas vermelhas no meu pescoço. Não sei se foi reação ao remédio.' },
   ],
-  checklistDominios: ['duracao', 'localizacao', 'caracter', 'febre', 'associados', 'historico', 'medicamentos', 'alergias', 'episodios'],
+  checklistDominios: ['duracao', 'localizacao', 'caracter', 'febre', 'associados', 'historico', 'fatores', 'medicamentos', 'alergias'],
   redFlagDominios: ['febre', 'associados'],
   condutaGabarito: { tipo: 'encaminhar', mips: [], naoFarm: [] },
-  testeRapido: { indicado: true, tipo: 'Dengue NS1/IgM', resultado: 'positivo' },
+  // O relatório exige aplicar NS1, mas não fornece um resultado para a paciente.
+  testeRapido: { indicado: true, tipo: 'Dengue NS1', resultado: null },
   dsf: {
-    condutaCorreta: 'Recusei o Sonrisal (AAS contraindicado em suspeita de dengue), orientei hidratação e sinais de alarme e emitimos DSF de encaminhamento urgente ao pronto-socorro',
-    encaminhamento: 'Pronto-socorro — URGENTE (suspeita de dengue confirmada em teste rápido)',
+    condutaCorreta: 'Recusei o Sonrisal (AAS contraindicado na suspeita de dengue), orientei hidratação e sinais de alarme e encaminhei para avaliação clínica em UBS ou serviço de urgência conforme a triagem',
+    encaminhamento: 'UBS ou serviço de urgência conforme sinais de alarme e avaliação clínica; solicitar avaliação médica e hemograma',
   },
   contraindicado: { item: 'aas', motivo: 'AAS (Sonrisal) é contraindicado em suspeita de dengue — risco de sangramento e quadro hemorrágico' },
   prateleira: [
-    { id: 'aas', nome: 'Sonrisal 500 mg (o pedido — AAS efervescente)' },
-    { id: 'soro', nome: 'Soro de reidratação oral / repositor' },
-    { id: 'paracetamol', nome: 'Paracetamol 500 mg (analgésico/antitérmico)' },
+    { id: 'aas', nome: 'Sonrisal 325 mg de AAS por comprimido (o pedido — efervescente combinado)' },
+    { id: 'soro', nome: 'Soro de reidratação oral (SRO) / repositor' },
+    { id: 'paracetamol', nome: 'Paracetamol 750 mg (MIP — 6/6h em caso de febre ou dor, respeitando a dose máxima diária)' },
   ],
-  orientacoes: ['Não tomar AAS/anti-inflamatório (risco de sangramento na dengue)', 'Aumentar a ingesta de líquidos (hidratação)', 'Vigiar sinais de alarme: dor abdominal intensa, vômitos persistentes, sangramento, sonolência', 'Encaminhar ao pronto-socorro hoje'],
+  orientacoes: ['Não tomar AAS, anti-inflamatórios nem corticoides na suspeita de dengue', 'Reidratação oral: cerca de 60 mL/kg/dia (≈3,6 L) — 1/3 de SRO e 2/3 de líquidos caseiros (água, água de coco, sucos); repouso relativo', 'Avaliar paracetamol para febre ou dor; suspender temporariamente a dipirona diante da suspeita de farmacodermia', 'Vigiar sinais de alarme: dor abdominal intensa, vômitos persistentes, sangramento, hipotensão postural', 'Encaminhar à UBS/serviço de urgência conforme a triagem para avaliação médica e hemograma; procurar urgência imediatamente se houver sinal de alarme'],
   errosCriticos: [
     { id: 'vender_aas', teste: (d) => d.conduta === 'vender', msg: 'Vendeu AAS (Sonrisal) para quadro febril agudo compatível com dengue: AAS aumenta o risco de hemorragia em arbovirose — contraindicação direta.' },
-    { id: 'mip_sem_encaminhar', teste: (d) => d.conduta === 'sugerir', msg: 'Sugeriu MIP sem encaminhamento diante de febre alta súbita + mialgia + dor retroocular: suspeita de dengue exige teste rápido e avaliação no pronto-socorro.' },
+    { id: 'mip_sem_encaminhar', teste: (d) => d.conduta === 'sugerir', msg: 'Sugeriu apenas MIP diante de febre, mialgia e náusea: a suspeita de dengue exige triagem de sinais de alarme e encaminhamento para avaliação clínica.' },
   ],
   consequencias: {
-    vender: { desfecho: 'fatal', titulo: 'O Sonrisal da pressa', texto: 'Carla tomou o Sonrisal e voltou ao plantão. À noite, a febre subiu e começou um sangramento que o AAS tornou impossível de estancar. A colega que lhe vendeu "só um Sonrisal" aprendeu no pior jeito: profissional de saúde também é paciente — e suspeita de dengue não se trata com antiagregante no balcão.' },
-    sugerir: { desfecho: 'grave', titulo: 'Alívio hoje, hemorragia depois', texto: 'Você trocou o Sonrisal por paracetamol e mandou beber água — e a febre "melhorou" justamente no dia da fase crítica. Quando o sangramento começou, o PS confirmou dengue com plaquetas em queda. O teste rápido no balcão teria previsto tudo.' },
-    encaminhar: { desfecho: 'bom', titulo: 'O teste rápido que virou a noite', texto: 'Você não vendeu o Sonrisal: conectou a febre súbita, o corpo moído e a dor atrás dos olhos, consultou as diretrizes e fez o teste rápido Dengue NS1/IgM — positivo — antes de recusar o AAS, orientar hidratação e sinais de alarme e emitir a DSF de encaminhamento urgente ao pronto-socorro. Carla foi acompanhada na fase crítica e voltou ao hospital do lado de cá da maca.' },
+    vender: { desfecho: 'grave', titulo: 'O Sonrisal da pressa', texto: 'Mariana levou o Sonrisal e voltou ao plantão sem avaliação. O AAS aumenta o risco de sangramento na suspeita de dengue. A oportunidade de investigar sinais de alarme, orientar hidratação e encaminhar para avaliação clínica foi perdida.' },
+    sugerir: { desfecho: 'grave', titulo: 'Alívio sem avaliação', texto: 'Você substituiu o Sonrisal por paracetamol e orientou líquidos, mas não encaminhou Mariana para avaliação clínica. A febre pode ceder antes da fase de maior risco; ela precisava de triagem de sinais de alarme e orientação de retorno.' },
+    encaminhar: { desfecho: 'bom', titulo: 'A triagem que mudou o atendimento', texto: 'Você não dispensou Sonrisal. Investigou a febre, a mialgia e as manchas após a dipirona, realizou o teste de triagem NS1 e orientou hidratação, sinais de alarme e avaliação em UBS ou serviço de urgência conforme a triagem. Registrou a conduta na DSF; o resultado do teste, por si só, não determina a gravidade.' },
   },
   chips: [
     { label: 'O que sente?', q: 'Me conta o que exatamente você está sentindo?' },
     { label: 'Há quanto tempo?', q: 'Quando começou isso?' },
-    { label: 'Como é a dor?', q: 'Como é essa dor no corpo? A cabeça dói atrás dos olhos?' },
+    { label: 'Como é a dor?', q: 'Como é essa dor no corpo e na cabeça?' },
     { label: 'Febre?', q: 'Teve febre? Mediu a temperatura?' },
-    { label: 'Sangramento?', q: 'Notou sangramento na gengiva, no nariz ou hematomas?' },
+    { label: 'Dor na barriga?', q: 'Teve dor abdominal intensa e contínua?' },
+    { label: 'Vômitos?', q: 'Teve vômitos persistentes?' },
+    { label: 'Sangramento?', q: 'Notou sangramento na gengiva ou no nariz?' },
+    { label: 'Tontura?', q: 'Sentiu tontura ao se levantar ou sensação de desmaio?' },
+    { label: 'Alimentação?', q: 'Mudou a alimentação ou comeu algo estragado?' },
     { label: 'Trabalho?', q: 'Tem alguma doença? Onde você trabalha?' },
     { label: 'Remédios?', q: 'Tomou algum remédio hoje?' },
     { label: 'Alergia?', q: 'Tem alguma alergia?' },
@@ -752,6 +765,16 @@ export const CASES = [
 
 export const CASE_INDEX = new Map(CASES.map((c) => [c.id, c]));
 
+// ── Roster ativo do jogo ───────────────────────────────────────────────────
+// DECISÃO DO USUÁRIO (24/10/2026): por enquanto o jogo roda APENAS UM caso — o de
+// dengue, apresentado como "Mariana" — com base em
+// `Downloads/modelos_aserarrumado.docx` e `Downloads/relatorio_melhorias_farmacheck.docx`.
+// Os demais 13 casos continuam no catálogo (CASES) com seus modelos, vozes e
+// evidências intactos: nada foi apagado, eles apenas saem do fluxo jogável.
+// Script/game importam ACTIVE_CASES; gates de manifesto/proveniência seguem em CASES.
+export const ACTIVE_CASE_IDS = Object.freeze(['carla_dengue']);
+export const ACTIVE_CASES = Object.freeze(CASES.filter((c) => ACTIVE_CASE_IDS.includes(c.id)));
+
 // Ids de casos servidos pelo modo Expediente Livre vêm com sufixo `_sNNNNNN`.
 const BASE_ID = (id) => String(id || '').replace(/_s\d+$/, '');
 
@@ -802,15 +825,34 @@ export function seededPickCaseIds(count, seed = 1) {
   return ids.slice(0, count);
 }
 
-export async function fetchNextCase(serverURL) {
+export async function fetchNextCase(serverURL, timeoutMs = 4000) {
   if (!serverURL) return null;
+  let baseUrl;
   try {
-    const r = await fetch(`${serverURL.replace(/\/$/, '')}/cases/next`, {
-      method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{}',
+    const url = new URL(serverURL);
+    if (!['http:', 'https:'].includes(url.protocol) || url.username || url.password) return null;
+    baseUrl = url.toString().replace(/\/$/, '');
+  } catch { return null; }
+  const controller = new AbortController();
+  const boundedTimeoutMs = Number.isFinite(timeoutMs) ? Math.max(1, Math.min(30000, Math.floor(timeoutMs))) : 4000;
+  const timeout = setTimeout(() => controller.abort(), boundedTimeoutMs);
+  try {
+    const r = await fetch(`${baseUrl}/cases/next`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: '{}',
+      signal: controller.signal,
     });
     if (!r.ok) return null;
-    const c = await r.json();
-    const ok = c && c.id && c.persona?.nome && Array.isArray(c.fatos) && c.condutaGabarito && c.consequencias;
-    return ok ? c : null;
+    const payload = await r.json();
+    if (typeof payload?.id !== 'string') return null;
+    const id = payload.id.replace(/_s\d+$/, '');
+    const localCase = CASES.find((caso) => caso.id === id);
+    if (!localCase) return null;
+    const seed = Number.isSafeInteger(payload.seed) && payload.seed >= 0 && payload.seed < 1e6
+      ? payload.seed
+      : undefined;
+    return seed === undefined ? localCase : { ...localCase, seed };
   } catch { return null; }
+  finally { clearTimeout(timeout); }
 }

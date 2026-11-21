@@ -1,21 +1,21 @@
 #!/usr/bin/env node
 // Localized geometric low-pass for a runtime-derived pants vertex mask.
-// Usage: node scripts/smooth_character_pants_surface.mjs <input.glb> <mask.json> <output.glb> [factor=0.12] [iterations=2] [maxMoveMm=8] [normals=recompute|preserve]
+// Usage: node scripts/smooth_character_pants_surface.mjs <input.glb> <mask.json> <output.glb> [factor=0.12] [iterations=2] [maxMoveMm=8] [normals=recompute|preserve] [laplacian|taubin]
 import { createHash } from 'node:crypto';
 import { readFile, stat } from 'node:fs/promises';
 import { NodeIO, Primitive } from '@gltf-transform/core';
 import { ALL_EXTENSIONS } from '@gltf-transform/extensions';
 import { MeshoptDecoder, MeshoptEncoder } from 'meshoptimizer';
 
-const [input, maskPath, output, factorArg = '0.12', iterationsArg = '2', maxMoveMmArg = '8', normalMode = 'recompute'] = process.argv.slice(2);
+const [input, maskPath, output, factorArg = '0.12', iterationsArg = '2', maxMoveMmArg = '8', normalMode = 'recompute', method = 'laplacian'] = process.argv.slice(2);
 if (!input || !maskPath || !output || input === '--help') {
   console.log('Uso: node scripts/smooth_character_pants_surface.mjs <input.glb> <mask.json> <output.glb> [factor=0.12] [iterations=2] [maxMoveMm=8] [normals=recompute|preserve]');
   process.exit(input ? 0 : 2);
 }
 const factor = Number(factorArg), iterations = Number(iterationsArg);
 const maxMoveMm = Number(maxMoveMmArg);
-if (!(factor > 0 && factor <= 0.3) || !Number.isInteger(iterations) || iterations < 1 || iterations > 8 || !(maxMoveMm > 0 && maxMoveMm <= 20) || !['recompute', 'preserve'].includes(normalMode)) {
-  throw new Error('factor deve estar em (0, 0.3], iterations entre 1 e 8, maxMoveMm entre 0 e 20');
+if (!['laplacian', 'taubin'].includes(method) || !(factor > 0 && factor <= (method === 'taubin' ? .5 : .3)) || !Number.isInteger(iterations) || iterations < 1 || iterations > (method === 'taubin' ? 40 : 8) || !(maxMoveMm > 0 && maxMoveMm <= 20) || !['recompute', 'preserve'].includes(normalMode)) {
+  throw new Error('Invalid smoothing parameters (Taubin: factor <= .5, iterations <= 40; Laplacian: factor <= .3, iterations <= 8)');
 }
 
 await Promise.all([MeshoptDecoder.ready, MeshoptEncoder.ready]);
@@ -25,6 +25,7 @@ const io = new NodeIO().registerExtensions(ALL_EXTENSIONS).registerDependencies(
 });
 const doc = await io.read(input);
 const maskData = JSON.parse(await readFile(maskPath, 'utf8'));
+if (maskData.sourceSha256 && createHash('sha256').update(await readFile(input)).digest('hex') !== maskData.sourceSha256) throw new Error('mask SHA does not match input');
 const mask = maskData.mask;
 const primitiveEntries = doc.getRoot().listMeshes().flatMap((mesh) => mesh.listPrimitives().map((primitive) => ({ mesh, primitive })));
 if (primitiveEntries.length !== 1) throw new Error(`esperada uma primitive, encontrada ${primitiveEntries.length}`);
@@ -65,7 +66,10 @@ const compatibleCopies = (a, b) => {
   for (const joint of keys) l1 += Math.abs((skin[a].get(joint) ?? 0) - (skin[b].get(joint) ?? 0));
   const ao = a * 3, bo = b * 3;
   const dot = authoredNormals[ao] * authoredNormals[bo] + authoredNormals[ao + 1] * authoredNormals[bo + 1] + authoredNormals[ao + 2] * authoredNormals[bo + 2];
-  return l1 <= 0.05 && dot >= 0.97;
+  // Inside the repaired cloth region, authored shading seams may themselves
+  // carry the ripple. Join consistent skin copies across those seams while
+  // keeping opposed surfaces and all other regions separate.
+  return l1 <= 0.05 && dot >= (method === 'taubin' && mask[a] && mask[b] ? 0.0 : 0.97);
 };
 
 // Build virtual geometric vertices for co-located UV/normal seams. We keep
@@ -152,14 +156,16 @@ for (let g = 0; g < groupCount; g++) {
 if (editableCount < 100) throw new Error(`máscara interior insuficiente: ${editableCount} grupos editáveis`);
 
 let current = groupSource.slice();
-for (let pass = 0; pass < iterations; pass++) {
+for (let pass = 0; pass < iterations * (method === 'taubin' ? 2 : 1); pass++) {
   const next = current.slice();
   for (let g = 0; g < groupCount; g++) {
     if (!editable[g]) continue;
     let x = 0, y = 0, z = 0, n = 0;
     for (const j of neighbors[g]) { x += current[j * 3]; y += current[j * 3 + 1]; z += current[j * 3 + 2]; n++; }
     if (!n) continue;
-    const k = g * 3, t = factor;
+    // Alternating expansion suppresses high-frequency noise without the
+    // systematic shrinkage of repeated positive Laplacian passes.
+    const k = g * 3, t = method === 'taubin' && pass % 2 ? -factor * 1.06 : factor;
     next[k] = current[k] + t * (x / n - current[k]);
     next[k + 1] = current[k + 1] + t * (y / n - current[k + 1]);
     next[k + 2] = current[k + 2] + t * (z / n - current[k + 2]);
@@ -258,5 +264,6 @@ for (let i = 0; i < vertexCount; i++) {
 const rms = Math.sqrt(sumSquares / movedCount);
 console.log(`[pants-smooth] positional weld groups=${duplicateGroups} copies=${groupedCopies} partialMaskGroups=${partialMaskGroups}`);
 console.log(`[pants-smooth] selectedVertices=${selectedCount} editableGroups=${editableCount} movedGroups=${movedCount} capped=${limitedCount} normals=${normalCount} zeroNormals=${zeroNormals}`);
-console.log(`[pants-smooth] factor=${factor} passes=${iterations} rms=${(rms * 1000).toFixed(3)} mm source max=${(maxMove * 1000).toFixed(3)} mm source (limit=${maxMoveMm} mm); runtime≈${(rms * 1.72 * 1000).toFixed(3)} / ${(maxMove * 1.72 * 1000).toFixed(3)} mm`);
+console.log(`[pants-smooth] method=${method} factor=${factor} passes=${iterations} rms=${(rms * 1000).toFixed(3)} mm source max=${(maxMove * 1000).toFixed(3)} mm source (limit=${maxMoveMm} mm)`);
+if (Number.isFinite(maskData.runtimeScale)) console.log(`[pants-smooth] runtime rms=${(rms * maskData.runtimeScale * 1000).toFixed(3)} mm max=${(maxMove * maskData.runtimeScale * 1000).toFixed(3)} mm`);
 console.log(`[pants-smooth] normals=${normalMode}; topology/JOINTS/WEIGHTS preserved; output=${output} bytes=${(await stat(output)).size}`);

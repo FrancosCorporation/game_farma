@@ -1,6 +1,0 @@
-Kind: captions
-Language: en
-foreign
-foreign
-thank you
-thank you

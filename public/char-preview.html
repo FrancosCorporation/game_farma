@@ -32,6 +32,8 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
 
 const qs = new URLSearchParams(location.search);
+const travelEnabled = qs.get('travel') === '1';
+let travelDistance = 0, travelSpeed = 0;
 const name = qs.get('m') || 'ana';
 const canvas = document.getElementById('c');
 const hud = document.getElementById('hud');
@@ -58,13 +60,22 @@ scene.background = new THREE.Color(0x1a2530);
 scene.add(new THREE.HemisphereLight(0xdfe9f5, 0x2a2622, 1.0));
 const key = new THREE.DirectionalLight(0xfff2e0, 2.4);
 key.position.set(4, 6, 7); key.castShadow = true; key.shadow.mapSize.set(2048, 2048);
-Object.assign(key.shadow.camera, { left: -3, right: 3, top: 3, bottom: -3 });
+// The 1.72 m character needs a short shadow depth range. The default far=500
+// with zero bias produced concentric self-shadow acne on the pants and shirt.
+Object.assign(key.shadow.camera, { left: -3, right: 3, top: 3, bottom: -3, near: 0.5, far: 20 });
+key.shadow.bias = -0.0001;
+key.shadow.normalBias = 0.005;
+key.shadow.camera.updateProjectionMatrix();
 scene.add(key);
 const rim = new THREE.DirectionalLight(0x9fc8ff, 1.1); rim.position.set(-3, 3, -4); scene.add(rim);
 const fill = new THREE.PointLight(0x9fd8ff, 4, 12); fill.position.set(-3, 2.4, 3); scene.add(fill);
 
-const floor = new THREE.Mesh(new THREE.CircleGeometry(5, 64), new THREE.MeshStandardMaterial({ color: 0x2a3742, roughness: 0.9 }));
+const floor = new THREE.Mesh(new THREE.CircleGeometry(travelEnabled ? 9 : 5, 64), new THREE.MeshStandardMaterial({ color: 0x2a3742, roughness: 0.9 }));
 floor.rotation.x = -Math.PI / 2; floor.receiveShadow = true; scene.add(floor);
+if (travelEnabled) {
+  const grid = new THREE.GridHelper(16, 32, 0x526775, 0x3c4d59);
+  grid.position.y = .001; scene.add(grid, key.target, rim.target);
+}
 
 const camera = new THREE.PerspectiveCamera(38, innerWidth / innerHeight, 0.05, 60);
 const controls = new OrbitControls(camera, renderer.domElement);
@@ -82,6 +93,7 @@ function setCam(k) {
   const c = CAMS[k] || CAMS.full;
   camera.position.set(...c[0]);
   controls.target.set(...c[1]);
+  camera.position.z += travelDistance; controls.target.z += travelDistance;
   controls.update();
 }
 document.querySelectorAll('#ui button[data-cam]').forEach(b => b.onclick = () => setCam(b.dataset.cam));
@@ -141,6 +153,10 @@ function loadModel() {
     m.traverse(o => { if (o.isMesh) { o.castShadow = true; o.receiveShadow = true; } });
     scene.add(m);
     model = m;
+    const walkClip = g.animations?.find(c => /^walk$/i.test(c.name));
+    const advance = Number(g.asset?.extras?.walkAdvance);
+    travelSpeed = walkClip && Number.isFinite(advance) && advance > 0 ? advance / walkClip.duration : 0;
+    window.__previewTravel = { enabled: travelEnabled, speed: travelSpeed, distance: travelDistance, cycles: 0 };
     window.__ready = true;
     // Ground-fix skinned: calibrar pelo ponto mais baixo do ciclo completo,
     // nunca por um frame isolado. Uma amostra no meio do Walk pode estar vários
@@ -241,10 +257,29 @@ if (qs.get('cam') === 'free') {
 }
 let frames = 0, lastFpsT = performance.now();
 let lastT = performance.now();
+function advancePreview(dt) {
+  if (!Number.isFinite(dt) || dt < 0) throw new Error('Invalid preview delta');
+  if (!window.__playing || !window.__mixer) return;
+  window.__mixer.update(dt);
+  // In-place clips intentionally move a planted foot backward in local space.
+  // travel=1 adds the calibrated root motion against a fixed floor so contact
+  // can be reviewed in world space, using the same delta as the clip.
+  if (travelEnabled && model && /^walk$/i.test(window.__anim) && travelSpeed > 0) {
+    const next = (travelDistance + travelSpeed * dt) % 4.4;
+    if (next < travelDistance) window.__previewTravel.cycles++;
+    const delta = next - travelDistance;
+    for (const object of [model, camera, controls.target, key, key.target, rim, rim.target, fill]) {
+      const position = object.isVector3 ? object : object.position;
+      position.z += delta;
+    }
+    travelDistance = next; window.__previewTravel.distance = next;
+  }
+}
+window.__advancePreview = advancePreview;
 function loop() {
   requestAnimationFrame(loop);
   const nowT = performance.now();
-  if (window.__mixer) window.__mixer.update(window.__playing ? Math.min((nowT - lastT) / 1000, 0.05) : 0);
+  advancePreview(Math.min((nowT - lastT) / 1000, 0.05));
   lastT = nowT;
   controls.autoRotate = spin;
   controls.autoRotateSpeed = 1.6;

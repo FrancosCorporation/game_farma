@@ -2,8 +2,10 @@
 // combo/multiplicador, pontos ganhos, sequências, conquistas (idempotência) e rank.
 // Roda em node puro (localStorage em memória) — usado por `npm run test:logica`.
 // Sai com código 1 se qualquer assert falhar.
-import { createProgressStore, comboMultiplier, rankInfo, COMBO_MIN_NOTA } from '../src/core/progression.js';
+import { createProgressStore, comboMultiplier, rankInfo, COMBO_MIN_NOTA, PHASES } from '../src/core/progression.js';
+import { CASES, ACTIVE_CASES, ACTIVE_CASE_IDS } from '../src/data/cases.js';
 import { evaluateAchievements, ACHIEVEMENT_IDS, ACHIEVEMENTS, achievementIcon } from '../src/core/achievements.js';
+import { setLang, t } from '../src/ui/i18n.js';
 
 // ---------- shim de localStorage (node) ----------
 const mem = new Map();
@@ -13,10 +15,24 @@ globalThis.localStorage = {
   removeItem: (k) => mem.delete(k),
   clear: () => mem.clear(),
 };
+globalThis.document = { documentElement: {}, dispatchEvent() {} };
 
 let fails = 0;
 const ok = (cond, msg) => { console.log(`${cond ? 'PASS' : 'FAIL'}  ${msg}`); if (!cond) fails++; };
 const eq = (a, b, msg) => ok(Object.is(a, b) || JSON.stringify(a) === JSON.stringify(b), `${msg} (got ${JSON.stringify(a)}, want ${JSON.stringify(b)})`);
+
+// ---------- 0. contrato/documentação do Expediente Livre ----------
+console.log('\n── Expediente Livre: serviço opcional, catálogo local');
+const freeShift = PHASES.find(({ id }) => id === 'livre');
+ok(/Mariana/i.test(freeShift.desc) && /serviço opcional/i.test(freeShift.desc),
+  'metadado descreve o caso único e o serviço opcional');
+setLang('pt');
+ok(/Mariana/i.test(t('phase.livre.desc')) && /serviço opcional/i.test(t('phase.livre.desc')),
+  'descrição PT mantém apenas Mariana no expediente livre');
+setLang('en');
+ok(/Mariana/i.test(t('phase.livre.desc')) && /optional service/i.test(t('phase.livre.desc')),
+  'descrição EN mantém apenas Mariana no expediente livre');
+setLang('pt');
 
 // ---------- 1. multiplicador do combo ----------
 console.log('\n── combo: multiplicador');
@@ -50,6 +66,39 @@ eq([c3.mult, c3.ganhos, c3.combo, c3.comboQuebrou], [1.2, 72, 0, true], 'nota 60
 eq(store.state.semReprovar, 3, 'semReprovar conta 3 casos sem dispensa contraindicada');
 const c4 = store.registerResult({ faseId: 'aprendiz', casoId: 'caso_d', nota: 100, stars: 3, reprovado: true });
 eq([c4.combo, store.state.semReprovar, c4.ganhos], [0, 0, 100], 'reprovado: combo e semReprovar zeram (pontos seguem a nota)');
+
+console.log('\n── replay concluído: treino sem farming');
+const replayStore = createProgressStore();
+replayStore.reset();
+replayStore.registerResult({ faseId: 'aprendiz', casoId: 'marina_amoxicilina', nota: 60, stars: 1 });
+const beforeReplay = {
+  pontos: replayStore.state.pontos,
+  combo: replayStore.state.combo,
+  feitos: replayStore.state.porFase.aprendiz.feitos.length,
+  historico: replayStore.state.historico.length,
+};
+const replay = replayStore.registerResult({
+  faseId: 'aprendiz', casoId: 'marina_amoxicilina', nota: 95, stars: 3,
+  practice: true, badges: ['primeiro_dia'],
+});
+eq([replay.practice, replay.ganhos, replay.pontos, replay.combo], [true, 0, 60, 0], 'replay não altera pontos nem combo');
+eq([replayStore.state.porFase.aprendiz.feitos.length, replayStore.state.historico.length],
+  [beforeReplay.feitos, beforeReplay.historico], 'replay não conta como novo atendimento/histórico');
+eq([replayStore.state.porCaso.marina_amoxicilina, replayStore.state.porFase.aprendiz.estrelas.marina_amoxicilina],
+  [95, 3], 'replay pode melhorar recorde pessoal e estrelas');
+eq(replay.novasBadges.length, 0, 'replay não concede conquistas');
+const firstAttemptDespitePracticeFlag = replayStore.registerResult({
+  faseId: 'aprendiz', casoId: 'jose_gripe', nota: 50, stars: 2, practice: true,
+});
+eq([firstAttemptDespitePracticeFlag.practice, firstAttemptDespitePracticeFlag.ganhos],
+  [false, 50], 'flag de replay não suprime o primeiro registro do caso');
+setLang('pt');
+ok(/sem pontuação/i.test(t('debrief.repeat')) && /não altera pontos/i.test(t('debrief.practice')),
+  'UI PT explica que repetir é treino sem pontuação/progresso');
+setLang('en');
+ok(/no points/i.test(t('debrief.repeat')) && /does not change points/i.test(t('debrief.practice')),
+  'UI EN explica que replay é treino sem pontuação/progresso');
+setLang('pt');
 
 // ---------- 4. conquistas (predicados puros) ----------
 console.log('\n── conquistas: predicados');
@@ -117,7 +166,24 @@ eq(s3.unlockedBadges().length, badgesSoltas.length, 'badges persistem no save');
 for (let i = 0; i < 45; i++) s3.registerResult({ faseId: 'livre', casoId: `z${i}`, nota: 10, stars: 0 });
 eq(s3.state.historico.length, 40, 'histórico capado em 40 entradas');
 s3.reset();
-eq([s3.state.pontos, s3.state.combo, s3.unlockedBadges().length, s3.state.historico.length], [undefined, 0, 0, 0], 'reset limpa pontos/combo/conquistas/histórico');
+eq([s3.state.pontos, s3.state.combo, s3.unlockedBadges().length, s3.state.historico.length], [0, 0, 0, 0], 'reset limpa pontos/combo/conquistas/histórico');
+
+console.log('\n── cobertura do elenco e desbloqueio por pontos');
+const covered = new Set(PHASES.flatMap((p) => p.casos || []));
+// Escopo ativo (24/10/2026): só o caso "Mariana" (carla_dengue) é jogável; os
+// demais 13 seguem em CASES para os gates de manifesto/proveniência/pacote clínico.
+ok(CASES.length === 14, 'catálogo completo mantém os 14 casos do escopo FC-006');
+ok(ACTIVE_CASES.length === 1 && ACTIVE_CASES[0].id === 'carla_dengue', 'roster ativo = apenas o caso Mariana (carla_dengue)');
+ok(ACTIVE_CASES.every((c) => covered.has(c.id)), 'todo caso ativo tem fase finita');
+const inactive = CASES.filter((c) => !ACTIVE_CASE_IDS.includes(c.id));
+ok(inactive.length === 13, 'os outros 13 casos permanecem no catálogo (nada apagado)');
+ok(inactive.every((c) => !covered.has(c.id)), 'nenhum caso inativo entra em fase jogável');
+for (const [points, expectedLevel] of [[0,0],[49,0],[50,1],[69,1],[70,2],[119,2],[120,3]]) {
+  localStorage.setItem('farmacheck:progress', JSON.stringify({pontos:points}));
+  const store = createProgressStore();
+  eq(store.unlockLevel(), expectedLevel, `desbloqueio correto em ${points} pontos`);
+  ok(!store.isLocked(PHASES.length - 1), 'Expediente Livre acessível');
+}
 
 console.log(fails ? `\n${fails} FALHA(S)` : '\n✔ TODOS OS CHECKS PASSARAM');
 process.exit(fails ? 1 : 0);
