@@ -1,7 +1,7 @@
 {
   "name": "farmacheck-web",
   "private": true,
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "FarmaCheck — O Desafio da Anamnese (simulador web 3D de farmácia com IA llama.cpp)",
   "type": "module",
   "scripts": {

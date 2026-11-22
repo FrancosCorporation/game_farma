@@ -174,7 +174,7 @@
 .menu-settings > summary { color:#99f6e4; cursor:pointer; font-weight:700; font-size:.95rem; }
 .menu-settings[open] > summary { margin-bottom:1rem; }
 @media (max-width:480px) { .menu-topline { align-items:flex-start; flex-direction:column; } }
-body:has(#capa:not([hidden]), #menu:not([hidden])) #fullscreen-controls { display:none; }
+body:has(#capa:not([hidden])) #fullscreen-controls { display:none; }
 
 @media (max-width:639px) and (orientation:portrait) {
   .capa-backdrop { display:block; overflow-y:auto; background:#071a29; }
