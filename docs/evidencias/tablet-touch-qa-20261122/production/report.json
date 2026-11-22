@@ -1,0 +1,555 @@
+{
+  "url": "https://francoscorporation.ddns.net/game/ufggame/",
+  "viewports": [
+    {
+      "width": 1024,
+      "height": 768,
+      "name": "tablet-paisagem",
+      "layout": {
+        "fullscreen": {
+          "x": 499.203125,
+          "y": 57,
+          "right": 612,
+          "bottom": 101,
+          "width": 112.796875,
+          "height": 44,
+          "visible": true
+        },
+        "controls": {
+          "x": 12,
+          "y": 68,
+          "right": 172.125,
+          "bottom": 199.390625,
+          "width": 160.125,
+          "height": 131.390625,
+          "visible": true
+        },
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "right": 1024,
+          "bottom": 49.375,
+          "width": 1024,
+          "height": 49.375,
+          "visible": true
+        },
+        "chat": {
+          "x": 624,
+          "y": 40,
+          "right": 1024,
+          "bottom": 768,
+          "width": 400,
+          "height": 728,
+          "visible": true
+        },
+        "actions": {
+          "x": 12,
+          "y": 687.625,
+          "right": 709.78125,
+          "bottom": 720,
+          "width": 697.78125,
+          "height": 32.375,
+          "visible": true
+        }
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "celular-retrato",
+      "layout": {
+        "fullscreen": {
+          "x": 265.203125,
+          "y": 64,
+          "right": 378,
+          "bottom": 108,
+          "width": 112.796875,
+          "height": 44,
+          "visible": true
+        },
+        "controls": {
+          "x": 12,
+          "y": 68,
+          "right": 172.125,
+          "bottom": 199.390625,
+          "width": 160.125,
+          "height": 131.390625,
+          "visible": true
+        },
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "right": 390,
+          "bottom": 56,
+          "width": 390,
+          "height": 56,
+          "visible": true
+        },
+        "chat": {
+          "x": 0,
+          "y": 394,
+          "right": 390,
+          "bottom": 844,
+          "width": 390,
+          "height": 450,
+          "visible": true
+        },
+        "actions": {
+          "x": 6.390625,
+          "y": 335.609375,
+          "right": 383.609375,
+          "bottom": 387.609375,
+          "width": 377.21875,
+          "height": 52,
+          "visible": true
+        }
+      }
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "name": "celular-paisagem",
+      "layout": {
+        "fullscreen": {
+          "x": 347.203125,
+          "y": 64,
+          "right": 460,
+          "bottom": 108,
+          "width": 112.796875,
+          "height": 44,
+          "visible": true
+        },
+        "controls": {
+          "x": 12,
+          "y": 68,
+          "right": 172.125,
+          "bottom": 199.390625,
+          "width": 160.125,
+          "height": 131.390625,
+          "visible": true
+        },
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "right": 844,
+          "bottom": 56,
+          "width": 844,
+          "height": 56,
+          "visible": true
+        },
+        "chat": {
+          "x": 472.640625,
+          "y": 56,
+          "right": 844,
+          "bottom": 390,
+          "width": 371.359375,
+          "height": 334,
+          "visible": true
+        },
+        "actions": {
+          "x": 8,
+          "y": 272.40625,
+          "right": 464.640625,
+          "bottom": 382,
+          "width": 456.640625,
+          "height": 109.59375,
+          "visible": true
+        }
+      }
+    }
+  ],
+  "errors": [
+    "Failed to load resource: the server responded with a status of 404 ()"
+  ],
+  "checks": [
+    {
+      "name": "tablet touch reconhecido acima de 1024 px",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "botão de tela cheia aparece no menu do tablet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "botão oferece saída acessível",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "direcional de toque disponível no atendimento",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "voltar ao balcão tem nome claro",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "tela cheia continua acessível com painel aberto",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "tela cheia foi ativada",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "saída da tela cheia continua visível",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "rótulo muda para sair",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "usuário consegue sair da tela cheia",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "toque mantido move a câmera e soltar interrompe o direcional",
+      "ok": true,
+      "detail": {
+        "start": {
+          "x": 0,
+          "z": 2.7
+        },
+        "movedRight": {
+          "x": 1.2999999999999998,
+          "z": 2.7
+        },
+        "released": "false"
+      }
+    },
+    {
+      "name": "retorno ao balcão fica visível fora do ponto do paciente",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "retorno ao balcão responde ao toque",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "tablet-paisagem: tela cheia e direcional dentro da tela",
+      "ok": true,
+      "detail": {
+        "fullscreen": {
+          "x": 499.203125,
+          "y": 57,
+          "right": 612,
+          "bottom": 101,
+          "width": 112.796875,
+          "height": 44,
+          "visible": true
+        },
+        "controls": {
+          "x": 12,
+          "y": 68,
+          "right": 172.125,
+          "bottom": 199.390625,
+          "width": 160.125,
+          "height": 131.390625,
+          "visible": true
+        },
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "right": 1024,
+          "bottom": 49.375,
+          "width": 1024,
+          "height": 49.375,
+          "visible": true
+        },
+        "chat": {
+          "x": 624,
+          "y": 40,
+          "right": 1024,
+          "bottom": 768,
+          "width": 400,
+          "height": 728,
+          "visible": true
+        },
+        "actions": {
+          "x": 12,
+          "y": 687.625,
+          "right": 709.78125,
+          "bottom": 720,
+          "width": 697.78125,
+          "height": 32.375,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "tablet-paisagem: direcional sem cobrir conversa ou ações",
+      "ok": true,
+      "detail": {
+        "fullscreen": {
+          "x": 499.203125,
+          "y": 57,
+          "right": 612,
+          "bottom": 101,
+          "width": 112.796875,
+          "height": 44,
+          "visible": true
+        },
+        "controls": {
+          "x": 12,
+          "y": 68,
+          "right": 172.125,
+          "bottom": 199.390625,
+          "width": 160.125,
+          "height": 131.390625,
+          "visible": true
+        },
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "right": 1024,
+          "bottom": 49.375,
+          "width": 1024,
+          "height": 49.375,
+          "visible": true
+        },
+        "chat": {
+          "x": 624,
+          "y": 40,
+          "right": 1024,
+          "bottom": 768,
+          "width": 400,
+          "height": 728,
+          "visible": true
+        },
+        "actions": {
+          "x": 12,
+          "y": 687.625,
+          "right": 709.78125,
+          "bottom": 720,
+          "width": 697.78125,
+          "height": 32.375,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "celular-retrato: tela cheia e direcional dentro da tela",
+      "ok": true,
+      "detail": {
+        "fullscreen": {
+          "x": 265.203125,
+          "y": 64,
+          "right": 378,
+          "bottom": 108,
+          "width": 112.796875,
+          "height": 44,
+          "visible": true
+        },
+        "controls": {
+          "x": 12,
+          "y": 68,
+          "right": 172.125,
+          "bottom": 199.390625,
+          "width": 160.125,
+          "height": 131.390625,
+          "visible": true
+        },
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "right": 390,
+          "bottom": 56,
+          "width": 390,
+          "height": 56,
+          "visible": true
+        },
+        "chat": {
+          "x": 0,
+          "y": 394,
+          "right": 390,
+          "bottom": 844,
+          "width": 390,
+          "height": 450,
+          "visible": true
+        },
+        "actions": {
+          "x": 6.390625,
+          "y": 335.609375,
+          "right": 383.609375,
+          "bottom": 387.609375,
+          "width": 377.21875,
+          "height": 52,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "celular-retrato: direcional sem cobrir conversa ou ações",
+      "ok": true,
+      "detail": {
+        "fullscreen": {
+          "x": 265.203125,
+          "y": 64,
+          "right": 378,
+          "bottom": 108,
+          "width": 112.796875,
+          "height": 44,
+          "visible": true
+        },
+        "controls": {
+          "x": 12,
+          "y": 68,
+          "right": 172.125,
+          "bottom": 199.390625,
+          "width": 160.125,
+          "height": 131.390625,
+          "visible": true
+        },
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "right": 390,
+          "bottom": 56,
+          "width": 390,
+          "height": 56,
+          "visible": true
+        },
+        "chat": {
+          "x": 0,
+          "y": 394,
+          "right": 390,
+          "bottom": 844,
+          "width": 390,
+          "height": 450,
+          "visible": true
+        },
+        "actions": {
+          "x": 6.390625,
+          "y": 335.609375,
+          "right": 383.609375,
+          "bottom": 387.609375,
+          "width": 377.21875,
+          "height": 52,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "celular-paisagem: tela cheia e direcional dentro da tela",
+      "ok": true,
+      "detail": {
+        "fullscreen": {
+          "x": 347.203125,
+          "y": 64,
+          "right": 460,
+          "bottom": 108,
+          "width": 112.796875,
+          "height": 44,
+          "visible": true
+        },
+        "controls": {
+          "x": 12,
+          "y": 68,
+          "right": 172.125,
+          "bottom": 199.390625,
+          "width": 160.125,
+          "height": 131.390625,
+          "visible": true
+        },
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "right": 844,
+          "bottom": 56,
+          "width": 844,
+          "height": 56,
+          "visible": true
+        },
+        "chat": {
+          "x": 472.640625,
+          "y": 56,
+          "right": 844,
+          "bottom": 390,
+          "width": 371.359375,
+          "height": 334,
+          "visible": true
+        },
+        "actions": {
+          "x": 8,
+          "y": 272.40625,
+          "right": 464.640625,
+          "bottom": 382,
+          "width": 456.640625,
+          "height": 109.59375,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "celular-paisagem: direcional sem cobrir conversa ou ações",
+      "ok": true,
+      "detail": {
+        "fullscreen": {
+          "x": 347.203125,
+          "y": 64,
+          "right": 460,
+          "bottom": 108,
+          "width": 112.796875,
+          "height": 44,
+          "visible": true
+        },
+        "controls": {
+          "x": 12,
+          "y": 68,
+          "right": 172.125,
+          "bottom": 199.390625,
+          "width": 160.125,
+          "height": 131.390625,
+          "visible": true
+        },
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "right": 844,
+          "bottom": 56,
+          "width": 844,
+          "height": 56,
+          "visible": true
+        },
+        "chat": {
+          "x": 472.640625,
+          "y": 56,
+          "right": 844,
+          "bottom": 390,
+          "width": 371.359375,
+          "height": 334,
+          "visible": true
+        },
+        "actions": {
+          "x": 8,
+          "y": 272.40625,
+          "right": 464.640625,
+          "bottom": 382,
+          "width": 456.640625,
+          "height": 109.59375,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "sem erros de página/console",
+      "ok": false,
+      "detail": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ]
+    }
+  ],
+  "failure": "sem erros de página/console"
+}
