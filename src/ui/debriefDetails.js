@@ -6,6 +6,8 @@ export function buildDebriefDetails(result, caseDef, { t, domainLabel }) {
     add(`${t('debrief.faltaPerguntar')}${result.missedDomains.map(domainLabel).join(', ')}.`, 'text-amber-300');
   if (result.missedRed.length)
     add(`${t('debrief.alertaNaoInvestigado')}${result.missedRed.map(domainLabel).join(', ')}.`, 'text-amber-300');
+  if (result.marcacoesIncorretas?.length)
+    add(`${t('debrief.marcacoesIncorretas')}${result.marcacoesIncorretas.join('; ')}.`, 'text-amber-300');
   if (result.reprovado)
     add(`${t('debrief.reprovado')}${caseDef.contraindicado?.motivo || t('bulario.contraindicado')}).`, 'text-red-400 font-semibold');
   if (result.testeRapidoPerdido)
@@ -20,7 +22,7 @@ export function buildDebriefDetails(result, caseDef, { t, domainLabel }) {
 
   if (!result.missedDomains.length && !result.missedRed.length && !result.criticals.length
     && !result.reprovado && !result.testeRapidoPerdido && !result.arboviroseNaoEncaminhada
-    && !result.orientacaoInadequada && result.dsfOk)
+    && !result.orientacaoInadequada && !result.marcacoesIncorretas?.length && result.dsfOk)
     add(t('debrief.perfeito'), 'text-teal-300');
 
   return details;

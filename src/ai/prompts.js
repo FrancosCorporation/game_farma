@@ -84,6 +84,19 @@ export function buildActorSystemPrompt(caso, knowledge, novos, evasivas) {
 // Voz determinística (fallback offline). falaLeiga é a fonte única dos tiers.
 export function templateReply(caso, knowledge, novos, evasivas, question = '') {
   if (caso?.id === 'carla_dengue') {
+    const q = norm(question);
+    if (/\b(vacin|imuniz)/.test(q) && /\bdengue\b/.test(q)) {
+      return getLang() === 'en'
+        ? "I don't know whether I've had a dengue vaccine."
+        : 'Não sei dizer se tomei a vacina contra a dengue.';
+    }
+    if (/\b(articulac|junta|joint)/.test(q)) {
+      return getLang() === 'en'
+        ? 'My arms and legs ache, but I cannot tell whether the pain is in the joints.'
+        : 'Meus braços e pernas doem, mas não sei dizer se a dor é nas articulações.';
+    }
+  }
+  if (caso?.id === 'carla_dengue') {
     const factsBySign = {
       dor_abdominal: 'dor_abdominal_neg',
       vomitos: 'vomitos_persistentes_neg',

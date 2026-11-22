@@ -116,6 +116,14 @@ const history = [{ content: 'Bom dia, Carla.' }];
 
 const perfect = scoreCase(carla, fullyAsked, correctDecision, history);
 assert.equal(perfect.total, 100, 'complete local case performance reaches the score ceiling');
+const revealedWarnings = { ...fullyAsked, revealed: new Map([...fullyAsked.revealed, ...fourSignKnowledge.revealed]) };
+const correctlyMarked = scoreCase(carla, revealedWarnings, correctDecision, history);
+const wronglyMarked = scoreCase(carla, revealedWarnings, {
+  ...correctDecision, redFlags: ['vomitos_persistentes_neg'],
+}, history);
+assert.equal(correctlyMarked.total - wronglyMarked.total, 3,
+  'marcar como alerta um sinal negado reduz a nota somente na avaliação final');
+assert.deepEqual(wronglyMarked.marcacoesIncorretas, ['Vômitos persistentes: negados']);
 assert.equal(perfect.dsfOk, true);
 assert.equal(perfect.testeRapidoPerdido, false);
 assert.equal(perfect.arboviroseNaoEncaminhada, false);
@@ -129,12 +137,13 @@ assert.equal(writtenDsf.breakdown.find((item) => item.metrica === 'dsf')?.pontos
 const absentDsf = scoreCase(carla, fullyAsked, { ...correctDecision, dsf: null }, history);
 assert.equal(absentDsf.breakdown.find((item) => item.metrica === 'dsf')?.pontos, 0,
   'sem emissão, o item DSF permanece zerado');
-assert.equal(dsfCorreta(carla, 'Orientei cuidados gerais. Avaliação clínica presumida: quadro a esclarecer.', 'encaminhar'), false,
-  'texto genérico não recebe a pontuação de DSF com conduta correta');
 assert.equal(dsfCorreta(carla, 'Recusei Sonrisal e encaminhei à UBS.', 'encaminhar'), false,
-  'DSF sem avaliação clínica presumida não recebe os 30 pontos');
-assert.equal(dsfCorreta(carla, 'Recusei Sonrisal, encaminhei à UBS. Avaliação clínica presumida: dengue.', 'encaminhar'), false,
-  'DSF sem achados nem orientação não recebe crédito completo');
+  'registro sem achados e avaliação não recebe crédito completo');
+const partialDsf = scoreCase(carla, fullyAsked, {
+  ...correctDecision, dsf: 'Recusei Sonrisal e encaminhei à UBS.',
+}, history);
+assert.equal(partialDsf.breakdown.find((item) => item.metrica === 'dsf')?.pontos, 10,
+  'DSF emitida com decisão correta recebe crédito parcial, sem ficar zerada');
 
 const dsfThresholdCase = {
   dsf: { condutaCorreta: 'encaminhar paciente avaliação clínica imediata' },
@@ -166,6 +175,11 @@ const soldContraindicated = scoreCase(carla, fullyAsked, {
 assert.equal(soldContraindicated.reprovado, true, 'dispensing the contraindicated item is an immediate fail');
 assert.equal(soldContraindicated.total, 0, 'immediate fail clamps the final score to zero');
 assert.equal(soldContraindicated.breakdown.find((item) => item.metrica === 'contraindicado')?.pontos, -100);
+const suggestedContraindicated = scoreCase(carla, fullyAsked, {
+  ...correctDecision, conduta: 'sugerir', mips: ['aas'],
+}, history);
+assert.equal(suggestedContraindicated.reprovado, true,
+  'item contraindicado selecionado é avaliado na confirmação da conduta');
 
 const notReferred = scoreCase(carla, fullyAsked, {
   ...correctDecision, conduta: 'sugerir', mips: ['paracetamol'],

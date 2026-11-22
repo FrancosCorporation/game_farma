@@ -1,6 +1,8 @@
 // FarmaCheck server — Node 0-dep.
 //   · serve o build estático (dist/)
 //   · POST /api/case/next  → caso-base randomizado (schema válido) p/ Modo Expediente Livre
+//   · /api/llm/primary/*   → llama.cpp na rede privada
+//   · POST /api/llm/fallback → NVIDIA com chave somente no servidor
 import { createServer } from 'node:http';
 import { readFile, stat } from 'node:fs/promises';
 import { extname, isAbsolute, join, relative, resolve, sep } from 'node:path';
@@ -13,7 +15,15 @@ const PORT = process.env.PORT || 4174;
 const HOST = process.env.HOST || '127.0.0.1'; // em container, HOST=0.0.0.0 (ver Dockerfile)
 const NVIDIA_API_KEY = process.env.NVIDIA_API_KEY?.trim() || '';
 const NVIDIA_MODEL = process.env.NVIDIA_MODEL?.trim() || 'nvidia/nemotron-3.5-lightning-30b-a3b';
+const LLAMA_BASE_URL = (process.env.LLAMA_BASE_URL?.trim() || 'http://llama-cpp:8080/v1').replace(/\/+$/, '');
+const LLAMA_MODEL = process.env.LLAMA_MODEL?.trim() || '';
 const LLM_RATE_LIMIT = new Map();
+let detectedLlamaModel = '';
+
+function rememberLlamaModel(payload) {
+  const model = payload?.data?.[0]?.id || payload?.models?.[0]?.model || payload?.models?.[0]?.name;
+  if (typeof model === 'string' && model) detectedLlamaModel = model;
+}
 
 async function readJsonBody(req, maxBytes) {
   const chunks = [];
@@ -145,6 +155,71 @@ const server = createServer(async (req, res) => {
     if (pathname.includes('\0')) {
       route = 'malformed';
       reply(400, 'Malformed URL');
+      return;
+    }
+
+    if (pathname === '/api/llm/primary/models') {
+      route = 'llm-primary-models';
+      if (req.method !== 'GET') { reply(405, 'Method Not Allowed', { Allow: 'GET' }); return; }
+      try {
+        const upstream = await fetch(`${LLAMA_BASE_URL}/models`, { signal: AbortSignal.timeout(4000) });
+        if (!upstream.ok) throw new Error('llama unavailable');
+        const body = await upstream.text();
+        try { rememberLlamaModel(JSON.parse(body)); } catch { /* upstream status was enough for availability */ }
+        reply(200, body, { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' });
+      } catch {
+        reply(200, JSON.stringify({ data: [], available: false }), { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' });
+      }
+      return;
+    }
+
+    if (pathname === '/api/llm/primary/chat/completions') {
+      route = 'llm-primary-chat';
+      if (req.method !== 'POST') { reply(405, 'Method Not Allowed', { Allow: 'POST' }); return; }
+      if (!sameOriginRequest(req)) { reply(403, 'Forbidden'); return; }
+      if (!allowLlmRequest(req)) { reply(429, 'Too many requests'); return; }
+      let input;
+      try { input = await readJsonBody(req, 64 * 1024); }
+      catch (error) { reply(error.status || 400, 'Invalid request'); return; }
+      if (!validLlmMessages(input.messages)) { reply(400, 'Invalid messages'); return; }
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 45000);
+      const onClose = () => { if (!res.writableEnded) controller.abort(); };
+      res.once('close', onClose);
+      try {
+        if (!LLAMA_MODEL && !detectedLlamaModel) {
+          const models = await fetch(`${LLAMA_BASE_URL}/models`, { signal: AbortSignal.timeout(4000) });
+          if (models.ok) rememberLlamaModel(await models.json());
+        }
+        const model = typeof input.model === 'string' && input.model.length <= 120 && input.model !== 'auto'
+          ? input.model : (LLAMA_MODEL || detectedLlamaModel);
+        if (!model) { reply(503, 'Local model unavailable'); return; }
+        const upstream = await fetch(`${LLAMA_BASE_URL}/chat/completions`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            model,
+            messages: input.messages,
+            stream: true,
+            temperature: Number.isFinite(input.temperature) ? Math.max(0, Math.min(input.temperature, 2)) : 0.7,
+            max_tokens: Number.isInteger(input.max_tokens) ? Math.max(1, Math.min(input.max_tokens, 350)) : 110,
+          }),
+          signal: controller.signal,
+        });
+        if (!upstream.ok || !upstream.body) { reply(502, 'Local model unavailable'); return; }
+        res.writeHead(200, { 'Content-Type': 'text/event-stream; charset=utf-8', 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff' });
+        for await (const chunk of upstream.body) {
+          if (!res.write(chunk)) await new Promise((resolveDrain) => res.once('drain', resolveDrain));
+        }
+        res.end();
+        logAccess(200);
+      } catch (error) {
+        if (res.headersSent) { res.destroy(); logAccess(error?.name === 'AbortError' ? 504 : 502); }
+        else reply(error?.name === 'AbortError' ? 504 : 502, 'Local model unavailable');
+      } finally {
+        clearTimeout(timer);
+        res.off('close', onClose);
+      }
       return;
     }
 

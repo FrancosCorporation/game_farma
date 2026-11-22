@@ -159,7 +159,7 @@
     <div id="tlac" hidden class="absolute inset-0 grid place-items-center bg-slate-950/80 backdrop-blur pointer-events-auto overflow-y-auto">
       <div id="tlac-card" class="tlac-card pop-in" role="dialog" aria-modal="true" aria-labelledby="tlac-titulo">
         <header class="refs-header">
-          <h2 id="tlac-titulo" class="refs-title" data-i18n="tlac.title">🧪 Teste rápido (TLAC)</h2>
+          <h2 id="tlac-titulo" class="refs-title" data-i18n="tlac.title">🧪 Teste rápido</h2>
           <button id="btn-tlac-fechar" class="btn-ghost" data-i18n="tlac.close">Fechar</button>
         </header>
         <p id="tlac-tipo" class="text-xs text-slate-400 mb-3"></p>
@@ -204,11 +204,15 @@
         <label class="block"><span class="text-xs uppercase tracking-wide text-slate-400" data-i18n="dsf.encaminhamento">Encaminhamento</span>
           <input id="dsf-encaminhamento" class="input mt-1" /></label>
         <button id="btn-dsf-emitir" class="btn-primary w-full py-3" data-i18n="dsf.emitir">Emitir DSF</button>
+        <div>
+          <h3 class="text-sm font-semibold" data-i18n="dsf.savedList">Declarações salvas neste jogo</h3>
+          <div id="dsf-salvas" class="space-y-2 mt-2"></div>
+        </div>
         <button id="btn-dsf-reiniciar" type="button" class="btn-ghost w-full" data-i18n="dsf.reiniciar">Reiniciar atendimento</button>
       </div>
     </section>
 
-    <!-- F4 — Preview imprimível da DSF -->
+    <!-- F4 — Visualização e salvamento da DSF -->
     <div id="dsf-preview" hidden role="dialog" aria-modal="true" aria-labelledby="dsf-doc-title" class="absolute inset-0 overflow-y-auto bg-slate-950/90 backdrop-blur pointer-events-auto">
       <article class="dsf-doc mx-auto max-w-2xl my-8 p-8 rounded-2xl bg-slate-100 text-slate-900 shadow-2xl">
         <header class="dsf-head">
@@ -221,8 +225,8 @@
           <p id="dsf-doc-stamp" class="dsf-stamp"></p>
         </footer>
         <div class="flex flex-wrap gap-3 mt-6 no-print">
-          <p id="dsf-print-error" hidden role="status" aria-live="polite" class="w-full text-sm text-amber-300" data-i18n="dsf.print.error"></p>
-          <button id="btn-dsf-imprimir" class="btn-primary" data-i18n="dsf.imprimir">🖨 Imprimir / PDF</button>
+          <p id="dsf-save-status" hidden role="status" aria-live="polite" class="w-full text-sm text-teal-800"></p>
+          <button id="btn-dsf-salvar" class="btn-primary" data-i18n="dsf.salvar">Salvar no jogo</button>
           <button id="btn-dsf-voltar" class="btn-ghost" data-i18n="dsf.voltar">← Editar</button>
           <button id="btn-dsf-preview-reiniciar" type="button" class="btn-ghost" data-i18n="dsf.reiniciar">Reiniciar atendimento</button>
         </div>

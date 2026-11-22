@@ -202,7 +202,8 @@ try {
     registered: window.__farmacheck.game.testeRapido,
   }));
   assert.match(undefinedResult.className, /tlac-neutro/);
-  assert.match(undefinedResult.text, /não informado no roteiro clínico/i);
+  assert.match(undefinedResult.text, /teste rápido realizado/i);
+  assert.doesNotMatch(undefinedResult.text, /positivo|negativo|inconclusivo|não informado/i);
   assert.deepEqual(undefinedResult.registered, { executado: true, resultado: null });
   assert.deepEqual(pageErrors, [], `browser has no uncaught/console errors: ${pageErrors.join(' | ')}`);
   console.log('PASS TLAC browser regression: safe positive rendering and neutral result when the case gives none.');

@@ -1,0 +1,10 @@
+{
+  "url": "https://francoscorporation.ddns.net/game/ufggame/api/llm/fallback",
+  "status": 200,
+  "durationMs": 1422,
+  "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+  "caseId": "carla_dengue",
+  "text": "Ué, né? Aí é que tá o problema... eu nem lembro direito! A gente costuma pegar esses vírus no plantão, mas a febre começou de repente, uns dois dias atrás, tipo numa madrugada. Acordei sentindo aquele calorão, mas não tinha nada de estranho no trabalho ainda. Agora é só tentar controlar pra não piorar antes de começar o turno.",
+  "scenarioSha256": "02a2c4e91b7db5a58bedf2f6410d74c6177043cabb71bbd3623996073835b234",
+  "responseSha256": "36c102256f2655b8e2986ad1d612a4c11a15d5bdd8088f1c436f29488045e1fa"
+}

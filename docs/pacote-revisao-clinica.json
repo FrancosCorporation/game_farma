@@ -39,12 +39,12 @@
     {
       "file": "src/ai/patientReply.js",
       "scope": "Patient response construction and deterministic fallback.",
-      "sha256": "c9c0334ebf21e236e97596479338d6d6700f8f669665010d8e9146085443197a"
+      "sha256": "47ab8deb4f7088481b5d6074e9ffb1f55975c8371893f233acf461826189c549"
     },
     {
       "file": "src/core/scoring.js",
       "scope": "Disposition, contraindication, rapid-test and DSF scoring.",
-      "sha256": "23e889b5b21291f1aba87680c72a07698502d380c771da9c43295c04e3020167"
+      "sha256": "2410cdd1adf244e1171ec8c8ec6972f79f3eb0ea545238255c2bcfb717d7f264"
     },
     {
       "file": "src/core/testeRapidoMessage.js",
@@ -64,17 +64,17 @@
     {
       "file": "src/ui/tlac.js",
       "scope": "Visible rapid-test flow.",
-      "sha256": "2e7014aa750459556fb84940eb85a0320a51a3f1ff6ca32f694f6848c24f5e63"
+      "sha256": "638fc6f40bea0eeebfc4aa50362183bc0cde8fa9fb84397185271ff02e8b766b"
     },
     {
       "file": "src/ui/dsf.js",
-      "scope": "Visible DSF form, quick entries and printable output.",
-      "sha256": "e6ea9b1848615e9467648291fc0c8ade46822c5a5296aac76b4b700040506d63"
+      "scope": "Visible DSF form, quick entries and in-game saved output.",
+      "sha256": "a3ad74fc07d071895d0406efb1be9500c2ebf26cea8c87119658bb740e40b7b9"
     },
     {
       "file": "src/ui/i18n.js",
       "scope": "Visible PT/EN clinical and educational interface strings.",
-      "sha256": "bd17adf914caf6c32d3aa9ad9667efad05ec3616b31768790d06de92fe22e35e"
+      "sha256": "447aedcd3f630e1aa7c3eb5924b47a0581c7419232e26ff18968e0358c6b75e1"
     }
   ],
   "visibleClinicalStrings": {
@@ -94,7 +94,7 @@
       "bulario.dir1": "MIPs: orientar dose, horário e duração máxima (reavaliar em até 3–5 dias sem melhora).",
       "bulario.dir2": "Sinais de alarme na dengue (dor abdominal intensa e contínua, vômitos persistentes, sangramento ou hipotensão postural) → procurar urgência imediatamente.",
       "bulario.dir3": "Suspeita de dengue: não usar AAS, anti-inflamatórios nem corticoides; avaliar risco de sangramento e encaminhar conforme a triagem.",
-      "tlac.title": "🧪 Teste rápido (TLAC)",
+      "tlac.title": "🧪 Teste rápido",
       "tlac.naoIndicado": "Sem indicação de teste rápido para este caso — dispensar o kit não pontua nem registra.",
       "tlac.passo1": "Higienizar as mãos e usar o lancetador no dedo da paciente",
       "tlac.passo2": "Coletar a gota de sangue",
@@ -122,7 +122,7 @@
       "debrief.reprovado": "REPROVADO — dispensou item contraindicado (",
       "debrief.testePerdidoPre": "Teste rápido indicado (",
       "debrief.testePerdidoPos": ") e não executado (−30).",
-      "debrief.dsf": "DSF não emitida ou com conduta incorreta (−30)."
+      "debrief.dsf": "DSF ausente ou incompleta: registre avaliação, achados e conduta para os 30 pontos."
     },
     "en": {
       "guide.steps": "Talk to the patient and investigate the complaint. Consult the computer, use the rapid test when indicated, and choose a course of action. The report explains the outcome.",
@@ -140,7 +140,7 @@
       "bulario.dir1": "OTC medicines: advise dose, schedule and maximum duration (reassess within 3–5 days without improvement).",
       "bulario.dir2": "Dengue warning signs (severe continuous abdominal pain, persistent vomiting, bleeding or postural hypotension) → seek urgent care immediately.",
       "bulario.dir3": "Suspected dengue: do not use ASA, NSAIDs or corticosteroids; assess bleeding risk and refer according to triage.",
-      "tlac.title": "🧪 Rapid test (POCT)",
+      "tlac.title": "🧪 Rapid test",
       "tlac.naoIndicado": "No rapid test indicated for this case — using the kit neither scores nor registers.",
       "tlac.passo1": "Sanitize hands and use the lancet on the patient’s finger",
       "tlac.passo2": "Collect the blood drop",
@@ -168,7 +168,7 @@
       "debrief.reprovado": "FAILED — dispensed a contraindicated item (",
       "debrief.testePerdidoPre": "Rapid test indicated (",
       "debrief.testePerdidoPos": ") but not performed (−30).",
-      "debrief.dsf": "DSF not issued or with wrong conduct (−30)."
+      "debrief.dsf": "Statement missing or incomplete: record assessment, findings and conduct for all 30 points."
     }
   },
   "cases": [

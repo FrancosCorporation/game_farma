@@ -1,8 +1,9 @@
-// F4 — DSF (Declaração de Serviços Farmacêuticos): formulário guiado + preview imprimível.
+// F4 — DSF (Declaração de Serviços Farmacêuticos): formulário e registro salvo no jogo.
 // Ao emitir → game.registrarDSF(texto); a rubrica usa a emissão e a decisão estruturada.
 import { t, applyI18n } from './i18n.js';
 import { SFX } from '../audio/sfx.js';
 import { lockModalFocus, restoreFocus } from './focus.js';
+import { listSavedDsf, saveDsf } from '../core/dsfStorage.js';
 
 const $ = (id) => document.getElementById(id);
 
@@ -20,12 +21,13 @@ const RAPIDAS = [
 export function initDsf({ game, aoFechar }) {
   const painel = $('dsf');
   const preview = $('dsf-preview');
-  const erroImpressao = $('dsf-print-error');
+  const statusSalvar = $('dsf-save-status');
   const elConduta = $('dsf-conduta');
   const btnEmitir = $('btn-dsf-emitir');
   let atendimentoAtual = null;
   let focoAnterior = null;
   let liberarPreview = null;
+  let registroAtual = null;
 
   const atualizarEmitir = () => { btnEmitir.disabled = !elConduta.value.trim(); };
 
@@ -72,7 +74,8 @@ export function initDsf({ game, aoFechar }) {
   function abrir() {
     const caso = game.case;
     if (!caso) return;
-    if (erroImpressao) erroImpressao.hidden = true;
+    statusSalvar.hidden = true;
+    registroAtual = null;
     if (painel.hidden && preview.hidden) focoAnterior = document.activeElement;
     if (atendimentoAtual !== game.interactionVersion) {
       // novo atendimento → zera o rascunho
@@ -91,6 +94,7 @@ export function initDsf({ game, aoFechar }) {
       ? '' : (caso.dsf?.encaminhamento || t('dsf.naoNecessario'));
     renderRapidas(caso);
     renderOrient(caso);
+    renderSalvas();
     atualizarEmitir();
     preview.hidden = true;
     painel.hidden = false;
@@ -123,22 +127,30 @@ export function initDsf({ game, aoFechar }) {
   function emitir() {
     const texto = montarTexto();
     if (!texto) return;
-    if (erroImpressao) erroImpressao.hidden = true;
+    statusSalvar.hidden = true;
     game.registrarDSF(texto);
     SFX.chime();
-    renderPreview(texto);
+    registroAtual = {
+      ...(registroAtual?.id ? { id: registroAtual.id } : {}),
+      caseId: game.case.id,
+      patient: $('dsf-paciente').value,
+      date: $('dsf-data').value || new Date().toISOString().slice(0, 10),
+      complaint: game.case.pedido,
+      assessment: $('dsf-hipotese').value.trim(),
+      conduct: elConduta.value.trim(),
+      orientations: [...$('dsf-orient').querySelectorAll('input:checked')].map((i) => i.value),
+      referral: $('dsf-encaminhamento').value.trim(),
+      text: texto,
+    };
+    renderPreview(registroAtual);
     painel.hidden = true;
     preview.hidden = false;
     liberarPreview?.();
     liberarPreview = lockModalFocus(preview);
-    $('btn-dsf-imprimir').focus();
+    $('btn-dsf-salvar').focus();
   }
 
-  function renderPreview(texto) {
-    const caso = game.case;
-    const data = $('dsf-data').value || new Date().toISOString().slice(0, 10);
-    const orients = [...$('dsf-orient').querySelectorAll('input:checked')].map((i) => i.value);
-    const enc = $('dsf-encaminhamento').value.trim() || '—';
+  function renderPreview(record) {
     const corpo = $('dsf-doc-corpo');
     corpo.replaceChildren();
     const linha = (label, value) => {
@@ -149,28 +161,63 @@ export function initDsf({ game, aoFechar }) {
       p.append(b, document.createTextNode(` ${value}`));
       corpo.appendChild(p);
     };
-    linha(t('dsf.paciente'), $('dsf-paciente').value || '—');
-    linha(t('dsf.data'), data);
-    linha(t('dsf.queixa'), caso.pedido);
-    const hipotese = $('dsf-hipotese').value.trim();
-    if (hipotese) linha(t('dsf.hipotese'), hipotese);
-    linha(t('dsf.conduta'), elConduta.value.trim());
-    if (orients.length) linha(t('dsf.orientacoes'), orients.join('; '));
-    linha(t('dsf.encaminhamento'), enc);
+    linha(t('dsf.paciente'), record.patient || '—');
+    linha(t('dsf.data'), record.date || '—');
+    linha(t('dsf.queixa'), record.complaint || '—');
+    if (record.assessment) linha(t('dsf.hipotese'), record.assessment);
+    linha(t('dsf.conduta'), record.conduct || '—');
+    if (record.orientations?.length) linha(t('dsf.orientacoes'), record.orientations.join('; '));
+    linha(t('dsf.encaminhamento'), record.referral || '—');
     $('dsf-doc-stamp').textContent = t('dsf.stamp');
     applyI18n(preview);
   }
 
+  function renderSalvas() {
+    const box = $('dsf-salvas');
+    box.replaceChildren();
+    const entries = listSavedDsf().filter((entry) => entry.caseId === game.case?.id);
+    if (!entries.length) {
+      const empty = document.createElement('p');
+      empty.className = 'text-xs text-slate-400';
+      empty.textContent = t('dsf.savedEmpty');
+      box.appendChild(empty);
+      return;
+    }
+    for (const entry of entries) {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'btn-ghost w-full text-left';
+      button.textContent = `${entry.patient} · ${entry.date}`;
+      button.addEventListener('click', () => {
+        registroAtual = entry;
+        $('dsf-data').value = entry.date || '';
+        $('dsf-hipotese').value = entry.assessment || '';
+        elConduta.value = entry.conduct || '';
+        $('dsf-encaminhamento').value = entry.referral || '';
+        for (const input of $('dsf-orient').querySelectorAll('input')) {
+          input.checked = Boolean(entry.orientations?.includes(input.value));
+        }
+        atualizarEmitir();
+        renderPreview(entry);
+        statusSalvar.hidden = true;
+        painel.hidden = true;
+        preview.hidden = false;
+        liberarPreview?.();
+        liberarPreview = lockModalFocus(preview);
+        $('btn-dsf-salvar').focus();
+      });
+      box.appendChild(button);
+    }
+  }
+
   elConduta.addEventListener('input', atualizarEmitir);
   btnEmitir.addEventListener('click', emitir);
-  $('btn-dsf-imprimir').addEventListener('click', () => {
-    if (erroImpressao) erroImpressao.hidden = true;
-    try {
-      if (typeof window.print !== 'function') throw new Error('print-unavailable');
-      window.print();
-    } catch {
-      if (erroImpressao) erroImpressao.hidden = false;
-    }
+  $('btn-dsf-salvar').addEventListener('click', () => {
+    const saved = registroAtual && saveDsf(registroAtual);
+    if (saved) registroAtual = saved;
+    statusSalvar.textContent = t(saved ? 'dsf.salvo' : 'dsf.save.error');
+    statusSalvar.hidden = false;
+    if (saved) renderSalvas();
   });
   $('btn-dsf-voltar').addEventListener('click', () => {
     preview.hidden = true;

@@ -72,6 +72,13 @@ try {
     body: JSON.stringify({ messages: [{ role: 'user', content: 'test' }] }),
   });
   assert.equal(nvidiaFallbackWrongOrigin.status, 403, 'NVIDIA fallback rejects cross-origin browser requests');
+  const primaryWrongMethod = await fetch(`${base}/api/llm/primary/models`, { method: 'POST' });
+  assert.equal(primaryWrongMethod.status, 405, 'local model probe accepts GET only');
+  const primaryWrongOrigin = await fetch(`${base}/api/llm/primary/chat/completions`, {
+    method: 'POST', headers: { 'Content-Type': 'application/json', Origin: 'https://attacker.invalid' },
+    body: JSON.stringify({ messages: [{ role: 'user', content: 'test' }] }),
+  });
+  assert.equal(primaryWrongOrigin.status, 403, 'local model proxy rejects cross-origin browser requests');
 
   const malformed = await fetch(`${base}/%ZZ`);
   assert.equal(malformed.status, 400, 'malformed percent-encoding returns HTTP 400');

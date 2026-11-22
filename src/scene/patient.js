@@ -90,12 +90,13 @@ export async function loadGLBFPatient(url, scene) {
   }
   const playClip = (slot) => {
     const to = clips[slot];
-    if (!to || to.isRunning()) return;
+    if (!to) return;
+    const from = Object.values(clips).find((a) => a.isRunning() && a !== to);
+    if (to.isRunning() && !from) return;
     to.reset();
     const startPhase = Number(gltf.asset?.extras?.walkStartPhase ?? 0);
     if (slot === 'walk' && startPhase >= 0 && startPhase < 1) to.time = to.getClip().duration * startPhase;
     to.play();
-    const from = Object.values(clips).find((a) => a.isRunning() && a !== to);
     const entryFade = Number(gltf.asset?.extras?.walkCrossfadeSeconds);
     const fadeSeconds = slot === 'walk' && entryFade > 0 && entryFade <= 0.25 ? entryFade : CROSSFADE_S;
     if (from) to.crossFadeFrom(from, fadeSeconds, gltf.asset?.extras?.walkCrossfadeWarp !== false);
@@ -424,6 +425,11 @@ export async function loadGLBFPatient(url, scene) {
       });
     },
     getModel: () => inner,
+    getAnimationState: () => ({
+      walking: Boolean(walking),
+      walkRunning: Boolean(clips.walk?.isRunning()),
+      idleRunning: Boolean(clips.idle?.isRunning()),
+    }),
     // Pose do rig + swing de pernas no walk. Roda durante walking e em idle
     // (antes o early-return congelava a pose → deslizo/pose torta na chegada).
     applyBones(dt, t) {
@@ -561,7 +567,13 @@ export async function loadGLBFPatient(url, scene) {
             inner.position.y = groundFix && groundFix.done ? groundFix.alvo : bobBaseY;
           }
           if (w.faceEnd) root.rotation.y = 0;
-          if (mixer) playClip('idle');
+          if (mixer) {
+            playClip('idle');
+            // A posição chegou ao balcão: o ciclo Walk não pode continuar
+            // movendo as pernas enquanto a paciente conversa.
+            clips.walk?.stop();
+            clips.idle?.setEffectiveWeight(1);
+          }
           done();
         }
       } else if (!reduceMotion) {

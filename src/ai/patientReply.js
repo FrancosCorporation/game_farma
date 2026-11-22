@@ -22,6 +22,10 @@ export async function generatePatientReply({
   translate = translatePortugueseToEnglish,
 }) {
   const question = [...history].reverse().find((message) => message.role === 'user')?.content || '';
+  if (caseDef.id === 'carla_dengue' && (/(vacin|imuniz).*(dengue)|(dengue).*(vacin|imuniz)/i.test(question.normalize('NFD').replace(/[\u0300-\u036f]/g, ''))
+    || /articula|\bjuntas?\b|\bjoints?\b/i.test(question.normalize('NFD').replace(/[\u0300-\u036f]/g, '')))) {
+    return isCurrentInteraction() ? templateReply(caseDef, knowledge, newFacts, evasions, question) : '';
+  }
   if (caseDef.id === 'carla_dengue' && warningSignsFromQuestion(question).length) {
     return isCurrentInteraction() ? templateReply(caseDef, knowledge, newFacts, evasions, question) : '';
   }

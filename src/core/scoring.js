@@ -125,12 +125,17 @@ export function scoreCase(caso, knowledge, decisao, history) {
   add('queixa_principal', queixa);
 
   // +20 sinais de alarme investigados (contraindicações/medicamentos/alergias)
+  let marcacoesIncorretas = [];
   if (caso.id === 'carla_dengue') {
     const signs = knowledge.warningSignsAsked || new Set();
-    const pontos = Math.min(4, signs.size) * 3
+    const selecionados = new Set(decisao.redFlags || []);
+    const flagsIncorretas = caso.fatos.filter((fact) => fact.redFlag && knowledge.revealed.has(fact.tag)
+      && selecionados.has(fact.tag) !== Boolean(fact.valor));
+    const pontosBase = Math.min(4, signs.size) * 3
       + (asked.includes('medicamentos') ? 4 : 0)
       + (asked.includes('alergias') ? 4 : 0);
-    add('sinais_alarme', pontos);
+    add('sinais_alarme', Math.max(0, pontosBase - flagsIncorretas.length * 3));
+    marcacoesIncorretas = flagsIncorretas.map((fact) => fact.rotulo);
   } else {
     const alarmeDominios = [...new Set([...(caso.redFlagDominios || []), 'medicamentos', 'alergias'])];
     const investigados = alarmeDominios.filter((d) => asked.includes(d)).length;
@@ -152,7 +157,9 @@ export function scoreCase(caso, knowledge, decisao, history) {
   const dsfOk = caso.dsf
     ? dsfCorreta(caso, decisao.dsf, decisao.conduta)
     : decisao.conduta === gab.tipo;
-  add('dsf', dsfOk ? 30 : 0);
+  const dsfEmitida = Boolean(caso.dsf && typeof decisao.dsf === 'string' && decisao.dsf.trim()
+    && decisao.conduta === caso.condutaGabarito?.tipo);
+  add('dsf', dsfOk ? 30 : dsfEmitida ? 10 : 0);
 
   // Penalidades
   const reprovado = dispensouContraindicado(caso, decisao);
@@ -181,6 +188,7 @@ export function scoreCase(caso, knowledge, decisao, history) {
     // legados (compatibilidade com debrief/preceptor já existentes)
     anamnese, redflags, risco, conduta, comunicacao,
     missedDomains, missedRed, criticals, reveladasRF,
+    marcacoesIncorretas,
   };
 }
 

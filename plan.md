@@ -1,18 +1,20 @@
 # FarmaCheck | Plano ativo de otimização
-Atualizado em 21/11/2026. Entrega desta rodada: auditoria e planejamento. O próximo executor deve começar pelo FC-101 em uma cópia isolada. Mariana (`carla_dengue`) é o único caso jogável. Preservar o elenco de revisão, o conteúdo clínico, os saves e os assets aprovados. O [plano de outubro](docs/historico/plan-antes-da-auditoria-20261121.md) é histórico.
+Atualizado em 22/11/2026. Entrega desta rodada: correções solicitadas do jogo (FC-107/FC-108), com validação em candidato e publicação autorizada após os gates. FC-101 segue parcial para medições comparativas. Mariana (`carla_dengue`) é o único caso jogável. Preservar o elenco de revisão, o conteúdo clínico, os saves e os assets aprovados. O [plano de outubro](docs/historico/plan-antes-da-auditoria-20261121.md) é histórico.
 
 ## Catálogo e sequência de execução
 
 | ID | Entrega | Prioridade | Ponto de intervenção | Dependência | Critério de saída | Estado |
 |---|---|---|---|---|---|---|
-| FC-101 | Reproduzir o jogo localmente | P0 | `public/`, lockfile, `scripts/public_build_assets.mjs` | — | Build íntegro e primeiro atendimento local | Pendente |
+| FC-101 | Reproduzir o jogo localmente | P0 | `public/`, lockfile, `scripts/public_build_assets.mjs` | — | Build íntegro e primeiro atendimento local | Parcial |
 | FC-102 | Corrigir cadência em telas de alta frequência | P1 | `src/scene/scene.js`, `qualitySettings.js` | — | Cadências simuladas corretas e chegada estável no navegador | Pendente |
 | FC-106 | Propagar falha de abertura do atendimento | P1 | `src/app.js`, `src/core/game.js` | FC-101 | GLB ausente indica falha e retry abre o mesmo caso | Pendente |
 | FC-103 | Reduzir espera até Mariana | P1 | `src/app.js`, `src/data/patientAssets.js` | FC-101 | Comparação fria e quente até primeiro atendimento | Pendente |
 | FC-104 | Revisar a aparência no enquadramento de jogo | P2 | `src/scene/glbLoader.js`, iluminação e câmera da cena | FC-101 | Comparação visual e custo registrados | Pendente |
 | FC-105 | Tornar finita a seleção de repetição | P2 | `src/core/caseSelection.js` | — | Casos unitários, duplicados e aleatórios cobertos | Pendente |
+| FC-107 | Concretizar correções do PDF e da chegada | P1 | `src/ui/tlac.js`, `src/ui/dsf.js`, `src/scene/patient.js`, respostas e pontuação | FC-101 | Sem resposta antecipada nas opções; marcações avaliadas no relatório; Walk cessa; DSF salva e recuperável; fluxo público conferido | Concluído |
+| FC-108 | Garantir fallback de IA pela NVIDIA | P1 | `src/app.js`, `src/ai/llm.js`, `server/index.mjs` | FC-101 | Modelo local indisponível produz resposta LLM via NVIDIA no jogo; chave só no servidor | Concluído |
 
-**6 objetivos de game no catálogo ativo.** Prioridades: **P0: 1, P1: 3, P2: 2, P3: 0**. Estados dos objetivos de game: **Pendente: 6, Parcial: 0, Bloqueado externo: 0, Concluído: 0**
+**8 objetivos de game no catálogo ativo.** Prioridades: **P0: 1, P1: 5, P2: 2, P3: 0**. Estados dos objetivos de game: **Pendente: 5, Parcial: 1, Bloqueado externo: 0, Concluído: 2**
 
 ### FC-101 · Recuperar a base de comparação
 
@@ -48,3 +50,7 @@ Limpeza do checkout em 21/11/2026. Capturas, caches, documentos e experimentos d
 
 Atualização Version-1.1. Os assets públicos de execução foram recuperados do contêiner. npm ci, build e manifesto dos 14 modelos passaram. FC-101 segue aberto para a matriz de navegador e as medições comparativas.
 O verify integral passou com CAST_PROVENANCE_MODE=checkout. O QA Chromium em português chegou ao atendimento, abriu o bulário e executou o TLAC. O smoke antigo exige resultado positivo e conflita com o roteiro neutro de Mariana. Revisar as expectativas do smoke para TLAC e DSF antes de usar a matriz como aceite.
+
+Checkpoint 22/11/2026 — correções FC-107/FC-108 publicadas em `game_farma:release-20261122-correcoes-final` (`sha256:0191a7bc55d9975a754848e9c5259c4da8595640c8093d7ad68310e8e8241b8a`). O teste rápido da Mariana registra a execução sem inventar um resultado NS1. As opções de sinais de alarme têm rótulos neutros; os acertos das marcações são calculados após confirmar a conduta e explicados no relatório. A DSF salva e reabre dentro do jogo no navegador do jogador. A paciente para de caminhar no balcão. O servidor do jogo usa llama.cpp primeiro e NVIDIA como fallback, com a chave apenas no servidor.
+
+Gates: verify integral PASS; build e contêiner saudáveis; matriz neutra 4/4 PT/EN × desktop/celular PASS; boot em contêiner desktop/celular PASS; acessibilidade 4/4 PASS; fluxo público completo PASS; HTML/chunks públicos idênticos ao build local; `/healthz` e `/readyz` 200; resposta gerada pela NVIDIA na URL pública PASS. Detalhes e hashes em `docs/evidencias/correcoes-jogo-20261122.md`. FC-101 segue parcial apenas para medições comparativas. Aceite visual em aparelho físico e revisão clínica ampla dos 14 casos permanecem separados desta entrega.

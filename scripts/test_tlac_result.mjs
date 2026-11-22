@@ -41,9 +41,10 @@ renderTlacResult(resultado, { resultado: 'negativo', positivo: false, t });
 assert.equal(resultado.className, 'tlac-resultado tlac-negativo');
 assert.equal(resultado.children[1].textContent, 'NEGATIVO');
 
-renderTlacResult(resultado, { resultado: 'Não informado no roteiro clínico', positivo: false, semResultado: true, t });
+renderTlacResult(resultado, { resultado: null, positivo: false, semResultado: true, t });
 assert.equal(resultado.className, 'tlac-resultado tlac-neutro');
-assert.equal(resultado.children[1].textContent, 'NÃO INFORMADO NO ROTEIRO CLÍNICO');
-assert.equal(resultado.children[2].textContent, '[tlac.semResultadoNota]');
+assert.equal(resultado.children.length, 2);
+assert.equal(resultado.children[0].textContent, '[tlac.testeConcluido]');
+assert.equal(resultado.children[1].textContent, '[tlac.semResultadoNota]');
 
 console.log('✔ TLAC result: positive/negative layout and untrusted values rendered as text');

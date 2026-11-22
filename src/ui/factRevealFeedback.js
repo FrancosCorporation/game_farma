@@ -15,7 +15,7 @@ export function applyFactRevealFeedback(fact, {
     addSystem(`${translate('sys.redflag')}${fact.rotulo}`, true);
     avatar?.setMood?.('dolorido');
   } else if (fact.valor === false) {
-    addSystem(`${translate('sys.investigado')}${fact.rotulo}${translate('sys.negado')}`);
+    addSystem(`${translate('sys.investigado')}${fact.rotulo}`);
   }
 
   if (fact.postura) {

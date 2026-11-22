@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:49112/api/llm/fallback",
+  "status": 200,
+  "durationMs": 985,
+  "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+  "caseId": "carla_dengue",
+  "text": "Oi! A febre começou uns dois dias atrás, estava perto de 38 graus. Nada muito grave, só o corpo todo cansado mesmo.",
+  "scenarioSha256": "02a2c4e91b7db5a58bedf2f6410d74c6177043cabb71bbd3623996073835b234",
+  "responseSha256": "48965ea436836123530729ca9b7e0caef50ded9f338baedd8ba22bb5fa1d898a"
+}

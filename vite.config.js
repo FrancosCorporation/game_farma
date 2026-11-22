@@ -39,6 +39,12 @@ export default defineConfig({
         timeout: 16000,
         proxyTimeout: 16000,
       },
+      '/api/llm/primary': {
+        target: process.env.FARMA_API_PROXY_TARGET || 'http://127.0.0.1:4174',
+        changeOrigin: true,
+        timeout: 46000,
+        proxyTimeout: 46000,
+      },
     },
   },
   build: {

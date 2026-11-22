@@ -89,14 +89,15 @@ const fixture = `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><
     <h2 id="dsf-titulo" tabindex="-1">Declaração</h2><button id="btn-dsf-fechar" type="button">Fechar</button>
     <label>Paciente<input id="dsf-paciente" readonly></label><label>Data<input id="dsf-data" type="date"></label>
     <label>Queixa<input id="dsf-queixa" readonly></label><div id="dsf-rapidas"></div>
+    <label>Avaliação<textarea id="dsf-hipotese"></textarea></label>
     <label>Conduta<textarea id="dsf-conduta" aria-label="Conduta farmacêutica"></textarea></label>
     <div id="dsf-orient"></div><label>Encaminhamento<input id="dsf-encaminhamento"></label>
-    <button id="btn-dsf-emitir" type="button">Emitir DSF</button>
+    <button id="btn-dsf-emitir" type="button">Emitir DSF</button><div id="dsf-salvas"></div><button id="btn-dsf-reiniciar">Reiniciar</button>
   </section>
   <div id="dsf-preview" hidden role="dialog" aria-modal="true" aria-labelledby="dsf-doc-title">
     <article class="dsf-doc mx-auto max-w-2xl my-8 p-8 rounded-2xl bg-slate-100 text-slate-900 shadow-2xl"><header class="dsf-head"><h3 id="dsf-doc-title">Declaração de serviços farmacêuticos</h3><p class="dsf-sub">Documento educacional</p></header>
       <div id="dsf-doc-corpo"></div><footer class="dsf-foot"><div class="dsf-assinatura"></div><p id="dsf-doc-stamp"></p></footer>
-      <div class="no-print"><button id="btn-dsf-imprimir" type="button">Imprimir</button><button id="btn-dsf-voltar" type="button">Editar</button></div>
+      <div class="no-print"><p id="dsf-save-status" hidden></p><button id="btn-dsf-salvar" type="button">Salvar no jogo</button><button id="btn-dsf-voltar" type="button">Editar</button><button id="btn-dsf-preview-reiniciar">Reiniciar</button></div>
     </article>
   </div>
 </main></body></html>`;
@@ -272,13 +273,13 @@ try {
       const preview = page.locator('#dsf-preview');
       assert.equal(await preview.getAttribute('role'), 'dialog');
       assert.equal(await preview.getAttribute('aria-modal'), 'true');
-      assert.equal(await page.evaluate(() => document.activeElement.id), 'btn-dsf-imprimir', 'DSF preview moves focus to its first action');
+      assert.equal(await page.evaluate(() => document.activeElement.id), 'btn-dsf-salvar', 'DSF preview moves focus to its first action');
       assert.equal(await dsfOpener.evaluate((el) => el.inert), true, 'DSF preview makes background controls inert');
       axe = await new AxeBuilder({ page }).include('#dsf-preview').withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa']).analyze();
       assert.deepEqual(axe.violations.map((v) => v.id), [], `DSF preview axe violations: ${JSON.stringify(axe.violations.map((v) => ({ id: v.id, nodes: v.nodes.map((n) => ({ target: n.target, summary: n.failureSummary })) })))}`);
-      await page.locator('#btn-dsf-voltar').focus();
+      await page.locator('#btn-dsf-preview-reiniciar').focus();
       await page.keyboard.press('Tab');
-      assert.equal(await page.evaluate(() => document.activeElement.id), 'btn-dsf-imprimir', 'Tab wraps inside the DSF preview');
+      assert.equal(await page.evaluate(() => document.activeElement.id), 'btn-dsf-salvar', 'Tab wraps inside the DSF preview');
       await page.locator('#btn-dsf-voltar').click();
       assert.equal(await page.evaluate(() => document.activeElement.id), 'dsf-conduta', 'editing returns focus to the conduct field');
       assert.equal(await dsfOpener.evaluate((el) => el.inert), false, 'editing restores the background');

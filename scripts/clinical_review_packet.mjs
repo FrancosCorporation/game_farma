@@ -29,7 +29,7 @@ const sourceFiles = [
   ['src/core/game.js', 'Application flow that records case actions and scoring inputs.'],
   ['src/ui/bulario.js', 'Visible package-insert panel.'],
   ['src/ui/tlac.js', 'Visible rapid-test flow.'],
-  ['src/ui/dsf.js', 'Visible DSF form, quick entries and printable output.'],
+  ['src/ui/dsf.js', 'Visible DSF form, quick entries and in-game saved output.'],
   ['src/ui/i18n.js', 'Visible PT/EN clinical and educational interface strings.'],
 ];
 

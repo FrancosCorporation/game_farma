@@ -95,7 +95,7 @@ const dict = {
     'bulario.teste': 'Teste rápido indicado',
 
     // F3 — TLAC
-    'tlac.title': '🧪 Teste rápido (TLAC)',
+    'tlac.title': '🧪 Teste rápido',
     'tlac.close': 'Fechar',
     'tlac.fazer': 'Realizar teste rápido',
     'tlac.naoIndicado': 'Sem indicação de teste rápido para este caso — dispensar o kit não pontua nem registra.',
@@ -107,8 +107,9 @@ const dict = {
     'tlac.executar': 'Executar',
     'tlac.aguardando': 'Lendo o casete…',
     'tlac.resultado': 'Resultado',
-    'tlac.semResultadoRoteiro': 'Não informado no roteiro clínico',
-    'tlac.semResultadoNota': 'Teste realizado. O resultado clínico não foi fornecido no caso; a conduta depende da avaliação.',
+    'tlac.testeConcluido': 'Teste rápido realizado',
+    'tlac.semResultadoNota': 'Confirme sua conduta para ver a avaliação no relatório final.',
+    'debrief.marcacoesIncorretas': 'Reveja as marcações dos sinais de alarme: ',
     'tlac.registrado': 'Resultado registrado no atendimento.',
     'tlac.coleta3d': 'Coleta simulada: o lancetador toca o dedo indicador da paciente.',
 
@@ -127,6 +128,11 @@ const dict = {
     'dsf.orientacoes': 'Orientações fornecidas',
     'dsf.encaminhamento': 'Encaminhamento',
     'dsf.emitir': 'Emitir DSF',
+    'dsf.salvar': 'Salvar no jogo',
+    'dsf.salvo': 'Declaração salva neste navegador.',
+    'dsf.save.error': 'Não foi possível salvar neste navegador.',
+    'dsf.savedList': 'Declarações salvas neste jogo',
+    'dsf.savedEmpty': 'Nenhuma declaração salva ainda.',
     'dsf.imprimir': '🖨 Imprimir / PDF',
     'dsf.voltar': '← Editar',
     'dsf.print.error': 'Não foi possível abrir a impressão neste navegador. Tente novamente ou use um navegador com suporte à impressão.',
@@ -232,7 +238,7 @@ const dict = {
     'debrief.testePerdidoPos': ') e não executado (−30).',
     'debrief.arbovirose': 'Suspeita de arbovirose não encaminhada para avaliação clínica (−40).',
     'debrief.orientacao': 'Orientação inadequada em quadro autolimitado (−25).',
-    'debrief.dsf': 'DSF não emitida ou com conduta incorreta (−30).',
+    'debrief.dsf': 'DSF ausente ou incompleta: registre avaliação, achados e conduta para os 30 pontos.',
     'debrief.critico': 'ERRO CRÍTICO — ',
     'debrief.perfeito': 'Anamnese completa e conduta adequada. Atendimento-modelo.',
     'debrief.stampCase': 'caso',
@@ -299,7 +305,7 @@ const dict = {
     'hint.press': 'Pressione',
     'hint.default': 'para interagir',
     'hint.computador': 'para consultar o computador (bulário)',
-    'hint.mesa': 'para realizar teste rápido (TLAC)',
+    'hint.mesa': 'para realizar o teste rápido',
     'hint.paciente': 'para conversar com o paciente',
 
     // Alvos de interação por proximidade
@@ -428,7 +434,7 @@ const dict = {
     'bulario.teste': 'Rapid test indicated',
 
     // F3 — TLAC
-    'tlac.title': '🧪 Rapid test (POCT)',
+    'tlac.title': '🧪 Rapid test',
     'tlac.close': 'Close',
     'tlac.fazer': 'Perform rapid test',
     'tlac.naoIndicado': 'No rapid test indicated for this case — using the kit neither scores nor registers.',
@@ -440,8 +446,9 @@ const dict = {
     'tlac.executar': 'Run',
     'tlac.aguardando': 'Reading the cassette…',
     'tlac.resultado': 'Result',
-    'tlac.semResultadoRoteiro': 'Not specified in the clinical case',
-    'tlac.semResultadoNota': 'Test performed. The case does not provide a clinical result; care depends on assessment.',
+    'tlac.testeConcluido': 'Rapid test performed',
+    'tlac.semResultadoNota': 'Confirm your decision to see the assessment in the final report.',
+    'debrief.marcacoesIncorretas': 'Review the warning-sign selections: ',
     'tlac.registrado': 'Result registered in the consultation.',
     'tlac.coleta3d': 'Sample collection simulated: the lancet touches the patient’s index finger.',
 
@@ -460,6 +467,11 @@ const dict = {
     'dsf.orientacoes': 'Provided guidance',
     'dsf.encaminhamento': 'Referral',
     'dsf.emitir': 'Issue statement',
+    'dsf.salvar': 'Save in game',
+    'dsf.salvo': 'Statement saved in this browser.',
+    'dsf.save.error': 'Could not save in this browser.',
+    'dsf.savedList': 'Statements saved in this game',
+    'dsf.savedEmpty': 'No saved statements yet.',
     'dsf.imprimir': '🖨 Print / PDF',
     'dsf.voltar': '← Edit',
     'dsf.print.error': "Printing isn't available in this browser. Try again or use a browser with printing support.",
@@ -565,7 +577,7 @@ const dict = {
     'debrief.testePerdidoPos': ') but not performed (−30).',
     'debrief.arbovirose': 'Suspected arboviral infection not referred for clinical assessment (−40).',
     'debrief.orientacao': 'Inadequate guidance for a self-limiting condition (−25).',
-    'debrief.dsf': 'DSF not issued or with wrong conduct (−30).',
+    'debrief.dsf': 'Statement missing or incomplete: record assessment, findings and conduct for all 30 points.',
     'debrief.critico': 'CRITICAL ERROR — ',
     'debrief.perfeito': 'Complete anamnesis and appropriate conduct. A model consultation.',
     'debrief.stampCase': 'case',
@@ -632,7 +644,7 @@ const dict = {
     'hint.press': 'Press',
     'hint.default': 'to interact',
     'hint.computador': 'to use the computer (package inserts)',
-    'hint.mesa': 'to run a rapid test (POCT)',
+    'hint.mesa': 'to run a rapid test',
     'hint.paciente': 'to talk with the patient',
 
     // Alvos de interação por proximidade

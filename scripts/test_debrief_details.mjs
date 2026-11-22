@@ -52,6 +52,13 @@ assert.equal(negative[4].className, 'text-amber-300');
 
 const perfect = buildDebriefDetails(cleanResult(), {}, { t, domainLabel });
 assert.deepEqual(perfect, [{ text: '[debrief.perfeito]', className: 'text-teal-300' }]);
+const flagged = buildDebriefDetails({
+  ...cleanResult(), marcacoesIncorretas: ['Vômitos persistentes: negados'],
+}, {}, { t, domainLabel });
+assert.deepEqual(flagged, [{
+  text: '[debrief.marcacoesIncorretas]Vômitos persistentes: negados.',
+  className: 'text-amber-300',
+}]);
 
 const incompleteDsf = buildDebriefDetails({ ...cleanResult(), dsfOk: false }, {}, { t, domainLabel });
 assert.deepEqual(incompleteDsf, [], 'resultado sem DSF obrigatório não mostra erro nem elogio de perfeito');

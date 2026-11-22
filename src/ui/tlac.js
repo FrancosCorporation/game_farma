@@ -67,8 +67,7 @@ export function initTlac({ game, pov, pharmacy, aoFechar }) {
   function concluir(caso) {
     concluido = true;
     elTimer.hidden = true;
-    const resultado = caso.testeRapido.resultado == null
-      ? t('tlac.semResultadoRoteiro') : String(caso.testeRapido.resultado);
+    const resultado = caso.testeRapido.resultado;
     const positivo = /positiv/i.test(String(caso.testeRapido.resultado || ''));
     renderTlacResult(elResultado, { resultado, positivo, semResultado: caso.testeRapido.resultado == null, t });
     game.registrarTesteRapido(caso.testeRapido.resultado);

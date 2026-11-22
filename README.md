@@ -1,8 +1,10 @@
 # game_farma — FarmaCheck
 
-Simulador web 3D (Three.js/Vite) de atendimento farmacêutico. O jogo roda **sem IA**
-(modo plantão determinístico) e melhora se houver um servidor LLM OpenAI-compatible
-local — ex.: `llama-server` em `http://127.0.0.1:8081/v1` (configurável no menu).
+Simulador web 3D (Three.js/Vite) de atendimento farmacêutico. O servidor do jogo
+consulta primeiro o llama.cpp local (`LLAMA_BASE_URL`, padrão
+`http://llama-cpp:8080/v1`, com descoberta do modelo ativo) e usa a NVIDIA como fallback quando
+`NVIDIA_API_KEY` está configurada no servidor. Se ambos falharem, o jogo responde
+com o roteiro local. A chave não é enviada ao navegador.
 
 > **Estado do projeto:** consulte [`plan.md`](plan.md) para o roadmap vivo e
 > [`resumo.md`](resumo.md) para evidências e continuidade. O checkout local contém
@@ -15,6 +17,10 @@ local — ex.: `llama-server` em `http://127.0.0.1:8081/v1` (configurável no me
 npm ci
 npm start          # Vite em http://127.0.0.1:5173
 ```
+
+Para testar as respostas de IA no Vite, rode também `npm run serve` com o build
+atual. O proxy de desenvolvimento encaminha `/api/llm/primary` e
+`/api/llm/fallback` para esse servidor.
 
 No Vite de desenvolvimento, a narração usa `speechSynthesis` do navegador como
 fallback porque esse servidor não hospeda `/v1/audio/speech`. As falas fixas dos

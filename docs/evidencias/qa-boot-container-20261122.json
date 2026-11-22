@@ -1,0 +1,539 @@
+{
+  "schema": "farmacheck.boot-runtime-qa.v2",
+  "id": "FC-027",
+  "url": "http://127.0.0.1:49112/",
+  "status": "passed",
+  "startedAt": "2026-11-22T13:25:33.839Z",
+  "finishedAt": "2026-11-22T13:29:21.050Z",
+  "durationMs": 227211,
+  "scenarios": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "touch": false,
+      "result": "PASS",
+      "progress": [
+        {
+          "step": "started",
+          "at": 1795353934067
+        },
+        {
+          "step": "context-created",
+          "at": 1795353934089
+        },
+        {
+          "step": "page-created",
+          "at": 1795353934144
+        },
+        {
+          "step": "init-script-installed",
+          "at": 1795353934149
+        },
+        {
+          "step": "navigated",
+          "at": 1795353934354
+        },
+        {
+          "step": "cover-ready",
+          "at": 1795353934455
+        },
+        {
+          "step": "cover-clicked",
+          "detail": {
+            "latencyMs": 192
+          },
+          "at": 1795353934647
+        },
+        {
+          "step": "menu-open",
+          "at": 1795353934663
+        },
+        {
+          "step": "scene-ready",
+          "at": 1795353938439
+        },
+        {
+          "step": "runtime-model-recorded",
+          "detail": {
+            "modelId": null
+          },
+          "at": 1795353938831
+        },
+        {
+          "step": "anamnesis-ready",
+          "at": 1795354066267
+        },
+        {
+          "step": "scenario-assertions-finished",
+          "at": 1795354099299
+        },
+        {
+          "step": "finished",
+          "at": 1795354099313
+        }
+      ],
+      "failures": [],
+      "modelId": "candidates/marina_patient_v001",
+      "coverClickLatencyMs": 192,
+      "durationMs": 165246
+    },
+    {
+      "name": "celular",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "touch": true,
+      "result": "PASS",
+      "progress": [
+        {
+          "step": "started",
+          "at": 1795354099313
+        },
+        {
+          "step": "context-created",
+          "at": 1795354099317
+        },
+        {
+          "step": "page-created",
+          "at": 1795354099352
+        },
+        {
+          "step": "init-script-installed",
+          "at": 1795354099354
+        },
+        {
+          "step": "navigated",
+          "at": 1795354099558
+        },
+        {
+          "step": "cover-ready",
+          "at": 1795354099619
+        },
+        {
+          "step": "cover-clicked",
+          "detail": {
+            "latencyMs": 119
+          },
+          "at": 1795354099738
+        },
+        {
+          "step": "menu-open",
+          "at": 1795354099741
+        },
+        {
+          "step": "scene-ready",
+          "at": 1795354102635
+        },
+        {
+          "step": "runtime-model-recorded",
+          "detail": {
+            "modelId": null
+          },
+          "at": 1795354102784
+        },
+        {
+          "step": "anamnesis-ready",
+          "at": 1795354140242
+        },
+        {
+          "step": "scenario-assertions-finished",
+          "at": 1795354160993
+        },
+        {
+          "step": "finished",
+          "at": 1795354161000
+        }
+      ],
+      "failures": [],
+      "modelId": "candidates/marina_patient_v001",
+      "coverClickLatencyMs": 119,
+      "durationMs": 61687
+    }
+  ],
+  "viewports": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "touch": false
+    },
+    {
+      "name": "celular",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "touch": true
+    }
+  ],
+  "progress": [
+    {
+      "step": "chromium-launch-started",
+      "at": 1795353933850
+    },
+    {
+      "step": "chromium-launched",
+      "at": 1795353934065
+    },
+    {
+      "step": "finished",
+      "at": 1795354161049
+    }
+  ],
+  "failures": [],
+  "failure": null,
+  "sourceManifest": [
+    {
+      "path": "scripts/qa_boot.mjs",
+      "sha256": "b043e94e2e0fdefad61e6286dfaba424fdf677ae4e2ddc90f38d95c58a0b0999"
+    },
+    {
+      "path": "package.json",
+      "sha256": "8473e00347bfe103417c43c9ac11b15e550532950ce830df76c8ce594a4ca773"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "f02d20317bd39c62fc0ba03ec80780446b5774fae6face166b2d0d9565818daf"
+    },
+    {
+      "path": "vite.config.js",
+      "sha256": "a7d3ec78327c4edc533643ea3ab1e49ce30c327aeccb02b82ddee81e2b0db9ed"
+    },
+    {
+      "path": "index.html",
+      "sha256": "d206154a8e595e5f2d6e5166cb1fb194b4384ed0602f3bfb5b151ea641f09b98"
+    },
+    {
+      "path": "src/ai/llm.js",
+      "sha256": "aa7608168a116142e62db1a5614806d45a67c1effa5eb69c8ea855c8247f54c7"
+    },
+    {
+      "path": "src/ai/patientReply.js",
+      "sha256": "47ab8deb4f7088481b5d6074e9ffb1f55975c8371893f233acf461826189c549"
+    },
+    {
+      "path": "src/ai/preceptorFeedback.js",
+      "sha256": "931a8eb133fe8218c3960e83ed1d1389cd5e56e63b381d9f5c0afe508e7ddbbc"
+    },
+    {
+      "path": "src/ai/prompts.js",
+      "sha256": "817c0bdcde2162e4e9e10c75b089155e30140905e723cea0e29e0fa53eff2cb7"
+    },
+    {
+      "path": "src/ai/replyLanguage.js",
+      "sha256": "6f62046029db46aef04b8e88dde2993261a23bfd5b54abb28e44c3ffc96c31dc"
+    },
+    {
+      "path": "src/app.js",
+      "sha256": "cf785aba72df436766b1e80f5b9da6372b6a43e6f3f333d74e704d7b530aed41"
+    },
+    {
+      "path": "src/audio/sfx.js",
+      "sha256": "c293a9dc73350d2fa1810620d7b384a509a1886e370c6a116738b992797e4916"
+    },
+    {
+      "path": "src/audio/stt.js",
+      "sha256": "9a16c686cc05b37b6c990079f67661ddf70f5b8aea65f1fb37e9d52f3839ac6f"
+    },
+    {
+      "path": "src/audio/tts.js",
+      "sha256": "08c6eadcc16b7ec02823b4637fb38bc7ca102669501874c0affdb3a2d0b80ad7"
+    },
+    {
+      "path": "src/core/achievements.js",
+      "sha256": "616e2f99d216f55b9f6e7614a773d5f362a856e9835492ba7fa603497b055d38"
+    },
+    {
+      "path": "src/core/caseSelection.js",
+      "sha256": "fde987bfbcd872b6f6002063f403159b2d5c0924d9a1020338b51370a9664714"
+    },
+    {
+      "path": "src/core/caseService.js",
+      "sha256": "a84de0205bf10b6c82aba078082b3c216bc5fa5270832625671d0d93d12555a2"
+    },
+    {
+      "path": "src/core/dsfStorage.js",
+      "sha256": "6707e857fbeaf8ca9160b3baad55b6d923a9e35af1dbd4fba3ba9144a3824cda"
+    },
+    {
+      "path": "src/core/factGate.js",
+      "sha256": "d304a38b9ede2eb9d99b44a0f956c602a441a25e3e10365f80296713683fc86e"
+    },
+    {
+      "path": "src/core/game.js",
+      "sha256": "9cc30ea660eb94fdf6fcc98abf7c0a07a3e88b26724018c2fdcfda3f5cc0f27c"
+    },
+    {
+      "path": "src/core/hiddenFactGuard.js",
+      "sha256": "fe036325f560bee06296cad0800a48a45d3e334d7c931b42b16a5dfd3a6cfcf7"
+    },
+    {
+      "path": "src/core/progression.js",
+      "sha256": "3b0627ac2e24dc0da0a319ca5d75a23d21828a8b49c0ccbc3a13f889df313a5f"
+    },
+    {
+      "path": "src/core/scoring.js",
+      "sha256": "3c9af61c7738e0815270cb2121291ca4518d6eec9e04887f396afdea9d1b779b"
+    },
+    {
+      "path": "src/core/testeRapidoMessage.js",
+      "sha256": "7caa0645ba2b88aec027598467e74b8fd3ed33d905054cd2d4f5777ed004d787"
+    },
+    {
+      "path": "src/data/cases.en.js",
+      "sha256": "c594ca0ded302cf23051d6baeb17174b2b834bf66902b22f1ecbae4e1efbc6ea"
+    },
+    {
+      "path": "src/data/cases.js",
+      "sha256": "cf0d2e0bd61d6c7275fbaab24dc7102252eaffb2ab6d03195fd54ecc9ea24b41"
+    },
+    {
+      "path": "src/data/casoDocumento.js",
+      "sha256": "0200135a161404f696fada67aad194b3eeaf7621ce7aac86da3fb88fe10c2e34"
+    },
+    {
+      "path": "src/data/characterVoices.js",
+      "sha256": "3be79ffe6004f7aa305b896c925d8f2814fa756e7e017afa5a9efb9adf064f2f"
+    },
+    {
+      "path": "src/data/patientAssets.js",
+      "sha256": "4ad07bf01ea9e08b1e86dec50d98f95d14db8378f10bd31cc8e34bb41219c7c9"
+    },
+    {
+      "path": "src/main.js",
+      "sha256": "8ba5134c5ae5d9f8a9c82c93a86697b3a45e984d5b021612852cd2563fdffe5a"
+    },
+    {
+      "path": "src/scene/avatarLifecycle.js",
+      "sha256": "9fe25472db185a2e9d1e673b8853ff93c4aff07bdf89fef05393c483985339a8"
+    },
+    {
+      "path": "src/scene/characterOrientation.js",
+      "sha256": "a17323415c315e16629e4f1a6d8a49d91fa7c52c4a1ba231b47ce5c2041528ca"
+    },
+    {
+      "path": "src/scene/fx.js",
+      "sha256": "acb4edb518b9d39e588c91ec2a9b83bd339a6a06fb48becade1953ff34cdaa0a"
+    },
+    {
+      "path": "src/scene/glbLoader.js",
+      "sha256": "8369b495b5596a6803779986590ebb683e93b6e275f32198237fac77cc263cfa"
+    },
+    {
+      "path": "src/scene/mouthAnimation.js",
+      "sha256": "61d106489edee9d773562a0aaa8bedeb7458e58db502d46008039dc6c9269f22"
+    },
+    {
+      "path": "src/scene/patient.js",
+      "sha256": "a2261b7d3084481ea796a992e6e86fdfe424c343a5a2df52b4fb1792f8ca3d5f"
+    },
+    {
+      "path": "src/scene/pharmacy.js",
+      "sha256": "cec01b55f9f6919b3225bdcb0f9591308495655999bb65f6abe4ad341ec55d52"
+    },
+    {
+      "path": "src/scene/pharmacyProps.js",
+      "sha256": "0d4969e49e051ff8a7321d01adc21ea10ccbc7e43bc583feedd6ef4b886c70ad"
+    },
+    {
+      "path": "src/scene/pov.js",
+      "sha256": "a7a5c3485529df23e7ec0002b30d3568fc2378a646bc39fa6bad827efef39c26"
+    },
+    {
+      "path": "src/scene/qualitySettings.js",
+      "sha256": "22260cf5a5484014ecf8923fd389c747f742de1ae29904336c93471cac5378ca"
+    },
+    {
+      "path": "src/scene/scene.js",
+      "sha256": "d1e80291dc09465948c105f010ebf701d17bc5753a124ec144f86a1b6ccc1cf0"
+    },
+    {
+      "path": "src/scene/soleGround.js",
+      "sha256": "69896d99ea4a6a9d6a86d4b50360fff95717af5a60181af171368d879cbf210f"
+    },
+    {
+      "path": "src/scene/walkFootGrounding.js",
+      "sha256": "9855bb3efa190745188b8b2e7eb0d4253ccd8f65a88184014332865d0958603f"
+    },
+    {
+      "path": "src/styles.css",
+      "sha256": "56abb9068f99f6dbf10bc66c1436ee9532337a4bce892daf12e1dbbcc9fb62c6"
+    },
+    {
+      "path": "src/ui/atendimento.js",
+      "sha256": "be98a5b06bfe9506087eef5d81d873808430103519fc305cfa4335c5b9a72f76"
+    },
+    {
+      "path": "src/ui/bulario.js",
+      "sha256": "7fdaa191aa2c68837addd92256c3b0dec8f611ad7ccf2d76578393928e7158a1"
+    },
+    {
+      "path": "src/ui/capa.js",
+      "sha256": "7ac728424ec931f57a786b82d5d29752c4273cf70e00746b339adb336d1642bf"
+    },
+    {
+      "path": "src/ui/chatChips.js",
+      "sha256": "aaed239baf901358b7ae708cf9454bf776dfb69e3b8802329c9db92161b51871"
+    },
+    {
+      "path": "src/ui/chatCoverage.js",
+      "sha256": "a6fd11b77b1a46ac8d182727a45385fbe2bbb67b4dcef27236665f16b6d8fb8d"
+    },
+    {
+      "path": "src/ui/chatMessages.js",
+      "sha256": "d4a49e61e8f516704f3477a021f3622bdf552931ab76edbd6465ef21c56aac78"
+    },
+    {
+      "path": "src/ui/chatTranscript.js",
+      "sha256": "6dc613b1d82401c65a164aef0c73f04e521b570d864f918c8969113d4d1c96b1"
+    },
+    {
+      "path": "src/ui/comboHud.js",
+      "sha256": "648c4eab6fc717170c78d514263d927642258a73cd340ce6a61ddffe5b3199c6"
+    },
+    {
+      "path": "src/ui/debrief.js",
+      "sha256": "4effcba7aa000387ac1fa01d21e59da9b3afbb07f6c4eaf2c202eba559d51aec"
+    },
+    {
+      "path": "src/ui/debriefDetails.js",
+      "sha256": "436cb7b13e23ac658927fcc8157dd8972823e1801215f8abde6dab3d43ab3c3e"
+    },
+    {
+      "path": "src/ui/decisionConfirm.js",
+      "sha256": "23b586e28a4dd815f582ea43f779b7ef8fc6a085529d29b38ffa8c1ae8ef386e"
+    },
+    {
+      "path": "src/ui/decisionFlags.js",
+      "sha256": "5d074d39695c0a61f6a4b57fd610d174478283c81e14f49183d0e16173665b52"
+    },
+    {
+      "path": "src/ui/decisionOptions.js",
+      "sha256": "c80f0700296c5bf42fb3777e5d9a61c2cda2f05d4273538f09700d1f06d43833"
+    },
+    {
+      "path": "src/ui/decisionPanel.js",
+      "sha256": "bf9fac49dab77960a738137cda37f03b6bfbdd52d866cfc7fc87de293f3e06de"
+    },
+    {
+      "path": "src/ui/dsf.js",
+      "sha256": "6fd8aa95ed679043e800d7e9f6d228e84d2eb8740eabbe874bd57e7fe7b0ae90"
+    },
+    {
+      "path": "src/ui/factRevealFeedback.js",
+      "sha256": "42ac8a5664630b0575f314e58a2d591c5db0865df28fbd72ab2ff773a5e4f7c3"
+    },
+    {
+      "path": "src/ui/focus.js",
+      "sha256": "aa6b48d76d66c33b090c118a04f52439b23dfcc61142f708734328ed8462838b"
+    },
+    {
+      "path": "src/ui/fullscreen.js",
+      "sha256": "0ffa8b26f43b7e7f5961265ef9dff4c34fd4425e031d3ed907930389eb82267f"
+    },
+    {
+      "path": "src/ui/gameControls.js",
+      "sha256": "12f29eab069dea7f6299db6e75fd91477f58521dc2ca7c96fde75d237ca089a4"
+    },
+    {
+      "path": "src/ui/gameKeyboard.js",
+      "sha256": "6a3e8dd78fd09897c3a31ca2069c7affe9953a8770845531738c65e4e42445bd"
+    },
+    {
+      "path": "src/ui/gameMenu.js",
+      "sha256": "59fee88921937467d5af37ae423ce6e5a14b4ecb7099893179c678d21af98b65"
+    },
+    {
+      "path": "src/ui/i18n.js",
+      "sha256": "16dfe28bd211602be3c18c3d400400bd65ba94e04749f12d9f4952274cacbd36"
+    },
+    {
+      "path": "src/ui/interacao.js",
+      "sha256": "d54f2d4aa8ee764e1c94b18493103e53a6b135c3e44e67da1863bf8a7ee91eff"
+    },
+    {
+      "path": "src/ui/menuMeta.js",
+      "sha256": "42b36cb45f5a7fae97f501fbcda2c5a7ebde5e1039b872d2aa2fc969f9e8eb93"
+    },
+    {
+      "path": "src/ui/mobileChat.js",
+      "sha256": "7d681695554ae8638acea3da65c5cfa7ee731253afbef4d48aedc3d6879af075"
+    },
+    {
+      "path": "src/ui/patientHeader.js",
+      "sha256": "9e27aef4d868347120ab8814906fa2c5a698bb9ffa4fb3fb50c82793cea5ac42"
+    },
+    {
+      "path": "src/ui/phaseHud.js",
+      "sha256": "a48986ace20052dd1d390577ff950b0e1594c1415b3d02ea0df1f1a2a6ccea6b"
+    },
+    {
+      "path": "src/ui/phaseSelection.js",
+      "sha256": "916224e9b0c8562d38b19a1717b45163a2f5c663a87924423cfc233dd3806621"
+    },
+    {
+      "path": "src/ui/scoreHud.js",
+      "sha256": "d666ea08834d6a22b09af8452a9c62ee0353b576cdb9562efc8362dc9c15df81"
+    },
+    {
+      "path": "src/ui/shiftSummary.js",
+      "sha256": "9780028cf6e9e365707bbbf0b890d15ea1e8022016ecc3ab58f48cd09ce144b5"
+    },
+    {
+      "path": "src/ui/tlac.js",
+      "sha256": "2e7014aa750459556fb84940eb85a0320a51a3f1ff6ca32f694f6848c24f5e63"
+    },
+    {
+      "path": "src/ui/tlacResult.js",
+      "sha256": "59c65b18048cd7029d124b25192083901713c1ecc6a823edfaa73a5578ccae55"
+    },
+    {
+      "path": "src/ui/touchMovement.js",
+      "sha256": "b7031e733ece7137e25db891807d3ca5d651d963c4f931029ecdbdb9d99e2146"
+    }
+  ],
+  "assetManifest": [
+    {
+      "path": "public/models/candidates/marina_patient_v001.glb",
+      "sha256": "0d075417ed9f947a3fd942eba647441aee3f36b69e253e466753e621a23fd321"
+    },
+    {
+      "path": "public/models/candidates/atendente_balcon_voxel_walkidle_candidate_v024_fairing_preserve_normals.glb",
+      "sha256": "89bf0a92125f2e703ec442593d4b3430e3ae86d65a88e4b074701f2d0d214260"
+    },
+    {
+      "path": "public/models/candidates/atendente_gondola_voxel_walkidle_candidate_v004_fitted_reweighted.glb",
+      "sha256": "166e3ac772f0b37108ed00a5271f001e4cf2a26ad0fbebe2185e20c596111f03"
+    },
+    {
+      "path": "public/models/candidates/prop_balcao_v001.glb",
+      "sha256": "0a86bb042559bc16a47c3e9e49e98d33a0ce10ca57aad3205c970c3ade1d1cab"
+    },
+    {
+      "path": "public/models/candidates/prop_cpu_v002.glb",
+      "sha256": "5672b6e2086d5909eef61fa649c355f90b22efd3e595f04c7dce15f21d61e5cf"
+    },
+    {
+      "path": "public/models/candidates/prop_gondola_v002.glb",
+      "sha256": "e90df4d5045fd984c4713bd867e1e921ce0ea244dbd3abe2af5f3c3985c44218"
+    },
+    {
+      "path": "public/models/candidates/prop_mesa_v002.glb",
+      "sha256": "0d77ef6b92d6f0ff880baa270de03258c28024da3566d981e953a34cfb3f737b"
+    },
+    {
+      "path": "public/models/candidates/prop_pc_v002.glb",
+      "sha256": "f78ad758c3281da546e7cd5ad9c7ca7ab68b568c618f41b15d86d5bc54abf48a"
+    },
+    {
+      "path": "public/models/candidates/prop_vitrine_v002.glb",
+      "sha256": "351a47e2a2dd9621ec236e5fd8ec35363e5d1b27ff63838f9e50c2a09b8bf77d"
+    }
+  ]
+}

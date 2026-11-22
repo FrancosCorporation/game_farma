@@ -1,7 +1,7 @@
 {
   "name": "farmacheck-web",
   "private": true,
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "FarmaCheck — O Desafio da Anamnese (simulador web 3D de farmácia com IA llama.cpp)",
   "type": "module",
   "scripts": {
@@ -73,7 +73,7 @@
     "qa:dynamics": "node scripts/qa_dynamics.mjs",
     "qa:phase-selection": "node scripts/qa_phase_selection.mjs",
     "qa:all": "node scripts/qa_all.mjs",
-    "verify": "npm run check && npm run test:logica && npm run test:pov-collisions && npm run test:fact-reveal-feedback && npm run test:reply-language && npm run test:patient-reply && npm run test:llm-availability && npm run test:preceptor-feedback && npm run test:mixamo-marker-review && npm run test:mixamo-page-target && npm run test:chat-coverage && npm run test:chat-messages && npm run test:chat-transcript && npm run test:clinical-review-packet && npm run test:docs-links && npm run test:wait-for-http && npm run test:deploy-contract && npm run test:health-probe && npm run test:backup-project && npm run test:hidden-fact-guard && npm run test:shift-summary && npm run test:combo-hud && npm run test:score-hud && npm run test:patient-header && npm run test:menu-meta && npm run test:phase-selection && npm run test:tlac-result && npm run test:teste-rapido-message && npm run test:decision-confirm && npm run test:decision-panel && npm run test:decision-options && npm run test:decision-flags && npm run test:game-keyboard && npm run test:game-binding-cleanup && npm run test:game-controls && npm run test:quality-settings && npm run test:game-menu && npm run test:debrief-details && npm run test:debrief-panel && npm run test:modal-focus-session && npm run test:storage && npm run test:case-service && npm run test:fact-gate-scoring && npm run test:cast-manifest && npm run test:cast-provenance-sync && npm run test:character-pipeline-contract && npm run test:cast-provenance && npm run test:avatar-lifecycle && npm run test:tts && npm run test:stt && npm run build",
+    "verify": "npm run check && npm run test:logica && npm run test:pov-collisions && npm run test:fact-reveal-feedback && npm run test:reply-language && npm run test:patient-reply && npm run test:llm-availability && npm run test:preceptor-feedback && npm run test:mixamo-marker-review && npm run test:mixamo-page-target && npm run test:chat-coverage && npm run test:chat-messages && npm run test:chat-transcript && npm run test:clinical-review-packet && npm run test:docs-links && npm run test:wait-for-http && npm run test:deploy-contract && npm run test:health-probe && npm run test:backup-project && npm run test:hidden-fact-guard && npm run test:shift-summary && npm run test:combo-hud && npm run test:score-hud && npm run test:patient-header && npm run test:menu-meta && npm run test:phase-selection && npm run test:tlac-result && npm run test:teste-rapido-message && npm run test:decision-confirm && npm run test:decision-panel && npm run test:decision-options && npm run test:decision-flags && npm run test:game-keyboard && npm run test:game-binding-cleanup && npm run test:game-controls && npm run test:quality-settings && npm run test:game-menu && npm run test:debrief-details && npm run test:debrief-panel && npm run test:modal-focus-session && npm run test:storage && npm run test:dsf-storage && npm run test:case-service && npm run test:fact-gate-scoring && npm run test:cast-manifest && npm run test:cast-provenance-sync && npm run test:character-pipeline-contract && npm run test:cast-provenance && npm run test:avatar-lifecycle && npm run test:tts && npm run test:stt && npm run build",
     "qa:mobile-layout": "node scripts/qa_mobile_layout.mjs",
     "qa:touch-controls": "node scripts/qa_touch_controls.mjs",
     "qa:pharmacy-props": "node scripts/qa_pharmacy_props.mjs",
@@ -93,6 +93,7 @@
     "qa:free-shift": "node scripts/qa_free_shift.mjs",
     "qa:free-shift:matrix": "npm run qa:free-shift && QA_LANG=en npm run qa:free-shift && QA_WIDTH=390 QA_HEIGHT=844 npm run qa:free-shift && QA_WIDTH=390 QA_HEIGHT=844 QA_LANG=en npm run qa:free-shift",
     "test:storage": "node scripts/test_storage.mjs",
+    "test:dsf-storage": "node scripts/test_dsf_storage.mjs",
     "test:cast-manifest": "node scripts/test_cast_manifest.mjs",
     "test:character-pipeline-contract": "python3 scripts/test_character_pipeline_contract.py",
     "test:build-public-assets": "node scripts/test_build_public_assets.mjs",

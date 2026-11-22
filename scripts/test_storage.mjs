@@ -65,12 +65,14 @@ assert.equal(JSON.parse(localStorage.getItem(key)).schemaVersion, PROGRESS_SCHEM
 const llmKey = 'farmacheck:llm';
 for (const raw of ['{broken', '42', '[]', '{"baseUrl":42,"model":[]}']) {
   localStorage.setItem(llmKey, raw);
-  assert.equal(loadLLMConfig().baseUrl, 'http://127.0.0.1:8081/v1', `invalid LLM config ${raw} falls back`);
+  assert.ok(loadLLMConfig().baseUrl.endsWith('/api/llm/primary'), `invalid LLM config ${raw} falls back`);
   assert.equal(hasLLMConfig(), false, `invalid LLM config ${raw} does not enable probing`);
 }
 assert.equal(saveLLMConfig({ baseUrl: 'https://llm.example/v1/', model: 'test-model' }), true);
 assert.deepEqual(loadLLMConfig(), { baseUrl: 'https://llm.example/v1', model: 'test-model' });
 assert.equal(hasLLMConfig(), true, 'valid endpoint opts in to probing');
+assert.equal(saveLLMConfig({ baseUrl: '/api/llm/primary', model: 'unsloth-qwen35-9b-q3' }), true);
+assert.deepEqual(loadLLMConfig(), { baseUrl: '/api/llm/primary', model: 'unsloth-qwen35-9b-q3' });
 assert.equal(saveLLMConfig({ baseUrl: 'javascript:alert(1)', model: 'x'.repeat(121) }), true);
 assert.equal(hasLLMConfig(), false, 'invalid endpoint is not persisted as an opt-in');
 
@@ -88,7 +90,7 @@ Object.defineProperty(globalThis, 'localStorage', {
 });
 const blocked = createProgressStore();
 assert.doesNotThrow(() => blocked.registerResult({ faseId: 'aprendiz', casoId: 'marina_amoxicilina', nota: 80, stars: 2 }));
-assert.equal(loadLLMConfig().baseUrl, 'http://127.0.0.1:8081/v1', 'blocked LLM storage falls back');
+assert.ok(loadLLMConfig().baseUrl.endsWith('/api/llm/primary'), 'blocked LLM storage falls back');
 assert.equal(hasLLMConfig(), false, 'blocked LLM storage does not opt in');
 assert.equal(saveLLMConfig({ baseUrl: 'https://llm.example/v1' }), false, 'blocked LLM writes are reported without throwing');
 Object.defineProperty(globalThis, 'localStorage', { configurable: true, writable: true, value: previousStorage });

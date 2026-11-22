@@ -14,7 +14,7 @@ import { loadCaseServiceConfig, saveCaseServiceConfig } from './core/caseService
 import { createProgressStore, PHASES } from './core/progression.js';
 import { TTS } from './audio/tts.js';
 import { SFX } from './audio/sfx.js';
-import { LLMClient, loadLLMConfig, saveLLMConfig, hasLLMConfig } from './ai/llm.js';
+import { LLMClient, loadLLMConfig, saveLLMConfig } from './ai/llm.js';
 import { initAtendimento } from './ui/atendimento.js';
 import { t, getLang } from './ui/i18n.js';
 import { CASE_INDEX, ACTIVE_CASES } from './data/cases.js';
@@ -182,13 +182,14 @@ export function startApp() {
   };
 
   // Config do servidor de IA (persistida em localStorage)
-  // Mostra só o que o usuário salvou de fato — preencher com defaults aqui
-  // faria o btn-iniciar regravar o endpoint padrão e re-ligar o probe.
+  // Mostra só a personalização salva; campos vazios usam o servidor do jogo.
   const savedRaw = (() => { try { return JSON.parse(localStorage.getItem('farmacheck:llm')) || {}; } catch { return {}; } })();
-  $('cfg-endpoint').value = savedRaw.baseUrl || '';
-  $('cfg-model').value = savedRaw.model || '';
-  $('cfg-endpoint').placeholder = 'http://127.0.0.1:8081/v1';
-  $('cfg-model').placeholder = 'Qwen3.5-9B-Q8_0';
+  const oldDefault = savedRaw.baseUrl === 'http://127.0.0.1:8081/v1'
+    && (!savedRaw.model || savedRaw.model === 'Qwen3.5-9B-Q8_0');
+  $('cfg-endpoint').value = oldDefault ? '' : (savedRaw.baseUrl || '');
+  $('cfg-model').value = oldDefault ? '' : (savedRaw.model || '');
+  $('cfg-endpoint').placeholder = '/api/llm/primary';
+  $('cfg-model').placeholder = 'auto';
   $('cfg-case-endpoint').value = loadCaseServiceConfig().baseUrl;
 
   const readCfg = () => ({
@@ -228,14 +229,11 @@ export function startApp() {
     saveLLMConfig(readCfg());
     saveCaseServiceConfig({ baseUrl: $('cfg-case-endpoint').value.trim() });
     game.llm = new LLMClient(loadLLMConfig());
-    // IA é opt-in: só sonda o endpoint se o usuário já salvou uma config.
-    // Sem isso todo boot buscava 127.0.0.1:8081 e sujava o console
-    // (ERR_CONNECTION_REFUSED) mesmo no modo determinístico.
-    const llmEnabled = hasLLMConfig();
-    game.llm.primaryEnabled = llmEnabled;
-    game.llm.fallbackEnabled = llmEnabled;
-    game.llm.ok = llmEnabled ? null : false;
-    if (llmEnabled) game.llm.probe();
+    // O servidor do jogo faz a ponte para o llama.cpp. Configurações salvas
+    // continuam podendo substituir endpoint/modelo quando necessário.
+    game.llm.primaryEnabled = true;
+    game.llm.fallbackEnabled = true;
+    game.llm.probe();
     $('menu').hidden = true;
     $('patient-load-error').hidden = true;
     if (failedAvatarCase && failedAvatarCase.phaseIdx === game.phaseIdx) {

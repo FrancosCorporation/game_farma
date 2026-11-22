@@ -29,7 +29,7 @@ calls.length = 0;
 effects.length = 0;
 applyFactRevealFeedback({ tag: 'febre', rotulo: 'Febre alta', valor: false, redFlag: true }, { addSystem, translate });
 assert.deepEqual(calls, []);
-assert.deepEqual(effects, [['<sys.investigado>Febre alta<sys.negado>']]);
+assert.deepEqual(effects, [['<sys.investigado>Febre alta']]);
 
 calls.length = 0;
 effects.length = 0;

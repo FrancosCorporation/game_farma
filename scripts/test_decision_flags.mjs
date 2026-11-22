@@ -19,7 +19,7 @@ const list = {
 };
 const facts = [
   { tag: 'alergia', rotulo: 'Alergia medicamentosa', valor: true, redFlag: true },
-  { tag: 'febre', rotulo: 'Febre alta', valor: false, redFlag: true },
+  { tag: 'febre', rotulo: 'Febre alta: negada', valor: false, redFlag: true },
   { tag: 'dor', rotulo: 'Dor leve', valor: true, redFlag: false },
   { tag: 'risco-nao-revelado', rotulo: 'Risco oculto', valor: true, redFlag: true },
 ];
@@ -36,8 +36,10 @@ assert.deepEqual(positive.children.map(({ tagName, type, value, textContent }) =
   { tagName: 'SPAN', type: '', value: '', textContent: 'Alergia medicamentosa' },
 ]);
 assert.deepEqual(denied.dataset, { tag: 'febre', negado: 'true' });
-assert.equal(denied.children[1].textContent, 'Febre alta [sys.negado]');
+assert.equal(denied.children[1].textContent, 'Febre alta');
 assert.equal(denied.children[0].value, 'febre');
+renderDecisionFlags(list, [{ tag: 'bleeding', rotulo: 'Bleeding: denied', valor: false, redFlag: true }], new Set(['bleeding']), () => '', makeElement);
+assert.equal(list.children[0].children[1].textContent, 'Bleeding', 'opção em inglês também não antecipa a resposta');
 
 const hostileLabel = '<img src=x onerror=alert(1)>';
 renderDecisionFlags(list, [{ tag: 'alerta', rotulo: hostileLabel, valor: true, redFlag: true }], new Set(['alerta']), () => '', makeElement);

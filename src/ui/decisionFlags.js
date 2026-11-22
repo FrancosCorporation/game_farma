@@ -1,5 +1,11 @@
 import { t } from './i18n.js';
 
+function neutralOptionLabel(fact) {
+  return fact.rotulo
+    .replace(/:\s*(?:negad[oa]s?|denied|ruled out)\s*$/i, '')
+    .replace(/\s*\((?:negad[oa]s?|denied|ruled out)\)\s*$/i, '');
+}
+
 /** Renderiza achados de risco já revelados, sem tomar posse do estado do atendimento. */
 export function renderDecisionFlags(list, facts, revealed, translate = t, createElement = (tag) => document.createElement(tag)) {
   if (!list) return;
@@ -19,7 +25,9 @@ export function renderDecisionFlags(list, facts, revealed, translate = t, create
     checkbox.value = fact.tag;
 
     const text = createElement('span');
-    text.textContent = fact.rotulo + (fact.valor ? '' : translate('sys.negado'));
+    // A opção pergunta pelo achado; a resposta conhecida fica só no estado do caso
+    // para ser avaliada quando o estudante confirmar a conduta.
+    text.textContent = neutralOptionLabel(fact);
     label.append(checkbox, text);
     list.appendChild(label);
   }

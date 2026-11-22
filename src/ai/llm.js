@@ -1,6 +1,8 @@
 const LS_KEY = 'farmacheck:llm';
-const DEFAULT_URL = 'http://127.0.0.1:8081/v1';
-const DEFAULT_MODEL = 'Qwen3.5-9B-Q8_0';
+const DEFAULT_URL = import.meta.env?.DEV
+  ? '/api/llm/primary'
+  : new URL(/* @vite-ignore */ '../api/llm/primary', import.meta.url).pathname;
+const DEFAULT_MODEL = 'auto';
 const DEFAULT_FALLBACK_URL = import.meta.env?.DEV
   ? '/api/llm/fallback'
   : new URL(/* @vite-ignore */ '../api/llm/fallback', import.meta.url).pathname;
@@ -12,6 +14,7 @@ function cleanText(value, maxLength) {
 function cleanBaseUrl(value) {
   const text = cleanText(value, 2048);
   if (!text) return '';
+  if (text === '/api/llm/primary') return text;
   try {
     const url = new URL(text);
     if (!['http:', 'https:'].includes(url.protocol) || url.username || url.password || url.search || url.hash) return '';
@@ -50,7 +53,7 @@ export function hasLLMConfig() {
   } catch { return false; }
 }
 
-// Cliente OpenAI-compatible com streaming (llama.cpp / llama-server na 8081).
+// Cliente OpenAI-compatible com streaming (llama.cpp via servidor do jogo).
 export class LLMClient {
   constructor(cfg = {}) {
     this.baseUrl = cfg.baseUrl || DEFAULT_URL;
@@ -78,7 +81,8 @@ export class LLMClient {
     this.probeInFlight = (async () => {
       try {
         const r = await fetch(`${this.baseUrl}/models`, { signal: AbortSignal.timeout(4000) });
-        this.ok = r.ok;
+        const probe = r.ok ? await r.json().catch(() => ({})) : {};
+        this.ok = r.ok && probe.available !== false;
       } catch { this.ok = false; }
       this.retryAt = this.ok ? 0 : Date.now() + this.retryMs;
       return this.ok;

@@ -63,7 +63,7 @@ assert.deepEqual([
 ], 'plan summary matches the catalog rows');
 
 const resumeCounts = summary.match(
-  /O catálogo ativo em `plan\.md` contém (\d+) objetivos de game: P0=(\d+), P1=(\d+), P2=(\d+), P3=(\d+); (\d+) pendentes?, (\d+) parciais?, (\d+) bloqueios? externos? e (\d+) concluídos?\./,
+  /O catálogo ativo em `plan\.md` contém (\d+) objetivos de game: P0=(\d+), P1=(\d+), P2=(\d+), P3=(\d+); (\d+) pendentes?, (\d+) parcia(?:l|is), (\d+) bloqueios? externos? e (\d+) concluídos?\./,
 );
 assert.ok(resumeCounts, 'resumo has a parseable current catalog summary');
 assert.deepEqual([

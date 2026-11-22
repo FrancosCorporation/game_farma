@@ -81,6 +81,17 @@ const contextual = templateReply(caseDef, {
 assert.equal(contextual, knownFact.falaLeiga, 'pergunta repetida usa fato já revelado do domínio');
 
 const mariana = CASES.find((item) => item.id === 'carla_dengue');
+for (const [question, expected] of [
+  ['Você sente dor nas articulações?', /braços e pernas doem.*articulações/i],
+  ['Você já tomou vacina para dengue?', /não sei dizer se tomei a vacina/i],
+]) {
+  const reply = await generatePatientReply({
+    ...base, caseDef: mariana, newFacts: [],
+    history: [{ role: 'user', content: question }], language: 'pt',
+    llm: { async chat() { throw new Error('resposta específica deve vir do caso'); } },
+  });
+  assert.match(reply, expected);
+}
 const marianaKnowledge = new KnowledgeState(mariana);
 const firstPrompt = buildActorSystemPrompt(mariana, marianaKnowledge, [], []);
 assert.doesNotMatch(firstPrompt, /3[,.]6 L|dipirona|hemograma|NS1|marmita/i,

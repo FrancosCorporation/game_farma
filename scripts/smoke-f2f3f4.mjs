@@ -84,6 +84,10 @@ try {
   const caseError = await page.evaluate(() => window.__smokeCaseError);
   if (caseError) throw new Error(`falha ao trocar fixture para Carla: ${caseError}`);
   ok(true, 'caso Carla (dengue) carregado');
+  await page.fill('#chat-input', 'Teve vômitos persistentes?');
+  await page.locator('#chat-form').evaluate((form) => form.requestSubmit());
+  await page.waitForFunction(() => window.__farmacheck.game.knowledge.revealed.has('vomitos_persistentes_neg')
+    && !window.__farmacheck.game.busy, null, { timeout: 30000 });
 
   // F2 — botão "Consultar Computador" → zona computador + bulário
   await page.click('#btn-hud-pc');
@@ -98,6 +102,9 @@ try {
   ok(zona === 'paciente', 'Escape volta à zona do paciente');
 
   // F3 — TLAC completo (4 passos + temporizador ~5s)
+  if (process.env.SMOKE_RESULT_OVERRIDE) {
+    await page.evaluate((result) => { window.__farmacheck.game.case.testeRapido.resultado = result; }, process.env.SMOKE_RESULT_OVERRIDE);
+  }
   await page.click('#btn-hud-tlac');
   await page.waitForSelector('#tlac:not([hidden])');
   zona = await page.evaluate(() => window.__farmacheck.pov.zonaAtual());
@@ -105,16 +112,20 @@ try {
   for (let i = 0; i < 4; i++) await page.click('#tlac-passos button[data-passo]');
   await page.waitForSelector('#tlac-resultado:not([hidden])', { timeout: 10000 });
   const res = await page.textContent('#tlac-resultado');
-  ok(/(?:positivo|positive)/i.test(res), `resultado do TLAC exibido: ${res.trim().split('\n')[0].slice(0, 50)}`);
-  const positiveResultRecorded = await page.evaluate(() => {
+  const expectedResult = await page.evaluate(() => window.__farmacheck.game.case.testeRapido.resultado);
+  ok(expectedResult == null
+    ? /teste rápido realizado|rapid test performed/i.test(res) && !/positivo|negativo|inconclusivo/i.test(res)
+    : res.toLowerCase().includes(String(expectedResult).toLowerCase()),
+    `estado do teste exibido após execução: ${res.trim().split('\n')[0].slice(0, 50)}`);
+  const testRecorded = await page.evaluate(() => {
     const test = window.__farmacheck.game.testeRapido;
-    return Boolean(test?.executado && /positiv/i.test(String(test.resultado)));
+    return Boolean(test?.executado && test.resultado === window.__farmacheck.game.case.testeRapido.resultado);
   });
-  ok(positiveResultRecorded, '+20: resultado registrado no atendimento');
+  ok(testRecorded, '+20: teste executado e registrado no atendimento');
   await page.keyboard.press('Escape');
   await page.waitForSelector('#tlac', { state: 'hidden' });
 
-  // F4 — DSF pré-preenchida, chip de encaminhamento destacado, preview imprimível
+  // F4 — DSF pré-preenchida, chip de encaminhamento destacado, salva no jogo
   await page.click('#btn-hud-dsf');
   await page.waitForSelector('#dsf:not([hidden])');
   ok((await page.inputValue('#dsf-paciente')).trim().length > 0, 'DSF: paciente pré-preenchido');
@@ -125,13 +136,29 @@ try {
   await page.click('#btn-dsf-emitir');
   await page.waitForSelector('#dsf-preview:not([hidden])');
   ok((await page.textContent('#dsf-doc-corpo')).trim().length > 0, 'DSF: preview do documento gerado');
-  await page.evaluate(() => { window.__prints = 0; window.print = () => { window.__prints++; }; });
-  await page.click('#btn-dsf-imprimir');
-  ok((await page.evaluate(() => window.__prints)) === 1, 'DSF: window.print acionado');
-  ok((await page.evaluate(() => Boolean(window.__farmacheck.game.dsf))), '+30: DSF registrada no atendimento');
+  await page.click('#btn-dsf-salvar');
+  ok(await page.evaluate(() => {
+    const entries = JSON.parse(localStorage.getItem('farmacheck:dsf:v1') || '[]');
+    return entries.length === 1 && entries[0].caseId === window.__farmacheck.game.case.id;
+  }), 'DSF: salva dentro do jogo');
+  ok((await page.evaluate(() => Boolean(window.__farmacheck.game.dsf))), 'DSF registrada no atendimento');
   await page.keyboard.press('Escape');
   zona = await page.evaluate(() => window.__farmacheck.pov.zonaAtual());
   ok(zona === 'paciente', 'fluxo encerra de volta ao paciente');
+  await page.click('#btn-decisao');
+  await page.waitForSelector('#decision:not([hidden])');
+  const warningOption = page.locator('#redflag-list label[data-tag="vomitos_persistentes_neg"]');
+  const warningLabel = await warningOption.textContent();
+  ok(!/negad|denied|ruled out/i.test(warningLabel), 'opção de sinal de alarme não antecipa a resposta');
+  await warningOption.locator('input').check(); // escolha deliberadamente incorreta para validar o feedback final
+  await page.click('#conduta-cards [data-conduta="encaminhar"]');
+  await page.click('#btn-confirmar');
+  await page.waitForSelector('#debrief:not([hidden])');
+  const dsfPoints = await page.locator('#debrief-breakdown .scorebar')
+    .filter({ hasText: /DSF|statement/i }).locator('span').last().textContent();
+  ok(dsfPoints?.trim() === '+10', `DSF emitida com decisão correta pontua parcialmente: ${dsfPoints}`);
+  ok(/vômitos persistentes: negados|persistent vomiting: denied/i.test(await page.textContent('#debrief-detalhes')),
+    'relatório final explica a marcação incorreta');
 } finally {
   await browser.close();
 }

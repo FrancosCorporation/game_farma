@@ -15,6 +15,8 @@ SKIP_SANDBOX_BUILD="${GAME_FARMA_SKIP_BUILD:-}"
 LLM_ENV_ARGS=()
 if [[ -n "${NVIDIA_API_KEY:-}" ]]; then LLM_ENV_ARGS+=(--env NVIDIA_API_KEY); fi
 if [[ -n "${NVIDIA_MODEL:-}" ]]; then LLM_ENV_ARGS+=(--env NVIDIA_MODEL); fi
+if [[ -n "${LLAMA_BASE_URL:-}" ]]; then LLM_ENV_ARGS+=(--env LLAMA_BASE_URL); fi
+if [[ -n "${LLAMA_MODEL:-}" ]]; then LLM_ENV_ARGS+=(--env LLAMA_MODEL); fi
 
 usage() {
   cat <<'USAGE'
@@ -191,7 +193,7 @@ rollback_to_previous() {
   docker rm --force "$CONTAINER_NAME" >/dev/null 2>&1 || true
   if ! docker run --detach --restart unless-stopped --name "$CONTAINER_NAME" \
       --network "$NETWORK_NAME" -e HOST=0.0.0.0 -e "PORT=$PORT_VALUE" \
-      -e NODE_ENV=production "$ROLLBACK_TAG"; then
+      -e NODE_ENV=production "${LLM_ENV_ARGS[@]}" "$ROLLBACK_TAG"; then
     echo "ERRO: não foi possível iniciar o rollback automático." >&2
     return 1
   fi
